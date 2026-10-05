@@ -1,23 +1,18 @@
-/* M2 · Mobile add-to-cart Colorbox.
-   Keep the modal at its final geometry from the first frame: the native Colorbox
-   resize animation feels slow/janky on phones. The content itself scrolls when needed.
-   !important is required because Colorbox animates inline width/height/position. */
+/* M2 · Add-to-cart Colorbox is taller than the mobile viewport and its
+   native opening animation grows the modal from a narrow strip on the right.
+   Keep a fixed mobile width from the first frame, preserve vertical positioning,
+   and let oversized content scroll inside the popup.
+   !important is required because Colorbox writes dimensions inline. */
 @media (max-width: 767px) {
   #colorbox {
     left: 8px !important;
     width: calc(100vw - 16px) !important;
-    height: auto !important;
   }
 
   #cboxWrapper,
   #cboxContent,
   #cboxLoadedContent {
     width: 100% !important;
-  }
-
-  #cboxWrapper,
-  #cboxContent {
-    height: auto !important;
   }
 
   #colorbox,
