@@ -18,11 +18,18 @@
   }
 }
 
-
 /* v0.5.1 · Category UI
-   Keep Apollo's layout/column widths; only refine spacing and card visuals. */
+   Apollo keeps ownership of the grid/column widths. We only create visual gutters
+   inside each native column, so the number of columns and wrapping stay untouched. */
 .type-category .subcategories {
-  row-gap: 18px !important;
+  row-gap: 14px !important;
+}
+
+.type-category .subcategories > li,
+.type-category .subcategories > div {
+  box-sizing: border-box !important;
+  padding-right: 7px !important;
+  padding-left: 7px !important;
 }
 
 .type-category .subcategories > li > a,
@@ -30,7 +37,7 @@
 .type-category .subcategories.with-image > li > a,
 .type-category .subcategories.with-image > div > a {
   background: #fff !important;
-  border: 1px solid #fff !important;
+  border: 1px solid var(--ts-color-table-border) !important;
   border-radius: 12px !important;
   box-shadow: 0 5px 18px rgba(66, 62, 62, 0.08) !important;
   text-align: center !important;
@@ -51,7 +58,7 @@
   .type-category .subcategories.with-image > li > a:hover,
   .type-category .subcategories.with-image > div > a:hover {
     background: #fff8f1 !important;
-    border-color: #d4884a !important;
+    border-color: var(--ts-color-accent) !important;
     box-shadow: 0 7px 20px rgba(201, 122, 43, 0.14) !important;
     transform: translateY(-2px) !important;
   }
@@ -63,8 +70,10 @@
 }
 
 @media (max-width: 767px) {
-  .type-category .subcategories {
-    row-gap: 14px !important;
+  .type-category .subcategories > li,
+  .type-category .subcategories > div {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
   }
 
   .type-category .subcategories > li > a,
