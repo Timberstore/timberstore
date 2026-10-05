@@ -49,4 +49,18 @@ export const SEL = {
   homepageMiddleBannerLink:
     'a[href*="kineticke"], a[href*="led-pas"], a[href*="lepid"], a[href*="krabic"]',
   homepageBenefits: '.position--benefitHomepage',
+
+  // Legacy timber-menu.js migration (Apollo markup).
+  navigationSubmenuItem: '#navigation .menu-level-2 > li',
+  navigationSubmenuTitleLink: '.menu-content-title[href]',
+  navigationSubmenuContentLink: '.menu-content a[href]',
+  categoryTree: '#categories',
+  breadcrumbLinks: '.breadcrumbs-wrapper a[href], .breadcrumbs a[href], .breadcrumb a[href]',
+  productTextDetailAreas:
+    '.p-detail-inner-header h1, .p-detail h1, .product-top h1, h1[itemprop="name"], .p-short-description, .description-inner, .basic-description, .p-detail-tabs',
+  productTextCards:
+    '.products-block .product, .products-block .p, .products .product, .products .p, .product[data-micro="product"], .p[data-micro="product"]',
+  categoryFilterBar: '#category-filter-hover',
+  categoryFilterItem: '.slider-wrapper, .filter-section:not(.filter-section-count)',
+  categoryFilterHeading: ':scope > h4',
 };
