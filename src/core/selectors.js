@@ -42,4 +42,27 @@ export const SEL = {
   categoryBestsellerProduct: '.products-top > .product',
   sidebarLeft: '.sidebar-left',
   globalTopProducts: '.box-topProducts:not(.ts-category-bestsellers-sidebar) .top-products-wrapper',
+
+  // Apollo homepage groups used by the migrated category banner/reordering block.
+  homepageGroupTitle: '.homepage-group-title',
+  homepageProducts: '.products',
+  homepageMiddleBannerLink:
+    'a[href*="kineticke"], a[href*="led-pas"], a[href*="lepid"], a[href*="krabic"]',
+  homepageBenefits: '.position--benefitHomepage',
+
+  // Legacy timber-menu.js migration (Apollo markup).
+  navigationSubmenuItem: '#navigation .menu-level-2 > li',
+  navigationSubmenuTitleLink: '.menu-content-title[href]',
+  navigationSubmenuContentLink: '.menu-content a[href]',
+  categoryTree: '#categories',
+  breadcrumbLinks: '.breadcrumbs-wrapper a[href], .breadcrumbs a[href], .breadcrumb a[href]',
+  productTextDetailAreas:
+    '.p-detail-inner-header h1, .p-detail h1, .product-top h1, h1[itemprop="name"], .p-short-description, .description-inner, .basic-description, .p-detail-tabs',
+  productTextCards:
+    '.products-block .product, .products-block .p, .products .product, .products .p, .product[data-micro="product"], .p[data-micro="product"]',
+  categoryFilterBar: '#category-filter-hover',
+  categoryFilterItem: '.slider-wrapper, .filter-section:not(.filter-section-count)',
+  categoryFilterHeading: ':scope > h4',
+  footerOnlinePayments: '.custom-footer__onlinePayments p',
+  legacyEmptyCartScript: 'script[src*="timber-empty-cart.js"]',
 };

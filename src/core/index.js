@@ -37,6 +37,12 @@ export function start(modules) {
   // The loader inserts our script dynamically, so it may run while <head> is
   // still being parsed (no <body> yet). Everything touching the DOM waits here.
   const boot = () => {
+    document.documentElement.classList.remove('timber-page-loading');
+    if (window.TimberLoader?.pageLoadingTimer) {
+      window.clearTimeout(window.TimberLoader.pageLoadingTimer);
+      window.TimberLoader.pageLoadingTimer = null;
+    }
+
     const page = getPageType();
     window.Timber.page = page;
     runModules(modules, page, document);

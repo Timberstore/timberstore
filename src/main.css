@@ -1,3 +1,6 @@
+@import './legacy/inline-head.css';
+@import './legacy/top-category-addon.css';
+@import './legacy/timber-custom-v175.css';
 @import './styles/tokens.css';
 @import './styles/core.css';
 
@@ -8,6 +11,7 @@
 @import './modules/qty-picker/qty-picker.css';
 @import './modules/cart-count/cart-count.css';
 @import './modules/category-bestsellers-sidebar/category-bestsellers-sidebar.css';
+@import './modules/homepage-categories/homepage-categories.css';
 
 /* Shoptet overrides (one file per component) */
 @import './styles/overrides/top-bar.css';
