@@ -1,0 +1,84 @@
+/* Compact empty-cart extras – Timber Store */
+.in-cart .timber-empty-extra {
+  max-width: 1100px;
+  margin: 26px auto 40px;
+}
+.in-cart .timber-empty-extra__title,
+.in-cart .timber-empty-extra__news h3 {
+  text-align: center;
+  color: #423e3e;
+  font-weight: 800;
+}
+.in-cart .timber-empty-extra__title { font-size: 24px; margin: 0 0 18px; }
+.in-cart .timber-empty-extra__news h3 { font-size: 22px; margin: 30px 0 16px; }
+.in-cart .timber-empty-extra__cats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: 10px;
+}
+.in-cart .timber-empty-extra__cats a {
+  padding: 13px 10px;
+  background: #FAF3EB;
+  border: 1px solid #E9E1D8;
+  border-radius: 12px;
+  text-align: center;
+  color: #423e3e;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+}
+.in-cart .timber-empty-extra__cats a:hover {
+  border-color: #D4884A;
+  color: #C97A2B;
+}
+.in-cart .timber-empty-extra__products {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: 14px;
+}
+.in-cart .timber-empty-extra__product {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #ece7e1;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #423e3e;
+  box-shadow: 0 4px 14px rgba(0,0,0,.04);
+}
+.in-cart .timber-empty-extra__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.in-cart .timber-empty-extra__img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.in-cart .timber-empty-extra__name {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.35;
+  min-height: 36px;
+}
+.in-cart .timber-empty-extra__price {
+  margin-top: 8px;
+  font-weight: 800;
+  font-size: 15px;
+}
+@media (max-width: 900px) {
+  .in-cart .timber-empty-extra__cats,
+  .in-cart .timber-empty-extra__products { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 600px) {
+  .in-cart .timber-empty-extra { margin: 20px auto 30px; }
+  .in-cart .timber-empty-extra__cats { gap: 8px; }
+  .in-cart .timber-empty-extra__cats a { font-size: 12px; padding: 11px 8px; }
+  .in-cart .timber-empty-extra__img { height: 115px; }
+}
