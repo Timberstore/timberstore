@@ -41,5 +41,5 @@ export const SEL = {
   categoryBestsellers: '.products-top-wrapper',
   categoryBestsellerProduct: '.products-top > .product',
   sidebarLeft: '.sidebar-left',
-  globalTopProducts: '.top-products-wrapper',
+  globalTopProducts: '.box-topProducts:not(.ts-category-bestsellers-sidebar) .top-products-wrapper',
 };
