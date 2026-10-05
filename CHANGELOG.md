@@ -4,6 +4,11 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Nevydáno
 
+## v0.5.2 · 2026-10-06 · Category UI
+- **Podkategórie / Apollo** · Doplnený rovnomerný horizontálny aj vertikálny odstup medzi kartami bez zmeny natívnych stĺpcov Apolla; karty sa už rámikmi nedotýkajú.
+- **Karty podkategórií** · Jemný stále viditeľný rámik, zachovaný hover, radius a tieň.
+- **Mobil** · Menší horizontálny gutter, aby sa nezúžili karty viac než je nutné.
+
 ## v0.5.1 · rozpracované
 - **Category UI** · H1 kategórie centrovaný s jemnými čiarami po stranách.
 - **Podkategórie** · väčší rozostup medzi riadkami, biele karty s radiusom a jemným tieňom; hover zvýraznenie na desktope bez zásahu do Apollo rozloženia.
