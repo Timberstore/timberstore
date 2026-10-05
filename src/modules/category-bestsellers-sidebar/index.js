@@ -29,13 +29,17 @@ function findSupportBox(sidebar) {
   return null;
 }
 
+function nativeTopProductsBox(sidebar) {
+  const wrapper = sidebar.querySelector(SEL.globalTopProducts);
+  return wrapper ? directSidebarChild(wrapper, sidebar) || wrapper : null;
+}
+
 function reorderNativeSidebar(sidebar) {
-  const topProducts = sidebar.querySelector(SEL.globalTopProducts);
+  const topProducts = nativeTopProductsBox(sidebar);
   const support = findSupportBox(sidebar);
   if (!topProducts || !support || topProducts === support) return;
 
-  const topProductsBlock = directSidebarChild(topProducts, sidebar) || topProducts;
-  if (support.nextElementSibling !== topProductsBlock) support.after(topProductsBlock);
+  if (support.nextElementSibling !== topProducts) support.after(topProducts);
 }
 
 function productData(product) {
@@ -58,58 +62,60 @@ function productData(product) {
   };
 }
 
+// Use Apollo/Shoptet's native Top 10 markup deliberately. This makes the new
+// category bestseller box inherit exactly the same border, spacing, numbering,
+// thumbnail and typography rules as the existing "Top 10 produktov" box.
 function buildBox(products) {
-  const box = document.createElement('section');
-  box.className = BOX_CLASS;
-  box.setAttribute('aria-label', TITLE);
+  const box = document.createElement('div');
+  box.className = `box box-bg-variant box-sm box-topProducts ${BOX_CLASS}`;
 
-  const heading = document.createElement('h3');
-  heading.className = `${BOX_CLASS}__title`;
-  heading.textContent = TITLE;
+  const wrapper = document.createElement('div');
+  wrapper.className = 'top-products-wrapper';
+
+  const heading = document.createElement('h4');
+  const headingText = document.createElement('span');
+  headingText.textContent = TITLE;
+  heading.append(headingText);
 
   const list = document.createElement('ol');
-  list.className = `${BOX_CLASS}__list`;
+  list.className = 'top-products';
 
   products.forEach((data) => {
     const item = document.createElement('li');
-    item.className = `${BOX_CLASS}__item`;
+    item.className = 'display-image';
 
-    const link = document.createElement('a');
-    link.className = `${BOX_CLASS}__link`;
-    link.href = data.href;
+    const imageLink = document.createElement('a');
+    imageLink.className = 'top-products-image';
+    imageLink.href = data.href;
+    imageLink.setAttribute('aria-hidden', 'true');
+    imageLink.tabIndex = -1;
 
-    const rank = document.createElement('span');
-    rank.className = `${BOX_CLASS}__rank`;
-    rank.setAttribute('aria-hidden', 'true');
-
-    const media = document.createElement('span');
-    media.className = `${BOX_CLASS}__media`;
     if (data.image) {
       const img = document.createElement('img');
       img.src = data.image;
       img.alt = data.alt;
       img.loading = 'lazy';
-      media.append(img);
+      imageLink.append(img);
     }
 
-    const body = document.createElement('span');
-    body.className = `${BOX_CLASS}__body`;
+    const contentLink = document.createElement('a');
+    contentLink.className = 'top-products-content';
+    contentLink.href = data.href;
 
     const name = document.createElement('span');
-    name.className = `${BOX_CLASS}__name`;
+    name.className = 'top-products-name';
     name.textContent = data.name;
 
-    const price = document.createElement('span');
-    price.className = `${BOX_CLASS}__price`;
+    const price = document.createElement('strong');
     price.textContent = data.price;
 
-    body.append(name, price);
-    link.append(rank, media, body);
-    item.append(link);
+    contentLink.append(name, price);
+    item.append(imageLink, contentLink);
     list.append(item);
   });
 
-  box.append(heading, list);
+  wrapper.append(heading, list);
+  box.append(wrapper);
   return box;
 }
 
@@ -119,14 +125,18 @@ function render(root) {
 
   reorderNativeSidebar(sidebar);
 
-  const source = root.querySelector(SEL.categoryBestsellers) || document.querySelector(SEL.categoryBestsellers);
+  const source =
+    root.querySelector?.(SEL.categoryBestsellers) ||
+    document.querySelector(SEL.categoryBestsellers);
+
   if (!source) {
     sidebar.querySelector(`.${BOX_CLASS}`)?.remove();
     return;
   }
 
-  // Apollo owns this block and its expand/collapse logic. Keep it in the DOM,
-  // but remove it from the main column. We render a small read-only sidebar view.
+  // Apollo owns this native block and its expand/collapse logic. Keep the
+  // original node in the DOM and only hide it visually; the sidebar gets a
+  // read-only representation, so we do not interfere with Shoptet handlers.
   source.classList.add('ts-category-bestsellers-source');
 
   const data = [...source.querySelectorAll(SEL.categoryBestsellerProduct)]
@@ -138,15 +148,14 @@ function render(root) {
   if (!data.length) return;
 
   const box = buildBox(data);
-  const topProducts = sidebar.querySelector(SEL.globalTopProducts);
-  const topProductsBlock = topProducts ? directSidebarChild(topProducts, sidebar) || topProducts : null;
+  const support = findSupportBox(sidebar);
+  const topProducts = nativeTopProductsBox(sidebar);
 
-  if (topProductsBlock) topProductsBlock.before(box);
-  else {
-    const support = findSupportBox(sidebar);
-    if (support) support.before(box);
-    else sidebar.append(box);
-  }
+  // Requested order:
+  // category bestsellers -> "Sme tu pre vás" -> global "Top 10 produktov".
+  if (support) support.before(box);
+  else if (topProducts) topProducts.before(box);
+  else sidebar.append(box);
 }
 
 export default {
