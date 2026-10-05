@@ -1,4 +1,4 @@
-(function () {
+export function initLegacyEmptyCart() {
 
     function isEmptyCart() {
         var text = (document.body.innerText || "").toLowerCase();
