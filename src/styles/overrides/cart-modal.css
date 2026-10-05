@@ -1,0 +1,45 @@
+/* M2 · Add-to-cart Colorbox is taller than the mobile viewport and its
+   native opening animation grows the modal from a narrow strip on the right.
+   Keep a fixed mobile width from the first frame, preserve vertical positioning,
+   and let oversized content scroll inside the popup.
+   !important is required because Colorbox writes dimensions inline. */
+@media (max-width: 767px) {
+  #colorbox {
+    left: 8px !important;
+    width: calc(100vw - 16px) !important;
+  }
+
+  #cboxWrapper,
+  #cboxContent,
+  #cboxLoadedContent {
+    width: 100% !important;
+  }
+
+  #colorbox,
+  #cboxWrapper,
+  #cboxContent {
+    max-height: calc(100vh - 16px) !important;
+  }
+
+  #cboxLoadedContent {
+    box-sizing: border-box;
+    height: auto !important;
+    max-height: calc(100vh - 32px) !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  @supports (height: 100dvh) {
+    #colorbox,
+    #cboxWrapper,
+    #cboxContent {
+      max-height: calc(100dvh - 16px) !important;
+    }
+
+    #cboxLoadedContent {
+      max-height: calc(100dvh - 32px) !important;
+    }
+  }
+}
