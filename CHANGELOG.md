@@ -4,6 +4,10 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Nevydáno
 
+## v0.5.2 · rozpracované
+- **Podkategórie** · karta má po novom reálne viditeľný jemný rámik `#E9E1D8` namiesto bieleho rámika na bielom pozadí; hover ostáva oranžový.
+- Ostatné už hotové časti pôvodného zadania (H1 s čiarami, sidebar bestsellerov, skrytie na mobile/tablete, poradie sidebaru) sa nemenia.
+
 ## v0.5.1 · rozpracované
 - **Category UI** · H1 kategórie centrovaný s jemnými čiarami po stranách.
 - **Podkategórie** · väčší rozostup medzi riadkami, biele karty s radiusom a jemným tieňom; hover zvýraznenie na desktope bez zásahu do Apollo rozloženia.
