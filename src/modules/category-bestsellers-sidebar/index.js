@@ -14,10 +14,15 @@ function normalize(value) {
 function sidebarRoot() {
   const sidebar = document.querySelector(SEL.sidebarLeft);
   if (!sidebar) return null;
-  // Shoptet 3G uses .sidebar-inner as the stable container for sidebar page elements.
-  // Never treat .sidebar-left itself as the element list; that caused whole groups
-  // of widgets to be cloned/moved together.
   return sidebar.querySelector('.sidebar-inner') || sidebar;
+}
+
+function directChildOf(node, root) {
+  let current = node;
+  while (current && current.parentElement && current.parentElement !== root) {
+    current = current.parentElement;
+  }
+  return current?.parentElement === root ? current : null;
 }
 
 function findCategoryBox(root) {
@@ -31,12 +36,14 @@ function findSupportBox(root) {
   return null;
 }
 
-function findGlobalTop10Box(root) {
+function findGlobalTop10(root) {
   const wrapper = root.querySelector(SEL.globalTopProducts);
   if (!wrapper) return null;
-  // TOP 10 is a Shoptet page element. Clone only its own .box container,
-  // never a parent that also contains Categories / support banner.
-  return wrapper.closest('.box') || wrapper.parentElement;
+
+  const box = wrapper.closest('.box') || wrapper.parentElement;
+  const container = directChildOf(wrapper, root) || directChildOf(box, root) || box;
+
+  return { wrapper, box, container };
 }
 
 function productData(product) {
@@ -62,8 +69,6 @@ function productData(product) {
 function buildFromTop10(top10Box, products) {
   if (!top10Box) return null;
 
-  // Clone the native TOP 10 widget itself. This guarantees identical Apollo
-  // border, radius, padding, background, typography and responsive behaviour.
   const box = top10Box.cloneNode(true);
   box.classList.add(BOX_CLASS);
   box.removeAttribute('id');
@@ -121,26 +126,40 @@ function buildFromTop10(top10Box, products) {
   return box;
 }
 
-function reorder(root, bestsellerBox, supportBox, top10Box, categoryBox) {
-  if (!categoryBox) return;
-
-  // Work only with the four actual sibling widgets inside .sidebar-inner.
-  // Final requested order:
-  // Categories -> category bestsellers -> support -> global TOP 10.
+function reorder(bestsellerBox, supportBox, top10Container, categoryBox) {
   categoryBox.after(bestsellerBox);
 
-  if (supportBox) bestsellerBox.after(supportBox);
-  if (top10Box) {
-    if (supportBox) supportBox.after(top10Box);
-    else bestsellerBox.after(top10Box);
+  if (supportBox) {
+    bestsellerBox.after(supportBox);
+    if (top10Container) supportBox.after(top10Container);
+  } else if (top10Container) {
+    bestsellerBox.after(top10Container);
   }
+}
+
+function cleanupEmptySidebarShells(root) {
+  // Some Apollo widgets are wrapped in an extra sidebar child. Moving only the
+  // inner box can leave a visible empty rounded shell. Remove only truly empty
+  // direct children; never remove widgets with text, links, images, forms, etc.
+  [...root.children].forEach((child) => {
+    if (
+      child.matches('.box-categories, .ts-category-bestsellers-sidebar') ||
+      child.querySelector(SEL.globalTopProducts) ||
+      normalize(child.textContent).includes('sme tu pre vas')
+    ) {
+      return;
+    }
+
+    const hasContent = child.querySelector('a, img, button, form, input, textarea, select, iframe, svg');
+    if (!normalize(child.textContent) && !hasContent) child.remove();
+  });
 }
 
 function render(root) {
   const sideRoot = sidebarRoot();
   if (!sideRoot) return;
 
-  sideRoot.querySelector(`:scope > .${BOX_CLASS}`)?.remove();
+  sideRoot.querySelectorAll(`.${BOX_CLASS}`).forEach((el) => el.remove());
 
   const source =
     root.querySelector?.(SEL.categoryBestsellers) ||
@@ -158,13 +177,14 @@ function render(root) {
 
   const categoryBox = findCategoryBox(sideRoot);
   const supportBox = findSupportBox(sideRoot);
-  const top10Box = findGlobalTop10Box(sideRoot);
-  if (!categoryBox || !top10Box) return;
+  const top10 = findGlobalTop10(sideRoot);
+  if (!categoryBox || !top10?.box || !top10?.container) return;
 
-  const bestsellerBox = buildFromTop10(top10Box, products);
+  const bestsellerBox = buildFromTop10(top10.box, products);
   if (!bestsellerBox) return;
 
-  reorder(sideRoot, bestsellerBox, supportBox, top10Box, categoryBox);
+  reorder(bestsellerBox, supportBox, top10.container, categoryBox);
+  cleanupEmptySidebarShells(sideRoot);
 }
 
 export default {
