@@ -49,7 +49,9 @@ function buildCategorySection() {
 }
 
 function ensureCategories(root) {
-  if (document.querySelector('.ts-home-categories')) return;
+  // During staged migration the legacy Shoptet banner still runs. Never render a
+  // second category block while that legacy block is present.
+  if (document.querySelector('.ts-home-categories, .timber-categories-banner')) return;
 
   const firstTitle = root.querySelector(SEL.homepageGroupTitle);
   if (!firstTitle?.parentNode) return;
