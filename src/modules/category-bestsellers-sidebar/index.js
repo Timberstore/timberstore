@@ -30,7 +30,10 @@ function findBoxByHeading(sidebar, needle) {
 }
 
 function findCategoryBox(sidebar) {
+  // Apollo's native category navigation box. Use its structural class first;
+  // heading text is only a fallback for unexpected markup variants.
   return (
+    sidebar.querySelector('.box-categories') ||
     findBoxByHeading(sidebar, 'Kategórie') ||
     findBoxByHeading(sidebar, 'Kategorie')
   );
@@ -120,16 +123,26 @@ function buildBox(products) {
   return box;
 }
 
+function copyTop10Frame(categoryBestsellers, globalTopBox) {
+  if (!globalTopBox) return;
+  const style = getComputedStyle(globalTopBox);
+  categoryBestsellers.style.border = style.border;
+  categoryBestsellers.style.borderRadius = style.borderRadius;
+  categoryBestsellers.style.background = style.background;
+  categoryBestsellers.style.boxShadow = style.boxShadow;
+}
+
 function placeSidebarBoxes(sidebar, categoryBestsellers) {
   const categoryBox = findCategoryBox(sidebar);
   const supportBox = findSupportBox(sidebar);
   const globalTopBox = nativeTopProductsBox(sidebar);
 
-  if (categoryBox) {
-    categoryBox.after(categoryBestsellers);
-  } else {
-    sidebar.prepend(categoryBestsellers);
-  }
+  copyTop10Frame(categoryBestsellers, globalTopBox);
+
+  // Requested fixed order:
+  // Kategórie -> Najpredávanejšie v kategórii -> Sme tu pre vás -> TOP 10.
+  if (categoryBox) categoryBox.after(categoryBestsellers);
+  else sidebar.prepend(categoryBestsellers);
 
   if (supportBox) categoryBestsellers.after(supportBox);
   if (globalTopBox && supportBox) supportBox.after(globalTopBox);
