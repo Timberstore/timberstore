@@ -4,6 +4,10 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Nevydáno
 
+## v0.5.3 · 2026-10-06 · Category heading
+- **Nadpis kategórie** · Bočné deliace čiary sa rozťahujú na celú dostupnú šírku hlavného obsahu; názov zostáva presne vycentrovaný.
+- **Apollo** · Bez zmeny DOM a bez zásahu do šírky obsahového stĺpca.
+
 ## v0.5.2 · 2026-10-06 · Category UI
 - **Podkategórie / Apollo** · Doplnený rovnomerný horizontálny aj vertikálny odstup medzi kartami bez zmeny natívnych stĺpcov Apolla; karty sa už rámikmi nedotýkajú.
 - **Karty podkategórií** · Jemný stále viditeľný rámik, zachovaný hover, radius a tieň.

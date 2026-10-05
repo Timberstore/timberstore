@@ -95,8 +95,7 @@
 .type-category h1::before,
 .type-category h1::after {
   content: '';
-  flex: 1 1 80px;
-  max-width: 150px;
+  flex: 1 1 0;
   height: 1px;
   background: #e9e1d8;
 }
@@ -106,8 +105,4 @@
     gap: 10px;
   }
 
-  .type-category h1::before,
-  .type-category h1::after {
-    max-width: 48px;
-  }
 }
