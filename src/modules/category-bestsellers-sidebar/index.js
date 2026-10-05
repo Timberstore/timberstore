@@ -40,10 +40,12 @@ function findCategoryBox(sidebar) {
 }
 
 function findSupportBox(sidebar) {
-  // The support banner is not guaranteed to use a heading element in Apollo,
-  // so inspect direct sidebar children by their visible text.
-  for (const child of sidebar.children) {
-    if (normalize(child.textContent).includes('sme tu pre vas')) return child;
+  // Apollo may wrap this banner several levels deep. Find the visible text
+  // anywhere inside the sidebar, then climb to the sidebar's direct child.
+  for (const node of sidebar.querySelectorAll('*')) {
+    if (!normalize(node.textContent).includes('sme tu pre vas')) continue;
+    const box = directSidebarChild(node, sidebar);
+    if (box) return box;
   }
   return null;
 }
@@ -73,85 +75,83 @@ function productData(product) {
   };
 }
 
-function buildBox(products) {
-  const box = document.createElement('section');
-  box.className = BOX_CLASS;
+function buildBox(products, globalTopBox) {
+  // Clone the existing TOP 10 box itself so border, radius, padding, background,
+  // shadow and internal Apollo spacing are literally identical.
+  const box = globalTopBox ? globalTopBox.cloneNode(true) : document.createElement('section');
+  box.classList.add(BOX_CLASS);
+  box.removeAttribute('id');
   box.setAttribute('aria-label', TITLE);
 
-  const heading = document.createElement('h3');
-  heading.className = `${BOX_CLASS}__title`;
+  // Remove any duplicated ids from the clone.
+  box.querySelectorAll('[id]').forEach((el) => el.removeAttribute('id'));
+
+  const wrapper = box.querySelector('.top-products-wrapper') || box;
+  const oldHeading = wrapper.querySelector('h1, h2, h3, h4, h5');
+  const oldList = wrapper.querySelector('ol, ul');
+
+  const heading = oldHeading || document.createElement('h4');
   heading.textContent = TITLE;
 
   const list = document.createElement('ol');
-  list.className = `${BOX_CLASS}__list`;
+  list.className = 'top-products';
 
   products.forEach((data) => {
     const item = document.createElement('li');
-    item.className = `${BOX_CLASS}__item`;
+    item.className = 'display-image';
 
-    const link = document.createElement('a');
-    link.className = `${BOX_CLASS}__link`;
-    link.href = data.href;
+    const imageLink = document.createElement('a');
+    imageLink.className = 'top-products-image';
+    imageLink.href = data.href;
+    imageLink.setAttribute('aria-hidden', 'true');
+    imageLink.tabIndex = -1;
 
-    const rank = document.createElement('span');
-    rank.className = `${BOX_CLASS}__rank`;
-    rank.setAttribute('aria-hidden', 'true');
-
-    const media = document.createElement('span');
-    media.className = `${BOX_CLASS}__media`;
     if (data.image) {
       const img = document.createElement('img');
       img.src = data.image;
       img.alt = data.alt;
       img.loading = 'lazy';
-      media.append(img);
+      imageLink.append(img);
     }
 
-    const body = document.createElement('span');
-    body.className = `${BOX_CLASS}__body`;
+    const contentLink = document.createElement('a');
+    contentLink.className = 'top-products-content';
+    contentLink.href = data.href;
 
     const name = document.createElement('span');
-    name.className = `${BOX_CLASS}__name`;
+    name.className = 'top-products-name';
     name.textContent = data.name;
 
     const price = document.createElement('strong');
-    price.className = `${BOX_CLASS}__price`;
     price.textContent = data.price;
 
-    body.append(name, price);
-    link.append(rank, media, body);
-    item.append(link);
+    contentLink.append(name, price);
+    item.append(imageLink, contentLink);
     list.append(item);
   });
 
-  box.append(heading, list);
+  if (!oldHeading) wrapper.prepend(heading);
+  if (oldList) oldList.replaceWith(list);
+  else wrapper.append(list);
+
   return box;
 }
 
-function copyTop10Frame(categoryBestsellers, globalTopBox) {
-  if (!globalTopBox) return;
-
-  // Reuse Apollo's actual outer box classes instead of approximating them.
-  // This gives us the same border, radius, background and shadow as TOP 10
-  // even if the template changes those values later.
-  for (const cls of globalTopBox.classList) categoryBestsellers.classList.add(cls);
-}
-
-function placeSidebarBoxes(sidebar, categoryBestsellers) {
+function placeSidebarBoxes(sidebar, categoryBestsellers, globalTopBox) {
   const categoryBox = findCategoryBox(sidebar);
   const supportBox = findSupportBox(sidebar);
-  const globalTopBox = nativeTopProductsBox(sidebar);
-
-  copyTop10Frame(categoryBestsellers, globalTopBox);
 
   // Requested fixed order:
   // Kategórie -> Najpredávanejšie v kategórii -> Sme tu pre vás -> TOP 10.
   if (categoryBox) categoryBox.after(categoryBestsellers);
   else sidebar.prepend(categoryBestsellers);
 
-  if (supportBox) categoryBestsellers.after(supportBox);
-  if (globalTopBox && supportBox) supportBox.after(globalTopBox);
-  else if (globalTopBox) categoryBestsellers.after(globalTopBox);
+  if (supportBox) {
+    categoryBestsellers.after(supportBox);
+    if (globalTopBox) supportBox.after(globalTopBox);
+  } else if (globalTopBox) {
+    categoryBestsellers.after(globalTopBox);
+  }
 }
 
 function render(root) {
@@ -177,7 +177,8 @@ function render(root) {
 
   if (!data.length) return;
 
-  placeSidebarBoxes(sidebar, buildBox(data));
+  const globalTopBox = nativeTopProductsBox(sidebar);
+  placeSidebarBoxes(sidebar, buildBox(data, globalTopBox), globalTopBox);
 }
 
 export default {
