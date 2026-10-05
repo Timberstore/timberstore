@@ -1,27 +1,27 @@
-// M2 · The mobile add-to-cart Colorbox resizes with jQuery's default elastic
-// animation, which feels slow and janky on phones. Disable jQuery animations only
-// for the short add-to-cart popup opening window, then restore the previous state.
+// M2 · The mobile add-to-cart Colorbox resize animation is visually fine,
+// but its default speed feels slow on phones. Temporarily shorten Colorbox's
+// default resize speed only while the add-to-cart popup is opening, then restore it.
 //
-// We hook the cart form submit rather than changing Colorbox globally, so product
-// galleries and unrelated modals keep their native transitions.
+// We hook the cart form submit rather than changing Colorbox permanently, so product
+// galleries and unrelated modals keep their native speed.
 
 import { SEL } from '../../core/selectors.js';
 
 const MOBILE = '(max-width: 767px)';
-const FALLBACK_RESTORE_MS = 1200;
+const CART_MODAL_SPEED_MS = 120;
+const FALLBACK_RESTORE_MS = 5000;
 
-let restoreActiveAnimation = null;
+let restoreActiveSpeed = null;
 
-function disableAnimationForCartPopup() {
+function speedUpCartPopup() {
   if (!window.matchMedia?.(MOBILE).matches) return;
 
   const $ = window.jQuery;
-  if (!$?.fx) return;
+  if (!$?.colorbox?.settings) return;
 
-  // A repeated submit should never leave a previous temporary override behind.
-  restoreActiveAnimation?.();
+  restoreActiveSpeed?.();
 
-  const previousFxOff = $.fx.off;
+  const previousSpeed = $.colorbox.settings.speed;
   let restored = false;
   let timer = null;
 
@@ -30,15 +30,15 @@ function disableAnimationForCartPopup() {
     restored = true;
     if (timer) window.clearTimeout(timer);
     $(document).off('.tsCartModalSpeed');
-    $.fx.off = previousFxOff;
-    if (restoreActiveAnimation === restore) restoreActiveAnimation = null;
+    $.colorbox.settings.speed = previousSpeed;
+    if (restoreActiveSpeed === restore) restoreActiveSpeed = null;
   };
 
-  restoreActiveAnimation = restore;
-  $.fx.off = true;
+  restoreActiveSpeed = restore;
+  $.colorbox.settings.speed = CART_MODAL_SPEED_MS;
 
-  // Colorbox fires these after opening/closing. The timeout is a safety net for
-  // failed requests or future template changes where no modal opens.
+  // Keep the faster speed active across the add-to-cart AJAX request and restore
+  // it only after Colorbox has finished opening. Timeout is a safety net.
   $(document).one('cbox_complete.tsCartModalSpeed cbox_closed.tsCartModalSpeed', restore);
   timer = window.setTimeout(restore, FALLBACK_RESTORE_MS);
 }
@@ -54,7 +54,7 @@ export default {
       'submit',
       (event) => {
         if (event.target instanceof HTMLFormElement && event.target.matches(SEL.cartForm)) {
-          disableAnimationForCartPopup();
+          speedUpCartPopup();
         }
       },
       true,
