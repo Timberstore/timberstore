@@ -11,48 +11,32 @@ function normalize(value) {
     .toLowerCase();
 }
 
-function directSidebarChild(node, sidebar) {
-  let current = node;
-  while (current && current.parentElement && current.parentElement !== sidebar) {
-    current = current.parentElement;
-  }
-  return current?.parentElement === sidebar ? current : null;
+function sidebarRoot() {
+  const sidebar = document.querySelector(SEL.sidebarLeft);
+  if (!sidebar) return null;
+  // Shoptet 3G uses .sidebar-inner as the stable container for sidebar page elements.
+  // Never treat .sidebar-left itself as the element list; that caused whole groups
+  // of widgets to be cloned/moved together.
+  return sidebar.querySelector('.sidebar-inner') || sidebar;
 }
 
-function findBoxByHeading(sidebar, needle) {
-  const target = normalize(needle);
-  for (const heading of sidebar.querySelectorAll('h1, h2, h3, h4, h5, strong')) {
-    if (normalize(heading.textContent).includes(target)) {
-      return directSidebarChild(heading, sidebar);
-    }
-  }
-  return null;
+function findCategoryBox(root) {
+  return root.querySelector(':scope > .box-categories, :scope > .box.box-categories');
 }
 
-function findCategoryBox(sidebar) {
-  // Apollo's native category navigation box. Use its structural class first;
-  // heading text is only a fallback for unexpected markup variants.
-  return (
-    sidebar.querySelector('.box-categories') ||
-    findBoxByHeading(sidebar, 'Kategórie') ||
-    findBoxByHeading(sidebar, 'Kategorie')
-  );
-}
-
-function findSupportBox(sidebar) {
-  // Apollo may wrap this banner several levels deep. Find the visible text
-  // anywhere inside the sidebar, then climb to the sidebar's direct child.
-  for (const node of sidebar.querySelectorAll('*')) {
-    if (!normalize(node.textContent).includes('sme tu pre vas')) continue;
-    const box = directSidebarChild(node, sidebar);
-    if (box) return box;
+function findSupportBox(root) {
+  for (const child of root.children) {
+    if (normalize(child.textContent).includes('sme tu pre vas')) return child;
   }
   return null;
 }
 
-function nativeTopProductsBox(sidebar) {
-  const wrapper = sidebar.querySelector(SEL.globalTopProducts);
-  return wrapper ? directSidebarChild(wrapper, sidebar) || wrapper : null;
+function findGlobalTop10Box(root) {
+  const wrapper = root.querySelector(SEL.globalTopProducts);
+  if (!wrapper) return null;
+  // TOP 10 is a Shoptet page element. Clone only its own .box container,
+  // never a parent that also contains Categories / support banner.
+  return wrapper.closest('.box') || wrapper.parentElement;
 }
 
 function productData(product) {
@@ -75,26 +59,27 @@ function productData(product) {
   };
 }
 
-function buildBox(products, globalTopBox) {
-  // Clone the existing TOP 10 box itself so border, radius, padding, background,
-  // shadow and internal Apollo spacing are literally identical.
-  const box = globalTopBox ? globalTopBox.cloneNode(true) : document.createElement('section');
+function buildFromTop10(top10Box, products) {
+  if (!top10Box) return null;
+
+  // Clone the native TOP 10 widget itself. This guarantees identical Apollo
+  // border, radius, padding, background, typography and responsive behaviour.
+  const box = top10Box.cloneNode(true);
   box.classList.add(BOX_CLASS);
   box.removeAttribute('id');
-  box.setAttribute('aria-label', TITLE);
-
-  // Remove any duplicated ids from the clone.
   box.querySelectorAll('[id]').forEach((el) => el.removeAttribute('id'));
 
   const wrapper = box.querySelector('.top-products-wrapper') || box;
-  const oldHeading = wrapper.querySelector('h1, h2, h3, h4, h5');
-  const oldList = wrapper.querySelector('ol, ul');
+  const heading = wrapper.querySelector('h1, h2, h3, h4, h5');
+  if (heading) {
+    const span = heading.querySelector('span');
+    if (span) span.textContent = TITLE;
+    else heading.textContent = TITLE;
+  }
 
-  const heading = oldHeading || document.createElement('h4');
-  heading.textContent = TITLE;
-
-  const list = document.createElement('ol');
-  list.className = 'top-products';
+  const oldList = wrapper.querySelector('.top-products, ol, ul');
+  const list = document.createElement(oldList?.tagName?.toLowerCase() || 'ol');
+  list.className = oldList?.className || 'top-products';
 
   products.forEach((data) => {
     const item = document.createElement('li');
@@ -130,55 +115,56 @@ function buildBox(products, globalTopBox) {
     list.append(item);
   });
 
-  if (!oldHeading) wrapper.prepend(heading);
   if (oldList) oldList.replaceWith(list);
   else wrapper.append(list);
 
   return box;
 }
 
-function placeSidebarBoxes(sidebar, categoryBestsellers, globalTopBox) {
-  const categoryBox = findCategoryBox(sidebar);
-  const supportBox = findSupportBox(sidebar);
+function reorder(root, bestsellerBox, supportBox, top10Box, categoryBox) {
+  if (!categoryBox) return;
 
-  // Requested fixed order:
-  // Kategórie -> Najpredávanejšie v kategórii -> Sme tu pre vás -> TOP 10.
-  if (categoryBox) categoryBox.after(categoryBestsellers);
-  else sidebar.prepend(categoryBestsellers);
+  // Work only with the four actual sibling widgets inside .sidebar-inner.
+  // Final requested order:
+  // Categories -> category bestsellers -> support -> global TOP 10.
+  categoryBox.after(bestsellerBox);
 
-  if (supportBox) {
-    categoryBestsellers.after(supportBox);
-    if (globalTopBox) supportBox.after(globalTopBox);
-  } else if (globalTopBox) {
-    categoryBestsellers.after(globalTopBox);
+  if (supportBox) bestsellerBox.after(supportBox);
+  if (top10Box) {
+    if (supportBox) supportBox.after(top10Box);
+    else bestsellerBox.after(top10Box);
   }
 }
 
 function render(root) {
-  const sidebar = document.querySelector(SEL.sidebarLeft);
-  if (!sidebar) return;
+  const sideRoot = sidebarRoot();
+  if (!sideRoot) return;
+
+  sideRoot.querySelector(`:scope > .${BOX_CLASS}`)?.remove();
 
   const source =
     root.querySelector?.(SEL.categoryBestsellers) ||
     document.querySelector(SEL.categoryBestsellers);
 
-  sidebar.querySelector(`.${BOX_CLASS}`)?.remove();
-
   if (!source) return;
-
-  // Keep Apollo's original block in the DOM so Shoptet's own bestseller JS and
-  // accessibility logic remain intact. Only the visual position changes.
   source.classList.add('ts-category-bestsellers-source');
 
-  const data = [...source.querySelectorAll(SEL.categoryBestsellerProduct)]
+  const products = [...source.querySelectorAll(SEL.categoryBestsellerProduct)]
     .map(productData)
     .filter(Boolean)
     .slice(0, 10);
 
-  if (!data.length) return;
+  if (!products.length) return;
 
-  const globalTopBox = nativeTopProductsBox(sidebar);
-  placeSidebarBoxes(sidebar, buildBox(data, globalTopBox), globalTopBox);
+  const categoryBox = findCategoryBox(sideRoot);
+  const supportBox = findSupportBox(sideRoot);
+  const top10Box = findGlobalTop10Box(sideRoot);
+  if (!categoryBox || !top10Box) return;
+
+  const bestsellerBox = buildFromTop10(top10Box, products);
+  if (!bestsellerBox) return;
+
+  reorder(sideRoot, bestsellerBox, supportBox, top10Box, categoryBox);
 }
 
 export default {
