@@ -1,0 +1,17 @@
+/* Apollo category bestsellers.
+   The original Shoptet bestseller section stays in the DOM for Apollo's own JS.
+   The sidebar copy reuses the native TOP 10 box markup/classes, so Apollo itself
+   controls the border, radius, padding, background, shadow and typography. */
+.type-category .products-top-wrapper.ts-category-bestsellers-source {
+  display: none !important;
+}
+
+.ts-category-bestsellers-sidebar {
+  display: none !important;
+}
+
+@media (min-width: 1200px) {
+  .ts-category-bestsellers-sidebar {
+    display: block !important;
+  }
+}
