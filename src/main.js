@@ -12,6 +12,7 @@ import menuCardClick from './modules/menu-card-click/index.js';
 import sidebarActivePath from './modules/sidebar-active-path/index.js';
 import productTextCleanup from './modules/product-text-cleanup/index.js';
 import categoryFilterCompact from './modules/category-filter-compact/index.js';
+import footerPayments from './modules/footer-payments/index.js';
 
 // Register every module here. Order = init order.
 // qty-picker before cart-count: the badge goes into the button the qty field sits next to.
@@ -22,6 +23,7 @@ start([
   sidebarActivePath,
   productTextCleanup,
   categoryFilterCompact,
+  footerPayments,
   gallerySwipe,
   categoryBestsellersSidebar,
   listView,
