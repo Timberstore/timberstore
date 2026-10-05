@@ -22,7 +22,7 @@ This branch prepares the Timber Store frontend so custom Timber code can be vers
 - Inline Timber HEAD styles — staged in `src/legacy/inline-head.css`, included in migration CSS bundle.
 - `.top-category-addon` inline styles — staged in `src/legacy/top-category-addon.css`, included in migration CSS bundle.
 - `timber-page-loading` — staged in `src/legacy/page-loading.js`; intentionally not bundled yet because it must execute before body render.
-- `timber-empty-cart.js` and its companion CSS — exact legacy copies staged in `src/legacy/`; intentionally not bundled yet while the live Shoptet include remains active.
+- `timber-empty-cart.js` — complete legacy implementation is bundled behind the `empty-cart` takeover module. While the live Shoptet `<script>` exists, the module stays inactive; after that include is removed it takes over automatically. Companion CSS backup remains staged for reference.
 - Current Apollo BODY settings — source-control snapshot in `shoptet/apollo-config-current.js`.
 
 ## Intentionally still external
@@ -48,3 +48,9 @@ When the migration bundle is accepted in preview:
 8. Keep `allstyle.css`, `allscript.js`, Apollo assets and Apollo config until their ownership is proven.
 
 Rollback at any cutover step: restore the corresponding backed-up include from `shoptet/backup/2026-10-05/live-head.html` or `live-body.html`.
+
+
+## Integrity checks
+
+- Complete backups were verified for the long legacy files: `timber-custom-v175.css` = 2072 lines, `timber-empty-cart.js` = 1029 lines.
+- Future post-migration HEAD/BODY templates are stored under `shoptet/target/`; they are documentation only and are not applied to production.
