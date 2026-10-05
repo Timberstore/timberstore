@@ -1,0 +1,171 @@
+/* Homepage favourite categories migrated from timber-kategorie-banner.css.
+   Layout is intentionally kept visually equivalent to the current production block. */
+.ts-home-categories {
+  max-width: 1640px;
+  margin: 62px auto 46px;
+  padding: 0 42px;
+  box-sizing: border-box;
+}
+
+.ts-home-categories,
+.ts-home-categories * {
+  box-sizing: border-box;
+}
+
+.ts-home-categories__title {
+  margin: 0 0 36px;
+  color: #4b4038;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.ts-home-categories__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px 26px;
+  width: 100%;
+}
+
+.ts-home-categories__item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 78px;
+  padding: 13px 18px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 10%);
+  text-decoration: none;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.ts-home-categories__item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgb(0 0 0 / 14%);
+}
+
+.ts-home-categories__item img {
+  display: block;
+  flex: 0 0 76px;
+  width: 76px;
+  height: 58px;
+  max-width: 76px;
+  max-height: 58px;
+  margin: 0 18px 0 0;
+  object-fit: contain;
+}
+
+.ts-home-categories__item span {
+  display: block;
+  min-width: 0;
+  color: #4b4038;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.22;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1350px) {
+  .ts-home-categories__item span {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 1199px) {
+  .ts-home-categories {
+    max-width: 1120px;
+    padding: 0 28px;
+  }
+
+  .ts-home-categories__grid {
+    gap: 18px;
+  }
+
+  .ts-home-categories__item {
+    min-height: 76px;
+    padding: 12px 16px;
+  }
+
+  .ts-home-categories__item img {
+    flex-basis: 62px;
+    width: 62px;
+    height: 48px;
+    max-width: 62px;
+    max-height: 48px;
+    margin-right: 14px;
+  }
+
+  .ts-home-categories__item span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ts-home-categories {
+    margin: 38px auto 32px;
+    padding: 0 14px;
+  }
+
+  .ts-home-categories__title {
+    margin-bottom: 28px;
+    font-size: 34px;
+  }
+
+  .ts-home-categories__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .ts-home-categories__item {
+    flex-direction: column;
+    justify-content: center;
+    min-height: 178px;
+    padding: 20px 12px 16px;
+    text-align: center;
+  }
+
+  .ts-home-categories__item img {
+    flex: 0 0 auto;
+    width: 112px;
+    height: 86px;
+    max-width: 112px;
+    max-height: 86px;
+    margin: 0 auto 16px;
+  }
+
+  .ts-home-categories__item span {
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 380px) {
+  .ts-home-categories__title {
+    font-size: 30px;
+  }
+
+  .ts-home-categories__item {
+    min-height: 165px;
+    padding: 18px 10px 14px;
+  }
+
+  .ts-home-categories__item img {
+    width: 98px;
+    height: 78px;
+    max-width: 98px;
+    max-height: 78px;
+  }
+
+  .ts-home-categories__item span {
+    font-size: 13px;
+  }
+}
