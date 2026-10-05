@@ -40,7 +40,12 @@ function findCategoryBox(sidebar) {
 }
 
 function findSupportBox(sidebar) {
-  return findBoxByHeading(sidebar, 'Sme tu pre vás');
+  // The support banner is not guaranteed to use a heading element in Apollo,
+  // so inspect direct sidebar children by their visible text.
+  for (const child of sidebar.children) {
+    if (normalize(child.textContent).includes('sme tu pre vas')) return child;
+  }
+  return null;
 }
 
 function nativeTopProductsBox(sidebar) {
@@ -125,11 +130,11 @@ function buildBox(products) {
 
 function copyTop10Frame(categoryBestsellers, globalTopBox) {
   if (!globalTopBox) return;
-  const style = getComputedStyle(globalTopBox);
-  categoryBestsellers.style.border = style.border;
-  categoryBestsellers.style.borderRadius = style.borderRadius;
-  categoryBestsellers.style.background = style.background;
-  categoryBestsellers.style.boxShadow = style.boxShadow;
+
+  // Reuse Apollo's actual outer box classes instead of approximating them.
+  // This gives us the same border, radius, background and shadow as TOP 10
+  // even if the template changes those values later.
+  for (const cls of globalTopBox.classList) categoryBestsellers.classList.add(cls);
 }
 
 function placeSidebarBoxes(sidebar, categoryBestsellers) {
