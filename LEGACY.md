@@ -7,8 +7,8 @@ Inventář stavu k 26. 9. 2026 (homepage). Kód se převádí do repa, až když
 |---|---|---|---|
 | `/user/documents/upload/CSS/timber-custom.css?v=173` | záhlaví | hlavní vlastní CSS | nepřevedeno |
 | `/user/documents/allstyle.css?v=1111` | záhlaví | další vlastní CSS | nepřevedeno |
-| `765909.myshoptet.com/user/documents/upload/CSS/timber-kategorie-banner.css?v=10` | záhlaví | načítá se z původní myshoptet domény | nepřevedeno |
-| `765909.myshoptet.com/user/documents/upload/CSS/timber-kategorie-banner.js?v=10` | zápatí | dtto | nepřevedeno |
+| `765909.myshoptet.com/user/documents/upload/CSS/timber-kategorie-banner.css?v=10` | záhlaví | načítá se z původní myshoptet domény | **převedeno ve větvi `migration/custom-code-to-github`** do modulu `homepage-categories`; externí načtení se odstraní až po preview kontrole |
+| `765909.myshoptet.com/user/documents/upload/CSS/timber-kategorie-banner.js?v=10` | zápatí | dtto; na konci navíc načítá `timber-menu.js` | **převedeno ve větvi `migration/custom-code-to-github`** do modulu `homepage-categories`; dynamické načítání `timber-menu.js` se do modulu nepřenáší |
 | `/user/documents/upload/CSS/timber-menu.js?v=1` | záhlaví, async+defer | **V1: načítá se už jen jednou** (ověřeno 26. 9.) | nepřevedeno |
 | `/user/documents/upload/CSS/timber-empty-cart.js` | zápatí | bez verze v URL | nepřevedeno |
 | `/user/documents/allscript.js?v=111` | zápatí | další vlastní JS | nepřevedeno |
