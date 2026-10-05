@@ -8,6 +8,7 @@
 @import './modules/qty-picker/qty-picker.css';
 @import './modules/cart-count/cart-count.css';
 @import './modules/category-bestsellers-sidebar/category-bestsellers-sidebar.css';
+@import './modules/homepage-categories/homepage-categories.css';
 
 /* Shoptet overrides (one file per component) */
 @import './styles/overrides/top-bar.css';
