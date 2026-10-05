@@ -29,3 +29,9 @@ Záloha celého záhlaví k 26. 9. 2026: [`shoptet/backup/2026-09-26-zahlavi.htm
 | Násobky objednávky (dominikmartini) | `addons/dominikmartini/multiply_order/...` | |
 | Hlavní slider homepage | nativní Shoptet `#carousel` (Bootstrap 3 carousel) | M1 přidává swipe modulem `carousel-swipe` |
 | Galerie na detailu produktu | nativní Shoptet `.p-image` + `.p-thumbnails` (cloud-zoom, colorbox) | M1 přidává swipe modulem `gallery-swipe` (kliká na náhledy) |
+
+
+## Migrace 5. 10. 2026 — bezpečný režim
+- Automatický workflow pro migrační větev je od nynějška nastaven pouze na ruční spuštění (`workflow_dispatch`).
+- Důvod: série drobných commitů vytvářela zbytečně mnoho zrušených/starách buildů a e-mailových notifikací.
+- Produkce v Shoptetu se tím nemění. Build preview se bude dělat jen ve vybraných kontrolních bodech.
