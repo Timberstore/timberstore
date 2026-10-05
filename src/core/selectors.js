@@ -63,4 +63,5 @@ export const SEL = {
   categoryFilterBar: '#category-filter-hover',
   categoryFilterItem: '.slider-wrapper, .filter-section:not(.filter-section-count)',
   categoryFilterHeading: ':scope > h4',
+  footerOnlinePayments: '.custom-footer__onlinePayments p',
 };
