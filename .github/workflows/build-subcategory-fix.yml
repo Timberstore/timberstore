@@ -1,0 +1,45 @@
+name: Build subcategory spacing fix
+
+on:
+  push:
+    branches:
+      - fix/subcategory-card-spacing
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: fix/subcategory-card-spacing
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+
+      - name: Commit built assets
+        run: |
+          if git diff --quiet -- dist; then
+            echo "No dist changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          git commit -m "build: generate v0.5.1 assets [skip ci]"
+          git push
