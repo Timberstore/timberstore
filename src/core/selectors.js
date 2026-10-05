@@ -64,4 +64,5 @@ export const SEL = {
   categoryFilterItem: '.slider-wrapper, .filter-section:not(.filter-section-count)',
   categoryFilterHeading: ':scope > h4',
   footerOnlinePayments: '.custom-footer__onlinePayments p',
+  legacyEmptyCartScript: 'script[src*="timber-empty-cart.js"]',
 };
