@@ -1,23 +1,9 @@
 /* M2 · Add-to-cart Colorbox is taller than the mobile viewport.
-   Keep the popup inside the viewport and let its content scroll instead of the page.
-   !important is required because Colorbox writes position/height inline. */
+   Preserve Colorbox positioning/animation and only constrain the popup height.
+   The popup content scrolls internally when it is taller than the viewport.
+   !important is required because Colorbox writes height inline. */
 @media (max-width: 767px) {
-  #cboxOverlay {
-    position: fixed !important;
-    inset: 0 !important;
-    width: 100vw !important;
-    height: 100vh !important;
-    touch-action: none;
-    overscroll-behavior: contain;
-  }
-
-  #colorbox {
-    position: fixed !important;
-    top: 8px !important;
-    max-height: calc(100vh - 16px) !important;
-    margin: 0 !important;
-  }
-
+  #colorbox,
   #cboxWrapper,
   #cboxContent {
     max-height: calc(100vh - 16px) !important;
@@ -34,10 +20,6 @@
   }
 
   @supports (height: 100dvh) {
-    #cboxOverlay {
-      height: 100dvh !important;
-    }
-
     #colorbox,
     #cboxWrapper,
     #cboxContent {
