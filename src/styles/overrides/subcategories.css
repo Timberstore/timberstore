@@ -17,3 +17,51 @@
     -webkit-line-clamp: 4 !important;
   }
 }
+
+
+/* v0.4.3 · Category heading above subcategory tiles.
+   Center the category title and frame it with subtle horizontal rules,
+   inspired by the Timber Store logo treatment. */
+.type-category .content > h1:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.type-category .content > h1:first-of-type::before,
+.type-category .content > h1:first-of-type::after {
+  content: '';
+  flex: 1 1 0;
+  min-width: 24px;
+  height: 1px;
+  background: var(--ts-color-panel-border);
+}
+
+/* v0.4.3 · Give every subcategory tile a visible idle-state outline.
+   Apollo already defines the border width/radius and hover behaviour,
+   so only the colour is set here to avoid layout shifts. */
+.subcategories.with-image > div > a,
+.subcategories.with-image li > a,
+.subcategories > div > a,
+.subcategories li > a {
+  border-color: var(--ts-color-panel-border) !important;
+}
+
+/* v0.4.3 · Center an incomplete final row instead of pinning it left. */
+.subcategories {
+  justify-content: center !important;
+}
+
+@media (max-width: 767px) {
+  .type-category .content > h1:first-of-type {
+    gap: 10px;
+  }
+
+  .type-category .content > h1:first-of-type::before,
+  .type-category .content > h1:first-of-type::after {
+    min-width: 12px;
+  }
+}
