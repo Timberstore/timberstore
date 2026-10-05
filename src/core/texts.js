@@ -20,6 +20,10 @@ export const TEXTS = {
     value: 'Množstvo',
   },
   cartCount: (qty) => `V košíku: ${qty} ks`,
+  categoryFilter: {
+    more: 'Ďalšie',
+    less: 'Menej',
+  },
   homeCategories: {
     title: 'Najobľúbenejšie kategórie',
     saleTitleNeedle: 'akciový tovar',
