@@ -42,4 +42,11 @@ export const SEL = {
   categoryBestsellerProduct: '.products-top > .product',
   sidebarLeft: '.sidebar-left',
   globalTopProducts: '.box-topProducts:not(.ts-category-bestsellers-sidebar) .top-products-wrapper',
+
+  // Apollo homepage groups used by the migrated category banner/reordering block.
+  homepageGroupTitle: '.homepage-group-title',
+  homepageProducts: '.products',
+  homepageMiddleBannerLink:
+    'a[href*="kineticke"], a[href*="led-pas"], a[href*="lepid"], a[href*="krabic"]',
+  homepageBenefits: '.position--benefitHomepage',
 };
