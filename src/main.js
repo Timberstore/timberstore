@@ -5,7 +5,16 @@ import listView from './modules/list-view/index.js';
 import qtyPicker from './modules/qty-picker/index.js';
 import cartCount from './modules/cart-count/index.js';
 import cartModalSpeed from './modules/cart-modal-speed/index.js';
+import categoryBestsellersSidebar from './modules/category-bestsellers-sidebar/index.js';
 
 // Register every module here. Order = init order.
 // qty-picker before cart-count: the badge goes into the button the qty field sits next to.
-start([carouselSwipe, gallerySwipe, listView, qtyPicker, cartCount, cartModalSpeed]);
+start([
+  carouselSwipe,
+  gallerySwipe,
+  categoryBestsellersSidebar,
+  listView,
+  qtyPicker,
+  cartCount,
+  cartModalSpeed,
+]);
