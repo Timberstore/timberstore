@@ -3,7 +3,7 @@
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Nevydáno
-
+- **M2** · Mobilné okno po vložení do košíka je obmedzené na výšku displeja; obsah sa posúva vo vnútri popupu a overlay neprepúšťa posúvanie stránky pod ním. Zatiaľ iba preview.\n
 ## v0.4.0 · 2026-10-02 · C3, drobnosti
 - **Drobnosti** · Instagram na homepage jako úzký pás: všech 9 příspěvků v jedné řadě, široké jako obsah stránky (lícuje s patičkou), dlaždice max. 160 px – na 1920 px ~146 px (dřív přes celou šířku okna, ~360 px na 1440 px monitoru). Na mobilu a tabletu jedna řada posuvná prstem (~2,4 fotky vidět po ~135 px, aby šel přečíst text příspěvků; max. 180 px) místo mřížky 2 × 2. Tlačítko „Sledovať na Instagrame“ pod pásem, už nepřekrývá další blok; menší mezery kolem. Počet příspěvků nastaven v adminu (viz ADMIN-CHANGES).
 - **C3** · Odznak s počtem kusů v košíku byl na tlačítku „Do košíka“ vpravo uříznutý: vedle pole pro množství sahá tlačítko až k okraji dlaždice a dlaždice ořezává, co přečnívá. Odznak je teď v rohu tlačítka, nepřesahuje ho.
