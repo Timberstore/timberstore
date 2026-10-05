@@ -1,0 +1,30 @@
+name: Tag v0.5.2
+
+on:
+  push:
+    branches:
+      - release/v0.5.2-tag
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Create tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git rev-parse v0.5.2 >/dev/null 2>&1; then
+            echo "v0.5.2 already exists"
+            exit 0
+          fi
+          git tag -a v0.5.2 -m "v0.5.2 — Apollo subcategory spacing"
+          git push origin v0.5.2
