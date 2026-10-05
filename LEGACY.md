@@ -5,7 +5,7 @@ Inventář stavu k 26. 9. 2026 (homepage). Kód se převádí do repa, až když
 ## Vlastní kód klienta / předchozích vývojářů
 | Soubor | Kde se načítá | Poznámka | Stav |
 |---|---|---|---|
-| `/user/documents/upload/CSS/timber-custom.css?v=173` | záhlaví | hlavní vlastní CSS | nepřevedeno |
+| `/user/documents/upload/CSS/timber-custom.css?v=175` | záhlaví | hlavní vlastní CSS | **staged ve větvi `migration/custom-code-to-github`** jako přesná kopie `src/legacy/timber-custom-v175.css`; FTP odkaz zatím zůstává aktivní, odstraní se až po preview kontrole |
 | `/user/documents/allstyle.css?v=1111` | záhlaví | další vlastní CSS | nepřevedeno |
 | `765909.myshoptet.com/user/documents/upload/CSS/timber-kategorie-banner.css?v=10` | záhlaví | načítá se z původní myshoptet domény | **převedeno ve větvi `migration/custom-code-to-github`** do modulu `homepage-categories`; externí načtení se odstraní až po preview kontrole |
 | `765909.myshoptet.com/user/documents/upload/CSS/timber-kategorie-banner.js?v=10` | zápatí | dtto; na konci navíc načítá `timber-menu.js` | **převedeno ve větvi `migration/custom-code-to-github`** do modulu `homepage-categories`; dynamické načítání `timber-menu.js` se do modulu nepřenáší |
