@@ -1,27 +1,17 @@
 name: Build migration preview
 
 on:
-  push:
-    branches:
-      - migration/custom-code-to-github
-    paths-ignore:
-      - 'dist/**'
-
-concurrency:
-  group: migration-preview-build
-  cancel-in-progress: true
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout latest branch state
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: migration/custom-code-to-github
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -37,15 +27,3 @@ jobs:
 
       - name: Build
         run: npm run build
-
-      - name: Commit generated dist
-        run: |
-          if git diff --quiet -- dist; then
-            echo "dist is already current"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist
-          git commit -m "build: update migration preview bundle"
-          git push
