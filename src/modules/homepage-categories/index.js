@@ -18,18 +18,18 @@ const ITEMS = [
 
 function buildCategorySection() {
   const section = document.createElement('section');
-  section.className = 'ts-home-categories';
+  section.className = 'timber-categories-banner';
 
   const title = document.createElement('h2');
-  title.className = 'ts-home-categories__title';
+  title.className = 'timber-categories-banner__title';
   title.textContent = TEXTS.homeCategories.title;
 
   const grid = document.createElement('div');
-  grid.className = 'ts-home-categories__grid';
+  grid.className = 'timber-categories-banner__grid';
 
   ITEMS.forEach((item) => {
     const link = document.createElement('a');
-    link.className = 'ts-home-categories__item';
+    link.className = 'timber-categories-banner__item';
     link.href = item.url;
 
     const img = document.createElement('img');
@@ -51,7 +51,7 @@ function buildCategorySection() {
 function ensureCategories(root) {
   // During staged migration the legacy Shoptet banner still runs. Never render a
   // second category block while that legacy block is present.
-  if (document.querySelector('.ts-home-categories, .timber-categories-banner')) return;
+  if (document.querySelector('.timber-categories-banner')) return;
 
   const firstTitle = root.querySelector(SEL.homepageGroupTitle);
   if (!firstTitle?.parentNode) return;
