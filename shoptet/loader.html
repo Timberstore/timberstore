@@ -5,7 +5,12 @@
 -->
 <script>
 (function () {
-  /* jshint evil: true */ // document.write below is intentional (render-blocking CSS)
+  /* jshint evil: true */
+  var root = document.documentElement;
+  root.classList.add('timber-page-loading');
+  var pageLoadingTimer = window.setTimeout(function () {
+    root.classList.remove('timber-page-loading');
+  }, 1500); // document.write below is intentional (render-blocking CSS)
   var BASE = 'https://cdn.jsdelivr.net/gh/Timberstore/timberstore@';
   var PROD = 'v0.4.2'; // ← production version ('' = off for customers, only ?ts_preview loads)
   var q = location.search.match(/[?&]ts_preview=([\w.\-]+)/);
@@ -15,7 +20,7 @@
   var c = document.cookie.match(/(?:^|; )ts_preview=([\w.\-]+)/);
   var ok = c && /^(v\d+\.\d+\.\d+(-rc\.\d+)?|[0-9a-f]{7,40})$/.test(c[1]);
   var v = ok ? c[1] : PROD;
-  window.TimberLoader = { version: v, preview: !!ok };
+  window.TimberLoader = { version: v, preview: !!ok, pageLoadingTimer: pageLoadingTimer };
   if (!v) return;
   // CSS via document.write: parser-inserted, so it blocks render (no flash of unstyled content)
   document.write('<link rel="stylesheet" href="' + BASE + v + '/dist/timber.min.css">');
