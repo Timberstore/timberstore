@@ -1,171 +1,168 @@
-/* Homepage favourite categories migrated from timber-kategorie-banner.css.
-   Layout is intentionally kept visually equivalent to the current production block. */
-.ts-home-categories {
-  max-width: 1640px;
-  margin: 62px auto 46px;
-  padding: 0 42px;
-  box-sizing: border-box;
+/* Timber Store - obľúbené kategórie ako LooMAH banner karty - rollback funkčná verzia */
+.timber-categories-banner {
+  max-width: 1640px !important;
+  margin: 62px auto 46px !important;
+  padding: 0 42px !important;
+  box-sizing: border-box !important;
 }
 
-.ts-home-categories,
-.ts-home-categories * {
-  box-sizing: border-box;
+.timber-categories-banner,
+.timber-categories-banner * {
+  box-sizing: border-box !important;
 }
 
-.ts-home-categories__title {
-  margin: 0 0 36px;
-  color: #4b4038;
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 1.2;
-  text-align: center;
+.timber-categories-banner__title {
+  text-align: center !important;
+  font-size: 40px !important;
+  line-height: 1.2 !important;
+  font-weight: 800 !important;
+  color: #4b4038 !important;
+  margin: 0 0 36px !important;
 }
 
-.ts-home-categories__grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 22px 26px;
-  width: 100%;
+.timber-categories-banner__grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 22px 26px !important;
+  width: 100% !important;
 }
 
-.ts-home-categories__item {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 78px;
-  padding: 13px 18px;
-  overflow: hidden;
-  border: 1px solid #fff;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0 8px 24px rgb(0 0 0 / 10%);
-  text-decoration: none;
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease;
+.timber-categories-banner__item {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  min-height: 78px !important;
+  padding: 13px 18px !important;
+  background: #fff !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,.10) !important;
+  text-decoration: none !important;
+  transition: transform .18s ease, box-shadow .18s ease !important;
+  overflow: hidden !important;
 }
 
-.ts-home-categories__item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgb(0 0 0 / 14%);
+.timber-categories-banner__item:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 12px 30px rgba(0,0,0,.14) !important;
 }
 
-.ts-home-categories__item img {
-  display: block;
-  flex: 0 0 76px;
-  width: 76px;
-  height: 58px;
-  max-width: 76px;
-  max-height: 58px;
-  margin: 0 18px 0 0;
-  object-fit: contain;
+.timber-categories-banner__item img {
+  display: block !important;
+  width: 76px !important;
+  height: 58px !important;
+  max-width: 76px !important;
+  max-height: 58px !important;
+  object-fit: contain !important;
+  flex: 0 0 76px !important;
+  margin: 0 18px 0 0 !important;
 }
 
-.ts-home-categories__item span {
-  display: block;
-  min-width: 0;
-  color: #4b4038;
-  font-size: 15px;
-  font-weight: 800;
-  line-height: 1.22;
-  text-decoration: underline;
-  text-transform: uppercase;
+.timber-categories-banner__item span {
+  display: block !important;
+  min-width: 0 !important;
+  font-size: 15px !important;
+  line-height: 1.22 !important;
+  font-weight: 800 !important;
+  color: #4b4038 !important;
+  text-transform: uppercase !important;
+  text-decoration: underline !important;
 }
 
 @media (min-width: 1350px) {
-  .ts-home-categories__item span {
-    white-space: nowrap;
+  .timber-categories-banner__item span {
+    white-space: nowrap !important;
   }
 }
 
 @media (max-width: 1199px) {
-  .ts-home-categories {
-    max-width: 1120px;
-    padding: 0 28px;
+  .timber-categories-banner {
+    max-width: 1120px !important;
+    padding: 0 28px !important;
   }
 
-  .ts-home-categories__grid {
-    gap: 18px;
+  .timber-categories-banner__grid {
+    gap: 18px !important;
   }
 
-  .ts-home-categories__item {
-    min-height: 76px;
-    padding: 12px 16px;
+  .timber-categories-banner__item {
+    min-height: 76px !important;
+    padding: 12px 16px !important;
   }
 
-  .ts-home-categories__item img {
-    flex-basis: 62px;
-    width: 62px;
-    height: 48px;
-    max-width: 62px;
-    max-height: 48px;
-    margin-right: 14px;
+  .timber-categories-banner__item img {
+    width: 62px !important;
+    height: 48px !important;
+    max-width: 62px !important;
+    max-height: 48px !important;
+    flex-basis: 62px !important;
+    margin-right: 14px !important;
   }
 
-  .ts-home-categories__item span {
-    font-size: 13px;
+  .timber-categories-banner__item span {
+    font-size: 13px !important;
   }
 }
 
 @media (max-width: 767px) {
-  .ts-home-categories {
-    margin: 38px auto 32px;
-    padding: 0 14px;
+  .timber-categories-banner {
+    margin: 38px auto 32px !important;
+    padding: 0 14px !important;
   }
 
-  .ts-home-categories__title {
-    margin-bottom: 28px;
-    font-size: 34px;
+  .timber-categories-banner__title {
+    font-size: 34px !important;
+    margin-bottom: 28px !important;
   }
 
-  .ts-home-categories__grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px;
+  .timber-categories-banner__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 14px !important;
   }
 
-  .ts-home-categories__item {
-    flex-direction: column;
-    justify-content: center;
-    min-height: 178px;
-    padding: 20px 12px 16px;
-    text-align: center;
+  .timber-categories-banner__item {
+    min-height: 178px !important;
+    padding: 20px 12px 16px !important;
+    border-radius: 10px !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center !important;
   }
 
-  .ts-home-categories__item img {
-    flex: 0 0 auto;
-    width: 112px;
-    height: 86px;
-    max-width: 112px;
-    max-height: 86px;
-    margin: 0 auto 16px;
+  .timber-categories-banner__item img {
+    width: 112px !important;
+    height: 86px !important;
+    max-width: 112px !important;
+    max-height: 86px !important;
+    flex: 0 0 auto !important;
+    margin: 0 auto 16px !important;
   }
 
-  .ts-home-categories__item span {
-    font-size: 14px;
-    line-height: 1.2;
-    text-align: center;
-    white-space: normal;
+  .timber-categories-banner__item span {
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    white-space: normal !important;
   }
 }
 
 @media (max-width: 380px) {
-  .ts-home-categories__title {
-    font-size: 30px;
+  .timber-categories-banner__title {
+    font-size: 30px !important;
   }
 
-  .ts-home-categories__item {
-    min-height: 165px;
-    padding: 18px 10px 14px;
+  .timber-categories-banner__item {
+    min-height: 165px !important;
+    padding: 18px 10px 14px !important;
   }
 
-  .ts-home-categories__item img {
-    width: 98px;
-    height: 78px;
-    max-width: 98px;
-    max-height: 78px;
+  .timber-categories-banner__item img {
+    width: 98px !important;
+    height: 78px !important;
+    max-width: 98px !important;
+    max-height: 78px !important;
   }
 
-  .ts-home-categories__item span {
-    font-size: 13px;
+  .timber-categories-banner__item span {
+    font-size: 13px !important;
   }
 }
