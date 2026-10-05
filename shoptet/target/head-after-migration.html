@@ -1,4 +1,4 @@
-<!-- FUTURE TARGET ONLY — apply only after migration preview acceptance. -->
+<!-- CUTOVER CANDIDATE v0.5.0-rc.1 — prepared 2026-10-05. -->
 <link rel="stylesheet" href="https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/kategorie/main.css?v=15">
 <link rel="stylesheet" href="/user/documents/allstyle.css?v=1111#DEBUG_TIMESTAMP#">
 
@@ -16,7 +16,7 @@
     root.classList.remove('timber-page-loading');
   }, 1500); // document.write below is intentional (render-blocking CSS)
   var BASE = 'https://cdn.jsdelivr.net/gh/Timberstore/timberstore@';
-  var PROD = 'v0.4.2'; // ← production version ('' = off for customers, only ?ts_preview loads)
+  var PROD = '724cd97f4c1b61cb424e70a7fa3c91ee24fd32a0'; // ← production version ('' = off for customers, only ?ts_preview loads)
   var q = location.search.match(/[?&]ts_preview=([\w.\-]+)/);
   if (q) {
     document.cookie = q[1] === 'off' ? 'ts_preview=; max-age=0; path=/' : 'ts_preview=' + q[1] + '; max-age=604800; path=/';
