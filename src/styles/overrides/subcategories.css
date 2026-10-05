@@ -136,3 +136,26 @@
   max-width: none !important;
   min-width: 36px;
 }
+
+
+/* v0.5.2 final: one subtle frame only.
+   The visible frame belongs to LI; the inner link must not draw its own border/shadow. */
+.type-category .subcategories > li > a,
+.type-category .subcategories > div > a,
+.type-category .subcategories.with-image > li > a,
+.type-category .subcategories.with-image > div > a {
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .type-category .subcategories > li:hover > a,
+  .type-category .subcategories > div:hover > a,
+  .type-category .subcategories.with-image > li:hover > a,
+  .type-category .subcategories.with-image > div:hover > a {
+    border: 0 !important;
+    box-shadow: none !important;
+    background: #fff8f1 !important;
+  }
+}
