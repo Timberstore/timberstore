@@ -54,3 +54,12 @@ Rollback at any cutover step: restore the corresponding backed-up include from `
 
 - Complete backups were verified for the long legacy files: `timber-custom-v175.css` = 2072 lines, `timber-empty-cart.js` = 1029 lines.
 - Future post-migration HEAD/BODY templates are stored under `shoptet/target/`; they are documentation only and are not applied to production.
+
+
+## Build checkpoint
+
+- Final migration build completed successfully on 2026-10-05.
+- Lint passed.
+- Bundle build passed, including the repository performance budgets.
+- Generated `dist/timber.min.js`, `dist/timber.min.css` and sourcemaps were refreshed by GitHub Actions.
+- Production Shoptet was not modified.
