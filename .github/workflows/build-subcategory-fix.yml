@@ -23,6 +23,9 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Sync lockfile
+        run: npm install --package-lock-only --ignore-scripts
+
       - name: Install dependencies
         run: npm ci
 
@@ -32,14 +35,14 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Commit built assets
+      - name: Commit generated files
         run: |
-          if git diff --quiet -- dist; then
-            echo "No dist changes"
+          if git diff --quiet -- package-lock.json dist; then
+            echo "No generated changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist
-          git commit -m "build: generate v0.5.1 assets [skip ci]"
+          git add package-lock.json dist
+          git commit -m "build: generate v0.5.2 assets [skip ci]"
           git push
