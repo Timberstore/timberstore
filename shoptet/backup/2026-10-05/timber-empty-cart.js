@@ -998,3 +998,32 @@
         setTimeout(refreshTimberEmptyCart, 1600);
         setTimeout(refreshTimberEmptyCart, 2500);
     }
+
+
+    window.addEventListener(
+        "resize",
+        function () {
+
+            updateMobileClass();
+
+            setTimeout(
+                styleBottomBackButton,
+                50
+            );
+        }
+    );
+
+
+    if (document.readyState === "loading") {
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            run
+        );
+
+    } else {
+
+        run();
+    }
+
+})();
