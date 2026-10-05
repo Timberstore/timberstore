@@ -19,27 +19,30 @@ function directSidebarChild(node, sidebar) {
   return current?.parentElement === sidebar ? current : null;
 }
 
-function findSupportBox(sidebar) {
-  const headings = sidebar.querySelectorAll('h1, h2, h3, h4, h5, strong');
-  for (const heading of headings) {
-    if (normalize(heading.textContent).includes('sme tu pre vas')) {
+function findBoxByHeading(sidebar, needle) {
+  const target = normalize(needle);
+  for (const heading of sidebar.querySelectorAll('h1, h2, h3, h4, h5, strong')) {
+    if (normalize(heading.textContent).includes(target)) {
       return directSidebarChild(heading, sidebar);
     }
   }
   return null;
 }
 
+function findCategoryBox(sidebar) {
+  return (
+    findBoxByHeading(sidebar, 'Kategórie') ||
+    findBoxByHeading(sidebar, 'Kategorie')
+  );
+}
+
+function findSupportBox(sidebar) {
+  return findBoxByHeading(sidebar, 'Sme tu pre vás');
+}
+
 function nativeTopProductsBox(sidebar) {
   const wrapper = sidebar.querySelector(SEL.globalTopProducts);
   return wrapper ? directSidebarChild(wrapper, sidebar) || wrapper : null;
-}
-
-function reorderNativeSidebar(sidebar) {
-  const topProducts = nativeTopProductsBox(sidebar);
-  const support = findSupportBox(sidebar);
-  if (!topProducts || !support || topProducts === support) return;
-
-  if (support.nextElementSibling !== topProducts) support.after(topProducts);
 }
 
 function productData(product) {
@@ -62,81 +65,91 @@ function productData(product) {
   };
 }
 
-// Use Apollo/Shoptet's native Top 10 markup deliberately. This makes the new
-// category bestseller box inherit exactly the same border, spacing, numbering,
-// thumbnail and typography rules as the existing "Top 10 produktov" box.
 function buildBox(products) {
-  const box = document.createElement('div');
-  box.className = `box box-bg-variant box-sm box-topProducts ${BOX_CLASS}`;
+  const box = document.createElement('section');
+  box.className = BOX_CLASS;
+  box.setAttribute('aria-label', TITLE);
 
-  const wrapper = document.createElement('div');
-  wrapper.className = 'top-products-wrapper';
-
-  const heading = document.createElement('h4');
-  const headingText = document.createElement('span');
-  headingText.textContent = TITLE;
-  heading.append(headingText);
+  const heading = document.createElement('h3');
+  heading.className = `${BOX_CLASS}__title`;
+  heading.textContent = TITLE;
 
   const list = document.createElement('ol');
-  list.className = 'top-products';
+  list.className = `${BOX_CLASS}__list`;
 
   products.forEach((data) => {
     const item = document.createElement('li');
-    item.className = 'display-image';
+    item.className = `${BOX_CLASS}__item`;
 
-    const imageLink = document.createElement('a');
-    imageLink.className = 'top-products-image';
-    imageLink.href = data.href;
-    imageLink.setAttribute('aria-hidden', 'true');
-    imageLink.tabIndex = -1;
+    const link = document.createElement('a');
+    link.className = `${BOX_CLASS}__link`;
+    link.href = data.href;
 
+    const rank = document.createElement('span');
+    rank.className = `${BOX_CLASS}__rank`;
+    rank.setAttribute('aria-hidden', 'true');
+
+    const media = document.createElement('span');
+    media.className = `${BOX_CLASS}__media`;
     if (data.image) {
       const img = document.createElement('img');
       img.src = data.image;
       img.alt = data.alt;
       img.loading = 'lazy';
-      imageLink.append(img);
+      media.append(img);
     }
 
-    const contentLink = document.createElement('a');
-    contentLink.className = 'top-products-content';
-    contentLink.href = data.href;
+    const body = document.createElement('span');
+    body.className = `${BOX_CLASS}__body`;
 
     const name = document.createElement('span');
-    name.className = 'top-products-name';
+    name.className = `${BOX_CLASS}__name`;
     name.textContent = data.name;
 
     const price = document.createElement('strong');
+    price.className = `${BOX_CLASS}__price`;
     price.textContent = data.price;
 
-    contentLink.append(name, price);
-    item.append(imageLink, contentLink);
+    body.append(name, price);
+    link.append(rank, media, body);
+    item.append(link);
     list.append(item);
   });
 
-  wrapper.append(heading, list);
-  box.append(wrapper);
+  box.append(heading, list);
   return box;
+}
+
+function placeSidebarBoxes(sidebar, categoryBestsellers) {
+  const categoryBox = findCategoryBox(sidebar);
+  const supportBox = findSupportBox(sidebar);
+  const globalTopBox = nativeTopProductsBox(sidebar);
+
+  if (categoryBox) {
+    categoryBox.after(categoryBestsellers);
+  } else {
+    sidebar.prepend(categoryBestsellers);
+  }
+
+  if (supportBox) categoryBestsellers.after(supportBox);
+  if (globalTopBox && supportBox) supportBox.after(globalTopBox);
+  else if (globalTopBox) categoryBestsellers.after(globalTopBox);
 }
 
 function render(root) {
   const sidebar = document.querySelector(SEL.sidebarLeft);
   if (!sidebar) return;
 
-  reorderNativeSidebar(sidebar);
-
   const source =
     root.querySelector?.(SEL.categoryBestsellers) ||
     document.querySelector(SEL.categoryBestsellers);
 
-  if (!source) {
-    sidebar.querySelector(`.${BOX_CLASS}`)?.remove();
-    return;
-  }
+  sidebar.querySelector(`.${BOX_CLASS}`)?.remove();
 
-  // Apollo owns this native block and its expand/collapse logic. Keep the
-  // original node in the DOM and only hide it visually; the sidebar gets a
-  // read-only representation, so we do not interfere with Shoptet handlers.
+  if (!source) return;
+
+  // Keep Apollo's original block in the DOM so Shoptet's own bestseller JS and
+  // accessibility logic remain intact. Only the visual position changes.
   source.classList.add('ts-category-bestsellers-source');
 
   const data = [...source.querySelectorAll(SEL.categoryBestsellerProduct)]
@@ -144,18 +157,9 @@ function render(root) {
     .filter(Boolean)
     .slice(0, 10);
 
-  sidebar.querySelector(`.${BOX_CLASS}`)?.remove();
   if (!data.length) return;
 
-  const box = buildBox(data);
-  const support = findSupportBox(sidebar);
-  const topProducts = nativeTopProductsBox(sidebar);
-
-  // Requested order:
-  // category bestsellers -> "Sme tu pre vás" -> global "Top 10 produktov".
-  if (support) support.before(box);
-  else if (topProducts) topProducts.before(box);
-  else sidebar.append(box);
+  placeSidebarBoxes(sidebar, buildBox(data));
 }
 
 export default {
