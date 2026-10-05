@@ -102,3 +102,37 @@
     max-width: 48px;
   }
 }
+
+
+/* v0.5.2 correction after live preview:
+   Apollo paints the visible card shell on the LI, so define the outline there too. */
+.type-category .subcategories > li {
+  border: 1px solid #e2d8cd !important;
+  border-radius: 12px !important;
+  background: #fff !important;
+  box-shadow: 0 5px 18px rgba(66, 62, 62, 0.08) !important;
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .type-category .subcategories > li:hover {
+    border-color: #d4884a !important;
+    box-shadow: 0 7px 20px rgba(201, 122, 43, 0.14) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .type-category .subcategories > li {
+    border-radius: 10px !important;
+  }
+}
+
+/* Let both heading rules stretch evenly to the available category width. */
+.type-category h1::before,
+.type-category h1::after {
+  max-width: none !important;
+  min-width: 36px;
+}
