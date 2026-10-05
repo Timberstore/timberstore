@@ -8,7 +8,7 @@
 import { SEL } from '../../core/selectors.js';
 
 const MOBILE = '(max-width: 767px)';
-const CART_MODAL_SPEED_MS = 120;
+const CART_MODAL_SPEED_MS = 60;
 const FALLBACK_RESTORE_MS = 5000;
 
 let restoreActiveSpeed = null;
