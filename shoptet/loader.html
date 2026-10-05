@@ -1,30 +1,45 @@
 <!--
-  Timberstore loader — the ONLY custom code pasted into Shoptet
-  (Administrace → Vzhled a obsah → Editor HTML kódu → Záhlaví).
-  Production version = PROD. Change it only here. See CONTRIBUTING.md 3.1.
+  Timberstore loader — the ONLY Timber custom code in Shoptet HEAD.
+  Change only PROD when deploying a tested release.
 -->
 <script>
 (function () {
   /* jshint evil: true */
-  var root = document.documentElement;
-  root.classList.add('timber-page-loading');
-  var pageLoadingTimer = window.setTimeout(function () {
-    root.classList.remove('timber-page-loading');
-  }, 1500); // document.write below is intentional (render-blocking CSS)
+
   var BASE = 'https://cdn.jsdelivr.net/gh/Timberstore/timberstore@';
-  var PROD = 'v0.4.2'; // ← production version ('' = off for customers, only ?ts_preview loads)
+  var PROD = 'v0.5.0';
+
+  var root = document.documentElement;
+  var pageLoadingTimer;
+
+  root.classList.add('timber-page-loading');
+  pageLoadingTimer = window.setTimeout(function () {
+    root.classList.remove('timber-page-loading');
+  }, 1500);
+
   var q = location.search.match(/[?&]ts_preview=([\w.\-]+)/);
   if (q) {
-    document.cookie = q[1] === 'off' ? 'ts_preview=; max-age=0; path=/' : 'ts_preview=' + q[1] + '; max-age=604800; path=/';
+    if (q[1] === 'off') {
+      document.cookie = 'ts_preview=; max-age=0; path=/';
+    } else {
+      document.cookie = 'ts_preview=' + q[1] + '; max-age=604800; path=/';
+    }
   }
+
   var c = document.cookie.match(/(?:^|; )ts_preview=([\w.\-]+)/);
   var ok = c && /^(v\d+\.\d+\.\d+(-rc\.\d+)?|[0-9a-f]{7,40})$/.test(c[1]);
   var v = ok ? c[1] : PROD;
-  window.TimberLoader = { version: v, preview: !!ok, pageLoadingTimer: pageLoadingTimer };
+
+  window.TimberLoader = {
+    version: v,
+    preview: !!ok,
+    pageLoadingTimer: pageLoadingTimer
+  };
+
   if (!v) return;
-  // CSS via document.write: parser-inserted, so it blocks render (no flash of unstyled content)
+
   document.write('<link rel="stylesheet" href="' + BASE + v + '/dist/timber.min.css">');
-  // JS: created as an element, never blocks rendering. Never write a script tag as text anywhere in this block (code or comments) — the Shoptet editor's linter breaks on it.
+
   var s = document.createElement('script');
   s.src = BASE + v + '/dist/timber.min.js';
   document.head.appendChild(s);
