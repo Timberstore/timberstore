@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - migration/custom-code-to-github
+    paths-ignore:
+      - 'dist/**'
+
+concurrency:
+  group: migration-preview-build
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -12,8 +18,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout latest branch state
         uses: actions/checkout@v4
+        with:
+          ref: migration/custom-code-to-github
 
       - name: Setup Node
         uses: actions/setup-node@v4
