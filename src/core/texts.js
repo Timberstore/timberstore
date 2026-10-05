@@ -20,4 +20,9 @@ export const TEXTS = {
     value: 'Množstvo',
   },
   cartCount: (qty) => `V košíku: ${qty} ks`,
+  homeCategories: {
+    title: 'Najobľúbenejšie kategórie',
+    saleTitleNeedle: 'akciový tovar',
+    newsTitleNeedle: 'novinky v ponuke',
+  },
 };
