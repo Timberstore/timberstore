@@ -117,7 +117,7 @@ function observeNativeFilter(root) {
   });
 }
 
-function build(filtersWrapper) {
+function build() {
   const root = document.createElement('section');
   root.className = ROOT_CLASS;
   root.setAttribute('aria-label', 'Radenie a filtrovanie produktov');
@@ -143,7 +143,6 @@ function build(filtersWrapper) {
 
   const filterSlot = document.createElement('div');
   filterSlot.className = 'ts-mobile-category-controls__filter-slot';
-  filterSlot.append(filtersWrapper);
 
   root.append(filterSlot, total);
 
@@ -196,7 +195,7 @@ function render() {
   filters = document.querySelector(SEL.filtersWrapper);
   if (!filters || !sortControls().length) return;
 
-  const root = build(filters);
+  const root = build();
   filters.before(root);
   root.querySelector('.ts-mobile-category-controls__filter-slot')?.append(filters);
 
