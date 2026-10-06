@@ -1,0 +1,32 @@
+name: Rebuild v0.5.5 preview clean
+
+on:
+  push:
+    branches:
+      - fix/mobile-category-controls-colors
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/mobile-category-controls-colors
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+      - name: Commit dist
+        run: |
+          if git diff --quiet -- dist; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          git commit -m "build: clean v0.5.5 mobile preview [skip ci]"
+          git push
