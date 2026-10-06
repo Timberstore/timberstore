@@ -10,6 +10,15 @@
   display: none !important;
 }
 
+/* Apollo removes the desktop sidebar on mobile/tablet, so the JS module has no
+   sidebar root to work with there. Hide the native bestseller block directly
+   below the desktop breakpoint so it cannot remain visible in the main column. */
+@media (max-width: 1199px) {
+  .type-category .products-top-wrapper {
+    display: none !important;
+  }
+}
+
 @media (min-width: 1200px) {
   .ts-category-bestsellers-sidebar {
     display: block !important;
