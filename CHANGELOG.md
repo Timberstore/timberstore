@@ -4,6 +4,11 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Nevydáno
 
+## v0.5.4 · 2026-10-06 · Mobile category bestsellers
+- **Mobil / tablet** · Natívny blok „Najpredávanejšie“ je pod 1200 px úplne skrytý, takže sa už nezobrazuje v hlavnom obsahu kategórie.
+- **Desktop** · Bez zmeny; kategóriové bestsellery zostávajú v ľavom sidebare od 1200 px vyššie.
+- **Apollo** · Oprava je čisto CSS a rešpektuje breakpoint šablóny bez zásahu do DOM alebo produktového výpisu.
+
 ## v0.5.3 · 2026-10-06 · Category heading
 - **Nadpis kategórie** · Bočné deliace čiary sa rozťahujú na celú dostupnú šírku hlavného obsahu; názov zostáva presne vycentrovaný.
 - **Apollo** · Bez zmeny DOM a bez zásahu do šírky obsahového stĺpca.
