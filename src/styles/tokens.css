@@ -18,6 +18,10 @@
   --ts-listing-tab-line: 2px;
   --ts-card-name-lines: 3;
   --ts-card-price-size: 22px;
+  --ts-card-name-weight: 500;
+  --ts-card-stock-width: 90px;
+  --ts-card-stock-line-height: 1.25;
+  --ts-card-unit-size: 11px;
   --ts-card-inline-pad: 20px;
   --ts-card-bottom-pad: 24px;
   --ts-card-cart-height: 40px;

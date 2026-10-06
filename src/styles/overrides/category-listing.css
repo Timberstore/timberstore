@@ -48,10 +48,10 @@
     display: grid !important;
     height: auto !important;
     flex: 1 1 auto;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 0.6fr);
+    grid-template-columns: minmax(0, 1fr) var(--ts-card-stock-width);
     grid-template-rows: auto auto auto auto auto minmax(0, 1fr);
     grid-template-areas: 'image image' 'name name' 'prices stock' 'description description' 'reviews reviews' 'cart cart';
-    column-gap: var(--ts-space-2);
+    column-gap: var(--ts-space-1);
     padding-inline: var(--ts-card-inline-pad);
     padding-bottom: var(--ts-card-bottom-pad);
   }
@@ -94,6 +94,9 @@
     > #products.products-block:not(.products-related)
     .availability {
     grid-area: stock;
+    width: var(--ts-card-stock-width);
+    font-size: 12px;
+    line-height: var(--ts-card-stock-line-height);
     justify-self: end;
     align-self: center;
     min-width: 0;
@@ -136,8 +139,21 @@
     .price-final
     strong {
     font-size: var(--ts-card-price-size);
+    color: var(--ts-color-table-name);
     line-height: 1.2;
     white-space: nowrap;
+  }
+
+  /* C3 · Keep Apollo's native unit text; only soften its typography. */
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .price-final
+    .pr-list-unit {
+    font-size: var(--ts-card-unit-size);
+    color: var(--ts-color-count-text);
   }
 
   html:not(.ts-view-list)
@@ -158,6 +174,7 @@
     > #products.products-block:not(.products-related)
     .name {
     grid-area: name;
+    font-weight: var(--ts-card-name-weight);
     align-self: start;
     text-align: left;
     margin-top: var(--ts-space-3);
