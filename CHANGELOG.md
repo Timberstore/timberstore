@@ -4,6 +4,7 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Nevydáno
 
+- **Mobile count badges** · Počty pri hodnotách filtrov majú jednotný neutrálny badge (min. 32 × 23 px), centrované sivé číslo bez zátvoriek alebo jednotky a spoločné zarovnanie vpravo. Dlhšie čísla rozšíria badge; desktop bez zmeny.
 - **Mobile scroll/reset** · Zatvorené Apollo accordiony už nevytvárajú prázdny scrollovací priestor. Natívny obsah scrolluje v ohraničenom overlayi; samostatná spodná lišta sprístupňuje pôvodnú Shoptet akciu Zrušiť všetky filtre, ktorá cez AJAX zachováva radenie.
 - **Mobile popup polish** · Mobilné filtre a radenie sa otvárajú nad obsahom bez posunu produktov, so spoločným Timber vzhľadom a zatvorením klikom mimo/Escape. Celkový počet je centrovaný; natívne počty hodnôt sú vpravo bez zátvoriek. Dlhé zoznamy zobrazujú prvých 10 možností a všetky vybrané hodnoty, s ovládaním Zobraziť viac/menej zachovaným po AJAX.
 - **Mobile category controls** · Pod 768 px spoločný toolbar Filtrovať / aktuálne radenie, jeden panel a počet produktov pod ním. Používa pôvodné Apollo filtre a Shoptet radenie bez klonovania; desktopové umiestnenie sa obnovuje pri zmene breakpointu.

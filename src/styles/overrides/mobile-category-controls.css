@@ -217,13 +217,23 @@
   }
 
   .type-category .ts-mobile-category #filters .filter-label .filter-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     flex: 0 0 auto;
-    min-width: 3ch;
+    min-width: 32px;
+    height: 23px;
     margin: 0 0 0 auto;
-    color: var(--ts-color-muted);
+    padding: 0 5px;
+    border: 0;
+    border-radius: var(--ts-radius-count);
+    background: var(--ts-color-count-bg);
+    color: var(--ts-color-count-text);
     font-size: 12px;
     font-weight: 400;
-    text-align: right;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    text-align: center;
     white-space: nowrap;
   }
 

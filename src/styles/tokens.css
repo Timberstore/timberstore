@@ -9,6 +9,9 @@
   --ts-color-controls-divider: #e9e1d8;
   --ts-color-controls-active-bg: #fff8f1;
   --ts-color-controls-active: #c97a2b;
+  --ts-color-count-bg: #faf8f5;
+  --ts-color-count-text: #7c7e8f;
+  --ts-radius-count: 5px;
   --ts-radius-controls: 12px;
   --ts-shadow-controls: 0 8px 24px rgb(66 62 62 / 12%);
   --ts-z-controls: 50;
