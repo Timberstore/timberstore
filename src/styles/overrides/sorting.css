@@ -1,0 +1,152 @@
+/* C3 · Desktop sorting moved out of legacy v175. The ID selectors outrank
+   Apollo's sorting chips without !important. Keep the pre-existing tab style
+   for other listings; only categories get the new count/view toolbar. */
+@media (min-width: 992px) {
+  #category-header.category-header {
+    align-items: flex-end;
+    border-bottom: 1px solid var(--ts-color-listing-divider);
+    padding-bottom: 0;
+    margin-top: 6px;
+    margin-bottom: 22px;
+  }
+
+  #category-header .listSorting {
+    margin: 0;
+    padding: 0;
+  }
+
+  #category-header .listSorting__controls {
+    display: flex;
+    align-items: stretch;
+    gap: var(--ts-space-1);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  #category-header .listSorting__controls > li {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+  }
+
+  #category-header .listSorting__control {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    margin: 0;
+    padding: 0 var(--ts-listing-tab-pad);
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: var(--ts-color-controls-text);
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:
+      color 0.16s ease,
+      background-color 0.16s ease;
+  }
+
+  #category-header .listSorting__control:hover {
+    color: var(--ts-color-controls-active);
+    background: var(--ts-color-controls-active-bg);
+  }
+
+  #category-header .listSorting__control--current {
+    color: var(--ts-color-accent);
+    background: transparent;
+    font-weight: 800;
+    box-shadow: inset 0 -3px 0 var(--ts-color-accent);
+  }
+
+  #category-header .listSorting__control--current:hover {
+    color: var(--ts-color-controls-active);
+    background: transparent;
+    box-shadow: inset 0 -3px 0 var(--ts-color-controls-active);
+  }
+
+  #category-header .listItemsTotal {
+    padding-bottom: 16px;
+    color: var(--ts-color-count-text);
+  }
+
+  /* Reorder the three existing siblings. No DOM moves or new listeners.
+     Override Apollo's generic `.category-header div { flex: 1 0 auto }`, which
+     otherwise grows the view switch and makes the toolbar wrap. */
+  .type-category #category-header.category-header {
+    align-items: center;
+    flex-wrap: nowrap;
+    column-gap: var(--ts-listing-toolbar-gap);
+  }
+
+  .type-category #category-header > .listSorting {
+    order: 0;
+    flex: 0 0 auto;
+  }
+
+  .type-category #category-header > .listItemsTotal {
+    order: 1;
+    flex: 0 0 auto;
+    margin-left: auto;
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  .type-category #category-header > .listItemsTotal strong {
+    font-weight: inherit;
+  }
+
+  .type-category #category-header > .ts-view-switch {
+    order: 2;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .type-category #category-header .ts-view-switch__label {
+    display: none;
+  }
+
+  .type-category #category-header .ts-view-switch__btn {
+    width: 32px;
+    background: transparent;
+    color: var(--ts-color-switch-icon);
+  }
+
+  .type-category #category-header .ts-view-switch__btn--active,
+  .type-category #category-header .ts-view-switch__btn:hover {
+    color: var(--ts-color-accent);
+  }
+
+  .type-category #category-header .listSorting__control {
+    white-space: nowrap;
+  }
+
+  .type-category #category-header .listSorting__control--current {
+    box-shadow: inset 0 calc(-1 * var(--ts-listing-tab-line)) 0 var(--ts-color-accent);
+  }
+
+  .type-category #category-header .listSorting__control--current:hover {
+    box-shadow: inset 0 calc(-1 * var(--ts-listing-tab-line)) 0 var(--ts-color-controls-active);
+  }
+}
+
+/* The sidebar reappears at 1200 px and leaves only 788 px until Apollo widens
+   the wrapper at 1440 px. Keep every sort label at 13 px, reducing tab padding. */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .type-category #category-header .listSorting__control {
+    padding-inline: var(--ts-listing-tab-pad-compact);
+  }
+}

@@ -9,6 +9,14 @@
   --ts-color-controls-divider: #e9e1d8;
   --ts-color-controls-active-bg: #fff8f1;
   --ts-color-controls-active: #c97a2b;
+  /* C3 desktop category listing */
+  --ts-color-listing-divider: #e6e6e6;
+  --ts-listing-gutter: 8px;
+  --ts-listing-toolbar-gap: 12px;
+  --ts-listing-tab-pad: 15px;
+  --ts-listing-tab-pad-compact: 8px;
+  --ts-listing-tab-line: 2px;
+
   --ts-color-count-bg: #faf8f5;
   --ts-color-count-text: #7c7e8f;
   --ts-radius-count: 5px;
@@ -43,4 +51,4 @@
 
 /* Breakpoints (CSS custom properties can't be used in media queries —
    keep these values in sync with the Shoptet template):
-   sm 768px · md 992px · lg 1200px */
+   sm 768px · md 992px · lg 1200px · xl 1440px */

@@ -2,6 +2,13 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## Pripravované v0.5.6 · Desktop kategórie (preview)
+
+- **Produktový grid** · Iba hlavný grid kategórií má od Apollo breakpointu 1440 px štyri stĺpce, medzeru 16 px a karty široké približne 245 px. Pri 992–1439 px zostávajú tri stĺpce; mobilný/tabletový layout, list režim, carousely, súvisiace produkty a detail sa nemenia. Zachované fonty názvu a ceny, výška názvu, vnútorný padding 30 px, Apollo obrázkový model a quantity control.
+- **Desktop toolbar** · Existujúce Apollo radenie vľavo, sivý počet položiek bez zvýrazneného čísla a dve čisté grid/list ikony vpravo. CSS poradie nad existujúcimi prvkami bez klonovania, presunu DOM alebo nových listenerov. Zachované natívne sorting/AJAX správanie a existujúci modul `list-view` vrátane `aria-pressed` a uloženej voľby. Pri 1200–1439 px padding tabov 8 px; inak 15 px, font vždy 13 px.
+- **Legacy cleanup** · Desktop sorting presunutý z legacy v175 do `styles/overrides/sorting.css`; jeho `!important` deklarácie nahradené selektormi s ID. Nový grid oddelený v `category-listing.css`. Mobilný modul v0.5.5, desktop filter, sidebar a podkategórie zostávajú nedotknuté.
+- **Validácia preview** · Chromium nad živým Shoptet/Apollo DOM: Úchytky, Stolové nohy, Drezy, Skrutky k úchytkám a Zásuvkové výsuvy; 1366/1440/1600/1920 px a hrany 991/992, 1199/1200, 1439/1440. Quantity + CTA sa zmestia bez zmenšenia; plus/mínus/input, päť native sorting možností, reálny AJAX, grid/list a natívne vloženie do košíka overené. Mobilné filtre/radenie/reset na 320/375/390/414 px porovnávané s v0.5.5. Reálny iOS Safari a PageSpeed zatiaľ nemerané; nejde o produkčné nasadenie.
+
 ## v0.5.5 · 2026-10-06 · Mobile category controls
 
 - **Mobilné ovládanie** · Samostatný modul `mobile-category-controls` iba pod Apollo breakpointom 768 px. Dva rovnocenné horné buttony FILTROVAŤ / aktuálne RADENIE; dropdown piatich možností nahrádza pôvodné sorting chipy. Pôvodné Shoptet/Apollo sorting tlačidlá a ich natívna AJAX logika zostávajú zdrojom pravdy.

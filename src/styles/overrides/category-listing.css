@@ -1,0 +1,24 @@
+/* C3 · Four category tiles at Apollo's wide-container breakpoint. Keep the
+   existing card contents, image model and quantity controls. The 8 px wrapper
+   gutters give a 16 px gap and a 245 px tile in the 1028 px content area.
+   Only the main category grid participates; list mode, detail, carousels and
+   the related-products cart popup retain their existing layout. */
+@media (min-width: 1440px) {
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related) {
+    margin-inline: calc(-1 * var(--ts-listing-gutter));
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    > .product {
+    width: 25%;
+    padding-inline: var(--ts-listing-gutter);
+  }
+}

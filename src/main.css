@@ -25,6 +25,8 @@
 @import './styles/overrides/filters.css';
 @import './styles/overrides/mobile-category-controls.css';
 @import './styles/overrides/product-card.css';
+@import './styles/overrides/category-listing.css';
+@import './styles/overrides/sorting.css';
 @import './styles/overrides/product-detail.css';
 @import './styles/overrides/checkout.css';
 @import './styles/overrides/cart-modal.css';
