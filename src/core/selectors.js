@@ -36,6 +36,10 @@ export const SEL = {
   listSorting: '.listSorting',
   listSortingControl: '.listSorting__control',
   listSortingCurrentClass: 'listSorting__control--current',
+  listItemsTotal: '.listItemsTotal',
+  filtersWrapper: '#filters-wrapper',
+  mobileFilterTrigger:
+    '#filters-wrapper .filters-unveil-button-wrapper a, #filters-wrapper .filters-unveil-button-wrapper button, #filters .toggle-filters',
 
   // Apollo category bestsellers + left sidebar (verified against current 3G markup, 2026-10-05).
   categoryBestsellers: '.products-top-wrapper',
