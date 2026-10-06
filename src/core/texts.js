@@ -29,6 +29,7 @@ export const TEXTS = {
     controls: 'Filtrovanie a radenie produktov',
     more: 'Zobraziť viac',
     less: 'Zobraziť menej',
+    reset: 'Zrušiť všetky filtre',
   },
   homeCategories: {
     title: 'Najobľúbenejšie kategórie',

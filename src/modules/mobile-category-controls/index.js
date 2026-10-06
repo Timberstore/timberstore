@@ -126,6 +126,10 @@ function dispose() {
   if (!state) return;
   state.observer.disconnect();
   state.values.dispose();
+  if (state.resetMove) {
+    state.resetLink.textContent = state.resetText;
+    restore(state.resetMove);
+  }
   for (const [heading, handler] of state.apolloBindings) {
     window.jQuery(heading).off('click', handler);
   }
@@ -190,7 +194,12 @@ function refresh() {
   slot.className = 'ts-mobile-category__slot';
   const filterPanel = document.createElement('div');
   filterPanel.id = 'ts-mobile-category-filters';
-  filterPanel.className = 'ts-mobile-category__panel filters-wrapper';
+  filterPanel.className = 'ts-mobile-category__panel ts-mobile-category__filters filters-wrapper';
+  const footer = document.createElement('div');
+  footer.className = 'ts-mobile-category__footer';
+  const reset = filters.querySelector(SEL.categoryFilterReset);
+  const resetLink = filters.querySelector(SEL.categoryFilterResetLink);
+  footer.hidden = !resetLink;
   const sortPanel = document.createElement('div');
   sortPanel.id = 'ts-mobile-category-sorting';
   sortPanel.className = 'ts-mobile-category__panel ts-mobile-category__sorting';
@@ -210,6 +219,8 @@ function refresh() {
     sortPanel,
     filterButton,
     sortButton,
+    resetLink,
+    resetText: resetLink?.textContent,
     wasVisible: filters.classList.contains(SEL.categoryFilterVisibleClass),
     wasRowFilter: document.body.classList.contains(SEL.categoryFilterRowClass),
     filterMove: move(filters, filterPanel),
@@ -217,7 +228,10 @@ function refresh() {
     attributes: new Map(),
     apolloBindings: bindDesktopOriginAccordion(filters),
     values: enhanceValues(filters, expandedValues),
+    resetMove: resetLink ? move(reset, footer) : null,
   };
+  filterPanel.append(footer);
+  if (resetLink) resetLink.textContent = TEXTS.mobileCategory.reset;
   wrapper.classList.add('ts-mobile-category-source');
   // Apollo's desktop row layout uses absolute dropdowns. Suspend that layout
   // while narrow, then restore its original body class with the native nodes.
@@ -245,6 +259,11 @@ function refresh() {
       sync();
     } else if (more) {
       state.values.toggle(more);
+    } else if (event.target.closest(SEL.categoryFilterResetLink)) {
+      expandedValues.clear();
+      closePanel();
+      // Preserve the native anchor and href. Shoptet's delegated
+      // p#clear-filters a handler resets via AJAX and keeps the current sort.
     } else if (event.target.closest(SEL.listSortingControl)) {
       // Let the original click bubble to Shoptet's request handler.
       panel = null;

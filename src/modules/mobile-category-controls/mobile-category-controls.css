@@ -81,6 +81,21 @@
     width: 100%;
   }
 
+  /* The shell stays out of flow; only the native filter body scrolls.
+     The reset footer is a separate, non-scrolling flex item. */
+  .type-category .ts-mobile-category .ts-mobile-category__filters {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .ts-mobile-category__footer {
+    flex: 0 0 auto;
+    padding: 12px 16px;
+    border-top: 1px solid var(--ts-color-controls-divider);
+    background: var(--ts-color-bg);
+  }
+
   .ts-mobile-category__value {
     flex: 1 1 0;
     min-width: 0;

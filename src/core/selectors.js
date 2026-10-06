@@ -76,6 +76,8 @@ export const SEL = {
   categoryFilterFieldset: '.filter-section form > fieldset',
   categoryFilterCheckbox: ':scope > input[type="checkbox"]',
   categoryFilterLabel: ':scope > .filter-label',
+  categoryFilterReset: 'p#clear-filters',
+  categoryFilterResetLink: 'p#clear-filters a[href]',
   footerOnlinePayments: '.custom-footer__onlinePayments p',
   legacyEmptyCartScript: 'script[src*="timber-empty-cart.js"]',
 };

@@ -24,6 +24,62 @@
     background: transparent;
   }
 
+  .type-category .ts-mobile-category #filters {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  /* Apollo collapses with height:0/visibility:hidden but leaves overflow
+     visible. Hidden option rows then create a large, empty scroll tail.
+     Use the same native is-active state to remove only closed content. */
+  .type-category .ts-mobile-category #filters .filter-section:not(.is-active) > form,
+  .type-category .ts-mobile-category #filters .filter-section:not(.is-active) > .param-filter-top,
+  .type-category .ts-mobile-category #filters .slider-wrapper:not(.is-active) > .price-filter,
+  .type-category .ts-mobile-category #filters .slider-wrapper:not(.is-active) > .slider-header,
+  .type-category .ts-mobile-category #filters .slider-wrapper:not(.is-active) > .slider-content {
+    display: none;
+  }
+
+  .type-category .ts-mobile-category #clear-filters {
+    margin: 0;
+    padding: 0;
+  }
+
+  .type-category .ts-mobile-category #clear-filters a,
+  .type-category .ts-mobile-category #clear-filters a:hover,
+  .type-category .ts-mobile-category #clear-filters a:focus {
+    display: block;
+    margin: 0;
+    padding: 9px 8px;
+    border: 1px solid var(--ts-color-accent);
+    border-radius: var(--ts-radius);
+    background: var(--ts-color-bg);
+    color: var(--ts-color-controls-active);
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: none;
+  }
+
+  .type-category .ts-mobile-category #clear-filters::before,
+  .type-category .ts-mobile-category #clear-filters::after,
+  .type-category .ts-mobile-category #clear-filters a::before,
+  .type-category .ts-mobile-category #clear-filters a::after {
+    content: none;
+  }
+
+  .type-category .ts-mobile-category #clear-filters a:focus-visible {
+    outline: 2px solid var(--ts-color-accent);
+    outline-offset: -3px;
+  }
+
   /* One divider system instead of Apollo's inset ::before separators. */
   .type-category .ts-mobile-category #filters .ts-mobile-category__row::before {
     content: none;
