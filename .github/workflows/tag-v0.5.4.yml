@@ -1,0 +1,25 @@
+name: Tag v0.5.4
+
+on:
+  push:
+    branches:
+      - release/v0.5.4-tag
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Create tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git rev-parse v0.5.4 >/dev/null 2>&1; then exit 0; fi
+          git tag -a v0.5.4 -m "v0.5.4 — Hide category bestsellers on mobile"
+          git push origin v0.5.4
