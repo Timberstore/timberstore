@@ -2,6 +2,7 @@
 // filter/sort requests. Move the real nodes, never their forms or inputs.
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
+import { enhanceValues } from './values.js';
 
 const media = window.matchMedia('(max-width: 767px)');
 const CLOSED_ARROW = String.fromCodePoint(0xe900);
@@ -9,6 +10,29 @@ const OPEN_ARROW = String.fromCodePoint(0xe915);
 let state = null;
 let listening = false;
 let panel = null;
+const expandedValues = new Set();
+
+function resizePopup() {
+  if (!state || !panel) return;
+  const viewport = window.visualViewport;
+  const bottom = viewport ? viewport.offsetTop + viewport.height : window.innerHeight;
+  const available = Math.max(
+    120,
+    Math.min(
+      (viewport?.height || window.innerHeight) * 0.72,
+      bottom - state.root.getBoundingClientRect().bottom - 20,
+    ),
+  );
+  state.root.style.setProperty('--ts-mobile-category-max-height', `${Math.floor(available)}px`);
+}
+
+function closePanel(restoreFocus = false) {
+  if (!state || !panel) return;
+  const button = panel === 'filters' ? state.filterButton : state.sortButton;
+  panel = null;
+  sync();
+  if (restoreFocus) button.focus();
+}
 
 function move(node, host) {
   const marker = document.createComment('ts-mobile-category original position');
@@ -65,6 +89,7 @@ function button(name, label, controls) {
 
 function sync() {
   if (!state) return;
+  state.values.refresh();
   if (document.body.classList.contains(SEL.categoryFilterRowClass)) {
     document.body.classList.remove(SEL.categoryFilterRowClass);
   }
@@ -94,11 +119,13 @@ function sync() {
         String(group.classList.contains(SEL.categoryFilterActiveClass)),
       );
   }
+  resizePopup();
 }
 
 function dispose() {
   if (!state) return;
   state.observer.disconnect();
+  state.values.dispose();
   for (const [heading, handler] of state.apolloBindings) {
     window.jQuery(heading).off('click', handler);
   }
@@ -131,6 +158,7 @@ function refresh() {
   if (!media.matches) {
     dispose();
     panel = null;
+    expandedValues.clear();
     return;
   }
   const header = document.querySelector(SEL.categoryHeader);
@@ -188,6 +216,7 @@ function refresh() {
     sortMove: move(sorting, sortPanel),
     attributes: new Map(),
     apolloBindings: bindDesktopOriginAccordion(filters),
+    values: enhanceValues(filters, expandedValues),
   };
   wrapper.classList.add('ts-mobile-category-source');
   // Apollo's desktop row layout uses absolute dropdowns. Suspend that layout
@@ -210,22 +239,21 @@ function refresh() {
 
   root.addEventListener('click', (event) => {
     const trigger = event.target.closest('[data-ts-panel]');
+    const more = event.target.closest('.ts-mobile-category__more');
     if (trigger) {
       panel = panel === trigger.dataset.tsPanel ? null : trigger.dataset.tsPanel;
       sync();
+    } else if (more) {
+      state.values.toggle(more);
     } else if (event.target.closest(SEL.listSortingControl)) {
       // Let the original click bubble to Shoptet's request handler.
       panel = null;
       sync();
     }
   });
+  root.addEventListener('change', () => state.values.refresh());
   root.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
-      const active = panel === 'filters' ? filterButton : sortButton;
-      panel = null;
-      sync();
-      active.focus();
-    } else if (
+    if (
       ['Enter', ' '].includes(event.key) &&
       event.target.matches('.ts-mobile-category__heading')
     ) {
@@ -259,6 +287,19 @@ export default {
     if (!listening) {
       listening = true;
       media.addEventListener('change', refresh);
+      window.addEventListener('resize', resizePopup, { passive: true });
+      window.addEventListener('scroll', resizePopup, { passive: true });
+      window.visualViewport?.addEventListener('resize', resizePopup, { passive: true });
+      window.visualViewport?.addEventListener('scroll', resizePopup, { passive: true });
+      document.addEventListener('pointerdown', (event) => {
+        if (state && !state.root.contains(event.target)) closePanel();
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && panel) {
+          event.preventDefault();
+          closePanel(true);
+        }
+      });
     }
     // Run after Apollo's synchronous AJAX handlers, regardless of listener order.
     queueMicrotask(refresh);

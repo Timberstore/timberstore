@@ -4,6 +4,7 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Nevydáno
 
+- **Mobile popup polish** · Mobilné filtre a radenie sa otvárajú nad obsahom bez posunu produktov, so spoločným Timber vzhľadom a zatvorením klikom mimo/Escape. Celkový počet je centrovaný; natívne počty hodnôt sú vpravo bez zátvoriek. Dlhé zoznamy zobrazujú prvých 10 možností a všetky vybrané hodnoty, s ovládaním Zobraziť viac/menej zachovaným po AJAX.
 - **Mobile category controls** · Pod 768 px spoločný toolbar Filtrovať / aktuálne radenie, jeden panel a počet produktov pod ním. Používa pôvodné Apollo filtre a Shoptet radenie bez klonovania; desktopové umiestnenie sa obnovuje pri zmene breakpointu.
 - **Mobile filter styles** · Odstránené telefónne legacy farebné/focus pravidlá a desktopové pomocné prvky; jednotný biely panel, odsadenie a natívne Apollo šípky. Desktop a tablet od 768 px bez zmeny vzhľadu.
 

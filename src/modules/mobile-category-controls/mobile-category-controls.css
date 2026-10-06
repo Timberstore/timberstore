@@ -5,6 +5,8 @@
   }
 
   .type-category .ts-mobile-category {
+    position: relative;
+    z-index: var(--ts-z-controls);
     width: 100%;
     margin: 12px 0;
     color: var(--ts-color-controls-text);
@@ -41,6 +43,7 @@
   .ts-mobile-category__button[aria-expanded='true'] {
     background: var(--ts-color-controls-active-bg);
     border-color: var(--ts-color-accent);
+    color: var(--ts-color-controls-active);
   }
 
   .ts-mobile-category__label {
@@ -58,12 +61,46 @@
 
   .type-category .ts-mobile-category .ts-mobile-category__panel {
     width: 100%;
-    margin: 8px 0 0;
+    margin: 0;
     padding: 0;
     border: 1px solid var(--ts-color-controls-border);
     border-radius: var(--ts-radius-controls);
     background: var(--ts-color-bg);
-    box-shadow: none;
+    box-shadow: var(--ts-shadow-controls);
+    max-height: var(--ts-mobile-category-max-height, 70vh);
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+  }
+
+  .ts-mobile-category__slot {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    width: 100%;
+  }
+
+  .ts-mobile-category__value {
+    flex: 1 1 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .ts-mobile-category__more {
+    display: block;
+    width: 100%;
+    margin: 8px 0 0;
+    padding: 8px 0;
+    border: 0;
+    background: transparent;
+    color: var(--ts-color-controls-active);
+    font: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    cursor: pointer;
   }
 
   .type-category .ts-mobile-category [hidden] {
@@ -71,6 +108,7 @@
   }
 
   .type-category .ts-mobile-category__button:focus-visible,
+  .type-category .ts-mobile-category__more:focus-visible,
   .type-category .ts-mobile-category #filters .ts-mobile-category__heading:focus-visible,
   .type-category .ts-mobile-category .listSorting__control:focus-visible {
     outline: 2px solid var(--ts-color-accent);

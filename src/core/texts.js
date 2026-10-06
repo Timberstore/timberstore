@@ -27,6 +27,8 @@ export const TEXTS = {
   mobileCategory: {
     filter: 'Filtrovať',
     controls: 'Filtrovanie a radenie produktov',
+    more: 'Zobraziť viac',
+    less: 'Zobraziť menej',
   },
   homeCategories: {
     title: 'Najobľúbenejšie kategórie',

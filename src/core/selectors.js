@@ -73,6 +73,9 @@ export const SEL = {
   categoryFilterActiveClass: 'is-active',
   categoryFilterVisibleClass: 'visible',
   categoryFilterRowClass: 'row-filter',
+  categoryFilterFieldset: '.filter-section form > fieldset',
+  categoryFilterCheckbox: ':scope > input[type="checkbox"]',
+  categoryFilterLabel: ':scope > .filter-label',
   footerOnlinePayments: '.custom-footer__onlinePayments p',
   legacyEmptyCartScript: 'script[src*="timber-empty-cart.js"]',
 };
