@@ -117,7 +117,7 @@ function observeNativeFilter(root) {
   });
 }
 
-function build() {
+function build(filtersWrapper) {
   const root = document.createElement('section');
   root.className = ROOT_CLASS;
   root.setAttribute('aria-label', 'Radenie a filtrovanie produktov');
@@ -139,7 +139,13 @@ function build() {
   total.className = 'ts-mobile-category-controls__total';
   total.setAttribute('aria-live', 'polite');
 
-  root.append(row, menu, total);
+  root.append(row, menu);
+
+  const filterSlot = document.createElement('div');
+  filterSlot.className = 'ts-mobile-category-controls__filter-slot';
+  filterSlot.append(filtersWrapper);
+
+  root.append(filterSlot, total);
 
   root.addEventListener('click', (event) => {
     const filter = event.target.closest('.ts-mobile-category-controls__button--filter');
@@ -175,14 +181,25 @@ function build() {
 }
 
 function render() {
-  document.querySelectorAll(`.${ROOT_CLASS}`).forEach((el) => el.remove());
+  const existing = document.querySelector(`.${ROOT_CLASS}`);
+  let filters = document.querySelector(SEL.filtersWrapper);
+
+  // If a previous render already moved the native Apollo filter inside our toolbar,
+  // detach it before removing the toolbar so the native filter DOM is never destroyed.
+  if (existing && filters && existing.contains(filters)) {
+    existing.before(filters);
+  }
+
+  existing?.remove();
   if (!isMobile()) return;
 
-  const filters = document.querySelector(SEL.filtersWrapper);
+  filters = document.querySelector(SEL.filtersWrapper);
   if (!filters || !sortControls().length) return;
 
-  const root = build();
+  const root = build(filters);
   filters.before(root);
+  root.querySelector('.ts-mobile-category-controls__filter-slot')?.append(filters);
+
   observeNativeFilter(root);
   sync(root);
 }
