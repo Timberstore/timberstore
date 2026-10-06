@@ -18,132 +18,10 @@
 
 
 /* =========================================================
-   v0.5.5 · MOBILE CATEGORY CONTROLS
-   Keep Apollo's compact mobile layout, but align sorting and filters with the
-   Timber Store desktop palette: orange accent, warm neutral backgrounds, no
-   black active/focus borders.
+   v0.5.5 · MOBILE CATEGORY TOOLBAR
+   Two compact controls only. Internal Apollo filter UI remains native.
    ========================================================= */
 @media (max-width: 991px) {
-  /* Sorting chips: neutral by default, orange accent for the active option. */
-  body.type-category #category-header .listSorting__controls {
-    gap: 6px !important;
-  }
-
-  body.type-category #category-header .listSorting__controls > li {
-    background: transparent !important;
-    border: 0 !important;
-  }
-
-  body.type-category #category-header .listSorting__control {
-    background: #faf3eb !important;
-    background-color: #faf3eb !important;
-    border: 1px solid #eadfd2 !important;
-    border-radius: 10px !important;
-    box-shadow: none !important;
-    outline: none !important;
-    color: #7c7e8f !important;
-    font-weight: 700 !important;
-    transition:
-      color 0.16s ease,
-      background-color 0.16s ease,
-      border-color 0.16s ease,
-      box-shadow 0.16s ease !important;
-  }
-
-  body.type-category #category-header .listSorting__control--current {
-    background: #fff8f1 !important;
-    background-color: #fff8f1 !important;
-    border-color: #d4884a !important;
-    color: #c97a2b !important;
-    font-weight: 800 !important;
-    box-shadow: inset 0 -2px 0 #d4884a !important;
-  }
-
-  body.type-category #category-header .listSorting__control:focus,
-  body.type-category #category-header .listSorting__control:focus-visible,
-  body.type-category #category-header .listSorting__control:active {
-    outline: none !important;
-    border-color: #d4884a !important;
-    color: #c97a2b !important;
-    box-shadow: 0 0 0 2px rgba(212, 136, 74, 0.14) !important;
-  }
-
-  body.type-category #category-header .listSorting__control--current:focus,
-  body.type-category #category-header .listSorting__control--current:focus-visible,
-  body.type-category #category-header .listSorting__control--current:active {
-    box-shadow:
-      inset 0 -2px 0 #d4884a,
-      0 0 0 2px rgba(212, 136, 74, 0.14) !important;
-  }
-
-  /* "OTVORIŤ FILTER": same warm neutral card as desktop filter bar.
-     Explicitly override Apollo's dark active/focus state. */
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper a,
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper button,
-  body.type-category #filters .toggle-filters {
-    background: #faf3eb !important;
-    background-color: #faf3eb !important;
-    border: 1px solid #eadfd2 !important;
-    border-radius: 12px !important;
-    box-shadow: none !important;
-    outline: none !important;
-    color: #c97a2b !important;
-    font-weight: 800 !important;
-  }
-
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper a:hover,
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper button:hover,
-  body.type-category #filters .toggle-filters:hover,
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper a:focus,
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper button:focus,
-  body.type-category #filters .toggle-filters:focus,
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper a:focus-visible,
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper button:focus-visible,
-  body.type-category #filters .toggle-filters:focus-visible,
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper a:active,
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper button:active,
-  body.type-category #filters .toggle-filters:active,
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper a[aria-expanded='true'],
-  body.type-category #filters-wrapper .filters-unveil-button-wrapper button[aria-expanded='true'],
-  body.type-category #filters .toggle-filters[aria-expanded='true'] {
-    background: #fff8f1 !important;
-    background-color: #fff8f1 !important;
-    border-color: #d4884a !important;
-    color: #c97a2b !important;
-    outline: none !important;
-    box-shadow: 0 0 0 2px rgba(212, 136, 74, 0.12) !important;
-  }
-
-  /* Filter section headers: remove black focus/active outlines while preserving
-     a visible, accessible orange focus state. */
-  body.type-category #filters #category-filter-hover .slider-wrapper > h4,
-  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4 {
-    outline: none !important;
-    box-shadow: none !important;
-  }
-
-  body.type-category #filters #category-filter-hover .slider-wrapper.is-active > h4,
-  body.type-category #filters #category-filter-hover .filter-section.is-active > h4,
-  body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus,
-  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus,
-  body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus-visible,
-  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus-visible {
-    background: #fff8f1 !important;
-    border-color: #d4884a !important;
-    color: #c97a2b !important;
-    outline: none !important;
-    box-shadow: inset 3px 0 0 #d4884a !important;
-  }
-}
-
-
-/* =========================================================
-   v0.5.5 · MOBILE CATEGORY TOOLBAR — FINAL PREVIEW
-   Desktop-inspired typography, two clean dropdown controls and centered item count.
-   ========================================================= */
-@media (max-width: 991px) {
-  /* Hide Apollo's native mobile sorting chips and its original filter trigger.
-     They stay in the DOM and are used by our JS as the source of truth/actions. */
   body.type-category #category-header .listSorting,
   body.type-category #category-header .listItemsTotal,
   body.type-category #filters-wrapper .filters-unveil-button-wrapper {
@@ -167,9 +45,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    min-width: 0;
     min-height: 52px;
     width: 100%;
     padding: 0 42px 0 16px;
+    overflow: hidden;
     background: #fff;
     border: 1px solid #e5ddd2;
     border-radius: 12px;
@@ -198,6 +78,15 @@
     box-shadow: none;
   }
 
+  .ts-mobile-category-controls__button-text {
+    display: block;
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .ts-mobile-category-controls__chevron {
     position: absolute;
     right: 16px;
@@ -207,7 +96,9 @@
     border-right: 1.5px solid currentColor;
     border-bottom: 1.5px solid currentColor;
     transform: translateY(-65%) rotate(45deg);
-    transition: transform 0.16s ease;
+    transform-origin: 50% 50%;
+    transition: transform 0.18s ease;
+    pointer-events: none;
   }
 
   .ts-mobile-category-controls--sort-open
@@ -256,15 +147,14 @@
 
   .ts-mobile-category-controls__sort-option:hover,
   .ts-mobile-category-controls__sort-option:focus,
-  .ts-mobile-category-controls__sort-option:focus-visible {
+  .ts-mobile-category-controls__sort-option:focus-visible,
+  .ts-mobile-category-controls__sort-option--current {
     background: #fff8f1;
     color: #c97a2b;
     outline: none;
   }
 
   .ts-mobile-category-controls__sort-option--current {
-    background: #fff8f1;
-    color: #c97a2b;
     font-weight: 800;
   }
 
@@ -277,200 +167,23 @@
     font-weight: 500;
     text-align: center;
   }
-
-  /* Keep the opened Apollo filter content visually neutral.
-     No black bars/outlines — use the same Timber palette as the toolbar. */
-  body.type-category #filters .filter-headline,
-  body.type-category #filters .filter-section-button,
-  body.type-category #filters #category-filter-hover .slider-wrapper > h4,
-  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4 {
-    background: #fff !important;
-    border-color: #e5ddd2 !important;
-    color: #423e3e !important;
-    box-shadow: none !important;
-    outline: none !important;
-  }
-
-  body.type-category #filters #category-filter-hover .slider-wrapper.is-active > h4,
-  body.type-category #filters #category-filter-hover .filter-section.is-active > h4,
-  body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus,
-  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus,
-  body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus-visible,
-  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus-visible {
-    background: #fff8f1 !important;
-    border-color: #d4884a !important;
-    color: #c97a2b !important;
-    box-shadow: none !important;
-  }
 }
 
-
-/* =========================================================
-   v0.5.5 · MOBILE CATEGORY TOOLBAR — RESPONSIVE/FILTER FIXES
-   Fixes narrow iPhone layouts, inconsistent filter backgrounds and chevrons.
-   ========================================================= */
-@media (max-width: 991px) {
-  /* Narrow screens: reserve arrow space and keep the active sorting label readable. */
-  .ts-mobile-category-controls__button {
-    min-width: 0;
-    overflow: hidden;
+@media (max-width: 380px) {
+  .ts-mobile-category-controls__row {
+    gap: 8px;
   }
 
-  .ts-mobile-category-controls__button-text {
-    display: block;
-    min-width: 0;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  .ts-mobile-category-controls__button {
+    min-height: 50px;
+    padding-left: 12px;
+    padding-right: 34px;
+    font-size: 11px;
   }
 
   .ts-mobile-category-controls__chevron {
-    flex: 0 0 auto;
-    pointer-events: none;
-  }
-
-  @media (max-width: 380px) {
-    .ts-mobile-category-controls__row {
-      gap: 8px;
-    }
-
-    .ts-mobile-category-controls__button {
-      min-height: 50px;
-      padding-left: 13px;
-      padding-right: 36px;
-      font-size: 11.5px;
-    }
-
-    .ts-mobile-category-controls__chevron {
-      right: 13px;
-      width: 8px;
-      height: 8px;
-    }
-  }
-
-  /* Filter button arrow follows the real visibility of Apollo's native filter panel. */
-  .ts-mobile-category-controls--filter-open
-    .ts-mobile-category-controls__button--filter
-    .ts-mobile-category-controls__chevron {
-    transform: translateY(-30%) rotate(225deg);
-  }
-
-  /* Make the expanded Apollo filter one clean white panel instead of the mixed
-     beige/white strips visible on some category structures. */
-  body.type-category #filters-wrapper > .filters-wrapper,
-  body.type-category #filters,
-  body.type-category #filters > .filter-sections,
-  body.type-category #category-filter-hover {
-    width: 100% !important;
-    box-sizing: border-box !important;
-    background: #fff !important;
-    background-color: #fff !important;
-    border: 0 !important;
-    box-shadow: none !important;
-  }
-
-  body.type-category #filters {
-    margin-top: 10px !important;
-    padding: 0 !important;
-    border: 1px solid #e5ddd2 !important;
-    border-radius: 12px !important;
-    overflow: hidden !important;
-  }
-
-  body.type-category #category-filter-hover > .slider-wrapper,
-  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) {
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    background: #fff !important;
-    background-color: #fff !important;
-    border: 0 !important;
-    border-bottom: 1px solid #eee6dc !important;
-    box-shadow: none !important;
-  }
-
-  body.type-category #category-filter-hover > .slider-wrapper:last-child,
-  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count):last-child {
-    border-bottom: 0 !important;
-  }
-
-  /* Draw one predictable chevron ourselves. This removes Apollo's static/misaligned
-     mobile arrow and lets it rotate consistently on open/close. */
-  body.type-category #category-filter-hover > .slider-wrapper > h4,
-  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4 {
-    position: relative !important;
-    display: flex !important;
-    align-items: center !important;
-    min-height: 48px !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 44px 0 18px !important;
-    box-sizing: border-box !important;
-    background: #fff !important;
-    background-color: #fff !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    outline: none !important;
-    color: #423e3e !important;
-    font-size: 13px !important;
-    line-height: 1.2 !important;
-    font-weight: 800 !important;
-  }
-
-  body.type-category #category-filter-hover > .slider-wrapper > h4::before,
-  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4::before {
-    content: none !important;
-    display: none !important;
-  }
-
-  body.type-category #category-filter-hover > .slider-wrapper > h4::after,
-  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4::after {
-    content: '' !important;
-    position: absolute !important;
-    right: 18px !important;
-    top: 50% !important;
-    width: 8px !important;
-    height: 8px !important;
-    margin: -6px 0 0 !important;
-    padding: 0 !important;
-    background: transparent !important;
-    border: 0 !important;
-    border-right: 1.5px solid currentColor !important;
-    border-bottom: 1.5px solid currentColor !important;
-    transform: rotate(45deg) !important;
-    transform-origin: 50% 50% !important;
-    transition: transform 0.18s ease, margin-top 0.18s ease !important;
-    pointer-events: none !important;
-  }
-
-  body.type-category #category-filter-hover > .slider-wrapper > h4.ts-filter-heading-open::after,
-  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4.ts-filter-heading-open::after {
-    margin-top: -2px !important;
-    transform: rotate(225deg) !important;
-  }
-
-  /* Open header: very subtle Timber accent, still visually part of the same panel. */
-  body.type-category #category-filter-hover > .slider-wrapper > h4.ts-filter-heading-open,
-  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4.ts-filter-heading-open {
-    background: #fff8f1 !important;
-    color: #c97a2b !important;
-  }
-
-  /* Actual option panels may be white; remove side gutters/pseudo-card artifacts. */
-  body.type-category #category-filter-hover > .slider-wrapper > .price-filter,
-  body.type-category #category-filter-hover > .filter-section > form,
-  body.type-category #category-filter-hover > .filter-section > .param-filter-top {
-    width: 100% !important;
-    box-sizing: border-box !important;
-    margin: 0 !important;
-    padding-left: 18px !important;
-    padding-right: 18px !important;
-    background: #fff !important;
-    background-color: #fff !important;
-    border: 0 !important;
-    border-top: 1px solid #f1ebe4 !important;
-    box-shadow: none !important;
+    right: 12px;
+    width: 8px;
+    height: 8px;
   }
 }
