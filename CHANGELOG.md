@@ -4,6 +4,13 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Nevydáno
 
+## v0.5.5 · 2026-10-06 · Mobile category controls
+- **Mobilné radenie** · „Odporúčame“, „Najlacnejšie“, „Najdrahšie“, „Najpredávanejšie“ a „Abecedne“ používajú Timber Store paletu namiesto čierneho aktívneho stavu.
+- **Aktívne radenie** · Jemné krémové pozadie, oranžový text, oranžové orámovanie a spodný akcent; bez čierneho rámika.
+- **Mobilný filter** · Tlačidlo „Otvoriť filter“ a jeho otvorený/focus stav používajú teplé neutrálne pozadie a oranžový akcent namiesto čiernej.
+- **Filter položky** · Otvorené a focus stavy hlavičiek filtrov majú oranžové zvýraznenie; čierne focus/active orámovanie je odstránené.
+- **Apollo** · Zachované natívne mobilné rozloženie a funkčnosť, menia sa iba farby a interakčné stavy.
+
 ## v0.5.4 · 2026-10-06 · Mobile category bestsellers
 - **Mobil / tablet** · Natívny blok „Najpredávanejšie“ je pod 1200 px úplne skrytý, takže sa už nezobrazuje v hlavnom obsahu kategórie.
 - **Desktop** · Bez zmeny; kategóriové bestsellery zostávajú v ľavom sidebare od 1200 px vyššie.
