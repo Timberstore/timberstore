@@ -12,6 +12,7 @@ import menuCardClick from './modules/menu-card-click/index.js';
 import sidebarActivePath from './modules/sidebar-active-path/index.js';
 import productTextCleanup from './modules/product-text-cleanup/index.js';
 import categoryFilterCompact from './modules/category-filter-compact/index.js';
+import mobileCategoryControls from './modules/mobile-category-controls/index.js';
 import footerPayments from './modules/footer-payments/index.js';
 import emptyCart from './modules/empty-cart/index.js';
 
@@ -24,6 +25,7 @@ start([
   sidebarActivePath,
   productTextCleanup,
   categoryFilterCompact,
+  mobileCategoryControls,
   footerPayments,
   emptyCart,
   gallerySwipe,
