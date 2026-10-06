@@ -4,6 +4,9 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Nevydáno
 
+- **Mobile category controls** · Pod 768 px spoločný toolbar Filtrovať / aktuálne radenie, jeden panel a počet produktov pod ním. Používa pôvodné Apollo filtre a Shoptet radenie bez klonovania; desktopové umiestnenie sa obnovuje pri zmene breakpointu.
+- **Mobile filter styles** · Odstránené telefónne legacy farebné/focus pravidlá a desktopové pomocné prvky; jednotný biely panel, odsadenie a natívne Apollo šípky. Desktop a tablet od 768 px bez zmeny vzhľadu.
+
 ## v0.5.4 · 2026-10-06 · Mobile category bestsellers
 - **Mobil / tablet** · Natívny blok „Najpredávanejšie“ je pod 1200 px úplne skrytý, takže sa už nezobrazuje v hlavnom obsahu kategórie.
 - **Desktop** · Bez zmeny; kategóriové bestsellery zostávajú v ľavom sidebare od 1200 px vyššie.

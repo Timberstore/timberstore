@@ -1,0 +1,144 @@
+/* Apollo phone filter/sort presentation, scoped to the mobile controls module.
+ * Keep native accordion visibility and h4::after glyph states intact. */
+@media (max-width: 767px) {
+  .type-category .ts-mobile-category #filters,
+  .type-category .ts-mobile-category #filters .filter-sections,
+  .type-category .ts-mobile-category #category-filter-hover {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: var(--ts-radius-controls);
+    background: var(--ts-color-bg);
+    box-shadow: none;
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0 16px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  /* One divider system instead of Apollo's inset ::before separators. */
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row::before {
+    content: none;
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__heading {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 48px;
+    margin: 0;
+    padding: 14px 24px 14px 0;
+    border: 0;
+    border-bottom: 1px solid var(--ts-color-controls-divider);
+    border-radius: 0;
+    background: transparent;
+    color: var(--ts-color-controls-text);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: left;
+    text-transform: none;
+    cursor: pointer;
+  }
+
+  /* Keep Apollo's single icon and its native is-active glyph change. */
+  .type-category .ts-mobile-category #filters .ts-mobile-category__heading::after {
+    top: 50%;
+    right: 0;
+    color: var(--ts-color-controls-text);
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row > form,
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row > .param-filter-top {
+    position: static;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+
+  /* Apollo wraps price in .price-filter on pages first loaded as desktop. */
+  .type-category .ts-mobile-category #filters .slider-wrapper > .price-filter {
+    display: block;
+    position: static;
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  /* Price labels belong above the track, not absolutely over its handles. */
+  .type-category .ts-mobile-category #filters .slider-wrapper.is-active .slider-header {
+    position: static;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .type-category .ts-mobile-category #filters .filter-section-button,
+  .type-category .ts-mobile-category #filters .filter-section-count,
+  .type-category .ts-mobile-category #filters .filter-headline {
+    display: none;
+  }
+
+  .type-category .ts-mobile-category .listSorting,
+  .type-category .ts-mobile-category .listSorting__controls {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .type-category .ts-mobile-category .listSorting__controls {
+    display: block;
+    list-style: none;
+  }
+
+  .type-category .ts-mobile-category .listSorting__controls > li {
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .type-category .ts-mobile-category .listSorting__controls .listSorting__control {
+    display: block;
+    width: 100%;
+    min-height: 48px;
+    margin: 0;
+    padding: 14px 0;
+    border: 0;
+    border-bottom: 1px solid var(--ts-color-controls-divider);
+    border-radius: 0;
+    background: transparent;
+    color: var(--ts-color-controls-text);
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+    box-shadow: none;
+  }
+
+  .type-category .ts-mobile-category .listSorting__controls .listSorting__control--current {
+    color: var(--ts-color-accent);
+  }
+
+  .type-category .ts-mobile-category .listSorting__controls > li:last-child button {
+    border-bottom: 0;
+  }
+
+  .type-category #category-header .listItemsTotal {
+    width: 100%;
+    margin: 0 0 12px;
+    padding: 0;
+    text-align: left;
+  }
+}
