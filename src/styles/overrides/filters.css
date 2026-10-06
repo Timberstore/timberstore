@@ -135,3 +135,171 @@
     box-shadow: inset 3px 0 0 #d4884a !important;
   }
 }
+
+
+/* =========================================================
+   v0.5.5 · MOBILE CATEGORY TOOLBAR — FINAL PREVIEW
+   Desktop-inspired typography, two clean dropdown controls and centered item count.
+   ========================================================= */
+@media (max-width: 991px) {
+  /* Hide Apollo's native mobile sorting chips and its original filter trigger.
+     They stay in the DOM and are used by our JS as the source of truth/actions. */
+  body.type-category #category-header .listSorting,
+  body.type-category #category-header .listItemsTotal,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper {
+    display: none !important;
+  }
+
+  .ts-mobile-category-controls {
+    width: 100%;
+    margin: 16px 0 14px;
+    padding: 0;
+  }
+
+  .ts-mobile-category-controls__row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .ts-mobile-category-controls__button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 52px;
+    width: 100%;
+    padding: 0 42px 0 16px;
+    background: #fff;
+    border: 1px solid #e5ddd2;
+    border-radius: 12px;
+    box-shadow: none;
+    outline: none;
+    color: #423e3e;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .ts-mobile-category-controls__button:hover,
+  .ts-mobile-category-controls__button:focus,
+  .ts-mobile-category-controls__button:focus-visible,
+  .ts-mobile-category-controls__button:active,
+  .ts-mobile-category-controls__button.is-active,
+  .ts-mobile-category-controls--sort-open .ts-mobile-category-controls__button--sort {
+    background: #fff8f1;
+    border-color: #d4884a;
+    color: #c97a2b;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .ts-mobile-category-controls__chevron {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    width: 9px;
+    height: 9px;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: translateY(-65%) rotate(45deg);
+    transition: transform 0.16s ease;
+  }
+
+  .ts-mobile-category-controls--sort-open
+    .ts-mobile-category-controls__button--sort
+    .ts-mobile-category-controls__chevron,
+  .ts-mobile-category-controls__button--filter.is-active
+    .ts-mobile-category-controls__chevron {
+    transform: translateY(-30%) rotate(225deg);
+  }
+
+  .ts-mobile-category-controls__sort-menu {
+    display: none;
+    margin-top: 8px;
+    padding: 6px;
+    background: #fff;
+    border: 1px solid #e5ddd2;
+    border-radius: 12px;
+    box-shadow: 0 8px 22px rgba(66, 62, 62, 0.08);
+  }
+
+  .ts-mobile-category-controls--sort-open .ts-mobile-category-controls__sort-menu {
+    display: block;
+  }
+
+  .ts-mobile-category-controls__sort-option {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 44px;
+    margin: 0;
+    padding: 0 12px;
+    background: transparent;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: none;
+    outline: none;
+    color: #423e3e;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .ts-mobile-category-controls__sort-option:hover,
+  .ts-mobile-category-controls__sort-option:focus,
+  .ts-mobile-category-controls__sort-option:focus-visible {
+    background: #fff8f1;
+    color: #c97a2b;
+    outline: none;
+  }
+
+  .ts-mobile-category-controls__sort-option--current {
+    background: #fff8f1;
+    color: #c97a2b;
+    font-weight: 800;
+  }
+
+  .ts-mobile-category-controls__total {
+    min-height: 18px;
+    margin-top: 12px;
+    color: #7c7e8f;
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  /* Keep the opened Apollo filter content visually neutral.
+     No black bars/outlines — use the same Timber palette as the toolbar. */
+  body.type-category #filters .filter-headline,
+  body.type-category #filters .filter-section-button,
+  body.type-category #filters #category-filter-hover .slider-wrapper > h4,
+  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4 {
+    background: #fff !important;
+    border-color: #e5ddd2 !important;
+    color: #423e3e !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  body.type-category #filters #category-filter-hover .slider-wrapper.is-active > h4,
+  body.type-category #filters #category-filter-hover .filter-section.is-active > h4,
+  body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus,
+  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus,
+  body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus-visible,
+  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus-visible {
+    background: #fff8f1 !important;
+    border-color: #d4884a !important;
+    color: #c97a2b !important;
+    box-shadow: none !important;
+  }
+}
