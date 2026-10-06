@@ -15,3 +15,123 @@
     width: auto !important;
   }
 }
+
+
+/* =========================================================
+   v0.5.5 · MOBILE CATEGORY CONTROLS
+   Keep Apollo's compact mobile layout, but align sorting and filters with the
+   Timber Store desktop palette: orange accent, warm neutral backgrounds, no
+   black active/focus borders.
+   ========================================================= */
+@media (max-width: 991px) {
+  /* Sorting chips: neutral by default, orange accent for the active option. */
+  body.type-category #category-header .listSorting__controls {
+    gap: 6px !important;
+  }
+
+  body.type-category #category-header .listSorting__controls > li {
+    background: transparent !important;
+    border: 0 !important;
+  }
+
+  body.type-category #category-header .listSorting__control {
+    background: #faf3eb !important;
+    background-color: #faf3eb !important;
+    border: 1px solid #eadfd2 !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: #7c7e8f !important;
+    font-weight: 700 !important;
+    transition:
+      color 0.16s ease,
+      background-color 0.16s ease,
+      border-color 0.16s ease,
+      box-shadow 0.16s ease !important;
+  }
+
+  body.type-category #category-header .listSorting__control--current {
+    background: #fff8f1 !important;
+    background-color: #fff8f1 !important;
+    border-color: #d4884a !important;
+    color: #c97a2b !important;
+    font-weight: 800 !important;
+    box-shadow: inset 0 -2px 0 #d4884a !important;
+  }
+
+  body.type-category #category-header .listSorting__control:focus,
+  body.type-category #category-header .listSorting__control:focus-visible,
+  body.type-category #category-header .listSorting__control:active {
+    outline: none !important;
+    border-color: #d4884a !important;
+    color: #c97a2b !important;
+    box-shadow: 0 0 0 2px rgba(212, 136, 74, 0.14) !important;
+  }
+
+  body.type-category #category-header .listSorting__control--current:focus,
+  body.type-category #category-header .listSorting__control--current:focus-visible,
+  body.type-category #category-header .listSorting__control--current:active {
+    box-shadow:
+      inset 0 -2px 0 #d4884a,
+      0 0 0 2px rgba(212, 136, 74, 0.14) !important;
+  }
+
+  /* "OTVORIŤ FILTER": same warm neutral card as desktop filter bar.
+     Explicitly override Apollo's dark active/focus state. */
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper a,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper button,
+  body.type-category #filters .toggle-filters {
+    background: #faf3eb !important;
+    background-color: #faf3eb !important;
+    border: 1px solid #eadfd2 !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: #c97a2b !important;
+    font-weight: 800 !important;
+  }
+
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper a:hover,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper button:hover,
+  body.type-category #filters .toggle-filters:hover,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper a:focus,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper button:focus,
+  body.type-category #filters .toggle-filters:focus,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper a:focus-visible,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper button:focus-visible,
+  body.type-category #filters .toggle-filters:focus-visible,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper a:active,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper button:active,
+  body.type-category #filters .toggle-filters:active,
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper a[aria-expanded='true'],
+  body.type-category #filters-wrapper .filters-unveil-button-wrapper button[aria-expanded='true'],
+  body.type-category #filters .toggle-filters[aria-expanded='true'] {
+    background: #fff8f1 !important;
+    background-color: #fff8f1 !important;
+    border-color: #d4884a !important;
+    color: #c97a2b !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(212, 136, 74, 0.12) !important;
+  }
+
+  /* Filter section headers: remove black focus/active outlines while preserving
+     a visible, accessible orange focus state. */
+  body.type-category #filters #category-filter-hover .slider-wrapper > h4,
+  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4 {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  body.type-category #filters #category-filter-hover .slider-wrapper.is-active > h4,
+  body.type-category #filters #category-filter-hover .filter-section.is-active > h4,
+  body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus,
+  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus,
+  body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus-visible,
+  body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus-visible {
+    background: #fff8f1 !important;
+    border-color: #d4884a !important;
+    color: #c97a2b !important;
+    outline: none !important;
+    box-shadow: inset 3px 0 0 #d4884a !important;
+  }
+}
