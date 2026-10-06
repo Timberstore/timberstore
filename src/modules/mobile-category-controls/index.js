@@ -2,6 +2,8 @@ import { SEL } from '../../core/selectors.js';
 
 const ROOT_CLASS = 'ts-mobile-category-controls';
 const OPEN_CLASS = 'ts-mobile-category-controls--sort-open';
+const FILTER_OPEN_CLASS = 'ts-mobile-category-controls--filter-open';
+const FILTER_HEADING_OPEN = 'ts-filter-heading-open';
 
 function isMobile() {
   return window.matchMedia('(max-width: 991px)').matches;
@@ -63,6 +65,48 @@ function createSortMenu() {
   return menu;
 }
 
+function isElementVisible(element) {
+  if (!element) return false;
+  const style = window.getComputedStyle(element);
+  return style.display !== 'none' && style.visibility !== 'hidden' && element.offsetHeight > 0;
+}
+
+function nativeFiltersOpen() {
+  const filters = document.querySelector('#filters');
+  return isElementVisible(filters);
+}
+
+function filterItems() {
+  return [
+    ...document.querySelectorAll(
+      '#category-filter-hover > .slider-wrapper, #category-filter-hover > .filter-section:not(.filter-section-count)',
+    ),
+  ];
+}
+
+function syncFilterHeadings() {
+  filterItems().forEach((item) => {
+    const heading = item.querySelector(':scope > h4');
+    if (!heading) return;
+
+    const panel =
+      item.querySelector(':scope > form') ||
+      item.querySelector(':scope > .param-filter-top') ||
+      item.querySelector(':scope > .price-filter');
+
+    const open =
+      isElementVisible(panel) ||
+      item.classList.contains('is-active') ||
+      item.classList.contains('active') ||
+      item.classList.contains('open') ||
+      item.classList.contains('opened') ||
+      heading.getAttribute('aria-expanded') === 'true';
+
+    heading.classList.toggle(FILTER_HEADING_OPEN, open);
+    heading.setAttribute('aria-expanded', String(open));
+  });
+}
+
 function sync(root) {
   const sortText = root.querySelector(
     '.ts-mobile-category-controls__button--sort .ts-mobile-category-controls__button-text',
@@ -81,15 +125,14 @@ function sync(root) {
   const totalCopy = root.querySelector('.ts-mobile-category-controls__total');
   if (totalCopy) totalCopy.textContent = cleanLabel(total?.textContent);
 
-  const filterTrigger = document.querySelector(SEL.mobileFilterTrigger);
-  const expanded =
-    filterTrigger?.getAttribute('aria-expanded') === 'true' ||
-    filterTrigger?.classList.contains('active') ||
-    filterTrigger?.classList.contains('open');
-
+  const filterOpen = nativeFiltersOpen();
   const filterButton = root.querySelector('.ts-mobile-category-controls__button--filter');
-  filterButton?.classList.toggle('is-active', Boolean(expanded));
-  filterButton?.setAttribute('aria-expanded', String(Boolean(expanded)));
+
+  root.classList.toggle(FILTER_OPEN_CLASS, filterOpen);
+  filterButton?.classList.toggle('is-active', filterOpen);
+  filterButton?.setAttribute('aria-expanded', String(filterOpen));
+
+  syncFilterHeadings();
 }
 
 function closeSort(root) {
@@ -97,6 +140,18 @@ function closeSort(root) {
   root
     .querySelector('.ts-mobile-category-controls__button--sort')
     ?.setAttribute('aria-expanded', 'false');
+}
+
+function bindFilterHeadingSync() {
+  const hover = document.querySelector('#category-filter-hover');
+  if (!hover || hover.dataset.tsMobileHeadingSync === '1') return;
+
+  hover.dataset.tsMobileHeadingSync = '1';
+  hover.addEventListener('click', (event) => {
+    if (!event.target.closest('.slider-wrapper > h4, .filter-section > h4')) return;
+    setTimeout(syncFilterHeadings, 30);
+    setTimeout(syncFilterHeadings, 180);
+  });
 }
 
 function build() {
@@ -129,7 +184,8 @@ function build() {
       closeSort(root);
       const nativeTrigger = document.querySelector(SEL.mobileFilterTrigger);
       nativeTrigger?.click();
-      setTimeout(() => sync(root), 0);
+      setTimeout(() => sync(root), 30);
+      setTimeout(() => sync(root), 180);
       return;
     }
 
@@ -143,10 +199,13 @@ function build() {
 
     const option = event.target.closest('.ts-mobile-category-controls__sort-option');
     if (option) {
-      const native = sortControls().find((control) => (control.dataset.sort || '') === option.dataset.sort);
+      const native = sortControls().find(
+        (control) => (control.dataset.sort || '') === option.dataset.sort,
+      );
       closeSort(root);
       native?.click();
-      setTimeout(() => sync(root), 0);
+      setTimeout(() => sync(root), 30);
+      setTimeout(() => sync(root), 180);
     }
   });
 
@@ -162,6 +221,7 @@ function render() {
 
   const root = build();
   filters.before(root);
+  bindFilterHeadingSync();
   sync(root);
 }
 
