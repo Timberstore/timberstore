@@ -22,3 +22,210 @@
     padding-inline: var(--ts-listing-gutter);
   }
 }
+
+/* C3 · Technical catalogue hierarchy over the existing Apollo nodes. The image
+   and top product code retain Apollo's layout; named grid areas put stock and
+   prices before the four-line title, with the real cart form in a padded footer.
+   Flatten only visual wrappers, preserving forms, native controls and handlers.
+   !important below replaces legacy flex/height rules and the quantity module's
+   form gap; no selectors or styles apply in list mode or outside this listing. */
+@media (min-width: 992px) {
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related) {
+    --ts-card-name-lines: 4;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    > .product
+    > .p {
+    display: grid !important;
+    height: auto !important;
+    flex: 1 1 auto;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto minmax(0, 1fr) auto auto auto;
+    grid-template-areas: 'image' 'stock' 'prices' 'name' 'description' 'reviews' 'cart';
+    padding-bottom: var(--ts-card-bottom-pad);
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    :is(.p-in, .p-in-in, .p-bottom, .p-bottom > [data-micro='offer'], .p-tools) {
+    display: contents !important;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .p
+    > .image {
+    grid-area: image;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .availability {
+    grid-area: stock;
+    justify-self: center;
+    margin: 0 0 var(--ts-space-2);
+    text-align: center;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .prices {
+    grid-area: prices;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--ts-space-1);
+    margin: 0;
+    text-align: center;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .price-final {
+    order: -1;
+    white-space: nowrap;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .price-final
+    strong {
+    font-size: var(--ts-card-price-size);
+    line-height: 1.2;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .price-additional {
+    margin: 0;
+    font-size: 13px;
+    color: var(--ts-color-count-text);
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .name {
+    grid-area: name;
+    align-self: center;
+    text-align: center;
+    margin-top: var(--ts-space-3);
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .p-desc {
+    grid-area: description;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .ratings-wrapper {
+    grid-area: reviews;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .product-btn {
+    grid-area: cart;
+    position: static;
+    align-self: end;
+    margin-top: var(--ts-space-2);
+    width: auto;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .product-btn
+    form.pr-action:has(> .ts-qty) {
+    gap: var(--ts-space-3) !important;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .product-btn
+    .btn-cart {
+    width: var(--ts-card-cart-size);
+    min-width: var(--ts-card-cart-size);
+    max-width: var(--ts-card-cart-size);
+    height: var(--ts-card-cart-size);
+    min-height: var(--ts-card-cart-size);
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    background: var(--ts-color-accent);
+    color: var(--ts-color-bg);
+    font-size: 0;
+    justify-content: center;
+  }
+
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .product-btn
+    .btn-cart
+    > span:not(.ts-cart-count) {
+    display: none;
+  }
+
+  /* Apollo's single existing cart glyph. Keep the button's native aria-label. */
+  html:not(.ts-view-list)
+    .type-category
+    #content
+    > .category-content-wrapper
+    > #products.products-block:not(.products-related)
+    .product-btn
+    .btn-cart::after {
+    margin: 0;
+    font-size: 22px;
+  }
+}

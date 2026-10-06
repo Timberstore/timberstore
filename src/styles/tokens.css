@@ -16,6 +16,10 @@
   --ts-listing-tab-pad: 15px;
   --ts-listing-tab-pad-compact: 8px;
   --ts-listing-tab-line: 2px;
+  --ts-card-name-lines: 3;
+  --ts-card-price-size: 26px;
+  --ts-card-bottom-pad: 24px;
+  --ts-card-cart-size: 44px;
 
   --ts-color-count-bg: #faf8f5;
   --ts-color-count-text: #7c7e8f;
