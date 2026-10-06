@@ -187,3 +187,180 @@
     height: 8px;
   }
 }
+
+
+/* =========================================================
+   v0.5.5 · MOBILE FILTER PANEL — CLEAN APOLLO LAYOUT
+   Native Apollo logic, but positioned directly under the toolbar and visually
+   simplified to a single clean list like the reference implementation.
+   ========================================================= */
+@media (max-width: 991px) {
+  .ts-mobile-category-controls__filter-slot {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .ts-mobile-category-controls__filter-slot #filters-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .ts-mobile-category-controls__filter-slot #filters-wrapper > .filters-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .ts-mobile-category-controls__filter-slot #filters {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    border: 1px solid #e5ddd2 !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+    overflow: hidden !important;
+  }
+
+  .ts-mobile-category-controls__filter-slot #filters > .filter-sections {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  /* Our top button already says FILTROVAŤ; hide duplicate Apollo mobile headers. */
+  .ts-mobile-category-controls__filter-slot #filters .filter-headline,
+  .ts-mobile-category-controls__filter-slot #filters .filter-section-button,
+  .ts-mobile-category-controls__filter-slot #category-filter-hover > .filter-section-count {
+    display: none !important;
+  }
+
+  .ts-mobile-category-controls__filter-slot #category-filter-hover {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .ts-mobile-category-controls__filter-slot #category-filter-hover > .slider-wrapper,
+  .ts-mobile-category-controls__filter-slot
+    #category-filter-hover
+    > .filter-section:not(.filter-section-count) {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    border: 0 !important;
+    border-bottom: 1px solid #ece7e1 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .ts-mobile-category-controls__filter-slot
+    #category-filter-hover
+    > .slider-wrapper:last-child,
+  .ts-mobile-category-controls__filter-slot
+    #category-filter-hover
+    > .filter-section:not(.filter-section-count):last-child {
+    border-bottom: 0 !important;
+  }
+
+  /* Keep Apollo's own arrow/pseudo-element and click behaviour.
+     Only normalize the row itself; no custom arrows here. */
+  .ts-mobile-category-controls__filter-slot #category-filter-hover > .slider-wrapper > h4,
+  .ts-mobile-category-controls__filter-slot
+    #category-filter-hover
+    > .filter-section:not(.filter-section-count)
+    > h4 {
+    min-height: 52px !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background: #fff !important;
+    background-color: #fff !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: #2f2d2d !important;
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+    font-weight: 600 !important;
+  }
+
+  /* Remove the old Timber orange active/focus skin from inner filters. */
+  .ts-mobile-category-controls__filter-slot
+    #category-filter-hover
+    > .slider-wrapper.is-active
+    > h4,
+  .ts-mobile-category-controls__filter-slot
+    #category-filter-hover
+    > .filter-section.is-active
+    > h4,
+  .ts-mobile-category-controls__filter-slot
+    #category-filter-hover
+    > .slider-wrapper
+    > h4:focus,
+  .ts-mobile-category-controls__filter-slot
+    #category-filter-hover
+    > .filter-section:not(.filter-section-count)
+    > h4:focus {
+    background: #fff !important;
+    background-color: #fff !important;
+    color: #2f2d2d !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  /* Expanded option content stays aligned with the parent row, without beige strips. */
+  .ts-mobile-category-controls__filter-slot #category-filter-hover > .slider-wrapper > .price-filter,
+  .ts-mobile-category-controls__filter-slot #category-filter-hover > .filter-section > form,
+  .ts-mobile-category-controls__filter-slot
+    #category-filter-hover
+    > .filter-section
+    > .param-filter-top {
+    width: 100% !important;
+    margin: 0 !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    box-sizing: border-box !important;
+    background: #fff !important;
+    background-color: #fff !important;
+    border: 0 !important;
+    border-top: 1px solid #f0ece7 !important;
+    box-shadow: none !important;
+  }
+
+  /* Reference-like neutral checkbox accent. */
+  .ts-mobile-category-controls__filter-slot #filters input[type='checkbox'] {
+    accent-color: #111 !important;
+  }
+
+  .ts-mobile-category-controls__filter-slot
+    #filters
+    input[type='checkbox']:checked
+    + .filter-label {
+    color: #2f2d2d !important;
+    font-weight: 600 !important;
+  }
+
+  /* Item count now follows the toolbar/filter block and is left aligned. */
+  .ts-mobile-category-controls__total {
+    margin-top: 10px;
+    text-align: left;
+    color: #7c7e8f;
+  }
+}
