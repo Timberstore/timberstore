@@ -303,3 +303,174 @@
     box-shadow: none !important;
   }
 }
+
+
+/* =========================================================
+   v0.5.5 · MOBILE CATEGORY TOOLBAR — RESPONSIVE/FILTER FIXES
+   Fixes narrow iPhone layouts, inconsistent filter backgrounds and chevrons.
+   ========================================================= */
+@media (max-width: 991px) {
+  /* Narrow screens: reserve arrow space and keep the active sorting label readable. */
+  .ts-mobile-category-controls__button {
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .ts-mobile-category-controls__button-text {
+    display: block;
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ts-mobile-category-controls__chevron {
+    flex: 0 0 auto;
+    pointer-events: none;
+  }
+
+  @media (max-width: 380px) {
+    .ts-mobile-category-controls__row {
+      gap: 8px;
+    }
+
+    .ts-mobile-category-controls__button {
+      min-height: 50px;
+      padding-left: 13px;
+      padding-right: 36px;
+      font-size: 11.5px;
+    }
+
+    .ts-mobile-category-controls__chevron {
+      right: 13px;
+      width: 8px;
+      height: 8px;
+    }
+  }
+
+  /* Filter button arrow follows the real visibility of Apollo's native filter panel. */
+  .ts-mobile-category-controls--filter-open
+    .ts-mobile-category-controls__button--filter
+    .ts-mobile-category-controls__chevron {
+    transform: translateY(-30%) rotate(225deg);
+  }
+
+  /* Make the expanded Apollo filter one clean white panel instead of the mixed
+     beige/white strips visible on some category structures. */
+  body.type-category #filters-wrapper > .filters-wrapper,
+  body.type-category #filters,
+  body.type-category #filters > .filter-sections,
+  body.type-category #category-filter-hover {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    background: #fff !important;
+    background-color: #fff !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  body.type-category #filters {
+    margin-top: 10px !important;
+    padding: 0 !important;
+    border: 1px solid #e5ddd2 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+  }
+
+  body.type-category #category-filter-hover > .slider-wrapper,
+  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    background-color: #fff !important;
+    border: 0 !important;
+    border-bottom: 1px solid #eee6dc !important;
+    box-shadow: none !important;
+  }
+
+  body.type-category #category-filter-hover > .slider-wrapper:last-child,
+  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count):last-child {
+    border-bottom: 0 !important;
+  }
+
+  /* Draw one predictable chevron ourselves. This removes Apollo's static/misaligned
+     mobile arrow and lets it rotate consistently on open/close. */
+  body.type-category #category-filter-hover > .slider-wrapper > h4,
+  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4 {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    min-height: 48px !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 44px 0 18px !important;
+    box-sizing: border-box !important;
+    background: #fff !important;
+    background-color: #fff !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: #423e3e !important;
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+    font-weight: 800 !important;
+  }
+
+  body.type-category #category-filter-hover > .slider-wrapper > h4::before,
+  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4::before {
+    content: none !important;
+    display: none !important;
+  }
+
+  body.type-category #category-filter-hover > .slider-wrapper > h4::after,
+  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4::after {
+    content: '' !important;
+    position: absolute !important;
+    right: 18px !important;
+    top: 50% !important;
+    width: 8px !important;
+    height: 8px !important;
+    margin: -6px 0 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-right: 1.5px solid currentColor !important;
+    border-bottom: 1.5px solid currentColor !important;
+    transform: rotate(45deg) !important;
+    transform-origin: 50% 50% !important;
+    transition: transform 0.18s ease, margin-top 0.18s ease !important;
+    pointer-events: none !important;
+  }
+
+  body.type-category #category-filter-hover > .slider-wrapper > h4.ts-filter-heading-open::after,
+  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4.ts-filter-heading-open::after {
+    margin-top: -2px !important;
+    transform: rotate(225deg) !important;
+  }
+
+  /* Open header: very subtle Timber accent, still visually part of the same panel. */
+  body.type-category #category-filter-hover > .slider-wrapper > h4.ts-filter-heading-open,
+  body.type-category #category-filter-hover > .filter-section:not(.filter-section-count) > h4.ts-filter-heading-open {
+    background: #fff8f1 !important;
+    color: #c97a2b !important;
+  }
+
+  /* Actual option panels may be white; remove side gutters/pseudo-card artifacts. */
+  body.type-category #category-filter-hover > .slider-wrapper > .price-filter,
+  body.type-category #category-filter-hover > .filter-section > form,
+  body.type-category #category-filter-hover > .filter-section > .param-filter-top {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    background: #fff !important;
+    background-color: #fff !important;
+    border: 0 !important;
+    border-top: 1px solid #f1ebe4 !important;
+    box-shadow: none !important;
+  }
+}
