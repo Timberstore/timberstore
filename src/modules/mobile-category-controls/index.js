@@ -1,9 +1,7 @@
 import { SEL } from '../../core/selectors.js';
 
 const ROOT_CLASS = 'ts-mobile-category-controls';
-const OPEN_CLASS = 'ts-mobile-category-controls--sort-open';
-const FILTER_OPEN_CLASS = 'ts-mobile-category-controls--filter-open';
-const FILTER_HEADING_OPEN = 'ts-filter-heading-open';
+const SORT_OPEN_CLASS = 'ts-mobile-category-controls--sort-open';
 
 function isMobile() {
   return window.matchMedia('(max-width: 991px)').matches;
@@ -23,6 +21,13 @@ function cleanLabel(value) {
 
 function currentSortLabel() {
   return cleanLabel(currentSortControl()?.textContent) || 'Odporúčame';
+}
+
+function nativeFiltersOpen() {
+  const filters = document.querySelector('#filters');
+  if (!filters) return false;
+  const style = window.getComputedStyle(filters);
+  return style.display !== 'none' && style.visibility !== 'hidden' && filters.offsetHeight > 0;
 }
 
 function createChevron() {
@@ -65,48 +70,6 @@ function createSortMenu() {
   return menu;
 }
 
-function isElementVisible(element) {
-  if (!element) return false;
-  const style = window.getComputedStyle(element);
-  return style.display !== 'none' && style.visibility !== 'hidden' && element.offsetHeight > 0;
-}
-
-function nativeFiltersOpen() {
-  const filters = document.querySelector('#filters');
-  return isElementVisible(filters);
-}
-
-function filterItems() {
-  return [
-    ...document.querySelectorAll(
-      '#category-filter-hover > .slider-wrapper, #category-filter-hover > .filter-section:not(.filter-section-count)',
-    ),
-  ];
-}
-
-function syncFilterHeadings() {
-  filterItems().forEach((item) => {
-    const heading = item.querySelector(':scope > h4');
-    if (!heading) return;
-
-    const panel =
-      item.querySelector(':scope > form') ||
-      item.querySelector(':scope > .param-filter-top') ||
-      item.querySelector(':scope > .price-filter');
-
-    const open =
-      isElementVisible(panel) ||
-      item.classList.contains('is-active') ||
-      item.classList.contains('active') ||
-      item.classList.contains('open') ||
-      item.classList.contains('opened') ||
-      heading.getAttribute('aria-expanded') === 'true';
-
-    heading.classList.toggle(FILTER_HEADING_OPEN, open);
-    heading.setAttribute('aria-expanded', String(open));
-  });
-}
-
 function sync(root) {
   const sortText = root.querySelector(
     '.ts-mobile-category-controls__button--sort .ts-mobile-category-controls__button-text',
@@ -125,32 +88,32 @@ function sync(root) {
   const totalCopy = root.querySelector('.ts-mobile-category-controls__total');
   if (totalCopy) totalCopy.textContent = cleanLabel(total?.textContent);
 
-  const filterOpen = nativeFiltersOpen();
   const filterButton = root.querySelector('.ts-mobile-category-controls__button--filter');
-
-  root.classList.toggle(FILTER_OPEN_CLASS, filterOpen);
-  filterButton?.classList.toggle('is-active', filterOpen);
-  filterButton?.setAttribute('aria-expanded', String(filterOpen));
-
-  syncFilterHeadings();
+  const open = nativeFiltersOpen();
+  filterButton?.classList.toggle('is-active', open);
+  filterButton?.setAttribute('aria-expanded', String(open));
 }
 
 function closeSort(root) {
-  root.classList.remove(OPEN_CLASS);
+  root.classList.remove(SORT_OPEN_CLASS);
   root
     .querySelector('.ts-mobile-category-controls__button--sort')
     ?.setAttribute('aria-expanded', 'false');
 }
 
-function bindFilterHeadingSync() {
-  const hover = document.querySelector('#category-filter-hover');
-  if (!hover || hover.dataset.tsMobileHeadingSync === '1') return;
+function observeNativeFilter(root) {
+  const filters = document.querySelector('#filters');
+  if (!filters || filters.dataset.tsMobileFilterObserved === '1') return;
 
-  hover.dataset.tsMobileHeadingSync = '1';
-  hover.addEventListener('click', (event) => {
-    if (!event.target.closest('.slider-wrapper > h4, .filter-section > h4')) return;
-    setTimeout(syncFilterHeadings, 30);
-    setTimeout(syncFilterHeadings, 180);
+  filters.dataset.tsMobileFilterObserved = '1';
+
+  const observer = new MutationObserver(() => {
+    requestAnimationFrame(() => sync(root));
+  });
+
+  observer.observe(filters, {
+    attributes: true,
+    attributeFilter: ['class', 'style', 'aria-hidden'],
   });
 }
 
@@ -182,8 +145,7 @@ function build() {
     const filter = event.target.closest('.ts-mobile-category-controls__button--filter');
     if (filter) {
       closeSort(root);
-      const nativeTrigger = document.querySelector(SEL.mobileFilterTrigger);
-      nativeTrigger?.click();
+      document.querySelector(SEL.mobileFilterTrigger)?.click();
       setTimeout(() => sync(root), 30);
       setTimeout(() => sync(root), 180);
       return;
@@ -191,8 +153,8 @@ function build() {
 
     const sort = event.target.closest('.ts-mobile-category-controls__button--sort');
     if (sort) {
-      const open = !root.classList.contains(OPEN_CLASS);
-      root.classList.toggle(OPEN_CLASS, open);
+      const open = !root.classList.contains(SORT_OPEN_CLASS);
+      root.classList.toggle(SORT_OPEN_CLASS, open);
       sort.setAttribute('aria-expanded', String(open));
       return;
     }
@@ -221,7 +183,7 @@ function render() {
 
   const root = build();
   filters.before(root);
-  bindFilterHeadingSync();
+  observeNativeFilter(root);
   sync(root);
 }
 
