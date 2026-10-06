@@ -63,6 +63,21 @@ export const SEL = {
   categoryFilterBar: '#category-filter-hover',
   categoryFilterItem: '.slider-wrapper, .filter-section:not(.filter-section-count)',
   categoryFilterHeading: ':scope > h4',
+  // Mobile Apollo keeps price/availability outside #category-filter-hover.
+  categoryHeader: '#category-header',
+  categoryFilters: '#filters',
+  categoryFiltersWrapper: '#filters-wrapper',
+  categoryFiltersInnerWrapper: '.filters-wrapper',
+  categoryFilterGroup:
+    '.slider-wrapper, .filter-section:not(.filter-section-count):not(.filter-section-button)',
+  categoryFilterActiveClass: 'is-active',
+  categoryFilterVisibleClass: 'visible',
+  categoryFilterRowClass: 'row-filter',
+  categoryFilterFieldset: '.filter-section form > fieldset',
+  categoryFilterCheckbox: ':scope > input[type="checkbox"]',
+  categoryFilterLabel: ':scope > .filter-label',
+  categoryFilterReset: 'p#clear-filters',
+  categoryFilterResetLink: 'p#clear-filters a[href]',
   footerOnlinePayments: '.custom-footer__onlinePayments p',
   legacyEmptyCartScript: 'script[src*="timber-empty-cart.js"]',
 };

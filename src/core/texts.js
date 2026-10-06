@@ -24,6 +24,13 @@ export const TEXTS = {
     more: 'Ďalšie',
     less: 'Menej',
   },
+  mobileCategory: {
+    filter: 'Filtrovať',
+    controls: 'Filtrovanie a radenie produktov',
+    more: 'Zobraziť viac',
+    less: 'Zobraziť menej',
+    reset: 'Zrušiť všetky filtre',
+  },
   homeCategories: {
     title: 'Najobľúbenejšie kategórie',
     saleTitleNeedle: 'akciový tovar',

@@ -12,6 +12,7 @@
 @import './modules/cart-count/cart-count.css';
 @import './modules/category-bestsellers-sidebar/category-bestsellers-sidebar.css';
 @import './modules/homepage-categories/homepage-categories.css';
+@import './modules/mobile-category-controls/mobile-category-controls.css';
 
 /* Shoptet overrides (one file per component) */
 @import './styles/overrides/top-bar.css';
@@ -22,6 +23,7 @@
 @import './styles/overrides/sidebar.css';
 @import './styles/overrides/subcategories.css';
 @import './styles/overrides/filters.css';
+@import './styles/overrides/mobile-category-controls.css';
 @import './styles/overrides/product-card.css';
 @import './styles/overrides/product-detail.css';
 @import './styles/overrides/checkout.css';

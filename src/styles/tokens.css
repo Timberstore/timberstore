@@ -4,6 +4,17 @@
   --ts-color-text: #0f0f0f;
   --ts-color-muted: #818394; /* Shoptet's secondary text (e.g. back links) */
   --ts-color-bg: #fff;
+  --ts-color-controls-text: #423e3e;
+  --ts-color-controls-border: #e5ddd2;
+  --ts-color-controls-divider: #e9e1d8;
+  --ts-color-controls-active-bg: #fff8f1;
+  --ts-color-controls-active: #c97a2b;
+  --ts-color-count-bg: #faf8f5;
+  --ts-color-count-text: #7c7e8f;
+  --ts-radius-count: 5px;
+  --ts-radius-controls: 12px;
+  --ts-shadow-controls: 0 8px 24px rgb(66 62 62 / 12%);
+  --ts-z-controls: 50;
   --ts-shadow-text-on-photo: 0 1px 2px rgb(0 0 0 / 45%), 0 0 14px rgb(0 0 0 / 35%);
 
   /* C3 product table + view switch + quantity (values from the client's design) */

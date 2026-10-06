@@ -1928,10 +1928,10 @@ h1[itemprop="name"],
     }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
-    /* Mobil: zachovávame pôvodné Apollo rozloženie a funkciu filtrov.
-       Meníme iba Timber Store farebnosť interakcií. */
+    /* Tablet: zachovávame pôvodné Apollo rozloženie a funkciu filtrov.
+       Telefóny pod 768 px rieši samostatný mobile-category-controls modul. */
 
     body.type-category #filters-wrapper {
         margin-top: 14px !important;

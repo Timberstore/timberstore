@@ -105,6 +105,17 @@ function refresh() {
   const bar = getBar();
   if (!bar) return;
 
+  // Phone controls own their layout. Do not append hidden desktop helpers:
+  // Apollo's mobile last-row radius depends on the native child order.
+  if (window.innerWidth < 768) {
+    bar.querySelector(':scope > .timber-filter-more')?.remove();
+    bar.querySelector(':scope > .timber-filter-break')?.remove();
+    bar.classList.remove('timber-filter-expanded');
+    getItems(bar).forEach((item) => item.classList.remove('timber-filter-overflow'));
+    expandedState = false;
+    return;
+  }
+
   const { button } = ensureControls(bar);
   const items = getItems(bar);
 

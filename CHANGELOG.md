@@ -2,7 +2,18 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
-## Nevydáno
+## v0.5.5 · 2026-10-06 · Mobile category controls
+
+- **Mobilné ovládanie** · Samostatný modul `mobile-category-controls` iba pod Apollo breakpointom 768 px. Dva rovnocenné horné buttony FILTROVAŤ / aktuálne RADENIE; dropdown piatich možností nahrádza pôvodné sorting chipy. Pôvodné Shoptet/Apollo sorting tlačidlá a ich natívna AJAX logika zostávajú zdrojom pravdy.
+- **Filter popup / overlay** · Celý existujúci `#filters` sa presúva bez klonovania checkboxov, formulárov alebo slidera do spoločnej oblasti pod toolbarom. Naraz je otvorený iba filter alebo radenie. Absolute overlay neposúva produkty ani nemení výšku dokumentu; pôvodný wrapper nezaberá miesto. Dlhý obsah scrolluje vo vnútri panela a zatvorené accordiony nevytvárajú prázdny scrollovací priestor.
+- **Timber Store vzhľad** · Zjednotené fonty, rozmery buttonov, biele panely, jemné Timber bordery, radius 12 px a tieň. Odstránené čierne active/focus/hover stavy radenia a konfliktné telefónne legacy štýly. Tmavý text, Timber oranžová a jemné aktívne pozadia; Cena, Dostupnosť, Značky a parametre majú rovnakú geometriu. Zachovaná jedna natívna Apollo šípka `h4::after` a natívny stav `is-active`; otvorenie sa neodvodzuje od focusu.
+- **Dlhé zoznamy** · Prvých 10 hodnôt a ovládanie Zobraziť viac / Zobraziť menej. Vybrané hodnoty zostávajú viditeľné aj mimo prvých desiatich; rozbalenie sa zachováva po AJAX prekreslení.
+- **Počty produktov** · Celkový počet pod toolbarom je centrovaná sekundárna informácia. Počty pri jednotlivých hodnotách sú vpravo v jednom stĺpci, bez zátvoriek a bez „ks“. Jemný neutrálny count badge má min. 32 × 23 px, radius 5 px, centrovaný sivý text a pozadie #FAF8F5; väčšie čísla ho prirodzene rozšíria.
+- **Reset filtrov** · ZRUŠIŤ VŠETKY FILTRE používa pôvodný Shoptet reset odkaz a jeho natívnu AJAX akciu. Zruší cenu, dostupnosť, značky a parametre naraz, obnoví výpis a zachová aktuálne radenie. Sekundárna spodná lišta zostáva dostupná mimo scrollujúceho obsahu a zobrazuje sa iba pri aktívnych filtroch; reset synchronizuje UI a zatvorí popup.
+- **Responzivita / iPhone SE** · Overené šírky 320 / 375 / 390 / 414 px v Chromium mobilnej emulácii, vrátane viewportu 320 × 568. Dlhé „Najpredávanejšie“ používa ellipsis a neprekrýva šípku; popup nepretečie vodorovne. Badge overené pre 1–4 číslice. Reálny iOS Safari nebol v cloud prostredí testovaný.
+- **AJAX / accessibility** · Idempotentná inicializácia po filtrovaní, radení a načítaní ďalších produktov, bez násobenia listenerov. Zachované natívne Apollo accordiony, doplnené ARIA stavy, klávesnicové ovládanie, Escape a zatvorenie klikom mimo popupu.
+- **Desktop bez regresie** · Mobilné štýly sú obmedzené pod 768 px; desktopové a tabletové pravidlá zostávajú zachované. Pri návrate na desktop sa obnoví pôvodné umiestnenie natívnych DOM uzlov, reset odkaz aj Apollo handlery. Porovnania na 768 / 992 / 1200 / 1440 px a opakované prechody desktop ↔ mobil prešli.
+- **Overenie / schválenie** · Natívne radenie, Cena, Dostupnosť, Značky, Farba, Rozteč úchytiek, dlhé zoznamy, vybrané hodnoty, AJAX reset aj nemenný scrollHeight overené na živom Apollo DOM. Finálne preview `eb92414179bdf447120e44e596ed0bc786fa48a8` schválené používateľom. Lint a build prešli; gzip rozpočty JS ≤ 30 kB / CSS ≤ 15 kB splnené. Nové PageSpeed meranie sa nevykonávalo.
 
 ## v0.5.4 · 2026-10-06 · Mobile category bestsellers
 - **Mobil / tablet** · Natívny blok „Najpredávanejšie“ je pod 1200 px úplne skrytý, takže sa už nezobrazuje v hlavnom obsahu kategórie.

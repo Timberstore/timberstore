@@ -1,0 +1,315 @@
+/* Apollo phone filter/sort presentation, scoped to the mobile controls module.
+ * Keep native accordion visibility and h4::after glyph states intact. */
+@media (max-width: 767px) {
+  .type-category .ts-mobile-category #filters,
+  .type-category .ts-mobile-category #filters .filter-sections,
+  .type-category .ts-mobile-category #category-filter-hover {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: var(--ts-radius-controls);
+    background: var(--ts-color-bg);
+    box-shadow: none;
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0 16px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .type-category .ts-mobile-category #filters {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  /* Apollo collapses with height:0/visibility:hidden but leaves overflow
+     visible. Hidden option rows then create a large, empty scroll tail.
+     Use the same native is-active state to remove only closed content. */
+  .type-category .ts-mobile-category #filters .filter-section:not(.is-active) > form,
+  .type-category .ts-mobile-category #filters .filter-section:not(.is-active) > .param-filter-top,
+  .type-category .ts-mobile-category #filters .slider-wrapper:not(.is-active) > .price-filter,
+  .type-category .ts-mobile-category #filters .slider-wrapper:not(.is-active) > .slider-header,
+  .type-category .ts-mobile-category #filters .slider-wrapper:not(.is-active) > .slider-content {
+    display: none;
+  }
+
+  .type-category .ts-mobile-category #clear-filters {
+    margin: 0;
+    padding: 0;
+  }
+
+  .type-category .ts-mobile-category #clear-filters a,
+  .type-category .ts-mobile-category #clear-filters a:hover,
+  .type-category .ts-mobile-category #clear-filters a:focus {
+    display: block;
+    margin: 0;
+    padding: 9px 8px;
+    border: 1px solid var(--ts-color-accent);
+    border-radius: var(--ts-radius);
+    background: var(--ts-color-bg);
+    color: var(--ts-color-controls-active);
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: none;
+  }
+
+  .type-category .ts-mobile-category #clear-filters::before,
+  .type-category .ts-mobile-category #clear-filters::after,
+  .type-category .ts-mobile-category #clear-filters a::before,
+  .type-category .ts-mobile-category #clear-filters a::after {
+    content: none;
+  }
+
+  .type-category .ts-mobile-category #clear-filters a:focus-visible {
+    outline: 2px solid var(--ts-color-accent);
+    outline-offset: -3px;
+  }
+
+  /* One divider system instead of Apollo's inset ::before separators. */
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row::before {
+    content: none;
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__heading {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 48px;
+    margin: 0;
+    padding: 14px 24px 14px 0;
+    border: 0;
+    border-bottom: 1px solid var(--ts-color-controls-divider);
+    border-radius: 0;
+    background: transparent;
+    color: var(--ts-color-controls-text);
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: left;
+    text-transform: none;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+  }
+
+  .type-category .ts-mobile-category #filters .is-active > .ts-mobile-category__heading,
+  .type-category .ts-mobile-category #filters .is-active > .ts-mobile-category__heading::after {
+    color: var(--ts-color-controls-active);
+  }
+
+  /* Keep Apollo's single icon and its native is-active glyph change. */
+  .type-category .ts-mobile-category #filters .ts-mobile-category__heading::after {
+    top: 50%;
+    right: 0;
+    color: var(--ts-color-controls-text);
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row > form,
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row > .param-filter-top {
+    position: static;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+
+  /* Apollo wraps price in .price-filter on pages first loaded as desktop. */
+  .type-category .ts-mobile-category #filters .slider-wrapper > .price-filter {
+    display: block;
+    position: static;
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  /* Price labels belong above the track, not absolutely over its handles. */
+  .type-category .ts-mobile-category #filters .slider-wrapper.is-active .slider-header {
+    position: static;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .type-category .ts-mobile-category #filters .filter-section-button,
+  .type-category .ts-mobile-category #filters .filter-section-count,
+  .type-category .ts-mobile-category #filters .filter-headline {
+    display: none;
+  }
+
+  /* Keep each real checkbox/label pair; format only its native count span. */
+  .type-category .ts-mobile-category #filters .filter-section form fieldset,
+  .type-category .ts-mobile-category #filters .ts-mobile-category__option {
+    width: 100%;
+    max-width: none;
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__option > .filter-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: none;
+    min-height: 36px;
+    margin: 0;
+    padding: 8px 0 8px 28px;
+    color: var(--ts-color-controls-text);
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__option > .filter-label::before,
+  .type-category .ts-mobile-category #filters .ts-mobile-category__option > .filter-label::after {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__option > .filter-label::before {
+    border-color: var(--ts-color-controls-border);
+  }
+
+  .type-category
+    .ts-mobile-category
+    #filters
+    .ts-mobile-category__option
+    > input:checked
+    + .filter-label {
+    color: var(--ts-color-controls-active);
+  }
+
+  .type-category
+    .ts-mobile-category
+    #filters
+    .ts-mobile-category__option
+    > input:checked
+    + .filter-label::before {
+    background-color: var(--ts-color-accent);
+    border-color: var(--ts-color-accent);
+  }
+
+  .type-category
+    .ts-mobile-category
+    #filters
+    .ts-mobile-category__option
+    > input:disabled
+    + .filter-label {
+    color: var(--ts-color-muted);
+  }
+
+  .type-category .ts-mobile-category #filters .filter-label .filter-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    min-width: 32px;
+    height: 23px;
+    margin: 0 0 0 auto;
+    padding: 0 5px;
+    border: 0;
+    border-radius: var(--ts-radius-count);
+    background: var(--ts-color-count-bg);
+    color: var(--ts-color-count-text);
+    font-size: 12px;
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .type-category .ts-mobile-category #filters .filter-count::before,
+  .type-category .ts-mobile-category #filters .filter-count::after {
+    content: none;
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__option--hidden {
+    display: none;
+  }
+
+  .type-category #category-header .ts-mobile-category .listSorting,
+  .type-category #category-header .ts-mobile-category .listSorting__controls {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .type-category #category-header .ts-mobile-category .listSorting__controls {
+    display: block;
+    list-style: none;
+  }
+
+  .type-category #category-header .ts-mobile-category .listSorting__controls > li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .type-category #category-header .ts-mobile-category .listSorting__controls .listSorting__control {
+    display: block;
+    width: 100%;
+    min-height: 48px;
+    margin: 0;
+    padding: 14px 16px;
+    border: 0;
+    border-bottom: 1px solid var(--ts-color-controls-divider);
+    border-radius: 0;
+    background: transparent;
+    color: var(--ts-color-controls-text);
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: left;
+    text-transform: none;
+    box-shadow: none;
+  }
+
+  /* Apollo's ID-scoped :focus/:hover otherwise paints the current option black. */
+  .type-category #category-header .ts-mobile-category .listSorting__control:hover,
+  .type-category #category-header .ts-mobile-category .listSorting__control:focus,
+  .type-category #category-header .ts-mobile-category .listSorting__control:active,
+  .type-category #category-header .ts-mobile-category .listSorting__control--current {
+    background: var(--ts-color-controls-active-bg);
+    color: var(--ts-color-controls-active);
+    box-shadow: none;
+  }
+
+  .type-category
+    #category-header
+    .ts-mobile-category
+    .listSorting__controls
+    > li:last-child
+    button {
+    border-bottom: 0;
+  }
+
+  .type-category #category-header .listItemsTotal {
+    width: 100%;
+    margin: 0 0 12px;
+    padding: 0;
+    border: 0;
+    color: var(--ts-color-muted);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
