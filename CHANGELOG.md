@@ -2,6 +2,18 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.5.8 · 2026-10-07 · Header refinement preview
+
+- Refinement preview 0.5.7 iba v hlavičke: zachovaná trojpásová štruktúra, pôvodné informačné odkazy, oranžová navigácia a natívna Apollo logika.
+- Servisná lišta zostáva vysoká 36 px; písmo 13 px a ikony 18 px zlepšujú čitateľnosť. Hodiny, telefón a e-mail používajú váhu 600, ľavé odkazy zostávajú ľahšie.
+- Hodinovú ikonu nahrádza bodka: zelená PO–PIA od 08:00 vrátane do 16:00 výhradne, inak Timber oranžová. Výpočet používa Europe/Bratislava vrátane letného/zimného času; jeden časovač aktualizuje stav každých 30 sekúnd a po návrate do tabu. Text hodín zostáva bez zmeny; stav má aj textový prístupný popis. Sviatky nemajú samostatný kalendár.
+- E-mailový text je na desktope mimo odkazu; klikateľná je iba natívna ikona, smerujúca na existujúci kontaktný formulár `/kontakty`. URL bola overená v natívnom contact-boxe aj na cieľovej stránke. Pod 768 px sa obnoví pôvodná Apollo mailto štruktúra.
+- Desktop search je vycentrovaný v pôvodnom strednom priestore, s maximom 500 px a šírkou 70 % od 1200 px: približne −33,5 % na 1280 px a −34,2 % na 1440 px oproti 0.5.7. Tablet si ponecháva dostupnú šírku; natívny formulár a AJAX návrhy sú zachované.
+- Account trigger má čistý 50 × 50 px neutrálny povrch, radius 8 px, výšku a vertikálne zarovnanie s košíkom, jemný otvorený stav a viditeľný klávesnicový fokus. Pôvodný login popup a jeho merané ukotvenie sa nemenia.
+- Natívny count badge v hlavičke má biele pozadie a tmavý text. Odstránené staré skrývanie cart šípky; jedna pôvodná Apollo pseudo-šípka reaguje na `cart-window-visible` / `aria-expanded`, s rešpektovaním reduced-motion. Bez nového cart handlera alebo zmeny cart logiky.
+- Overenie v Chromium na 375 / 430 / 768 / 1024 / 1280 / 1440 / 1920 px: mobile porovnanie s 0.5.7, email DOM pri prechode desktop ↔ mobil, login / Escape / ukotvenie, AJAX idempotencia, rovnaké reálne search suggestions, natívne menu, anonymné pridanie produktu a trvalý stav košíka po načítaní stránky, count badge, otvorená/zatvorená šípka a sticky popup. Štrnásť časových prípadov overilo hranice otváracích hodín, víkendy a DST aj pri systémovom časovom pásme America/New_York. Lint/build prešli a gzip rozpočty sú splnené.
+- Preview je izolované na samostatnej vetve. Main, produkčný loader, produkty, filtre, sidebar a obsah homepage sa nemenia. Bez merge, tagu a release; PageSpeed ani reálny iOS Safari sa nemerali.
+
 ## v0.5.7 · 2026-10-07 · Header / service bar preview
 
 - Izolované preview zo schváleného buildu 0.5.6: tri pásy hlavičky — teplá neutrálna servisná lišta #F4F1ED s výškou 36 px, biely hlavný riadok a existujúca oranžová kategóriová navigácia. Natívne kontajnery majú spoločné horizontálne zarovnanie.

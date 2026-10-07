@@ -1,9 +1,60 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
+import { isBusinessOpen } from './business-hours.js';
 
 let observer;
 let listenersBound = false;
 let frame = 0;
+let hoursTimer;
+const desktop = window.matchMedia('(min-width: 768px)');
+const emailOriginal = new WeakMap();
+
+function updateHours() {
+  const open = String(isBusinessOpen());
+  const status = open === 'true' ? TEXTS.header.open : TEXTS.header.closed;
+  for (const hours of document.querySelectorAll('.ts-service-bar__hours')) {
+    if (hours.dataset.open === open) continue;
+    hours.dataset.open = open;
+    hours.title = status;
+    hours.setAttribute('aria-label', `${TEXTS.header.hours} — ${status}`);
+  }
+}
+
+function syncEmail() {
+  const contacts = document.querySelector(SEL.headerContacts);
+  const email = contacts?.querySelector(SEL.headerEmail);
+  if (!email) return;
+  const wrapper = email.closest('.ts-service-bar__email');
+  if (!desktop.matches) {
+    if (!wrapper) return;
+    const label = wrapper.querySelector('.ts-service-bar__email-label');
+    email.append(label);
+    const original = emailOriginal.get(email);
+    email.setAttribute('href', original.href);
+    if (original.label === null) email.removeAttribute('aria-label');
+    else email.setAttribute('aria-label', original.label);
+    if (original.labelClass === null) label.removeAttribute('class');
+    else label.setAttribute('class', original.labelClass);
+    wrapper.replaceWith(email);
+    return;
+  }
+  const source = document.querySelector(SEL.headerContactForm);
+  if (!source || wrapper) return;
+  const label = email.querySelector('span');
+  if (!label) return;
+  emailOriginal.set(email, {
+    href: email.getAttribute('href'),
+    label: email.getAttribute('aria-label'),
+    labelClass: label.getAttribute('class'),
+  });
+  const group = document.createElement('span');
+  group.className = 'ts-service-bar__email';
+  email.before(group);
+  group.append(email, label);
+  label.classList.add('ts-service-bar__email-label');
+  email.href = source.href;
+  email.setAttribute('aria-label', TEXTS.header.contactForm);
+}
 
 function positionPopups() {
   frame = 0;
@@ -79,10 +130,10 @@ export default {
       if (!contacts.querySelector('.ts-service-bar__hours')) {
         const hours = document.createElement('span');
         hours.className = 'ts-service-bar__hours';
-        const clock = document.createElement('span');
-        clock.className = 'ts-service-bar__clock';
-        clock.setAttribute('aria-hidden', 'true');
-        hours.append(clock, document.createTextNode(TEXTS.header.hours));
+        const dot = document.createElement('span');
+        dot.className = 'ts-service-bar__status';
+        dot.setAttribute('aria-hidden', 'true');
+        hours.append(dot, document.createTextNode(TEXTS.header.hours));
         contacts.prepend(hours);
       }
       const phone = contacts.querySelector(SEL.headerPhoneLabel);
@@ -94,6 +145,9 @@ export default {
       }
       addSocial(contacts, SEL.socialFacebook, 'facebook');
       addSocial(contacts, SEL.socialInstagram, 'instagram');
+      syncEmail();
+      updateHours();
+      if (!hoursTimer) hoursTimer = window.setInterval(updateHours, 30000);
     }
     for (const account of root.querySelectorAll(SEL.headerAccount)) {
       if (!account.hasAttribute('aria-label')) {
@@ -112,6 +166,9 @@ export default {
       window.addEventListener('scroll', schedulePosition, { passive: true });
       // A max-width container can move without resizing its children.
       window.addEventListener('resize', schedulePosition, { passive: true });
+      desktop.addEventListener('change', syncEmail);
+      // Update immediately after a background tab becomes visible again.
+      document.addEventListener('visibilitychange', updateHours);
       listenersBound = true;
     }
     schedulePosition();

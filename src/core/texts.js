@@ -2,6 +2,9 @@
 export const TEXTS = {
   header: {
     hours: 'PO – PIA: 08:00 – 16:00',
+    open: 'Teraz v otváracích hodinách',
+    closed: 'Teraz mimo otváracích hodín',
+    contactForm: 'Otvoriť kontaktný formulár',
     account: 'Môj účet',
     facebook: 'Timber Store na Facebooku',
     instagram: 'Timber Store na Instagrame',

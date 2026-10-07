@@ -86,6 +86,8 @@ export const SEL = {
   headerServiceBar: '.top-navigation-bar',
   headerContacts: '.top-navigation-bar > .container > .top-navigation-contacts',
   headerPhoneLabel: 'a.project-phone > span',
+  headerEmail: '.project-email',
+  headerContactForm: '.contact-box a[href="/kontakty"]',
   headerAccount: '#header .header-top .top-nav-button-login, #header .header-top .top-nav-button-account',
   socialFacebook: 'a[data-testid="contactboxFacebook"][href]',
   socialInstagram: 'a[data-testid="contactboxInstagram"][href]',

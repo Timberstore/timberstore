@@ -1,6 +1,6 @@
 {
   "name": "timberstore",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "private": true,
   "description": "Custom frontend and backend code for timberstore.sk (Shoptet)",
   "type": "module",

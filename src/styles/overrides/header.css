@@ -61,6 +61,27 @@
     height: var(--ts-header-account-size);
     padding: 0;
     margin: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 8px;
+    background: var(--ts-color-service-bg);
+    box-shadow: none;
+    color: var(--ts-color-controls-text);
+  }
+
+  #header .header-top .top-nav-button-login:hover,
+  #header .header-top .top-nav-button-account:hover,
+  #header .header-top .top-nav-button-login[aria-expanded='true'],
+  #header .header-top .top-nav-button-account[aria-expanded='true'] {
+    background: var(--ts-color-controls-active-bg);
+  }
+
+  #header .header-top .top-nav-button-login:focus-visible,
+  #header .header-top .top-nav-button-account:focus-visible {
+    outline: 2px solid var(--ts-color-accent);
+    outline-offset: 3px;
   }
 
   #header .header-top .top-nav-button-login > span,
@@ -73,6 +94,33 @@
   #header .header-top .top-nav-button-login::before,
   #header .header-top .top-nav-button-account::before {
     margin: 0;
+  }
+
+  /* Reuse Apollo's original cart chevron, with one glyph and native state. */
+  #header .header-top .cart-count::after {
+    display: inline-block;
+    content: '\e900';
+    color: var(--ts-color-bg);
+    transition: transform 160ms ease;
+  }
+
+  .cart-window-visible #header .header-top .cart-count::after,
+  #header .header-top .cart-count[aria-expanded='true']::after {
+    content: '\e900';
+    transform: rotate(180deg);
+  }
+
+  #header .header-top .cart-count > i {
+    background: var(--ts-color-bg);
+    color: #20242a;
+    min-width: 22px;
+    width: auto;
+    height: 22px;
+    padding: 0 5px;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
   }
 
   .is-header-fixed.is-header-hidden #header .header-top {
@@ -92,5 +140,17 @@
     left: var(--ts-header-popup-left);
     right: auto;
     margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header .header-top > .search {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+  #header .header-top .cart-count::after {
+    transition: none;
   }
 }

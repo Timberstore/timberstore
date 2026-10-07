@@ -20,7 +20,6 @@ body{background-color:#fff!important;}
   .products-block.products .p .name{font-size:18px;}
   .navigation-buttons a[data-target="cart"]:hover{color:#fff;}
   .header-top .btn.cart-count:hover .cart-price{color:#fff;}
-  .navigation-buttons .click-cart a:after{display:none;}
   .click-cart>a[data-target="cart"]{background:var(--color-secondary);border-radius:8px;}
   .click-cart>a[data-target="cart"]:hover{background:var(--color-secondary-hover);}
   #header .cart-count{border-radius:7px;}
