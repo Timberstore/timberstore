@@ -18,17 +18,7 @@ body{background-color:#fff!important;}
   .products-related-block h2,.products-alternative-block h2,h4.homepage-group-title,.h4.homepage-group-title{font-size:36px;}
   body .hodnoceni:before{text-align:center;font-size:36px;margin-bottom:30px;}
   .products-block.products .p .name{font-size:18px;}
-  .navigation-buttons a[data-target="cart"]:hover{color:#fff;}
-  .header-top .btn.cart-count:hover .cart-price{color:#fff;}
-  .click-cart>a[data-target="cart"]{background:var(--color-secondary);border-radius:8px;}
-  .click-cart>a[data-target="cart"]:hover{background:var(--color-secondary-hover);}
-  #header .cart-count{border-radius:7px;}
-  .navigation-buttons a[data-target="cart"]{color:#fff;}
-  .header-top .btn.cart-count:before{font-size:26px;}
   .navigation-buttons{right:0;}
-  .cart-window-visible #header .click-cart{border-radius:7px 7px 0 0;}
-  .cart-window-visible #header .cart-count{background:var(--color-secondary-hover);border-radius:7px 7px 0 0;}
-  .cart-window-visible .btn.cart-count .cart-price{color:#fff;}
   .popup-widget{margin-left:-6px;}
   .navigation-in>ul>li>a{padding-top:22px;padding-bottom:22px;}
   .menu-helper,#navigation{height:60px;}

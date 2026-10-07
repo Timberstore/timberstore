@@ -2,6 +2,17 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.1 · 2026-10-08 · Popup / cart visual consistency preview
+
+- Mobilný „Súvisiaci tovar: počet (od cena)“ je v samostatnom riadku cez celý cart grid, bez nesprávneho zalamovania do úzkej automatickej bunky. Podporené oba natívne Apollo DOM varianty; related toggle a native add-to-cart zostávajú funkčné.
+- Account ikona má jemný oranžový hover a jasnejší oranžový otvorený stav s napojením na popup. Login vstupy, fokus, sekundárna registrácia a zabudnuté heslo používajú bielu/teplú neutrálnu/Timber paletu; primárne oranžové prihlásenie a originál formulár/odkazy zachované.
+- Mini-cart footer má stabilné poradie doprava → SPOLU → CTA. Súčet je kompaktný riadok s jemnými deliacimi čiarami, shipping text má 13 px a väčší odstup truck ikony. Hodnota SPOLU stále používa presnú natívnu header cenu, bez vlastného prepočtu/requestu.
+- Cart trigger používa grid pre ikonu/badge, cenu a šípku; počet číslic rozširuje prvý cell a drží cenu oddelene. Orange otvorený/zatvorený trigger, 50 px výška a jedna Apollo šípka zachované. Odstránené redundantné legacy desktop cart pravidlá.
+- Plus/minus v košíku sú pokojnejšie: tmavé symboly a teplý neutrálny povrch, pôvodná geometria, click target, jemný obvod a native AJAX zostávajú. Quantity success toast má teplý povrch, tmavý text a oranžový akcent; označuje sa iba pôvodná správa o zmene množstva. Role alert, text a auto-dismiss sa nemenia; ostatné notices/error ostávajú native.
+- Natívne popup/cart CSS presunuté do `styles/overrides/` namiesto ďalšej vrstvy. Bez zásahu do produktových gridov/detailových related kariet, filtrov, footeru, neskorších checkout krokov alebo menu logiky.
+- Chromium: desktop 1440/1280/1024/768 px; mobil 430/390/375 px, related toggle/add, quantity AJAX a súčet, account/login, success notice, skutočná doprava zadarmo, dlhý mini-cart a badge fixtures s 1–4 číslicami. Natívna minimálna objednávka 5 € je zachovaná. Lint/build prešli pri pôvodnom 30/15 kB gzip rozpočte. Podrobný report a limity: `docs/previews/v0.6.1.md`.
+- Iba izolované preview nad 0.6.0. Main/produkčný loader, merge, tag a release bez zmeny.
+
 ## v0.6.0 · 2026-10-07 · Header / cart refinement preview
 
 - Servisný pás má stabilnú výšku 36 px už na natívnom markupe pred JS inicializáciou, bez stránkových offsetov. Rozostupy informačných odkazov zväčšené na 20 px; pôvodné texty, href, bodky a overflow menu zostávajú.

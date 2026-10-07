@@ -240,8 +240,8 @@
     padding: 0;
     border: 0;
     border-radius: 0;
-    background: var(--ts-color-controls-active-bg);
-    color: var(--ts-color-controls-active);
+    background: var(--ts-color-service-bg);
+    color: var(--ts-color-controls-text);
     cursor: pointer;
   }
 
@@ -323,8 +323,8 @@
     padding: 0;
     border: 0;
     border-radius: 0;
-    background: var(--ts-color-controls-active-bg);
-    color: var(--ts-color-controls-active);
+    background: var(--ts-color-service-bg);
+    color: var(--ts-color-controls-text);
     cursor: pointer;
   }
 
@@ -354,4 +354,31 @@
     outline: 2px solid var(--ts-color-controls-active);
     outline-offset: -2px;
   }
+}
+
+@media (max-width: 767px) {
+  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-related,
+  .in-kosik #cart-wrapper .cart-table .p-name > .show-related {
+    grid-column: 1 / -1;
+    grid-row: 5;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .show-related {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0;
+    padding: 4px 0;
+    white-space: nowrap;
+    min-height: 32px;
+  }
+}
+
+/* Only the native quantity confirmation; errors and other notices keep Apollo. */
+.messages .msg.msg-success.ts-cart-quantity-confirmation {
+  background: var(--ts-color-controls-active-bg);
+  color: var(--ts-color-controls-text);
+  border: 1px solid var(--ts-color-controls-border);
+  border-left: 4px solid var(--ts-color-accent);
+  border-radius: 10px;
 }

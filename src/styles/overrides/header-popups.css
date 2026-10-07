@@ -149,14 +149,26 @@
     background: var(--ts-color-service-bg);
   }
 
+  #cart-widget.ts-header-popup .popup-widget-inner.full + .cart-widget-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #cart-widget.ts-header-popup .cart-free-shipping { order: 0; }
+  #cart-widget.ts-header-popup .ts-cart-summary { order: 1; }
+  #cart-widget.ts-header-popup #continue-order-button { order: 2; }
+
   #cart-widget.ts-header-popup .ts-cart-summary {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 12px;
     margin-bottom: 10px;
+    padding-block: 8px;
+    border-block: 1px solid var(--ts-color-controls-border);
     color: var(--ts-color-controls-text);
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 600;
   }
 
   #cart-widget.ts-header-popup .ts-cart-summary strong {
@@ -169,14 +181,14 @@
     margin: 0 0 10px;
     padding: 10px 0 0;
     color: var(--ts-color-controls-text);
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.4;
     text-align: left;
   }
 
   #cart-widget.ts-header-popup .cart-free-shipping > div {
     position: relative;
-    padding-left: 40px;
+    padding-left: 56px;
   }
 
   #cart-widget.ts-header-popup .cart-free-shipping div::before {
@@ -216,4 +228,45 @@
     min-height: 44px;
     border-radius: 8px;
   }
+}
+
+/* Only the native login widget, including its mobile rendering. */
+#login .form-control {
+  background: var(--ts-color-bg);
+  border-color: var(--ts-color-controls-border);
+  color: var(--ts-color-controls-text);
+  border-radius: 8px;
+}
+
+#login .form-control:focus {
+  outline: none;
+  border-color: var(--ts-color-controls-active);
+  box-shadow: 0 0 0 2px var(--ts-color-controls-active-bg);
+}
+
+/* Apollo already supplies the correct orange primary button here. */
+#login .submit-wrapper .btn-primary {
+  border-radius: 8px;
+}
+
+#login .alternative-links a:first-child {
+  background: var(--ts-color-service-bg);
+  color: var(--ts-color-controls-text);
+  border: 1px solid var(--ts-color-controls-border);
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+#login .alternative-links a + a {
+  color: var(--ts-color-controls-text);
+  text-transform: none;
+}
+
+#login .alternative-links a:hover {
+  color: var(--ts-color-controls-active);
+}
+
+#login :is(button, a):focus-visible {
+  outline: 2px solid var(--ts-color-controls-active);
+  outline-offset: 2px;
 }

@@ -73,16 +73,9 @@
   }
 
   #header .header-top .top-nav-button-login:hover,
-  #header .header-top .top-nav-button-account:hover,
-  #header .header-top .top-nav-button-login[aria-expanded='true'],
-  #header .header-top .top-nav-button-account[aria-expanded='true'] {
+  #header .header-top .top-nav-button-account:hover {
     background: var(--ts-color-controls-active-bg);
-  }
-
-  #header .header-top .cart-count {
-    outline: none;
-    border: 1px solid transparent;
-    transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    color: var(--ts-color-accent);
   }
 
   #header .header-top .cart-count:focus-visible {
@@ -91,22 +84,34 @@
 
   #header .header-top .cart-count::before {
     color: var(--ts-color-bg);
-    margin-right: 20px;
+    grid-area: 1 / 1;
+    justify-self: start;
+    margin: 0;
+    font-size: 26px;
   }
 
   .login-window-visible #header .header-top .top-nav-button-login,
   .login-window-visible #header .header-top .top-nav-button-account {
     background: var(--ts-color-bg);
-    color: var(--ts-color-controls-text);
+    color: var(--ts-color-controls-active);
+    box-shadow: inset 0 2px 0 var(--ts-color-accent);
     border: 1px solid var(--ts-color-controls-border);
     border-bottom-color: var(--ts-color-bg);
     border-radius: 8px 8px 0 0;
   }
 
   #header .header-top .cart-count {
+    outline: none;
+    border: 1px solid transparent;
+    transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    display: inline-grid;
+    grid-template-columns: minmax(40px, max-content) auto 16px;
+    align-items: center;
+    column-gap: 18px;
+    border-radius: 8px;
     background: var(--ts-color-accent);
-    padding-left: 16px;
-    padding-right: 32px;
+    color: var(--ts-color-bg);
+    padding-inline: 16px;
   }
 
   #header .header-top .cart-count:hover,
@@ -120,6 +125,9 @@
   }
 
   #header .header-top .cart-count .cart-price {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: right;
     color: var(--ts-color-bg);
     font-size: 17px;
     font-weight: 700;
@@ -141,23 +149,34 @@
   #header .header-top .top-nav-button-login::before,
   #header .header-top .top-nav-button-account::before {
     margin: 0;
+    color: inherit;
   }
 
   /* Reuse Apollo's original cart chevron, with one glyph and native state. */
   #header .header-top .cart-count::after {
     display: inline-block;
     content: '\e900';
+    grid-row: 1;
+    grid-column: 3;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1;
     color: var(--ts-color-bg);
     transform: none;
     transition: transform 160ms ease;
   }
 
   .cart-window-visible #header .header-top .cart-count::after {
-    content: '\e900';
     transform: rotate(180deg);
   }
 
   #header .header-top .cart-count > i {
+    position: static;
+    grid-area: 1 / 1;
+    justify-self: end;
+    align-self: start;
+    margin: 4px 0 0 18px;
     background: var(--ts-color-cart-count-bg);
     color: #20242a;
     min-width: 22px;

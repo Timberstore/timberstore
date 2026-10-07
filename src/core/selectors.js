@@ -95,6 +95,8 @@ export const SEL = {
   headerCart: '#header .header-top [data-testid="headerCart"]',
   headerCartPrice: '[data-testid="headerCartPrice"]',
   cartPopupFooter: '.cart-widget-button',
+  cartMessages: '.messages',
+  cartSuccessMessage: '.msg.msg-success',
   headerCartWrapper: '#header .header-top .click-cart',
   headerLoginPopup: '#login.popup-widget',
   headerCartPopup: '#cart-widget.popup-widget',

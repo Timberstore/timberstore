@@ -6,8 +6,17 @@ let observer;
 let frame = 0;
 let bound = false;
 
-function syncSummary() {
+function syncPresentation() {
   frame = 0;
+  for (const message of document.querySelectorAll(`${SEL.cartMessages} ${SEL.cartSuccessMessage}`)) {
+    if (message.textContent.trim() === TEXTS.header.quantityChanged) {
+      message.classList.add('ts-cart-quantity-confirmation');
+    }
+  }
+  syncSummary();
+}
+
+function syncSummary() {
   const popup = document.querySelector(SEL.headerCartPopup);
   const footer = popup?.querySelector(SEL.cartPopupFooter);
   if (!footer) return;
@@ -33,7 +42,7 @@ function syncSummary() {
 }
 
 function scheduleSummary() {
-  if (!frame) frame = window.requestAnimationFrame(syncSummary);
+  if (!frame) frame = window.requestAnimationFrame(syncPresentation);
 }
 
 export default {
@@ -42,7 +51,7 @@ export default {
   init() {
     if (!observer) observer = new MutationObserver(scheduleSummary);
     observer.disconnect();
-    for (const selector of [SEL.headerCartPopup, SEL.headerCart]) {
+    for (const selector of [SEL.headerCartPopup, SEL.headerCart, SEL.cartMessages]) {
       const node = document.querySelector(selector);
       if (node) observer.observe(node, { childList: true, subtree: true, characterData: true });
     }
@@ -50,6 +59,6 @@ export default {
       document.addEventListener(SHOPTET_EVENTS.cartUpdated, scheduleSummary);
       bound = true;
     }
-    syncSummary();
+    syncPresentation();
   },
 };
