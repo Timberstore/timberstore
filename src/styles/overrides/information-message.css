@@ -1,0 +1,11 @@
+/* Production audit: Apollo sets the information toast above every dialog
+   (z-index: 9999999999). Keep cookies and native modal controls accessible. */
+.site-msg.information {
+  z-index: var(--ts-z-information-message);
+}
+
+/* The original Apollo close element keeps its click handler and drawn cross. */
+.site-msg.information .js-close-information-msg:focus-visible {
+  outline: 2px solid var(--ts-color-bg);
+  outline-offset: var(--ts-space-1);
+}

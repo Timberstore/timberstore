@@ -45,7 +45,7 @@ body{background-color:#fff!important;}
   .navigation-in>ul>li.ext>a:after,.navigation-in>ul>li>a{color:#fff!important;}
   .menu-helper-visible .menu-helper>span:after,.menu-helper-visible .menu-helper>span{color:#0f0f0f;}
   .menu-helper>span,.menu-helper>span:after{color:#fff;}
-  #header:before{content:"";position:absolute;bottom:0;left:calc(50% - 50vw - 10px);display:block;width:100vw;z-index:1;background-color:var(--color-secondary);}
+  #header:before{content:"";position:absolute;bottom:0;display:block;z-index:1;background-color:var(--color-secondary);}
   .homepage-box.welcome-wrapper{margin-top:0;}
   .submenu-visible:not(.menu-helper-visible) .top-navigation-bar{background-color:#fff;}
 }

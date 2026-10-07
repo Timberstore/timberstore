@@ -15,10 +15,12 @@ import categoryFilterCompact from './modules/category-filter-compact/index.js';
 import footerPayments from './modules/footer-payments/index.js';
 import emptyCart from './modules/empty-cart/index.js';
 import mobileCategoryControls from './modules/mobile-category-controls/index.js';
+import informationMessage from './modules/information-message/index.js';
 
 // Register every module here. Order = init order.
 // qty-picker before cart-count: the badge goes into the button the qty field sits next to.
 start([
+  informationMessage,
   carouselSwipe,
   homepageCategories,
   menuCardClick,

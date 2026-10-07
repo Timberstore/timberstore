@@ -3,6 +3,8 @@
   --ts-color-accent: #d4884a; /* btn-primary on timberstore.sk */
   --ts-color-text: #0f0f0f;
   --ts-color-muted: #818394; /* Shoptet's secondary text (e.g. back links) */
+  --ts-color-price-secondary: #6f7182; /* AA contrast for small text on white */
+  --ts-z-information-message: 10; /* Apollo's original information-toast priority */
   --ts-color-bg: #fff;
   --ts-color-controls-text: #423e3e;
   --ts-color-controls-border: #e5ddd2;

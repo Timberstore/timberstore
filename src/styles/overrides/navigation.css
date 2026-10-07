@@ -5,6 +5,38 @@
    dark overlay shows through as a line. Paint the panel white edge to edge instead.
    !important: beats the !important rules in timber-custom.css (legacy). */
 @media (min-width: 768px) {
+  /* The header already spans the page. The legacy -10px / 100vw geometry
+     shifted the orange bar and included the scrollbar gutter. */
+  #header::before {
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+
+  /* Apollo's overflow-menu label is a span, not a category anchor. Match
+     the existing category geometry; the native helper remains in charge
+     of which categories fit and of opening its dropdown. Its one ::after
+     uses the same arrow rule as category anchors in the legacy stylesheet. */
+  #header .menu-helper {
+    align-items: flex-start;
+  }
+
+  #header .menu-helper > span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 54px;
+    margin-top: var(--ts-space-2);
+    padding: 0 clamp(7px, 0.55vw, 13px);
+    border: 0;
+    border-radius: 9px 9px 0 0;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
   #navigation .menu-level-2 {
     box-shadow: 0 0 0 100vmax var(--ts-color-bg) !important;
     /* Horizontal full bleed without a horizontal scrollbar; -2px closes the gap to the bar. */

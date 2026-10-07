@@ -2,6 +2,19 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.5.6 · 2026-10-07 · Production frontend audit fixes
+
+- Položka VIAC v desktopovej navigácii má rovnakú veľkosť textu, vertikálne zarovnanie a jednu spoločnú šípku ako kategórie. Natívne Apollo presúvanie položiek pri zmene šírky zostáva zachované.
+- Oranžový pás hlavičky je zarovnaný so sliderom: odstránený legacy posun −10 px a viewportová šírka; používa skutočnú šírku hlavičky bez scrollbar gutteru.
+- Informačný oznam má nižšiu prioritu než natívne cookies a dialógy; neblokuje nastavenia cookies.
+- Pôvodný Apollo krížik oznamu má prístupný názov, fokus a ovládanie Enter / Space cez existujúcu zatváraciu logiku. Inicializácia je idempotentná aj po AJAX.
+- Odstránený horizontálny presah desktopovej homepage neutralizovaním páru záporných marginov a kompenzačného paddingu sekcie welcome.
+- Cena bez DPH v produktových kartách má tmavší sekundárny text pre dostatočný kontrast na bielom pozadí, bez zmeny rozloženia.
+- Nadpisy H1 a zahodené preview úpravy produktových kariet nie sú súčasťou zmeny. PageSpeed nebol meraný.
+- Overenie v Chromium: cookies na 320 / 375 / 390 / 414 / 768 / 1024 / 1440 / 1920 px, odmietnutie aj súhlas, zatvorenie oznamu myšou a klávesnicou, opakovaná AJAX inicializácia; geometria homepage a kariet oproti mainu bez zmeny. Kontrast ceny bez DPH na bielom pozadí 4,82 : 1. Mobilný filter/reset, desktopové GRID/LIST, natívne radenie s AJAX a mobilná galéria prešli.
+- Navigácia VIAC, geometria šípky, zarovnanie oranžového pásu a natívne otváranie/zatváranie overené na 768 / 992 / 1024 / 1200 / 1280 / 1366 / 1440 / 1600 / 1920 px vrátane opakovaného resize a sticky hlavičky. Mobilná navigácia na 320 / 375 / 414 px zostala bez zmeny.
+- Schválené preview `b6d0b1f98c2b54821bfbdc896f47a1142e8f5379` pripravené ako build 0.5.6 na samostatnej vetve. Produkčný merge, tag a nasadenie sa vykonajú v samostatnom kroku.
+
 ## v0.5.5 · 2026-10-06 · Mobile category controls
 
 - **Mobilné ovládanie** · Samostatný modul `mobile-category-controls` iba pod Apollo breakpointom 768 px. Dva rovnocenné horné buttony FILTROVAŤ / aktuálne RADENIE; dropdown piatich možností nahrádza pôvodné sorting chipy. Pôvodné Shoptet/Apollo sorting tlačidlá a ich natívna AJAX logika zostávajú zdrojom pravdy.

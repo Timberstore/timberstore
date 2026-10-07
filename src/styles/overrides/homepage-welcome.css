@@ -1,0 +1,15 @@
+/* Production audit: homepage content removes .welcome padding, but Apollo
+   retains negative content margins and matching panel padding. Neutralise
+   that pair, keeping the visible content aligned without clipping overflow. */
+@media (min-width: 768px) {
+  .in-index .welcome .welcome__content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .in-index .welcome .welcome__left-panel,
+  .in-index .welcome .welcome__right-panel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
