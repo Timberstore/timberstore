@@ -118,8 +118,41 @@
     font-weight: 400;
   }
 
-  /* These cells are emptied by Apollo after moving their actual contents. */
-  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-cell,
+  /* Apollo moves cells into .p-name on mobile page load, but not always
+     when resizing an already loaded desktop cart. Support both native DOMs. */
+  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-availability.p-cell {
+    grid-column: 2 / -1;
+    grid-row: 2;
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-quantity.p-cell {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    display: block;
+  }
+
+  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-price.p-cell {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    display: block;
+    font-size: 12px;
+    text-align: right;
+    color: var(--ts-color-price-secondary);
+  }
+
+  .in-kosik #cart-wrapper .cart-table .p-price.p-cell .price-final {
+    font-size: inherit;
+    font-weight: 400;
+    color: inherit;
+  }
+
+  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-quantity:not(:has(.quantity-form)),
+  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-availability:not(:has(.availability-label)),
+  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-price:not(:has(.price-final)),
   .in-kosik #cart-wrapper .cart-table .p-total > .p-label {
     display: none;
   }
