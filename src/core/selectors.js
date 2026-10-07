@@ -82,4 +82,17 @@ export const SEL = {
   legacyEmptyCartScript: 'script[src*="timber-empty-cart.js"]',
   // Apollo information toast; retain its native click-to-dismiss hook.
   informationMessageClose: '.site-msg.information .js-close-information-msg',
+  // Apollo header/service contacts, verified on the live storefront.
+  headerServiceBar: '.top-navigation-bar',
+  headerContacts: '.top-navigation-bar > .container > .top-navigation-contacts',
+  headerPhoneLabel: 'a.project-phone > span',
+  headerAccount: '#header .header-top .top-nav-button-login, #header .header-top .top-nav-button-account',
+  socialFacebook: 'a[data-testid="contactboxFacebook"][href]',
+  socialInstagram: 'a[data-testid="contactboxInstagram"][href]',
+  headerRow: '#header .header-top',
+  headerCart: '#header .header-top [data-testid="headerCart"]',
+  headerLoginPopup: '#login.popup-widget',
+  headerCartPopup: '#cart-widget.popup-widget',
+  headerMobileTools: '.top-navigation-bar > .container > .top-navigation-tools',
+  headerResponsiveTools: ':scope > .responsive-tools',
 };

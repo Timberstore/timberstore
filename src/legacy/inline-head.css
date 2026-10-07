@@ -13,12 +13,8 @@ body{background-color:#fff!important;}
 @media (min-width:768px){
   .navigation-in{font-size:15px;line-height:15px;}
   .navigation-in ul li a{padding-left:22px;padding-right:22px;}
-  .top-navigation-bar .container>div.top-navigation-contacts{top:0;height:49px;}
   .welcome h1{font-size:40px;margin-bottom:30px;}
   .welcome p{font-size:16px;line-height:1.8;margin-bottom:30px;}
-  .header-top{padding-top:30px;padding-bottom:30px;}
-  .popup-widget.cart-widget,.popup-widget.login-widget{top:130px;}
-  .admin-logged .popup-widget.cart-widget,.admin-logged .popup-widget.login-widget{top:130px;}
   .products-related-block h2,.products-alternative-block h2,h4.homepage-group-title,.h4.homepage-group-title{font-size:36px;}
   body .hodnoceni:before{text-align:center;font-size:36px;margin-bottom:30px;}
   .products-block.products .p .name{font-size:18px;}
@@ -52,14 +48,8 @@ body{background-color:#fff!important;}
 
 @media (min-width:992px){
   .welcome{padding:40px;}
-  .header-top{padding-top:30px;padding-bottom:30px;}
-  .popup-widget.cart-widget,.popup-widget.login-widget{top:130px;}
-  .admin-logged .popup-widget.cart-widget,.admin-logged .popup-widget.login-widget{top:155px;}
-  .popup-widget.cart-widget{margin-left:106px;}
 }
 
-@media (min-width:1200px){.popup-widget.cart-widget{margin-left:209px;}}
-@media (min-width:1440px){.popup-widget.cart-widget{margin-left:329px;}}
 @media (max-width:767px){.top-navigation-bar{background-color:#fff;}}
 @media (max-width:370px){.top-navigation-bar .site-name a img{max-height:30px;}}
 .in-index .position--benefitHomepage{margin-top:30px;}

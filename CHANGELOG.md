@@ -2,6 +2,16 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.5.7 · 2026-10-07 · Header / service bar preview
+
+- Izolované preview zo schváleného buildu 0.5.6: tri pásy hlavičky — teplá neutrálna servisná lišta #F4F1ED s výškou 36 px, biely hlavný riadok a existujúca oranžová kategóriová navigácia. Natívne kontajnery majú spoločné horizontálne zarovnanie.
+- Pôvodné informačné odkazy a ich href zostávajú zachované, vrátane natívneho Apollo overflow menu. Telefón a e-mail už nemajú samostatný sivý box. Pridané otváracie hodiny PO – PIA: 08:00 – 16:00 a drobné oranžové ikony; sociálne odkazy sa preberajú z existujúcej pätičky, bez odhadovaných URL alebo externej knižnice.
+- Hlavný riadok má kompaktnú výšku 90 px, pôvodné logo, dominantné natívne vyhľadávanie a účet iba s ikonou. Prihlasovacie tlačidlo si zachováva prístupný názov aj Apollo ovládanie. Košík, suma, počet položiek, formuláre a menu handlery sa nemenia.
+- Nahradené konfliktné legacy rozmery loga, padding hlavičky a pevné popup offsety. Pôvodné prihlasovacie a košíkové popupy sa zarovnávajú podľa skutočných ovládacích prvkov aj pri resize, sticky hlavičke a opakovanej AJAX inicializácii; listenery sa nenásobia.
+- Od 768 px platí desktopová/tabletová úprava. Pod 1200 px sú otváracie hodiny skryté pre dostatok miesta; pod 768 px zostáva natívna mobilná hlavička a nové sociálne odkazy/hodiny sú skryté. Bez zásahu do produktov, filtrov, sidebaru, detailu alebo obsahu homepage.
+- Overenie v Chromium: 375 / 430 px mobil, 768 / 1024 / 1280 / 1366 / 1440 / 1600 / 1920 px desktop/tablet, resize, native search suggestions, anonymné pridanie do košíka, prihlasovací popup / Escape / fokus, sticky hlavička a opakovaná inicializácia. Porovnanie natívneho mobilného layoutu a kategóriového menu s 0.5.6. Reálny Safari, prihlásený účet a Shoptet administrácia neboli testované; PageSpeed nebol meraný.
+- Preview vyžaduje schválenie pred merge/tagom/release. Produkčný main a loader zostávajú bez zmeny.
+
 ## v0.5.6 · 2026-10-07 · Production frontend audit fixes
 
 - Položka VIAC v desktopovej navigácii má rovnakú veľkosť textu, vertikálne zarovnanie a jednu spoločnú šípku ako kategórie. Natívne Apollo presúvanie položiek pri zmene šírky zostáva zachované.

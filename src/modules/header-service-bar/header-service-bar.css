@@ -1,0 +1,58 @@
+/* Additions never appear in the native mobile header or its cloned menu. */
+.ts-service-bar__hours,
+.ts-service-bar__social {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .ts-service-bar .ts-service-bar__social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: var(--ts-service-icon-size);
+  }
+
+  .ts-service-bar__social::before {
+    font-family: apollo;
+    font-size: var(--ts-service-icon-size);
+    line-height: 1;
+  }
+
+  .ts-service-bar__social-icon {
+    width: var(--ts-service-icon-size);
+    height: var(--ts-service-icon-size);
+    fill: var(--ts-color-accent);
+  }
+
+  .ts-service-bar__hours {
+    align-items: center;
+    gap: var(--ts-space-2);
+    white-space: nowrap;
+  }
+
+  /* Small clock drawn locally: no extra font, SVG or external dependency. */
+  .ts-service-bar__clock {
+    position: relative;
+    width: var(--ts-service-clock-size);
+    height: var(--ts-service-clock-size);
+    border: 1.5px solid var(--ts-color-accent);
+    border-radius: 50%;
+  }
+
+  .ts-service-bar__clock::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 4px;
+    height: 5px;
+    border-left: 1.5px solid var(--ts-color-accent);
+    border-bottom: 1.5px solid var(--ts-color-accent);
+  }
+}
+
+@media (min-width: 1200px) {
+  .ts-service-bar .ts-service-bar__hours {
+    display: inline-flex;
+  }
+}

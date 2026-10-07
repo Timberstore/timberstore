@@ -1,19 +1,96 @@
-/* Header logo (desktop and tablet; mobile keeps Shoptet's 137 × 30 px).
-   Drobnosti · timber-custom.css forces the logo to 310 × 68 px (!important). In the
-   sticky header shown while scrolling up (Apollo: .is-header-fixed.is-header-hidden)
-   that fills the whole 70 px bar and touches both edges. The client prefers the
-   smaller logo everywhere: 200 × 44 px keeps the 310:68 ratio. The header height
-   stays the same (it follows the search field), the logo is centred with it.
-   !important: beats the !important rules in timber-custom.css (legacy). */
+/* Desktop/tablet layout over the original Apollo logo, form and controls.
+   Legacy 310x68 logo dimensions and 30px header padding were removed. */
 @media (min-width: 768px) {
-  #header .site-name a,
-  #header .site-name a img {
-    width: 200px !important;
-    height: 44px !important;
+  #header {
+    background-color: var(--ts-color-bg);
   }
 
-  /* Apollo fixes the sticky logo box at 36 px; let it fit the 44 px logo. */
+  #header .header-top {
+    display: grid;
+    grid-template-columns: var(--ts-header-logo-width) minmax(0, 1fr) auto;
+    align-items: center;
+    gap: var(--ts-header-gap);
+    padding: var(--ts-header-padding) 0;
+  }
+
+  #header .header-top > .site-name-wrapper,
+  #header .header-top > .search,
+  #header .header-top > .navigation-buttons {
+    width: auto;
+    min-width: 0;
+    margin: 0;
+  }
+
+  #header .site-name a,
+  #header .site-name a img {
+    width: var(--ts-header-logo-width);
+    height: var(--ts-header-logo-height);
+    max-width: 100%;
+    max-height: none;
+    object-fit: contain;
+  }
+
+  #header .site-name a {
+    display: block;
+    flex: 0 0 var(--ts-header-logo-width);
+  }
+
+  #header .site-name {
+    width: var(--ts-header-logo-width);
+    min-height: 0;
+    height: auto;
+  }
+
+  #header .header-top > .search {
+    justify-self: center;
+    width: 100%;
+    max-width: var(--ts-header-search-max);
+    padding: 0;
+  }
+
+  #header .header-top > .navigation-buttons {
+    justify-self: end;
+    align-items: center;
+    gap: var(--ts-space-3);
+  }
+
+  #header .header-top .top-nav-button-login,
+  #header .header-top .top-nav-button-account {
+    width: var(--ts-header-account-size);
+    min-width: var(--ts-header-account-size);
+    height: var(--ts-header-account-size);
+    padding: 0;
+    margin: 0;
+  }
+
+  #header .header-top .top-nav-button-login > span,
+  #header .header-top .top-nav-button-account > span,
+  #header .header-top .top-nav-button-login::after,
+  #header .header-top .top-nav-button-account::after {
+    display: none;
+  }
+
+  #header .header-top .top-nav-button-login::before,
+  #header .header-top .top-nav-button-account::before {
+    margin: 0;
+  }
+
+  .is-header-fixed.is-header-hidden #header .header-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .is-header-fixed.is-header-hidden #header .site-name {
     height: auto;
+  }
+
+  /* Scoped to the two original header widgets. Native fixed/absolute
+     positioning and popup internals remain unchanged; measured controls
+     supply the anchor instead of legacy 130px/329px offsets. */
+  .user-action .popup-widget.ts-header-popup {
+    top: var(--ts-header-popup-top);
+    left: var(--ts-header-popup-left);
+    right: auto;
+    margin-left: 0;
   }
 }

@@ -5,6 +5,18 @@
   --ts-color-muted: #818394; /* Shoptet's secondary text (e.g. back links) */
   --ts-color-price-secondary: #6f7182; /* AA contrast for small text on white */
   --ts-z-information-message: 10; /* Apollo's original information-toast priority */
+  --ts-color-service-bg: #f4f1ed;
+  --ts-service-height: 36px;
+  --ts-service-font-size: 12px;
+  --ts-service-gap: 14px;
+  --ts-service-icon-size: 16px;
+  --ts-service-clock-size: 14px;
+  --ts-header-logo-width: 200px;
+  --ts-header-logo-height: 44px;
+  --ts-header-padding: 20px;
+  --ts-header-gap: 32px;
+  --ts-header-search-max: 760px;
+  --ts-header-account-size: 44px;
   --ts-color-bg: #fff;
   --ts-color-controls-text: #423e3e;
   --ts-color-controls-border: #e5ddd2;
