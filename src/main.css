@@ -14,6 +14,7 @@
 @import './modules/homepage-categories/homepage-categories.css';
 @import './modules/mobile-category-controls/mobile-category-controls.css';
 @import './modules/header-service-bar/header-service-bar.css';
+@import './modules/header-service-bar/header-popups.css';
 
 /* Shoptet overrides (one file per component) */
 @import './styles/overrides/top-bar.css';

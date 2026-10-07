@@ -69,6 +69,7 @@
     background: var(--ts-color-service-bg);
     box-shadow: none;
     color: var(--ts-color-controls-text);
+    transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
   }
 
   #header .header-top .top-nav-button-login:hover,
@@ -76,6 +77,36 @@
   #header .header-top .top-nav-button-login[aria-expanded='true'],
   #header .header-top .top-nav-button-account[aria-expanded='true'] {
     background: var(--ts-color-controls-active-bg);
+  }
+
+  #header .header-top .cart-count {
+    outline: none;
+    border: 1px solid transparent;
+    transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+  }
+
+  #header .header-top .cart-count:focus-visible {
+    box-shadow: 0 0 0 2px var(--ts-color-controls-active);
+  }
+
+  #header .header-top .cart-count::before {
+    color: var(--ts-color-bg);
+  }
+
+  .cart-window-visible #header .header-top .cart-count,
+  .login-window-visible #header .header-top .top-nav-button-login,
+  .login-window-visible #header .header-top .top-nav-button-account {
+    background: var(--ts-color-bg);
+    color: var(--ts-color-controls-text);
+    border: 1px solid var(--ts-color-controls-border);
+    border-bottom-color: var(--ts-color-bg);
+    border-radius: 8px 8px 0 0;
+  }
+
+  .cart-window-visible #header .header-top .cart-count .cart-price,
+  .cart-window-visible #header .header-top .cart-count::before,
+  .cart-window-visible #header .header-top .cart-count::after {
+    color: var(--ts-color-controls-text);
   }
 
   #header .header-top .top-nav-button-login:focus-visible,
@@ -101,17 +132,17 @@
     display: inline-block;
     content: '\e900';
     color: var(--ts-color-bg);
+    transform: none;
     transition: transform 160ms ease;
   }
 
-  .cart-window-visible #header .header-top .cart-count::after,
-  #header .header-top .cart-count[aria-expanded='true']::after {
+  .cart-window-visible #header .header-top .cart-count::after {
     content: '\e900';
     transform: rotate(180deg);
   }
 
   #header .header-top .cart-count > i {
-    background: var(--ts-color-bg);
+    background: var(--ts-color-cart-count-bg);
     color: #20242a;
     min-width: 22px;
     width: auto;
@@ -132,15 +163,6 @@
     height: auto;
   }
 
-  /* Scoped to the two original header widgets. Native fixed/absolute
-     positioning and popup internals remain unchanged; measured controls
-     supply the anchor instead of legacy 130px/329px offsets. */
-  .user-action .popup-widget.ts-header-popup {
-    top: var(--ts-header-popup-top);
-    left: var(--ts-header-popup-left);
-    right: auto;
-    margin-left: 0;
-  }
 }
 
 @media (min-width: 1200px) {

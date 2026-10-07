@@ -1,13 +1,102 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
+import { SHOPTET_EVENTS } from '../../core/events.js';
 import { isBusinessOpen } from './business-hours.js';
 
 let observer;
+let popupStateObserver;
 let listenersBound = false;
 let frame = 0;
 let hoursTimer;
 const desktop = window.matchMedia('(min-width: 768px)');
 const emailOriginal = new WeakMap();
+const cartOriginal = new WeakMap();
+
+function syncCartTrigger() {
+  const cart = document.querySelector(SEL.headerCart);
+  if (!cart) return;
+  if (!cartOriginal.has(cart)) {
+    cartOriginal.set(cart, { redirect: cart.getAttribute('data-redirect'), role: cart.getAttribute('role') });
+  }
+  // Apollo deliberately omits the mini-cart on ordering pages. Keep their
+  // native checkout header behavior instead of toggling a nonexistent dialog.
+  if (desktop.matches && document.querySelector(SEL.headerCartPopup)) {
+    cart.removeAttribute('data-redirect');
+    cart.setAttribute('role', 'button');
+    cart.classList.add('ts-header-cart-toggle');
+  } else {
+    // Apollo can clone this control into the mobile tools on resize.
+    const original = cartOriginal.get(cart);
+    for (const control of document.querySelectorAll('.ts-header-cart-toggle')) {
+      for (const [attribute, value] of [['data-redirect', original.redirect], ['role', original.role]]) {
+        if (value === null) control.removeAttribute(attribute);
+        else control.setAttribute(attribute, value);
+      }
+      control.classList.remove('ts-header-cart-toggle');
+    }
+  }
+}
+
+function closeHeaderPopups(force = false) {
+  if (!force && !desktop.matches) return;
+  if (!document.body.matches('.cart-window-visible, .login-window-visible')) return;
+  const popups = window.shoptet?.popups;
+  if (!popups?.hideContentWindows) return;
+  popups.hideContentWindows();
+  for (const control of document.querySelectorAll('[aria-controls="cart-widget"], [aria-controls="login"]')) {
+    control.setAttribute('aria-expanded', 'false');
+    control.classList.remove('hovered');
+  }
+}
+
+function cartInteraction(event) {
+  if (!desktop.matches || !(event.target instanceof Element)) return;
+  if (event.target.closest(SEL.headerAccount)) {
+    positionPopups();
+    return;
+  }
+  const cart = event.target.closest(SEL.headerCart)
+    || event.target.closest(SEL.headerCartWrapper)?.querySelector('[data-testid="headerCart"]');
+  if (!cart) return;
+  if (!document.querySelector(SEL.headerCartPopup)) return;
+  const keyboard = event.type === 'keydown';
+  if (keyboard && !['Enter', ' ', 'ArrowDown'].includes(event.key)) return;
+  const popups = window.shoptet?.popups;
+  if (!popups?.showPopupWindow) return;
+  event.preventDefault();
+  // Keep Apollo's delegated redirect / hovered first-click guard out of this
+  // desktop-only trigger. The native API still owns fetching and cart forms.
+  event.stopImmediatePropagation();
+  if (keyboard && event.key === 'ArrowDown' && document.body.classList.contains('cart-window-visible')) return;
+  cart.classList.remove('hovered');
+  positionPopups();
+  popups.showPopupWindow('cart', true, 'cart-widget', keyboard || (event.type === 'click' && event.detail === 0));
+}
+
+function syncPopupState() {
+  if (!desktop.matches) return;
+  for (const [selector, state] of [[SEL.headerCart, 'cart'], [SEL.headerAccount, 'login']]) {
+    const open = String(document.body.classList.contains(`${state}-window-visible`));
+    for (const control of document.querySelectorAll(selector)) {
+      if (control.getAttribute('aria-expanded') !== open) control.setAttribute('aria-expanded', open);
+    }
+  }
+  if (document.body.matches('.cart-window-visible, .login-window-visible')) positionPopups();
+}
+
+function onScroll() {
+  // Sticky-header translations are not observed by ResizeObserver. Close via
+  // Apollo at the first document scroll instead of leaving a detached panel.
+  closeHeaderPopups();
+  schedulePosition();
+}
+
+function onBreakpoint() {
+  closeHeaderPopups(true);
+  syncEmail();
+  syncCartTrigger();
+  schedulePosition();
+}
 
 function updateHours() {
   const open = String(isBusinessOpen());
@@ -69,8 +158,8 @@ function positionPopups() {
     const edge = control.getBoundingClientRect();
     const style = getComputedStyle(popup);
     const width = parseFloat(style.width);
-    const left = Math.max(0, edge.right - width);
-    const top = edge.bottom + (style.position === 'fixed' ? 0 : window.scrollY);
+    const left = Math.max(12, Math.min(edge.right - width, document.documentElement.clientWidth - width - 12));
+    const top = edge.bottom;
     popup.classList.add('ts-header-popup');
     popup.style.setProperty('--ts-header-popup-left', `${left}px`);
     popup.style.setProperty('--ts-header-popup-top', `${top}px`);
@@ -154,19 +243,31 @@ export default {
         account.setAttribute('aria-label', account.textContent.trim() || TEXTS.header.account);
       }
     }
+    syncCartTrigger();
     // Apollo's old breakpoint offsets cannot follow the compact icon/cart row.
     // Observe only header geometry; keep native popup markup and handlers.
     if (!observer) observer = new ResizeObserver(schedulePosition);
+    if (!popupStateObserver) {
+      popupStateObserver = new MutationObserver(syncPopupState);
+      popupStateObserver.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    }
     observer.disconnect();
     for (const selector of [SEL.headerRow, SEL.headerAccount, SEL.headerCart]) {
       const element = document.querySelector(selector);
       if (element) observer.observe(element);
     }
     if (!listenersBound) {
-      window.addEventListener('scroll', schedulePosition, { passive: true });
+      window.addEventListener('scroll', onScroll, { passive: true });
       // A max-width container can move without resizing its children.
       window.addEventListener('resize', schedulePosition, { passive: true });
-      desktop.addEventListener('change', syncEmail);
+      desktop.addEventListener('change', onBreakpoint);
+      document.addEventListener('click', cartInteraction, true);
+      document.addEventListener('touchend', cartInteraction, { capture: true, passive: false });
+      document.addEventListener('keydown', cartInteraction, true);
+      document.addEventListener(SHOPTET_EVENTS.cartUpdated, () => {
+        syncCartTrigger();
+        schedulePosition();
+      });
       // Update immediately after a background tab becomes visible again.
       document.addEventListener('visibilitychange', updateHours);
       listenersBound = true;

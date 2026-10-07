@@ -2,6 +2,18 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.5.9 · 2026-10-07 · Desktop header popup fixes preview
+
+- Izolovaná oprava/refinement preview 0.5.8. Informačné odkazy servisnej lišty majú horizontálny padding 16 px namiesto 8 px, väčšie rozostupy okolo pôvodných bodiek, bez zmeny textov/href, výšky 36 px alebo zarovnania kontajnerov. Apollo overflow helper zostáva natívny.
+- Počet položiek v header košíku používa existujúci Apollo zelený odtieň #66BF3A a tmavý text #20242A (kontrast 6,74 : 1). Kompaktný badge zachováva rovnaký vzhľad v otvorenom aj zatvorenom stave.
+- Odstránený default modrý cart outline; klávesnicový fokus má jemný Timber oranžový tieň. Otvorený cart/account trigger má biely povrch, zladený jemný border a rovné spodné rohy napojené na pôvodný popup.
+- Desktopový cart trigger, jeho suma, badge a pôvodná šípka prepínajú mini-cart cez overené `shoptet.popups.showPopupWindow`, namiesto navigácie alebo Apollo hovered prvého kliku. Presmerovanie ostáva iba na natívnom CTA „Pokračovať do košíka“. Enter/Space/ArrowDown a tabletový touch toggle podporované; mobilné redirect/role atribúty sa obnovujú pri návrate pod 768 px.
+- Popupy majú jedného scoped vlastníka štýlov, fixed súradnice podľa skutočného triggera a obmedzenie podľa viewportu. Pri začiatku scrollovania dokumentu sa cart/login zatvoria cez natívne API (povolený fallback pre animovanú Apollo sticky hlavičku); po opätovnom otvorení sa znovu ukotvia. Žiadne samostatné plávajúce panely.
+- Mini-cart používa pôvodné názvy, obrázky, ceny, množstvá a mazacie formuláre. Jednotnejšia typografia, jemné riadky a kompaktné ovládanie; spodná shipping časť má menej whitespace, 3 px jemný progress pás, menší text a zreteľné oranžové CTA. Login form, registrácia a zabudnuté heslo zostávajú pôvodné.
+- Custom listenery a observéry sa pri AJAX nenásobia. Žiadna zmena cart business logiky, produktov, filtrov, sidebaru, homepage, footeru, search alebo menu logiky. Objednávkové stránky bez natívneho mini-cartu ostávajú bez nového ovládania.
+- Chromium: 1920 / 1600 / 1440 / 1366 / 1280 / 1024 / 768 px; hover, opakovaný click, chevron/badge/amount, keyboard, scroll-close/reopen, account fields/buttons, AJAX quantity a delete, vnútorné CTA. Tablet touch 768 px, mobile 375/430 px a desktop ↔ mobil restoration prešli. Menu/submenu kontinuita overená na 1024/1280/1440/1920 px, search suggestions rovnaké ako 0.5.8. Lint/build prešli. Reálny Safari a prihlásený zákazník neboli testovaní; PageSpeed sa nemeral.
+- Preview vyžaduje schválenie. Main a produkčný loader sa nemenia; bez merge, tagu a release.
+
 ## v0.5.8 · 2026-10-07 · Header refinement preview
 
 - Refinement preview 0.5.7 iba v hlavičke: zachovaná trojpásová štruktúra, pôvodné informačné odkazy, oranžová navigácia a natívna Apollo logika.
