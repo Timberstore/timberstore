@@ -873,7 +873,8 @@ form[action*="Subscribe"] {
     }
 
 
-    .navigation-in > ul > li.ext > a::after {
+    .navigation-in > ul > li.ext > a::after,
+    #header .menu-helper > span::after {
         content: "" !important;
 
         position: static !important;
@@ -911,7 +912,8 @@ form[action*="Subscribe"] {
         transition: transform .18s ease !important;
     }
 
-    .navigation-in > ul > li.ext:hover > a::after {
+    .navigation-in > ul > li.ext:hover > a::after,
+    .menu-helper-visible #header .menu-helper > span::after {
         transform: rotate(180deg) !important;
         background-color: #2f2b29 !important;
     }

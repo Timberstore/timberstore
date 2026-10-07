@@ -4,6 +4,8 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## Unreleased · 2026-10-07 · Production frontend audit fixes
 
+- Položka VIAC v desktopovej navigácii má rovnakú veľkosť textu, vertikálne zarovnanie a jednu spoločnú šípku ako kategórie. Natívne Apollo presúvanie položiek pri zmene šírky zostáva zachované.
+- Oranžový pás hlavičky je zarovnaný so sliderom: odstránený legacy posun −10 px a viewportová šírka; používa skutočnú šírku hlavičky bez scrollbar gutteru.
 - Informačný oznam má nižšiu prioritu než natívne cookies a dialógy; neblokuje nastavenia cookies.
 - Pôvodný Apollo krížik oznamu má prístupný názov, fokus a ovládanie Enter / Space cez existujúcu zatváraciu logiku. Inicializácia je idempotentná aj po AJAX.
 - Odstránený horizontálny presah desktopovej homepage neutralizovaním páru záporných marginov a kompenzačného paddingu sekcie welcome.
