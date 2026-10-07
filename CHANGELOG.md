@@ -2,6 +2,15 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## Unreleased · 2026-10-07 · Production frontend audit fixes
+
+- Informačný oznam má nižšiu prioritu než natívne cookies a dialógy; neblokuje nastavenia cookies.
+- Pôvodný Apollo krížik oznamu má prístupný názov, fokus a ovládanie Enter / Space cez existujúcu zatváraciu logiku. Inicializácia je idempotentná aj po AJAX.
+- Odstránený horizontálny presah desktopovej homepage neutralizovaním páru záporných marginov a kompenzačného paddingu sekcie welcome.
+- Cena bez DPH v produktových kartách má tmavší sekundárny text pre dostatočný kontrast na bielom pozadí, bez zmeny rozloženia.
+- Nadpisy H1 a zahodené preview úpravy produktových kariet nie sú súčasťou zmeny. PageSpeed nebol meraný.
+- Overenie v Chromium: cookies na 320 / 375 / 390 / 414 / 768 / 1024 / 1440 / 1920 px, odmietnutie aj súhlas, zatvorenie oznamu myšou a klávesnicou, opakovaná AJAX inicializácia; geometria homepage a kariet oproti mainu bez zmeny. Kontrast ceny bez DPH na bielom pozadí 4,82 : 1. Mobilný filter/reset, desktopové GRID/LIST, natívne radenie s AJAX a mobilná galéria prešli.
+
 ## v0.5.5 · 2026-10-06 · Mobile category controls
 
 - **Mobilné ovládanie** · Samostatný modul `mobile-category-controls` iba pod Apollo breakpointom 768 px. Dva rovnocenné horné buttony FILTROVAŤ / aktuálne RADENIE; dropdown piatich možností nahrádza pôvodné sorting chipy. Pôvodné Shoptet/Apollo sorting tlačidlá a ich natívna AJAX logika zostávajú zdrojom pravdy.

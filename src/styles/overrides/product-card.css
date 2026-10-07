@@ -21,3 +21,9 @@
 #products:not(.products-related) > .product .p-bottom {
   margin-top: auto;
 }
+
+/* Production audit: Apollo's #7c7e8f has only 4.01:1 contrast on white.
+   Darken VAT-exclusive prices without changing typography or card geometry. */
+.products .product .price-additional {
+  color: var(--ts-color-price-secondary);
+}

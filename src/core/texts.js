@@ -1,5 +1,6 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  closeInformationMessage: 'Zavrieť oznam',
   viewSwitch: {
     label: 'Zobrazenie',
     group: 'Zobrazenie produktov',

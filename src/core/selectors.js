@@ -80,4 +80,6 @@ export const SEL = {
   categoryFilterResetLink: 'p#clear-filters a[href]',
   footerOnlinePayments: '.custom-footer__onlinePayments p',
   legacyEmptyCartScript: 'script[src*="timber-empty-cart.js"]',
+  // Apollo information toast; retain its native click-to-dismiss hook.
+  informationMessageClose: '.site-msg.information .js-close-information-msg',
 };
