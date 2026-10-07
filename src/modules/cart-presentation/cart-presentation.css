@@ -1,0 +1,324 @@
+/* The actual Apollo cart page, only its first step on mobile. Apollo moves
+   quantity/availability into .p-name; display:contents keeps all native forms. */
+@media (max-width: 767px) {
+  .in-kosik #cart-wrapper .cart-table,
+  .in-kosik #cart-wrapper .cart-table > tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .in-kosik #cart-wrapper .cart-table tr.removeable {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr) auto 44px;
+    align-items: center;
+    gap: 12px 8px;
+    width: 100%;
+    padding: 16px 0;
+    margin: 0;
+    border-bottom: 1px solid var(--ts-color-controls-border);
+  }
+
+  .in-kosik #cart-wrapper .cart-table tr.removeable > td {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .cart-p-image {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: start;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .cart-p-image img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+
+  .in-kosik #cart-wrapper .cart-table tr .p-name,
+  .in-kosik #cart-wrapper .cart-table tr .p-total {
+    display: contents;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .p-name .main-link {
+    grid-column: 2 / -1;
+    grid-row: 1;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--ts-color-table-name);
+  }
+
+  .in-kosik #cart-wrapper .cart-table .p-name .p-availability {
+    grid-column: 2 / -1;
+    grid-row: 2;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .p-name .quantity-form {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    margin: 0;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .p-total > .price-final {
+    grid-column: 3;
+    grid-row: 3;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ts-color-table-name);
+    white-space: nowrap;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .p-total > form {
+    grid-column: 4;
+    grid-row: 3;
+  }
+
+  .in-kosik #cart-wrapper .cart-table tr.removeable .remove-item {
+    position: static;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .remove-item::before {
+    color: var(--ts-color-cart-delete);
+  }
+
+  .in-kosik #cart-wrapper .cart-table .remove-item:hover {
+    background: var(--ts-color-cart-delete-bg);
+  }
+
+  .in-kosik #cart-wrapper .cart-table .remove-item:hover::before {
+    color: var(--ts-color-cart-delete-hover);
+  }
+
+  .in-kosik #cart-wrapper .cart-table .p-total > .js-price-content {
+    grid-row: 4;
+    grid-column: 1 / -1;
+    text-align: right;
+    margin: 0;
+    color: var(--ts-color-price-secondary);
+    font-size: 12px;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .js-price-content .price-final {
+    color: inherit;
+    font-size: inherit;
+    font-weight: 400;
+  }
+
+  /* These cells are emptied by Apollo after moving their actual contents. */
+  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-cell,
+  .in-kosik #cart-wrapper .cart-table .p-total > .p-label {
+    display: none;
+  }
+
+  .in-kosik #cart-wrapper .summary-wrapper {
+    padding: 16px;
+    border: 1px solid var(--ts-color-controls-border);
+    border-radius: 12px;
+    background: var(--ts-color-service-bg);
+  }
+
+  .in-kosik #cart-wrapper .summary-wrapper .box {
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .in-kosik #cart-wrapper .summary-wrapper .price-primary {
+    color: var(--ts-color-table-name);
+  }
+
+  .in-kosik #cart-wrapper .summary-wrapper strong.price-primary {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .in-kosik #cart-wrapper .summary-wrapper .price-secondary {
+    color: var(--ts-color-price-secondary);
+  }
+
+  .in-kosik #cart-wrapper .summary-wrapper .next-step-forward {
+    margin-top: 16px;
+    min-height: 48px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  #cart-widget.ts-header-popup .quantity {
+    display: grid;
+    grid-template-columns: 30px minmax(0, 1fr) 30px;
+    width: 100px;
+    height: 36px;
+    padding: 0;
+    border: 1px solid var(--ts-color-controls-active);
+    border-radius: 7px;
+    background: var(--ts-color-bg);
+    overflow: hidden;
+  }
+
+  #cart-widget.ts-header-popup .quantity > label {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+  }
+
+  #cart-widget.ts-header-popup .quantity input {
+    width: 100%;
+    height: 34px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+    color: var(--ts-color-table-name);
+    font-size: 14px;
+    font-weight: 600;
+    background: var(--ts-color-bg);
+    -moz-appearance: textfield;
+  }
+
+  #cart-widget.ts-header-popup .quantity input::-webkit-inner-spin-button,
+  #cart-widget.ts-header-popup .quantity input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  #cart-widget.ts-header-popup .quantity .increase,
+  #cart-widget.ts-header-popup .quantity .decrease {
+    position: static;
+    grid-row: 1;
+    width: 100%;
+    height: 34px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: var(--ts-color-controls-active-bg);
+    color: var(--ts-color-controls-active);
+    cursor: pointer;
+  }
+
+  #cart-widget.ts-header-popup .quantity .decrease { grid-column: 1; }
+  #cart-widget.ts-header-popup .quantity .increase { grid-column: 3; }
+
+  #cart-widget.ts-header-popup .quantity .increase::before,
+  #cart-widget.ts-header-popup .quantity .decrease::before {
+    display: none;
+  }
+
+  #cart-widget.ts-header-popup .quantity .increase__sign,
+  #cart-widget.ts-header-popup .quantity .decrease__sign {
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+    pointer-events: none;
+  }
+
+  #cart-widget.ts-header-popup .quantity button:hover {
+    background: var(--ts-color-controls-divider);
+  }
+
+  #cart-widget.ts-header-popup .quantity button:focus-visible,
+  #cart-widget.ts-header-popup .quantity input:focus-visible,
+  #cart-widget.ts-header-popup .remove-item:focus-visible {
+    outline: 2px solid var(--ts-color-controls-active);
+    outline-offset: -2px;
+  }
+}
+
+@media (max-width: 767px) {
+  .in-kosik #cart-wrapper .cart-table .quantity {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) 44px;
+    width: 132px;
+    height: 46px;
+    padding: 0;
+    border: 1px solid var(--ts-color-controls-active);
+    border-radius: 7px;
+    background: var(--ts-color-bg);
+    overflow: hidden;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .quantity > label {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .quantity input {
+    width: 100%;
+    height: 44px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+    color: var(--ts-color-table-name);
+    font-size: 14px;
+    font-weight: 600;
+    background: var(--ts-color-bg);
+    -moz-appearance: textfield;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .quantity input::-webkit-inner-spin-button,
+  .in-kosik #cart-wrapper .cart-table .quantity input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .quantity .increase,
+  .in-kosik #cart-wrapper .cart-table .quantity .decrease {
+    position: static;
+    grid-row: 1;
+    width: 100%;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: var(--ts-color-controls-active-bg);
+    color: var(--ts-color-controls-active);
+    cursor: pointer;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .quantity .decrease { grid-column: 1; }
+  .in-kosik #cart-wrapper .cart-table .quantity .increase { grid-column: 3; }
+
+  .in-kosik #cart-wrapper .cart-table .quantity .increase::before,
+  .in-kosik #cart-wrapper .cart-table .quantity .decrease::before {
+    display: none;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .quantity .increase__sign,
+  .in-kosik #cart-wrapper .cart-table .quantity .decrease__sign {
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+    pointer-events: none;
+  }
+
+  .in-kosik #cart-wrapper .cart-table .quantity button:hover {
+    background: var(--ts-color-controls-divider);
+  }
+
+  .in-kosik #cart-wrapper .cart-table .quantity button:focus-visible,
+  .in-kosik #cart-wrapper .cart-table .quantity input:focus-visible,
+  .in-kosik #cart-wrapper .cart-table .remove-item:focus-visible {
+    outline: 2px solid var(--ts-color-controls-active);
+    outline-offset: -2px;
+  }
+}

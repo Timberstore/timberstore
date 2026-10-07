@@ -6,6 +6,7 @@ export const TEXTS = {
     closed: 'Teraz mimo otváracích hodín',
     contactForm: 'Otvoriť kontaktný formulár',
     account: 'Môj účet',
+    cartTotal: 'Celkom za tovar',
     facebook: 'Timber Store na Facebooku',
     instagram: 'Timber Store na Instagrame',
   },

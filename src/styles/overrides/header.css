@@ -91,9 +91,9 @@
 
   #header .header-top .cart-count::before {
     color: var(--ts-color-bg);
+    margin-right: 20px;
   }
 
-  .cart-window-visible #header .header-top .cart-count,
   .login-window-visible #header .header-top .top-nav-button-login,
   .login-window-visible #header .header-top .top-nav-button-account {
     background: var(--ts-color-bg);
@@ -103,10 +103,26 @@
     border-radius: 8px 8px 0 0;
   }
 
-  .cart-window-visible #header .header-top .cart-count .cart-price,
-  .cart-window-visible #header .header-top .cart-count::before,
-  .cart-window-visible #header .header-top .cart-count::after {
-    color: var(--ts-color-controls-text);
+  #header .header-top .cart-count {
+    background: var(--ts-color-accent);
+    padding-left: 16px;
+    padding-right: 32px;
+  }
+
+  #header .header-top .cart-count:hover,
+  .cart-window-visible #header .header-top .cart-count {
+    background: var(--ts-color-controls-active);
+    color: var(--ts-color-bg);
+  }
+
+  .cart-window-visible #header .header-top .cart-count {
+    border-radius: 8px 8px 0 0;
+  }
+
+  #header .header-top .cart-count .cart-price {
+    color: var(--ts-color-bg);
+    font-size: 17px;
+    font-weight: 700;
   }
 
   #header .header-top .top-nav-button-login:focus-visible,
@@ -148,6 +164,7 @@
     width: auto;
     height: 22px;
     padding: 0 5px;
+    border: 1px solid rgb(255 255 255 / 80%);
     border-radius: 50px;
     font-size: 12px;
     line-height: 1;

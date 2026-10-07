@@ -12,6 +12,9 @@
   --ts-service-icon-size: 18px;
   --ts-service-status-size: 8px;
   --ts-color-service-open: #2e7d32;
+  --ts-color-cart-delete: #b4483e;
+  --ts-color-cart-delete-hover: #96362f;
+  --ts-color-cart-delete-bg: #fff2ef;
   --ts-color-cart-count-bg: #66bf3a; /* existing Apollo free-delivery accent */
   --ts-header-logo-width: 200px;
   --ts-header-logo-height: 44px;

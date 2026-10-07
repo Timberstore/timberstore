@@ -15,6 +15,7 @@
 @import './modules/mobile-category-controls/mobile-category-controls.css';
 @import './modules/header-service-bar/header-service-bar.css';
 @import './modules/header-service-bar/header-popups.css';
+@import './modules/cart-presentation/cart-presentation.css';
 
 /* Shoptet overrides (one file per component) */
 @import './styles/overrides/top-bar.css';

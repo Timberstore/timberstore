@@ -93,6 +93,8 @@ export const SEL = {
   socialInstagram: 'a[data-testid="contactboxInstagram"][href]',
   headerRow: '#header .header-top',
   headerCart: '#header .header-top [data-testid="headerCart"]',
+  headerCartPrice: '[data-testid="headerCartPrice"]',
+  cartPopupFooter: '.cart-widget-button',
   headerCartWrapper: '#header .header-top .click-cart',
   headerLoginPopup: '#login.popup-widget',
   headerCartPopup: '#cart-widget.popup-widget',
