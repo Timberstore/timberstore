@@ -1,19 +1,214 @@
-/* Header logo (desktop and tablet; mobile keeps Shoptet's 137 × 30 px).
-   Drobnosti · timber-custom.css forces the logo to 310 × 68 px (!important). In the
-   sticky header shown while scrolling up (Apollo: .is-header-fixed.is-header-hidden)
-   that fills the whole 70 px bar and touches both edges. The client prefers the
-   smaller logo everywhere: 200 × 44 px keeps the 310:68 ratio. The header height
-   stays the same (it follows the search field), the logo is centred with it.
-   !important: beats the !important rules in timber-custom.css (legacy). */
+/* Desktop/tablet layout over the original Apollo logo, form and controls.
+   Legacy 310x68 logo dimensions and 30px header padding were removed. */
 @media (min-width: 768px) {
-  #header .site-name a,
-  #header .site-name a img {
-    width: 200px !important;
-    height: 44px !important;
+  #header {
+    background-color: var(--ts-color-bg);
   }
 
-  /* Apollo fixes the sticky logo box at 36 px; let it fit the 44 px logo. */
+  #header .header-top {
+    display: grid;
+    grid-template-columns: var(--ts-header-logo-width) minmax(0, 1fr) auto;
+    align-items: center;
+    gap: var(--ts-header-gap);
+    padding: var(--ts-header-padding) 0;
+  }
+
+  #header .header-top > .site-name-wrapper,
+  #header .header-top > .search,
+  #header .header-top > .navigation-buttons {
+    width: auto;
+    min-width: 0;
+    margin: 0;
+  }
+
+  #header .site-name a,
+  #header .site-name a img {
+    width: var(--ts-header-logo-width);
+    height: var(--ts-header-logo-height);
+    max-width: 100%;
+    max-height: none;
+    object-fit: contain;
+  }
+
+  #header .site-name a {
+    display: block;
+    flex: 0 0 var(--ts-header-logo-width);
+  }
+
+  #header .site-name {
+    width: var(--ts-header-logo-width);
+    min-height: 0;
+    height: auto;
+  }
+
+  #header .header-top > .search {
+    justify-self: center;
+    width: 100%;
+    max-width: var(--ts-header-search-max);
+    padding: 0;
+  }
+
+  #header .header-top > .navigation-buttons {
+    justify-self: end;
+    align-items: center;
+    gap: var(--ts-space-3);
+  }
+
+  #header .header-top .top-nav-button-login,
+  #header .header-top .top-nav-button-account {
+    width: var(--ts-header-account-size);
+    min-width: var(--ts-header-account-size);
+    height: var(--ts-header-account-size);
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 8px;
+    background: var(--ts-color-service-bg);
+    box-shadow: none;
+    color: var(--ts-color-controls-text);
+    transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+  }
+
+  #header .header-top .top-nav-button-login:hover,
+  #header .header-top .top-nav-button-account:hover {
+    background: var(--ts-color-controls-active-bg);
+    color: var(--ts-color-accent);
+  }
+
+  #header .header-top .cart-count:focus-visible {
+    box-shadow: 0 0 0 2px var(--ts-color-controls-active);
+  }
+
+  #header .header-top .cart-count::before {
+    color: var(--ts-color-bg);
+    grid-area: 1 / 1;
+    justify-self: start;
+    margin: 0;
+    font-size: 26px;
+  }
+
+  .login-window-visible #header .header-top .top-nav-button-login,
+  .login-window-visible #header .header-top .top-nav-button-account {
+    background: var(--ts-color-bg);
+    color: var(--ts-color-controls-active);
+    border: 1px solid var(--ts-color-accent);
+    border-bottom-color: var(--ts-color-bg);
+    border-radius: 8px 8px 0 0;
+  }
+
+  #header .header-top .cart-count {
+    outline: none;
+    border: 1px solid transparent;
+    transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    display: inline-grid;
+    grid-template-columns: minmax(40px, max-content) auto 16px;
+    align-items: center;
+    column-gap: 18px;
+    border-radius: 8px;
+    background: var(--ts-color-accent);
+    color: var(--ts-color-bg);
+    padding-inline: 16px;
+  }
+
+  #header .header-top .cart-count:hover,
+  .cart-window-visible #header .header-top .cart-count {
+    background: var(--ts-color-controls-active);
+    color: var(--ts-color-bg);
+  }
+
+  .cart-window-visible #header .header-top .cart-count {
+    border-radius: 8px 8px 0 0;
+  }
+
+  #header .header-top .cart-count .cart-price {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: right;
+    color: var(--ts-color-bg);
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  #header .header-top .top-nav-button-login:focus-visible,
+  #header .header-top .top-nav-button-account:focus-visible {
+    outline: 2px solid var(--ts-color-accent);
+    outline-offset: 3px;
+  }
+
+  #header .header-top .top-nav-button-login > span,
+  #header .header-top .top-nav-button-account > span,
+  #header .header-top .top-nav-button-login::after,
+  #header .header-top .top-nav-button-account::after {
+    display: none;
+  }
+
+  #header .header-top .top-nav-button-login::before,
+  #header .header-top .top-nav-button-account::before {
+    margin: 0;
+    color: inherit;
+  }
+
+  /* Reuse Apollo's original cart chevron, with one glyph and native state. */
+  #header .header-top .cart-count::after {
+    display: inline-block;
+    content: '\e900';
+    grid-row: 1;
+    grid-column: 3;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+    font-size: 8px;
+    line-height: 1;
+    color: var(--ts-color-bg);
+    transform: none;
+    transition: transform 160ms ease;
+  }
+
+  .cart-window-visible #header .header-top .cart-count::after {
+    transform: rotate(180deg);
+  }
+
+  #header .header-top .cart-count > i {
+    position: static;
+    grid-area: 1 / 1;
+    justify-self: end;
+    align-self: start;
+    margin: 4px 0 0 18px;
+    background: var(--ts-color-cart-count-bg);
+    color: #20242a;
+    min-width: 22px;
+    width: auto;
+    height: 22px;
+    padding: 0 5px;
+    border: 1px solid rgb(255 255 255 / 80%);
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+  }
+
+  .is-header-fixed.is-header-hidden #header .header-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .is-header-fixed.is-header-hidden #header .site-name {
     height: auto;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  #header .header-top > .search {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+  #header .header-top .cart-count::after {
+    transition: none;
   }
 }

@@ -1,0 +1,273 @@
+/* Native Apollo header dialogs only. No changes to checkout or other popups. */
+@media (min-width: 768px) {
+  #cart-widget.ts-header-popup,
+  #login.ts-header-popup {
+    position: fixed;
+    top: var(--ts-header-popup-top);
+    left: var(--ts-header-popup-left);
+    right: auto;
+    margin: 0;
+    max-width: calc(100vw - 24px);
+    max-height: calc(100vh - var(--ts-header-popup-top) - 12px);
+    max-height: calc(100dvh - var(--ts-header-popup-top) - 12px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border: 1px solid var(--ts-color-controls-border);
+    border-radius: 12px 0 12px 12px;
+    background: var(--ts-color-bg);
+    box-shadow: 0 6px 16px rgb(66 62 62 / 10%);
+  }
+
+  #cart-widget.ts-header-popup {
+    width: 420px;
+    max-height: min(600px, calc(100vh - var(--ts-header-popup-top) - 12px));
+    max-height: min(600px, calc(100dvh - var(--ts-header-popup-top) - 12px));
+    overflow: hidden;
+  }
+
+  .cart-window-visible #cart-widget.ts-header-popup {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 0;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-title {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 14px 16px 10px;
+    text-align: left;
+    color: var(--ts-color-controls-text);
+    font-size: 17px;
+  }
+
+  #cart-widget.ts-header-popup .popup-widget-inner {
+    flex: 1 1 auto;
+    max-height: none;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-products {
+    margin-bottom: 0;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product {
+    display: grid;
+    grid-template-columns: 100px minmax(0, 1fr) 36px;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 12px 10px;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--ts-color-controls-border);
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product:hover {
+    background: var(--ts-color-controls-active-bg);
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-image {
+    grid-row: 1;
+    grid-column: 1;
+    width: 64px;
+    height: 64px;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /* Presentation only: keep Apollo's forms, inputs and AJAX hooks intact. */
+  #cart-widget.ts-header-popup .cart-widget-product-name {
+    display: contents;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-name strong {
+    grid-row: 1;
+    grid-column: 2 / -1;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 600;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-name a {
+    color: var(--ts-color-controls-text);
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-name a:hover {
+    color: var(--ts-color-controls-active);
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-amount {
+    grid-row: 2;
+    grid-column: 1;
+    width: auto;
+    padding: 0;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-name > span {
+    grid-row: 2;
+    grid-column: 2;
+    color: var(--ts-color-table-name);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-delete {
+    grid-row: 2;
+    grid-column: 3;
+    position: static;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-delete button {
+    width: 36px;
+    height: 36px;
+    color: var(--ts-color-cart-delete);
+    border-radius: 6px;
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-product-delete button:hover {
+    color: var(--ts-color-cart-delete-hover);
+    background: var(--ts-color-cart-delete-bg);
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-button {
+    position: static;
+    flex: 0 0 auto;
+    padding: 12px 16px;
+    background: var(--ts-color-service-bg);
+  }
+
+  #cart-widget.ts-header-popup .popup-widget-inner.full + .cart-widget-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #cart-widget.ts-header-popup .cart-free-shipping { order: 0; }
+  #cart-widget.ts-header-popup .ts-cart-summary { order: 1; }
+  #cart-widget.ts-header-popup #continue-order-button { order: 2; }
+
+  #cart-widget.ts-header-popup .ts-cart-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+    padding-block: 8px;
+    border-block: 1px solid var(--ts-color-controls-border);
+    color: var(--ts-color-controls-text);
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  #cart-widget.ts-header-popup .ts-cart-summary strong {
+    font-size: 19px;
+    color: var(--ts-color-table-name);
+    white-space: nowrap;
+  }
+
+  #cart-widget.ts-header-popup .cart-free-shipping {
+    margin: 0 0 10px;
+    padding: 10px 0 0;
+    color: var(--ts-color-controls-text);
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  #cart-widget.ts-header-popup .cart-free-shipping > div {
+    position: relative;
+    padding-left: 56px;
+  }
+
+  #cart-widget.ts-header-popup .cart-free-shipping div::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    margin: 0;
+    color: var(--ts-color-accent);
+  }
+
+  #cart-widget.ts-header-popup .cart-free-shipping strong {
+    font-size: inherit;
+    font-weight: 600;
+    text-transform: none;
+    color: inherit;
+  }
+
+  #cart-widget.ts-header-popup .cart-free-shipping::before,
+  #cart-widget.ts-header-popup .cart-free-shipping::after {
+    height: 3px;
+    border-radius: 3px;
+  }
+
+  #cart-widget.ts-header-popup .cart-free-shipping::before {
+    background: var(--ts-color-accent);
+  }
+
+  #cart-widget.ts-header-popup .cart-free-shipping::after {
+    background: var(--ts-color-controls-border);
+  }
+
+  #cart-widget.ts-header-popup .cart-widget-button .btn.btn-conversion {
+    margin: 0;
+    width: 100%;
+    min-height: 44px;
+    border-radius: 8px;
+  }
+}
+
+/* Only the native login widget, including its mobile rendering. */
+#login .form-control {
+  background: var(--ts-color-bg);
+  border-color: var(--ts-color-controls-border);
+  color: var(--ts-color-controls-text);
+  border-radius: 8px;
+}
+
+#login .form-control:focus {
+  outline: none;
+  border-color: var(--ts-color-controls-active);
+  box-shadow: 0 0 0 2px var(--ts-color-controls-active-bg);
+}
+
+/* Apollo already supplies the correct orange primary button here. */
+#login .submit-wrapper .btn-primary {
+  border-radius: 8px;
+}
+
+#login .alternative-links a:first-child,
+#login .alternative-links a:first-child:is(:hover, :focus, :active) {
+  background: var(--ts-color-service-bg);
+  color: var(--ts-color-controls-text);
+  border: 1px solid var(--ts-color-controls-border);
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+#login .alternative-links a + a {
+  color: var(--ts-color-controls-text);
+  text-transform: none;
+}
+
+#login .alternative-links a + a:hover {
+  color: var(--ts-color-controls-active);
+}
+
+#login :is(button, a):focus-visible {
+  outline: 2px solid var(--ts-color-controls-active);
+  outline-offset: 2px;
+}

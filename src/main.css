@@ -13,10 +13,13 @@
 @import './modules/category-bestsellers-sidebar/category-bestsellers-sidebar.css';
 @import './modules/homepage-categories/homepage-categories.css';
 @import './modules/mobile-category-controls/mobile-category-controls.css';
+@import './modules/header-service-bar/header-service-bar.css';
 
 /* Shoptet overrides (one file per component) */
 @import './styles/overrides/top-bar.css';
 @import './styles/overrides/header.css';
+@import './styles/overrides/header-popups.css';
+@import './styles/overrides/cart-presentation.css';
 @import './styles/overrides/navigation.css';
 @import './styles/overrides/carousel.css';
 @import './styles/overrides/instagram.css';

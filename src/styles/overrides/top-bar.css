@@ -1,5 +1,112 @@
-/* Top info bar (Cookies • Doprava a platba • …).
-   Drobnosti · a separator dot is also drawn after the last link. */
+/* Apply the geometry to native markup before JS initialization, on every page.
+   Apollo links and its overflow helper remain the source of truth. */
 .top-navigation-bar-menu > li:last-child::after {
-  display: none !important; /* the dot may come from legacy CSS with !important */
+  display: none !important; /* existing legacy separator uses !important */
+}
+
+@media (min-width: 768px) {
+  .top-navigation-bar,
+  body.submenu-visible .top-navigation-bar {
+    background: var(--ts-color-service-bg);
+    color: var(--ts-color-controls-text);
+    box-shadow: none;
+    height: var(--ts-service-height);
+    min-height: var(--ts-service-height);
+    padding-block: 0;
+  }
+
+  .top-navigation-bar > .container {
+    height: var(--ts-service-height);
+    min-height: var(--ts-service-height);
+    padding-block: 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--ts-space-3);
+  }
+
+  /* Bootstrap clearfix pseudo-elements become empty items in Apollo's flex
+     container and reserve a gap before the first information link. */
+  .top-navigation-bar > .container::before,
+  .top-navigation-bar > .container::after {
+    display: none;
+  }
+
+  .top-navigation-bar > .container > div.top-navigation-menu {
+    order: 0;
+    flex: 1 1 auto;
+    min-width: 0;
+    text-align: left;
+  }
+
+  .top-navigation-bar > .container > div.top-navigation-contacts {
+    order: 1;
+    display: flex;
+    flex: 0 0 auto;
+    position: static;
+    /* Apollo writes height:49px inline on load and on resize. */
+    height: auto !important;
+    padding: 0;
+    gap: var(--ts-service-gap);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    font-size: var(--ts-service-font-size);
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .top-navigation-bar > .container > div.top-navigation-tools {
+    flex: 0 0 auto;
+  }
+
+  .top-navigation-bar > .container > div.ts-service-bar__mobile-only {
+    display: none;
+  }
+
+  .top-navigation-bar .top-navigation-contacts > a {
+    padding: 0;
+    gap: var(--ts-space-2);
+    color: var(--ts-color-controls-text);
+    white-space: nowrap;
+  }
+
+  .top-navigation-bar .top-navigation-contacts > a > span {
+    font-size: var(--ts-service-font-size);
+    color: inherit;
+    margin-left: 0;
+  }
+
+  .top-navigation-bar .top-navigation-contacts > a::before {
+    color: var(--ts-color-accent);
+    font-size: var(--ts-service-icon-size);
+    top: 0;
+    line-height: 1;
+  }
+
+  .top-navigation-bar .top-navigation-contacts > a:hover {
+    color: var(--ts-color-controls-active);
+  }
+
+  .top-navigation-bar .top-navigation-bar-menu a {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: var(--ts-service-font-size);
+    line-height: var(--ts-service-height);
+    color: var(--ts-color-controls-text);
+  }
+
+  .top-navigation-bar .top-navigation-bar-menu > li:first-child > a {
+    padding-left: 0;
+  }
+
+  .top-navigation-bar .top-navigation-menu-trigger {
+    top: 0;
+    height: var(--ts-service-height);
+    line-height: var(--ts-service-height);
+    color: var(--ts-color-controls-text);
+    font-size: var(--ts-service-font-size);
+  }
 }

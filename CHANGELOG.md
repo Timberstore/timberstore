@@ -2,6 +2,64 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.1 · 2026-10-09 · Header, account and cart release preparation
+
+- Mobilný „Súvisiaci tovar: počet (od cena)“ je v samostatnom riadku cez celý cart grid, bez nesprávneho zalamovania do úzkej automatickej bunky. Podporené oba natívne Apollo DOM varianty; related toggle a native add-to-cart zostávajú funkčné.
+- Account ikona má jemný oranžový hover a jasnejší oranžový otvorený stav s napojením na popup. Login vstupy, fokus, sekundárna registrácia a zabudnuté heslo používajú bielu/teplú neutrálnu/Timber paletu; primárne oranžové prihlásenie a originál formulár/odkazy zachované.
+- Mini-cart footer má stabilné poradie doprava → SPOLU → CTA. Súčet je kompaktný riadok s jemnými deliacimi čiarami, shipping text má 13 px a väčší odstup truck ikony. Hodnota SPOLU stále používa presnú natívnu header cenu, bez vlastného prepočtu/requestu.
+- Cart trigger používa grid pre ikonu/badge, cenu a šípku; počet číslic rozširuje prvý cell a drží cenu oddelene. Orange otvorený/zatvorený trigger, 50 px výška a jedna Apollo šípka zachované. Odstránené redundantné legacy desktop cart pravidlá.
+- Plus/minus v košíku sú pokojnejšie: tmavé symboly a teplý neutrálny povrch, pôvodná geometria, click target, jemný obvod a native AJAX zostávajú. Quantity success toast má teplý povrch, tmavý text a oranžový akcent; označuje sa iba pôvodná správa o zmene množstva. Role alert, text a auto-dismiss sa nemenia; ostatné notices/error ostávajú native.
+- Natívne popup/cart CSS presunuté do `styles/overrides/` namiesto ďalšej vrstvy. Bez zásahu do produktových gridov/detailových related kariet, filtrov, footeru, neskorších checkout krokov alebo menu logiky.
+- Chromium: desktop 1440/1280/1024/768 px; mobil 430/390/375 px, related toggle/add, quantity AJAX a súčet, account/login, success notice, skutočná doprava zadarmo, dlhý mini-cart a badge fixtures s 1–4 číslicami. Natívna minimálna objednávka 5 € je zachovaná. Lint/build prešli pri pôvodnom 30/15 kB gzip rozpočte. Podrobný report a limity: `docs/previews/v0.6.1.md`.
+- Zahŕňa aj schválené úpravy preview 0.5.7–0.6.0 nad stabilnou 0.5.6: trojpásovú hlavičku, teplú servisnú lištu, kontakty/otváracie hodiny/sociálne odkazy, kompaktnejší hlavný riadok, ukotvené account/cart popupy, natívne desktop otváranie košíka a mobilný cart layout. Mobilná hlavička a kategóriové ovládanie zostávajú zachované.
+- Finálne vizuálne opravy: jedna natívna otočná šípka košíka má polovičnú veľkosť 8 px; potvrdenie množstva má jednotný jemný 1 px oranžový rámik; otvorená ikona účtu má oranžový rámik zhora a po bokoch, s bielym spodkom. Registrácia zostáva tmavým textom na svetlom povrchu pri hoveri, fokuse aj stlačení; odstránené splývanie oranžového textu s oranžovým pozadím. Overené na 1440/768 px vrátane klávesnice a quantity AJAX.
+- Schválené finálne preview `2ce6cba7805816d0bed9dcca4032ae3bf0cf731f` pripravené na main. Package/lock sú 0.6.1 a `shoptet/loader.html` má pripravený PROD `v0.6.1`. GitHub tag/release a vloženie loadera do Shoptetu sú samostatné nasadzovacie kroky; touto prípravou sa živý web nemení.
+
+## v0.6.0 · 2026-10-07 · Header / cart refinement preview
+
+- Servisný pás má stabilnú výšku 36 px už na natívnom markupe pred JS inicializáciou, bez stránkových offsetov. Rozostupy informačných odkazov zväčšené na 20 px; pôvodné texty, href, bodky a overflow menu zostávajú.
+- Header košík ostáva oranžový aj otvorený; jedna natívna šípka označuje stav. Zelený count badge s tmavým textom a jemným bielym okrajom, výraznejšia 17 px cena, väčší odstup od ikony. Zachovaný oranžový keyboard focus a native desktop toggle z 0.5.9 namiesto presmerovania.
+- Mini-cart má 420 px šírku a max. 600 px / dostupný viewport. Samostatný vnútorný scroll zoznamu, dostupný footer a CTA. CSS grid nad pôvodným Apollo markupom: obrázok/názov, potom kompaktnejšie quantity + výrazná cena + červená delete akcia. Natívne formy, množstevné limity, AJAX a ceny sa nemenia.
+- Nový izolovaný idempotentný modul `cart-presentation` synchronizuje „Celkom za tovar“ z natívnej header ceny do footeru, aj po AJAX; žiadne nové requesty alebo vlastné prepočty. Prázdny košík súčet skryje. Doprava zadarmo je kompaktnejšia s väčším odstupom truck ikony; pôvodná CTA zachovaná.
+- Mobilná skutočná cart stránka `.in-kosik #cart-wrapper` pod 768 px má jednotnú štruktúru obrázok/názov/dostupnosť a quantity/cena/remove, 44 px dotykové plochy, zachované jednotky a čitateľný natívny súčet s neutrálnym shellom. Podporené oba natívne DOM varianty aj po zúžení už načítanej desktop stránky košíka. Ďalšie checkout kroky ani desktop cart stránka sa nemenia.
+- Cart/account ukotvenie a povolený native scroll-close fallback z 0.5.9 zachované. Menu/submenu kontinuita, search, mobilný header a návrat medzi breakpointmi overené bez zmeny logiky.
+- Chromium: všetkých sedem desktop šírok 768–1920 px, mobil 375/390/430 px, osem produktov a vnútorný scroll, AJAX quantity/delete/súčet, CTA, account a stabilita pásu na siedmich typoch stránok. Lint/build prešli v gzip rozpočtoch. Podrobnosti a limity: `docs/previews/v0.6.0.md`.
+- Iba preview, bez merge/tag/release. Main a produkčný loader sa nemenia; produkty, filtre, sidebar, footer a ďalší checkout bez zásahu.
+
+## v0.5.9 · 2026-10-07 · Desktop header popup fixes preview
+
+- Izolovaná oprava/refinement preview 0.5.8. Informačné odkazy servisnej lišty majú horizontálny padding 16 px namiesto 8 px, väčšie rozostupy okolo pôvodných bodiek, bez zmeny textov/href, výšky 36 px alebo zarovnania kontajnerov. Apollo overflow helper zostáva natívny.
+- Počet položiek v header košíku používa existujúci Apollo zelený odtieň #66BF3A a tmavý text #20242A (kontrast 6,74 : 1). Kompaktný badge zachováva rovnaký vzhľad v otvorenom aj zatvorenom stave.
+- Odstránený default modrý cart outline; klávesnicový fokus má jemný Timber oranžový tieň. Otvorený cart/account trigger má biely povrch, zladený jemný border a rovné spodné rohy napojené na pôvodný popup.
+- Desktopový cart trigger, jeho suma, badge a pôvodná šípka prepínajú mini-cart cez overené `shoptet.popups.showPopupWindow`, namiesto navigácie alebo Apollo hovered prvého kliku. Presmerovanie ostáva iba na natívnom CTA „Pokračovať do košíka“. Enter/Space/ArrowDown a tabletový touch toggle podporované; mobilné redirect/role atribúty sa obnovujú pri návrate pod 768 px.
+- Popupy majú jedného scoped vlastníka štýlov, fixed súradnice podľa skutočného triggera a obmedzenie podľa viewportu. Pri začiatku scrollovania dokumentu sa cart/login zatvoria cez natívne API (povolený fallback pre animovanú Apollo sticky hlavičku); po opätovnom otvorení sa znovu ukotvia. Žiadne samostatné plávajúce panely.
+- Mini-cart používa pôvodné názvy, obrázky, ceny, množstvá a mazacie formuláre. Jednotnejšia typografia, jemné riadky a kompaktné ovládanie; spodná shipping časť má menej whitespace, 3 px jemný progress pás, menší text a zreteľné oranžové CTA. Login form, registrácia a zabudnuté heslo zostávajú pôvodné.
+- Custom listenery a observéry sa pri AJAX nenásobia. Žiadna zmena cart business logiky, produktov, filtrov, sidebaru, homepage, footeru, search alebo menu logiky. Objednávkové stránky bez natívneho mini-cartu ostávajú bez nového ovládania.
+- Chromium: 1920 / 1600 / 1440 / 1366 / 1280 / 1024 / 768 px; hover, opakovaný click, chevron/badge/amount, keyboard, scroll-close/reopen, account fields/buttons, AJAX quantity a delete, vnútorné CTA. Tablet touch 768 px, mobile 375/430 px a desktop ↔ mobil restoration prešli. Menu/submenu kontinuita overená na 1024/1280/1440/1920 px, search suggestions rovnaké ako 0.5.8. Lint/build prešli. Reálny Safari a prihlásený zákazník neboli testovaní; PageSpeed sa nemeral.
+- Preview vyžaduje schválenie. Main a produkčný loader sa nemenia; bez merge, tagu a release.
+
+## v0.5.8 · 2026-10-07 · Header refinement preview
+
+- Refinement preview 0.5.7 iba v hlavičke: zachovaná trojpásová štruktúra, pôvodné informačné odkazy, oranžová navigácia a natívna Apollo logika.
+- Servisná lišta zostáva vysoká 36 px; písmo 13 px a ikony 18 px zlepšujú čitateľnosť. Hodiny, telefón a e-mail používajú váhu 600, ľavé odkazy zostávajú ľahšie.
+- Hodinovú ikonu nahrádza bodka: zelená PO–PIA od 08:00 vrátane do 16:00 výhradne, inak Timber oranžová. Výpočet používa Europe/Bratislava vrátane letného/zimného času; jeden časovač aktualizuje stav každých 30 sekúnd a po návrate do tabu. Text hodín zostáva bez zmeny; stav má aj textový prístupný popis. Sviatky nemajú samostatný kalendár.
+- E-mailový text je na desktope mimo odkazu; klikateľná je iba natívna ikona, smerujúca na existujúci kontaktný formulár `/kontakty`. URL bola overená v natívnom contact-boxe aj na cieľovej stránke. Pod 768 px sa obnoví pôvodná Apollo mailto štruktúra.
+- Desktop search je vycentrovaný v pôvodnom strednom priestore, s maximom 500 px a šírkou 70 % od 1200 px: približne −33,5 % na 1280 px a −34,2 % na 1440 px oproti 0.5.7. Tablet si ponecháva dostupnú šírku; natívny formulár a AJAX návrhy sú zachované.
+- Account trigger má čistý 50 × 50 px neutrálny povrch, radius 8 px, výšku a vertikálne zarovnanie s košíkom, jemný otvorený stav a viditeľný klávesnicový fokus. Pôvodný login popup a jeho merané ukotvenie sa nemenia.
+- Natívny count badge v hlavičke má biele pozadie a tmavý text. Odstránené staré skrývanie cart šípky; jedna pôvodná Apollo pseudo-šípka reaguje na `cart-window-visible` / `aria-expanded`, s rešpektovaním reduced-motion. Bez nového cart handlera alebo zmeny cart logiky.
+- Overenie v Chromium na 375 / 430 / 768 / 1024 / 1280 / 1440 / 1920 px: mobile porovnanie s 0.5.7, email DOM pri prechode desktop ↔ mobil, login / Escape / ukotvenie, AJAX idempotencia, rovnaké reálne search suggestions, natívne menu, anonymné pridanie produktu a trvalý stav košíka po načítaní stránky, count badge, otvorená/zatvorená šípka a sticky popup. Štrnásť časových prípadov overilo hranice otváracích hodín, víkendy a DST aj pri systémovom časovom pásme America/New_York. Lint/build prešli a gzip rozpočty sú splnené.
+- Preview je izolované na samostatnej vetve. Main, produkčný loader, produkty, filtre, sidebar a obsah homepage sa nemenia. Bez merge, tagu a release; PageSpeed ani reálny iOS Safari sa nemerali.
+
+## v0.5.7 · 2026-10-07 · Header / service bar preview
+
+- Izolované preview zo schváleného buildu 0.5.6: tri pásy hlavičky — teplá neutrálna servisná lišta #F4F1ED s výškou 36 px, biely hlavný riadok a existujúca oranžová kategóriová navigácia. Natívne kontajnery majú spoločné horizontálne zarovnanie.
+- Pôvodné informačné odkazy a ich href zostávajú zachované, vrátane natívneho Apollo overflow menu. Telefón a e-mail už nemajú samostatný sivý box. Pridané otváracie hodiny PO – PIA: 08:00 – 16:00 a drobné oranžové ikony; sociálne odkazy sa preberajú z existujúcej pätičky, bez odhadovaných URL alebo externej knižnice.
+- Hlavný riadok má kompaktnú výšku 90 px, pôvodné logo, dominantné natívne vyhľadávanie a účet iba s ikonou. Prihlasovacie tlačidlo si zachováva prístupný názov aj Apollo ovládanie. Košík, suma, počet položiek, formuláre a menu handlery sa nemenia.
+- Nahradené konfliktné legacy rozmery loga, padding hlavičky a pevné popup offsety. Pôvodné prihlasovacie a košíkové popupy sa zarovnávajú podľa skutočných ovládacích prvkov aj pri resize, sticky hlavičke a opakovanej AJAX inicializácii; listenery sa nenásobia.
+- Od 768 px platí desktopová/tabletová úprava. Pod 1200 px sú otváracie hodiny skryté pre dostatok miesta; pod 768 px zostáva natívna mobilná hlavička a nové sociálne odkazy/hodiny sú skryté. Bez zásahu do produktov, filtrov, sidebaru, detailu alebo obsahu homepage.
+- Overenie v Chromium: 375 / 430 px mobil, 768 / 1024 / 1280 / 1366 / 1440 / 1600 / 1920 px desktop/tablet, resize, native search suggestions, anonymné pridanie do košíka, prihlasovací popup / Escape / fokus, sticky hlavička a opakovaná inicializácia. Porovnanie natívneho mobilného layoutu a kategóriového menu s 0.5.6. Reálny Safari, prihlásený účet a Shoptet administrácia neboli testované; PageSpeed nebol meraný.
+- Preview vyžaduje schválenie pred merge/tagom/release. Produkčný main a loader zostávajú bez zmeny.
+
 ## v0.5.6 · 2026-10-07 · Production frontend audit fixes
 
 - Položka VIAC v desktopovej navigácii má rovnakú veľkosť textu, vertikálne zarovnanie a jednu spoločnú šípku ako kategórie. Natívne Apollo presúvanie položiek pri zmene šírky zostáva zachované.

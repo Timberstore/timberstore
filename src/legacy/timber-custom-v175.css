@@ -1195,32 +1195,6 @@ form[action*="Subscribe"] {
         animation: none !important;
     }
 
-    .site-name a img,
-    #header .site-name a img {
-        height: 68px !important;
-        width: 310px !important;
-        aspect-ratio: 310 / 68 !important;
-
-        max-height: none !important;
-        max-width: 100% !important;
-
-        object-fit: contain !important;
-    }
-
-    /* Miesto pre logo je rezervované ešte pred načítaním obrázka,
-       takže vyhľadávanie a košík nemenia polohu. */
-    #header .site-name a {
-        display: block !important;
-        width: 310px !important;
-        height: 68px !important;
-        max-width: 100% !important;
-    }
-
-    .site-name,
-    #header .site-name {
-        width: auto !important;
-        max-width: none !important;
-    }
 }
 
 /* =========================================================
