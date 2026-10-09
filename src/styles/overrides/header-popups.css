@@ -157,32 +157,6 @@
   #cart-widget.ts-header-popup .cart-free-shipping {
     order: 0;
   }
-  #cart-widget.ts-header-popup .ts-cart-summary {
-    order: 1;
-  }
-  #cart-widget.ts-header-popup #continue-order-button {
-    order: 2;
-  }
-
-  #cart-widget.ts-header-popup .ts-cart-summary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    margin-bottom: 10px;
-    padding-block: 8px;
-    border-block: 1px solid var(--ts-color-controls-border);
-    color: var(--ts-color-controls-text);
-    font-size: 13px;
-    font-weight: 600;
-  }
-
-  #cart-widget.ts-header-popup .ts-cart-summary strong {
-    font-size: 19px;
-    color: var(--ts-color-table-name);
-    white-space: nowrap;
-  }
-
   #cart-widget.ts-header-popup .cart-free-shipping {
     margin: 0 0 10px;
     padding: 10px 0 0;
@@ -276,4 +250,54 @@
 #login :is(button, a):focus-visible {
   outline: 2px solid var(--ts-color-controls-active);
   outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+  /* Apollo's mini-cart layer (9) otherwise sits below category controls (50). */
+  .cart-window-visible #cart-widget {
+    z-index: calc(var(--ts-z-controls) + 1);
+  }
+}
+
+/* The same native summary is rendered inside the mobile mini-cart. */
+#cart-widget #continue-order-button {
+  order: 2;
+}
+
+#cart-widget .ts-cart-summary {
+  background: var(--ts-color-technical-bg);
+  order: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding-block: 8px;
+  border-block: 1px solid var(--ts-color-controls-border);
+  color: var(--ts-color-controls-text);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#cart-widget .ts-cart-summary strong {
+  font-size: 19px;
+  color: var(--ts-color-table-name);
+  white-space: nowrap;
+}
+
+#cart-widget .cart-widget-button {
+  background-color: var(--ts-color-technical-bg);
+}
+#cart-widget .cart-free-shipping {
+  background-color: var(--ts-color-service-bg);
+  color: var(--ts-color-controls-text);
+}
+#cart-widget .cart-free-shipping div::before {
+  color: var(--ts-color-accent);
+}
+#cart-widget .cart-free-shipping::before {
+  background-color: var(--ts-color-accent);
+}
+#cart-widget .cart-free-shipping::after {
+  background-color: var(--ts-color-controls-border);
 }

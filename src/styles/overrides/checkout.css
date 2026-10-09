@@ -84,3 +84,8 @@ ol.cart-header li.completed :is(a, strong) span::before {
 .ordering-process .order-summary-item.helper :is(span, strong) {
   color: var(--ts-color-price-secondary);
 }
+
+/* The primary total label is not the secondary VAT helper label. */
+.ordering-process .price-wrapper .price-label.price-primary {
+  color: var(--ts-color-controls-text);
+}

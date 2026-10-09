@@ -43,3 +43,23 @@
     }
   }
 }
+
+/* Actual Apollo advanced-order header, not unrelated Colorbox dialogs. */
+#cboxLoadedContent .advanced-order > .h1:not(.advanced-order-suggestion) {
+  background: var(--ts-color-success-bg);
+  color: var(--ts-color-controls-text);
+  box-shadow: inset 0 0 0 1px var(--ts-color-success);
+}
+#cboxLoadedContent .advanced-order > .h1::before {
+  color: var(--ts-color-success);
+}
+#colorbox:has(.advanced-order) #cboxClose::before {
+  color: var(--ts-color-controls-text);
+}
+/* Delivery in cart, advanced-order and mini-cart uses one warm family. */
+.extras-wrap .extra-item .extra-content:has(.extra.delivery) {
+  background-color: var(--ts-color-service-bg);
+}
+.extras-wrap .price-range > div {
+  background-color: var(--ts-color-accent);
+}

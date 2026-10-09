@@ -28,6 +28,7 @@
   --ts-color-price-secondary: #666878; /* AA contrast for small text on white */
   --ts-z-information-message: 10; /* Apollo's original information-toast priority */
   --ts-color-service-bg: #f5f0e9;
+  --ts-color-service-divider: #ded8d0;
   --ts-service-height: 36px;
   --ts-service-font-size: 13px;
   --ts-service-gap: 14px;

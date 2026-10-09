@@ -1,0 +1,395 @@
+{
+  "version": "0.6.3",
+  "base": "0094da1c56a15bafbf9ed050f18445fa5b67b944",
+  "productionUnchanged": "df300c64728c8307690f961bede37eb255e60e41",
+  "lint": "passed",
+  "build": "passed",
+  "header": [
+    {
+      "width": 375,
+      "checks": [
+        "add-to-cart semantic modal / dark close",
+        "arrow single toggle / ARIA",
+        "keyboard Enter / Escape restores focus",
+        "reinit idempotent one API call",
+        "outside click closes",
+        "steel badge / no horizontal overflow",
+        "resize clone owns one arrow",
+        "native cart navigation touch/Enter"
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "checks": [
+        "add-to-cart semantic modal / dark close",
+        "arrow single toggle / ARIA",
+        "keyboard Enter / Escape restores focus",
+        "reinit idempotent one API call",
+        "outside click closes",
+        "steel badge / no horizontal overflow",
+        "resize clone owns one arrow",
+        "native cart navigation touch/Enter"
+      ],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "checks": [
+        "add-to-cart semantic modal / dark close",
+        "arrow single toggle / ARIA",
+        "keyboard Enter / Escape restores focus",
+        "reinit idempotent one API call",
+        "outside click closes",
+        "native hover opens / leave closes",
+        "mega-menu warm bar stable",
+        "steel badge / no horizontal overflow",
+        "resize clone owns one arrow",
+        "native cart navigation touch/Enter"
+      ],
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "checks": [
+        "add-to-cart semantic modal / dark close",
+        "arrow single toggle / ARIA",
+        "keyboard Enter / Escape restores focus",
+        "reinit idempotent one API call",
+        "outside click closes",
+        "native hover opens / leave closes",
+        "mega-menu warm bar stable",
+        "steel badge / no horizontal overflow",
+        "resize clone owns one arrow",
+        "native cart navigation touch/Enter"
+      ],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "checks": [
+        "add-to-cart semantic modal / dark close",
+        "arrow single toggle / ARIA",
+        "keyboard Enter / Escape restores focus",
+        "reinit idempotent one API call",
+        "outside click closes",
+        "native hover opens / leave closes",
+        "mega-menu warm bar stable",
+        "steel badge / no horizontal overflow",
+        "resize clone owns one arrow",
+        "native cart navigation touch/Enter"
+      ],
+      "errors": []
+    }
+  ],
+  "extra": [
+    "390 arrow touch/Space one call",
+    "390 main click from open preview native href",
+    {
+      "width": 390,
+      "errors": []
+    },
+    "empty cart native API hover / leave",
+    "1440 arrow touch/Space one call",
+    "1440 main click from open preview native href",
+    {
+      "width": 1440,
+      "errors": []
+    }
+  ],
+  "geometry": [
+    {
+      "width": 375,
+      "heightBefore": 7639,
+      "heightAfter": 7639,
+      "diffs": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "heightBefore": 7698,
+      "heightAfter": 7698,
+      "diffs": [],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "heightBefore": 9891,
+      "heightAfter": 9891,
+      "diffs": [],
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "heightBefore": 6542,
+      "heightAfter": 6542,
+      "diffs": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "heightBefore": 6539,
+      "heightAfter": 6539,
+      "diffs": [],
+      "overflow": false
+    }
+  ],
+  "checkout": {
+    "checks": [
+      "cart summary / current step / no overflow 375",
+      "cart summary / current step / no overflow 390",
+      "cart summary / current step / no overflow 768",
+      "cart summary / current step / no overflow 1024",
+      "cart summary / current step / no overflow 1440",
+      "shipping step 375",
+      "shipping step 390",
+      "shipping step 768",
+      "shipping step 1024",
+      "shipping step 1440",
+      "customer summary / current step 375",
+      "customer summary / current step 390",
+      "customer summary / current step 768",
+      "customer summary / current step 1024",
+      "customer summary / current step 1440"
+    ],
+    "errors": [],
+    "orderSubmitted": false
+  },
+  "functional": {
+    "results": [
+      {
+        "name": "badge colour / sticky / no overflow 375"
+      },
+      {
+        "name": "badge colour / sticky / no overflow 390"
+      },
+      {
+        "name": "badge colour / sticky / no overflow 768"
+      },
+      {
+        "name": "badge colour / sticky / no overflow 1024"
+      },
+      {
+        "name": "badge colour / sticky / no overflow 1440"
+      },
+      {
+        "name": "native grid / list switch"
+      },
+      {
+        "name": "product quantity"
+      },
+      {
+        "name": "native add to cart"
+      },
+      {
+        "name": "mobile filter and sorting overlays / unchanged scrollHeight"
+      },
+      {
+        "name": "cart quantity native AJAX and semantic success message",
+        "detail": {
+          "border": "1px",
+          "radius": "10px",
+          "borderColor": "rgb(36, 115, 75)"
+        }
+      },
+      {
+        "name": "real free shipping reached without order"
+      },
+      {
+        "name": "cart neutral summary / AA copper CTA",
+        "detail": {
+          "bg": "rgb(243, 245, 247)",
+          "cta": [
+            {
+              "bg": "rgb(168, 95, 41)",
+              "color": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      },
+      {
+        "name": "native checkout shipping / payment -> customer form; no order submitted"
+      },
+      {
+        "name": "native active / completed step colours",
+        "detail": [
+          {
+            "cls": "step step-1 completed",
+            "bg": "rgb(66, 62, 62)",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "cls": "step step-2 completed",
+            "bg": "rgb(66, 62, 62)",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "cls": "step step-3 active",
+            "bg": "rgb(212, 136, 74)",
+            "color": "rgb(15, 15, 15)"
+          }
+        ]
+      }
+    ],
+    "errors": [
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      },
+      {
+        "pageError": "backToTop is not defined",
+        "pageUrl": "https://www.timberstore.sk/uchytky/",
+        "stack": "Uncaught ReferenceError: backToTop is not defined\n    at partScrollResize (https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/app.min.js?v=1650:0:205923)\n    at <anonymous> (https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/app.min.js?v=1650:0:2729)"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      },
+      {
+        "pageError": "backToTop is not defined",
+        "pageUrl": "https://www.timberstore.sk/uchytky/",
+        "stack": "Uncaught ReferenceError: backToTop is not defined\n    at partScrollResize (https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/app.min.js?v=1650:0:205923)\n    at <anonymous> (https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/app.min.js?v=1650:0:2729)"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://applepay.cdn-apple.com/jsapi/1.latest/apple-pay-sdk.js"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      },
+      {
+        "excludedExternal": "https://d1uuj3mi6rzwpm.cloudfront.net/logos/providers/sk/slovenska_sporitelna_sk.svg"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      }
+    ]
+  },
+  "assets": {
+    "css": {
+      "sha256": "97dd28fcd28f034688f0c8418dd0a36f60a6b0236d5396ed476b886a501f40f6",
+      "gzipBytes": 16120,
+      "budgetBytes": 16384
+    },
+    "js": {
+      "sha256": "bfa35a04393dc73bbbeec6ac5c09c4bcf8893bd8abb334bd206a3443ddc42795",
+      "gzipBytes": 17958,
+      "budgetBytes": 30720
+    }
+  },
+  "limitations": [
+    "Prior native Apollo backToTop exception remains documented. Final independent header and checkout checks had no JS errors.",
+    "No real order or payment submitted; physical Safari/iPhone and post-deployment PageSpeed untested."
+  ],
+  "changedFiles": [
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "dist/timber.min.css",
+    "dist/timber.min.css.map",
+    "dist/timber.min.js",
+    "dist/timber.min.js.map",
+    "docs/previews/header-cart-v063/comparison.md",
+    "docs/previews/header-cart-v063/images/cart-free-1440-after.jpg",
+    "docs/previews/header-cart-v063/images/cart-free-1440-before.jpg",
+    "docs/previews/header-cart-v063/images/cart-free-390-after.jpg",
+    "docs/previews/header-cart-v063/images/cart-free-390-before.jpg",
+    "docs/previews/header-cart-v063/images/cart-low-1440-after.jpg",
+    "docs/previews/header-cart-v063/images/cart-low-1440-before.jpg",
+    "docs/previews/header-cart-v063/images/cart-low-390-after.jpg",
+    "docs/previews/header-cart-v063/images/cart-low-390-before.jpg",
+    "docs/previews/header-cart-v063/images/header-1440-after.jpg",
+    "docs/previews/header-cart-v063/images/header-1440-before.jpg",
+    "docs/previews/header-cart-v063/images/header-390-after.jpg",
+    "docs/previews/header-cart-v063/images/header-390-before.jpg",
+    "docs/previews/header-cart-v063/images/menu-1440-after.jpg",
+    "docs/previews/header-cart-v063/images/menu-1440-before.jpg",
+    "docs/previews/header-cart-v063/images/mini-1440-after.jpg",
+    "docs/previews/header-cart-v063/images/mini-1440-before.jpg",
+    "docs/previews/header-cart-v063/images/mini-390-after.jpg",
+    "docs/previews/header-cart-v063/images/mini-390-before.jpg",
+    "docs/previews/header-cart-v063/images/modal-1440-after.jpg",
+    "docs/previews/header-cart-v063/images/modal-1440-before.jpg",
+    "docs/previews/header-cart-v063/images/modal-390-after.jpg",
+    "docs/previews/header-cart-v063/images/modal-390-before.jpg",
+    "docs/previews/header-cart-v063/verification.json",
+    "docs/previews/v0.6.3-header-cart.md",
+    "package-lock.json",
+    "package.json",
+    "scripts/build.mjs",
+    "src/core/selectors.js",
+    "src/core/texts.js",
+    "src/modules/header-service-bar/header-service-bar.css",
+    "src/modules/header-service-bar/index.js",
+    "src/styles/overrides/cart-modal.css",
+    "src/styles/overrides/checkout.css",
+    "src/styles/overrides/header-popups.css",
+    "src/styles/overrides/top-bar.css",
+    "src/styles/tokens.css"
+  ]
+}

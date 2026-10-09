@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { gzipSync } from 'node:zlib';
 
 const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
-// User-approved 16 kB CSS budget for the isolated v0.6.2 colour preview (2026-10-09).
+// User-approved 16 kB CSS budget for the isolated v0.6.2–0.6.3 colour previews (2026-10-09).
 const BUDGET = { 'dist/timber.min.js': 30 * 1024, 'dist/timber.min.css': 16 * 1024 };
 
 const common = {

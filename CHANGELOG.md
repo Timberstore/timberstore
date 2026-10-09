@@ -2,6 +2,15 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.3 · 2026-10-09 · Header/cart refinement preview (not released)
+
+- Podľa nového zadania nadväzuje na farebný preview 0.6.2; nemení main, produkčný loader ani release/tag.
+- Natívny odkaz na košík opäť naviguje kliknutím aj dotykom. Samostatná prístupná šípka používa Apollo popup API; desktop hover zostáva natívny, prázdny košík využíva rovnaké API. ARIA, Escape/focus, click outside, mobile clone a AJAX sú synchronizované bez násobenia listenerov.
+- Trvalé teplé pozadie service baru pri mega menu, opravená CSS špecificita bez zvýšenia jeho z-indexu. Hodiny PO – PIA (08:00 – 16:00), jemné kontaktné oddeľovače.
+- Add-to-cart modal používa rovnakú jemnú zelenú rodinu ako quantity toast, tmavý kontrastný X. Doprava a progress zjednotené aj v mobile mini-carte; súhrny neutrálne, oceľový badge a checkout stepper zachované.
+- Responzívne UI a natívne interakcie overené na 375/390/768/1024/1440 px; kategórie bez meranej regresie geometrie či výšky dokumentu. Lint/build prešli v existujúcom preview rozpočte CSS 16 kB / JS 30 kB gzip. Natívna Apollo chyba backToTop je samostatne zaznamenaná, bez nesúvisiaceho workaroundu.
+- Screenshoty, farby, rozsah a limity: docs/previews/v0.6.3-header-cart.md. Bez odoslania objednávky; bez produkčného nasadenia.
+
 ## v0.6.2 · 2026-10-09 · Unified colour system preview (not released)
 
 - Izolovaný farebný návrh nad stabilným v0.6.1: zachované logo, rozloženie, native Apollo komponenty a obchodná logika. Produkčný loader/main/tag sa nemenia.

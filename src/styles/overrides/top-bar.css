@@ -6,7 +6,7 @@
 
 @media (min-width: 768px) {
   .top-navigation-bar,
-  body.submenu-visible .top-navigation-bar {
+  body.submenu-visible:not(.menu-helper-visible) .top-navigation-bar.ts-service-bar {
     background: var(--ts-color-service-bg);
     color: var(--ts-color-controls-text);
     box-shadow: none;

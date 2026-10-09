@@ -82,3 +82,70 @@
     display: inline-flex;
   }
 }
+
+/* Sibling button, never an interactive element inside the native link. */
+.ts-cart-control {
+  isolation: isolate;
+  position: relative;
+}
+.ts-cart-preview-toggle {
+  position: absolute;
+  inset: 0 0 0 auto;
+  z-index: 1;
+  width: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 0 8px 8px 0;
+  background: transparent;
+  color: var(--ts-color-text);
+  cursor: pointer;
+}
+.ts-cart-preview-toggle::after {
+  content: '\e900';
+  font-family: apollo;
+  display: inline-block;
+  font-size: 8px;
+  line-height: 1;
+  transition: transform 160ms ease;
+}
+.cart-window-visible .ts-cart-preview-toggle {
+  /* Native open cart link uses 60; stay above it within the isolated control. */
+  z-index: 61;
+}
+.cart-window-visible .ts-cart-preview-toggle::after {
+  transform: rotate(180deg);
+}
+.ts-cart-preview-toggle:focus-visible {
+  outline: 2px solid var(--ts-color-controls-active);
+  outline-offset: -3px;
+}
+#header .ts-cart-control .cart-count::after {
+  visibility: hidden;
+}
+@media (max-width: 767px) {
+  .top-navigation-bar .ts-cart-control {
+    display: inline-flex;
+    align-items: center;
+  }
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count {
+    /* Apollo disables this link and redirects the wrapper. Restore the link
+       so touch, keyboard and modified clicks share the same native href. */
+    pointer-events: auto;
+    padding-right: 28px;
+  }
+  .top-navigation-bar .ts-cart-preview-toggle {
+    width: 28px;
+  }
+}
+@media (min-width: 1200px) {
+  .ts-service-bar__hours,
+  .ts-service-bar .project-phone {
+    padding-right: 14px;
+    border-right: 1px solid var(--ts-color-service-divider);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ts-cart-preview-toggle::after {
+    transition: none;
+  }
+}
