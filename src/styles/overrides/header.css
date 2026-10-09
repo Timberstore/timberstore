@@ -94,8 +94,7 @@
   .login-window-visible #header .header-top .top-nav-button-account {
     background: var(--ts-color-bg);
     color: var(--ts-color-controls-active);
-    box-shadow: inset 0 2px 0 var(--ts-color-accent);
-    border: 1px solid var(--ts-color-controls-border);
+    border: 1px solid var(--ts-color-accent);
     border-bottom-color: var(--ts-color-bg);
     border-radius: 8px 8px 0 0;
   }
@@ -158,9 +157,10 @@
     content: '\e900';
     grid-row: 1;
     grid-column: 3;
+    justify-self: center;
     padding: 0;
     margin: 0;
-    font-size: 16px;
+    font-size: 8px;
     line-height: 1;
     color: var(--ts-color-bg);
     transform: none;

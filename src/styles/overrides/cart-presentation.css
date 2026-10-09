@@ -378,7 +378,6 @@
 .messages .msg.msg-success.ts-cart-quantity-confirmation {
   background: var(--ts-color-controls-active-bg);
   color: var(--ts-color-controls-text);
-  border: 1px solid var(--ts-color-controls-border);
-  border-left: 4px solid var(--ts-color-accent);
+  border: 1px solid var(--ts-color-accent);
   border-radius: 10px;
 }
