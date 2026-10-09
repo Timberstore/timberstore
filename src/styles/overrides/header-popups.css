@@ -54,7 +54,7 @@
     margin-bottom: 0;
   }
 
-  #cart-widget.ts-header-popup .cart-widget-product {
+  #cart-widget.ts-header-popup .full .cart-widget-product {
     display: grid;
     grid-template-columns: 100px minmax(0, 1fr) 36px;
     grid-template-rows: auto auto;
@@ -64,7 +64,7 @@
     border-bottom: 1px solid var(--ts-color-controls-border);
   }
 
-  #cart-widget.ts-header-popup .cart-widget-product:hover {
+  #cart-widget.ts-header-popup .full .cart-widget-product:hover {
     background: var(--ts-color-controls-active-bg);
   }
 
