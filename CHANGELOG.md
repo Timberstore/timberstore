@@ -2,6 +2,12 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.2 · 2026-10-09 · Empty mini-cart fix preview
+
+- Opravený prázdny desktop mini-košík: Apollo používa `.cart-widget-product` aj pre prázdne hlásenie. Produktový grid a hover sú teraz obmedzené na natívny `.popup-widget-inner.full` stav, takže prázdna ikona a text opäť používajú pôvodné Apollo rozloženie bez prekrývania.
+- Bez zmeny natívnej ikony, textu, requestov, DOM alebo event handlerov. Plný košík, quantity/súčet/AJAX a mobilné správanie zostávajú zachované.
+- Izolované patch preview zo schváleného mainu 0.6.1; produkčný loader/tag v0.6.1 sa neprepisuje. Lint a build prešli v pôvodných limitoch.
+
 ## v0.6.1 · 2026-10-09 · Header, account and cart release preparation
 
 - Mobilný „Súvisiaci tovar: počet (od cena)“ je v samostatnom riadku cez celý cart grid, bez nesprávneho zalamovania do úzkej automatickej bunky. Podporené oba natívne Apollo DOM varianty; related toggle a native add-to-cart zostávajú funkčné.
