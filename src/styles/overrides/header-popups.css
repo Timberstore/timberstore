@@ -249,7 +249,8 @@
   border-radius: 8px;
 }
 
-#login .alternative-links a:first-child {
+#login .alternative-links a:first-child,
+#login .alternative-links a:first-child:is(:hover, :focus, :active) {
   background: var(--ts-color-service-bg);
   color: var(--ts-color-controls-text);
   border: 1px solid var(--ts-color-controls-border);
@@ -262,7 +263,7 @@
   text-transform: none;
 }
 
-#login .alternative-links a:hover {
+#login .alternative-links a + a:hover {
   color: var(--ts-color-controls-active);
 }
 
