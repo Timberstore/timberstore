@@ -2,7 +2,7 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
-## v0.6.1 · 2026-10-08 · Popup / cart visual consistency preview
+## v0.6.1 · 2026-10-09 · Header, account and cart release preparation
 
 - Mobilný „Súvisiaci tovar: počet (od cena)“ je v samostatnom riadku cez celý cart grid, bez nesprávneho zalamovania do úzkej automatickej bunky. Podporené oba natívne Apollo DOM varianty; related toggle a native add-to-cart zostávajú funkčné.
 - Account ikona má jemný oranžový hover a jasnejší oranžový otvorený stav s napojením na popup. Login vstupy, fokus, sekundárna registrácia a zabudnuté heslo používajú bielu/teplú neutrálnu/Timber paletu; primárne oranžové prihlásenie a originál formulár/odkazy zachované.
@@ -11,7 +11,9 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 - Plus/minus v košíku sú pokojnejšie: tmavé symboly a teplý neutrálny povrch, pôvodná geometria, click target, jemný obvod a native AJAX zostávajú. Quantity success toast má teplý povrch, tmavý text a oranžový akcent; označuje sa iba pôvodná správa o zmene množstva. Role alert, text a auto-dismiss sa nemenia; ostatné notices/error ostávajú native.
 - Natívne popup/cart CSS presunuté do `styles/overrides/` namiesto ďalšej vrstvy. Bez zásahu do produktových gridov/detailových related kariet, filtrov, footeru, neskorších checkout krokov alebo menu logiky.
 - Chromium: desktop 1440/1280/1024/768 px; mobil 430/390/375 px, related toggle/add, quantity AJAX a súčet, account/login, success notice, skutočná doprava zadarmo, dlhý mini-cart a badge fixtures s 1–4 číslicami. Natívna minimálna objednávka 5 € je zachovaná. Lint/build prešli pri pôvodnom 30/15 kB gzip rozpočte. Podrobný report a limity: `docs/previews/v0.6.1.md`.
-- Iba izolované preview nad 0.6.0. Main/produkčný loader, merge, tag a release bez zmeny.
+- Zahŕňa aj schválené úpravy preview 0.5.7–0.6.0 nad stabilnou 0.5.6: trojpásovú hlavičku, teplú servisnú lištu, kontakty/otváracie hodiny/sociálne odkazy, kompaktnejší hlavný riadok, ukotvené account/cart popupy, natívne desktop otváranie košíka a mobilný cart layout. Mobilná hlavička a kategóriové ovládanie zostávajú zachované.
+- Finálne vizuálne opravy: jedna natívna otočná šípka košíka má polovičnú veľkosť 8 px; potvrdenie množstva má jednotný jemný 1 px oranžový rámik; otvorená ikona účtu má oranžový rámik zhora a po bokoch, s bielym spodkom. Registrácia zostáva tmavým textom na svetlom povrchu pri hoveri, fokuse aj stlačení; odstránené splývanie oranžového textu s oranžovým pozadím. Overené na 1440/768 px vrátane klávesnice a quantity AJAX.
+- Schválené finálne preview `2ce6cba7805816d0bed9dcca4032ae3bf0cf731f` pripravené na main. Package/lock sú 0.6.1 a `shoptet/loader.html` má pripravený PROD `v0.6.1`. GitHub tag/release a vloženie loadera do Shoptetu sú samostatné nasadzovacie kroky; touto prípravou sa živý web nemení.
 
 ## v0.6.0 · 2026-10-07 · Header / cart refinement preview
 
