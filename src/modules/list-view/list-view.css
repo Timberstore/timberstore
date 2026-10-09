@@ -77,13 +77,13 @@
   }
 
   .ts-view-switch__btn:focus-visible {
-    outline: 2px solid var(--ts-color-accent);
+    outline: 2px solid var(--ts-color-controls-active);
     outline-offset: 1px;
   }
 
   .ts-view-switch__btn--active {
     background: var(--ts-color-accent);
-    color: var(--ts-color-bg);
+    color: var(--ts-color-text);
   }
 
   .ts-view-switch__btn svg {
@@ -112,11 +112,22 @@
     text-transform: uppercase;
   }
 
-  .ts-product-table-head__cell--product { grid-area: product; }
-  .ts-product-table-head__cell--availability { grid-area: avail; }
-  .ts-product-table-head__cell--price { grid-area: price; }
-  .ts-product-table-head__cell--amount { grid-area: qty; text-align: center; }
-  .ts-product-table-head__cell--cart { grid-area: cart; }
+  .ts-product-table-head__cell--product {
+    grid-area: product;
+  }
+  .ts-product-table-head__cell--availability {
+    grid-area: avail;
+  }
+  .ts-product-table-head__cell--price {
+    grid-area: price;
+  }
+  .ts-product-table-head__cell--amount {
+    grid-area: qty;
+    text-align: center;
+  }
+  .ts-product-table-head__cell--cart {
+    grid-area: cart;
+  }
 
   .ts-product-table-head__sort {
     display: inline-flex;
@@ -134,7 +145,7 @@
   .ts-product-table-head__sort:hover,
   .ts-product-table-head__sort--asc,
   .ts-product-table-head__sort--desc {
-    color: var(--ts-color-accent);
+    color: var(--ts-color-link);
   }
 
   /* Chevron: hidden until sorted by price, then points up (asc) or down (desc). */

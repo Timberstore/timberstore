@@ -59,7 +59,7 @@ export function initLegacyEmptyCart() {
             /* ODKAZ V HLAVNOM TEXTE */
 
             .timber-empty-main-link {
-                color: #D4884A !important;
+                color: var(--ts-color-action) !important;
                 text-decoration: underline !important;
                 text-decoration-thickness: 1px !important;
                 text-underline-offset: 4px !important;
@@ -68,7 +68,7 @@ export function initLegacyEmptyCart() {
             }
 
             .timber-empty-main-link:hover {
-                color: #B8692E !important;
+                color: var(--ts-color-action-hover) !important;
             }
 
 
@@ -87,11 +87,11 @@ export function initLegacyEmptyCart() {
                 min-height: 58px;
                 padding: 12px 14px;
 
-                background: #FAF3EB;
-                border: 1px solid #E9E1D8;
+                background: var(--ts-color-service-bg);
+                border: 1px solid var(--ts-color-controls-border);
                 border-radius: 12px;
 
-                color: #423E3E;
+                color: var(--ts-color-controls-text);
                 text-decoration: none;
                 text-align: center;
 
@@ -104,8 +104,8 @@ export function initLegacyEmptyCart() {
             }
 
             .timber-empty-extra__cats a:hover {
-                border-color: #D4884A;
-                color: #C97A2B;
+                border-color: var(--ts-color-action);
+                color: var(--ts-color-link);
                 transform: translateY(-1px);
             }
 
@@ -125,10 +125,10 @@ export function initLegacyEmptyCart() {
                 padding: 14px;
 
                 background: #fff;
-                border: 1px solid #E9E1D8;
+                border: 1px solid var(--ts-color-controls-border);
                 border-radius: 14px;
 
-                color: #423E3E;
+                color: var(--ts-color-controls-text);
                 text-decoration: none;
 
                 box-sizing: border-box;
@@ -138,7 +138,7 @@ export function initLegacyEmptyCart() {
             .timber-empty-extra__product:hover {
                 transform: translateY(-2px);
                 box-shadow: 0 8px 20px rgba(66,62,62,.08);
-                border-color: #D4884A;
+                border-color: var(--ts-color-action);
             }
 
             .timber-empty-extra__product-img {
@@ -191,7 +191,7 @@ export function initLegacyEmptyCart() {
                 min-height: 46px;
                 padding: 12px 24px;
 
-                background: #D4884A;
+                background: var(--ts-color-action);
                 color: #fff;
 
                 border-radius: 999px;
@@ -203,7 +203,7 @@ export function initLegacyEmptyCart() {
             }
 
             .timber-empty-extra__cta a:hover {
-                background: #B8692E;
+                background: var(--ts-color-action-hover);
                 color: #fff;
                 transform: translateY(-1px);
             }

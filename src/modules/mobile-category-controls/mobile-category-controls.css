@@ -42,8 +42,8 @@
 
   .ts-mobile-category__button[aria-expanded='true'] {
     background: var(--ts-color-controls-active-bg);
-    border-color: var(--ts-color-accent);
-    color: var(--ts-color-controls-active);
+    border-color: var(--ts-color-link);
+    color: var(--ts-color-link);
   }
 
   .ts-mobile-category__label {
@@ -109,7 +109,7 @@
     padding: 8px 0;
     border: 0;
     background: transparent;
-    color: var(--ts-color-controls-active);
+    color: var(--ts-color-link);
     font: inherit;
     font-size: 12px;
     font-weight: 700;
@@ -126,7 +126,7 @@
   .type-category .ts-mobile-category__more:focus-visible,
   .type-category .ts-mobile-category #filters .ts-mobile-category__heading:focus-visible,
   .type-category .ts-mobile-category .listSorting__control:focus-visible {
-    outline: 2px solid var(--ts-color-accent);
+    outline: 2px solid var(--ts-color-controls-active);
     outline-offset: -3px;
   }
 }

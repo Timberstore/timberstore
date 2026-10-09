@@ -69,13 +69,16 @@
     background: var(--ts-color-service-bg);
     box-shadow: none;
     color: var(--ts-color-controls-text);
-    transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    transition:
+      background-color 160ms ease,
+      color 160ms ease,
+      box-shadow 160ms ease;
   }
 
   #header .header-top .top-nav-button-login:hover,
   #header .header-top .top-nav-button-account:hover {
     background: var(--ts-color-controls-active-bg);
-    color: var(--ts-color-accent);
+    color: var(--ts-color-controls-active);
   }
 
   #header .header-top .cart-count:focus-visible {
@@ -83,7 +86,7 @@
   }
 
   #header .header-top .cart-count::before {
-    color: var(--ts-color-bg);
+    color: var(--ts-color-text);
     grid-area: 1 / 1;
     justify-self: start;
     margin: 0;
@@ -102,7 +105,10 @@
   #header .header-top .cart-count {
     outline: none;
     border: 1px solid transparent;
-    transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    transition:
+      background-color 160ms ease,
+      color 160ms ease,
+      box-shadow 160ms ease;
     display: inline-grid;
     grid-template-columns: minmax(40px, max-content) auto 16px;
     align-items: center;
@@ -127,14 +133,14 @@
     grid-row: 1;
     grid-column: 2;
     text-align: right;
-    color: var(--ts-color-bg);
+    color: var(--ts-color-text);
     font-size: 17px;
     font-weight: 700;
   }
 
   #header .header-top .top-nav-button-login:focus-visible,
   #header .header-top .top-nav-button-account:focus-visible {
-    outline: 2px solid var(--ts-color-accent);
+    outline: 2px solid var(--ts-color-controls-active);
     outline-offset: 3px;
   }
 
@@ -162,7 +168,7 @@
     margin: 0;
     font-size: 8px;
     line-height: 1;
-    color: var(--ts-color-bg);
+    color: var(--ts-color-text);
     transform: none;
     transition: transform 160ms ease;
   }
@@ -178,7 +184,7 @@
     align-self: start;
     margin: 4px 0 0 18px;
     background: var(--ts-color-cart-count-bg);
-    color: #20242a;
+    color: var(--ts-color-bg);
     min-width: 22px;
     width: auto;
     height: 22px;
@@ -198,7 +204,6 @@
   .is-header-fixed.is-header-hidden #header .site-name {
     height: auto;
   }
-
 }
 
 @media (min-width: 1200px) {
@@ -211,4 +216,12 @@
   #header .header-top .cart-count::after {
     transition: none;
   }
+}
+
+/* Header and Apollo's mobile clone share the same semantic count colour. */
+:root .btn.cart-count > i {
+  background: var(--ts-color-cart-count-bg);
+  color: var(--ts-color-bg);
+  min-width: 18px;
+  width: auto;
 }

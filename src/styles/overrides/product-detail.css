@@ -10,3 +10,16 @@
   font-size: 12.5px !important;
   line-height: 1.5 !important;
 }
+
+/* Form boundaries and placeholder are functional, unlike decorative card borders. */
+body .form-control {
+  border-color: var(--ts-color-field-border);
+  color: var(--ts-color-controls-text);
+}
+body .form-control::placeholder {
+  color: var(--ts-color-table-head-text);
+  opacity: 1;
+}
+body .form-control:focus {
+  border-color: var(--ts-color-link);
+}

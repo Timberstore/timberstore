@@ -1,21 +1,43 @@
 /* Design tokens — the only place for colours, spacing and breakpoints. */
 :root {
   --ts-color-accent: #d4884a; /* btn-primary on timberstore.sk */
+  /* Brand surfaces stay copper; text/actions have AA-safe companion shades. */
+  --ts-color-link: #9b5624;
+  --ts-color-action: #a85f29;
+  --ts-color-action-hover: #87491f;
+  --ts-color-steel: #29465b;
+  --ts-color-technical-bg: #f3f5f7;
+  --ts-color-price: #252b32;
+  --ts-color-field-border: #828f99;
+  --ts-color-rank-steel: #84919b;
+  --ts-color-support-bg: #f9f4ed;
+  --ts-color-rank-bronze: #ae8064;
+  --ts-color-step-bg: #e9eaed;
+  --ts-color-success: #24734b;
+  --ts-color-success-bg: #e8f5ed;
+  --ts-color-warning: #a96519;
+  --ts-color-warning-bg: #fff3df;
+  --ts-color-error: #b83b43;
+  --ts-color-error-bg: #fcedef;
+  --ts-color-info-bg: #eaf3f7;
+  --color-primary: var(--ts-color-link);
+  --color-primary-hover: var(--ts-color-action-hover);
+  --color-tertiary: var(--ts-color-service-bg);
   --ts-color-text: #0f0f0f;
-  --ts-color-muted: #818394; /* Shoptet's secondary text (e.g. back links) */
-  --ts-color-price-secondary: #6f7182; /* AA contrast for small text on white */
+  --ts-color-muted: #666878; /* Shoptet's secondary text (e.g. back links) */
+  --ts-color-price-secondary: #666878; /* AA contrast for small text on white */
   --ts-z-information-message: 10; /* Apollo's original information-toast priority */
-  --ts-color-service-bg: #f4f1ed;
+  --ts-color-service-bg: #f5f0e9;
   --ts-service-height: 36px;
   --ts-service-font-size: 13px;
   --ts-service-gap: 14px;
   --ts-service-icon-size: 18px;
   --ts-service-status-size: 8px;
   --ts-color-service-open: #2e7d32;
-  --ts-color-cart-delete: #b4483e;
+  --ts-color-cart-delete: #b83b43;
   --ts-color-cart-delete-hover: #96362f;
-  --ts-color-cart-delete-bg: #fff2ef;
-  --ts-color-cart-count-bg: #66bf3a; /* existing Apollo free-delivery accent */
+  --ts-color-cart-delete-bg: #fcedef;
+  --ts-color-cart-count-bg: #29465b; /* steel badge, not availability */
   --ts-header-logo-width: 200px;
   --ts-header-logo-height: 44px;
   --ts-header-padding: 20px;
@@ -24,12 +46,12 @@
   --ts-header-account-size: 50px;
   --ts-color-bg: #fff;
   --ts-color-controls-text: #423e3e;
-  --ts-color-controls-border: #e5ddd2;
-  --ts-color-controls-divider: #e9e1d8;
+  --ts-color-controls-border: #e5e0da;
+  --ts-color-controls-divider: #e5e0da;
   --ts-color-controls-active-bg: #fff8f1;
   --ts-color-controls-active: #c97a2b;
   --ts-color-count-bg: #faf8f5;
-  --ts-color-count-text: #7c7e8f;
+  --ts-color-count-text: #6f7182;
   --ts-radius-count: 5px;
   --ts-radius-controls: 12px;
   --ts-shadow-controls: 0 8px 24px rgb(66 62 62 / 12%);
@@ -40,8 +62,8 @@
   --ts-color-table-border: #e7eaee;
   --ts-color-table-row-border: #eef1f3;
   --ts-color-table-head-bg: #f5f7f9;
-  --ts-color-table-head-text: #6f7885;
-  --ts-color-table-row-hover: #eef7fc;
+  --ts-color-table-head-text: #5e6470;
+  --ts-color-table-row-hover: #f3f5f7;
   --ts-color-table-name: #20242a;
   --ts-color-detail-code: #4a525e; /* product code + brand on the detail page */
   --ts-color-switch-border: #e2e5e9;
@@ -51,13 +73,24 @@
   --ts-color-qty-border: #dfe4e8;
   --ts-color-qty-btn-bg: #f7f8f9;
   --ts-color-qty-text: #26313d;
-  --ts-color-in-cart: #2e9c42;
+  --ts-color-in-cart: var(--ts-color-cart-count-bg);
   --ts-radius: 4px;
   --ts-space-1: 4px;
   --ts-space-2: 8px;
   --ts-space-3: 16px;
   --ts-space-section: 40px; /* vertical gap around homepage blocks */
   --ts-z-preview: 99999;
+}
+
+/* Apollo writes basket hooks inline on html. Local inheritance on body wins
+   without !important; only basket colour hooks are re-owned, not geometry. */
+body {
+  --basket-bg: var(--ts-color-technical-bg);
+  --basket-free-delivery-bg: var(--ts-color-service-bg);
+  --basket-free-delivery-top-bg: var(--ts-color-accent);
+  --basket-choose-box-bg: var(--ts-color-technical-bg);
+  --basket-choose-box-border: var(--ts-color-controls-border);
+  --basket-discount-bg: var(--ts-color-controls-active-bg);
 }
 
 /* Breakpoints (CSS custom properties can't be used in media queries —

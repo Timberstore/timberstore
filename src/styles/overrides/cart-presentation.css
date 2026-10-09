@@ -151,7 +151,11 @@
   }
 
   .in-kosik #cart-wrapper .cart-table tr.removeable > .p-quantity:not(:has(.quantity-form)),
-  .in-kosik #cart-wrapper .cart-table tr.removeable > .p-availability:not(:has(.availability-label)),
+  .in-kosik
+    #cart-wrapper
+    .cart-table
+    tr.removeable
+    > .p-availability:not(:has(.availability-label)),
   .in-kosik #cart-wrapper .cart-table tr.removeable > .p-price:not(:has(.price-final)),
   .in-kosik #cart-wrapper .cart-table .p-total > .p-label {
     display: none;
@@ -161,7 +165,7 @@
     padding: 16px;
     border: 1px solid var(--ts-color-controls-border);
     border-radius: 12px;
-    background: var(--ts-color-service-bg);
+    background: var(--ts-color-technical-bg);
   }
 
   .in-kosik #cart-wrapper .summary-wrapper .box {
@@ -171,7 +175,7 @@
   }
 
   .in-kosik #cart-wrapper .summary-wrapper .price-primary {
-    color: var(--ts-color-table-name);
+    color: var(--ts-color-price);
   }
 
   .in-kosik #cart-wrapper .summary-wrapper strong.price-primary {
@@ -245,8 +249,12 @@
     cursor: pointer;
   }
 
-  #cart-widget.ts-header-popup .quantity .decrease { grid-column: 1; }
-  #cart-widget.ts-header-popup .quantity .increase { grid-column: 3; }
+  #cart-widget.ts-header-popup .quantity .decrease {
+    grid-column: 1;
+  }
+  #cart-widget.ts-header-popup .quantity .increase {
+    grid-column: 3;
+  }
 
   #cart-widget.ts-header-popup .quantity .increase::before,
   #cart-widget.ts-header-popup .quantity .decrease::before {
@@ -328,8 +336,12 @@
     cursor: pointer;
   }
 
-  .in-kosik #cart-wrapper .cart-table .quantity .decrease { grid-column: 1; }
-  .in-kosik #cart-wrapper .cart-table .quantity .increase { grid-column: 3; }
+  .in-kosik #cart-wrapper .cart-table .quantity .decrease {
+    grid-column: 1;
+  }
+  .in-kosik #cart-wrapper .cart-table .quantity .increase {
+    grid-column: 3;
+  }
 
   .in-kosik #cart-wrapper .cart-table .quantity .increase::before,
   .in-kosik #cart-wrapper .cart-table .quantity .decrease::before {
@@ -374,10 +386,8 @@
   }
 }
 
-/* Only the native quantity confirmation; errors and other notices keep Apollo. */
+/* Preserve the approved quantity-toast geometry; notifier colours are shared. */
 .messages .msg.msg-success.ts-cart-quantity-confirmation {
-  background: var(--ts-color-controls-active-bg);
-  color: var(--ts-color-controls-text);
-  border: 1px solid var(--ts-color-accent);
+  border: 1px solid var(--ts-color-success);
   border-radius: 10px;
 }

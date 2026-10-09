@@ -163,6 +163,8 @@ Všechno povinné, u každého releasu:
 - [ ] CHANGELOG doplněný, karta v Trellu odkazuje na verzi
 
 ### 3.4 Výkonový rozpočet
+
+- **Výjimka pro testovací barevnou větev 0.6.2 (schválená klientem 9. 10. 2026):** CSS limit tohoto preview je 16 kB gzip; JS zůstává 30 kB. Produkční 0.6.1 a její build/loader se nemění. Před případným nasazením se rozhodne o finálním rozpočtu.
 - `timber.min.js` **≤ 30 kB gzip**, `timber.min.css` **≤ 15 kB gzip** — build při překročení **selže**.
 - Žádný nový skript blokující vykreslování. Náš balík je vždy `defer`.
 - PageSpeed Insights (mobil) před a po nasazení — skóre ani LCP/CLS **nesmí klesnout**. Výsledek se zapíše do CHANGELOGu.

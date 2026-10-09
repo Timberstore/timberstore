@@ -154,9 +154,15 @@
     flex-direction: column;
   }
 
-  #cart-widget.ts-header-popup .cart-free-shipping { order: 0; }
-  #cart-widget.ts-header-popup .ts-cart-summary { order: 1; }
-  #cart-widget.ts-header-popup #continue-order-button { order: 2; }
+  #cart-widget.ts-header-popup .cart-free-shipping {
+    order: 0;
+  }
+  #cart-widget.ts-header-popup .ts-cart-summary {
+    order: 1;
+  }
+  #cart-widget.ts-header-popup #continue-order-button {
+    order: 2;
+  }
 
   #cart-widget.ts-header-popup .ts-cart-summary {
     display: flex;
@@ -233,14 +239,14 @@
 /* Only the native login widget, including its mobile rendering. */
 #login .form-control {
   background: var(--ts-color-bg);
-  border-color: var(--ts-color-controls-border);
+  border-color: var(--ts-color-field-border);
   color: var(--ts-color-controls-text);
   border-radius: 8px;
 }
 
 #login .form-control:focus {
   outline: none;
-  border-color: var(--ts-color-controls-active);
+  border-color: var(--ts-color-link);
   box-shadow: 0 0 0 2px var(--ts-color-controls-active-bg);
 }
 

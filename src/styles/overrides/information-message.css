@@ -9,3 +9,32 @@
   outline: 2px solid var(--ts-color-bg);
   outline-offset: var(--ts-space-1);
 }
+
+/* Native notifier classes retain their icons, role, text and dismiss behavior. */
+.messages .msg {
+  color: var(--ts-color-controls-text);
+}
+.messages .msg-success,
+.messages .msg-notice {
+  background: var(--ts-color-success-bg);
+  border-color: var(--ts-color-success);
+}
+.messages .msg-info {
+  background: var(--ts-color-info-bg);
+  border-color: var(--ts-color-steel);
+}
+.messages .msg-warning {
+  background: var(--ts-color-warning-bg);
+  border-color: var(--ts-color-warning);
+}
+.messages .msg-error {
+  background: var(--ts-color-error-bg);
+  border-color: var(--ts-color-error);
+}
+.messages .msg a {
+  color: inherit;
+}
+.validator-msg.msg-error,
+.js-validator-msg.msg-error {
+  color: var(--ts-color-error);
+}

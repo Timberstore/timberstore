@@ -2,6 +2,16 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.2 · 2026-10-09 · Unified colour system preview (not released)
+
+- Izolovaný farebný návrh nad stabilným v0.6.1: zachované logo, rozloženie, native Apollo komponenty a obchodná logika. Produkčný loader/main/tag sa nemenia.
+- Centralizované farebné role: značková meď, AA companion odtiene pre biele CTA a drobné odkazy, oceľovomodrý cart count/Novinka, neutrálne veľké plochy a jednotné úspešné/informačné/varovné/chybové správy.
+- Košík a checkout: teplá doprava, technický súhrn, tmavá dominantná cena, čitateľné ceny bez DPH, jasné active/completed/future native kroky. Quantity success zachováva schválený jemný obvod/radius a používa zelenú sémantiku.
+- Zladené filtre, sorting, count badge, sidebar support/TOP poradie, service CTA, formuláre, focus a dostupnosť. Green stock dátová logika zachovaná; centrálne skladové texty majú kontrastný oranžový odtieň.
+- Vyčistené prepisované a nepoužívané legacy pravidlá; 856 → 771 !important v aktívnom legacy CSS. Nové important iba na overených inline farbách. Jediný JS diff je tokenizácia farebných literálov jeho existujúceho injected empty-cart CSS.
+- Chromium 375/390/768/1024/1440 px; geometria, badge/sticky, quantity/add-to-cart, GRID/LIST, filter AJAX/sorting/reset, mobilné menu, login a native checkout po osobné údaje. Žiadna objednávka neodoslaná. Pred/po galéria a detailný audit: docs/previews/v0.6.2-color-system.md.
+- Lint/build prešli. Klient schválil CSS limit 16 kB iba pre toto testovacie preview; JS zostáva 30 kB. PageSpeed po nasadení a reálny iOS Safari zatiaľ nevykonané; nejde o produkčný release.
+
 ## v0.6.1 · 2026-10-09 · Header, account and cart release preparation
 
 - Mobilný „Súvisiaci tovar: počet (od cena)“ je v samostatnom riadku cez celý cart grid, bez nesprávneho zalamovania do úzkej automatickej bunky. Podporené oba natívne Apollo DOM varianty; related toggle a native add-to-cart zostávajú funkčné.

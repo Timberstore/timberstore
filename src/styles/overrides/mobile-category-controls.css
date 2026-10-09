@@ -57,7 +57,7 @@
     border: 1px solid var(--ts-color-accent);
     border-radius: var(--ts-radius);
     background: var(--ts-color-bg);
-    color: var(--ts-color-controls-active);
+    color: var(--ts-color-link);
     font-family: inherit;
     font-size: 12px;
     font-weight: 700;
@@ -76,7 +76,7 @@
   }
 
   .type-category .ts-mobile-category #clear-filters a:focus-visible {
-    outline: 2px solid var(--ts-color-accent);
+    outline: 2px solid var(--ts-color-controls-active);
     outline-offset: -3px;
   }
 
@@ -110,7 +110,7 @@
 
   .type-category .ts-mobile-category #filters .is-active > .ts-mobile-category__heading,
   .type-category .ts-mobile-category #filters .is-active > .ts-mobile-category__heading::after {
-    color: var(--ts-color-controls-active);
+    color: var(--ts-color-link);
   }
 
   /* Keep Apollo's single icon and its native is-active glyph change. */
@@ -194,7 +194,7 @@
     .ts-mobile-category__option
     > input:checked
     + .filter-label {
-    color: var(--ts-color-controls-active);
+    color: var(--ts-color-link);
   }
 
   .type-category
@@ -203,8 +203,8 @@
     .ts-mobile-category__option
     > input:checked
     + .filter-label::before {
-    background-color: var(--ts-color-accent);
-    border-color: var(--ts-color-accent);
+    background-color: var(--ts-color-link);
+    border-color: var(--ts-color-link);
   }
 
   .type-category
@@ -289,7 +289,7 @@
   .type-category #category-header .ts-mobile-category .listSorting__control:active,
   .type-category #category-header .ts-mobile-category .listSorting__control--current {
     background: var(--ts-color-controls-active-bg);
-    color: var(--ts-color-controls-active);
+    color: var(--ts-color-link);
     box-shadow: none;
   }
 

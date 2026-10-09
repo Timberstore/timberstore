@@ -71,7 +71,7 @@
   }
 
   .ts-service-bar__email > .project-email:focus-visible {
-    outline: 2px solid var(--ts-color-accent);
+    outline: 2px solid var(--ts-color-controls-active);
     outline-offset: 3px;
     border-radius: 2px;
   }

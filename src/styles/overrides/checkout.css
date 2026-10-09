@@ -31,3 +31,56 @@
   transform: none !important;
   transition: none !important;
 }
+
+/* Only colour, using the native active/completed step classes and counters. */
+body ol.cart-header li :is(a, strong),
+body ol.cart-header li.completed :is(a, strong) {
+  color: var(--ts-color-controls-text);
+}
+ol.cart-header li :is(a, strong) span::before {
+  background: var(--ts-color-step-bg);
+  color: var(--ts-color-controls-text);
+}
+body ol.cart-header li.active :is(a, strong) {
+  color: var(--ts-color-text);
+}
+ol.cart-header li.active :is(a, strong) span::before {
+  background: var(--ts-color-accent);
+  color: var(--ts-color-text);
+}
+ol.cart-header li.completed :is(a, strong) span::before {
+  background: var(--ts-color-controls-text);
+  color: var(--ts-color-bg);
+}
+.ordering-process .summary-wrapper,
+.ordering-process .next-step {
+  background-color: var(--ts-color-technical-bg);
+}
+.ordering-process .price-wrapper .price-primary {
+  color: var(--ts-color-price);
+}
+.ordering-process .price-wrapper :is(.price-secondary, .price-label) {
+  color: var(--ts-color-price-secondary);
+}
+.extras-wrap .extra.delivery,
+.cart-inner .delivery-time {
+  color: var(--ts-color-controls-text);
+}
+.extras-wrap .extra.delivery::before {
+  color: var(--ts-color-accent);
+}
+
+/* The free-shipping variant otherwise borrows the summary's basket surface. */
+.extras-wrap .extra-item.is-free-shipping .extra-content {
+  background-color: var(--ts-color-service-bg);
+}
+
+/* Native shipping/payment amounts are prices, not green availability labels. */
+.ordering-process .recapitulation-single > strong span {
+  color: var(--ts-color-price);
+}
+
+/* Nested native recap labels otherwise keep the older low-contrast grey. */
+.ordering-process .order-summary-item.helper :is(span, strong) {
+  color: var(--ts-color-price-secondary);
+}
