@@ -1,5 +1,8 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
+import { syncQuantities, resizeQuantity } from './quantity.js';
+import { syncRelated } from './related.js';
+import { syncBottom } from './bottom.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
 
 let observer;
@@ -8,12 +11,20 @@ let bound = false;
 
 function syncPresentation() {
   frame = 0;
-  for (const message of document.querySelectorAll(`${SEL.cartMessages} ${SEL.cartSuccessMessage}`)) {
-    if (message.textContent.trim() === TEXTS.header.quantityChanged) {
+  for (const message of document.querySelectorAll(
+    `${SEL.cartMessages} ${SEL.cartSuccessMessage}`,
+  )) {
+    if (
+      message.textContent.trim() === TEXTS.header.quantityChanged &&
+      !message.classList.contains('ts-cart-quantity-confirmation')
+    ) {
       message.classList.add('ts-cart-quantity-confirmation');
     }
   }
   syncSummary();
+  syncQuantities();
+  syncRelated();
+  syncBottom();
 }
 
 function syncSummary() {
@@ -45,18 +56,42 @@ function scheduleSummary() {
   if (!frame) frame = window.requestAnimationFrame(syncPresentation);
 }
 
+function observe() {
+  observer.disconnect();
+  for (const selector of [SEL.headerCartPopup, SEL.headerCart, SEL.cartMessages, SEL.cartRoot]) {
+    const node = document.querySelector(selector);
+    if (node)
+      observer.observe(node, {
+        childList: true,
+        subtree: true,
+        characterData: true,
+        attributes: true,
+        attributeFilter: ['class'],
+      });
+  }
+}
+
 export default {
   name: 'cart-presentation',
   pages: ['*'],
   init() {
     if (!observer) observer = new MutationObserver(scheduleSummary);
-    observer.disconnect();
-    for (const selector of [SEL.headerCartPopup, SEL.headerCart, SEL.cartMessages]) {
-      const node = document.querySelector(selector);
-      if (node) observer.observe(node, { childList: true, subtree: true, characterData: true });
-    }
+    observe();
     if (!bound) {
-      document.addEventListener(SHOPTET_EVENTS.cartUpdated, scheduleSummary);
+      document.addEventListener(SHOPTET_EVENTS.cartUpdated, () => {
+        observe();
+        scheduleSummary();
+      });
+      document.addEventListener('input', (event) => {
+        if (event.target instanceof Element && event.target.matches(SEL.cartQuantityInput))
+          resizeQuantity(event.target);
+      });
+      document.addEventListener('click', (event) => {
+        if (!(event.target instanceof Element)) return;
+        const input = event.target.closest(SEL.nativeQuantity)?.querySelector(SEL.cartFormAmount);
+        if (input?.matches(SEL.cartQuantityInput))
+          window.requestAnimationFrame(() => resizeQuantity(input));
+      });
       bound = true;
     }
     syncPresentation();

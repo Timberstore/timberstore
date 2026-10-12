@@ -2,6 +2,17 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.6 · 2026-10-12 · Nákupný košík (preview, nevydané)
+
+- Jednotné množstvo main/mini/related, pružná šírka čísla, rovnaké +/- a natívne min/max/step.
+- Plné desktop názvy, dostupnosť na jednom riadku + počet pod ňou, tablet/mobil bez pretekania.
+- Funkčné množstvo súvisiaceho tovaru z overených metadata verejného detailu, pôvodný native add-to-cart a násobky zachované.
+- Kompaktnejší dátum doručenia, 6 px progress z natívnych dát/thresholdu, súhrn a sekundárny pôvodný Späť do obchodu; AJAX a reduced motion.
+- Čitateľný hover/focus krokov objednávky; ceny dopravy/platby nepretekajú na úzkom mobile.
+- Diagnostika: native config/HTML max 9999, serverový skladový limit testovaného produktu 178, multiply_order min/step 1000. Žiadne obchádzanie platformových alebo skladových pravidiel.
+- Obmedzená client-approved CSS výnimka 17 kB iba pre preview 0.6.6; JavaScript limit 30 kB bez zmeny. Detailné výsledky, scenáre a limity overenia v docs/previews/v0.6.6-cart.md.
+- Main, produkčný loader, tagy a release nezmenené; žiadny merge ani nasadenie.
+
 ## v0.6.5 · 2026-10-12 · Schválené doladenie hlavičky, košíka a pôvodnej Timber palety
 
 Finálny súhrn od stabilnej v0.6.1; klient schválil preview 87ff73a k merge a publikovaniu.

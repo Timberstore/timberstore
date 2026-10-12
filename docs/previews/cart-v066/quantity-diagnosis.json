@@ -1,0 +1,124 @@
+{
+  "config": 9999,
+  "attempts": [
+    {
+      "requested": 100,
+      "status": 200,
+      "state": {
+        "cart": [
+          {
+            "quantity": 100,
+            "priceId": 350039
+          }
+        ],
+        "messages": "Množstvo bolo úspešne zmenené.",
+        "inputs": [
+          {
+            "value": "100",
+            "max": "9999",
+            "step": "1"
+          }
+        ]
+      },
+      "nativeResponse": {
+        "code": 200,
+        "message": "Množstvo bolo úspešne zmenené.",
+        "messages": {
+          "notices": [
+            "Množstvo bolo úspešne zmenené."
+          ]
+        }
+      }
+    },
+    {
+      "requested": 1000,
+      "status": 200,
+      "state": {
+        "cart": [
+          {
+            "quantity": 100,
+            "priceId": 350039
+          }
+        ],
+        "messages": "",
+        "inputs": [
+          {
+            "value": "100",
+            "max": "9999",
+            "step": "1"
+          }
+        ]
+      },
+      "nativeResponse": {
+        "code": 500,
+        "message": "Tento produkt má obmedzený počet kusov, ktoré je možné zakúpiť. Dostupných je iba 178 položiek.<br/>Množstvo nebolo zmenené.",
+        "messages": {
+          "errors": [
+            "Tento produkt má obmedzený počet kusov, ktoré je možné zakúpiť. Dostupných je iba 178 položiek.",
+            "Množstvo nebolo zmenené."
+          ]
+        }
+      }
+    },
+    {
+      "requested": 9500,
+      "status": 200,
+      "state": {
+        "cart": [
+          {
+            "quantity": 100,
+            "priceId": 350039
+          }
+        ],
+        "messages": "",
+        "inputs": [
+          {
+            "value": "100",
+            "max": "9999",
+            "step": "1"
+          }
+        ]
+      },
+      "nativeResponse": {
+        "code": 500,
+        "message": "Tento produkt má obmedzený počet kusov, ktoré je možné zakúpiť. Dostupných je iba 178 položiek.<br/>Množstvo nebolo zmenené.",
+        "messages": {
+          "errors": [
+            "Tento produkt má obmedzený počet kusov, ktoré je možné zakúpiť. Dostupných je iba 178 položiek.",
+            "Množstvo nebolo zmenené."
+          ]
+        }
+      }
+    },
+    {
+      "requested": 10001,
+      "status": 200,
+      "state": {
+        "cart": [
+          {
+            "quantity": 100,
+            "priceId": 350039
+          }
+        ],
+        "messages": "",
+        "inputs": [
+          {
+            "value": "100",
+            "max": "9999",
+            "step": "1"
+          }
+        ]
+      },
+      "nativeResponse": {
+        "code": 500,
+        "message": "Tento produkt má obmedzený počet kusov, ktoré je možné zakúpiť. Dostupných je iba 178 položiek.<br/>Množstvo nebolo zmenené.",
+        "messages": {
+          "errors": [
+            "Tento produkt má obmedzený počet kusov, ktoré je možné zakúpiť. Dostupných je iba 178 položiek.",
+            "Množstvo nebolo zmenené."
+          ]
+        }
+      }
+    }
+  ]
+}

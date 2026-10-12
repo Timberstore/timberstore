@@ -7,7 +7,7 @@
    Popups (.colorbox-close) keep their own button look.
    !important: the pill look comes from !important rules in the legacy CSS. */
 /* Specificity (0,3,1) already beats Apollo's `.cart-content .next-step-back:hover`. */
-.ordering-process a.next-step-back:not(.colorbox-close) {
+.ordering-process:not(.in-kosik) a.next-step-back:not(.colorbox-close) {
   background: none !important;
   border: 0 !important;
   box-shadow: none !important;
@@ -17,12 +17,12 @@
   text-decoration: underline;
 }
 
-.ordering-process a.next-step-back:not(.colorbox-close):hover {
+.ordering-process:not(.in-kosik) a.next-step-back:not(.colorbox-close):hover {
   color: var(--ts-color-text) !important;
 }
 
-.ordering-process a.next-step-back:not(.colorbox-close)::before,
-.ordering-process a.next-step-back:not(.colorbox-close):hover::before {
+.ordering-process:not(.in-kosik) a.next-step-back:not(.colorbox-close)::before,
+.ordering-process:not(.in-kosik) a.next-step-back:not(.colorbox-close):hover::before {
   display: inline-block;
   margin-right: var(--ts-space-2) !important;
   color: inherit !important;
@@ -88,4 +88,55 @@ ol.cart-header li.completed :is(a, strong) span::before {
 /* The primary total label is not the secondary VAT helper label. */
 .ordering-process .price-wrapper .price-label.price-primary {
   color: var(--ts-color-controls-text);
+}
+
+/* Keep the step's actual state on hover: Apollo otherwise paints the neutral
+   circle with --color-primary while its numeral stays the same dark colour. */
+.ordering-process ol.cart-header li {
+  --ts-step-bg: var(--ts-color-step-bg);
+  --ts-step-fg: var(--ts-color-controls-text);
+}
+.ordering-process ol.cart-header li.active {
+  --ts-step-bg: var(--ts-color-accent);
+  --ts-step-fg: var(--ts-color-text);
+}
+.ordering-process ol.cart-header li.completed {
+  --ts-step-bg: var(--ts-color-controls-text);
+  --ts-step-fg: var(--ts-color-bg);
+}
+body.ordering-process ol.cart-header li :is(a, strong) span::before,
+body.ordering-process ol.cart-header li a:is(:hover, :focus-visible) span::before {
+  background: var(--ts-step-bg);
+  color: var(--ts-step-fg);
+}
+body.ordering-process ol.cart-header li a:focus-visible {
+  outline: 2px solid var(--ts-color-accent);
+  outline-offset: 3px;
+}
+
+/* Apollo's fixed 80 px shipping price overflows the label on narrow phones.
+   Keep native radios/data/prices and put that price on its own grid row. */
+@media (max-width: 767px) {
+  .in-krok-1 .order-delivery-payment-form .radio-wrapper > label {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 12px 12px 36px;
+  }
+  .in-krok-1 .order-delivery-payment-form .payment-info {
+    width: auto;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .in-krok-1 .order-delivery-payment-form .payment-logo {
+    width: auto;
+    max-width: 60px;
+  }
+  .in-krok-1 .order-delivery-payment-form .payment-shipping-price {
+    grid-column: 1 / -1;
+    width: auto;
+    min-width: 0;
+    text-align: right;
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Just below threshold (native-data fixture)",
+    "Exactly threshold (native-data fixture)",
+    "Above threshold (native-data fixture)",
+    "Unknown threshold (native-data fixture)",
+    "Zero threshold (native-data fixture)",
+    "Invalid native percentage (native-data fixture)",
+    "Unknown threshold on existing fill after lifecycle event"
+  ],
+  "fixturesOnly": true,
+  "errors": []
+}

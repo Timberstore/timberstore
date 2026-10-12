@@ -12,6 +12,11 @@ export const TEXTS = {
     facebook: 'Timber Store na Facebooku',
     instagram: 'Timber Store na Instagrame',
   },
+  cart: {
+    nativeDeliveryPrefix: 'Doručenie možné do:',
+    deliveryPrefix: 'MÔŽEME DORUČIŤ DO:',
+    shippingProgress: 'Doprava zdarma',
+  },
   closeInformationMessage: 'Zavrieť oznam',
   viewSwitch: {
     label: 'Zobrazenie',
