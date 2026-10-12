@@ -1,10 +1,10 @@
 /* Design tokens — the only place for colours, spacing and breakpoints. */
 :root {
   --ts-color-accent: #d4884a; /* btn-primary on timberstore.sk */
-  /* Brand surfaces stay copper; text/actions have AA-safe companion shades. */
-  --ts-color-link: #9b5624;
-  --ts-color-action: #a85f29;
-  --ts-color-action-hover: #87491f;
+  /* Original Timber palette: no alternative brown action/link shades. */
+  --ts-color-link: var(--ts-color-accent);
+  --ts-color-action: var(--ts-color-accent);
+  --ts-color-action-hover: #b8692e;
   --ts-color-steel: #29465b;
   --ts-color-technical-bg: #f3f5f7;
   --ts-color-price: #252b32;
@@ -15,13 +15,13 @@
   --ts-color-step-bg: #e9eaed;
   --ts-color-success: #24734b;
   --ts-color-success-bg: #e8f5ed;
-  --ts-color-warning: #a96519;
+  --ts-color-warning: var(--ts-color-controls-active);
   --ts-color-warning-bg: #fff3df;
   --ts-color-error: #b83b43;
   --ts-color-error-bg: #fcedef;
   --ts-color-info-bg: #eaf3f7;
-  --color-primary: var(--ts-color-link);
-  --color-primary-hover: var(--ts-color-action-hover);
+  --color-primary: var(--ts-color-controls-text);
+  --color-primary-hover: var(--ts-color-controls-active);
   --color-tertiary: var(--ts-color-service-bg);
   --ts-color-text: #0f0f0f;
   --ts-color-muted: #666878; /* Shoptet's secondary text (e.g. back links) */

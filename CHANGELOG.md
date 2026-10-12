@@ -2,6 +2,14 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.5 · 2026-10-12 · Restore original brand palette preview (not released)
+
+- Oprava príčiny zostávajúcich farebných regresií: natívny --color-primary vrátený na pôvodný tmavý #423E3E, hover na pôvodný #C97A2B. Homepage benefit texty opäť tmavé ako v stabilnej 0.6.1.
+- Nové hnedé action/link odtiene #A85F29/#9B5624 nahradené pôvodnou značkovou #D4884A naprieč všetkými spotrebiteľmi tokenov: homepage karusely, detail/checkout CTA, služby, empty-cart, odkazy a ovládanie filtrov. Nový hover #87491F vrátený na pôvodný #B8692E; warning/availability #A96519 na pôvodný #C97A2B.
+- Benefit ikony porovnané s 0.6.1: totožné pôvodné obrazové súbory, rozmery a filter. Žiadna výmena assetov ani zmena geometrie. JS a obchodná logika bez zmeny.
+- Homepage porovnanie 1440/1920/390 px, native filter AJAX/radenie/reset/menu a 15 kontrol checkoutu na 375/390/768/1024/1440 px. Lint/build prešli v preview rozpočte; bez objednávky/platby, main/tag/loader nemeníme.
+- Screenshoty a presné zmeny: docs/previews/v0.6.5-brand-palette.md. Nie je to produkčný release.
+
 ## v0.6.4 · 2026-10-12 · Targeted colour regression fixes preview (not released)
 
 - Obnovené presné biele pravidlá hlavnej oranžovej navigácie z v0.6.1; tmavý hover na bielom podklade a geometria zachované. Header cart ikona/cena/šípka opäť biele na medenom desktope; oceľový počet zostáva.
