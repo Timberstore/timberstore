@@ -1,0 +1,181 @@
+{
+  "baseline": "df300c64728c8307690f961bede37eb255e60e41",
+  "previewVersion": "0.6.2",
+  "widths": [
+    375,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "lint": "passed",
+  "build": "passed",
+  "budgets": {
+    "cssGzipBytes": 16384,
+    "jsGzipBytes": 30720,
+    "cssException": "User approval, 2026-10-09; preview only"
+  },
+  "assets": {
+    "css": {
+      "sha256": "bb86121a1ed22a4030410e75a9a4c1aaba1802ac5bf72b0c47ece189ee653ef8",
+      "bytes": 100558,
+      "gzipBytes": 15726
+    },
+    "js": {
+      "sha256": "74cc2af0b74eec9a2cc393b73188ab2731b07128a1171c31f73f5535c5e77119",
+      "bytes": 62852,
+      "gzipBytes": 17722
+    }
+  },
+  "geometry": {
+    "comparisons": 18,
+    "issues": [
+      {
+        "name": "customer-390",
+        "phase": "before",
+        "screenshot": "CDP screenshot timeout"
+      },
+      {
+        "name": "customer-390",
+        "phase": "after",
+        "screenshot": "CDP screenshot timeout"
+      },
+      {
+        "name": "customer-1440",
+        "phase": "before",
+        "screenshot": "CDP screenshot timeout"
+      },
+      {
+        "name": "customer-1440",
+        "phase": "after",
+        "screenshot": "CDP screenshot timeout"
+      }
+    ],
+    "applicationErrors": []
+  },
+  "finalGalleryGeometry": {
+    "comparisons": 10,
+    "issues": [],
+    "applicationErrors": []
+  },
+  "functional": {
+    "checks": [
+      {
+        "name": "badge colour / sticky / no overflow 375"
+      },
+      {
+        "name": "badge colour / sticky / no overflow 390"
+      },
+      {
+        "name": "badge colour / sticky / no overflow 768"
+      },
+      {
+        "name": "badge colour / sticky / no overflow 1024"
+      },
+      {
+        "name": "badge colour / sticky / no overflow 1440"
+      },
+      {
+        "name": "native grid / list switch"
+      },
+      {
+        "name": "product quantity"
+      },
+      {
+        "name": "native add to cart"
+      },
+      {
+        "name": "mobile filter and sorting overlays / unchanged scrollHeight"
+      },
+      {
+        "name": "cart quantity native AJAX and semantic success message",
+        "detail": {
+          "border": "1px",
+          "radius": "10px",
+          "borderColor": "rgb(36, 115, 75)"
+        }
+      },
+      {
+        "name": "real free shipping reached without order"
+      },
+      {
+        "name": "cart neutral summary / AA copper CTA",
+        "detail": {
+          "bg": "rgb(243, 245, 247)",
+          "cta": [
+            {
+              "bg": "rgb(168, 95, 41)",
+              "color": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      },
+      {
+        "name": "native checkout shipping / payment -> customer form; no order submitted"
+      },
+      {
+        "name": "native active / completed step colours",
+        "detail": [
+          {
+            "cls": "step step-1 completed",
+            "bg": "rgb(66, 62, 62)",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "cls": "step step-2 completed",
+            "bg": "rgb(66, 62, 62)",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "cls": "step step-3 active",
+            "bg": "rgb(212, 136, 74)",
+            "color": "rgb(15, 15, 15)"
+          }
+        ]
+      },
+      {
+        "name": "no application JS errors (marketing domains excluded)"
+      }
+    ],
+    "applicationErrors": []
+  },
+  "filterChecks": [
+    "native brand filter request and AJAX",
+    "native price sorting and label sync",
+    "native reset after AJAX preserves sorting",
+    "native mobile menu opens"
+  ],
+  "emptyCart": {
+    "externalOwner": [],
+    "obsolete": 0,
+    "extra": true,
+    "links": [
+      {
+        "cls": "timber-empty-main-link",
+        "color": "rgb(168, 95, 41)",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "cls": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(168, 95, 41)"
+      }
+    ]
+  },
+  "consoleRecheck": [
+    {
+      "version": "v0.6.1",
+      "errors": []
+    },
+    {
+      "version": "v0.6.2",
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "One prior run reported native backToTop is not defined; controlled baseline/preview comparison and final functional rerun did not reproduce it. Cause not confirmed.",
+    "Customer before/after pictures are static renders of captured real DOM; native checkout navigation verified separately.",
+    "External marketing/payment domains excluded; no payment/order submitted.",
+    "No physical Safari/iPhone or post-deployment PageSpeed run."
+  ]
+}

@@ -2,6 +2,46 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.5 · 2026-10-12 · Schválené doladenie hlavičky, košíka a pôvodnej Timber palety
+
+Finálny súhrn od stabilnej v0.6.1; klient schválil preview 87ff73a k merge a publikovaniu.
+
+- Hlavička: hlavná plocha košíka používa natívny odkaz, samostatná prístupná šípka otvára/zatvára náhľad cez Apollo API. Desktop hover, dotyk, klávesnica, Escape/focus, klik mimo, resize mobile clone a AJAX lifecycle bez násobenia listenerov.
+- Service bar: stabilné teplé pozadie aj pri mega menu, hodiny PO – PIA (08:00 – 16:00), kompaktné kontakty a jemné oddeľovače. Pri 1440/1920 px všetkých päť odkazov bez Viac; natívny overflow helper na úzkych šírkach zachovaný.
+- Pôvodná Timber identita: oranžová #D4884A naprieč CTA vrátane homepage karuselov, tmavé pôvodné nadpisy benefitov, overené pôvodné súbory a rozmery ikon. Biele názvy menu a biela ikona/cena/šípka desktop košíka; oceľový count badge #29465B s bielym číslom.
+- Produktové karty: pôvodná CTA paleta a presný quantity CSS zo stabilnej verzie, zachovaná geometria a nákupná logika; požadovaný hover názvu pôvodnou oranžovou. Žiadne experimentálne preusporiadanie GRID kariet zo zahodených 0.5.6 preview.
+- Košík/checkout: jemné úspešné hlásenia vrátane add-to-cart modalu, kontrastné zatváranie, neutrálny súhrn s tmavou cenou, teplá doprava a medený progress, čitateľný mobile mini-cart súhrn, aktuálne/dokončené/budúce natívne kroky.
+- Overenie: Chromium 375/390/768/1024/1440/1920 px, quantity 1/10/100, add-to-cart, hover/touch/keyboard, natívne filtre AJAX/radenie/reset, GRID/LIST, všetky tri checkout kroky bez odoslania objednávky. Galérie a presné výsledky v docs/previews/v0.6.5-brand-palette.md a predchádzajúcich súvisiacich reportoch.
+- Lint/build prešli; finálne CSS 15,80 kB a JS 17,54 kB gzip. Schválená 16 kB CSS výnimka je vo build skripte obmedzená na package version 0.6.5. Reálny iOS Safari a PageSpeed po nasadení neboli vykonané.
+- Repozitárový loader pripravený na PROD v0.6.5; živý Shoptet HEAD sa cez GitHub release automaticky nemení. Rollback: PROD v0.6.1.
+
+## v0.6.4 · 2026-10-12 · Targeted colour regression fixes preview (not released)
+
+- Obnovené presné biele pravidlá hlavnej oranžovej navigácie z v0.6.1; tmavý hover na bielom podklade a geometria zachované. Header cart ikona/cena/šípka opäť biele na medenom desktope; oceľový počet zostáva.
+- Produktový listing používa presné pôvodné CTA premenné (#D4884A / #B8692E) iba na jeho buttonoch. Quantity CSS obnovené byte-for-byte z v0.6.1; rovnaké rozmery, fonty, padding, glyph a layout overené v DOM. Názov/cena/skladovosť bez zmeny, požadovaný title hover pôvodnou značkovou oranžovou #D4884A.
+- Kompaktné kontakty: 8 px gap, 8 px k oddeľovaču, 12 px deliaca čiara. Vlastník paddingu opravený, aby neskorší reset nelepil telefón na border. 1440/1920: všetkých päť odkazov bez Viac; úzke šírky používajú natívny helper. Béžové pozadie stabilné, pôvodné medené ikonky overené a zachované.
+- 375/390/768/1024/1440/1920 px: porovnanie so stabilnou 0.6.1 aj predchádzajúcim preview, sidebar a horná časť karty bez regresie. Quantity 1/10/100, plus/minus, add-to-cart, mini-cart, sticky, neutral cart summary a nedotknuté detail/checkout CTA overené. Funkčné testy bez JS chýb.
+- CSS-only oprava komponentov; aplikačný JS, Shoptet logika, main/tag/loader bez zmeny. Lint/build prešli v existujúcom preview rozpočte 16 kB CSS / 30 kB JS gzip. Dokumentácia a screenshoty: docs/previews/v0.6.4-regressions.md. Žiadna objednávka odoslaná; bez produkčného nasadenia.
+
+## v0.6.3 · 2026-10-09 · Header/cart refinement preview (not released)
+
+- Podľa nového zadania nadväzuje na farebný preview 0.6.2; nemení main, produkčný loader ani release/tag.
+- Natívny odkaz na košík opäť naviguje kliknutím aj dotykom. Samostatná prístupná šípka používa Apollo popup API; desktop hover zostáva natívny, prázdny košík využíva rovnaké API. ARIA, Escape/focus, click outside, mobile clone a AJAX sú synchronizované bez násobenia listenerov.
+- Trvalé teplé pozadie service baru pri mega menu, opravená CSS špecificita bez zvýšenia jeho z-indexu. Hodiny PO – PIA (08:00 – 16:00), jemné kontaktné oddeľovače.
+- Add-to-cart modal používa rovnakú jemnú zelenú rodinu ako quantity toast, tmavý kontrastný X. Doprava a progress zjednotené aj v mobile mini-carte; súhrny neutrálne, oceľový badge a checkout stepper zachované.
+- Responzívne UI a natívne interakcie overené na 375/390/768/1024/1440 px; kategórie bez meranej regresie geometrie či výšky dokumentu. Lint/build prešli v existujúcom preview rozpočte CSS 16 kB / JS 30 kB gzip. Natívna Apollo chyba backToTop je samostatne zaznamenaná, bez nesúvisiaceho workaroundu.
+- Screenshoty, farby, rozsah a limity: docs/previews/v0.6.3-header-cart.md. Bez odoslania objednávky; bez produkčného nasadenia.
+
+## v0.6.2 · 2026-10-09 · Unified colour system preview (not released)
+
+- Izolovaný farebný návrh nad stabilným v0.6.1: zachované logo, rozloženie, native Apollo komponenty a obchodná logika. Produkčný loader/main/tag sa nemenia.
+- Centralizované farebné role: značková meď, AA companion odtiene pre biele CTA a drobné odkazy, oceľovomodrý cart count/Novinka, neutrálne veľké plochy a jednotné úspešné/informačné/varovné/chybové správy.
+- Košík a checkout: teplá doprava, technický súhrn, tmavá dominantná cena, čitateľné ceny bez DPH, jasné active/completed/future native kroky. Quantity success zachováva schválený jemný obvod/radius a používa zelenú sémantiku.
+- Zladené filtre, sorting, count badge, sidebar support/TOP poradie, service CTA, formuláre, focus a dostupnosť. Green stock dátová logika zachovaná; centrálne skladové texty majú kontrastný oranžový odtieň.
+- Vyčistené prepisované a nepoužívané legacy pravidlá; 856 → 771 !important v aktívnom legacy CSS. Nové important iba na overených inline farbách. Jediný JS diff je tokenizácia farebných literálov jeho existujúceho injected empty-cart CSS.
+- Chromium 375/390/768/1024/1440 px; geometria, badge/sticky, quantity/add-to-cart, GRID/LIST, filter AJAX/sorting/reset, mobilné menu, login a native checkout po osobné údaje. Žiadna objednávka neodoslaná. Pred/po galéria a detailný audit: docs/previews/v0.6.2-color-system.md.
+- Lint/build prešli. Klient schválil CSS limit 16 kB iba pre toto testovacie preview; JS zostáva 30 kB. PageSpeed po nasadení a reálny iOS Safari zatiaľ nevykonané; nejde o produkčný release.
+
 ## v0.6.1 · 2026-10-09 · Header, account and cart release preparation
 
 - Mobilný „Súvisiaci tovar: počet (od cena)“ je v samostatnom riadku cez celý cart grid, bez nesprávneho zalamovania do úzkej automatickej bunky. Podporené oba natívne Apollo DOM varianty; related toggle a native add-to-cart zostávajú funkčné.

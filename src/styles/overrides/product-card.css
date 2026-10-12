@@ -27,3 +27,48 @@
 .products .product .price-additional {
   color: var(--ts-color-price-secondary);
 }
+
+/* Audited primary/conversion classes: AA white labels on deeper copper. */
+body :is(.btn-primary, .btn-conversion, .btn-cart),
+.ordering-process .login-button {
+  --color-primary: var(--ts-color-action);
+  --color-primary-hover: var(--ts-color-action-hover);
+  --color-secondary: var(--ts-color-action);
+  --color-secondary-hover: var(--ts-color-action-hover);
+}
+.price-final {
+  color: var(--ts-color-price);
+}
+.price-standard,
+.price-additional,
+.price-measure {
+  color: var(--ts-color-price-secondary);
+}
+.flag.flag-action {
+  background: var(--ts-color-error);
+}
+/* Apollo renders the configured New flag background inline. */
+.flag.flag-new {
+  background-color: var(--ts-color-steel) !important;
+}
+
+/* Apollo supplies Central warehouse copper inline; darken only that verified
+   colour for small availability text. Stock colours/data remain native. */
+.availability > span[style*='#c97a2b' i],
+.availability-label[style*='#c97a2b' i] {
+  color: var(--ts-color-warning) !important;
+}
+
+/* Restore the verified v0.6.1 listing CTA palette locally. Native Apollo still
+   supplies its height, radius, padding, font and cart glyph. Other CTAs keep
+   their current variables; do not recolour checkout, detail or modal buttons. */
+#products:not(.products-related) > .product .product-btn .btn-cart {
+  --color-primary: var(--ts-color-controls-text);
+  --color-primary-hover: var(--ts-color-controls-active);
+  --color-secondary: var(--ts-color-accent);
+  --color-secondary-hover: #b8692e;
+}
+/* Keep the requested orange title hover using the original brand orange. */
+#products:not(.products-related) > .product a.name:hover {
+  color: var(--ts-color-accent);
+}

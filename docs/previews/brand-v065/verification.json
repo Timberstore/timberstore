@@ -1,0 +1,692 @@
+{
+  "version": "0.6.5",
+  "base": "4e303f4017776e134ae33400c28c40c9715b37a5",
+  "reference": "df300c64728c8307690f961bede37eb255e60e41",
+  "lint": "passed",
+  "build": "passed",
+  "homeComparisons": [
+    {
+      "width": 1440,
+      "states": [
+        {
+          "mode": "stable",
+          "benefits": [
+            {
+              "title": "Široký sortiment",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Doprava zadarmo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Odborné poradenstvo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Bezpečný nákup",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            }
+          ],
+          "cta": {
+            "bg": "rgb(212, 136, 74)",
+            "box": {
+              "x": 98.25,
+              "y": 474.703125,
+              "width": 180,
+              "height": 50,
+              "top": 474.703125,
+              "right": 278.25,
+              "bottom": 524.703125,
+              "left": 98.25
+            },
+            "font": "14px / 16.8px Roboto, sans-serif"
+          },
+          "errors": []
+        },
+        {
+          "mode": "before",
+          "benefits": [
+            {
+              "title": "Široký sortiment",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Doprava zadarmo",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Odborné poradenstvo",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Bezpečný nákup",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            }
+          ],
+          "cta": {
+            "bg": "rgb(168, 95, 41)",
+            "box": {
+              "x": 98.25,
+              "y": 474.703125,
+              "width": 180,
+              "height": 50,
+              "top": 474.703125,
+              "right": 278.25,
+              "bottom": 524.703125,
+              "left": 98.25
+            },
+            "font": "14px / 16.8px Roboto, sans-serif"
+          },
+          "errors": []
+        },
+        {
+          "mode": "after",
+          "benefits": [
+            {
+              "title": "Široký sortiment",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Doprava zadarmo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Odborné poradenstvo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Bezpečný nákup",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            }
+          ],
+          "cta": {
+            "bg": "rgb(212, 136, 74)",
+            "box": {
+              "x": 98.25,
+              "y": 474.703125,
+              "width": 180,
+              "height": 50,
+              "top": 474.703125,
+              "right": 278.25,
+              "bottom": 524.703125,
+              "left": 98.25
+            },
+            "font": "14px / 16.8px Roboto, sans-serif"
+          },
+          "errors": []
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "states": [
+        {
+          "mode": "stable",
+          "benefits": [
+            {
+              "title": "Široký sortiment",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Doprava zadarmo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Odborné poradenstvo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Bezpečný nákup",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            }
+          ],
+          "cta": {
+            "bg": "rgb(212, 136, 74)",
+            "box": {
+              "x": 338.25,
+              "y": 474.703125,
+              "width": 180,
+              "height": 50,
+              "top": 474.703125,
+              "right": 518.25,
+              "bottom": 524.703125,
+              "left": 338.25
+            },
+            "font": "14px / 16.8px Roboto, sans-serif"
+          },
+          "errors": []
+        },
+        {
+          "mode": "before",
+          "benefits": [
+            {
+              "title": "Široký sortiment",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Doprava zadarmo",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Odborné poradenstvo",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Bezpečný nákup",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            }
+          ],
+          "cta": {
+            "bg": "rgb(168, 95, 41)",
+            "box": {
+              "x": 338.25,
+              "y": 474.703125,
+              "width": 180,
+              "height": 50,
+              "top": 474.703125,
+              "right": 518.25,
+              "bottom": 524.703125,
+              "left": 338.25
+            },
+            "font": "14px / 16.8px Roboto, sans-serif"
+          },
+          "errors": []
+        },
+        {
+          "mode": "after",
+          "benefits": [
+            {
+              "title": "Široký sortiment",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Doprava zadarmo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Odborné poradenstvo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Bezpečný nákup",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+                  "width": 55,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            }
+          ],
+          "cta": {
+            "bg": "rgb(212, 136, 74)",
+            "box": {
+              "x": 338.25,
+              "y": 474.703125,
+              "width": 180,
+              "height": 50,
+              "top": 474.703125,
+              "right": 518.25,
+              "bottom": 524.703125,
+              "left": 338.25
+            },
+            "font": "14px / 16.8px Roboto, sans-serif"
+          },
+          "errors": []
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "states": [
+        {
+          "mode": "stable",
+          "benefits": [
+            {
+              "title": "Široký sortiment",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Doprava zadarmo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Odborné poradenstvo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Bezpečný nákup",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            }
+          ],
+          "cta": {
+            "bg": "rgb(212, 136, 74)",
+            "box": {
+              "x": 116.796875,
+              "y": 479.71875,
+              "width": 156.390625,
+              "height": 40,
+              "top": 479.71875,
+              "right": 273.1875,
+              "bottom": 519.71875,
+              "left": 116.796875
+            },
+            "font": "12px / 14.4px Roboto, sans-serif"
+          },
+          "errors": []
+        },
+        {
+          "mode": "before",
+          "benefits": [
+            {
+              "title": "Široký sortiment",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Doprava zadarmo",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Odborné poradenstvo",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Bezpečný nákup",
+              "color": "rgb(155, 86, 36)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            }
+          ],
+          "cta": {
+            "bg": "rgb(168, 95, 41)",
+            "box": {
+              "x": 116.796875,
+              "y": 479.71875,
+              "width": 156.390625,
+              "height": 40,
+              "top": 479.71875,
+              "right": 273.1875,
+              "bottom": 519.71875,
+              "left": 116.796875
+            },
+            "font": "12px / 14.4px Roboto, sans-serif"
+          },
+          "errors": []
+        },
+        {
+          "mode": "after",
+          "benefits": [
+            {
+              "title": "Široký sortiment",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Doprava zadarmo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Odborné poradenstvo",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            },
+            {
+              "title": "Bezpečný nákup",
+              "color": "rgb(66, 62, 62)",
+              "images": [
+                {
+                  "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+                  "width": 50,
+                  "height": 50,
+                  "filter": "none"
+                }
+              ]
+            }
+          ],
+          "cta": {
+            "bg": "rgb(212, 136, 74)",
+            "box": {
+              "x": 116.796875,
+              "y": 479.71875,
+              "width": 156.390625,
+              "height": 40,
+              "top": 479.71875,
+              "right": 273.1875,
+              "bottom": 519.71875,
+              "left": 116.796875
+            },
+            "font": "12px / 14.4px Roboto, sans-serif"
+          },
+          "errors": []
+        }
+      ]
+    }
+  ],
+  "checkout": {
+    "checks": [
+      "cart summary / current step / no overflow 375",
+      "cart summary / current step / no overflow 390",
+      "cart summary / current step / no overflow 768",
+      "cart summary / current step / no overflow 1024",
+      "cart summary / current step / no overflow 1440",
+      "shipping step 375",
+      "shipping step 390",
+      "shipping step 768",
+      "shipping step 1024",
+      "shipping step 1440",
+      "customer summary / current step 375",
+      "customer summary / current step 390",
+      "customer summary / current step 768",
+      "customer summary / current step 1024",
+      "customer summary / current step 1440"
+    ],
+    "errors": [],
+    "orderSubmitted": false
+  },
+  "filters": {
+    "checks": [
+      "native brand filter request and AJAX",
+      "native price sorting and label sync",
+      "native reset after AJAX preserves sorting",
+      "native mobile menu opens"
+    ],
+    "errors": [
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+      },
+      {
+        "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+      },
+      {
+        "excludedExternal": "https://bat.bing.com/bat.js"
+      }
+    ]
+  },
+  "assets": {
+    "css": {
+      "sha256": "ddeb195b8702b9b21f1bf548e78e7e759ef7690489beb607c64606f42e7b47f5",
+      "gzipBytes": 16182,
+      "budgetBytes": 16384
+    },
+    "js": {
+      "sha256": "76661cb9180220eeb4d634d5b0ee730fecf3b55149d3c3a060cd7735056acb04",
+      "gzipBytes": 17958,
+      "budgetBytes": 30720
+    }
+  },
+  "limitations": [
+    "Physical Safari/iPhone and post-deployment PageSpeed untested.",
+    "No order/payment submitted."
+  ]
+}

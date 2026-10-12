@@ -1,0 +1,1327 @@
+{
+  "src/main.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": []
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": []
+    }
+  },
+  "src/legacy/inline-head.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "#000": 1,
+        "#f7f5f2": 1,
+        "#fff": 5,
+        "#0f0f0f": 1
+      },
+      "important": 4,
+      "variables": [
+        "--benefitHomepage",
+        "--color-primary",
+        "--color-secondary",
+        "--color-tertiary"
+      ]
+    },
+    "after": {
+      "colors": {
+        "#000": 1,
+        "#f7f5f2": 1,
+        "#0f0f0f": 1,
+        "#fff": 2
+      },
+      "important": 4,
+      "variables": [
+        "--benefitHomepage",
+        "--color-primary",
+        "--color-secondary",
+        "--color-tertiary",
+        "--ts-color-bg",
+        "--ts-color-text"
+      ]
+    }
+  },
+  "src/legacy/timber-custom-v175.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "#ffffff": 25,
+        "rgba(0,0,0,0.05)": 1,
+        "rgba(0,0,0,0.08)": 1,
+        "#423e3e": 13,
+        "#000000": 8,
+        "#c97a2b": 21,
+        "#faf3eb": 13,
+        "#fff": 6,
+        "#d4884a": 28,
+        "rgba(201,122,43,.18)": 1,
+        "#e5ddd2": 3,
+        "rgba(66,62,62,.06)": 1,
+        "rgba(66,62,62,.04)": 1,
+        "rgba(66,62,62,.08)": 3,
+        "#ddd3c7": 1,
+        "rgba(201,122,43,.16)": 4,
+        "#b8692e": 8,
+        "#dfe5ec": 2,
+        "rgba(0,0,0,0.03)": 1,
+        "rgba(0,0,0,.08)": 1,
+        "#faf8f5": 1,
+        "#e9e1d8": 4,
+        "#e8b17a": 1,
+        "#2f2b29": 5,
+        "#6c625b": 1,
+        "#ece7e1": 1,
+        "rgba(0,0,0,.025)": 1,
+        "#fff8f1": 5,
+        "rgba(201,122,74,.10)": 1,
+        "#222222": 1,
+        "#fff3e7": 1,
+        "rgba(201,122,43,.12)": 1,
+        "#e0e5ee": 1,
+        "#7c7e8f": 2,
+        "#a85f29": 4,
+        "rgba(212,136,74,.32)": 1,
+        "#f8eee4": 1,
+        "#5f4635": 1,
+        "rgba(212,136,74,.75)": 3,
+        "#f2d2b3": 3,
+        "#87491f": 3,
+        "#f3dfc9": 1,
+        "#ebc39e": 1,
+        "#793d18": 1,
+        "rgba(212,136,74,.38)": 1,
+        "#c67737": 2,
+        "rgba(255,255,255,.55)": 2,
+        "#e3e6ea": 2,
+        "#e6e6e6": 1
+      },
+      "important": 856,
+      "variables": [
+        "--color-tertiary",
+        "--current"
+      ]
+    },
+    "after": {
+      "colors": {
+        "#000000": 8,
+        "rgba(201,122,43,.18)": 1,
+        "#fff": 4,
+        "rgba(66,62,62,.06)": 1,
+        "rgba(66,62,62,.04)": 1,
+        "rgba(66,62,62,.08)": 2,
+        "rgba(201,122,43,.16)": 3,
+        "#ffffff": 10,
+        "rgba(0,0,0,.08)": 1,
+        "#faf8f5": 1,
+        "#e8b17a": 1,
+        "#2f2b29": 3,
+        "#ece7e1": 1,
+        "rgba(0,0,0,.025)": 1,
+        "rgba(201,122,74,.10)": 1,
+        "#222222": 1,
+        "#fff3e7": 1,
+        "rgba(201,122,43,.12)": 1,
+        "#e0e5ee": 1,
+        "rgba(212,136,74,.32)": 1,
+        "#f8eee4": 1,
+        "#5f4635": 1,
+        "rgba(212,136,74,.75)": 3,
+        "#b8692e": 2,
+        "#f2d2b3": 3,
+        "#87491f": 3,
+        "#f3dfc9": 1,
+        "#ebc39e": 1,
+        "#793d18": 1,
+        "rgba(212,136,74,.38)": 1,
+        "#c67737": 2,
+        "#a85f29": 2,
+        "rgba(255,255,255,.55)": 2,
+        "#e3e6ea": 2,
+        "#e6e6e6": 1
+      },
+      "important": 771,
+      "variables": [
+        "--color-tertiary",
+        "--current",
+        "--ts-color-accent",
+        "--ts-color-action",
+        "--ts-color-action-hover",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-divider",
+        "--ts-color-controls-text",
+        "--ts-color-link",
+        "--ts-color-price-secondary",
+        "--ts-color-service-bg",
+        "--ts-color-support-bg",
+        "--ts-color-text"
+      ]
+    }
+  },
+  "src/legacy/timber-empty-cart-fixed.css": {
+    "inCSSBundle": false,
+    "before": {
+      "colors": {
+        "#423e3e": 3,
+        "#faf3eb": 1,
+        "#e9e1d8": 1,
+        "#d4884a": 1,
+        "#c97a2b": 1,
+        "#fff": 1,
+        "#ece7e1": 1,
+        "rgba(0,0,0,.04)": 1
+      },
+      "important": 0,
+      "variables": []
+    },
+    "after": {
+      "colors": {
+        "#423e3e": 3,
+        "#faf3eb": 1,
+        "#e9e1d8": 1,
+        "#d4884a": 1,
+        "#c97a2b": 1,
+        "#fff": 1,
+        "#ece7e1": 1,
+        "rgba(0,0,0,.04)": 1
+      },
+      "important": 0,
+      "variables": []
+    }
+  },
+  "src/legacy/top-category-addon.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "#fff": 2,
+        "rgba(0,0,0,.10)": 1,
+        "#4b4038": 1
+      },
+      "important": 43,
+      "variables": []
+    },
+    "after": {
+      "colors": {
+        "#fff": 2,
+        "rgba(0,0,0,.10)": 1,
+        "#4b4038": 1
+      },
+      "important": 43,
+      "variables": []
+    }
+  },
+  "src/styles/core.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-radius",
+        "--ts-space-1",
+        "--ts-space-2",
+        "--ts-z-preview"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-radius",
+        "--ts-space-1",
+        "--ts-space-2",
+        "--ts-z-preview"
+      ]
+    }
+  },
+  "src/styles/tokens.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "#d4884a": 1,
+        "#0f0f0f": 1,
+        "#818394": 1,
+        "#6f7182": 1,
+        "#f4f1ed": 1,
+        "#2e7d32": 1,
+        "#b4483e": 1,
+        "#96362f": 1,
+        "#fff2ef": 1,
+        "#66bf3a": 1,
+        "#fff": 1,
+        "#423e3e": 1,
+        "#e5ddd2": 1,
+        "#e9e1d8": 1,
+        "#fff8f1": 1,
+        "#c97a2b": 1,
+        "#faf8f5": 1,
+        "#7c7e8f": 1,
+        "rgb(66 62 62 / 12%)": 1,
+        "rgb(0 0 0 / 45%)": 1,
+        "rgb(0 0 0 / 35%)": 1,
+        "#e7eaee": 1,
+        "#eef1f3": 1,
+        "#f5f7f9": 1,
+        "#6f7885": 1,
+        "#eef7fc": 1,
+        "#20242a": 1,
+        "#4a525e": 1,
+        "#e2e5e9": 1,
+        "#f6f7f8": 1,
+        "#707784": 1,
+        "#697282": 1,
+        "#dfe4e8": 1,
+        "#f7f8f9": 1,
+        "#26313d": 1,
+        "#2e9c42": 1
+      },
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-cart-count-bg",
+        "--ts-color-cart-delete",
+        "--ts-color-cart-delete-bg",
+        "--ts-color-cart-delete-hover",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-divider",
+        "--ts-color-controls-text",
+        "--ts-color-count-bg",
+        "--ts-color-count-text",
+        "--ts-color-detail-code",
+        "--ts-color-in-cart",
+        "--ts-color-muted",
+        "--ts-color-price-secondary",
+        "--ts-color-qty-border",
+        "--ts-color-qty-btn-bg",
+        "--ts-color-qty-text",
+        "--ts-color-service-bg",
+        "--ts-color-service-open",
+        "--ts-color-switch-bg",
+        "--ts-color-switch-border",
+        "--ts-color-switch-icon",
+        "--ts-color-switch-label",
+        "--ts-color-table-border",
+        "--ts-color-table-head-bg",
+        "--ts-color-table-head-text",
+        "--ts-color-table-name",
+        "--ts-color-table-row-border",
+        "--ts-color-table-row-hover",
+        "--ts-color-text",
+        "--ts-header-account-size",
+        "--ts-header-gap",
+        "--ts-header-logo-height",
+        "--ts-header-logo-width",
+        "--ts-header-padding",
+        "--ts-header-search-max",
+        "--ts-radius",
+        "--ts-radius-controls",
+        "--ts-radius-count",
+        "--ts-service-font-size",
+        "--ts-service-gap",
+        "--ts-service-height",
+        "--ts-service-icon-size",
+        "--ts-service-status-size",
+        "--ts-shadow-controls",
+        "--ts-shadow-text-on-photo",
+        "--ts-space-1",
+        "--ts-space-2",
+        "--ts-space-3",
+        "--ts-space-section",
+        "--ts-z-controls",
+        "--ts-z-information-message",
+        "--ts-z-preview"
+      ]
+    },
+    "after": {
+      "colors": {
+        "#d4884a": 1,
+        "#9b5624": 1,
+        "#a85f29": 1,
+        "#87491f": 1,
+        "#29465b": 2,
+        "#f3f5f7": 2,
+        "#252b32": 1,
+        "#828f99": 1,
+        "#84919b": 1,
+        "#f9f4ed": 1,
+        "#ae8064": 1,
+        "#e9eaed": 1,
+        "#24734b": 1,
+        "#e8f5ed": 1,
+        "#a96519": 1,
+        "#fff3df": 1,
+        "#b83b43": 2,
+        "#fcedef": 2,
+        "#eaf3f7": 1,
+        "#0f0f0f": 1,
+        "#666878": 2,
+        "#f5f0e9": 1,
+        "#2e7d32": 1,
+        "#96362f": 1,
+        "#fff": 1,
+        "#423e3e": 1,
+        "#e5e0da": 2,
+        "#fff8f1": 1,
+        "#c97a2b": 1,
+        "#faf8f5": 1,
+        "#6f7182": 1,
+        "rgb(66 62 62 / 12%)": 1,
+        "rgb(0 0 0 / 45%)": 1,
+        "rgb(0 0 0 / 35%)": 1,
+        "#e7eaee": 1,
+        "#eef1f3": 1,
+        "#f5f7f9": 1,
+        "#5e6470": 1,
+        "#20242a": 1,
+        "#4a525e": 1,
+        "#e2e5e9": 1,
+        "#f6f7f8": 1,
+        "#707784": 1,
+        "#697282": 1,
+        "#dfe4e8": 1,
+        "#f7f8f9": 1,
+        "#26313d": 1
+      },
+      "important": 1,
+      "variables": [
+        "--basket-bg",
+        "--basket-choose-box-bg",
+        "--basket-choose-box-border",
+        "--basket-discount-bg",
+        "--basket-free-delivery-bg",
+        "--basket-free-delivery-top-bg",
+        "--color-primary",
+        "--color-primary-hover",
+        "--color-tertiary",
+        "--ts-color-accent",
+        "--ts-color-action",
+        "--ts-color-action-hover",
+        "--ts-color-bg",
+        "--ts-color-cart-count-bg",
+        "--ts-color-cart-delete",
+        "--ts-color-cart-delete-bg",
+        "--ts-color-cart-delete-hover",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-divider",
+        "--ts-color-controls-text",
+        "--ts-color-count-bg",
+        "--ts-color-count-text",
+        "--ts-color-detail-code",
+        "--ts-color-error",
+        "--ts-color-error-bg",
+        "--ts-color-field-border",
+        "--ts-color-in-cart",
+        "--ts-color-info-bg",
+        "--ts-color-link",
+        "--ts-color-muted",
+        "--ts-color-price",
+        "--ts-color-price-secondary",
+        "--ts-color-qty-border",
+        "--ts-color-qty-btn-bg",
+        "--ts-color-qty-text",
+        "--ts-color-rank-bronze",
+        "--ts-color-rank-steel",
+        "--ts-color-service-bg",
+        "--ts-color-service-open",
+        "--ts-color-steel",
+        "--ts-color-step-bg",
+        "--ts-color-success",
+        "--ts-color-success-bg",
+        "--ts-color-support-bg",
+        "--ts-color-switch-bg",
+        "--ts-color-switch-border",
+        "--ts-color-switch-icon",
+        "--ts-color-switch-label",
+        "--ts-color-table-border",
+        "--ts-color-table-head-bg",
+        "--ts-color-table-head-text",
+        "--ts-color-table-name",
+        "--ts-color-table-row-border",
+        "--ts-color-table-row-hover",
+        "--ts-color-technical-bg",
+        "--ts-color-text",
+        "--ts-color-warning",
+        "--ts-color-warning-bg",
+        "--ts-header-account-size",
+        "--ts-header-gap",
+        "--ts-header-logo-height",
+        "--ts-header-logo-width",
+        "--ts-header-padding",
+        "--ts-header-search-max",
+        "--ts-radius",
+        "--ts-radius-controls",
+        "--ts-radius-count",
+        "--ts-service-font-size",
+        "--ts-service-gap",
+        "--ts-service-height",
+        "--ts-service-icon-size",
+        "--ts-service-status-size",
+        "--ts-shadow-controls",
+        "--ts-shadow-text-on-photo",
+        "--ts-space-1",
+        "--ts-space-2",
+        "--ts-space-3",
+        "--ts-space-section",
+        "--ts-z-controls",
+        "--ts-z-information-message",
+        "--ts-z-preview"
+      ]
+    }
+  },
+  "src/legacy/list-view/list-view.css": {
+    "inCSSBundle": false,
+    "before": {
+      "colors": {
+        "#e2e5e9": 1,
+        "#f6f7f8": 1,
+        "#707784": 1,
+        "#697282": 1,
+        "#d4884a": 6,
+        "#ffffff": 8,
+        "#e4e7eb": 2,
+        "#f5f6f7": 1,
+        "#6f7885": 3,
+        "#eceef1": 1,
+        "#20242a": 1,
+        "#dfe4e8": 1,
+        "#f7f8f9": 1,
+        "#26313d": 2,
+        "#e7eaed": 2,
+        "#2e9c42": 2,
+        "rgba(0,0,0,.15)": 1,
+        "#e7eaee": 2,
+        "#fff": 3,
+        "#e2e6ea": 1,
+        "#f5f7f9": 1,
+        "#eef1f3": 1,
+        "#f2f8fc": 2,
+        "#eef7fc": 2
+      },
+      "important": 757,
+      "variables": []
+    },
+    "after": {
+      "colors": {
+        "#e2e5e9": 1,
+        "#f6f7f8": 1,
+        "#707784": 1,
+        "#697282": 1,
+        "#d4884a": 6,
+        "#ffffff": 8,
+        "#e4e7eb": 2,
+        "#f5f6f7": 1,
+        "#6f7885": 3,
+        "#eceef1": 1,
+        "#20242a": 1,
+        "#dfe4e8": 1,
+        "#f7f8f9": 1,
+        "#26313d": 2,
+        "#e7eaed": 2,
+        "#2e9c42": 2,
+        "rgba(0,0,0,.15)": 1,
+        "#e7eaee": 2,
+        "#fff": 3,
+        "#e2e6ea": 1,
+        "#f5f7f9": 1,
+        "#eef1f3": 1,
+        "#f2f8fc": 2,
+        "#eef7fc": 2
+      },
+      "important": 757,
+      "variables": []
+    }
+  },
+  "src/modules/carousel-swipe/carousel-swipe.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 2,
+      "variables": []
+    },
+    "after": {
+      "colors": {},
+      "important": 2,
+      "variables": []
+    }
+  },
+  "src/modules/cart-count/cart-count.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "rgb(0 0 0 / 15%)": 1
+      },
+      "important": 0,
+      "variables": [
+        "--ts-color-bg",
+        "--ts-color-in-cart"
+      ]
+    },
+    "after": {
+      "colors": {
+        "rgb(0 0 0 / 15%)": 1
+      },
+      "important": 0,
+      "variables": [
+        "--ts-color-bg",
+        "--ts-color-in-cart"
+      ]
+    }
+  },
+  "src/modules/category-bestsellers-sidebar/category-bestsellers-sidebar.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 4,
+      "variables": []
+    },
+    "after": {
+      "colors": {},
+      "important": 4,
+      "variables": []
+    }
+  },
+  "src/modules/gallery-swipe/gallery-swipe.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": []
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": []
+    }
+  },
+  "src/modules/header-service-bar/header-service-bar.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-service-open",
+        "--ts-service-font-size",
+        "--ts-service-icon-size",
+        "--ts-service-status-size",
+        "--ts-space-2"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-controls-active",
+        "--ts-color-service-open",
+        "--ts-service-font-size",
+        "--ts-service-icon-size",
+        "--ts-service-status-size",
+        "--ts-space-2"
+      ]
+    }
+  },
+  "src/modules/homepage-categories/homepage-categories.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "#4b4038": 2,
+        "#fff": 1,
+        "rgba(0,0,0,.10)": 1,
+        "rgba(0,0,0,.14)": 1
+      },
+      "important": 87,
+      "variables": []
+    },
+    "after": {
+      "colors": {
+        "#4b4038": 2,
+        "#fff": 1,
+        "rgba(0,0,0,.10)": 1,
+        "rgba(0,0,0,.14)": 1
+      },
+      "important": 87,
+      "variables": []
+    }
+  },
+  "src/modules/list-view/list-view.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 143,
+      "variables": [
+        "----------",
+        "--active",
+        "--amount",
+        "--asc",
+        "--availability",
+        "--cart",
+        "--desc",
+        "--price",
+        "--product",
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-switch-bg",
+        "--ts-color-switch-border",
+        "--ts-color-switch-icon",
+        "--ts-color-switch-label",
+        "--ts-color-table-border",
+        "--ts-color-table-head-bg",
+        "--ts-color-table-head-text",
+        "--ts-color-table-name",
+        "--ts-color-table-row-border",
+        "--ts-color-table-row-hover",
+        "--ts-space-1",
+        "--ts-space-2",
+        "--ts-table-areas",
+        "--ts-table-cols",
+        "--ts-table-gap",
+        "--ts-table-head-areas",
+        "--ts-table-pad",
+        "--ts-table-rows"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 143,
+      "variables": [
+        "----------",
+        "--active",
+        "--amount",
+        "--asc",
+        "--availability",
+        "--cart",
+        "--desc",
+        "--price",
+        "--product",
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-controls-active",
+        "--ts-color-link",
+        "--ts-color-switch-bg",
+        "--ts-color-switch-border",
+        "--ts-color-switch-icon",
+        "--ts-color-switch-label",
+        "--ts-color-table-border",
+        "--ts-color-table-head-bg",
+        "--ts-color-table-head-text",
+        "--ts-color-table-name",
+        "--ts-color-table-row-border",
+        "--ts-color-table-row-hover",
+        "--ts-color-text",
+        "--ts-space-1",
+        "--ts-space-2",
+        "--ts-table-areas",
+        "--ts-table-cols",
+        "--ts-table-gap",
+        "--ts-table-head-areas",
+        "--ts-table-pad",
+        "--ts-table-rows"
+      ]
+    }
+  },
+  "src/modules/mobile-category-controls/mobile-category-controls.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-divider",
+        "--ts-color-controls-text",
+        "--ts-mobile-category-max-height",
+        "--ts-radius-controls",
+        "--ts-shadow-controls",
+        "--ts-z-controls"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-bg",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-divider",
+        "--ts-color-controls-text",
+        "--ts-color-link",
+        "--ts-mobile-category-max-height",
+        "--ts-radius-controls",
+        "--ts-shadow-controls",
+        "--ts-z-controls"
+      ]
+    }
+  },
+  "src/modules/qty-picker/qty-picker.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 25,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-qty-border",
+        "--ts-color-qty-btn-bg",
+        "--ts-color-qty-text",
+        "--ts-space-1",
+        "--ts-space-2"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 25,
+      "variables": [
+        "--ts-color-bg",
+        "--ts-color-controls-active",
+        "--ts-color-link",
+        "--ts-color-muted",
+        "--ts-color-qty-border",
+        "--ts-color-qty-btn-bg",
+        "--ts-color-qty-text",
+        "--ts-space-1",
+        "--ts-space-2"
+      ]
+    }
+  },
+  "src/styles/overrides/carousel.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-shadow-text-on-photo"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-shadow-text-on-photo"
+      ]
+    }
+  },
+  "src/styles/overrides/cart-modal.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 11,
+      "variables": []
+    },
+    "after": {
+      "colors": {},
+      "important": 11,
+      "variables": []
+    }
+  },
+  "src/styles/overrides/cart-presentation.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-cart-delete",
+        "--ts-color-cart-delete-bg",
+        "--ts-color-cart-delete-hover",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-divider",
+        "--ts-color-controls-text",
+        "--ts-color-price-secondary",
+        "--ts-color-service-bg",
+        "--ts-color-table-name"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-bg",
+        "--ts-color-cart-delete",
+        "--ts-color-cart-delete-bg",
+        "--ts-color-cart-delete-hover",
+        "--ts-color-controls-active",
+        "--ts-color-controls-border",
+        "--ts-color-controls-divider",
+        "--ts-color-controls-text",
+        "--ts-color-price",
+        "--ts-color-price-secondary",
+        "--ts-color-service-bg",
+        "--ts-color-success",
+        "--ts-color-table-name",
+        "--ts-color-technical-bg"
+      ]
+    }
+  },
+  "src/styles/overrides/checkout.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 14,
+      "variables": [
+        "--ts-color-muted",
+        "--ts-color-text",
+        "--ts-space-2"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 14,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-controls-text",
+        "--ts-color-muted",
+        "--ts-color-price",
+        "--ts-color-price-secondary",
+        "--ts-color-service-bg",
+        "--ts-color-step-bg",
+        "--ts-color-technical-bg",
+        "--ts-color-text",
+        "--ts-space-2"
+      ]
+    }
+  },
+  "src/styles/overrides/filters.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 4,
+      "variables": []
+    },
+    "after": {
+      "colors": {},
+      "important": 4,
+      "variables": []
+    }
+  },
+  "src/styles/overrides/header-popups.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "rgb(66 62 62 / 10%)": 1
+      },
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-cart-delete",
+        "--ts-color-cart-delete-bg",
+        "--ts-color-cart-delete-hover",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-text",
+        "--ts-color-service-bg",
+        "--ts-color-table-name",
+        "--ts-header-popup-left",
+        "--ts-header-popup-top"
+      ]
+    },
+    "after": {
+      "colors": {
+        "rgb(66 62 62 / 10%)": 1
+      },
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-cart-delete",
+        "--ts-color-cart-delete-bg",
+        "--ts-color-cart-delete-hover",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-text",
+        "--ts-color-field-border",
+        "--ts-color-link",
+        "--ts-color-service-bg",
+        "--ts-color-table-name",
+        "--ts-header-popup-left",
+        "--ts-header-popup-top"
+      ]
+    }
+  },
+  "src/styles/overrides/header.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "#20242a": 1,
+        "rgb(255 255 255 / 80%)": 1
+      },
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-cart-count-bg",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-text",
+        "--ts-color-service-bg",
+        "--ts-header-account-size",
+        "--ts-header-gap",
+        "--ts-header-logo-height",
+        "--ts-header-logo-width",
+        "--ts-header-padding",
+        "--ts-header-search-max",
+        "--ts-space-3"
+      ]
+    },
+    "after": {
+      "colors": {
+        "rgb(255 255 255 / 80%)": 1
+      },
+      "important": 0,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-cart-count-bg",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-text",
+        "--ts-color-service-bg",
+        "--ts-color-text",
+        "--ts-header-account-size",
+        "--ts-header-gap",
+        "--ts-header-logo-height",
+        "--ts-header-logo-width",
+        "--ts-header-padding",
+        "--ts-header-search-max",
+        "--ts-space-3"
+      ]
+    }
+  },
+  "src/styles/overrides/homepage-welcome.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": []
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-action",
+        "--ts-color-action-hover"
+      ]
+    }
+  },
+  "src/styles/overrides/information-message.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-bg",
+        "--ts-space-1",
+        "--ts-z-information-message"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-color-bg",
+        "--ts-color-controls-text",
+        "--ts-color-error",
+        "--ts-color-error-bg",
+        "--ts-color-info-bg",
+        "--ts-color-steel",
+        "--ts-color-success",
+        "--ts-color-success-bg",
+        "--ts-color-warning",
+        "--ts-color-warning-bg",
+        "--ts-space-1",
+        "--ts-z-information-message"
+      ]
+    }
+  },
+  "src/styles/overrides/instagram.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-space-2",
+        "--ts-space-3",
+        "--ts-space-section"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--ts-space-2",
+        "--ts-space-3",
+        "--ts-space-section"
+      ]
+    }
+  },
+  "src/styles/overrides/mobile-category-controls.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--current",
+        "--hidden",
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-divider",
+        "--ts-color-controls-text",
+        "--ts-color-count-bg",
+        "--ts-color-count-text",
+        "--ts-color-muted",
+        "--ts-radius",
+        "--ts-radius-controls",
+        "--ts-radius-count"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 0,
+      "variables": [
+        "--current",
+        "--hidden",
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-controls-active",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-border",
+        "--ts-color-controls-divider",
+        "--ts-color-controls-text",
+        "--ts-color-count-bg",
+        "--ts-color-count-text",
+        "--ts-color-link",
+        "--ts-color-muted",
+        "--ts-radius",
+        "--ts-radius-controls",
+        "--ts-radius-count"
+      ]
+    }
+  },
+  "src/styles/overrides/navigation.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 4,
+      "variables": [
+        "--ts-color-bg",
+        "--ts-space-2"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 4,
+      "variables": [
+        "--ts-color-bg",
+        "--ts-space-2"
+      ]
+    }
+  },
+  "src/styles/overrides/product-card.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "#7c7e8f": 1
+      },
+      "important": 3,
+      "variables": [
+        "--ts-color-price-secondary"
+      ]
+    },
+    "after": {
+      "colors": {
+        "#7c7e8f": 1,
+        "#c97a2b": 2
+      },
+      "important": 5,
+      "variables": [
+        "--color-primary",
+        "--color-primary-hover",
+        "--color-secondary",
+        "--color-secondary-hover",
+        "--ts-color-action",
+        "--ts-color-action-hover",
+        "--ts-color-error",
+        "--ts-color-price",
+        "--ts-color-price-secondary",
+        "--ts-color-steel",
+        "--ts-color-warning"
+      ]
+    }
+  },
+  "src/styles/overrides/product-detail.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 4,
+      "variables": [
+        "--ts-color-detail-code"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 4,
+      "variables": [
+        "--ts-color-controls-text",
+        "--ts-color-detail-code",
+        "--ts-color-field-border",
+        "--ts-color-link",
+        "--ts-color-table-head-text"
+      ]
+    }
+  },
+  "src/styles/overrides/sidebar.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 4,
+      "variables": []
+    },
+    "after": {
+      "colors": {},
+      "important": 4,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-controls-text",
+        "--ts-color-rank-bronze",
+        "--ts-color-rank-steel",
+        "--ts-color-text",
+        "--ts-rank"
+      ]
+    }
+  },
+  "src/styles/overrides/subcategories.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {
+        "#fff": 1,
+        "rgba(66, 62, 62, 0.08)": 1,
+        "#fff8f1": 1,
+        "rgba(201, 122, 43, 0.14)": 1,
+        "#c97a2b": 1,
+        "#e9e1d8": 1
+      },
+      "important": 23,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-table-border"
+      ]
+    },
+    "after": {
+      "colors": {
+        "rgba(66, 62, 62, 0.08)": 1,
+        "rgba(201, 122, 43, 0.14)": 1
+      },
+      "important": 23,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-bg",
+        "--ts-color-controls-active-bg",
+        "--ts-color-controls-divider",
+        "--ts-color-link",
+        "--ts-color-table-border"
+      ]
+    }
+  },
+  "src/styles/overrides/top-bar.css": {
+    "inCSSBundle": true,
+    "before": {
+      "colors": {},
+      "important": 3,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-controls-active",
+        "--ts-color-controls-text",
+        "--ts-color-service-bg",
+        "--ts-service-font-size",
+        "--ts-service-gap",
+        "--ts-service-height",
+        "--ts-service-icon-size",
+        "--ts-space-2",
+        "--ts-space-3"
+      ]
+    },
+    "after": {
+      "colors": {},
+      "important": 3,
+      "variables": [
+        "--ts-color-accent",
+        "--ts-color-controls-active",
+        "--ts-color-controls-text",
+        "--ts-color-service-bg",
+        "--ts-service-font-size",
+        "--ts-service-gap",
+        "--ts-service-height",
+        "--ts-service-icon-size",
+        "--ts-space-2",
+        "--ts-space-3"
+      ]
+    }
+  },
+  "src/legacy/timber-empty-cart.js": {
+    "inCSSBundle": false,
+    "injectedStyle": true,
+    "before": {
+      "colors": {
+        "#2f2b29": 2,
+        "#d4884a": 4,
+        "#b8692e": 2,
+        "#faf3eb": 1,
+        "#e9e1d8": 2,
+        "#423e3e": 2,
+        "#c97a2b": 1,
+        "#fff": 3,
+        "rgba(66,62,62,.08)": 1,
+        "rgba(201,122,43,.16)": 1
+      },
+      "important": 42,
+      "variables": []
+    },
+    "after": {
+      "colors": {
+        "#2f2b29": 2,
+        "#fff": 3,
+        "rgba(66,62,62,.08)": 1,
+        "rgba(201,122,43,.16)": 1
+      },
+      "important": 42,
+      "variables": [
+        "--ts-color-action",
+        "--ts-color-action-hover",
+        "--ts-color-controls-border",
+        "--ts-color-controls-text",
+        "--ts-color-link",
+        "--ts-color-service-bg"
+      ]
+    }
+  }
+}

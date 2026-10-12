@@ -19,3 +19,21 @@
     width: 33.3333% !important;
   }
 }
+
+/* Rank is encoded by the existing number; colours no longer form a rainbow. */
+.sidebar ol.top-products li::before {
+  background: var(--ts-rank, var(--ts-color-controls-text));
+  color: var(--ts-color-bg);
+}
+.sidebar ol.top-products li:nth-child(-n + 3)::before {
+  color: var(--ts-color-text);
+}
+.sidebar ol.top-products li:nth-child(1) {
+  --ts-rank: var(--ts-color-accent);
+}
+.sidebar ol.top-products li:nth-child(2) {
+  --ts-rank: var(--ts-color-rank-steel);
+}
+.sidebar ol.top-products li:nth-child(3) {
+  --ts-rank: var(--ts-color-rank-bronze);
+}

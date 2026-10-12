@@ -3,81 +3,10 @@
 /* ============================= */
 
 
-/* ============================= */
-/* HOMEPAGE - CATEGORY GRID */
-/* ============================= */
-
-.timber-categories-banner {
-  margin: 60px 0;
-}
-
-.timber-categories-banner__title {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.timber-categories-banner__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-}
-
-.timber-categories-banner__item {
-  display: flex;
-  align-items: center;
-  padding: 14px 18px;
-  background: #ffffff;
-  border-radius: 12px;
-  text-decoration: none;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.05);
-  transition: all 0.2s ease;
-}
-
-.timber-categories-banner__item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
-}
-
-.timber-categories-banner__item img {
-  width: 70px;
-  height: 70px;
-  object-fit: contain;
-  margin-right: 18px;
-}
-
-.timber-categories-banner__item span {
-  font-weight: 600;
-  color: #423e3e;
-}
-
-
-/* ============================= */
-/* MOBILE CATEGORY GRID */
-/* ============================= */
-
+/* The module supersedes the old banner styles except this 768px fallback. */
 @media (max-width: 768px) {
-  .timber-categories-banner {
-    margin: 40px 0;
-  }
-
-  .timber-categories-banner__grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
-  }
-
-  .timber-categories-banner__item {
-    flex-direction: column;
-    text-align: center;
-    padding: 16px;
-  }
-
-  .timber-categories-banner__item img {
-    margin: 0 0 10px 0;
-    width: 90px;
-    height: 90px;
-  }
+  .timber-categories-banner__item { flex-direction: column; text-align: center; }
 }
-
 
 /* ============================= */
 /* HIDE NEWSLETTER EVERYWHERE */
@@ -148,7 +77,6 @@ form[action*="Subscribe"] {
 .in-index .faq-block .homepage-group-title {
   text-align: center !important;
   font-weight: 800 !important;
-  color: #423e3e !important;
   margin-bottom: 24px !important;
   font-size: 28px !important;
 }
@@ -188,20 +116,18 @@ form[action*="Subscribe"] {
 }
 
 .in-index .faq-block .faq-side-list__item:hover {
-  color: #C97A2B !important;
-  background: var(--color-tertiary, #FAF3EB) !important;
+  color: var(--ts-color-link) !important;
+  background: var(--color-tertiary, var(--ts-color-service-bg)) !important;
 }
 
 .in-index .faq-block .faq-side-list__item.is-active {
-  color: #fff !important;
-  background: linear-gradient(135deg, #D4884A 0%, #C97A2B 100%) !important;
   box-shadow: 0 8px 18px rgba(201,122,43,.18) !important;
 }
 
 .in-index .faq-block .faq-content {
   flex: 1 !important;
-  background: var(--color-tertiary, #FAF3EB) !important;
-  border: 1px solid #E5DDD2 !important;
+  background: var(--color-tertiary, var(--ts-color-service-bg)) !important;
+  border: 1px solid var(--ts-color-controls-border) !important;
   border-radius: 22px !important;
   overflow: hidden !important;
   box-shadow: none !important;
@@ -209,8 +135,8 @@ form[action*="Subscribe"] {
 }
 
 .in-index .faq-block .faq-content-title {
-  background: linear-gradient(135deg, #D4884A 0%, #C97A2B 100%) !important;
-  color: #fff !important;
+  background: linear-gradient(135deg, var(--ts-color-accent) 0%, var(--ts-color-controls-active) 100%) !important;
+  color: var(--ts-color-text) !important;
   padding: 14px 22px !important;
   font-size: 16px !important;
   font-weight: 800 !important;
@@ -219,7 +145,7 @@ form[action*="Subscribe"] {
 
 .in-index .faq-block .accordion {
   padding: 16px 20px 18px !important;
-  background: var(--color-tertiary, #FAF3EB) !important;
+  background: var(--color-tertiary, var(--ts-color-service-bg)) !important;
 }
 
 .in-index .faq-block .accordion__item {
@@ -242,7 +168,7 @@ form[action*="Subscribe"] {
 }
 
 .in-index .faq-block .accordion__trigger:hover {
-  color: #C97A2B !important;
+  color: var(--ts-color-link) !important;
 }
 
 .in-index .faq-block .accordion__content {
@@ -265,19 +191,11 @@ form[action*="Subscribe"] {
 
 .sidebar-inner .box-support,
 .sidebar-inner .banner.box-support {
-  background: var(--color-tertiary, #FAF3EB) !important;
-  background-color: var(--color-tertiary, #FAF3EB) !important;
-  border: 1px solid #DDD3C7 !important;
-  border-radius: 24px !important;
   padding: 0 !important;
-  box-shadow: none !important;
   overflow: hidden !important;
 }
 
 .sidebar-inner .box-support .timber-support {
-  background: var(--color-tertiary, #FAF3EB) !important;
-  background-color: var(--color-tertiary, #FAF3EB) !important;
-  border-radius: 24px !important;
   padding: 30px 26px !important;
   box-shadow: none !important;
 }
@@ -292,7 +210,7 @@ form[action*="Subscribe"] {
 
 .sidebar-inner .box-support .support__eyebrow {
   display: inline-block !important;
-  color: #C97A2B !important;
+  color: var(--ts-color-link) !important;
   font-size: 13px !important;
   font-weight: 800 !important;
   margin-bottom: 10px !important;
@@ -327,14 +245,14 @@ form[action*="Subscribe"] {
 }
 
 .sidebar-inner .box-support .support__item:hover {
-  color: #C97A2B !important;
+  color: var(--ts-color-link) !important;
 }
 
 .sidebar-inner .box-support .timber-support-btn {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  background: #D4884A !important;
+  background: var(--ts-color-action) !important;
   color: #fff !important;
   border: none !important;
   border-radius: 999px !important;
@@ -347,7 +265,7 @@ form[action*="Subscribe"] {
 }
 
 .sidebar-inner .box-support .timber-support-btn:hover {
-  background: #B8692E !important;
+  background: var(--ts-color-action-hover) !important;
   color: #fff !important;
   transform: translateY(-1px);
 }
@@ -409,19 +327,14 @@ form[action*="Subscribe"] {
 /* FAQ ACTIVE COLORS */
 .in-index .faq-block .faq-content-title,
 .in-index .faq-block .faq-side-list__item.is-active {
-    background: linear-gradient(135deg, #D4884A 0%, #C97A2B 100%) !important;
-    color: #ffffff !important;
+    background: linear-gradient(135deg, var(--ts-color-accent) 0%, var(--ts-color-controls-active) 100%) !important;
+    color: var(--ts-color-text) !important;
     border: none !important;
-}
-
-/* FAQ ACTIVE TAB TEXT */
-.in-index .faq-block .faq-side-list__item.is-active {
-    color: #ffffff !important;
 }
 
 /* FAQ HEADER */
 .in-index .faq-block .faq-content-title strong {
-    color: #ffffff !important;
+    color: var(--ts-color-text) !important;
 }
 
 
@@ -433,23 +346,16 @@ form[action*="Subscribe"] {
 
 .sidebar-inner .box-support,
 .sidebar-inner .banner.box-support {
-    border: 1px solid #dfe5ec !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.03) !important;
-}
-
-
-.sidebar-inner .box-support,
-.sidebar-inner .banner.box-support {
     background: #ffffff !important;
     background-color: #ffffff !important;
-    border: 2px solid #dfe5ec !important;
+    border: 2px solid var(--ts-color-controls-border) !important;
     border-radius: 24px !important;
     box-shadow: none !important;
 }
 
 .sidebar-inner .box-support .timber-support {
-    background: #FAF3EB !important;
-    background-color: #FAF3EB !important;
+    background: var(--ts-color-support-bg) !important;
+    background-color: var(--ts-color-support-bg) !important;
     border-radius: 22px !important;
 }
 
@@ -475,8 +381,8 @@ form[action*="Subscribe"] {
 /* HOMEPAGE - SLUŽBY / NAŠE TIPY - ORANŽOVÉ TLAČIDLÁ */
 .service-block .service__text-block .btn,
 .service-block .service__text-block .btn-secondary {
-    background: #D4884A !important;
-    background-color: #D4884A !important;
+    background: var(--ts-color-action) !important;
+    background-color: var(--ts-color-action) !important;
     color: #ffffff !important;
     border: none !important;
     box-shadow: 0 8px 18px rgba(201,122,43,.16) !important;
@@ -484,8 +390,8 @@ form[action*="Subscribe"] {
 
 .service-block .service__text-block .btn:hover,
 .service-block .service__text-block .btn-secondary:hover {
-    background: #B8692E !important;
-    background-color: #B8692E !important;
+    background: var(--ts-color-action-hover) !important;
+    background-color: var(--ts-color-action-hover) !important;
     color: #ffffff !important;
     transform: translateY(-1px);
 }
@@ -541,15 +447,15 @@ form[action*="Subscribe"] {
 /* Upozornenie v košíku - Timber Store */
 .cart-content .site-msg-custom {
     background: #FAF8F5 !important;
-    color: #423E3E !important;
-    border: 1px solid #E9E1D8 !important;
+    color: var(--ts-color-controls-text) !important;
+    border: 1px solid var(--ts-color-controls-divider) !important;
     border-radius: 18px !important;
     box-shadow: 0 8px 24px rgba(66,62,62,.08) !important;
 }
 
 .cart-content .site-msg-custom::before {
-    color: #D4884A !important;
-    border-color: #D4884A !important;
+    color: var(--ts-color-link) !important;
+    border-color: var(--ts-color-accent) !important;
 }
 
 .cart-content .site-msg-custom ul {
@@ -557,12 +463,12 @@ form[action*="Subscribe"] {
 }
 
 .cart-content .site-msg-custom li {
-    color: #423E3E !important;
+    color: var(--ts-color-controls-text) !important;
     line-height: 1.6 !important;
 }
 
 .cart-content .site-msg-custom li::marker {
-    color: #D4884A !important;
+    color: var(--ts-color-link) !important;
 }
 
 @media (max-width: 768px) {
@@ -580,173 +486,28 @@ form[action*="Subscribe"] {
 
 /* Košík – doprava zdarma progress */
 .price-range {
-    background: #FAF3EB !important;
-    color: #423E3E !important;
-    border: 1px solid #E9E1D8 !important;
+    background: var(--ts-color-service-bg) !important;
+    color: var(--ts-color-controls-text) !important;
+    border: 1px solid var(--ts-color-controls-divider) !important;
     border-radius: 16px !important;
     overflow: hidden !important;
 }
 
 .extra-delivery {
     background: #E8B17A !important;
-    color: #423E3E !important;
+    color: var(--ts-color-controls-text) !important;
     border-radius: 16px 0 0 16px !important;
 }
 
 .extra-delivery:before {
-    color: #423E3E !important;
+    color: var(--ts-color-controls-text) !important;
 }
 
 .price-range span,
 .extra-delivery span,
 .extras-wrap span {
-    color: #423E3E !important;
+    color: var(--ts-color-controls-text) !important;
     font-weight: 600 !important;
-}
-
-
-/* =========================================================
-   EMPTY CART – TIMBER STORE
-   ========================================================= */
-
-.in-cart .timber-empty-cart {
-    max-width: 1180px !important;
-    margin: 24px auto 50px !important;
-}
-
-.in-cart .timber-empty-cart__head {
-    text-align: center !important;
-    margin-bottom: 26px !important;
-}
-
-.in-cart .timber-empty-cart__head h2 {
-    margin: 0 0 8px !important;
-    color: #2f2b29 !important;
-    font-size: 30px !important;
-    line-height: 1.2 !important;
-    font-weight: 800 !important;
-}
-
-.in-cart .timber-empty-cart__head p {
-    margin: 0 !important;
-    color: #6c625b !important;
-    font-size: 15px !important;
-    line-height: 1.5 !important;
-}
-
-.in-cart .timber-empty-cart__categories {
-    display: grid !important;
-    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-    gap: 14px !important;
-    margin: 0 0 38px !important;
-}
-
-.in-cart .timber-empty-cart__category {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    min-height: 68px !important;
-    padding: 14px 16px !important;
-    background: #FAF3EB !important;
-    border: 1px solid #E9E1D8 !important;
-    border-radius: 14px !important;
-    color: #423E3E !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    font-size: 14px !important;
-    line-height: 1.25 !important;
-    font-weight: 800 !important;
-    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease !important;
-}
-
-.in-cart .timber-empty-cart__category:hover {
-    transform: translateY(-2px) !important;
-    box-shadow: 0 8px 20px rgba(66,62,62,.08) !important;
-    border-color: #D4884A !important;
-    color: #C97A2B !important;
-}
-
-.in-cart .timber-empty-cart__news {
-    margin-top: 8px !important;
-}
-
-.in-cart .timber-empty-cart__news-title {
-    text-align: center !important;
-    margin: 0 0 22px !important;
-    color: #2f2b29 !important;
-    font-size: 26px !important;
-    line-height: 1.2 !important;
-    font-weight: 800 !important;
-}
-
-.in-cart .timber-empty-cart__products {
-    margin-bottom: 26px !important;
-}
-
-.in-cart .timber-empty-cart__back {
-    text-align: center !important;
-    margin-top: 28px !important;
-}
-
-.in-cart .timber-empty-cart__back a {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    min-height: 44px !important;
-    padding: 11px 22px !important;
-    background: #D4884A !important;
-    color: #ffffff !important;
-    border-radius: 999px !important;
-    text-decoration: none !important;
-    font-weight: 800 !important;
-    box-shadow: 0 8px 18px rgba(201,122,43,.16) !important;
-}
-
-.in-cart .timber-empty-cart__back a:hover {
-    background: #B8692E !important;
-    color: #ffffff !important;
-}
-
-.in-cart .timber-empty-cart-ready .cart-empty,
-.in-cart .timber-empty-cart-ready .empty-cart,
-.in-cart .timber-empty-cart-ready .cart-empty-wrapper {
-    display: none !important;
-}
-
-@media (max-width: 991px) {
-    .in-cart .timber-empty-cart__categories {
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    }
-}
-
-@media (max-width: 767px) {
-    .in-cart .timber-empty-cart {
-        margin: 18px auto 36px !important;
-    }
-
-    .in-cart .timber-empty-cart__head h2 {
-        font-size: 24px !important;
-    }
-
-    .in-cart .timber-empty-cart__head p {
-        font-size: 14px !important;
-    }
-
-    .in-cart .timber-empty-cart__categories {
-        gap: 10px !important;
-        margin-bottom: 30px !important;
-    }
-
-    .in-cart .timber-empty-cart__category {
-        min-height: 62px !important;
-        padding: 12px 10px !important;
-        font-size: 13px !important;
-        border-radius: 12px !important;
-    }
-
-    .in-cart .timber-empty-cart__news-title {
-        font-size: 22px !important;
-    }
 }
 
 
@@ -782,8 +543,8 @@ form[action*="Subscribe"] {
 
     margin: auto auto 10px auto !important;
 
-    background: #D4884A !important;
-    background-color: #D4884A !important;
+    background: var(--ts-color-action) !important;
+    background-color: var(--ts-color-action) !important;
     color: #ffffff !important;
 
     border: none !important;
@@ -808,8 +569,8 @@ form[action*="Subscribe"] {
 
     transform: none !important;
 
-    background: #B8692E !important;
-    background-color: #B8692E !important;
+    background: var(--ts-color-action-hover) !important;
+    background-color: var(--ts-color-action-hover) !important;
     color: #ffffff !important;
 }
 
@@ -985,9 +746,9 @@ form[action*="Subscribe"] {
 
 
     #navigation .menu-level-2 > li:hover {
-        background: #FFF8F1 !important;
+        background: var(--ts-color-controls-active-bg) !important;
 
-        border-color: #D4884A !important;
+        border-color: var(--ts-color-accent) !important;
 
         box-shadow:
             0 4px 12px rgba(201,122,74,.10) !important;
@@ -1061,14 +822,14 @@ form[action*="Subscribe"] {
         width: 0 !important;
         height: 2px !important;
 
-        background: #D4884A !important;
+        background: var(--ts-color-accent) !important;
         border-radius: 2px !important;
 
         transition: width .18s ease !important;
     }
 
     #navigation .menu-level-2 > li:hover > div > a > span {
-        color: #C97A2B !important;
+        color: var(--ts-color-link) !important;
     }
 
     #navigation .menu-level-2 > li:hover > div > a > span::after {
@@ -1091,8 +852,8 @@ form[action*="Subscribe"] {
         padding: 0 !important;
 
         border: 0 !important;
-        border-right: 2px solid #D4884A !important;
-        border-bottom: 2px solid #D4884A !important;
+        border-right: 2px solid var(--ts-color-accent) !important;
+        border-bottom: 2px solid var(--ts-color-accent) !important;
 
         background: transparent !important;
 
@@ -1108,8 +869,8 @@ form[action*="Subscribe"] {
     }
 
     #navigation .menu-level-2 > li:hover::after {
-        border-right-color: #C97A2B !important;
-        border-bottom-color: #C97A2B !important;
+        border-right-color: var(--ts-color-link) !important;
+        border-bottom-color: var(--ts-color-link) !important;
     }
 
 
@@ -1146,7 +907,7 @@ form[action*="Subscribe"] {
     #navigation .menu-level-2 > li:active {
         background: #FFF3E7 !important;
 
-        border-color: #D4884A !important;
+        border-color: var(--ts-color-accent) !important;
 
         box-shadow:
             0 3px 10px rgba(201,122,43,.16) !important;
@@ -1218,8 +979,8 @@ form[action*="Subscribe"] {
     .subcategories.with-image li > a:hover,
     .subcategories > div > a:hover,
     .subcategories li > a:hover {
-        background: #FFF8F1 !important;
-        border-color: #D4884A !important;
+        background: var(--ts-color-controls-active-bg) !important;
+        border-color: var(--ts-color-accent) !important;
         box-shadow: 0 6px 16px rgba(201,122,43,.12) !important;
         transform: translateY(-2px) !important;
     }
@@ -1228,7 +989,7 @@ form[action*="Subscribe"] {
     .subcategories.with-image li > a:hover span,
     .subcategories > div > a:hover span,
     .subcategories li > a:hover span {
-        color: #C97A2B !important;
+        color: var(--ts-color-link) !important;
     }
 }
 
@@ -1270,7 +1031,7 @@ html.timber-page-loading body {
 
     /* Finálny obal a hlavička bez závislosti od .after-load */
     .box.box-categories {
-        background: #FAF3EB !important;
+        background: var(--ts-color-service-bg) !important;
         border: 2px solid #E0E5EE !important;
         border-radius: 20px !important;
         padding: 30px !important;
@@ -1288,8 +1049,8 @@ html.timber-page-loading body {
         margin: -32px -31px 0 !important;
         padding: 16px 20px 16px 60px !important;
         box-sizing: border-box !important;
-        background: #C97A2B !important;
-        color: #FFFFFF !important;
+        background: var(--ts-color-controls-active) !important;
+        color: var(--ts-color-text) !important;
         border: 0 !important;
         border-radius: 20px 20px 0 0 !important;
         font-size: 20px !important;
@@ -1302,7 +1063,7 @@ html.timber-page-loading body {
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        color: #7C7E8F !important;
+        color: var(--ts-color-price-secondary) !important;
         font-family: inherit !important;
     }
 
@@ -1336,8 +1097,8 @@ html.timber-page-loading body {
     }
 
     #categories a[href]:hover {
-        background: #FFF8F1 !important;
-        color: #A85F29 !important;
+        background: var(--ts-color-controls-active-bg) !important;
+        color: var(--ts-color-link) !important;
         font-weight: 600 !important;
         border-radius: 5px !important;
         box-shadow:
@@ -1359,8 +1120,8 @@ html.timber-page-loading body {
     /* Server pozná aktuálnu položku skôr, než sa spustí JS. */
     #categories .categories.active > .topic.active > a,
     #categories li.active > a {
-        background: #D4884A !important;
-        color: #FFFFFF !important;
+        background: var(--ts-color-accent) !important;
+        color: var(--ts-color-text) !important;
         font-weight: 800 !important;
         border-radius: 0 !important;
         box-shadow:
@@ -1377,12 +1138,12 @@ html.timber-page-loading body {
 
     #categories .categories.active > .topic.active > a .cat-trigger,
     #categories li.active > a .cat-trigger {
-        color: #FFFFFF !important;
+        color: var(--ts-color-text) !important;
     }
 
     #categories .categories.active > .topic > a:hover {
         background: #F3DFC9 !important;
-        color: #A85F29 !important;
+        color: var(--ts-color-link) !important;
     }
 
     #categories a.timber-parent-link {
@@ -1401,7 +1162,7 @@ html.timber-page-loading body {
         font-weight: 700 !important;
         border-radius: 5px !important;
         box-shadow:
-            inset 3px 0 0 #D4884A,
+            inset 3px 0 0 var(--ts-color-accent),
             inset 0 0 0 1px rgba(212,136,74,.38) !important;
         transform: none !important;
     }
@@ -1449,8 +1210,8 @@ html.timber-page-loading body {
     }
 
     #categories a.timber-current-link {
-        background: #D4884A !important;
-        color: #FFFFFF !important;
+        background: var(--ts-color-accent) !important;
+        color: var(--ts-color-text) !important;
         font-weight: 800 !important;
         border: 0 !important;
         border-radius: 0 !important;
@@ -1461,7 +1222,7 @@ html.timber-page-loading body {
 
     #categories a.timber-current-link:hover {
         background: #C67737 !important;
-        color: #FFFFFF !important;
+        color: var(--ts-color-text) !important;
         font-weight: 800 !important;
         border-radius: 0 !important;
         box-shadow:
@@ -1474,7 +1235,7 @@ html.timber-page-loading body {
     #categories .categories.active > .topic.active > a:hover,
     #categories li.active > a:hover {
         background: #C67737 !important;
-        color: #FFFFFF !important;
+        color: var(--ts-color-text) !important;
         font-weight: 800 !important;
         border-radius: 0 !important;
         box-shadow:
@@ -1482,14 +1243,14 @@ html.timber-page-loading body {
     }
 
     #categories .categories.active > .topic > a.timber-current-link {
-        background: #D4884A !important;
-        color: #FFFFFF !important;
+        background: var(--ts-color-accent) !important;
+        color: var(--ts-color-text) !important;
         font-weight: 800 !important;
     }
 
     #categories a.timber-current-link .cat-trigger,
     #categories a.timber-current-link .cat-trigger::before {
-        color: #FFFFFF !important;
+        color: var(--ts-color-text) !important;
     }
 
     /* Aktuálna oranžová položka má bielu šípku alebo bodku. */
@@ -1497,7 +1258,7 @@ html.timber-page-loading body {
     #categories .categories.active > .topic.active > a .cat-trigger::before,
     #categories li.active > a .cat-trigger,
     #categories li.active > a .cat-trigger::before {
-        color: #FFFFFF !important;
+        color: var(--ts-color-text) !important;
     }
 
     #categories li.expanded > ul > li.active:not(.expandable) > a::before,
@@ -1679,8 +1440,8 @@ h1[itemprop="name"],
         margin: 0 !important;
         padding: 0 12px !important;
         box-sizing: border-box !important;
-        background: #FAF3EB !important;
-        border: 1px solid #E9E1D8 !important;
+        background: var(--ts-color-service-bg) !important;
+        border: 1px solid var(--ts-color-controls-divider) !important;
         border-radius: 10px !important;
         box-shadow: none !important;
         overflow: visible !important;
@@ -1717,7 +1478,7 @@ h1[itemprop="name"],
         border: 0 !important;
         border-radius: 0 !important;
         box-shadow: none !important;
-        color: #423E3E !important;
+        color: var(--ts-color-controls-text) !important;
         font-size: 13px !important;
         line-height: 1 !important;
         font-weight: 700 !important;
@@ -1729,7 +1490,7 @@ h1[itemprop="name"],
     #category-filter-hover > .slider-wrapper > h4:hover,
     #category-filter-hover > .filter-section:not(.filter-section-count) > h4:hover {
         background: rgba(255,255,255,.55) !important;
-        color: #C97A2B !important;
+        color: var(--ts-color-link) !important;
     }
 
     #category-filter-hover > .slider-wrapper > h4::before,
@@ -1764,7 +1525,7 @@ h1[itemprop="name"],
         top: 15px !important;
         bottom: 15px !important;
         width: 1px !important;
-        background: #E5DDD2 !important;
+        background: var(--ts-color-controls-border) !important;
         pointer-events: none !important;
     }
 
@@ -1802,7 +1563,7 @@ h1[itemprop="name"],
         border: 0 !important;
         border-radius: 0 !important;
         box-shadow: none !important;
-        color: #C97A2B !important;
+        color: var(--ts-color-link) !important;
         font-family: inherit !important;
         font-size: 13px !important;
         line-height: 1 !important;
@@ -1824,7 +1585,7 @@ h1[itemprop="name"],
         top: 15px !important;
         bottom: 15px !important;
         width: 1px !important;
-        background: #E5DDD2 !important;
+        background: var(--ts-color-controls-border) !important;
     }
 
     #category-filter-hover > .timber-filter-more::after {
@@ -1917,14 +1678,14 @@ h1[itemprop="name"],
 
     /* Pôvodný nápis FILTER aj pôvodné rozloženie ostávajú nedotknuté. */
     body.type-category #filters .filter-headline {
-        color: #423E3E !important;
+        color: var(--ts-color-controls-text) !important;
         font-weight: 800 !important;
     }
 
     /* Bežný stav hlavičiek filtrov – nemeníme rozmery ani layout. */
     body.type-category #filters #category-filter-hover .slider-wrapper > h4,
     body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4 {
-        color: #423E3E !important;
+        color: var(--ts-color-controls-text) !important;
         transition: color .16s ease, border-color .16s ease, background-color .16s ease !important;
     }
 
@@ -1933,18 +1694,18 @@ h1[itemprop="name"],
     body.type-category #filters #category-filter-hover .filter-section.is-active > h4,
     body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus,
     body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus {
-        color: #C97A2B !important;
-        border-color: #D4884A !important;
-        background-color: #FFF8F1 !important;
+        color: var(--ts-color-link) !important;
+        border-color: var(--ts-color-accent) !important;
+        background-color: var(--ts-color-controls-active-bg) !important;
     }
 
     /* Checkboxy / voľby filtrov v našej oranžovej. */
     body.type-category #filters input[type="checkbox"] {
-        accent-color: #D4884A !important;
+        accent-color: var(--ts-color-accent) !important;
     }
 
     body.type-category #filters input[type="checkbox"]:checked + .filter-label {
-        color: #C97A2B !important;
+        color: var(--ts-color-link) !important;
         font-weight: 700 !important;
     }
 
@@ -1952,8 +1713,8 @@ h1[itemprop="name"],
     body.type-category #filters-wrapper .filters-unveil-button-wrapper a,
     body.type-category #filters-wrapper .filters-unveil-button-wrapper button,
     body.type-category #filters .toggle-filters {
-        border-color: #D4884A !important;
-        color: #C97A2B !important;
+        border-color: var(--ts-color-accent) !important;
+        color: var(--ts-color-link) !important;
     }
 
     /* Desktopové pomocné prvky nášho vlastného filtra sa na mobile nezobrazujú. */
@@ -2014,7 +1775,7 @@ h1[itemprop="name"],
         border: 0 !important;
         border-radius: 0 !important;
         box-shadow: none !important;
-        color: #423E3E !important;
+        color: var(--ts-color-controls-text) !important;
         font-size: 13px !important;
         line-height: 1 !important;
         font-weight: 700 !important;
@@ -2024,25 +1785,25 @@ h1[itemprop="name"],
     }
 
     #category-header .listSorting__control:hover {
-        color: #C97A2B !important;
-        background: #FFF8F1 !important;
+        color: var(--ts-color-link) !important;
+        background: var(--ts-color-controls-active-bg) !important;
     }
 
     #category-header .listSorting__control--current {
-        color: #D4884A !important;
+        color: var(--ts-color-link) !important;
         background: transparent !important;
         font-weight: 800 !important;
-        box-shadow: inset 0 -3px 0 #D4884A !important;
+        box-shadow: inset 0 -3px 0 var(--ts-color-accent) !important;
     }
 
     #category-header .listSorting__control--current:hover {
-        color: #C97A2B !important;
+        color: var(--ts-color-link) !important;
         background: transparent !important;
-        box-shadow: inset 0 -3px 0 #C97A2B !important;
+        box-shadow: inset 0 -3px 0 var(--ts-color-controls-active) !important;
     }
 
     #category-header .listItemsTotal {
         padding-bottom: 16px !important;
-        color: #7C7E8F !important;
+        color: var(--ts-color-price-secondary) !important;
     }
 }

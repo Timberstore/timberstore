@@ -1,12 +1,13 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
   header: {
-    hours: 'PO – PIA: 08:00 – 16:00',
+    hours: 'PO – PIA (08:00 – 16:00)',
     open: 'Teraz v otváracích hodinách',
     closed: 'Teraz mimo otváracích hodín',
     contactForm: 'Otvoriť kontaktný formulár',
     account: 'Môj účet',
     cartTotal: 'SPOLU',
+    cartPreview: 'Otvoriť alebo zatvoriť náhľad košíka',
     quantityChanged: 'Množstvo bolo úspešne zmenené.',
     facebook: 'Timber Store na Facebooku',
     instagram: 'Timber Store na Instagrame',

@@ -163,6 +163,8 @@ Všechno povinné, u každého releasu:
 - [ ] CHANGELOG doplněný, karta v Trellu odkazuje na verzi
 
 ### 3.4 Výkonový rozpočet
+
+- **Výjimka v0.6.5:** klient 9. 10. 2026 povolil CSS limit 16 kB pro testovací build; 12. 10. 2026 schválil finální 0.6.5 k vydání. Schválený build ponechává 16 kB CSS / 30 kB JS gzip. Výjimka ve build skriptu platí pouze pro package version 0.6.5; ostatní verze používají standardní 15 kB CSS limit.
 - `timber.min.js` **≤ 30 kB gzip**, `timber.min.css` **≤ 15 kB gzip** — build při překročení **selže**.
 - Žádný nový skript blokující vykreslování. Náš balík je vždy `defer`.
 - PageSpeed Insights (mobil) před a po nasazení — skóre ani LCP/CLS **nesmí klesnout**. Výsledek se zapíše do CHANGELOGu.

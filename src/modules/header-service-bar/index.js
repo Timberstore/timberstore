@@ -8,33 +8,37 @@ let popupStateObserver;
 let listenersBound = false;
 let frame = 0;
 let hoursTimer;
+let keyboardCartArrow;
 const desktop = window.matchMedia('(min-width: 768px)');
 const emailOriginal = new WeakMap();
-const cartOriginal = new WeakMap();
 
 function syncCartTrigger() {
-  const cart = document.querySelector(SEL.headerCart);
-  if (!cart) return;
-  if (!cartOriginal.has(cart)) {
-    cartOriginal.set(cart, { redirect: cart.getAttribute('data-redirect'), role: cart.getAttribute('role') });
-  }
-  // Apollo deliberately omits the mini-cart on ordering pages. Keep their
-  // native checkout header behavior instead of toggling a nonexistent dialog.
-  if (desktop.matches && document.querySelector(SEL.headerCartPopup)) {
-    cart.removeAttribute('data-redirect');
-    cart.setAttribute('role', 'button');
-    cart.classList.add('ts-header-cart-toggle');
-  } else {
-    // Apollo can clone this control into the mobile tools on resize.
-    const original = cartOriginal.get(cart);
-    for (const control of document.querySelectorAll('.ts-header-cart-toggle')) {
-      for (const [attribute, value] of [['data-redirect', original.redirect], ['role', original.role]]) {
-        if (value === null) control.removeAttribute(attribute);
-        else control.setAttribute(attribute, value);
-      }
-      control.classList.remove('ts-header-cart-toggle');
+  const popup = document.querySelector(SEL.headerCartPopup);
+  for (const cart of document.querySelectorAll(SEL.headerCartControls)) {
+    // Restore a real native link. The old desktop-only toggle removed this
+    // attribute, so mobile Apollo clones could inherit the wrong semantics.
+    cart.setAttribute('data-redirect', 'true');
+    cart.removeAttribute('role');
+    cart.classList.remove('ts-header-cart-toggle');
+    if (!popup) continue; // Checkout deliberately has no mini-cart.
+    let wrapper = cart.parentElement;
+    if (!wrapper.matches('.click-cart, .ts-cart-control')) {
+      wrapper = document.createElement('span');
+      cart.before(wrapper);
+      wrapper.append(cart);
     }
+    wrapper.classList.add('ts-cart-control');
+    if (wrapper.querySelector(SEL.headerCartArrow)) continue;
+    const arrow = document.createElement('button');
+    arrow.type = 'button';
+    arrow.className = 'ts-cart-preview-toggle';
+    arrow.setAttribute('aria-label', TEXTS.header.cartPreview);
+    arrow.setAttribute('aria-controls', popup.id);
+    arrow.setAttribute('aria-haspopup', 'dialog');
+    arrow.setAttribute('aria-expanded', 'false');
+    wrapper.append(arrow);
   }
+  syncPopupState();
 }
 
 function closeHeaderPopups(force = false) {
@@ -43,42 +47,96 @@ function closeHeaderPopups(force = false) {
   const popups = window.shoptet?.popups;
   if (!popups?.hideContentWindows) return;
   popups.hideContentWindows();
-  for (const control of document.querySelectorAll('[aria-controls="cart-widget"], [aria-controls="login"]')) {
+  for (const control of document.querySelectorAll(
+    '[aria-controls="cart-widget"], [aria-controls="login"]',
+  )) {
     control.setAttribute('aria-expanded', 'false');
     control.classList.remove('hovered');
   }
 }
 
 function cartInteraction(event) {
-  if (!desktop.matches || !(event.target instanceof Element)) return;
+  if (!(event.target instanceof Element)) return;
   if (event.target.closest(SEL.headerAccount)) {
     positionPopups();
     return;
   }
-  const cart = event.target.closest(SEL.headerCart)
-    || event.target.closest(SEL.headerCartWrapper)?.querySelector('[data-testid="headerCart"]');
-  if (!cart) return;
-  if (!document.querySelector(SEL.headerCartPopup)) return;
-  const keyboard = event.type === 'keydown';
-  if (keyboard && !['Enter', ' ', 'ArrowDown'].includes(event.key)) return;
-  const popups = window.shoptet?.popups;
-  if (!popups?.showPopupWindow) return;
-  event.preventDefault();
-  // Keep Apollo's delegated redirect / hovered first-click guard out of this
-  // desktop-only trigger. The native API still owns fetching and cart forms.
+  const arrow = event.target.closest(SEL.headerCartArrow);
+  const cart = event.target.closest(SEL.headerCartControls);
+  if (!arrow && !cart) {
+    if (
+      event.type === 'click' &&
+      document.body.classList.contains('cart-window-visible') &&
+      !event.target.closest(SEL.headerCartPopup)
+    )
+      closeHeaderPopups(true);
+    return;
+  }
+  if (event.type === 'keydown') {
+    // Enter on the native link navigates. The real button produces one click
+    // for Enter/Space; do not also toggle on keydown or touchend.
+    if (!cart || event.key !== 'Enter') return;
+  }
+  if (arrow) {
+    if (event.type !== 'click') return;
+    const popups = window.shoptet?.popups;
+    if (!popups?.showPopupWindow) return;
+    event.preventDefault();
+    event.stopImmediatePropagation(); // Apollo .click-cart would redirect.
+    keyboardCartArrow = event.detail === 0 ? arrow : null;
+    positionPopups();
+    popups.showPopupWindow('cart', true, 'cart-widget', event.detail === 0);
+    return;
+  }
+  // Prevent Apollo's delegated toggle and wrapper redirect from running,
+  // but keep default link navigation, modified clicks and native href intact.
   event.stopImmediatePropagation();
-  if (keyboard && event.key === 'ArrowDown' && document.body.classList.contains('cart-window-visible')) return;
-  cart.classList.remove('hovered');
+}
+
+function cartEscape(event) {
+  if (event.key !== 'Escape' || !keyboardCartArrow?.isConnected) return;
+  if (!document.body.classList.contains('cart-window-visible')) return;
+  const arrow = keyboardCartArrow;
+  window.requestAnimationFrame(() => {
+    if (!document.body.classList.contains('cart-window-visible')) arrow.focus();
+  });
+}
+
+function cartHover(event) {
+  // Native hover opens full carts only. Use the same API for an empty cart;
+  // its existing mouseleave timer continues to own closing the preview.
+  const cart = event.target;
+  if (!(cart instanceof Element) || !cart.matches(SEL.headerCartControls)) return;
+  if (
+    !desktop.matches ||
+    window.shoptet?.helpers?.isTouchDevice() ||
+    cart.classList.contains('full')
+  )
+    return;
+  if (
+    !document.querySelector(SEL.headerCartPopup) ||
+    document.body.classList.contains('cart-window-visible')
+  )
+    return;
   positionPopups();
-  popups.showPopupWindow('cart', true, 'cart-widget', keyboard || (event.type === 'click' && event.detail === 0));
+  window.shoptet?.popups?.showPopupWindow?.('cart', true, 'cart-widget', false);
+}
+
+function onResize() {
+  // Apollo replaces its mobile clone on resize, including within one breakpoint.
+  syncCartTrigger();
+  schedulePosition();
 }
 
 function syncPopupState() {
-  if (!desktop.matches) return;
-  for (const [selector, state] of [[SEL.headerCart, 'cart'], [SEL.headerAccount, 'login']]) {
+  for (const [selector, state] of [
+    [`${SEL.headerCartControls}, ${SEL.headerCartArrow}`, 'cart'],
+    [SEL.headerAccount, 'login'],
+  ]) {
     const open = String(document.body.classList.contains(`${state}-window-visible`));
     for (const control of document.querySelectorAll(selector)) {
-      if (control.getAttribute('aria-expanded') !== open) control.setAttribute('aria-expanded', open);
+      if (control.getAttribute('aria-expanded') !== open)
+        control.setAttribute('aria-expanded', open);
     }
   }
   if (document.body.matches('.cart-window-visible, .login-window-visible')) positionPopups();
@@ -158,7 +216,10 @@ function positionPopups() {
     const edge = control.getBoundingClientRect();
     const style = getComputedStyle(popup);
     const width = parseFloat(style.width);
-    const left = Math.max(12, Math.min(edge.right - width, document.documentElement.clientWidth - width - 12));
+    const left = Math.max(
+      12,
+      Math.min(edge.right - width, document.documentElement.clientWidth - width - 12),
+    );
     const top = edge.bottom;
     popup.classList.add('ts-header-popup');
     popup.style.setProperty('--ts-header-popup-left', `${left}px`);
@@ -259,11 +320,13 @@ export default {
     if (!listenersBound) {
       window.addEventListener('scroll', onScroll, { passive: true });
       // A max-width container can move without resizing its children.
-      window.addEventListener('resize', schedulePosition, { passive: true });
+      window.addEventListener('resize', onResize, { passive: true });
       desktop.addEventListener('change', onBreakpoint);
+      document.addEventListener('mouseenter', cartHover, true);
       document.addEventListener('click', cartInteraction, true);
       document.addEventListener('touchend', cartInteraction, { capture: true, passive: false });
       document.addEventListener('keydown', cartInteraction, true);
+      document.addEventListener('keydown', cartEscape, true);
       document.addEventListener(SHOPTET_EVENTS.cartUpdated, () => {
         syncCartTrigger();
         schedulePosition();

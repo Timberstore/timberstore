@@ -13,3 +13,12 @@
     padding-right: 0;
   }
 }
+
+/* Audited homepage editorial link uses its own class, outside native buttons. */
+.in-index .welcome .timber-real-button {
+  background-color: var(--ts-color-action);
+}
+.in-index .welcome .timber-real-button:hover,
+.in-index .welcome .timber-real-button:focus-visible {
+  background-color: var(--ts-color-action-hover);
+}

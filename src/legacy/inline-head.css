@@ -3,7 +3,7 @@ html.timber-page-loading body{visibility:hidden!important;}
 .p-info-grid .detail-availability-block .delivery-time{background-color:var(--color-tertiary);color:#000;}
 .param-filter-top form[action="/action/ProductsListing/setStockFilter/"]{display:none!important;}
 .welcome{background-color:#F7F5F2;}
-body{background-color:#fff!important;}
+body{background-color:var(--ts-color-bg)!important;}
 .products-block .p-in-in{min-height:auto;}
 .category-header input[type="radio"]:checked+label{background-color:var(--color-primary);}
 .in-contacts .content-inner>article{width:100%;}
