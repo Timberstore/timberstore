@@ -40,6 +40,7 @@ async function enhance(form) {
   const href = product?.querySelector(SEL.cartRelatedLink)?.href;
   const priceId = form.querySelector(SEL.cartFormPriceId)?.value;
   if (!href || !priceId) return;
+  form.querySelector(SEL.cartFormSubmit)?.setAttribute('aria-label', TEXTS.cart.addToCart);
   pending.add(form);
   const source = await sourceQuantity(new URL(href), priceId);
   if (!source || !form.isConnected) return; // Native add-to-cart remains available.

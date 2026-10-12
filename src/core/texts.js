@@ -16,6 +16,7 @@ export const TEXTS = {
     nativeDeliveryPrefix: 'Doručenie možné do:',
     deliveryPrefix: 'MÔŽEME DORUČIŤ DO:',
     shippingProgress: 'Doprava zdarma',
+    addToCart: 'Pridať do košíka',
   },
   closeInformationMessage: 'Zavrieť oznam',
   viewSwitch: {

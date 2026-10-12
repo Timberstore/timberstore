@@ -4,6 +4,8 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## v0.6.6 · 2026-10-12 · Nákupný košík (preview, nevydané)
 
+- Druhé preview: červený tučný dynamický dátum, CTA pod sebou, Timber hover názvov/krokov, related quantity/cena/natívna ikonová CTA v kompaktnom riadku, výraznejšia skladová typografia. Verzia zostáva 0.6.6; iba základné cielené overenie podľa zadania. Súhrn: docs/previews/v0.6.6-cart-refinement.md.
+
 - Jednotné množstvo main/mini/related, pružná šírka čísla, rovnaké +/- a natívne min/max/step.
 - Plné desktop názvy, dostupnosť na jednom riadku + počet pod ňou, tablet/mobil bez pretekania.
 - Funkčné množstvo súvisiaceho tovaru z overených metadata verejného detailu, pôvodný native add-to-cart a násobky zachované.

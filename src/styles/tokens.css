@@ -20,6 +20,7 @@
   --ts-color-error: #b83b43;
   --ts-color-error-bg: #fcedef;
   --ts-color-info-bg: #eaf3f7;
+  --ts-color-delivery-date: #c0392b;
   --color-primary: var(--ts-color-controls-text);
   --color-primary-hover: var(--ts-color-controls-active);
   --color-tertiary: var(--ts-color-service-bg);

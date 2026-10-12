@@ -113,6 +113,9 @@ body.ordering-process ol.cart-header li a:focus-visible {
   outline: 2px solid var(--ts-color-accent);
   outline-offset: 3px;
 }
+body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible) {
+  color: var(--ts-color-accent);
+}
 
 /* Apollo's fixed 80 px shipping price overflows the label on narrow phones.
    Keep native radios/data/prices and put that price on its own grid row. */
