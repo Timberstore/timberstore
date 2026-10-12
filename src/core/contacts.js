@@ -4,3 +4,6 @@ export const SOCIALS = {
   facebook: 'https://www.facebook.com/timberstore',
   instagram: 'https://www.instagram.com/timberstore.sk/',
 };
+
+// Verified native formContact at /kontakty (2026-10-13).
+export const CONTACT_FORM = '/kontakty';

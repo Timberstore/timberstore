@@ -7,6 +7,21 @@ let previousPercent;
 
 export function syncBottom() {
   const footer = document.querySelector(SEL.cartFooter);
+  const summary = footer?.closest(SEL.cartSummary);
+  if (summary) {
+    let shell = summary.parentElement;
+    if (!shell.classList.contains('ts-cart-summary-shell')) {
+      shell = document.createElement('div');
+      shell.className = 'ts-cart-summary-shell';
+      summary.before(shell);
+      shell.append(summary);
+    }
+    const back = summary.querySelector(SEL.cartBack);
+    if (back) {
+      back.classList.add('ts-cart-return');
+      shell.append(back); // Keep the original native href outside the summary card.
+    }
+  }
   for (const delivery of document.querySelectorAll(SEL.cartDeliveryTime)) {
     if (!delivery.classList.contains('ts-cart-delivery'))
       delivery.classList.add('ts-cart-delivery', 'icon-van');

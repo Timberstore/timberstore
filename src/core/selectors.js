@@ -114,6 +114,8 @@ export const SEL = {
   cartRelatedOpenClass: 'related-visible',
   cartFormItemId: 'input[name="itemId"]',
   cartFooter: '.in-kosik #cart-wrapper .cart-summary > .extras-wrapper',
+  cartSummary: '.cart-summary',
+  cartBack: 'a.next-step-back:not(.colorbox-close)',
   detailSku: '[itemprop="sku"]',
   detailStockAmount: '.availability-value .availability-amount',
   nativeQuantity: '.quantity',

@@ -1,7 +1,7 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
-import { SOCIALS } from '../../core/contacts.js';
+import { SOCIALS, CONTACT_FORM } from '../../core/contacts.js';
 import { isBusinessOpen } from './business-hours.js';
 
 let observer;
@@ -168,12 +168,6 @@ function updateHours() {
     hours.title = status;
     hours.setAttribute('aria-label', `${TEXTS.header.hours} — ${status}`);
   }
-  for (const support of document.querySelectorAll('.ts-menu-support')) {
-    if (support.dataset.open === open) continue;
-    support.dataset.open = open;
-    support.querySelector('.ts-menu-support__label').textContent =
-      open === 'true' ? TEXTS.header.supportOpen : TEXTS.header.supportClosed;
-  }
 }
 
 function addHours(contacts) {
@@ -221,7 +215,8 @@ function syncCartContacts() {
 function syncMenu() {
   for (const contacts of document.querySelectorAll(SEL.mobileMenuContacts)) {
     // Apollo clones contacts separately; enrich that clone, never the categories.
-    contacts.querySelector('.ts-service-bar__hours')?.remove();
+    contacts.querySelector('.ts-menu-support')?.remove();
+    addHours(contacts);
     let title = contacts.querySelector('.ts-menu-contact-title');
     if (!title) {
       title = contacts.querySelector(SEL.mobileContactTitle) || document.createElement('strong');
@@ -239,20 +234,7 @@ function syncMenu() {
       if (label) email.append(label);
       wrapper.replaceWith(email);
     }
-    let support = contacts.querySelector('.ts-menu-support');
-    if (!support) {
-      support = document.createElement('span');
-      support.className = 'ts-menu-support';
-      const dot = document.createElement('span');
-      dot.className = 'ts-service-bar__status';
-      dot.setAttribute('aria-hidden', 'true');
-      const label = document.createElement('span');
-      label.className = 'ts-menu-support__label';
-      const schedule = document.createElement('small');
-      schedule.textContent = TEXTS.header.hours;
-      support.append(dot, label, schedule);
-      contacts.append(support);
-    }
+    const support = contacts.querySelector('.ts-service-bar__hours');
     addSocial(contacts, SEL.socialFacebook, 'facebook');
     addSocial(contacts, SEL.socialInstagram, 'instagram');
     let socials = contacts.querySelector('.ts-menu-socials');
@@ -262,6 +244,11 @@ function syncMenu() {
       contacts.append(socials);
     }
     for (const link of contacts.querySelectorAll(':scope > [data-ts-social]')) socials.append(link);
+    const phone = contacts.querySelector(SEL.headerPhoneLabel);
+    if (phone)
+      phone.textContent = phone.textContent
+        .trim()
+        .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
     let previous = title;
     for (const node of [contacts.querySelector(SEL.contactPhone), email, support, socials]) {
       if (!node) continue;
@@ -291,7 +278,7 @@ function syncEmail() {
     return;
   }
   const source = document.querySelector(SEL.headerContactForm);
-  if (!source || wrapper) return;
+  if (wrapper) return;
   const label = email.querySelector('span');
   if (!label) return;
   emailOriginal.set(email, {
@@ -304,7 +291,7 @@ function syncEmail() {
   email.before(group);
   group.append(email, label);
   label.classList.add('ts-service-bar__email-label');
-  email.href = source.href;
+  email.href = source?.href || CONTACT_FORM;
   email.setAttribute('aria-label', TEXTS.header.contactForm);
 }
 

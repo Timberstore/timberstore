@@ -4,6 +4,8 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## v0.6.7 · 2026-10-12 · Pravý súhrn košíka a spoločné kontakty (preview, nevydané)
 
+- Doladenie 13. 10. 2026: overený /kontakty s natívnym formContact ako fallback desktop e-mailu, samostatný pôvodný návrat do obchodu mimo farebného boxu, mobilné centrovanie doručenia/dopravy, jeden teplý podklad celého súhrnu, mobilné kontakty iba s hodinami/bodkou bez dodatočnej stavovej vety. Bez zmien produktov, cien alebo nákupnej logiky.
+
 - Klient schválil CSS limit 17,5 kB gzip iba pre preview 0.6.7; JS limit 30 kB a produkcia bez zmeny.
 - Samostatná vetva nad návratovým preview 0.6.6 `83f5a71`; bez merge, tagu alebo nasadenia.
 - Dvojstĺpcový košík od 1200 px, približne 70/30; jeden pravý súhrnný panel s natívnym dátumom, dopravou, progressom, cenami a pôvodnými CTA. Mobil má panel pod produktmi. CSS sticky iba od 1440 px pri výške aspoň 900 px.

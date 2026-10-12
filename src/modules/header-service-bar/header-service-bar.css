@@ -144,6 +144,7 @@
   #header .navigation-in-bottom .top-navigation-contacts {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
   }
   #header .navigation-in-bottom :is(.project-phone, .project-email)::before {
@@ -153,23 +154,12 @@
     display: block;
     color: var(--ts-color-controls-text);
   }
-  #header .navigation-in-bottom .ts-menu-support__label {
-    color: var(--ts-color-controls-text);
-  }
-  .ts-menu-support {
-    --ts-service-status-size: 6px;
-    display: grid;
-    grid-template-columns: 6px 1fr;
+  #header .navigation-in-bottom .ts-service-bar__hours {
+    display: inline-flex;
     align-items: center;
-    gap: 4px 8px;
+    gap: 8px;
+    color: var(--ts-color-controls-text);
     font-size: 13px;
-  }
-  .ts-menu-support[data-open='true'] .ts-service-bar__status {
-    background: var(--ts-color-service-open);
-  }
-  .ts-menu-support small {
-    grid-column: 2;
-    color: var(--ts-color-price-secondary);
   }
   .ts-menu-socials {
     display: flex;
