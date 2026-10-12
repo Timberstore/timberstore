@@ -11,12 +11,17 @@ export const TEXTS = {
     quantityChanged: 'Množstvo bolo úspešne zmenené.',
     facebook: 'Timber Store na Facebooku',
     instagram: 'Timber Store na Instagrame',
+    contactTitle: 'KONTAKTUJTE NÁS',
+    supportOpen: 'Zákaznícka podpora: dostupná',
+    supportClosed: 'Zákaznícka podpora: mimo pracovných hodín',
   },
   cart: {
     nativeDeliveryPrefix: 'Doručenie možné do:',
     deliveryPrefix: 'MÔŽEME DORUČIŤ DO:',
     shippingProgress: 'Doprava zdarma',
     addToCart: 'Pridať do košíka',
+    productCode: 'Kód produktu:',
+    columns: ['PRODUKT', 'MNOŽSTVO', 'CENA ZA KUS', 'CELKOM'],
   },
   closeInformationMessage: 'Zavrieť oznam',
   viewSwitch: {

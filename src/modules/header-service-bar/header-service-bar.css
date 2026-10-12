@@ -1,3 +1,16 @@
+.ts-service-bar__social-icon {
+  width: var(--ts-service-icon-size);
+  height: var(--ts-service-icon-size);
+  fill: var(--ts-color-accent);
+}
+.ts-service-bar__status {
+  flex: 0 0 var(--ts-service-status-size);
+  width: var(--ts-service-status-size);
+  height: var(--ts-service-status-size);
+  background: var(--ts-color-accent);
+  border-radius: 50%;
+}
+
 /* Additions never appear in the native mobile header or its cloned menu. */
 .ts-service-bar__hours,
 .ts-service-bar__social {
@@ -18,24 +31,10 @@
     line-height: 1;
   }
 
-  .ts-service-bar__social-icon {
-    width: var(--ts-service-icon-size);
-    height: var(--ts-service-icon-size);
-    fill: var(--ts-color-accent);
-  }
-
   .ts-service-bar__hours {
     align-items: center;
     gap: var(--ts-space-2);
     white-space: nowrap;
-  }
-
-  .ts-service-bar__status {
-    flex: 0 0 var(--ts-service-status-size);
-    width: var(--ts-service-status-size);
-    height: var(--ts-service-status-size);
-    background: var(--ts-color-accent);
-    border-radius: 50%;
   }
 
   .ts-service-bar__hours[data-open='true'] .ts-service-bar__status {
@@ -145,5 +144,51 @@
 @media (prefers-reduced-motion: reduce) {
   .ts-cart-preview-toggle::after {
     transition: none;
+  }
+}
+
+/* Enrich only Apollo's existing mobile-menu contact clone. */
+@media (max-width: 767px) {
+  #header .navigation-in-bottom .top-navigation-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #header .navigation-in-bottom :is(.project-phone, .project-email)::before {
+    color: var(--ts-color-accent);
+  }
+  .ts-menu-support {
+    --ts-service-status-size: 6px;
+    display: grid;
+    grid-template-columns: 6px 1fr;
+    align-items: center;
+    gap: 4px 8px;
+    font-size: 13px;
+  }
+  .ts-menu-support[data-open='true'] .ts-service-bar__status {
+    background: var(--ts-color-service-open);
+  }
+  .ts-menu-support small {
+    grid-column: 2;
+    color: var(--ts-color-price-secondary);
+  }
+  .ts-menu-socials {
+    display: flex;
+  }
+  .ts-menu-socials .ts-service-bar__social {
+    display: inline-flex;
+    width: 28px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    color: var(--ts-color-accent);
+  }
+  .ts-menu-socials .icon-instagram::before {
+    font-size: 18px;
+    margin: 0;
+  }
+  #header .navigation-in-bottom .top-navigation-bar-menu {
+    border-top: 1px solid var(--ts-color-controls-border);
+    padding-top: 12px;
   }
 }

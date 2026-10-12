@@ -6,6 +6,7 @@ const seen = new WeakSet();
 let previousPercent;
 
 export function syncBottom() {
+  const footer = document.querySelector(SEL.cartFooter);
   for (const delivery of document.querySelectorAll(SEL.cartDeliveryTime)) {
     if (!delivery.classList.contains('ts-cart-delivery'))
       delivery.classList.add('ts-cart-delivery', 'icon-van');
@@ -18,6 +19,20 @@ export function syncBottom() {
       const label = document.createElement('span');
       label.textContent = TEXTS.cart.deliveryPrefix;
       node.replaceWith(label); // Keep Shoptet's original dynamic date node.
+    }
+    if (footer) {
+      let column = footer.querySelector(':scope > .ts-cart-delivery-col');
+      if (!column) {
+        column = document.createElement('div');
+        column.className = 'extras-col ts-cart-delivery-col';
+        footer.prepend(column);
+      }
+      if (delivery.parentElement !== column) {
+        const previous = delivery.parentElement;
+        column.append(delivery);
+        if (previous.classList.contains('text-center') && !previous.textContent.trim())
+          previous.remove();
+      }
     }
   }
   for (const root of document.querySelectorAll(SEL.cartShipping)) {

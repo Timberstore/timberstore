@@ -129,6 +129,7 @@ function onResize() {
 }
 
 function syncPopupState() {
+  syncMenu();
   for (const [selector, state] of [
     [`${SEL.headerCartControls}, ${SEL.headerCartArrow}`, 'cart'],
     [SEL.headerAccount, 'login'],
@@ -165,6 +166,66 @@ function updateHours() {
     hours.title = status;
     hours.setAttribute('aria-label', `${TEXTS.header.hours} — ${status}`);
   }
+  for (const support of document.querySelectorAll('.ts-menu-support')) {
+    if (support.dataset.open === open) continue;
+    support.dataset.open = open;
+    support.querySelector('.ts-menu-support__label').textContent =
+      open === 'true' ? TEXTS.header.supportOpen : TEXTS.header.supportClosed;
+  }
+}
+
+function syncMenu() {
+  for (const contacts of document.querySelectorAll(SEL.mobileMenuContacts)) {
+    // Apollo clones contacts separately; enrich that clone, never the categories.
+    contacts.querySelector('.ts-service-bar__hours')?.remove();
+    let title = contacts.querySelector('.ts-menu-contact-title');
+    if (!title) {
+      title = contacts.querySelector(SEL.mobileContactTitle) || document.createElement('strong');
+      title.classList.add('ts-menu-contact-title');
+      title.textContent = TEXTS.header.contactTitle;
+      contacts.prepend(title);
+    }
+    const email = contacts.querySelector(SEL.headerEmail);
+    const wrapper = email?.closest('.ts-service-bar__email');
+    if (wrapper) {
+      const source = document.querySelector(SEL.headerContacts)?.querySelector(SEL.headerEmail);
+      const href = emailOriginal.get(source)?.href || source?.getAttribute('href');
+      if (href?.startsWith('mailto:')) email.setAttribute('href', href);
+      const label = wrapper.querySelector('.ts-service-bar__email-label');
+      if (label) email.append(label);
+      wrapper.replaceWith(email);
+    }
+    let support = contacts.querySelector('.ts-menu-support');
+    if (!support) {
+      support = document.createElement('span');
+      support.className = 'ts-menu-support';
+      const dot = document.createElement('span');
+      dot.className = 'ts-service-bar__status';
+      dot.setAttribute('aria-hidden', 'true');
+      const label = document.createElement('span');
+      label.className = 'ts-menu-support__label';
+      const schedule = document.createElement('small');
+      schedule.textContent = TEXTS.header.hours;
+      support.append(dot, label, schedule);
+      contacts.append(support);
+    }
+    addSocial(contacts, SEL.socialFacebook, 'facebook');
+    addSocial(contacts, SEL.socialInstagram, 'instagram');
+    let socials = contacts.querySelector('.ts-menu-socials');
+    if (!socials) {
+      socials = document.createElement('span');
+      socials.className = 'ts-menu-socials';
+      contacts.append(socials);
+    }
+    for (const link of contacts.querySelectorAll(':scope > [data-ts-social]')) socials.append(link);
+    let previous = title;
+    for (const node of [contacts.querySelector(SEL.contactPhone), email, support, socials]) {
+      if (!node) continue;
+      if (node.previousElementSibling !== previous) previous.after(node);
+      previous = node;
+    }
+  }
+  updateHours();
 }
 
 function syncEmail() {

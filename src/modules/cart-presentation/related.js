@@ -1,6 +1,7 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { resizeQuantity } from './quantity.js';
+import { showCode } from './rows.js';
 
 const requests = new Map();
 const pending = new WeakSet();
@@ -31,7 +32,12 @@ async function sourceQuantity(url, priceId) {
     !(Number(amount.step) > 0)
   )
     return null;
-  return quantity;
+  const sku = detail.querySelector(SEL.detailSku);
+  return {
+    quantity,
+    code: sku?.getAttribute('content') || sku?.textContent.trim(),
+    stock: detail.querySelector(SEL.detailStockAmount),
+  };
 }
 
 async function enhance(form) {
@@ -44,7 +50,14 @@ async function enhance(form) {
   pending.add(form);
   const source = await sourceQuantity(new URL(href), priceId);
   if (!source || !form.isConnected) return; // Native add-to-cart remains available.
-  const quantity = source.cloneNode(true);
+  const quantity = source.quantity.cloneNode(true);
+  const name = product.querySelector(SEL.cartRelatedLink);
+  showCode(name.parentElement, source.code);
+  if (source.stock && !product.querySelector(SEL.cartAvailabilityAmount)) {
+    const stock = source.stock.cloneNode(true);
+    stock.removeAttribute('id');
+    product.querySelector(SEL.cartRelatedAvailability)?.append(stock);
+  }
   quantity.querySelectorAll('[id]').forEach((node) => node.removeAttribute('id'));
   const input = quantity.querySelector(SEL.cartFormAmount);
   input.value = input.min;

@@ -3,6 +3,7 @@ import { TEXTS } from '../../core/texts.js';
 import { syncQuantities, resizeQuantity } from './quantity.js';
 import { syncRelated } from './related.js';
 import { syncBottom } from './bottom.js';
+import { syncRows } from './rows.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
 
 let observer;
@@ -23,6 +24,7 @@ function syncPresentation() {
   }
   syncSummary();
   syncQuantities();
+  syncRows();
   syncRelated();
   syncBottom();
 }
