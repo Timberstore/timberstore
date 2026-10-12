@@ -1,3 +1,8 @@
+.ts-service-bar__social::before {
+  font-family: apollo;
+  font-size: var(--ts-service-icon-size);
+  line-height: 1;
+}
 .ts-service-bar__social-icon {
   width: var(--ts-service-icon-size);
   height: var(--ts-service-icon-size);
@@ -23,12 +28,6 @@
     align-items: center;
     justify-content: center;
     min-width: var(--ts-service-icon-size);
-  }
-
-  .ts-service-bar__social::before {
-    font-family: apollo;
-    font-size: var(--ts-service-icon-size);
-    line-height: 1;
   }
 
   .ts-service-bar__hours {
@@ -157,6 +156,13 @@
   #header .navigation-in-bottom :is(.project-phone, .project-email)::before {
     color: var(--ts-color-accent);
   }
+  #header .navigation-in-bottom .ts-menu-contact-title {
+    display: block;
+    color: var(--ts-color-controls-text);
+  }
+  #header .navigation-in-bottom .ts-menu-support__label {
+    color: var(--ts-color-controls-text);
+  }
   .ts-menu-support {
     --ts-service-status-size: 6px;
     display: grid;
@@ -174,18 +180,16 @@
   }
   .ts-menu-socials {
     display: flex;
+    justify-content: center;
   }
-  .ts-menu-socials .ts-service-bar__social {
+  #header .navigation-in-bottom .ts-menu-socials a {
+    padding: 0;
     display: inline-flex;
     width: 28px;
     height: 28px;
     align-items: center;
     justify-content: center;
     color: var(--ts-color-accent);
-  }
-  .ts-menu-socials .icon-instagram::before {
-    font-size: 18px;
-    margin: 0;
   }
   #header .navigation-in-bottom .top-navigation-bar-menu {
     border-top: 1px solid var(--ts-color-controls-border);
