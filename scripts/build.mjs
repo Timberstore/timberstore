@@ -6,8 +6,9 @@ import { gzipSync } from 'node:zlib';
 const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 // The approved v0.6.5 build retains its 16 kB CSS allowance; other versions
 // use the standard 15 kB budget until a separate change is approved.
-// Client-approved preview-only 17 kB allowance for v0.6.6 (2026-10-12).
-const cssBudgetKiB = pkg.version === '0.6.6' ? 17 : pkg.version === '0.6.5' ? 16 : 15;
+// Client-approved preview allowances: v0.6.6 17 kB, v0.6.7 17.5 kB (2026-10-12).
+const cssBudgetKiB =
+  pkg.version === '0.6.7' ? 17.5 : pkg.version === '0.6.6' ? 17 : pkg.version === '0.6.5' ? 16 : 15;
 const BUDGET = { 'dist/timber.min.js': 30 * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
 
 const common = {

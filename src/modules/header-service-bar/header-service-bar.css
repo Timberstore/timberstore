@@ -1,3 +1,6 @@
+.ts-service-bar__hours[data-open='true'] .ts-service-bar__status {
+  background: var(--ts-color-service-open);
+}
 .ts-service-bar__social::before {
   font-family: apollo;
   font-size: var(--ts-service-icon-size);
@@ -23,7 +26,7 @@
 }
 
 @media (min-width: 768px) {
-  .ts-service-bar .ts-service-bar__social {
+  .ts-service-bar :is(.ts-service-bar__social, .ts-service-bar__hours) {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -34,10 +37,6 @@
     align-items: center;
     gap: var(--ts-space-2);
     white-space: nowrap;
-  }
-
-  .ts-service-bar__hours[data-open='true'] .ts-service-bar__status {
-    background: var(--ts-color-service-open);
   }
 
   .ts-service-bar__email {
@@ -72,12 +71,6 @@
     outline: 2px solid var(--ts-color-controls-active);
     outline-offset: 3px;
     border-radius: 2px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .ts-service-bar .ts-service-bar__hours {
-    display: inline-flex;
   }
 }
 
@@ -195,4 +188,32 @@
     border-top: 1px solid var(--ts-color-controls-border);
     padding-top: 12px;
   }
+}
+/* Same native contact links and service indicators, including checkout. */
+.ts-cart-contacts .contact-box > ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+}
+.ts-cart-contacts .contact-box > ul > li {
+  margin: 0;
+}
+.ts-cart-contacts :is(.ts-service-bar__hours, .ts-service-bar__social, .ts-cart-contact-socials) {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+#content .ts-cart-contacts :is(.mail, .tel)::before {
+  color: var(--ts-color-accent);
+  font-size: var(--ts-service-icon-size);
+}
+.ts-cart-contacts .contact-box {
+  font-size: var(--ts-service-font-size);
+}
+.ts-cart-contacts a:hover {
+  color: var(--ts-color-accent);
+}
+.ts-cart-contacts .ts-service-bar__hours {
+  font-size: var(--ts-service-font-size);
 }

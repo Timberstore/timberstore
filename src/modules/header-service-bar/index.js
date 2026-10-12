@@ -1,6 +1,7 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
+import { SOCIALS } from '../../core/contacts.js';
 import { isBusinessOpen } from './business-hours.js';
 
 let observer;
@@ -129,6 +130,7 @@ function onResize() {
 }
 
 function syncPopupState() {
+  syncCartContacts();
   syncMenu();
   for (const [selector, state] of [
     [`${SEL.headerCartControls}, ${SEL.headerCartArrow}`, 'cart'],
@@ -171,6 +173,48 @@ function updateHours() {
     support.dataset.open = open;
     support.querySelector('.ts-menu-support__label').textContent =
       open === 'true' ? TEXTS.header.supportOpen : TEXTS.header.supportClosed;
+  }
+}
+
+function addHours(contacts) {
+  if (contacts.querySelector('.ts-service-bar__hours')) return;
+  const hours = document.createElement('span');
+  hours.className = 'ts-service-bar__hours';
+  const dot = document.createElement('span');
+  dot.className = 'ts-service-bar__status';
+  dot.setAttribute('aria-hidden', 'true');
+  hours.append(dot, document.createTextNode(TEXTS.header.hours));
+  contacts.prepend(hours);
+}
+
+function syncCartContacts() {
+  for (const panel of document.querySelectorAll(SEL.cartHelp)) {
+    panel.classList.add('ts-cart-contacts');
+    const title = panel.querySelector(SEL.cartHelpTitle);
+    if (title && title.textContent !== TEXTS.cart.help) title.textContent = TEXTS.cart.help;
+    const list = panel.querySelector(SEL.cartHelpList);
+    if (!list) continue;
+    list.classList.add('ts-service-bar');
+    let hours = list.querySelector('.ts-cart-contact-hours');
+    if (!hours) {
+      hours = document.createElement('li');
+      hours.className = 'ts-cart-contact-hours';
+      list.prepend(hours);
+    }
+    addHours(hours);
+    let socials = list.querySelector('.ts-cart-contact-socials');
+    if (!socials) {
+      socials = document.createElement('li');
+      socials.className = 'ts-cart-contact-socials';
+      list.append(socials);
+    }
+    addSocial(socials, SEL.socialFacebook, 'facebook');
+    addSocial(socials, SEL.socialInstagram, 'instagram');
+    const phone = list.querySelector(SEL.cartHelpPhone);
+    if (phone)
+      phone.textContent = phone.textContent
+        .trim()
+        .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
   }
 }
 
@@ -295,14 +339,15 @@ function schedulePosition() {
 function addSocial(contacts, selector, network) {
   if (contacts.querySelector(`[data-ts-social="${network}"]`)) return;
   const source = document.querySelector(selector);
-  // No invented URLs: if Apollo stops supplying the footer social link,
-  // leave that network out until its destination is configured in Shoptet.
-  if (!source) return;
+  // Prefer native configured destinations; use the verified shared fallback
+  // when checkout removes the footer before module initialization.
+  const href = source?.href || SOCIALS[network];
+  if (!href) return;
   const link = document.createElement('a');
   link.className = `ts-service-bar__social${network === 'instagram' ? ' icon-instagram' : ''}`;
   link.dataset.tsSocial = network;
-  link.href = source.href;
-  link.target = source.target;
+  link.href = href;
+  link.target = source?.target || '_blank';
   link.rel = 'noopener noreferrer';
   link.setAttribute('aria-label', TEXTS.header[network]);
   link.title = TEXTS.header[network];
@@ -338,15 +383,7 @@ export default {
         // Keep the native mobile controls and any configured language tools.
         tools.classList.add('ts-service-bar__mobile-only');
       }
-      if (!contacts.querySelector('.ts-service-bar__hours')) {
-        const hours = document.createElement('span');
-        hours.className = 'ts-service-bar__hours';
-        const dot = document.createElement('span');
-        dot.className = 'ts-service-bar__status';
-        dot.setAttribute('aria-hidden', 'true');
-        hours.append(dot, document.createTextNode(TEXTS.header.hours));
-        contacts.prepend(hours);
-      }
+      addHours(contacts);
       const phone = contacts.querySelector(SEL.headerPhoneLabel);
       if (phone) {
         phone.textContent = phone.textContent.replace(

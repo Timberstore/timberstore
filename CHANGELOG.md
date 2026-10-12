@@ -2,6 +2,16 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.7 · 2026-10-12 · Pravý súhrn košíka a spoločné kontakty (preview, nevydané)
+
+- Klient schválil CSS limit 17,5 kB gzip iba pre preview 0.6.7; JS limit 30 kB a produkcia bez zmeny.
+- Samostatná vetva nad návratovým preview 0.6.6 `83f5a71`; bez merge, tagu alebo nasadenia.
+- Dvojstĺpcový košík od 1200 px, približne 70/30; jeden pravý súhrnný panel s natívnym dátumom, dopravou, progressom, cenami a pôvodnými CTA. Mobil má panel pod produktmi. CSS sticky iba od 1440 px pri výške aspoň 900 px.
+- Nákupný košík v nadpise/prvom kroku, menšie medzery stĺpcov, kód za názvom a uppercase dostupnosti; native quantity, varianty a súvisiaci tovar zachované.
+- Kontaktný panel „Potrebujete pomoc? Sme tu pre Vás:“ používa spoločné hodiny/stav podpory, pôvodné odkazy a ikony. Overené sociálne URL zdieľané ako fallback pre checkout bez footer profilov; hodiny aj sociálne odkazy dostupné v desktop lište od 768 px.
+- „Vybrané pre Vás“ odložené: v natívnom DOM košíka nie je samostatný odporúčací produktový zdroj. Nevytvárame nový algoritmus ani duplicitné related produkty.
+- Iba základná kontrola: add-to-cart, množstvo/AJAX/prepočet, otvorenie dopravy bez odoslania objednávky, desktop a mobil. Sticky pri dlhom zozname, ostatné šírky, varianty/zľavy a celý checkout zostávajú NEOVERENÉ na manuálne preview.
+
 ## v0.6.6 · 2026-10-12 · Nákupný košík (preview, nevydané)
 
 - Ďalšie preview: desktop hlavička/stĺpce, natívne kódy a dostupnosť pod názvom, related metadata, mobilné ceny spolu, tri rovnaké footer panely a existujúce mobilné kontakty so spoločnou logikou zákazníckej podpory a sociálnymi odkazmi. Bez zmeny verzie, nákupnej logiky, merge alebo nasadenia. Súhrn: docs/previews/v0.6.6-cart-menu.md.

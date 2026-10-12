@@ -15,6 +15,13 @@ export function showCode(parent, code) {
 }
 
 export function syncRows() {
+  for (const node of document.querySelectorAll(`${SEL.cartTitle}, ${SEL.cartFirstStep}`)) {
+    if (node.children.length) continue;
+    if (node.textContent.trim() !== TEXTS.cart.title) node.textContent = TEXTS.cart.title;
+  }
+  const summaryTitle = document.querySelector(SEL.cartSummaryTitle);
+  if (summaryTitle && summaryTitle.textContent !== TEXTS.cart.summary)
+    summaryTitle.textContent = TEXTS.cart.summary;
   const items = getCartInfo()?.cartItems || [];
   for (const row of document.querySelectorAll(SEL.cartItems)) {
     const name = row.querySelector(SEL.cartName);

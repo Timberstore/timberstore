@@ -2,8 +2,8 @@
 export const TEXTS = {
   header: {
     hours: 'PO – PIA (08:00 – 16:00)',
-    open: 'Teraz v otváracích hodinách',
-    closed: 'Teraz mimo otváracích hodín',
+    open: 'Zákaznícka podpora: dostupná',
+    closed: 'Zákaznícka podpora: mimo pracovných hodín',
     contactForm: 'Otvoriť kontaktný formulár',
     account: 'Môj účet',
     cartTotal: 'SPOLU',
@@ -20,7 +20,10 @@ export const TEXTS = {
     deliveryPrefix: 'MÔŽEME DORUČIŤ DO:',
     shippingProgress: 'Doprava zdarma',
     addToCart: 'Pridať do košíka',
-    productCode: 'Kód produktu:',
+    productCode: 'Kód:',
+    title: 'Nákupný košík',
+    summary: 'ZHRNUTIE OBJEDNÁVKY',
+    help: 'Potrebujete pomoc? Sme tu pre Vás:',
     columns: ['PRODUKT', 'MNOŽSTVO', 'CENA ZA KUS', 'CELKOM'],
   },
   closeInformationMessage: 'Zavrieť oznam',
