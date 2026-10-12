@@ -2,13 +2,18 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
-## v0.6.5 · 2026-10-12 · Restore original brand palette preview (not released)
+## v0.6.5 · 2026-10-12 · Schválené doladenie hlavičky, košíka a pôvodnej Timber palety
 
-- Oprava príčiny zostávajúcich farebných regresií: natívny --color-primary vrátený na pôvodný tmavý #423E3E, hover na pôvodný #C97A2B. Homepage benefit texty opäť tmavé ako v stabilnej 0.6.1.
-- Nové hnedé action/link odtiene #A85F29/#9B5624 nahradené pôvodnou značkovou #D4884A naprieč všetkými spotrebiteľmi tokenov: homepage karusely, detail/checkout CTA, služby, empty-cart, odkazy a ovládanie filtrov. Nový hover #87491F vrátený na pôvodný #B8692E; warning/availability #A96519 na pôvodný #C97A2B.
-- Benefit ikony porovnané s 0.6.1: totožné pôvodné obrazové súbory, rozmery a filter. Žiadna výmena assetov ani zmena geometrie. JS a obchodná logika bez zmeny.
-- Homepage porovnanie 1440/1920/390 px, native filter AJAX/radenie/reset/menu a 15 kontrol checkoutu na 375/390/768/1024/1440 px. Lint/build prešli v preview rozpočte; bez objednávky/platby, main/tag/loader nemeníme.
-- Screenshoty a presné zmeny: docs/previews/v0.6.5-brand-palette.md. Nie je to produkčný release.
+Finálny súhrn od stabilnej v0.6.1; klient schválil preview 87ff73a k merge a publikovaniu.
+
+- Hlavička: hlavná plocha košíka používa natívny odkaz, samostatná prístupná šípka otvára/zatvára náhľad cez Apollo API. Desktop hover, dotyk, klávesnica, Escape/focus, klik mimo, resize mobile clone a AJAX lifecycle bez násobenia listenerov.
+- Service bar: stabilné teplé pozadie aj pri mega menu, hodiny PO – PIA (08:00 – 16:00), kompaktné kontakty a jemné oddeľovače. Pri 1440/1920 px všetkých päť odkazov bez Viac; natívny overflow helper na úzkych šírkach zachovaný.
+- Pôvodná Timber identita: oranžová #D4884A naprieč CTA vrátane homepage karuselov, tmavé pôvodné nadpisy benefitov, overené pôvodné súbory a rozmery ikon. Biele názvy menu a biela ikona/cena/šípka desktop košíka; oceľový count badge #29465B s bielym číslom.
+- Produktové karty: pôvodná CTA paleta a presný quantity CSS zo stabilnej verzie, zachovaná geometria a nákupná logika; požadovaný hover názvu pôvodnou oranžovou. Žiadne experimentálne preusporiadanie GRID kariet zo zahodených 0.5.6 preview.
+- Košík/checkout: jemné úspešné hlásenia vrátane add-to-cart modalu, kontrastné zatváranie, neutrálny súhrn s tmavou cenou, teplá doprava a medený progress, čitateľný mobile mini-cart súhrn, aktuálne/dokončené/budúce natívne kroky.
+- Overenie: Chromium 375/390/768/1024/1440/1920 px, quantity 1/10/100, add-to-cart, hover/touch/keyboard, natívne filtre AJAX/radenie/reset, GRID/LIST, všetky tri checkout kroky bez odoslania objednávky. Galérie a presné výsledky v docs/previews/v0.6.5-brand-palette.md a predchádzajúcich súvisiacich reportoch.
+- Lint/build prešli; finálne CSS 15,80 kB a JS 17,54 kB gzip. Schválená 16 kB CSS výnimka je vo build skripte obmedzená na package version 0.6.5. Reálny iOS Safari a PageSpeed po nasadení neboli vykonané.
+- Repozitárový loader pripravený na PROD v0.6.5; živý Shoptet HEAD sa cez GitHub release automaticky nemení. Rollback: PROD v0.6.1.
 
 ## v0.6.4 · 2026-10-12 · Targeted colour regression fixes preview (not released)
 
