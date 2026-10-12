@@ -46,7 +46,7 @@
     /* Apollo writes height:49px inline on load and on resize. */
     height: auto !important;
     padding: 0;
-    gap: var(--ts-service-gap);
+    gap: var(--ts-space-2);
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -108,5 +108,27 @@
     line-height: var(--ts-service-height);
     color: var(--ts-color-controls-text);
     font-size: var(--ts-service-font-size);
+  }
+}
+
+@media (min-width: 1200px) {
+  /* One 8px gap on either side, owned here after the generic contact padding.
+     The old module padding lost to this file, leaving the phone on its border. */
+  .top-navigation-bar .top-navigation-contacts > :is(.ts-service-bar__hours, .project-phone) {
+    position: relative;
+    padding-right: var(--ts-space-2);
+  }
+  .top-navigation-bar
+    .top-navigation-contacts
+    > :is(.ts-service-bar__hours, .project-phone)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 12px;
+    transform: translateY(-50%);
+    background: var(--ts-color-service-divider);
+    pointer-events: none;
   }
 }

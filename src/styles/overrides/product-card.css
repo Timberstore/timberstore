@@ -58,3 +58,17 @@ body :is(.btn-primary, .btn-conversion, .btn-cart),
 .availability-label[style*='#c97a2b' i] {
   color: var(--ts-color-warning) !important;
 }
+
+/* Restore the verified v0.6.1 listing CTA palette locally. Native Apollo still
+   supplies its height, radius, padding, font and cart glyph. Other CTAs keep
+   their current variables; do not recolour checkout, detail or modal buttons. */
+#products:not(.products-related) > .product .product-btn .btn-cart {
+  --color-primary: var(--ts-color-controls-text);
+  --color-primary-hover: var(--ts-color-controls-active);
+  --color-secondary: var(--ts-color-accent);
+  --color-secondary-hover: #b8692e;
+}
+/* Keep the requested orange title hover using the original brand orange. */
+#products:not(.products-related) > .product a.name:hover {
+  color: var(--ts-color-accent);
+}

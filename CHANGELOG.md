@@ -2,6 +2,14 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.4 · 2026-10-12 · Targeted colour regression fixes preview (not released)
+
+- Obnovené presné biele pravidlá hlavnej oranžovej navigácie z v0.6.1; tmavý hover na bielom podklade a geometria zachované. Header cart ikona/cena/šípka opäť biele na medenom desktope; oceľový počet zostáva.
+- Produktový listing používa presné pôvodné CTA premenné (#D4884A / #B8692E) iba na jeho buttonoch. Quantity CSS obnovené byte-for-byte z v0.6.1; rovnaké rozmery, fonty, padding, glyph a layout overené v DOM. Názov/cena/skladovosť bez zmeny, požadovaný title hover pôvodnou značkovou oranžovou #D4884A.
+- Kompaktné kontakty: 8 px gap, 8 px k oddeľovaču, 12 px deliaca čiara. Vlastník paddingu opravený, aby neskorší reset nelepil telefón na border. 1440/1920: všetkých päť odkazov bez Viac; úzke šírky používajú natívny helper. Béžové pozadie stabilné, pôvodné medené ikonky overené a zachované.
+- 375/390/768/1024/1440/1920 px: porovnanie so stabilnou 0.6.1 aj predchádzajúcim preview, sidebar a horná časť karty bez regresie. Quantity 1/10/100, plus/minus, add-to-cart, mini-cart, sticky, neutral cart summary a nedotknuté detail/checkout CTA overené. Funkčné testy bez JS chýb.
+- CSS-only oprava komponentov; aplikačný JS, Shoptet logika, main/tag/loader bez zmeny. Lint/build prešli v existujúcom preview rozpočte 16 kB CSS / 30 kB JS gzip. Dokumentácia a screenshoty: docs/previews/v0.6.4-regressions.md. Žiadna objednávka odoslaná; bez produkčného nasadenia.
+
 ## v0.6.3 · 2026-10-09 · Header/cart refinement preview (not released)
 
 - Podľa nového zadania nadväzuje na farebný preview 0.6.2; nemení main, produkčný loader ani release/tag.

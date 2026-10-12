@@ -28,16 +28,11 @@
   }
 
   .ts-qty__btn:hover {
-    color: var(--ts-color-link);
-  }
-
-  .ts-qty__btn:disabled {
-    color: var(--ts-color-muted);
-    cursor: default;
+    color: var(--ts-color-accent);
   }
 
   .ts-qty__btn:focus-visible {
-    outline: 2px solid var(--ts-color-controls-active);
+    outline: 2px solid var(--ts-color-accent);
     outline-offset: -2px;
   }
 
@@ -60,7 +55,7 @@
   }
 
   .ts-qty__value:focus {
-    outline: 2px solid var(--ts-color-controls-active) !important;
+    outline: 2px solid var(--ts-color-accent) !important;
     outline-offset: -2px !important;
   }
 

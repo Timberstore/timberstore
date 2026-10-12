@@ -97,7 +97,7 @@
   border: 0;
   border-radius: 0 8px 8px 0;
   background: transparent;
-  color: var(--ts-color-text);
+  color: var(--ts-color-accent);
   cursor: pointer;
 }
 .ts-cart-preview-toggle::after {
@@ -137,11 +137,9 @@
     width: 28px;
   }
 }
-@media (min-width: 1200px) {
-  .ts-service-bar__hours,
-  .ts-service-bar .project-phone {
-    padding-right: 14px;
-    border-right: 1px solid var(--ts-color-service-divider);
+@media (min-width: 768px) {
+  #header .ts-cart-preview-toggle {
+    color: var(--ts-color-bg);
   }
 }
 @media (prefers-reduced-motion: reduce) {
