@@ -13,6 +13,7 @@
   --ts-color-support-bg: #f9f4ed;
   --ts-color-rank-bronze: #ae8064;
   --ts-color-step-bg: #e9eaed;
+  --ts-color-summary-accent: #319b35; /* checkout summary only */
   --ts-color-success: #24734b;
   --ts-color-success-bg: #e8f5ed;
   --ts-color-warning: var(--ts-color-controls-active);

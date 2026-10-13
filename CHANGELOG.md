@@ -4,6 +4,8 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## v0.6.7 · 2026-10-12 · Pravý súhrn košíka a spoločné kontakty (preview, nevydané)
 
+- Doladenie súhrnov 13. 10. 2026: živšia zelená iba pre súhrn, dlhší oranžový akcent, menší text dopravy zadarmo so zelenou sumou. Doprava/platba má jeden natívny vizuálny shell, Pokračovať nad Späť s 18 px odstupom, nezalamované jednotky a oddelené položky; širší sidebar a väčší odstup medzi textom, logom a cenou metód. Kontaktný panel odsadený od nadpisu, kontakty zarovnané doprava. Opravené preblikávanie: štýly nadpisu platia už pre serverový DOM, bez závislosti na neskoršom Apollo wrapperi, bez časovačov alebo zmeny loadera. CSS limit 18 kB iba pre preview schválený klientom; natívne formuláre, ceny a handlery bez zmien.
+
 - Zjednotenie súhrnov 13. 10. 2026: spoločný zelený nadpis 20 px s tenkou oranžovou čiarou, zelený natívny dátum, zdieľané štýly cien/CTA pre Doprava & platba so zachovaným natívnym umiestnením tlačidiel. Mobilná celková cena má jemný ľavý border a 8 px odsadenie; desktop produktové riadky bez zmeny. Klient schválil limit 17,75 kB CSS iba pre toto preview; JS/produkcia bez zmeny.
 
 - Kompaktné doladenie 13. 10. 2026: ikona/prefix/natívny červený dátum v jednom centrovanom menšom riadku, opravená špecificita návratového tlačidla (stred + 20 px odstup), desktop kontakty vodorovne v poradí nadpis/hodiny/telefón/e-mail/sociálne siete. Len CSS; produktové riadky a nákupné handlery bez zmeny. Základná desktop geometria a pôvodné hrefs overené, bez screenshotov a rozsiahleho testovania.

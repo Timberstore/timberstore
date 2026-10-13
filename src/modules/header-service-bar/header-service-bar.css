@@ -257,12 +257,14 @@
     width: auto;
     flex: 1;
     min-width: 0;
+    margin-left: 24px;
   }
   #content .ts-cart-contacts {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     gap: 10px;
+    justify-content: flex-end;
     background: var(--ts-color-service-bg);
   }
   #content .ts-cart-contacts > h2 {
