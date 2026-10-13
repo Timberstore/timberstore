@@ -150,18 +150,37 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   flex-direction: column;
   align-items: center;
   gap: 18px;
-  margin: 16px 0 0;
-  padding: 0;
-  background: transparent;
+  margin: 0;
+  padding: 28px 16px 16px;
+  background: var(--ts-color-service-bg);
+  border: 1px solid var(--ts-color-controls-border);
+  border-top: 0;
+  border-radius: 0 0 10px 10px;
 }
 .ordering-process #checkoutSidebar .next-step a.next-step-back {
   flex: none;
   width: max-content;
 }
-/* Apollo wraps these children at load and again after checkout AJAX.
-   Transparent wrappers + explicit item order keep the server layout stable. */
+/* Keep Apollo's native wrappers; only the product/method box may scroll. */
+.ordering-process #checkoutSidebar > .cart-content,
 .ordering-process #summary-box :is(.order-summary-top, .order-summary-bottom) {
+  padding: 16px;
+  border: 1px solid var(--ts-color-controls-border);
+  border-radius: 10px;
+  background: var(--ts-color-service-bg);
+}
+.ordering-process #checkoutSidebar > .cart-content:has(.order-summary-top),
+.ordering-process #checkoutSidebar .order-summary:has(.order-summary-top),
+.ordering-process #summary-box:has(.order-summary-top) {
   display: contents;
+}
+.ordering-process #summary-box .order-summary-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  padding-bottom: 0;
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
 }
 .ordering-process #summary-box :is(.cart-items, .order-recapitulation) {
   order: 1;
@@ -170,9 +189,9 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 .ordering-process #summary-box .order-summary-item.helper {
   display: flex;
   order: 2;
-  margin-top: 16px;
-  padding-top: 16px;
-  border-top: 1px solid var(--ts-color-controls-border);
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-size: 14px;
 }
 .ordering-process #summary-box .order-summary-item.price {
@@ -186,6 +205,8 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   order: 4;
 }
 .ordering-process #summary-box .cart-item-name {
+  color: var(--ts-color-text);
+  line-height: 1.4;
   font-weight: 600;
   grid-column: 1 / -1;
   overflow-wrap: anywhere;
@@ -194,11 +215,14 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   width: auto;
 }
 .ordering-process #summary-box .cart-item-amount {
-  font-weight: 700;
+  font-weight: 600;
+  color: var(--ts-color-price-secondary);
   grid-column: 1;
   text-align: left;
 }
 .ordering-process #summary-box .cart-item-price {
+  font-weight: 700;
+  color: var(--ts-color-text);
   grid-column: 2;
   text-align: right;
 }
@@ -227,9 +251,11 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   padding: 0;
   margin-top: 16px;
 }
-.ordering-process #checkoutSidebar .consents {
-  background: transparent;
-  padding-inline: 0;
+.ordering-process #checkoutSidebar :is(.consents, .preauthorization-box:not(.js-hidden)) {
+  margin: 0;
+  padding: 12px 16px 0;
+  background: var(--ts-color-service-bg);
+  border-inline: 1px solid var(--ts-color-controls-border);
 }
 @media (min-width: 1200px) {
   .ordering-process #checkoutContent {
@@ -290,7 +316,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   gap: 12px;
   font-size: inherit;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: inherit;
   overflow-wrap: anywhere;
 }
@@ -397,4 +423,30 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 
 .ordering-process #summary-box .cart-item-amount .unit-value::before {
   content: ' / ';
+}
+
+.ordering-process .ts-checkout-stock-accent {
+  color: var(--ts-color-checkout-success);
+  font-weight: 600;
+}
+.ordering-process #summary-box .cart-item-amount .unit-value {
+  font-weight: 400;
+  color: inherit;
+}
+.ordering-process #summary-box strong.price-primary {
+  font-size: 24px;
+}
+@media (min-width: 1200px) {
+  .ordering-process #summary-box .order-summary-top {
+    max-height: 55vh;
+    overflow-y: auto;
+    overscroll-behavior: auto;
+  }
+  .ordering-process #checkoutSidebar.ts-checkout-sticky-ready {
+    position: sticky;
+    top: var(--ts-checkout-sticky-top) !important; /* Apollo forces top: 0 */
+  }
+  .ordering-process #checkoutSidebar.ts-checkout-sticky-ready .order-summary-top {
+    max-height: var(--ts-checkout-list-max);
+  }
 }

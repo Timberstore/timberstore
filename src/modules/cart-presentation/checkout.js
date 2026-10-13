@@ -45,4 +45,54 @@ export function syncCheckoutDispatchNote() {
     line.replaceChildren(TEXTS.checkout.dispatchPrefix, accent, TEXTS.checkout.dispatchSuffix);
     line.classList.remove('ts-checkout-dispatch-note');
   }
+  const stockExpected =
+    TEXTS.checkout.stockPrefix + TEXTS.checkout.stockAccent + TEXTS.checkout.stockSuffix;
+  for (const line of document.querySelectorAll(SEL.checkoutDispatchLines)) {
+    const text = line.textContent.replace(/\s+/g, ' ').trim();
+    if (![TEXTS.checkout.stockNotice, stockExpected].includes(text)) continue;
+    if (line.querySelector('.ts-checkout-stock-accent') && text === stockExpected) continue;
+    const accent = document.createElement('span');
+    accent.className = 'ts-checkout-stock-accent';
+    accent.textContent = TEXTS.checkout.stockAccent;
+    line.replaceChildren(TEXTS.checkout.stockPrefix, accent, TEXTS.checkout.stockSuffix);
+  }
+}
+
+// Native totals, legal controls and buttons stay in their original form/DOM.
+let layoutObserver;
+let observedParts = [];
+export function syncCheckoutSummaryLayout() {
+  const sidebar = document.querySelector(SEL.checkoutSidebar);
+  const list = sidebar?.querySelector(SEL.checkoutListPanel);
+  if (!sidebar || !list) return;
+  const parts = [list, ...sidebar.querySelectorAll(SEL.checkoutPinnedParts)];
+  if (!layoutObserver && typeof ResizeObserver !== 'undefined')
+    layoutObserver = new ResizeObserver(syncCheckoutSummaryLayout);
+  if (
+    layoutObserver &&
+    (parts.length !== observedParts.length || parts.some((part, i) => part !== observedParts[i]))
+  ) {
+    layoutObserver.disconnect();
+    for (const part of parts) layoutObserver.observe(part);
+    observedParts = parts;
+  }
+  const offset =
+    parseFloat(getComputedStyle(sidebar).getPropertyValue('--ts-checkout-sticky-top')) || 0;
+  const lowerHeight = parts.slice(1).reduce((height, part) => {
+    const style = getComputedStyle(part);
+    if (style.display === 'none') return height;
+    return (
+      height +
+      part.getBoundingClientRect().height +
+      (parseFloat(style.marginTop) || 0) +
+      (parseFloat(style.marginBottom) || 0)
+    );
+  }, 0);
+  const room = Math.floor(window.innerHeight - offset - 16 - lowerHeight);
+  const ready = window.innerWidth >= 1200 && room >= Math.min(320, list.scrollHeight + 2);
+  if (sidebar.classList.contains('ts-checkout-sticky-ready') !== ready)
+    sidebar.classList.toggle('ts-checkout-sticky-ready', ready);
+  const height = `${Math.max(0, room)}px`;
+  if (sidebar.style.getPropertyValue('--ts-checkout-list-max') !== height)
+    sidebar.style.setProperty('--ts-checkout-list-max', height);
 }

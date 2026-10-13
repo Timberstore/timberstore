@@ -483,6 +483,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  margin-top: 28px;
   padding: 0;
 }
 :is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
@@ -531,7 +532,7 @@
   font-size: 11px;
 }
 
-:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar > .cart-content) {
+#cart-wrapper :where(.cart-summary) {
   padding: 16px;
   border: 1px solid var(--ts-color-controls-border);
   border-radius: 10px;
@@ -664,7 +665,7 @@
   .ordering-process {
     --ts-checkout-cta-width: 67%;
   }
-  :is(.in-kosik #cart-wrapper .cart-summary, .ordering-process #checkoutSidebar) {
+  .in-kosik #cart-wrapper .cart-summary {
     position: sticky;
     top: var(--ts-checkout-sticky-top) !important; /* Apollo .cart-row .col-md-4 forces top: 0 */
     max-height: calc(100vh - var(--ts-checkout-sticky-top) - 16px);

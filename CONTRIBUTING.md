@@ -166,6 +166,7 @@ Všechno povinné, u každého releasu:
 
 - **Testovací preview 0.6.7 (aktualizováno se souhlasem klienta 13. 10. 2026):** CSS limit 18,25 kB gzip pouze pro tuto vývojovou verzi; JS zůstává 30 kB. Produkce a předchozí výjimky beze změny.
 - **Testovací preview 0.6.8 (souhlas klienta 13. 10. 2026):** CSS limit 18,75 kB gzip pouze pro tuto vývojovou verzi; JS zůstává 30 kB. Produkce a předchozí výjimky beze změny.
+- **Testovací preview 0.6.9 (souhlas klienta 13. 10. 2026):** CSS limit 19,25 kB gzip pouze pro tuto vývojovou verzi; JS zůstává 30 kB. Produkce a předchozí výjimky beze změny.
 
 - **Testovací preview 0.6.6 (schváleno klientem 12. 10. 2026):** CSS limit 17 kB gzip pouze pro tuto vývojovou verzi; JS zůstává 30 kB. Produkční 0.6.5 beze změny.
 

@@ -2,6 +2,15 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.9 · 2026-10-13 · Dva súhrnné checkout boxy (preview, nevydané)
+
+- Samostatné preview nad 0.6.8 `349c64f`, bez merge/tagu/produkčného loadera.
+- Kroky 2/3: natívny Apollo zoznam produktov/dopravy/platby ako horný box s desktop scrollom; celkové ceny, súhlasy/právne texty a pôvodné CTA mimo neho v spodnom vizuálnom boxe. Bez klonovania alebo presúvania funkčných elementov.
+- Sticky len pri dostatku miesta pre oba boxy, podľa skutočnej výšky spodného obsahu; nízky notebook používa scroll stránky, mobil bez vnoreného scrollu. Jeden idempotentný ResizeObserver, existujúci lifecycle a jediný resize handler.
+- 28 px odstup ceny/CTA, jemná typografická hierarchia názov/metadáta/cena, tlmené množstvo a jednotky, výraznejšia celková suma. Schválené farby, lomítka pri jednotkách a úzke stĺpce zachované.
+- V informačnej vete iba SKLADOM veľkými písmenami a zelenou; zvyšok vety bez zmeny. Pôvodné dostupnosti/počty a centrálny sklad bez zmeny.
+- Klient schválil 19,25 kB CSS iba pre preview 0.6.9. Lint/build prešli; CSS 18,91 kB, JS 22,13 kB gzip. Testy a výslovné obmedzenia vrátane DOM fixtures pre 10/21 položiek a ručného wheel/trackpad overenia: `docs/previews/cart-v069/checkout-summary.md`. Žiadna reálna objednávka odoslaná.
+
 ## v0.6.8 · 2026-10-13 · Inkrementálne doladenie checkoutu (preview, nevydané)
 
 - Ďalšie doladenie nad `8422e56`: scroll chaining bez blokovania stránky, užší 70/30 desktop súhrn, tmavý nadpis, bold názvy/množstvá a lomítko pri jednotkách. Iba slová CENTRÁLNYCH SKLADOV oranžové; CTA tmavšia zelená s bielym textom (4,95:1). Kontakty vpravo na desktope a usporiadané vľavo na mobile, klikateľné tel/mail ikony. Osobné údaje s label/input riadkami, nadpis vedľa login buttonu bez ZÁKAZNÍCKY ÚČET; odstup nad štátom. Natívne formuláre/ceny/handlery bez zmeny. Rovnaká verzia a rozpočet; detail: `docs/previews/cart-v068/checkout-followup.md`.
