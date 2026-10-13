@@ -4,6 +4,8 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## v0.6.8 · 2026-10-13 · Inkrementálne doladenie checkoutu (preview, nevydané)
 
+- Ďalšie doladenie nad `8422e56`: scroll chaining bez blokovania stránky, užší 70/30 desktop súhrn, tmavý nadpis, bold názvy/množstvá a lomítko pri jednotkách. Iba slová CENTRÁLNYCH SKLADOV oranžové; CTA tmavšia zelená s bielym textom (4,95:1). Kontakty vpravo na desktope a usporiadané vľavo na mobile, klikateľné tel/mail ikony. Osobné údaje s label/input riadkami, nadpis vedľa login buttonu bez ZÁKAZNÍCKY ÚČET; odstup nad štátom. Natívne formuláre/ceny/handlery bez zmeny. Rovnaká verzia a rozpočet; detail: `docs/previews/cart-v068/checkout-followup.md`.
+
 - Samostatné preview nad 0.6.7 `89e3505`; main, produkčný loader a tagy bez zmeny.
 - Spoločná zelená `#66BF3A` podľa natívneho Apollo indikátora vybratej dopravy: hlavné checkout CTA, aktívny krok, dostupnosť Skladom, bezplatné ceny a potvrdzovacie akcenty. Súhrnný nadpis opäť Timber oranžový; tmavé CTA texty pre čitateľný kontrast, hover/focus/disabled stavy. Ostatné stránky zachovávajú paletu.
 - Názov produktu v súhrne na samostatnom riadku, množstvo/jednotka a cena pod ním; väčšie medzery a oddelené položky dopravy/platby bez kurzívy.

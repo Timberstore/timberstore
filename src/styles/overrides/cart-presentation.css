@@ -487,6 +487,7 @@
 }
 :is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish) {
+  width: var(--ts-checkout-cta-width, 100%);
   font-size: 20px;
   line-height: 1.3;
   height: auto;
@@ -495,9 +496,9 @@
   padding: 10px 20px;
   border-radius: 8px;
   order: 0;
-  background: var(--ts-color-checkout-success);
-  border-color: var(--ts-color-checkout-success);
-  color: var(--ts-color-text);
+  background: var(--ts-color-checkout-cta);
+  border-color: var(--ts-color-checkout-cta);
+  color: var(--ts-color-bg);
   font-weight: 700;
 }
 :is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
@@ -544,7 +545,7 @@
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--ts-color-accent);
+  color: var(--ts-color-text);
   margin: 0 0 12px;
   text-align: center;
 }
@@ -573,7 +574,7 @@
 @media (min-width: 1200px) {
   .in-kosik #cart-wrapper .cart-content:has(> .cart-table) {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(300px, 36%);
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 30%);
     gap: 0 24px;
     align-items: start;
     overflow: visible;
@@ -619,9 +620,6 @@
   }
 }
 
-#cart-wrapper .cart-summary .next-step-forward {
-  width: 100%;
-}
 :is(#cart-wrapper :where(.cart-summary), .ordering-process #summary-box) strong.price-primary {
   font-size: 20px;
   font-weight: 700;
@@ -640,12 +638,11 @@
   color: var(--ts-color-summary-accent);
 }
 
-/* Only the checkout primary actions use the selected-radio green. Dark labels
-   keep the bright background readable, including the smaller legal suffix. */
+/* The darker checkout CTA shade supports white text and the legal suffix. */
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):hover {
   filter: brightness(0.96);
-  color: var(--ts-color-text);
+  color: var(--ts-color-bg);
 }
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):focus-visible {
@@ -667,15 +664,11 @@
   .ordering-process {
     --ts-checkout-cta-width: 67%;
   }
-  :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
-    :is(.next-step-forward, .next-step-finish) {
-    width: 67%;
-  }
   :is(.in-kosik #cart-wrapper .cart-summary, .ordering-process #checkoutSidebar) {
     position: sticky;
     top: var(--ts-checkout-sticky-top) !important; /* Apollo .cart-row .col-md-4 forces top: 0 */
     max-height: calc(100vh - var(--ts-checkout-sticky-top) - 16px);
     overflow-y: auto;
-    overscroll-behavior: contain;
+    overscroll-behavior: auto;
   }
 }

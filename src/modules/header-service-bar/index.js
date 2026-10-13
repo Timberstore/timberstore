@@ -205,8 +205,16 @@ function syncCartContacts() {
     addSocial(socials, SEL.socialFacebook, 'facebook');
     addSocial(socials, SEL.socialInstagram, 'instagram');
     const email = list.querySelector(SEL.cartHelpEmail);
-    if (email && email.getAttribute('href') !== CONTACT_FORM)
-      email.setAttribute('href', CONTACT_FORM);
+    if (email) {
+      const address = email.textContent.trim();
+      if (
+        /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(address) &&
+        email.getAttribute('href') !== `mailto:${address}`
+      )
+        email.setAttribute('href', `mailto:${address}`);
+      if (!email.classList.contains('ts-cart-contact-link'))
+        email.classList.add('ts-cart-contact-link');
+    }
     const phone = list.querySelector(SEL.cartHelpPhone);
     if (phone) {
       // Apollo wrapInner creates an outer tel link around the existing one.
@@ -218,6 +226,8 @@ function syncCartContacts() {
         .trim()
         .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
       if (phone.textContent !== formatted) phone.textContent = formatted;
+      if (!phone.classList.contains('ts-cart-contact-link'))
+        phone.classList.add('ts-cart-contact-link');
     }
   }
 }

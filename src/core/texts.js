@@ -29,7 +29,10 @@ export const TEXTS = {
   checkout: {
     inStock: 'Skladom',
     originalDispatchNote: 'Tovar z externých skladov expedujeme zvyčajne do 5 pracovných dní.',
-    dispatchNote: 'TOVAR Z CENTRÁLNYCH SKLADOV EXPEDUJEME ZVYČAJNE DO 5 PRACOVNÝCH DNÍ.',
+    previousDispatchNote: 'TOVAR Z CENTRÁLNYCH SKLADOV EXPEDUJEME ZVYČAJNE DO 5 PRACOVNÝCH DNÍ.',
+    dispatchPrefix: 'Tovar z ',
+    dispatchAccent: 'CENTRÁLNYCH SKLADOV',
+    dispatchSuffix: ' expedujeme zvyčajne do 5 pracovných dní.',
   },
   closeInformationMessage: 'Zavrieť oznam',
   viewSwitch: {

@@ -296,6 +296,31 @@
     flex: 0 0 auto;
   }
   .ordering-process #content .cart-header__contact {
-    margin-left: 24px;
+    margin-left: auto;
+    padding-left: 24px;
+  }
+}
+
+/* Extend the real links over their native sibling icons, without new handlers. */
+.ordering-process #content .ts-cart-contacts :is(.tel, .mail)::before {
+  pointer-events: none;
+}
+.ordering-process #content .ts-cart-contacts .ts-cart-contact-link {
+  display: inline-flex;
+  padding-left: 28px;
+  margin-left: -28px;
+}
+@media (max-width: 767px) {
+  .ordering-process #content .ts-cart-contacts {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .ordering-process #content .ts-cart-contacts > :is(h2, .box) {
+    width: 100%;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

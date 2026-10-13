@@ -26,14 +26,23 @@ export function syncCheckoutPriceAccents() {
 }
 
 export function syncCheckoutDispatchNote() {
+  const expected =
+    TEXTS.checkout.dispatchPrefix + TEXTS.checkout.dispatchAccent + TEXTS.checkout.dispatchSuffix;
   for (const line of document.querySelectorAll(SEL.checkoutDispatchLines)) {
     const text = line.textContent.replace(/\s+/g, ' ').trim();
-    if (text === TEXTS.checkout.originalDispatchNote)
-      line.textContent = TEXTS.checkout.dispatchNote;
     if (
-      line.textContent.trim() === TEXTS.checkout.dispatchNote &&
-      !line.classList.contains('ts-checkout-dispatch-note')
+      ![
+        TEXTS.checkout.originalDispatchNote,
+        TEXTS.checkout.previousDispatchNote,
+        expected,
+      ].includes(text)
     )
-      line.classList.add('ts-checkout-dispatch-note');
+      continue;
+    if (line.querySelector('.ts-checkout-dispatch-accent') && text === expected) continue;
+    const accent = document.createElement('span');
+    accent.className = 'ts-checkout-dispatch-accent';
+    accent.textContent = TEXTS.checkout.dispatchAccent;
+    line.replaceChildren(TEXTS.checkout.dispatchPrefix, accent, TEXTS.checkout.dispatchSuffix);
+    line.classList.remove('ts-checkout-dispatch-note');
   }
 }

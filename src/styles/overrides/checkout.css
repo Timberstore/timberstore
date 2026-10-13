@@ -154,9 +154,6 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   padding: 0;
   background: transparent;
 }
-.ordering-process #checkoutSidebar .next-step :is(.next-step-forward, .next-step-finish) {
-  width: var(--ts-checkout-cta-width, 100%);
-}
 .ordering-process #checkoutSidebar .next-step a.next-step-back {
   flex: none;
   width: max-content;
@@ -189,6 +186,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   order: 4;
 }
 .ordering-process #summary-box .cart-item-name {
+  font-weight: 600;
   grid-column: 1 / -1;
   overflow-wrap: anywhere;
 }
@@ -196,6 +194,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   width: auto;
 }
 .ordering-process #summary-box .cart-item-amount {
+  font-weight: 700;
   grid-column: 1;
   text-align: left;
 }
@@ -235,11 +234,11 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 @media (min-width: 1200px) {
   .ordering-process #checkoutContent {
     float: left;
-    width: calc(64% - 24px);
+    width: calc(70% - 24px);
   }
   .ordering-process #checkoutSidebar {
     float: left;
-    width: 36%;
+    width: 30%;
     margin: 0 0 0 24px;
   }
 }
@@ -272,10 +271,9 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   color: var(--ts-color-checkout-success) !important; /* native availability inline colour */
   text-transform: uppercase;
 }
-.ordering-process .site-msg-custom li.ts-checkout-dispatch-note {
-  color: var(--ts-color-accent) !important; /* legacy notice li colour is important */
+.ordering-process .site-msg-custom .ts-checkout-dispatch-accent {
+  color: var(--ts-color-accent);
   font-weight: 600;
-  overflow-wrap: anywhere;
 }
 .ordering-process #summary-box :is(.cart-item, .recapitulation-single) {
   font-size: 13px;
@@ -304,28 +302,67 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   text-align: right;
 }
 /* Verified native field groups; preserve hidden country fields and all inputs. */
+/* Keep native form groups; use the section grid only for its heading/login row. */
+.in-krok-2 .co-contact-information .form-group-content {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+}
+.in-krok-2 .co-contact-information .form-group-content > h2 {
+  margin: 0;
+  width: auto;
+}
 .in-krok-2 .co-contact-information .form-group:has(.login-button) {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  width: auto;
+  margin: 0;
+  justify-self: end;
+}
+.in-krok-2 .co-contact-information .form-group:has(.login-button) > .label {
+  display: none;
+}
+.in-krok-2 .co-contact-information .form-group:has(#billFullName, #email, #phone) {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 150px minmax(0, 360px);
   align-items: center;
   gap: 12px;
-}
-.in-krok-2 .co-contact-information .form-group:has(.login-button) > :is(.label, div) {
-  width: auto;
-  flex: 0 1 auto;
+  width: 100%;
   margin: 0;
 }
-.in-krok-2 .co-contact-information .form-group:has(.login-button, #billFullName, #email, #phone) {
+.in-krok-2 .co-contact-information .form-group:has(#billFullName, #email, #phone) > label {
+  position: static;
+  transform: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.in-krok-2
+  .co-contact-information
+  .form-group:has(#billFullName, #email, #phone)
+  > .form-control-wrapper {
   width: 100%;
-  max-width: 100%;
-  flex-basis: 100%;
+  min-width: 0;
+}
+@media (max-width: 767px) {
+  .in-krok-2 .co-contact-information .form-group-content {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  .in-krok-2 .co-contact-information .form-group:has(.login-button) {
+    justify-self: start;
+  }
+  .in-krok-2 .co-contact-information .form-group:has(#billFullName, #email, #phone) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
 }
 .in-krok-2 .co-billing-address .form-group:has(#billCountryId) {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
   align-items: center;
   gap: 12px;
+  margin-top: 20px;
 }
 .in-krok-2
   .co-billing-address
@@ -338,7 +375,6 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 }
 
 .in-krok-2 .co-contact-information .login-button {
-  max-width: 100%;
   white-space: normal;
 }
 
@@ -354,7 +390,11 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 }
 
 /* Apollo clearfix pseudo-elements otherwise occupy flex/grid cells. */
-.in-krok-2 .form-group:has(.login-button, #billCountryId)::before,
-.in-krok-2 .form-group:has(.login-button, #billCountryId)::after {
+.in-krok-2 .form-group:has(.login-button, #billCountryId, #billFullName, #email, #phone)::before,
+.in-krok-2 .form-group:has(.login-button, #billCountryId, #billFullName, #email, #phone)::after {
   content: none;
+}
+
+.ordering-process #summary-box .cart-item-amount .unit-value::before {
+  content: ' / ';
 }

@@ -1,4 +1,6 @@
-# Checkout refinements — preview 0.6.8
+# Checkout refinements — initial preview 0.6.8
+
+This records checkpoint `8422e56`. Current refinements and verification are in [checkout-followup.md](checkout-followup.md).
 
 Base: preview 0.6.7 `89e350540f8405cfefeef8f35095bfeb62c8400f`.
 Branch: `feature/checkout-refinements-v068`. No production loader, main, release or tag change.
