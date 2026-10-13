@@ -7,21 +7,10 @@ let previousPercent;
 
 export function syncBottom() {
   const footer = document.querySelector(SEL.cartFooter);
-  const summary = footer?.closest(SEL.cartSummary);
-  if (summary) {
-    let shell = summary.parentElement;
-    if (!shell.classList.contains('ts-cart-summary-shell')) {
-      shell = document.createElement('div');
-      shell.className = 'ts-cart-summary-shell';
-      summary.before(shell);
-      shell.append(summary);
-    }
-    const back = shell.querySelector(SEL.cartBack);
-    if (back) {
-      back.classList.add('ts-cart-return');
-      if (back.parentElement !== summary) summary.append(back); // Keep the native link inside the one summary card.
-    }
-  }
+  // Keep Apollo's summary and buttons in their native hierarchy. CSS owns
+  // the sidebar geometry; no late shell insertion or button relocation.
+  const back = footer?.closest(SEL.cartSummary)?.querySelector(SEL.cartBack);
+  back?.classList.add('ts-cart-return');
   for (const delivery of document.querySelectorAll(SEL.cartDeliveryTime)) {
     if (!delivery.classList.contains('ts-cart-delivery'))
       delivery.classList.add('ts-cart-delivery', 'icon-van');

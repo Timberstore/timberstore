@@ -482,10 +482,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 20px;
   padding: 0;
 }
-:is(#cart-wrapper :where(.cart-summary), .in-krok-1 .next-step--step-1) .next-step-forward {
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
+  :is(.next-step-forward, .next-step-finish) {
   font-size: 20px;
   line-height: 1.3;
   height: auto;
@@ -495,7 +496,7 @@
   border-radius: 8px;
   order: 0;
 }
-:is(#cart-wrapper :where(.cart-summary), .in-krok-1 .next-step--step-1)
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
   a.next-step-back:not(.colorbox-close) {
   display: inline-flex;
   align-items: center;
@@ -515,17 +516,17 @@
   max-width: 67%;
   text-decoration: none;
 }
-:is(#cart-wrapper :where(.cart-summary), .in-krok-1 .next-step--step-1)
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
   a.next-step-back:not(.colorbox-close):hover {
   background: var(--ts-color-controls-active-bg);
 }
-:is(#cart-wrapper :where(.cart-summary), .in-krok-1 .next-step--step-1)
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
   a.next-step-back:not(.colorbox-close)::before {
   color: inherit;
   font-size: 11px;
 }
 
-:is(#cart-wrapper :where(.cart-summary), .in-krok-1 #checkoutSidebar > .cart-content) {
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar > .cart-content) {
   padding: 16px;
   border: 1px solid var(--ts-color-controls-border);
   border-radius: 10px;
@@ -534,7 +535,7 @@
 .in-kosik #cart-wrapper .cart-summary {
   margin: 16px 0 0;
 }
-:is(#cart-wrapper .cart-summary > h2, .in-krok-1 #summary-box h2.h4) {
+:is(#cart-wrapper .cart-summary > h2, .ordering-process #summary-box h2.h4) {
   display: block;
   font-size: 20px;
   font-weight: 700;
@@ -543,7 +544,7 @@
   margin: 0 0 12px;
   text-align: center;
 }
-:is(#cart-wrapper .cart-summary > h2, .in-krok-1 #summary-box h2.h4)::after {
+:is(#cart-wrapper .cart-summary > h2, .ordering-process #summary-box h2.h4)::after {
   content: '';
   display: block;
   width: 96px;
@@ -568,7 +569,7 @@
 @media (min-width: 1200px) {
   .in-kosik #cart-wrapper .cart-content:has(> .cart-table) {
     display: grid;
-    grid-template-columns: minmax(0, 7fr) minmax(300px, 3fr);
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 36%);
     gap: 0 24px;
     align-items: start;
     overflow: visible;
@@ -579,7 +580,7 @@
   .in-kosik #cart-wrapper .cart-table {
     grid-area: 2 / 1;
   }
-  .in-kosik #cart-wrapper .ts-cart-summary-shell {
+  .in-kosik #cart-wrapper .cart-summary {
     grid-area: 1 / 2 / 4 / 3;
     margin: 0;
   }
@@ -593,22 +594,22 @@
   }
 }
 @media (min-width: 1440px) and (min-height: 900px) {
-  .in-kosik #cart-wrapper .ts-cart-summary-shell {
+  .in-kosik #cart-wrapper .cart-summary {
     position: sticky;
     top: 200px;
   }
 }
 
-.in-kosik #cart-wrapper .ts-cart-summary-shell > .cart-summary {
+.in-kosik #cart-wrapper .cart-content:has(> .cart-table) > .cart-summary {
   margin-top: 0;
 }
 .in-kosik #cart-wrapper a.ts-cart-return:not(.colorbox-close) {
   display: flex;
   width: max-content;
-  margin: 20px auto 0;
+  margin: 0 auto;
 }
 @media (max-width: 1199px) {
-  .in-kosik #cart-wrapper .ts-cart-summary-shell {
+  .in-kosik #cart-wrapper .cart-summary {
     margin-top: 16px;
   }
 }
@@ -620,18 +621,14 @@
   }
 }
 
-.in-krok-1 #summary-box :is(.order-summary-top, .order-summary-bottom) {
-  padding: 0;
-  background: transparent;
-}
-:is(#cart-wrapper :where(.cart-summary), .in-krok-1 #summary-box) .next-step-forward {
+#cart-wrapper .cart-summary .next-step-forward {
   width: 100%;
 }
-:is(#cart-wrapper :where(.cart-summary), .in-krok-1 #summary-box) strong.price-primary {
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #summary-box) strong.price-primary {
   font-size: 20px;
   font-weight: 700;
 }
-:is(#cart-wrapper :where(.cart-summary), .in-krok-1 #summary-box) .price-secondary {
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #summary-box) .price-secondary {
   font-size: 13px;
 }
 @media (max-width: 767px) {

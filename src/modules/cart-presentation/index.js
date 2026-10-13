@@ -4,6 +4,7 @@ import { syncQuantities, resizeQuantity } from './quantity.js';
 import { syncRelated } from './related.js';
 import { syncBottom } from './bottom.js';
 import { syncRows } from './rows.js';
+import { syncCheckoutPriceAccents } from './checkout.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
 
 let observer;
@@ -27,6 +28,7 @@ function syncPresentation() {
   syncRows();
   syncRelated();
   syncBottom();
+  syncCheckoutPriceAccents();
 }
 
 function syncSummary() {
@@ -60,7 +62,14 @@ function scheduleSummary() {
 
 function observe() {
   observer.disconnect();
-  for (const selector of [SEL.headerCartPopup, SEL.headerCart, SEL.cartMessages, SEL.cartRoot]) {
+  for (const selector of [
+    SEL.headerCartPopup,
+    SEL.headerCart,
+    SEL.cartMessages,
+    SEL.cartRoot,
+    SEL.checkoutSidebar,
+    SEL.checkoutMethods,
+  ]) {
     const node = document.querySelector(selector);
     if (node)
       observer.observe(node, {
@@ -68,7 +77,7 @@ function observe() {
         subtree: true,
         characterData: true,
         attributes: true,
-        attributeFilter: ['class'],
+        attributeFilter: ['class', 'data-shipping-price-wv', 'data-billing-price-wv'],
       });
   }
 }
@@ -77,7 +86,13 @@ export default {
   name: 'cart-presentation',
   pages: ['*'],
   init() {
-    if (!observer) observer = new MutationObserver(scheduleSummary);
+    if (!observer)
+      observer = new MutationObserver(() => {
+        // Numeric checkout accents must also update in background tabs, where
+        // animation frames can be suspended. Class writes are idempotent.
+        syncCheckoutPriceAccents();
+        scheduleSummary();
+      });
     observe();
     if (!bound) {
       document.addEventListener(SHOPTET_EVENTS.cartUpdated, () => {

@@ -204,11 +204,21 @@ function syncCartContacts() {
     }
     addSocial(socials, SEL.socialFacebook, 'facebook');
     addSocial(socials, SEL.socialInstagram, 'instagram');
+    const email = list.querySelector(SEL.cartHelpEmail);
+    if (email && email.getAttribute('href') !== CONTACT_FORM)
+      email.setAttribute('href', CONTACT_FORM);
     const phone = list.querySelector(SEL.cartHelpPhone);
-    if (phone)
-      phone.textContent = phone.textContent
+    if (phone) {
+      // Apollo wrapInner creates an outer tel link around the existing one.
+      // Keep the original leaf anchor, rather than nested interactive elements.
+      const outer = phone.parentElement;
+      if (outer?.tagName === 'A' && outer.getAttribute('href') === phone.getAttribute('href'))
+        outer.replaceWith(...outer.childNodes);
+      const formatted = phone.textContent
         .trim()
         .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
+      if (phone.textContent !== formatted) phone.textContent = formatted;
+    }
   }
 }
 
@@ -245,10 +255,17 @@ function syncMenu() {
     }
     for (const link of contacts.querySelectorAll(':scope > [data-ts-social]')) socials.append(link);
     const phone = contacts.querySelector(SEL.headerPhoneLabel);
-    if (phone)
-      phone.textContent = phone.textContent
+    if (phone) {
+      // Apollo wrapInner creates an outer tel link around the existing one.
+      // Keep the original leaf anchor, rather than nested interactive elements.
+      const outer = phone.parentElement;
+      if (outer?.tagName === 'A' && outer.getAttribute('href') === phone.getAttribute('href'))
+        outer.replaceWith(...outer.childNodes);
+      const formatted = phone.textContent
         .trim()
         .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
+      if (phone.textContent !== formatted) phone.textContent = formatted;
+    }
     let previous = title;
     for (const node of [contacts.querySelector(SEL.contactPhone), email, support, socials]) {
       if (!node) continue;

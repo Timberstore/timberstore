@@ -1,38 +1,4 @@
-/* Checkout (cart steps).
-   Drobnosti · the "Späť" button under "Pokračovať" is styled as a second button and
-   pulls attention away from continuing. Turn it into a quiet text link.
-   Client feedback: on hover Apollo still turned the arrow (::before) white and the
-   pill orange (`.cart-content .next-step-back:hover`), so the arrow vanished/jumped.
-   Hover is now part of the link style, arrow included.
-   Popups (.colorbox-close) keep their own button look.
-   !important: the pill look comes from !important rules in the legacy CSS. */
-/* Specificity (0,3,1) already beats Apollo's `.cart-content .next-step-back:hover`. */
-.ordering-process:not(.in-kosik):not(.in-krok-1) a.next-step-back:not(.colorbox-close) {
-  background: none !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  color: var(--ts-color-muted) !important;
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  text-decoration: underline;
-}
-
-.ordering-process:not(.in-kosik):not(.in-krok-1) a.next-step-back:not(.colorbox-close):hover {
-  color: var(--ts-color-text) !important;
-}
-
-.ordering-process:not(.in-kosik):not(.in-krok-1) a.next-step-back:not(.colorbox-close)::before,
-.ordering-process:not(.in-kosik):not(.in-krok-1)
-  a.next-step-back:not(.colorbox-close):hover::before {
-  display: inline-block;
-  margin-right: var(--ts-space-2) !important;
-  color: inherit !important;
-  font-size: 11px !important;
-  text-decoration: none;
-  transform: none !important;
-  transition: none !important;
-}
-
+/* Checkout overrides scoped to native ordering components. */
 /* Only colour, using the native active/completed step classes and counters. */
 body ol.cart-header li :is(a, strong),
 body ol.cart-header li.completed :is(a, strong) {
@@ -147,31 +113,34 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 
 /* Native server markup and Apollo's later wrappers share one shell from the
    first render. No ready class, DOM move, timer or hidden summary required. */
-.in-krok-1 #checkoutSidebar .checkout-box {
+.ordering-process #checkoutSidebar .checkout-box {
   display: none; /* Apollo relocates these contacts into the checkout header. */
 }
-.in-krok-1 #summary-box {
+.ordering-process #summary-box {
   margin: 0;
   padding: 0;
   border: 0;
   background: transparent;
+  display: flex;
+  flex-direction: column;
 }
-.in-krok-1 #summary-box .cart-item {
+.ordering-process #summary-box .cart-item {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto;
+  grid-template-columns: minmax(0, 1fr) max-content max-content;
   gap: 10px;
   align-items: center;
   padding: 12px 0;
   border-bottom: 1px solid var(--ts-color-controls-border);
 }
-.in-krok-1 #summary-box .cart-item > div {
+.ordering-process #summary-box .cart-item > div {
+  min-width: 0;
   width: auto;
   padding: 0;
 }
-.in-krok-1 #summary-box :is(.cart-item-amount, .cart-item-price) {
+.ordering-process #summary-box :is(.cart-item-amount, .cart-item-price) {
   white-space: nowrap;
 }
-.in-krok-1 .next-step--step-1 {
+.ordering-process #checkoutSidebar .next-step {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -180,23 +149,90 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   padding: 0;
   background: transparent;
 }
-.in-krok-1 .next-step--step-1 .next-step-forward {
+.ordering-process #checkoutSidebar .next-step :is(.next-step-forward, .next-step-finish) {
   width: 100%;
 }
-.in-krok-1 .next-step--step-1 a.next-step-back {
+.ordering-process #checkoutSidebar .next-step a.next-step-back {
   flex: none;
   width: max-content;
 }
-.in-krok-1 #summary-box :is(.order-summary-top, .order-summary-bottom) {
-  margin: 0;
-  border: 0;
+/* Apollo wraps these children at load and again after checkout AJAX.
+   Transparent wrappers + explicit item order keep the server layout stable. */
+.ordering-process #summary-box :is(.order-summary-top, .order-summary-bottom) {
+  display: contents;
 }
-@media (min-width: 992px) {
-  .in-krok-1 #checkoutContent {
-    width: 64%;
+.ordering-process #summary-box :is(.cart-items, .order-recapitulation) {
+  order: 1;
+  margin: 0;
+}
+.ordering-process #summary-box .order-summary-item.helper {
+  display: flex;
+  order: 2;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--ts-color-controls-border);
+  font-size: 14px;
+}
+.ordering-process #summary-box .order-summary-item.price {
+  order: 3;
+  margin: 12px 0 0;
+}
+.ordering-process #summary-box .order-summary-item.price::before {
+  content: none;
+}
+.ordering-process #summary-box .preauthorization-box {
+  order: 4;
+}
+.ordering-process #summary-box .cart-item-name {
+  overflow-wrap: anywhere;
+}
+.ordering-process #summary-box .cart-item-name a span {
+  width: auto;
+}
+.ordering-process #summary-box .cart-item-amount {
+  text-align: center;
+}
+.ordering-process #summary-box .cart-item-price {
+  text-align: right;
+}
+/* Apollo colours every selected method green, including paid ones. */
+.in-krok-1 .order-delivery-payment-form label > .payment-shipping-price {
+  color: var(--ts-color-price);
+}
+/* Numeric native attributes remain authoritative even when the label changes. */
+.in-krok-1
+  .payment-shipping-price:not(.shipping-price-not-specified):is(
+    [data-shipping-price-wv='0'],
+    [data-billing-price-wv='0']
+  ),
+.ordering-process #summary-box .ts-checkout-free-price {
+  color: var(--ts-color-summary-accent);
+  font-weight: 700;
+}
+.ordering-process #checkoutSidebar > .cart-content {
+  margin: 0;
+}
+.ordering-process :is(#checkoutContent, #checkoutSidebar) {
+  float: none;
+  width: 100%;
+}
+.ordering-process #checkoutSidebar {
+  padding: 0;
+  margin-top: 16px;
+}
+.ordering-process #checkoutSidebar .consents {
+  background: transparent;
+  padding-inline: 0;
+}
+@media (min-width: 1200px) {
+  .ordering-process #checkoutContent {
+    float: left;
+    width: calc(64% - 24px);
   }
-  .in-krok-1 #checkoutSidebar {
+  .ordering-process #checkoutSidebar {
+    float: left;
     width: 36%;
+    margin: 0 0 0 24px;
   }
 }
 @media (min-width: 768px) {

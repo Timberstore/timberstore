@@ -245,44 +245,57 @@
   }
 }
 
+/* Apollo's fixed contact widths do not account for hours/socials. Let the
+   surface grow with its contents and wrap whole contact blocks when needed. */
+.ordering-process #content .cart-header__contact {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  min-width: 0;
+  flex: 1 1 600px;
+  margin: 16px 0 0;
+}
+.ordering-process #content .ts-cart-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  background: var(--ts-color-service-bg);
+}
+.ordering-process #content .ts-cart-contacts > h2 {
+  width: auto;
+  max-width: 100%;
+  flex: 0 1 auto;
+  margin: 0;
+  font-size: var(--ts-service-font-size);
+}
+.ordering-process #content .ts-cart-contacts > .box {
+  flex: 1 1 450px;
+  width: auto;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.ordering-process #content .ts-cart-contacts .contact-box > ul {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0;
+}
 @media (min-width: 1200px) {
-  .in-kosik #content .cart-header__headline {
+  .ordering-process #content .cart-header__headline {
     min-width: 0;
     max-width: none;
     width: auto;
     flex: 0 0 auto;
   }
-  .in-kosik #content .cart-header__contact {
-    max-width: none;
-    width: auto;
-    flex: 1;
-    min-width: 0;
+  .ordering-process #content .cart-header__contact {
     margin-left: 24px;
-  }
-  #content .ts-cart-contacts {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 10px;
-    justify-content: flex-end;
-    background: var(--ts-color-service-bg);
-  }
-  #content .ts-cart-contacts > h2 {
-    width: auto;
-    flex: 0 0 auto;
-    margin: 0;
-    white-space: nowrap;
-    font-size: var(--ts-service-font-size);
-  }
-  #content .ts-cart-contacts > .box {
-    width: auto;
-    flex: 0 0 auto;
-    padding: 0;
-    margin: 0;
-    min-width: 0;
-    background: transparent;
-  }
-  #content .ts-cart-contacts .contact-box > ul {
-    flex-wrap: nowrap;
   }
 }
