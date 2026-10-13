@@ -2,6 +2,17 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.8 · 2026-10-13 · Inkrementálne doladenie checkoutu (preview, nevydané)
+
+- Samostatné preview nad 0.6.7 `89e3505`; main, produkčný loader a tagy bez zmeny.
+- Spoločná zelená `#66BF3A` podľa natívneho Apollo indikátora vybratej dopravy: hlavné checkout CTA, aktívny krok, dostupnosť Skladom, bezplatné ceny a potvrdzovacie akcenty. Súhrnný nadpis opäť Timber oranžový; tmavé CTA texty pre čitateľný kontrast, hover/focus/disabled stavy. Ostatné stránky zachovávajú paletu.
+- Názov produktu v súhrne na samostatnom riadku, množstvo/jednotka a cena pod ním; väčšie medzery a oddelené položky dopravy/platby bez kurzívy.
+- Desktop súhrny od 1200 px sticky s 200 px odstupom a vnútorným scrollom vysokých panelov; hlavné CTA približne 67 % šírky. Mobil bez sticky, natívne formuláre a tlačidlá zachované.
+- Účet/prihlásenie a štát/hodnota vodorovne; meno, e-mail a telefón každý na vlastnom plnom riadku. Skryté country inputy, company/shipping polia a validácie bez zmeny.
+- Kontaktný panel podľa šírky obsahu, bez rozťahovania medzery medzi nadpisom a hodinami. Existujúce kontakty a odkazy zachované.
+- Iba existujúci oznam externého skladu nahradený oranžovým textom o centrálnych skladoch; ostatné tri riadky bez zmeny. Idempotentná synchronizácia cez existujúci lifecycle, bez nových listenerov.
+- Klient schválil CSS rozpočet 18,75 kB iba pre preview 0.6.8; JavaScript zostáva 30 kB. Overenie a neoverené scenáre: `docs/previews/cart-v068/checkout-refinements.md`. Bez odoslania objednávky, merge alebo nasadenia.
+
 ## v0.6.7 · 2026-10-12 · Pravý súhrn košíka a spoločné kontakty (preview, nevydané)
 
 - Apollo audit 13. 10. 2026: spoločné súhrny troch krokov, stabilné poradie produktov/dopravy/platby pred cenami aj pred vytvorením natívnych wrapperov. Neutralizovaný pôvodný 65 px odstup a biely pseudo-pás pred `after-load`, obnovený natívny medzisúčet a oddelenie spodnej časti. Zjednotené šírky odstránením 60 px sidebar paddingu a mobilných záporných okrajov; košík bez dodatočného JS shellu/presúvania tlačidla. Kontaktný box rastie a zalamuje celé bloky, e-mail vedie na kontaktný formulár, opravené vnorené telefónne odkazy Apollo. Nulové ceny používajú natívne numerické dáta a akcenty sa synchronizujú aj bez animation frame; platené metódy nepreberajú Apollo zelenú. Natívne formuláre, ceny a finálny submit bez zmeny logiky. Klient schválil CSS limit 18,25 kB iba pre preview. Po obnove prostredia zopakovaný lint/build a regresná kontrola troch krokov na 1920/1366/768/390/375/320 px; výsledky a limity v `docs/previews/cart-v067/apollo-audit.md`.

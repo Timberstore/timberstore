@@ -106,6 +106,7 @@ export const SEL = {
   cartHelpList: '.contact-box > ul',
   cartHelpPhone: '.tel a:not(:has(a))',
   cartHelpEmail: '.mail a',
+  checkoutDispatchLines: '.in-krok-1 .site-msg-custom.step-1 li',
   checkoutSummary: '.ordering-process #summary-box',
   checkoutSidebar: '.ordering-process #checkoutSidebar',
   checkoutMethods: '.in-krok-1 .order-delivery-payment-form',

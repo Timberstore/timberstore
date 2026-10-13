@@ -1,4 +1,9 @@
 /* Checkout overrides scoped to native ordering components. */
+/* Checkout-local positive accents; other pages retain their existing palette. */
+.ordering-process {
+  --ts-color-success: var(--ts-color-checkout-success);
+  --ts-color-summary-accent: var(--ts-color-checkout-success);
+}
 /* Only colour, using the native active/completed step classes and counters. */
 body ol.cart-header li :is(a, strong),
 body ol.cart-header li.completed :is(a, strong) {
@@ -12,7 +17,7 @@ body ol.cart-header li.active :is(a, strong) {
   color: var(--ts-color-text);
 }
 ol.cart-header li.active :is(a, strong) span::before {
-  background: var(--ts-color-accent);
+  background: var(--ts-color-checkout-success);
   color: var(--ts-color-text);
 }
 ol.cart-header li.completed :is(a, strong) span::before {
@@ -64,7 +69,7 @@ ol.cart-header li.completed :is(a, strong) span::before {
   --ts-step-fg: var(--ts-color-controls-text);
 }
 .ordering-process ol.cart-header li.active {
-  --ts-step-bg: var(--ts-color-accent);
+  --ts-step-bg: var(--ts-color-checkout-success);
   --ts-step-fg: var(--ts-color-text);
 }
 .ordering-process ol.cart-header li.completed {
@@ -126,10 +131,10 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 }
 .ordering-process #summary-box .cart-item {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) max-content max-content;
-  gap: 10px;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 8px 12px;
   align-items: center;
-  padding: 12px 0;
+  padding: 16px 0;
   border-bottom: 1px solid var(--ts-color-controls-border);
 }
 .ordering-process #summary-box .cart-item > div {
@@ -150,7 +155,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   background: transparent;
 }
 .ordering-process #checkoutSidebar .next-step :is(.next-step-forward, .next-step-finish) {
-  width: 100%;
+  width: var(--ts-checkout-cta-width, 100%);
 }
 .ordering-process #checkoutSidebar .next-step a.next-step-back {
   flex: none;
@@ -184,15 +189,18 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   order: 4;
 }
 .ordering-process #summary-box .cart-item-name {
+  grid-column: 1 / -1;
   overflow-wrap: anywhere;
 }
 .ordering-process #summary-box .cart-item-name a span {
   width: auto;
 }
 .ordering-process #summary-box .cart-item-amount {
-  text-align: center;
+  grid-column: 1;
+  text-align: left;
 }
 .ordering-process #summary-box .cart-item-price {
+  grid-column: 2;
   text-align: right;
 }
 /* Apollo colours every selected method green, including paid ones. */
@@ -247,4 +255,106 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   .in-krok-1 .order-delivery-payment-form :is(.payment-logo, .payment-shipping-price) {
     flex-shrink: 0;
   }
+}
+
+/* Keep the native selected-radio check and its geometry; unify its green disk. */
+.ordering-process input[type='radio']:checked + label::before {
+  background-color: var(--ts-color-checkout-success);
+  border-color: var(--ts-color-checkout-success);
+}
+.ordering-process input[type='checkbox']:checked + label::after {
+  border-color: var(--ts-color-checkout-success);
+}
+.ordering-process .msg-success::before {
+  color: var(--ts-color-checkout-success);
+}
+.ordering-process .ts-checkout-in-stock {
+  color: var(--ts-color-checkout-success) !important; /* native availability inline colour */
+  text-transform: uppercase;
+}
+.ordering-process .site-msg-custom li.ts-checkout-dispatch-note {
+  color: var(--ts-color-accent) !important; /* legacy notice li colour is important */
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.ordering-process #summary-box :is(.cart-item, .recapitulation-single) {
+  font-size: 13px;
+  line-height: 1.5;
+}
+.ordering-process #summary-box .recapitulation-single {
+  display: block;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--ts-color-controls-border);
+}
+.ordering-process #summary-box .recapitulation-single > strong {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 600;
+  line-height: inherit;
+  overflow-wrap: anywhere;
+}
+.ordering-process #summary-box .recapitulation-single [data-testid='recapItemPrice'] {
+  grid-area: 1 / 2;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  text-align: right;
+}
+/* Verified native field groups; preserve hidden country fields and all inputs. */
+.in-krok-2 .co-contact-information .form-group:has(.login-button) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.in-krok-2 .co-contact-information .form-group:has(.login-button) > :is(.label, div) {
+  width: auto;
+  flex: 0 1 auto;
+  margin: 0;
+}
+.in-krok-2 .co-contact-information .form-group:has(.login-button, #billFullName, #email, #phone) {
+  width: 100%;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+.in-krok-2 .co-billing-address .form-group:has(#billCountryId) {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+}
+.in-krok-2
+  .co-billing-address
+  .form-group:has(#billCountryId)
+  > :is(.label, label:not(.js-location--hidden)) {
+  position: static;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.in-krok-2 .co-contact-information .login-button {
+  max-width: 100%;
+  white-space: normal;
+}
+
+.in-krok-2 .co-billing-address .form-group:has(#billCountryId) > .form-control-wrapper--with-note {
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding-block: 0;
+}
+
+.in-krok-2 .co-billing-address .form-group:has(#billCountryId) > .js-location--hidden {
+  display: none;
+}
+
+/* Apollo clearfix pseudo-elements otherwise occupy flex/grid cells. */
+.in-krok-2 .form-group:has(.login-button, #billCountryId)::before,
+.in-krok-2 .form-group:has(.login-button, #billCountryId)::after {
+  content: none;
 }

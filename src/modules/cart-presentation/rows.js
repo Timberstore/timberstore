@@ -41,6 +41,11 @@ export function syncRows() {
     showCode(info, item?.code);
     const label = row.querySelector(SEL.cartAvailabilityLabel);
     if (label) {
+      const inStock =
+        label.textContent.trim().toLocaleLowerCase('sk') ===
+        TEXTS.checkout.inStock.toLocaleLowerCase('sk');
+      if (label.classList.contains('ts-checkout-in-stock') !== inStock)
+        label.classList.toggle('ts-checkout-in-stock', inStock);
       let availability = info.querySelector('.ts-cart-availability');
       if (!availability) {
         availability = document.createElement('span');

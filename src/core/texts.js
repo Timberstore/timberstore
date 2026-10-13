@@ -26,6 +26,11 @@ export const TEXTS = {
     help: 'Potrebujete pomoc? Sme tu pre Vás:',
     columns: ['PRODUKT', 'MNOŽSTVO', 'CENA ZA KUS', 'CELKOM'],
   },
+  checkout: {
+    inStock: 'Skladom',
+    originalDispatchNote: 'Tovar z externých skladov expedujeme zvyčajne do 5 pracovných dní.',
+    dispatchNote: 'TOVAR Z CENTRÁLNYCH SKLADOV EXPEDUJEME ZVYČAJNE DO 5 PRACOVNÝCH DNÍ.',
+  },
   closeInformationMessage: 'Zavrieť oznam',
   viewSwitch: {
     label: 'Zobrazenie',

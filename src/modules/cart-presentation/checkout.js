@@ -1,3 +1,4 @@
+import { TEXTS } from '../../core/texts.js';
 import { SEL } from '../../core/selectors.js';
 
 // Native method prices are numeric; recap spans omit those attributes. Borrow
@@ -22,4 +23,17 @@ export function syncCheckoutPriceAccents() {
     if (price.classList.contains('ts-checkout-free-price') !== free)
       price.classList.toggle('ts-checkout-free-price', free);
   });
+}
+
+export function syncCheckoutDispatchNote() {
+  for (const line of document.querySelectorAll(SEL.checkoutDispatchLines)) {
+    const text = line.textContent.replace(/\s+/g, ' ').trim();
+    if (text === TEXTS.checkout.originalDispatchNote)
+      line.textContent = TEXTS.checkout.dispatchNote;
+    if (
+      line.textContent.trim() === TEXTS.checkout.dispatchNote &&
+      !line.classList.contains('ts-checkout-dispatch-note')
+    )
+      line.classList.add('ts-checkout-dispatch-note');
+  }
 }

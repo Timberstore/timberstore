@@ -4,7 +4,7 @@ import { syncQuantities, resizeQuantity } from './quantity.js';
 import { syncRelated } from './related.js';
 import { syncBottom } from './bottom.js';
 import { syncRows } from './rows.js';
-import { syncCheckoutPriceAccents } from './checkout.js';
+import { syncCheckoutPriceAccents, syncCheckoutDispatchNote } from './checkout.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
 
 let observer;
@@ -29,6 +29,7 @@ function syncPresentation() {
   syncRelated();
   syncBottom();
   syncCheckoutPriceAccents();
+  syncCheckoutDispatchNote();
 }
 
 function syncSummary() {
