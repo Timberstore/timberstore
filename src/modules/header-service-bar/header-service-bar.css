@@ -207,3 +207,28 @@
 .ts-cart-contacts .ts-service-bar__hours {
   font-size: var(--ts-service-font-size);
 }
+
+/* Apollo hides later contact list entries in checkout; reveal only the requested contacts. */
+#content
+  .ts-cart-contacts
+  .contact-box
+  > ul
+  > :is(li:has(.tel, .mail), .ts-cart-contact-socials, .ts-cart-contact-hours) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+}
+#content .ts-cart-contacts .contact-box :is(.tel, .ts-service-bar__social) {
+  display: inline-flex;
+  align-items: center;
+  color: var(--ts-color-accent);
+}
+#content .ts-cart-contacts .tel a {
+  color: var(--ts-color-controls-text);
+}
+@media (min-width: 768px) {
+  #header .top-navigation-contacts > .ts-service-bar__social {
+    display: inline-flex;
+  }
+}

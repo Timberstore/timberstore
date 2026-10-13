@@ -16,10 +16,10 @@ export function syncBottom() {
       summary.before(shell);
       shell.append(summary);
     }
-    const back = summary.querySelector(SEL.cartBack);
+    const back = shell.querySelector(SEL.cartBack);
     if (back) {
       back.classList.add('ts-cart-return');
-      shell.append(back); // Keep the original native href outside the summary card.
+      if (back.parentElement !== summary) summary.append(back); // Keep the native link inside the one summary card.
     }
   }
   for (const delivery of document.querySelectorAll(SEL.cartDeliveryTime)) {
