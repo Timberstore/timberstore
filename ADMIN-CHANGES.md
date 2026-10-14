@@ -17,8 +17,9 @@ Git tyto změny nevrátí — proto se vždy zapisuje i **původní stav**.
 - Repository `shoptet/loader.html` was synchronized to that current production value in the migration branch.
 - No change was made in Shoptet admin by this commit; this only aligns the repository snapshot with the live state.
 
-## 2026-10-14 · v0.6.9 — pripravené, aktivácia v Shoptete čaká
-- Repo loader pripravený na `PROD = 'v0.6.9'`; zistený živý stav pred vydaním: `PROD = 'v0.6.5'` s lokálnym CSS/JS hotfixom mobilnej galérie z 12. 10.
-- Hotfix je zachovaný v zdrojoch v0.6.9, takže stačí zmeniť iba hodnotu PROD v existujúcom živom loaderi; ostatné záhlavie ponechať.
-- Shoptet admin nebol agentom upravený. Tento záznam označuje pripravený postup, nie vykonané produkčné nasadenie.
-- Postup a rollback: [docs/releases/v0.6.9.md](docs/releases/v0.6.9.md). Skutočný čas prepnutia sa doplní po overení živého webu.
+## 2026-10-14 · v0.6.9 — nasadené klientom, živá produkcia overená
+- Klient potvrdil prepnutie v **Vzhľad a obsah → Editor HTML kódu → Záhlavie**. Živý loader načítava `PROD = 'v0.6.9'`; pôvodný stav bol `PROD = 'v0.6.5'` s lokálnym CSS/JS hotfixom mobilnej galérie z 12. 10.
+- Pôvodný hotfix je zachovaný vo verziovaných zdrojoch v0.6.9. Shoptet admin upravil klient, nie agent; presný čas uloženia nie je známy.
+- Nezávislé overenie 14. 10. 2026: čerstvé desktopové/mobilné relácie bez preview cookie, `TimberLoader.version` aj `Timber.version` = v0.6.9, `preview = false`, CSS/JS z CDN tagu. Prešli homepage, kategória, mobilná galéria, natívne pridanie a zmena množstva cez AJAX, doprava/platba a postup do Osobných údajov. Objednávka nebola odoslaná; natívny finálny formulár zostáva `order-form`.
+- Drobný nález mimo nášho buildu: Apollo CDN vracia 404 pre `/assets/img/colorbox/loading.gif`. Galéria aj nákupný priechod prešli; cudzí súbor sa nemenil. Pôvodný syntetický klik v mobilnom teste nezvolil dopravu, opakovanie skutočným tapom prešlo bez JS chýb.
+- Rollback: v existujúcom loaderi vrátiť `PROD = 'v0.6.5'`, uložiť a vypnúť preview cookie. Postup: [docs/releases/v0.6.9.md](docs/releases/v0.6.9.md).
