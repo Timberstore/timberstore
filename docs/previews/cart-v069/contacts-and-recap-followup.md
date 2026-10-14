@@ -2,6 +2,10 @@
 
 Base: `850f6e039e7e1e66256e200d159b6108b2a614ba`; existing preview branch/version 0.6.9. No production/main/tag/release change.
 
+## Email-spacing follow-up over 5264c2b
+
+Release preparation was paused before any merge/tag/production change. The native envelope advances **25.42 px** at its unchanged font size but was allocated only 18 px. Its overflow visually consumed the nominal 8 px gap. Desktop pseudo glyphs now use natural flex width (phone remains 18 px); email gap is **12 px**, phone remains **8 px**. Only the desktop CSS block changed. Verified computed glyph widths/gaps at 1024/1280/1366/1600/1920 px including a reload, no page overflow, outer desktop surface remains 920×52 at 1280+. Lint/build passed, CSS 19.71 KiB / 19.75; no release/loader/version change.
+
 ## Fixes
 
 - **Desktop contacts:** Apollo span padding and our anchor padding added up instead of forming a real icon/text gap. Native phone/envelope pseudo glyphs now participate in the same inline-flex group as the native link, with an actual **8 px gap**, centered vertically. Both padding sources and the native pseudo transform are neutralized in the existing checkout component. Contact-list column gap is 18 px, socials retain their own styling and sit at the end of the available list space. Outer desktop surface remains 920×52 at tested widths ≥1280 px; heading, hours, destinations, icon fonts/colors and social links are retained. This is scoped to checkout; the general website service bar is untouched.

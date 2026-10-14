@@ -345,12 +345,15 @@
     position: static;
     inset: auto;
     transform: none;
-    width: 18px;
+    width: auto;
     min-width: 18px;
-    flex: 0 0 18px;
+    flex: 0 0 auto;
     margin: 0;
     padding: 0;
     line-height: 1;
+  }
+  .ordering-process #content .ts-cart-contacts .mail {
+    gap: 12px;
   }
   .ordering-process #content .ts-cart-contacts .contact-box a.ts-cart-contact-link {
     padding: 0;
