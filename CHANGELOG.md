@@ -4,6 +4,8 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## v0.6.9 · 2026-10-14 · Košík, checkout a kontakty
 
+Produkcia: klient nasadil 14. 10. 2026; overené živé načítanie v0.6.9 bez preview aj nákupný priechod po posledný krok bez odoslania objednávky. Detail nasadenia a drobný nález Apollo assetu: `ADMIN-CHANGES.md`.
+
 Súhrn schválených zmien od posledného vydania v0.6.5 (vývojové preview 0.6.6–0.6.9):
 
 - Prehľadnejšie desktopové aj mobilné produktové riadky košíka: názvy, kódy, dostupnosť, množstvo, jednotková a celková cena, odstránenie. Na mobile kompaktný spoločný riadok a oddelené ceny; pružné pole pre vysoké množstvá so zachovaním natívnych limitov a násobkov.
