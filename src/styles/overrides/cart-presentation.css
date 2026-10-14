@@ -499,6 +499,7 @@
   order: 0;
   background: var(--ts-color-checkout-cta);
   border-color: var(--ts-color-checkout-cta);
+  transition: filter 160ms ease;
   color: var(--ts-color-bg);
   font-weight: 700;
 }
@@ -639,7 +640,7 @@
   color: var(--ts-color-summary-accent);
 }
 
-/* Large white labels use the fresh green; small legal copy has a contrast backing. */
+/* One uniform contrast surface supports both white CTA label sizes. */
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):hover {
   filter: brightness(0.96);
@@ -661,9 +662,6 @@
   line-height: 1.35;
   white-space: nowrap;
   margin-top: 3px;
-  padding: 2px 4px;
-  border-radius: 4px;
-  background: var(--ts-color-positive-ink);
 }
 @media (min-width: 1200px) {
   .ordering-process {

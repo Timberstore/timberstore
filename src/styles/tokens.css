@@ -14,9 +14,10 @@
   --ts-color-rank-bronze: #ae8064;
   --ts-color-step-bg: #e9eaed;
   --ts-color-positive: #439d29; /* fresh shared green: large white CTA text */
+  --ts-color-positive-cta: #3a841f; /* uniform surface supports small white legal copy */
   --ts-color-positive-ink: #31771c; /* small text / small white-text backing */
   --ts-color-checkout-success: var(--ts-color-positive);
-  --ts-color-checkout-cta: var(--ts-color-checkout-success);
+  --ts-color-checkout-cta: var(--ts-color-positive-cta);
   --ts-checkout-contacts-width: 920px; /* final desktop contact surface */
   --ts-color-summary-accent: var(--ts-color-positive-ink);
   --ts-color-success: var(--ts-color-positive);

@@ -113,7 +113,8 @@ export const SEL = {
   checkoutPriceParts: '.order-summary-item',
   checkoutNativeProductPanel: '.order-summary-top',
   checkoutNativePricePanel: '.order-summary-bottom',
-  checkoutMethodRecaps: '#shipping-billing-summary > .recapitulation-single',
+  checkoutMethodRecaps:
+    '.recapitulation-single:has([data-testid="recapDeliveryMethod"], [data-testid="recapPaymentMethod"])',
   checkoutSummary: '.ordering-process #summary-box',
   checkoutSidebar: '.ordering-process #checkoutSidebar',
   checkoutMethods: '.in-krok-1 .order-delivery-payment-form',

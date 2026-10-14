@@ -1,5 +1,7 @@
 # Fresh green, static summaries and mobile alignment — 14 October 2026
 
+Historical checkpoint; next follow-up: [contacts-and-recap-followup.md](contacts-and-recap-followup.md).
+
 Separate preview commit over `60ac4448c4315f5e4c3695a22cdc084b28499529`, on the existing 0.6.9 branch. No version/tag/main/production-loader change.
 
 - Main positive token: `--ts-color-positive: #439d29`. CTA/active steps/selected radio disks/check marks, shared open-status dot, success borders and completed-shipping progress use the shared family. Verified inline stock labels in our product-card treatment use its readable text variant. Orange controls and external logos/images remain unchanged.

@@ -18,7 +18,7 @@ body ol.cart-header li.active :is(a, strong) {
 }
 ol.cart-header li.active :is(a, strong) span::before {
   background: var(--ts-color-checkout-success);
-  color: var(--ts-color-text);
+  color: var(--ts-color-bg);
 }
 ol.cart-header li.completed :is(a, strong) span::before {
   background: var(--ts-color-controls-text);
@@ -70,7 +70,7 @@ ol.cart-header li.completed :is(a, strong) span::before {
 }
 .ordering-process ol.cart-header li.active {
   --ts-step-bg: var(--ts-color-checkout-success);
-  --ts-step-fg: var(--ts-color-text);
+  --ts-step-fg: var(--ts-color-bg);
 }
 .ordering-process ol.cart-header li.completed {
   --ts-step-bg: var(--ts-color-controls-text);
@@ -80,6 +80,10 @@ body.ordering-process ol.cart-header li :is(a, strong) span::before,
 body.ordering-process ol.cart-header li a:is(:hover, :focus-visible) span::before {
   background: var(--ts-step-bg);
   color: var(--ts-step-fg);
+}
+body.ordering-process ol.cart-header li.active :is(a, strong) span::before {
+  font-size: 20px;
+  font-weight: 700;
 }
 body.ordering-process ol.cart-header li a:focus-visible {
   outline: 2px solid var(--ts-color-accent);
@@ -292,6 +296,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 .ordering-process :is(#checkoutContent, #checkoutSidebar) {
   float: none;
   width: 100%;
+  transition: none; /* native all-transition interpolates responsive column widths */
 }
 .ordering-process #checkoutSidebar {
   display: flex;
@@ -441,10 +446,13 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     margin: 0;
     padding: 0;
   }
-  body.ordering-process.in-krok-2 .co-contact-information .login-button {
+  body.ordering-process.in-krok-2 .co-contact-information .login-button,
+  body.ordering-process.in-krok-2
+    .co-contact-information
+    .login-button:is(:hover, :focus, :active) {
     background: var(--ts-color-accent);
     border-color: var(--ts-color-accent);
-    color: var(--ts-color-text);
+    color: var(--ts-color-bg);
     font-weight: 600;
     margin: 0;
     transition: filter 160ms ease; /* do not animate from Apollo's white label */
@@ -597,6 +605,6 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   font-weight: 700;
 }
 
-.ordering-process #summary-box .ts-checkout-method-recap > .recapitulation-shipping-billing-label {
+.ordering-process #summary-box .ts-checkout-method-recap > span:not(.ts-checkout-method-label) {
   display: none;
 }
