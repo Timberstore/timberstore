@@ -2,7 +2,23 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
-## v0.6.9 · 2026-10-13 · Dva súhrnné checkout boxy (preview, nevydané)
+## v0.6.9 · 2026-10-14 · Košík, checkout a kontakty
+
+Súhrn schválených zmien od posledného vydania v0.6.5 (vývojové preview 0.6.6–0.6.9):
+
+- Prehľadnejšie desktopové aj mobilné produktové riadky košíka: názvy, kódy, dostupnosť, množstvo, jednotková a celková cena, odstránenie. Na mobile kompaktný spoločný riadok a oddelené ceny; pružné pole pre vysoké množstvá so zachovaním natívnych limitov a násobkov.
+- Zjednotené množstvo v hlavnom košíku, mini-košíku a súvisiacom tovare; pri súvisiacich produktoch natívne pridanie zvoleného množstva, celé názvy a overené produktové údaje.
+- Súhrn košíka s pôvodným dátumom doručenia, progressom dopravy zdarma a oboma tlačidlami v jednom paneli. Zelené checkout CTA, čitateľné aktívne kroky a sekundárne tlačidlá Späť.
+- Konzistentné súhrny vo všetkých krokoch objednávky, ceny a hlavná akcia pred zoznamom produktov; oddelené kartičky Doprava/Platba. Statický sidebar a vnútorný desktopový scroll dlhého zoznamu, bez preskakovania pri inicializácii Apollo/AJAX.
+- Kompaktné kontakty v checkoute: spoločné hodiny/stav podpory, telefón, kontaktný formulár a sociálne odkazy; správne medzery ikon. Mobilné menu s prehľadnými kontaktmi a rovnakou logikou otváracích hodín.
+- Zjednotená dostupnosť a informačné vety: iba SKLADOM zelené a CENTRÁLNE SKLADY oranžové; zachované reálne ceny, termíny a skladové údaje.
+- Opravené duplicitné mobilné filter panely pri resize a prekrytie kontaktov zatvoreným mobilným menu. Zachované pôvodné filtre, radenie, GRID/LIST, formuláre, košík a AJAX.
+- Zachovaná existujúca produkčná oprava mobilnej galérie z 12. 10.: mobilné Colorbox rozmery sa vzťahujú len na add-to-cart popup a touch-only mouseout nespúšťa neotvorenú lupu. Oprava je teraz v zdrojových moduloch namiesto lokálneho CSS a podmienky loadera viazanej na v0.6.5.
+- Overenie: regresná kontrola homepage/kategórie/detailu/košíka, 320–1920 px, radenie, filtre/reset, AJAX, 15 rôznych produktov a checkout bez odoslania objednávky; cielené overenie resize a interného scrollu. Lint/build prešli. Schválený CSS rozpočet 19,75 kB sa pri vydaní nemení; JS 30 kB.
+- Skutočné iOS Safari, externé platby/výdajné miesta a odoslanie objednávky neboli automaticky dokončené. PageSpeed mobil pred/po: nemerané. Publikovanie GitHub release samo neprepína živý Shoptet; postup a rollback: `docs/releases/v0.6.9.md`.
+
+### Vývojové záznamy preview 0.6.9 (historické)
+
 
 - Opravy po regresnej kontrole (14. 10.): mobilný filter už nepoužíva natívnu triedu `filters-wrapper`, ktorá spôsobovala premiestňovanie a zvyšné duplicitné obaly pri resize. Teardown explicitne odstráni vlastné panely po obnovení natívnych uzlov. Zatvorené mobilné menu v checkoute počas prechodu šírky neprekrýva kontaktné odkazy; otvorenie ostáva pod natívnym Apollo stavom. Bez zásahu do cien, formulárov a produkcie. Lint/build v existujúcom limite. Detail: `docs/previews/cart-v069/regression-resize-fixes.md`.
 

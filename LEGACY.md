@@ -35,3 +35,8 @@ Záloha celého záhlaví k 26. 9. 2026: [`shoptet/backup/2026-09-26-zahlavi.htm
 - Automatický workflow pro migrační větev je od nynějška nastaven pouze na ruční spuštění (`workflow_dispatch`).
 - Důvod: série drobných commitů vytvářela zbytečně mnoho zrušených/starách buildů a e-mailových notifikací.
 - Produkce v Shoptetu se tím nemění. Build preview se bude dělat jen ve vybraných kontrolních bodech.
+
+## Produkčná hotfix galérie — zachovanie pri vydaní v0.6.9 (14. 10. 2026)
+- Živý loader používal pre produkčnú v0.6.5 `/user/documents/upload/timber-galeria-20261012.css` a inline touch-only `mouseout` guard. Lokálny CSS súbor sa od tagu v0.6.5 líši iba obmedzením mobilných Colorbox rozmerov na `.advanced-order`.
+- Rovnaká CSS oprava je teraz v `src/styles/overrides/cart-modal.css`; guard v existujúcom `gallery-swipe` module. v0.6.9 tak zachováva opravu aj pri štandardnom CDN loaderi. Pôvodné podmienky pre v0.6.5 v živom loaderi možno pri prepnutí iba ponechať (pri v0.6.9 sa nevykonajú).
+- Živý Shoptet admin nebol pri príprave release upravený.

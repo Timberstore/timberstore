@@ -6,7 +6,8 @@ import { gzipSync } from 'node:zlib';
 const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 // The approved v0.6.5 build retains its 16 kB CSS allowance; other versions
 // use the standard 15 kB budget until a separate change is approved.
-// Client-approved preview allowances: v0.6.6 17 kB, v0.6.7 18.25 kB, v0.6.8 18.75 kB, v0.6.9 19.75 kB (2026-10-14).
+// v0.6.9 retains its approved 19.75 kB allowance on release (2026-10-14).
+// Preview allowances: v0.6.6 17 kB, v0.6.7 18.25 kB, v0.6.8 18.75 kB.
 const cssBudgetKiB =
   pkg.version === '0.6.9'
     ? 19.75

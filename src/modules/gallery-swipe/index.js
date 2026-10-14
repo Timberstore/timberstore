@@ -99,7 +99,14 @@ function blockTouchZoom(image) {
   };
   ['pointerdown', 'pointerup'].forEach((type) => image.addEventListener(type, onPointer, true));
   const onCompatMouse = (e) => {
-    if (Date.now() - lastTouch < COMPAT_MOUSE_MS) e.stopPropagation();
+    // Preserve the live v0.6.5 touch-gallery hotfix in the versioned module:
+    // cloud-zoom must not close a zoom that a touch-only device never opened.
+    const touchMouseout =
+      e.type === 'mouseout' &&
+      window.matchMedia('(hover: none) and (pointer: coarse)').matches &&
+      e.target instanceof Element &&
+      e.target.closest(SEL.productZoomTrap);
+    if (touchMouseout || Date.now() - lastTouch < COMPAT_MOUSE_MS) e.stopPropagation();
   };
   // Capture phase on the stable wrapper: the zoom layer itself is recreated.
   ['touchstart', 'touchmove', 'touchend', 'touchcancel'].forEach((type) =>

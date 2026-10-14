@@ -16,3 +16,9 @@ Git tyto změny nevrátí — proto se vždy zapisuje i **původní stav**.
 - Live Shoptet HEAD supplied by client shows `PROD = 'v0.4.2'`.
 - Repository `shoptet/loader.html` was synchronized to that current production value in the migration branch.
 - No change was made in Shoptet admin by this commit; this only aligns the repository snapshot with the live state.
+
+## 2026-10-14 · v0.6.9 — pripravené, aktivácia v Shoptete čaká
+- Repo loader pripravený na `PROD = 'v0.6.9'`; zistený živý stav pred vydaním: `PROD = 'v0.6.5'` s lokálnym CSS/JS hotfixom mobilnej galérie z 12. 10.
+- Hotfix je zachovaný v zdrojoch v0.6.9, takže stačí zmeniť iba hodnotu PROD v existujúcom živom loaderi; ostatné záhlavie ponechať.
+- Shoptet admin nebol agentom upravený. Tento záznam označuje pripravený postup, nie vykonané produkčné nasadenie.
+- Postup a rollback: [docs/releases/v0.6.9.md](docs/releases/v0.6.9.md). Skutočný čas prepnutia sa doplní po overení živého webu.
