@@ -299,6 +299,11 @@
     margin-left: auto;
     padding-left: 24px;
   }
+  /* Reserve the final surface while Apollo's webfont settles. */
+  .ordering-process #content .ts-cart-contacts {
+    width: var(--ts-checkout-contacts-width);
+    line-height: 20px;
+  }
 }
 
 /* Keep Apollo's span icons; stretch the real link's hit area over the icon. */
@@ -315,16 +320,17 @@
 @media (max-width: 767px) {
   .ordering-process #content .ts-cart-contacts {
     width: 100%;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    text-align: center;
   }
   .ordering-process #content .ts-cart-contacts > :is(h2, .box) {
     width: 100%;
   }
   .ordering-process #content .ts-cart-contacts .contact-box > ul {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 8px 10px;
     padding: 0;
     list-style: none;
   }
@@ -332,9 +338,26 @@
     min-height: 32px;
     line-height: 1.4;
   }
-  .ordering-process #content .ts-cart-contacts .ts-cart-contact-socials {
-    justify-content: flex-start;
-    gap: 12px;
+  .ordering-process #content .ts-cart-contacts > h2 {
+    font-size: calc(var(--ts-service-font-size) + 1px);
+    text-align: center;
+  }
+  .ordering-process #content .ts-cart-contacts .ts-cart-contact-hours {
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul > li:has(.tel, .mail) {
+    width: 100%;
+    min-width: 0;
+    white-space: normal;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul > li:has(.mail) {
+    justify-content: flex-end;
+    border-left: 1px solid var(--ts-color-service-divider);
+    padding-left: 10px;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul > .ts-cart-contact-socials {
+    display: none;
   }
   .ordering-process #content .ts-cart-contacts .ts-service-bar__social {
     width: 32px;
@@ -346,7 +369,8 @@
   .ordering-process #content .ts-cart-contacts :is(.tel, .mail) {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
+    min-width: 0;
     margin: 0;
     padding: 0;
   }
@@ -361,9 +385,25 @@
     line-height: 1;
   }
   .ordering-process #content .ts-cart-contacts .contact-box a.ts-cart-contact-link {
+    align-items: center;
     padding: 0;
+    overflow-wrap: anywhere;
+    font-size: 12px;
+    text-align: left;
   }
   .ordering-process #content .ts-cart-contacts .ts-service-bar__status {
     margin-inline: 6px;
+  }
+}
+
+@media (max-width: 359px) {
+  .ordering-process #content .ts-cart-contacts .contact-box > ul {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul > li:has(.tel, .mail) {
+    justify-content: center;
+    border: 0;
+    padding: 0;
   }
 }

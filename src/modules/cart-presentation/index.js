@@ -8,6 +8,7 @@ import {
   syncCheckoutPriceAccents,
   syncCheckoutDispatchNote,
   syncCheckoutSummaryLayout,
+  syncCheckoutSummaryStructure,
 } from './checkout.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
 
@@ -32,6 +33,7 @@ function syncPresentation() {
   syncRows();
   syncRelated();
   syncBottom();
+  syncCheckoutSummaryStructure();
   syncCheckoutPriceAccents();
   syncCheckoutDispatchNote();
   syncCheckoutSummaryLayout();
@@ -96,6 +98,7 @@ export default {
       observer = new MutationObserver(() => {
         // Numeric checkout accents must also update in background tabs, where
         // animation frames can be suspended. Class writes are idempotent.
+        syncCheckoutSummaryStructure();
         syncCheckoutPriceAccents();
         scheduleSummary();
       });

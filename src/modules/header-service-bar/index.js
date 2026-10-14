@@ -6,6 +6,7 @@ import { isBusinessOpen } from './business-hours.js';
 
 let observer;
 let popupStateObserver;
+let contactObserver;
 let listenersBound = false;
 let frame = 0;
 let hoursTimer;
@@ -413,6 +414,16 @@ export default {
       }
     }
     syncCartTrigger();
+    // Apollo creates/moves this bar at DOM ready, before its after-load body
+    // class. Enrich in the same rendering turn, not on a later window.load.
+    const checkout = root.querySelector(SEL.checkoutContactRoot);
+    if (checkout && !contactObserver) {
+      contactObserver = new MutationObserver(() => {
+        syncCartContacts();
+        updateHours();
+      });
+      contactObserver.observe(checkout, { childList: true, subtree: true });
+    }
     // Apollo's old breakpoint offsets cannot follow the compact icon/cart row.
     // Observe only header geometry; keep native popup markup and handlers.
     if (!observer) observer = new ResizeObserver(schedulePosition);

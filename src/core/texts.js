@@ -27,6 +27,8 @@ export const TEXTS = {
     columns: ['PRODUKT', 'MNOŽSTVO', 'CENA ZA KUS', 'CELKOM'],
   },
   checkout: {
+    shippingLabel: 'Doprava',
+    billingLabel: 'Platba',
     inStock: 'Skladom',
     stockNotice: 'Tovar skladom expedujeme zvyčajne do 1–2 pracovných dní.',
     stockPrefix: 'Tovar ',

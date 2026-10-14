@@ -13,9 +13,10 @@
   --ts-color-support-bg: #f9f4ed;
   --ts-color-rank-bronze: #ae8064;
   --ts-color-step-bg: #e9eaed;
-  --ts-color-checkout-cta: #328020; /* white CTA labels, including legal suffix */
-  --ts-color-checkout-success: #66bf3a; /* Apollo selected-radio circle */
+  --ts-color-checkout-success: #387b20; /* one accessible checkout green */
+  --ts-color-checkout-cta: var(--ts-color-checkout-success);
   --ts-checkout-sticky-top: 200px;
+  --ts-checkout-contacts-width: 920px; /* final desktop contact surface */
   --ts-color-summary-accent: #319b35; /* checkout summary only */
   --ts-color-success: #24734b;
   --ts-color-success-bg: #e8f5ed;

@@ -18,7 +18,7 @@ body ol.cart-header li.active :is(a, strong) {
 }
 ol.cart-header li.active :is(a, strong) span::before {
   background: var(--ts-color-checkout-success);
-  color: var(--ts-color-text);
+  color: var(--ts-color-bg);
 }
 ol.cart-header li.completed :is(a, strong) span::before {
   background: var(--ts-color-controls-text);
@@ -47,7 +47,7 @@ ol.cart-header li.completed :is(a, strong) span::before {
   background-color: var(--ts-color-service-bg);
 }
 
-/* Native shipping/payment amounts are prices, not green availability labels. */
+/* Neutral recap default; shipping and free-payment accents are scoped below. */
 .ordering-process .recapitulation-single > strong span {
   color: var(--ts-color-price);
 }
@@ -70,7 +70,7 @@ ol.cart-header li.completed :is(a, strong) span::before {
 }
 .ordering-process ol.cart-header li.active {
   --ts-step-bg: var(--ts-color-checkout-success);
-  --ts-step-fg: var(--ts-color-text);
+  --ts-step-fg: var(--ts-color-bg);
 }
 .ordering-process ol.cart-header li.completed {
   --ts-step-bg: var(--ts-color-controls-text);
@@ -95,7 +95,8 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(64px, 76px);
     align-items: center;
-    gap: 6px 10px;
+    gap: 6px 8px;
+    min-height: 76px;
     padding: 14px 12px 14px 40px;
     border-radius: 12px;
   }
@@ -139,6 +140,10 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     transform: translateY(-50%);
   }
   .in-krok-1 .order-delivery-payment-form .radio-wrapper > input:checked + label::after {
+    left: 19px;
+    width: 6px;
+    height: 10px;
+    margin: -1px 0 0;
     transform: translateY(-50%) rotate(40deg);
   }
   .in-krok-1 .order-delivery-payment-form .radio-wrapper > input:checked + label {
@@ -196,27 +201,26 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   flex: none;
   width: max-content;
 }
-/* Keep Apollo's native wrappers; only the product/method box may scroll. */
+/* Our visual groups exist before Apollo's late wrappers and survive re-init.
+   The native wrappers retain their selectors, without adding a second shell. */
 .ordering-process #checkoutSidebar > .cart-content,
+.ordering-process #checkoutSidebar .order-summary,
+.ordering-process #summary-box,
 .ordering-process #summary-box :is(.order-summary-top, .order-summary-bottom) {
+  display: contents;
+}
+.ordering-process #summary-box :is(.ts-checkout-summary-products, .ts-checkout-summary-prices) {
   padding: 16px;
   border: 1px solid var(--ts-color-controls-border);
   border-radius: 10px;
   background: var(--ts-color-service-bg);
 }
-.ordering-process #checkoutSidebar > .cart-content:has(.order-summary-top),
-.ordering-process #checkoutSidebar .order-summary:has(.order-summary-top),
-.ordering-process #summary-box:has(.order-summary-top) {
-  display: contents;
-}
-.ordering-process #summary-box .order-summary-top {
+.ordering-process #summary-box .ts-checkout-summary-products {
   order: 4;
   margin: 16px 0 0;
 }
-.ordering-process #summary-box .order-summary-bottom {
+.ordering-process #summary-box .ts-checkout-summary-prices {
   order: 0;
-  position: static;
-  width: auto;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -423,7 +427,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     gap: 12px;
   }
   .in-krok-2 .co-contact-information .form-group:has(.login-button) {
-    justify-self: start;
+    justify-self: center;
   }
   .in-krok-2 .co-contact-information .form-group:has(#billFullName, #email, #phone) {
     grid-template-columns: minmax(0, 1fr);
@@ -484,7 +488,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   font-size: 24px;
 }
 @media (min-width: 1200px) {
-  .ordering-process #summary-box .order-summary-top {
+  .ordering-process #summary-box .ts-checkout-summary-products {
     max-height: min(55vh, var(--ts-checkout-list-max, 55vh));
     overflow-y: auto;
     overscroll-behavior: auto;
@@ -509,16 +513,63 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     margin: 0;
     transform: none;
   }
-  .in-krok-2 .co-contact-information .form-group-content > h2 {
-    display: inline-flex;
+  .ordering-process.in-krok-2 .co-contact-information .form-group-content > h2 {
+    display: flex;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
+    justify-self: stretch;
+    width: 100%;
+    margin: 0; /* neutralize Apollo's negative full-bleed heading margins */
     gap: 8px;
-    padding: 0;
+    padding: 14px 12px;
+    background: var(--ts-color-technical-bg);
+    border-radius: 8px;
+    box-sizing: border-box;
   }
   .in-krok-2 .co-contact-information .form-group-content > h2::before {
     position: static;
     margin: 0;
     transform: none;
   }
+  .ordering-process .site-msg-custom ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .ordering-process .site-msg-custom li {
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+  }
+  .ordering-process .site-msg-custom li + li {
+    border-top: 1px solid var(--ts-color-service-divider);
+  }
+  .ordering-process .site-msg-custom li::before {
+    content: none;
+  }
+}
+
+/* Method rows remain separate from neutral product rows; native amounts remain. */
+.ordering-process #summary-box .ts-checkout-method-recap {
+  padding: 12px;
+  margin-top: 8px;
+  background: var(--ts-color-controls-active-bg);
+  border-left: 2px solid var(--ts-color-accent);
+  border-bottom: 0;
+  border-radius: 6px;
+}
+.ts-checkout-method-label {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--ts-color-accent);
+  font-weight: 600;
+}
+.ordering-process #summary-box .ts-checkout-shipping-recap [data-testid='recapItemPrice'] {
+  color: var(--ts-color-checkout-success);
+  font-weight: 700;
+}
+
+.ordering-process #summary-box .ts-checkout-method-recap > .recapitulation-shipping-billing-label {
+  display: none;
 }
