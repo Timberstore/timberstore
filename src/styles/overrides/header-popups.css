@@ -146,7 +146,7 @@
     position: static;
     flex: 0 0 auto;
     padding: 12px 16px;
-    background: var(--ts-color-service-bg);
+    background: var(--ts-color-panel-bg);
   }
 
   #cart-widget.ts-header-popup .popup-widget-inner.full + .cart-widget-button {
@@ -289,7 +289,7 @@
   background-color: var(--ts-color-technical-bg);
 }
 #cart-widget .cart-free-shipping {
-  background-color: var(--ts-color-service-bg);
+  background-color: var(--ts-color-panel-bg);
   color: var(--ts-color-controls-text);
 }
 #cart-widget .cart-free-shipping div::before {

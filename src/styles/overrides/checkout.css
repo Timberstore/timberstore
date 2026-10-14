@@ -1,5 +1,5 @@
 /* Checkout overrides scoped to native ordering components. */
-/* Checkout-local positive accents; other pages retain their existing palette. */
+/* Shared semantic tokens keep the same secondary accent before/after AJAX. */
 .ordering-process {
   --ts-color-success: var(--ts-color-checkout-success);
   --ts-color-summary-accent: var(--ts-color-positive-ink);
@@ -196,7 +196,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   order: 2;
   margin: 0;
   padding: 28px 16px 16px;
-  background: var(--ts-color-service-bg);
+  background: var(--ts-color-panel-bg);
   border: 1px solid var(--ts-color-controls-border);
   border-top: 0;
   border-radius: 0 0 10px 10px;
@@ -214,10 +214,11 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   display: contents;
 }
 .ordering-process #summary-box :is(.ts-checkout-summary-products, .ts-checkout-summary-prices) {
+  --ts-color-price-secondary: var(--ts-color-panel-muted);
   padding: 16px;
   border: 1px solid var(--ts-color-controls-border);
   border-radius: 10px;
-  background: var(--ts-color-service-bg);
+  background: var(--ts-color-panel-bg);
 }
 .ordering-process #summary-box .ts-checkout-summary-products {
   order: 4;
@@ -311,7 +312,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   order: 1;
   margin: 0;
   padding: 12px 16px 0;
-  background: var(--ts-color-service-bg);
+  background: var(--ts-color-panel-bg);
   border-inline: 1px solid var(--ts-color-controls-border);
 }
 @media (min-width: 1200px) {
@@ -339,7 +340,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   }
 }
 
-/* Keep the native selected-radio check and its geometry; unify its green disk. */
+/* Keep the native selected-radio check and its geometry; unify its secondary-accent disk. */
 .ordering-process input[type='radio']:checked + label::before {
   background-color: var(--ts-color-checkout-success);
   border-color: var(--ts-color-checkout-success);
@@ -589,7 +590,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 .ordering-process #summary-box .ts-checkout-method-recap {
   padding: 12px;
   margin-top: 8px;
-  background: var(--ts-color-controls-active-bg);
+  background: var(--ts-color-panel-bg);
   border-left: 2px solid var(--ts-color-accent);
   border-bottom: 0;
   border-radius: 6px;

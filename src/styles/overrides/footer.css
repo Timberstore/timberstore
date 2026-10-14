@@ -1,0 +1,83 @@
+/* Verified Apollo footer only; header/checkout contacts and desktop stay intact. */
+@media (max-width: 767px) {
+  #footer .ts-footer-contacts > ul:not(.contact-box-icon-list) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-block: 0 12px;
+  }
+  #footer .ts-footer-contacts > ul > li {
+    padding: 0;
+    margin: 0;
+  }
+  #footer .ts-footer-contacts > ul > li:has(.tel) {
+    order: -1;
+  }
+  #footer .ts-footer-contacts .ts-footer-contacts__hours {
+    order: 1;
+  }
+  #footer .ts-footer-contacts :is(.tel, .mail, .ts-service-bar__hours) {
+    display: grid;
+    grid-template-columns: 24px minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+    min-height: 28px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  #footer .ts-footer-contacts :is(.tel, .mail) a {
+    padding: 0;
+    line-height: 1.5;
+  }
+  #footer .ts-footer-contacts :is(.tel, .mail) a:not(:hover):not(:focus) {
+    color: var(--ts-color-muted);
+  }
+  #footer .ts-footer-contacts :is(.tel, .mail)::before {
+    position: static;
+    transform: none;
+    margin: 0;
+    width: 24px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+  }
+  #footer .ts-footer-contacts .ts-service-bar__hours {
+    color: var(--ts-color-muted);
+  }
+  #footer .ts-footer-contacts .ts-service-bar__status {
+    justify-self: center;
+  }
+  #footer .ts-footer-contacts .contact-box-icon-list {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  #footer .ts-footer-contacts .contact-box-icon {
+    display: flex;
+    width: auto;
+  }
+  #footer .ts-footer-contacts :is(.facebook, .instagram) {
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    line-height: 1;
+  }
+  #footer .ts-footer-contacts :is(.facebook, .instagram)::before {
+    position: static;
+    grid-area: 1 / 1;
+    transform: none;
+    margin: 0;
+    font-size: 28px;
+    line-height: 1;
+  }
+  #footer .ts-footer-contacts :is(.facebook, .instagram) a {
+    position: relative;
+    grid-area: 1 / 1;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+  }
+}

@@ -1031,7 +1031,7 @@ html.timber-page-loading body {
 
     /* Finálny obal a hlavička bez závislosti od .after-load */
     .box.box-categories {
-        background: var(--ts-color-service-bg) !important;
+        background: var(--ts-color-panel-bg) !important;
         border: 2px solid #E0E5EE !important;
         border-radius: 20px !important;
         padding: 30px !important;

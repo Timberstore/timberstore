@@ -2,6 +2,15 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.10 · 2026-10-14 · Kráľovská modrá a mobilný footer (preview, nevydané)
+
+- Samostatný návrh nad aktuálnym mainom/v0.6.9. Pôvodná oranžová #D4884A a jej existujúce odtiene zostávajú; zelené sémantické tokeny nahrádza #225B99 s odvodenými stavmi a bielymi CTA textami/číslicami krokov.
+- RAL 9002 aproximácia #D7D5CB v dotknutých boxoch/sidebaroch/súhrnoch; zdroj rs-colors uvádza farebné vzorky RAL. Biele polia, desktop footer a rozloženie horných kontaktov sa nemenia. Súvisiace sekundárne texty sú lokálne tmavšie kvôli kontrastu.
+- Mobilný footer: jednotné riadky telefón/e-mail/hodiny, zarovnané pôvodné sociálne ikony. Hodiny používajú existujúcu spoločnú logiku a timer, desktop odstraňuje vlastné doplnenie.
+- Nefunkčný Apollo loading.gif nahradený lokálnym CSS indikátorom so zachovaním natívnej Colorbox logiky a reduced motion.
+- Desktop/mobil, natívny košík/checkout/AJAX/refresh a koncové CTA stavy overené lokálne bez odoslania objednávky. Modré CTA s bielym malým textom 6,94:1. Audit všetkých zelených deklarácií, výnimky, presné farby a výsledky: `docs/previews/palette-v0610/README.md`.
+- Lint/build prešli. Klient 14. 10. 2026 schválil CSS limit 20,5 kB iba pre preview 0.6.10; CSS 20,32 kB, JS 22,32 / 30 kB. Samostatná preview vetva, žiadny merge, tag ani produkčné nasadenie.
+
 ## v0.6.9 · 2026-10-14 · Košík, checkout a kontakty
 
 Produkcia: klient nasadil 14. 10. 2026; overené živé načítanie v0.6.9 bez preview aj nákupný priechod po posledný krok bez odoslania objednávky. Detail nasadenia a drobný nález Apollo assetu: `ADMIN-CHANGES.md`.

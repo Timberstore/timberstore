@@ -7,19 +7,22 @@ const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 // The approved v0.6.5 build retains its 16 kB CSS allowance; other versions
 // use the standard 15 kB budget until a separate change is approved.
 // v0.6.9 retains its approved 19.75 kB allowance on release (2026-10-14).
+// v0.6.10 preview only: client approved 20.5 kB CSS (2026-10-14).
 // Preview allowances: v0.6.6 17 kB, v0.6.7 18.25 kB, v0.6.8 18.75 kB.
 const cssBudgetKiB =
-  pkg.version === '0.6.9'
-    ? 19.75
-    : pkg.version === '0.6.8'
-      ? 18.75
-      : pkg.version === '0.6.7'
-        ? 18.25
-        : pkg.version === '0.6.6'
-          ? 17
-          : pkg.version === '0.6.5'
-            ? 16
-            : 15;
+  pkg.version === '0.6.10'
+    ? 20.5
+    : pkg.version === '0.6.9'
+      ? 19.75
+      : pkg.version === '0.6.8'
+        ? 18.75
+        : pkg.version === '0.6.7'
+          ? 18.25
+          : pkg.version === '0.6.6'
+            ? 17
+            : pkg.version === '0.6.5'
+              ? 16
+              : 15;
 const BUDGET = { 'dist/timber.min.js': 30 * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
 
 const common = {

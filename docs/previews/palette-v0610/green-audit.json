@@ -1,0 +1,236 @@
+{
+  "baseline": "bf464db",
+  "baselineDeclarations": [
+    {
+      "file": "src/styles/tokens.css",
+      "line": 16,
+      "hex": "#439d29",
+      "text": "--ts-color-positive: #439d29; /* fresh shared green: large white CTA text */"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 17,
+      "hex": "#3a841f",
+      "text": "--ts-color-positive-cta: #3a841f; /* uniform surface supports small white legal copy */"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 18,
+      "hex": "#31771c",
+      "text": "--ts-color-positive-ink: #31771c; /* small text / small white-text backing */"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 24,
+      "hex": "#e8f5ed",
+      "text": "--ts-color-success-bg: #e8f5ed;"
+    },
+    {
+      "file": "src/legacy/list-view/list-view.css",
+      "line": 329,
+      "hex": "#2E9C42",
+      "text": "background: #2E9C42 !important;"
+    },
+    {
+      "file": "src/legacy/list-view/list-view.css",
+      "line": 545,
+      "hex": "#2E9C42",
+      "text": "color: #2E9C42 !important;"
+    },
+    {
+      "file": "src/styles/overrides/product-card.css",
+      "line": 65,
+      "hex": "#2e7d32",
+      "text": "[style*='#2e7d32' i]"
+    },
+    {
+      "file": "src/styles/overrides/product-card.css",
+      "line": 91,
+      "hex": "#2e7d32",
+      "text": ")[style*='#2e7d32' i] {"
+    }
+  ],
+  "semanticReferences": [
+    {
+      "file": "src/styles/tokens.css",
+      "line": 24,
+      "declaration": "--ts-color-positive: var(--ts-accent-secondary);"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 25,
+      "declaration": "--ts-color-positive-cta: var(--ts-accent-secondary);"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 26,
+      "declaration": "--ts-color-positive-ink: var(--ts-accent-secondary);"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 27,
+      "declaration": "--ts-color-checkout-success: var(--ts-color-positive);"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 28,
+      "declaration": "--ts-color-checkout-cta: var(--ts-color-positive-cta);"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 30,
+      "declaration": "--ts-color-summary-accent: var(--ts-color-positive-ink);"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 31,
+      "declaration": "--ts-color-success: var(--ts-color-positive);"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 32,
+      "declaration": "--ts-color-success-bg: #edf3f9;"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "line": 53,
+      "declaration": "--ts-color-service-open: var(--ts-color-positive);"
+    },
+    {
+      "file": "src/modules/header-service-bar/header-service-bar.css",
+      "line": 2,
+      "declaration": "background: var(--ts-color-service-open);"
+    },
+    {
+      "file": "src/styles/overrides/cart-modal.css",
+      "line": 49,
+      "declaration": "background: var(--ts-color-success-bg);"
+    },
+    {
+      "file": "src/styles/overrides/cart-modal.css",
+      "line": 51,
+      "declaration": "box-shadow: inset 0 0 0 1px var(--ts-color-success);"
+    },
+    {
+      "file": "src/styles/overrides/cart-modal.css",
+      "line": 54,
+      "declaration": "color: var(--ts-color-success);"
+    },
+    {
+      "file": "src/styles/overrides/cart-presentation.css",
+      "line": 203,
+      "declaration": "border: 1px solid var(--ts-color-success);"
+    },
+    {
+      "file": "src/styles/overrides/cart-presentation.css",
+      "line": 401,
+      "declaration": "color: var(--ts-color-summary-accent);"
+    },
+    {
+      "file": "src/styles/overrides/cart-presentation.css",
+      "line": 471,
+      "declaration": "background: var(--ts-color-success);"
+    },
+    {
+      "file": "src/styles/overrides/cart-presentation.css",
+      "line": 476,
+      "declaration": "color: var(--ts-color-positive);"
+    },
+    {
+      "file": "src/styles/overrides/cart-presentation.css",
+      "line": 505,
+      "declaration": "background: var(--ts-color-checkout-cta);"
+    },
+    {
+      "file": "src/styles/overrides/cart-presentation.css",
+      "line": 506,
+      "declaration": "border-color: var(--ts-color-checkout-cta);"
+    },
+    {
+      "file": "src/styles/overrides/cart-presentation.css",
+      "line": 647,
+      "declaration": "color: var(--ts-color-summary-accent);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 4,
+      "declaration": "--ts-color-success: var(--ts-color-checkout-success);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 5,
+      "declaration": "--ts-color-summary-accent: var(--ts-color-positive-ink);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 20,
+      "declaration": "background: var(--ts-color-checkout-success);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 72,
+      "declaration": "--ts-step-bg: var(--ts-color-checkout-success);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 154,
+      "declaration": "background: var(--ts-color-success-bg);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 291,
+      "declaration": "color: var(--ts-color-summary-accent);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 345,
+      "declaration": "background-color: var(--ts-color-checkout-success);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 346,
+      "declaration": "border-color: var(--ts-color-checkout-success);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 349,
+      "declaration": "border-color: var(--ts-color-checkout-success);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 352,
+      "declaration": "color: var(--ts-color-positive-ink);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 355,
+      "declaration": "color: var(--ts-color-positive-ink) !important; /* native availability inline colour */"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 516,
+      "declaration": "color: var(--ts-color-positive-ink);"
+    },
+    {
+      "file": "src/styles/overrides/checkout.css",
+      "line": 605,
+      "declaration": "color: var(--ts-color-positive-ink);"
+    },
+    {
+      "file": "src/styles/overrides/information-message.css",
+      "line": 19,
+      "declaration": "background: var(--ts-color-success-bg);"
+    },
+    {
+      "file": "src/styles/overrides/information-message.css",
+      "line": 20,
+      "declaration": "border-color: var(--ts-color-success);"
+    },
+    {
+      "file": "src/styles/overrides/product-card.css",
+      "line": 92,
+      "declaration": "color: var(--ts-color-positive-ink) !important; /* native inline availability */"
+    }
+  ],
+  "note": "Legacy src/legacy/list-view/list-view.css is archived, not bundled. Hex #2e7d32 in product-card CSS is a selector for native inline stock colour, not an emitted green declaration."
+}

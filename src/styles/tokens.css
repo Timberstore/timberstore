@@ -10,18 +10,26 @@
   --ts-color-price: #252b32;
   --ts-color-field-border: #828f99;
   --ts-color-rank-steel: #84919b;
-  --ts-color-support-bg: #f9f4ed;
+  /* RAL 9002 sRGB approximation from rs-colors (RAL swatches); see preview audit. */
+  --ts-color-panel-bg: #d7d5cb;
+  --ts-color-panel-muted: #535560;
+  --ts-color-support-bg: var(--ts-color-panel-bg);
   --ts-color-rank-bronze: #ae8064;
   --ts-color-step-bg: #e9eaed;
-  --ts-color-positive: #439d29; /* fresh shared green: large white CTA text */
-  --ts-color-positive-cta: #3a841f; /* uniform surface supports small white legal copy */
-  --ts-color-positive-ink: #31771c; /* small text / small white-text backing */
+  /* Preview secondary accent; primary Timber orange remains unchanged. */
+  --ts-accent-secondary: #225b99;
+  --ts-accent-secondary-hover: #1d4e83;
+  --ts-accent-secondary-pressed: #183f6b;
+  --ts-accent-secondary-disabled: #4374a8;
+  --ts-color-positive: var(--ts-accent-secondary);
+  --ts-color-positive-cta: var(--ts-accent-secondary);
+  --ts-color-positive-ink: var(--ts-accent-secondary);
   --ts-color-checkout-success: var(--ts-color-positive);
   --ts-color-checkout-cta: var(--ts-color-positive-cta);
   --ts-checkout-contacts-width: 920px; /* final desktop contact surface */
   --ts-color-summary-accent: var(--ts-color-positive-ink);
   --ts-color-success: var(--ts-color-positive);
-  --ts-color-success-bg: #e8f5ed;
+  --ts-color-success-bg: #edf3f9;
   --ts-color-warning: var(--ts-color-controls-active);
   --ts-color-warning-bg: #fff3df;
   --ts-color-error: #b83b43;
@@ -95,11 +103,11 @@
    without !important; only basket colour hooks are re-owned, not geometry. */
 body {
   --basket-bg: var(--ts-color-technical-bg);
-  --basket-free-delivery-bg: var(--ts-color-service-bg);
+  --basket-free-delivery-bg: var(--ts-color-panel-bg);
   --basket-free-delivery-top-bg: var(--ts-color-accent);
   --basket-choose-box-bg: var(--ts-color-technical-bg);
   --basket-choose-box-border: var(--ts-color-controls-border);
-  --basket-discount-bg: var(--ts-color-controls-active-bg);
+  --basket-discount-bg: var(--ts-color-panel-bg);
 }
 
 /* Breakpoints (CSS custom properties can't be used in media queries —

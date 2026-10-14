@@ -155,6 +155,7 @@ function onScroll() {
 
 function onBreakpoint() {
   closeHeaderPopups(true);
+  syncFooter();
   syncEmail();
   syncCartTrigger();
   schedulePosition();
@@ -180,6 +181,27 @@ function addHours(contacts) {
   dot.setAttribute('aria-hidden', 'true');
   hours.append(dot, document.createTextNode(TEXTS.header.hours));
   contacts.prepend(hours);
+}
+
+function syncFooter() {
+  for (const contacts of document.querySelectorAll(SEL.footerContacts)) {
+    const list = contacts.querySelector(SEL.footerContactList);
+    if (!list) continue;
+    const existing = list.querySelector('.ts-footer-contacts__hours');
+    if (desktop.matches) {
+      existing?.remove();
+      contacts.classList.remove('ts-footer-contacts');
+      continue;
+    }
+    contacts.classList.add('ts-footer-contacts');
+    if (!existing) {
+      const hours = document.createElement('li');
+      hours.className = 'ts-footer-contacts__hours';
+      addHours(hours); // Same formatter, status updates and timer as the header.
+      list.append(hours);
+    }
+  }
+  updateHours();
 }
 
 function syncCartContacts() {
@@ -384,6 +406,7 @@ export default {
   name: 'header-service-bar',
   pages: ['*'],
   init(root) {
+    syncFooter();
     const bar = root.querySelector(SEL.headerServiceBar);
     const contacts = root.querySelector(SEL.headerContacts);
     if (bar && contacts) {

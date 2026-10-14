@@ -37,3 +37,10 @@
 .sidebar ol.top-products li:nth-child(3) {
   --ts-rank: var(--ts-color-rank-bronze);
 }
+
+/* Panel-only RAL surface; unrelated page whites and header surfaces stay intact. */
+.sidebar {
+  --color-tertiary: var(--ts-color-panel-bg);
+  --ts-color-price-secondary: var(--ts-color-panel-muted);
+  --ts-color-muted: var(--ts-color-panel-muted);
+}

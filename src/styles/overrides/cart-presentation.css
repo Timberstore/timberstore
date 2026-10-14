@@ -470,6 +470,11 @@
 .in-kosik .ts-cart-shipping-complete .price-range > div {
   background: var(--ts-color-success);
 }
+/* Apollo's free-delivery glyph is on a display:contents host and has a
+   hardcoded green rule with greater specificity than the ordinary icon. */
+.in-kosik #cart-wrapper .ts-cart-shipping-complete .extra.delivery::before {
+  color: var(--ts-color-positive);
+}
 .in-kosik #cart-wrapper .summary-wrapper :is(.box, .next-step) {
   padding: 0;
   border: 0;
@@ -499,7 +504,7 @@
   order: 0;
   background: var(--ts-color-checkout-cta);
   border-color: var(--ts-color-checkout-cta);
-  transition: filter 160ms ease;
+  transition: background-color 160ms ease;
   color: var(--ts-color-bg);
   font-weight: 700;
 }
@@ -534,10 +539,12 @@
 }
 
 #cart-wrapper :where(.cart-summary) {
+  --ts-color-price-secondary: var(--ts-color-panel-muted);
+  --ts-color-muted: var(--ts-color-panel-muted);
   padding: 16px;
   border: 1px solid var(--ts-color-controls-border);
   border-radius: 10px;
-  background: var(--ts-color-service-bg);
+  background: var(--ts-color-panel-bg);
 }
 .in-kosik #cart-wrapper .cart-summary {
   margin: 16px 0 0;
@@ -643,18 +650,22 @@
 /* One uniform contrast surface supports both white CTA label sizes. */
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):hover {
-  filter: brightness(0.96);
+  background: var(--ts-accent-secondary-hover);
+  border-color: var(--ts-accent-secondary-hover);
   color: var(--ts-color-bg);
 }
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):focus-visible {
-  outline: 2px solid var(--ts-color-text);
+  outline: 2px solid var(--ts-accent-secondary);
   outline-offset: 3px;
 }
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):is(:disabled, [aria-disabled='true'], .disabled) {
-  opacity: 0.55;
+  opacity: 1;
+  background: var(--ts-accent-secondary-disabled);
+  border-color: var(--ts-accent-secondary-disabled);
   filter: none;
+  cursor: not-allowed;
 }
 .ordering-process .next-step-finish .order-button-suffix {
   display: block;
@@ -674,4 +685,11 @@
   position: static !important;
   top: auto !important;
   transform: none;
+}
+
+/* Pressed secondary CTA keeps the legal suffix on the same contrast surface. */
+:is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
+  :is(.next-step-forward, .next-step-finish):active:not(:disabled):not([aria-disabled='true']):not(.disabled) {
+  background: var(--ts-accent-secondary-pressed);
+  border-color: var(--ts-accent-secondary-pressed);
 }

@@ -63,3 +63,26 @@
 .extras-wrap .price-range > div {
   background-color: var(--ts-color-accent);
 }
+
+/* Apollo's loading.gif URL returns 404. Keep its loading hook, draw locally. */
+#colorbox #cboxLoadingGraphic {
+  background: none;
+}
+#colorbox #cboxLoadingGraphic::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  border: 2px solid var(--ts-color-controls-border);
+  border-top-color: var(--ts-color-accent);
+  border-radius: 50%;
+  animation: ts-colorbox-loading 0.8s linear infinite;
+}
+@keyframes ts-colorbox-loading {
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  #colorbox #cboxLoadingGraphic::after { animation: none; }
+}

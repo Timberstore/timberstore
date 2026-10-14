@@ -92,6 +92,8 @@ export const SEL = {
     '#header .header-top .top-nav-button-login, #header .header-top .top-nav-button-account',
   socialFacebook: 'a[data-testid="contactboxFacebook"][href]',
   socialInstagram: 'a[data-testid="contactboxInstagram"][href]',
+  footerContacts: '#footer .custom-footer__contact .contact-box',
+  footerContactList: ':scope > ul:not(.contact-box-icon-list)',
   headerRow: '#header .header-top',
   headerCart: '#header .header-top [data-testid="headerCart"]',
   headerCartControls: '[data-testid="headerCart"]',

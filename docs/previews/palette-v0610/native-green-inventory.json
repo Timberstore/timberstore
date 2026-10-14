@@ -1,0 +1,345 @@
+{
+  "source": "Live Apollo CSS snapshot, green declarations; native third-party source is not edited",
+  "rules": [
+    {
+      "selector": ".cookiesSetting__button--green",
+      "nativeDeclarations": "background-color:#007C47;margin-top:10px",
+      "greenHex": [
+        "#007C47"
+      ]
+    },
+    {
+      "selector": ".cookiesSetting__button--green:hover",
+      "nativeDeclarations": "color:#ffffff;background-color:#007C47",
+      "greenHex": [
+        "#007C47"
+      ]
+    },
+    {
+      "selector": ".foo",
+      "nativeDeclarations": "color:green",
+      "greenHex": []
+    },
+    {
+      "selector": ".advanced-parameter-inner.yes-before",
+      "nativeDeclarations": "border-color:#7dc001;color:#7dc001",
+      "greenHex": [
+        "#7dc001",
+        "#7dc001"
+      ]
+    },
+    {
+      "selector": ".msg.msg-success,.msg.msg-notice",
+      "nativeDeclarations": "border-color:#66bf3a;color:#ffffff;background-color:#66bf3a",
+      "greenHex": [
+        "#66bf3a",
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".for-free",
+      "nativeDeclarations": "color:#7dc001",
+      "greenHex": [
+        "#7dc001"
+      ]
+    },
+    {
+      "selector": ".price-range>div",
+      "nativeDeclarations": "background-color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": "a.conversion,.link-like.conversion",
+      "nativeDeclarations": "color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": "a.conversion:hover,.link-like.conversion:hover,a.conversion:focus,.link-like.conversion:focus",
+      "nativeDeclarations": "color:#509130",
+      "greenHex": [
+        "#509130"
+      ]
+    },
+    {
+      "selector": ".price-save",
+      "nativeDeclarations": "color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".flag.flag-freeshipping",
+      "nativeDeclarations": "background-color:#aed721",
+      "greenHex": [
+        "#aed721"
+      ]
+    },
+    {
+      "selector": ".p-gift-name a,.p-gift-name a:hover,.p-gift-name a:focus",
+      "nativeDeclarations": "color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".free-gift-sublabel",
+      "nativeDeclarations": "color:#7dc001",
+      "greenHex": [
+        "#7dc001"
+      ]
+    },
+    {
+      "selector": ".summary-thx",
+      "nativeDeclarations": "color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": "input[type=\"radio\"]:checked+label::before",
+      "nativeDeclarations": "border-color:#66bf3a;background-color:#66bf3a",
+      "greenHex": [
+        "#66bf3a",
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".radio-wrapper input[type=\"checkbox\"]:checked+label,.radio-wrapper input[type=\"radio\"]:checked+label",
+      "nativeDeclarations": "background-color:#e8f5e2;border-color:#94cf79;background-color:var(--basket-choose-box-bg);border-color:var(--basket-choose-box-border)",
+      "greenHex": [
+        "#94cf79"
+      ]
+    },
+    {
+      "selector": ".radio-wrapper.active label>.payment-shipping-price",
+      "nativeDeclarations": "color:#569c34",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": ":root",
+      "nativeDeclarations": "--side-panel-header-bg:#292929;--side-panel-header-color:#ffffff;--basket-bg:#e8f5e2;--basket-choose-box-bg:#e8f5e2;--basket-choose-box-border:#94cf79;--basket-discount-bg:#fed9de;--basket-free-delivery-bg:#e6eaf8;--basket-free-delivery-top-bg:#d0d8f2;--footer-bg:#292929;--footer-bottom-bg:#0f0f0f;--footer-bottom-color:#ffffff;--footer-color:#7c7e8f;--footer-color-hover:#ffffff;--footer-highlighted-color:var(--color-primary);--header-bg:#292929;--header-color:#7c7e8f;--header-color-hover:#ffffff;--header-secondary-navigation-color:#7c7e8f;--colors-surface-primary:#fff;--colors-surface-secondary:#f6f6f6;--colors-surface-tertiary:#ccc;--colors-surface-disabled:#d1d1d1;--colors-surface-overlay:#ffffffa6;--colors-surface-white:#fff;--colors-surface-rating:#b87800;--colors-focus-primary:#09367e;--colors-focus-secondary:#fff;--colors-foregrounds-headlines-primary:#1f1f1f;--colors-foregrounds-content-primary:#1f1f1f;--colors-foregrounds-content-secondary:#4d4d4d;--colors-foregrounds-content-tertiary:#767676;--colors-foregrounds-content-inverted:#fff;--colors-foregrounds-icons-primary:#7b7575;--colors-foregrounds-borders-primary:#919191;--colors-foregrounds-borders-secondary:#dadada;--colors-forms-background:#fff;--colors-forms-border:#919191;--colors-forms-activated:#3f7e88;--colors-forms-informative:#3531ff;--colors-forms-positive:#2a5c0a;--colors-forms-warning:#c75300;--colors-forms-critical:#d33a36;--colors-forms-disabled:#ebebeb;--colors-state-danger:#d33a36;--colors-state-warning:#c75300;--colors-state-informative:#3531ff;--colors-state-success:#3c840f;--colors-tags-green:#3c840f;--colors-tags-pink:#d34343;--colors-tags-red:#d00000;--colors-tags-yellow:#ffc702;--colors-tags-blue:#086df7;--colors-tags-turquoise:#008392",
+      "greenHex": [
+        "#94cf79",
+        "#2a5c0a",
+        "#3c840f",
+        "#3c840f"
+      ]
+    },
+    {
+      "selector": ".cookie-ag-wrap .site-msg .btn",
+      "nativeDeclarations": "background-color:#66bf3a;border-color:#66bf3a;color:#ffffff",
+      "greenHex": [
+        "#66bf3a",
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".cookie-ag-wrap .site-msg .btn:hover",
+      "nativeDeclarations": "background-color:#569c34;border-color:#569c34;color:#ffffff",
+      "greenHex": [
+        "#569c34",
+        "#569c34"
+      ]
+    },
+    {
+      "selector": "#colorbox .free-gifts label:hover .free-gift-info",
+      "nativeDeclarations": "background-color:#51982e;border-color:#51982e",
+      "greenHex": [
+        "#51982e",
+        "#51982e"
+      ]
+    },
+    {
+      "selector": "#colorbox .free-gift-info",
+      "nativeDeclarations": "padding:0 15px;min-width:140px;display:inline-flex;align-items:center;justify-content:center;font-weight:400;height:50px;box-shadow:0 3px 6px rgba(0,0,0,0.12);border-radius:25px;text-transform:none;color:#ffffff;text-align:center;background-color:#66bf3a;border-color:#66bf3a;font-size:14px;transition:background-color 250ms ease-out",
+      "greenHex": [
+        "#66bf3a",
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".cart-free-shipping.is-free-shipping:before,.cart-free-shipping.is-free-shipping:after",
+      "nativeDeclarations": "background-color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".cart-free-shipping.is-free-shipping div:before",
+      "nativeDeclarations": "color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".cart-free-shipping.is-free-shipping div strong",
+      "nativeDeclarations": "color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".entrance-protection .btn",
+      "nativeDeclarations": "border-color:#66bf3a;background-color:#66bf3a;min-width:160px;color:#ffffff",
+      "greenHex": [
+        "#66bf3a",
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".entrance-protection .btn:hover",
+      "nativeDeclarations": "color:#ffffff;border-color:#51982e;background-color:#51982e",
+      "greenHex": [
+        "#51982e",
+        "#51982e"
+      ]
+    },
+    {
+      "selector": ".p-image-wrapper .flag.flag-freeshipping",
+      "nativeDeclarations": "background-color:#aed721",
+      "greenHex": [
+        "#aed721"
+      ]
+    },
+    {
+      "selector": ".extras-wrap .extra-item.is-free-shipping .extra.delivery::before",
+      "nativeDeclarations": "color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".extras-wrap .extra-item.is-free-shipping span strong",
+      "nativeDeclarations": "color:#66bf3a",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".radio-wrapper input[type=\"radio\"]+label:hover",
+      "nativeDeclarations": "background-color:#e8f5e2;border-color:#94cf79;background-color:var(--basket-choose-box-bg);border-color:var(--basket-choose-box-border)",
+      "greenHex": [
+        "#94cf79"
+      ]
+    },
+    {
+      "selector": ".cart-item.cart-item-gift .cart-item-name:before",
+      "nativeDeclarations": "content:\"\\e91d\";position:absolute;top:2px;left:0;font-size:8px;font-family:apollo;color:#66bf3a;display:inline-block;vertical-align:middle;margin-right:3px",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".for-free",
+      "nativeDeclarations": "color:#569c34",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": ".recapitulation-single>strong span",
+      "nativeDeclarations": "color:#569c34;font-style:normal",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": ".price-wrapper .price.price-primary",
+      "nativeDeclarations": "color:#569c34;font-size:18px",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": ".order-summary-heading",
+      "nativeDeclarations": "padding-top:0!important;color:#569c34;font-weight:700;font-size:26px;margin-bottom:20px;line-height:1.2",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": ".recapitulation-wrapper-box .order-summary-item.summary-thx",
+      "nativeDeclarations": "display:none;font-size:16px;color:#569c34;margin-bottom:0",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": ".recapitulation-wrapper-box .order-number strong:last-child",
+      "nativeDeclarations": "color:#569c34",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": ".free-gift-info",
+      "nativeDeclarations": "color:#66bf3a;font-weight:700;text-transform:uppercase;font-size:12px",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".shipping-options-popup .h1:not(.advanced-order-suggestion),.advanced-order .h1:not(.advanced-order-suggestion)",
+      "nativeDeclarations": "position:relative;height:60px;background:#66bf3a;border-radius:20px 20px 0 0;display:flex;align-items:center;padding-left:60px;color:white;font-weight:500;font-size:14px;margin:-40px -20px 20px;padding-right:70px;text-align:left;line-height:1.4",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".shipping-options-popup h1:not(.advanced-order-suggestion)",
+      "nativeDeclarations": "position:relative;height:60px;background:#66bf3a;border-radius:20px 20px 0 0;display:flex;align-items:center;padding-left:60px;color:white;font-weight:500;font-size:14px;margin:-51px -21px 20px;padding-right:70px;text-align:left;line-height:1.4",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": ".ao-quantity:after",
+      "nativeDeclarations": "content:'\\e91c';font-family:'apollo';position:absolute;top:50%;right:0;display:block;font-size:18px;color:#66bf3a;transform:translateY(-50%)",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": "#cboxClose.cboxClose--shipping",
+      "nativeDeclarations": "background:#66bf3a !important;border-radius:20px",
+      "greenHex": [
+        "#66bf3a"
+      ]
+    },
+    {
+      "selector": "body .dklabZakoupeno .num,body .dklabZakoupeno .unit",
+      "nativeDeclarations": "color:#569c34;font-weight:700",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": "body .fvDoplnek-text .fvDoplnek-text .price",
+      "nativeDeclarations": "color:#569c34 !important",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": "body .fvDoplnek-text .upsell-product-tooltip::after",
+      "nativeDeclarations": "background-color:#569c34 !important",
+      "greenHex": [
+        "#569c34"
+      ]
+    },
+    {
+      "selector": ".express-checkout",
+      "nativeDeclarations": "--express-checkout-max-width:550px;--express-checkout-width:100%;--express-checkout-max-height:90vh;--express-checkout-height:auto;--express-checkout-color-black:#000;--express-checkout-color-white:#fff;--express-checkout-color-gray:#6f6f6f;--express-checkout-color-gray-light:#cfcfcf;--express-checkout-color-green:#2a861d;--express-checkout-color-red:#e60000;--express-checkout-spacing-xs:4px;--express-checkout-spacing-sm:8px;--express-checkout-spacing-md:12px;--express-checkout-spacing-base:16px;--express-checkout-spacing-lg:24px;--express-checkout-spacing-xl:32px;--express-checkout-spacing-xxl:48px",
+      "greenHex": [
+        "#2a861d"
+      ]
+    }
+  ],
+  "scope": "Our positive roles and the mandatory delivery icon are mapped by the own component CSS. Native cookies/security gate/gift-only/express-checkout/confirmation/add-on presentation outside those components is audited here, not indiscriminately restyled."
+}
