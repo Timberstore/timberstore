@@ -81,3 +81,13 @@ body
 #products:not(.products-related) > .product a.name:hover {
   color: var(--ts-color-accent);
 }
+
+/* Our verified stock-text treatment shares the readable positive variant. */
+body
+  :is(
+    .availability > span,
+    .availability-label,
+    .cart-related-availability > span
+  )[style*='#2e7d32' i] {
+  color: var(--ts-color-positive-ink) !important; /* native inline availability */
+}

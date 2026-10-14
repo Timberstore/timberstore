@@ -2,7 +2,7 @@
 /* Checkout-local positive accents; other pages retain their existing palette. */
 .ordering-process {
   --ts-color-success: var(--ts-color-checkout-success);
-  --ts-color-summary-accent: var(--ts-color-checkout-success);
+  --ts-color-summary-accent: var(--ts-color-positive-ink);
 }
 /* Only colour, using the native active/completed step classes and counters. */
 body ol.cart-header li :is(a, strong),
@@ -18,7 +18,7 @@ body ol.cart-header li.active :is(a, strong) {
 }
 ol.cart-header li.active :is(a, strong) span::before {
   background: var(--ts-color-checkout-success);
-  color: var(--ts-color-bg);
+  color: var(--ts-color-text);
 }
 ol.cart-header li.completed :is(a, strong) span::before {
   background: var(--ts-color-controls-text);
@@ -70,7 +70,7 @@ ol.cart-header li.completed :is(a, strong) span::before {
 }
 .ordering-process ol.cart-header li.active {
   --ts-step-bg: var(--ts-color-checkout-success);
-  --ts-step-fg: var(--ts-color-bg);
+  --ts-step-fg: var(--ts-color-text);
 }
 .ordering-process ol.cart-header li.completed {
   --ts-step-bg: var(--ts-color-controls-text);
@@ -298,6 +298,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   flex-direction: column;
   position: static !important; /* native fixSidebar writes inline position/top */
   top: auto !important;
+  transform: none;
   padding: 0;
   margin-top: 16px;
 }
@@ -342,10 +343,10 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   border-color: var(--ts-color-checkout-success);
 }
 .ordering-process .msg-success::before {
-  color: var(--ts-color-checkout-success);
+  color: var(--ts-color-positive-ink);
 }
 .ordering-process .ts-checkout-in-stock {
-  color: var(--ts-color-checkout-success) !important; /* native availability inline colour */
+  color: var(--ts-color-positive-ink) !important; /* native availability inline colour */
   text-transform: uppercase;
 }
 .ordering-process .site-msg-custom .ts-checkout-dispatch-accent {
@@ -426,8 +427,34 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     grid-template-columns: minmax(0, 1fr);
     gap: 12px;
   }
-  .in-krok-2 .co-contact-information .form-group:has(.login-button) {
-    justify-self: center;
+  .ordering-process.in-krok-2 .co-contact-information .form-group:has(.login-button) {
+    display: flex;
+    justify-content: center;
+    justify-self: stretch;
+    width: 100%;
+    padding: 0;
+  }
+  .ordering-process.in-krok-2 .co-contact-information .form-control-wrapper:has(.login-button) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body.ordering-process.in-krok-2 .co-contact-information .login-button {
+    background: var(--ts-color-accent);
+    border-color: var(--ts-color-accent);
+    color: var(--ts-color-text);
+    font-weight: 600;
+    margin: 0;
+    transition: filter 160ms ease; /* do not animate from Apollo's white label */
+  }
+  body.ordering-process.in-krok-2 .co-contact-information .login-button:hover {
+    filter: brightness(0.96);
+  }
+  body.ordering-process.in-krok-2 .co-contact-information .login-button:focus-visible {
+    outline: 2px solid var(--ts-color-text);
+    outline-offset: 3px;
   }
   .in-krok-2 .co-contact-information .form-group:has(#billFullName, #email, #phone) {
     grid-template-columns: minmax(0, 1fr);
@@ -477,7 +504,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 }
 
 .ordering-process .ts-checkout-stock-accent {
-  color: var(--ts-color-checkout-success);
+  color: var(--ts-color-positive-ink);
   font-weight: 600;
 }
 .ordering-process #summary-box .cart-item-amount .unit-value {
@@ -489,13 +516,9 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 }
 @media (min-width: 1200px) {
   .ordering-process #summary-box .ts-checkout-summary-products {
-    max-height: min(55vh, var(--ts-checkout-list-max, 55vh));
+    max-height: 55vh;
     overflow-y: auto;
     overscroll-behavior: auto;
-  }
-  .ordering-process #checkoutSidebar.ts-checkout-sticky-ready {
-    position: sticky !important;
-    top: var(--ts-checkout-sticky-top) !important; /* native fixSidebar writes top */
   }
 }
 
@@ -526,8 +549,12 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     border-radius: 8px;
     box-sizing: border-box;
   }
-  .in-krok-2 .co-contact-information .form-group-content > h2::before {
+  .ordering-process.in-krok-2 .co-contact-information .form-group-content > h2::before {
     position: static;
+    inset: auto;
+    float: none;
+    flex: 0 0 auto;
+    width: auto;
     margin: 0;
     transform: none;
   }
@@ -566,7 +593,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   font-weight: 600;
 }
 .ordering-process #summary-box .ts-checkout-shipping-recap [data-testid='recapItemPrice'] {
-  color: var(--ts-color-checkout-success);
+  color: var(--ts-color-positive-ink);
   font-weight: 700;
 }
 

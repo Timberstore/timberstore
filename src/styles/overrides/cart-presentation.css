@@ -639,7 +639,7 @@
   color: var(--ts-color-summary-accent);
 }
 
-/* The darker checkout CTA shade supports white text and the legal suffix. */
+/* Large white labels use the fresh green; small legal copy has a contrast backing. */
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):hover {
   filter: brightness(0.96);
@@ -660,16 +660,20 @@
   font-size: 12px;
   line-height: 1.35;
   white-space: nowrap;
+  margin-top: 3px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  background: var(--ts-color-positive-ink);
 }
 @media (min-width: 1200px) {
   .ordering-process {
     --ts-checkout-cta-width: 67%;
   }
-  .in-kosik #cart-wrapper .cart-summary {
-    position: sticky;
-    top: var(--ts-checkout-sticky-top) !important; /* Apollo .cart-row .col-md-4 forces top: 0 */
-    max-height: calc(100vh - var(--ts-checkout-sticky-top) - 16px);
-    overflow-y: auto;
-    overscroll-behavior: auto;
-  }
+}
+
+/* No floating basket summary; native Apollo writes inline top/position. */
+.in-kosik #cart-wrapper .cart-summary {
+  position: static !important;
+  top: auto !important;
+  transform: none;
 }

@@ -7,7 +7,6 @@ import { syncRows } from './rows.js';
 import {
   syncCheckoutPriceAccents,
   syncCheckoutDispatchNote,
-  syncCheckoutSummaryLayout,
   syncCheckoutSummaryStructure,
 } from './checkout.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
@@ -36,7 +35,6 @@ function syncPresentation() {
   syncCheckoutSummaryStructure();
   syncCheckoutPriceAccents();
   syncCheckoutDispatchNote();
-  syncCheckoutSummaryLayout();
 }
 
 function syncSummary() {

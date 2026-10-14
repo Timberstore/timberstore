@@ -114,7 +114,6 @@ export const SEL = {
   checkoutNativeProductPanel: '.order-summary-top',
   checkoutNativePricePanel: '.order-summary-bottom',
   checkoutMethodRecaps: '#shipping-billing-summary > .recapitulation-single',
-  checkoutPinnedParts: '.ts-checkout-summary-prices, .preauthorization-box, .consents, .next-step',
   checkoutSummary: '.ordering-process #summary-box',
   checkoutSidebar: '.ordering-process #checkoutSidebar',
   checkoutMethods: '.in-krok-1 .order-delivery-payment-form',
