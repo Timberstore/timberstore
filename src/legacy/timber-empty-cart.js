@@ -1,3 +1,5 @@
+import { SEL } from '../core/selectors.js';
+
 export function initLegacyEmptyCart() {
 
     function isEmptyCart() {
@@ -451,6 +453,10 @@ export function initLegacyEmptyCart() {
     /* ORANŽOVÉ SPÄŤ DO OBCHODU - PC AJ MOBIL */
 
     function styleBottomBackButton() {
+
+        // The populated cart's native back link is now owned by cart-presentation.
+        // Keep this legacy CTA styling only for the empty-cart feature.
+        if (document.querySelector(SEL.cartItems)) return;
 
         var elements = document.querySelectorAll("a, button");
         var found = [];

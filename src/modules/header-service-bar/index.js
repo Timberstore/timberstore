@@ -1,10 +1,12 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
+import { SOCIALS, CONTACT_FORM, CHECKOUT_CONTACT_FORM } from '../../core/contacts.js';
 import { isBusinessOpen } from './business-hours.js';
 
 let observer;
 let popupStateObserver;
+let contactObserver;
 let listenersBound = false;
 let frame = 0;
 let hoursTimer;
@@ -129,6 +131,8 @@ function onResize() {
 }
 
 function syncPopupState() {
+  syncCartContacts();
+  syncMenu();
   for (const [selector, state] of [
     [`${SEL.headerCartControls}, ${SEL.headerCartArrow}`, 'cart'],
     [SEL.headerAccount, 'login'],
@@ -167,6 +171,118 @@ function updateHours() {
   }
 }
 
+function addHours(contacts) {
+  if (contacts.querySelector('.ts-service-bar__hours')) return;
+  const hours = document.createElement('span');
+  hours.className = 'ts-service-bar__hours';
+  const dot = document.createElement('span');
+  dot.className = 'ts-service-bar__status';
+  dot.setAttribute('aria-hidden', 'true');
+  hours.append(dot, document.createTextNode(TEXTS.header.hours));
+  contacts.prepend(hours);
+}
+
+function syncCartContacts() {
+  for (const panel of document.querySelectorAll(SEL.cartHelp)) {
+    panel.classList.add('ts-cart-contacts');
+    const title = panel.querySelector(SEL.cartHelpTitle);
+    if (title && title.textContent !== TEXTS.cart.help) title.textContent = TEXTS.cart.help;
+    const list = panel.querySelector(SEL.cartHelpList);
+    if (!list) continue;
+    list.classList.add('ts-service-bar');
+    let hours = list.querySelector('.ts-cart-contact-hours');
+    if (!hours) {
+      hours = document.createElement('li');
+      hours.className = 'ts-cart-contact-hours';
+      list.prepend(hours);
+    }
+    addHours(hours);
+    let socials = list.querySelector('.ts-cart-contact-socials');
+    if (!socials) {
+      socials = document.createElement('li');
+      socials.className = 'ts-cart-contact-socials';
+      list.append(socials);
+    }
+    addSocial(socials, SEL.socialFacebook, 'facebook');
+    addSocial(socials, SEL.socialInstagram, 'instagram');
+    const email = list.querySelector(SEL.cartHelpEmail);
+    if (email) {
+      if (email.getAttribute('href') !== CHECKOUT_CONTACT_FORM)
+        email.setAttribute('href', CHECKOUT_CONTACT_FORM);
+      if (!email.classList.contains('ts-cart-contact-link'))
+        email.classList.add('ts-cart-contact-link');
+    }
+    const phone = list.querySelector(SEL.cartHelpPhone);
+    if (phone) {
+      // Apollo wrapInner creates an outer tel link around the existing one.
+      // Keep the original leaf anchor, rather than nested interactive elements.
+      const outer = phone.parentElement;
+      if (outer?.tagName === 'A' && outer.getAttribute('href') === phone.getAttribute('href'))
+        outer.replaceWith(...outer.childNodes);
+      const formatted = phone.textContent
+        .trim()
+        .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
+      if (phone.textContent !== formatted) phone.textContent = formatted;
+      if (!phone.classList.contains('ts-cart-contact-link'))
+        phone.classList.add('ts-cart-contact-link');
+    }
+  }
+}
+
+function syncMenu() {
+  for (const contacts of document.querySelectorAll(SEL.mobileMenuContacts)) {
+    // Apollo clones contacts separately; enrich that clone, never the categories.
+    contacts.querySelector('.ts-menu-support')?.remove();
+    addHours(contacts);
+    let title = contacts.querySelector('.ts-menu-contact-title');
+    if (!title) {
+      title = contacts.querySelector(SEL.mobileContactTitle) || document.createElement('strong');
+      title.classList.add('ts-menu-contact-title');
+      title.textContent = TEXTS.header.contactTitle;
+      contacts.prepend(title);
+    }
+    const email = contacts.querySelector(SEL.headerEmail);
+    const wrapper = email?.closest('.ts-service-bar__email');
+    if (wrapper) {
+      const source = document.querySelector(SEL.headerContacts)?.querySelector(SEL.headerEmail);
+      const href = emailOriginal.get(source)?.href || source?.getAttribute('href');
+      if (href?.startsWith('mailto:')) email.setAttribute('href', href);
+      const label = wrapper.querySelector('.ts-service-bar__email-label');
+      if (label) email.append(label);
+      wrapper.replaceWith(email);
+    }
+    const support = contacts.querySelector('.ts-service-bar__hours');
+    addSocial(contacts, SEL.socialFacebook, 'facebook');
+    addSocial(contacts, SEL.socialInstagram, 'instagram');
+    let socials = contacts.querySelector('.ts-menu-socials');
+    if (!socials) {
+      socials = document.createElement('span');
+      socials.className = 'ts-menu-socials';
+      contacts.append(socials);
+    }
+    for (const link of contacts.querySelectorAll(':scope > [data-ts-social]')) socials.append(link);
+    const phone = contacts.querySelector(SEL.headerPhoneLabel);
+    if (phone) {
+      // Apollo wrapInner creates an outer tel link around the existing one.
+      // Keep the original leaf anchor, rather than nested interactive elements.
+      const outer = phone.parentElement;
+      if (outer?.tagName === 'A' && outer.getAttribute('href') === phone.getAttribute('href'))
+        outer.replaceWith(...outer.childNodes);
+      const formatted = phone.textContent
+        .trim()
+        .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
+      if (phone.textContent !== formatted) phone.textContent = formatted;
+    }
+    let previous = title;
+    for (const node of [contacts.querySelector(SEL.contactPhone), email, support, socials]) {
+      if (!node) continue;
+      if (node.previousElementSibling !== previous) previous.after(node);
+      previous = node;
+    }
+  }
+  updateHours();
+}
+
 function syncEmail() {
   const contacts = document.querySelector(SEL.headerContacts);
   const email = contacts?.querySelector(SEL.headerEmail);
@@ -186,7 +302,7 @@ function syncEmail() {
     return;
   }
   const source = document.querySelector(SEL.headerContactForm);
-  if (!source || wrapper) return;
+  if (wrapper) return;
   const label = email.querySelector('span');
   if (!label) return;
   emailOriginal.set(email, {
@@ -199,7 +315,7 @@ function syncEmail() {
   email.before(group);
   group.append(email, label);
   label.classList.add('ts-service-bar__email-label');
-  email.href = source.href;
+  email.href = source?.href || CONTACT_FORM;
   email.setAttribute('aria-label', TEXTS.header.contactForm);
 }
 
@@ -234,14 +350,15 @@ function schedulePosition() {
 function addSocial(contacts, selector, network) {
   if (contacts.querySelector(`[data-ts-social="${network}"]`)) return;
   const source = document.querySelector(selector);
-  // No invented URLs: if Apollo stops supplying the footer social link,
-  // leave that network out until its destination is configured in Shoptet.
-  if (!source) return;
+  // Prefer native configured destinations; use the verified shared fallback
+  // when checkout removes the footer before module initialization.
+  const href = source?.href || SOCIALS[network];
+  if (!href) return;
   const link = document.createElement('a');
   link.className = `ts-service-bar__social${network === 'instagram' ? ' icon-instagram' : ''}`;
   link.dataset.tsSocial = network;
-  link.href = source.href;
-  link.target = source.target;
+  link.href = href;
+  link.target = source?.target || '_blank';
   link.rel = 'noopener noreferrer';
   link.setAttribute('aria-label', TEXTS.header[network]);
   link.title = TEXTS.header[network];
@@ -277,15 +394,7 @@ export default {
         // Keep the native mobile controls and any configured language tools.
         tools.classList.add('ts-service-bar__mobile-only');
       }
-      if (!contacts.querySelector('.ts-service-bar__hours')) {
-        const hours = document.createElement('span');
-        hours.className = 'ts-service-bar__hours';
-        const dot = document.createElement('span');
-        dot.className = 'ts-service-bar__status';
-        dot.setAttribute('aria-hidden', 'true');
-        hours.append(dot, document.createTextNode(TEXTS.header.hours));
-        contacts.prepend(hours);
-      }
+      addHours(contacts);
       const phone = contacts.querySelector(SEL.headerPhoneLabel);
       if (phone) {
         phone.textContent = phone.textContent.replace(
@@ -305,6 +414,16 @@ export default {
       }
     }
     syncCartTrigger();
+    // Apollo creates/moves this bar at DOM ready, before its after-load body
+    // class. Enrich in the same rendering turn, not on a later window.load.
+    const checkout = root.querySelector(SEL.checkoutContactRoot);
+    if (checkout && !contactObserver) {
+      contactObserver = new MutationObserver(() => {
+        syncCartContacts();
+        updateHours();
+      });
+      contactObserver.observe(checkout, { childList: true, subtree: true });
+    }
     // Apollo's old breakpoint offsets cannot follow the compact icon/cart row.
     // Observe only header geometry; keep native popup markup and handlers.
     if (!observer) observer = new ResizeObserver(schedulePosition);

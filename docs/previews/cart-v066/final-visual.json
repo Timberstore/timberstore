@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Secondary back button smaller than Continue",
+    "Mobile AJAX DOM / desktop return / full related title 320",
+    "Mobile AJAX DOM / desktop return / full related title 375",
+    "Mobile AJAX DOM / desktop return / full related title 390",
+    "Mobile AJAX DOM / desktop return / full related title 414",
+    "Mobile AJAX DOM / desktop return / full related title 768",
+    "Mobile AJAX DOM / desktop return / full related title 1024",
+    "Mobile AJAX DOM / desktop return / full related title 1440",
+    "Mobile AJAX DOM / desktop return / full related title 1600",
+    "Mobile AJAX DOM / desktop return / full related title 1920"
+  ],
+  "errors": []
+}

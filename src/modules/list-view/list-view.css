@@ -339,6 +339,7 @@
 
   /* availability (native element, keeps the colour set in the Shoptet admin) */
   .ts-view-list #products:not(.products-related) .availability {
+    --ts-stock-font-size: 14px;
     grid-area: avail !important;
     position: static !important;
     margin: 0 !important;
@@ -350,7 +351,7 @@
     transform: none !important;
   }
 
-  .ts-view-list #products:not(.products-related) .availability * {
+  .ts-view-list #products:not(.products-related) .availability *:not([style]) {
     font: inherit !important;
   }
 

@@ -4,24 +4,24 @@
    and let oversized content scroll inside the popup.
    !important is required because Colorbox writes dimensions inline. */
 @media (max-width: 767px) {
-  #colorbox {
+  #colorbox:has(.advanced-order) {
     left: 8px !important;
     width: calc(100vw - 16px) !important;
   }
 
-  #cboxWrapper,
-  #cboxContent,
-  #cboxLoadedContent {
+  #colorbox:has(.advanced-order) #cboxWrapper,
+  #colorbox:has(.advanced-order) #cboxContent,
+  #colorbox:has(.advanced-order) #cboxLoadedContent {
     width: 100% !important;
   }
 
-  #colorbox,
-  #cboxWrapper,
-  #cboxContent {
+  #colorbox:has(.advanced-order),
+  #colorbox:has(.advanced-order) #cboxWrapper,
+  #colorbox:has(.advanced-order) #cboxContent {
     max-height: calc(100vh - 16px) !important;
   }
 
-  #cboxLoadedContent {
+  #colorbox:has(.advanced-order) #cboxLoadedContent {
     box-sizing: border-box;
     height: auto !important;
     max-height: calc(100vh - 32px) !important;
@@ -32,13 +32,13 @@
   }
 
   @supports (height: 100dvh) {
-    #colorbox,
-    #cboxWrapper,
-    #cboxContent {
+    #colorbox:has(.advanced-order),
+    #colorbox:has(.advanced-order) #cboxWrapper,
+    #colorbox:has(.advanced-order) #cboxContent {
       max-height: calc(100dvh - 16px) !important;
     }
 
-    #cboxLoadedContent {
+    #colorbox:has(.advanced-order) #cboxLoadedContent {
       max-height: calc(100dvh - 32px) !important;
     }
   }

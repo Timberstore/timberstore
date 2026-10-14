@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "cart summary / current step / no overflow 320",
+    "cart summary / current step / no overflow 375",
+    "cart summary / current step / no overflow 390",
+    "cart summary / current step / no overflow 414",
+    "cart summary / current step / no overflow 768",
+    "cart summary / current step / no overflow 1024",
+    "cart summary / current step / no overflow 1440",
+    "cart summary / current step / no overflow 1920",
+    "shipping step 320",
+    "shipping step 375",
+    "shipping step 390",
+    "shipping step 414",
+    "shipping step 768",
+    "shipping step 1024",
+    "shipping step 1440",
+    "shipping step 1920",
+    "customer summary / current step 320",
+    "customer summary / current step 375",
+    "customer summary / current step 390",
+    "customer summary / current step 414",
+    "customer summary / current step 768",
+    "customer summary / current step 1024",
+    "customer summary / current step 1440",
+    "customer summary / current step 1920"
+  ],
+  "errors": [],
+  "orderSubmitted": false
+}

@@ -154,6 +154,10 @@ function dispose() {
   restore(state.sortMove);
   state.wrapper.classList.remove('ts-mobile-category-source');
   document.body.classList.toggle(SEL.categoryFilterRowClass, state.wasRowFilter);
+  // Apollo can move wrappers outside our root during its delayed row setup.
+  // Dispose our own panels explicitly after restoring all native nodes.
+  state.filterPanel.remove();
+  state.sortPanel.remove();
   state.root.remove();
   state = null;
 }
@@ -194,7 +198,9 @@ function refresh() {
   slot.className = 'ts-mobile-category__slot';
   const filterPanel = document.createElement('div');
   filterPanel.id = 'ts-mobile-category-filters';
-  filterPanel.className = 'ts-mobile-category__panel ts-mobile-category__filters filters-wrapper';
+  // Apollo relocates every .filters-wrapper on desktop resize. This popover
+  // must not be mistaken for its native layout wrapper.
+  filterPanel.className = 'ts-mobile-category__panel ts-mobile-category__filters';
   const footer = document.createElement('div');
   footer.className = 'ts-mobile-category__footer';
   const reset = filters.querySelector(SEL.categoryFilterReset);

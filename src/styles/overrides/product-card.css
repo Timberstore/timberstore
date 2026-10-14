@@ -58,6 +58,15 @@ body :is(.btn-primary, .btn-conversion, .btn-cart),
 .availability-label[style*='#c97a2b' i] {
   color: var(--ts-color-warning) !important;
 }
+/* Only verified native stock-text colours; prices, icons and counts stay intact. */
+body
+  :is(.availability > span, .availability-label, .cart-related-availability > span):is(
+    [style*='#c97a2b' i],
+    [style*='#2e7d32' i]
+  ) {
+  font-size: var(--ts-stock-font-size, 13px);
+  font-weight: 700;
+}
 
 /* Restore the verified v0.6.1 listing CTA palette locally. Native Apollo still
    supplies its height, radius, padding, font and cart glyph. Other CTAs keep
@@ -71,4 +80,14 @@ body :is(.btn-primary, .btn-conversion, .btn-cart),
 /* Keep the requested orange title hover using the original brand orange. */
 #products:not(.products-related) > .product a.name:hover {
   color: var(--ts-color-accent);
+}
+
+/* Our verified stock-text treatment shares the readable positive variant. */
+body
+  :is(
+    .availability > span,
+    .availability-label,
+    .cart-related-availability > span
+  )[style*='#2e7d32' i] {
+  color: var(--ts-color-positive-ink) !important; /* native inline availability */
 }

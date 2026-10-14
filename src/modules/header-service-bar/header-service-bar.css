@@ -1,3 +1,24 @@
+.ts-service-bar__hours[data-open='true'] .ts-service-bar__status {
+  background: var(--ts-color-service-open);
+}
+.ts-service-bar__social::before {
+  font-family: apollo;
+  font-size: var(--ts-service-icon-size);
+  line-height: 1;
+}
+.ts-service-bar__social-icon {
+  width: var(--ts-service-icon-size);
+  height: var(--ts-service-icon-size);
+  fill: var(--ts-color-accent);
+}
+.ts-service-bar__status {
+  flex: 0 0 var(--ts-service-status-size);
+  width: var(--ts-service-status-size);
+  height: var(--ts-service-status-size);
+  background: var(--ts-color-accent);
+  border-radius: 50%;
+}
+
 /* Additions never appear in the native mobile header or its cloned menu. */
 .ts-service-bar__hours,
 .ts-service-bar__social {
@@ -5,41 +26,17 @@
 }
 
 @media (min-width: 768px) {
-  .ts-service-bar .ts-service-bar__social {
+  .ts-service-bar :is(.ts-service-bar__social, .ts-service-bar__hours) {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     min-width: var(--ts-service-icon-size);
   }
 
-  .ts-service-bar__social::before {
-    font-family: apollo;
-    font-size: var(--ts-service-icon-size);
-    line-height: 1;
-  }
-
-  .ts-service-bar__social-icon {
-    width: var(--ts-service-icon-size);
-    height: var(--ts-service-icon-size);
-    fill: var(--ts-color-accent);
-  }
-
   .ts-service-bar__hours {
     align-items: center;
     gap: var(--ts-space-2);
     white-space: nowrap;
-  }
-
-  .ts-service-bar__status {
-    flex: 0 0 var(--ts-service-status-size);
-    width: var(--ts-service-status-size);
-    height: var(--ts-service-status-size);
-    background: var(--ts-color-accent);
-    border-radius: 50%;
-  }
-
-  .ts-service-bar__hours[data-open='true'] .ts-service-bar__status {
-    background: var(--ts-color-service-open);
   }
 
   .ts-service-bar__email {
@@ -74,12 +71,6 @@
     outline: 2px solid var(--ts-color-controls-active);
     outline-offset: 3px;
     border-radius: 2px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .ts-service-bar .ts-service-bar__hours {
-    display: inline-flex;
   }
 }
 
@@ -145,5 +136,332 @@
 @media (prefers-reduced-motion: reduce) {
   .ts-cart-preview-toggle::after {
     transition: none;
+  }
+}
+
+/* Enrich only Apollo's existing mobile-menu contact clone. */
+@media (max-width: 767px) {
+  #header .navigation-in-bottom .top-navigation-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  #header .navigation-in-bottom :is(.project-phone, .project-email)::before {
+    color: var(--ts-color-accent);
+  }
+  #header .navigation-in-bottom .ts-menu-contact-title {
+    display: block;
+    color: var(--ts-color-controls-text);
+  }
+  #header .navigation-in-bottom .ts-service-bar__hours {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--ts-color-controls-text);
+    font-size: 13px;
+  }
+  .ts-menu-socials {
+    display: flex;
+    justify-content: center;
+  }
+  #header .navigation-in-bottom .ts-menu-socials a {
+    padding: 0;
+    display: inline-flex;
+    width: 28px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    color: var(--ts-color-accent);
+  }
+  #header .navigation-in-bottom .top-navigation-bar-menu {
+    border-top: 1px solid var(--ts-color-controls-border);
+    padding-top: 12px;
+  }
+}
+/* Same native contact links and service indicators, including checkout. */
+.ts-cart-contacts .contact-box > ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+}
+.ts-cart-contacts .contact-box > ul > li {
+  margin: 0;
+}
+.ts-cart-contacts .contact-box > ul > li:has(.tel) {
+  order: 1;
+}
+.ts-cart-contacts .contact-box > ul > li:has(.mail) {
+  order: 2;
+}
+.ts-cart-contacts .ts-cart-contact-socials {
+  order: 3;
+}
+.ts-cart-contacts :is(.ts-service-bar__hours, .ts-service-bar__social, .ts-cart-contact-socials) {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+#content .ts-cart-contacts :is(.mail, .tel)::before {
+  color: var(--ts-color-accent);
+  font-size: var(--ts-service-icon-size);
+}
+.ts-cart-contacts .contact-box {
+  font-size: var(--ts-service-font-size);
+}
+.ts-cart-contacts a:hover {
+  color: var(--ts-color-accent);
+}
+.ts-cart-contacts .ts-service-bar__hours {
+  font-size: var(--ts-service-font-size);
+}
+
+/* Apollo hides later contact list entries in checkout; reveal only the requested contacts. */
+#content
+  .ts-cart-contacts
+  .contact-box
+  > ul
+  > :is(li:has(.tel, .mail), .ts-cart-contact-socials, .ts-cart-contact-hours) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  flex: 0 0 auto;
+  padding: 0;
+  white-space: nowrap;
+}
+#content .ts-cart-contacts .contact-box :is(.tel, .ts-service-bar__social) {
+  display: inline-flex;
+  align-items: center;
+  color: var(--ts-color-accent);
+}
+#content .ts-cart-contacts .tel a {
+  color: var(--ts-color-controls-text);
+}
+@media (min-width: 768px) {
+  #header .top-navigation-contacts > .ts-service-bar__social {
+    display: inline-flex;
+  }
+}
+
+/* Apollo's fixed contact widths do not account for hours/socials. Let the
+   surface grow with its contents and wrap whole contact blocks when needed. */
+.ordering-process #content .cart-header__contact {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  min-width: 0;
+  flex: 0 1 auto;
+  margin: 16px 0 0;
+}
+.ordering-process #content .ts-cart-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  max-width: 100%;
+  height: auto;
+  padding: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  background: var(--ts-color-service-bg);
+}
+.ordering-process #content .ts-cart-contacts > h2 {
+  width: auto;
+  max-width: 100%;
+  flex: 0 1 auto;
+  margin: 0;
+  font-size: var(--ts-service-font-size);
+}
+.ordering-process #content .ts-cart-contacts > .box {
+  flex: 0 1 auto;
+  width: auto;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.ordering-process #content .ts-cart-contacts .contact-box > ul {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+}
+@media (min-width: 1200px) {
+  .ordering-process #content .cart-header__headline {
+    min-width: 0;
+    max-width: none;
+    width: auto;
+    flex: 0 0 auto;
+  }
+  .ordering-process #content .cart-header__contact {
+    margin-left: auto;
+    padding-left: 24px;
+  }
+  /* Reserve the final surface while Apollo's webfont settles. */
+  .ordering-process #content .ts-cart-contacts {
+    width: var(--ts-checkout-contacts-width);
+    line-height: 20px;
+  }
+}
+
+/* Keep Apollo's span icons; stretch the real link's hit area over the icon. */
+.ordering-process #content .ts-cart-contacts .contact-box a.ts-cart-contact-link {
+  display: inline-flex;
+  position: static;
+  padding-left: 28px;
+  transition: color 160ms ease; /* native all-transition also animates link geometry */
+}
+.ordering-process #content .ts-cart-contacts .ts-cart-contact-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+/* Replace Apollo's span padding + link padding with one real icon/text gap. */
+@media (min-width: 768px) {
+  .ordering-process #content .ts-cart-contacts > .box {
+    flex: 1 1 auto;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box,
+  .ordering-process #content .ts-cart-contacts .contact-box > ul {
+    width: 100%;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul {
+    column-gap: 18px;
+  }
+  .ordering-process #content .ts-cart-contacts .ts-cart-contact-socials {
+    margin-left: auto;
+  }
+  .ordering-process #content .ts-cart-contacts :is(.tel, .mail) {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .ordering-process #content .ts-cart-contacts :is(.tel, .mail)::before {
+    position: static;
+    inset: auto;
+    transform: none;
+    width: auto;
+    min-width: 18px;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+  .ordering-process #content .ts-cart-contacts .mail {
+    gap: 12px;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box a.ts-cart-contact-link {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .ordering-process #content .ts-cart-contacts {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .ordering-process #content .ts-cart-contacts > :is(h2, .box) {
+    width: 100%;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box {
+    display: block;
+    width: 100%;
+    max-width: none;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul {
+    display: grid;
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 8px 0;
+    padding: 0;
+    list-style: none;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box :is(li, a) {
+    min-height: 32px;
+    line-height: 1.4;
+  }
+  .ordering-process #content .ts-cart-contacts > h2 {
+    font-size: calc(var(--ts-service-font-size) + 1px);
+    text-align: center;
+  }
+  .ordering-process #content .ts-cart-contacts .ts-cart-contact-hours {
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul > li:has(.tel, .mail) {
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+    padding-inline: 6px;
+    white-space: normal;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul > li:has(.mail) {
+    border-left: 1px solid var(--ts-color-service-divider);
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul > .ts-cart-contact-socials {
+    display: none;
+  }
+  .ordering-process #content .ts-cart-contacts :is(.tel, .mail) {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    white-space: normal;
+  }
+  .ordering-process #content .ts-cart-contacts :is(.tel, .mail)::before {
+    position: static;
+    inset: auto;
+    transform: none;
+    width: 20px;
+    min-width: 20px;
+    padding: 0;
+    flex: 0 0 20px;
+    display: block;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1;
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box a.ts-cart-contact-link {
+    align-items: center;
+    padding: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    font-size: 12px;
+    text-align: center;
+  }
+  .ordering-process #content .ts-cart-contacts .ts-service-bar__hours {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 0;
+    padding: 0; /* native contact li > span otherwise reserves an icon column */
+    gap: 8px;
+    font-size: var(--ts-service-font-size);
+  }
+  .ordering-process #content .ts-cart-contacts .ts-service-bar__status {
+    position: static;
+    display: block;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 359px) {
+  .ordering-process #content .ts-cart-contacts .contact-box a.ts-cart-contact-link {
+    font-size: 11px;
   }
 }

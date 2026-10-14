@@ -18,3 +18,12 @@ export function getCartQuantities() {
   }
   return map;
 }
+
+/** Native shipping eligibility/threshold metadata; never invent a fallback limit. */
+export function getCartInfo() {
+  try {
+    return window.getShoptetDataLayer?.('cartInfo') || null;
+  } catch {
+    return null;
+  }
+}

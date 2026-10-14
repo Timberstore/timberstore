@@ -1,0 +1,35 @@
+{
+  "checks": [
+    "Compact native footer: 6 px progress, original shop link visible",
+    "Main cart native AJAX quantity 100",
+    "Digit sizing fixture 1 at seven widths",
+    "Digit sizing fixture 100 at seven widths",
+    "Digit sizing fixture 1000 at seven widths",
+    "Digit sizing fixture 9500 at seven widths",
+    "Digit sizing fixture 10000 at seven widths",
+    "Quantity restored to 1 through native AJAX",
+    "Related native add-to-cart submitted exactly 2000, min/step 1000 respected",
+    "Shipping progress above configured native threshold",
+    "Shipping progress recalculated below threshold after AJAX",
+    "Remove product updates native shipping progress",
+    "Fresh mobile Apollo DOM and desktop-to-mobile resize both fit",
+    "Mini-cart typed amount and minus update actual native cart",
+    "State persists after reload",
+    "Repeated lifecycle initialization: one plus produces one AJAX update",
+    "Native secondary back-to-shop link navigates safely"
+  ],
+  "quantityDiagnosis": {
+    "client": {
+      "config": 9999,
+      "min": "1",
+      "max": "9999"
+    },
+    "pack": {
+      "min": "1000",
+      "step": "1000",
+      "max": "9999"
+    }
+  },
+  "errors": [],
+  "orderSubmitted": false
+}

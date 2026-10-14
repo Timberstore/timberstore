@@ -225,3 +225,11 @@
   min-width: 18px;
   width: auto;
 }
+/* Apollo animates the closed desktop menu across checkout on a narrow resize.
+   A closed mobile menu must not paint or intercept the contact links below. */
+@media (max-width: 767px) {
+  .ordering-process:not(.navigation-window-visible) #navigation {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}

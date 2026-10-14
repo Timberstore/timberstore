@@ -1,0 +1,2490 @@
+{
+  "baseline": "v0.6.5",
+  "checks": "Homepage/category header, navigation, benefits, product title/price/quantity/CTA unchanged at 10 widths",
+  "runs": {
+    "v065": {
+      "/320": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 265,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 301.9,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "16px",
+            "border": "0px",
+            "width": 112.5,
+            "height": 41.6
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 213,
+            "height": 70
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 213,
+            "height": 19.2
+          }
+        ]
+      },
+      "/375": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 320,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 356.4,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "16px",
+            "border": "0px",
+            "width": 140,
+            "height": 41.6
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 268,
+            "height": 70
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 268,
+            "height": 19.2
+          }
+        ]
+      },
+      "/390": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 335,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 371.3,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "16px",
+            "border": "0px",
+            "width": 147.5,
+            "height": 20.8
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 283,
+            "height": 70
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 283,
+            "height": 19.2
+          }
+        ]
+      },
+      "/414": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 359,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 395,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "16px",
+            "border": "0px",
+            "width": 159.5,
+            "height": 20.8
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 307,
+            "height": 70
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 307,
+            "height": 19.2
+          }
+        ]
+      },
+      "/768": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 203.6,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 707,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 258.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 273.5,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 177.8,
+            "height": 28
+          }
+        ]
+      },
+      "/1024": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 428.6,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 932,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 215.7,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 237.3,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 154.3,
+            "height": 28
+          }
+        ]
+      },
+      "/1366": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 444.2,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1138,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 189.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 306,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 198.9,
+            "height": 28
+          }
+        ]
+      },
+      "/1440": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 249.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 269.5,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 175.2,
+            "height": 28
+          }
+        ]
+      },
+      "/1600": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 249.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 269.5,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 175.2,
+            "height": 28
+          }
+        ]
+      },
+      "/1920": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 249.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 269.5,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 175.2,
+            "height": 28
+          }
+        ]
+      },
+      "/uchytky/320": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 265,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 301.9,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/375": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 320,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 356.4,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/390": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 335,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 371.3,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/414": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 359,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 395,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/768": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 203.6,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 707,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1024": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 428.6,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 932,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1366": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 444.2,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1138,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1440": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1600": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1920": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      }
+    },
+    "v066": {
+      "/320": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 265,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 301.9,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "16px",
+            "border": "0px",
+            "width": 112.5,
+            "height": 41.6
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 213,
+            "height": 70
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 213,
+            "height": 19.2
+          }
+        ]
+      },
+      "/375": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 320,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 356.4,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "16px",
+            "border": "0px",
+            "width": 140,
+            "height": 41.6
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 268,
+            "height": 70
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 268,
+            "height": 19.2
+          }
+        ]
+      },
+      "/390": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 335,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 371.3,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "16px",
+            "border": "0px",
+            "width": 147.5,
+            "height": 20.8
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 283,
+            "height": 70
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 283,
+            "height": 19.2
+          }
+        ]
+      },
+      "/414": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 359,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 395,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "16px",
+            "border": "0px",
+            "width": 159.5,
+            "height": 20.8
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 307,
+            "height": 70
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 307,
+            "height": 19.2
+          }
+        ]
+      },
+      "/768": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 203.6,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 707,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 258.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 273.5,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 177.8,
+            "height": 28
+          }
+        ]
+      },
+      "/1024": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 428.6,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 932,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 215.7,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 237.3,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 154.3,
+            "height": 28
+          }
+        ]
+      },
+      "/1366": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 444.2,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1138,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 189.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 306,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 198.9,
+            "height": 28
+          }
+        ]
+      },
+      "/1440": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 249.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 269.5,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 175.2,
+            "height": 28
+          }
+        ]
+      },
+      "/1600": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 249.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 269.5,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 175.2,
+            "height": 28
+          }
+        ]
+      },
+      "/1920": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title",
+            "color": "rgb(66, 62, 62)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "20px",
+            "border": "0px",
+            "width": 249.5,
+            "height": 26
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "18px",
+            "border": "0px",
+            "width": 269.5,
+            "height": 70.2
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 175.2,
+            "height": 28
+          }
+        ]
+      },
+      "/uchytky/320": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 265,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 301.9,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/375": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 320,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 356.4,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/390": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 335,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 371.3,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/414": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 359,
+            "height": 60
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgb(255, 255, 255)",
+            "font": "14px",
+            "border": "0px",
+            "width": 395,
+            "height": 1000
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/768": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 203.6,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 707,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1024": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 428.6,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 932,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1366": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 444.2,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1138,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1440": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1600": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      },
+      "/uchytky/1920": {
+        "overflow": false,
+        "items": [
+          {
+            "s": "#header .site-name",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 200,
+            "height": 44
+          },
+          {
+            "s": "#header .search",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 500,
+            "height": 50
+          },
+          {
+            "s": "#navigation",
+            "color": "rgb(85, 111, 209)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 1378,
+            "height": 60
+          },
+          {
+            "s": ".benefitBanner__title"
+          },
+          {
+            "s": ".product .p-tools .btn-cart"
+          },
+          {
+            "s": ".product .ts-qty-input"
+          },
+          {
+            "s": ".product .name",
+            "color": "rgb(15, 15, 15)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "s": ".product .price-final",
+            "color": "rgb(37, 43, 50)",
+            "background": "rgba(0, 0, 0, 0)",
+            "font": "14px",
+            "border": "0px",
+            "width": 0,
+            "height": 0
+          }
+        ]
+      }
+    }
+  }
+}

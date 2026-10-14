@@ -2,6 +2,93 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+## v0.6.9 · 2026-10-14 · Košík, checkout a kontakty
+
+Súhrn schválených zmien od posledného vydania v0.6.5 (vývojové preview 0.6.6–0.6.9):
+
+- Prehľadnejšie desktopové aj mobilné produktové riadky košíka: názvy, kódy, dostupnosť, množstvo, jednotková a celková cena, odstránenie. Na mobile kompaktný spoločný riadok a oddelené ceny; pružné pole pre vysoké množstvá so zachovaním natívnych limitov a násobkov.
+- Zjednotené množstvo v hlavnom košíku, mini-košíku a súvisiacom tovare; pri súvisiacich produktoch natívne pridanie zvoleného množstva, celé názvy a overené produktové údaje.
+- Súhrn košíka s pôvodným dátumom doručenia, progressom dopravy zdarma a oboma tlačidlami v jednom paneli. Zelené checkout CTA, čitateľné aktívne kroky a sekundárne tlačidlá Späť.
+- Konzistentné súhrny vo všetkých krokoch objednávky, ceny a hlavná akcia pred zoznamom produktov; oddelené kartičky Doprava/Platba. Statický sidebar a vnútorný desktopový scroll dlhého zoznamu, bez preskakovania pri inicializácii Apollo/AJAX.
+- Kompaktné kontakty v checkoute: spoločné hodiny/stav podpory, telefón, kontaktný formulár a sociálne odkazy; správne medzery ikon. Mobilné menu s prehľadnými kontaktmi a rovnakou logikou otváracích hodín.
+- Zjednotená dostupnosť a informačné vety: iba SKLADOM zelené a CENTRÁLNE SKLADY oranžové; zachované reálne ceny, termíny a skladové údaje.
+- Opravené duplicitné mobilné filter panely pri resize a prekrytie kontaktov zatvoreným mobilným menu. Zachované pôvodné filtre, radenie, GRID/LIST, formuláre, košík a AJAX.
+- Zachovaná existujúca produkčná oprava mobilnej galérie z 12. 10.: mobilné Colorbox rozmery sa vzťahujú len na add-to-cart popup a touch-only mouseout nespúšťa neotvorenú lupu. Oprava je teraz v zdrojových moduloch namiesto lokálneho CSS a podmienky loadera viazanej na v0.6.5.
+- Overenie: regresná kontrola homepage/kategórie/detailu/košíka, 320–1920 px, radenie, filtre/reset, AJAX, 15 rôznych produktov a checkout bez odoslania objednávky; cielené overenie resize a interného scrollu. Lint/build prešli. Schválený CSS rozpočet 19,75 kB sa pri vydaní nemení; JS 30 kB.
+- Skutočné iOS Safari, externé platby/výdajné miesta a odoslanie objednávky neboli automaticky dokončené. PageSpeed mobil pred/po: nemerané. Publikovanie GitHub release samo neprepína živý Shoptet; postup a rollback: `docs/releases/v0.6.9.md`.
+
+### Vývojové záznamy preview 0.6.9 (historické)
+
+
+- Opravy po regresnej kontrole (14. 10.): mobilný filter už nepoužíva natívnu triedu `filters-wrapper`, ktorá spôsobovala premiestňovanie a zvyšné duplicitné obaly pri resize. Teardown explicitne odstráni vlastné panely po obnovení natívnych uzlov. Zatvorené mobilné menu v checkoute počas prechodu šírky neprekrýva kontaktné odkazy; otvorenie ostáva pod natívnym Apollo stavom. Bez zásahu do cien, formulárov a produkcie. Lint/build v existujúcom limite. Detail: `docs/previews/cart-v069/regression-resize-fixes.md`.
+
+- Malý follow-up nad `5264c2b`: desktopová obálka mala prirodzenú šírku 25,4 px v 18 px boxe, preto opticky pohltila skoro celú medzeru. Glyph box má teraz prirodzenú šírku, e-mail 12 px odstup, telefón zostáva na 8 px. Overené 1024/1280/1366/1600/1920 px a reload; desktopový panel 920×52 pri 1280+ zachovaný, mobilné pravidlá bez zmeny. Lint/build prešli v pôvodnom limite. Príprava merge/release pozastavená na pokyn klienta, iba opravené preview.
+
+- Ďalší preview nad `850f6e0` (14. 10.): PC kontakty s reálnou 8 px medzerou ikona/text bez sčítaného Apollo paddingu; mobilné dva rovnocenné stĺpce s ikonami nad údajmi. Biele aktívne číslice, jednotná CTA plocha `#3a841f` s bielym textom (4,67:1), odstránený tmavý podklad právneho dodatku; hlavná zelená zostáva `#439d29`. Biely text pôvodného oranžového loginu obnovený. Spoločný selektor zachytí odlišný serverový DOM dopravy/platby aj v kroku 3, takže oba kroky majú rovnaké kartičky. Bez animácie responzívnych šírok sidebaru/CTA, bez floatingu. Overené všetky kroky pri 320–1920 px, natívny AJAX/15 reálnych produktov, stavové štýly a reload/klikateľné ikony. Lint/build prešli v existujúcom limite: CSS 19,71 / 19,75 kB, JS 22,18 / 30 kB. Vizuálne screenshoty, fyzický wheel/iOS a finálne odoslanie zostávajú neoverené. Bez merge/tagu/produkcie. Detail: `docs/previews/cart-v069/contacts-and-recap-followup.md`.
+
+- Ďalší preview commit 14. 10. nad `60ac444`: svieža hlavná zelená `#439d29` a nevyhnutný kontrastný textový variant `#31771c`; biele veľké CTA 3,45:1, malý právny dodatok na kontrastnom podklade 5,55:1. Zrušené vlastné sticky/floating aj merací ResizeObserver; cena/CTA stále pred produktmi, stabilný 55vh desktop limit zoznamu. Mobil: odstránené natívne prázdne odsadenie pred hodinami, dve rovnaké kontaktné polovice, zúžené prechody bez animácie rozmerov, vycentrovaná ikona/nadpis a login s pôvodnou oranžovou. Overené 320/375/390/430 px, natívne AJAX/checkout aj 15 reálnych produktov; vizuálny screenshot a fyzický wheel nedokončil testovací prehliadač, ostávajú na manuálne overenie. Lint/build prešli: CSS 19,64 / 19,75 kB, JS 22,17 / 30 kB. Bez merge/tagu/produkcie. Detail: `docs/previews/cart-v069/fresh-green-static-summary.md`.
+
+- Ďalšia dávka 14. 10. 2026 nad `7febe7e`: stabilné vizuálne obaly súhrnu pred Apollo `window.load` aj po AJAX; cena/CTA hore, produkty pod nimi. Kontakty sa dopĺňajú pri vzniku natívneho panela, desktopový povrch má stabilné rozmery. Jedna zelená `#387b20` pre checkout pozitívne stavy aj CTA (biely text 5,22:1). Oddelené riadky Doprava/Platba, zelená aj platená doprava so zachovaním reálnej sumy. Mobil: centrované kontakty/hodiny, telefón a email s deliacou čiarou, skryté sociálne ikony, kompaktné informačné bloky bez odrážok, centrovaná natívna fajka, symetrická hlavička Osobné údaje a login pod ňou. Overený natívny flow s 1 aj 15 reálnymi produktmi, AJAX, 320/360/390/430 px a notebook; fyzický wheel/iOS/odoslanie objednávky neoverené. Lint/build prešli, CSS 19,53 / schválených 19,75 kB iba pre preview 0.6.9; JS 22,53 / 30 kB. Detail a limity: `docs/previews/cart-v069/checkout-stability-2026-10-14.md`. Bez merge/tagu/produkcie.
+
+- Cielené opravy 14. 10. 2026 nad `2dea483`: potvrdený natívny `removeAttr("style")` mazal maximálnu výšku súhrnu. Limit presunutý na zoznam s bezpečným CSS fallbackom, vlastné sticky pre checkout oddelené od inline posúvania Shoptetu. Ceny/súhlasy/CTA vizuálne nad produktmi, bez presunu alebo klonovania funkčných elementov. Checkout e-mail vedie presne na `https://www.timberstore.sk/kontakty/`. Mobil: usporiadané kontaktné riadky, centrovaná informačná ikona, cena nad logom v pravom stĺpci natívnych dopráv/platieb, centrovaná skupina nadpisu Osobné údaje. Zachované natívne formy a pickup linky. Lint/build prešli bez zvýšenia rozpočtu; CSS 19,24 kB, JS 22,12 kB. Testy/limity vrátane nedokončeného fyzického wheel testu: `docs/previews/cart-v069/checkout-2026-10-14.md`.
+
+- Samostatné preview nad 0.6.8 `349c64f`, bez merge/tagu/produkčného loadera.
+- Kroky 2/3: natívny Apollo zoznam produktov/dopravy/platby ako horný box s desktop scrollom; celkové ceny, súhlasy/právne texty a pôvodné CTA mimo neho v spodnom vizuálnom boxe. Bez klonovania alebo presúvania funkčných elementov.
+- Sticky len pri dostatku miesta pre oba boxy, podľa skutočnej výšky spodného obsahu; nízky notebook používa scroll stránky, mobil bez vnoreného scrollu. Jeden idempotentný ResizeObserver, existujúci lifecycle a jediný resize handler.
+- 28 px odstup ceny/CTA, jemná typografická hierarchia názov/metadáta/cena, tlmené množstvo a jednotky, výraznejšia celková suma. Schválené farby, lomítka pri jednotkách a úzke stĺpce zachované.
+- V informačnej vete iba SKLADOM veľkými písmenami a zelenou; zvyšok vety bez zmeny. Pôvodné dostupnosti/počty a centrálny sklad bez zmeny.
+- Klient schválil 19,25 kB CSS iba pre preview 0.6.9. Lint/build prešli; CSS 18,91 kB, JS 22,13 kB gzip. Testy a výslovné obmedzenia vrátane DOM fixtures pre 10/21 položiek a ručného wheel/trackpad overenia: `docs/previews/cart-v069/checkout-summary.md`. Žiadna reálna objednávka odoslaná.
+
+## v0.6.8 · 2026-10-13 · Inkrementálne doladenie checkoutu (preview, nevydané)
+
+- Ďalšie doladenie nad `8422e56`: scroll chaining bez blokovania stránky, užší 70/30 desktop súhrn, tmavý nadpis, bold názvy/množstvá a lomítko pri jednotkách. Iba slová CENTRÁLNYCH SKLADOV oranžové; CTA tmavšia zelená s bielym textom (4,95:1). Kontakty vpravo na desktope a usporiadané vľavo na mobile, klikateľné tel/mail ikony. Osobné údaje s label/input riadkami, nadpis vedľa login buttonu bez ZÁKAZNÍCKY ÚČET; odstup nad štátom. Natívne formuláre/ceny/handlery bez zmeny. Rovnaká verzia a rozpočet; detail: `docs/previews/cart-v068/checkout-followup.md`.
+
+- Samostatné preview nad 0.6.7 `89e3505`; main, produkčný loader a tagy bez zmeny.
+- Spoločná zelená `#66BF3A` podľa natívneho Apollo indikátora vybratej dopravy: hlavné checkout CTA, aktívny krok, dostupnosť Skladom, bezplatné ceny a potvrdzovacie akcenty. Súhrnný nadpis opäť Timber oranžový; tmavé CTA texty pre čitateľný kontrast, hover/focus/disabled stavy. Ostatné stránky zachovávajú paletu.
+- Názov produktu v súhrne na samostatnom riadku, množstvo/jednotka a cena pod ním; väčšie medzery a oddelené položky dopravy/platby bez kurzívy.
+- Desktop súhrny od 1200 px sticky s 200 px odstupom a vnútorným scrollom vysokých panelov; hlavné CTA približne 67 % šírky. Mobil bez sticky, natívne formuláre a tlačidlá zachované.
+- Účet/prihlásenie a štát/hodnota vodorovne; meno, e-mail a telefón každý na vlastnom plnom riadku. Skryté country inputy, company/shipping polia a validácie bez zmeny.
+- Kontaktný panel podľa šírky obsahu, bez rozťahovania medzery medzi nadpisom a hodinami. Existujúce kontakty a odkazy zachované.
+- Iba existujúci oznam externého skladu nahradený oranžovým textom o centrálnych skladoch; ostatné tri riadky bez zmeny. Idempotentná synchronizácia cez existujúci lifecycle, bez nových listenerov.
+- Klient schválil CSS rozpočet 18,75 kB iba pre preview 0.6.8; JavaScript zostáva 30 kB. Overenie a neoverené scenáre: `docs/previews/cart-v068/checkout-refinements.md`. Bez odoslania objednávky, merge alebo nasadenia.
+
+## v0.6.7 · 2026-10-12 · Pravý súhrn košíka a spoločné kontakty (preview, nevydané)
+
+- Apollo audit 13. 10. 2026: spoločné súhrny troch krokov, stabilné poradie produktov/dopravy/platby pred cenami aj pred vytvorením natívnych wrapperov. Neutralizovaný pôvodný 65 px odstup a biely pseudo-pás pred `after-load`, obnovený natívny medzisúčet a oddelenie spodnej časti. Zjednotené šírky odstránením 60 px sidebar paddingu a mobilných záporných okrajov; košík bez dodatočného JS shellu/presúvania tlačidla. Kontaktný box rastie a zalamuje celé bloky, e-mail vedie na kontaktný formulár, opravené vnorené telefónne odkazy Apollo. Nulové ceny používajú natívne numerické dáta a akcenty sa synchronizujú aj bez animation frame; platené metódy nepreberajú Apollo zelenú. Natívne formuláre, ceny a finálny submit bez zmeny logiky. Klient schválil CSS limit 18,25 kB iba pre preview. Po obnove prostredia zopakovaný lint/build a regresná kontrola troch krokov na 1920/1366/768/390/375/320 px; výsledky a limity v `docs/previews/cart-v067/apollo-audit.md`.
+
+- Doladenie súhrnov 13. 10. 2026: živšia zelená iba pre súhrn, dlhší oranžový akcent, menší text dopravy zadarmo so zelenou sumou. Doprava/platba má jeden natívny vizuálny shell, Pokračovať nad Späť s 18 px odstupom, nezalamované jednotky a oddelené položky; širší sidebar a väčší odstup medzi textom, logom a cenou metód. Kontaktný panel odsadený od nadpisu, kontakty zarovnané doprava. Opravené preblikávanie: štýly nadpisu platia už pre serverový DOM, bez závislosti na neskoršom Apollo wrapperi, bez časovačov alebo zmeny loadera. CSS limit 18 kB iba pre preview schválený klientom; natívne formuláre, ceny a handlery bez zmien.
+
+- Zjednotenie súhrnov 13. 10. 2026: spoločný zelený nadpis 20 px s tenkou oranžovou čiarou, zelený natívny dátum, zdieľané štýly cien/CTA pre Doprava & platba so zachovaným natívnym umiestnením tlačidiel. Mobilná celková cena má jemný ľavý border a 8 px odsadenie; desktop produktové riadky bez zmeny. Klient schválil limit 17,75 kB CSS iba pre toto preview; JS/produkcia bez zmeny.
+
+- Kompaktné doladenie 13. 10. 2026: ikona/prefix/natívny červený dátum v jednom centrovanom menšom riadku, opravená špecificita návratového tlačidla (stred + 20 px odstup), desktop kontakty vodorovne v poradí nadpis/hodiny/telefón/e-mail/sociálne siete. Len CSS; produktové riadky a nákupné handlery bez zmeny. Základná desktop geometria a pôvodné hrefs overené, bez screenshotov a rozsiahleho testovania.
+
+- Finálne doladenie 13. 10. 2026: mobilné množstvo/jednotková cena/celkom/odstránenie v jednom grid riadku od 360 px (pod 360 px kontrolované zalomenie), bez zmeny obrázka a informácií nad ním. Návrat do obchodu späť v jednom béžovom boxe s 16 px odstupom, centrovaný nadpis desktop/mobil. Cielené zobrazenie existujúceho telefónu a sociálnych odkazov v checkout kontaktoch a desktop lište; bez duplikovania kontaktov alebo zmien výpočtov.
+
+- Doladenie 13. 10. 2026: overený /kontakty s natívnym formContact ako fallback desktop e-mailu, samostatný pôvodný návrat do obchodu mimo farebného boxu, mobilné centrovanie doručenia/dopravy, jeden teplý podklad celého súhrnu, mobilné kontakty iba s hodinami/bodkou bez dodatočnej stavovej vety. Bez zmien produktov, cien alebo nákupnej logiky.
+
+- Klient schválil CSS limit 17,5 kB gzip iba pre preview 0.6.7; JS limit 30 kB a produkcia bez zmeny.
+- Samostatná vetva nad návratovým preview 0.6.6 `83f5a71`; bez merge, tagu alebo nasadenia.
+- Dvojstĺpcový košík od 1200 px, približne 70/30; jeden pravý súhrnný panel s natívnym dátumom, dopravou, progressom, cenami a pôvodnými CTA. Mobil má panel pod produktmi. CSS sticky iba od 1440 px pri výške aspoň 900 px.
+- Nákupný košík v nadpise/prvom kroku, menšie medzery stĺpcov, kód za názvom a uppercase dostupnosti; native quantity, varianty a súvisiaci tovar zachované.
+- Kontaktný panel „Potrebujete pomoc? Sme tu pre Vás:“ používa spoločné hodiny/stav podpory, pôvodné odkazy a ikony. Overené sociálne URL zdieľané ako fallback pre checkout bez footer profilov; hodiny aj sociálne odkazy dostupné v desktop lište od 768 px.
+- „Vybrané pre Vás“ odložené: v natívnom DOM košíka nie je samostatný odporúčací produktový zdroj. Nevytvárame nový algoritmus ani duplicitné related produkty.
+- Iba základná kontrola: add-to-cart, množstvo/AJAX/prepočet, otvorenie dopravy bez odoslania objednávky, desktop a mobil. Sticky pri dlhom zozname, ostatné šírky, varianty/zľavy a celý checkout zostávajú NEOVERENÉ na manuálne preview.
+
+## v0.6.6 · 2026-10-12 · Nákupný košík (preview, nevydané)
+
+- Ďalšie preview: desktop hlavička/stĺpce, natívne kódy a dostupnosť pod názvom, related metadata, mobilné ceny spolu, tri rovnaké footer panely a existujúce mobilné kontakty so spoločnou logikou zákazníckej podpory a sociálnymi odkazmi. Bez zmeny verzie, nákupnej logiky, merge alebo nasadenia. Súhrn: docs/previews/v0.6.6-cart-menu.md.
+
+- Druhé preview: červený tučný dynamický dátum, CTA pod sebou, Timber hover názvov/krokov, related quantity/cena/natívna ikonová CTA v kompaktnom riadku, výraznejšia skladová typografia. Verzia zostáva 0.6.6; iba základné cielené overenie podľa zadania. Súhrn: docs/previews/v0.6.6-cart-refinement.md.
+
+- Jednotné množstvo main/mini/related, pružná šírka čísla, rovnaké +/- a natívne min/max/step.
+- Plné desktop názvy, dostupnosť na jednom riadku + počet pod ňou, tablet/mobil bez pretekania.
+- Funkčné množstvo súvisiaceho tovaru z overených metadata verejného detailu, pôvodný native add-to-cart a násobky zachované.
+- Kompaktnejší dátum doručenia, 6 px progress z natívnych dát/thresholdu, súhrn a sekundárny pôvodný Späť do obchodu; AJAX a reduced motion.
+- Čitateľný hover/focus krokov objednávky; ceny dopravy/platby nepretekajú na úzkom mobile.
+- Diagnostika: native config/HTML max 9999, serverový skladový limit testovaného produktu 178, multiply_order min/step 1000. Žiadne obchádzanie platformových alebo skladových pravidiel.
+- Obmedzená client-approved CSS výnimka 17 kB iba pre preview 0.6.6; JavaScript limit 30 kB bez zmeny. Detailné výsledky, scenáre a limity overenia v docs/previews/v0.6.6-cart.md.
+- Main, produkčný loader, tagy a release nezmenené; žiadny merge ani nasadenie.
+
 ## v0.6.5 · 2026-10-12 · Schválené doladenie hlavičky, košíka a pôvodnej Timber palety
 
 Finálny súhrn od stabilnej v0.6.1; klient schválil preview 87ff73a k merge a publikovaniu.

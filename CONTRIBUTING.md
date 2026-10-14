@@ -164,7 +164,13 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
-- **Výjimka v0.6.5:** klient 9. 10. 2026 povolil CSS limit 16 kB pro testovací build; 12. 10. 2026 schválil finální 0.6.5 k vydání. Schválený build ponechává 16 kB CSS / 30 kB JS gzip. Výjimka ve build skriptu platí pouze pro package version 0.6.5; ostatní verze používají standardní 15 kB CSS limit.
+- **Testovací preview 0.6.7 (aktualizováno se souhlasem klienta 13. 10. 2026):** CSS limit 18,25 kB gzip pouze pro tuto vývojovou verzi; JS zůstává 30 kB. Produkce a předchozí výjimky beze změny.
+- **Testovací preview 0.6.8 (souhlas klienta 13. 10. 2026):** CSS limit 18,75 kB gzip pouze pro tuto vývojovou verzi; JS zůstává 30 kB. Produkce a předchozí výjimky beze změny.
+- **Výjimka v0.6.9 (klient schválil vydání 14. 10. 2026):** schválený build si při vydání zachovává CSS limit 19,75 kB gzip a JS 30 kB. Jde o původní preview limit bez navýšení; výjimka je vázána pouze na package version 0.6.9. Ostatní verze a předchozí výjimky beze změny.
+
+- **Testovací preview 0.6.6 (schváleno klientem 12. 10. 2026):** CSS limit 17 kB gzip pouze pro tuto vývojovou verzi; JS zůstává 30 kB. Produkční 0.6.5 beze změny.
+
+- **Výjimka v0.6.5:** klient 9. 10. 2026 povolil CSS limit 16 kB pro testovací build; 12. 10. 2026 schválil finální 0.6.5 k vydání. Schválený build ponechává 16 kB CSS / 30 kB JS gzip. Výjimka ve build skriptu platí pouze pro package version 0.6.5; ostatní verze mimo výše schválené preview používají standardní 15 kB CSS limit.
 - `timber.min.js` **≤ 30 kB gzip**, `timber.min.css` **≤ 15 kB gzip** — build při překročení **selže**.
 - Žádný nový skript blokující vykreslování. Náš balík je vždy `defer`.
 - PageSpeed Insights (mobil) před a po nasazení — skóre ani LCP/CLS **nesmí klesnout**. Výsledek se zapíše do CHANGELOGu.

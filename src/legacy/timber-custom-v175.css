@@ -485,7 +485,7 @@ form[action*="Subscribe"] {
 
 
 /* Košík – doprava zdarma progress */
-.price-range {
+.price-range:not(.ts-cart-progress) {
     background: var(--ts-color-service-bg) !important;
     color: var(--ts-color-controls-text) !important;
     border: 1px solid var(--ts-color-controls-divider) !important;

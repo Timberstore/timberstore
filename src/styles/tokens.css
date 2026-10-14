@@ -13,13 +13,21 @@
   --ts-color-support-bg: #f9f4ed;
   --ts-color-rank-bronze: #ae8064;
   --ts-color-step-bg: #e9eaed;
-  --ts-color-success: #24734b;
+  --ts-color-positive: #439d29; /* fresh shared green: large white CTA text */
+  --ts-color-positive-cta: #3a841f; /* uniform surface supports small white legal copy */
+  --ts-color-positive-ink: #31771c; /* small text / small white-text backing */
+  --ts-color-checkout-success: var(--ts-color-positive);
+  --ts-color-checkout-cta: var(--ts-color-positive-cta);
+  --ts-checkout-contacts-width: 920px; /* final desktop contact surface */
+  --ts-color-summary-accent: var(--ts-color-positive-ink);
+  --ts-color-success: var(--ts-color-positive);
   --ts-color-success-bg: #e8f5ed;
   --ts-color-warning: var(--ts-color-controls-active);
   --ts-color-warning-bg: #fff3df;
   --ts-color-error: #b83b43;
   --ts-color-error-bg: #fcedef;
   --ts-color-info-bg: #eaf3f7;
+  --ts-color-delivery-date: #c0392b;
   --color-primary: var(--ts-color-controls-text);
   --color-primary-hover: var(--ts-color-controls-active);
   --color-tertiary: var(--ts-color-service-bg);
@@ -34,7 +42,7 @@
   --ts-service-gap: 14px;
   --ts-service-icon-size: 18px;
   --ts-service-status-size: 8px;
-  --ts-color-service-open: #2e7d32;
+  --ts-color-service-open: var(--ts-color-positive);
   --ts-color-cart-delete: #b83b43;
   --ts-color-cart-delete-hover: #96362f;
   --ts-color-cart-delete-bg: #fcedef;
