@@ -89,30 +89,64 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   color: var(--ts-color-accent);
 }
 
-/* Apollo's fixed 80 px shipping price overflows the label on narrow phones.
-   Keep native radios/data/prices and put that price on its own grid row. */
+/* Native controls/tooltips stay intact; mobile has info + price/logo columns. */
 @media (max-width: 767px) {
   .in-krok-1 .order-delivery-payment-form .radio-wrapper > label {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-columns: minmax(0, 1fr) minmax(64px, 76px);
     align-items: center;
-    gap: 8px;
-    padding: 12px 12px 12px 36px;
+    gap: 6px 10px;
+    padding: 14px 12px 14px 40px;
+    border-radius: 12px;
   }
   .in-krok-1 .order-delivery-payment-form .payment-info {
+    grid-area: 1 / 1 / 3 / 2;
     width: auto;
     min-width: 0;
     overflow-wrap: anywhere;
   }
   .in-krok-1 .order-delivery-payment-form .payment-logo {
+    grid-area: 2 / 2;
+    justify-self: end;
     width: auto;
-    max-width: 60px;
+    max-width: 64px;
+    height: 28px;
+    padding: 2px 4px;
+    margin: 0;
   }
   .in-krok-1 .order-delivery-payment-form .payment-shipping-price {
-    grid-column: 1 / -1;
+    grid-area: 1 / 2;
+    align-self: end;
+    justify-self: end;
+    padding: 0;
     width: auto;
     min-width: 0;
     text-align: right;
+  }
+  /* Apollo moves logos into the price node on mobile. Support that native
+     structure as well as the server's initial sibling logo. */
+  .in-krok-1 .order-delivery-payment-form .payment-shipping-price:has(.payment-logo) {
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: center;
+    gap: 6px;
+  }
+  .in-krok-1 .order-delivery-payment-form .radio-wrapper > label::before,
+  .in-krok-1 .order-delivery-payment-form .radio-wrapper > label::after {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .in-krok-1 .order-delivery-payment-form .radio-wrapper > input:checked + label::after {
+    transform: translateY(-50%) rotate(40deg);
+  }
+  .in-krok-1 .order-delivery-payment-form .radio-wrapper > input:checked + label {
+    background: var(--ts-color-success-bg);
+  }
+  .in-krok-1 .order-delivery-payment-form .payment-logo img {
+    max-width: 100%;
+    max-height: 28px;
   }
 }
 
@@ -150,6 +184,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   flex-direction: column;
   align-items: center;
   gap: 18px;
+  order: 2;
   margin: 0;
   padding: 28px 16px 16px;
   background: var(--ts-color-service-bg);
@@ -174,10 +209,17 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 .ordering-process #summary-box:has(.order-summary-top) {
   display: contents;
 }
+.ordering-process #summary-box .order-summary-top {
+  order: 4;
+  margin: 16px 0 0;
+}
 .ordering-process #summary-box .order-summary-bottom {
+  order: 0;
+  position: static;
+  width: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
+  margin: 0;
   padding-bottom: 0;
   border-bottom: 0;
   border-radius: 10px 10px 0 0;
@@ -248,10 +290,15 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   width: 100%;
 }
 .ordering-process #checkoutSidebar {
+  display: flex;
+  flex-direction: column;
+  position: static !important; /* native fixSidebar writes inline position/top */
+  top: auto !important;
   padding: 0;
   margin-top: 16px;
 }
 .ordering-process #checkoutSidebar :is(.consents, .preauthorization-box:not(.js-hidden)) {
+  order: 1;
   margin: 0;
   padding: 12px 16px 0;
   background: var(--ts-color-service-bg);
@@ -438,15 +485,40 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 }
 @media (min-width: 1200px) {
   .ordering-process #summary-box .order-summary-top {
-    max-height: 55vh;
+    max-height: min(55vh, var(--ts-checkout-list-max, 55vh));
     overflow-y: auto;
     overscroll-behavior: auto;
   }
   .ordering-process #checkoutSidebar.ts-checkout-sticky-ready {
-    position: sticky;
-    top: var(--ts-checkout-sticky-top) !important; /* Apollo forces top: 0 */
+    position: sticky !important;
+    top: var(--ts-checkout-sticky-top) !important; /* native fixSidebar writes top */
   }
-  .ordering-process #checkoutSidebar.ts-checkout-sticky-ready .order-summary-top {
-    max-height: var(--ts-checkout-list-max);
+}
+
+@media (max-width: 767px) {
+  .ordering-process .cart-content .site-msg-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 16px !important; /* legacy reserves a side icon column */
+  }
+  .ordering-process .cart-content .site-msg-custom::before {
+    position: static;
+    align-self: center;
+    margin: 0;
+    transform: none;
+  }
+  .in-krok-2 .co-contact-information .form-group-content > h2 {
+    display: inline-flex;
+    align-items: center;
+    justify-self: center;
+    gap: 8px;
+    padding: 0;
+  }
+  .in-krok-2 .co-contact-information .form-group-content > h2::before {
+    position: static;
+    margin: 0;
+    transform: none;
   }
 }

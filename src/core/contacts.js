@@ -7,3 +7,6 @@ export const SOCIALS = {
 
 // Verified native formContact at /kontakty (2026-10-13).
 export const CONTACT_FORM = '/kontakty';
+
+// Exact checkout help destination; preserve the desktop service-bar behaviour.
+export const CHECKOUT_CONTACT_FORM = 'https://www.timberstore.sk/kontakty/';

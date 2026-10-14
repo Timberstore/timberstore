@@ -1,7 +1,7 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
-import { SOCIALS, CONTACT_FORM } from '../../core/contacts.js';
+import { SOCIALS, CONTACT_FORM, CHECKOUT_CONTACT_FORM } from '../../core/contacts.js';
 import { isBusinessOpen } from './business-hours.js';
 
 let observer;
@@ -206,12 +206,8 @@ function syncCartContacts() {
     addSocial(socials, SEL.socialInstagram, 'instagram');
     const email = list.querySelector(SEL.cartHelpEmail);
     if (email) {
-      const address = email.textContent.trim();
-      if (
-        /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(address) &&
-        email.getAttribute('href') !== `mailto:${address}`
-      )
-        email.setAttribute('href', `mailto:${address}`);
+      if (email.getAttribute('href') !== CHECKOUT_CONTACT_FORM)
+        email.setAttribute('href', CHECKOUT_CONTACT_FORM);
       if (!email.classList.contains('ts-cart-contact-link'))
         email.classList.add('ts-cart-contact-link');
     }

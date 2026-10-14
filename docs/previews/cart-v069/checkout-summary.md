@@ -1,4 +1,6 @@
-# Checkout summary — preview 0.6.9
+# Checkout summary — initial preview 0.6.9
+
+This records checkpoint `2dea483`. Current fixes and verification: [checkout-2026-10-14.md](checkout-2026-10-14.md).
 
 Base: `349c64f31ac7755d2d2bf81d75d376a1d735462d` (0.6.8); separate branch `feature/checkout-summary-v069`. Production/main/loader/tags unchanged.
 

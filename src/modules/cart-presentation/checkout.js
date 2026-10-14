@@ -88,11 +88,16 @@ export function syncCheckoutSummaryLayout() {
       (parseFloat(style.marginBottom) || 0)
     );
   }, 0);
-  const room = Math.floor(window.innerHeight - offset - 16 - lowerHeight);
+  const listStyle = getComputedStyle(list);
+  const listMargin =
+    (parseFloat(listStyle.marginTop) || 0) + (parseFloat(listStyle.marginBottom) || 0);
+  const room = Math.floor(window.innerHeight - offset - 16 - lowerHeight - listMargin);
   const ready = window.innerWidth >= 1200 && room >= Math.min(320, list.scrollHeight + 2);
   if (sidebar.classList.contains('ts-checkout-sticky-ready') !== ready)
     sidebar.classList.toggle('ts-checkout-sticky-ready', ready);
-  const height = `${Math.max(0, room)}px`;
-  if (sidebar.style.getPropertyValue('--ts-checkout-list-max') !== height)
-    sidebar.style.setProperty('--ts-checkout-list-max', height);
+  // Shoptet handleWithSidebar() removes the sidebar's entire style attribute on
+  // scroll. Keep the limit on the list itself, with a bounded CSS fallback.
+  const height = ready ? `${room}px` : '55vh';
+  if (list.style.getPropertyValue('--ts-checkout-list-max') !== height)
+    list.style.setProperty('--ts-checkout-list-max', height);
 }

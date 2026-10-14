@@ -4,6 +4,8 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 ## v0.6.9 · 2026-10-13 · Dva súhrnné checkout boxy (preview, nevydané)
 
+- Cielené opravy 14. 10. 2026 nad `2dea483`: potvrdený natívny `removeAttr("style")` mazal maximálnu výšku súhrnu. Limit presunutý na zoznam s bezpečným CSS fallbackom, vlastné sticky pre checkout oddelené od inline posúvania Shoptetu. Ceny/súhlasy/CTA vizuálne nad produktmi, bez presunu alebo klonovania funkčných elementov. Checkout e-mail vedie presne na `https://www.timberstore.sk/kontakty/`. Mobil: usporiadané kontaktné riadky, centrovaná informačná ikona, cena nad logom v pravom stĺpci natívnych dopráv/platieb, centrovaná skupina nadpisu Osobné údaje. Zachované natívne formy a pickup linky. Lint/build prešli bez zvýšenia rozpočtu; CSS 19,24 kB, JS 22,12 kB. Testy/limity vrátane nedokončeného fyzického wheel testu: `docs/previews/cart-v069/checkout-2026-10-14.md`.
+
 - Samostatné preview nad 0.6.8 `349c64f`, bez merge/tagu/produkčného loadera.
 - Kroky 2/3: natívny Apollo zoznam produktov/dopravy/platby ako horný box s desktop scrollom; celkové ceny, súhlasy/právne texty a pôvodné CTA mimo neho v spodnom vizuálnom boxe. Bez klonovania alebo presúvania funkčných elementov.
 - Sticky len pri dostatku miesta pre oba boxy, podľa skutočnej výšky spodného obsahu; nízky notebook používa scroll stránky, mobil bez vnoreného scrollu. Jeden idempotentný ResizeObserver, existujúci lifecycle a jediný resize handler.
