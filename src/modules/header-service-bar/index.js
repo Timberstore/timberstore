@@ -1,12 +1,7 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
-import {
-  SOCIALS,
-  CONTACT_FORM,
-  CHECKOUT_CONTACT_FORM,
-  CHECKOUT_SUPPORT_EMAIL,
-} from '../../core/contacts.js';
+import { SOCIALS, CONTACT_FORM, CHECKOUT_SUPPORT_EMAIL } from '../../core/contacts.js';
 import { isBusinessOpen } from './business-hours.js';
 
 let observer;
@@ -212,9 +207,8 @@ function syncCartContacts() {
     addSocial(socials, SEL.socialInstagram, 'instagram');
     const email = list.querySelector(SEL.cartHelpEmail);
     if (email) {
-      const destination = desktop.matches
-        ? CHECKOUT_CONTACT_FORM
-        : `mailto:${CHECKOUT_SUPPORT_EMAIL}`;
+      // Checkout contact email always opens email, including after resize/AJAX.
+      const destination = `mailto:${CHECKOUT_SUPPORT_EMAIL}`;
       if (email.getAttribute('href') !== destination) email.setAttribute('href', destination);
       if (!email.classList.contains('ts-cart-contact-link'))
         email.classList.add('ts-cart-contact-link');

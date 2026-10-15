@@ -503,8 +503,14 @@
   background: var(--ts-color-checkout-cta);
   border-color: var(--ts-color-success-border);
   transition: background-color 160ms ease;
-  color: var(--ts-color-text);
+  color: var(--ts-color-bg);
   font-weight: 700;
+}
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
+  :is(.next-step-forward, .next-step-finish)::before,
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
+  :is(.next-step-forward, .next-step-finish)::after {
+  color: inherit;
 }
 :is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
   a.next-step-back:not(.colorbox-close) {
@@ -643,12 +649,12 @@
   color: var(--ts-color-summary-accent);
 }
 
-/* The approved bright Emerald uses dark text at both CTA label sizes. */
+/* White native labels/arrows on the approved Emerald action surface. */
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
-  :is(.next-step-forward, .next-step-finish):hover {
+  :is(.next-step-forward, .next-step-finish):is(:hover, :active, :focus) {
   background: var(--ts-color-success-active);
   border-color: var(--ts-color-success-border);
-  color: var(--ts-color-text);
+  color: var(--ts-color-bg);
 }
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):focus-visible {
@@ -662,6 +668,7 @@
 }
 .ordering-process .next-step-finish .order-button-suffix {
   display: block;
+  color: inherit;
   font-size: 12px;
   line-height: 1.35;
   white-space: nowrap;

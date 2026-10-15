@@ -18,7 +18,7 @@ body ol.cart-header li.active :is(a, strong) {
 }
 ol.cart-header li.active :is(a, strong) span::before {
   background: var(--ts-color-checkout-success);
-  color: var(--ts-color-text);
+  color: var(--ts-color-bg);
 }
 ol.cart-header li.completed :is(a, strong) span::before {
   background: var(--ts-color-controls-text);
@@ -70,7 +70,7 @@ ol.cart-header li.completed :is(a, strong) span::before {
 }
 .ordering-process ol.cart-header li.active {
   --ts-step-bg: var(--ts-color-checkout-success);
-  --ts-step-fg: var(--ts-color-text);
+  --ts-step-fg: var(--ts-color-bg);
 }
 .ordering-process ol.cart-header li.completed {
   --ts-step-bg: var(--ts-color-controls-text);
@@ -425,9 +425,9 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   background-color: var(--ts-color-checkout-success);
   border-color: var(--ts-color-checkout-success);
 }
-/* Dark native tick remains readable on the approved bright disk. */
+/* Match the white foreground of the filled Emerald success controls. */
 .ordering-process input[type='radio']:checked + label::after {
-  border-color: var(--ts-color-text);
+  border-color: var(--ts-color-bg);
 }
 .ordering-process input[type='checkbox']:checked + label::after {
   border-color: var(--ts-color-checkout-success);
@@ -572,6 +572,16 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 }
 
 .in-krok-2 .co-contact-information .login-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 48px;
+  border-radius: var(--ts-radius-checkout-panel);
+  padding: 14px 12px;
+  line-height: 1.4;
+  text-align: center;
   white-space: normal;
 }
 
@@ -639,7 +649,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     gap: 8px;
     padding: 14px 12px;
     background: var(--ts-color-technical-bg);
-    border-radius: 8px;
+    border-radius: var(--ts-radius-checkout-panel);
     box-sizing: border-box;
   }
   .ordering-process.in-krok-2 .co-contact-information .form-group-content > h2::before {

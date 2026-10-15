@@ -3,6 +3,16 @@
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 
+## Preview 0.6.11-rc.3 · 2026-10-15 · Kontaktné riadky, biele CTA a tvar prihlásenia
+
+- Aktuálna vetva, základ `4e66dbce0de8fe8756e43687f6f46847311b09b6`, staršie preview commity zachované. Iba izolované preview cez SHA, bez merge, tagu a produkčného nasadenia; loader v0.6.9.
+- Mobilné kontakty presne podľa zadania: nadpis, samostatné centrované hodiny, e-mail vľavo a telefón vpravo, pod oboma pôvodné ikony v rovnakom riadku. Jemný pôvodný oddeľovač, žiadne hodiny v ľavom stĺpci. Jediný pomocný odsek s klikateľným a pri zalomení nerozdeleným mailto e-mailom.
+- Checkout kontakt používa mailto: aj na desktope, odstránená závislosť destinácie od breakpointu. Bežná desktopová hlavička/formulárový odkaz mimo checkoutu sa nemenia. Pôvodný tel: a natívne listenery zachované.
+- Pokračovať/dokončiť: biely text, šípky a právny podtext v base/hover/active/focus; Emerald a pozadia bez zmeny. Biele číslo aktívneho kroku a natívny tick na plnom Emerald disku iba pre konzistenciu foregroundu, žiadna zmena geometrie krokov. ZADARMO/SKLADOM na svetlých plochách ostávajú Emerald.
+- Login button: spoločný 8px radius token s mobilným blokom Osobné údaje, padding 14px 12px, min-height 48px, centrovaný text na mobile/desktope. Farby a štruktúra osobného formulára sa nemenia.
+- Živé merania obrazoviek 2/3 (Shoptet krok-1/krok-2): 320/375/390/430/1024/1440, kontakty, presné biele CTA foregroundy/šípky v stavoch, mailto/tel, zaoblenie login buttonu, bez overflow. Modelové desktop kontakty aj pri 768 px rovnaká geometria ako rc.2. Doplnkové overenie opakovanej inicializácie/AJAX, klikov na odkazy, success farieb a nezmenených jemných pozadí. Žiadna objednávka/platba sa neodoslala. Podrobnosti a limity: `docs/previews/checkout-rc3.md`.
+- Lint/build prešli v existujúcich rc.2 limitoch: CSS 20,15 / 20,25 KiB a JS 24,69 / 30 KiB gzip. Safari/PageSpeed neoverené. Biela na presne zadanej Emerald zostáva 2,24:1, nejde o WCAG certifikáciu.
+
 ## Preview 0.6.11-rc.2 · 2026-10-15 · Mobilné kontakty a Emerald
 
 - Len aktuálna pracovná vetva, základ `c5fda5277e5b5d29359b7dd71b05650aa96ace01`; po následnom pokyne klienta publikované izolované preview cez commit hash. Bez merge, release tagu a produkčného nasadenia. Produkčný loader v0.6.9 a predchádzajúci rc.1 commit zostávajú zachované.

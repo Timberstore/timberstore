@@ -88,6 +88,7 @@
   --ts-color-qty-btn-bg: #f7f8f9;
   --ts-color-qty-text: #26313d;
   --ts-color-in-cart: var(--ts-color-cart-count-bg);
+  --ts-radius-checkout-panel: 8px;
   --ts-radius: 4px;
   --ts-space-1: 4px;
   --ts-space-2: 8px;
