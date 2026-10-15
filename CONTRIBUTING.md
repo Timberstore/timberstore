@@ -165,6 +165,7 @@ Všechno povinné, u každého releasu:
 ### 3.4 Výkonový rozpočet
 
 - **Súhlas klienta 15. 10. 2026:** pri potrebnom rozšírení objednaných úprav možno zvýšiť kB rozpočet bez opätovného pýtania. Vždy zmerať skutočný gzip výstup, navýšenie evidovať pri konkrétnej novej verzii a zachovať pôvodné releasy aj ich limity. Tento súhlas nemení povinnosť preview, testovania ani schválenia merge/produkčného nasadenia.
+- **Preview 0.6.11-rc.1:** dokončenie mobilného poradia dopravy, CSS limit zostáva 20,0 kB gzip; JS 30 kB. Audit farieb je iba dokumentácia.
 - **Preview 0.6.11-rc.0:** mobilné karty dopravy, CSS limit 20,0 kB gzip; JS zostáva 30 kB. Produkčná v0.6.9 a jej limit zostávajú nezmenené.
 
 - **Testovací preview 0.6.7 (aktualizováno se souhlasem klienta 13. 10. 2026):** CSS limit 18,25 kB gzip pouze pro tuto vývojovou verzi; JS zůstává 30 kB. Produkce a předchozí výjimky beze změny.

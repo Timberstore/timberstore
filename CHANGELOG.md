@@ -3,6 +3,14 @@
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 
+## Preview 0.6.11-rc.1 · 2026-10-15 · Dokončenie mobilnej dopravy a audit zelených
+
+- Pokračovanie v existujúcej pracovnej vetve, pôvodný preview commit `fb75c3e` a stabilná v0.6.9 zachované. Bez merge, release tagu a produkčného nasadenia; loader zostáva v0.6.9.
+- Iba mobilná doprava: voliteľný natívny výber odberného miesta pred posledným riadkom logo/cena; automatické grid riadky podporujú aj ďalšie sublabel riadky, chýbajúce logo a Apollo vnorené logo. Nadpis spolu s pôvodnou truck ikonou centrovaný ako flex skupina. Bez nového JS, DOM presunov alebo zásahu do platieb a desktopu.
+- Živé kontroly 320/375/390/430 px, porovnanie platieb 375/390 a desktopovej dopravy 768/1024/1440 prešli. Prepnutie štyroch dopráv, AJAX HTTP 200 a otvorenie pôvodného pickup widgetu overené; 16 modelových kombinácií pre krátke/dlhé texty, nulu, chýbajúce logo/pickup, jeden/osem dopravcov a obe štruktúry loga. Limity a detaily: `docs/audits/green-20261015/README.md`.
+- Analytický audit: 27 odtieňov, 161 záznamov so selektormi, pôvodom a stavom; vlastný/importovaný legacy kód, konfigurácia, externé Apollo, integrácie a shadow widget. Kompletný inventár, pozorované computed štýly, návrh s WCAG kontrastmi a vizuálne vzorky v `docs/audits/green-20261015/`. Žiadna farba sa neimplementovala; `tokens.css` byte-identický s v0.6.9. Návrh rámika/hover čaká na výslovný súhlas.
+- Build/lint prešli; CSS 20 475 B (20,00 KiB) / limit 20 KiB, JS 25 164 B (24,57 KiB) / 30 KiB gzip. Limity rc.0 a starších verzií zachované; PageSpeed a reálny iOS Safari nemerané.
+
 ## Preview 0.6.11-rc.0 · 2026-10-15 · Mobilné karty dopravy
 
 - Nová samostatná pracovná vetva nad predchádzajúcim preview `e67b3db`; pôvodné commity/tagy zachované, bez merge a produkčného nasadenia. Produkčný loader ostáva v0.6.9. Odmietnuté farebné experimenty v0.6.10 sa nepreberajú.

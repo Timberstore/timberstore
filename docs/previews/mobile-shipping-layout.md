@@ -1,4 +1,12 @@
-# Mobile shipping layout — isolated next preview
+# Mobile shipping layout — preview history
+
+## Follow-up 0.6.11-rc.1
+
+The latest follow-up stays on this branch, based on unchanged `fb75c3ef6351fb56cdd11c7d0d67c795b9b53cf4`. The optional pickup/sublabel rows now precede the final logo/price row; the mobile heading and native truck form one centered flex group. Desktop, payments, native controls and all colour declarations remain unchanged. CSS gzip: 20,475 bytes / 20 KiB; JS 25,164 bytes / 30 KiB. Production still v0.6.9.
+
+Full implementation notes, current test results, complete analytical green inventory and palette proposal: [audit and follow-up](../audits/green-20261015/README.md). The proposed colours are documentation only and need explicit future approval. The original rc.0 commit below remains independently previewable.
+
+## Original 0.6.11-rc.0
 
 Date: 2026-10-15. Base: `e67b3db8fdaf8028111a73e0b20a54248d1d3d8b` (previous shipping/cart/order preview). Working branch: `preview/mobile-shipping-layout-20261015`.
 
