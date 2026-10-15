@@ -3,6 +3,7 @@ import { TEXTS } from '../../core/texts.js';
 import { syncQuantities, resizeQuantity } from './quantity.js';
 import { syncRelated } from './related.js';
 import { syncBottom } from './bottom.js';
+import { syncPopupShipping } from './popup-shipping.js';
 import { syncRows } from './rows.js';
 import {
   syncCheckoutPriceAccents,
@@ -43,6 +44,7 @@ function syncSummary() {
   const popup = document.querySelector(SEL.headerCartPopup);
   const footer = popup?.querySelector(SEL.cartPopupFooter);
   if (!footer) return;
+  syncPopupShipping(popup);
   const cart = document.querySelector(SEL.headerCart);
   const amount = cart?.querySelector(SEL.headerCartPrice)?.textContent.trim();
   let summary = footer.querySelector('.ts-cart-summary');
@@ -98,6 +100,7 @@ export default {
       observer = new MutationObserver(() => {
         // Numeric checkout accents must also update in background tabs, where
         // animation frames can be suspended. Class writes are idempotent.
+        syncSummary();
         syncCheckoutSummaryStructure();
         syncCheckoutPriceAccents();
         syncShippingNames();
@@ -108,6 +111,7 @@ export default {
       window.addEventListener('resize', scheduleSummary);
       document.addEventListener(SHOPTET_EVENTS.cartUpdated, () => {
         observe();
+        syncSummary();
         scheduleSummary();
       });
       document.addEventListener('input', (event) => {

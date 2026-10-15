@@ -2,6 +2,7 @@ import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
 import { SOCIALS, CONTACT_FORM, CHECKOUT_SUPPORT_EMAIL } from '../../core/contacts.js';
+import { syncMobileCart, releaseMobileCart } from './mobile-cart.js';
 import { isBusinessOpen } from './business-hours.js';
 
 let observer;
@@ -90,6 +91,25 @@ function cartInteraction(event) {
     popups.showPopupWindow('cart', true, 'cart-widget', event.detail === 0);
     return;
   }
+  if (
+    !desktop.matches &&
+    cart &&
+    !event.ctrlKey &&
+    !event.metaKey &&
+    !event.shiftKey &&
+    !event.altKey
+  ) {
+    // Touch produces the normal click; do not toggle twice on touchend.
+    if (event.type === 'touchend') return;
+    const popups = window.shoptet?.popups;
+    if (!popups?.showPopupWindow) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    if (document.body.matches(SEL.cartOpenBody)) popups.hideContentWindows?.();
+    else popups.showPopupWindow('cart', true, 'cart-widget', event.detail === 0);
+    syncMobileCart();
+    return;
+  }
   // Prevent Apollo's delegated toggle and wrapper redirect from running,
   // but keep default link navigation, modified clicks and native href intact.
   event.stopImmediatePropagation();
@@ -131,6 +151,7 @@ function onResize() {
 }
 
 function syncPopupState() {
+  syncMobileCart();
   syncCartContacts();
   syncMenu();
   for (const [selector, state] of [
@@ -452,6 +473,9 @@ export default {
       window.addEventListener('scroll', onScroll, { passive: true });
       // A max-width container can move without resizing its children.
       window.addEventListener('resize', onResize, { passive: true });
+      window.visualViewport?.addEventListener('resize', onResize);
+      window.addEventListener('pagehide', releaseMobileCart);
+      window.addEventListener('pageshow', syncMobileCart);
       desktop.addEventListener('change', onBreakpoint);
       document.addEventListener('mouseenter', cartHover, true);
       document.addEventListener('click', cartInteraction, true);

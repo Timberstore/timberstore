@@ -145,7 +145,7 @@
   #cart-widget.ts-header-popup .cart-widget-button {
     position: static;
     flex: 0 0 auto;
-    padding: 12px 16px;
+    padding: 12px 0;
     background: var(--ts-color-service-bg);
   }
 
@@ -156,9 +156,7 @@
 
   #cart-widget.ts-header-popup .cart-free-shipping {
     order: 0;
-  }
-  #cart-widget.ts-header-popup .cart-free-shipping {
-    margin: 0 0 10px;
+    margin: 0 var(--ts-space-3) 10px;
     padding: 10px 0 0;
     color: var(--ts-color-controls-text);
     font-size: 13px;
@@ -183,9 +181,7 @@
 
   #cart-widget.ts-header-popup .cart-free-shipping strong {
     font-size: inherit;
-    font-weight: 600;
     text-transform: none;
-    color: inherit;
   }
 
   #cart-widget.ts-header-popup .cart-free-shipping::before,
@@ -203,8 +199,8 @@
   }
 
   #cart-widget.ts-header-popup .cart-widget-button .btn.btn-conversion {
-    margin: 0;
-    width: 100%;
+    margin: 0 var(--ts-space-3);
+    width: calc(100% - 2 * var(--ts-space-3));
     min-height: 44px;
     border-radius: 8px;
   }
@@ -272,7 +268,7 @@
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 10px;
-  padding-block: 8px;
+  padding: 8px var(--ts-space-3);
   border-block: 1px solid var(--ts-color-controls-border);
   color: var(--ts-color-controls-text);
   font-size: 13px;
@@ -286,9 +282,13 @@
 }
 
 #cart-widget .cart-widget-button {
+  padding: 12px 0;
   background-color: var(--ts-color-technical-bg);
 }
 #cart-widget .cart-free-shipping {
+  width: auto;
+  align-self: stretch;
+  margin: 0 var(--ts-space-3) 10px;
   background-color: var(--ts-color-service-bg);
   color: var(--ts-color-controls-text);
 }
@@ -300,4 +300,104 @@
 }
 #cart-widget .cart-free-shipping::after {
   background-color: var(--ts-color-controls-border);
+}
+
+/* popup-shipping synchronizes the native state and message from Shoptet
+   cartInfo after AJAX, including Apollo's incomplete Slovak prefix detection. */
+#cart-widget .cart-free-shipping strong {
+  color: var(--ts-color-success-primary);
+  font-weight: 700;
+}
+#cart-widget .cart-free-shipping.is-free-shipping::before {
+  background-color: var(--ts-color-success-primary);
+}
+#cart-widget #continue-order-button {
+  margin: 0 var(--ts-space-3);
+  width: calc(100% - 2 * var(--ts-space-3));
+}
+.ts-mobile-cart-close {
+  display: none;
+}
+@media (min-width: 768px) {
+  #cart-widget:has(.popup-widget-inner:not(.full)) .ts-mobile-cart-title {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  html.ts-mobile-cart-open {
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+  .ts-mobile-cart-open body {
+    position: fixed;
+    top: var(--ts-cart-scroll-offset);
+    inset-inline: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .ts-mobile-cart-open #cart-widget {
+    position: fixed;
+    inset: var(--ts-mobile-cart-top, 56px) 0 auto;
+    width: 100%;
+    max-width: none;
+    height: calc(100vh - var(--ts-mobile-cart-top, 56px));
+    height: calc(100dvh - var(--ts-mobile-cart-top, 56px));
+    max-height: none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: var(--ts-color-bg);
+    z-index: calc(var(--ts-z-controls) + 1);
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-title {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 14px 60px 14px var(--ts-space-3);
+  }
+  .ts-mobile-cart-open #cart-widget .popup-widget-inner {
+    position: static;
+    flex: 1 1 0%;
+    min-height: 0;
+    max-height: none;
+    height: auto;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+  .ts-mobile-cart-open #cart-widget :is(.cart-widget-products, .cart-widget-products-inner) {
+    max-height: none;
+    overflow: visible;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-button {
+    position: static;
+    flex: 0 0 auto;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  }
+  .ts-mobile-cart-open #cart-widget .popup-widget-inner.full + .cart-widget-button {
+    display: flex;
+    flex-direction: column;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-free-shipping {
+    order: 0;
+  }
+  .ts-mobile-cart-open #cart-widget .ts-mobile-cart-close {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--ts-color-controls-text);
+    font-size: 28px;
+    line-height: 1;
+  }
+  .ts-mobile-cart-open #back-to-top {
+    display: none;
+  }
 }

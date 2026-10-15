@@ -3,6 +3,16 @@
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 
+## Preview 0.6.11-rc.4 · 2026-10-15 · Mobilný náhľad košíka a stav dopravy
+
+- Aktuálna pracovná vetva nad `8503ada9c320befb1a8377a49aa18eda77b5de2d`, samostatné preview cez nemenné SHA. Bez merge, release tagu a produkčného nasadenia. Loader v0.6.9 a paleta rc.3 bez zmeny; Trello kód nebol v zadaní poskytnutý.
+- Mobilný náhľad ukotvený pod viditeľnou hlavičkou; zámok pozadia s obnovením pôvodného scrollu, jediná vnútorná scrollovacia oblasť produktov, stabilný titulok/zatvorenie a spodná doprava/súčet/CTA. Dvojité touch/click prepnutie nevzniká; dvh s vh fallbackom a safe-area. Pôvodný popup, formuláre, listenery a AJAX zostávajú zachované. Back-to-top skrytý iba pri otvorenom mobilnom košíku.
+- SPOLU má 16px vnútorné odsadenie a jemnú hornú linku; doprava aj CTA používajú rovnaký horizontálny inset na mobile aj desktope. Desktopová šírka 420px zachovaná. Suma pochádza z pôvodného naformátovaného header súčtu, bez nového výpočtu cien.
+- Doprava: oprava prezentačnej chyby Apolla pri slovenskom „Nakúpte“ a starom footer texte po AJAX. Stav zo serverových `cartInfo.leftToFreeShipping` a `freeShippingFrom`, žiadny pevný limit ani timer. Nedosiahnutý progress oranžový, splnený Emerald, zadarmo! Emerald bold, prefix tmavý a truck oranžový. Pôvodný nový serverový shipping uzol sa zachová, zastaraný neinteraktívny text odstráni; žiadne duplikáty.
+- Mobilný dátum doručenia v pôvodnom uzle zarovnaný doprava, ikona na os shipping trucku. Mobilný header košík preberá desktopové farby bez zmeny geometrie. V menu vyrovnané len vertikálne medzery kontaktov.
+- Živé testy: 320/375/390/430, otvorenie hore/uprostred/dole, scroll/obnovenie, opakované natívne AJAX množstvá cez hranicu oboma smermi, odstránenie produktu a desktop geometria. Navyše 72 modelových kombinácií v natívnom markupe vrátane prázdneho/1/8/40 produktov a dvoj-/troj-/štvorciferných súm. Podrobnosti a limity: `docs/previews/cart-rc4.md`.
+- Lint/build prešli: JS 26 346 B (25,73 KiB) / 30 KiB, CSS 21 099 B (20,60 KiB) / 21 KiB gzip. Rozpočet zvýšený podľa trvalého súhlasu klienta, iba pre rc.4. PageSpeed a fyzický iOS/Android neoverené.
+
 ## Preview 0.6.11-rc.3 · 2026-10-15 · Kontaktné riadky, biele CTA a tvar prihlásenia
 
 - Aktuálna vetva, základ `4e66dbce0de8fe8756e43687f6f46847311b09b6`, staršie preview commity zachované. Iba izolované preview cez SHA, bez merge, tagu a produkčného nasadenia; loader v0.6.9.
