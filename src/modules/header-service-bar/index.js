@@ -1,7 +1,12 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
-import { SOCIALS, CONTACT_FORM, CHECKOUT_CONTACT_FORM } from '../../core/contacts.js';
+import {
+  SOCIALS,
+  CONTACT_FORM,
+  CHECKOUT_CONTACT_FORM,
+  CHECKOUT_SUPPORT_EMAIL,
+} from '../../core/contacts.js';
 import { isBusinessOpen } from './business-hours.js';
 
 let observer;
@@ -207,11 +212,24 @@ function syncCartContacts() {
     addSocial(socials, SEL.socialInstagram, 'instagram');
     const email = list.querySelector(SEL.cartHelpEmail);
     if (email) {
-      if (email.getAttribute('href') !== CHECKOUT_CONTACT_FORM)
-        email.setAttribute('href', CHECKOUT_CONTACT_FORM);
+      const destination = desktop.matches
+        ? CHECKOUT_CONTACT_FORM
+        : `mailto:${CHECKOUT_SUPPORT_EMAIL}`;
+      if (email.getAttribute('href') !== destination) email.setAttribute('href', destination);
       if (!email.classList.contains('ts-cart-contact-link'))
         email.classList.add('ts-cart-contact-link');
     }
+    // Outside the native beige panel; keep one note across AJAX/native moves.
+    let note = panel.parentElement.querySelector(':scope > .ts-checkout-contact-note');
+    if (!note) {
+      note = document.createElement('p');
+      note.className = 'ts-checkout-contact-note';
+      const link = document.createElement('a');
+      link.href = `mailto:${CHECKOUT_SUPPORT_EMAIL}`;
+      link.textContent = CHECKOUT_SUPPORT_EMAIL;
+      note.append(TEXTS.checkout.contactHelpPrefix, link);
+    }
+    if (panel.nextElementSibling !== note) panel.after(note);
     const phone = list.querySelector(SEL.cartHelpPhone);
     if (phone) {
       // Apollo wrapInner creates an outer tel link around the existing one.

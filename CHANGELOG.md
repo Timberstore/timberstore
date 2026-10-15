@@ -3,6 +3,16 @@
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 
+## Preview 0.6.11-rc.2 · 2026-10-15 · Mobilné kontakty a Emerald
+
+- Len aktuálna pracovná vetva, základ `c5fda5277e5b5d29359b7dd71b05650aa96ace01`; po následnom pokyne klienta publikované izolované preview cez commit hash. Bez merge, release tagu a produkčného nasadenia. Produkčný loader v0.6.9 a predchádzajúci rc.1 commit zostávajú zachované.
+- Mobilné checkout kontakty: hodiny vľavo, telefón/e-mail vpravo s jemným oddeľovačom, pôvodné ikony pod textami. Telefón zachováva tel:, mobilný e-mail a nový doplnkový riadok používajú mailto:. Desktopový kontaktný formulár a geometria zachované. Nový riadok je mimo béžového panelu, skrytý na desktope a idempotentný pri opakovanej inicializácii/AJAX.
+- Autíčko pri mobilnom nadpise používa existujúci `--ts-color-accent` (#d4884a), ako existujúca dopravná ikona košíka. Referenčná fotografia 5 nebola priložená, preto sa netvrdí vizuálne porovnanie s fotografiou.
+- Výslovne objednaná Emerald #00C853: spoločné primary/border/active tokeny a aliasy pre dostupnosť, ZADARMO, indikátory, progress, potvrdenia, order status a CTA. Success Background #e8f5ed, oranžové a béžové tokeny zostávajú nezmenené. Success CTA hover už nepoužíva brightness, teda nevytvára ďalší odtieň.
+- Tmavý text CTA/právnej vety a natívny znak zaškrtnutia/číslo aktívneho kroku zachovávajú čitateľnosť na Emerald. Malý Emerald text na bielej má kontrast 2,24:1 (AA nespĺňa), na success pozadí 1,99:1; ide o klientom presne určenú farbu. Nemenia sa nesúvisiace natívne/externé palety ani historické súbory.
+- Kontaktné modely 320/375/390/430, desktop 768/1024/1440 a opakovaná inicializácia/AJAX prešli. Živé natívne prepínanie dopravy, AJAX a pickup widget s lokálne substituovanými Timber assets prešli. Detailné podmienky a limity v `docs/previews/emerald-checkout-rc2.md`. Reálny Safari a odoslanie objednávky/platby neoverené.
+- Lint/build prešli; CSS limit 20,25 KiB a JS 30 KiB, podľa existujúceho klientovho súhlasu na potrebné zvýšenie rozpočtu. Predchádzajúce limity zachované. PageSpeed nemerané.
+
 ## Preview 0.6.11-rc.1 · 2026-10-15 · Dokončenie mobilnej dopravy a audit zelených
 
 - Pokračovanie v existujúcej pracovnej vetve, pôvodný preview commit `fb75c3e` a stabilná v0.6.9 zachované. Bez merge, release tagu a produkčného nasadenia; loader zostáva v0.6.9.

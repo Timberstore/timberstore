@@ -10,3 +10,6 @@ export const CONTACT_FORM = '/kontakty';
 
 // Exact checkout help destination; preserve the desktop service-bar behaviour.
 export const CHECKOUT_CONTACT_FORM = 'https://www.timberstore.sk/kontakty/';
+
+// Public checkout support destination requested by the client.
+export const CHECKOUT_SUPPORT_EMAIL = 'info@timberstore.sk';

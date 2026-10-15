@@ -31,6 +31,7 @@ export const TEXTS = {
     columns: ['PRODUKT', 'MNOŽSTVO', 'CENA ZA KUS', 'CELKOM'],
   },
   checkout: {
+    contactHelpPrefix: 'V prípade otázok nás kontaktujte na ',
     shippingLabel: 'Doprava',
     billingLabel: 'Platba',
     inStock: 'Skladom',

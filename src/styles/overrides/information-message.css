@@ -17,7 +17,7 @@
 .messages .msg-success,
 .messages .msg-notice {
   background: var(--ts-color-success-bg);
-  border-color: var(--ts-color-success);
+  border-color: var(--ts-color-success-border);
 }
 .messages .msg-info {
   background: var(--ts-color-info-bg);

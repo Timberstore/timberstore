@@ -18,7 +18,7 @@ body ol.cart-header li.active :is(a, strong) {
 }
 ol.cart-header li.active :is(a, strong) span::before {
   background: var(--ts-color-checkout-success);
-  color: var(--ts-color-bg);
+  color: var(--ts-color-text);
 }
 ol.cart-header li.completed :is(a, strong) span::before {
   background: var(--ts-color-controls-text);
@@ -70,7 +70,7 @@ ol.cart-header li.completed :is(a, strong) span::before {
 }
 .ordering-process ol.cart-header li.active {
   --ts-step-bg: var(--ts-color-checkout-success);
-  --ts-step-fg: var(--ts-color-bg);
+  --ts-step-fg: var(--ts-color-text);
 }
 .ordering-process ol.cart-header li.completed {
   --ts-step-bg: var(--ts-color-controls-text);
@@ -177,6 +177,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   }
   .in-krok-1 .co-delivery-method > h2::before {
     position: static;
+    color: var(--ts-color-accent);
     flex-shrink: 0;
     margin: 0;
     transform: none;
@@ -423,6 +424,10 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 .ordering-process input[type='radio']:checked + label::before {
   background-color: var(--ts-color-checkout-success);
   border-color: var(--ts-color-checkout-success);
+}
+/* Dark native tick remains readable on the approved bright disk. */
+.ordering-process input[type='radio']:checked + label::after {
+  border-color: var(--ts-color-text);
 }
 .ordering-process input[type='checkbox']:checked + label::after {
   border-color: var(--ts-color-checkout-success);

@@ -13,9 +13,14 @@
   --ts-color-support-bg: #f9f4ed;
   --ts-color-rank-bronze: #ae8064;
   --ts-color-step-bg: #e9eaed;
-  --ts-color-positive: #439d29; /* fresh shared green: large white CTA text */
-  --ts-color-positive-cta: #3a841f; /* uniform surface supports small white legal copy */
-  --ts-color-positive-ink: #31771c; /* small text / small white-text backing */
+  /* Client-approved Emerald for positive text, indicators, borders and active
+     surfaces. Keep the separate soft success background unchanged. */
+  --ts-color-success-primary: #00c853;
+  --ts-color-success-border: var(--ts-color-success-primary);
+  --ts-color-success-active: var(--ts-color-success-primary);
+  --ts-color-positive: var(--ts-color-success-primary);
+  --ts-color-positive-cta: var(--ts-color-success-active);
+  --ts-color-positive-ink: var(--ts-color-success-primary);
   --ts-color-checkout-success: var(--ts-color-positive);
   --ts-color-checkout-cta: var(--ts-color-positive-cta);
   --ts-checkout-contacts-width: 920px; /* final desktop contact surface */

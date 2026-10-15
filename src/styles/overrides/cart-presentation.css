@@ -200,7 +200,7 @@
 }
 /* Preserve the approved quantity-toast geometry; notifier colours are shared. */
 .messages .msg.msg-success.ts-cart-quantity-confirmation {
-  border: 1px solid var(--ts-color-success);
+  border: 1px solid var(--ts-color-success-border);
   border-radius: 10px;
 }
 
@@ -501,9 +501,9 @@
   border-radius: 8px;
   order: 0;
   background: var(--ts-color-checkout-cta);
-  border-color: var(--ts-color-checkout-cta);
-  transition: filter 160ms ease;
-  color: var(--ts-color-bg);
+  border-color: var(--ts-color-success-border);
+  transition: background-color 160ms ease;
+  color: var(--ts-color-text);
   font-weight: 700;
 }
 :is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
@@ -643,11 +643,12 @@
   color: var(--ts-color-summary-accent);
 }
 
-/* One uniform contrast surface supports both white CTA label sizes. */
+/* The approved bright Emerald uses dark text at both CTA label sizes. */
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):hover {
-  filter: brightness(0.96);
-  color: var(--ts-color-bg);
+  background: var(--ts-color-success-active);
+  border-color: var(--ts-color-success-border);
+  color: var(--ts-color-text);
 }
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):focus-visible {
