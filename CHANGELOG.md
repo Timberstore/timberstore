@@ -13,6 +13,17 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 - Živé testy: 320/375/390/430, otvorenie hore/uprostred/dole, scroll/obnovenie, opakované natívne AJAX množstvá cez hranicu oboma smermi, odstránenie produktu a desktop geometria. Navyše 72 modelových kombinácií v natívnom markupe vrátane prázdneho/1/8/40 produktov a dvoj-/troj-/štvorciferných súm. Podrobnosti a limity: `docs/previews/cart-rc4.md`.
 - Lint/build prešli: JS 26 346 B (25,73 KiB) / 30 KiB, CSS 21 099 B (20,60 KiB) / 21 KiB gzip. Rozpočet zvýšený podľa trvalého súhlasu klienta, iba pre rc.4. PageSpeed a fyzický iOS/Android neoverené.
 
+### Doplnenie aktuálnej rc.4 · finálne zadanie košíka, checkoutu a sidebara
+
+- Bez zmeny čísla verzie podľa pokynu klienta. Ďalší commit na rovnakej preview vetve nad `b075e8c`, bez merge/tagu/release/admin zásahu a produkčného nasadenia; package, loader v0.6.9 aj paleta bez zmeny.
+- Mobilný header: biela samostatná šípka a rezervované miesto pre pôvodný glyph, badge 99+, cenu a šípku bez prekrytia. Native produktové riadky mobilného náhľadu cez grid: obrázok/názov, pod nimi množstvo vľavo a cena + desktopová červená delete vpravo; pôvodné formuláre a AJAX bez zmeny.
+- Zhrnutie: dátum a shipping majú zhodný 12px font, os ľavých ikon a pravé texty aj na desktope; opravená natívna zelená truck ikona po splnení dopravy, ostáva oranžová. Zachované 16px SPOLU/divider a serverové stavy oranžového/Emerald progressu.
+- Login má plnú šírku nadpisu, pôvodný orange/white vzhľad a väčší odstup od prvého poľa na mobile/desktope. Doplnkový kontaktný odsek odstránený z JS/CSS/textov, horné funkčné kontakty bez zmeny. Mobilné menu zachováva jednotné 10px medzery.
+- Sidebar: iba biely foreground hlavičky a plných oranžových active/current stavov a šípok, vrátane hover. Svetlé rodičovské/vnorené položky tmavé. Žiadne nové pozadia, geometria, názvy kategórií ani zásah do rozbaľovania.
+- Súvisiaci tovar detailu: preukázané natívne formuláre už v HTML; lokálne odstránený opacity:0 gate a 250ms fade kariet/slider shellu čakajúci na body.is-loaded. Bez nového JS, zásahu do min/max/pack/submit, lazy obrázkov, slidera alebo dizajnu detailu.
+- Živé testy mobil 320/375/390/430 a desktop, natívny hover, scroll restore, quantity/remove a AJAX nad/pod limit, všetky tri kroky checkoutu, tel/mailto, šírka/spacing loginu, tri sidebar kategórie a súvisiaci native AJAX submit prešli. 72 modelových kombinácií plus header 99+/dlhé ceny. Podrobnosti, súbory, príčiny a limity: `docs/previews/cart-final.md`.
+- Lint/build prešli v existujúcom rc.4 rozpočte (JS 25,63/30 KiB, CSS 20,82/21 KiB gzip). Reálny iOS/Android a PageSpeed neoverené. Chromium pri navigácii checkoutu zaznamenal existujúcu hlášku Transition was skipped bez stacku, funkčné testy prešli; hláška sa tu neopravovala.
+
 ## Preview 0.6.11-rc.3 · 2026-10-15 · Kontaktné riadky, biele CTA a tvar prihlásenia
 
 - Aktuálna vetva, základ `4e66dbce0de8fe8756e43687f6f46847311b09b6`, staršie preview commity zachované. Iba izolované preview cez SHA, bez merge, tagu a produkčného nasadenia; loader v0.6.9.

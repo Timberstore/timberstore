@@ -379,6 +379,71 @@
     display: flex;
     flex-direction: column;
   }
+  /* Native mobile product forms, same two-row alignment as desktop. */
+  .ts-mobile-cart-open #cart-widget .full .cart-widget-product {
+    display: grid;
+    grid-template-columns: minmax(100px, max-content) minmax(0, 1fr) 36px;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 12px 8px;
+    padding: 12px var(--ts-space-3);
+    border-bottom: 1px solid var(--ts-color-controls-border);
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-product-image {
+    grid-area: 1 / 1;
+    width: 64px;
+    height: 64px;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-product-name {
+    display: contents;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-product-name strong {
+    grid-area: 1 / 2 / auto / -1;
+    min-width: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-product-amount {
+    grid-area: 2 / 1;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-product-name > span {
+    grid-area: 2 / 2;
+    margin: 0;
+    padding: 0;
+    color: var(--ts-color-table-name);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    white-space: nowrap;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-product-delete {
+    grid-area: 2 / 3;
+    position: static;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-product-delete button {
+    width: 36px;
+    height: 36px;
+    color: var(--ts-color-cart-delete);
+    border-radius: 6px;
+  }
+  .ts-mobile-cart-open #cart-widget .cart-widget-product-delete button:hover {
+    color: var(--ts-color-cart-delete-hover);
+    background: var(--ts-color-cart-delete-bg);
+  }
   .ts-mobile-cart-open #cart-widget .cart-free-shipping {
     order: 0;
   }

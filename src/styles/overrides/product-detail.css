@@ -26,3 +26,12 @@ body .form-control::placeholder {
 body .form-control:focus {
   border-color: var(--ts-color-link);
 }
+
+/* Related cards already contain native cart/quantity forms in the response.
+   Apollo otherwise fades both the card and slider shell from opacity:0 only
+   after the global is-loaded flag. Reveal this section without that gate/fade;
+   keep native hidden/variant states, Swiper, forms and quantity handlers. */
+.type-detail .products-related :is(.product, .slider-group-products) {
+  opacity: 1;
+  transition: none;
+}

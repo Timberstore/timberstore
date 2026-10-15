@@ -378,24 +378,36 @@
   border-bottom: 1px solid var(--ts-color-controls-border);
   background: transparent;
 }
-.in-kosik .ts-cart-delivery {
+.in-kosik #cart-wrapper :is(.ts-cart-delivery, .ts-cart-shipping) {
+  min-height: 64px;
+}
+.in-kosik #cart-wrapper .ts-cart-delivery {
+  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-left: 38px;
+  text-align: right;
   align-items: center;
   gap: 6px;
   margin: 0;
   width: 100%;
   max-width: none;
-  font-size: 11px;
-  white-space: nowrap;
+  font-size: 12px;
+  white-space: normal;
 }
 .in-kosik .ts-cart-delivery::before {
-  position: static;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  text-align: center;
   color: var(--ts-color-accent);
   font-size: 18px;
   margin: 0;
 }
 .in-kosik .ts-cart-delivery strong {
+  white-space: nowrap;
   font-size: inherit;
   font-weight: 700;
   color: var(--ts-color-summary-accent);
@@ -438,10 +450,12 @@
   margin: 0;
   padding: 0 0 0 38px;
   min-height: 28px;
+  text-align: right;
   font-size: 12px;
   line-height: 1.45;
 }
-.in-kosik .ts-cart-shipping .extra.delivery::before {
+.in-kosik #cart-wrapper .ts-cart-shipping .extra.delivery::before {
+  color: var(--ts-color-accent);
   font-size: 24px;
   left: 0;
   top: 50%;
@@ -623,15 +637,6 @@
     margin-top: 16px;
   }
 }
-@media (max-width: 767px) {
-  .in-kosik .ts-cart-shipping .extra.delivery {
-    /* Keep the icon axis fixed as the dynamic message changes length. */
-    width: 100%;
-    align-self: stretch;
-    text-align: right;
-  }
-}
-
 :is(#cart-wrapper :where(.cart-summary), .ordering-process #summary-box) strong.price-primary {
   font-size: 20px;
   font-weight: 700;
@@ -686,27 +691,4 @@
   position: static !important;
   top: auto !important;
   transform: none;
-}
-
-/* Mobile delivery date shares the shipping benefit's icon axis and insets.
-   The original server date node remains untouched. */
-@media (max-width: 767px) {
-  .in-kosik #cart-wrapper .ts-cart-delivery {
-    position: relative;
-    justify-content: flex-end;
-    padding-left: 38px;
-    white-space: normal;
-    text-align: right;
-  }
-  .in-kosik #cart-wrapper .ts-cart-delivery::before {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 24px;
-    text-align: center;
-  }
-  .in-kosik #cart-wrapper .ts-cart-delivery strong {
-    white-space: nowrap;
-  }
 }

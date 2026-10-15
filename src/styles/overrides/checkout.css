@@ -479,12 +479,18 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 }
 .in-krok-2 .co-contact-information .form-group-content > h2 {
   margin: 0;
-  width: auto;
+  width: 100%;
+  grid-column: 1 / -1;
 }
 .in-krok-2 .co-contact-information .form-group:has(.login-button) {
-  width: auto;
-  margin: 0;
-  justify-self: end;
+  grid-column: 1 / -1;
+  width: 100%;
+  margin: 0 0 var(--ts-space-2);
+  padding: 0;
+  justify-self: stretch;
+}
+.in-krok-2 .co-contact-information .form-group:has(.login-button) > div {
+  width: 100%;
 }
 .in-krok-2 .co-contact-information .form-group:has(.login-button) > .label {
   display: none;
@@ -517,38 +523,6 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     grid-template-columns: minmax(0, 1fr);
     gap: 12px;
   }
-  .ordering-process.in-krok-2 .co-contact-information .form-group:has(.login-button) {
-    display: flex;
-    justify-content: center;
-    justify-self: stretch;
-    width: 100%;
-    padding: 0;
-  }
-  .ordering-process.in-krok-2 .co-contact-information .form-control-wrapper:has(.login-button) {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  body.ordering-process.in-krok-2 .co-contact-information .login-button,
-  body.ordering-process.in-krok-2
-    .co-contact-information
-    .login-button:is(:hover, :focus, :active) {
-    background: var(--ts-color-accent);
-    border-color: var(--ts-color-accent);
-    color: var(--ts-color-bg);
-    font-weight: 600;
-    margin: 0;
-    transition: filter 160ms ease; /* do not animate from Apollo's white label */
-  }
-  body.ordering-process.in-krok-2 .co-contact-information .login-button:hover {
-    filter: brightness(0.96);
-  }
-  body.ordering-process.in-krok-2 .co-contact-information .login-button:focus-visible {
-    outline: 2px solid var(--ts-color-text);
-    outline-offset: 3px;
-  }
   .in-krok-2 .co-contact-information .form-group:has(#billFullName, #email, #phone) {
     grid-template-columns: minmax(0, 1fr);
     gap: 6px;
@@ -571,11 +545,28 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   padding: 0;
 }
 
+body.ordering-process.in-krok-2 .co-contact-information .login-button,
+body.ordering-process.in-krok-2 .co-contact-information .login-button:is(:hover, :focus, :active) {
+  background: var(--ts-color-accent);
+  border-color: var(--ts-color-accent);
+  color: var(--ts-color-bg);
+  font-weight: 600;
+  margin: 0;
+  transition: filter 160ms ease; /* do not animate from Apollo's white label */
+}
+body.ordering-process.in-krok-2 .co-contact-information .login-button:hover {
+  filter: brightness(0.96);
+}
+body.ordering-process.in-krok-2 .co-contact-information .login-button:focus-visible {
+  outline: 2px solid var(--ts-color-text);
+  outline-offset: 3px;
+}
 .in-krok-2 .co-contact-information .login-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  width: 100%;
   max-width: 100%;
   min-height: 48px;
   border-radius: var(--ts-radius-checkout-panel);

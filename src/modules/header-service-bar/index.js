@@ -234,17 +234,6 @@ function syncCartContacts() {
       if (!email.classList.contains('ts-cart-contact-link'))
         email.classList.add('ts-cart-contact-link');
     }
-    // Outside the native beige panel; keep one note across AJAX/native moves.
-    let note = panel.parentElement.querySelector(':scope > .ts-checkout-contact-note');
-    if (!note) {
-      note = document.createElement('p');
-      note.className = 'ts-checkout-contact-note';
-      const link = document.createElement('a');
-      link.href = `mailto:${CHECKOUT_SUPPORT_EMAIL}`;
-      link.textContent = CHECKOUT_SUPPORT_EMAIL;
-      note.append(TEXTS.checkout.contactHelpPrefix, link);
-    }
-    if (panel.nextElementSibling !== note) panel.after(note);
     const phone = list.querySelector(SEL.cartHelpPhone);
     if (phone) {
       // Apollo wrapInner creates an outer tel link around the existing one.

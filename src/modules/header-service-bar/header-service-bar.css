@@ -114,15 +114,20 @@
   visibility: hidden;
 }
 @media (max-width: 767px) {
-  .top-navigation-bar .ts-cart-control {
+  .top-navigation-bar .responsive-tools .ts-cart-control {
     display: inline-flex;
     align-items: center;
+    padding-right: 0;
   }
   .top-navigation-bar .responsive-tools .ts-cart-control .cart-count {
     /* Apollo disables this link and redirects the wrapper. Restore the link
        so touch, keyboard and modified clicks share the same native href. */
     pointer-events: auto;
-    padding-right: 28px;
+    display: inline-grid;
+    grid-template-columns: 42px max-content;
+    align-items: center;
+    column-gap: 8px;
+    padding: 0 28px 0 8px;
     /* Same white-on-brand treatment as desktop; native geometry/count stay. */
     background: var(--ts-color-accent);
     color: var(--ts-color-bg);
@@ -135,7 +140,26 @@
   .cart-window-visible .top-navigation-bar .responsive-tools .ts-cart-control .cart-count {
     background: var(--ts-color-controls-active);
   }
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count::before {
+    grid-area: 1 / 1;
+    justify-self: start;
+    margin: 0;
+  }
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-price {
+    /* Bootstrap hides visible-lg labels below 1200px; this mobile price stays. */
+    display: inline-block !important;
+    grid-area: 1 / 2;
+    white-space: nowrap;
+  }
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count > i {
+    left: 26px;
+    right: auto;
+    min-width: 22px;
+    width: auto;
+    padding-inline: 4px;
+  }
   .top-navigation-bar .ts-cart-preview-toggle {
+    color: var(--ts-color-bg);
     width: 28px;
   }
 }
@@ -499,26 +523,5 @@
 @media (max-width: 359px) {
   .ordering-process #content .ts-cart-contacts .contact-box a.ts-cart-contact-link {
     font-size: 11px;
-  }
-}
-
-/* Supplementary checkout help is mobile-only, outside the original panel. */
-.ts-checkout-contact-note {
-  display: none;
-}
-@media (max-width: 767px) {
-  .ordering-process #content .ts-checkout-contact-note {
-    display: block;
-    margin: 8px 0 0;
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: center;
-    color: var(--ts-color-price-secondary);
-    overflow-wrap: anywhere;
-  }
-  .ordering-process #content .ts-checkout-contact-note a {
-    color: inherit;
-    white-space: nowrap;
-    text-decoration: underline;
   }
 }
