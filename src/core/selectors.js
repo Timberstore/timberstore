@@ -1,6 +1,13 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  // Current Shoptet My Order is an open shadow-root React widget, not checkout.
+  orderHost: '#order-withdraw',
+  orderLayout: '.layout__order',
+  orderWidget: '.reactWidget-orderWithdraw[data-widget]',
+  orderMethodPrice: '.orderItem--shippingBilling .orderItem__price',
+  orderFlags: '.orderHeader .flag',
+  orderHeaderFlags: '.orderHeader .flags',
   // Homepage banner carousel (Bootstrap 3 carousel rendered by Shoptet)
   carousel: '#carousel.carousel',
   carouselItem: '.item',
@@ -123,6 +130,7 @@ export const SEL = {
     '.in-krok-1 input[name="shippingId"]:checked, .in-krok-1 input[name="billingId"]:checked',
   checkoutMethodRow: '.radio-wrapper',
   checkoutMethodPrice: '.payment-shipping-price',
+  checkoutShippingName: '.in-krok-1 #order-shipping-methods .shipping-billing-name',
   cartFirstStep: '.ordering-process .cart-header > li:first-child :is(a, span)',
   cartSummaryTitle: '.in-kosik #cart-wrapper .cart-summary > h2',
   cartName: 'a.main-link',

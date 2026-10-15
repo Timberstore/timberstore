@@ -93,6 +93,14 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   color: var(--ts-color-accent);
 }
 
+/* Presentation of the native shipping name only; font size/family and method
+   controls stay native. Whitespace remains in textContent for native recaps. */
+.ts-shipping__delivery {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+}
+
 /* Native controls/tooltips stay intact; mobile has info + price/logo columns. */
 @media (max-width: 767px) {
   .in-krok-1 .order-delivery-payment-form .radio-wrapper > label {

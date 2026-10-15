@@ -8,6 +8,7 @@ import {
   syncCheckoutPriceAccents,
   syncCheckoutDispatchNote,
   syncCheckoutSummaryStructure,
+  syncShippingNames,
 } from './checkout.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
 
@@ -35,6 +36,7 @@ function syncPresentation() {
   syncCheckoutSummaryStructure();
   syncCheckoutPriceAccents();
   syncCheckoutDispatchNote();
+  syncShippingNames();
 }
 
 function syncSummary() {
@@ -98,6 +100,7 @@ export default {
         // animation frames can be suspended. Class writes are idempotent.
         syncCheckoutSummaryStructure();
         syncCheckoutPriceAccents();
+        syncShippingNames();
         scheduleSummary();
       });
     observe();

@@ -1,5 +1,9 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  order: {
+    free: 'ZADARMO',
+    cancelled: ['Zrušená', 'Stornovaná', 'Zrušená objednávka', 'Stornovaná objednávka'],
+  },
   header: {
     hours: 'PO – PIA (08:00 – 16:00)',
     open: 'Zákaznícka podpora: dostupná',

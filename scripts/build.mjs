@@ -1,6 +1,7 @@
 // Build: bundles src/ into dist/ and enforces the performance budget (CONTRIBUTING.md 3.4).
-import { build } from 'esbuild';
+import { build, transform } from 'esbuild';
 import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import { gzipSync } from 'node:zlib';
 
 const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
@@ -37,6 +38,27 @@ await build({
   outfile: 'dist/timber.min.js',
   format: 'iife',
   define: { __VERSION__: JSON.stringify(`v${pkg.version}`) },
+  // Shoptet My Order uses an open shadow root. Bundle its local CSS as a
+  // minified string; normal page CSS cannot style across that boundary.
+  plugins: [
+    {
+      name: 'shadow-css',
+      setup(plugin) {
+        plugin.onResolve({ filter: /\.css\?shadow$/ }, (args) => ({
+          path: resolve(args.resolveDir, args.path.replace(/\?shadow$/, '')),
+          namespace: 'shadow-css',
+        }));
+        plugin.onLoad({ filter: /.*/, namespace: 'shadow-css' }, async (args) => {
+          const result = await transform(readFileSync(args.path, 'utf8'), {
+            loader: 'css',
+            minify: true,
+            target: common.target,
+          });
+          return { contents: `export default ${JSON.stringify(result.code)}`, loader: 'js' };
+        });
+      },
+    },
+  ],
 });
 
 await build({

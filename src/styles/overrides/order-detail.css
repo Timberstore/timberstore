@@ -1,0 +1,227 @@
+/* Shoptet My Order (open shadow root, 2026-10). Loaded by order-detail only.
+   Native React nodes, amounts, document/payment links and return actions stay
+   in place. The layout prefix excludes login, returns and thank-you pages. */
+.reactWidget-orderWithdraw:has(.layout__order) {
+  padding: 16px 0 32px;
+  font-family: inherit;
+}
+.layout__order {
+  --Global-Foregrounds-Content-Primary: var(--ts-color-text);
+  --Global-Foregrounds-Content-Muted: var(--ts-color-price-secondary);
+  --Global-Foregrounds-Content-Link: var(--ts-color-steel);
+  color: var(--ts-color-text);
+  font-family: inherit;
+  line-height: 1.5;
+}
+.layout__order :is(.orderHeader, .orderDetail__content, .sidebarSection) {
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 20px 16px;
+  border: 1px solid var(--ts-color-controls-border);
+  border-radius: var(--ts-radius-controls);
+  background: var(--ts-color-bg);
+}
+.layout__order .orderHeader {
+  gap: 16px;
+  margin-bottom: 20px;
+  background: var(--ts-color-service-bg);
+}
+.layout__order .orderHeader h1 {
+  color: var(--ts-color-text);
+  font-size: clamp(23px, 3vw, 32px);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.layout__order .orderHeader__wrapper > div:not(.flags) {
+  color: var(--ts-color-price-secondary);
+  font-size: 14px;
+}
+.layout__order .flag {
+  padding: 7px 10px;
+  color: var(--ts-color-steel);
+  background: var(--ts-color-info-bg);
+  white-space: normal;
+  line-height: 1.3;
+}
+.layout__order :is(.flag--success, .ts-order-status--success) {
+  color: var(--ts-color-positive-ink);
+  background: var(--ts-color-success-bg);
+}
+.layout__order :is(.flag--warning, .ts-order-status--warning) {
+  color: var(--ts-color-action-hover);
+  background: var(--ts-color-warning-bg);
+}
+.layout__order :is(.ts-order-cancelled, .ts-order-status--cancelled) {
+  color: var(--ts-color-error);
+  background: var(--ts-color-error-bg);
+}
+.layout__order .layout__container {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+.layout__order .orderDetail__content {
+  gap: 24px;
+  width: 100%;
+}
+.layout__order :is(h2, h3, h4) {
+  color: var(--ts-color-text);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.layout__order .orderItems__list {
+  gap: 0;
+}
+.layout__order .orderItem {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--ts-color-controls-border);
+}
+.layout__order .orderItem:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.layout__order .orderItem:first-child {
+  padding-top: 0;
+}
+.layout__order .orderItem__wrapper {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 8px 12px;
+  align-items: start;
+}
+.layout__order .orderItem__image {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--ts-radius);
+}
+.layout__order .orderItem__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.layout__order .orderItem__content {
+  grid-column: 2;
+  min-width: 0;
+  max-width: none;
+  gap: 6px;
+}
+.layout__order .orderItem__name {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.layout__order :is(.orderItem__variantName, .orderItem__pickupPoint, .orderItem__amount) {
+  font-size: 13px;
+  color: var(--ts-color-price-secondary);
+  overflow-wrap: anywhere;
+}
+.layout__order .orderItem__amountWrapper--desktop {
+  display: flex;
+}
+.layout__order .orderItem__amountWrapper--mobile {
+  display: none;
+}
+.layout__order .orderItem__price {
+  grid-column: 2;
+  justify-self: end;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ts-color-price);
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.layout__order .orderItems:has(.orderItem--shippingBilling) {
+  padding: 16px;
+  border-radius: var(--ts-radius);
+  background: var(--ts-color-service-bg);
+}
+.layout__order :is(.orderItem--shippingBilling, .orderItem--discount) .orderItem__image {
+  height: 28px;
+}
+.layout__order :is(.orderItem--shippingBilling, .orderItem--discount) .orderItem__image img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.layout__order .orderItem__price.ts-order-free {
+  color: var(--ts-color-positive-ink);
+}
+.layout__order .orderDetail__summary {
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--ts-color-controls-border);
+  font-size: 19px;
+  flex-wrap: wrap;
+}
+.layout__order .orderDetail__summary > :last-child {
+  margin-left: auto;
+  font-size: 24px;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.layout__order .orderDetail__sidebar {
+  width: 100%;
+  min-width: 0;
+  gap: 16px;
+}
+.layout__order .sidebarSection {
+  overflow-wrap: anywhere;
+}
+.layout__order .sidebarSection:has(.helpInfo__list) {
+  border-top: 3px solid var(--ts-color-accent);
+  background: var(--ts-color-service-bg);
+}
+.layout__order .helpInfo__list {
+  gap: 12px;
+  margin: 16px 0 0;
+}
+.layout__order a {
+  color: var(--ts-color-steel);
+}
+.layout__order a:hover {
+  color: var(--ts-color-accent);
+}
+.layout__order a:focus-visible {
+  outline: 2px solid var(--ts-color-accent);
+  outline-offset: 3px;
+}
+.layout__order .helpInfo__list a {
+  min-height: 32px;
+  gap: 10px;
+  overflow-wrap: anywhere;
+}
+.layout__order .helpInfo__list a > span {
+  flex-shrink: 0;
+  color: var(--ts-color-accent);
+}
+@media (min-width: 768px) {
+  .layout__order :is(.orderHeader, .orderDetail__content, .sidebarSection) {
+    padding: 24px;
+  }
+  .layout__order .orderItem__wrapper {
+    grid-template-columns: 56px minmax(0, 1fr) minmax(80px, auto);
+    gap: 16px;
+  }
+  .layout__order .orderItem__image {
+    grid-row: 1;
+    width: 56px;
+    height: 56px;
+  }
+  .layout__order .orderItem__price {
+    grid-column: 3;
+    align-self: start;
+  }
+}
+@media (min-width: 1200px) {
+  .layout__order .layout__container {
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 24px;
+  }
+}

@@ -7,6 +7,7 @@ export const SHOPTET_EVENTS = {
   // Cart changed (add, remove, amount); the dataLayer cart is already updated
   cartUpdated: 'ShoptetCartUpdated',
   dataLayerUpdated: 'ShoptetDataLayerUpdated',
+  orderDataLoaded: 'OrderWithdrawDataLoaded',
 };
 
 // Events after which modules re-run on the (partly) new DOM.

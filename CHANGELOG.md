@@ -2,6 +2,16 @@
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
+
+## Nevydané · 2026-10-15 · Doprava, AJAX košíka a detail objednávky
+
+- Bez zmeny palety v0.6.9, produkčného loadera alebo čísla verzie. Pracovná vetva `work`, izolované preview cez commit na `preview/shipping-cart-order-20261015`; bez merge, release tagu a produkčného nasadenia.
+- Doprava: prezentačné rozdelenie natívneho textového názvu na výrazný názov a samostatný normálny riadok doručenia. Zachované hodnoty formulára, logá, ceny, tooltipy a odkazy na výdajné miesta.
+- Košík: opravená príčina oranžového prebliknutia po AJAX. Rozmery `price-range` platia už pre nový serverový obsah pred inicializáciou `ts-*` obalov; zachytený chybný stav bol približne 246 px namiesto 6 px. Bez timerov, nových prekrytí alebo zásahu do prepočtov.
+- Detail objednávky: lokálny štýl v natívnom Shoptet shadow root; oddelené produkty, doprava/platba, natívny finančný súčet, kontakty a responzívny layout. Skutočný stav objednávky zo schváleného read-only endpointu, bezpečný neutrálny vzhľad neznámych stavov. Len explicitná nulová cena dopravy/platby v EUR sa zobrazuje ako ZADARMO.
+- Overené reálne AJAX prepočty, opakované plus/mínus, doprava/platba a checkout bez vytvorenia objednávky, desktop/mobil; reálny autentifikovaný detail s tromi produktmi pri 320–1920 px a porovnanie cien/odkazov s v0.6.9. Ďalšie počty produktov a stavy overené na lokálnych vzorkách v natívnom React komponente.
+- Lint/build prešli v pôvodných limitoch, JS približne 24,57 / 30 kB gzip; CSS približne 19,75 / 19,75 kB (bez navýšenia). Skutočný iOS Safari, odoslanie objednávky a platobné brány neoverené, PageSpeed nemerané. Podrobnosti a limity: `docs/previews/order-detail-cart-followup.md`.
+
 ## v0.6.9 · 2026-10-14 · Košík, checkout a kontakty
 
 Produkcia: klient nasadil 14. 10. 2026; overené živé načítanie v0.6.9 bez preview aj nákupný priechod po posledný krok bez odoslania objednávky. Detail nasadenia a drobný nález Apollo assetu: `ADMIN-CHANGES.md`.
