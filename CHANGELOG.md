@@ -3,6 +3,14 @@
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 
+## Preview 0.6.11-rc.0 · 2026-10-15 · Mobilné karty dopravy
+
+- Nová samostatná pracovná vetva nad predchádzajúcim preview `e67b3db`; pôvodné commity/tagy zachované, bez merge a produkčného nasadenia. Produkčný loader ostáva v0.6.9. Odmietnuté farebné experimenty v0.6.10 sa nepreberajú.
+- Iba mobilná doprava: názov a doručenie cez celú šírku, pod nimi logo vľavo/cena vpravo, potom natívny odkaz na výdajné miesto. Zachované veľkosti písma, farby, polia, tooltipy a ovládanie. Žiadny nový JS ani presun/duplikácia DOM prvkov.
+- Spoločné Shoptet selektory bez názvov/ID dopravcov, cien a nth-child. Podporované pôvodné súrodenecké logo aj logo vložené Apollom do ceny, chýbajúce logo/odberné miesto, jeden aj viac spôsobov dopravy.
+- Overené živé rozloženie 320/375/390/430 px, porovnanie mobilných platieb a desktopovej dopravy s predchádzajúcim preview bez geometrickej/typografickej zmeny. Natívne prepínanie štyroch dopráv, AJAX HTTP 200 a otvorenie pôvodného pickup widgetu prešli. Ďalších 16 kombinácií overených na lokálnych dátach v natívnom markupe. Limity testov: `docs/previews/mobile-shipping-layout.md`.
+- Klient povolil potrebné budúce zvýšenia kB rozpočtu; toto preview má CSS limit 20,0 kB a JS 30 kB gzip. Pôvodné rozpočty zostávajú zachované. Lint/build prešli.
+
 ## Nevydané · 2026-10-15 · Doprava, AJAX košíka a detail objednávky
 
 - Bez zmeny palety v0.6.9, produkčného loadera alebo čísla verzie. Pracovná vetva `work`, izolované preview cez commit na `preview/shipping-cart-order-20261015`; bez merge, release tagu a produkčného nasadenia.

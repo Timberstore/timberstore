@@ -101,7 +101,8 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   font-weight: 400;
 }
 
-/* Native controls/tooltips stay intact; mobile has info + price/logo columns. */
+/* Mobile methods: billing retains its two-column layout; shipping uses full-width
+   names and a separate logo/price row. Native nodes and handlers stay in place. */
 @media (max-width: 767px) {
   .in-krok-1 .order-delivery-payment-form .radio-wrapper > label {
     display: grid;
@@ -112,7 +113,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     padding: 14px 12px 14px 40px;
     border-radius: 12px;
   }
-  .in-krok-1 .order-delivery-payment-form .payment-info {
+  .in-krok-1 #order-billing-methods .payment-info {
     grid-area: 1 / 1 / 3 / 2;
     width: auto;
     min-width: 0;
@@ -164,6 +165,60 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   .in-krok-1 .order-delivery-payment-form .payment-logo img {
     max-width: 100%;
     max-height: 28px;
+  }
+  /* Shipping only. display:contents exposes existing label children to the
+     grid; hidden inputs and delegated/direct picker listeners remain native. */
+  .in-krok-1 #order-shipping-methods .radio-wrapper > label {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px 12px;
+  }
+  .in-krok-1 #order-shipping-methods .payment-info {
+    display: contents;
+  }
+  .in-krok-1 #order-shipping-methods .shipping-billing-name {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    min-width: 0;
+    padding: 0;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+  }
+  .in-krok-1 #order-shipping-methods .shipping-billing-name:has(+ span .question-tooltip) {
+    padding-right: 22px;
+  }
+  .in-krok-1 #order-shipping-methods .payment-info > span:has(.question-tooltip) {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+  }
+  .in-krok-1 #order-shipping-methods .payment-logo {
+    grid-area: 2 / 1;
+    justify-self: start;
+    padding: 0;
+  }
+  .in-krok-1 #order-shipping-methods .payment-shipping-price {
+    grid-area: 2 / 2;
+    align-self: center;
+  }
+  /* Apollo nests the existing logo inside the price after load on mobile.
+     The anonymous text item is the native price, so reverse flex places the
+     logo left and that price right without wrapping/moving either node. */
+  .in-krok-1 #order-shipping-methods .payment-shipping-price:has(.payment-logo) {
+    grid-area: 2 / 1 / 3 / -1;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    justify-self: stretch;
+  }
+  .in-krok-1 #order-shipping-methods .payment-info > .sublabel {
+    grid-column: 1 / -1;
+    order: 1;
+    margin: 0;
+  }
+  .in-krok-1 #order-shipping-methods .radio-wrapper > label::before,
+  .in-krok-1 #order-shipping-methods .radio-wrapper > label::after {
+    top: 23px;
   }
 }
 
