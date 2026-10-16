@@ -1,3 +1,34 @@
+/* Mobile Apollo positions its logo above the tools. Reserve actual tool width
+   so a longer cart total cannot put the home link over the cart click area. */
+@media (max-width: 767px) {
+  .top-navigation-bar > .container {
+    display: flex;
+    align-items: center;
+    gap: var(--ts-space-2);
+  }
+  .top-navigation-bar > .container::before,
+  .top-navigation-bar > .container::after {
+    display: none;
+  }
+  .top-navigation-bar > .container > div.site-name {
+    position: static;
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  .top-navigation-bar > .container > div.site-name a,
+  .top-navigation-bar > .container > div.site-name img {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .top-navigation-bar > .container > div.site-name img {
+    height: auto;
+  }
+  .top-navigation-bar > .container > div.top-navigation-tools {
+    flex: 0 0 auto;
+    margin-left: auto;
+  }
+}
+
 /* Desktop/tablet layout over the original Apollo logo, form and controls.
    Legacy 310x68 logo dimensions and 30px header padding were removed. */
 @media (min-width: 768px) {

@@ -33,6 +33,12 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 - Pred/po: 20 navigácií v každej render sérii, 320/375/390/430/1440, prvé načítanie a reálny súvisiaci produkt, cache statických assets vs no-cache. Presné príčiny, reálne CTA výsledné URL/obsah, údaje a obmedzenia testov: `docs/previews/cart-actions.md` a `docs/previews/cart-actions/render-traces.json`. Cache je TLS-overujúci transport testovacieho prostredia; nejde o fyzický browser disk-cache benchmark.
 - Lint/build v rovnakých rc.4 limitoch 30 KiB JS / 21 KiB CSS. Bez vytvorenia objednávky/platby, bez reálneho iOS/Android a PageSpeed.
 
+### Doplňujúce overenie tej istej rc.4 · reálne dotyky s dvoma produktmi
+
+- Na 320px natívne absolútne logo prekrývalo ikonu košíka pri širšej celkovej cene. Skutočný hit-test aj touch listener zachytili logo a home URL. Mobilný header teraz prideľuje tools ich obsahovú šírku a logu zostávajúci priestor; proporčné zmenšenie loga odstráni prekrývanie bez zásahu do navigačných listenerov. Desktop bez zmeny.
+- Samotné related tlačidlo dedilo natívnu transition:all a po body.is-loaded ešte animovalo visibility. Obmedzené iba súvisiace btn na farebné vlastnosti a tieň; quantity/input/button sa odhalia spolu po natívnej inicializácii, bez nového časovača alebo JS.
+- Tá istá pracovná vetva/verzia, bez merge, release/tagu a produkčného nasadenia. Presné príčiny, merania a obmedzenia: docs/previews/cart-actions.md.
+
 ## Preview 0.6.11-rc.3 · 2026-10-15 · Kontaktné riadky, biele CTA a tvar prihlásenia
 
 - Aktuálna vetva, základ `4e66dbce0de8fe8756e43687f6f46847311b09b6`, staršie preview commity zachované. Iba izolované preview cez SHA, bez merge, tagu a produkčného nasadenia; loader v0.6.9.

@@ -42,3 +42,9 @@ body .form-control:focus {
 .type-detail .products-related :is(.product, .slider-group-products) {
   transition: none;
 }
+
+/* Apollo's button transition:all also delays inherited visibility when the
+   detail becomes ready. Keep hover feedback, but reveal its controls together. */
+.type-detail .products-related .btn {
+  transition-property: background-color, border-color, color, box-shadow;
+}

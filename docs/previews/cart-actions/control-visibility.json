@@ -1,0 +1,376 @@
+{
+  "beforeFollowup": [
+    {
+      "t": 9426,
+      "loaded": false,
+      "bodyVis": "hidden",
+      "parent": "0",
+      "formParent": "p-tools",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "t": 9619,
+      "loaded": false,
+      "bodyVis": "hidden",
+      "parent": "0",
+      "formParent": "p-tools",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount multiple-check",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "t": 9630,
+      "loaded": false,
+      "bodyVis": "visible",
+      "parent": "0",
+      "formParent": "p-tools",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount multiple-check",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "t": 9729,
+      "loaded": false,
+      "bodyVis": "visible",
+      "parent": "0",
+      "formParent": "product-btn",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount multiple-check",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "t": 9799,
+      "loaded": true,
+      "bodyVis": "visible",
+      "parent": "1",
+      "formParent": "product-btn",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "0.3s ease-out",
+          "animations": [
+            {
+              "property": "visibility",
+              "playState": "running",
+              "time": 0
+            }
+          ]
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "visible",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount multiple-check",
+          "visibility": "visible",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "t": 11418,
+      "loaded": true,
+      "bodyVis": "visible",
+      "parent": "1",
+      "formParent": "product-btn",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "visible",
+          "opacity": "1",
+          "transition": "0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "visible",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount multiple-check",
+          "visibility": "visible",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    }
+  ],
+  "afterFollowup": [
+    {
+      "t": 3421,
+      "loaded": false,
+      "bodyVis": "hidden",
+      "parent": "0",
+      "formParent": "p-tools",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "background-color 0.3s ease-out, border-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "t": 4086,
+      "loaded": false,
+      "bodyVis": "hidden",
+      "parent": "0",
+      "formParent": "p-tools",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "background-color 0.3s ease-out, border-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount multiple-check",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "t": 4203,
+      "loaded": false,
+      "bodyVis": "hidden",
+      "parent": "0",
+      "formParent": "product-btn",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "background-color 0.3s ease-out, border-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount multiple-check",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "t": 4232,
+      "loaded": false,
+      "bodyVis": "visible",
+      "parent": "0",
+      "formParent": "product-btn",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "background-color 0.3s ease-out, border-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount multiple-check",
+          "visibility": "hidden",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "t": 4495,
+      "loaded": true,
+      "bodyVis": "visible",
+      "parent": "1",
+      "formParent": "product-btn",
+      "nodes": [
+        {
+          "tag": "BUTTON",
+          "cls": "btn btn-cart add-to-cart-button",
+          "visibility": "visible",
+          "opacity": "1",
+          "transition": "background-color 0.3s ease-out, border-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.3s ease-out",
+          "animations": []
+        },
+        {
+          "tag": "SPAN",
+          "cls": "quantity",
+          "visibility": "visible",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        },
+        {
+          "tag": "INPUT",
+          "cls": "amount multiple-check",
+          "visibility": "visible",
+          "opacity": "1",
+          "transition": "all",
+          "animations": []
+        }
+      ]
+    }
+  ],
+  "method": "MutationObserver/computed CSS/CSSTransition snapshots, 390px Chromium cold transport; t values show ordering, not comparable network benchmarks."
+}

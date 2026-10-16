@@ -120,7 +120,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 191,
@@ -138,7 +138,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 301,
@@ -156,7 +156,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 301,
@@ -174,7 +174,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 261,
@@ -197,7 +197,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 732,
@@ -218,7 +218,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 0,
@@ -239,7 +239,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 748,
@@ -260,7 +260,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 856,
@@ -281,7 +281,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 856,
@@ -302,7 +302,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 705,
@@ -323,7 +323,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 0,
@@ -359,7 +359,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 0,
@@ -395,7 +395,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 0,
@@ -425,7 +425,7 @@
         "tag": "A",
         "id": "continue-order-button",
         "cls": "btn btn-conversion",
-        "text": "Pokračovať do košíka"
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
       },
       "cartPreserved": true,
       "staticCacheHits": 0,
@@ -435,5 +435,277 @@
         }
       ]
     }
-  ]
+  ],
+  "afterFollowupTwoProducts": [
+    {
+      "width": 320,
+      "noCache": false,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real touch CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 732,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "noCache": true,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real touch CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 0,
+      "errors": [
+        {
+          "pageError": "Transition was skipped",
+          "pageUrl": "https://www.timberstore.sk/kosik/",
+          "stack": ""
+        },
+        {
+          "pageError": "Transition was skipped"
+        },
+        {
+          "pageError": "Transition was skipped"
+        },
+        {
+          "pageError": "Transition was skipped"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "noCache": false,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real touch CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 748,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "noCache": false,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real touch CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 857,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "noCache": false,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real touch CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 857,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "noCache": false,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real mouse CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 703,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "noCache": true,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real touch CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 0,
+      "errors": [
+        {
+          "pageError": "Transition was skipped"
+        },
+        {
+          "pageError": "Transition was skipped"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "noCache": true,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real touch CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 0,
+      "errors": [
+        {
+          "pageError": "Transition was skipped",
+          "pageUrl": "https://www.timberstore.sk/kosik/",
+          "stack": ""
+        },
+        {
+          "pageError": "Transition was skipped"
+        },
+        {
+          "pageError": "Transition was skipped"
+        },
+        {
+          "pageError": "Transition was skipped"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "noCache": true,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real touch CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 0,
+      "errors": [
+        {
+          "pageError": "Transition was skipped",
+          "pageUrl": "https://www.timberstore.sk/kosik/",
+          "stack": ""
+        },
+        {
+          "pageError": "Transition was skipped"
+        },
+        {
+          "pageError": "Transition was skipped"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "noCache": true,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real mouse CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokra\u010dova\u0165 do ko\u0161\u00edka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 0,
+      "errors": [
+        {
+          "pageError": "Transition was skipped"
+        },
+        {
+          "pageError": "Transition was skipped"
+        },
+        {
+          "pageError": "Transition was skipped"
+        }
+      ]
+    }
+  ],
+  "followupNote": "All contexts contain two native products. Actual URL plus visible native cart row plus priceId/quantity/unit price equality. A 430px cold attempt reached /kosik/ but hit an initial combined DOM timeout; repeated with navigation commit and DOM readiness awaited separately."
 }
