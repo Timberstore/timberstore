@@ -91,25 +91,6 @@ function cartInteraction(event) {
     popups.showPopupWindow('cart', true, 'cart-widget', event.detail === 0);
     return;
   }
-  if (
-    !desktop.matches &&
-    cart &&
-    !event.ctrlKey &&
-    !event.metaKey &&
-    !event.shiftKey &&
-    !event.altKey
-  ) {
-    // Touch produces the normal click; do not toggle twice on touchend.
-    if (event.type === 'touchend') return;
-    const popups = window.shoptet?.popups;
-    if (!popups?.showPopupWindow) return;
-    event.preventDefault();
-    event.stopImmediatePropagation();
-    if (document.body.matches(SEL.cartOpenBody)) popups.hideContentWindows?.();
-    else popups.showPopupWindow('cart', true, 'cart-widget', event.detail === 0);
-    syncMobileCart();
-    return;
-  }
   // Prevent Apollo's delegated toggle and wrapper redirect from running,
   // but keep default link navigation, modified clicks and native href intact.
   event.stopImmediatePropagation();

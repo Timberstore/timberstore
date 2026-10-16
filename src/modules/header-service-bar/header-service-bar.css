@@ -128,6 +128,12 @@
     align-items: center;
     column-gap: 8px;
     padding: 0 28px 0 8px;
+    /* Native transition:all also animates inherited visibility and geometry
+       while Apollo rebuilds the mobile clone. Only animate its colours. */
+    transition:
+      background-color 160ms ease,
+      color 160ms ease,
+      box-shadow 160ms ease;
     /* Same white-on-brand treatment as desktop; native geometry/count stay. */
     background: var(--ts-color-accent);
     color: var(--ts-color-bg);

@@ -24,6 +24,15 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 - Živé testy mobil 320/375/390/430 a desktop, natívny hover, scroll restore, quantity/remove a AJAX nad/pod limit, všetky tri kroky checkoutu, tel/mailto, šírka/spacing loginu, tri sidebar kategórie a súvisiaci native AJAX submit prešli. 72 modelových kombinácií plus header 99+/dlhé ceny. Podrobnosti, súbory, príčiny a limity: `docs/previews/cart-final.md`.
 - Lint/build prešli v existujúcom rc.4 rozpočte (JS 25,63/30 KiB, CSS 20,82/21 KiB gzip). Reálny iOS/Android a PageSpeed neoverené. Chromium pri navigácii checkoutu zaznamenal existujúcu hlášku Transition was skipped bez stacku, funkčné testy prešli; hláška sa tu neopravovala.
 
+### Kontrola kliknutí a vykresľovania v rovnakej rc.4
+
+- Základ `155eea9`, rovnaká pracovná vetva/verzia, bez merge/release/tagu/produkcie. Ostatné hotové opravy a finančná logika zostávajú zachované.
+- Potvrdené reálnymi dotykmi: mobilná vetva hlavného cart linku rušila href a otvárala popup. Odstránená iba táto vetva, hlavná plocha/ikona/počet navigujú natívnym odkazom; samostatná šípka naďalej výhradne ovláda popup. Mobilný transition:all nahradený iba prechodmi farieb/tieňa, aby sa neanimovala visibility/geometria pri prestavbe header clone.
+- CTA: natívny href/redirect boli správne. Pri 320px však reálny hit zachytil zalomený dlhý PREVIEW SHA štítok a vypol preview. Badge sa teraz skryje výhradne počas otvoreného mobilného náhľadu a po zatvorení sa obnoví. Natívny AJAX loader sa neobchádza.
+- Súvisiaci tovar: predchádzajúce opacity:1 predčasne odkrývalo nespracovaný serverový layout (.p-tools → .product-btn, 522/527 → 482px). Zachovaná natívna pripravenosť body.is-loaded, detail dovtedy nemení rezervovaný priestor a neodhalí medzistav. Odstránený zostáva 250ms fade; žiadny nový JS, observer alebo timeout pre detail. Global loader aj package/paleta bez zmeny.
+- Pred/po: 20 navigácií v každej render sérii, 320/375/390/430/1440, prvé načítanie a reálny súvisiaci produkt, cache statických assets vs no-cache. Presné príčiny, reálne CTA výsledné URL/obsah, údaje a obmedzenia testov: `docs/previews/cart-actions.md` a `docs/previews/cart-actions/render-traces.json`. Cache je TLS-overujúci transport testovacieho prostredia; nejde o fyzický browser disk-cache benchmark.
+- Lint/build v rovnakých rc.4 limitoch 30 KiB JS / 21 KiB CSS. Bez vytvorenia objednávky/platby, bez reálneho iOS/Android a PageSpeed.
+
 ## Preview 0.6.11-rc.3 · 2026-10-15 · Kontaktné riadky, biele CTA a tvar prihlásenia
 
 - Aktuálna vetva, základ `4e66dbce0de8fe8756e43687f6f46847311b09b6`, staršie preview commity zachované. Iba izolované preview cez SHA, bez merge, tagu a produkčného nasadenia; loader v0.6.9.

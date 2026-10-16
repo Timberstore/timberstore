@@ -27,11 +27,18 @@ body .form-control:focus {
   border-color: var(--ts-color-link);
 }
 
-/* Related cards already contain native cart/quantity forms in the response.
-   Apollo otherwise fades both the card and slider shell from opacity:0 only
-   after the global is-loaded flag. Reveal this section without that gate/fade;
-   keep native hidden/variant states, Swiper, forms and quantity handlers. */
+/* Apollo relocates the detail and related forms before setting is-loaded.
+   Keep its unprocessed server layout out of paint, even if the global loader's
+   network fail-safe expires first. This preserves space, not display:none, and
+   releases on the native readiness state without another timer or DOM pass. */
+.type-detail:not(.is-loaded) .p-detail {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* Keep Apollo's native ready-state opacity gate; only remove the double fade
+   on ready related cards/slider shells. An unconditional opacity:1 exposed the
+   initial p-tools layout before Apollo moved forms into product-btn. */
 .type-detail .products-related :is(.product, .slider-group-products) {
-  opacity: 1;
   transition: none;
 }

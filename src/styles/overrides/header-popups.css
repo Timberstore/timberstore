@@ -462,7 +462,10 @@
     font-size: 28px;
     line-height: 1;
   }
-  .ts-mobile-cart-open #back-to-top {
+  /* The long SHA preview badge can cover the footer CTA at narrow widths.
+     Restore it with the back-to-top control as soon as this panel closes. */
+  .ts-mobile-cart-open #back-to-top,
+  .ts-mobile-cart-open .ts-preview-badge {
     display: none;
   }
 }
