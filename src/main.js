@@ -2,6 +2,7 @@ import './legacy/timber-menu-guard.js';
 import { start } from './core/index.js';
 import carouselSwipe from './modules/carousel-swipe/index.js';
 import gallerySwipe from './modules/gallery-swipe/index.js';
+import productDetail from './modules/product-detail/index.js';
 import listView from './modules/list-view/index.js';
 import qtyPicker from './modules/qty-picker/index.js';
 import cartCount from './modules/cart-count/index.js';
@@ -37,6 +38,7 @@ start([
   footerPayments,
   emptyCart,
   gallerySwipe,
+  productDetail,
   categoryBestsellersSidebar,
   listView,
   qtyPicker,

@@ -5,6 +5,8 @@ import { resolve } from 'node:path';
 import { gzipSync } from 'node:zlib';
 
 const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
+// Isolated product-detail preview; do not alter any stable release allowance.
+const productDetailPreview = process.env.TIMBER_PREVIEW === 'product-detail';
 // The approved v0.6.5 build retains its 16 kB CSS allowance; other versions
 // use the standard 15 kB budget until a separate change is approved.
 // v0.6.9 retains its approved 19.75 kB allowance on release (2026-10-14).
@@ -32,7 +34,10 @@ const cssBudgetKiB = ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
               : pkg.version === '0.6.5'
                 ? 16
                 : 15;
-const BUDGET = { 'dist/timber.min.js': 30 * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
+const BUDGET = {
+  'dist/timber.min.js': 30 * 1024,
+  'dist/timber.min.css': (productDetailPreview ? 23 : cssBudgetKiB) * 1024,
+};
 
 const common = {
   bundle: true,
@@ -48,7 +53,11 @@ await build({
   entryPoints: ['src/main.js'],
   outfile: 'dist/timber.min.js',
   format: 'iife',
-  define: { __VERSION__: JSON.stringify(`v${pkg.version}`) },
+  define: {
+    __VERSION__: JSON.stringify(
+      `v${pkg.version}${productDetailPreview ? '-preview.product-detail' : ''}`,
+    ),
+  },
   // Shoptet My Order uses an open shadow root. Bundle its local CSS as a
   // minified string; normal page CSS cannot style across that boundary.
   plugins: [

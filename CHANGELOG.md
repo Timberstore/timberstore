@@ -3,6 +3,13 @@
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 
+## Product detail · 2026-10-16 · Preview only, no release
+
+- Client-approved detail redesign on `preview/product-detail-20261016`, based on `217bde0`. No main merge, tag, numbered version, Actions run, loader/admin change or production deployment. Trello code not supplied.
+- Native gallery/forms/prices/availability/quantity and all product content retained; responsive 52/48 product layout, single purchase surface, explicit VAT label and conservative warehouse-dependent dispatch guidance. Native CloudZoom refreshes its own hit layer after responsive resizing. No global component recoloring.
+- Local preview build only: `TIMBER_PREVIEW=product-detail npm run build`, 23 KiB CSS allowance isolated by environment flag; stable allowances and package 0.6.11 unchanged. JS 27,880 B / CSS 22,682 B gzip; lint passed. Client's standing budget authorization applies.
+- Verification and boundaries: `docs/previews/product-detail-20261016/README.md`. Chromium desktop/responsive/native AJAX and controlled variant-markup testing; physical iOS/Android and PageSpeed not verified. Client review is required before any release.
+
 ## v0.6.11 · 2026-10-16 · Schválený košík, checkout a Apollo opravy
 
 - Klient schválil dokončené preview `653d6f5172ae7f707082f0c922e6df5ed6bb75e3` a publikovanie do main ako nové stabilné vydanie. Funkčné zdroje sa pri povýšení z rc.4 nemenia; v0.6.9 zostáva nemenným rollback tagom. Odmietnutá v0.6.10 sa nevydáva. Trello kód nebol poskytnutý.

@@ -94,6 +94,15 @@
   --ts-space-2: 8px;
   --ts-space-3: 16px;
   --ts-space-section: 40px; /* vertical gap around homepage blocks */
+  /* PD · Detail-only geometry; existing global components retain their tokens. */
+  --ts-detail-gap: 28px;
+  --ts-detail-panel-padding: 24px;
+  --ts-detail-title-size: 28px;
+  --ts-detail-mobile-title-size: 24px;
+  --ts-detail-price-size: 34px;
+  --ts-detail-control-height: 54px;
+  --ts-detail-qty-width: 148px;
+  --ts-detail-gallery-max: 640px;
   --ts-z-preview: 99999;
 }
 

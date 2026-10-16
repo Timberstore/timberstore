@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "count": 1,
+      "image": {
+        "width": 520,
+        "height": 390
+      },
+      "trap": {
+        "width": 520,
+        "height": 390
+      }
+    },
+    {
+      "width": 390,
+      "count": 1,
+      "image": {
+        "width": 335,
+        "height": 251.25
+      },
+      "trap": {
+        "width": 335,
+        "height": 251
+      }
+    },
+    {
+      "width": 320,
+      "count": 1,
+      "image": {
+        "width": 265,
+        "height": 198.75
+      },
+      "trap": {
+        "width": 265,
+        "height": 199
+      }
+    },
+    {
+      "width": 1024,
+      "count": 1,
+      "image": {
+        "width": 640,
+        "height": 480
+      },
+      "trap": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "width": 1440,
+      "count": 1,
+      "image": {
+        "width": 520,
+        "height": 390
+      },
+      "trap": {
+        "width": 520,
+        "height": 390
+      }
+    },
+    "Native desktop hover zoom opens after responsive resizing"
+  ],
+  "errors": []
+}

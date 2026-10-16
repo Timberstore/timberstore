@@ -15,6 +15,21 @@ export const SEL = {
   carouselImage: '.item img',
   // Product detail gallery: main image + thumbnails (verified 2026-09-26)
   productImage: '.p-image-wrapper .p-image',
+  // Apollo's final detail DOM, verified on the live v0.6.11 storefront.
+  productDetail: '.p-detail',
+  productDetailInfo: '#product-detail-form .p-info-wrapper',
+  productDetailGrid: ':scope > .p-info-grid',
+  productDetailLooseParameters: '.p-info-grid > .detail-parameters',
+  productDetailCart: ':scope > .add-to-cart',
+  productDetailPrice: '.p-final-price-wrapper .price-final',
+  productDetailSubmit: '.add-to-cart [data-testid="buttonAddToCart"]',
+  productDetailAmount: '.add-to-cart input[name="amount"]',
+  productDetailAvailability: '.availability-value',
+  productDetailAvailabilityLabel: '.availability-label',
+  productDetailAvailabilityAmount: '.availability-amount',
+  productDetailAvailabilityVariant: '.choose-variant, .parameter-dependent',
+  productDetailReadyClass: 'is-loaded',
+  productMainImage: '.p-main-image.cloud-zoom',
   productThumbnail: '.p-thumbnails a.p-thumbnail',
   productThumbnailActiveClass: 'highlighted',
   // Thumbnail strip: .p-thumbnails (overflow hidden) > .p-thumbnails-inner (absolute, moved by

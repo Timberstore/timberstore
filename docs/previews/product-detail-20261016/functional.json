@@ -1,0 +1,61 @@
+{
+  "status": "Preview review only; full normal-animation checkout and real catalog variants remain release checks",
+  "detailChecks": [
+    "All original description and parameter text preserved",
+    "Repeated native lifecycle: one panel, original input/button/gallery retained",
+    "Native quantity +/- increments exactly once after reinitialization",
+    "Conservative >100 inventory bound: 101 hides promise; 1 restores it",
+    "Modeled native variants: selected stock/central, insufficient/zero inventory, custom/unselected/unavailable states and disabled purchase",
+    "Native desktop thumbnail switching and lightbox",
+    "Original files/discussion/description tabs",
+    "Related product original form: native request amount and server cart priceId verified in the same-bundle desktop run"
+  ],
+  "touch": {
+    "checks": [
+      "Fresh touch context: swipe changes native highlighted photo",
+      "Touch lightbox opens and closes after swipe"
+    ],
+    "errors": [],
+    "orderSubmitted": false
+  },
+  "cartServerCheck": [
+    "Mobile native add-to-cart confirmed in authoritative cart data"
+  ],
+  "normalAnimationCheckoutBaseline": [
+    {
+      "baseline": true,
+      "checks": [
+        "Mobile native add-to-cart confirmed in authoritative cart data"
+      ],
+      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.next-step-forward')\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"submit\" form=\"order-form\" id=\"orderFormButton\" data-testid=\"buttonNextStep\" class=\"btn btn-lg btn-conversion next-step-forward\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+      "errors": [
+        {
+          "pageError": "Transition was skipped",
+          "pageUrl": "https://www.timberstore.sk/objednavka/krok-1/",
+          "stack": ""
+        }
+      ]
+    }
+  ],
+  "orderSubmitted": false,
+  "supplementaryCheckout": {
+    "viewTransitionAnimation": "Skipped with the native transition.skipTransition() API in the test harness only; application code unchanged",
+    "result": [
+      {
+        "baseline": false,
+        "checks": [
+          "Mobile native add-to-cart confirmed in authoritative cart data",
+          "Mobile cart → courier delivery / bank transfer → customer details, no order submitted"
+        ],
+        "errors": [
+          {
+            "pageError": "Transition was skipped",
+            "pageUrl": "https://www.timberstore.sk/objednavka/krok-1/",
+            "stack": ""
+          }
+        ],
+        "orderSubmitted": false
+      }
+    ]
+  }
+}

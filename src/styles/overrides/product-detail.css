@@ -48,3 +48,303 @@ body .form-control:focus {
 .type-detail .products-related .btn {
   transition-property: background-color, border-color, color, box-shadow;
 }
+
+/* PD · Product-only layout after Apollo has assembled its native detail.
+   No header, sidebar, cart popup or related-product geometry is overridden. */
+.type-detail .p-detail.ts-product-detail .product-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--ts-detail-gap);
+  margin: 0;
+}
+.type-detail .p-detail.ts-product-detail .product-top::before,
+.type-detail .p-detail.ts-product-detail .product-top::after {
+  content: none;
+}
+.type-detail .p-detail.ts-product-detail .product-top > .col-xs-12 {
+  min-width: 0;
+  width: 100%;
+  padding: 0;
+  float: none;
+}
+.type-detail .p-detail.ts-product-detail .p-image-wrapper {
+  position: relative;
+  top: auto;
+  margin-bottom: var(--ts-detail-gap);
+  max-width: var(--ts-detail-gallery-max);
+  justify-self: center;
+}
+.type-detail .p-detail.ts-product-detail .p-image .p-main-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+}
+.type-detail .p-detail.ts-product-detail .p-thumbnail.highlighted {
+  border-color: var(--ts-color-accent);
+}
+.type-detail .p-detail.ts-product-detail .p-info-wrapper > .p-info-headline {
+  display: none;
+}
+.type-detail .p-detail.ts-product-detail .p-detail-inner-header {
+  display: block;
+  margin-bottom: var(--ts-space-3);
+}
+.type-detail .p-detail.ts-product-detail :is(.p-detail-inner-header .h1, .p-info-headline h1) {
+  font-size: var(--ts-detail-mobile-title-size);
+  line-height: 1.25;
+  margin: 0 0 var(--ts-space-2);
+  /* The migrated title rule uses !important; allow only oversized words to wrap. */
+  overflow-wrap: anywhere !important;
+}
+.type-detail .p-detail.ts-product-detail .p-detail-info {
+  margin-bottom: var(--ts-space-2);
+}
+.type-detail .p-detail.ts-product-detail .p-short-description-block {
+  margin-bottom: var(--ts-space-3);
+}
+.type-detail .p-detail.ts-product-detail .p-short-description,
+.type-detail .p-detail.ts-product-detail .p-short-description p {
+  color: var(--ts-color-detail-code);
+  font-size: 15px;
+  line-height: 1.6;
+}
+.type-detail .p-detail.ts-product-detail .ts-product-purchase {
+  min-width: 0;
+  padding: var(--ts-space-3);
+  margin-bottom: var(--ts-space-3);
+  background: var(--ts-color-technical-bg);
+  border: 1px solid var(--ts-color-controls-border);
+  border-radius: var(--ts-radius-checkout-panel);
+}
+.type-detail .p-detail.ts-product-detail .p-info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ts-space-3);
+  margin: 0 0 var(--ts-space-3);
+}
+.type-detail .p-detail.ts-product-detail .p-info-grid > * {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+.type-detail .p-detail.ts-product-detail .ts-product-empty-parameters {
+  display: none;
+}
+.type-detail .p-detail.ts-product-detail .detail-parameters-block {
+  order: -1;
+}
+.type-detail .p-detail.ts-product-detail .detail-price-block {
+  order: 0;
+}
+.type-detail .p-detail.ts-product-detail .detail-availability-block {
+  order: 1;
+}
+.type-detail .p-detail.ts-product-detail .detail-grid-title {
+  margin: 0 0 var(--ts-space-2);
+  font-size: 14px;
+}
+.type-detail .p-detail.ts-product-detail .p-final-price-wrapper .price-final {
+  font-size: var(--ts-detail-price-size);
+  line-height: 1.2;
+  margin: 0;
+  color: var(--ts-color-price);
+}
+.type-detail .p-detail.ts-product-detail .p-final-price-wrapper .price-final .pr-list-unit {
+  font-size: 16px;
+}
+.type-detail .p-detail.ts-product-detail .ts-product-vat {
+  display: inline-block;
+  margin-left: var(--ts-space-2);
+  font-size: 14px;
+  color: var(--ts-color-price-secondary);
+}
+.type-detail .p-detail.ts-product-detail .ts-product-vat[hidden],
+.type-detail .p-detail.ts-product-detail .ts-product-dispatch[hidden] {
+  display: none;
+}
+.type-detail .p-detail.ts-product-detail .p-final-price-wrapper .price-additional {
+  display: block;
+  margin-top: var(--ts-space-2);
+  font-size: 14px;
+  line-height: 1.4;
+}
+.type-detail .p-detail.ts-product-detail .availability-value {
+  margin: 0;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.type-detail .p-detail.ts-product-detail .availability-amount {
+  font-size: 14px;
+  color: var(--ts-color-detail-code);
+}
+.type-detail .p-detail.ts-product-detail .ts-product-dispatch {
+  display: flex;
+  align-items: baseline;
+  gap: var(--ts-space-2);
+  margin: var(--ts-space-2) 0 0;
+  color: var(--ts-color-text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.type-detail .p-detail.ts-product-detail .ts-product-dispatch::before {
+  content: '';
+  flex: 0 0 var(--ts-space-2);
+  height: var(--ts-space-2);
+  border-radius: 50%;
+  background: var(--ts-color-controls-active);
+}
+.type-detail .p-detail.ts-product-detail .ts-product-dispatch[data-stock='stock']::before {
+  background: var(--ts-color-positive);
+}
+.type-detail .p-detail.ts-product-detail .delivery-time-block {
+  display: block;
+  margin-top: var(--ts-space-3);
+  padding-top: var(--ts-space-3);
+  border-top: 1px solid var(--ts-color-controls-border);
+}
+.type-detail .p-detail.ts-product-detail .delivery-time-block > td {
+  display: block;
+  padding: 0;
+  font-size: 12px;
+}
+.type-detail .p-detail.ts-product-detail .delivery-time-label {
+  text-transform: none;
+}
+.type-detail .p-detail.ts-product-detail .shipping-options-block {
+  margin-top: var(--ts-space-2);
+}
+.type-detail .p-detail.ts-product-detail .p-info-wrapper .add-to-cart {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: var(--ts-space-2);
+  margin: 0;
+}
+.type-detail .p-detail.ts-product-detail .p-info-wrapper .quantity {
+  flex: 0 0 var(--ts-detail-qty-width);
+  margin: 0;
+}
+.type-detail .p-detail.ts-product-detail .p-info-wrapper .quantity input {
+  width: var(--ts-detail-qty-width);
+  height: var(--ts-detail-control-height);
+  padding: 0 44px;
+  font-size: 20px;
+  border-color: var(--ts-color-field-border);
+  border-radius: var(--ts-radius);
+}
+.type-detail .p-detail.ts-product-detail .p-info-wrapper .quantity :is(.increase, .decrease) {
+  width: 44px;
+  height: calc(var(--ts-detail-control-height) - 2px);
+  border-radius: var(--ts-radius);
+}
+.type-detail .p-detail.ts-product-detail .p-info-wrapper .add-to-cart .btn-conversion {
+  --color-secondary: var(--ts-color-accent);
+  --color-secondary-hover: var(--ts-color-action-hover);
+  --color-primary: var(--ts-color-controls-text);
+  --color-primary-hover: var(--ts-color-controls-text);
+  flex: 1 1 160px;
+  width: auto;
+  min-width: 0;
+  min-height: var(--ts-detail-control-height);
+  padding: var(--ts-space-2) var(--ts-space-3);
+  border-radius: var(--ts-radius);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ts-color-text);
+  line-height: 1.25;
+  white-space: normal;
+  transition-property: background-color, border-color, color, box-shadow;
+}
+.type-detail
+  .p-detail.ts-product-detail
+  .p-info-wrapper
+  :is(input, select, button, a):focus-visible {
+  outline: 2px solid var(--ts-color-steel);
+  outline-offset: 3px;
+}
+.type-detail .p-detail.ts-product-detail .detail-parameters-block select {
+  min-height: 44px;
+  width: 100%;
+  max-width: 100%;
+}
+/* Keep the two native description sections and every parameter/data link. */
+.type-detail .p-detail.ts-product-detail .description-inner {
+  display: block;
+}
+.type-detail
+  .p-detail.ts-product-detail
+  .description-inner
+  > :is(.basic-description, .extended-description) {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border-left: 0;
+}
+.type-detail .p-detail.ts-product-detail .description-inner > .extended-description {
+  margin-top: var(--ts-detail-gap);
+  padding-top: var(--ts-detail-gap);
+  border-top: 1px solid var(--ts-color-controls-border);
+}
+.type-detail .p-detail.ts-product-detail .description-inner :is(h2, h3) {
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: var(--ts-space-3);
+}
+.type-detail .p-detail.ts-product-detail .basic-description {
+  overflow-wrap: anywhere;
+  overflow-x: auto;
+  line-height: 1.65;
+}
+.type-detail .p-detail.ts-product-detail .basic-description :is(img, iframe, video) {
+  max-width: 100%;
+}
+.type-detail .p-detail.ts-product-detail .basic-description img {
+  height: auto;
+}
+.type-detail .p-detail.ts-product-detail .detail-parameters td {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 479px) {
+  .type-detail .p-detail.ts-product-detail .p-info-wrapper .add-to-cart > .quantity {
+    flex-basis: 100%;
+  }
+  .type-detail .p-detail.ts-product-detail .p-info-wrapper .quantity input {
+    width: 100%;
+  }
+  .type-detail .p-detail.ts-product-detail .p-info-wrapper .add-to-cart > .btn-conversion {
+    flex-basis: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .type-detail .p-detail.ts-product-detail .ts-product-purchase {
+    padding: var(--ts-detail-panel-padding);
+  }
+  .type-detail .p-detail.ts-product-detail .description-inner {
+    padding: var(--ts-detail-panel-padding);
+  }
+}
+@media (min-width: 1200px) {
+  .type-detail .p-detail.ts-product-detail .product-top {
+    grid-template-columns: minmax(0, 52fr) minmax(0, 48fr);
+  }
+  .type-detail
+    .p-detail.ts-product-detail
+    .product-top
+    > .col-xs-12:not(.p-image-wrapper):not(.p-info-wrapper) {
+    grid-column: 1 / -1;
+  }
+  .type-detail .p-detail.ts-product-detail .p-detail-inner-header {
+    display: none;
+  }
+  .type-detail .p-detail.ts-product-detail .p-info-wrapper > .p-info-headline {
+    display: block;
+    margin-bottom: var(--ts-space-3);
+  }
+  .type-detail .p-detail.ts-product-detail .p-info-headline h1 {
+    font-size: var(--ts-detail-title-size);
+  }
+}

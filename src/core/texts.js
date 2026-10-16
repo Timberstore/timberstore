@@ -1,5 +1,14 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  productDetail: {
+    purchase: 'Nákup produktu',
+    vat: 's DPH',
+    addToCart: 'Do košíka',
+    stockLabel: 'skladom',
+    centralLabel: 'centrálny sklad',
+    stockDispatch: 'Expedujeme spravidla do 1–2 pracovných dní.',
+    centralDispatch: 'Expedujeme spravidla do 5 pracovných dní.',
+  },
   order: {
     free: 'ZADARMO',
     cancelled: ['Zrušená', 'Stornovaná', 'Zrušená objednávka', 'Stornovaná objednávka'],

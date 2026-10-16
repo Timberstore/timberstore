@@ -1,0 +1,605 @@
+{
+  "results": [
+    {
+      "kind": "stock",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 1440,
+      "scrollWidth": 1427,
+      "panels": 1,
+      "price": "8,68 € / ks",
+      "stock": "Skladom (>100 ks)",
+      "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+      "grid": "520px 480px",
+      "title": "block",
+      "header": "none",
+      "cart": {
+        "x": 946.5,
+        "y": 728.5,
+        "width": 430,
+        "height": 54
+      },
+      "button": {
+        "x": 1102.5,
+        "y": 728.5,
+        "width": 274,
+        "height": 54
+      },
+      "quantity": {
+        "x": 946.5,
+        "y": 728.5,
+        "width": 148,
+        "height": 54
+      },
+      "panel": {
+        "x": 921.5,
+        "y": 386.875,
+        "width": 480,
+        "height": 420.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #2E7D32\" data-testid=\"labelAvailability\">\n                    Skladom            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(&gt;100&nbsp;ks)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "stock",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 1920,
+      "scrollWidth": 1905,
+      "panels": 1,
+      "price": "8,68 € / ks",
+      "stock": "Skladom (>100 ks)",
+      "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+      "grid": "520px 480px",
+      "title": "block",
+      "header": "none",
+      "cart": {
+        "x": 1186.5,
+        "y": 728.5,
+        "width": 430,
+        "height": 54
+      },
+      "button": {
+        "x": 1342.5,
+        "y": 728.5,
+        "width": 274,
+        "height": 54
+      },
+      "quantity": {
+        "x": 1186.5,
+        "y": 728.5,
+        "width": 148,
+        "height": 54
+      },
+      "panel": {
+        "x": 1161.5,
+        "y": 386.875,
+        "width": 480,
+        "height": 420.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #2E7D32\" data-testid=\"labelAvailability\">\n                    Skladom            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(&gt;100&nbsp;ks)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "stock",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 1200,
+      "scrollWidth": 1187,
+      "panels": 1,
+      "price": "8,68 € / ks",
+      "stock": "Skladom (>100 ks)",
+      "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+      "grid": "577.188px 532.812px",
+      "title": "block",
+      "header": "none",
+      "cart": {
+        "x": 653.6875,
+        "y": 728.5,
+        "width": 482.8125,
+        "height": 54
+      },
+      "button": {
+        "x": 809.6875,
+        "y": 728.5,
+        "width": 326.8125,
+        "height": 54
+      },
+      "quantity": {
+        "x": 653.6875,
+        "y": 728.5,
+        "width": 148,
+        "height": 54
+      },
+      "panel": {
+        "x": 628.6875,
+        "y": 386.875,
+        "width": 532.8125,
+        "height": 420.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #2E7D32\" data-testid=\"labelAvailability\">\n                    Skladom            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(&gt;100&nbsp;ks)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "stock",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 1024,
+      "scrollWidth": 1009,
+      "panels": 1,
+      "price": "8,68 € / ks",
+      "stock": "Skladom (>100 ks)",
+      "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+      "grid": "932px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 63.5,
+        "y": 1355.9375,
+        "width": 882,
+        "height": 54
+      },
+      "button": {
+        "x": 219.5,
+        "y": 1355.9375,
+        "width": 726,
+        "height": 54
+      },
+      "quantity": {
+        "x": 63.5,
+        "y": 1355.9375,
+        "width": 148,
+        "height": 54
+      },
+      "panel": {
+        "x": 38.5,
+        "y": 1014.3125,
+        "width": 932,
+        "height": 420.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #2E7D32\" data-testid=\"labelAvailability\">\n                    Skladom            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(&gt;100&nbsp;ks)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "stock",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 768,
+      "scrollWidth": 753,
+      "panels": 1,
+      "price": "8,68 € / ks",
+      "stock": "Skladom (>100 ks)",
+      "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+      "grid": "707px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 48,
+        "y": 1395.3125,
+        "width": 657,
+        "height": 54
+      },
+      "button": {
+        "x": 204,
+        "y": 1395.3125,
+        "width": 501,
+        "height": 54
+      },
+      "quantity": {
+        "x": 48,
+        "y": 1395.3125,
+        "width": 148,
+        "height": 54
+      },
+      "panel": {
+        "x": 23,
+        "y": 1053.6875,
+        "width": 707,
+        "height": 420.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #2E7D32\" data-testid=\"labelAvailability\">\n                    Skladom            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(&gt;100&nbsp;ks)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "stock",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 430,
+      "scrollWidth": 423,
+      "panels": 1,
+      "price": "8,68 € / ks",
+      "stock": "Skladom (>100 ks)",
+      "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+      "grid": "375px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 37,
+        "y": 1136.75,
+        "width": 341,
+        "height": 116
+      },
+      "button": {
+        "x": 37,
+        "y": 1198.75,
+        "width": 341,
+        "height": 54
+      },
+      "quantity": {
+        "x": 37,
+        "y": 1136.75,
+        "width": 341,
+        "height": 54
+      },
+      "panel": {
+        "x": 20,
+        "y": 793.125,
+        "width": 375,
+        "height": 476.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #2E7D32\" data-testid=\"labelAvailability\">\n                    Skladom            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(&gt;100&nbsp;ks)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "stock",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 390,
+      "scrollWidth": 383,
+      "panels": 1,
+      "price": "8,68 € / ks",
+      "stock": "Skladom (>100 ks)",
+      "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+      "grid": "335px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 37,
+        "y": 1106.75,
+        "width": 301,
+        "height": 116
+      },
+      "button": {
+        "x": 37,
+        "y": 1168.75,
+        "width": 301,
+        "height": 54
+      },
+      "quantity": {
+        "x": 37,
+        "y": 1106.75,
+        "width": 301,
+        "height": 54
+      },
+      "panel": {
+        "x": 20,
+        "y": 763.125,
+        "width": 335,
+        "height": 476.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #2E7D32\" data-testid=\"labelAvailability\">\n                    Skladom            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(&gt;100&nbsp;ks)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "stock",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 375,
+      "scrollWidth": 368,
+      "panels": 1,
+      "price": "8,68 € / ks",
+      "stock": "Skladom (>100 ks)",
+      "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+      "grid": "320px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 37,
+        "y": 1116.5,
+        "width": 286,
+        "height": 116
+      },
+      "button": {
+        "x": 37,
+        "y": 1178.5,
+        "width": 286,
+        "height": 54
+      },
+      "quantity": {
+        "x": 37,
+        "y": 1116.5,
+        "width": 286,
+        "height": 54
+      },
+      "panel": {
+        "x": 20,
+        "y": 751.875,
+        "width": 320,
+        "height": 497.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #2E7D32\" data-testid=\"labelAvailability\">\n                    Skladom            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(&gt;100&nbsp;ks)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "stock",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 320,
+      "scrollWidth": 313,
+      "panels": 1,
+      "price": "8,68 € / ks",
+      "stock": "Skladom (>100 ks)",
+      "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+      "grid": "265px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 37,
+        "y": 1105.25,
+        "width": 231,
+        "height": 116
+      },
+      "button": {
+        "x": 37,
+        "y": 1167.25,
+        "width": 231,
+        "height": 54
+      },
+      "quantity": {
+        "x": 37,
+        "y": 1105.25,
+        "width": 231,
+        "height": 54
+      },
+      "panel": {
+        "x": 20,
+        "y": 740.625,
+        "width": 265,
+        "height": 497.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #2E7D32\" data-testid=\"labelAvailability\">\n                    Skladom            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(&gt;100&nbsp;ks)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "central",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "panels": 1,
+      "price": "95,36 € / sada",
+      "stock": "Centrálny sklad (2 sada)",
+      "dispatch": "Expedujeme spravidla do 5 pracovných dní.",
+      "grid": "520px 480px",
+      "title": "block",
+      "header": "none",
+      "cart": {
+        "x": 946.5,
+        "y": 758.5,
+        "width": 430,
+        "height": 54
+      },
+      "button": {
+        "x": 1102.5,
+        "y": 758.5,
+        "width": 274,
+        "height": 54
+      },
+      "quantity": {
+        "x": 946.5,
+        "y": 758.5,
+        "width": 148,
+        "height": 54
+      },
+      "panel": {
+        "x": 921.5,
+        "y": 416.875,
+        "width": 480,
+        "height": 420.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #C97A2B\" data-testid=\"labelAvailability\">\n                    Centrálny sklad            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(2&nbsp;sada)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "central",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 390,
+      "scrollWidth": 383,
+      "panels": 1,
+      "price": "95,36 € / sada",
+      "stock": "Centrálny sklad (2 sada)",
+      "dispatch": "Expedujeme spravidla do 5 pracovných dní.",
+      "grid": "335px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 37,
+        "y": 996.75,
+        "width": 301,
+        "height": 116
+      },
+      "button": {
+        "x": 37,
+        "y": 1058.75,
+        "width": 301,
+        "height": 54
+      },
+      "quantity": {
+        "x": 37,
+        "y": 996.75,
+        "width": 301,
+        "height": 54
+      },
+      "panel": {
+        "x": 20,
+        "y": 653.125,
+        "width": 335,
+        "height": 476.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #C97A2B\" data-testid=\"labelAvailability\">\n                    Centrálny sklad            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(2&nbsp;sada)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "central",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 320,
+      "scrollWidth": 313,
+      "panels": 1,
+      "price": "95,36 € / sada",
+      "stock": "Centrálny sklad (2 sada)",
+      "dispatch": "Expedujeme spravidla do 5 pracovných dní.",
+      "grid": "265px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 37,
+        "y": 1025.25,
+        "width": 231,
+        "height": 116
+      },
+      "button": {
+        "x": 37,
+        "y": 1087.25,
+        "width": 231,
+        "height": 54
+      },
+      "quantity": {
+        "x": 37,
+        "y": 1025.25,
+        "width": 231,
+        "height": 54
+      },
+      "panel": {
+        "x": 20,
+        "y": 660.625,
+        "width": 265,
+        "height": 497.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #C97A2B\" data-testid=\"labelAvailability\">\n                    Centrálny sklad            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(2&nbsp;sada)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "metres",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "panels": 1,
+      "price": "9,68 € / m",
+      "stock": "Centrálny sklad (36 m)",
+      "dispatch": "Expedujeme spravidla do 5 pracovných dní.",
+      "grid": "520px 480px",
+      "title": "block",
+      "header": "none",
+      "cart": {
+        "x": 946.5,
+        "y": 800.875,
+        "width": 430,
+        "height": 54
+      },
+      "button": {
+        "x": 1102.5,
+        "y": 800.875,
+        "width": 274,
+        "height": 54
+      },
+      "quantity": {
+        "x": 946.5,
+        "y": 800.875,
+        "width": 148,
+        "height": 54
+      },
+      "panel": {
+        "x": 921.5,
+        "y": 459.25,
+        "width": 480,
+        "height": 420.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #C97A2B\" data-testid=\"labelAvailability\">\n                    Centrálny sklad            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(36&nbsp;m)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "metres",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 390,
+      "scrollWidth": 383,
+      "panels": 1,
+      "price": "9,68 € / m",
+      "stock": "Centrálny sklad (36 m)",
+      "dispatch": "Expedujeme spravidla do 5 pracovných dní.",
+      "grid": "335px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 37,
+        "y": 1173.125,
+        "width": 301,
+        "height": 116
+      },
+      "button": {
+        "x": 37,
+        "y": 1235.125,
+        "width": 301,
+        "height": 54
+      },
+      "quantity": {
+        "x": 37,
+        "y": 1173.125,
+        "width": 301,
+        "height": 54
+      },
+      "panel": {
+        "x": 20,
+        "y": 829.5,
+        "width": 335,
+        "height": 476.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #C97A2B\" data-testid=\"labelAvailability\">\n                    Centrálny sklad            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(36&nbsp;m)</span>\n\n                                </div>",
+      "selects": []
+    },
+    {
+      "kind": "metres",
+      "version": "v0.6.11-preview.product-detail",
+      "width": 320,
+      "scrollWidth": 313,
+      "panels": 1,
+      "price": "9,68 € / m",
+      "stock": "Centrálny sklad (36 m)",
+      "dispatch": "Expedujeme spravidla do 5 pracovných dní.",
+      "grid": "265px",
+      "title": "none",
+      "header": "block",
+      "cart": {
+        "x": 37,
+        "y": 1171.625,
+        "width": 231,
+        "height": 116
+      },
+      "button": {
+        "x": 37,
+        "y": 1233.625,
+        "width": 231,
+        "height": 54
+      },
+      "quantity": {
+        "x": 37,
+        "y": 1171.625,
+        "width": 231,
+        "height": 54
+      },
+      "panel": {
+        "x": 20,
+        "y": 807,
+        "width": 265,
+        "height": 497.625
+      },
+      "variants": 0,
+      "stockHTML": "<div class=\"availability-value\" title=\"Dostupnosť\">\n                                    \n\n    \n    <span class=\"availability-label\" style=\"color: #C97A2B\" data-testid=\"labelAvailability\">\n                    Centrálny sklad            </span>\n        <span class=\"availability-amount\" data-testid=\"numberAvailabilityAmount\">(36&nbsp;m)</span>\n\n                                </div>",
+      "selects": []
+    }
+  ],
+  "errors": []
+}

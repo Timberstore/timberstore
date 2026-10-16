@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "/ header/navigation/sidebar/first product geometry and colors match stable CSS; no detail module",
+    "/uchytky/ header/navigation/sidebar/first product geometry and colors match stable CSS; no detail module"
+  ],
+  "errors": []
+}
