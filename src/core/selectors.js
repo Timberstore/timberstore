@@ -141,6 +141,8 @@ export const SEL = {
   cartFormItemId: 'input[name="itemId"]',
   cartFooter: '.in-kosik #cart-wrapper .cart-summary > .extras-wrapper',
   cartSummary: '.cart-summary',
+  cartSummaryPrices: '.summary-wrapper',
+  cartSpinner: '.overlay.spinner',
   cartBack: 'a.next-step-back:not(.colorbox-close)',
   detailSku: '[itemprop="sku"]',
   detailStockAmount: '.availability-value .availability-amount',

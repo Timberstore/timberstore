@@ -39,6 +39,13 @@ Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 - Samotné related tlačidlo dedilo natívnu transition:all a po body.is-loaded ešte animovalo visibility. Obmedzené iba súvisiace btn na farebné vlastnosti a tieň; quantity/input/button sa odhalia spolu po natívnej inicializácii, bez nového časovača alebo JS.
 - Tá istá pracovná vetva/verzia, bez merge, release/tagu a produkčného nasadenia. Presné príčiny, merania a obmedzenia: docs/previews/cart-actions.md.
 
+### Oprava prebliknutia pri AJAX zmene množstva · 2026-10-16
+
+- Reprodukcia podľa videa 12.mp4 a tej istej skrutky 50151: 4000 → 6000 server správne odmietne pre skladový limit 4000. V tejto vetve sa cart updated odošle na už odpojenom formulári, zatiaľ čo celý cart wrapper je nový. Pôvodné sledovanie preto mohlo zostať na starom DOM; Apollo následne 10ms krokom odhalilo svoje rozloženie.
+- Cart presentation počúva aj ShoptetDOMCartContentLoaded, opätovne sleduje nové prvky a prvý krok, úpravy dokončí v mutation microtasku pred paintom. Vlastné zápisy nespúšťajú observer slučku. Krátku štrukturálnu medzeru kryje pôvodný spinner cez natívne API, uvoľnený podľa DOM pripravenosti, bez nového timeoutu, kópií košíka alebo override natívnych funkcií.
+- 35 živých zmien pri troch produktoch: 320/375/390/430/1440, plus cold/600ms pomalší cart content pri 390/1440. Plus, mínus, ručné vstupy aj serverom odmietnuté množstvo; ceny/ostatné produkty zachované, bez odhaleného nespracovaného layoutu alebo overflow. Regresne aj mobilný náhľad a doprava zadarmo oboma smermi. Podrobnosti a obmedzenia: docs/previews/cart-flicker.md.
+- Tá istá rc.4, bez merge/release/tagu/produkčného nasadenia. JS 26 460 B (25,84 KiB) / 30 KiB, CSS 21 473 B (20,97 KiB) / 21 KiB gzip; rozpočty, produkčný loader a paleta bez zmeny.
+
 ## Preview 0.6.11-rc.3 · 2026-10-15 · Kontaktné riadky, biele CTA a tvar prihlásenia
 
 - Aktuálna vetva, základ `4e66dbce0de8fe8756e43687f6f46847311b09b6`, staršie preview commity zachované. Iba izolované preview cez SHA, bez merge, tagu a produkčného nasadenia; loader v0.6.9.

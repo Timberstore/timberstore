@@ -1,4 +1,14 @@
 /* Native cart forms and prices stay intact; one grid for both Apollo DOMs. */
+/* Shoptet hides its spinner before Apollo moves the native summary into the
+   cart sidebar. Retain that existing mask only during this structural gap;
+   DOM readiness releases it, without a timer or duplicate loading element. */
+.in-kosik:has(#cart-wrapper.ts-cart-refresh-pending) .overlay.spinner {
+  visibility: visible;
+  opacity: 1;
+  background-color: var(--ts-color-bg);
+  transition: none;
+}
+
 .in-kosik #cart-wrapper .cart-table,
 .in-kosik #cart-wrapper .cart-table > tbody {
   display: block;
