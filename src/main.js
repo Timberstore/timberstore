@@ -19,12 +19,14 @@ import informationMessage from './modules/information-message/index.js';
 import headerServiceBar from './modules/header-service-bar/index.js';
 
 import cartPresentation from './modules/cart-presentation/index.js';
+import orderDetail from './modules/order-detail/index.js';
 
 // Register every module here. Order = init order.
 // qty-picker before cart-count: the badge goes into the button the qty field sits next to.
 start([
   headerServiceBar,
   cartPresentation,
+  orderDetail,
   informationMessage,
   carouselSwipe,
   homepageCategories,

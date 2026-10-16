@@ -93,7 +93,16 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   color: var(--ts-color-accent);
 }
 
-/* Native controls/tooltips stay intact; mobile has info + price/logo columns. */
+/* Presentation of the native shipping name only; font size/family and method
+   controls stay native. Whitespace remains in textContent for native recaps. */
+.ts-shipping__delivery {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+/* Mobile methods: billing retains its two-column layout; shipping uses full-width
+   names and a separate logo/price row. Native nodes and handlers stay in place. */
 @media (max-width: 767px) {
   .in-krok-1 .order-delivery-payment-form .radio-wrapper > label {
     display: grid;
@@ -104,7 +113,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     padding: 14px 12px 14px 40px;
     border-radius: 12px;
   }
-  .in-krok-1 .order-delivery-payment-form .payment-info {
+  .in-krok-1 #order-billing-methods .payment-info {
     grid-area: 1 / 1 / 3 / 2;
     width: auto;
     min-width: 0;
@@ -156,6 +165,78 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   .in-krok-1 .order-delivery-payment-form .payment-logo img {
     max-width: 100%;
     max-height: 28px;
+  }
+  /* Center the native truck pseudo-element and title as one mobile group. */
+  .in-krok-1 .co-delivery-method > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .in-krok-1 .co-delivery-method > h2::before {
+    position: static;
+    color: var(--ts-color-accent);
+    flex-shrink: 0;
+    margin: 0;
+    transform: none;
+  }
+  /* Shipping only. display:contents exposes existing label children to the
+     grid; hidden inputs and delegated/direct picker listeners remain native. */
+  .in-krok-1 #order-shipping-methods .radio-wrapper > label {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px 12px;
+  }
+  .in-krok-1 #order-shipping-methods .payment-info {
+    display: contents;
+  }
+  .in-krok-1 #order-shipping-methods .shipping-billing-name {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    min-width: 0;
+    padding: 0;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+  }
+  .in-krok-1 #order-shipping-methods .shipping-billing-name:has(+ span .question-tooltip) {
+    padding-right: 22px;
+  }
+  .in-krok-1 #order-shipping-methods .payment-info > span:has(.question-tooltip) {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+  }
+  .in-krok-1 #order-shipping-methods .payment-logo {
+    grid-area: auto / 1;
+    order: 2;
+    justify-self: start;
+    padding: 0;
+  }
+  .in-krok-1 #order-shipping-methods .payment-shipping-price {
+    grid-area: auto / 2;
+    order: 2;
+    align-self: center;
+  }
+  /* Apollo nests the existing logo inside the price after load on mobile.
+     The anonymous text item is the native price, so reverse flex places the
+     logo left and that price right without wrapping/moving either node. */
+  .in-krok-1 #order-shipping-methods .payment-shipping-price:has(.payment-logo) {
+    grid-area: auto / 1 / auto / -1;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    justify-self: stretch;
+  }
+  .in-krok-1 #order-shipping-methods .payment-info > .sublabel {
+    grid-column: 1 / -1;
+    order: 1; /* Optional picker rows precede the final logo/price row. */
+    margin: 0;
+  }
+  .in-krok-1 #order-shipping-methods .radio-wrapper > label::before,
+  .in-krok-1 #order-shipping-methods .radio-wrapper > label::after {
+    top: 23px;
   }
 }
 
@@ -344,6 +425,10 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   background-color: var(--ts-color-checkout-success);
   border-color: var(--ts-color-checkout-success);
 }
+/* Match the white foreground of the filled Emerald success controls. */
+.ordering-process input[type='radio']:checked + label::after {
+  border-color: var(--ts-color-bg);
+}
 .ordering-process input[type='checkbox']:checked + label::after {
   border-color: var(--ts-color-checkout-success);
 }
@@ -394,12 +479,18 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
 }
 .in-krok-2 .co-contact-information .form-group-content > h2 {
   margin: 0;
-  width: auto;
+  width: 100%;
+  grid-column: 1 / -1;
 }
 .in-krok-2 .co-contact-information .form-group:has(.login-button) {
-  width: auto;
-  margin: 0;
-  justify-self: end;
+  grid-column: 1 / -1;
+  width: 100%;
+  margin: 0 0 var(--ts-space-2);
+  padding: 0;
+  justify-self: stretch;
+}
+.in-krok-2 .co-contact-information .form-group:has(.login-button) > div {
+  width: 100%;
 }
 .in-krok-2 .co-contact-information .form-group:has(.login-button) > .label {
   display: none;
@@ -432,38 +523,6 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     grid-template-columns: minmax(0, 1fr);
     gap: 12px;
   }
-  .ordering-process.in-krok-2 .co-contact-information .form-group:has(.login-button) {
-    display: flex;
-    justify-content: center;
-    justify-self: stretch;
-    width: 100%;
-    padding: 0;
-  }
-  .ordering-process.in-krok-2 .co-contact-information .form-control-wrapper:has(.login-button) {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  body.ordering-process.in-krok-2 .co-contact-information .login-button,
-  body.ordering-process.in-krok-2
-    .co-contact-information
-    .login-button:is(:hover, :focus, :active) {
-    background: var(--ts-color-accent);
-    border-color: var(--ts-color-accent);
-    color: var(--ts-color-bg);
-    font-weight: 600;
-    margin: 0;
-    transition: filter 160ms ease; /* do not animate from Apollo's white label */
-  }
-  body.ordering-process.in-krok-2 .co-contact-information .login-button:hover {
-    filter: brightness(0.96);
-  }
-  body.ordering-process.in-krok-2 .co-contact-information .login-button:focus-visible {
-    outline: 2px solid var(--ts-color-text);
-    outline-offset: 3px;
-  }
   .in-krok-2 .co-contact-information .form-group:has(#billFullName, #email, #phone) {
     grid-template-columns: minmax(0, 1fr);
     gap: 6px;
@@ -486,7 +545,34 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
   padding: 0;
 }
 
+body.ordering-process.in-krok-2 .co-contact-information .login-button,
+body.ordering-process.in-krok-2 .co-contact-information .login-button:is(:hover, :focus, :active) {
+  background: var(--ts-color-accent);
+  border-color: var(--ts-color-accent);
+  color: var(--ts-color-bg);
+  font-weight: 600;
+  margin: 0;
+  transition: filter 160ms ease; /* do not animate from Apollo's white label */
+}
+body.ordering-process.in-krok-2 .co-contact-information .login-button:hover {
+  filter: brightness(0.96);
+}
+body.ordering-process.in-krok-2 .co-contact-information .login-button:focus-visible {
+  outline: 2px solid var(--ts-color-text);
+  outline-offset: 3px;
+}
 .in-krok-2 .co-contact-information .login-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-height: 48px;
+  border-radius: var(--ts-radius-checkout-panel);
+  padding: 14px 12px;
+  line-height: 1.4;
+  text-align: center;
   white-space: normal;
 }
 
@@ -554,7 +640,7 @@ body.ordering-process ol.cart-header li:not(.active) a:is(:hover, :focus-visible
     gap: 8px;
     padding: 14px 12px;
     background: var(--ts-color-technical-bg);
-    border-radius: 8px;
+    border-radius: var(--ts-radius-checkout-panel);
     box-sizing: border-box;
   }
   .ordering-process.in-krok-2 .co-contact-information .form-group-content > h2::before {

@@ -1,7 +1,8 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
-import { SOCIALS, CONTACT_FORM, CHECKOUT_CONTACT_FORM } from '../../core/contacts.js';
+import { SOCIALS, CONTACT_FORM, CHECKOUT_SUPPORT_EMAIL } from '../../core/contacts.js';
+import { syncMobileCart, releaseMobileCart } from './mobile-cart.js';
 import { isBusinessOpen } from './business-hours.js';
 
 let observer;
@@ -131,6 +132,7 @@ function onResize() {
 }
 
 function syncPopupState() {
+  syncMobileCart();
   syncCartContacts();
   syncMenu();
   for (const [selector, state] of [
@@ -207,8 +209,9 @@ function syncCartContacts() {
     addSocial(socials, SEL.socialInstagram, 'instagram');
     const email = list.querySelector(SEL.cartHelpEmail);
     if (email) {
-      if (email.getAttribute('href') !== CHECKOUT_CONTACT_FORM)
-        email.setAttribute('href', CHECKOUT_CONTACT_FORM);
+      // Checkout contact email always opens email, including after resize/AJAX.
+      const destination = `mailto:${CHECKOUT_SUPPORT_EMAIL}`;
+      if (email.getAttribute('href') !== destination) email.setAttribute('href', destination);
       if (!email.classList.contains('ts-cart-contact-link'))
         email.classList.add('ts-cart-contact-link');
     }
@@ -440,6 +443,9 @@ export default {
       window.addEventListener('scroll', onScroll, { passive: true });
       // A max-width container can move without resizing its children.
       window.addEventListener('resize', onResize, { passive: true });
+      window.visualViewport?.addEventListener('resize', onResize);
+      window.addEventListener('pagehide', releaseMobileCart);
+      window.addEventListener('pageshow', syncMobileCart);
       desktop.addEventListener('change', onBreakpoint);
       document.addEventListener('mouseenter', cartHover, true);
       document.addEventListener('click', cartInteraction, true);

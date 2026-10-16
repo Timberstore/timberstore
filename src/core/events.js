@@ -6,7 +6,10 @@ export const SHOPTET_EVENTS = {
   moreProductsLoaded: 'ShoptetDOMPageMoreProductsLoaded',
   // Cart changed (add, remove, amount); the dataLayer cart is already updated
   cartUpdated: 'ShoptetCartUpdated',
+  // Emitted after the cart wrapper is replaced, including rejected quantities.
+  cartContentLoaded: 'ShoptetDOMCartContentLoaded',
   dataLayerUpdated: 'ShoptetDataLayerUpdated',
+  orderDataLoaded: 'OrderWithdrawDataLoaded',
 };
 
 // Events after which modules re-run on the (partly) new DOM.

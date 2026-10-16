@@ -1,6 +1,7 @@
 // Page type detection — the only place that reads Shoptet body classes.
 // Verified on timberstore.sk (2026-09-26).
 const PAGE_CLASSES = {
+  order: 'in-moja-objednavka',
   home: 'type-index',
   category: 'type-category',
   detail: 'type-detail',

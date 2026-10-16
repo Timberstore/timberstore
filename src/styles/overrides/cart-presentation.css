@@ -1,4 +1,14 @@
 /* Native cart forms and prices stay intact; one grid for both Apollo DOMs. */
+/* Shoptet hides its spinner before Apollo moves the native summary into the
+   cart sidebar. Retain that existing mask only during this structural gap;
+   DOM readiness releases it, without a timer or duplicate loading element. */
+.in-kosik:has(#cart-wrapper.ts-cart-refresh-pending) .overlay.spinner {
+  visibility: visible;
+  opacity: 1;
+  background-color: var(--ts-color-bg);
+  transition: none;
+}
+
 .in-kosik #cart-wrapper .cart-table,
 .in-kosik #cart-wrapper .cart-table > tbody {
   display: block;
@@ -200,7 +210,7 @@
 }
 /* Preserve the approved quantity-toast geometry; notifier colours are shared. */
 .messages .msg.msg-success.ts-cart-quantity-confirmation {
-  border: 1px solid var(--ts-color-success);
+  border: 1px solid var(--ts-color-success-border);
   border-radius: 10px;
 }
 
@@ -378,24 +388,36 @@
   border-bottom: 1px solid var(--ts-color-controls-border);
   background: transparent;
 }
-.in-kosik .ts-cart-delivery {
+.in-kosik #cart-wrapper :is(.ts-cart-delivery, .ts-cart-shipping) {
+  min-height: 64px;
+}
+.in-kosik #cart-wrapper .ts-cart-delivery {
+  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-left: 38px;
+  text-align: right;
   align-items: center;
   gap: 6px;
   margin: 0;
   width: 100%;
   max-width: none;
-  font-size: 11px;
-  white-space: nowrap;
+  font-size: 12px;
+  white-space: normal;
 }
 .in-kosik .ts-cart-delivery::before {
-  position: static;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  text-align: center;
   color: var(--ts-color-accent);
   font-size: 18px;
   margin: 0;
 }
 .in-kosik .ts-cart-delivery strong {
+  white-space: nowrap;
   font-size: inherit;
   font-weight: 700;
   color: var(--ts-color-summary-accent);
@@ -438,16 +460,21 @@
   margin: 0;
   padding: 0 0 0 38px;
   min-height: 28px;
+  text-align: right;
   font-size: 12px;
   line-height: 1.45;
 }
-.in-kosik .ts-cart-shipping .extra.delivery::before {
+.in-kosik #cart-wrapper .ts-cart-shipping .extra.delivery::before {
+  color: var(--ts-color-accent);
   font-size: 24px;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.in-kosik .ts-cart-shipping .price-range {
+/* Apollo's AJAX response contains this node before extra-content/ts-* wrappers.
+   Own its geometry from insertion: native absolute + 100% height otherwise
+   paints an orange block across the cart until the presentation pass runs. */
+.in-kosik #cart-wrapper .price-range {
   order: 2;
   flex: 0 0 6px;
   position: static;
@@ -459,15 +486,15 @@
   background: var(--ts-color-controls-border);
   overflow: hidden;
 }
-.in-kosik .ts-cart-shipping .price-range[hidden] {
+.in-kosik #cart-wrapper .price-range[hidden] {
   display: none;
 }
-.in-kosik .ts-cart-shipping .price-range > div {
+.in-kosik #cart-wrapper .price-range > div {
   height: 100%;
   border-radius: inherit;
   background: var(--ts-color-accent);
 }
-.in-kosik .ts-cart-shipping-complete .price-range > div {
+.in-kosik #cart-wrapper .ts-cart-shipping-complete .price-range > div {
   background: var(--ts-color-success);
 }
 .in-kosik #cart-wrapper .summary-wrapper :is(.box, .next-step) {
@@ -498,10 +525,16 @@
   border-radius: 8px;
   order: 0;
   background: var(--ts-color-checkout-cta);
-  border-color: var(--ts-color-checkout-cta);
-  transition: filter 160ms ease;
+  border-color: var(--ts-color-success-border);
+  transition: background-color 160ms ease;
   color: var(--ts-color-bg);
   font-weight: 700;
+}
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
+  :is(.next-step-forward, .next-step-finish)::before,
+:is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
+  :is(.next-step-forward, .next-step-finish)::after {
+  color: inherit;
 }
 :is(#cart-wrapper :where(.cart-summary), .ordering-process #checkoutSidebar .next-step)
   a.next-step-back:not(.colorbox-close) {
@@ -614,14 +647,6 @@
     margin-top: 16px;
   }
 }
-@media (max-width: 767px) {
-  .in-kosik .ts-cart-shipping .extra.delivery {
-    width: auto;
-    align-self: center;
-    text-align: center;
-  }
-}
-
 :is(#cart-wrapper :where(.cart-summary), .ordering-process #summary-box) strong.price-primary {
   font-size: 20px;
   font-weight: 700;
@@ -640,10 +665,11 @@
   color: var(--ts-color-summary-accent);
 }
 
-/* One uniform contrast surface supports both white CTA label sizes. */
+/* White native labels/arrows on the approved Emerald action surface. */
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
-  :is(.next-step-forward, .next-step-finish):hover {
-  filter: brightness(0.96);
+  :is(.next-step-forward, .next-step-finish):is(:hover, :active, :focus) {
+  background: var(--ts-color-success-active);
+  border-color: var(--ts-color-success-border);
   color: var(--ts-color-bg);
 }
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
@@ -658,6 +684,7 @@
 }
 .ordering-process .next-step-finish .order-button-suffix {
   display: block;
+  color: inherit;
   font-size: 12px;
   line-height: 1.35;
   white-space: nowrap;

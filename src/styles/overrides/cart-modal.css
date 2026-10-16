@@ -48,7 +48,7 @@
 #cboxLoadedContent .advanced-order > .h1:not(.advanced-order-suggestion) {
   background: var(--ts-color-success-bg);
   color: var(--ts-color-controls-text);
-  box-shadow: inset 0 0 0 1px var(--ts-color-success);
+  box-shadow: inset 0 0 0 1px var(--ts-color-success-border);
 }
 #cboxLoadedContent .advanced-order > .h1::before {
   color: var(--ts-color-success);

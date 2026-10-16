@@ -114,17 +114,58 @@
   visibility: hidden;
 }
 @media (max-width: 767px) {
-  .top-navigation-bar .ts-cart-control {
+  .top-navigation-bar .responsive-tools .ts-cart-control {
     display: inline-flex;
     align-items: center;
+    padding-right: 0;
   }
   .top-navigation-bar .responsive-tools .ts-cart-control .cart-count {
     /* Apollo disables this link and redirects the wrapper. Restore the link
        so touch, keyboard and modified clicks share the same native href. */
     pointer-events: auto;
-    padding-right: 28px;
+    display: inline-grid;
+    grid-template-columns: 42px max-content;
+    align-items: center;
+    column-gap: 8px;
+    padding: 0 28px 0 8px;
+    /* Native transition:all also animates inherited visibility and geometry
+       while Apollo rebuilds the mobile clone. Only animate its colours. */
+    transition:
+      background-color 160ms ease,
+      color 160ms ease,
+      box-shadow 160ms ease;
+    /* Same white-on-brand treatment as desktop; native geometry/count stay. */
+    background: var(--ts-color-accent);
+    color: var(--ts-color-bg);
+  }
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count::before,
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-price {
+    color: var(--ts-color-bg);
+  }
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count:is(:hover, :active),
+  .cart-window-visible .top-navigation-bar .responsive-tools .ts-cart-control .cart-count {
+    background: var(--ts-color-controls-active);
+  }
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count::before {
+    grid-area: 1 / 1;
+    justify-self: start;
+    margin: 0;
+  }
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-price {
+    /* Bootstrap hides visible-lg labels below 1200px; this mobile price stays. */
+    display: inline-block !important;
+    grid-area: 1 / 2;
+    white-space: nowrap;
+  }
+  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count > i {
+    left: 26px;
+    right: auto;
+    min-width: 22px;
+    width: auto;
+    padding-inline: 4px;
   }
   .top-navigation-bar .ts-cart-preview-toggle {
+    color: var(--ts-color-bg);
     width: 28px;
   }
 }
@@ -153,6 +194,18 @@
   #header .navigation-in-bottom .ts-menu-contact-title {
     display: block;
     color: var(--ts-color-controls-text);
+  }
+  #header
+    .navigation-in-bottom
+    .top-navigation-contacts
+    > :is(.project-phone, .project-email, .ts-service-bar__hours) {
+    margin-block: 0;
+    padding-block: 0;
+    min-height: var(--ts-service-icon-size);
+    line-height: 1.5;
+  }
+  #header .navigation-in-bottom .ts-menu-socials {
+    margin-top: var(--ts-space-1);
   }
   #header .navigation-in-bottom .ts-service-bar__hours {
     display: inline-flex;
@@ -392,17 +445,25 @@
   }
   .ordering-process #content .ts-cart-contacts .ts-cart-contact-hours {
     grid-column: 1 / -1;
+    grid-row: 1;
     justify-content: center;
   }
   .ordering-process #content .ts-cart-contacts .contact-box > ul > li:has(.tel, .mail) {
     width: 100%;
     min-width: 0;
     justify-content: center;
-    padding-inline: 6px;
+    grid-row: 2;
+    align-self: stretch;
+    padding: 0 6px;
     white-space: normal;
   }
-  .ordering-process #content .ts-cart-contacts .contact-box > ul > li:has(.mail) {
+
+  .ordering-process #content .ts-cart-contacts .contact-box > ul > li:has(.tel) {
+    grid-column: 2;
     border-left: 1px solid var(--ts-color-service-divider);
+  }
+  .ordering-process #content .ts-cart-contacts .contact-box > ul > li:has(.mail) {
+    grid-column: 1;
   }
   .ordering-process #content .ts-cart-contacts .contact-box > ul > .ts-cart-contact-socials {
     display: none;
@@ -411,6 +472,8 @@
     display: inline-flex;
     position: relative;
     flex-direction: column;
+    align-self: stretch;
+    justify-content: space-between;
     align-items: center;
     gap: 6px;
     min-width: 0;
@@ -428,6 +491,7 @@
     min-width: 20px;
     padding: 0;
     flex: 0 0 20px;
+    order: 1; /* The native link text stays above the original icon. */
     display: block;
     margin: 0;
     font-size: 18px;
@@ -445,7 +509,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    white-space: normal;
     margin: 0;
     padding: 0; /* native contact li > span otherwise reserves an icon column */
     gap: 8px;

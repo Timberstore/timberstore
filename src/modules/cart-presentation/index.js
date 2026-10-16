@@ -3,20 +3,41 @@ import { TEXTS } from '../../core/texts.js';
 import { syncQuantities, resizeQuantity } from './quantity.js';
 import { syncRelated } from './related.js';
 import { syncBottom } from './bottom.js';
+import { syncPopupShipping } from './popup-shipping.js';
 import { syncRows } from './rows.js';
 import {
   syncCheckoutPriceAccents,
   syncCheckoutDispatchNote,
   syncCheckoutSummaryStructure,
+  syncShippingNames,
 } from './checkout.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
 
 let observer;
 let frame = 0;
 let bound = false;
+let refreshing = false;
+let refreshSpinner;
 
-function syncPresentation() {
+function syncPresentation(event) {
+  if (event?.type === SHOPTET_EVENTS.cartContentLoaded) refreshing = true;
+  if (frame) window.cancelAnimationFrame(frame);
   frame = 0;
+  if (!document.querySelector(SEL.cartRoot)) {
+    updatePresentation();
+    return;
+  }
+  // Reconnect after replacement and finish in the mutation microtask, before
+  // paint. Do not observe our own idempotent writes as another DOM refresh.
+  observer?.disconnect();
+  try {
+    updatePresentation();
+  } finally {
+    if (observer) observe();
+  }
+}
+
+function updatePresentation() {
   for (const message of document.querySelectorAll(
     `${SEL.cartMessages} ${SEL.cartSuccessMessage}`,
   )) {
@@ -35,12 +56,35 @@ function syncPresentation() {
   syncCheckoutSummaryStructure();
   syncCheckoutPriceAccents();
   syncCheckoutDispatchNote();
+  syncShippingNames();
+  syncRefreshSpinner();
+}
+
+function syncRefreshSpinner() {
+  if (!refreshing) return;
+  const root = document.querySelector(SEL.cartRoot);
+  const summary = root?.querySelector(SEL.cartSummary);
+  const pending = summary && !summary.querySelector(SEL.cartSummaryPrices);
+  root?.classList.toggle('ts-cart-refresh-pending', !!pending);
+  if (pending) {
+    // On a rejected amount Shoptet can remove its spinner before fetching the
+    // replacement HTML. Reuse its API only when there is no existing mask.
+    if (!document.querySelector(SEL.cartSpinner) && typeof window.showSpinner === 'function') {
+      window.showSpinner();
+      refreshSpinner = document.querySelector(SEL.cartSpinner);
+    }
+    return;
+  }
+  refreshing = false;
+  if (refreshSpinner?.isConnected) window.hideSpinner?.();
+  refreshSpinner = null;
 }
 
 function syncSummary() {
   const popup = document.querySelector(SEL.headerCartPopup);
   const footer = popup?.querySelector(SEL.cartPopupFooter);
   if (!footer) return;
+  syncPopupShipping(popup);
   const cart = document.querySelector(SEL.headerCart);
   const amount = cart?.querySelector(SEL.headerCartPrice)?.textContent.trim();
   let summary = footer.querySelector('.ts-cart-summary');
@@ -66,6 +110,28 @@ function scheduleSummary() {
   if (!frame) frame = window.requestAnimationFrame(syncPresentation);
 }
 
+function onMutation() {
+  if (document.querySelector(SEL.cartRoot)) {
+    syncPresentation();
+    return;
+  }
+  // Preserve the existing popup/checkout scheduling outside the full cart.
+  syncSummary();
+  syncCheckoutSummaryStructure();
+  syncCheckoutPriceAccents();
+  syncShippingNames();
+  scheduleSummary();
+}
+
+function onCartRefresh(event) {
+  if (document.querySelector(SEL.cartRoot)) syncPresentation(event);
+  else {
+    observe();
+    syncSummary();
+    scheduleSummary();
+  }
+}
+
 function observe() {
   observer.disconnect();
   for (const selector of [
@@ -73,6 +139,7 @@ function observe() {
     SEL.headerCart,
     SEL.cartMessages,
     SEL.cartRoot,
+    SEL.cartFirstStep,
     SEL.checkoutSidebar,
     SEL.checkoutMethods,
   ]) {
@@ -93,20 +160,13 @@ export default {
   pages: ['*'],
   init() {
     if (!observer)
-      observer = new MutationObserver(() => {
-        // Numeric checkout accents must also update in background tabs, where
-        // animation frames can be suspended. Class writes are idempotent.
-        syncCheckoutSummaryStructure();
-        syncCheckoutPriceAccents();
-        scheduleSummary();
-      });
+      // Includes background tabs, where animation frames can be suspended.
+      observer = new MutationObserver(onMutation);
     observe();
     if (!bound) {
       window.addEventListener('resize', scheduleSummary);
-      document.addEventListener(SHOPTET_EVENTS.cartUpdated, () => {
-        observe();
-        scheduleSummary();
-      });
+      for (const event of [SHOPTET_EVENTS.cartUpdated, SHOPTET_EVENTS.cartContentLoaded])
+        document.addEventListener(event, onCartRefresh);
       document.addEventListener('input', (event) => {
         if (event.target instanceof Element && event.target.matches(SEL.cartQuantityInput))
           resizeQuantity(event.target);

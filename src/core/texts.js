@@ -1,5 +1,9 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  order: {
+    free: 'ZADARMO',
+    cancelled: ['Zrušená', 'Stornovaná', 'Zrušená objednávka', 'Stornovaná objednávka'],
+  },
   header: {
     hours: 'PO – PIA (08:00 – 16:00)',
     open: 'Zákaznícka podpora: dostupná',
@@ -7,6 +11,12 @@ export const TEXTS = {
     contactForm: 'Otvoriť kontaktný formulár',
     account: 'Môj účet',
     cartTotal: 'SPOLU',
+    cartTitle: 'Môj košík',
+    cartClose: 'Zavrieť náhľad košíka',
+    shippingRemainingPrefix: 'Nakúpte ešte za ',
+    shippingRemainingSuffix: ' a dopravu máte ',
+    shippingCompletePrefix: 'Dopravu máte ',
+    shippingFreeWord: 'zadarmo!',
     cartPreview: 'Otvoriť alebo zatvoriť náhľad košíka',
     quantityChanged: 'Množstvo bolo úspešne zmenené.',
     facebook: 'Timber Store na Facebooku',

@@ -37,3 +37,26 @@
 .sidebar ol.top-products li:nth-child(3) {
   --ts-rank: var(--ts-color-rank-bronze);
 }
+
+/* Only solid-orange states in the native sidebar. Open ancestors retain their
+   existing pale backgrounds and dark labels. !important beats migrated legacy
+   colour declarations; no geometry, backgrounds or expansion handlers change. */
+@media (min-width: 768px) {
+  .sidebar-left .box.box-categories > .pageElement__heading,
+  .sidebar-left .box.box-categories > .pageElement__heading::before {
+    color: var(--ts-color-bg) !important;
+  }
+  .sidebar-left
+    #categories
+    :is(.categories.active > .topic.active > a, li.active > a, a.timber-current-link),
+  .sidebar-left
+    #categories
+    :is(.categories.active > .topic.active > a, li.active > a, a.timber-current-link)
+    > .cat-trigger,
+  .sidebar-left
+    #categories
+    :is(.categories.active > .topic.active > a, li.active > a, a.timber-current-link)
+    > .cat-trigger::before {
+    color: var(--ts-color-bg) !important;
+  }
+}

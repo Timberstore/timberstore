@@ -1,5 +1,24 @@
 import { TEXTS } from '../../core/texts.js';
 import { SEL } from '../../core/selectors.js';
+import { splitShippingName } from '../../core/shipping.js';
+
+export function syncShippingNames() {
+  for (const label of document.querySelectorAll(SEL.checkoutShippingName)) {
+    // Shoptet owns radios, tooltip/pickup links and data names. Wrap only this
+    // verified text-only label; never replace functional children or the form.
+    if (label.children.length) continue;
+    const parts = splitShippingName(label.textContent);
+    if (!parts) continue;
+    const name = document.createElement('strong');
+    name.textContent = parts.name;
+    const delivery = document.createElement('span');
+    delivery.className = 'ts-shipping__delivery';
+    delivery.textContent = parts.delivery;
+    label.replaceChildren(name, document.createTextNode(' '), delivery);
+    label.classList.add('ts-shipping');
+    label.dataset.tsInit = 'shipping-name';
+  }
+}
 
 // Native method prices are numeric; recap spans omit those attributes. Borrow
 // the selected method value when available, never compute or overwrite prices.

@@ -1,0 +1,1895 @@
+{
+  "baseCommit": "7c72b83c5e29279ef998df735053547e24370b25",
+  "before": {
+    "trace": [
+      {
+        "event": "armed",
+        "t": 9888,
+        "root": 1,
+        "step": "Nákupný košík",
+        "summary": 2,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "mutation",
+        "t": 9941,
+        "root": 1,
+        "step": "Nákupný košík",
+        "summary": 2,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "6000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "ShoptetDOMCartContentLoaded",
+        "t": 12407,
+        "root": 3,
+        "step": "Nákupný košík",
+        "summary": 4,
+        "summaryHeight": 177.5625,
+        "ship": false,
+        "deliveryCustom": false,
+        "info": false,
+        "qty": "4000",
+        "qtyClass": "quantity",
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "mutation",
+        "t": 12414,
+        "root": 3,
+        "step": "Nákupný košík",
+        "summary": 4,
+        "summaryHeight": 249.5625,
+        "ship": false,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "reorderBasketElements after",
+        "t": 12422,
+        "root": 3,
+        "step": "Môj košík",
+        "summary": 4,
+        "summaryHeight": 467.6875,
+        "ship": false,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "rAF",
+        "t": 14491,
+        "root": 3,
+        "step": "Môj košík",
+        "summary": 4,
+        "summaryHeight": 467.6875,
+        "ship": false,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "6000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "mutation",
+        "t": 14860,
+        "root": 3,
+        "step": "Nákupný košík",
+        "summary": 4,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "6000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "ShoptetDOMCartContentLoaded",
+        "t": 16404,
+        "root": 5,
+        "step": "Nákupný košík",
+        "summary": 6,
+        "summaryHeight": 177.5625,
+        "ship": false,
+        "deliveryCustom": false,
+        "info": false,
+        "qty": "4000",
+        "qtyClass": "quantity",
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "reorderBasketElements after",
+        "t": 16423,
+        "root": 5,
+        "step": "Môj košík",
+        "summary": 6,
+        "summaryHeight": 395.6875,
+        "ship": false,
+        "deliveryCustom": false,
+        "info": false,
+        "qty": "4000",
+        "qtyClass": "quantity",
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "mutation",
+        "t": 17428,
+        "root": 5,
+        "step": "Nákupný košík",
+        "summary": 6,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "ajax": false,
+        "animations": []
+      }
+    ],
+    "errors": [],
+    "ajax": [
+      {
+        "path": "/action/Cart/addCartItem/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/GetExtendedOrder/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/setCartItemAmount/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/GetCartContent/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/setCartItemAmount/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/GetCartContent/",
+        "status": 200
+      }
+    ]
+  },
+  "after": {
+    "trace": [
+      {
+        "event": "armed",
+        "t": 1763,
+        "root": 1,
+        "step": "Nákupný košík",
+        "summary": 2,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "rAF",
+        "t": 1781,
+        "root": 1,
+        "step": "Nákupný košík",
+        "summary": 2,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "rAF",
+        "t": 1805,
+        "root": 1,
+        "step": "Nákupný košík",
+        "summary": 2,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "6000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "mutation",
+        "t": 2807,
+        "root": 1,
+        "step": "Nákupný košík",
+        "summary": 2,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "6000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "ShoptetDOMCartContentLoaded",
+        "t": 4102,
+        "root": 3,
+        "step": "Nákupný košík",
+        "summary": 4,
+        "summaryHeight": 249.5625,
+        "ship": false,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": false,
+        "mask": true,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "rAF",
+        "t": 4111,
+        "root": 3,
+        "step": "Nákupný košík",
+        "summary": 4,
+        "summaryHeight": 249.5625,
+        "ship": false,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": false,
+        "mask": true,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "reorderBasketElements after",
+        "t": 4118,
+        "root": 3,
+        "step": "Môj košík",
+        "summary": 4,
+        "summaryHeight": 467.6875,
+        "ship": false,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": true,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "mutation",
+        "t": 4121,
+        "root": 3,
+        "step": "Nákupný košík",
+        "summary": 4,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "rAF",
+        "t": 4128,
+        "root": 3,
+        "step": "Nákupný košík",
+        "summary": 4,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "rAF",
+        "t": 6354,
+        "root": 3,
+        "step": "Nákupný košík",
+        "summary": 4,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "6000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "mutation",
+        "t": 6775,
+        "root": 3,
+        "step": "Nákupný košík",
+        "summary": 4,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "6000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "ShoptetDOMCartContentLoaded",
+        "t": 9238,
+        "root": 5,
+        "step": "Nákupný košík",
+        "summary": 6,
+        "summaryHeight": 249.5625,
+        "ship": false,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": false,
+        "mask": true,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "rAF",
+        "t": 9247,
+        "root": 5,
+        "step": "Nákupný košík",
+        "summary": 6,
+        "summaryHeight": 249.5625,
+        "ship": false,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": false,
+        "mask": true,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "reorderBasketElements after",
+        "t": 9254,
+        "root": 5,
+        "step": "Môj košík",
+        "summary": 6,
+        "summaryHeight": 467.6875,
+        "ship": false,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": true,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "mutation",
+        "t": 9257,
+        "root": 5,
+        "step": "Nákupný košík",
+        "summary": 6,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      },
+      {
+        "event": "rAF",
+        "t": 9261,
+        "root": 5,
+        "step": "Nákupný košík",
+        "summary": 6,
+        "summaryHeight": 443.5,
+        "ship": true,
+        "deliveryCustom": true,
+        "info": true,
+        "qty": "4000",
+        "qtyClass": "quantity ts-cart-quantity",
+        "nativeReady": true,
+        "mask": false,
+        "ajax": false,
+        "animations": []
+      }
+    ],
+    "errors": [],
+    "ajax": [
+      {
+        "path": "/action/Cart/addCartItem/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/GetExtendedOrder/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/setCartItemAmount/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/GetCartContent/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/setCartItemAmount/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/GetCartContent/",
+        "status": 200
+      }
+    ]
+  },
+  "quantityValidation": {
+    "httpStatus": 200,
+    "applicationCode": 500,
+    "serverMessage": "Tento produkt má obmedzený počet kusov, ktoré je možné zakúpiť. Dostupných je iba 4000 položiek. Množstvo nebolo zmenené."
+  },
+  "matrix": [
+    {
+      "width": 1440,
+      "cold": false,
+      "delayedCartResponseMs": 0,
+      "checks": [
+        "reject confirmed 4000; three rows, totals and other products intact",
+        "decrease confirmed 2000; three rows, totals and other products intact",
+        "increase confirmed 4000; three rows, totals and other products intact",
+        "manual confirmed 2000; three rows, totals and other products intact",
+        "manual confirmed 4000; three rows, totals and other products intact"
+      ],
+      "paintStates": [
+        {
+          "loads": 0,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "ajax": [
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "cold": false,
+      "delayedCartResponseMs": 0,
+      "checks": [
+        "reject confirmed 4000; three rows, totals and other products intact",
+        "decrease confirmed 2000; three rows, totals and other products intact",
+        "increase confirmed 4000; three rows, totals and other products intact",
+        "manual confirmed 2000; three rows, totals and other products intact",
+        "manual confirmed 4000; three rows, totals and other products intact"
+      ],
+      "paintStates": [
+        {
+          "loads": 0,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 566,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 274,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 566,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 274,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 566,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 274,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 566,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 274,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 566,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 274,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 566,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "ajax": [
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "cold": false,
+      "delayedCartResponseMs": 0,
+      "checks": [
+        "reject confirmed 4000; three rows, totals and other products intact",
+        "decrease confirmed 2000; three rows, totals and other products intact",
+        "increase confirmed 4000; three rows, totals and other products intact",
+        "manual confirmed 2000; three rows, totals and other products intact",
+        "manual confirmed 4000; three rows, totals and other products intact"
+      ],
+      "paintStates": [
+        {
+          "loads": 0,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 509,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 233,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 509,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 233,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 509,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 233,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 509,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 233,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 509,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 233,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 509,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "ajax": [
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "cold": false,
+      "delayedCartResponseMs": 0,
+      "checks": [
+        "reject confirmed 4000; three rows, totals and other products intact",
+        "decrease confirmed 2000; three rows, totals and other products intact",
+        "increase confirmed 4000; three rows, totals and other products intact",
+        "manual confirmed 2000; three rows, totals and other products intact",
+        "manual confirmed 4000; three rows, totals and other products intact"
+      ],
+      "paintStates": [
+        {
+          "loads": 0,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "ajax": [
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "cold": false,
+      "delayedCartResponseMs": 0,
+      "checks": [
+        "reject confirmed 4000; three rows, totals and other products intact",
+        "decrease confirmed 2000; three rows, totals and other products intact",
+        "increase confirmed 4000; three rows, totals and other products intact",
+        "manual confirmed 2000; three rows, totals and other products intact",
+        "manual confirmed 4000; three rows, totals and other products intact"
+      ],
+      "paintStates": [
+        {
+          "loads": 0,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "ajax": [
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "cold": true,
+      "delayedCartResponseMs": 600,
+      "checks": [
+        "reject confirmed 4000; three rows, totals and other products intact",
+        "decrease confirmed 2000; three rows, totals and other products intact",
+        "increase confirmed 4000; three rows, totals and other products intact",
+        "manual confirmed 2000; three rows, totals and other products intact",
+        "manual confirmed 4000; three rows, totals and other products intact"
+      ],
+      "paintStates": [
+        {
+          "loads": 0,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 213,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 470,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "ajax": [
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "cold": true,
+      "delayedCartResponseMs": 600,
+      "checks": [
+        "reject confirmed 4000; three rows, totals and other products intact",
+        "decrease confirmed 2000; three rows, totals and other products intact",
+        "increase confirmed 4000; three rows, totals and other products intact",
+        "manual confirmed 2000; three rows, totals and other products intact",
+        "manual confirmed 4000; three rows, totals and other products intact"
+      ],
+      "paintStates": [
+        {
+          "loads": 0,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 1,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 2,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 3,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 4,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": false,
+          "mask": true,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": false,
+          "summaryHeight": 250,
+          "overflow": false
+        },
+        {
+          "loads": 5,
+          "ready": true,
+          "mask": false,
+          "step": "Nákupný košík",
+          "quantityReady": true,
+          "shippingReady": true,
+          "summaryHeight": 444,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "ajax": [
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/addCartItem/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetExtendedOrder/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/setCartItemAmount/",
+          "status": 200
+        },
+        {
+          "path": "/action/Cart/GetCartContent/",
+          "status": 200
+        }
+      ]
+    }
+  ],
+  "method": "Real coordinate mouse/touch controls; TLS-verifying curl transport with routed Chromium. Normal reuses static assets; cold disables transport cache and delays cart-content responses by 600ms. DOM events plus rAF readiness snapshots; before/after compositor recordings inspected separately and not published.",
+  "popupRegression": [
+    {
+      "width": 320,
+      "noCache": false,
+      "url": "https://www.timberstore.sk/kosik/",
+      "checks": [
+        "icon native navigation /kosik/ preserves cart",
+        "count native navigation /kosik/ preserves cart",
+        "main native navigation /kosik/ preserves cart",
+        "arrow opens and closes preview without navigation; badge restores",
+        "real touch CTA navigates /kosik/ with exact cart contents"
+      ],
+      "hit": {
+        "tag": "A",
+        "id": "continue-order-button",
+        "cls": "btn btn-conversion",
+        "text": "Pokračovať do košíka"
+      },
+      "cartPreserved": true,
+      "staticCacheHits": 732,
+      "errors": []
+    }
+  ],
+  "shippingRegression": {
+    "checks": [
+      "main cart native AJAX quantity 26 text/bar/state/6px geometry correct",
+      "main cart native AJAX quantity 1 text/bar/state/6px geometry correct"
+    ],
+    "errors": [],
+    "ajax": [
+      {
+        "path": "/action/Cart/addCartItem/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/GetExtendedOrder/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/setCartItemAmount/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/GetCartContent/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/setCartItemAmount/",
+        "status": 200
+      },
+      {
+        "path": "/action/Cart/GetCartContent/",
+        "status": 200
+      }
+    ]
+  },
+  "emptyCartRegression": {
+    "checks": [
+      "Native remove last product -> empty cart, no pending mask or stuck spinner",
+      "Re-add product -> native full cart restored"
+    ],
+    "evidence": "PASS empty and READDED/ADD READY in the live smoke trace; no order or payment submitted"
+  }
+}

@@ -27,3 +27,20 @@ export function getCartInfo() {
     return null;
   }
 }
+
+/** Authoritative server shipping remainder, formatted amount and progress.
+ * Only the progress percentage is derived; no price or eligibility is computed.
+ */
+export function getCartShippingPresentation() {
+  const info = getCartInfo();
+  const threshold = Number(info?.freeShippingFrom);
+  const left = info?.leftToFreeShipping?.priceLeft;
+  const formatted = info?.leftToFreeShipping?.formattedPrice;
+  if (!(threshold > 0) || typeof left !== 'number' || !Number.isFinite(left)) return null;
+  if (left > 0 && typeof formatted !== 'string') return null;
+  return {
+    complete: left <= 0,
+    remaining: formatted,
+    percent: Math.max(0, Math.min(100, 100 * (1 - left / threshold))),
+  };
+}
