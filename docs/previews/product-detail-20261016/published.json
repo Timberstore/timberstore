@@ -1,0 +1,51 @@
+{
+  "commit": "b9c49e8b9ac2c6716df12bf3abcb34507a1936af",
+  "assets": [
+    {
+      "file": "js",
+      "httpStatus": 200,
+      "bytes": 99725,
+      "matchesLocal": true,
+      "sha256": "6eb819089dafedef8db4242441f37490a0a984dba12bcd1dc617981dadff4bdd"
+    },
+    {
+      "file": "css",
+      "httpStatus": 200,
+      "bytes": 147900,
+      "matchesLocal": true,
+      "sha256": "f14a052ace8a397e8aa4040d92a659cdb9e1b1036ae4483bdffee451bc5eaeac"
+    }
+  ],
+  "browser": {
+    "checks": [
+      {
+        "kind": "stock",
+        "loader": {
+          "version": "b9c49e8",
+          "preview": true,
+          "pageLoadingTimer": null
+        },
+        "version": "v0.6.11-preview.product-detail",
+        "dispatch": "Expedujeme spravidla do 1–2 pracovných dní.",
+        "panels": 1,
+        "overflow": false,
+        "badge": "PREVIEW b9c49e8"
+      },
+      {
+        "kind": "central",
+        "loader": {
+          "version": "b9c49e8",
+          "preview": true,
+          "pageLoadingTimer": null
+        },
+        "version": "v0.6.11-preview.product-detail",
+        "dispatch": "Expedujeme spravidla do 5 pracovných dní.",
+        "panels": 1,
+        "overflow": false,
+        "badge": "PREVIEW b9c49e8"
+      },
+      "Preview off restores actual stable v0.6.11 without the new panel"
+    ],
+    "errors": []
+  }
+}

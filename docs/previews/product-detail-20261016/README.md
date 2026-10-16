@@ -53,3 +53,11 @@ TLS-verifying curl transport with the environment's configured proxy feeds real 
 No physical iOS Safari/Android device, WebKit run or PageSpeed/LCP/CLS benchmark was performed. Gallery touch testing uses Chromium's touch emulation. The 24 inspected homepage product examples did not expose native parameterValueId variants; selected/hidden parameter-dependent availability, unknown states and zero/insufficient stock were therefore tested as controlled native-markup fixtures, not represented as a live catalog variant test. A real variant product still needs specific catalog coverage before release.
 
 Preview is for client visual review; production remains v0.6.11. `?ts_preview=off` exits the existing preview cookie.
+
+## Published preview verification
+
+Code preview commit: `b9c49e8b9ac2c6716df12bf3abcb34507a1936af`. Both jsDelivr assets returned 200 and match the locally verified build byte for byte. The initial CDN fetch timed out during propagation; verification was retried successfully before sharing links.
+
+A Chromium session using actual CDN assets (no local interception) confirmed the original loader selected `b9c49e8`, `preview: true`, the preview badge, one purchase panel and the correct stock/central dispatch text. Resizing to mobile had no page overflow. `?ts_preview=off` restored actual production v0.6.11 and removed the new panel. No runtime/request errors were captured in this published smoke check. Details: `published.json`.
+
+Only this preview branch was pushed. Main, tags, package version, the loader and production were left untouched. This documentation-only follow-up does not rebuild or release assets; the verified user preview stays pinned to the code commit above.
