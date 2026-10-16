@@ -23,3 +23,11 @@ Git tyto změny nevrátí — proto se vždy zapisuje i **původní stav**.
 - Nezávislé overenie 14. 10. 2026: čerstvé desktopové/mobilné relácie bez preview cookie, `TimberLoader.version` aj `Timber.version` = v0.6.9, `preview = false`, CSS/JS z CDN tagu. Prešli homepage, kategória, mobilná galéria, natívne pridanie a zmena množstva cez AJAX, doprava/platba a postup do Osobných údajov. Objednávka nebola odoslaná; natívny finálny formulár zostáva `order-form`.
 - Drobný nález mimo nášho buildu: Apollo CDN vracia 404 pre `/assets/img/colorbox/loading.gif`. Galéria aj nákupný priechod prešli; cudzí súbor sa nemenil. Pôvodný syntetický klik v mobilnom teste nezvolil dopravu, opakovanie skutočným tapom prešlo bez JS chýb.
 - Rollback: v existujúcom loaderi vrátiť `PROD = 'v0.6.5'`, uložiť a vypnúť preview cookie. Postup: [docs/releases/v0.6.9.md](docs/releases/v0.6.9.md).
+
+## 2026-10-16 · v0.6.11 — loader pripravený, aktivácia v adminu nevykonaná
+
+- Klient schválil preview `653d6f5` a nové stabilné vydanie do main. Verziovaný `shoptet/loader.html` má pripravený cieľ `PROD = 'v0.6.11'`.
+- Toto je príprava nasadenia, nie záznam vykonanej zmeny v Shoptete. Agent nemá prístup k administrácii; posledný potvrdený živý stav je `PROD = 'v0.6.9'`.
+- Cieľ: **Vzhľad a obsah → Editor HTML kódu → Záhlavie**, synchronizovať iba hodnotu PROD existujúceho Timber loadera podľa verziovaného súboru. Zachovať všetok ostatný obsah a lokálne podmienky pre staré verzie.
+- Pôvodný stav a rollback: `PROD = 'v0.6.9'`, vypnúť preview cez `?ts_preview=off`. Staré tagy ani buildy sa neprepisujú.
+- Po skutočnom uložení overiť `TimberLoader.version = 'v0.6.11'`, `preview = false`, CSS/JS z tagu a nákupný priechod bez odoslania objednávky; až potom doplniť potvrdenie aktivácie. Postup: [docs/releases/v0.6.11.md](docs/releases/v0.6.11.md).

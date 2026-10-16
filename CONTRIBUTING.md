@@ -165,6 +165,7 @@ Všechno povinné, u každého releasu:
 ### 3.4 Výkonový rozpočet
 
 - **Súhlas klienta 15. 10. 2026:** pri potrebnom rozšírení objednaných úprav možno zvýšiť kB rozpočet bez opätovného pýtania. Vždy zmerať skutočný gzip výstup, navýšenie evidovať pri konkrétnej novej verzii a zachovať pôvodné releasy aj ich limity. Tento súhlas nemení povinnosť preview, testovania ani schválenia merge/produkčného nasadenia.
+- **Stabilná v0.6.11 (schválená klientom 16. 10. 2026):** povýšenie schválenej rc.4 bez zmeny funkčného kódu; zachovaný CSS limit 21 KiB gzip a JS 30 KiB. Predchádzajúce verzie a ich limity zostávajú nezmenené.
 - **Preview 0.6.11-rc.4:** mobilný náhľad košíka, scroll lock a synchronizácia dopravy po AJAX; CSS limit 21 KiB gzip, JS 30 KiB. Navýšenie podľa súhlasu 15. 10. 2026, staršie limity a vydania bez zmeny. Iba preview pracovnej vetvy.
 - **Preview 0.6.11-rc.3:** oprava kontaktných riadkov a foregroundov CTA, CSS limit zostáva 20,25 kB gzip; JS 30 kB. Bez zmeny limitov starších verzií.
 - **Preview 0.6.11-rc.2:** mobilné checkout kontakty a klientom objednaná Emerald, CSS limit 20,25 kB gzip; JS 30 kB. Navýšenie podľa súhlasu 15. 10. 2026, pôvodné verzie/limity zostávajú zachované. Po následnom pokyne klienta iba preview pracovnej vetvy, bez merge a produkčného nasadenia.

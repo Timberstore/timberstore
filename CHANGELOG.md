@@ -3,6 +3,16 @@
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 
+## v0.6.11 · 2026-10-16 · Schválený košík, checkout a Apollo opravy
+
+- Klient schválil dokončené preview `653d6f5172ae7f707082f0c922e6df5ed6bb75e3` a publikovanie do main ako nové stabilné vydanie. Funkčné zdroje sa pri povýšení z rc.4 nemenia; v0.6.9 zostáva nemenným rollback tagom. Odmietnutá v0.6.10 sa nevydáva. Trello kód nebol poskytnutý.
+- Univerzálne mobilné karty dopravy, upravené kontakty checkoutu a menu, biele CTA texty/šípky, jednotný tvar login tlačidla, klientom objednaná Emerald #00C853. Oranžová, béžová a success background zachované.
+- Mobilný náhľad košíka so scroll lockom a obnovením pozície, oddelená navigácia hlavného tlačidla a rozbaľovacej šípky, funkčný natívny prechod do košíka. Zjednotené odsadenie dopravy/súčtu/CTA, deliaca linka, stavový progress oranžový pred limitom a Emerald po jeho dosiahnutí.
+- Opravené prekrývanie mobilného loga/košíka, foregroundy kategóriového sidebaru, oneskorené ovládanie súvisiaceho tovaru a zobrazenie nespracovaného Apollo detailu. Doplnený responzívny detail existujúcej objednávky bez zásahu do natívnych dát a formulárov.
+- Prebliknutie pri zmene množstva: synchronizácia nového cart DOM aj pri serverom odmietnutom množstve, sledovanie nových koreňov a natívna loading vrstva až do dokončenia štruktúry. Zachované serverové výpočty, skladové limity, formuláre a event listenery.
+- Schválené testy: desktop 1440 a mobily 320/375/390/430, reálne kliky/dotyky a navigácia, 35 AJAX zmien množstva vrátane odmietnutej skrutky 4000 → 6000, cold/pomalší transport a doprava zadarmo oboma smermi. Podrobné výsledky a hranice overenia zostávajú v docs/previews/; reálny iOS, PageSpeed, platba a odoslanie objednávky neboli testované.
+- Stabilný build zachováva rozpočty rc.4: CSS 21 KiB / JS 30 KiB gzip. Loader v repozitári pripravený na v0.6.11; samotný merge/tag nemení živý Shoptet. Aktivácia a rollback: docs/releases/v0.6.11.md, ADMIN-CHANGES.md.
+
 ## Preview 0.6.11-rc.4 · 2026-10-15 · Mobilný náhľad košíka a stav dopravy
 
 - Aktuálna pracovná vetva nad `8503ada9c320befb1a8377a49aa18eda77b5de2d`, samostatné preview cez nemenné SHA. Bez merge, release tagu a produkčného nasadenia. Loader v0.6.9 a paleta rc.3 bez zmeny; Trello kód nebol v zadaní poskytnutý.
