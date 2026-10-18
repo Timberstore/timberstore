@@ -15,3 +15,7 @@ Modul podporuje iba detail produktu bez variantov so samostatne pomenovanými sk
 ## Overenie
 
 Šesť testov skladovej logiky, lint a build prešli. JS 26,47 KiB gzip / 30 KiB, CSS 20,99 KiB gzip / 21 KiB. Zatiaľ bez živého vizuálneho overenia samostatných skladov, mobilného/Safari a nákupného checklistu. Draft nie je určený na merge ani nasadenie. Produkčný loader sa nemení; zostavené dist súbory sa doplnia po doriešení dát a kontrole preview. Staršie vydania zostávajú zachované.
+
+## Overenie administrácie po prihlásení
+
+Sklady: Dolný Hričov ID 6 (predvolený fyzický sklad), Centrálny sklad ID 3 a TIMBER SKLAD ID 1. Všetky tri majú viditeľnosť na e-shope zapnutú; žiadny nie je označený ako odberné miesto. Globálne zobrazenie množstva je zapnuté s limitom 100. V detaile Hričova nie je samostatná voľba pre publikovanie presného stavu do frontendových dát. Tieto nastavenia boli iba prečítané, nezmenené. Samotné zapnutie viditeľnosti teda blokátor nevyrieši. Ďalší krok: zistiť existujúci proces synchronizácie skladov a pripojiť k nemu publikovanie oddelených stavov bez zmeny pravidiel výdajných miest.
