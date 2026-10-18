@@ -1,5 +1,23 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  services: {
+    page: 'Zobraziť ponuku – strana',
+  },
+  partners: {
+    page: 'Zobraziť značky – strana',
+  },
+  instagram: {
+    previous: 'Predchádzajúce príspevky',
+    next: 'Ďalšie príspevky',
+    page: 'Zobraziť Instagram príspevky – strana',
+    title: 'Sledujte nás na Instagrame',
+    unavailable: 'Instagram galéria momentálne nie je dostupná. Príspevky nájdete na našom profile.',
+  },
+  footer: {
+    writeUs: 'Napíšte nám',
+    email: 'info@timberstore.sk',
+    phone: '+421 904 479 842',
+  },
   order: {
     free: 'ZADARMO',
     cancelled: ['Zrušená', 'Stornovaná', 'Zrušená objednávka', 'Stornovaná objednávka'],

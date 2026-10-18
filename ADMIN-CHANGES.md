@@ -31,3 +31,9 @@ Git tyto změny nevrátí — proto se vždy zapisuje i **původní stav**.
 - Cieľ: **Vzhľad a obsah → Editor HTML kódu → Záhlavie**, synchronizovať iba hodnotu PROD existujúceho Timber loadera podľa verziovaného súboru. Zachovať všetok ostatný obsah a lokálne podmienky pre staré verzie.
 - Pôvodný stav a rollback: `PROD = 'v0.6.9'`, vypnúť preview cez `?ts_preview=off`. Staré tagy ani buildy sa neprepisujú.
 - Po skutočnom uložení overiť `TimberLoader.version = 'v0.6.11'`, `preview = false`, CSS/JS z tagu a nákupný priechod bez odoslania objednávky; až potom doplniť potvrdenie aktivácie. Postup: [docs/releases/v0.6.11.md](docs/releases/v0.6.11.md).
+
+## 2026-10-18 · v0.6.12 — vydanie pripravené, aktivácia v adminu nevykonaná
+
+- Klient schválil večerné úpravy a publikovanie do mainu bez nového produktového detailu. Nový release vychádza zo stabilnej v0.6.11.
+- Živý loader overený pred vydaním: `PROD = 'v0.6.11'`. Repo loader má pripravené `PROD = 'v0.6.12'`.
+- Agent nemá prístup do Shoptet administrácie; nejde o záznam vykonanej aktivácie. Po dostupnosti CDN klient v existujúcom loaderi zmení iba hodnotu PROD; [postup a rollback](docs/releases/v0.6.12.md).

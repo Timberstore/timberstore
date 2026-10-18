@@ -1,93 +1,209 @@
-/* Homepage Instagram block.
-   Drobnosti · Shoptet stretches the posts across the whole window (≈360 px tiles
-   on a 1440 px screen). Make it a compact single-row strip like remab.sk:
-   desktop (≥ 992 px) = all posts in one row as wide as the page content,
-   tiles max 160 px; mobile + tablet = one row scrolled with a finger.
-   Independent of the post count set in admin (Apollo shows max 9). */
-
+/* Replace the historical 160px scrolling strip; retain the native Shoptet feed. */
 .instagram-block {
   margin-top: var(--ts-space-section);
-  /* Room for the follow button: gap + Shoptet's button height (40 px) + space below. */
-  padding-bottom: calc(var(--ts-space-3) + 40px + var(--ts-space-section));
+  padding: var(--ts-space-section) 20px;
+  background: var(--ts-color-service-bg);
+  border-block: 1px solid var(--ts-color-service-divider);
 }
-
 .instagram-block .instagram-widget {
-  /* static: the follow button is absolutely positioned inside the widget; anchor
-     it to .instagram-block instead, so the mobile scroller doesn't clip it. */
-  position: static;
-  flex-wrap: nowrap;
+  position: relative;
+  display: grid;
+  justify-content: start;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 2 * var(--ts-space-2)) / 2.5);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
   gap: var(--ts-space-2);
+  width: 100%;
+  max-width: 1378px;
   margin: 0 auto;
-  /* Same side padding as Shoptet's .container, so the strip lines up with the page. */
-  padding: 0 20px;
+  padding: 0;
   background: none;
 }
-
-/* Shoptet's full-width shadow under the tiles. */
 .instagram-block .instagram-widget::after {
   display: none;
 }
-
-.instagram-block .instagram-follow-btn {
-  top: auto;
-  bottom: var(--ts-space-section);
-  left: 0;
-  margin-top: 0;
+/* Override Apollo's historical nth-child cap; retain every supplied post. */
+.instagram-block .instagram-widget .instagram-widget-item:nth-child(n) {
+  display: block;
+  width: auto;
+  min-width: 0;
+  scroll-snap-align: start;
+  border: 1px solid var(--ts-color-controls-border);
+  border-radius: var(--ts-radius-controls);
+  overflow: hidden;
+  aspect-ratio: 1;
+  background: var(--ts-color-service-bg);
+}
+.instagram-block .instagram-widget .instagram-widget-item > a {
+  display: block;
+  padding: 0;
+  height: 100%;
+  aspect-ratio: 1;
+}
+.instagram-block .instagram-widget .instagram-widget-item > a img {
+  position: static;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
+  object-fit: cover;
+  transform: none;
+}
+.instagram-block .instagram-widget .instagram-widget-item > a:hover img {
+  transform: scale(1.025);
+  opacity: 1;
+}
+.instagram-block .instagram-widget .instagram-widget-item > a::after {
+  display: none;
+}
+.instagram-block .ts-instagram__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--ts-space-3);
+  margin: 0 auto calc(2 * var(--ts-space-3));
+  max-width: 1378px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ts-color-text);
+  line-height: 1.4;
+}
+.instagram-block .ts-instagram__heading::before,
+.instagram-block .ts-instagram__heading::after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid var(--ts-color-controls-border);
+}
+.instagram-block .ts-instagram__heading .instagram-follow-btn {
+  position: static;
+  width: auto;
+  height: auto;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: var(--ts-space-2) 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  white-space: normal;
+}
+.instagram-block .ts-instagram__heading .instagram-follow-btn:hover,
+.instagram-block .ts-instagram__heading .instagram-follow-btn:focus-visible {
+  color: var(--ts-color-action-hover);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.instagram-block .ts-instagram__empty {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .instagram-block .instagram-widget {
+    grid-auto-columns: calc((100% - 2 * var(--ts-space-2)) / 3);
+  }
+}
+@media (min-width: 1200px) {
+  .instagram-block .instagram-widget {
+    grid-auto-columns: calc((100% - 5 * var(--ts-space-2)) / 6);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .instagram-block .instagram-widget .instagram-widget-item > a img {
+    transition: none;
+  }
 }
 
-/* Mobile + tablet: ~2.4 tiles visible on a phone (≈135 px, post texts stay
-   readable; max 180 px on a tablet), the cut one hints the strip scrolls.
-   With few posts there's nothing to scroll and flex-grow fills the row instead. */
-@media (max-width: 991px) {
-  .instagram-block .instagram-widget {
-    justify-content: flex-start;
-    gap: var(--ts-space-2);
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-padding-inline: 20px;
-    scrollbar-width: none;
+.instagram-block .instagram-widget::-webkit-scrollbar {
+  display: none;
+}
+.instagram-block .ts-instagram__slider {
+  position: relative;
+  max-width: 1378px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .instagram-block .ts-instagram__heading {
+    font-size: 36px;
   }
+}
 
-  .instagram-block .instagram-widget::-webkit-scrollbar {
-    display: none;
+/* Mobile order: contact, Instagram, then the existing footer menus. */
+@media (max-width: 767px) {
+  #footer .custom-footer > .custom-footer__contact.ts-footer-contacts {
+    order: -2;
   }
+  #footer .custom-footer > .instagram-block.ts-instagram--in-footer {
+    order: -1;
+    flex: 0 0 100%;
+    width: 100%;
+    margin: var(--ts-space-3) 0;
+    padding: var(--ts-space-section) 20px;
+  }
+  #footer .ts-instagram--in-footer .ts-instagram__heading {
+    color: var(--ts-color-text);
+  }
+  #footer .ts-instagram--in-footer .ts-instagram__profile {
+    color: inherit;
+    font: inherit;
+  }
+}
 
-  .instagram-block .instagram-widget .instagram-widget-item {
-    flex: 1 0 min(calc((100% - 2 * var(--ts-space-2)) / 2.4), 180px);
-    width: auto;
-    min-width: 0;
-    scroll-snap-align: start;
-  }
+/* Instagram alone: swipe hint and small template-style side controls, no dots. */
+.instagram-block .ts-instagram__controls[hidden] {
+  display: none;
+}
+.instagram-block .ts-instagram__arrow {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--ts-color-bg);
+  color: var(--ts-color-controls-text);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  font: 24px/1 sans-serif;
+  cursor: pointer;
+}
+.instagram-block .ts-instagram__arrow:first-child {
+  left: -12px;
+}
+.instagram-block .ts-instagram__arrow:last-child {
+  right: -12px;
+}
+.instagram-block .ts-instagram__arrow:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+.instagram-block .ts-instagram__arrow:focus-visible {
+  outline: 2px solid var(--ts-color-action-hover);
 }
 
 @media (min-width: 768px) {
-  .instagram-block {
-    padding-bottom: calc(var(--ts-space-3) + 50px + var(--ts-space-section)); /* button 50 px */
+  .instagram-block .ts-instagram__arrow {
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    transition: background-color 250ms ease-out, color 250ms ease-out;
   }
-}
-
-/* Desktop: one centred row, widths copied from Shoptet's .container breakpoints. */
-@media (min-width: 992px) {
-  .instagram-block .instagram-widget {
-    justify-content: center;
-    width: 972px;
+  .instagram-block .ts-instagram__arrow:not(:disabled):not(.swiper-button-disabled):hover,
+  .instagram-block .ts-instagram__arrow:focus-visible {
+    background-color: var(--color-primary);
+    color: white;
   }
-
-  .instagram-block .instagram-widget .instagram-widget-item {
-    flex: 0 1 160px;
-    width: auto;
-    min-width: 0;
+  .instagram-block .ts-instagram__arrow.swiper-button-disabled {
+    opacity: 0.3;
+    pointer-events: none;
   }
-}
-
-@media (min-width: 1200px) {
-  .instagram-block .instagram-widget {
-    width: 1178px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .instagram-block .instagram-widget {
-    width: 1418px;
-  }
+  .instagram-block .ts-instagram__arrow.ts-rail__prevEl { left: -12px; }
+  .instagram-block .ts-instagram__arrow.ts-rail__nextEl { right: -12px; }
 }

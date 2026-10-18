@@ -1,0 +1,198 @@
+[
+  {
+    "width": 375,
+    "version": "v0.6.12",
+    "detailModule": false,
+    "overflow": false,
+    "faqClip": null,
+    "brands": [
+      {
+        "x": 36,
+        "y": 6680.453125
+      },
+      {
+        "x": 191.5,
+        "y": 6680.453125
+      },
+      {
+        "x": 347,
+        "y": 6680.453125
+      },
+      {
+        "x": 502.5,
+        "y": 6680.453125
+      },
+      {
+        "x": 658,
+        "y": 6680.453125
+      },
+      {
+        "x": 813.5,
+        "y": 6680.453125
+      },
+      {
+        "x": 969,
+        "y": 6680.453125
+      },
+      {
+        "x": 1124.5,
+        "y": 6680.453125
+      },
+      {
+        "x": 1280,
+        "y": 6680.453125
+      },
+      {
+        "x": 1435.5,
+        "y": 6680.453125
+      },
+      {
+        "x": 1591,
+        "y": 6680.453125
+      },
+      {
+        "x": 1746.5,
+        "y": 6680.453125
+      }
+    ],
+    "brandDots": 6,
+    "contactAlign": "center",
+    "instagramDots": 0,
+    "popularExpanded": true,
+    "product": "/k-strongsinks-s3-set-drez-zala-1000x500mm-granit-bezova-bateria-ipoly-cierna/"
+  },
+  {
+    "width": 1024,
+    "version": "v0.6.12",
+    "detailModule": false,
+    "overflow": false,
+    "faqClip": "hidden",
+    "brands": [
+      {
+        "x": 28.515625,
+        "y": 6396.125
+      },
+      {
+        "x": 218.90625,
+        "y": 6396.125
+      },
+      {
+        "x": 409.296875,
+        "y": 6396.125
+      },
+      {
+        "x": 599.6875,
+        "y": 6396.125
+      },
+      {
+        "x": 790.078125,
+        "y": 6396.125
+      },
+      {
+        "x": 28.515625,
+        "y": 6531.125
+      },
+      {
+        "x": 218.90625,
+        "y": 6531.125
+      },
+      {
+        "x": 409.296875,
+        "y": 6531.125
+      },
+      {
+        "x": 599.6875,
+        "y": 6531.125
+      },
+      {
+        "x": 790.078125,
+        "y": 6531.125
+      },
+      {
+        "x": 314.109375,
+        "y": 6666.125
+      },
+      {
+        "x": 504.5,
+        "y": 6666.125
+      }
+    ],
+    "brandDots": 0,
+    "contactAlign": "start",
+    "instagramDots": 0,
+    "product": "/k-strongsinks-s3-set-drez-zala-1000x500mm-granit-bezova-bateria-ipoly-cierna/"
+  },
+  {
+    "width": 1440,
+    "version": "v0.6.12",
+    "detailModule": false,
+    "overflow": false,
+    "faqClip": "hidden",
+    "brands": [
+      {
+        "x": 13.5,
+        "y": 6341.359375
+      },
+      {
+        "x": 246.5,
+        "y": 6341.359375
+      },
+      {
+        "x": 479.5,
+        "y": 6341.359375
+      },
+      {
+        "x": 712.5,
+        "y": 6341.359375
+      },
+      {
+        "x": 945.5,
+        "y": 6341.359375
+      },
+      {
+        "x": 1178.5,
+        "y": 6341.359375
+      },
+      {
+        "x": 13.5,
+        "y": 6476.359375
+      },
+      {
+        "x": 246.5,
+        "y": 6476.359375
+      },
+      {
+        "x": 479.5,
+        "y": 6476.359375
+      },
+      {
+        "x": 712.5,
+        "y": 6476.359375
+      },
+      {
+        "x": 945.5,
+        "y": 6476.359375
+      },
+      {
+        "x": 1178.5,
+        "y": 6476.359375
+      }
+    ],
+    "brandDots": 0,
+    "contactAlign": "start",
+    "instagramDots": 0,
+    "product": "/k-strongsinks-s3-set-drez-zala-1000x500mm-granit-bezova-bateria-ipoly-cierna/"
+  },
+  {
+    "page": "detail",
+    "version": "v0.6.12",
+    "detailLayout": false,
+    "cartButton": true,
+    "overflow": false
+  },
+  {
+    "page": "cart",
+    "version": "v0.6.12",
+    "overflow": false
+  }
+]

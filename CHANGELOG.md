@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.12 · 2026-10-18 · FAQ, Instagram a pätička
+
+- Schválené večerné zmeny prenesené samostatne na main v0.6.11; rozpracovaný nový produktový detail a produktové informácie vylúčené.
+- Čisté rohy FAQ bez Apollo výstupkov; opravené načítanie natívnych Instagram obrázkov, responzívny slider bez bodiek a desktopový hover šípok.
+- Zjednotené kontakty a hodiny podľa hlavičky, farebné sociálne ikony; mobilné centrovanie, poradie údajov a samostatné NAPÍŠTE NÁM nad sociálnymi sieťami.
+- Zjednotené mobilné footer akordeóny, vrátane Najvyhľadávanejšie; mobilné značky po dvoch a ponukové karty po jednej s natívnymi bodkami a swipe správaním.
+- Build JS 29,14 KiB / CSS 22,81 KiB gzip, lint a oddelenie produktového preview overené. Reálny iOS a PageSpeed nemerané. [Podrobnosti a aktivácia](docs/releases/v0.6.12.md).
+- Loader v repozitári pripravený na v0.6.12; aktivácia v Shoptet adminu musí prebehnúť samostatne.
+
+
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.
 
 
