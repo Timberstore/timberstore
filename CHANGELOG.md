@@ -1,3 +1,10 @@
+## Preview follow-up · 2026-10-18 · native dots, brand insets and mobile section order
+
+- Reuse actual Apollo swiper-pagination-bullet and active classes for 16px white shadowed/dark-active dots; remove the custom painted pseudo-element. Pagination logic/accessible hit targets remain shared.
+- Add 16px mobile brand rail insets and vertical shadow space. Mobile section order is contact → Instagram → information menus, with desktop position restored on resize after Apollo initialization.
+- Replace footer clock glyph with the existing availability dot before the hours text at all widths. Shared open/closed logic and colors remain unchanged.
+- Lint/build/whitespace pass: CSS 23.63 KiB / 23.75, JS 29.98 KiB / 30. Preview only.
+
 ## Preview follow-up · 2026-10-18 · dot pagination and visible service buttons
 
 - Replace arrows across service/brand/Instagram rails with one shared round dot pager: one dot per visible group, active state follows clicks/swipes/resizing. Preserve native touch scrolling and reduced-motion preference.

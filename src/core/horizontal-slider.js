@@ -31,7 +31,7 @@ export function setupHorizontalSlider(block, { widgetSelector, itemSelector, pre
       const dots = positions.map((_, index) => {
         const dot = document.createElement('button');
         dot.type = 'button';
-        dot.className = 'ts-rail__dot';
+        dot.className = 'ts-rail__dot swiper-pagination-bullet';
         dot.setAttribute('aria-label', `${pageLabel} ${index + 1}`);
         dot.addEventListener('click', () =>
           widget.scrollTo({
@@ -50,9 +50,10 @@ export function setupHorizontalSlider(block, { widgetSelector, itemSelector, pre
       if (Math.abs(position - widget.scrollLeft) < Math.abs(positions[active] - widget.scrollLeft))
         active = index;
     });
-    [...controls.children].forEach((dot, index) =>
-      dot.setAttribute('aria-current', String(index === active)),
-    );
+    [...controls.children].forEach((dot, index) => {
+      dot.setAttribute('aria-current', String(index === active));
+      dot.classList.toggle('swiper-pagination-bullet-active', index === active);
+    });
     controls.hidden = max <= 1;
   };
   widget.addEventListener('scroll', update, { passive: true });

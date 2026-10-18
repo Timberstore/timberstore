@@ -90,8 +90,9 @@
   align-items: center;
 }
 #footer .ts-footer-contacts .ts-footer-contacts__hours .ts-service-bar__hours {
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  max-width: 100%;
   align-items: center;
   gap: var(--ts-space-2);
   padding: 0;
@@ -101,18 +102,12 @@
   white-space: normal;
 }
 #footer .ts-footer-contacts .ts-footer-contacts__hours .ts-service-bar__hours::before {
-  content: '◷';
-  position: static;
-  transform: none;
-  flex: 0 0 20px;
-  color: var(--ts-color-accent);
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
+  content: none;
 }
 #footer .ts-footer-contacts .ts-service-bar__status {
   flex-shrink: 0;
-  order: 1;
+  order: 0;
+  margin-inline: calc((20px - var(--ts-service-status-size)) / 2);
 }
 #footer .ts-footer-contacts a.btn {
   display: inline-flex;

@@ -10,6 +10,8 @@
   display: none;
 }
 .ts-rail__dots .ts-rail__dot {
+  position: relative;
+  opacity: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -19,17 +21,6 @@
   border: 0;
   background: none;
   cursor: pointer;
-}
-.ts-rail__dot::before {
-  content: '';
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--ts-color-controls-border);
-}
-.ts-rail__dot[aria-current='true']::before,
-.ts-rail__dot:hover::before {
-  background: var(--ts-color-accent);
 }
 .ts-rail__dot:focus-visible {
   outline: 2px solid var(--ts-color-action-hover);

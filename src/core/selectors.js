@@ -1,6 +1,8 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  apolloReady: 'body.after-load',
+  footerColumns: '#footer .custom-footer',
   serviceBlock: '.service-block',
   serviceGroup: '.service-group',
   serviceItem: '.service__item',

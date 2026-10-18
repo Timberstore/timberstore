@@ -131,3 +131,24 @@
     font-size: 36px;
   }
 }
+
+/* Mobile order: contact, Instagram, then the existing footer menus. */
+@media (max-width: 767px) {
+  #footer .custom-footer > .custom-footer__contact.ts-footer-contacts {
+    order: -2;
+  }
+  #footer .custom-footer > .instagram-block.ts-instagram--in-footer {
+    order: -1;
+    flex: 0 0 100%;
+    width: 100%;
+    margin: var(--ts-space-3) 0;
+    padding: var(--ts-space-section) 20px;
+  }
+  #footer .ts-instagram--in-footer .ts-instagram__heading {
+    color: var(--ts-color-text);
+  }
+  #footer .ts-instagram--in-footer .ts-instagram__profile {
+    color: inherit;
+    font: inherit;
+  }
+}

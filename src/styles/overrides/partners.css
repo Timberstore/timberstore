@@ -1,5 +1,9 @@
 /* Mobile only; desktop keeps its native Apollo markup and grid. */
 @media (max-width: 767px) {
+  .partners-block .ts-partners__slider {
+    padding: 0 var(--ts-space-3);
+  }
+
   .partners-block .partners-group {
     display: grid;
     grid-auto-flow: column;
@@ -11,6 +15,7 @@
     scrollbar-width: none;
     min-width: 0;
     margin: 0;
+    padding-block: var(--ts-space-2);
   }
   .partners-block .partners-group::-webkit-scrollbar {
     display: none;

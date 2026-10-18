@@ -3,6 +3,30 @@ import { setupHorizontalSlider } from '../../core/horizontal-slider.js';
 import { TEXTS } from '../../core/texts.js';
 
 let discoveryObserver;
+const placements = new WeakMap();
+const stacked = window.matchMedia('(max-width: 767px)');
+
+function placeSection(block) {
+  if (stacked.matches) {
+    if (!document.querySelector(SEL.apolloReady)) return;
+    const contact = document.querySelector(SEL.footerContacts);
+    const footer = document.querySelector(SEL.footerColumns);
+    if (!contact || !footer) return;
+    if (!placements.has(block)) {
+      const marker = document.createComment('');
+      block.before(marker);
+      placements.set(block, marker);
+    }
+    block.classList.add('ts-instagram--in-footer');
+    if (block.parentElement !== footer || contact.nextElementSibling !== block)
+      contact.after(block);
+  } else {
+    const marker = placements.get(block);
+    if (marker?.parentNode) marker.replaceWith(block);
+    placements.delete(block);
+    block.classList.remove('ts-instagram--in-footer');
+  }
+}
 
 function sync(block) {
   let heading = block.querySelector('.ts-instagram__heading');
@@ -68,7 +92,11 @@ function refresh() {
   const real = blocks.filter((block) => !block.classList.contains('ts-instagram--fallback'));
   if (real.length) {
     for (const block of blocks) {
-      if (block.classList.contains('ts-instagram--fallback')) block.remove();
+      if (block.classList.contains('ts-instagram--fallback')) {
+        placements.get(block)?.remove();
+        placements.delete(block);
+        block.remove();
+      }
     }
     blocks = real;
   } else if (!blocks.length) {
@@ -80,7 +108,10 @@ function refresh() {
       blocks = [fallback];
     }
   }
-  for (const block of blocks) sync(block);
+  for (const block of blocks) {
+    sync(block);
+    placeSection(block);
+  }
 }
 
 export default {
@@ -89,6 +120,8 @@ export default {
   init() {
     refresh();
     if (discoveryObserver) return;
+    stacked.addEventListener('change', refresh);
+    window.requestAnimationFrame(refresh);
     // Apollo moves the widget out of the footer. Observe relevant additions
     // anywhere on the page so consent/delayed insertion still works. Ignore
     // unrelated mutations; one observer and no polling or extra feed requests.

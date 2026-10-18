@@ -1,0 +1,355 @@
+{
+  "scope": "Live Apollo with preview substituted; computed dot pseudo-element equality with native template, mobile section swap and desktop restoration.",
+  "results": [
+    {
+      "width": 320,
+      "instagram": {
+        "top": 8179.21875,
+        "bottom": 8464,
+        "left": 0,
+        "right": 305
+      },
+      "contact": {
+        "top": 7943.859375,
+        "bottom": 8147.21875,
+        "left": 0,
+        "right": 305
+      },
+      "menu": {
+        "top": 8480,
+        "bottom": 8536,
+        "left": 0,
+        "right": 305
+      },
+      "instagramInFooter": true,
+      "instagramCount": 1,
+      "contactCount": 1,
+      "heading": "Sledujte nás na Instagrame",
+      "spacing": {
+        "left": 36,
+        "right": 36
+      },
+      "styles": {
+        "nativeInactive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "oursInactive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "nativeActive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(66, 62, 62)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "oursActive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(66, 62, 62)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        }
+      }
+    },
+    {
+      "width": 375,
+      "instagram": {
+        "top": 851.203125,
+        "bottom": 1114.984375,
+        "left": 0,
+        "right": 360
+      },
+      "contact": {
+        "top": 615.84375,
+        "bottom": 819.203125,
+        "left": 0,
+        "right": 360
+      },
+      "menu": {
+        "top": 1130.984375,
+        "bottom": 1186.984375,
+        "left": 0,
+        "right": 360
+      },
+      "instagramInFooter": true,
+      "instagramCount": 1,
+      "contactCount": 1,
+      "heading": "Sledujte nás na Instagrame",
+      "spacing": {
+        "left": 36,
+        "right": 36
+      },
+      "styles": {
+        "nativeInactive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "oursInactive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "nativeActive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(66, 62, 62)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "oursActive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(66, 62, 62)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        }
+      }
+    },
+    {
+      "width": 767,
+      "instagram": {
+        "top": 398.390625,
+        "bottom": 604.78125,
+        "left": 0,
+        "right": 752
+      },
+      "contact": {
+        "top": 163.03125,
+        "bottom": 366.390625,
+        "left": 0,
+        "right": 752
+      },
+      "menu": {
+        "top": 620.78125,
+        "bottom": 676.78125,
+        "left": 0,
+        "right": 752
+      },
+      "instagramInFooter": true,
+      "instagramCount": 1,
+      "contactCount": 1,
+      "heading": "Sledujte nás na Instagrame",
+      "spacing": {
+        "left": 36,
+        "right": 36
+      },
+      "styles": {
+        "nativeInactive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "oursInactive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "nativeActive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(66, 62, 62)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "oursActive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(66, 62, 62)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        }
+      }
+    },
+    {
+      "width": 768,
+      "instagram": {
+        "top": -95.6875,
+        "bottom": 123.078125,
+        "left": 0,
+        "right": 753
+      },
+      "contact": {
+        "top": 148.078125,
+        "bottom": 787.046875,
+        "left": 513.25,
+        "right": 725.34375
+      },
+      "menu": {
+        "top": 148.078125,
+        "bottom": 547.078125,
+        "left": 3,
+        "right": 258.125
+      },
+      "instagramInFooter": false,
+      "instagramCount": 1,
+      "contactCount": 1,
+      "heading": "Sledujte nás na Instagrame"
+    },
+    {
+      "width": 1024,
+      "instagram": {
+        "top": 153.578125,
+        "bottom": 372.34375,
+        "left": 0,
+        "right": 1009
+      },
+      "contact": {
+        "top": 397.34375,
+        "bottom": 806.34375,
+        "left": 697.5,
+        "right": 930.5
+      },
+      "menu": {
+        "top": 397.34375,
+        "bottom": 796.34375,
+        "left": 18.5,
+        "right": 244.796875
+      },
+      "instagramInFooter": false,
+      "instagramCount": 1,
+      "contactCount": 1,
+      "heading": "Sledujte nás na Instagrame"
+    },
+    {
+      "width": 1440,
+      "instagram": {
+        "top": 310.25,
+        "bottom": 529.015625,
+        "left": 0,
+        "right": 1425
+      },
+      "contact": {
+        "top": 554.015625,
+        "bottom": 805.984375,
+        "left": 1017,
+        "right": 1361.5
+      },
+      "menu": {
+        "top": 554.015625,
+        "bottom": 795.984375,
+        "left": 3.5,
+        "right": 341.296875
+      },
+      "instagramInFooter": false,
+      "instagramCount": 1,
+      "contactCount": 1,
+      "heading": "Sledujte nás na Instagrame"
+    },
+    {
+      "width": 375,
+      "instagram": {
+        "top": 2168.796875,
+        "bottom": 2432.578125,
+        "left": 0,
+        "right": 360
+      },
+      "contact": {
+        "top": 1933.4375,
+        "bottom": 2136.796875,
+        "left": 0,
+        "right": 360
+      },
+      "menu": {
+        "top": 2448.578125,
+        "bottom": 2504.578125,
+        "left": 0,
+        "right": 360
+      },
+      "instagramInFooter": true,
+      "instagramCount": 1,
+      "contactCount": 1,
+      "heading": "Sledujte nás na Instagrame",
+      "spacing": {
+        "left": 36,
+        "right": 36
+      },
+      "styles": {
+        "nativeInactive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "oursInactive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "nativeActive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(66, 62, 62)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        },
+        "oursActive": {
+          "width": "16px",
+          "height": "16px",
+          "background": "rgb(66, 62, 62)",
+          "shadow": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px",
+          "radius": "100%"
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "instagram": {
+        "top": 310.25,
+        "bottom": 529.015625,
+        "left": 0,
+        "right": 1425
+      },
+      "contact": {
+        "top": 554.015625,
+        "bottom": 805.984375,
+        "left": 1017,
+        "right": 1361.5
+      },
+      "menu": {
+        "top": 554.015625,
+        "bottom": 795.984375,
+        "left": 3.5,
+        "right": 341.296875
+      },
+      "instagramInFooter": false,
+      "instagramCount": 1,
+      "contactCount": 1,
+      "heading": "Sledujte nás na Instagrame"
+    }
+  ],
+  "errors": [
+    {
+      "excludedExternal": "https://scripts.luigisbox.tech/LBX-1266949.js"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+    },
+    {
+      "excludedExternal": "https://bat.bing.com/bat.js"
+    }
+  ]
+}
