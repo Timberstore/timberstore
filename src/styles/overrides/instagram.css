@@ -207,3 +207,15 @@
   .instagram-block .ts-instagram__arrow.ts-rail__prevEl { left: -12px; }
   .instagram-block .ts-instagram__arrow.ts-rail__nextEl { right: -12px; }
 }
+/* Desktop gallery spans the viewport; mobile keeps the accepted 2.5-photo rail. */
+@media (min-width: 768px) {
+  .instagram-block {
+    width: 100%;
+    max-width: none;
+    padding-inline: 24px;
+  }
+  .instagram-block .ts-instagram__slider,
+  .instagram-block .instagram-widget {
+    max-width: none;
+  }
+}

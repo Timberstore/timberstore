@@ -20,6 +20,7 @@ export const SEL = {
   footerPhone: '.tel a',
   footerFacebook: '.facebook a',
   footerInstagram: '.instagram a',
+  instagramNativeSlot: '.custom-footer__instagram',
   instagramPlacement: '.overall-wrapper',
   instagramChanges:
     '.instagram-block, .instagram-widget, .instagram-widget-item, .instagram-follow-btn',

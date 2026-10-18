@@ -13,3 +13,7 @@ export const CHECKOUT_CONTACT_FORM = 'https://www.timberstore.sk/kontakty/';
 
 // Public checkout support destination requested by the client.
 export const CHECKOUT_SUPPORT_EMAIL = 'info@timberstore.sk';
+
+// Public data only; production JavaScript/CSS remain pinned to immutable tags.
+export const INSTAGRAM_FEED =
+  'https://raw.githubusercontent.com/Timberstore/timberstore/main/data/instagram.json';

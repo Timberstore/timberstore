@@ -531,3 +531,14 @@
     font-size: 11px;
   }
 }
+
+/* Apollo keeps a hidden desktop cart link on mobile. Its absolutely positioned
+   sibling button must not paint a chevron outside that collapsed wrapper. */
+@media (max-width: 767px) {
+  .ts-cart-preview-toggle {
+    display: none;
+  }
+  .top-navigation-bar .responsive-tools .ts-cart-preview-toggle {
+    display: block;
+  }
+}

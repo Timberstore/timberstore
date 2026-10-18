@@ -1,5 +1,13 @@
 # Changelog
 
+## Rozpracované opravy nad v0.6.12 · 2026-10-18
+
+- Odstránená voľná mobilná šípka skrytého desktopového košíka; prázdny mobilný popup má oranžovú ikonu nad vycentrovaným textom.
+- Instagram bez potreby súhlasu: dynamicky obnovované verejné dáta s overenými Shoptet obrázkami a natívnymi permalinks, bez embed skriptov a bez zmeny cookies návštevníkov. PC galéria po celej šírke; mobil zostáva 2½ fotky.
+- Kontakt: aj PC hodiny prvé, širšie tlačidlo a sociálne siete vycentrované pod ním.
+- Bez nového release/tagu, bez prepnutia produkčného loadera. [Príčiny, kontrola a limity](docs/fixes/v0.6.12-cart-instagram/README.md).
+
+
 ## v0.6.12 · 2026-10-18 · FAQ, Instagram a pätička
 
 - Schválené večerné zmeny prenesené samostatne na main v0.6.11; rozpracovaný nový produktový detail a produktové informácie vylúčené.

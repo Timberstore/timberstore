@@ -173,13 +173,6 @@
     margin-bottom: var(--ts-space-3);
   }
 
-  #footer .ts-footer-contacts .contact-box > ul:first-of-type {
-    display: flex;
-    flex-direction: column;
-  }
-  #footer .ts-footer-contacts .contact-box > ul > .ts-footer-contacts__hours {
-    order: -1;
-  }
   #footer .custom-footer__contact.ts-footer-contacts .pageElement__heading {
     display: flex;
     align-items: center;
@@ -231,5 +224,27 @@
   }
   #footer .custom-footer .ts-footer-menu.is-active > .accordion__content {
     padding: 0 0 var(--ts-space-3);
+  }
+}
+
+/* Contact order is shared across desktop and mobile. */
+#footer .ts-footer-contacts .contact-box > ul:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+#footer .ts-footer-contacts .contact-box > ul > .ts-footer-contacts__hours {
+  order: -1;
+}
+@media (min-width: 768px) {
+  #footer .ts-footer-contacts .ts-footer-contacts__actions {
+    width: 100%;
+    max-width: 220px;
+    align-items: stretch;
+  }
+  #footer .ts-footer-contacts .ts-footer-contacts__actions > .btn {
+    width: 100%;
+  }
+  #footer .ts-footer-contacts .ts-footer-contacts__actions > .contact-box-icon-list {
+    justify-content: center;
   }
 }
