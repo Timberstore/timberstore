@@ -1,33 +1,65 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
-import { readWarehouseRows } from '../../core/warehouse-stock.js';
+import { readWarehouseRows, readWarehousePreview } from '../../core/warehouse-stock.js';
 
 let listening = false;
+let selectedScenario;
 
 function render() {
   const target = document.querySelector(SEL.detailAvailability);
   if (!target) return;
-  const rows = readWarehouseRows();
+  let preview = readWarehousePreview();
+  if (preview && selectedScenario) {
+    const options = new URL(window.location.href);
+    options.searchParams.set('ts_stock_demo', selectedScenario);
+    window.history.replaceState(null, '', options);
+    preview = readWarehousePreview();
+  }
+  const rows = preview ? preview.rows : readWarehouseRows();
   const previous = target.parentElement.querySelector('[data-ts-warehouse-availability]');
-  if (!rows) {
+  const restoreNative = () => {
     previous?.remove();
     target.classList.remove('ts-warehouse-availability__native--hidden');
-    return;
-  }
-  // Keep the shop's unit, including metres and sets; never assume pieces.
+  };
+  if (!rows) return restoreNative();
   const amount = target.querySelector(SEL.cartAvailabilityAmount)?.textContent || '';
   const unit = amount.match(/([\p{L}]+)\s*\)?\s*$/u)?.[1];
-  if (!unit) {
-    previous?.remove();
-    target.classList.remove('ts-warehouse-availability__native--hidden');
-    return;
-  }
-  const signature = JSON.stringify([rows, unit]);
+  if (!unit) return restoreNative();
+  const signature = JSON.stringify([rows, unit, preview?.scenario]);
   if (previous?.dataset.tsWarehouseAvailability === signature) return;
   const block = document.createElement('div');
   block.className = 'ts-warehouse-availability';
   block.dataset.tsWarehouseAvailability = signature;
+  block.setAttribute('aria-live', 'polite');
+  if (preview) {
+    const note = document.createElement('p');
+    note.textContent = TEXTS.warehouseAvailability.previewNotice;
+    block.append(note);
+    const label = document.createElement('label');
+    label.textContent = TEXTS.warehouseAvailability.previewLabel;
+    const select = document.createElement('select');
+    select.className = 'form-control';
+    for (const [value, text] of Object.entries(TEXTS.warehouseAvailability.scenarios)) {
+      const option = document.createElement('option');
+      option.value = value;
+      option.textContent = text;
+      option.selected = value === preview.scenario;
+      select.append(option);
+    }
+    select.addEventListener('change', () => {
+      selectedScenario = select.value;
+      render();
+      target.parentElement.querySelector('[data-ts-warehouse-availability] select')?.focus();
+    });
+    label.append(select);
+    block.append(label);
+  }
+  if (!rows.length) {
+    const unavailable = document.createElement('strong');
+    unavailable.textContent = TEXTS.warehouseAvailability.empty;
+    block.append(unavailable);
+  }
   for (const row of rows) {
     const line = document.createElement('div');
     line.className = `ts-warehouse-availability__row ts-warehouse-availability__row--${row.kind}`;
