@@ -469,3 +469,28 @@
     display: none;
   }
 }
+
+/* Empty mobile preview: same centered icon-above-message hierarchy as desktop.
+   Full-cart product rows keep their existing grid and native AJAX forms. */
+@media (max-width: 767px) {
+  #cart-widget .popup-widget-inner:not(.full) .cart-widget-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    width: 100%;
+    padding: 24px var(--ts-space-3);
+    text-align: center;
+  }
+  #cart-widget .popup-widget-inner:not(.full) .cart-widget-product::before {
+    position: static;
+    float: none;
+    display: block;
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    margin: 0 auto var(--ts-space-3);
+    color: var(--ts-color-accent);
+  }
+}

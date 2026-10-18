@@ -1,0 +1,186 @@
+[
+  {
+    "width": 1920,
+    "contentWidth": 1920,
+    "posts": 16,
+    "source": "public-data",
+    "stage": {
+      "x": 24,
+      "y": 348.75,
+      "width": 1857,
+      "height": 302.828125,
+      "top": 348.75,
+      "right": 1881,
+      "bottom": 651.578125,
+      "left": 24
+    },
+    "firstImage": {
+      "x": 25,
+      "y": 349.75,
+      "width": 300.828125,
+      "height": 300.828125,
+      "top": 349.75,
+      "right": 325.828125,
+      "bottom": 650.578125,
+      "left": 25
+    },
+    "styles": [
+      {
+        "html": "<img loading=\"lazy\" decoding=\"async\" height=\"400\" width=\"400\" alt=\"Dnešný tréning: kúpiť tyč, zavesiť bundu, hotovo 💪 Wireli sklopná šatníková tyč v čiernej farbe Rozmer: 600–830 × 140 ×...\" src=\"https://cdn.myshoptet.com/usr/www.timberstore.sk/user",
+        "css": [
+          [
+            "display",
+            "block"
+          ],
+          [
+            "visibility",
+            "visible"
+          ],
+          [
+            "opacity",
+            "1"
+          ],
+          [
+            "height",
+            "300.828px"
+          ],
+          [
+            "width",
+            "300.828px"
+          ],
+          [
+            "position",
+            "static"
+          ],
+          [
+            "transform",
+            "none"
+          ]
+        ]
+      },
+      {
+        "html": "<a href=\"https://www.instagram.com/p/DejWYYJDJmK/\" target=\"_blank\" rel=\"noopener noreferrer\"><img loading=\"lazy\" decoding=\"async\" height=\"400\" width=\"400\" alt=\"Dnešný tréning: kúpiť tyč, zavesiť bundu, hotovo 💪 Wireli sklopná šatníková tyč v čiernej",
+        "css": [
+          [
+            "display",
+            "block"
+          ],
+          [
+            "visibility",
+            "visible"
+          ],
+          [
+            "opacity",
+            "1"
+          ],
+          [
+            "height",
+            "300.828px"
+          ],
+          [
+            "width",
+            "300.828px"
+          ],
+          [
+            "position",
+            "relative"
+          ],
+          [
+            "transform",
+            "none"
+          ]
+        ]
+      },
+      {
+        "html": "<div class=\"instagram-widget-item swiper-slide swiper-slide-active\" style=\"width: 302.833px; margin-right: 8px;\"><a href=\"https://www.instagram.com/p/DejWYYJDJmK/\" target=\"_blank\" rel=\"noopener noreferrer\"><img loading=\"lazy\" decoding=\"async\" height=",
+        "css": [
+          [
+            "display",
+            "block"
+          ],
+          [
+            "visibility",
+            "visible"
+          ],
+          [
+            "opacity",
+            "1"
+          ],
+          [
+            "height",
+            "302.828px"
+          ],
+          [
+            "width",
+            "302.828px"
+          ],
+          [
+            "position",
+            "relative"
+          ],
+          [
+            "transform",
+            "none"
+          ]
+        ]
+      }
+    ],
+    "loaded": 658,
+    "dots": 0,
+    "contact": {
+      "hours": {
+        "x": 1307,
+        "y": 781.578125,
+        "width": 274.5,
+        "height": 32,
+        "top": 781.578125,
+        "right": 1581.5,
+        "bottom": 813.578125,
+        "left": 1307
+      },
+      "mail": {
+        "x": 1307,
+        "y": 813.578125,
+        "width": 172.515625,
+        "height": 33.984375,
+        "top": 813.578125,
+        "right": 1479.515625,
+        "bottom": 847.5625,
+        "left": 1307
+      },
+      "phone": {
+        "x": 1307,
+        "y": 847.5625,
+        "width": 156.765625,
+        "height": 33.984375,
+        "top": 847.5625,
+        "right": 1463.765625,
+        "bottom": 881.546875,
+        "left": 1307
+      },
+      "button": {
+        "x": 1307,
+        "y": 889.546875,
+        "width": 220,
+        "height": 40,
+        "top": 889.546875,
+        "right": 1527,
+        "bottom": 929.546875,
+        "left": 1307
+      },
+      "social": {
+        "x": 1307,
+        "y": 937.546875,
+        "width": 220,
+        "height": 36.796875,
+        "top": 937.546875,
+        "right": 1527,
+        "bottom": 974.34375,
+        "left": 1307
+      }
+    },
+    "overflow": false,
+    "choice": "none",
+    "errors": []
+  }
+]

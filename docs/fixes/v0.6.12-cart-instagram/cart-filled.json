@@ -1,0 +1,31 @@
+{
+  "resize": [
+    {
+      "width": 375,
+      "visibleArrows": 1
+    },
+    {
+      "width": 1440,
+      "visibleArrows": 1
+    },
+    {
+      "width": 375,
+      "visibleArrows": 1
+    },
+    {
+      "width": 430,
+      "visibleArrows": 1
+    },
+    {
+      "width": 768,
+      "visibleArrows": 1
+    },
+    {
+      "width": 320,
+      "visibleArrows": 1
+    }
+  ],
+  "popupNoNavigation": true,
+  "filledRowsGrid": true,
+  "cartLinkNavigates": true
+}

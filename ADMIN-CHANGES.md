@@ -37,3 +37,7 @@ Git tyto změny nevrátí — proto se vždy zapisuje i **původní stav**.
 - Klient schválil večerné úpravy a publikovanie do mainu bez nového produktového detailu. Nový release vychádza zo stabilnej v0.6.11.
 - Živý loader overený pred vydaním: `PROD = 'v0.6.11'`. Repo loader má pripravené `PROD = 'v0.6.12'`.
 - Agent nemá prístup do Shoptet administrácie; nejde o záznam vykonanej aktivácie. Po dostupnosti CDN klient v existujúcom loaderi zmení iba hodnotu PROD; [postup a rollback](docs/releases/v0.6.12.md).
+
+## 2026-10-18 · potvrdenie aktívnej v0.6.12
+
+Klient potvrdil aktiváciu buildu v0.6.12. Čistá mobilná relácia následne overila `Timber.version = v0.6.12` bez produktového preview. Následné opravy košíka/galérie/kontaktov sa pripravujú nad touto verziou bez prepisu tagu a bez nového release podľa zadania; nejde o ďalšiu aktiváciu v Shoptete.

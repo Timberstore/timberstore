@@ -1,8 +1,55 @@
 import { SEL } from '../../core/selectors.js';
 import { setupHorizontalSlider } from '../../core/horizontal-slider.js';
+import { INSTAGRAM_FEED } from '../../core/contacts.js';
 import { TEXTS } from '../../core/texts.js';
 
 let discoveryObserver;
+let feedRequest;
+
+function loadPublicFeed(block) {
+  if (feedRequest) return;
+  feedRequest = fetch(INSTAGRAM_FEED, { credentials: 'omit', referrerPolicy: 'no-referrer' })
+    .then((response) => {
+      if (!response.ok) throw new Error('Feed unavailable');
+      return response.json();
+    })
+    .then((data) => {
+      if (!block.isConnected || document.querySelector(SEL.instagramWidget)) return;
+      const posts = data.posts?.filter((post) => {
+        try {
+          const link = new URL(post.url);
+          const image = new URL(post.image);
+          return link.origin === 'https://www.instagram.com' && /^\/(p|reel)\//.test(link.pathname)
+            && image.origin === 'https://cdn.myshoptet.com'
+            && image.pathname.startsWith('/usr/www.timberstore.sk/user/system/instagram/');
+        } catch { return false; }
+      });
+      if (!posts || posts.length < 6) return;
+      const widget = document.createElement('div');
+      widget.className = 'instagram-widget';
+      for (const post of posts.slice(0, 40)) {
+        const item = document.createElement('div');
+        item.className = 'instagram-widget-item';
+        const link = document.createElement('a');
+        link.href = post.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        const image = document.createElement('img');
+        image.loading = 'lazy';
+        image.decoding = 'async';
+        image.width = image.height = 400;
+        image.alt = typeof post.alt === 'string' ? post.alt : '';
+        image.src = post.image;
+        link.append(image);
+        item.append(link);
+        widget.append(item);
+      }
+      block.append(widget);
+      block.dataset.tsFeedSource = 'public-data';
+      refresh();
+    })
+    .catch(() => { /* Keep the existing profile link and honest unavailable message. */ });
+}
 const placements = new WeakMap();
 const stacked = window.matchMedia('(max-width: 767px)');
 
@@ -92,6 +139,8 @@ function sync(block) {
 }
 
 function refresh() {
+  const nativeSlot = document.querySelector(SEL.instagramNativeSlot);
+  if (nativeSlot && !nativeSlot.querySelector(SEL.instagramWidget)) nativeSlot.hidden = true;
   let blocks = [...document.querySelectorAll(SEL.instagramBlock)];
   const real = blocks.filter((block) => !block.classList.contains('ts-instagram--fallback'));
   if (real.length) {
@@ -115,6 +164,7 @@ function refresh() {
   for (const block of blocks) {
     placeSection(block);
     sync(block);
+    if (!document.querySelector(SEL.instagramWidget)) loadPublicFeed(block);
   }
 }
 
@@ -125,6 +175,7 @@ export default {
     refresh();
     if (discoveryObserver) return;
     stacked.addEventListener('change', refresh);
+    window.addEventListener('load', refresh, { once: true });
     window.requestAnimationFrame(refresh);
     // Apollo moves the widget out of the footer. Observe relevant additions
     // anywhere on the page so consent/delayed insertion still works. Ignore
