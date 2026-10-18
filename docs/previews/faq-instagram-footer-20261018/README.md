@@ -58,3 +58,9 @@ The popular-links h4 was nested inside banner-wrapper/span. Apollo only prepares
 All three menu rows (information, online payments, popular links) have matching mobile padding/minimum height and no additional container margins. Styles are restricted below 768px. Contact and desktop styles are preserved; all desktop menu content stays visible. Five popular destinations remain unchanged.
 
 Lint/build/whitespace pass: CSS 23.22 KiB / 23.25 KiB, JS 29.34 KiB / 30 KiB. Live six-width Chromium assertions check equal closed spacing and arrows, native open/close and one-open group behavior, all five links, desktop visibility at/above 768px and no page overflow. Measurements: `footer-menu-responsive.json`.
+
+## Client follow-up — centered mobile contact
+
+Existing footer CSS now centers all contact contents below the native 768px stacked/mobile breakpoint: heading, email/phone links, hours and combined button/social row. Menu headings remain left-aligned with their native right-hand chevrons; desktop contact columns retain their prior alignment. No JS or link/availability changes.
+
+Lint/build/whitespace pass: CSS 23.25 KiB / 23.25 KiB, JS 29.34 KiB / 30 KiB. Live Chromium assertions measure centers of email, phone, hours and the action group within 1px of the contact box center on mobile, and check desktop alignment remains unchanged. Results: `footer-centered-responsive.json`.

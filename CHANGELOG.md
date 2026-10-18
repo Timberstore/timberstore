@@ -1,3 +1,8 @@
+## Preview follow-up · 2026-10-18 · centered mobile contact
+
+- Center the footer contact heading, email, phone, opening hours and combined button/social row in the native stacked layout below 768px. Desktop columns and mobile menu alignment are unchanged.
+- Lint/build/whitespace pass: CSS 23.25 KiB / 23.25, JS 29.34 KiB / 30. Preview only.
+
 ## Preview follow-up · 2026-10-18 · mobile footer menus
 
 - Promote the nested popular-links heading into Apollo's expected direct-child position so it uses the existing delegated accordion, matching information and payments. No duplicate toggle handler.
