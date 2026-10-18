@@ -1,3 +1,9 @@
+## Preview follow-up · 2026-10-18 · matching hours color and stacked contact actions
+
+- Set opening-hours text to the same footer contact color as email/phone. Center NAPÍŠTE NÁM on its own row, match its width to the rendered phone number and move social icons below. Keep availability indicator logic unchanged.
+- Change mobile Instagram hint from 3½ to 2½ photos, preserving swipe, small controls and wider breakpoints. Other rails unchanged.
+- Lint/build/whitespace pass: CSS 23.76 KiB / preview-only 24 KiB; JS 30.26 KiB / 30.5. Existing budget authorization recorded; stable releases and production unchanged.
+
 ## Preview follow-up · 2026-10-18 · Instagram swipe hint without dots
 
 - Remove Instagram dot pagination entirely. Mobile rail shows 3 full photos plus half the fourth, retaining native swipe and small 32px side arrows. Tablet keeps 3 full photos; wide desktop 6.

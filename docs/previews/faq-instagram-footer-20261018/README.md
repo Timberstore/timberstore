@@ -112,3 +112,13 @@ The existing shared rail controller receives an optional arrow mode rather than 
 Local native-feed fixture checks assert zero Instagram dot buttons, two small controls, three complete mobile photos and half the fourth, arrow movement in both directions, disabled end states, original post URLs and late/retina image-source hydration at six widths. Live Apollo regression checks native brand dots, spacing, footer section order, availability states, desktop restoration and no document overflow. The live anonymous response can omit the native Instagram feed; fixture checks do not claim live Instagram API availability. Results: `instagram-peek-regression.json`, `instagram-peek-live-regression.json`.
 
 Lint/build/whitespace pass: CSS 23.75 KiB / 23.75 KiB; JS 30.18 KiB / preview-only 30.5 KiB. The small JS increase follows the already recorded 15 October client authorization, applies only to the existing preview mode and leaves stable JS budgets at 30 KiB. No merge, release or production-loader change.
+
+## Client follow-up — hours color, separate button/social rows and 2½ Instagram photos
+
+Hours now explicitly use the same `--ts-color-controls-text` as the email/phone anchors. The shared orange/green availability dot is unaffected. Contact actions stack vertically: centered uppercase NAPÍŠTE NÁM button, then centered social icons. A footer-only ResizeObserver measures the actual rendered phone-number text (excluding its icon) and supplies that width to the button; existing minimum/maximum sizing and typography remain responsive as fonts/layout change.
+
+The Instagram mobile rail below 768px now fits two full images and half of the third with the existing 8px gaps. Tablet/desktop layouts, native source hydration, swipe and small side controls remain unchanged. Removed an obsolete service-arrow positioning rule; other rail behavior is retained.
+
+Live Chromium assertions across mobile/tablet/desktop widths check equal text colors, button width within 1px of number width, horizontal centering, social icons below the button, uppercase display and no clipped text. The existing native dot/footer order/status suite also passes. Local native-feed regression measures a half-visible third image and checks navigation, end states and source hydration. Results: `contact-stacked-actions.json`, `instagram-two-half.json`. The latter uses fixture feed media because anonymous live responses may omit the native feed.
+
+Lint/build/whitespace pass: CSS 23.76 KiB / preview-only 24 KiB; JS 30.26 KiB / 30.5 KiB. CSS allowance update follows the recorded 15 October client authorization and is isolated to the existing preview build mode; stable release limits and production loader remain unchanged.

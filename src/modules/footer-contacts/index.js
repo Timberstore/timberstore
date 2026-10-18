@@ -22,6 +22,7 @@ function icon(link, kind) {
 }
 
 const observed = new WeakSet();
+const sizedPhones = new WeakSet();
 
 function enhance(footer) {
   footer.classList.add('ts-footer-contacts');
@@ -36,6 +37,19 @@ function enhance(footer) {
     phone.href = 'tel:+421904479842';
     if (!phone.querySelector('.ts-footer-contacts__icon')) phone.textContent = TEXTS.footer.phone;
     icon(phone, 'phone');
+    if (!sizedPhones.has(phone)) {
+      sizedPhones.add(phone);
+      new ResizeObserver(() => {
+        const text = [...phone.childNodes].find(
+          (node) => node.nodeType === 3 && node.textContent.trim(),
+        );
+        if (!text) return;
+        const range = document.createRange();
+        range.selectNodeContents(text);
+        const width = range.getBoundingClientRect().width;
+        if (width) footer.style.setProperty('--ts-footer-phone-width', `${Math.ceil(width)}px`);
+      }).observe(phone);
+    }
   }
   for (const [selector, network] of [
     [SEL.footerFacebook, 'facebook'],

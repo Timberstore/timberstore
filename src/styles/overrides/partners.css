@@ -31,9 +31,6 @@
 
 /* One full-width service card on mobile; native desktop remains intact. */
 @media (max-width: 767px) {
-  .service-block .ts-service__slider {
-    position: relative;
-  }
   .service-block.services-more-then-two .ts-service__slider .service-group,
   .service-block .ts-service__slider .service-group {
     display: grid;

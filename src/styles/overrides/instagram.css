@@ -10,7 +10,7 @@
   display: grid;
   justify-content: start;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% - 3 * var(--ts-space-2)) / 3.5);
+  grid-auto-columns: calc((100% - 2 * var(--ts-space-2)) / 2.5);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;

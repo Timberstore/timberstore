@@ -96,6 +96,7 @@
   align-items: center;
   gap: var(--ts-space-2);
   padding: 0;
+  color: var(--ts-color-controls-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
@@ -146,7 +147,7 @@
 
 #footer .ts-footer-contacts .ts-footer-contacts__actions {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   gap: var(--ts-space-2);
   margin-top: var(--ts-space-2);
@@ -154,6 +155,10 @@
 #footer .ts-footer-contacts .ts-footer-contacts__actions > .btn {
   flex: 0 0 auto;
   justify-content: center;
+  width: var(--ts-footer-phone-width, 150px);
+  max-width: 100%;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 #footer .ts-footer-contacts .ts-footer-contacts__actions > .contact-box-icon-list {
   flex: 0 0 auto;
