@@ -84,6 +84,8 @@ function sync(block) {
     itemSelector: SEL.instagramItem,
     prefix: 'ts-instagram',
     arrows: true,
+    desktopPager: true,
+    pageLabel: TEXTS.instagram.page,
     previousLabel: TEXTS.instagram.previous,
     nextLabel: TEXTS.instagram.next,
   });
@@ -111,8 +113,8 @@ function refresh() {
     }
   }
   for (const block of blocks) {
-    sync(block);
     placeSection(block);
+    sync(block);
   }
 }
 

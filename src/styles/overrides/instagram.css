@@ -187,3 +187,23 @@
 .instagram-block .ts-instagram__arrow:focus-visible {
   outline: 2px solid var(--ts-color-action-hover);
 }
+
+@media (min-width: 768px) {
+  .instagram-block .ts-instagram__arrow {
+    top: calc((100% - 40px) / 2);
+    width: 50px;
+    height: 50px;
+    transition: background-color 250ms ease-out, color 250ms ease-out;
+  }
+  .instagram-block .ts-instagram__arrow:not(:disabled):not(.swiper-button-disabled):hover,
+  .instagram-block .ts-instagram__arrow:focus-visible {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  .instagram-block .ts-instagram__arrow.swiper-button-disabled {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+  .instagram-block .ts-instagram__arrow.ts-rail__prevEl { left: -12px; }
+  .instagram-block .ts-instagram__arrow.ts-rail__nextEl { right: -12px; }
+}

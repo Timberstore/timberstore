@@ -282,3 +282,5 @@ E-shop zůstává na Shoptetu. Na serveru běží **jen pomocné úlohy**: staho
 ### 5.4 Komunikace s klientem
 - **Měsíční souhrn slovensky** — lidsky psaný přehled z CHANGELOGu: co se změnilo, co to přináší, co má klient vyzkoušet. Slouží zároveň jako podklad k faktuře.
 - Stav jednotlivých úkolů klient vidí v Trellu.
+
+Preview follow-up 2026-10-18: native Apollo Swiper reuse for mobile service/brand release snapping and desktop Instagram pagination/hover requires a product-detail-only JS allowance of 30.6 KiB (actual 30.53 KiB). Existing authorization for requested preview changes applies; stable JS/CSS budgets are unchanged.

@@ -1,3 +1,4 @@
+<!-- Preview 2026-10-18: reuse native Apollo Swiper for mobile service/brand release snapping and desktop Instagram pagination; add template-style desktop arrow hover. Production unchanged. -->
 ## Preview follow-up · 2026-10-18 · matching hours color and stacked contact actions
 
 - Set opening-hours text to the same footer contact color as email/phone. Center NAPÍŠTE NÁM on its own row, match its width to the rendered phone number and move social icons below. Keep availability indicator logic unchanged.
