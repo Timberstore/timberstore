@@ -1,6 +1,9 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  serviceBlock: '.service-block',
+  serviceGroup: '.service-group',
+  serviceItem: '.service__item',
   partnersBlock: '.partners-block',
   partnersGroup: '.partners-group',
   partnersItem: '.partners__item',

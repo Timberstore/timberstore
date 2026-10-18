@@ -1,3 +1,9 @@
+## Preview follow-up · 2026-10-18 · full mobile service cards and Instagram separation
+
+- Extend the existing mobile rail adapter to SPAX/LED/switch service cards: one whole card at a time, arrows and native swipe, desktop markup restored on resize.
+- Give Instagram its own soft Timber service-color background with thin boundaries and generous internal padding. Match its sentence-case heading to the brands heading (26px mobile, 36px desktop, weight 700).
+- Lint/build pass within unchanged preview budgets: CSS 23.74 KiB / 23.75, JS 29.71 KiB / 30. No production deployment.
+
 ## Preview follow-up · 2026-10-18 · mobile contact order and brand slider
 
 - Mobile contact: hours before email/phone, action row last; matching thin dividers beside the centered contact heading. Desktop contact order unchanged.

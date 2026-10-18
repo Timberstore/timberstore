@@ -66,3 +66,66 @@
     cursor: default;
   }
 }
+
+/* One full-width service card on mobile; native desktop remains intact. */
+@media (max-width: 767px) {
+  .service-block .ts-service__slider {
+    position: relative;
+  }
+  .service-block.services-more-then-two .ts-service__slider .service-group,
+  .service-block .ts-service__slider .service-group {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    justify-content: start;
+    gap: var(--ts-space-3);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin: 0;
+    width: 100%;
+  }
+  .service-block .ts-service__slider .service-group::-webkit-scrollbar {
+    display: none;
+  }
+  .service-block .ts-service__slider .service-group .service__item:nth-child(n) {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    scroll-snap-align: start;
+  }
+  .service-block .ts-service__controls[hidden] {
+    display: none;
+  }
+  .service-block .ts-service__arrow {
+    position: absolute;
+    z-index: 2;
+    top: 48px;
+    width: 40px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid var(--ts-color-controls-border);
+    border-radius: var(--ts-radius-controls);
+    background: var(--ts-color-bg);
+    color: var(--ts-color-controls-text);
+    font: 32px/1 sans-serif;
+    cursor: pointer;
+  }
+  .service-block .ts-service__arrow:first-child {
+    left: var(--ts-space-2);
+  }
+  .service-block .ts-service__arrow:last-child {
+    right: var(--ts-space-2);
+  }
+  .service-block .ts-service__arrow:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+  .service-block .ts-service__arrow:hover:not(:disabled),
+  .service-block .ts-service__arrow:focus-visible {
+    border-color: var(--ts-color-accent);
+    color: var(--ts-color-action-hover);
+  }
+}

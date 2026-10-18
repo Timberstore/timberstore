@@ -1,5 +1,9 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  services: {
+    previous: 'Predchádzajúca ponuka',
+    next: 'Ďalšia ponuka',
+  },
   partners: {
     previous: 'Predchádzajúce značky',
     next: 'Ďalšie značky',
@@ -7,7 +11,7 @@ export const TEXTS = {
   instagram: {
     previous: 'Predchádzajúce Instagram príspevky',
     next: 'Ďalšie Instagram príspevky',
-    title: 'SLEDUJTE NÁS NA INSTAGRAME',
+    title: 'Sledujte nás na Instagrame',
     unavailable: 'Instagram galéria momentálne nie je dostupná. Príspevky nájdete na našom profile.',
   },
   footer: {
