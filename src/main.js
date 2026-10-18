@@ -1,3 +1,4 @@
+import warehouseAvailability from './modules/warehouse-availability/index.js';
 import './legacy/timber-menu-guard.js';
 import { start } from './core/index.js';
 import carouselSwipe from './modules/carousel-swipe/index.js';
@@ -24,6 +25,7 @@ import orderDetail from './modules/order-detail/index.js';
 // Register every module here. Order = init order.
 // qty-picker before cart-count: the badge goes into the button the qty field sits next to.
 start([
+  warehouseAvailability,
   headerServiceBar,
   cartPresentation,
   orderDetail,

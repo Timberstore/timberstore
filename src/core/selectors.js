@@ -145,6 +145,7 @@ export const SEL = {
   cartSpinner: '.overlay.spinner',
   cartBack: 'a.next-step-back:not(.colorbox-close)',
   detailSku: '[itemprop="sku"]',
+  detailAvailability: '.availability-value',
   detailStockAmount: '.availability-value .availability-amount',
   nativeQuantity: '.quantity',
   nativeQuantityButtons: '.increase, .decrease',
