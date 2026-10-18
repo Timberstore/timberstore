@@ -31,6 +31,7 @@
   min-width: 0;
   scroll-snap-align: start;
   border: 1px solid var(--ts-color-controls-border);
+  padding: var(--ts-space-1);
   border-radius: var(--ts-radius-controls);
   overflow: hidden;
   aspect-ratio: 1;
@@ -40,7 +41,8 @@
   display: block;
   padding: 0;
   height: 100%;
-  aspect-ratio: 1;
+  border-radius: calc(var(--ts-radius-controls) - var(--ts-space-1));
+  overflow: hidden;
 }
 .instagram-block .instagram-widget .instagram-widget-item > a img {
   position: static;

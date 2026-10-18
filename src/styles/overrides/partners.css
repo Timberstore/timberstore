@@ -94,3 +94,9 @@
     scroll-snap-type: none;
   }
 }
+
+/* Same subtle beige edge and inner strip as the Instagram photo cards. */
+.partners-block .partners__content {
+  border: 1px solid var(--ts-color-controls-border);
+  box-shadow: inset 0 0 0 var(--ts-space-1) var(--ts-color-service-bg);
+}
