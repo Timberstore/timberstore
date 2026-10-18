@@ -41,3 +41,9 @@ Git tyto změny nevrátí — proto se vždy zapisuje i **původní stav**.
 ## 2026-10-18 · potvrdenie aktívnej v0.6.12
 
 Klient potvrdil aktiváciu buildu v0.6.12. Čistá mobilná relácia následne overila `Timber.version = v0.6.12` bez produktového preview. Následné opravy košíka/galérie/kontaktov sa pripravujú nad touto verziou bez prepisu tagu a bez nového release podľa zadania; nejde o ďalšiu aktiváciu v Shoptete.
+
+## 2026-10-19 · v0.6.13 — loader pripravený, aktivácia v adminu nevykonaná
+
+- Klient schválil nové vydanie po zladení pozadia Instagramu s výrobným blokom. Zahŕňa všetky priebežne schválené opravy nad v0.6.12, bez rozpracovaného detailu produktu.
+- Repo loader pripravený na `PROD = 'v0.6.13'`. Agent nemá prístup do Shoptet administrácie; nejde o záznam vykonanej aktivácie.
+- Po overení CDN synchronizovať iba hodnotu PROD existujúceho Timber loadera; [postup a rollback](docs/releases/v0.6.13.md).

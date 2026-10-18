@@ -42,6 +42,7 @@
   --ts-color-muted: #666878; /* Shoptet's secondary text (e.g. back links) */
   --ts-color-price-secondary: #666878; /* AA contrast for small text on white */
   --ts-z-information-message: 10; /* Apollo's original information-toast priority */
+  --ts-color-editorial-bg: #f9efe6; /* Existing Overené reálnou výrobou panel. */
   --ts-color-service-bg: #f5f0e9;
   --ts-color-service-divider: #ded8d0;
   --ts-service-height: 36px;

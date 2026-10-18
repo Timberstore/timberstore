@@ -1,6 +1,9 @@
 # Changelog
 
-## Rozpracované opravy nad v0.6.12 · 2026-10-18
+## v0.6.13 · 2026-10-19 · Dokončenie homepage, Instagramu a kontaktov
+
+- Biely text aj v širokej oranžovej hlavičke FAQ, nielen v aktívnom tlačidle kategórie.
+- Pozadie celej Instagram sekcie zladené s blokom Overené reálnou výrobou (#F9EFE6), rámiky príspevkov zachované. Klient schválil vydanie; nový produktový detail vylúčený. [Súhrn, overenie a aktivácia](docs/releases/v0.6.13.md).
 
 - Instagram a značky majú zjednotený jemný béžový rámik s vnútorným pásikom v existujúcej farebnosti TimberStore.
 

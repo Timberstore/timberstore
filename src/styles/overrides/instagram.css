@@ -2,7 +2,7 @@
 .instagram-block {
   margin-top: var(--ts-space-section);
   padding: var(--ts-space-section) 20px;
-  background: var(--ts-color-service-bg);
+  background: var(--ts-color-editorial-bg);
   border-block: 1px solid var(--ts-color-service-divider);
 }
 .instagram-block .instagram-widget {

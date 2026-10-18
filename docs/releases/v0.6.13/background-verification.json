@@ -1,0 +1,22 @@
+[
+  {
+    "width": 1440,
+    "version": "v0.6.13",
+    "section": "rgb(249, 239, 230)",
+    "productionPanel": "rgb(249, 239, 230)",
+    "photoFrame": "rgb(245, 240, 233)",
+    "photoCount": 16,
+    "overflow": false,
+    "productPreview": false
+  },
+  {
+    "width": 375,
+    "version": "v0.6.13",
+    "section": "rgb(249, 239, 230)",
+    "productionPanel": "rgb(249, 239, 230)",
+    "photoFrame": "rgb(245, 240, 233)",
+    "photoCount": 16,
+    "overflow": false,
+    "productPreview": false
+  }
+]
