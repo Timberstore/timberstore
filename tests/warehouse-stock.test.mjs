@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { getWarehouseRows } from '../src/core/warehouse-stock.js';
+import { getWarehouseRows, getWarehousePreviewRows } from '../src/core/warehouse-stock.js';
 const fixture = (local, central) => ({
   stocks: [
     { id: 1, title: 'Dolný Hričov' },
@@ -54,4 +54,21 @@ test('missing, malformed, hidden or duplicate warehouses do not imply zero', () 
     mutate(d);
     assert.equal(getWarehouseRows(d), null);
   }
+});
+
+test('synthetic preview is unavailable outside preview mode', () => {
+  assert.equal(getWarehousePreviewRows('both', false), null);
+  assert.equal(getWarehousePreviewRows('unexpected', true), null);
+  assert.equal(getWarehousePreviewRows('__proto__', true), null);
+});
+test('preview supports all four warehouse scenarios', () => {
+  assert.deepEqual(getWarehousePreviewRows('both', true), [
+    { kind: 'local', quantity: '7' },
+    { kind: 'central', quantity: '140' },
+  ]);
+  assert.deepEqual(getWarehousePreviewRows('central', true), [
+    { kind: 'central', quantity: '140' },
+  ]);
+  assert.deepEqual(getWarehousePreviewRows('local', true), [{ kind: 'local', quantity: '7' }]);
+  assert.deepEqual(getWarehousePreviewRows('empty', true), []);
 });
