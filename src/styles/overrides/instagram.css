@@ -133,13 +133,13 @@
   }
 }
 
-/* Mobile order: contact, Instagram, then the existing footer menus. */
+/* Mobile order: Instagram, contact, then the existing footer menus. */
 @media (max-width: 767px) {
   #footer .custom-footer > .custom-footer__contact.ts-footer-contacts {
-    order: -2;
+    order: -1;
   }
   #footer .custom-footer > .instagram-block.ts-instagram--in-footer {
-    order: -1;
+    order: -2;
     flex: 0 0 100%;
     width: 100%;
     margin: var(--ts-space-3) 0;

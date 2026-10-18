@@ -65,8 +65,8 @@ function placeSection(block) {
       placements.set(block, marker);
     }
     block.classList.add('ts-instagram--in-footer');
-    if (block.parentElement !== footer || contact.nextElementSibling !== block)
-      contact.after(block);
+    if (block.parentElement !== footer || contact.previousElementSibling !== block)
+      contact.before(block);
   } else {
     const marker = placements.get(block);
     if (marker?.parentNode) marker.replaceWith(block);

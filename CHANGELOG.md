@@ -2,6 +2,8 @@
 
 ## Rozpracované opravy nad v0.6.12 · 2026-10-18
 
+- Následné zadanie: na mobile Instagram opäť nad kontaktom; zhodné vizuálne aj DOM poradie, desktop zachovaný.
+
 - Odstránená voľná mobilná šípka skrytého desktopového košíka; prázdny mobilný popup má oranžovú ikonu nad vycentrovaným textom.
 - Instagram bez potreby súhlasu: dynamicky obnovované verejné dáta s overenými Shoptet obrázkami a natívnymi permalinks, bez embed skriptov a bez zmeny cookies návštevníkov. PC galéria po celej šírke; mobil zostáva 2½ fotky.
 - Kontakt: aj PC hodiny prvé, širšie tlačidlo a sociálne siete vycentrované pod ním.
