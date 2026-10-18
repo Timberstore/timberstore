@@ -42,6 +42,7 @@ function render() {
     label.textContent = TEXTS.warehouseAvailability.previewLabel;
     const select = document.createElement('select');
     select.className = 'form-control';
+    select.setAttribute('aria-label', TEXTS.warehouseAvailability.previewLabel);
     for (const [value, text] of Object.entries(TEXTS.warehouseAvailability.scenarios)) {
       const option = document.createElement('option');
       option.value = value;
