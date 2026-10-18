@@ -164,3 +164,32 @@
   flex: 0 0 auto;
   clear: none;
 }
+
+/* All three mobile menus share the same native Apollo accordion rhythm. */
+@media (max-width: 767px) {
+  #footer .custom-footer .ts-footer-menu {
+    margin-block: 0;
+    padding-block: 0;
+  }
+  #footer .custom-footer .ts-footer-menu > .accordion__trigger {
+    display: flex;
+    align-items: center;
+    min-height: 56px;
+    margin: 0;
+    padding: var(--ts-space-3) 32px var(--ts-space-3) 0;
+    line-height: 1.4;
+  }
+  #footer .custom-footer .ts-footer-menu > .accordion__content {
+    margin: 0;
+  }
+  #footer .custom-footer .ts-footer-menu:not(.is-active) > .accordion__content {
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    padding: 0;
+  }
+  #footer .custom-footer .ts-footer-menu.is-active > .accordion__content {
+    padding: 0 0 var(--ts-space-3);
+  }
+}

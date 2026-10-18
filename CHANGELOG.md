@@ -1,3 +1,9 @@
+## Preview follow-up · 2026-10-18 · mobile footer menus
+
+- Promote the nested popular-links heading into Apollo's expected direct-child position so it uses the existing delegated accordion, matching information and payments. No duplicate toggle handler.
+- Unify the three mobile header rows and content spacing, scoped below 768px. Preserve all five popular links and desktop visibility.
+- Live Chromium checks passed at 320, 375, 767, 768, 1024 and 1440px: equal closed spacing, open/close and single-open native group behavior, desktop content visible, no document overflow. Lint/build pass (CSS 23.22 KiB / 23.25, JS 29.34 / 30). Preview only.
+
 ## Preview follow-up · 2026-10-18 · side arrows and regular contact text
 
 - Move Instagram navigation beside the image rail, vertically centered: 52px arrows on tablet/desktop, 44px on mobile. Preserve 6/3/2 visible posts, lazy source hydration and both navigation directions.

@@ -50,3 +50,11 @@ Build/lint passed: CSS 23.05 KiB / 23.25 KiB, JS 29.17 KiB / 30 KiB. Added CSS a
 Large arrows now sit outside the image rail on its left/right edges, centered vertically on the photographs. Grid shell keeps arrows within page bounds, including 320px phones. Desktop/tablet arrow diameter 52px, mobile 44px. Six/three/two visible posts and all supplied additional items remain accessible. Contact heading stays 700; contact email, phone, hours and button text are 400. The other footer column headings retain their existing bold style.
 
 Lint/build: CSS 23.13 KiB / 23.25; JS 29.19 KiB / 30. Six-width local slider checks assert side placement, vertical centers, arrow size, source loading, both directions and no document overflow. Live Apollo footer checks assert regular contact text, bold headings, preserved destinations and no horizontal overflow. Results: `side-arrows-verification.json`, `footer-normal-weight.json`.
+
+## Client follow-up — mobile popular-links accordion
+
+The popular-links h4 was nested inside banner-wrapper/span. Apollo only prepares direct h4 children of footer accordion sections, so it skipped this heading. The new small footer-menu adapter promotes the existing heading, reuses Apollo's trigger/content classes and delegated group handler, and handles initialization before or after Apollo. No independent toggle implementation or duplicated links.
+
+All three menu rows (information, online payments, popular links) have matching mobile padding/minimum height and no additional container margins. Styles are restricted below 768px. Contact and desktop styles are preserved; all desktop menu content stays visible. Five popular destinations remain unchanged.
+
+Lint/build/whitespace pass: CSS 23.22 KiB / 23.25 KiB, JS 29.34 KiB / 30 KiB. Live six-width Chromium assertions check equal closed spacing and arrows, native open/close and one-open group behavior, all five links, desktop visibility at/above 768px and no page overflow. Measurements: `footer-menu-responsive.json`.

@@ -1,0 +1,133 @@
+{
+  "scope": "Live Shoptet/Apollo with local preview assets; native delegated accordion handlers, fresh Chromium, cookies rejected.",
+  "results": [
+    {
+      "width": 320,
+      "mobile": true,
+      "measures": [
+        {
+          "text": "Informácie pre Vás",
+          "top": 8845.609375,
+          "height": 56,
+          "hidden": true,
+          "arrow": "\"\"",
+          "padding": "0px"
+        },
+        {
+          "text": "Prijímame online platby",
+          "top": 8901.609375,
+          "height": 56,
+          "hidden": true,
+          "arrow": "\"\"",
+          "padding": "0px"
+        },
+        {
+          "text": "Najvyhľadávanejšie",
+          "top": 8957.609375,
+          "height": 56,
+          "hidden": true,
+          "arrow": "\"\"",
+          "padding": "0px"
+        }
+      ],
+      "nativeOpenClose": true,
+      "onlyOneOpen": true,
+      "popularLinks": 5
+    },
+    {
+      "width": 375,
+      "mobile": true,
+      "measures": [
+        {
+          "text": "Informácie pre Vás",
+          "top": 545.234375,
+          "height": 56,
+          "hidden": true,
+          "arrow": "\"\"",
+          "padding": "0px"
+        },
+        {
+          "text": "Prijímame online platby",
+          "top": 601.234375,
+          "height": 56,
+          "hidden": true,
+          "arrow": "\"\"",
+          "padding": "0px"
+        },
+        {
+          "text": "Najvyhľadávanejšie",
+          "top": 657.234375,
+          "height": 56,
+          "hidden": true,
+          "arrow": "\"\"",
+          "padding": "0px"
+        }
+      ],
+      "nativeOpenClose": true,
+      "onlyOneOpen": true,
+      "popularLinks": 5
+    },
+    {
+      "width": 767,
+      "mobile": true,
+      "measures": [
+        {
+          "text": "Informácie pre Vás",
+          "top": 620.5625,
+          "height": 56,
+          "hidden": true,
+          "arrow": "\"\"",
+          "padding": "0px"
+        },
+        {
+          "text": "Prijímame online platby",
+          "top": 676.5625,
+          "height": 56,
+          "hidden": true,
+          "arrow": "\"\"",
+          "padding": "0px"
+        },
+        {
+          "text": "Najvyhľadávanejšie",
+          "top": 732.5625,
+          "height": 56,
+          "hidden": true,
+          "arrow": "\"\"",
+          "padding": "0px"
+        }
+      ],
+      "nativeOpenClose": true,
+      "onlyOneOpen": true,
+      "popularLinks": 5
+    },
+    {
+      "width": 768,
+      "mobile": false,
+      "allContentVisible": true
+    },
+    {
+      "width": 1024,
+      "mobile": false,
+      "allContentVisible": true
+    },
+    {
+      "width": 1440,
+      "mobile": false,
+      "allContentVisible": true
+    }
+  ],
+  "errors": [
+    {
+      "excludedExternal": "https://scripts.luigisbox.tech/LBX-1266949.js"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+    },
+    {
+      "excludedExternal": "https://bat.bing.com/bat.js"
+    }
+  ]
+}

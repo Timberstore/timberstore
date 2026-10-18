@@ -1,6 +1,9 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  footerMenus:
+    '#footer .custom-footer__articles, #footer .custom-footer__onlinePayments, #footer .custom-footer__banner7',
+  footerPopular: '#footer .custom-footer__banner7',
   footerContacts: '.custom-footer__contact',
   footerForm: 'a.btn[href="/kontakty"]',
   footerSocialList: '.contact-box-icon-list',
@@ -10,7 +13,8 @@ export const SEL = {
   footerFacebook: '.facebook a',
   footerInstagram: '.instagram a',
   instagramPlacement: '.overall-wrapper',
-  instagramChanges: '.instagram-block, .instagram-widget, .instagram-widget-item, .instagram-follow-btn',
+  instagramChanges:
+    '.instagram-block, .instagram-widget, .instagram-widget-item, .instagram-follow-btn',
   instagramBlock: '.instagram-block',
   instagramWidget: '.instagram-widget',
   instagramImage: '.instagram-widget-item img',
