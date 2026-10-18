@@ -48,3 +48,26 @@ export function readWarehouseRows() {
     return null;
   }
 }
+
+// Synthetic scenarios are opt-in, restricted to the existing preview loader.
+// These values are fixtures, never shop inventory or a product-specific override.
+export const WAREHOUSE_PREVIEW_CASES = {
+  both: { local: 7, central: 140 },
+  central: { local: 0, central: 140 },
+  local: { local: 7, central: 0 },
+  empty: { local: 0, central: 0 },
+};
+
+export function getWarehousePreviewRows(scenario, previewEnabled) {
+  if (!previewEnabled || !Object.prototype.hasOwnProperty.call(WAREHOUSE_PREVIEW_CASES, scenario))
+    return null;
+  return Object.entries(WAREHOUSE_PREVIEW_CASES[scenario])
+    .filter(([, quantity]) => quantity > 0)
+    .map(([kind, quantity]) => ({ kind, quantity: String(quantity) }));
+}
+
+export function readWarehousePreview() {
+  const scenario = new URLSearchParams(window.location.search).get('ts_stock_demo');
+  const rows = getWarehousePreviewRows(scenario, window.TimberLoader?.preview === true);
+  return rows ? { scenario, rows } : null;
+}
