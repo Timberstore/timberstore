@@ -1,3 +1,10 @@
+## Preview follow-up · 2026-10-18 · Instagram slider and footer actions
+
+- Fix blank native feed cards: promote Shoptet data-src/data-src-retina before setting loading=lazy, and handle delayed source attributes. Previously our loading attribute could exclude the image from Shoptet img:not([loading]) unveil processing.
+- Retain all supplied posts in a horizontally scrollable, snap-aligned slider: 6 visible on wide desktop, 3 on tablet, 2 on mobile. Previous/next buttons and native touch scrolling; no fabricated feed data.
+- Reuse native Apollo button shape, rename contact form to Napíšte nám, group it with social links on one flex row, and match hours typography to email/phone.
+- Preview only. CSS 23.05 KiB / 23.25 (existing authorization recorded in CONTRIBUTING); JS 29.17 KiB / 30. No production loader, merge or release.
+
 ## Preview follow-up · 2026-10-18 · compact footer
 
 - Reduce contact rows to 32px, social marks to 26px and remove excess row/hour/button margins. Align footer column headings with matching 700 weight, including information, payments and popular links. Restore white contact-form button text in normal/hover/focus states.

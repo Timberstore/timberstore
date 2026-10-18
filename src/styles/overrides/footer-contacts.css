@@ -95,7 +95,9 @@
   align-items: center;
   gap: var(--ts-space-2);
   padding: 0;
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
   white-space: normal;
 }
 #footer .ts-footer-contacts .ts-footer-contacts__hours .ts-service-bar__hours::before {
@@ -116,8 +118,9 @@
   display: inline-flex;
   align-items: center;
   min-height: 40px;
-  margin-top: var(--ts-space-2);
-  border-radius: var(--ts-radius-controls);
+  margin: 0;
+  min-width: 0;
+  padding-inline: var(--ts-space-3);
   background: var(--ts-color-accent);
   border-color: var(--ts-color-accent);
   color: var(--ts-color-bg);
@@ -133,7 +136,7 @@
 #footer .ts-footer-contacts .contact-box-icon-list {
   display: flex;
   gap: var(--ts-space-2);
-  margin-block: var(--ts-space-1);
+  margin: 0;
   align-items: center;
 }
 #footer .ts-footer-contacts .contact-box-icon-list > li {
@@ -144,4 +147,20 @@
 #footer .ts-footer-contacts .contact-box-icon-list .ts-footer-contacts__social {
   width: 32px;
   height: 32px;
+}
+
+#footer .ts-footer-contacts .ts-footer-contacts__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ts-space-2);
+  margin-top: var(--ts-space-2);
+}
+#footer .ts-footer-contacts .ts-footer-contacts__actions > .btn {
+  flex: 0 0 auto;
+  justify-content: center;
+}
+#footer .ts-footer-contacts .ts-footer-contacts__actions > .contact-box-icon-list {
+  flex: 0 0 auto;
+  clear: none;
 }

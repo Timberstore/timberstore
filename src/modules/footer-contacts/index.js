@@ -57,6 +57,21 @@ function enhance(footer) {
     if (row) row.after(hours);
     else box.append(hours);
   }
+  if (box) {
+    const button = box.querySelector(SEL.footerForm);
+    const socials = box.querySelector(SEL.footerSocialList);
+    if (button) {
+      if (button.textContent !== TEXTS.footer.writeUs) button.textContent = TEXTS.footer.writeUs;
+      let actions = box.querySelector('.ts-footer-contacts__actions');
+      if (!actions) {
+        actions = document.createElement('div');
+        actions.className = 'ts-footer-contacts__actions';
+        box.append(actions);
+      }
+      if (button.parentElement !== actions) actions.prepend(button);
+      if (socials && socials.parentElement !== actions) actions.append(socials);
+    }
+  }
   // Shared header timer updates both header and footer, using Bratislava time.
   updateHours();
 }

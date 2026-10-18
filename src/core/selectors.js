@@ -2,6 +2,8 @@
 // When the template changes, fix it here.
 export const SEL = {
   footerContacts: '.custom-footer__contact',
+  footerForm: 'a.btn[href="/kontakty"]',
+  footerSocialList: '.contact-box-icon-list',
   footerContactBox: '.contact-box',
   footerEmail: '.mail a',
   footerPhone: '.tel a',
@@ -11,6 +13,7 @@ export const SEL = {
   instagramChanges: '.instagram-block, .instagram-widget, .instagram-widget-item, .instagram-follow-btn',
   instagramBlock: '.instagram-block',
   instagramWidget: '.instagram-widget',
+  instagramImage: '.instagram-widget-item img',
   instagramItem: '.instagram-widget-item',
   instagramFollow: '.instagram-follow-btn',
 

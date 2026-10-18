@@ -6,7 +6,12 @@
 .instagram-block .instagram-widget {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: start;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - var(--ts-space-3)) / 2);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
   gap: var(--ts-space-3);
   width: 100%;
   max-width: 1378px;
@@ -17,18 +22,17 @@
 .instagram-block .instagram-widget::after {
   display: none;
 }
-.instagram-block .instagram-widget .instagram-widget-item {
+/* Override Apollo's historical nth-child cap; retain every supplied post. */
+.instagram-block .instagram-widget .instagram-widget-item:nth-child(n) {
+  display: block;
   width: auto;
   min-width: 0;
+  scroll-snap-align: start;
   border: 1px solid var(--ts-color-controls-border);
   border-radius: var(--ts-radius-controls);
   overflow: hidden;
   aspect-ratio: 1;
   background: var(--ts-color-service-bg);
-}
-.instagram-block .instagram-widget .instagram-widget-item[hidden],
-.instagram-block .instagram-widget .instagram-widget-item:nth-child(n + 7) {
-  display: none;
 }
 .instagram-block .instagram-widget .instagram-widget-item > a {
   display: block;
@@ -98,16 +102,48 @@
 }
 @media (min-width: 768px) {
   .instagram-block .instagram-widget {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-columns: calc((100% - 2 * var(--ts-space-3)) / 3);
   }
 }
 @media (min-width: 1200px) {
   .instagram-block .instagram-widget {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-auto-columns: calc((100% - 5 * var(--ts-space-3)) / 6);
   }
 }
 @media (prefers-reduced-motion: reduce) {
   .instagram-block .instagram-widget .instagram-widget-item > a img {
     transition: none;
   }
+}
+
+.instagram-block .instagram-widget::-webkit-scrollbar {
+  display: none;
+}
+.instagram-block .ts-instagram__controls {
+  display: flex;
+  justify-content: center;
+  gap: var(--ts-space-2);
+  margin-top: var(--ts-space-3);
+}
+.instagram-block .ts-instagram__controls[hidden] {
+  display: none;
+}
+.instagram-block .ts-instagram__arrow {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--ts-color-controls-border);
+  border-radius: 50%;
+  background: var(--ts-color-bg);
+  color: var(--ts-color-controls-text);
+  font: 24px/1 sans-serif;
+  cursor: pointer;
+}
+.instagram-block .ts-instagram__arrow:hover:not(:disabled),
+.instagram-block .ts-instagram__arrow:focus-visible {
+  border-color: var(--ts-color-accent);
+  color: var(--ts-color-action-hover);
+}
+.instagram-block .ts-instagram__arrow:disabled {
+  opacity: 0.35;
+  cursor: default;
 }

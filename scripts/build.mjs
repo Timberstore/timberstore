@@ -36,7 +36,7 @@ const cssBudgetKiB = ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
                 : 15;
 const BUDGET = {
   'dist/timber.min.js': 30 * 1024,
-  'dist/timber.min.css': (productDetailPreview ? 23 : cssBudgetKiB) * 1024,
+  'dist/timber.min.css': (productDetailPreview ? 23.25 : cssBudgetKiB) * 1024,
 };
 
 const common = {

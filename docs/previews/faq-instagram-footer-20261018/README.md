@@ -34,3 +34,13 @@ Pending: restore/verify actual Instagram feed and each of its six post destinati
 18 October follow-up: contact rows reduced from 44px plus margins to 32px without extra row margins; contact icons 20px, social marks 26px (previously 36px), social links 32px, button top gap 8px. Hours text aligns with the email/phone text, with the availability dot after the hours. Contact button foreground is white in normal, hover and focus states. All four existing column headings use weight 700 and matching lower spacing. FAQ, Instagram, header/cart/product behavior remain unchanged. Changes edit the existing footer CSS owner rather than adding another override layer.
 
 Lint/build and whitespace checks pass; CSS 22.87 KiB / 23 KiB, JS 28.63 KiB / 30 KiB. Live Chromium responsive verification also checks computed white button text, 26px social marks, 32px rows and all four 700-weight headings. Full measurements: `footer-compact-responsive.json`.
+
+## Client follow-up — slider, blank images and contact actions
+
+The new requirement supersedes the earlier six-item cap: retain every post delivered by the native feed; show 6 at a time from 1200px, 3 at tablet widths, 2 on mobile. Native horizontal overflow/scroll snap supports touch, and previous/next buttons scroll one card with disabled states at the ends. Respect reduced motion. No feed URLs or ordering are fabricated.
+
+Root cause of blank cards identified in our previous code: assigning `loading=lazy` before the Shoptet unveil routine (`img:not([loading])`) could prevent its data-src/data-src-retina source promotion. Fix resolves only the native source supplied on each feed image before assigning lazy loading. Delayed source attributes are observed as well. This is a code-ordering defect, not something reliably solved by clearing cache. Native feed absence and image hydration are separate: during the live browser check the server still supplied zero native posts, so real post-media delivery cannot be claimed from that session; the lazy-source regression and slider are tested with explicit local fixtures.
+
+Footer: native Apollo 25px button radius, existing /kontakty destination, Slovak Napíšte nám label, white foreground, button before social links in a compact flex row. Hours now use the same 16px/600/1.4 typography as mail/phone. No new availability rules.
+
+Build/lint passed: CSS 23.05 KiB / 23.25 KiB, JS 29.17 KiB / 30 KiB. Added CSS allowance applies only to the existing preview build mode, per previously recorded client authorization; production budgets remain unchanged. Live six-width footer checks and local data-src/slider results accompany this report.

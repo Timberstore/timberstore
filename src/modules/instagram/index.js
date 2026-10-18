@@ -2,6 +2,52 @@ import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 
 let discoveryObserver;
+const sliders = new WeakMap();
+
+function setupSlider(block) {
+  const widget = block.querySelector(SEL.instagramWidget);
+  if (!widget) return;
+  const existing = sliders.get(widget);
+  if (existing) {
+    existing();
+    return;
+  }
+  const controls = document.createElement('div');
+  controls.className = 'ts-instagram__controls';
+  const previous = document.createElement('button');
+  const next = document.createElement('button');
+  for (const [button, label, symbol, direction] of [
+    [previous, TEXTS.instagram.previous, '‹', -1],
+    [next, TEXTS.instagram.next, '›', 1],
+  ]) {
+    button.type = 'button';
+    button.className = 'ts-instagram__arrow';
+    button.setAttribute('aria-label', label);
+    button.textContent = symbol;
+    button.addEventListener('click', () => {
+      const item = widget.querySelector(SEL.instagramItem);
+      const step =
+        (item?.getBoundingClientRect().width || widget.clientWidth) +
+        parseFloat(getComputedStyle(widget).columnGap || 0);
+      widget.scrollBy({
+        left: direction * step,
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      });
+    });
+    controls.append(button);
+  }
+  block.append(controls);
+  const update = () => {
+    const max = Math.max(0, widget.scrollWidth - widget.clientWidth);
+    previous.disabled = widget.scrollLeft <= 1;
+    next.disabled = widget.scrollLeft >= max - 1;
+    controls.hidden = max <= 1;
+  };
+  widget.addEventListener('scroll', update, { passive: true });
+  new ResizeObserver(update).observe(widget);
+  sliders.set(widget, update);
+  update();
+}
 
 function sync(block) {
   let heading = block.querySelector('.ts-instagram__heading');
@@ -29,11 +75,16 @@ function sync(block) {
   if (wrapper && wrapper !== follow && !heading?.contains(wrapper)) wrapper.remove();
   if (heading && follow && !heading.contains(follow)) follow.remove();
   const items = [...block.querySelectorAll(SEL.instagramItem)];
-  for (const [index, item] of items.entries()) {
-    item.hidden = index >= 6;
+  for (const item of items) {
+    item.hidden = false;
     // Keep native media URLs and post permalinks, including their feed order.
     const img = item.querySelector('img');
     if (img) {
+      // Shoptet unveil selects img:not([loading]). Setting loading first
+      // used to skip its data-src -> src promotion, leaving empty cards.
+      // Resolve only this native image's supplied source before lazy loading.
+      const source = (window.devicePixelRatio > 1 && img.dataset.srcRetina) || img.dataset.src;
+      if (source && img.getAttribute('src') !== source) img.setAttribute('src', source);
       img.loading = 'lazy';
       img.decoding = 'async';
       img.width = 400;
@@ -48,7 +99,8 @@ function sync(block) {
     block.append(empty);
   }
   empty.hidden = items.length > 0;
-  block.dataset.tsFeedCount = String(Math.min(6, items.length));
+  block.dataset.tsFeedCount = String(items.length);
+  setupSlider(block);
 }
 
 function refresh() {
@@ -82,14 +134,21 @@ export default {
     // unrelated mutations; one observer and no polling or extra feed requests.
     discoveryObserver = new MutationObserver((records) => {
       const relevant = records.some((record) =>
-        [...record.addedNodes, ...record.removedNodes].some(
-          (node) =>
-            node.nodeType === 1 &&
-            (node.matches(SEL.instagramChanges) || node.querySelector(SEL.instagramChanges)),
-        ),
+        record.type === 'attributes'
+          ? record.target.matches(SEL.instagramImage)
+          : [...record.addedNodes, ...record.removedNodes].some(
+              (node) =>
+                node.nodeType === 1 &&
+                (node.matches(SEL.instagramChanges) || node.querySelector(SEL.instagramChanges)),
+            ),
       );
       if (relevant) refresh();
     });
-    discoveryObserver.observe(document.body, { childList: true, subtree: true });
+    discoveryObserver.observe(document.body, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['data-src', 'data-src-retina'],
+    });
   },
 };
