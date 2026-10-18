@@ -1,5 +1,11 @@
 # Changelog
 
+## Nevydané · izolovaný warehouse-stock preview
+
+- Spoločná skladová vrstva pre detail, varianty a produktové karty; presné SKU, dávkovanie, expirácia a bezpečný návrat k Shoptetu.
+- Pripravený serverový read-only API adaptér bez tokenov a bez nasadenia. Verejný zdroj poskytuje len `ext`; reálne rozdelenie Hričov/CSNK zatiaľ neoverené.
+- Bez merge/release, bez produktového redizajnu a bez zmeny produkčného loadera. [Analýza, testy a kroky pripojenia](docs/previews/warehouse-stock-20261019/README.md).
+
 ## v0.6.13 · 2026-10-19 · Dokončenie homepage, Instagramu a kontaktov
 
 - Biely text aj v širokej oranžovej hlavičke FAQ, nielen v aktívnom tlačidle kategórie.

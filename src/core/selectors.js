@@ -1,6 +1,17 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  warehouseDetailRoot: '.p-detail',
+  warehouseDetailHost: '.availability-value',
+  warehouseDetailForm: '#product-detail-form',
+  warehouseNativeDetail: '.availability-label, .availability-amount',
+  warehouseCards: '.p[data-micro="product"], .product[data-micro="product"]',
+  warehouseCardHost: '.availability',
+  warehouseCardCode: '[data-micro="sku"]',
+  warehouseNativeCard: ':scope > span',
+  warehouseUnit: '[data-variant-unit]',
+  warehouseNewContent: '.p[data-micro="product"], .product[data-micro="product"], .availability-value',
+
   apolloReady: 'body.after-load',
   footerColumns: '#footer .custom-footer',
   serviceBlock: '.service-block',

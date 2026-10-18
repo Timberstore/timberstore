@@ -1,0 +1,5 @@
+/* Only verified per-warehouse quantities replace the original status text.
+   !important beats native inline variant visibility without changing its hooks. */
+.ts-warehouse-host--known .ts-warehouse-original {
+  display: none !important;
+}

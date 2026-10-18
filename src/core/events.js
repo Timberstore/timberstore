@@ -8,6 +8,11 @@ export const SHOPTET_EVENTS = {
   cartUpdated: 'ShoptetCartUpdated',
   // Emitted after the cart wrapper is replaced, including rejected quantities.
   cartContentLoaded: 'ShoptetDOMCartContentLoaded',
+  variantAvailable: 'ShoptetVariantAvailable',
+  variantUnavailable: 'ShoptetVariantUnavailable',
+  variantSimple: 'ShoptetSimpleVariantChange',
+  variantSplit: 'ShoptetSplitVariantParameterChange',
+  variantReset: 'ShoptetSelectedParametersReset',
   dataLayerUpdated: 'ShoptetDataLayerUpdated',
   orderDataLoaded: 'OrderWithdrawDataLoaded',
 };

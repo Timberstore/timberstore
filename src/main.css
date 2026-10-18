@@ -7,6 +7,7 @@
 /* Modules */
 @import './modules/carousel-swipe/carousel-swipe.css';
 @import './modules/gallery-swipe/gallery-swipe.css';
+@import './modules/warehouse-stock/warehouse-stock.css';
 @import './modules/list-view/list-view.css';
 @import './modules/qty-picker/qty-picker.css';
 @import './modules/cart-count/cart-count.css';
@@ -28,6 +29,7 @@
 @import './styles/overrides/filters.css';
 @import './styles/overrides/mobile-category-controls.css';
 @import './styles/overrides/product-card.css';
+@import './styles/overrides/warehouse-stock.css';
 @import './styles/overrides/product-detail.css';
 @import './styles/overrides/checkout.css';
 @import './styles/overrides/cart-modal.css';

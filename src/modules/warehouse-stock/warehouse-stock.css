@@ -1,0 +1,30 @@
+.ts-warehouse-stock {
+  display: grid;
+  gap: var(--ts-space-1);
+  max-width: 100%;
+  font-size: var(--ts-stock-font-size, 14px);
+  line-height: 1.4;
+  text-align: left;
+  text-transform: none;
+  color: var(--ts-color-controls-text);
+}
+.ts-warehouse-stock[hidden] {
+  display: none;
+}
+.ts-warehouse-stock__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px;
+}
+.ts-warehouse-stock__row + .ts-warehouse-stock__row {
+  border-top: 1px solid var(--ts-color-controls-border);
+  padding-top: var(--ts-space-1);
+}
+.ts-warehouse-stock__label {
+  font-weight: 600;
+}
+.ts-warehouse-stock__amount {
+  font-weight: 700;
+  white-space: nowrap;
+}

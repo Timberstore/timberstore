@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "lint": "eslint --no-error-on-unmatched-pattern src shared scripts",
+    "test:warehouse": "node --test tests/warehouse-stock/*.test.js",
+    "lint": "eslint --no-error-on-unmatched-pattern src shared scripts backend/warehouse-stock tests/warehouse-stock/*.test.js",
     "format": "prettier --write .",
     "release": "npm version minor",
     "release:patch": "npm version patch",

@@ -1,0 +1,131 @@
+{
+  "status": "preview-ready; real warehouse quantities NOT verified",
+  "dateUTC": "2026-10-18",
+  "unitContracts": {
+    "command": "npm run test:warehouse",
+    "passed": 19,
+    "failed": 0
+  },
+  "lint": {
+    "command": "npm run lint",
+    "passed": true
+  },
+  "build": {
+    "preview": {
+      "command": "TIMBER_PREVIEW=warehouse-stock npm run build",
+      "jsGzipKiB": 32.78,
+      "cssGzipKiB": 23.17,
+      "jsLimitKiB": 33,
+      "cssLimitKiB": 23.5,
+      "endpointConfigured": false,
+      "nativeSemanticsVerified": false
+    },
+    "stableGuard": {
+      "command": "npm run build",
+      "passed": true,
+      "jsGzipKiB": 29.72,
+      "cssGzipKiB": 23.17,
+      "warehouseModuleExcludedFromJS": true,
+      "notPublished": true
+    }
+  },
+  "publicPageBrowserChecks": [
+    {
+      "type": "real-public-data",
+      "width": 320,
+      "overflow": false,
+      "status": {
+        "state": "unknown",
+        "reason": "required-warehouses-not-exposed"
+      },
+      "native": "CENTRÁLNY SKLAD (23 SADA)",
+      "rows": true,
+      "price": "324,35 € / sada\n263,70 € bez DPH\nJednotková cena:",
+      "form": true
+    },
+    {
+      "type": "real-public-data",
+      "width": 375,
+      "overflow": false,
+      "status": {
+        "state": "unknown",
+        "reason": "required-warehouses-not-exposed"
+      },
+      "native": "CENTRÁLNY SKLAD (23 SADA)",
+      "rows": true,
+      "price": "324,35 € / sada\n263,70 € bez DPH\nJednotková cena:",
+      "form": true
+    },
+    {
+      "type": "real-public-data",
+      "width": 768,
+      "overflow": false,
+      "status": {
+        "state": "unknown",
+        "reason": "required-warehouses-not-exposed"
+      },
+      "native": "CENTRÁLNY SKLAD (23 SADA)",
+      "rows": true,
+      "price": "324,35 € / sada\n263,70 € bez DPH\nJednotková cena:",
+      "form": true
+    },
+    {
+      "type": "real-public-data",
+      "width": 1444,
+      "overflow": false,
+      "status": {
+        "state": "unknown",
+        "reason": "required-warehouses-not-exposed"
+      },
+      "native": "CENTRÁLNY SKLAD (23 SADA)",
+      "rows": true,
+      "price": "324,35 € / sada\n263,70 € bez DPH\nJednotková cena:",
+      "form": true
+    },
+    {
+      "type": "real-grid",
+      "cards": 40,
+      "shown": 0
+    },
+    {
+      "type": "real-list",
+      "shown": 0
+    },
+    {
+      "type": "MODELED-ONLY",
+      "checks": [
+        "late response ignored",
+        "selected variant exact",
+        "own first central second",
+        "zero hides rows/native fallback",
+        "unselected variant native fallback",
+        "native nodes preserved"
+      ],
+      "requests": 3
+    }
+  ],
+  "isolatedModeledDOM": {
+    "type": "MODELED DOM ONLY",
+    "passed": true,
+    "checks": [
+      "variant race: delayed A never overwrites B",
+      "two stocks ordered; exact quantities",
+      "zero and unselected native fallback",
+      "native nodes, delivery and form preserved",
+      "card/grid/list and AJAX append",
+      "no horizontal overflow at 320/375/768/1440",
+      "expired quantities hidden during source outage"
+    ],
+    "realStockVerified": false
+  },
+  "limitations": [
+    "No real API token or server access; /api/eshop and authenticated products/stocks not called",
+    "No real warehouse IDs or amount/claim semantics verified",
+    "Real variant product not found in 87 scanned products; race tests used explicit modeled data",
+    "Browser network harness excluded analytics and unrelated third-party scripts, so not a complete third-party integration audit",
+    "No Lighthouse or full-traffic load benchmark performed",
+    "No actual cart/order submission performed; original forms/price/native hooks checked"
+  ],
+  "productionLoaderUnchanged": true,
+  "releaseCreated": false
+}

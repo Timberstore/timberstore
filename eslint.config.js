@@ -17,6 +17,11 @@ export default [
     },
   },
   {
+    files: ['backend/warehouse-stock/**/*.js', 'tests/warehouse-stock/*.test.js'],
+    languageOptions: { ecmaVersion: 2022, sourceType: 'module', globals: globals.node },
+    rules: { 'no-unused-vars': 'error', 'no-undef': 'error' },
+  },
+  {
     files: ['scripts/**/*.mjs'],
     languageOptions: { ecmaVersion: 2022, sourceType: 'module', globals: globals.node },
   },

@@ -351,7 +351,7 @@
     transform: none !important;
   }
 
-  .ts-view-list #products:not(.products-related) .availability *:not([style]) {
+  .ts-view-list #products:not(.products-related) .availability *:not([style]):not(.ts-warehouse-stock__amount) {
     font: inherit !important;
   }
 

@@ -4,6 +4,15 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { gzipSync } from 'node:zlib';
 
+const warehousePreview = process.env.TIMBER_PREVIEW === 'warehouse-stock';
+const warehouseEndpoint = process.env.TIMBER_STOCK_ENDPOINT || null;
+if (
+  warehouseEndpoint &&
+  (!/^https:\/\//.test(warehouseEndpoint) ||
+    new URL(warehouseEndpoint).username ||
+    new URL(warehouseEndpoint).password)
+)
+  throw new Error('Stock endpoint must be a public HTTPS URL without credentials');
 const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 // The approved v0.6.5 build retains its 16 kB CSS allowance; other versions
 // use the standard 15 kB budget until a separate change is approved.
@@ -16,24 +25,33 @@ const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 // v0.6.11 stable promotion retains the approved rc.4 allowance (2026-10-16).
 // Preview allowances: v0.6.6 17 kB, v0.6.7 18.25 kB, v0.6.8 18.75 kB.
 // v0.6.13: approved homepage refinements; earlier release limits stay fixed.
-const cssBudgetKiB = pkg.version === '0.6.13' ? 23.25 : pkg.version === '0.6.12' ? 23 : ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
-  ? 21
-  : ['0.6.11-rc.2', '0.6.11-rc.3'].includes(pkg.version)
-    ? 20.25
-    : ['0.6.11-rc.0', '0.6.11-rc.1'].includes(pkg.version)
-      ? 20
-      : pkg.version === '0.6.9'
-        ? 19.75
-        : pkg.version === '0.6.8'
-          ? 18.75
-          : pkg.version === '0.6.7'
-            ? 18.25
-            : pkg.version === '0.6.6'
-              ? 17
-              : pkg.version === '0.6.5'
-                ? 16
-                : 15;
-const BUDGET = { 'dist/timber.min.js': 30 * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
+const cssBudgetKiB =
+  pkg.version === '0.6.13'
+    ? 23.25
+    : pkg.version === '0.6.12'
+      ? 23
+      : ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
+        ? 21
+        : ['0.6.11-rc.2', '0.6.11-rc.3'].includes(pkg.version)
+          ? 20.25
+          : ['0.6.11-rc.0', '0.6.11-rc.1'].includes(pkg.version)
+            ? 20
+            : pkg.version === '0.6.9'
+              ? 19.75
+              : pkg.version === '0.6.8'
+                ? 18.75
+                : pkg.version === '0.6.7'
+                  ? 18.25
+                  : pkg.version === '0.6.6'
+                    ? 17
+                    : pkg.version === '0.6.5'
+                      ? 16
+                      : 15;
+// Isolated warehouse-stock preview allowance only; release budgets above are unchanged.
+const BUDGET = {
+  'dist/timber.min.js': (warehousePreview ? 33 : 30) * 1024,
+  'dist/timber.min.css': (warehousePreview ? 23.5 : cssBudgetKiB) * 1024,
+};
 
 const common = {
   bundle: true,
@@ -49,7 +67,16 @@ await build({
   entryPoints: ['src/main.js'],
   outfile: 'dist/timber.min.js',
   format: 'iife',
-  define: { __VERSION__: JSON.stringify(`v${pkg.version}`) },
+  define: {
+    __WAREHOUSE_PREVIEW__: JSON.stringify(warehousePreview),
+    __WAREHOUSE_NATIVE_VERIFIED__: JSON.stringify(
+      warehousePreview && process.env.TIMBER_STOCK_NATIVE_VERIFIED === '1',
+    ),
+    __WAREHOUSE_ENDPOINT__: JSON.stringify(warehouseEndpoint),
+    __VERSION__: JSON.stringify(
+      `v${pkg.version}${warehousePreview ? '-preview.warehouse-stock' : ''}`,
+    ),
+  },
   // Shoptet My Order uses an open shadow root. Bundle its local CSS as a
   // minified string; normal page CSS cannot style across that boundary.
   plugins: [

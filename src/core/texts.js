@@ -1,5 +1,10 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  warehouseStock: {
+    group: 'Dostupné množstvo podľa skladov',
+    hricov: 'SKLADOM',
+    csnk: 'CENTRÁLNY SKLAD',
+  },
   services: {
     page: 'Zobraziť ponuku – strana',
   },

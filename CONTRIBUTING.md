@@ -168,6 +168,8 @@ Všechno povinné, u každého releasu:
 
 - **Stabilná v0.6.12 (schválená 18. 10. 2026):** iba schválené večerné úpravy FAQ/homepage/pätičky nad main v0.6.11, bez rozpracovaného detailu produktu. CSS limit 23 KiB (výstup 22,81 KiB), JS ostáva 30 KiB (29,14 KiB). Navýšenie podľa existujúceho súhlasu 15. 10.; limity ostatných vydaní zostávajú nezmenené.
 
+- **Izolovaný warehouse-stock preview (18. 10. 2026 UTC):** iba `TIMBER_PREVIEW=warehouse-stock`, JS limit 33 KiB gzip, CSS 23,5 KiB. Nová spoločná skladová vrstva a komponent; bez merge/release a produkčného loadera. Navýšenie podľa súhlasu 15. 10.; stabilné limity vrátane v0.6.13 sa nemenia. Podrobnosti a merania v `docs/previews/warehouse-stock-20261019/README.md`.
+
 - **Súhlas klienta 15. 10. 2026:** pri potrebnom rozšírení objednaných úprav možno zvýšiť kB rozpočet bez opätovného pýtania. Vždy zmerať skutočný gzip výstup, navýšenie evidovať pri konkrétnej novej verzii a zachovať pôvodné releasy aj ich limity. Tento súhlas nemení povinnosť preview, testovania ani schválenia merge/produkčného nasadenia.
 - **Stabilná v0.6.11 (schválená klientom 16. 10. 2026):** povýšenie schválenej rc.4 bez zmeny funkčného kódu; zachovaný CSS limit 21 KiB gzip a JS 30 KiB. Predchádzajúce verzie a ich limity zostávajú nezmenené.
 - **Preview 0.6.11-rc.4:** mobilný náhľad košíka, scroll lock a synchronizácia dopravy po AJAX; CSS limit 21 KiB gzip, JS 30 KiB. Navýšenie podľa súhlasu 15. 10. 2026, staršie limity a vydania bez zmeny. Iba preview pracovnej vetvy.
