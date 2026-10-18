@@ -1,11 +1,5 @@
 /* Mobile only; desktop keeps its native Apollo markup and grid. */
 @media (max-width: 767px) {
-  .partners-block .ts-partners__slider {
-    display: grid;
-    grid-template-columns: 36px minmax(0, 1fr) 36px;
-    align-items: center;
-    gap: var(--ts-space-1);
-  }
   .partners-block .partners-group {
     display: grid;
     grid-auto-flow: column;
@@ -27,43 +21,6 @@
     margin: 0;
     min-width: 0;
     scroll-snap-align: start;
-  }
-  .partners-block .ts-partners__controls {
-    display: contents;
-  }
-  .partners-block .ts-partners__controls[hidden] {
-    display: none;
-  }
-  .partners-block .ts-partners__arrow {
-    grid-row: 1;
-    width: 36px;
-    height: 44px;
-    padding: 0;
-    border: 1px solid var(--ts-color-controls-border);
-    border-radius: var(--ts-radius-controls);
-    background: var(--ts-color-bg);
-    color: var(--ts-color-controls-text);
-    font: 32px/1 sans-serif;
-    cursor: pointer;
-  }
-  .partners-block .ts-partners__arrow:first-child {
-    grid-column: 1;
-  }
-  .partners-block .ts-partners__arrow:last-child {
-    grid-column: 3;
-  }
-  .partners-block .partners-group {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  .partners-block .ts-partners__arrow:hover:not(:disabled),
-  .partners-block .ts-partners__arrow:focus-visible {
-    border-color: var(--ts-color-accent);
-    color: var(--ts-color-action-hover);
-  }
-  .partners-block .ts-partners__arrow:disabled {
-    opacity: 0.35;
-    cursor: default;
   }
 }
 
@@ -89,6 +46,7 @@
     display: none;
   }
   .service-block .ts-service__slider .service-group .service__item:nth-child(n) {
+    display: flex;
     width: 100%;
     max-width: none;
     min-width: 0;
@@ -96,36 +54,27 @@
     padding: 0;
     scroll-snap-align: start;
   }
-  .service-block .ts-service__controls[hidden] {
-    display: none;
+}
+
+@media (max-width: 767px) {
+  .service-block .ts-service__slider .service__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
   }
-  .service-block .ts-service__arrow {
-    position: absolute;
-    z-index: 2;
-    top: 48px;
-    width: 40px;
-    height: 44px;
-    padding: 0;
-    border: 1px solid var(--ts-color-controls-border);
-    border-radius: var(--ts-radius-controls);
-    background: var(--ts-color-bg);
-    color: var(--ts-color-controls-text);
-    font: 32px/1 sans-serif;
-    cursor: pointer;
+  .service-block .ts-service__slider .service__image-block {
+    flex-shrink: 0;
   }
-  .service-block .ts-service__arrow:first-child {
-    left: var(--ts-space-2);
+  .service-block .ts-service__slider .service__text-block {
+    height: auto;
+    flex: 1;
+    padding: 24px var(--ts-space-3);
   }
-  .service-block .ts-service__arrow:last-child {
-    right: var(--ts-space-2);
-  }
-  .service-block .ts-service__arrow:disabled {
-    opacity: 0.35;
-    cursor: default;
-  }
-  .service-block .ts-service__arrow:hover:not(:disabled),
-  .service-block .ts-service__arrow:focus-visible {
-    border-color: var(--ts-color-accent);
-    color: var(--ts-color-action-hover);
+  .service-block .ts-service__slider .service__text-block .btn {
+    flex-shrink: 0;
+    min-height: 44px;
+    font-size: 14px;
+    padding: 12px 24px;
   }
 }

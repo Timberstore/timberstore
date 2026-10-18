@@ -167,6 +167,12 @@
 
 /* All three mobile menus share the same native Apollo accordion rhythm. */
 @media (max-width: 767px) {
+  #footer .custom-footer__contact.ts-footer-contacts {
+    border-bottom: 1px solid var(--ts-color-service-divider);
+    padding-bottom: var(--ts-space-3);
+    margin-bottom: var(--ts-space-3);
+  }
+
   #footer .ts-footer-contacts .contact-box > ul:first-of-type {
     display: flex;
     flex-direction: column;

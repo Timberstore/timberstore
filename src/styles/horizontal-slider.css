@@ -1,0 +1,37 @@
+/* Shared pagination for our three native-scroll rails; same round motif as Apollo. */
+.ts-rail__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: var(--ts-space-2);
+}
+.ts-rail__dots[hidden] {
+  display: none;
+}
+.ts-rail__dots .ts-rail__dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.ts-rail__dot::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--ts-color-controls-border);
+}
+.ts-rail__dot[aria-current='true']::before,
+.ts-rail__dot:hover::before {
+  background: var(--ts-color-accent);
+}
+.ts-rail__dot:focus-visible {
+  outline: 2px solid var(--ts-color-action-hover);
+  outline-offset: -2px;
+}

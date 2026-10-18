@@ -21,8 +21,7 @@ export default {
               widgetSelector,
               itemSelector,
               prefix,
-              previousLabel: labels.previous,
-              nextLabel: labels.next,
+              pageLabel: labels.page,
             });
           } else {
             const widget = block.querySelector(widgetSelector);

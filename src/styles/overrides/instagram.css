@@ -10,11 +10,11 @@
   display: grid;
   justify-content: start;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% - var(--ts-space-3)) / 2);
+  grid-auto-columns: calc((100% - 2 * var(--ts-space-2)) / 3);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  gap: var(--ts-space-3);
+  gap: var(--ts-space-2);
   width: 100%;
   max-width: 1378px;
   margin: 0 auto;
@@ -105,12 +105,12 @@
 }
 @media (min-width: 768px) {
   .instagram-block .instagram-widget {
-    grid-auto-columns: calc((100% - 2 * var(--ts-space-3)) / 3);
+    grid-auto-columns: calc((100% - 2 * var(--ts-space-2)) / 3);
   }
 }
 @media (min-width: 1200px) {
   .instagram-block .instagram-widget {
-    grid-auto-columns: calc((100% - 5 * var(--ts-space-3)) / 6);
+    grid-auto-columns: calc((100% - 5 * var(--ts-space-2)) / 6);
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -123,62 +123,9 @@
   display: none;
 }
 .instagram-block .ts-instagram__slider {
-  display: grid;
-  grid-template-columns: 44px minmax(0, 1fr) 44px;
-  align-items: center;
-  gap: var(--ts-space-2);
-  max-width: 1498px;
+  max-width: 1378px;
   margin: 0 auto;
 }
-.instagram-block .ts-instagram__slider > .instagram-widget {
-  grid-column: 2;
-  grid-row: 1;
-  min-width: 0;
-}
-.instagram-block .ts-instagram__controls {
-  display: contents;
-}
-.instagram-block .ts-instagram__arrow:first-child {
-  grid-column: 1;
-}
-.instagram-block .ts-instagram__arrow:last-child {
-  grid-column: 3;
-}
-.instagram-block .ts-instagram__controls[hidden] {
-  display: none;
-}
-.instagram-block .ts-instagram__arrow {
-  grid-row: 1;
-  width: 44px;
-  height: 44px;
-  border: 1px solid var(--ts-color-controls-border);
-  border-radius: 50%;
-  background: var(--ts-color-bg);
-  color: var(--ts-color-controls-text);
-  font: 36px/1 sans-serif;
-  cursor: pointer;
-}
-.instagram-block .ts-instagram__arrow:hover:not(:disabled),
-.instagram-block .ts-instagram__arrow:focus-visible {
-  border-color: var(--ts-color-accent);
-  color: var(--ts-color-action-hover);
-}
-.instagram-block .ts-instagram__arrow:disabled {
-  opacity: 0.35;
-  cursor: default;
-}
-
-@media (min-width: 768px) {
-  .instagram-block .ts-instagram__slider {
-    grid-template-columns: 52px minmax(0, 1fr) 52px;
-  }
-  .instagram-block .ts-instagram__arrow {
-    width: 52px;
-    height: 52px;
-    font-size: 42px;
-  }
-}
-
 @media (min-width: 768px) {
   .instagram-block .ts-instagram__heading {
     font-size: 36px;

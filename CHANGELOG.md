@@ -1,3 +1,10 @@
+## Preview follow-up · 2026-10-18 · dot pagination and visible service buttons
+
+- Replace arrows across service/brand/Instagram rails with one shared round dot pager: one dot per visible group, active state follows clicks/swipes/resizing. Preserve native touch scrolling and reduced-motion preference.
+- Instagram now shows 3 mobile photos, 6 on wide desktop, with 8px gaps and no side-arrow gutters. Mobile brands remain 2 logos; services remain 1 whole card.
+- Fix clipped service CTAs by removing the native fixed text-height calculation in mobile rails, using flexible card content and fully visible 44px buttons with 14px labels and bottom padding. Add a mobile contact/menu divider.
+- Lint/build pass: CSS 23.54 KiB / 23.75; JS 29.77 KiB / 30. Preview only.
+
 ## Preview follow-up · 2026-10-18 · full mobile service cards and Instagram separation
 
 - Extend the existing mobile rail adapter to SPAX/LED/switch service cards: one whole card at a time, arrows and native swipe, desktop markup restored on resize.

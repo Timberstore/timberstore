@@ -1,0 +1,143 @@
+{
+  "scope": "Live Apollo with local preview, dots tested in both directions, service CTA clipping geometry and desktop restoration.",
+  "results": [
+    {
+      "width": 320,
+      "serviceDots": 3,
+      "brandDots": 6,
+      "cards": [
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        },
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        },
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        }
+      ],
+      "separator": "1px",
+      "controlsWork": true
+    },
+    {
+      "width": 375,
+      "serviceDots": 3,
+      "brandDots": 6,
+      "cards": [
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        },
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        },
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        }
+      ],
+      "separator": "1px",
+      "controlsWork": true
+    },
+    {
+      "width": 767,
+      "serviceDots": 3,
+      "brandDots": 6,
+      "cards": [
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        },
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        },
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        }
+      ],
+      "separator": "1px",
+      "controlsWork": true
+    },
+    {
+      "width": 768,
+      "nativeDesktop": true
+    },
+    {
+      "width": 1024,
+      "nativeDesktop": true
+    },
+    {
+      "width": 1440,
+      "nativeDesktop": true
+    },
+    {
+      "width": 375,
+      "serviceDots": 3,
+      "brandDots": 6,
+      "cards": [
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        },
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        },
+        {
+          "bottomGap": 34,
+          "textBottomGap": 34,
+          "height": 44,
+          "font": "14px"
+        }
+      ],
+      "separator": "1px",
+      "controlsWork": true
+    },
+    {
+      "width": 1440,
+      "nativeDesktop": true
+    }
+  ],
+  "errors": [
+    {
+      "excludedExternal": "https://scripts.luigisbox.tech/LBX-1266949.js"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+    },
+    {
+      "excludedExternal": "https://bat.bing.com/bat.js"
+    }
+  ]
+}

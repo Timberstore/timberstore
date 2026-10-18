@@ -80,3 +80,15 @@ The SPAX/LED/switch section now uses the same existing mobile rail adapter/helpe
 Instagram is separated from brands/footer by the existing warm `--ts-color-service-bg` and `--ts-color-service-divider` tokens, internal section padding and thin horizontal boundaries. Heading uses the same family/weight/color/sizes as the brand heading; Slovak sentence case matches that treatment. All image-source fixes, per-post destinations and slider functionality remain.
 
 Lint/build/whitespace pass: CSS 23.74 KiB / 23.75 KiB; JS 29.71 KiB / 30 KiB. No budget increase. Live Chromium checks cover whole-card mobile geometry, preserved service links, both navigation directions, matching computed title typography, distinct Instagram background, desktop round trips and no page overflow. Local Instagram rail/source regression also passes. Results: `service-instagram-separation.json`, `service-instagram-regression.json`.
+
+## Client follow-up — dot pagination, three Instagram photos, visible buttons
+
+This supersedes the arrow requirement: the single shared rail helper now builds round dot buttons per visible page/group for all three rails, tracks the active dot after native scroll and recalculates page counts/positions on resize or feed updates. Buttons have accessible Slovak page labels and visible focus; smooth scrolling respects reduced motion. Arrows and their layout gutters are removed, not hidden alongside another implementation.
+
+Mobile Instagram: 3 visible photos with 8px gaps; tablet 3, wide desktop 6. Mobile brands: 2 visible logos. Mobile services: 1 full card. Desktop services/brands keep native layouts with no pagination. Existing warm Instagram surface remains.
+
+The clipping came from native service text height `calc(100% - 115px)` while the custom image uses responsive 16:9 sizing. Mobile rails now use auto-height flex content, a nonshrinking image/button, 44px CTA height, 14px labels and explicit bottom padding. Original card copy/media/links remain. A thin token-colored border separates centered mobile contact from the information menus.
+
+Live Apollo Chromium checks across 320/375/767/768/1024/1440px plus repeated mobile/desktop transitions: click last/first dot, correct active state after scroll, 1 service/2 brand items visible, all CTAs >=44px high with >=20px bottom space inside the card, 1px footer divider, no arrows or page overflow and restored desktop markup. Local native-image fixture: 9 real-structure test feed nodes, 3 visible below 1200px/6 above, correct page counts, dot navigation/active states, late and retina source hydration. This is a fixture, not a claim that the live anonymous session supplied a native Instagram feed. Results: `dots-live.json`, `instagram-dots-regression.json`.
+
+Lint/build/whitespace pass: CSS 23.54 KiB / 23.75 KiB; JS 29.77 KiB / 30 KiB. No budget increase, merge/release or production-loader change.
