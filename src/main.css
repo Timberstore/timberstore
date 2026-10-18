@@ -5,6 +5,7 @@
 @import './styles/core.css';
 
 /* Modules */
+@import './modules/warehouse-availability/warehouse-availability.css';
 @import './modules/carousel-swipe/carousel-swipe.css';
 @import './modules/gallery-swipe/gallery-swipe.css';
 @import './modules/list-view/list-view.css';
