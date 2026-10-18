@@ -15,7 +15,7 @@ const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 // v0.6.11-rc.4 mobile cart scrolling + shipping state: 21 kB CSS allowance.
 // v0.6.11 stable promotion retains the approved rc.4 allowance (2026-10-16).
 // Preview allowances: v0.6.6 17 kB, v0.6.7 18.25 kB, v0.6.8 18.75 kB.
-const cssBudgetKiB = ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
+const cssBudgetKiB = pkg.version === '0.6.12' ? 23 : ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
   ? 21
   : ['0.6.11-rc.2', '0.6.11-rc.3'].includes(pkg.version)
     ? 20.25

@@ -1,0 +1,96 @@
+/* Mobile only; desktop keeps its native Apollo markup and grid. */
+@media (max-width: 767px) {
+  .partners-block .ts-partners__slider {
+    padding: 0 var(--ts-space-3);
+  }
+
+  .partners-block .partners-group {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - var(--ts-space-2)) / 2);
+    justify-content: start;
+    gap: var(--ts-space-2);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    min-width: 0;
+    margin: 0;
+    padding-block: var(--ts-space-2);
+  }
+  .partners-block .partners-group::-webkit-scrollbar {
+    display: none;
+  }
+  .partners-block .partners__item {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+}
+
+/* One full-width service card on mobile; native desktop remains intact. */
+@media (max-width: 767px) {
+  .service-block.services-more-then-two .ts-service__slider .service-group,
+  .service-block .ts-service__slider .service-group {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    justify-content: start;
+    gap: var(--ts-space-3);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin: 0;
+    width: 100%;
+  }
+  .service-block .ts-service__slider .service-group::-webkit-scrollbar {
+    display: none;
+  }
+  .service-block .ts-service__slider .service-group .service__item:nth-child(n) {
+    display: flex;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    scroll-snap-align: start;
+  }
+}
+
+@media (max-width: 767px) {
+  .service-block .ts-service__slider .service__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .service-block .ts-service__slider .service__image-block {
+    flex-shrink: 0;
+  }
+  .service-block .ts-service__slider .service__text-block {
+    height: auto;
+    flex: 1;
+    padding: 24px var(--ts-space-3);
+  }
+  .service-block .ts-service__slider .service__text-block .btn {
+    flex-shrink: 0;
+    min-height: 44px;
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+}
+
+/* Apollo's service selector is more specific than the shared rail rule. */
+@media (max-width: 767px) {
+  .service-block.services-more-then-two .ts-service__slider .ts-rail__viewport > .service-group,
+  .service-block .ts-service__slider .ts-rail__viewport > .service-group,
+  .partners-block .ts-partners__slider .ts-rail__viewport > .partners-group {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0;
+    overflow: visible;
+    scroll-snap-type: none;
+  }
+}

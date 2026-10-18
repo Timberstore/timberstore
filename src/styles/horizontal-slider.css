@@ -1,0 +1,51 @@
+/* Shared pagination for our three native-scroll rails; same round motif as Apollo. */
+.ts-rail__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: var(--ts-space-2);
+}
+.ts-rail__dots[hidden] {
+  display: none;
+}
+.ts-rail__dots .ts-rail__dot {
+  position: relative;
+  opacity: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.ts-rail__dot:focus-visible {
+  outline: 2px solid var(--ts-color-action-hover);
+  outline-offset: -2px;
+}
+
+/* Use Apollo's existing Swiper engine for release snapping and pagination. */
+.ts-rail__viewport {
+  overflow: hidden;
+  min-width: 0;
+}
+.ts-rail--paged .ts-rail__viewport > .swiper-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0;
+  overflow: visible;
+  scroll-snap-type: none;
+  box-sizing: content-box;
+}
+.ts-rail--paged .ts-rail__viewport > .swiper-wrapper > .swiper-slide:nth-child(n) {
+  flex-shrink: 0;
+  width: auto;
+}
+.ts-rail--paged .ts-rail__dots {
+  position: static;
+  width: 100%;
+  transform: none;
+}

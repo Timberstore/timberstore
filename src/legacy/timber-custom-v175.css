@@ -126,6 +126,7 @@ form[action*="Subscribe"] {
 
 .in-index .faq-block .faq-content {
   flex: 1 !important;
+  min-width: 0;
   background: var(--color-tertiary, var(--ts-color-service-bg)) !important;
   border: 1px solid var(--ts-color-controls-border) !important;
   border-radius: 22px !important;
@@ -134,7 +135,16 @@ form[action*="Subscribe"] {
   padding: 0 !important;
 }
 
+/* Apollo also rounds .tabs-content to 35px inside the 22px outer box.
+   Keep a single clipping boundary, otherwise the orange title corners peek
+   around the inner rounded panel. No accordion/tab behavior changes. */
+.in-index .faq-block .faq-content .tabs-content {
+  border-radius: 0;
+}
+
 .in-index .faq-block .faq-content-title {
+  border-radius: 0;
+  margin: 0;
   background: linear-gradient(135deg, var(--ts-color-accent) 0%, var(--ts-color-controls-active) 100%) !important;
   color: var(--ts-color-text) !important;
   padding: 14px 22px !important;

@@ -1,6 +1,34 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  apolloReady: 'body.after-load',
+  footerColumns: '#footer .custom-footer',
+  serviceBlock: '.service-block',
+  serviceGroup: '.service-group',
+  serviceItem: '.service__item',
+  partnersBlock: '.partners-block',
+  partnersGroup: '.partners-group',
+  partnersItem: '.partners__item',
+  footerMenus:
+    '#footer .custom-footer__articles, #footer .custom-footer__onlinePayments, #footer .custom-footer__banner7',
+  footerPopular: '#footer .custom-footer__banner7',
+  footerContacts: '.custom-footer__contact',
+  footerForm: 'a.btn[href="/kontakty"]',
+  footerSocialList: '.contact-box-icon-list',
+  footerContactBox: '.contact-box',
+  footerEmail: '.mail a',
+  footerPhone: '.tel a',
+  footerFacebook: '.facebook a',
+  footerInstagram: '.instagram a',
+  instagramPlacement: '.overall-wrapper',
+  instagramChanges:
+    '.instagram-block, .instagram-widget, .instagram-widget-item, .instagram-follow-btn',
+  instagramBlock: '.instagram-block',
+  instagramWidget: '.instagram-widget',
+  instagramImage: '.instagram-widget-item img',
+  instagramItem: '.instagram-widget-item',
+  instagramFollow: '.instagram-follow-btn',
+
   // Current Shoptet My Order is an open shadow-root React widget, not checkout.
   orderHost: '#order-withdraw',
   orderLayout: '.layout__order',
