@@ -2,6 +2,8 @@
 
 ## Rozpracované opravy nad v0.6.12 · 2026-10-18
 
+- Instagram a značky majú zjednotený jemný béžový rámik s vnútorným pásikom v existujúcej farebnosti TimberStore.
+
 - Aktívna oranžová kategória FAQ má biely text aj po opakovanom prepínaní; ostatné kategórie a obsah zachované.
 
 - Následné zadanie: na mobile Instagram opäť nad kontaktom; zhodné vizuálne aj DOM poradie, desktop zachovaný.
