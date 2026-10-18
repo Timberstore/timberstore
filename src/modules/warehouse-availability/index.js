@@ -17,10 +17,12 @@ function render() {
     preview = readWarehousePreview();
   }
   const rows = preview ? preview.rows : readWarehouseRows();
-  const previous = target.parentElement.querySelector('[data-ts-warehouse-availability]');
+  const previous = target.querySelector('[data-ts-warehouse-availability]');
   const restoreNative = () => {
     previous?.remove();
-    target.classList.remove('ts-warehouse-availability__native--hidden');
+    Array.from(target.children).forEach((child) =>
+      child.classList.remove('ts-warehouse-availability__native--hidden'),
+    );
   };
   if (!rows) return restoreNative();
   const amount = target.querySelector(SEL.cartAvailabilityAmount)?.textContent || '';
@@ -50,7 +52,7 @@ function render() {
     select.addEventListener('change', () => {
       selectedScenario = select.value;
       render();
-      target.parentElement.querySelector('[data-ts-warehouse-availability] select')?.focus();
+      target.querySelector('[data-ts-warehouse-availability] select')?.focus();
     });
     label.append(select);
     block.append(label);
@@ -73,8 +75,10 @@ function render() {
     block.append(line);
   }
   if (previous) previous.replaceWith(block);
-  else target.after(block);
-  target.classList.add('ts-warehouse-availability__native--hidden');
+  else target.append(block);
+  Array.from(target.children)
+    .filter((child) => child !== block)
+    .forEach((child) => child.classList.add('ts-warehouse-availability__native--hidden'));
 }
 
 export default {
