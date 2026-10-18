@@ -10,7 +10,7 @@
   display: grid;
   justify-content: start;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% - 2 * var(--ts-space-2)) / 3);
+  grid-auto-columns: calc((100% - 3 * var(--ts-space-2)) / 3.5);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
@@ -123,6 +123,7 @@
   display: none;
 }
 .instagram-block .ts-instagram__slider {
+  position: relative;
   max-width: 1378px;
   margin: 0 auto;
 }
@@ -151,4 +152,38 @@
     color: inherit;
     font: inherit;
   }
+}
+
+/* Instagram alone: swipe hint and small template-style side controls, no dots. */
+.instagram-block .ts-instagram__controls[hidden] {
+  display: none;
+}
+.instagram-block .ts-instagram__arrow {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--ts-color-bg);
+  color: var(--ts-color-controls-text);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  font: 24px/1 sans-serif;
+  cursor: pointer;
+}
+.instagram-block .ts-instagram__arrow:first-child {
+  left: -12px;
+}
+.instagram-block .ts-instagram__arrow:last-child {
+  right: -12px;
+}
+.instagram-block .ts-instagram__arrow:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+.instagram-block .ts-instagram__arrow:focus-visible {
+  outline: 2px solid var(--ts-color-action-hover);
 }

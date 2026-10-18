@@ -1,6 +1,9 @@
 const sliders = new WeakMap();
 
-export function setupHorizontalSlider(block, { widgetSelector, itemSelector, prefix, pageLabel }) {
+export function setupHorizontalSlider(
+  block,
+  { widgetSelector, itemSelector, prefix, pageLabel, arrows = false, previousLabel, nextLabel },
+) {
   const widget = block.querySelector(widgetSelector);
   if (!widget) return;
   const existing = sliders.get(widget);
@@ -9,15 +12,16 @@ export function setupHorizontalSlider(block, { widgetSelector, itemSelector, pre
     return;
   }
   const controls = document.createElement('div');
-  controls.className = `${prefix}__controls ts-rail__dots`;
+  controls.className = `${prefix}__controls${arrows ? '' : ' ts-rail__dots'}`;
   const stage = document.createElement('div');
   stage.className = `${prefix}__slider`;
   widget.before(stage);
   stage.append(widget, controls);
   let positions = [];
+  let step = 0;
   const update = () => {
     const items = [...widget.querySelectorAll(itemSelector)];
-    const step =
+    step =
       (items[0]?.getBoundingClientRect().width || widget.clientWidth) +
       parseFloat(getComputedStyle(widget).columnGap || 0);
     const visible = Math.max(
@@ -25,6 +29,33 @@ export function setupHorizontalSlider(block, { widgetSelector, itemSelector, pre
       Math.round((widget.clientWidth + parseFloat(getComputedStyle(widget).columnGap || 0)) / step),
     );
     const max = Math.max(0, widget.scrollWidth - widget.clientWidth);
+    if (arrows) {
+      if (!controls.children.length) {
+        for (const [direction, label, text] of [
+          [-1, previousLabel, '‹'],
+          [1, nextLabel, '›'],
+        ]) {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = `${prefix}__arrow`;
+          button.setAttribute('aria-label', label);
+          button.textContent = text;
+          button.addEventListener('click', () =>
+            widget.scrollBy({
+              left: direction * step,
+              behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches
+                ? 'auto'
+                : 'smooth',
+            }),
+          );
+          controls.append(button);
+        }
+      }
+      controls.firstElementChild.disabled = widget.scrollLeft <= 1;
+      controls.lastElementChild.disabled = widget.scrollLeft >= max - 1;
+      controls.hidden = max <= 1;
+      return;
+    }
     const pages = Math.max(1, Math.ceil(items.length / visible));
     positions = Array.from({ length: pages }, (_, index) => Math.min(max, index * visible * step));
     if (controls.children.length !== pages) {

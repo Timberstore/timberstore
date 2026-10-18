@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Preview follow-up 18. 10. 2026 — Instagram swipe hint:** iba existujúci režim `TIMBER_PREVIEW=product-detail` má JS limit 30,5 KiB (výstup 30,18 KiB); CSS zostáva 23,75 KiB. Navýšenie podľa súhlasu 15. 10. pri potrebnom rozšírení objednaných úprav. Stabilný JS limit 30 KiB a staršie release limity sa nemenia.
+
 - **Preview follow-up 18. 10. 2026 — mobilné značky:** existujúci režim `TIMBER_PREVIEW=product-detail` má CSS limit 23,75 KiB (výstup 23,58 KiB), JS 30 KiB (29,64 KiB). Navýšenie podľa súhlasu 15. 10.; stabilné vydania a ich limity sa nemenia.
 
 - **Preview follow-up 18. 10. 2026:** existujúci režim `TIMBER_PREVIEW=product-detail` vrátane objednaného Instagram slidera a kontaktov: CSS limit 23,25 KiB (výstup 23,05 KiB), JS 30 KiB (výstup 29,17 KiB). Navýšenie podľa existujúceho súhlasu 15. 10.; stabilné vydania a ich limity bez zmeny.

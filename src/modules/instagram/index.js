@@ -83,7 +83,9 @@ function sync(block) {
     widgetSelector: SEL.instagramWidget,
     itemSelector: SEL.instagramItem,
     prefix: 'ts-instagram',
-    pageLabel: TEXTS.instagram.page,
+    arrows: true,
+    previousLabel: TEXTS.instagram.previous,
+    nextLabel: TEXTS.instagram.next,
   });
 }
 

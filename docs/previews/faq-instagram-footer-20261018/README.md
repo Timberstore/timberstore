@@ -102,3 +102,13 @@ Mobile brands gain 16px inner horizontal space and vertical room for card shadow
 The hours clock pseudo-element is removed. The existing header-backed availability dot precedes the text instead of following it, with the same orange closed/green open behavior and shared timezone/timer. This applies to footer contacts at all widths.
 
 Live Chromium assertions cover native dot style equality and navigation, brand insets >=30px from section edges, mobile visual section order, desktop restoration, no duplicates/overflow, no clock pseudo-element, left-side status dot and orange/green states. Instagram fixture regression preserves image source hydration, three mobile photos and page navigation. Results: `native-dots-order-status.json`, `native-dots-instagram-regression.json`. Lint/build/whitespace pass: CSS 23.63 KiB / 23.75; JS 29.98 KiB / 30. No budget increase or production changes.
+
+## Client follow-up — Instagram swipe hint, no dots
+
+Instagram no longer creates dot buttons at any viewport. Below 768px its rail shows three complete photographs plus exactly half of the fourth (8px gaps). This signals horizontal swipe. Small 32px white shadowed side arrows sit vertically centered on the photos with no reserved gutters. Tablet remains three full photographs; wide desktop six. All original feed data and destinations remain intact.
+
+The existing shared rail controller receives an optional arrow mode rather than adding another independent scrolling implementation. Brands and service cards continue using the existing native-style dots. Mobile contact/Instagram/menu placement and the left-hand orange/green availability dot are unchanged.
+
+Local native-feed fixture checks assert zero Instagram dot buttons, two small controls, three complete mobile photos and half the fourth, arrow movement in both directions, disabled end states, original post URLs and late/retina image-source hydration at six widths. Live Apollo regression checks native brand dots, spacing, footer section order, availability states, desktop restoration and no document overflow. The live anonymous response can omit the native Instagram feed; fixture checks do not claim live Instagram API availability. Results: `instagram-peek-regression.json`, `instagram-peek-live-regression.json`.
+
+Lint/build/whitespace pass: CSS 23.75 KiB / 23.75 KiB; JS 30.18 KiB / preview-only 30.5 KiB. The small JS increase follows the already recorded 15 October client authorization, applies only to the existing preview mode and leaves stable JS budgets at 30 KiB. No merge, release or production-loader change.

@@ -7,6 +7,8 @@ export const TEXTS = {
     page: 'Zobraziť značky – strana',
   },
   instagram: {
+    previous: 'Predchádzajúce príspevky',
+    next: 'Ďalšie príspevky',
     page: 'Zobraziť Instagram príspevky – strana',
     title: 'Sledujte nás na Instagrame',
     unavailable: 'Instagram galéria momentálne nie je dostupná. Príspevky nájdete na našom profile.',

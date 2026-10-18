@@ -1,3 +1,9 @@
+## Preview follow-up · 2026-10-18 · Instagram swipe hint without dots
+
+- Remove Instagram dot pagination entirely. Mobile rail shows 3 full photos plus half the fourth, retaining native swipe and small 32px side arrows. Tablet keeps 3 full photos; wide desktop 6.
+- Add an optional arrow mode to the existing shared rail controller; brand/service rails retain their native-looking dot controls unchanged. Preserve image sources, post links, footer order and availability indicator.
+- Lint/build pass: CSS 23.75 KiB / 23.75, JS 30.18 KiB / preview-only 30.5 (prior client budget authorization documented). Stable JS limit remains 30 KiB. No production deployment.
+
 ## Preview follow-up · 2026-10-18 · native dots, brand insets and mobile section order
 
 - Reuse actual Apollo swiper-pagination-bullet and active classes for 16px white shadowed/dark-active dots; remove the custom painted pseudo-element. Pagination logic/accessible hit targets remain shared.
