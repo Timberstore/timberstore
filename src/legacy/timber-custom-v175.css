@@ -121,6 +121,7 @@ form[action*="Subscribe"] {
 }
 
 .in-index .faq-block .faq-side-list__item.is-active {
+  color: var(--ts-color-bg) !important;
   box-shadow: 0 8px 18px rgba(201,122,43,.18) !important;
 }
 
@@ -338,7 +339,6 @@ form[action*="Subscribe"] {
 .in-index .faq-block .faq-content-title,
 .in-index .faq-block .faq-side-list__item.is-active {
     background: linear-gradient(135deg, var(--ts-color-accent) 0%, var(--ts-color-controls-active) 100%) !important;
-    color: var(--ts-color-text) !important;
     border: none !important;
 }
 
