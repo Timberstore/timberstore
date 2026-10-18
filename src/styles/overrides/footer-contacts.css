@@ -167,6 +167,30 @@
 
 /* All three mobile menus share the same native Apollo accordion rhythm. */
 @media (max-width: 767px) {
+  #footer .ts-footer-contacts .contact-box > ul:first-of-type {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer .ts-footer-contacts .contact-box > ul > .ts-footer-contacts__hours {
+    order: -1;
+  }
+  #footer .custom-footer__contact.ts-footer-contacts .pageElement__heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--ts-space-3);
+  }
+  #footer .custom-footer__contact.ts-footer-contacts .pageElement__heading::before,
+  #footer .custom-footer__contact.ts-footer-contacts .pageElement__heading::after {
+    content: '';
+    position: static;
+    transform: none;
+    display: block;
+    height: 0;
+    flex: 1;
+    border-top: 1px solid var(--ts-color-controls-border);
+  }
+
   #footer .custom-footer__contact.ts-footer-contacts,
   #footer .ts-footer-contacts .contact-box {
     text-align: center;

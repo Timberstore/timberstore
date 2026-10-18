@@ -1,0 +1,68 @@
+/* Mobile only; desktop keeps its native Apollo markup and grid. */
+@media (max-width: 767px) {
+  .partners-block .ts-partners__slider {
+    display: grid;
+    grid-template-columns: 36px minmax(0, 1fr) 36px;
+    align-items: center;
+    gap: var(--ts-space-1);
+  }
+  .partners-block .partners-group {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - var(--ts-space-2)) / 2);
+    justify-content: start;
+    gap: var(--ts-space-2);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    min-width: 0;
+    margin: 0;
+  }
+  .partners-block .partners-group::-webkit-scrollbar {
+    display: none;
+  }
+  .partners-block .partners__item {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+  .partners-block .ts-partners__controls {
+    display: contents;
+  }
+  .partners-block .ts-partners__controls[hidden] {
+    display: none;
+  }
+  .partners-block .ts-partners__arrow {
+    grid-row: 1;
+    width: 36px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid var(--ts-color-controls-border);
+    border-radius: var(--ts-radius-controls);
+    background: var(--ts-color-bg);
+    color: var(--ts-color-controls-text);
+    font: 32px/1 sans-serif;
+    cursor: pointer;
+  }
+  .partners-block .ts-partners__arrow:first-child {
+    grid-column: 1;
+  }
+  .partners-block .ts-partners__arrow:last-child {
+    grid-column: 3;
+  }
+  .partners-block .partners-group {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .partners-block .ts-partners__arrow:hover:not(:disabled),
+  .partners-block .ts-partners__arrow:focus-visible {
+    border-color: var(--ts-color-accent);
+    color: var(--ts-color-action-hover);
+  }
+  .partners-block .ts-partners__arrow:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+}

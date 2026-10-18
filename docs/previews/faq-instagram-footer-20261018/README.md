@@ -64,3 +64,11 @@ Lint/build/whitespace pass: CSS 23.22 KiB / 23.25 KiB, JS 29.34 KiB / 30 KiB. Li
 Existing footer CSS now centers all contact contents below the native 768px stacked/mobile breakpoint: heading, email/phone links, hours and combined button/social row. Menu headings remain left-aligned with their native right-hand chevrons; desktop contact columns retain their prior alignment. No JS or link/availability changes.
 
 Lint/build/whitespace pass: CSS 23.25 KiB / 23.25 KiB, JS 29.34 KiB / 30 KiB. Live Chromium assertions measure centers of email, phone, hours and the action group within 1px of the contact box center on mobile, and check desktop alignment remains unchanged. Results: `footer-centered-responsive.json`.
+
+## Client follow-up — mobile contact order/dividers and brands
+
+Below 768px the centered contact uses hours, email, phone, then the existing button/social row. Thin heading dividers reuse the Instagram heading border color. Desktop order and presentation are unchanged.
+
+The existing twelve native brand items/links become a single mobile rail with two visible logos and side arrows plus native touch scrolling. No logos or destinations are replaced. The existing Instagram arrow/navigation routine is extracted into a small shared helper, used by both rails; Instagram retains its classes and behavior. The brand rail initializes only below 768px. On returning to desktop, its helper disconnects its observer/listener and restores the original native group directly under its container, so no desktop wrapper/style change remains.
+
+Lint/build/whitespace pass: CSS 23.58 KiB / 23.75, JS 29.64 KiB / 30. Existing preview budget authorization documented in CONTRIBUTING; stable releases unaffected. Live browser checks measure two visible logos, 12 preserved links, arrows on both sides and both directions, mobile contact order and two visible divider lines, no page overflow, and identical desktop group geometry/links before/after repeated mobile transitions. Instagram regression checks cover the shared helper. Results: `partners-contact-mobile.json`, `shared-slider-regression.json`.

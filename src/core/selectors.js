@@ -1,6 +1,9 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  partnersBlock: '.partners-block',
+  partnersGroup: '.partners-group',
+  partnersItem: '.partners__item',
   footerMenus:
     '#footer .custom-footer__articles, #footer .custom-footer__onlinePayments, #footer .custom-footer__banner7',
   footerPopular: '#footer .custom-footer__banner7',

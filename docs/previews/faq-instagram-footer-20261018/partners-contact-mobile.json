@@ -1,0 +1,187 @@
+{
+  "scope": "Live Shoptet/Apollo with local preview CSS/JS. Desktop round-trip equality, native links preserved, mobile geometry and navigation.",
+  "results": [
+    {
+      "width": 320,
+      "visible": 2,
+      "count": 12,
+      "arrows": true,
+      "center": true,
+      "height": 85,
+      "lines": [
+        {
+          "content": "\"\"",
+          "border": "1px",
+          "width": 80.5938
+        },
+        {
+          "content": "\"\"",
+          "border": "1px",
+          "width": 80.5938
+        }
+      ],
+      "order": [
+        {
+          "text": "PO – PIA (08:00 – 16:00)",
+          "top": 871.640625
+        },
+        {
+          "text": "info@timberstore.sk",
+          "top": 903.640625
+        },
+        {
+          "text": "+421 904 479 842",
+          "top": 937.625
+        },
+        {
+          "text": "Napíšte nám",
+          "top": 979.609375
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "visible": 2,
+      "count": 12,
+      "arrows": true,
+      "center": true,
+      "height": 85,
+      "lines": [
+        {
+          "content": "\"\"",
+          "border": "1px",
+          "width": 108.094
+        },
+        {
+          "content": "\"\"",
+          "border": "1px",
+          "width": 108.094
+        }
+      ],
+      "order": [
+        {
+          "text": "PO – PIA (08:00 – 16:00)",
+          "top": 780.328125
+        },
+        {
+          "text": "info@timberstore.sk",
+          "top": 812.328125
+        },
+        {
+          "text": "+421 904 479 842",
+          "top": 846.3125
+        },
+        {
+          "text": "Napíšte nám",
+          "top": 888.296875
+        }
+      ]
+    },
+    {
+      "width": 767,
+      "visible": 2,
+      "count": 12,
+      "arrows": true,
+      "center": true,
+      "height": 85,
+      "lines": [
+        {
+          "content": "\"\"",
+          "border": "1px",
+          "width": 304.094
+        },
+        {
+          "content": "\"\"",
+          "border": "1px",
+          "width": 304.094
+        }
+      ],
+      "order": [
+        {
+          "text": "PO – PIA (08:00 – 16:00)",
+          "top": 727.09375
+        },
+        {
+          "text": "info@timberstore.sk",
+          "top": 759.09375
+        },
+        {
+          "text": "+421 904 479 842",
+          "top": 793.078125
+        },
+        {
+          "text": "Napíšte nám",
+          "top": 835.0625
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "nativeDesktopRestored": true
+    },
+    {
+      "width": 1024,
+      "nativeDesktopRestored": true
+    },
+    {
+      "width": 1440,
+      "nativeDesktopRestored": true
+    },
+    {
+      "width": 375,
+      "visible": 2,
+      "count": 12,
+      "arrows": true,
+      "center": true,
+      "height": 85,
+      "lines": [
+        {
+          "content": "\"\"",
+          "border": "1px",
+          "width": 108.094
+        },
+        {
+          "content": "\"\"",
+          "border": "1px",
+          "width": 108.094
+        }
+      ],
+      "order": [
+        {
+          "text": "PO – PIA (08:00 – 16:00)",
+          "top": 829.921875
+        },
+        {
+          "text": "info@timberstore.sk",
+          "top": 861.921875
+        },
+        {
+          "text": "+421 904 479 842",
+          "top": 895.90625
+        },
+        {
+          "text": "Napíšte nám",
+          "top": 937.890625
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "nativeDesktopRestored": true
+    }
+  ],
+  "errors": [
+    {
+      "excludedExternal": "https://scripts.luigisbox.tech/LBX-1266949.js"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+    },
+    {
+      "excludedExternal": "https://bat.bing.com/bat.js"
+    }
+  ]
+}

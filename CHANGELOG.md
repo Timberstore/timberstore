@@ -1,3 +1,9 @@
+## Preview follow-up · 2026-10-18 · mobile contact order and brand slider
+
+- Mobile contact: hours before email/phone, action row last; matching thin dividers beside the centered contact heading. Desktop contact order unchanged.
+- Mobile brands: two visible logos, side arrows and native horizontal/touch scrolling instead of six rows. Reuse the Instagram navigation helper; remove the slider wrapper at desktop breakpoints to restore exact native markup/layout.
+- Lint/build pass: CSS 23.58 KiB / 23.75 (existing client authorization recorded), JS 29.64 KiB / 30. Preview only; no production merge/release/loader change.
+
 ## Preview follow-up · 2026-10-18 · centered mobile contact
 
 - Center the footer contact heading, email, phone, opening hours and combined button/social row in the native stacked layout below 768px. Desktop columns and mobile menu alignment are unchanged.

@@ -1,56 +1,8 @@
 import { SEL } from '../../core/selectors.js';
+import { setupHorizontalSlider } from '../../core/horizontal-slider.js';
 import { TEXTS } from '../../core/texts.js';
 
 let discoveryObserver;
-const sliders = new WeakMap();
-
-function setupSlider(block) {
-  const widget = block.querySelector(SEL.instagramWidget);
-  if (!widget) return;
-  const existing = sliders.get(widget);
-  if (existing) {
-    existing();
-    return;
-  }
-  const controls = document.createElement('div');
-  controls.className = 'ts-instagram__controls';
-  const previous = document.createElement('button');
-  const next = document.createElement('button');
-  for (const [button, label, symbol, direction] of [
-    [previous, TEXTS.instagram.previous, '‹', -1],
-    [next, TEXTS.instagram.next, '›', 1],
-  ]) {
-    button.type = 'button';
-    button.className = 'ts-instagram__arrow';
-    button.setAttribute('aria-label', label);
-    button.textContent = symbol;
-    button.addEventListener('click', () => {
-      const item = widget.querySelector(SEL.instagramItem);
-      const step =
-        (item?.getBoundingClientRect().width || widget.clientWidth) +
-        parseFloat(getComputedStyle(widget).columnGap || 0);
-      widget.scrollBy({
-        left: direction * step,
-        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
-      });
-    });
-    controls.append(button);
-  }
-  const stage = document.createElement('div');
-  stage.className = 'ts-instagram__slider';
-  widget.before(stage);
-  stage.append(widget, controls);
-  const update = () => {
-    const max = Math.max(0, widget.scrollWidth - widget.clientWidth);
-    previous.disabled = widget.scrollLeft <= 1;
-    next.disabled = widget.scrollLeft >= max - 1;
-    controls.hidden = max <= 1;
-  };
-  widget.addEventListener('scroll', update, { passive: true });
-  new ResizeObserver(update).observe(widget);
-  sliders.set(widget, update);
-  update();
-}
 
 function sync(block) {
   let heading = block.querySelector('.ts-instagram__heading');
@@ -103,7 +55,13 @@ function sync(block) {
   }
   empty.hidden = items.length > 0;
   block.dataset.tsFeedCount = String(items.length);
-  setupSlider(block);
+  setupHorizontalSlider(block, {
+    widgetSelector: SEL.instagramWidget,
+    itemSelector: SEL.instagramItem,
+    prefix: 'ts-instagram',
+    previousLabel: TEXTS.instagram.previous,
+    nextLabel: TEXTS.instagram.next,
+  });
 }
 
 function refresh() {

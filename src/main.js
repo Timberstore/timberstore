@@ -15,6 +15,7 @@ import productTextCleanup from './modules/product-text-cleanup/index.js';
 import categoryFilterCompact from './modules/category-filter-compact/index.js';
 import footerMenu from './modules/footer-menu/index.js';
 import footerContacts from './modules/footer-contacts/index.js';
+import partnersSlider from './modules/partners-slider/index.js';
 import instagram from './modules/instagram/index.js';
 import footerPayments from './modules/footer-payments/index.js';
 import emptyCart from './modules/empty-cart/index.js';
@@ -32,6 +33,7 @@ start([
   footerContacts,
   footerMenu,
   instagram,
+  partnersSlider,
   cartPresentation,
   orderDetail,
   informationMessage,
