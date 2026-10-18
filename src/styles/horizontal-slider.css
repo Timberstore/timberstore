@@ -34,6 +34,7 @@
 }
 .ts-rail--paged .ts-rail__viewport > .swiper-wrapper {
   display: flex;
+  flex-flow: row nowrap;
   gap: 0;
   overflow: visible;
   scroll-snap-type: none;

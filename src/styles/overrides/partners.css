@@ -49,6 +49,7 @@
   }
   .service-block .ts-service__slider .service-group .service__item:nth-child(n) {
     display: flex;
+    flex: 0 0 auto;
     width: 100%;
     max-width: none;
     min-width: 0;
@@ -78,5 +79,18 @@
     min-height: 44px;
     font-size: 14px;
     padding: 12px 24px;
+  }
+}
+
+/* Apollo's service selector is more specific than the shared rail rule. */
+@media (max-width: 767px) {
+  .service-block.services-more-then-two .ts-service__slider .ts-rail__viewport > .service-group,
+  .service-block .ts-service__slider .ts-rail__viewport > .service-group,
+  .partners-block .ts-partners__slider .ts-rail__viewport > .partners-group {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0;
+    overflow: visible;
+    scroll-snap-type: none;
   }
 }

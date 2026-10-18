@@ -29,6 +29,7 @@ export function setupHorizontalSlider(
     viewport.append(widget);
     stage.classList.add('ts-rail--paged');
     controls.className = `${prefix}__controls ts-rail__dots`;
+    controls.hidden = arrows;
     const items = [...widget.querySelectorAll(itemSelector)];
     const originals = [widget, ...items].map((element) => [element, element.getAttribute('style')]);
     widget.classList.add('swiper-wrapper');
@@ -55,7 +56,7 @@ export function setupHorizontalSlider(
       slidesPerGroup: arrows ? 1 : count,
       freeMode: false,
       navigation,
-      pagination: {
+      pagination: arrows ? false : {
         el: controls,
         clickable: true,
         renderBullet(index, className) {
