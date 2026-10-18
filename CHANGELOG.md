@@ -1,3 +1,9 @@
+## Preview follow-up · 2026-10-18 · side arrows and regular contact text
+
+- Move Instagram navigation beside the image rail, vertically centered: 52px arrows on tablet/desktop, 44px on mobile. Preserve 6/3/2 visible posts, lazy source hydration and both navigation directions.
+- Contact heading remains bold; email, phone, hours and Napíšte nám text now use regular 400 weight. Other footer headings are unchanged.
+- Lint/build pass: CSS 23.13 KiB / 23.25, JS 29.19 KiB / 30. Preview only; no production deployment.
+
 ## Preview follow-up · 2026-10-18 · Instagram slider and footer actions
 
 - Fix blank native feed cards: promote Shoptet data-src/data-src-retina before setting loading=lazy, and handle delayed source attributes. Previously our loading attribute could exclude the image from Shoptet img:not([loading]) unveil processing.

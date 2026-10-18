@@ -36,7 +36,10 @@ function setupSlider(block) {
     });
     controls.append(button);
   }
-  block.append(controls);
+  const stage = document.createElement('div');
+  stage.className = 'ts-instagram__slider';
+  widget.before(stage);
+  stage.append(widget, controls);
   const update = () => {
     const max = Math.max(0, widget.scrollWidth - widget.clientWidth);
     previous.disabled = widget.scrollLeft <= 1;

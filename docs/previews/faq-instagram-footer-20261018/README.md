@@ -44,3 +44,9 @@ Root cause of blank cards identified in our previous code: assigning `loading=la
 Footer: native Apollo 25px button radius, existing /kontakty destination, Slovak Napíšte nám label, white foreground, button before social links in a compact flex row. Hours now use the same 16px/600/1.4 typography as mail/phone. No new availability rules.
 
 Build/lint passed: CSS 23.05 KiB / 23.25 KiB, JS 29.17 KiB / 30 KiB. Added CSS allowance applies only to the existing preview build mode, per previously recorded client authorization; production budgets remain unchanged. Live six-width footer checks and local data-src/slider results accompany this report.
+
+## Client follow-up — side arrows and regular contact text
+
+Large arrows now sit outside the image rail on its left/right edges, centered vertically on the photographs. Grid shell keeps arrows within page bounds, including 320px phones. Desktop/tablet arrow diameter 52px, mobile 44px. Six/three/two visible posts and all supplied additional items remain accessible. Contact heading stays 700; contact email, phone, hours and button text are 400. The other footer column headings retain their existing bold style.
+
+Lint/build: CSS 23.13 KiB / 23.25; JS 29.19 KiB / 30. Six-width local slider checks assert side placement, vertical centers, arrow size, source loading, both directions and no document overflow. Live Apollo footer checks assert regular contact text, bold headings, preserved destinations and no horizontal overflow. Results: `side-arrows-verification.json`, `footer-normal-weight.json`.

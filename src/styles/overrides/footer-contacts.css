@@ -43,7 +43,7 @@
   max-width: 100%;
   color: var(--ts-color-controls-text);
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.4;
 }
 #footer .ts-footer-contacts .contact-box .tel a {
@@ -96,7 +96,7 @@
   gap: var(--ts-space-2);
   padding: 0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.4;
   white-space: normal;
 }
@@ -124,7 +124,7 @@
   background: var(--ts-color-accent);
   border-color: var(--ts-color-accent);
   color: var(--ts-color-bg);
-  font-weight: 700;
+  font-weight: 400;
 }
 #footer .ts-footer-contacts a.btn:hover,
 #footer .ts-footer-contacts a.btn:focus-visible {

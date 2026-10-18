@@ -1,0 +1,220 @@
+{
+  "scope": "Live Shoptet/Apollo HTML and scripts in fresh Chromium with local preview CSS/JS substituted; tracking providers blocked by harness; cookies rejected; native Instagram widget absent.",
+  "results": [
+    {
+      "width": 320,
+      "overflow": false,
+      "faqRadius": "22px",
+      "tabRadius": "0px",
+      "headingLink": "https://www.instagram.com/timberstore.sk/",
+      "feed": "0",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "hours": "PO – PIA (08:00 – 16:00)",
+      "form": "/kontakty",
+      "icons": 4,
+      "buttonColor": "rgb(255, 255, 255)",
+      "socialSize": "26px",
+      "rowHeight": 32.390625,
+      "contactWeights": [
+        "400",
+        "400",
+        "400",
+        "400"
+      ],
+      "hoursFont": "16px",
+      "contactFont": "16px",
+      "buttonText": "Napíšte nám",
+      "buttonRadius": "25px",
+      "actionRow": true,
+      "headingWeights": [
+        "700",
+        "700",
+        "700",
+        "700"
+      ]
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "faqRadius": "22px",
+      "tabRadius": "0px",
+      "headingLink": "https://www.instagram.com/timberstore.sk/",
+      "feed": "0",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "hours": "PO – PIA (08:00 – 16:00)",
+      "form": "/kontakty",
+      "icons": 4,
+      "buttonColor": "rgb(255, 255, 255)",
+      "socialSize": "26px",
+      "rowHeight": 32.390625,
+      "contactWeights": [
+        "400",
+        "400",
+        "400",
+        "400"
+      ],
+      "hoursFont": "16px",
+      "contactFont": "16px",
+      "buttonText": "Napíšte nám",
+      "buttonRadius": "25px",
+      "actionRow": true,
+      "headingWeights": [
+        "700",
+        "700",
+        "700",
+        "700"
+      ]
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "faqRadius": "22px",
+      "tabRadius": "0px",
+      "headingLink": "https://www.instagram.com/timberstore.sk/",
+      "feed": "0",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "hours": "PO – PIA (08:00 – 16:00)",
+      "form": "/kontakty",
+      "icons": 4,
+      "buttonColor": "rgb(255, 255, 255)",
+      "socialSize": "26px",
+      "rowHeight": 54.78125,
+      "contactWeights": [
+        "400",
+        "400",
+        "400",
+        "400"
+      ],
+      "hoursFont": "16px",
+      "contactFont": "16px",
+      "buttonText": "Napíšte nám",
+      "buttonRadius": "25px",
+      "actionRow": true,
+      "headingWeights": [
+        "700",
+        "700",
+        "700",
+        "700"
+      ]
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "faqRadius": "22px",
+      "tabRadius": "0px",
+      "headingLink": "https://www.instagram.com/timberstore.sk/",
+      "feed": "0",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "hours": "PO – PIA (08:00 – 16:00)",
+      "form": "/kontakty",
+      "icons": 4,
+      "buttonColor": "rgb(255, 255, 255)",
+      "socialSize": "26px",
+      "rowHeight": 54.78125,
+      "contactWeights": [
+        "400",
+        "400",
+        "400",
+        "400"
+      ],
+      "hoursFont": "16px",
+      "contactFont": "16px",
+      "buttonText": "Napíšte nám",
+      "buttonRadius": "25px",
+      "actionRow": true,
+      "headingWeights": [
+        "700",
+        "700",
+        "700",
+        "700"
+      ]
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "faqRadius": "22px",
+      "tabRadius": "0px",
+      "headingLink": "https://www.instagram.com/timberstore.sk/",
+      "feed": "0",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "hours": "PO – PIA (08:00 – 16:00)",
+      "form": "/kontakty",
+      "icons": 4,
+      "buttonColor": "rgb(255, 255, 255)",
+      "socialSize": "26px",
+      "rowHeight": 32.390625,
+      "contactWeights": [
+        "400",
+        "400",
+        "400",
+        "400"
+      ],
+      "hoursFont": "16px",
+      "contactFont": "16px",
+      "buttonText": "Napíšte nám",
+      "buttonRadius": "25px",
+      "actionRow": true,
+      "headingWeights": [
+        "700",
+        "700",
+        "700",
+        "700"
+      ]
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "faqRadius": "22px",
+      "tabRadius": "0px",
+      "headingLink": "https://www.instagram.com/timberstore.sk/",
+      "feed": "0",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "hours": "PO – PIA (08:00 – 16:00)",
+      "form": "/kontakty",
+      "icons": 4,
+      "buttonColor": "rgb(255, 255, 255)",
+      "socialSize": "26px",
+      "rowHeight": 32.390625,
+      "contactWeights": [
+        "400",
+        "400",
+        "400",
+        "400"
+      ],
+      "hoursFont": "16px",
+      "contactFont": "16px",
+      "buttonText": "Napíšte nám",
+      "buttonRadius": "25px",
+      "actionRow": true,
+      "headingWeights": [
+        "700",
+        "700",
+        "700",
+        "700"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "excludedExternal": "https://scripts.luigisbox.tech/LBX-1266949.js"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6"
+    },
+    {
+      "excludedExternal": "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7"
+    },
+    {
+      "excludedExternal": "https://bat.bing.com/bat.js"
+    },
+    {
+      "pageError": "Cannot read properties of undefined (reading 'top')"
+    }
+  ]
+}
