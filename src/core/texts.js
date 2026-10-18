@@ -1,5 +1,6 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  warehouseAvailability: { local: 'SKLADOM', central: 'CENTRÁLNY SKLAD' },
   order: {
     free: 'ZADARMO',
     cancelled: ['Zrušená', 'Stornovaná', 'Zrušená objednávka', 'Stornovaná objednávka'],
