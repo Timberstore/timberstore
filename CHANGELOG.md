@@ -2,6 +2,8 @@
 
 ## Rozpracované opravy nad v0.6.12 · 2026-10-18
 
+- Aktívna oranžová kategória FAQ má biely text aj po opakovanom prepínaní; ostatné kategórie a obsah zachované.
+
 - Následné zadanie: na mobile Instagram opäť nad kontaktom; zhodné vizuálne aj DOM poradie, desktop zachovaný.
 
 - Odstránená voľná mobilná šípka skrytého desktopového košíka; prázdny mobilný popup má oranžovú ikonu nad vycentrovaným textom.
