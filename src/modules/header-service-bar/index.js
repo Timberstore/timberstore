@@ -162,7 +162,7 @@ function onBreakpoint() {
   schedulePosition();
 }
 
-function updateHours() {
+export function updateHours() {
   const open = String(isBusinessOpen());
   const status = open === 'true' ? TEXTS.header.open : TEXTS.header.closed;
   for (const hours of document.querySelectorAll('.ts-service-bar__hours')) {
@@ -173,7 +173,7 @@ function updateHours() {
   }
 }
 
-function addHours(contacts) {
+export function addHours(contacts) {
   if (contacts.querySelector('.ts-service-bar__hours')) return;
   const hours = document.createElement('span');
   hours.className = 'ts-service-bar__hours';

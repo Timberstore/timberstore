@@ -13,6 +13,8 @@ import menuCardClick from './modules/menu-card-click/index.js';
 import sidebarActivePath from './modules/sidebar-active-path/index.js';
 import productTextCleanup from './modules/product-text-cleanup/index.js';
 import categoryFilterCompact from './modules/category-filter-compact/index.js';
+import footerContacts from './modules/footer-contacts/index.js';
+import instagram from './modules/instagram/index.js';
 import footerPayments from './modules/footer-payments/index.js';
 import emptyCart from './modules/empty-cart/index.js';
 import mobileCategoryControls from './modules/mobile-category-controls/index.js';
@@ -26,6 +28,8 @@ import orderDetail from './modules/order-detail/index.js';
 // qty-picker before cart-count: the badge goes into the button the qty field sits next to.
 start([
   headerServiceBar,
+  footerContacts,
+  instagram,
   cartPresentation,
   orderDetail,
   informationMessage,

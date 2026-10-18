@@ -1,3 +1,9 @@
+## Preview · 2026-10-18 · FAQ, Instagram, footer contacts
+
+- Continue product-detail preview only: unify FAQ clipping, replace compact Instagram strip with six-card responsive layout and linked heading, improve existing footer anchors/icons and reuse header opening-hours logic.
+- Native Instagram data currently absent in anonymous live HTML/DOM; no fabricated posts. Integration restoration and six live permalink checks remain pending. Details: `docs/previews/faq-instagram-footer-20261018/README.md`.
+- Lint/build passed within existing preview budgets; six-width Chromium fixture and eight timezone/boundary checks passed. No production loader, merge, tag or release.
+
 # Changelog
 
 Formát: verze · datum · karty · co se změnilo · PageSpeed mobil před/po.

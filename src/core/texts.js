@@ -1,5 +1,13 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  instagram: {
+    title: 'SLEDUJTE NÁS NA INSTAGRAME',
+    unavailable: 'Instagram galéria momentálne nie je dostupná. Príspevky nájdete na našom profile.',
+  },
+  footer: {
+    email: 'info@timberstore.sk',
+    phone: '+421 904 479 842',
+  },
   productDetail: {
     purchase: 'Nákup produktu',
     vat: 's DPH',
