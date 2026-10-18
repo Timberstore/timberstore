@@ -1,3 +1,8 @@
+## Preview follow-up · 2026-10-18 · compact footer
+
+- Reduce contact rows to 32px, social marks to 26px and remove excess row/hour/button margins. Align footer column headings with matching 700 weight, including information, payments and popular links. Restore white contact-form button text in normal/hover/focus states.
+- Changes limited to the existing footer stylesheet and generated build; no production loader, merge or release. Lint/build pass: CSS 22.87 KiB / 23, JS 28.63 KiB / 30.
+
 ## Preview · 2026-10-18 · FAQ, Instagram, footer contacts
 
 - Continue product-detail preview only: unify FAQ clipping, replace compact Instagram strip with six-card responsive layout and linked heading, improve existing footer anchors/icons and reuse header opening-hours logic.

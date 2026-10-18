@@ -28,3 +28,9 @@ Pending: restore/verify actual Instagram feed and each of its six post destinati
 ## Changed source owners
 
 `src/legacy/timber-custom-v175.css`, `src/styles/overrides/instagram.css`, `src/styles/overrides/footer-contacts.css`, `src/modules/instagram/index.js`, `src/modules/footer-contacts/index.js`, `src/modules/header-service-bar/index.js` (exports only), `src/core/selectors.js`, `src/core/texts.js`, `src/styles/tokens.css` (social brand tokens only), `src/main.js`, `src/main.css`; generated `dist` assets and this preview documentation/changelog.
+
+## Client correction — compact footer
+
+18 October follow-up: contact rows reduced from 44px plus margins to 32px without extra row margins; contact icons 20px, social marks 26px (previously 36px), social links 32px, button top gap 8px. Hours text aligns with the email/phone text, with the availability dot after the hours. Contact button foreground is white in normal, hover and focus states. All four existing column headings use weight 700 and matching lower spacing. FAQ, Instagram, header/cart/product behavior remain unchanged. Changes edit the existing footer CSS owner rather than adding another override layer.
+
+Lint/build and whitespace checks pass; CSS 22.87 KiB / 23 KiB, JS 28.63 KiB / 30 KiB. Live Chromium responsive verification also checks computed white button text, 26px social marks, 32px rows and all four 700-weight headings. Full measurements: `footer-compact-responsive.json`.

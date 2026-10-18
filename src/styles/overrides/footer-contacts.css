@@ -1,8 +1,12 @@
 /* Footer only: preserve native contact form and configured social destinations. */
-#footer .custom-footer__contact.ts-footer-contacts .pageElement__heading {
+/* Match all four existing footer column headings, including the custom banner. */
+#footer .custom-footer__contact .pageElement__heading,
+#footer .custom-footer__articles .pageElement__heading,
+#footer .custom-footer__onlinePayments .pageElement__heading,
+#footer .custom-footer__banner7 h4 {
   margin-bottom: var(--ts-space-3);
-  font-weight: 800;
-  letter-spacing: 0.04em;
+  font-weight: 700;
+  letter-spacing: normal;
   text-transform: uppercase;
 }
 #footer .ts-footer-contacts .contact-box {
@@ -10,11 +14,12 @@
 }
 #footer .ts-footer-contacts .contact-box > ul {
   padding: 0;
-  margin: var(--ts-space-2) 0;
+  margin: 0;
   list-style: none;
 }
 #footer .ts-footer-contacts .contact-box > ul > li {
-  margin: 0 0 var(--ts-space-2);
+  margin: 0;
+  padding-block: 0;
 }
 #footer .ts-footer-contacts .contact-box .mail,
 #footer .ts-footer-contacts .contact-box .tel,
@@ -33,8 +38,8 @@
 #footer .ts-footer-contacts .contact-box .ts-footer-contacts__social {
   display: inline-flex;
   align-items: center;
-  gap: var(--ts-space-3);
-  min-height: 44px;
+  gap: var(--ts-space-2);
+  min-height: 32px;
   max-width: 100%;
   color: var(--ts-color-controls-text);
   font-size: 16px;
@@ -48,9 +53,9 @@
   overflow-wrap: anywhere;
 }
 #footer .ts-footer-contacts .ts-footer-contacts__icon {
-  flex: 0 0 24px;
-  width: 24px;
-  height: 24px;
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
   color: var(--ts-color-accent);
   stroke: currentColor;
   stroke-width: 1.8;
@@ -59,10 +64,10 @@
   fill: none;
 }
 #footer .ts-footer-contacts .ts-footer-contacts__social .ts-footer-contacts__icon {
-  flex-basis: 36px;
-  width: 36px;
-  height: 36px;
-  padding: 7px;
+  flex-basis: 26px;
+  width: 26px;
+  height: 26px;
+  padding: 5px;
   border-radius: var(--ts-radius-controls);
   color: var(--ts-color-bg);
 }
@@ -79,44 +84,56 @@
   color: var(--ts-color-action-hover);
 }
 #footer .ts-footer-contacts .ts-footer-contacts__hours {
-  margin-block: var(--ts-space-3);
+  margin-block: 0;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
 }
 #footer .ts-footer-contacts .ts-footer-contacts__hours .ts-service-bar__hours {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: var(--ts-space-2);
+  padding: 0;
   font-size: 13px;
   white-space: normal;
 }
 #footer .ts-footer-contacts .ts-footer-contacts__hours .ts-service-bar__hours::before {
   content: '◷';
+  position: static;
+  transform: none;
+  flex: 0 0 20px;
   color: var(--ts-color-accent);
-  font-size: 24px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
 }
 #footer .ts-footer-contacts .ts-service-bar__status {
   flex-shrink: 0;
+  order: 1;
 }
 #footer .ts-footer-contacts a.btn {
   display: inline-flex;
   align-items: center;
-  min-height: 44px;
+  min-height: 40px;
+  margin-top: var(--ts-space-2);
   border-radius: var(--ts-radius-controls);
   background: var(--ts-color-accent);
   border-color: var(--ts-color-accent);
-  color: var(--ts-color-text);
+  color: var(--ts-color-bg);
   font-weight: 700;
 }
 #footer .ts-footer-contacts a.btn:hover,
 #footer .ts-footer-contacts a.btn:focus-visible {
   background: var(--ts-color-controls-active);
   border-color: var(--ts-color-controls-active);
-  color: var(--ts-color-text);
+  color: var(--ts-color-bg);
 }
 
 #footer .ts-footer-contacts .contact-box-icon-list {
   display: flex;
-  gap: var(--ts-space-3);
+  gap: var(--ts-space-2);
+  margin-block: var(--ts-space-1);
   align-items: center;
 }
 #footer .ts-footer-contacts .contact-box-icon-list > li {
@@ -125,6 +142,6 @@
   padding: 0;
 }
 #footer .ts-footer-contacts .contact-box-icon-list .ts-footer-contacts__social {
-  width: 44px;
-  height: 44px;
+  width: 32px;
+  height: 32px;
 }
