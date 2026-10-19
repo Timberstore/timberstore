@@ -99,10 +99,12 @@ export const SEL = {
   productMetadataValue:
     ':scope > [data-micro="sku"], :scope > span:not(.p-code-label):not(.ts-product-meta__label)',
   productMetadataLabel: ':scope > .p-code-label, :scope > .ts-product-meta__label',
+  productPriceNumber:
+    '.p-detail .price-final-holder, body:not(.ordering-process) .content-wrapper .price-final > strong',
   productTextDetailAreas:
-    '.p-detail-inner-header h1, .p-detail h1, .product-top h1, h1[itemprop="name"], .p-short-description, .description-inner, .basic-description, .p-detail-tabs',
+    ':is(.p-detail-inner-header, .p-detail, .product-top) h1, h1[itemprop="name"], .p-short-description, .description-inner, .basic-description, .p-detail-tabs, .p-detail .price-final-holder',
   productTextCards:
-    '.products-block .product, .products-block .p, .products .product, .products .p, .product[data-micro="product"], .p[data-micro="product"]',
+    ':is(.products-block, .products) :is(.product, .p), :is(.product, .p)[data-micro="product"]',
   categoryFilterBar: '#category-filter-hover',
   categoryFilterItem: '.slider-wrapper, .filter-section:not(.filter-section-count)',
   categoryFilterHeading: ':scope > h4',

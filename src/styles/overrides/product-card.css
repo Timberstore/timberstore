@@ -96,10 +96,27 @@ body
    Important wrapping rules beat Apollo/legacy emergency word breaking. */
 .p-detail :is(h1, .p-info-headline > .h1),
 body:not(.ordering-process) #content :is(.products, .products-block, .products-top) .name {
-  text-transform: uppercase;
+  text-transform: none;
   word-break: normal !important;
   overflow-wrap: normal !important;
   hyphens: none;
   white-space: normal;
   overflow-x: auto;
+}
+
+/* Numeric amount only, never currency, units, net price or cart totals. */
+.ts-price-number {
+  display: contents;
+  color: var(--ts-color-blue);
+}
+/* Native configured flag has an inline background; keep its geometry. */
+.flag-komplet {
+  background-color: var(--ts-color-accent) !important;
+}
+@media (max-width: 767px) {
+  body:not(.ordering-process) #content .product .availability {
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+  }
 }

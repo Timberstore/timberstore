@@ -1,20 +1,16 @@
 /* PD Compact · Only Apollo's existing right-hand detail panel. Its columns,
    gallery, variant cards, native form and availability logic stay intact. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
-  --ts-compact-info-gap: 9px;
+#content [data-ts-compact] {
   display: flex;
   flex-direction: column;
   min-width: 0;
   padding: 0 var(--ts-compact-padding);
 }
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  > :is(.p-info-headline, .p-short-description-block) {
+#content [data-ts-compact] > .p-short-description-block {
   margin-bottom: 12px;
 }
 /* Native title metrics; presentation/wrapping is shared in product-card.css. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] h1 {
+#content [data-ts-compact] h1 {
   font-size: 32px;
   line-height: 1.25;
   margin: 0 0 var(--ts-space-2);
@@ -31,22 +27,19 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] h1 {
   justify-content: center;
   gap: 8px 16px;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-grid {
+#content [data-ts-compact] .p-info-grid {
   display: flex;
   flex-direction: column;
-  gap: var(--ts-compact-info-gap);
+  gap: 9px;
   margin: 0 calc(-1 * var(--ts-compact-grid-gutter)) 12px;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-grid-item {
+#content [data-ts-compact] .detail-grid-item {
   width: 100%;
   min-width: 0;
   margin: 0;
   padding: 0 var(--ts-compact-grid-gutter);
 }
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  :is(.detail-grid-title, .delivery-time-label, .shipping-options) {
+#content [data-ts-compact] :is(.detail-grid-title, .delivery-time-label, .shipping-options) {
   font-size: 14px;
   font-weight: 500;
   line-height: 19px;
@@ -57,51 +50,45 @@ body.type-detail
 
 /* Apollo gives even an empty unit-price line a 10px top margin. Keep real
    unit-price content and its native node, but remove that phantom reservation. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-measure {
+#content [data-ts-compact] .price-measure {
   margin-top: 0;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final {
+#content [data-ts-compact] .price-final {
   margin: 0;
   font-size: 28px;
   font-weight: 700;
   line-height: 1.25;
   white-space: nowrap;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final .pr-list-unit {
+#content [data-ts-compact] .price-final .pr-list-unit {
   font-size: 0.57em;
   font-weight: 600;
 }
 
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional::before {
+#content [data-ts-compact] .price-additional::before {
   content: '(';
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional::after {
+#content [data-ts-compact] .price-additional::after {
   content: ' ' attr(data-ts-label) ')';
 }
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  :is(.price-standard, .price-save, .price-measure) {
+#content [data-ts-compact] :is(.price-standard, .price-save, .price-measure) {
   flex-basis: auto;
   order: 2;
 }
 
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-amount {
+#content [data-ts-compact] .availability-amount {
   font-size: 13px;
   font-weight: 400;
 }
 
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  :is(.delivery-time, .shipping-options-block) {
+#content [data-ts-compact] :is(.delivery-time, .shipping-options-block) {
   margin: 0;
   padding: 0;
   font-size: 12px;
   line-height: 1.5;
   background: transparent;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time {
+#content [data-ts-compact] .delivery-time {
   white-space: nowrap;
   font-size: 14px;
   line-height: 19px;
@@ -137,7 +124,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time {
   .p-detail {
     --ts-compact-frame-space: 8px;
   }
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
+  #content [data-ts-compact] {
     --ts-compact-padding: 20px;
   }
 }
@@ -145,75 +132,64 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time {
   .p-detail {
     --ts-compact-frame-space: 18px;
   }
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
+  #content [data-ts-compact] {
     padding-left: 4px;
     padding-right: 16px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
+  #content [data-ts-compact] {
     --ts-compact-padding: 25px;
   }
 }
 /* Apollo leaves an empty table after moving its rows. Exclude empty/hidden-only
    parameter shells from flex gaps, keeping actual parameter rows untouched. */
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .p-info-grid
-  > .detail-parameters:not(:has(tr)),
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .detail-parameters-block:not(:has(tr:not([style*='display: none']))) {
+#content [data-ts-compact] .p-info-grid > .detail-parameters:not(:has(tr)),
+#content [data-ts-compact] .detail-parameters-block:not(:has(tr:not([style*='display: none']))) {
   display: none;
 }
 
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links {
+#content [data-ts-compact] .ts-product-links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: var(--ts-space-2) var(--ts-space-3);
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links > * {
+#content [data-ts-compact] .ts-product-links > * {
   margin: 0;
   padding: 0;
   border: 0;
 }
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .ts-product-links
-  .social-buttons-wrapper {
+#content [data-ts-compact] .ts-product-links .social-buttons-wrapper {
   margin-left: auto;
   width: auto;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links .link-icons {
+#content [data-ts-compact] .ts-product-links .link-icons {
   display: flex;
   flex-wrap: wrap;
   gap: var(--ts-space-2);
   margin: 0;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links .link-icon {
+#content [data-ts-compact] .ts-product-links .link-icon {
   margin: 0;
   font-size: 12px;
 }
 
 /* PD Final Polish / phase 2: cart-style shell around native quantity controls.
    Keep min/max/step, tooltips, input, button nodes and all native handlers. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart {
+#content [data-ts-compact] .add-to-cart {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
 }
 /* Shared quantity-control.css supplies the mini-cart's existing appearance. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .quantity {
+#content [data-ts-compact] .add-to-cart .quantity {
   margin: 0;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to-cart-button {
+#content [data-ts-compact] .add-to-cart .add-to-cart-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -221,7 +197,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to
   flex: 1 1 210px;
   min-width: min(210px, 100%);
   min-height: 48px;
-  margin: 0;
+  margin: 0 4px 0 0;
   padding: 12px 20px;
   font-size: 16px;
   line-height: 1.4;
@@ -231,7 +207,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to
 /* PD Final Polish / phase 4: only the existing mobile expansion button.
    Desktop styling, image cards, order, active marker and handlers stay native. */
 @media (max-width: 767px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsShowMore {
+  #content [data-ts-compact] .friendsShowMore {
     flex-basis: 100%;
     width: auto;
     max-width: 100%;
@@ -245,48 +221,44 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to
     font-size: 14px;
     font-weight: 600;
   }
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsShowMore:focus-visible {
+  #content [data-ts-compact] .friendsShowMore:focus-visible {
     outline: 2px solid var(--ts-compact-blue);
     outline-offset: 2px;
   }
 }
 
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery .delivery-time {
+#content [data-ts-compact] .ts-product-delivery .delivery-time {
   color: var(--ts-color-positive);
   font-weight: 600;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart-button::after {
+#content [data-ts-compact] .add-to-cart-button::after {
   flex: 0 0 auto;
   margin: 0;
 }
 @media (min-width: 768px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart {
-    gap: 22px;
+  #content [data-ts-compact] .add-to-cart {
+    gap: 24px;
   }
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to-cart-button {
-    flex: 0 1 330px;
+  #content [data-ts-compact] .add-to-cart .add-to-cart-button {
+    margin-right: 8px;
   }
 }
 
 /* Native purchasing information, grouped without cloning or moving any block
    outside its Apollo grid/form. Intrinsic column widths provide a safe fallback
    for narrow screens and long prices; native amounts/units are never shrunk. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-info {
+#content [data-ts-compact] .ts-product-purchase-info {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: var(--ts-space-3) 20px;
 }
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .ts-product-purchase-info
-  > .detail-grid-item {
+#content [data-ts-compact] .ts-product-purchase-info > .detail-grid-item {
   flex: 1 1 0;
   max-width: 100%;
   padding: 0;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-availability-block {
+#content [data-ts-compact] .detail-availability-block {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-items: start;
@@ -294,21 +266,19 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-availability
   order: 0;
   min-width: min(150px, 100%);
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-value {
-  grid-column: 1;
+#content [data-ts-compact] .availability-value {
   margin: 0;
   text-align: left;
   font-size: 14px;
   line-height: 19px;
   --ts-stock-font-size: 14px;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block {
+#content [data-ts-compact] .delivery-time-block {
   display: block;
   align-self: start;
-  grid-column: 1;
   margin-top: 3px;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block > td {
+#content [data-ts-compact] .delivery-time-block > td {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -318,27 +288,24 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block
   margin: 0;
   flex-direction: column;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery {
+#content [data-ts-compact] .ts-product-delivery {
   display: inline-flex;
   align-items: flex-start;
   gap: 3px;
   color: var(--ts-color-text);
   flex-direction: column;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options {
+#content [data-ts-compact] .shipping-options {
   color: var(--ts-compact-blue);
   display: inline-block;
 }
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  :is(.detail-price-block, .p-final-price-wrapper) {
+#content [data-ts-compact] :is(.detail-price-block, .p-final-price-wrapper) {
   display: flex;
   min-width: 0;
   align-items: center;
   flex-direction: column;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block {
+#content [data-ts-compact] .detail-price-block {
   gap: 3px;
   min-width: min-content;
   order: 1;
@@ -346,14 +313,14 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block 
   text-align: center;
 }
 
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional {
+#content [data-ts-compact] .price-additional {
   margin: 3px 0 0;
   font-size: 13px;
   line-height: 1.5;
   color: var(--ts-color-price-secondary);
   white-space: nowrap;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final-holder {
+#content [data-ts-compact] .price-final-holder {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -363,7 +330,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final-holder 
 }
 
 /* One bounded purchase surface, within the original product form/grid. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
+#content [data-ts-compact] .ts-product-purchase-panel {
   order: 2;
   width: 100%;
   margin: 0;
@@ -372,24 +339,20 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase
   border-radius: 14px;
   background: var(--ts-compact-purchase-bg);
 }
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .ts-product-purchase-panel
-  > .add-to-cart {
+#content [data-ts-compact] .ts-product-purchase-panel > .add-to-cart {
   margin: var(--ts-compact-section) 0 0;
 }
 
 @media (max-width: 767px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
+  #content [data-ts-compact] .ts-product-purchase-panel {
     padding: 12px;
   }
 }
 @media (max-width: 374px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
+  #content [data-ts-compact] {
     --ts-compact-radius: 14px;
   }
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
+  #content [data-ts-compact] .ts-product-purchase-panel {
     padding: 10px;
   }
 }
@@ -407,10 +370,10 @@ body.type-detail
   margin-top: 0;
   width: calc(100% + 2 * var(--ts-compact-grid-gutter));
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection {
+#content [data-ts-compact] .friendsSection {
   margin-bottom: 0;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection > .h3 {
+#content [data-ts-compact] .friendsSection > .h3 {
   color: var(--ts-color-accent);
   margin-bottom: 10px;
   text-align: center;
@@ -443,7 +406,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection > .h
   background: var(--ts-color-positive) !important;
 }
 @media (min-width: 1200px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection {
+  #content [data-ts-compact] .friendsSection {
     margin-bottom: 12px;
   }
   .type-detail .p-image-wrapper .p-thumbnails-wrapper {
@@ -472,4 +435,9 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection > .h
 .p-detail .friendsSection > .h3::before,
 .p-detail .friendsSection > .h3::after {
   content: none;
+}
+
+/* Native right-hand headline is visible only in Apollo's desktop layout. */
+#content [data-ts-compact] > .p-info-headline {
+  margin-bottom: 24px;
 }

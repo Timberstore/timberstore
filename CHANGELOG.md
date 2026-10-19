@@ -1,5 +1,12 @@
 # Changelog
 
+## PD Price, Stock & Feed-Case Polish · 2026-10-19 · Preview only
+
+- Restore product titles to native feed case while retaining centring and whole-word wrapping.
+- Increase desktop header separation to 24 px, balance native CTA spacing, colour only final-price numeric amounts #2454A6, centre mobile stock label/quantity rows and use the existing orange for KOMPLET.
+- Preserve native price/currency/unit/stock/form data and handlers; reuse the existing observer for idempotent amount presentation and dynamic text updates.
+- [Responsive measurements, native tests, screenshots, changed files and limits](docs/previews/product-price-stock-polish/README.md). Same preview branch; no merge, release or production deployment.
+
 ## PD UI & Gallery Final Refinement · 2026-10-19 · Preview only
 
 - Centre uppercase product titles and native code/brand groups without changing title metrics; share whole-word product presentation across catalogue/search/related cards, excluding cart/checkout.

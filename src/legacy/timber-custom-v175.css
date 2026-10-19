@@ -1020,13 +1020,6 @@ html {
     scrollbar-gutter: stable !important;
 }
 
-/* Nová stránka sa sprístupní až po zostavení DOM. Triedu pridáva malý
-   jednorazový skript v HEAD a potom ju už iba odstráni. Nepoužíva sa
-   nestabilná Shoptet trieda .after-load. */
-html.timber-page-loading body {
-    visibility: hidden !important;
-}
-
 /* Prehliadač počas navigácie podrží hotovú snímku pôvodnej stránky. */
 @view-transition {
     navigation: auto;
