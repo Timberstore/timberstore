@@ -5,10 +5,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  position: relative;
-  background: var(--ts-color-white, white);
-  padding: var(--ts-compact-frame-space) calc(var(--ts-compact-padding) - var(--ts-compact-shift))
-    var(--ts-compact-frame-space) calc(var(--ts-compact-padding) + var(--ts-compact-shift));
+  padding: 0 var(--ts-compact-padding);
 }
 body.type-detail
   .p-detail
@@ -25,7 +22,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] h1 {
   white-space: normal;
   max-width: 100%;
   overflow-x: auto;
-  font-size: 26px;
+  font-size: 32px;
   line-height: 1.25;
   margin: 0 0 var(--ts-space-2);
 }
@@ -129,14 +126,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time {
   font-size: 14px;
 }
 
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart {
-  margin-top: 0;
-}
-@media (min-width: 768px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] h1 {
-    font-size: 32px;
-  }
-}
 @media (max-width: 374px) {
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
     --ts-compact-radius: 14px;
@@ -160,21 +149,18 @@ body.type-detail .p-detail .p-detail-inner-header :is(h1, .h1) {
   }
 }
 
-/* Draw the shared frame outside Apollo's negative grid gutters. It consumes no
-   width and cannot change percentage-based variant cards or intercept clicks. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
+/* Frame only the purchasing body. Header/native metadata remain outside it.
+   Card gutters and native form association are unchanged. */
+.ts-product-detail-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: var(--ts-compact-frame-space) 0;
+}
+.ts-product-detail-panel::before {
   content: '';
   position: absolute;
-  inset: 0
-    calc(
-      var(--ts-compact-padding) - var(--ts-compact-grid-gutter) - var(--ts-compact-frame-space) -
-        var(--ts-compact-shift)
-    )
-    0
-    calc(
-      var(--ts-compact-padding) - var(--ts-compact-grid-gutter) - var(--ts-compact-frame-space) +
-        var(--ts-compact-shift)
-    );
+  inset: 0 calc(-1 * (var(--ts-compact-grid-gutter) + var(--ts-compact-frame-space)));
   border: 1px solid var(--ts-compact-border);
   border-radius: var(--ts-compact-radius);
   pointer-events: none;
@@ -186,20 +172,21 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
 }
 @media (min-width: 480px) and (max-width: 767px) {
   body.type-detail .p-detail {
-    --ts-compact-frame-space: 12px;
-    --ts-compact-shift: 7px;
+    --ts-compact-frame-space: 5px;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   body.type-detail .p-detail {
-    --ts-compact-frame-space: 15px;
-    --ts-compact-shift: 7.5px;
+    --ts-compact-frame-space: 8px;
   }
 }
 @media (min-width: 1200px) {
   body.type-detail .p-detail {
     --ts-compact-frame-space: 18px;
-    --ts-compact-shift: -6px;
+  }
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
+    padding-left: 4px;
+    padding-right: 16px;
   }
 }
 
@@ -376,15 +363,10 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery {
   display: inline-flex;
-  flex-wrap: wrap;
   align-items: flex-start;
   gap: 3px;
   color: var(--ts-color-text);
   flex-direction: column;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options-block {
-  margin-left: 0;
-  align-self: flex-start;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options {
   color: var(--ts-compact-blue);
@@ -453,13 +435,6 @@ body.type-detail
 body.type-detail
   .p-detail
   .p-info-wrapper[data-ts-compact]
-  .ts-product-purchase-info
-  :is(.price-final, .price-standard, .price-save, .price-measure) {
-  text-align: center;
-}
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
   :is(.delivery-time-label, .shipping-options) {
   text-transform: none;
   font-size: 14px;
@@ -483,7 +458,7 @@ body.type-detail
 /* Match the unchanged native card-grid width using normal flex alignment. */
 body.type-detail
   .p-detail
-  .p-info-wrapper[data-ts-compact]
+  :is(.p-info-wrapper[data-ts-compact], .ts-product-detail-panel)
   > :is(.p-info-headline, .p-short-description-block, .ts-product-links, .social-buttons-wrapper),
 body.type-detail .p-detail .p-detail-inner-header > .p-info-headline {
   align-self: center;
@@ -506,10 +481,34 @@ body.type-detail .p-detail .p-short-description-block > :last-child {
 @media (max-width: 1199px) {
   body.type-detail .p-detail .p-detail-inner-header {
     display: grid;
-    grid-template-columns: calc(2 * var(--ts-compact-shift)) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
   }
-  body.type-detail .p-detail .p-detail-inner-header > .p-info-headline {
-    grid-column: 2;
-    width: calc(100% + 2 * (var(--ts-compact-grid-gutter) + var(--ts-compact-shift)));
+}
+
+/* Local gallery controls retain their native circular geometry and handlers. */
+.type-detail .p-thumbnails-arrows a {
+  background: var(--ts-color-bg);
+  color: var(--ts-color-accent);
+}
+.type-detail .p-thumbnails-arrows a::before {
+  color: inherit;
+}
+.type-detail .p-thumbnails-arrows a:hover {
+  background: var(--ts-color-accent);
+  color: var(--ts-color-bg);
+}
+/* Override the native selected-marker cascade locally, without changing its border. */
+body.type-detail .p-detail .friend.active > .p::after {
+  background: var(--ts-color-positive) !important;
+}
+@media (min-width: 1200px) {
+  body.type-detail .p-detail .friendsSection .inner {
+    justify-content: center;
+  }
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection {
+    margin-bottom: 12px;
+  }
+  body.type-detail .p-image-wrapper .p-thumbnails-wrapper {
+    width: calc(100% - 36px);
   }
 }

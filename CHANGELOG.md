@@ -1,5 +1,12 @@
 # Changelog
 
+## PD Mobile Overflow & Gallery Refinement · 2026-10-19 · Preview only
+
+- Fix real mobile layout expansion (390→402 px) at the frame, without global overflow hiding or header changes. Tests now assert requested device width and category/home header geometry.
+- Keep native title/code/brand outside a bounded detail-body frame; preserve original form and node identities.
+- Branded gallery controls with desktop clearance; centred partial desktop variant rows, 12 px extra desktop purchase spacing, green selected marker.
+- [Root cause, 36 responsive comparisons, native interactions, screenshots and known limits](docs/previews/product-mobile-gallery/README.md). Same preview branch; no merge, release or production deployment.
+
 ## PD Panel Insets, Metadata & Variant Heading · 2026-10-19 · Preview only
 
 - Symmetric measured frame insets: 18 px desktop, 15 px tablet, 16 px small mobile, with card/purchase/gallery dimensions retained.

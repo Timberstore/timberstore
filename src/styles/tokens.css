@@ -133,7 +133,6 @@ body {
   --ts-compact-section: 24px;
   --ts-compact-radius: 16px;
   --ts-compact-padding: 10px;
-  --ts-compact-frame-space: 16px;
-  --ts-compact-shift: 6px;
+  --ts-compact-frame-space: 10px;
   --ts-compact-grid-gutter: 10px;
 }

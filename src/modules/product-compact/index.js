@@ -24,9 +24,17 @@ function syncShippingPopup() {
 function observeShippingPopup() {
   if (popupObserver) return;
   popupObserver = new MutationObserver((mutations) => {
-    if (mutations.some((m) => m.target.closest?.(SEL.compactShippingPopup) ||
-      [...m.addedNodes].some((n) => n.nodeType === Node.ELEMENT_NODE &&
-        (n.matches(SEL.compactShippingPopup) || n.querySelector(SEL.compactShippingPopup))))) {
+    if (
+      mutations.some(
+        (m) =>
+          m.target.closest?.(SEL.compactShippingPopup) ||
+          [...m.addedNodes].some(
+            (n) =>
+              n.nodeType === Node.ELEMENT_NODE &&
+              (n.matches(SEL.compactShippingPopup) || n.querySelector(SEL.compactShippingPopup)),
+          ),
+      )
+    ) {
       syncShippingPopup();
     }
   });
@@ -106,6 +114,23 @@ function enhance(info) {
         if (node === price.firstChild) value = value.trimStart();
         if (node === price.lastChild) value = value.trimEnd();
         if (value !== node.nodeValue) node.nodeValue = value;
+      }
+    }
+    // One presentation body inside the native form; leave the headline outside.
+    // Reuse nodes and survive repeated native updates without another wrapper.
+    if (grid) {
+      let panel = info.querySelector('.ts-product-detail-panel');
+      if (!panel) {
+        panel = document.createElement('div');
+        panel.className = 'ts-product-detail-panel';
+        grid.before(panel);
+      }
+      for (const part of [
+        grid,
+        info.querySelector('.ts-product-links'),
+        info.querySelector(SEL.compactSocial),
+      ]) {
+        if (part && part.parentElement !== panel) panel.append(part);
       }
     }
   }
