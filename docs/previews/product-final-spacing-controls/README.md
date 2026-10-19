@@ -74,9 +74,9 @@ No new application regression remains in the tested scope.
 
 Initial checks exposed Apollo's extra 10 px cell margin and a 3.61 px baseline
 shift when delivery wrapped; both were corrected locally. One exploratory
-unit-check attempt ran during Colorbox's close/resize animation and temporarily
-measured its oversized internal wrapper. A separate fresh-page unit test removed
-that measurement ambiguity and passed all five unit samples. Native popup resize
+unit-check attempt ran during Colorbox's close/resize animation and reported
+overflow; it was not an isolated price-layout measurement. A separate fresh-page
+unit test removed that ambiguity and passed all five unit samples. Native popup resize
 and functional checks also passed after the final CSS changes.
 
 ## Files changed
