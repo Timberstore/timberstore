@@ -213,16 +213,16 @@
     max-width: 100%;
     min-height: 44px;
     padding: 10px 20px;
-    border: 1px solid var(--ts-compact-blue);
+    border: 1px solid var(--ts-color-blue);
     border-radius: var(--ts-radius-checkout-panel);
     background: var(--ts-compact-blue-bg);
-    color: var(--ts-compact-blue);
+    color: var(--ts-color-blue);
     box-shadow: none;
     font-size: 14px;
     font-weight: 600;
   }
   #content [data-ts-compact] .friendsShowMore:focus-visible {
-    outline: 2px solid var(--ts-compact-blue);
+    outline: 2px solid var(--ts-color-blue);
     outline-offset: 2px;
   }
 }
@@ -296,7 +296,7 @@
   flex-direction: column;
 }
 #content [data-ts-compact] .shipping-options {
-  color: var(--ts-compact-blue);
+  color: var(--ts-color-blue);
   display: inline-block;
 }
 #content [data-ts-compact] :is(.detail-price-block, .p-final-price-wrapper) {

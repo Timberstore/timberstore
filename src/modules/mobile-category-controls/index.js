@@ -3,10 +3,9 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { enhanceValues } from './values.js';
+import { closeDropdowns } from '../category-filter-compact/index.js';
 
 const media = window.matchMedia('(max-width: 767px)');
-const CLOSED_ARROW = String.fromCodePoint(0xe900);
-const OPEN_ARROW = String.fromCodePoint(0xe915);
 let state = null;
 let listening = false;
 let panel = null;
@@ -30,6 +29,7 @@ function closePanel(restoreFocus = false) {
   if (!state || !panel) return;
   const button = panel === 'filters' ? state.filterButton : state.sortButton;
   panel = null;
+  closeDropdowns();
   sync();
   if (restoreFocus) button.focus();
 }
@@ -82,7 +82,7 @@ function button(name, label, controls) {
   const arrow = document.createElement('span');
   arrow.className = 'ts-mobile-category__arrow';
   arrow.setAttribute('aria-hidden', 'true');
-  arrow.textContent = CLOSED_ARROW;
+  arrow.textContent = '\ue900';
   element.append(text, arrow);
   return element;
 }
@@ -106,9 +106,6 @@ function sync() {
   ]) {
     const open = panel === name;
     element.setAttribute('aria-expanded', String(open));
-    const arrow = element.querySelector('.ts-mobile-category__arrow');
-    const glyph = open ? OPEN_ARROW : CLOSED_ARROW;
-    if (arrow.textContent !== glyph) arrow.textContent = glyph;
     target.hidden = !open;
   }
   for (const group of state.filters.querySelectorAll(SEL.categoryFilterGroup)) {
@@ -284,6 +281,7 @@ function refresh() {
     ) {
       event.preventDefault();
       // Invoke Apollo's existing click handler; do not implement an accordion.
+      closeDropdowns(state.filters, event.target.parentElement);
       event.target.click();
     }
   });
@@ -316,10 +314,16 @@ export default {
       window.addEventListener('scroll', resizePopup, { passive: true });
       window.visualViewport?.addEventListener('resize', resizePopup, { passive: true });
       window.visualViewport?.addEventListener('scroll', resizePopup, { passive: true });
-      document.addEventListener('pointerdown', (event) => {
+      // Close after the native click: collapsing on pointerdown can move the
+      // next accordion heading out from under the pointer before mouseup.
+      document.addEventListener('click', (event) => {
+        const group = event.target.closest(SEL.categoryFilterGroup);
+        if (!group || group.querySelector(SEL.categoryFilterHeading)?.contains(event.target))
+          closeDropdowns(undefined, group);
         if (state && !state.root.contains(event.target)) closePanel();
       });
       document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') closeDropdowns();
         if (event.key === 'Escape' && panel) {
           event.preventDefault();
           closePanel(true);

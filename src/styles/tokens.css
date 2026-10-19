@@ -123,7 +123,6 @@ body {
 
 /* PD Compact · scoped variables, no global palette changes. */
 .type-detail .p-detail {
-  --ts-compact-blue: var(--ts-color-blue);
   --ts-compact-blue-bg: #eaf1fc;
   --ts-compact-border: #e1e5eb;
   --ts-compact-purchase-bg: #f8fafc;

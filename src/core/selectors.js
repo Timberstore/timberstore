@@ -116,6 +116,7 @@ export const SEL = {
   categoryFilterGroup:
     '.slider-wrapper, .filter-section:not(.filter-section-count):not(.filter-section-button)',
   categoryFilterActiveClass: 'is-active',
+  categoryFilterOpenClass: 'open',
   categoryFilterVisibleClass: 'visible',
   categoryFilterRowClass: 'row-filter',
   categoryFilterFieldset: '.filter-section form > fieldset',

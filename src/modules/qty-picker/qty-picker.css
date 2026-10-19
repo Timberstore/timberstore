@@ -64,10 +64,16 @@
      !important: timber-custom.css (legacy) styles the cart form/button with !important. */
   form.pr-action:has(> .ts-qty) {
     width: auto !important;
-    max-width: none !important; /* legacy caps the form at 180 px, too narrow for field + button */
+    max-width: 100% !important; /* legacy caps the form at 180 px, too narrow for field + button */
     display: flex !important;
+    flex-wrap: wrap !important;
     align-items: center !important;
     justify-content: center !important;
     gap: var(--ts-space-2) !important;
+    padding: 0 14px !important;
+    box-sizing: border-box;
+  }
+  form.pr-action:has(> .ts-qty) > .btn {
+    flex: 1 1 120px;
   }
 }

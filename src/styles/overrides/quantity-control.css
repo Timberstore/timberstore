@@ -1,7 +1,7 @@
 /* Shared mini-cart presentation, also used by the existing detail controls.
    Original cart selectors retain their specificity; native handlers stay intact. */
 :is(.in-kosik #cart-wrapper, #cart-widget) .ts-cart-quantity,
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity {
+#content [data-ts-compact] .quantity {
   position: relative;
   display: inline-grid;
   grid-template-columns: 30px max(38px, calc(var(--ts-cart-digits, 1) * 1ch + 12px)) 30px;
@@ -16,14 +16,14 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity {
   flex: 0 0 auto;
 }
 :is(.in-kosik #cart-wrapper, #cart-widget) .ts-cart-quantity > label,
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity > label {
+#content [data-ts-compact] .quantity > label {
   grid-area: 1 / 2;
   width: 100%;
   min-width: 0;
   margin: 0;
 }
 :is(.in-kosik #cart-wrapper, #cart-widget) .ts-cart-quantity input,
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity input {
+#content [data-ts-compact] .quantity input {
   width: 100%;
   height: 34px;
   padding: 0;
@@ -40,21 +40,13 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity input {
 }
 .ts-cart-quantity input::-webkit-inner-spin-button,
 .ts-cart-quantity input::-webkit-outer-spin-button,
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .quantity
-  input::-webkit-inner-spin-button,
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .quantity
-  input::-webkit-outer-spin-button {
+#content [data-ts-compact] .quantity input::-webkit-inner-spin-button,
+#content [data-ts-compact] .quantity input::-webkit-outer-spin-button {
   appearance: none;
   margin: 0;
 }
 :is(.in-kosik #cart-wrapper, #cart-widget) .ts-cart-quantity button,
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity button {
+#content [data-ts-compact] .quantity button {
   position: static;
   grid-row: 1;
   width: 100%;
@@ -67,50 +59,30 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity button {
   cursor: pointer;
 }
 .ts-cart-quantity :is(.decrease, [data-ts-cart-direction='decrease']),
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .quantity
-  :is(.decrease, [data-ts-cart-direction='decrease']) {
+#content [data-ts-compact] .quantity :is(.decrease, [data-ts-cart-direction='decrease']) {
   grid-column: 1;
 }
 .ts-cart-quantity :is(.increase, [data-ts-cart-direction='increase']),
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .quantity
-  :is(.increase, [data-ts-cart-direction='increase']) {
+#content [data-ts-compact] .quantity :is(.increase, [data-ts-cart-direction='increase']) {
   grid-column: 3;
 }
 .ts-cart-quantity :is(.increase, .decrease)::before,
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .quantity
-  :is(.increase, .decrease)::before {
+#content [data-ts-compact] .quantity :is(.increase, .decrease)::before {
   display: none;
 }
-.ts-cart-quantity :is(.increase__sign, .decrease__sign),
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .quantity
-  :is(.increase__sign, .decrease__sign) {
+:is(.in-kosik #cart-wrapper, #cart-widget) .ts-cart-quantity :is(.increase__sign, .decrease__sign),
+#content [data-ts-compact] .quantity :is(.increase__sign, .decrease__sign) {
   display: block;
   font-size: 18px;
   line-height: 1;
   pointer-events: none;
 }
 :is(.in-kosik #cart-wrapper, #cart-widget) .ts-cart-quantity button:is(:hover, :active),
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity button:is(:hover, :active) {
+#content [data-ts-compact] .quantity button:is(:hover, :active) {
   background: var(--ts-color-controls-divider);
 }
 .ts-cart-quantity :is(button, input):focus-visible,
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .quantity
-  :is(button, input):focus-visible {
+#content [data-ts-compact] .quantity :is(button, input):focus-visible {
   outline: 2px solid var(--ts-color-controls-active);
   outline-offset: -2px;
 }

@@ -57,6 +57,10 @@
     flex: 0 0 12px;
     font: 8px/1 apollo;
     text-align: center;
+    transition: transform 160ms ease;
+  }
+  .ts-mobile-category__button[aria-expanded='true'] .ts-mobile-category__arrow {
+    transform: rotate(180deg);
   }
 
   .type-category .ts-mobile-category .ts-mobile-category__panel {

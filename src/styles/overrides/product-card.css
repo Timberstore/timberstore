@@ -109,12 +109,20 @@ body:not(.ordering-process) #content :is(.products, .products-block, .products-t
 .flag-komplet {
   background-color: var(--ts-color-accent) !important;
 }
-/* Reserve the full warehouse label; native offer flex-wrap handles narrow cards. */
+/* Centre the native warehouse name and quantity; the offer keeps its wrap fallback. */
 body:not(.ordering-process) .content-wrapper .product .availability {
-  display: inline-grid;
+  display: grid;
+  justify-content: center;
   justify-items: center;
-  white-space: nowrap;
+  text-align: center;
+  min-width: 0;
 }
 body:not(.ordering-process) .content-wrapper .product :is(.prices, .p-tools) {
   flex: auto;
+}
+/* Break only at native word spaces: CENTRÁLNY / SKLAD, then its quantity. */
+body:not(.ordering-process) .content-wrapper .product .availability > :first-child {
+  width: min-content;
+  max-width: 100%;
+  white-space: normal;
 }
