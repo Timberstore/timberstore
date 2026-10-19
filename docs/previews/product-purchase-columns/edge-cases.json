@@ -1,0 +1,2244 @@
+{
+  "variants": [
+    {
+      "width": 1440,
+      "before": [
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.5,
+          "imgHeight": 87.375,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ],
+      "after": [
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.5,
+          "imgHeight": 87.375,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 138.5,
+          "height": 128.953125,
+          "imgWidth": 116.484375,
+          "imgHeight": 87.578125,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "before": [
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.75,
+          "imgHeight": 123.5625,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ],
+      "after": [
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.75,
+          "imgHeight": 123.5625,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 186.75,
+          "height": 165.21875,
+          "imgWidth": 164.734375,
+          "imgHeight": 123.84375,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "before": [
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.734375,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ],
+      "after": [
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.734375,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 134.984375,
+          "height": 176.9375,
+          "imgWidth": 112.96875,
+          "imgHeight": 84.9375,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "before": [
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.640625,
+          "imgHeight": 74.734375,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ],
+      "after": [
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.640625,
+          "imgHeight": 74.734375,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 121.65625,
+          "height": 166.90625,
+          "imgWidth": 99.625,
+          "imgHeight": 74.90625,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "before": [
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 70.984375,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ],
+      "after": [
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 70.984375,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 116.65625,
+          "height": 163.15625,
+          "imgWidth": 94.640625,
+          "imgHeight": 71.15625,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "before": [
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.5,
+          "imgHeight": 94.125,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ],
+      "after": [
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-biela-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-cierna-matna/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-chrom-leskly/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-nikel-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-zlata-leskla/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.5,
+          "imgHeight": 94.125,
+          "href": "/tulip-knopka-jota-zlata-matna/",
+          "active": true,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-chrom-matny/",
+          "active": false,
+          "insidePurchase": false
+        },
+        {
+          "width": 147.5,
+          "height": 186.34375,
+          "imgWidth": 125.484375,
+          "imgHeight": 94.34375,
+          "href": "/tulip-knopka-jota-nikel-bruseny/",
+          "active": false,
+          "insidePurchase": false
+        }
+      ]
+    }
+  ],
+  "longNet": [
+    {
+      "unit": "ks",
+      "width": 320,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1611.828125,
+        "width": 265,
+        "height": 79.5,
+        "top": 1611.828125,
+        "right": 285,
+        "bottom": 1691.328125,
+        "left": 20
+      },
+      "main": {
+        "x": 66.9375,
+        "y": 1633.828125,
+        "width": 218.0625,
+        "height": 35,
+        "top": 1633.828125,
+        "right": 285,
+        "bottom": 1668.828125,
+        "left": 66.9375
+      },
+      "net": {
+        "x": 137.75,
+        "y": 1671.828125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1671.828125,
+        "right": 285,
+        "bottom": 1691.328125,
+        "left": 137.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1486.828125,
+        "width": 265,
+        "height": 109,
+        "top": 1486.828125,
+        "right": 285,
+        "bottom": 1595.828125,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1486.828125,
+        "width": 285,
+        "height": 204.5,
+        "top": 1486.828125,
+        "right": 295,
+        "bottom": 1691.328125,
+        "left": 10
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 320,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1611.828125,
+        "width": 265,
+        "height": 79.5,
+        "top": 1611.828125,
+        "right": 285,
+        "bottom": 1691.328125,
+        "left": 20
+      },
+      "main": {
+        "x": 60.296875,
+        "y": 1633.828125,
+        "width": 224.703125,
+        "height": 35,
+        "top": 1633.828125,
+        "right": 285,
+        "bottom": 1668.828125,
+        "left": 60.296875
+      },
+      "net": {
+        "x": 137.75,
+        "y": 1671.828125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1671.828125,
+        "right": 285,
+        "bottom": 1691.328125,
+        "left": 137.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1486.828125,
+        "width": 265,
+        "height": 109,
+        "top": 1486.828125,
+        "right": 285,
+        "bottom": 1595.828125,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1486.828125,
+        "width": 285,
+        "height": 204.5,
+        "top": 1486.828125,
+        "right": 295,
+        "bottom": 1691.328125,
+        "left": 10
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 320,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1611.828125,
+        "width": 265,
+        "height": 79.5,
+        "top": 1611.828125,
+        "right": 285,
+        "bottom": 1691.328125,
+        "left": 20
+      },
+      "main": {
+        "x": 49.359375,
+        "y": 1633.828125,
+        "width": 235.640625,
+        "height": 35,
+        "top": 1633.828125,
+        "right": 285,
+        "bottom": 1668.828125,
+        "left": 49.359375
+      },
+      "net": {
+        "x": 137.75,
+        "y": 1671.828125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1671.828125,
+        "right": 285,
+        "bottom": 1691.328125,
+        "left": 137.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1486.828125,
+        "width": 265,
+        "height": 109,
+        "top": 1486.828125,
+        "right": 285,
+        "bottom": 1595.828125,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1486.828125,
+        "width": 285,
+        "height": 204.5,
+        "top": 1486.828125,
+        "right": 295,
+        "bottom": 1691.328125,
+        "left": 10
+      }
+    },
+    {
+      "unit": "m",
+      "width": 320,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1611.828125,
+        "width": 265,
+        "height": 79.5,
+        "top": 1611.828125,
+        "right": 285,
+        "bottom": 1691.328125,
+        "left": 20
+      },
+      "main": {
+        "x": 69.84375,
+        "y": 1633.828125,
+        "width": 215.15625,
+        "height": 35,
+        "top": 1633.828125,
+        "right": 285,
+        "bottom": 1668.828125,
+        "left": 69.84375
+      },
+      "net": {
+        "x": 137.75,
+        "y": 1671.828125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1671.828125,
+        "right": 285,
+        "bottom": 1691.328125,
+        "left": 137.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1486.828125,
+        "width": 265,
+        "height": 109,
+        "top": 1486.828125,
+        "right": 285,
+        "bottom": 1595.828125,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1486.828125,
+        "width": 285,
+        "height": 204.5,
+        "top": 1486.828125,
+        "right": 295,
+        "bottom": 1691.328125,
+        "left": 10
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 375,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1397.171875,
+        "width": 320,
+        "height": 79.5,
+        "top": 1397.171875,
+        "right": 340,
+        "bottom": 1476.671875,
+        "left": 20
+      },
+      "main": {
+        "x": 121.9375,
+        "y": 1419.171875,
+        "width": 218.0625,
+        "height": 35,
+        "top": 1419.171875,
+        "right": 340,
+        "bottom": 1454.171875,
+        "left": 121.9375
+      },
+      "net": {
+        "x": 192.75,
+        "y": 1457.171875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1457.171875,
+        "right": 340,
+        "bottom": 1476.671875,
+        "left": 192.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1272.171875,
+        "width": 320,
+        "height": 109,
+        "top": 1272.171875,
+        "right": 340,
+        "bottom": 1381.171875,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1272.171875,
+        "width": 340,
+        "height": 204.5,
+        "top": 1272.171875,
+        "right": 350,
+        "bottom": 1476.671875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 375,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1397.171875,
+        "width": 320,
+        "height": 79.5,
+        "top": 1397.171875,
+        "right": 340,
+        "bottom": 1476.671875,
+        "left": 20
+      },
+      "main": {
+        "x": 115.296875,
+        "y": 1419.171875,
+        "width": 224.703125,
+        "height": 35,
+        "top": 1419.171875,
+        "right": 340,
+        "bottom": 1454.171875,
+        "left": 115.296875
+      },
+      "net": {
+        "x": 192.75,
+        "y": 1457.171875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1457.171875,
+        "right": 340,
+        "bottom": 1476.671875,
+        "left": 192.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1272.171875,
+        "width": 320,
+        "height": 109,
+        "top": 1272.171875,
+        "right": 340,
+        "bottom": 1381.171875,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1272.171875,
+        "width": 340,
+        "height": 204.5,
+        "top": 1272.171875,
+        "right": 350,
+        "bottom": 1476.671875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 375,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1397.171875,
+        "width": 320,
+        "height": 79.5,
+        "top": 1397.171875,
+        "right": 340,
+        "bottom": 1476.671875,
+        "left": 20
+      },
+      "main": {
+        "x": 104.359375,
+        "y": 1419.171875,
+        "width": 235.640625,
+        "height": 35,
+        "top": 1419.171875,
+        "right": 340,
+        "bottom": 1454.171875,
+        "left": 104.359375
+      },
+      "net": {
+        "x": 192.75,
+        "y": 1457.171875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1457.171875,
+        "right": 340,
+        "bottom": 1476.671875,
+        "left": 192.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1272.171875,
+        "width": 320,
+        "height": 109,
+        "top": 1272.171875,
+        "right": 340,
+        "bottom": 1381.171875,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1272.171875,
+        "width": 340,
+        "height": 204.5,
+        "top": 1272.171875,
+        "right": 350,
+        "bottom": 1476.671875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "m",
+      "width": 375,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1397.171875,
+        "width": 320,
+        "height": 79.5,
+        "top": 1397.171875,
+        "right": 340,
+        "bottom": 1476.671875,
+        "left": 20
+      },
+      "main": {
+        "x": 124.84375,
+        "y": 1419.171875,
+        "width": 215.15625,
+        "height": 35,
+        "top": 1419.171875,
+        "right": 340,
+        "bottom": 1454.171875,
+        "left": 124.84375
+      },
+      "net": {
+        "x": 192.75,
+        "y": 1457.171875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1457.171875,
+        "right": 340,
+        "bottom": 1476.671875,
+        "left": 192.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1272.171875,
+        "width": 320,
+        "height": 109,
+        "top": 1272.171875,
+        "right": 340,
+        "bottom": 1381.171875,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1272.171875,
+        "width": 340,
+        "height": 204.5,
+        "top": 1272.171875,
+        "right": 350,
+        "bottom": 1476.671875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 390,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1419.671875,
+        "width": 335,
+        "height": 79.5,
+        "top": 1419.671875,
+        "right": 355,
+        "bottom": 1499.171875,
+        "left": 20
+      },
+      "main": {
+        "x": 136.9375,
+        "y": 1441.671875,
+        "width": 218.0625,
+        "height": 35,
+        "top": 1441.671875,
+        "right": 355,
+        "bottom": 1476.671875,
+        "left": 136.9375
+      },
+      "net": {
+        "x": 207.75,
+        "y": 1479.671875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1479.671875,
+        "right": 355,
+        "bottom": 1499.171875,
+        "left": 207.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1294.671875,
+        "width": 335,
+        "height": 109,
+        "top": 1294.671875,
+        "right": 355,
+        "bottom": 1403.671875,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1294.671875,
+        "width": 355,
+        "height": 204.5,
+        "top": 1294.671875,
+        "right": 365,
+        "bottom": 1499.171875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 390,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1419.671875,
+        "width": 335,
+        "height": 79.5,
+        "top": 1419.671875,
+        "right": 355,
+        "bottom": 1499.171875,
+        "left": 20
+      },
+      "main": {
+        "x": 130.296875,
+        "y": 1441.671875,
+        "width": 224.703125,
+        "height": 35,
+        "top": 1441.671875,
+        "right": 355,
+        "bottom": 1476.671875,
+        "left": 130.296875
+      },
+      "net": {
+        "x": 207.75,
+        "y": 1479.671875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1479.671875,
+        "right": 355,
+        "bottom": 1499.171875,
+        "left": 207.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1294.671875,
+        "width": 335,
+        "height": 109,
+        "top": 1294.671875,
+        "right": 355,
+        "bottom": 1403.671875,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1294.671875,
+        "width": 355,
+        "height": 204.5,
+        "top": 1294.671875,
+        "right": 365,
+        "bottom": 1499.171875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 390,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1419.671875,
+        "width": 335,
+        "height": 79.5,
+        "top": 1419.671875,
+        "right": 355,
+        "bottom": 1499.171875,
+        "left": 20
+      },
+      "main": {
+        "x": 119.359375,
+        "y": 1441.671875,
+        "width": 235.640625,
+        "height": 35,
+        "top": 1441.671875,
+        "right": 355,
+        "bottom": 1476.671875,
+        "left": 119.359375
+      },
+      "net": {
+        "x": 207.75,
+        "y": 1479.671875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1479.671875,
+        "right": 355,
+        "bottom": 1499.171875,
+        "left": 207.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1294.671875,
+        "width": 335,
+        "height": 109,
+        "top": 1294.671875,
+        "right": 355,
+        "bottom": 1403.671875,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1294.671875,
+        "width": 355,
+        "height": 204.5,
+        "top": 1294.671875,
+        "right": 365,
+        "bottom": 1499.171875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "m",
+      "width": 390,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1419.671875,
+        "width": 335,
+        "height": 79.5,
+        "top": 1419.671875,
+        "right": 355,
+        "bottom": 1499.171875,
+        "left": 20
+      },
+      "main": {
+        "x": 139.84375,
+        "y": 1441.671875,
+        "width": 215.15625,
+        "height": 35,
+        "top": 1441.671875,
+        "right": 355,
+        "bottom": 1476.671875,
+        "left": 139.84375
+      },
+      "net": {
+        "x": 207.75,
+        "y": 1479.671875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1479.671875,
+        "right": 355,
+        "bottom": 1499.171875,
+        "left": 207.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1294.671875,
+        "width": 335,
+        "height": 109,
+        "top": 1294.671875,
+        "right": 355,
+        "bottom": 1403.671875,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1294.671875,
+        "width": 355,
+        "height": 204.5,
+        "top": 1294.671875,
+        "right": 365,
+        "bottom": 1499.171875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 430,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1453.375,
+        "width": 375,
+        "height": 79.5,
+        "top": 1453.375,
+        "right": 395,
+        "bottom": 1532.875,
+        "left": 20
+      },
+      "main": {
+        "x": 176.9375,
+        "y": 1475.375,
+        "width": 218.0625,
+        "height": 35,
+        "top": 1475.375,
+        "right": 395,
+        "bottom": 1510.375,
+        "left": 176.9375
+      },
+      "net": {
+        "x": 247.75,
+        "y": 1513.375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1513.375,
+        "right": 395,
+        "bottom": 1532.875,
+        "left": 247.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1328.375,
+        "width": 375,
+        "height": 109,
+        "top": 1328.375,
+        "right": 395,
+        "bottom": 1437.375,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1328.375,
+        "width": 395,
+        "height": 204.5,
+        "top": 1328.375,
+        "right": 405,
+        "bottom": 1532.875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 430,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1453.375,
+        "width": 375,
+        "height": 79.5,
+        "top": 1453.375,
+        "right": 395,
+        "bottom": 1532.875,
+        "left": 20
+      },
+      "main": {
+        "x": 170.296875,
+        "y": 1475.375,
+        "width": 224.703125,
+        "height": 35,
+        "top": 1475.375,
+        "right": 395,
+        "bottom": 1510.375,
+        "left": 170.296875
+      },
+      "net": {
+        "x": 247.75,
+        "y": 1513.375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1513.375,
+        "right": 395,
+        "bottom": 1532.875,
+        "left": 247.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1328.375,
+        "width": 375,
+        "height": 109,
+        "top": 1328.375,
+        "right": 395,
+        "bottom": 1437.375,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1328.375,
+        "width": 395,
+        "height": 204.5,
+        "top": 1328.375,
+        "right": 405,
+        "bottom": 1532.875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 430,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1453.375,
+        "width": 375,
+        "height": 79.5,
+        "top": 1453.375,
+        "right": 395,
+        "bottom": 1532.875,
+        "left": 20
+      },
+      "main": {
+        "x": 159.359375,
+        "y": 1475.375,
+        "width": 235.640625,
+        "height": 35,
+        "top": 1475.375,
+        "right": 395,
+        "bottom": 1510.375,
+        "left": 159.359375
+      },
+      "net": {
+        "x": 247.75,
+        "y": 1513.375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1513.375,
+        "right": 395,
+        "bottom": 1532.875,
+        "left": 247.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1328.375,
+        "width": 375,
+        "height": 109,
+        "top": 1328.375,
+        "right": 395,
+        "bottom": 1437.375,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1328.375,
+        "width": 395,
+        "height": 204.5,
+        "top": 1328.375,
+        "right": 405,
+        "bottom": 1532.875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "m",
+      "width": 430,
+      "overflow": false,
+      "price": {
+        "x": 20,
+        "y": 1453.375,
+        "width": 375,
+        "height": 79.5,
+        "top": 1453.375,
+        "right": 395,
+        "bottom": 1532.875,
+        "left": 20
+      },
+      "main": {
+        "x": 179.84375,
+        "y": 1475.375,
+        "width": 215.15625,
+        "height": 35,
+        "top": 1475.375,
+        "right": 395,
+        "bottom": 1510.375,
+        "left": 179.84375
+      },
+      "net": {
+        "x": 247.75,
+        "y": 1513.375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1513.375,
+        "right": 395,
+        "bottom": 1532.875,
+        "left": 247.75
+      },
+      "left": {
+        "x": 20,
+        "y": 1328.375,
+        "width": 375,
+        "height": 109,
+        "top": 1328.375,
+        "right": 395,
+        "bottom": 1437.375,
+        "left": 20
+      },
+      "wrapper": {
+        "x": 10,
+        "y": 1328.375,
+        "width": 395,
+        "height": 204.5,
+        "top": 1328.375,
+        "right": 405,
+        "bottom": 1532.875,
+        "left": 10
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 768,
+      "overflow": false,
+      "price": {
+        "x": 386.5,
+        "y": 1477.796875,
+        "width": 343.5,
+        "height": 79.5,
+        "top": 1477.796875,
+        "right": 730,
+        "bottom": 1557.296875,
+        "left": 386.5
+      },
+      "main": {
+        "x": 511.9375,
+        "y": 1499.796875,
+        "width": 218.0625,
+        "height": 35,
+        "top": 1499.796875,
+        "right": 730,
+        "bottom": 1534.796875,
+        "left": 511.9375
+      },
+      "net": {
+        "x": 582.75,
+        "y": 1537.796875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1537.796875,
+        "right": 730,
+        "bottom": 1557.296875,
+        "left": 582.75
+      },
+      "left": {
+        "x": 23,
+        "y": 1477.796875,
+        "width": 343.5,
+        "height": 109,
+        "top": 1477.796875,
+        "right": 366.5,
+        "bottom": 1586.796875,
+        "left": 23
+      },
+      "wrapper": {
+        "x": 8,
+        "y": 1477.796875,
+        "width": 737,
+        "height": 109,
+        "top": 1477.796875,
+        "right": 745,
+        "bottom": 1586.796875,
+        "left": 8
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 768,
+      "overflow": false,
+      "price": {
+        "x": 386.5,
+        "y": 1477.796875,
+        "width": 343.5,
+        "height": 79.5,
+        "top": 1477.796875,
+        "right": 730,
+        "bottom": 1557.296875,
+        "left": 386.5
+      },
+      "main": {
+        "x": 505.296875,
+        "y": 1499.796875,
+        "width": 224.703125,
+        "height": 35,
+        "top": 1499.796875,
+        "right": 730,
+        "bottom": 1534.796875,
+        "left": 505.296875
+      },
+      "net": {
+        "x": 582.75,
+        "y": 1537.796875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1537.796875,
+        "right": 730,
+        "bottom": 1557.296875,
+        "left": 582.75
+      },
+      "left": {
+        "x": 23,
+        "y": 1477.796875,
+        "width": 343.5,
+        "height": 109,
+        "top": 1477.796875,
+        "right": 366.5,
+        "bottom": 1586.796875,
+        "left": 23
+      },
+      "wrapper": {
+        "x": 8,
+        "y": 1477.796875,
+        "width": 737,
+        "height": 109,
+        "top": 1477.796875,
+        "right": 745,
+        "bottom": 1586.796875,
+        "left": 8
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 768,
+      "overflow": false,
+      "price": {
+        "x": 386.5,
+        "y": 1477.796875,
+        "width": 343.5,
+        "height": 79.5,
+        "top": 1477.796875,
+        "right": 730,
+        "bottom": 1557.296875,
+        "left": 386.5
+      },
+      "main": {
+        "x": 494.359375,
+        "y": 1499.796875,
+        "width": 235.640625,
+        "height": 35,
+        "top": 1499.796875,
+        "right": 730,
+        "bottom": 1534.796875,
+        "left": 494.359375
+      },
+      "net": {
+        "x": 582.75,
+        "y": 1537.796875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1537.796875,
+        "right": 730,
+        "bottom": 1557.296875,
+        "left": 582.75
+      },
+      "left": {
+        "x": 23,
+        "y": 1477.796875,
+        "width": 343.5,
+        "height": 109,
+        "top": 1477.796875,
+        "right": 366.5,
+        "bottom": 1586.796875,
+        "left": 23
+      },
+      "wrapper": {
+        "x": 8,
+        "y": 1477.796875,
+        "width": 737,
+        "height": 109,
+        "top": 1477.796875,
+        "right": 745,
+        "bottom": 1586.796875,
+        "left": 8
+      }
+    },
+    {
+      "unit": "m",
+      "width": 768,
+      "overflow": false,
+      "price": {
+        "x": 386.5,
+        "y": 1477.796875,
+        "width": 343.5,
+        "height": 79.5,
+        "top": 1477.796875,
+        "right": 730,
+        "bottom": 1557.296875,
+        "left": 386.5
+      },
+      "main": {
+        "x": 514.84375,
+        "y": 1499.796875,
+        "width": 215.15625,
+        "height": 35,
+        "top": 1499.796875,
+        "right": 730,
+        "bottom": 1534.796875,
+        "left": 514.84375
+      },
+      "net": {
+        "x": 582.75,
+        "y": 1537.796875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 1537.796875,
+        "right": 730,
+        "bottom": 1557.296875,
+        "left": 582.75
+      },
+      "left": {
+        "x": 23,
+        "y": 1477.796875,
+        "width": 343.5,
+        "height": 109,
+        "top": 1477.796875,
+        "right": 366.5,
+        "bottom": 1586.796875,
+        "left": 23
+      },
+      "wrapper": {
+        "x": 8,
+        "y": 1477.796875,
+        "width": 737,
+        "height": 109,
+        "top": 1477.796875,
+        "right": 745,
+        "bottom": 1586.796875,
+        "left": 8
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 1440,
+      "overflow": false,
+      "price": {
+        "x": 1164.5,
+        "y": 709.828125,
+        "width": 247,
+        "height": 79.5,
+        "top": 709.828125,
+        "right": 1411.5,
+        "bottom": 789.328125,
+        "left": 1164.5
+      },
+      "main": {
+        "x": 1193.4375,
+        "y": 731.828125,
+        "width": 218.0625,
+        "height": 35,
+        "top": 731.828125,
+        "right": 1411.5,
+        "bottom": 766.828125,
+        "left": 1193.4375
+      },
+      "net": {
+        "x": 1264.25,
+        "y": 769.828125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 769.828125,
+        "right": 1411.5,
+        "bottom": 789.328125,
+        "left": 1264.25
+      },
+      "left": {
+        "x": 897.5,
+        "y": 709.828125,
+        "width": 247,
+        "height": 109,
+        "top": 709.828125,
+        "right": 1144.5,
+        "bottom": 818.828125,
+        "left": 897.5
+      },
+      "wrapper": {
+        "x": 882.5,
+        "y": 709.828125,
+        "width": 544,
+        "height": 109,
+        "top": 709.828125,
+        "right": 1426.5,
+        "bottom": 818.828125,
+        "left": 882.5
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 1440,
+      "overflow": false,
+      "price": {
+        "x": 1164.5,
+        "y": 709.828125,
+        "width": 247,
+        "height": 79.5,
+        "top": 709.828125,
+        "right": 1411.5,
+        "bottom": 789.328125,
+        "left": 1164.5
+      },
+      "main": {
+        "x": 1186.796875,
+        "y": 731.828125,
+        "width": 224.703125,
+        "height": 35,
+        "top": 731.828125,
+        "right": 1411.5,
+        "bottom": 766.828125,
+        "left": 1186.796875
+      },
+      "net": {
+        "x": 1264.25,
+        "y": 769.828125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 769.828125,
+        "right": 1411.5,
+        "bottom": 789.328125,
+        "left": 1264.25
+      },
+      "left": {
+        "x": 897.5,
+        "y": 709.828125,
+        "width": 247,
+        "height": 109,
+        "top": 709.828125,
+        "right": 1144.5,
+        "bottom": 818.828125,
+        "left": 897.5
+      },
+      "wrapper": {
+        "x": 882.5,
+        "y": 709.828125,
+        "width": 544,
+        "height": 109,
+        "top": 709.828125,
+        "right": 1426.5,
+        "bottom": 818.828125,
+        "left": 882.5
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 1440,
+      "overflow": false,
+      "price": {
+        "x": 1164.5,
+        "y": 709.828125,
+        "width": 247,
+        "height": 79.5,
+        "top": 709.828125,
+        "right": 1411.5,
+        "bottom": 789.328125,
+        "left": 1164.5
+      },
+      "main": {
+        "x": 1175.859375,
+        "y": 731.828125,
+        "width": 235.640625,
+        "height": 35,
+        "top": 731.828125,
+        "right": 1411.5,
+        "bottom": 766.828125,
+        "left": 1175.859375
+      },
+      "net": {
+        "x": 1264.25,
+        "y": 769.828125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 769.828125,
+        "right": 1411.5,
+        "bottom": 789.328125,
+        "left": 1264.25
+      },
+      "left": {
+        "x": 897.5,
+        "y": 709.828125,
+        "width": 247,
+        "height": 109,
+        "top": 709.828125,
+        "right": 1144.5,
+        "bottom": 818.828125,
+        "left": 897.5
+      },
+      "wrapper": {
+        "x": 882.5,
+        "y": 709.828125,
+        "width": 544,
+        "height": 109,
+        "top": 709.828125,
+        "right": 1426.5,
+        "bottom": 818.828125,
+        "left": 882.5
+      }
+    },
+    {
+      "unit": "m",
+      "width": 1440,
+      "overflow": false,
+      "price": {
+        "x": 1164.5,
+        "y": 709.828125,
+        "width": 247,
+        "height": 79.5,
+        "top": 709.828125,
+        "right": 1411.5,
+        "bottom": 789.328125,
+        "left": 1164.5
+      },
+      "main": {
+        "x": 1196.34375,
+        "y": 731.828125,
+        "width": 215.15625,
+        "height": 35,
+        "top": 731.828125,
+        "right": 1411.5,
+        "bottom": 766.828125,
+        "left": 1196.34375
+      },
+      "net": {
+        "x": 1264.25,
+        "y": 769.828125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 769.828125,
+        "right": 1411.5,
+        "bottom": 789.328125,
+        "left": 1264.25
+      },
+      "left": {
+        "x": 897.5,
+        "y": 709.828125,
+        "width": 247,
+        "height": 109,
+        "top": 709.828125,
+        "right": 1144.5,
+        "bottom": 818.828125,
+        "left": 897.5
+      },
+      "wrapper": {
+        "x": 882.5,
+        "y": 709.828125,
+        "width": 544,
+        "height": 109,
+        "top": 709.828125,
+        "right": 1426.5,
+        "bottom": 818.828125,
+        "left": 882.5
+      }
+    }
+  ],
+  "popup": [
+    {
+      "width": 375,
+      "pass": true
+    },
+    {
+      "width": 320,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

@@ -1,5 +1,11 @@
 # Changelog
 
+## PD Purchase Information Columns · 2026-10-19 · Preview only
+
+- Group existing native price/availability blocks inside the same Apollo grid: stock/delivery/link left, dominant price and parenthetical net price right. One idempotent wrapper, no duplicate native nodes or pricing/stock logic changes.
+- Compact natural-height columns; intrinsic safe wrap at 320 px and for long prices. Purchase controls, variants, gallery and contacts preserved.
+- [Responsive/native tests, long-price cases, card replay and screenshots](docs/previews/product-purchase-columns/README.md). Same preview branch; no merge, release or production change.
+
 ## PD Final Product Information Spacing · 2026-10-19 · Preview only
 
 - Remove Apollo's invisible 10 px unit-price margin; use matching grid rows and one measured spacing rhythm. Visible glyph gaps: 30/20 px → 13/13 px, or 13.5/13 px with wrapped net price at 320 px.

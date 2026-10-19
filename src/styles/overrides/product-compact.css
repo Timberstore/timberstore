@@ -398,12 +398,12 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to
   }
 }
 
-/* Final Spacing & Controls: retain the larger variant-to-price section gap. */
+/* Keep variant cards outside the purchase presentation and retain their gap. */
 body.type-detail
   .p-detail
   .p-info-wrapper[data-ts-compact]
   .p-info-grid:has(.friendsSection)
-  .detail-price-block {
+  .ts-product-purchase-info {
   margin-top: calc(var(--ts-compact-section) - var(--ts-compact-info-gap));
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery .delivery-time {
@@ -423,15 +423,98 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart-button:
   }
 }
 
-/* Mobile dispatch is a label/date stack; the native options link may wrap as
-   one item beneath it. Desktop keeps its original horizontal delivery group. */
-@media (max-width: 767px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--ts-space-1);
-  }
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options-block {
-    align-self: flex-end;
-  }
+/* Native purchasing information, grouped without cloning or moving any block
+   outside its Apollo grid/form. Intrinsic column widths provide a safe fallback
+   for narrow screens and long prices; native amounts/units are never shrunk. */
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--ts-space-3) 20px;
+  order: 2;
+  width: 100%;
+  padding: 0 var(--ts-compact-grid-gutter);
+}
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .ts-product-purchase-info
+  > .detail-grid-item {
+  flex: 1 1 calc((100% - 20px) / 2);
+  max-width: 100%;
+  padding: 0;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-availability-block {
+  order: 0;
+  min-width: min(150px, 100%);
+  grid-template-columns: minmax(0, 1fr);
+  gap: 3px;
+  align-items: start;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-value {
+  grid-column: 1;
+  text-align: left;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block {
+  grid-column: 1;
+  margin-top: 3px;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block > td {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options-block {
+  margin-left: 0;
+  align-self: flex-start;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options {
+  display: inline-block;
+  padding: 0;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+  min-width: min-content;
+  order: 1;
+  border: 0;
+  text-align: right;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-final-price-wrapper {
+  flex: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional {
+  margin-top: 3px;
+}
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  :is(.price-standard, .price-save, .price-measure) {
+  flex-basis: auto;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final-holder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-end;
+  column-gap: 3px;
+  white-space: nowrap;
+}
+
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .ts-product-purchase-info
+  :is(.detail-grid-title, .availability-value, .delivery-time-label, .delivery-time) {
+  line-height: 19px;
 }

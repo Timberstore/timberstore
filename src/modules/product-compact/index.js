@@ -46,6 +46,22 @@ function enhance(info) {
   if (info.dataset.tsCompact) return;
   info.dataset.tsCompact = 'ready';
   function sync() {
+    // Keep the native blocks inside their original Apollo grid/form. One
+    // presentation wrapper also survives native replacement of either block.
+    const grid = info.querySelector(SEL.compactGrid);
+    const price = grid?.querySelector(SEL.compactPriceBlock);
+    const availability = grid?.querySelector(SEL.compactAvailabilityBlock);
+    if (price && availability) {
+      let purchase = grid.querySelector(':scope > .ts-product-purchase-info');
+      if (!purchase) {
+        purchase = document.createElement('div');
+        purchase.className = 'ts-product-purchase-info';
+        price.before(purchase);
+      }
+      for (const block of [availability, price]) {
+        if (block.parentElement !== purchase) purchase.append(block);
+      }
+    }
     const label = info.querySelector(SEL.compactDeliveryLabel);
     if (label && !label.parentElement.classList.contains('ts-product-delivery')) {
       const date = label.parentElement.querySelector(SEL.compactDeliveryDate);
