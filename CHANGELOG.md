@@ -1,5 +1,11 @@
 # Changelog
 
+## PD Final Spacing & Controls · 2026-10-19 · Preview only
+
+- Background-free delivery with the native date in availability green; 16 px information gaps, cart-token quantity styling, 22/14 px CTA spacing and a slightly narrower desktop button.
+- Product shipping-popup text +1 px; relative ~16 px units, weight 600, kept with the real price. JavaScript, native logic and protected components unchanged.
+- [Changed files, responsive/native tests and limits](docs/previews/product-final-spacing-controls/README.md). No merge, release or production change.
+
 ## PD Final Polish · 2026-10-19 · Same isolated preview branch
 
 - Four separately checked phases: information rows, native purchase controls, shipping popup, and mobile variant expansion styling. No merge, release or production change.
