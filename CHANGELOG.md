@@ -1,5 +1,11 @@
 # Changelog
 
+## PD Final Density & Code Typography · 2026-10-19 · Preview only
+
+- Remove code chip surface/border/padding; neutral labels and matching blue code/brand values share typography.
+- Compact actual title/metadata/variant/purchase/contact spacing. Align title, metadata, short description and links with unchanged card/purchase edges, including Apollo's separate mobile header.
+- [Measured before/after geometry, responsive/native checks, screenshots and limits](docs/previews/product-final-density/README.md). Native DOM/JS, card dimensions, purchase panel and gallery unchanged. No merge, release or production deployment.
+
 ## PD Blue Unification & Variant Alignment · 2026-10-19 · Preview only
 
 - Use computed brand blue #2454A6 as the shared custom accent; retain native/social/carrier colours and semantic success/error/medal neutrals. Product-code label matches the neutral brand label; code value stays blue.

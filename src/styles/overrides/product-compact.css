@@ -2,14 +2,16 @@
    gallery, variant cards, native form and availability logic stay intact. */
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
   --ts-compact-info-gap: 9px;
+  display: flex;
+  flex-direction: column;
   min-width: 0;
   position: relative;
   border-radius: var(--ts-compact-radius);
   background: var(--ts-color-white, white);
-  padding: var(--ts-space-3) var(--ts-compact-padding);
+  padding: 12px var(--ts-compact-padding);
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-headline {
-  margin-bottom: var(--ts-compact-section);
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] > :is(.p-info-headline, .p-short-description-block) {
+  margin-bottom: 12px;
 }
 /* Apollo/migrated title rules force wrapping; override locally, never split words.
    A genuinely unbroken identifier scrolls within its title instead of the page. */
@@ -22,7 +24,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] h1 {
   overflow-x: auto;
   font-size: 26px;
   line-height: 1.25;
-  margin: 0 0 var(--ts-space-3);
+  margin: 0 0 var(--ts-space-2);
 }
 body.type-detail
   .p-detail
@@ -52,14 +54,18 @@ body.type-detail
   display: inline-block;
   margin: 0;
   font-size: 12.5px;
+  font-family: inherit;
+  font-weight: 500;
   line-height: 1.5;
   max-width: 100%;
   overflow-wrap: anywhere;
 }
 body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-code {
-  padding: var(--ts-space-1) var(--ts-space-2);
-  border-radius: var(--ts-radius);
-  background: var(--ts-compact-blue-bg);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 /* Existing C3 uses !important for the Apollo code descendants. */
 body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-code,
@@ -70,7 +76,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-grid {
   display: flex;
   flex-direction: column;
   gap: var(--ts-compact-info-gap);
-  margin: 0 calc(-1 * var(--ts-compact-grid-gutter)) var(--ts-compact-section);
+  margin: 0 calc(-1 * var(--ts-compact-grid-gutter)) 12px;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-grid-item {
   width: 100%;
@@ -100,7 +106,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final {
   font-weight: 700;
   line-height: 1.25;
   white-space: nowrap;
-  text-align: right;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final .pr-list-unit {
   font-size: 0.57em;
@@ -119,7 +124,6 @@ body.type-detail
   :is(.price-standard, .price-save, .price-measure) {
   flex-basis: auto;
   order: 2;
-  text-align: right;
 }
 
 /* Additional warehouse rows can occupy column 2 without changing the panel.
@@ -158,7 +162,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart {
 }
 @media (max-width: 374px) {
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
-    --ts-compact-padding: 10px;
     --ts-compact-radius: 14px;
   }
 }
@@ -170,6 +173,7 @@ body.type-detail .p-detail .p-detail-inner-header :is(h1, .h1) {
   white-space: normal;
   max-width: 100%;
   overflow-x: auto;
+  margin-bottom: var(--ts-space-2);
 }
 
 /* Preserve Apollo's original content width, including percentage-based cards. */
@@ -190,7 +194,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
   pointer-events: none;
 }
 @media (min-width: 480px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
+  body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) {
     --ts-compact-grid-gutter: 15px;
   }
 }
@@ -201,15 +205,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
   }
 }
 
-/* Discounts retain their native nodes, below the two primary price rows. */
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .detail-price-block
-  > .detail-grid-title {
-  grid-column: 1;
-  grid-row: 1;
-}
 @media (min-width: 992px) and (max-width: 1199px) {
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
     --ts-compact-padding: 25px;
@@ -236,6 +231,7 @@ body.type-detail
   :is(a[data-testid='productCardBrandName'] span, .p-code > span:not(.p-code-label)) {
   /* C3's existing descendant colour is important. */
   color: var(--ts-compact-blue) !important;
+  font-weight: 600;
 }
 
 body.type-detail
@@ -256,7 +252,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links {
   align-items: center;
   justify-content: space-between;
   gap: var(--ts-space-2) var(--ts-space-3);
-  margin-top: var(--ts-space-3);
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links > * {
   margin: 0;
@@ -337,7 +332,7 @@ body.type-detail
   .p-info-wrapper[data-ts-compact]
   .p-info-grid:has(.friendsSection)
   .ts-product-purchase-panel {
-  margin-top: calc(var(--ts-compact-section) - var(--ts-compact-info-gap));
+  margin-top: 0;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery .delivery-time {
   color: var(--ts-color-positive);
@@ -454,12 +449,11 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-final-price-wrapp
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional {
   display: inline-block;
-  margin: 0;
+  margin: 3px 0 0;
   font-size: 13px;
   line-height: 1.5;
   color: var(--ts-color-price-secondary);
   white-space: nowrap;
-  margin-top: 3px;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final-holder {
   display: flex;
@@ -524,6 +518,33 @@ body.type-detail
 
 /* Heading and native card grid already share their origin. Match the panel to
    those unchanged edges; no card sizing, gap or negative offset overrides. */
+
+
+/* Match the unchanged native card-grid width using normal flex alignment. */
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  > :is(.p-info-headline, .p-short-description-block, .ts-product-links, .social-buttons-wrapper),
+body.type-detail .p-detail .p-detail-inner-header > .p-info-headline {
+  align-self: center;
+  justify-self: center;
+  margin-top: 0;
+  width: calc(100% + 2 * var(--ts-compact-grid-gutter));
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection {
+  margin-bottom: 0;
+}
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection > .h3 {
   color: var(--ts-color-accent);
+  margin-bottom: 6px;
+}
+body.type-detail .p-detail .p-short-description-block > :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+  body.type-detail .p-detail .p-detail-inner-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
