@@ -71,7 +71,9 @@ function enhance(info) {
       const walker = document.createTreeWalker(price, NodeFilter.SHOW_TEXT);
       let node;
       while ((node = walker.nextNode())) {
-        const value = node.nodeValue.replace(TEXTS.productCompact.vatSuffix, '');
+        let value = node.nodeValue.replace(TEXTS.productCompact.vatSuffix, '');
+        if (node === price.firstChild) value = value.trimStart();
+        if (node === price.lastChild) value = value.trimEnd();
         if (value !== node.nodeValue) node.nodeValue = value;
       }
     }

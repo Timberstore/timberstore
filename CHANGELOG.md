@@ -1,5 +1,11 @@
 # Changelog
 
+## PD Final Polish · 2026-10-19 · Same isolated preview branch
+
+- Four separately checked phases: information rows, native purchase controls, shipping popup, and mobile variant expansion styling. No merge, release or production change.
+- Fixed Apollo contact-row width, open Colorbox overflow on viewport narrowing, CTA icon wrapping, and net-price whitespace.
+- [Phase results, regressions, changed files and verification limits](docs/previews/product-final-polish/README.md).
+
 ## PD Compact PRO · 2026-10-19 · Isolated preview only
 
 - Compact native detail rows, royal blue product code, subtle shared frame and whole-word titles. Stable v0.6.13 base; no prior redesign or warehouse logic carried over.

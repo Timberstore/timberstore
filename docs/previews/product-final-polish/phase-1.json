@@ -1,0 +1,931 @@
+{
+  "stage": "1",
+  "products": [
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "pass": true,
+      "rows": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 1191.5,
+            "y": 395.125,
+            "width": 111.78125,
+            "height": 35,
+            "top": 395.125,
+            "right": 1303.28125,
+            "bottom": 430.125,
+            "left": 1191.5
+          },
+          "net": {
+            "x": 1311.28125,
+            "y": 408.125,
+            "width": 100.21875,
+            "height": 19.5,
+            "top": 408.125,
+            "right": 1411.5,
+            "bottom": 427.625,
+            "left": 1311.28125
+          },
+          "details": {
+            "x": 897.5,
+            "y": 663.9375,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 663.9375,
+            "right": 1026.328125,
+            "bottom": 683.3125,
+            "left": 897.5
+          },
+          "contact": {
+            "x": 1231.546875,
+            "y": 658.125,
+            "width": 179.953125,
+            "height": 31,
+            "top": 658.125,
+            "right": 1411.5,
+            "bottom": 689.125,
+            "left": 1231.546875
+          },
+          "amount": {
+            "x": 897.5,
+            "y": 573.125,
+            "width": 150,
+            "height": 60,
+            "top": 573.125,
+            "right": 1047.5,
+            "bottom": 633.125,
+            "left": 897.5
+          },
+          "button": {
+            "x": 1067.5,
+            "y": 573.125,
+            "width": 193.8125,
+            "height": 60,
+            "top": 573.125,
+            "right": 1261.3125,
+            "bottom": 633.125,
+            "left": 1067.5
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 510,
+            "y": 1090.5625,
+            "width": 111.78125,
+            "height": 35,
+            "top": 1090.5625,
+            "right": 621.78125,
+            "bottom": 1125.5625,
+            "left": 510
+          },
+          "net": {
+            "x": 629.78125,
+            "y": 1103.5625,
+            "width": 100.21875,
+            "height": 19.5,
+            "top": 1103.5625,
+            "right": 730,
+            "bottom": 1123.0625,
+            "left": 629.78125
+          },
+          "details": {
+            "x": 23,
+            "y": 1359.375,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1359.375,
+            "right": 151.828125,
+            "bottom": 1378.75,
+            "left": 23
+          },
+          "contact": {
+            "x": 550.046875,
+            "y": 1353.5625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1353.5625,
+            "right": 730,
+            "bottom": 1384.5625,
+            "left": 550.046875
+          },
+          "amount": {
+            "x": 23,
+            "y": 1268.5625,
+            "width": 150,
+            "height": 60,
+            "top": 1268.5625,
+            "right": 173,
+            "bottom": 1328.5625,
+            "left": 23
+          },
+          "button": {
+            "x": 203,
+            "y": 1268.5625,
+            "width": 220.625,
+            "height": 60,
+            "top": 1268.5625,
+            "right": 423.625,
+            "bottom": 1328.5625,
+            "left": 203
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 175,
+            "y": 737.203125,
+            "width": 111.78125,
+            "height": 35,
+            "top": 737.203125,
+            "right": 286.78125,
+            "bottom": 772.203125,
+            "left": 175
+          },
+          "net": {
+            "x": 294.78125,
+            "y": 750.203125,
+            "width": 100.21875,
+            "height": 19.5,
+            "top": 750.203125,
+            "right": 395,
+            "bottom": 769.703125,
+            "left": 294.78125
+          },
+          "details": {
+            "x": 20,
+            "y": 1000.4375,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1000.4375,
+            "right": 148.828125,
+            "bottom": 1019.8125,
+            "left": 20
+          },
+          "contact": {
+            "x": 215.046875,
+            "y": 994.625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 994.625,
+            "right": 395,
+            "bottom": 1025.625,
+            "left": 215.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 917.40625,
+            "width": 100,
+            "height": 50,
+            "top": 917.40625,
+            "right": 120,
+            "bottom": 967.40625,
+            "left": 20
+          },
+          "button": {
+            "x": 140,
+            "y": 915.203125,
+            "width": 182.625,
+            "height": 54.421875,
+            "top": 915.203125,
+            "right": 322.625,
+            "bottom": 969.625,
+            "left": 140
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 135,
+            "y": 737.15625,
+            "width": 111.78125,
+            "height": 35,
+            "top": 737.15625,
+            "right": 246.78125,
+            "bottom": 772.15625,
+            "left": 135
+          },
+          "net": {
+            "x": 254.78125,
+            "y": 750.15625,
+            "width": 100.21875,
+            "height": 19.5,
+            "top": 750.15625,
+            "right": 355,
+            "bottom": 769.65625,
+            "left": 254.78125
+          },
+          "details": {
+            "x": 20,
+            "y": 1031.96875,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1031.96875,
+            "right": 148.828125,
+            "bottom": 1051.34375,
+            "left": 20
+          },
+          "contact": {
+            "x": 175.046875,
+            "y": 1026.15625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1026.15625,
+            "right": 355,
+            "bottom": 1057.15625,
+            "left": 175.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 951.15625,
+            "width": 100,
+            "height": 50,
+            "top": 951.15625,
+            "right": 120,
+            "bottom": 1001.15625,
+            "left": 20
+          },
+          "button": {
+            "x": 140,
+            "y": 951.15625,
+            "width": 163.4375,
+            "height": 50,
+            "top": 951.15625,
+            "right": 303.4375,
+            "bottom": 1001.15625,
+            "left": 140
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 120,
+            "y": 725.90625,
+            "width": 111.78125,
+            "height": 35,
+            "top": 725.90625,
+            "right": 231.78125,
+            "bottom": 760.90625,
+            "left": 120
+          },
+          "net": {
+            "x": 239.78125,
+            "y": 738.90625,
+            "width": 100.21875,
+            "height": 19.5,
+            "top": 738.90625,
+            "right": 340,
+            "bottom": 758.40625,
+            "left": 239.78125
+          },
+          "details": {
+            "x": 20,
+            "y": 1014.90625,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1014.90625,
+            "right": 148.828125,
+            "bottom": 1034.28125,
+            "left": 20
+          },
+          "contact": {
+            "x": 160.046875,
+            "y": 1042.28125,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1042.28125,
+            "right": 340,
+            "bottom": 1073.28125,
+            "left": 160.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 939.90625,
+            "width": 100,
+            "height": 50,
+            "top": 939.90625,
+            "right": 120,
+            "bottom": 989.90625,
+            "left": 20
+          },
+          "button": {
+            "x": 140,
+            "y": 939.90625,
+            "width": 163.4375,
+            "height": 50,
+            "top": 939.90625,
+            "right": 303.4375,
+            "bottom": 989.90625,
+            "left": 140
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 65,
+            "y": 684.65625,
+            "width": 111.78125,
+            "height": 35,
+            "top": 684.65625,
+            "right": 176.78125,
+            "bottom": 719.65625,
+            "left": 65
+          },
+          "net": {
+            "x": 184.78125,
+            "y": 697.65625,
+            "width": 100.21875,
+            "height": 19.5,
+            "top": 697.65625,
+            "right": 285,
+            "bottom": 717.15625,
+            "left": 184.78125
+          },
+          "details": {
+            "x": 20,
+            "y": 973.65625,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 973.65625,
+            "right": 148.828125,
+            "bottom": 993.03125,
+            "left": 20
+          },
+          "contact": {
+            "x": 105.046875,
+            "y": 1001.03125,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1001.03125,
+            "right": 285,
+            "bottom": 1032.03125,
+            "left": 105.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 898.65625,
+            "width": 100,
+            "height": 50,
+            "top": 898.65625,
+            "right": 120,
+            "bottom": 948.65625,
+            "left": 20
+          },
+          "button": {
+            "x": 132,
+            "y": 898.65625,
+            "width": 152.0625,
+            "height": 50,
+            "top": 898.65625,
+            "right": 284.0625,
+            "bottom": 948.65625,
+            "left": 132
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "pass": true,
+      "rows": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 1168.125,
+            "y": 475.71875,
+            "width": 127.84375,
+            "height": 35,
+            "top": 475.71875,
+            "right": 1295.96875,
+            "bottom": 510.71875,
+            "left": 1168.125
+          },
+          "net": {
+            "x": 1303.96875,
+            "y": 488.71875,
+            "width": 107.53125,
+            "height": 19.5,
+            "top": 488.71875,
+            "right": 1411.5,
+            "bottom": 508.21875,
+            "left": 1303.96875
+          },
+          "details": {
+            "x": 897.5,
+            "y": 744.53125,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 744.53125,
+            "right": 1026.328125,
+            "bottom": 763.90625,
+            "left": 897.5
+          },
+          "contact": {
+            "x": 1231.546875,
+            "y": 738.71875,
+            "width": 179.953125,
+            "height": 31,
+            "top": 738.71875,
+            "right": 1411.5,
+            "bottom": 769.71875,
+            "left": 1231.546875
+          },
+          "amount": {
+            "x": 897.5,
+            "y": 653.71875,
+            "width": 150,
+            "height": 60,
+            "top": 653.71875,
+            "right": 1047.5,
+            "bottom": 713.71875,
+            "left": 897.5
+          },
+          "button": {
+            "x": 1067.5,
+            "y": 654.09375,
+            "width": 191.359375,
+            "height": 59.234375,
+            "top": 654.09375,
+            "right": 1258.859375,
+            "bottom": 713.328125,
+            "left": 1067.5
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 486.625,
+            "y": 1159.125,
+            "width": 127.84375,
+            "height": 35,
+            "top": 1159.125,
+            "right": 614.46875,
+            "bottom": 1194.125,
+            "left": 486.625
+          },
+          "net": {
+            "x": 622.46875,
+            "y": 1172.125,
+            "width": 107.53125,
+            "height": 19.5,
+            "top": 1172.125,
+            "right": 730,
+            "bottom": 1191.625,
+            "left": 622.46875
+          },
+          "details": {
+            "x": 23,
+            "y": 1427.9375,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1427.9375,
+            "right": 151.828125,
+            "bottom": 1447.3125,
+            "left": 23
+          },
+          "contact": {
+            "x": 550.046875,
+            "y": 1422.125,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1422.125,
+            "right": 730,
+            "bottom": 1453.125,
+            "left": 550.046875
+          },
+          "amount": {
+            "x": 23,
+            "y": 1337.125,
+            "width": 150,
+            "height": 60,
+            "top": 1337.125,
+            "right": 173,
+            "bottom": 1397.125,
+            "left": 23
+          },
+          "button": {
+            "x": 203,
+            "y": 1337.125,
+            "width": 220.609375,
+            "height": 60,
+            "top": 1337.125,
+            "right": 423.609375,
+            "bottom": 1397.125,
+            "left": 203
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 151.625,
+            "y": 789.984375,
+            "width": 127.84375,
+            "height": 35,
+            "top": 789.984375,
+            "right": 279.46875,
+            "bottom": 824.984375,
+            "left": 151.625
+          },
+          "net": {
+            "x": 287.46875,
+            "y": 802.984375,
+            "width": 107.53125,
+            "height": 19.5,
+            "top": 802.984375,
+            "right": 395,
+            "bottom": 822.484375,
+            "left": 287.46875
+          },
+          "details": {
+            "x": 20,
+            "y": 1053.21875,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1053.21875,
+            "right": 148.828125,
+            "bottom": 1072.59375,
+            "left": 20
+          },
+          "contact": {
+            "x": 215.046875,
+            "y": 1047.40625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1047.40625,
+            "right": 395,
+            "bottom": 1078.40625,
+            "left": 215.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 970.1875,
+            "width": 100,
+            "height": 50,
+            "top": 970.1875,
+            "right": 120,
+            "bottom": 1020.1875,
+            "left": 20
+          },
+          "button": {
+            "x": 140,
+            "y": 967.984375,
+            "width": 182.40625,
+            "height": 54.421875,
+            "top": 967.984375,
+            "right": 322.40625,
+            "bottom": 1022.40625,
+            "left": 140
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 111.625,
+            "y": 763.546875,
+            "width": 127.84375,
+            "height": 35,
+            "top": 763.546875,
+            "right": 239.46875,
+            "bottom": 798.546875,
+            "left": 111.625
+          },
+          "net": {
+            "x": 247.46875,
+            "y": 776.546875,
+            "width": 107.53125,
+            "height": 19.5,
+            "top": 776.546875,
+            "right": 355,
+            "bottom": 796.046875,
+            "left": 247.46875
+          },
+          "details": {
+            "x": 20,
+            "y": 1058.359375,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1058.359375,
+            "right": 148.828125,
+            "bottom": 1077.734375,
+            "left": 20
+          },
+          "contact": {
+            "x": 175.046875,
+            "y": 1052.546875,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1052.546875,
+            "right": 355,
+            "bottom": 1083.546875,
+            "left": 175.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 977.546875,
+            "width": 100,
+            "height": 50,
+            "top": 977.546875,
+            "right": 120,
+            "bottom": 1027.546875,
+            "left": 20
+          },
+          "button": {
+            "x": 140,
+            "y": 977.546875,
+            "width": 163.4375,
+            "height": 50,
+            "top": 977.546875,
+            "right": 303.4375,
+            "bottom": 1027.546875,
+            "left": 140
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 96.625,
+            "y": 752.296875,
+            "width": 127.84375,
+            "height": 35,
+            "top": 752.296875,
+            "right": 224.46875,
+            "bottom": 787.296875,
+            "left": 96.625
+          },
+          "net": {
+            "x": 232.46875,
+            "y": 765.296875,
+            "width": 107.53125,
+            "height": 19.5,
+            "top": 765.296875,
+            "right": 340,
+            "bottom": 784.796875,
+            "left": 232.46875
+          },
+          "details": {
+            "x": 20,
+            "y": 1041.296875,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1041.296875,
+            "right": 148.828125,
+            "bottom": 1060.671875,
+            "left": 20
+          },
+          "contact": {
+            "x": 160.046875,
+            "y": 1068.671875,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1068.671875,
+            "right": 340,
+            "bottom": 1099.671875,
+            "left": 160.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 966.296875,
+            "width": 100,
+            "height": 50,
+            "top": 966.296875,
+            "right": 120,
+            "bottom": 1016.296875,
+            "left": 20
+          },
+          "button": {
+            "x": 140,
+            "y": 966.296875,
+            "width": 163.4375,
+            "height": 50,
+            "top": 966.296875,
+            "right": 303.4375,
+            "bottom": 1016.296875,
+            "left": 140
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 157.15625,
+            "y": 764.1875,
+            "width": 127.84375,
+            "height": 35,
+            "top": 764.1875,
+            "right": 285,
+            "bottom": 799.1875,
+            "left": 157.15625
+          },
+          "net": {
+            "x": 177.46875,
+            "y": 803.1875,
+            "width": 107.53125,
+            "height": 19.5,
+            "top": 803.1875,
+            "right": 285,
+            "bottom": 822.6875,
+            "left": 177.46875
+          },
+          "details": {
+            "x": 20,
+            "y": 1076.6875,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1076.6875,
+            "right": 148.828125,
+            "bottom": 1096.0625,
+            "left": 20
+          },
+          "contact": {
+            "x": 105.046875,
+            "y": 1104.0625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1104.0625,
+            "right": 285,
+            "bottom": 1135.0625,
+            "left": 105.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 1001.6875,
+            "width": 100,
+            "height": 50,
+            "top": 1001.6875,
+            "right": 120,
+            "bottom": 1051.6875,
+            "left": 20
+          },
+          "button": {
+            "x": 132,
+            "y": 1001.6875,
+            "width": 152.0625,
+            "height": 50,
+            "top": 1001.6875,
+            "right": 284.0625,
+            "bottom": 1051.6875,
+            "left": 132
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

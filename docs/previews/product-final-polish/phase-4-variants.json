@@ -1,0 +1,1106 @@
+{
+  "fixture": true,
+  "products": [
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "rows": [
+        {
+          "width": 1440,
+          "pass": true,
+          "viewport": 1440,
+          "mobileMedia": false,
+          "overflow": false,
+          "button": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 138.5,
+              "imageWidth": 116.5,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.5,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330554-3_tulip-knopka-jota-biela-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312356-5_tulip-knopka-jota--nikel-bruseny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ]
+        },
+        {
+          "width": 768,
+          "pass": true,
+          "viewport": 768,
+          "mobileMedia": false,
+          "overflow": false,
+          "button": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 186.75,
+              "imageWidth": 164.75,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.75,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330554-3_tulip-knopka-jota-biela-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312356-5_tulip-knopka-jota--nikel-bruseny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ]
+        },
+        {
+          "width": 430,
+          "pass": true,
+          "viewport": 430,
+          "mobileMedia": true,
+          "overflow": false,
+          "button": {
+            "color": "rgb(36, 84, 166)",
+            "background": "rgb(234, 241, 252)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330554-3_tulip-knopka-jota-biela-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312356-5_tulip-knopka-jota--nikel-bruseny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ]
+        },
+        {
+          "width": 390,
+          "pass": true,
+          "viewport": 390,
+          "mobileMedia": true,
+          "overflow": false,
+          "button": {
+            "color": "rgb(36, 84, 166)",
+            "background": "rgb(234, 241, 252)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 121.65625,
+              "imageWidth": 99.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330554-3_tulip-knopka-jota-biela-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312356-5_tulip-knopka-jota--nikel-bruseny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ]
+        },
+        {
+          "width": 375,
+          "pass": true,
+          "viewport": 375,
+          "mobileMedia": true,
+          "overflow": false,
+          "button": {
+            "color": "rgb(36, 84, 166)",
+            "background": "rgb(234, 241, 252)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330554-3_tulip-knopka-jota-biela-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312356-5_tulip-knopka-jota--nikel-bruseny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ]
+        },
+        {
+          "width": 320,
+          "pass": true,
+          "viewport": 320,
+          "mobileMedia": true,
+          "overflow": false,
+          "button": {
+            "color": "rgb(36, 84, 166)",
+            "background": "rgb(234, 241, 252)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 147.5,
+              "imageWidth": 125.5,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.5,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330554-3_tulip-knopka-jota-biela-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312356-5_tulip-knopka-jota--nikel-bruseny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ]
+        }
+      ],
+      "expand": true,
+      "gallery": true,
+      "navigation": "https://www.timberstore.sk/pribornik-classico-kristall-softtouch-722x474mm-cierna/"
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "rows": [
+        {
+          "width": 1440,
+          "pass": true,
+          "viewport": 1440,
+          "mobileMedia": false,
+          "overflow": false,
+          "button": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 138.5,
+              "imageWidth": 116.5,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330287-1_agoform-drziak-nozov-do-pribornikov-classico--422x155mm--drevo.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/333629-1_agoform-pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80--704x474mm.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/331502-1_agoform-pribornik-sky-722x474mm--antracit.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 138.5,
+              "imageWidth": 116.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ]
+        },
+        {
+          "width": 768,
+          "pass": true,
+          "viewport": 768,
+          "mobileMedia": false,
+          "overflow": false,
+          "button": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 186.75,
+              "imageWidth": 164.75,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330287-1_agoform-drziak-nozov-do-pribornikov-classico--422x155mm--drevo.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/333629-1_agoform-pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80--704x474mm.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/331502-1_agoform-pribornik-sky-722x474mm--antracit.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 186.75,
+              "imageWidth": 164.734375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ]
+        },
+        {
+          "width": 430,
+          "pass": true,
+          "viewport": 430,
+          "mobileMedia": true,
+          "overflow": false,
+          "button": {
+            "color": "rgb(36, 84, 166)",
+            "background": "rgb(234, 241, 252)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330287-1_agoform-drziak-nozov-do-pribornikov-classico--422x155mm--drevo.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/333629-1_agoform-pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80--704x474mm.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/331502-1_agoform-pribornik-sky-722x474mm--antracit.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 134.984375,
+              "imageWidth": 112.96875,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ]
+        },
+        {
+          "width": 390,
+          "pass": true,
+          "viewport": 390,
+          "mobileMedia": true,
+          "overflow": false,
+          "button": {
+            "color": "rgb(36, 84, 166)",
+            "background": "rgb(234, 241, 252)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 121.65625,
+              "imageWidth": 99.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330287-1_agoform-drziak-nozov-do-pribornikov-classico--422x155mm--drevo.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/333629-1_agoform-pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80--704x474mm.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/331502-1_agoform-pribornik-sky-722x474mm--antracit.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 121.65625,
+              "imageWidth": 99.625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ]
+        },
+        {
+          "width": 375,
+          "pass": true,
+          "viewport": 375,
+          "mobileMedia": true,
+          "overflow": false,
+          "button": {
+            "color": "rgb(36, 84, 166)",
+            "background": "rgb(234, 241, 252)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330287-1_agoform-drziak-nozov-do-pribornikov-classico--422x155mm--drevo.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/333629-1_agoform-pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80--704x474mm.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/331502-1_agoform-pribornik-sky-722x474mm--antracit.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 116.65625,
+              "imageWidth": 94.640625,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ]
+        },
+        {
+          "width": 320,
+          "pass": true,
+          "viewport": 320,
+          "mobileMedia": true,
+          "overflow": false,
+          "button": {
+            "color": "rgb(36, 84, 166)",
+            "background": "rgb(234, 241, 252)",
+            "display": "flex"
+          },
+          "cards": [
+            {
+              "width": 147.5,
+              "imageWidth": 125.5,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/330287-1_agoform-drziak-nozov-do-pribornikov-classico--422x155mm--drevo.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/333629-1_agoform-pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80--704x474mm.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/331502-1_agoform-pribornik-sky-722x474mm--antracit.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/315179-1_blum-zsi-80vei6-o-l--ukladanie--800-500.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312353-5_tulip-knopka-jota-cierna-matna.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312347-3_tulip-knopka-jota-chrom-leskly.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false
+            },
+            {
+              "width": 147.5,
+              "imageWidth": 125.484375,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312341-5_tulip-knopka-jota-nikel-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312350-5_tulip-knopka-jota-zlata-leskla.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false
+            },
+            {
+              "width": 0,
+              "imageWidth": 0,
+              "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/312344-5_tulip-knopka-jota--chrom-matny.jpg?ff=1&x=423&y=318&q=85&ts=6a973b68&sg=2175fb9d",
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false
+            }
+          ],
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ]
+        }
+      ],
+      "expand": true,
+      "gallery": true,
+      "navigation": "https://www.timberstore.sk/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/"
+    }
+  ],
+  "errors": [
+    {
+      "pageError": "Transition was skipped",
+      "pageUrl": "https://www.timberstore.sk/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "stack": ""
+    }
+  ],
+  "baselineErrors": [],
+  "knownTransitions": [
+    {
+      "pageError": "Transition was skipped",
+      "pageUrl": "https://www.timberstore.sk/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "stack": ""
+    }
+  ],
+  "unexpectedErrors": [],
+  "pass": true
+}

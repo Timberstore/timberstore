@@ -1,0 +1,3081 @@
+{
+  "stage": "4",
+  "products": [
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "pass": true,
+      "rows": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 1194.703125,
+            "y": 395.125,
+            "width": 111.78125,
+            "height": 35,
+            "top": 395.125,
+            "right": 1306.484375,
+            "bottom": 430.125,
+            "left": 1194.703125
+          },
+          "net": {
+            "x": 1314.484375,
+            "y": 408.125,
+            "width": 97.015625,
+            "height": 19.5,
+            "top": 408.125,
+            "right": 1411.5,
+            "bottom": 427.625,
+            "left": 1314.484375
+          },
+          "details": {
+            "x": 897.5,
+            "y": 652.328125,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 652.328125,
+            "right": 1026.328125,
+            "bottom": 671.703125,
+            "left": 897.5
+          },
+          "contact": {
+            "x": 1231.546875,
+            "y": 646.515625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 646.515625,
+            "right": 1411.5,
+            "bottom": 677.515625,
+            "left": 1231.546875
+          },
+          "amount": {
+            "x": 897.5,
+            "y": 573.3125,
+            "width": 134,
+            "height": 48,
+            "top": 573.3125,
+            "right": 1031.5,
+            "bottom": 621.3125,
+            "left": 897.5
+          },
+          "button": {
+            "x": 1043.5,
+            "y": 573.125,
+            "width": 368,
+            "height": 48.390625,
+            "top": 573.125,
+            "right": 1411.5,
+            "bottom": 621.515625,
+            "left": 1043.5
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 513.203125,
+            "y": 1090.5625,
+            "width": 111.78125,
+            "height": 35,
+            "top": 1090.5625,
+            "right": 624.984375,
+            "bottom": 1125.5625,
+            "left": 513.203125
+          },
+          "net": {
+            "x": 632.984375,
+            "y": 1103.5625,
+            "width": 97.015625,
+            "height": 19.5,
+            "top": 1103.5625,
+            "right": 730,
+            "bottom": 1123.0625,
+            "left": 632.984375
+          },
+          "details": {
+            "x": 23,
+            "y": 1347.765625,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1347.765625,
+            "right": 151.828125,
+            "bottom": 1367.140625,
+            "left": 23
+          },
+          "contact": {
+            "x": 550.046875,
+            "y": 1341.953125,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1341.953125,
+            "right": 730,
+            "bottom": 1372.953125,
+            "left": 550.046875
+          },
+          "amount": {
+            "x": 23,
+            "y": 1268.75,
+            "width": 134,
+            "height": 48,
+            "top": 1268.75,
+            "right": 157,
+            "bottom": 1316.75,
+            "left": 23
+          },
+          "button": {
+            "x": 169,
+            "y": 1268.5625,
+            "width": 561,
+            "height": 48.390625,
+            "top": 1268.5625,
+            "right": 730,
+            "bottom": 1316.953125,
+            "left": 169
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 178.203125,
+            "y": 738.234375,
+            "width": 111.78125,
+            "height": 35,
+            "top": 738.234375,
+            "right": 289.984375,
+            "bottom": 773.234375,
+            "left": 178.203125
+          },
+          "net": {
+            "x": 297.984375,
+            "y": 751.234375,
+            "width": 97.015625,
+            "height": 19.5,
+            "top": 751.234375,
+            "right": 395,
+            "bottom": 770.734375,
+            "left": 297.984375
+          },
+          "details": {
+            "x": 20,
+            "y": 995.4375,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 995.4375,
+            "right": 148.828125,
+            "bottom": 1014.8125,
+            "left": 20
+          },
+          "contact": {
+            "x": 215.046875,
+            "y": 989.625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 989.625,
+            "right": 395,
+            "bottom": 1020.625,
+            "left": 215.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 916.421875,
+            "width": 134,
+            "height": 48,
+            "top": 916.421875,
+            "right": 154,
+            "bottom": 964.421875,
+            "left": 20
+          },
+          "button": {
+            "x": 166,
+            "y": 916.234375,
+            "width": 229,
+            "height": 48.390625,
+            "top": 916.234375,
+            "right": 395,
+            "bottom": 964.625,
+            "left": 166
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 138.203125,
+            "y": 737.15625,
+            "width": 111.78125,
+            "height": 35,
+            "top": 737.15625,
+            "right": 249.984375,
+            "bottom": 772.15625,
+            "left": 138.203125
+          },
+          "net": {
+            "x": 257.984375,
+            "y": 750.15625,
+            "width": 97.015625,
+            "height": 19.5,
+            "top": 750.15625,
+            "right": 355,
+            "bottom": 769.65625,
+            "left": 257.984375
+          },
+          "details": {
+            "x": 20,
+            "y": 1090.359375,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1090.359375,
+            "right": 148.828125,
+            "bottom": 1109.734375,
+            "left": 20
+          },
+          "contact": {
+            "x": 175.046875,
+            "y": 1084.546875,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1084.546875,
+            "right": 355,
+            "bottom": 1115.546875,
+            "left": 175.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 951.15625,
+            "width": 134,
+            "height": 48,
+            "top": 951.15625,
+            "right": 154,
+            "bottom": 999.15625,
+            "left": 20
+          },
+          "button": {
+            "x": 20,
+            "y": 1011.15625,
+            "width": 335,
+            "height": 48.390625,
+            "top": 1011.15625,
+            "right": 355,
+            "bottom": 1059.546875,
+            "left": 20
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 123.203125,
+            "y": 725.90625,
+            "width": 111.78125,
+            "height": 35,
+            "top": 725.90625,
+            "right": 234.984375,
+            "bottom": 760.90625,
+            "left": 123.203125
+          },
+          "net": {
+            "x": 242.984375,
+            "y": 738.90625,
+            "width": 97.015625,
+            "height": 19.5,
+            "top": 738.90625,
+            "right": 340,
+            "bottom": 758.40625,
+            "left": 242.984375
+          },
+          "details": {
+            "x": 20,
+            "y": 1073.296875,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1073.296875,
+            "right": 148.828125,
+            "bottom": 1092.671875,
+            "left": 20
+          },
+          "contact": {
+            "x": 160.046875,
+            "y": 1100.671875,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1100.671875,
+            "right": 340,
+            "bottom": 1131.671875,
+            "left": 160.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 939.90625,
+            "width": 134,
+            "height": 48,
+            "top": 939.90625,
+            "right": 154,
+            "bottom": 987.90625,
+            "left": 20
+          },
+          "button": {
+            "x": 20,
+            "y": 999.90625,
+            "width": 320,
+            "height": 48.390625,
+            "top": 999.90625,
+            "right": 340,
+            "bottom": 1048.296875,
+            "left": 20
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "1,84 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 68.203125,
+            "y": 684.65625,
+            "width": 111.78125,
+            "height": 35,
+            "top": 684.65625,
+            "right": 179.984375,
+            "bottom": 719.65625,
+            "left": 68.203125
+          },
+          "net": {
+            "x": 187.984375,
+            "y": 697.65625,
+            "width": 97.015625,
+            "height": 19.5,
+            "top": 697.65625,
+            "right": 285,
+            "bottom": 717.15625,
+            "left": 187.984375
+          },
+          "details": {
+            "x": 20,
+            "y": 1032.046875,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1032.046875,
+            "right": 148.828125,
+            "bottom": 1051.421875,
+            "left": 20
+          },
+          "contact": {
+            "x": 105.046875,
+            "y": 1059.421875,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1059.421875,
+            "right": 285,
+            "bottom": 1090.421875,
+            "left": 105.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 898.65625,
+            "width": 134,
+            "height": 48,
+            "top": 898.65625,
+            "right": 154,
+            "bottom": 946.65625,
+            "left": 20
+          },
+          "button": {
+            "x": 20,
+            "y": 958.65625,
+            "width": 265,
+            "height": 48.390625,
+            "top": 958.65625,
+            "right": 285,
+            "bottom": 1007.046875,
+            "left": 20
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "pass": true,
+      "rows": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 1171.34375,
+            "y": 475.71875,
+            "width": 127.84375,
+            "height": 35,
+            "top": 475.71875,
+            "right": 1299.1875,
+            "bottom": 510.71875,
+            "left": 1171.34375
+          },
+          "net": {
+            "x": 1307.1875,
+            "y": 488.71875,
+            "width": 104.3125,
+            "height": 19.5,
+            "top": 488.71875,
+            "right": 1411.5,
+            "bottom": 508.21875,
+            "left": 1307.1875
+          },
+          "details": {
+            "x": 897.5,
+            "y": 732.921875,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 732.921875,
+            "right": 1026.328125,
+            "bottom": 752.296875,
+            "left": 897.5
+          },
+          "contact": {
+            "x": 1231.546875,
+            "y": 727.109375,
+            "width": 179.953125,
+            "height": 31,
+            "top": 727.109375,
+            "right": 1411.5,
+            "bottom": 758.109375,
+            "left": 1231.546875
+          },
+          "amount": {
+            "x": 897.5,
+            "y": 653.90625,
+            "width": 134,
+            "height": 48,
+            "top": 653.90625,
+            "right": 1031.5,
+            "bottom": 701.90625,
+            "left": 897.5
+          },
+          "button": {
+            "x": 1043.5,
+            "y": 653.71875,
+            "width": 368,
+            "height": 48.390625,
+            "top": 653.71875,
+            "right": 1411.5,
+            "bottom": 702.109375,
+            "left": 1043.5
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 489.84375,
+            "y": 1159.125,
+            "width": 127.84375,
+            "height": 35,
+            "top": 1159.125,
+            "right": 617.6875,
+            "bottom": 1194.125,
+            "left": 489.84375
+          },
+          "net": {
+            "x": 625.6875,
+            "y": 1172.125,
+            "width": 104.3125,
+            "height": 19.5,
+            "top": 1172.125,
+            "right": 730,
+            "bottom": 1191.625,
+            "left": 625.6875
+          },
+          "details": {
+            "x": 23,
+            "y": 1416.328125,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1416.328125,
+            "right": 151.828125,
+            "bottom": 1435.703125,
+            "left": 23
+          },
+          "contact": {
+            "x": 550.046875,
+            "y": 1410.515625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1410.515625,
+            "right": 730,
+            "bottom": 1441.515625,
+            "left": 550.046875
+          },
+          "amount": {
+            "x": 23,
+            "y": 1337.3125,
+            "width": 134,
+            "height": 48,
+            "top": 1337.3125,
+            "right": 157,
+            "bottom": 1385.3125,
+            "left": 23
+          },
+          "button": {
+            "x": 169,
+            "y": 1337.125,
+            "width": 561,
+            "height": 48.390625,
+            "top": 1337.125,
+            "right": 730,
+            "bottom": 1385.515625,
+            "left": 169
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 154.84375,
+            "y": 790.515625,
+            "width": 127.84375,
+            "height": 35,
+            "top": 790.515625,
+            "right": 282.6875,
+            "bottom": 825.515625,
+            "left": 154.84375
+          },
+          "net": {
+            "x": 290.6875,
+            "y": 803.515625,
+            "width": 104.3125,
+            "height": 19.5,
+            "top": 803.515625,
+            "right": 395,
+            "bottom": 823.015625,
+            "left": 290.6875
+          },
+          "details": {
+            "x": 20,
+            "y": 1047.71875,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1047.71875,
+            "right": 148.828125,
+            "bottom": 1067.09375,
+            "left": 20
+          },
+          "contact": {
+            "x": 215.046875,
+            "y": 1041.90625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1041.90625,
+            "right": 395,
+            "bottom": 1072.90625,
+            "left": 215.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 968.703125,
+            "width": 134,
+            "height": 48,
+            "top": 968.703125,
+            "right": 154,
+            "bottom": 1016.703125,
+            "left": 20
+          },
+          "button": {
+            "x": 166,
+            "y": 968.515625,
+            "width": 229,
+            "height": 48.390625,
+            "top": 968.515625,
+            "right": 395,
+            "bottom": 1016.90625,
+            "left": 166
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 114.84375,
+            "y": 763.546875,
+            "width": 127.84375,
+            "height": 35,
+            "top": 763.546875,
+            "right": 242.6875,
+            "bottom": 798.546875,
+            "left": 114.84375
+          },
+          "net": {
+            "x": 250.6875,
+            "y": 776.546875,
+            "width": 104.3125,
+            "height": 19.5,
+            "top": 776.546875,
+            "right": 355,
+            "bottom": 796.046875,
+            "left": 250.6875
+          },
+          "details": {
+            "x": 20,
+            "y": 1116.75,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1116.75,
+            "right": 148.828125,
+            "bottom": 1136.125,
+            "left": 20
+          },
+          "contact": {
+            "x": 175.046875,
+            "y": 1110.9375,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1110.9375,
+            "right": 355,
+            "bottom": 1141.9375,
+            "left": 175.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 977.546875,
+            "width": 134,
+            "height": 48,
+            "top": 977.546875,
+            "right": 154,
+            "bottom": 1025.546875,
+            "left": 20
+          },
+          "button": {
+            "x": 20,
+            "y": 1037.546875,
+            "width": 335,
+            "height": 48.390625,
+            "top": 1037.546875,
+            "right": 355,
+            "bottom": 1085.9375,
+            "left": 20
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 99.84375,
+            "y": 752.296875,
+            "width": 127.84375,
+            "height": 35,
+            "top": 752.296875,
+            "right": 227.6875,
+            "bottom": 787.296875,
+            "left": 99.84375
+          },
+          "net": {
+            "x": 235.6875,
+            "y": 765.296875,
+            "width": 104.3125,
+            "height": 19.5,
+            "top": 765.296875,
+            "right": 340,
+            "bottom": 784.796875,
+            "left": 235.6875
+          },
+          "details": {
+            "x": 20,
+            "y": 1099.6875,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1099.6875,
+            "right": 148.828125,
+            "bottom": 1119.0625,
+            "left": 20
+          },
+          "contact": {
+            "x": 160.046875,
+            "y": 1127.0625,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1127.0625,
+            "right": 340,
+            "bottom": 1158.0625,
+            "left": 160.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 966.296875,
+            "width": 134,
+            "height": 48,
+            "top": 966.296875,
+            "right": 154,
+            "bottom": 1014.296875,
+            "left": 20
+          },
+          "button": {
+            "x": 20,
+            "y": 1026.296875,
+            "width": 320,
+            "height": 48.390625,
+            "top": 1026.296875,
+            "right": 340,
+            "bottom": 1074.6875,
+            "left": 20
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "brand": "rgb(36, 84, 166)",
+          "vat": "18,90 €",
+          "badge": 1,
+          "dateInBadge": true,
+          "links": 1,
+          "form": 1,
+          "price": {
+            "x": 157.15625,
+            "y": 764.1875,
+            "width": 127.84375,
+            "height": 35,
+            "top": 764.1875,
+            "right": 285,
+            "bottom": 799.1875,
+            "left": 157.15625
+          },
+          "net": {
+            "x": 180.6875,
+            "y": 803.1875,
+            "width": 104.3125,
+            "height": 19.5,
+            "top": 803.1875,
+            "right": 285,
+            "bottom": 822.6875,
+            "left": 180.6875
+          },
+          "details": {
+            "x": 20,
+            "y": 1135.078125,
+            "width": 128.828125,
+            "height": 19.375,
+            "top": 1135.078125,
+            "right": 148.828125,
+            "bottom": 1154.453125,
+            "left": 20
+          },
+          "contact": {
+            "x": 105.046875,
+            "y": 1162.453125,
+            "width": 179.953125,
+            "height": 31,
+            "top": 1162.453125,
+            "right": 285,
+            "bottom": 1193.453125,
+            "left": 105.046875
+          },
+          "amount": {
+            "x": 20,
+            "y": 1001.6875,
+            "width": 134,
+            "height": 48,
+            "top": 1001.6875,
+            "right": 154,
+            "bottom": 1049.6875,
+            "left": 20
+          },
+          "button": {
+            "x": 20,
+            "y": 1061.6875,
+            "width": 265,
+            "height": 48.390625,
+            "top": 1061.6875,
+            "right": 285,
+            "bottom": 1110.078125,
+            "left": 20
+          },
+          "titles": [
+            {
+              "wordBreak": "normal",
+              "wrap": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modal": [
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "width": 1440,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 330.78125,
+            "y": 398.15625,
+            "width": 400,
+            "height": 43,
+            "top": 398.15625,
+            "right": 730.78125,
+            "bottom": 441.15625,
+            "left": 330.78125
+          },
+          "delivery": {
+            "x": 330.78125,
+            "y": 423.15625,
+            "width": 398,
+            "height": 18,
+            "top": 423.15625,
+            "right": 728.78125,
+            "bottom": 441.15625,
+            "left": 330.78125
+          },
+          "price": {
+            "x": 880.171875,
+            "y": 406.859375,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 406.859375,
+            "right": 924.78125,
+            "bottom": 432.453125,
+            "left": 880.171875
+          },
+          "logo": {
+            "x": 776.78125,
+            "y": 404.65625,
+            "width": 60,
+            "height": 30,
+            "top": 404.65625,
+            "right": 836.78125,
+            "bottom": 434.65625,
+            "left": 776.78125
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 330.78125,
+            "y": 470.15625,
+            "width": 400,
+            "height": 43,
+            "top": 470.15625,
+            "right": 730.78125,
+            "bottom": 513.15625,
+            "left": 330.78125
+          },
+          "delivery": {
+            "x": 330.78125,
+            "y": 495.15625,
+            "width": 398,
+            "height": 18,
+            "top": 495.15625,
+            "right": 728.78125,
+            "bottom": 513.15625,
+            "left": 330.78125
+          },
+          "price": {
+            "x": 880.171875,
+            "y": 478.859375,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 478.859375,
+            "right": 924.78125,
+            "bottom": 504.453125,
+            "left": 880.171875
+          },
+          "logo": {
+            "x": 776.78125,
+            "y": 476.65625,
+            "width": 60,
+            "height": 30,
+            "top": 476.65625,
+            "right": 836.78125,
+            "bottom": 506.65625,
+            "left": 776.78125
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 330.78125,
+            "y": 542.15625,
+            "width": 400,
+            "height": 43,
+            "top": 542.15625,
+            "right": 730.78125,
+            "bottom": 585.15625,
+            "left": 330.78125
+          },
+          "delivery": {
+            "x": 330.78125,
+            "y": 567.15625,
+            "width": 398,
+            "height": 18,
+            "top": 567.15625,
+            "right": 728.78125,
+            "bottom": 585.15625,
+            "left": 330.78125
+          },
+          "price": {
+            "x": 880.171875,
+            "y": 550.859375,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 550.859375,
+            "right": 924.78125,
+            "bottom": 576.453125,
+            "left": 880.171875
+          },
+          "logo": {
+            "x": 776.1875,
+            "y": 548.65625,
+            "width": 60.59375,
+            "height": 30,
+            "top": 548.65625,
+            "right": 836.78125,
+            "bottom": 578.65625,
+            "left": 776.1875
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 330.78125,
+            "y": 614.15625,
+            "width": 400,
+            "height": 43,
+            "top": 614.15625,
+            "right": 730.78125,
+            "bottom": 657.15625,
+            "left": 330.78125
+          },
+          "delivery": {
+            "x": 330.78125,
+            "y": 639.15625,
+            "width": 398,
+            "height": 18,
+            "top": 639.15625,
+            "right": 728.78125,
+            "bottom": 657.15625,
+            "left": 330.78125
+          },
+          "price": {
+            "x": 880.171875,
+            "y": 622.859375,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 622.859375,
+            "right": 924.78125,
+            "bottom": 648.453125,
+            "left": 880.171875
+          },
+          "logo": {
+            "x": 776.78125,
+            "y": 620.65625,
+            "width": 60,
+            "height": 30,
+            "top": 620.65625,
+            "right": 836.78125,
+            "bottom": 650.65625,
+            "left": 776.78125
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "width": 768,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 66.578125,
+            "y": 400.59375,
+            "width": 400,
+            "height": 43,
+            "top": 400.59375,
+            "right": 466.578125,
+            "bottom": 443.59375,
+            "left": 66.578125
+          },
+          "delivery": {
+            "x": 66.578125,
+            "y": 425.59375,
+            "width": 398,
+            "height": 18,
+            "top": 425.59375,
+            "right": 464.578125,
+            "bottom": 443.59375,
+            "left": 66.578125
+          },
+          "price": {
+            "x": 615.96875,
+            "y": 409.296875,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 409.296875,
+            "right": 660.578125,
+            "bottom": 434.890625,
+            "left": 615.96875
+          },
+          "logo": {
+            "x": 512.578125,
+            "y": 407.09375,
+            "width": 60,
+            "height": 30,
+            "top": 407.09375,
+            "right": 572.578125,
+            "bottom": 437.09375,
+            "left": 512.578125
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 66.578125,
+            "y": 472.59375,
+            "width": 400,
+            "height": 43,
+            "top": 472.59375,
+            "right": 466.578125,
+            "bottom": 515.59375,
+            "left": 66.578125
+          },
+          "delivery": {
+            "x": 66.578125,
+            "y": 497.59375,
+            "width": 398,
+            "height": 18,
+            "top": 497.59375,
+            "right": 464.578125,
+            "bottom": 515.59375,
+            "left": 66.578125
+          },
+          "price": {
+            "x": 615.96875,
+            "y": 481.296875,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 481.296875,
+            "right": 660.578125,
+            "bottom": 506.890625,
+            "left": 615.96875
+          },
+          "logo": {
+            "x": 512.578125,
+            "y": 479.09375,
+            "width": 60,
+            "height": 30,
+            "top": 479.09375,
+            "right": 572.578125,
+            "bottom": 509.09375,
+            "left": 512.578125
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 66.578125,
+            "y": 544.59375,
+            "width": 400,
+            "height": 43,
+            "top": 544.59375,
+            "right": 466.578125,
+            "bottom": 587.59375,
+            "left": 66.578125
+          },
+          "delivery": {
+            "x": 66.578125,
+            "y": 569.59375,
+            "width": 398,
+            "height": 18,
+            "top": 569.59375,
+            "right": 464.578125,
+            "bottom": 587.59375,
+            "left": 66.578125
+          },
+          "price": {
+            "x": 615.96875,
+            "y": 553.296875,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 553.296875,
+            "right": 660.578125,
+            "bottom": 578.890625,
+            "left": 615.96875
+          },
+          "logo": {
+            "x": 511.984375,
+            "y": 551.09375,
+            "width": 60.59375,
+            "height": 30,
+            "top": 551.09375,
+            "right": 572.578125,
+            "bottom": 581.09375,
+            "left": 511.984375
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 66.578125,
+            "y": 616.59375,
+            "width": 400,
+            "height": 43,
+            "top": 616.59375,
+            "right": 466.578125,
+            "bottom": 659.59375,
+            "left": 66.578125
+          },
+          "delivery": {
+            "x": 66.578125,
+            "y": 641.59375,
+            "width": 398,
+            "height": 18,
+            "top": 641.59375,
+            "right": 464.578125,
+            "bottom": 659.59375,
+            "left": 66.578125
+          },
+          "price": {
+            "x": 615.96875,
+            "y": 625.296875,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 625.296875,
+            "right": 660.578125,
+            "bottom": 650.890625,
+            "left": 615.96875
+          },
+          "logo": {
+            "x": 512.578125,
+            "y": 623.09375,
+            "width": 60,
+            "height": 30,
+            "top": 623.09375,
+            "right": 572.578125,
+            "bottom": 653.09375,
+            "left": 512.578125
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "width": 430,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 61,
+            "y": 320.5625,
+            "width": 285,
+            "height": 43,
+            "top": 320.5625,
+            "right": 346,
+            "bottom": 363.5625,
+            "left": 61
+          },
+          "delivery": {
+            "x": 61,
+            "y": 345.5625,
+            "width": 283,
+            "height": 18,
+            "top": 345.5625,
+            "right": 344,
+            "bottom": 363.5625,
+            "left": 61
+          },
+          "price": {
+            "x": 330.953125,
+            "y": 377.359375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 377.359375,
+            "right": 370,
+            "bottom": 399.75,
+            "left": 330.953125
+          },
+          "logo": {
+            "x": 61,
+            "y": 373.5625,
+            "width": 60,
+            "height": 30,
+            "top": 373.5625,
+            "right": 121,
+            "bottom": 403.5625,
+            "left": 61
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 61,
+            "y": 432.5625,
+            "width": 285,
+            "height": 43,
+            "top": 432.5625,
+            "right": 346,
+            "bottom": 475.5625,
+            "left": 61
+          },
+          "delivery": {
+            "x": 61,
+            "y": 457.5625,
+            "width": 283,
+            "height": 18,
+            "top": 457.5625,
+            "right": 344,
+            "bottom": 475.5625,
+            "left": 61
+          },
+          "price": {
+            "x": 330.953125,
+            "y": 489.359375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 489.359375,
+            "right": 370,
+            "bottom": 511.75,
+            "left": 330.953125
+          },
+          "logo": {
+            "x": 61,
+            "y": 485.5625,
+            "width": 60,
+            "height": 30,
+            "top": 485.5625,
+            "right": 121,
+            "bottom": 515.5625,
+            "left": 61
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 61,
+            "y": 544.5625,
+            "width": 285,
+            "height": 43,
+            "top": 544.5625,
+            "right": 346,
+            "bottom": 587.5625,
+            "left": 61
+          },
+          "delivery": {
+            "x": 61,
+            "y": 569.5625,
+            "width": 283,
+            "height": 18,
+            "top": 569.5625,
+            "right": 344,
+            "bottom": 587.5625,
+            "left": 61
+          },
+          "price": {
+            "x": 330.953125,
+            "y": 601.359375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 601.359375,
+            "right": 370,
+            "bottom": 623.75,
+            "left": 330.953125
+          },
+          "logo": {
+            "x": 61,
+            "y": 597.5625,
+            "width": 60.59375,
+            "height": 30,
+            "top": 597.5625,
+            "right": 121.59375,
+            "bottom": 627.5625,
+            "left": 61
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 61,
+            "y": 656.5625,
+            "width": 285,
+            "height": 43,
+            "top": 656.5625,
+            "right": 346,
+            "bottom": 699.5625,
+            "left": 61
+          },
+          "delivery": {
+            "x": 61,
+            "y": 681.5625,
+            "width": 283,
+            "height": 18,
+            "top": 681.5625,
+            "right": 344,
+            "bottom": 699.5625,
+            "left": 61
+          },
+          "price": {
+            "x": 330.953125,
+            "y": 713.359375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 713.359375,
+            "right": 370,
+            "bottom": 735.75,
+            "left": 330.953125
+          },
+          "logo": {
+            "x": 61,
+            "y": 709.5625,
+            "width": 60,
+            "height": 30,
+            "top": 709.5625,
+            "right": 121,
+            "bottom": 739.5625,
+            "left": 61
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "width": 390,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 44.765625,
+            "y": 318.890625,
+            "width": 245,
+            "height": 43,
+            "top": 318.890625,
+            "right": 289.765625,
+            "bottom": 361.890625,
+            "left": 44.765625
+          },
+          "delivery": {
+            "x": 44.765625,
+            "y": 343.890625,
+            "width": 243,
+            "height": 18,
+            "top": 343.890625,
+            "right": 287.765625,
+            "bottom": 361.890625,
+            "left": 44.765625
+          },
+          "price": {
+            "x": 274.71875,
+            "y": 375.6875,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 375.6875,
+            "right": 313.765625,
+            "bottom": 398.078125,
+            "left": 274.71875
+          },
+          "logo": {
+            "x": 44.765625,
+            "y": 371.890625,
+            "width": 60,
+            "height": 30,
+            "top": 371.890625,
+            "right": 104.765625,
+            "bottom": 401.890625,
+            "left": 44.765625
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 44.765625,
+            "y": 430.890625,
+            "width": 245,
+            "height": 43,
+            "top": 430.890625,
+            "right": 289.765625,
+            "bottom": 473.890625,
+            "left": 44.765625
+          },
+          "delivery": {
+            "x": 44.765625,
+            "y": 455.890625,
+            "width": 243,
+            "height": 18,
+            "top": 455.890625,
+            "right": 287.765625,
+            "bottom": 473.890625,
+            "left": 44.765625
+          },
+          "price": {
+            "x": 274.71875,
+            "y": 487.6875,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 487.6875,
+            "right": 313.765625,
+            "bottom": 510.078125,
+            "left": 274.71875
+          },
+          "logo": {
+            "x": 44.765625,
+            "y": 483.890625,
+            "width": 60,
+            "height": 30,
+            "top": 483.890625,
+            "right": 104.765625,
+            "bottom": 513.890625,
+            "left": 44.765625
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 44.765625,
+            "y": 542.890625,
+            "width": 245,
+            "height": 43,
+            "top": 542.890625,
+            "right": 289.765625,
+            "bottom": 585.890625,
+            "left": 44.765625
+          },
+          "delivery": {
+            "x": 44.765625,
+            "y": 567.890625,
+            "width": 243,
+            "height": 18,
+            "top": 567.890625,
+            "right": 287.765625,
+            "bottom": 585.890625,
+            "left": 44.765625
+          },
+          "price": {
+            "x": 274.71875,
+            "y": 599.6875,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 599.6875,
+            "right": 313.765625,
+            "bottom": 622.078125,
+            "left": 274.71875
+          },
+          "logo": {
+            "x": 44.765625,
+            "y": 595.890625,
+            "width": 60.59375,
+            "height": 30,
+            "top": 595.890625,
+            "right": 105.359375,
+            "bottom": 625.890625,
+            "left": 44.765625
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 44.765625,
+            "y": 654.890625,
+            "width": 245,
+            "height": 43,
+            "top": 654.890625,
+            "right": 289.765625,
+            "bottom": 697.890625,
+            "left": 44.765625
+          },
+          "delivery": {
+            "x": 44.765625,
+            "y": 679.890625,
+            "width": 243,
+            "height": 18,
+            "top": 679.890625,
+            "right": 287.765625,
+            "bottom": 697.890625,
+            "left": 44.765625
+          },
+          "price": {
+            "x": 274.71875,
+            "y": 711.6875,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 711.6875,
+            "right": 313.765625,
+            "bottom": 734.078125,
+            "left": 274.71875
+          },
+          "logo": {
+            "x": 44.765625,
+            "y": 707.890625,
+            "width": 60,
+            "height": 30,
+            "top": 707.890625,
+            "right": 104.765625,
+            "bottom": 737.890625,
+            "left": 44.765625
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "width": 375,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 42.125,
+            "y": 320.03125,
+            "width": 230,
+            "height": 43,
+            "top": 320.03125,
+            "right": 272.125,
+            "bottom": 363.03125,
+            "left": 42.125
+          },
+          "delivery": {
+            "x": 42.125,
+            "y": 345.03125,
+            "width": 228,
+            "height": 18,
+            "top": 345.03125,
+            "right": 270.125,
+            "bottom": 363.03125,
+            "left": 42.125
+          },
+          "price": {
+            "x": 257.078125,
+            "y": 376.828125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 376.828125,
+            "right": 296.125,
+            "bottom": 399.21875,
+            "left": 257.078125
+          },
+          "logo": {
+            "x": 42.125,
+            "y": 373.03125,
+            "width": 60,
+            "height": 30,
+            "top": 373.03125,
+            "right": 102.125,
+            "bottom": 403.03125,
+            "left": 42.125
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.125,
+            "y": 432.03125,
+            "width": 230,
+            "height": 43,
+            "top": 432.03125,
+            "right": 272.125,
+            "bottom": 475.03125,
+            "left": 42.125
+          },
+          "delivery": {
+            "x": 42.125,
+            "y": 457.03125,
+            "width": 228,
+            "height": 18,
+            "top": 457.03125,
+            "right": 270.125,
+            "bottom": 475.03125,
+            "left": 42.125
+          },
+          "price": {
+            "x": 257.078125,
+            "y": 488.828125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 488.828125,
+            "right": 296.125,
+            "bottom": 511.21875,
+            "left": 257.078125
+          },
+          "logo": {
+            "x": 42.125,
+            "y": 485.03125,
+            "width": 60,
+            "height": 30,
+            "top": 485.03125,
+            "right": 102.125,
+            "bottom": 515.03125,
+            "left": 42.125
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.125,
+            "y": 544.03125,
+            "width": 230,
+            "height": 43,
+            "top": 544.03125,
+            "right": 272.125,
+            "bottom": 587.03125,
+            "left": 42.125
+          },
+          "delivery": {
+            "x": 42.125,
+            "y": 569.03125,
+            "width": 228,
+            "height": 18,
+            "top": 569.03125,
+            "right": 270.125,
+            "bottom": 587.03125,
+            "left": 42.125
+          },
+          "price": {
+            "x": 257.078125,
+            "y": 600.828125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 600.828125,
+            "right": 296.125,
+            "bottom": 623.21875,
+            "left": 257.078125
+          },
+          "logo": {
+            "x": 42.125,
+            "y": 597.03125,
+            "width": 60.59375,
+            "height": 30,
+            "top": 597.03125,
+            "right": 102.71875,
+            "bottom": 627.03125,
+            "left": 42.125
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.125,
+            "y": 656.03125,
+            "width": 230,
+            "height": 43,
+            "top": 656.03125,
+            "right": 272.125,
+            "bottom": 699.03125,
+            "left": 42.125
+          },
+          "delivery": {
+            "x": 42.125,
+            "y": 681.03125,
+            "width": 228,
+            "height": 18,
+            "top": 681.03125,
+            "right": 270.125,
+            "bottom": 699.03125,
+            "left": 42.125
+          },
+          "price": {
+            "x": 257.078125,
+            "y": 712.828125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 712.828125,
+            "right": 296.125,
+            "bottom": 735.21875,
+            "left": 257.078125
+          },
+          "logo": {
+            "x": 42.125,
+            "y": 709.03125,
+            "width": 60,
+            "height": 30,
+            "top": 709.03125,
+            "right": 102.125,
+            "bottom": 739.03125,
+            "left": 42.125
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "width": 320,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 42.546875,
+            "y": 307.609375,
+            "width": 175,
+            "height": 82,
+            "top": 307.609375,
+            "right": 217.546875,
+            "bottom": 389.609375,
+            "left": 42.546875
+          },
+          "delivery": {
+            "x": 42.546875,
+            "y": 353.609375,
+            "width": 173,
+            "height": 36,
+            "top": 353.609375,
+            "right": 215.546875,
+            "bottom": 389.609375,
+            "left": 42.546875
+          },
+          "price": {
+            "x": 202.5,
+            "y": 403.40625,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 403.40625,
+            "right": 241.546875,
+            "bottom": 425.796875,
+            "left": 202.5
+          },
+          "logo": {
+            "x": 42.546875,
+            "y": 399.609375,
+            "width": 60,
+            "height": 30,
+            "top": 399.609375,
+            "right": 102.546875,
+            "bottom": 429.609375,
+            "left": 42.546875
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.546875,
+            "y": 458.609375,
+            "width": 175,
+            "height": 82,
+            "top": 458.609375,
+            "right": 217.546875,
+            "bottom": 540.609375,
+            "left": 42.546875
+          },
+          "delivery": {
+            "x": 42.546875,
+            "y": 504.609375,
+            "width": 173,
+            "height": 36,
+            "top": 504.609375,
+            "right": 215.546875,
+            "bottom": 540.609375,
+            "left": 42.546875
+          },
+          "price": {
+            "x": 202.5,
+            "y": 554.40625,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 554.40625,
+            "right": 241.546875,
+            "bottom": 576.796875,
+            "left": 202.5
+          },
+          "logo": {
+            "x": 42.546875,
+            "y": 550.609375,
+            "width": 60,
+            "height": 30,
+            "top": 550.609375,
+            "right": 102.546875,
+            "bottom": 580.609375,
+            "left": 42.546875
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.546875,
+            "y": 609.609375,
+            "width": 175,
+            "height": 82,
+            "top": 609.609375,
+            "right": 217.546875,
+            "bottom": 691.609375,
+            "left": 42.546875
+          },
+          "delivery": {
+            "x": 42.546875,
+            "y": 655.609375,
+            "width": 173,
+            "height": 36,
+            "top": 655.609375,
+            "right": 215.546875,
+            "bottom": 691.609375,
+            "left": 42.546875
+          },
+          "price": {
+            "x": 202.5,
+            "y": 705.40625,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 705.40625,
+            "right": 241.546875,
+            "bottom": 727.796875,
+            "left": 202.5
+          },
+          "logo": {
+            "x": 42.546875,
+            "y": 701.609375,
+            "width": 60.59375,
+            "height": 30,
+            "top": 701.609375,
+            "right": 103.140625,
+            "bottom": 731.609375,
+            "left": 42.546875
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.546875,
+            "y": 760.609375,
+            "width": 175,
+            "height": 82,
+            "top": 760.609375,
+            "right": 217.546875,
+            "bottom": 842.609375,
+            "left": 42.546875
+          },
+          "delivery": {
+            "x": 42.546875,
+            "y": 806.609375,
+            "width": 173,
+            "height": 36,
+            "top": 806.609375,
+            "right": 215.546875,
+            "bottom": 842.609375,
+            "left": 42.546875
+          },
+          "price": {
+            "x": 202.5,
+            "y": 856.40625,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 856.40625,
+            "right": 241.546875,
+            "bottom": 878.796875,
+            "left": 202.5
+          },
+          "logo": {
+            "x": 42.546875,
+            "y": 852.609375,
+            "width": 60,
+            "height": 30,
+            "top": 852.609375,
+            "right": 102.546875,
+            "bottom": 882.609375,
+            "left": 42.546875
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "width": 1440,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 302.75,
+            "y": 400.0625,
+            "width": 400,
+            "height": 43,
+            "top": 400.0625,
+            "right": 702.75,
+            "bottom": 443.0625,
+            "left": 302.75
+          },
+          "delivery": {
+            "x": 302.75,
+            "y": 425.0625,
+            "width": 398,
+            "height": 18,
+            "top": 425.0625,
+            "right": 700.75,
+            "bottom": 443.0625,
+            "left": 302.75
+          },
+          "price": {
+            "x": 852.140625,
+            "y": 408.765625,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 408.765625,
+            "right": 896.75,
+            "bottom": 434.359375,
+            "left": 852.140625
+          },
+          "logo": {
+            "x": 748.75,
+            "y": 406.5625,
+            "width": 60,
+            "height": 30,
+            "top": 406.5625,
+            "right": 808.75,
+            "bottom": 436.5625,
+            "left": 748.75
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 302.75,
+            "y": 472.0625,
+            "width": 400,
+            "height": 43,
+            "top": 472.0625,
+            "right": 702.75,
+            "bottom": 515.0625,
+            "left": 302.75
+          },
+          "delivery": {
+            "x": 302.75,
+            "y": 497.0625,
+            "width": 398,
+            "height": 18,
+            "top": 497.0625,
+            "right": 700.75,
+            "bottom": 515.0625,
+            "left": 302.75
+          },
+          "price": {
+            "x": 852.140625,
+            "y": 480.765625,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 480.765625,
+            "right": 896.75,
+            "bottom": 506.359375,
+            "left": 852.140625
+          },
+          "logo": {
+            "x": 748.75,
+            "y": 478.5625,
+            "width": 60,
+            "height": 30,
+            "top": 478.5625,
+            "right": 808.75,
+            "bottom": 508.5625,
+            "left": 748.75
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 302.75,
+            "y": 544.0625,
+            "width": 400,
+            "height": 43,
+            "top": 544.0625,
+            "right": 702.75,
+            "bottom": 587.0625,
+            "left": 302.75
+          },
+          "delivery": {
+            "x": 302.75,
+            "y": 569.0625,
+            "width": 398,
+            "height": 18,
+            "top": 569.0625,
+            "right": 700.75,
+            "bottom": 587.0625,
+            "left": 302.75
+          },
+          "price": {
+            "x": 852.140625,
+            "y": 552.765625,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 552.765625,
+            "right": 896.75,
+            "bottom": 578.359375,
+            "left": 852.140625
+          },
+          "logo": {
+            "x": 748.15625,
+            "y": 550.5625,
+            "width": 60.59375,
+            "height": 30,
+            "top": 550.5625,
+            "right": 808.75,
+            "bottom": 580.5625,
+            "left": 748.15625
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 302.75,
+            "y": 616.0625,
+            "width": 400,
+            "height": 43,
+            "top": 616.0625,
+            "right": 702.75,
+            "bottom": 659.0625,
+            "left": 302.75
+          },
+          "delivery": {
+            "x": 302.75,
+            "y": 641.0625,
+            "width": 398,
+            "height": 18,
+            "top": 641.0625,
+            "right": 700.75,
+            "bottom": 659.0625,
+            "left": 302.75
+          },
+          "price": {
+            "x": 852.140625,
+            "y": 624.765625,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 624.765625,
+            "right": 896.75,
+            "bottom": 650.359375,
+            "left": 852.140625
+          },
+          "logo": {
+            "x": 748.75,
+            "y": 622.5625,
+            "width": 60,
+            "height": 30,
+            "top": 622.5625,
+            "right": 808.75,
+            "bottom": 652.5625,
+            "left": 748.75
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "width": 768,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 62.109375,
+            "y": 400.59375,
+            "width": 400,
+            "height": 43,
+            "top": 400.59375,
+            "right": 462.109375,
+            "bottom": 443.59375,
+            "left": 62.109375
+          },
+          "delivery": {
+            "x": 62.109375,
+            "y": 425.59375,
+            "width": 398,
+            "height": 18,
+            "top": 425.59375,
+            "right": 460.109375,
+            "bottom": 443.59375,
+            "left": 62.109375
+          },
+          "price": {
+            "x": 611.5,
+            "y": 409.296875,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 409.296875,
+            "right": 656.109375,
+            "bottom": 434.890625,
+            "left": 611.5
+          },
+          "logo": {
+            "x": 508.109375,
+            "y": 407.09375,
+            "width": 60,
+            "height": 30,
+            "top": 407.09375,
+            "right": 568.109375,
+            "bottom": 437.09375,
+            "left": 508.109375
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 62.109375,
+            "y": 472.59375,
+            "width": 400,
+            "height": 43,
+            "top": 472.59375,
+            "right": 462.109375,
+            "bottom": 515.59375,
+            "left": 62.109375
+          },
+          "delivery": {
+            "x": 62.109375,
+            "y": 497.59375,
+            "width": 398,
+            "height": 18,
+            "top": 497.59375,
+            "right": 460.109375,
+            "bottom": 515.59375,
+            "left": 62.109375
+          },
+          "price": {
+            "x": 611.5,
+            "y": 481.296875,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 481.296875,
+            "right": 656.109375,
+            "bottom": 506.890625,
+            "left": 611.5
+          },
+          "logo": {
+            "x": 508.109375,
+            "y": 479.09375,
+            "width": 60,
+            "height": 30,
+            "top": 479.09375,
+            "right": 568.109375,
+            "bottom": 509.09375,
+            "left": 508.109375
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 62.109375,
+            "y": 544.59375,
+            "width": 400,
+            "height": 43,
+            "top": 544.59375,
+            "right": 462.109375,
+            "bottom": 587.59375,
+            "left": 62.109375
+          },
+          "delivery": {
+            "x": 62.109375,
+            "y": 569.59375,
+            "width": 398,
+            "height": 18,
+            "top": 569.59375,
+            "right": 460.109375,
+            "bottom": 587.59375,
+            "left": 62.109375
+          },
+          "price": {
+            "x": 611.5,
+            "y": 553.296875,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 553.296875,
+            "right": 656.109375,
+            "bottom": 578.890625,
+            "left": 611.5
+          },
+          "logo": {
+            "x": 507.515625,
+            "y": 551.09375,
+            "width": 60.59375,
+            "height": 30,
+            "top": 551.09375,
+            "right": 568.109375,
+            "bottom": 581.09375,
+            "left": 507.515625
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 62.109375,
+            "y": 616.59375,
+            "width": 400,
+            "height": 43,
+            "top": 616.59375,
+            "right": 462.109375,
+            "bottom": 659.59375,
+            "left": 62.109375
+          },
+          "delivery": {
+            "x": 62.109375,
+            "y": 641.59375,
+            "width": 398,
+            "height": 18,
+            "top": 641.59375,
+            "right": 460.109375,
+            "bottom": 659.59375,
+            "left": 62.109375
+          },
+          "price": {
+            "x": 611.5,
+            "y": 625.296875,
+            "width": 44.609375,
+            "height": 25.59375,
+            "top": 625.296875,
+            "right": 656.109375,
+            "bottom": 650.890625,
+            "left": 611.5
+          },
+          "logo": {
+            "x": 508.109375,
+            "y": 623.09375,
+            "width": 60,
+            "height": 30,
+            "top": 623.09375,
+            "right": 568.109375,
+            "bottom": 653.09375,
+            "left": 508.109375
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "width": 430,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 41.859375,
+            "y": 320.5625,
+            "width": 285,
+            "height": 43,
+            "top": 320.5625,
+            "right": 326.859375,
+            "bottom": 363.5625,
+            "left": 41.859375
+          },
+          "delivery": {
+            "x": 41.859375,
+            "y": 345.5625,
+            "width": 283,
+            "height": 18,
+            "top": 345.5625,
+            "right": 324.859375,
+            "bottom": 363.5625,
+            "left": 41.859375
+          },
+          "price": {
+            "x": 311.8125,
+            "y": 377.359375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 377.359375,
+            "right": 350.859375,
+            "bottom": 399.75,
+            "left": 311.8125
+          },
+          "logo": {
+            "x": 41.859375,
+            "y": 373.5625,
+            "width": 60,
+            "height": 30,
+            "top": 373.5625,
+            "right": 101.859375,
+            "bottom": 403.5625,
+            "left": 41.859375
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 41.859375,
+            "y": 432.5625,
+            "width": 285,
+            "height": 43,
+            "top": 432.5625,
+            "right": 326.859375,
+            "bottom": 475.5625,
+            "left": 41.859375
+          },
+          "delivery": {
+            "x": 41.859375,
+            "y": 457.5625,
+            "width": 283,
+            "height": 18,
+            "top": 457.5625,
+            "right": 324.859375,
+            "bottom": 475.5625,
+            "left": 41.859375
+          },
+          "price": {
+            "x": 311.8125,
+            "y": 489.359375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 489.359375,
+            "right": 350.859375,
+            "bottom": 511.75,
+            "left": 311.8125
+          },
+          "logo": {
+            "x": 41.859375,
+            "y": 485.5625,
+            "width": 60,
+            "height": 30,
+            "top": 485.5625,
+            "right": 101.859375,
+            "bottom": 515.5625,
+            "left": 41.859375
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 41.859375,
+            "y": 544.5625,
+            "width": 285,
+            "height": 43,
+            "top": 544.5625,
+            "right": 326.859375,
+            "bottom": 587.5625,
+            "left": 41.859375
+          },
+          "delivery": {
+            "x": 41.859375,
+            "y": 569.5625,
+            "width": 283,
+            "height": 18,
+            "top": 569.5625,
+            "right": 324.859375,
+            "bottom": 587.5625,
+            "left": 41.859375
+          },
+          "price": {
+            "x": 311.8125,
+            "y": 601.359375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 601.359375,
+            "right": 350.859375,
+            "bottom": 623.75,
+            "left": 311.8125
+          },
+          "logo": {
+            "x": 41.859375,
+            "y": 597.5625,
+            "width": 60.59375,
+            "height": 30,
+            "top": 597.5625,
+            "right": 102.453125,
+            "bottom": 627.5625,
+            "left": 41.859375
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 41.859375,
+            "y": 656.5625,
+            "width": 285,
+            "height": 43,
+            "top": 656.5625,
+            "right": 326.859375,
+            "bottom": 699.5625,
+            "left": 41.859375
+          },
+          "delivery": {
+            "x": 41.859375,
+            "y": 681.5625,
+            "width": 283,
+            "height": 18,
+            "top": 681.5625,
+            "right": 324.859375,
+            "bottom": 699.5625,
+            "left": 41.859375
+          },
+          "price": {
+            "x": 311.8125,
+            "y": 713.359375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 713.359375,
+            "right": 350.859375,
+            "bottom": 735.75,
+            "left": 311.8125
+          },
+          "logo": {
+            "x": 41.859375,
+            "y": 709.5625,
+            "width": 60,
+            "height": 30,
+            "top": 709.5625,
+            "right": 101.859375,
+            "bottom": 739.5625,
+            "left": 41.859375
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "width": 390,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 42.71875,
+            "y": 319.78125,
+            "width": 245,
+            "height": 43,
+            "top": 319.78125,
+            "right": 287.71875,
+            "bottom": 362.78125,
+            "left": 42.71875
+          },
+          "delivery": {
+            "x": 42.71875,
+            "y": 344.78125,
+            "width": 243,
+            "height": 18,
+            "top": 344.78125,
+            "right": 285.71875,
+            "bottom": 362.78125,
+            "left": 42.71875
+          },
+          "price": {
+            "x": 272.671875,
+            "y": 376.578125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 376.578125,
+            "right": 311.71875,
+            "bottom": 398.96875,
+            "left": 272.671875
+          },
+          "logo": {
+            "x": 42.71875,
+            "y": 372.78125,
+            "width": 60,
+            "height": 30,
+            "top": 372.78125,
+            "right": 102.71875,
+            "bottom": 402.78125,
+            "left": 42.71875
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.71875,
+            "y": 431.78125,
+            "width": 245,
+            "height": 43,
+            "top": 431.78125,
+            "right": 287.71875,
+            "bottom": 474.78125,
+            "left": 42.71875
+          },
+          "delivery": {
+            "x": 42.71875,
+            "y": 456.78125,
+            "width": 243,
+            "height": 18,
+            "top": 456.78125,
+            "right": 285.71875,
+            "bottom": 474.78125,
+            "left": 42.71875
+          },
+          "price": {
+            "x": 272.671875,
+            "y": 488.578125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 488.578125,
+            "right": 311.71875,
+            "bottom": 510.96875,
+            "left": 272.671875
+          },
+          "logo": {
+            "x": 42.71875,
+            "y": 484.78125,
+            "width": 60,
+            "height": 30,
+            "top": 484.78125,
+            "right": 102.71875,
+            "bottom": 514.78125,
+            "left": 42.71875
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.71875,
+            "y": 543.78125,
+            "width": 245,
+            "height": 43,
+            "top": 543.78125,
+            "right": 287.71875,
+            "bottom": 586.78125,
+            "left": 42.71875
+          },
+          "delivery": {
+            "x": 42.71875,
+            "y": 568.78125,
+            "width": 243,
+            "height": 18,
+            "top": 568.78125,
+            "right": 285.71875,
+            "bottom": 586.78125,
+            "left": 42.71875
+          },
+          "price": {
+            "x": 272.671875,
+            "y": 600.578125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 600.578125,
+            "right": 311.71875,
+            "bottom": 622.96875,
+            "left": 272.671875
+          },
+          "logo": {
+            "x": 42.71875,
+            "y": 596.78125,
+            "width": 60.59375,
+            "height": 30,
+            "top": 596.78125,
+            "right": 103.3125,
+            "bottom": 626.78125,
+            "left": 42.71875
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.71875,
+            "y": 655.78125,
+            "width": 245,
+            "height": 43,
+            "top": 655.78125,
+            "right": 287.71875,
+            "bottom": 698.78125,
+            "left": 42.71875
+          },
+          "delivery": {
+            "x": 42.71875,
+            "y": 680.78125,
+            "width": 243,
+            "height": 18,
+            "top": 680.78125,
+            "right": 285.71875,
+            "bottom": 698.78125,
+            "left": 42.71875
+          },
+          "price": {
+            "x": 272.671875,
+            "y": 712.578125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 712.578125,
+            "right": 311.71875,
+            "bottom": 734.96875,
+            "left": 272.671875
+          },
+          "logo": {
+            "x": 42.71875,
+            "y": 708.78125,
+            "width": 60,
+            "height": 30,
+            "top": 708.78125,
+            "right": 102.71875,
+            "bottom": 738.78125,
+            "left": 42.71875
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "width": 375,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 41.8125,
+            "y": 320.1875,
+            "width": 230,
+            "height": 43,
+            "top": 320.1875,
+            "right": 271.8125,
+            "bottom": 363.1875,
+            "left": 41.8125
+          },
+          "delivery": {
+            "x": 41.8125,
+            "y": 345.1875,
+            "width": 228,
+            "height": 18,
+            "top": 345.1875,
+            "right": 269.8125,
+            "bottom": 363.1875,
+            "left": 41.8125
+          },
+          "price": {
+            "x": 256.765625,
+            "y": 376.984375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 376.984375,
+            "right": 295.8125,
+            "bottom": 399.375,
+            "left": 256.765625
+          },
+          "logo": {
+            "x": 41.8125,
+            "y": 373.1875,
+            "width": 60,
+            "height": 30,
+            "top": 373.1875,
+            "right": 101.8125,
+            "bottom": 403.1875,
+            "left": 41.8125
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 41.8125,
+            "y": 432.1875,
+            "width": 230,
+            "height": 43,
+            "top": 432.1875,
+            "right": 271.8125,
+            "bottom": 475.1875,
+            "left": 41.8125
+          },
+          "delivery": {
+            "x": 41.8125,
+            "y": 457.1875,
+            "width": 228,
+            "height": 18,
+            "top": 457.1875,
+            "right": 269.8125,
+            "bottom": 475.1875,
+            "left": 41.8125
+          },
+          "price": {
+            "x": 256.765625,
+            "y": 488.984375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 488.984375,
+            "right": 295.8125,
+            "bottom": 511.375,
+            "left": 256.765625
+          },
+          "logo": {
+            "x": 41.8125,
+            "y": 485.1875,
+            "width": 60,
+            "height": 30,
+            "top": 485.1875,
+            "right": 101.8125,
+            "bottom": 515.1875,
+            "left": 41.8125
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 41.8125,
+            "y": 544.1875,
+            "width": 230,
+            "height": 43,
+            "top": 544.1875,
+            "right": 271.8125,
+            "bottom": 587.1875,
+            "left": 41.8125
+          },
+          "delivery": {
+            "x": 41.8125,
+            "y": 569.1875,
+            "width": 228,
+            "height": 18,
+            "top": 569.1875,
+            "right": 269.8125,
+            "bottom": 587.1875,
+            "left": 41.8125
+          },
+          "price": {
+            "x": 256.765625,
+            "y": 600.984375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 600.984375,
+            "right": 295.8125,
+            "bottom": 623.375,
+            "left": 256.765625
+          },
+          "logo": {
+            "x": 41.8125,
+            "y": 597.1875,
+            "width": 60.59375,
+            "height": 30,
+            "top": 597.1875,
+            "right": 102.40625,
+            "bottom": 627.1875,
+            "left": 41.8125
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 41.8125,
+            "y": 656.1875,
+            "width": 230,
+            "height": 43,
+            "top": 656.1875,
+            "right": 271.8125,
+            "bottom": 699.1875,
+            "left": 41.8125
+          },
+          "delivery": {
+            "x": 41.8125,
+            "y": 681.1875,
+            "width": 228,
+            "height": 18,
+            "top": 681.1875,
+            "right": 269.8125,
+            "bottom": 699.1875,
+            "left": 41.8125
+          },
+          "price": {
+            "x": 256.765625,
+            "y": 712.984375,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 712.984375,
+            "right": 295.8125,
+            "bottom": 735.375,
+            "left": 256.765625
+          },
+          "logo": {
+            "x": 41.8125,
+            "y": 709.1875,
+            "width": 60,
+            "height": 30,
+            "top": 709.1875,
+            "right": 101.8125,
+            "bottom": 739.1875,
+            "left": 41.8125
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "width": 320,
+      "overflow": false,
+      "rows": [
+        {
+          "name": {
+            "x": 42.125,
+            "y": 308.984375,
+            "width": 175,
+            "height": 82,
+            "top": 308.984375,
+            "right": 217.125,
+            "bottom": 390.984375,
+            "left": 42.125
+          },
+          "delivery": {
+            "x": 42.125,
+            "y": 354.984375,
+            "width": 173,
+            "height": 36,
+            "top": 354.984375,
+            "right": 215.125,
+            "bottom": 390.984375,
+            "left": 42.125
+          },
+          "price": {
+            "x": 202.078125,
+            "y": 404.78125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 404.78125,
+            "right": 241.125,
+            "bottom": 427.171875,
+            "left": 202.078125
+          },
+          "logo": {
+            "x": 42.125,
+            "y": 400.984375,
+            "width": 60,
+            "height": 30,
+            "top": 400.984375,
+            "right": 102.125,
+            "bottom": 430.984375,
+            "left": 42.125
+          },
+          "text": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.125,
+            "y": 459.984375,
+            "width": 175,
+            "height": 82,
+            "top": 459.984375,
+            "right": 217.125,
+            "bottom": 541.984375,
+            "left": 42.125
+          },
+          "delivery": {
+            "x": 42.125,
+            "y": 505.984375,
+            "width": 173,
+            "height": 36,
+            "top": 505.984375,
+            "right": 215.125,
+            "bottom": 541.984375,
+            "left": 42.125
+          },
+          "price": {
+            "x": 202.078125,
+            "y": 555.78125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 555.78125,
+            "right": 241.125,
+            "bottom": 578.171875,
+            "left": 202.078125
+          },
+          "logo": {
+            "x": 42.125,
+            "y": 551.984375,
+            "width": 60,
+            "height": 30,
+            "top": 551.984375,
+            "right": 102.125,
+            "bottom": 581.984375,
+            "left": 42.125
+          },
+          "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.125,
+            "y": 610.984375,
+            "width": 175,
+            "height": 82,
+            "top": 610.984375,
+            "right": 217.125,
+            "bottom": 692.984375,
+            "left": 42.125
+          },
+          "delivery": {
+            "x": 42.125,
+            "y": 656.984375,
+            "width": 173,
+            "height": 36,
+            "top": 656.984375,
+            "right": 215.125,
+            "bottom": 692.984375,
+            "left": 42.125
+          },
+          "price": {
+            "x": 202.078125,
+            "y": 706.78125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 706.78125,
+            "right": 241.125,
+            "bottom": 729.171875,
+            "left": 202.078125
+          },
+          "logo": {
+            "x": 42.125,
+            "y": 702.984375,
+            "width": 60.59375,
+            "height": 30,
+            "top": 702.984375,
+            "right": 102.71875,
+            "bottom": 732.984375,
+            "left": 42.125
+          },
+          "text": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)"
+        },
+        {
+          "name": {
+            "x": 42.125,
+            "y": 761.984375,
+            "width": 175,
+            "height": 82,
+            "top": 761.984375,
+            "right": 217.125,
+            "bottom": 843.984375,
+            "left": 42.125
+          },
+          "delivery": {
+            "x": 42.125,
+            "y": 807.984375,
+            "width": 173,
+            "height": 36,
+            "top": 807.984375,
+            "right": 215.125,
+            "bottom": 843.984375,
+            "left": 42.125
+          },
+          "price": {
+            "x": 202.078125,
+            "y": 857.78125,
+            "width": 39.046875,
+            "height": 22.390625,
+            "top": 857.78125,
+            "right": 241.125,
+            "bottom": 880.171875,
+            "left": 202.078125
+          },
+          "logo": {
+            "x": 42.125,
+            "y": 853.984375,
+            "width": 60,
+            "height": 30,
+            "top": 853.984375,
+            "right": 102.125,
+            "bottom": 883.984375,
+            "left": 42.125
+          },
+          "text": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

@@ -372,7 +372,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity :is(button
   outline-offset: -3px;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to-cart-button {
-  flex: 1 1 156px;
+  flex: 1 1 210px;
   min-width: 0;
   min-height: 48px;
   margin: 0;
@@ -380,4 +380,26 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to
   font-size: 16px;
   line-height: 1.4;
   white-space: normal;
+}
+
+/* PD Final Polish / phase 4: only the existing mobile expansion button.
+   Desktop styling, image cards, order, active marker and handlers stay native. */
+@media (max-width: 767px) {
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsShowMore {
+    width: auto;
+    max-width: 100%;
+    min-height: 44px;
+    padding: 10px 20px;
+    border: 1px solid var(--ts-compact-blue);
+    border-radius: var(--ts-radius-checkout-panel);
+    background: var(--ts-compact-blue-bg);
+    color: var(--ts-compact-blue);
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsShowMore:focus-visible {
+    outline: 2px solid var(--ts-compact-blue);
+    outline-offset: 2px;
+  }
 }
