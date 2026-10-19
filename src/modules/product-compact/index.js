@@ -52,7 +52,7 @@ function enhance(info) {
     const price = grid?.querySelector(SEL.compactPriceBlock);
     const availability = grid?.querySelector(SEL.compactAvailabilityBlock);
     if (price && availability) {
-      let purchase = grid.querySelector(':scope > .ts-product-purchase-info');
+      let purchase = grid.querySelector('.ts-product-purchase-info');
       if (!purchase) {
         purchase = document.createElement('div');
         purchase.className = 'ts-product-purchase-info';
@@ -60,6 +60,21 @@ function enhance(info) {
       }
       for (const block of [availability, price]) {
         if (block.parentElement !== purchase) purchase.append(block);
+      }
+      // Keep the label available to screen readers, without a visible heading.
+      purchase.querySelector(SEL.compactPriceLabel)?.classList.add('sr-only');
+      const cart = info.querySelector(SEL.compactCart);
+      const form = purchase.closest(SEL.cartForm);
+      if (cart && form && cart.closest(SEL.cartForm) === form) {
+        let panel = grid.querySelector(':scope > .ts-product-purchase-panel');
+        if (!panel) {
+          panel = document.createElement('div');
+          panel.className = 'ts-product-purchase-panel';
+          purchase.before(panel);
+        }
+        for (const block of [purchase, cart]) {
+          if (block.parentElement !== panel) panel.append(block);
+        }
       }
     }
     const label = info.querySelector(SEL.compactDeliveryLabel);

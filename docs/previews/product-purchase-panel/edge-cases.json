@@ -1,0 +1,3140 @@
+{
+  "variants": [
+    {
+      "sku": "494606",
+      "rows": [
+        {
+          "width": 1440,
+          "before": [
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.5,
+              "imgHeight": 87.375,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.5,
+              "imgHeight": 87.375,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 128.953125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "before": [
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.75,
+              "imgHeight": 123.5625,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.75,
+              "imgHeight": 123.5625,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 165.21875,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "before": [
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.734375,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.734375,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "before": [
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.640625,
+              "imgHeight": 74.734375,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.640625,
+              "imgHeight": 74.734375,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "before": [
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 70.984375,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 70.984375,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "before": [
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.5,
+              "imgHeight": 94.125,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-biela-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.5,
+              "imgHeight": 94.125,
+              "href": "/tulip-knopka-jota-zlata-matna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-nikel-bruseny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "354068",
+      "rows": [
+        {
+          "width": 1440,
+          "before": [
+            {
+              "width": 138.5,
+              "height": 225.828125,
+              "imgWidth": 116.5,
+              "imgHeight": 87.375,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 225.828125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 225.828125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 225.828125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 167.703125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 167.703125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 167.703125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 167.703125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 138.5,
+              "height": 225.828125,
+              "imgWidth": 116.5,
+              "imgHeight": 87.375,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 225.828125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 225.828125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 225.828125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 167.703125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 167.703125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 167.703125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 138.5,
+              "height": 167.703125,
+              "imgWidth": 116.484375,
+              "imgHeight": 87.578125,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "before": [
+            {
+              "width": 186.75,
+              "height": 223.34375,
+              "imgWidth": 164.75,
+              "imgHeight": 123.5625,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 223.34375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 223.34375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 223.34375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 184.59375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 184.59375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 184.59375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 184.59375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 186.75,
+              "height": 223.34375,
+              "imgWidth": 164.75,
+              "imgHeight": 123.5625,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 223.34375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 223.34375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 223.34375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 184.59375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 184.59375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 184.59375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 186.75,
+              "height": 184.59375,
+              "imgWidth": 164.734375,
+              "imgHeight": 123.84375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "before": [
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.734375,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.734375,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 134.984375,
+              "height": 176.9375,
+              "imgWidth": 112.96875,
+              "imgHeight": 84.9375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "before": [
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.640625,
+              "imgHeight": 74.734375,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.640625,
+              "imgHeight": 74.734375,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 121.65625,
+              "height": 166.90625,
+              "imgWidth": 99.625,
+              "imgHeight": 74.90625,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "before": [
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 70.984375,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 70.984375,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 116.65625,
+              "height": 163.15625,
+              "imgWidth": 94.640625,
+              "imgHeight": 71.15625,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "before": [
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.5,
+              "imgHeight": 94.125,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ],
+          "after": [
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.5,
+              "imgHeight": 94.125,
+              "href": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+              "active": true,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/pribornik-classico-kristall-softtouch-cierny-pre-strongbox-80-704x474mm/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/pribornik-sky-722x474mmantracit/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/blum-zsi-80vei6-o-l--ukladanie--800-500/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-cierna-matna/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-chrom-leskly/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 147.5,
+              "height": 186.34375,
+              "imgWidth": 125.484375,
+              "imgHeight": 94.34375,
+              "href": "/tulip-knopka-jota-nikel-matny/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-zlata-leskla/",
+              "active": false,
+              "inPanel": false
+            },
+            {
+              "width": 0,
+              "height": 0,
+              "imgWidth": 0,
+              "imgHeight": 0,
+              "href": "/tulip-knopka-jota-chrom-matny/",
+              "active": false,
+              "inPanel": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "priceIdentity": true,
+      "cartIdentity": true,
+      "inputForm": true,
+      "formId": "product-detail-form",
+      "events": 1,
+      "hidden": true,
+      "panels": 1,
+      "purchases": 1,
+      "net": "81,29 €",
+      "price": "\n            99,99 € \n            / ks\n    \n        \n    "
+    }
+  ],
+  "longPrices": [
+    {
+      "unit": "ks",
+      "width": 1440,
+      "overflow": false,
+      "main": {
+        "x": 1170.46875,
+        "y": 158.703125,
+        "width": 218.0625,
+        "height": 35,
+        "top": 158.703125,
+        "right": 1388.53125,
+        "bottom": 193.703125,
+        "left": 1170.46875
+      },
+      "net": {
+        "x": 1205.875,
+        "y": 196.703125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 196.703125,
+        "right": 1353.125,
+        "bottom": 216.203125,
+        "left": 1205.875
+      },
+      "price": {
+        "x": 1164.5,
+        "y": 158.703125,
+        "width": 230,
+        "height": 57.5,
+        "top": 158.703125,
+        "right": 1394.5,
+        "bottom": 216.203125,
+        "left": 1164.5
+      },
+      "left": {
+        "x": 914.5,
+        "y": 132.453125,
+        "width": 230,
+        "height": 110,
+        "top": 132.453125,
+        "right": 1144.5,
+        "bottom": 242.453125,
+        "left": 914.5
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 1440,
+      "overflow": false,
+      "main": {
+        "x": 1167.140625,
+        "y": 158.703125,
+        "width": 224.703125,
+        "height": 35,
+        "top": 158.703125,
+        "right": 1391.84375,
+        "bottom": 193.703125,
+        "left": 1167.140625
+      },
+      "net": {
+        "x": 1205.859375,
+        "y": 196.703125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 196.703125,
+        "right": 1353.109375,
+        "bottom": 216.203125,
+        "left": 1205.859375
+      },
+      "price": {
+        "x": 1164.5,
+        "y": 158.703125,
+        "width": 230,
+        "height": 57.5,
+        "top": 158.703125,
+        "right": 1394.5,
+        "bottom": 216.203125,
+        "left": 1164.5
+      },
+      "left": {
+        "x": 914.5,
+        "y": 132.453125,
+        "width": 230,
+        "height": 110,
+        "top": 132.453125,
+        "right": 1144.5,
+        "bottom": 242.453125,
+        "left": 914.5
+      }
+    },
+    {
+      "unit": "m",
+      "width": 1440,
+      "overflow": false,
+      "main": {
+        "x": 1171.921875,
+        "y": 158.703125,
+        "width": 215.15625,
+        "height": 35,
+        "top": 158.703125,
+        "right": 1387.078125,
+        "bottom": 193.703125,
+        "left": 1171.921875
+      },
+      "net": {
+        "x": 1205.875,
+        "y": 196.703125,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 196.703125,
+        "right": 1353.125,
+        "bottom": 216.203125,
+        "left": 1205.875
+      },
+      "price": {
+        "x": 1164.5,
+        "y": 158.703125,
+        "width": 230,
+        "height": 57.5,
+        "top": 158.703125,
+        "right": 1394.5,
+        "bottom": 216.203125,
+        "left": 1164.5
+      },
+      "left": {
+        "x": 914.5,
+        "y": 132.453125,
+        "width": 230,
+        "height": 110,
+        "top": 132.453125,
+        "right": 1144.5,
+        "bottom": 242.453125,
+        "left": 914.5
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 1440,
+      "overflow": false,
+      "main": {
+        "x": 1164.5,
+        "y": 148.734375,
+        "width": 230,
+        "height": 54.9375,
+        "top": 148.734375,
+        "right": 1394.5,
+        "bottom": 203.671875,
+        "left": 1164.5
+      },
+      "net": {
+        "x": 1205.875,
+        "y": 206.671875,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 206.671875,
+        "right": 1353.125,
+        "bottom": 226.171875,
+        "left": 1205.875
+      },
+      "price": {
+        "x": 1164.5,
+        "y": 148.734375,
+        "width": 230,
+        "height": 77.4375,
+        "top": 148.734375,
+        "right": 1394.5,
+        "bottom": 226.171875,
+        "left": 1164.5
+      },
+      "left": {
+        "x": 914.5,
+        "y": 132.453125,
+        "width": 230,
+        "height": 110,
+        "top": 132.453125,
+        "right": 1144.5,
+        "bottom": 242.453125,
+        "left": 914.5
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 768,
+      "overflow": false,
+      "main": {
+        "x": 440.71875,
+        "y": 857.109375,
+        "width": 218.0625,
+        "height": 35,
+        "top": 857.109375,
+        "right": 658.78125,
+        "bottom": 892.109375,
+        "left": 440.71875
+      },
+      "net": {
+        "x": 476.125,
+        "y": 895.109375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 895.109375,
+        "right": 623.375,
+        "bottom": 914.609375,
+        "left": 476.125
+      },
+      "price": {
+        "x": 386.5,
+        "y": 857.109375,
+        "width": 326.5,
+        "height": 57.5,
+        "top": 857.109375,
+        "right": 713,
+        "bottom": 914.609375,
+        "left": 386.5
+      },
+      "left": {
+        "x": 40,
+        "y": 830.859375,
+        "width": 326.5,
+        "height": 110,
+        "top": 830.859375,
+        "right": 366.5,
+        "bottom": 940.859375,
+        "left": 40
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 768,
+      "overflow": false,
+      "main": {
+        "x": 437.390625,
+        "y": 857.109375,
+        "width": 224.703125,
+        "height": 35,
+        "top": 857.109375,
+        "right": 662.09375,
+        "bottom": 892.109375,
+        "left": 437.390625
+      },
+      "net": {
+        "x": 476.109375,
+        "y": 895.109375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 895.109375,
+        "right": 623.359375,
+        "bottom": 914.609375,
+        "left": 476.109375
+      },
+      "price": {
+        "x": 386.5,
+        "y": 857.109375,
+        "width": 326.5,
+        "height": 57.5,
+        "top": 857.109375,
+        "right": 713,
+        "bottom": 914.609375,
+        "left": 386.5
+      },
+      "left": {
+        "x": 40,
+        "y": 830.859375,
+        "width": 326.5,
+        "height": 110,
+        "top": 830.859375,
+        "right": 366.5,
+        "bottom": 940.859375,
+        "left": 40
+      }
+    },
+    {
+      "unit": "m",
+      "width": 768,
+      "overflow": false,
+      "main": {
+        "x": 442.171875,
+        "y": 857.109375,
+        "width": 215.15625,
+        "height": 35,
+        "top": 857.109375,
+        "right": 657.328125,
+        "bottom": 892.109375,
+        "left": 442.171875
+      },
+      "net": {
+        "x": 476.125,
+        "y": 895.109375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 895.109375,
+        "right": 623.375,
+        "bottom": 914.609375,
+        "left": 476.125
+      },
+      "price": {
+        "x": 386.5,
+        "y": 857.109375,
+        "width": 326.5,
+        "height": 57.5,
+        "top": 857.109375,
+        "right": 713,
+        "bottom": 914.609375,
+        "left": 386.5
+      },
+      "left": {
+        "x": 40,
+        "y": 830.859375,
+        "width": 326.5,
+        "height": 110,
+        "top": 830.859375,
+        "right": 366.5,
+        "bottom": 940.859375,
+        "left": 40
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 768,
+      "overflow": false,
+      "main": {
+        "x": 431.921875,
+        "y": 857.109375,
+        "width": 235.640625,
+        "height": 35,
+        "top": 857.109375,
+        "right": 667.5625,
+        "bottom": 892.109375,
+        "left": 431.921875
+      },
+      "net": {
+        "x": 476.109375,
+        "y": 895.109375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 895.109375,
+        "right": 623.359375,
+        "bottom": 914.609375,
+        "left": 476.109375
+      },
+      "price": {
+        "x": 386.5,
+        "y": 857.109375,
+        "width": 326.5,
+        "height": 57.5,
+        "top": 857.109375,
+        "right": 713,
+        "bottom": 914.609375,
+        "left": 386.5
+      },
+      "left": {
+        "x": 40,
+        "y": 830.859375,
+        "width": 326.5,
+        "height": 110,
+        "top": 830.859375,
+        "right": 366.5,
+        "bottom": 940.859375,
+        "left": 40
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 430,
+      "overflow": false,
+      "main": {
+        "x": 98.46875,
+        "y": 657.15625,
+        "width": 218.0625,
+        "height": 35,
+        "top": 657.15625,
+        "right": 316.53125,
+        "bottom": 692.15625,
+        "left": 98.46875
+      },
+      "net": {
+        "x": 133.875,
+        "y": 695.15625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 695.15625,
+        "right": 281.125,
+        "bottom": 714.65625,
+        "left": 133.875
+      },
+      "price": {
+        "x": 33,
+        "y": 657.15625,
+        "width": 349,
+        "height": 57.5,
+        "top": 657.15625,
+        "right": 382,
+        "bottom": 714.65625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 531.15625,
+        "width": 349,
+        "height": 110,
+        "top": 531.15625,
+        "right": 382,
+        "bottom": 641.15625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 430,
+      "overflow": false,
+      "main": {
+        "x": 95.140625,
+        "y": 657.15625,
+        "width": 224.703125,
+        "height": 35,
+        "top": 657.15625,
+        "right": 319.84375,
+        "bottom": 692.15625,
+        "left": 95.140625
+      },
+      "net": {
+        "x": 133.859375,
+        "y": 695.15625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 695.15625,
+        "right": 281.109375,
+        "bottom": 714.65625,
+        "left": 133.859375
+      },
+      "price": {
+        "x": 33,
+        "y": 657.15625,
+        "width": 349,
+        "height": 57.5,
+        "top": 657.15625,
+        "right": 382,
+        "bottom": 714.65625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 531.15625,
+        "width": 349,
+        "height": 110,
+        "top": 531.15625,
+        "right": 382,
+        "bottom": 641.15625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "m",
+      "width": 430,
+      "overflow": false,
+      "main": {
+        "x": 99.921875,
+        "y": 657.15625,
+        "width": 215.15625,
+        "height": 35,
+        "top": 657.15625,
+        "right": 315.078125,
+        "bottom": 692.15625,
+        "left": 99.921875
+      },
+      "net": {
+        "x": 133.875,
+        "y": 695.15625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 695.15625,
+        "right": 281.125,
+        "bottom": 714.65625,
+        "left": 133.875
+      },
+      "price": {
+        "x": 33,
+        "y": 657.15625,
+        "width": 349,
+        "height": 57.5,
+        "top": 657.15625,
+        "right": 382,
+        "bottom": 714.65625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 531.15625,
+        "width": 349,
+        "height": 110,
+        "top": 531.15625,
+        "right": 382,
+        "bottom": 641.15625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 430,
+      "overflow": false,
+      "main": {
+        "x": 89.671875,
+        "y": 657.15625,
+        "width": 235.640625,
+        "height": 35,
+        "top": 657.15625,
+        "right": 325.3125,
+        "bottom": 692.15625,
+        "left": 89.671875
+      },
+      "net": {
+        "x": 133.859375,
+        "y": 695.15625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 695.15625,
+        "right": 281.109375,
+        "bottom": 714.65625,
+        "left": 133.859375
+      },
+      "price": {
+        "x": 33,
+        "y": 657.15625,
+        "width": 349,
+        "height": 57.5,
+        "top": 657.15625,
+        "right": 382,
+        "bottom": 714.65625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 531.15625,
+        "width": 349,
+        "height": 110,
+        "top": 531.15625,
+        "right": 382,
+        "bottom": 641.15625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 390,
+      "overflow": false,
+      "main": {
+        "x": 78.46875,
+        "y": 634.0625,
+        "width": 218.0625,
+        "height": 35,
+        "top": 634.0625,
+        "right": 296.53125,
+        "bottom": 669.0625,
+        "left": 78.46875
+      },
+      "net": {
+        "x": 113.875,
+        "y": 672.0625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 672.0625,
+        "right": 261.125,
+        "bottom": 691.5625,
+        "left": 113.875
+      },
+      "price": {
+        "x": 33,
+        "y": 634.0625,
+        "width": 309,
+        "height": 57.5,
+        "top": 634.0625,
+        "right": 342,
+        "bottom": 691.5625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 508.0625,
+        "width": 309,
+        "height": 110,
+        "top": 508.0625,
+        "right": 342,
+        "bottom": 618.0625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 390,
+      "overflow": false,
+      "main": {
+        "x": 75.140625,
+        "y": 634.0625,
+        "width": 224.703125,
+        "height": 35,
+        "top": 634.0625,
+        "right": 299.84375,
+        "bottom": 669.0625,
+        "left": 75.140625
+      },
+      "net": {
+        "x": 113.859375,
+        "y": 672.0625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 672.0625,
+        "right": 261.109375,
+        "bottom": 691.5625,
+        "left": 113.859375
+      },
+      "price": {
+        "x": 33,
+        "y": 634.0625,
+        "width": 309,
+        "height": 57.5,
+        "top": 634.0625,
+        "right": 342,
+        "bottom": 691.5625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 508.0625,
+        "width": 309,
+        "height": 110,
+        "top": 508.0625,
+        "right": 342,
+        "bottom": 618.0625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "m",
+      "width": 390,
+      "overflow": false,
+      "main": {
+        "x": 79.921875,
+        "y": 634.0625,
+        "width": 215.15625,
+        "height": 35,
+        "top": 634.0625,
+        "right": 295.078125,
+        "bottom": 669.0625,
+        "left": 79.921875
+      },
+      "net": {
+        "x": 113.875,
+        "y": 672.0625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 672.0625,
+        "right": 261.125,
+        "bottom": 691.5625,
+        "left": 113.875
+      },
+      "price": {
+        "x": 33,
+        "y": 634.0625,
+        "width": 309,
+        "height": 57.5,
+        "top": 634.0625,
+        "right": 342,
+        "bottom": 691.5625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 508.0625,
+        "width": 309,
+        "height": 110,
+        "top": 508.0625,
+        "right": 342,
+        "bottom": 618.0625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 390,
+      "overflow": false,
+      "main": {
+        "x": 69.671875,
+        "y": 634.0625,
+        "width": 235.640625,
+        "height": 35,
+        "top": 634.0625,
+        "right": 305.3125,
+        "bottom": 669.0625,
+        "left": 69.671875
+      },
+      "net": {
+        "x": 113.859375,
+        "y": 672.0625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 672.0625,
+        "right": 261.109375,
+        "bottom": 691.5625,
+        "left": 113.859375
+      },
+      "price": {
+        "x": 33,
+        "y": 634.0625,
+        "width": 309,
+        "height": 57.5,
+        "top": 634.0625,
+        "right": 342,
+        "bottom": 691.5625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 508.0625,
+        "width": 309,
+        "height": 110,
+        "top": 508.0625,
+        "right": 342,
+        "bottom": 618.0625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 375,
+      "overflow": false,
+      "main": {
+        "x": 70.96875,
+        "y": 608.5625,
+        "width": 218.0625,
+        "height": 35,
+        "top": 608.5625,
+        "right": 289.03125,
+        "bottom": 643.5625,
+        "left": 70.96875
+      },
+      "net": {
+        "x": 106.375,
+        "y": 646.5625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 646.5625,
+        "right": 253.625,
+        "bottom": 666.0625,
+        "left": 106.375
+      },
+      "price": {
+        "x": 33,
+        "y": 608.5625,
+        "width": 294,
+        "height": 57.5,
+        "top": 608.5625,
+        "right": 327,
+        "bottom": 666.0625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 482.5625,
+        "width": 294,
+        "height": 110,
+        "top": 482.5625,
+        "right": 327,
+        "bottom": 592.5625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 375,
+      "overflow": false,
+      "main": {
+        "x": 67.640625,
+        "y": 608.5625,
+        "width": 224.703125,
+        "height": 35,
+        "top": 608.5625,
+        "right": 292.34375,
+        "bottom": 643.5625,
+        "left": 67.640625
+      },
+      "net": {
+        "x": 106.359375,
+        "y": 646.5625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 646.5625,
+        "right": 253.609375,
+        "bottom": 666.0625,
+        "left": 106.359375
+      },
+      "price": {
+        "x": 33,
+        "y": 608.5625,
+        "width": 294,
+        "height": 57.5,
+        "top": 608.5625,
+        "right": 327,
+        "bottom": 666.0625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 482.5625,
+        "width": 294,
+        "height": 110,
+        "top": 482.5625,
+        "right": 327,
+        "bottom": 592.5625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "m",
+      "width": 375,
+      "overflow": false,
+      "main": {
+        "x": 72.421875,
+        "y": 608.5625,
+        "width": 215.15625,
+        "height": 35,
+        "top": 608.5625,
+        "right": 287.578125,
+        "bottom": 643.5625,
+        "left": 72.421875
+      },
+      "net": {
+        "x": 106.375,
+        "y": 646.5625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 646.5625,
+        "right": 253.625,
+        "bottom": 666.0625,
+        "left": 106.375
+      },
+      "price": {
+        "x": 33,
+        "y": 608.5625,
+        "width": 294,
+        "height": 57.5,
+        "top": 608.5625,
+        "right": 327,
+        "bottom": 666.0625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 482.5625,
+        "width": 294,
+        "height": 110,
+        "top": 482.5625,
+        "right": 327,
+        "bottom": 592.5625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 375,
+      "overflow": false,
+      "main": {
+        "x": 62.171875,
+        "y": 608.5625,
+        "width": 235.640625,
+        "height": 35,
+        "top": 608.5625,
+        "right": 297.8125,
+        "bottom": 643.5625,
+        "left": 62.171875
+      },
+      "net": {
+        "x": 106.359375,
+        "y": 646.5625,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 646.5625,
+        "right": 253.609375,
+        "bottom": 666.0625,
+        "left": 106.359375
+      },
+      "price": {
+        "x": 33,
+        "y": 608.5625,
+        "width": 294,
+        "height": 57.5,
+        "top": 608.5625,
+        "right": 327,
+        "bottom": 666.0625,
+        "left": 33
+      },
+      "left": {
+        "x": 33,
+        "y": 482.5625,
+        "width": 294,
+        "height": 110,
+        "top": 482.5625,
+        "right": 327,
+        "bottom": 592.5625,
+        "left": 33
+      }
+    },
+    {
+      "unit": "ks",
+      "width": 320,
+      "overflow": false,
+      "main": {
+        "x": 43.46875,
+        "y": 742.359375,
+        "width": 218.0625,
+        "height": 35,
+        "top": 742.359375,
+        "right": 261.53125,
+        "bottom": 777.359375,
+        "left": 43.46875
+      },
+      "net": {
+        "x": 78.875,
+        "y": 780.359375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 780.359375,
+        "right": 226.125,
+        "bottom": 799.859375,
+        "left": 78.875
+      },
+      "price": {
+        "x": 31,
+        "y": 742.359375,
+        "width": 243,
+        "height": 57.5,
+        "top": 742.359375,
+        "right": 274,
+        "bottom": 799.859375,
+        "left": 31
+      },
+      "left": {
+        "x": 31,
+        "y": 616.359375,
+        "width": 243,
+        "height": 110,
+        "top": 616.359375,
+        "right": 274,
+        "bottom": 726.359375,
+        "left": 31
+      }
+    },
+    {
+      "unit": "pár",
+      "width": 320,
+      "overflow": false,
+      "main": {
+        "x": 40.140625,
+        "y": 742.359375,
+        "width": 224.703125,
+        "height": 35,
+        "top": 742.359375,
+        "right": 264.84375,
+        "bottom": 777.359375,
+        "left": 40.140625
+      },
+      "net": {
+        "x": 78.859375,
+        "y": 780.359375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 780.359375,
+        "right": 226.109375,
+        "bottom": 799.859375,
+        "left": 78.859375
+      },
+      "price": {
+        "x": 31,
+        "y": 742.359375,
+        "width": 243,
+        "height": 57.5,
+        "top": 742.359375,
+        "right": 274,
+        "bottom": 799.859375,
+        "left": 31
+      },
+      "left": {
+        "x": 31,
+        "y": 616.359375,
+        "width": 243,
+        "height": 110,
+        "top": 616.359375,
+        "right": 274,
+        "bottom": 726.359375,
+        "left": 31
+      }
+    },
+    {
+      "unit": "m",
+      "width": 320,
+      "overflow": false,
+      "main": {
+        "x": 44.921875,
+        "y": 742.359375,
+        "width": 215.15625,
+        "height": 35,
+        "top": 742.359375,
+        "right": 260.078125,
+        "bottom": 777.359375,
+        "left": 44.921875
+      },
+      "net": {
+        "x": 78.875,
+        "y": 780.359375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 780.359375,
+        "right": 226.125,
+        "bottom": 799.859375,
+        "left": 78.875
+      },
+      "price": {
+        "x": 31,
+        "y": 742.359375,
+        "width": 243,
+        "height": 57.5,
+        "top": 742.359375,
+        "right": 274,
+        "bottom": 799.859375,
+        "left": 31
+      },
+      "left": {
+        "x": 31,
+        "y": 616.359375,
+        "width": 243,
+        "height": 110,
+        "top": 616.359375,
+        "right": 274,
+        "bottom": 726.359375,
+        "left": 31
+      }
+    },
+    {
+      "unit": "sada",
+      "width": 320,
+      "overflow": false,
+      "main": {
+        "x": 34.671875,
+        "y": 742.359375,
+        "width": 235.640625,
+        "height": 35,
+        "top": 742.359375,
+        "right": 270.3125,
+        "bottom": 777.359375,
+        "left": 34.671875
+      },
+      "net": {
+        "x": 78.859375,
+        "y": 780.359375,
+        "width": 147.25,
+        "height": 19.5,
+        "top": 780.359375,
+        "right": 226.109375,
+        "bottom": 799.859375,
+        "left": 78.859375
+      },
+      "price": {
+        "x": 31,
+        "y": 742.359375,
+        "width": 243,
+        "height": 57.5,
+        "top": 742.359375,
+        "right": 274,
+        "bottom": 799.859375,
+        "left": 31
+      },
+      "left": {
+        "x": 31,
+        "y": 616.359375,
+        "width": 243,
+        "height": 110,
+        "top": 616.359375,
+        "right": 274,
+        "bottom": 726.359375,
+        "left": 31
+      }
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

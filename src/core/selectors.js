@@ -180,6 +180,8 @@ export const SEL = {
   compactReadyClass: 'is-loaded',
   compactGrid: '.p-info-grid',
   compactPriceBlock: '.detail-price-block',
+  compactPriceLabel: '.detail-price-block > .detail-grid-title',
+  compactCart: '.add-to-cart',
   compactAvailabilityBlock: '.detail-availability-block',
   compactDeliveryLabel: '.delivery-time-block .delivery-time-label',
   compactDeliveryDate: '.delivery-time',

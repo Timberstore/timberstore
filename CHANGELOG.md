@@ -1,5 +1,11 @@
 # Changelog
 
+## PD Final Purchase Panel · 2026-10-19 · Preview only
+
+- Same-case delivery labels, accessible visually hidden price label and centred price/net price within the existing columns.
+- One subtle #F8FAFC / #DDE4ED bordered purchase surface contains native information and existing quantity/CTA, guarded to retain their original form. Variants and contact links stay outside.
+- [Three-product responsive/native checks, screenshots and known limits](docs/previews/product-purchase-panel/README.md). No merge, release or production changes.
+
 ## PD Purchase Information Columns · 2026-10-19 · Preview only
 
 - Group existing native price/availability blocks inside the same Apollo grid: stock/delivery/link left, dominant price and parenthetical net price right. One idempotent wrapper, no duplicate native nodes or pricing/stock logic changes.

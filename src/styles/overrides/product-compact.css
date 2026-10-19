@@ -88,24 +88,7 @@ body.type-detail
   margin: 0;
   padding: 0;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  align-items: baseline;
-  gap: var(--ts-space-2);
-  padding-top: var(--ts-space-3);
-  border-top: 1px solid var(--ts-compact-border);
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-final-price-wrapper {
-  display: flex;
-  flex: 1 1 180px;
-  max-width: 100%;
-  justify-content: flex-end;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 0 var(--ts-space-2);
-  min-width: 0;
-}
+
 /* Apollo gives even an empty unit-price line a 10px top margin. Keep real
    unit-price content and its native node, but remove that phantom reservation. */
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-measure {
@@ -125,14 +108,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final .pr-lis
   font-size: 0.57em;
   font-weight: 600;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional {
-  display: inline-block;
-  margin: 0;
-  font-size: 13px;
-  line-height: 1.5;
-  color: var(--ts-color-price-secondary);
-  white-space: nowrap;
-}
+
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional::before {
   content: '(';
 }
@@ -147,22 +123,10 @@ body.type-detail
   order: 2;
   text-align: right;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-availability-block {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  align-items: baseline;
-  gap: var(--ts-compact-info-gap) var(--ts-space-2);
-}
+
 /* Additional warehouse rows can occupy column 2 without changing the panel.
    No warehouse data, message, stock calculation or dispatch estimate is added. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-value {
-  grid-column: 2;
-  margin: 0;
-  text-align: right;
-  font-size: 14px;
-  line-height: 1.5;
-  --ts-stock-font-size: 14px;
-}
+
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-label {
   font-weight: 700;
 }
@@ -170,21 +134,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-amount
   font-size: 13px;
   font-weight: 400;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block {
-  display: block;
-  align-self: start;
-  grid-column: 1 / -1;
-  margin-top: 0;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block > td {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: var(--ts-space-2);
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
+
 body.type-detail
   .p-detail
   .p-info-wrapper[data-ts-compact]
@@ -199,10 +149,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time {
   margin-right: auto;
   white-space: nowrap;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options {
-  color: var(--ts-compact-blue);
-  font-size: 12px;
-}
+
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart {
   margin-top: 0;
 }
@@ -292,17 +239,7 @@ body.type-detail
   /* C3's existing descendant colour is important. */
   color: var(--ts-compact-blue) !important;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: var(--ts-space-1) var(--ts-space-2);
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  color: var(--ts-color-text);
-}
+
 body.type-detail
   .p-detail
   .p-info-wrapper[data-ts-compact]
@@ -314,9 +251,7 @@ body.type-detail
   font-size: 14px;
   line-height: 1.5;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options-block {
-  margin-left: auto;
-}
+
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links {
   display: flex;
   flex-wrap: wrap;
@@ -403,7 +338,7 @@ body.type-detail
   .p-detail
   .p-info-wrapper[data-ts-compact]
   .p-info-grid:has(.friendsSection)
-  .ts-product-purchase-info {
+  .ts-product-purchase-panel {
   margin-top: calc(var(--ts-compact-section) - var(--ts-compact-info-gap));
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery .delivery-time {
@@ -433,67 +368,100 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase
   gap: var(--ts-space-3) 20px;
   order: 2;
   width: 100%;
-  padding: 0 var(--ts-compact-grid-gutter);
+  padding: 0;
 }
 body.type-detail
   .p-detail
   .p-info-wrapper[data-ts-compact]
   .ts-product-purchase-info
   > .detail-grid-item {
-  flex: 1 1 calc((100% - 20px) / 2);
+  flex: 1 1 0;
   max-width: 100%;
   padding: 0;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-availability-block {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 3px;
   order: 0;
   min-width: min(150px, 100%);
-  grid-template-columns: minmax(0, 1fr);
-  gap: 3px;
-  align-items: start;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-value {
   grid-column: 1;
+  margin: 0;
   text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+  --ts-stock-font-size: 14px;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block {
+  display: block;
+  align-self: start;
   grid-column: 1;
   margin-top: 3px;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block > td {
-  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 3px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery {
-  flex-direction: column;
+  display: inline-flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 3px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--ts-color-text);
+  flex-direction: column;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options-block {
   margin-left: 0;
   align-self: flex-start;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options {
+  color: var(--ts-compact-blue);
+  font-size: 12px;
   display: inline-block;
   padding: 0;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   gap: 3px;
+  border-top: 1px solid var(--ts-compact-border);
+  flex-direction: column;
   min-width: min-content;
   order: 1;
   border: 0;
-  text-align: right;
+  text-align: center;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-final-price-wrapper {
+  display: flex;
   flex: none;
-  flex-direction: column;
-  align-items: flex-end;
+  max-width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 0;
+  min-width: 0;
+  flex-direction: column;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional {
+  display: inline-block;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ts-color-price-secondary);
+  white-space: nowrap;
   margin-top: 3px;
 }
 body.type-detail
@@ -506,7 +474,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final-holder 
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  justify-content: flex-end;
+  justify-content: center;
   column-gap: 3px;
   white-space: nowrap;
 }
@@ -517,4 +485,51 @@ body.type-detail
   .ts-product-purchase-info
   :is(.detail-grid-title, .availability-value, .delivery-time-label, .delivery-time) {
   line-height: 19px;
+}
+
+/* One bounded purchase surface, within the original product form/grid. */
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
+  order: 2;
+  width: calc(100% - 2 * var(--ts-compact-grid-gutter));
+  margin: 0 var(--ts-compact-grid-gutter);
+  padding: 16px;
+  border: 1px solid var(--ts-compact-purchase-border);
+  border-radius: 14px;
+  background: var(--ts-compact-purchase-bg);
+}
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .ts-product-purchase-panel
+  > .add-to-cart {
+  margin: var(--ts-compact-section) 0 0;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-info {
+  align-items: center;
+}
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .ts-product-purchase-info
+  :is(.price-final, .price-standard, .price-save, .price-measure) {
+  text-align: center;
+}
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  :is(.delivery-time-label, .shipping-options) {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+}
+@media (max-width: 767px) {
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
+    padding: 12px;
+  }
+}
+@media (max-width: 374px) {
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
+    padding: 10px;
+  }
 }

@@ -120,6 +120,8 @@ body {
   --ts-compact-blue: #2454a6;
   --ts-compact-blue-bg: #eaf1fc;
   --ts-compact-border: #e1e5eb;
+  --ts-compact-purchase-bg: #f8fafc;
+  --ts-compact-purchase-border: #dde4ed;
   --ts-compact-section: 24px;
   --ts-compact-radius: 16px;
   --ts-compact-padding: 10px;
