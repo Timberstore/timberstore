@@ -1,5 +1,12 @@
 # Changelog
 
+## PD Panel Insets, Metadata & Variant Heading · 2026-10-19 · Preview only
+
+- Symmetric measured frame insets: 18 px desktop, 15 px tablet, 16 px small mobile, with card/purchase/gallery dimensions retained.
+- Shared neutral KÓD:/ZNAČKA: labels and #2454A6 native values across detail/catalogue; existing observer normalizes AJAX updates without duplicate wrappers.
+- VŠETKY VARIANTY is centred between equal subtle rules on all devices, reusing the category-heading presentation.
+- [Measurements, native tests, screenshots, changed files and limits](docs/previews/product-panel-metadata/README.md). WIRELI live URL became unavailable; its final layout evidence uses stored native HTML. Same preview branch; no merge/release/production deployment.
+
 ## PD Final Density & Code Typography · 2026-10-19 · Preview only
 
 - Remove code chip surface/border/padding; neutral labels and matching blue code/brand values share typography.

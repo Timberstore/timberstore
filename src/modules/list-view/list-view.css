@@ -313,28 +313,15 @@
     overflow: visible !important;
   }
 
-  /* code — Shoptet renders "Kód: 385622" (label is a bare text node), shown whole
-     under the name. */
+  /* Native code placement; shared metadata override owns typography/colours. */
   .ts-view-list #products:not(.products-related) .p > .p-code {
     grid-area: code !important;
     align-self: center !important;
     position: static !important;
     inset: auto !important;
     margin: 0 !important;
-    padding: 0 !important;
-    background: none !important;
-    color: var(--ts-color-table-head-text) !important;
-    font-size: 13px !important;
-    font-weight: 400 !important;
-    line-height: 1.2 !important;
     letter-spacing: 0 !important;
-    text-transform: none !important;
     white-space: nowrap !important;
-  }
-
-  .ts-view-list #products:not(.products-related) .p > .p-code [data-micro='sku'] {
-    font-size: 13px !important;
-    font-weight: 400 !important;
   }
 
   /* availability (native element, keeps the colour set in the Shoptet admin) */

@@ -92,6 +92,13 @@ export const SEL = {
   navigationSubmenuContentLink: '.menu-content a[href]',
   categoryTree: '#categories',
   breadcrumbLinks: '.breadcrumbs-wrapper a[href], .breadcrumbs a[href], .breadcrumb a[href]',
+  productVariantsHeading: '.friendsSection > .h3',
+  productMetadataCode: '.p-detail-info .p-code, .p .p-code',
+  productMetadataBrand:
+    '.p-detail-info [data-testid="productCardBrandName"], .p [data-testid="productCardBrandName"]',
+  productMetadataValue:
+    ':scope > [data-micro="sku"], :scope > span:not(.p-code-label):not(.ts-product-meta__label)',
+  productMetadataLabel: ':scope > .p-code-label, :scope > .ts-product-meta__label',
   productTextDetailAreas:
     '.p-detail-inner-header h1, .p-detail h1, .product-top h1, h1[itemprop="name"], .p-short-description, .description-inner, .basic-description, .p-detail-tabs',
   productTextCards:

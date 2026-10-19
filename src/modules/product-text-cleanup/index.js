@@ -1,4 +1,5 @@
 import { SEL } from '../../core/selectors.js';
+import { TEXTS } from '../../core/texts.js';
 
 let observer;
 
@@ -35,7 +36,36 @@ function cleanTextNodes(element) {
   });
 }
 
+// Presentation only: reuse native SKU/brand value spans and their attributes.
+// Re-query on AJAX; never nest wrappers or replace links/product data.
+function metadata(root, selector, text) {
+  for (const element of root.querySelectorAll(selector)) {
+    const value = element.querySelector(SEL.productMetadataValue);
+    if (!value || value.querySelector('img')) continue;
+    let label = element.querySelector(SEL.productMetadataLabel);
+    if (!label) {
+      const node = [...element.childNodes].find(
+        (n) => n.nodeType === Node.TEXT_NODE && n.textContent.trim(),
+      );
+      if (!node) continue;
+      label = document.createElement('span');
+      node.replaceWith(label);
+    }
+    if (label.textContent !== text) label.textContent = text;
+    element.classList.add('ts-product-meta');
+    label.classList.add('ts-product-meta__label');
+    value.classList.add('ts-product-meta__value');
+  }
+}
+
 function cleanProductTexts(root = document) {
+  for (const heading of root.querySelectorAll(SEL.productVariantsHeading)) {
+    if (heading.textContent !== TEXTS.productMetadata.variants) {
+      heading.textContent = TEXTS.productMetadata.variants;
+    }
+  }
+  metadata(root, SEL.productMetadataCode, TEXTS.productMetadata.code);
+  metadata(root, SEL.productMetadataBrand, TEXTS.productMetadata.brand);
   root.querySelectorAll(SEL.productTextDetailAreas).forEach(cleanTextNodes);
   root.querySelectorAll(SEL.productTextCards).forEach(cleanTextNodes);
 }

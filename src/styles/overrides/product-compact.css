@@ -6,11 +6,14 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
   flex-direction: column;
   min-width: 0;
   position: relative;
-  border-radius: var(--ts-compact-radius);
   background: var(--ts-color-white, white);
-  padding: 12px var(--ts-compact-padding);
+  padding: var(--ts-compact-frame-space) calc(var(--ts-compact-padding) - var(--ts-compact-shift))
+    var(--ts-compact-frame-space) calc(var(--ts-compact-padding) + var(--ts-compact-shift));
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] > :is(.p-info-headline, .p-short-description-block) {
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  > :is(.p-info-headline, .p-short-description-block) {
   margin-bottom: 12px;
 }
 /* Apollo/migrated title rules force wrapping; override locally, never split words.
@@ -45,32 +48,6 @@ body.type-detail
   align-items: center;
   justify-content: space-between;
   gap: var(--ts-space-2);
-}
-body.type-detail
-  .p-detail
-  :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header)
-  .p-detail-info
-  :is(.p-code, a[data-testid='productCardBrandName']) {
-  display: inline-block;
-  margin: 0;
-  font-size: 12.5px;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.5;
-  max-width: 100%;
-  overflow-wrap: anywhere;
-}
-body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-code {
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
-}
-/* Existing C3 uses !important for the Apollo code descendants. */
-body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-code,
-body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-code * {
-  color: var(--ts-color-detail-code) !important;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-grid {
   display: flex;
@@ -148,8 +125,8 @@ body.type-detail
   background: transparent;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time {
-  margin-right: auto;
   white-space: nowrap;
+  font-size: 14px;
 }
 
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart {
@@ -188,7 +165,16 @@ body.type-detail .p-detail .p-detail-inner-header :is(h1, .h1) {
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
   content: '';
   position: absolute;
-  inset: 0 -10px;
+  inset: 0
+    calc(
+      var(--ts-compact-padding) - var(--ts-compact-grid-gutter) - var(--ts-compact-frame-space) -
+        var(--ts-compact-shift)
+    )
+    0
+    calc(
+      var(--ts-compact-padding) - var(--ts-compact-grid-gutter) - var(--ts-compact-frame-space) +
+        var(--ts-compact-shift)
+    );
   border: 1px solid var(--ts-compact-border);
   border-radius: var(--ts-compact-radius);
   pointer-events: none;
@@ -198,10 +184,22 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
     --ts-compact-grid-gutter: 15px;
   }
 }
+@media (min-width: 480px) and (max-width: 767px) {
+  body.type-detail .p-detail {
+    --ts-compact-frame-space: 12px;
+    --ts-compact-shift: 7px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1199px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
-    left: 0;
-    right: 0;
+  body.type-detail .p-detail {
+    --ts-compact-frame-space: 15px;
+    --ts-compact-shift: 7.5px;
+  }
+}
+@media (min-width: 1200px) {
+  body.type-detail .p-detail {
+    --ts-compact-frame-space: 18px;
+    --ts-compact-shift: -6px;
   }
 }
 
@@ -225,25 +223,8 @@ body.type-detail
 }
 
 /* PD Final Polish / phase 1: native nodes grouped without cloning or new links. */
-body.type-detail
-  .p-detail
-  :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header)
-  :is(a[data-testid='productCardBrandName'] span, .p-code > span:not(.p-code-label)) {
-  /* C3's existing descendant colour is important. */
-  color: var(--ts-compact-blue) !important;
-  font-weight: 600;
-}
-
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .ts-product-delivery
-  :is(.delivery-time, .delivery-time-label) {
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-label {
   color: inherit;
-  margin: 0;
-  background: transparent;
-  font-size: 14px;
-  line-height: 1.5;
 }
 
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links {
@@ -326,14 +307,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to
   }
 }
 
-/* Keep variant cards outside the purchase presentation and retain their gap. */
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .p-info-grid:has(.friendsSection)
-  .ts-product-purchase-panel {
-  margin-top: 0;
-}
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery .delivery-time {
   color: var(--ts-color-positive);
   font-weight: 600;
@@ -359,9 +332,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase
   flex-wrap: wrap;
   align-items: center;
   gap: var(--ts-space-3) 20px;
-  order: 2;
-  width: 100%;
-  padding: 0;
 }
 body.type-detail
   .p-detail
@@ -409,10 +379,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 3px;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
   color: var(--ts-color-text);
   flex-direction: column;
 }
@@ -422,7 +388,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options-bl
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options {
   color: var(--ts-compact-blue);
-  font-size: 12px;
   display: inline-block;
   padding: 0;
 }
@@ -438,12 +403,8 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block 
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-final-price-wrapper {
   display: flex;
-  flex: none;
   max-width: 100%;
-  justify-content: flex-end;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 0;
   min-width: 0;
   flex-direction: column;
 }
@@ -519,7 +480,6 @@ body.type-detail
 /* Heading and native card grid already share their origin. Match the panel to
    those unchanged edges; no card sizing, gap or negative offset overrides. */
 
-
 /* Match the unchanged native card-grid width using normal flex alignment. */
 body.type-detail
   .p-detail
@@ -536,7 +496,8 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection {
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection > .h3 {
   color: var(--ts-color-accent);
-  margin-bottom: 6px;
+  margin-bottom: 10px;
+  gap: 14px;
 }
 body.type-detail .p-detail .p-short-description-block > :last-child {
   margin-bottom: 0;
@@ -545,6 +506,10 @@ body.type-detail .p-detail .p-short-description-block > :last-child {
 @media (max-width: 1199px) {
   body.type-detail .p-detail .p-detail-inner-header {
     display: grid;
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: calc(2 * var(--ts-compact-shift)) minmax(0, 1fr);
+  }
+  body.type-detail .p-detail .p-detail-inner-header > .p-info-headline {
+    grid-column: 2;
+    width: calc(100% + 2 * (var(--ts-compact-grid-gutter) + var(--ts-compact-shift)));
   }
 }
