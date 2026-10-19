@@ -7,7 +7,8 @@
   --ts-color-link: var(--ts-color-accent);
   --ts-color-action: var(--ts-color-accent);
   --ts-color-action-hover: #b8692e;
-  --ts-color-steel: #29465b;
+  --ts-color-blue: #2454a6; /* Computed product-brand blue; shared custom accent. */
+  --ts-color-steel: var(--ts-color-blue);
   --ts-color-technical-bg: #f3f5f7;
   --ts-color-price: #252b32;
   --ts-color-field-border: #828f99;
@@ -54,7 +55,7 @@
   --ts-color-cart-delete: #b83b43;
   --ts-color-cart-delete-hover: #96362f;
   --ts-color-cart-delete-bg: #fcedef;
-  --ts-color-cart-count-bg: #29465b; /* steel badge, not availability */
+  --ts-color-cart-count-bg: var(--ts-color-blue); /* custom cart badge, not availability */
   --ts-header-logo-width: 200px;
   --ts-header-logo-height: 44px;
   --ts-header-padding: 20px;
@@ -117,7 +118,7 @@ body {
 
 /* PD Compact · scoped variables, no global palette changes. */
 .type-detail .p-detail {
-  --ts-compact-blue: #2454a6;
+  --ts-compact-blue: var(--ts-color-blue);
   --ts-compact-blue-bg: #eaf1fc;
   --ts-compact-border: #e1e5eb;
   --ts-compact-purchase-bg: #f8fafc;

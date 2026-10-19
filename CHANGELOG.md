@@ -1,5 +1,11 @@
 # Changelog
 
+## PD Blue Unification & Variant Alignment · 2026-10-19 · Preview only
+
+- Use computed brand blue #2454A6 as the shared custom accent; retain native/social/carrier colours and semantic success/error/medal neutrals. Product-code label matches the neutral brand label; code value stays blue.
+- Orange variant heading; purchase panel follows unchanged native card-grid edges. Symmetric tablet frame; card/image sizes, gaps, active marker and handlers unchanged.
+- [Colour inventory/exceptions, measured alignment, native tests and screenshots](docs/previews/product-blue-alignment/README.md). No JavaScript change, merge, release or production deployment.
+
 ## PD Final Purchase Panel · 2026-10-19 · Preview only
 
 - Same-case delivery labels, accessible visually hidden price label and centred price/net price within the existing columns.

@@ -64,7 +64,7 @@ body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner
 /* Existing C3 uses !important for the Apollo code descendants. */
 body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-code,
 body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-code * {
-  color: var(--ts-compact-blue) !important;
+  color: var(--ts-color-detail-code) !important;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-grid {
   display: flex;
@@ -95,8 +95,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-measure {
   margin-top: 0;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final {
-  grid-column: 2;
-  grid-row: 1;
   margin: 0;
   font-size: 28px;
   font-weight: 700;
@@ -119,7 +117,7 @@ body.type-detail
   .p-detail
   .p-info-wrapper[data-ts-compact]
   :is(.price-standard, .price-save, .price-measure) {
-  flex-basis: 100%;
+  flex-basis: auto;
   order: 2;
   text-align: right;
 }
@@ -199,6 +197,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
 @media (min-width: 768px) and (max-width: 1199px) {
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
     left: 0;
+    right: 0;
   }
 }
 
@@ -234,8 +233,7 @@ body.type-detail
 body.type-detail
   .p-detail
   :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header)
-  a[data-testid='productCardBrandName']
-  span {
+  :is(a[data-testid='productCardBrandName'] span, .p-code > span:not(.p-code-label)) {
   /* C3's existing descendant colour is important. */
   color: var(--ts-compact-blue) !important;
 }
@@ -364,7 +362,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart-button:
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-info {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   gap: var(--ts-space-3) 20px;
   order: 2;
   width: 100%;
@@ -437,7 +435,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block 
   display: flex;
   align-items: center;
   gap: 3px;
-  border-top: 1px solid var(--ts-compact-border);
   flex-direction: column;
   min-width: min-content;
   order: 1;
@@ -464,12 +461,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional {
   white-space: nowrap;
   margin-top: 3px;
 }
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  :is(.price-standard, .price-save, .price-measure) {
-  flex-basis: auto;
-}
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final-holder {
   display: flex;
   flex-wrap: wrap;
@@ -490,8 +481,8 @@ body.type-detail
 /* One bounded purchase surface, within the original product form/grid. */
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
   order: 2;
-  width: calc(100% - 2 * var(--ts-compact-grid-gutter));
-  margin: 0 var(--ts-compact-grid-gutter);
+  width: 100%;
+  margin: 0;
   padding: 16px;
   border: 1px solid var(--ts-compact-purchase-border);
   border-radius: 14px;
@@ -503,9 +494,6 @@ body.type-detail
   .ts-product-purchase-panel
   > .add-to-cart {
   margin: var(--ts-compact-section) 0 0;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-info {
-  align-items: center;
 }
 body.type-detail
   .p-detail
@@ -532,4 +520,10 @@ body.type-detail
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
     padding: 10px;
   }
+}
+
+/* Heading and native card grid already share their origin. Match the panel to
+   those unchanged edges; no card sizing, gap or negative offset overrides. */
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection > .h3 {
+  color: var(--ts-color-accent);
 }
