@@ -13,38 +13,23 @@ body.type-detail
   > :is(.p-info-headline, .p-short-description-block) {
   margin-bottom: 12px;
 }
-/* Apollo/migrated title rules force wrapping; override locally, never split words.
-   A genuinely unbroken identifier scrolls within its title instead of the page. */
+/* Native title metrics; presentation/wrapping is shared in product-card.css. */
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] h1 {
-  word-break: normal !important;
-  overflow-wrap: normal !important;
-  hyphens: none;
-  white-space: normal;
-  max-width: 100%;
-  overflow-x: auto;
   font-size: 32px;
   line-height: 1.25;
   margin: 0 0 var(--ts-space-2);
 }
-body.type-detail
-  .p-detail
-  :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header)
-  .p-detail-info {
+.p-detail .p-detail-info {
   margin: 0;
   display: block;
 }
-body.type-detail
-  .p-detail
-  :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header)
-  .p-detail-info
-  > div {
+.p-detail .p-detail-info > div {
   display: flex;
-  width: 100%;
   margin: 0;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--ts-space-2);
+  justify-content: center;
+  gap: 8px 16px;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-grid {
   display: flex;
@@ -61,10 +46,11 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-grid-item {
 body.type-detail
   .p-detail
   .p-info-wrapper[data-ts-compact]
-  :is(.detail-grid-title, .delivery-time-label) {
+  :is(.detail-grid-title, .delivery-time-label, .shipping-options) {
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 19px;
+  text-transform: none;
   margin: 0;
   padding: 0;
 }
@@ -100,12 +86,6 @@ body.type-detail
   order: 2;
 }
 
-/* Additional warehouse rows can occupy column 2 without changing the panel.
-   No warehouse data, message, stock calculation or dispatch estimate is added. */
-
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-label {
-  font-weight: 700;
-}
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-amount {
   font-size: 13px;
   font-weight: 400;
@@ -114,7 +94,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-amount
 body.type-detail
   .p-detail
   .p-info-wrapper[data-ts-compact]
-  :is(.delivery-time-label, .delivery-time, .shipping-options-block) {
+  :is(.delivery-time, .shipping-options-block) {
   margin: 0;
   padding: 0;
   font-size: 12px;
@@ -124,29 +104,7 @@ body.type-detail
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time {
   white-space: nowrap;
   font-size: 14px;
-}
-
-@media (max-width: 374px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
-    --ts-compact-radius: 14px;
-  }
-}
-/* Apollo's separate mobile headline uses .h1 outside the right-hand panel. */
-body.type-detail .p-detail .p-detail-inner-header :is(h1, .h1) {
-  word-break: normal !important;
-  overflow-wrap: normal !important;
-  hyphens: none;
-  white-space: normal;
-  max-width: 100%;
-  overflow-x: auto;
-  margin-bottom: var(--ts-space-2);
-}
-
-/* Preserve Apollo's original content width, including percentage-based cards. */
-@media (min-width: 768px) and (max-width: 1199px) {
-  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
-    --ts-compact-padding: 20px;
-  }
+  line-height: 19px;
 }
 
 /* Frame only the purchasing body. Header/native metadata remain outside it.
@@ -166,22 +124,25 @@ body.type-detail .p-detail .p-detail-inner-header :is(h1, .h1) {
   pointer-events: none;
 }
 @media (min-width: 480px) {
-  body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) {
+  .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) {
     --ts-compact-grid-gutter: 15px;
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
-  body.type-detail .p-detail {
+  .p-detail {
     --ts-compact-frame-space: 5px;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  body.type-detail .p-detail {
+  .p-detail {
     --ts-compact-frame-space: 8px;
+  }
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
+    --ts-compact-padding: 20px;
   }
 }
 @media (min-width: 1200px) {
-  body.type-detail .p-detail {
+  .p-detail {
     --ts-compact-frame-space: 18px;
   }
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
@@ -207,11 +168,6 @@ body.type-detail
   .p-info-wrapper[data-ts-compact]
   .detail-parameters-block:not(:has(tr:not([style*='display: none']))) {
   display: none;
-}
-
-/* PD Final Polish / phase 1: native nodes grouped without cloning or new links. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-label {
-  color: inherit;
 }
 
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links {
@@ -276,6 +232,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to
    Desktop styling, image cards, order, active marker and handlers stay native. */
 @media (max-width: 767px) {
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsShowMore {
+    flex-basis: 100%;
     width: auto;
     max-width: 100%;
     min-height: 44px;
@@ -342,7 +299,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .availability-value 
   margin: 0;
   text-align: left;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 19px;
   --ts-stock-font-size: 14px;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block {
@@ -371,27 +328,25 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options {
   color: var(--ts-compact-blue);
   display: inline-block;
-  padding: 0;
+}
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  :is(.detail-price-block, .p-final-price-wrapper) {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  flex-direction: column;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block {
-  display: flex;
-  align-items: center;
   gap: 3px;
-  flex-direction: column;
   min-width: min-content;
   order: 1;
   border: 0;
   text-align: center;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-final-price-wrapper {
-  display: flex;
-  max-width: 100%;
-  align-items: center;
-  min-width: 0;
-  flex-direction: column;
-}
+
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional {
-  display: inline-block;
   margin: 3px 0 0;
   font-size: 13px;
   line-height: 1.5;
@@ -405,14 +360,6 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final-holder 
   justify-content: center;
   column-gap: 3px;
   white-space: nowrap;
-}
-
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  .ts-product-purchase-info
-  :is(.detail-grid-title, .availability-value, .delivery-time-label, .delivery-time) {
-  line-height: 19px;
 }
 
 /* One bounded purchase surface, within the original product form/grid. */
@@ -432,21 +379,16 @@ body.type-detail
   > .add-to-cart {
   margin: var(--ts-compact-section) 0 0;
 }
-body.type-detail
-  .p-detail
-  .p-info-wrapper[data-ts-compact]
-  :is(.delivery-time-label, .shipping-options) {
-  text-transform: none;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 19px;
-}
+
 @media (max-width: 767px) {
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
     padding: 12px;
   }
 }
 @media (max-width: 374px) {
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
+    --ts-compact-radius: 14px;
+  }
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-purchase-panel {
     padding: 10px;
   }
@@ -456,11 +398,10 @@ body.type-detail
    those unchanged edges; no card sizing, gap or negative offset overrides. */
 
 /* Match the unchanged native card-grid width using normal flex alignment. */
-body.type-detail
-  .p-detail
+.p-detail
   :is(.p-info-wrapper[data-ts-compact], .ts-product-detail-panel)
   > :is(.p-info-headline, .p-short-description-block, .ts-product-links, .social-buttons-wrapper),
-body.type-detail .p-detail .p-detail-inner-header > .p-info-headline {
+.p-detail .p-detail-inner-header > .p-info-headline {
   align-self: center;
   justify-self: center;
   margin-top: 0;
@@ -472,14 +413,14 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection {
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection > .h3 {
   color: var(--ts-color-accent);
   margin-bottom: 10px;
-  gap: 14px;
+  text-align: center;
 }
-body.type-detail .p-detail .p-short-description-block > :last-child {
+.p-detail .p-short-description-block > :last-child {
   margin-bottom: 0;
 }
 
 @media (max-width: 1199px) {
-  body.type-detail .p-detail .p-detail-inner-header {
+  .p-detail .p-detail-inner-header {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
   }
@@ -498,17 +439,37 @@ body.type-detail .p-detail .p-short-description-block > :last-child {
   color: var(--ts-color-bg);
 }
 /* Override the native selected-marker cascade locally, without changing its border. */
-body.type-detail .p-detail .friend.active > .p::after {
+.p-detail .friend.active > .p::after {
   background: var(--ts-color-positive) !important;
 }
 @media (min-width: 1200px) {
-  body.type-detail .p-detail .friendsSection .inner {
-    justify-content: center;
-  }
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .friendsSection {
     margin-bottom: 12px;
   }
-  body.type-detail .p-image-wrapper .p-thumbnails-wrapper {
+  .type-detail .p-image-wrapper .p-thumbnails-wrapper {
     width: calc(100% - 36px);
   }
+}
+
+/* PD refinement · presentation only; native names and metadata stay untouched. */
+.p-detail :is(h1, .p-info-headline > .h1) {
+  text-align: center;
+  margin-bottom: var(--ts-space-2);
+}
+.p-detail .friendsSection .inner {
+  justify-content: center;
+}
+/* Shared metadata has important badge resets; override only the detail divider. */
+.p-detail .p-detail-info .ts-product-meta + a {
+  border-left: 1px solid var(--ts-compact-border) !important;
+  padding-left: 16px !important;
+}
+
+.p-detail .link-icon:is(.chat, .watchdog)::before {
+  color: var(--ts-color-accent);
+}
+
+.p-detail .friendsSection > .h3::before,
+.p-detail .friendsSection > .h3::after {
+  content: none;
 }

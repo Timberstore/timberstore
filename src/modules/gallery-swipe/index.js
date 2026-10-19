@@ -62,17 +62,19 @@ function revealThumb(thumb, triesLeft = MAX_ARROW_CLICKS) {
   setTimeout(() => revealThumb(thumb, triesLeft - 1), 50); // re-check the new offset
 }
 
+function move(dir) {
+  const thumbs = thumbnails();
+  if (thumbs.length < 2) return;
+  const index = Math.max(0, activeIndex(thumbs)) + (dir === 'next' ? 1 : -1);
+  const target = thumbs[index];
+  if (!target) return;
+  target.click();
+  revealThumb(target);
+  preloadNeighbours(thumbs, index);
+}
+
 function bind(image) {
-  bindSwipe(image, (dir) => {
-    const thumbs = thumbnails();
-    if (thumbs.length < 2) return;
-    const index = Math.max(0, activeIndex(thumbs)) + (dir === 'next' ? 1 : -1);
-    const target = thumbs[index];
-    if (!target) return;
-    target.click();
-    revealThumb(target);
-    preloadNeighbours(thumbs, index);
-  });
+  bindSwipe(image, move, true);
 
   // The first swipe should find its photo ready too.
   whenIdleAfterLoad(() => {
@@ -121,7 +123,7 @@ export default {
   name: 'gallery-swipe',
   pages: ['detail'],
   init(root) {
-    root.querySelectorAll(SEL.productImage).forEach((image) => {
+    root.querySelectorAll(SEL.productImage + ', ' + SEL.productThumbnails).forEach((image) => {
       if (image.dataset.tsInit) return;
       image.dataset.tsInit = 'gallery-swipe';
       image.classList.add('ts-gallery-swipe');

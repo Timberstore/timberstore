@@ -1,5 +1,12 @@
 # Changelog
 
+## PD UI & Gallery Final Refinement · 2026-10-19 · Preview only
+
+- Centre uppercase product titles and native code/brand groups without changing title metrics; share whole-word product presentation across catalogue/search/related cards, excluding cart/checkout.
+- Remove variant-heading side rules, colour only contact icons orange, centre mobile partial variant rows and give the existing expansion button its own row.
+- Add subtle mobile submenu backgrounds and opt-in mouse dragging through the existing native-thumbnail gallery integration; retain CloudZoom, Colorbox, touch gestures and native purchasing.
+- [35 responsive comparisons, interaction tests, screenshots and replay limitations](docs/previews/product-ui-gallery-refinement/README.md). Existing preview branch only; no merge, release or production deployment.
+
 ## PD Mobile Overflow & Gallery Refinement · 2026-10-19 · Preview only
 
 - Fix real mobile layout expansion (390→402 px) at the frame, without global overflow hiding or header changes. Tests now assert requested device width and category/home header geometry.

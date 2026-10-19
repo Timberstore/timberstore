@@ -84,8 +84,7 @@
 
 /* Main category heading: centered with subtle side rules.
    No DOM changes; works with Apollo's existing H1. */
-.type-category h1,
-body.type-detail [data-ts-compact] .friendsSection > .h3 {
+.type-category h1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,9 +93,7 @@ body.type-detail [data-ts-compact] .friendsSection > .h3 {
 }
 
 .type-category h1::before,
-.type-category h1::after,
-body.type-detail [data-ts-compact] .friendsSection > .h3::before,
-body.type-detail [data-ts-compact] .friendsSection > .h3::after {
+.type-category h1::after {
   content: '';
   flex: 1 1 0;
   height: 1px;

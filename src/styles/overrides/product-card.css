@@ -91,3 +91,15 @@ body
   )[style*='#2e7d32' i] {
   color: var(--ts-color-positive-ink) !important; /* native inline availability */
 }
+
+/* Product presentation only: never cart, checkout or the add-to-cart modal.
+   Important wrapping rules beat Apollo/legacy emergency word breaking. */
+.p-detail :is(h1, .p-info-headline > .h1),
+body:not(.ordering-process) #content :is(.products, .products-block, .products-top) .name {
+  text-transform: uppercase;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  hyphens: none;
+  white-space: normal;
+  overflow-x: auto;
+}
