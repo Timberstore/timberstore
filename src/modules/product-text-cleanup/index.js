@@ -21,13 +21,12 @@ function cleanTextNodes(element) {
   });
 
   for (let node = walker.nextNode(); node; node = walker.nextNode()) {
-    const cleaned = cleanValue(node.nodeValue);
-    if (cleaned !== node.nodeValue) node.nodeValue = cleaned;
-    // Preserve every native price/space/currency node; only style the amount.
+    if (node.nodeValue !== cleanValue(node.nodeValue)) node.nodeValue = cleanValue(node.nodeValue);
+    // Preserve every native price/space/currency node; only style the amount and euro symbol.
     const parent = node.parentElement;
     if (!parent.matches(SEL.productPriceNumber) || parent.querySelector('.ts-price-number'))
       continue;
-    const match = node.nodeValue.match(/\d[\d\s.,]*\d|\d/);
+    const match = node.nodeValue.match(/\d[\d\s.,€]*/);
     if (!match) continue;
     const amount = node.splitText(match.index);
     amount.splitText(match[0].length);
@@ -73,19 +72,13 @@ function cleanProductTexts(root) {
     .forEach(cleanTextNodes);
 }
 
-function ensureObserver() {
-  if (observer || !document.body) return;
-
-  observer = new MutationObserver(() => cleanProductTexts(document));
-
-  observer.observe(document.body, { childList: true, subtree: true, characterData: true });
-}
-
 export default {
   name: 'product-text-cleanup',
   pages: ['*'],
   init(root) {
     cleanProductTexts(root);
-    ensureObserver();
+    if (observer || !document.body) return;
+    observer = new MutationObserver(() => cleanProductTexts(document));
+    observer.observe(document.body, { childList: true, subtree: true, characterData: true });
   },
 };

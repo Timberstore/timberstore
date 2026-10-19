@@ -42,7 +42,6 @@
   --ts-color-error: #b83b43;
   --ts-color-error-bg: #fcedef;
   --ts-color-info-bg: #eaf3f7;
-  --ts-color-delivery-date: #c0392b;
   --color-primary: var(--ts-color-controls-text);
   --color-primary-hover: var(--ts-color-controls-active);
   --color-tertiary: var(--ts-color-service-bg);
@@ -55,7 +54,6 @@
   --ts-color-service-divider: #ded8d0;
   --ts-service-height: 36px;
   --ts-service-font-size: 13px;
-  --ts-service-gap: 14px;
   --ts-service-icon-size: 18px;
   --ts-service-status-size: 8px;
   --ts-color-service-open: var(--ts-color-positive);

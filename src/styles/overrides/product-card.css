@@ -22,12 +22,6 @@
   margin-top: auto;
 }
 
-/* Production audit: Apollo's #7c7e8f has only 4.01:1 contrast on white.
-   Darken VAT-exclusive prices without changing typography or card geometry. */
-.products .product .price-additional {
-  color: var(--ts-color-price-secondary);
-}
-
 /* Audited primary/conversion classes: AA white labels on deeper copper. */
 body :is(.btn-primary, .btn-conversion, .btn-cart),
 .ordering-process .login-button {
@@ -39,6 +33,13 @@ body :is(.btn-primary, .btn-conversion, .btn-cart),
 .price-final {
   color: var(--ts-color-price);
 }
+/* Main amount and euro symbol only; never units, net price or cart totals. */
+.ts-price-number {
+  display: contents;
+  color: var(--ts-color-blue);
+}
+/* Keep the established VAT-exclusive colour without a duplicate tile rule. */
+.products .product .price-additional,
 .price-standard,
 .price-additional,
 .price-measure {
@@ -104,19 +105,16 @@ body:not(.ordering-process) #content :is(.products, .products-block, .products-t
   overflow-x: auto;
 }
 
-/* Numeric amount only, never currency, units, net price or cart totals. */
-.ts-price-number {
-  display: contents;
-  color: var(--ts-color-blue);
-}
 /* Native configured flag has an inline background; keep its geometry. */
 .flag-komplet {
   background-color: var(--ts-color-accent) !important;
 }
-@media (max-width: 767px) {
-  body:not(.ordering-process) #content .product .availability {
-    flex-direction: column;
-    align-items: center;
-    white-space: nowrap;
-  }
+/* Reserve the full warehouse label; native offer flex-wrap handles narrow cards. */
+body:not(.ordering-process) .content-wrapper .product .availability {
+  display: inline-grid;
+  justify-items: center;
+  white-space: nowrap;
+}
+body:not(.ordering-process) .content-wrapper .product :is(.prices, .p-tools) {
+  flex: auto;
 }
