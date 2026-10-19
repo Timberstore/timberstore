@@ -1,6 +1,7 @@
 /* PD Compact · Only Apollo's existing right-hand detail panel. Its columns,
    gallery, variant cards, native form and availability logic stay intact. */
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] {
+  --ts-compact-info-gap: 9px;
   min-width: 0;
   position: relative;
   border-radius: var(--ts-compact-radius);
@@ -68,7 +69,7 @@ body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-grid {
   display: flex;
   flex-direction: column;
-  gap: var(--ts-space-3);
+  gap: var(--ts-compact-info-gap);
   margin: 0 calc(-1 * var(--ts-compact-grid-gutter)) var(--ts-compact-section);
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-grid-item {
@@ -88,9 +89,8 @@ body.type-detail
   padding: 0;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
   align-items: baseline;
   gap: var(--ts-space-2);
   padding-top: var(--ts-space-3);
@@ -104,7 +104,12 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-final-price-wrapp
   align-items: baseline;
   flex-wrap: wrap;
   gap: 0 var(--ts-space-2);
-  min-width: auto;
+  min-width: 0;
+}
+/* Apollo gives even an empty unit-price line a 10px top margin. Keep real
+   unit-price content and its native node, but remove that phantom reservation. */
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-measure {
+  margin-top: 0;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final {
   grid-column: 2;
@@ -146,7 +151,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-availability
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
   align-items: baseline;
-  gap: var(--ts-space-2);
+  gap: var(--ts-compact-info-gap) var(--ts-space-2);
 }
 /* Additional warehouse rows can occupy column 2 without changing the panel.
    No warehouse data, message, stock calculation or dispatch estimate is added. */
@@ -169,7 +174,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block
   display: block;
   align-self: start;
   grid-column: 1 / -1;
-  margin-top: calc(var(--ts-space-3) - var(--ts-space-2));
+  margin-top: 0;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block > td {
   display: flex;
@@ -399,7 +404,7 @@ body.type-detail
   .p-info-wrapper[data-ts-compact]
   .p-info-grid:has(.friendsSection)
   .detail-price-block {
-  margin-top: var(--ts-space-2);
+  margin-top: calc(var(--ts-compact-section) - var(--ts-compact-info-gap));
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery .delivery-time {
   color: var(--ts-color-positive);
@@ -415,5 +420,18 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart-button:
   }
   body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to-cart-button {
     flex: 0 1 330px;
+  }
+}
+
+/* Mobile dispatch is a label/date stack; the native options link may wrap as
+   one item beneath it. Desktop keeps its original horizontal delivery group. */
+@media (max-width: 767px) {
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--ts-space-1);
+  }
+  body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options-block {
+    align-self: flex-end;
   }
 }

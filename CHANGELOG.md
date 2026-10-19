@@ -1,5 +1,11 @@
 # Changelog
 
+## PD Final Product Information Spacing · 2026-10-19 · Preview only
+
+- Remove Apollo's invisible 10 px unit-price margin; use matching grid rows and one measured spacing rhythm. Visible glyph gaps: 30/20 px → 13/13 px, or 13.5/13 px with wrapped net price at 320 px.
+- Up to 767 px, native delivery date sits 4 px below its label; the delivery-options link remains on the right when it fits and otherwise wraps. Desktop delivery stays horizontal.
+- [Before/after measurements, screenshots and native checks](docs/previews/product-information-spacing/README.md). JS, quantity/CTA styles and production unchanged; no merge or release.
+
 ## PD Final Unification Fix · 2026-10-19 · Preview only
 
 - Detail quantity uses the mini-cart's existing shared CSS: 36 px shell, 30/38/30 px segments, original colours, dividers and typography. Mini-cart presentation and native handlers preserved.
