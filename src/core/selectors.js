@@ -176,6 +176,10 @@ export const SEL = {
   // PD Compact · Apollo publishes final detail wrappers at is-loaded.
   compactInfo: '.p-detail .p-info-wrapper',
   compactReadyClass: 'is-loaded',
+  compactDeliveryLabel: '.delivery-time-block .delivery-time-label',
+  compactDeliveryDate: '.delivery-time',
+  compactDescriptionLink: ':scope > p[data-testid=productCardDescr]',
+  compactSocial: ':scope > .social-buttons-wrapper',
   compactAdditionalPrice: '.p-final-price-wrapper .price-additional',
   detailSku: '[itemprop="sku"]',
   detailStockAmount: '.availability-value .availability-amount',

@@ -74,14 +74,21 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-grid-title {
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: auto minmax(0, 1fr);
   align-items: baseline;
   gap: var(--ts-space-2);
   padding-top: var(--ts-space-3);
   border-top: 1px solid var(--ts-compact-border);
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-final-price-wrapper {
-  display: contents;
+  display: flex;
+  grid-column: 2;
+  grid-row: 1;
+  justify-content: flex-end;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--ts-space-1) var(--ts-space-2);
+  min-width: 0;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final {
   grid-column: 2;
@@ -97,24 +104,22 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-final .pr-lis
   font-size: 16px;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional {
-  grid-column: 1 / -1;
-  grid-row: 2;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: var(--ts-space-2);
+  display: inline-block;
   margin: 0;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
   color: var(--ts-color-price-secondary);
-  white-space: normal;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional::before {
-  content: attr(data-ts-label);
   white-space: nowrap;
 }
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional::before {
+  content: '(';
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional::after {
+  content: ' ' attr(data-ts-label) ')';
+}
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] :is(.price-standard, .price-save, .price-measure) {
-  grid-column: 1 / -1;
+  flex-basis: 100%;
+  order: 2;
   text-align: right;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-availability-block {
@@ -235,4 +240,55 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block 
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-grid > .detail-parameters:not(:has(tr)),
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-parameters-block:not(:has(tr:not([style*='display: none']))) {
   display: none;
+}
+
+/* PD Final Polish / phase 1: native nodes grouped without cloning or new links. */
+body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) a[data-testid='productCardBrandName'] span {
+  /* C3's existing descendant colour is important. */
+  color: var(--ts-compact-blue) !important;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--ts-space-1) var(--ts-space-2);
+  padding: var(--ts-space-1) var(--ts-space-2);
+  border-radius: var(--ts-radius);
+  background: var(--ts-compact-blue-bg);
+  color: var(--ts-compact-blue);
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery :is(.delivery-time, .delivery-time-label) {
+  color: inherit;
+  margin: 0;
+  background: transparent;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options-block {
+  margin-left: auto;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ts-space-2) var(--ts-space-3);
+  margin-top: var(--ts-space-3);
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links > * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links .social-buttons-wrapper {
+  margin-left: auto;
+  width: auto;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links .link-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ts-space-2);
+  margin: 0;
+}
+body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links .link-icon {
+  margin: 0;
+  font-size: 12px;
 }

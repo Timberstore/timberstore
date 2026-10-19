@@ -7,6 +7,24 @@ function enhance(info) {
   if (info.dataset.tsCompact) return;
   info.dataset.tsCompact = 'ready';
   function sync() {
+    const label = info.querySelector(SEL.compactDeliveryLabel);
+    if (label && !label.parentElement.classList.contains('ts-product-delivery')) {
+      const date = label.parentElement.querySelector(SEL.compactDeliveryDate);
+      if (date) {
+        const badge = document.createElement('span');
+        badge.className = 'ts-product-delivery';
+        label.before(badge);
+        badge.append(label, date);
+      }
+    }
+    const details = info.querySelector(SEL.compactDescriptionLink);
+    const social = info.querySelector(SEL.compactSocial);
+    if (details && social) {
+      const links = document.createElement('div');
+      links.className = 'ts-product-links';
+      details.before(links);
+      links.append(details, social);
+    }
     for (const price of info.querySelectorAll(SEL.compactAdditionalPrice)) {
       price.dataset.tsLabel = TEXTS.productCompact.vat;
       // Native AJAX may replace this text. Keep the native amount/currency;
