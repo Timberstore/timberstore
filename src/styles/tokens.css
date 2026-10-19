@@ -114,3 +114,14 @@ body {
 /* Breakpoints (CSS custom properties can't be used in media queries —
    keep these values in sync with the Shoptet template):
    sm 768px · md 992px · lg 1200px */
+
+/* PD Compact · scoped variables, no global palette changes. */
+.type-detail .p-detail {
+  --ts-compact-blue: #2454a6;
+  --ts-compact-blue-bg: #eaf1fc;
+  --ts-compact-border: #e1e5eb;
+  --ts-compact-section: 24px;
+  --ts-compact-radius: 16px;
+  --ts-compact-padding: 10px;
+  --ts-compact-grid-gutter: 10px;
+}

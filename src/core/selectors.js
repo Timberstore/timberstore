@@ -173,6 +173,10 @@ export const SEL = {
   cartSummaryPrices: '.summary-wrapper',
   cartSpinner: '.overlay.spinner',
   cartBack: 'a.next-step-back:not(.colorbox-close)',
+  // PD Compact · Apollo publishes final detail wrappers at is-loaded.
+  compactInfo: '.p-detail .p-info-wrapper',
+  compactReadyClass: 'is-loaded',
+  compactAdditionalPrice: '.p-final-price-wrapper .price-additional',
   detailSku: '[itemprop="sku"]',
   detailStockAmount: '.availability-value .availability-amount',
   nativeQuantity: '.quantity',

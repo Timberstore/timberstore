@@ -24,6 +24,7 @@ import headerServiceBar from './modules/header-service-bar/index.js';
 
 import cartPresentation from './modules/cart-presentation/index.js';
 import orderDetail from './modules/order-detail/index.js';
+import productCompact from './modules/product-compact/index.js';
 
 // Register every module here. Order = init order.
 // qty-picker before cart-count: the badge goes into the button the qty field sits next to.
@@ -35,6 +36,7 @@ start([
   partnersSlider,
   cartPresentation,
   orderDetail,
+  productCompact,
   informationMessage,
   carouselSwipe,
   homepageCategories,

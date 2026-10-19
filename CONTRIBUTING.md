@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Izolované PD Compact PRO preview `0.6.13-compact.0` (19. 10. 2026):** CSS limit 24 KiB, výstup 23,91 KiB; JS 29,87 KiB / 30. Navýšenie podľa zaznamenaného súhlasu 15. 10. iba pre toto preview. Stabilná v0.6.13 a staršie limity sa nemenia. Bez merge/tagu/produkčného nasadenia.
+
 - **Stabilná v0.6.13 (schválená 19. 10. 2026):** dokončené opravy homepage/Instagramu/košíka/pätičky bez nového produktového detailu. CSS limit 23,25 KiB (výstup 23,02 KiB), JS 30 KiB (29,55 KiB). Navýšenie podľa existujúceho súhlasu 15. 10.; skoršie tagy a ich limity zostávajú bez zmeny.
 
 - **Stabilná v0.6.12 (schválená 18. 10. 2026):** iba schválené večerné úpravy FAQ/homepage/pätičky nad main v0.6.11, bez rozpracovaného detailu produktu. CSS limit 23 KiB (výstup 22,81 KiB), JS ostáva 30 KiB (29,14 KiB). Navýšenie podľa existujúceho súhlasu 15. 10.; limity ostatných vydaní zostávajú nezmenené.

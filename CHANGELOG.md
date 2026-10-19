@@ -1,5 +1,11 @@
 # Changelog
 
+## PD Compact PRO · 2026-10-19 · Isolated preview only
+
+- Compact native detail rows, royal blue product code, subtle shared frame and whole-word titles. Stable v0.6.13 base; no prior redesign or warehouse logic carried over.
+- Native variant dimensions/order/active state preserved; Shoptet prices, stock, date, gallery and cart retain their logic.
+- [Changed files, verification evidence and limits](docs/previews/product-compact-pro/README.md). No merge, release tag or production deployment.
+
 ## v0.6.13 · 2026-10-19 · Dokončenie homepage, Instagramu a kontaktov
 
 - Biely text aj v širokej oranžovej hlavičke FAQ, nielen v aktívnom tlačidle kategórie.

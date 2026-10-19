@@ -1,5 +1,6 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  productCompact: { vat: 'Cena bez DPH', vatSuffix: /bez\s+DPH/gi },
   services: {
     page: 'Zobraziť ponuku – strana',
   },
