@@ -174,6 +174,8 @@ export const SEL = {
   cartSpinner: '.overlay.spinner',
   cartBack: 'a.next-step-back:not(.colorbox-close)',
   // PD Compact · Apollo publishes final detail wrappers at is-loaded.
+  compactShippingPopup: '.shipping-options-popup',
+  compactShippingName: '.shipping-options-popup .shipping-billing-name',
   compactInfo: '.p-detail .p-info-wrapper',
   compactReadyClass: 'is-loaded',
   compactDeliveryLabel: '.delivery-time-block .delivery-time-label',

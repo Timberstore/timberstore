@@ -30,6 +30,7 @@
 @import './styles/overrides/product-card.css';
 @import './styles/overrides/product-detail.css';
 @import './styles/overrides/product-compact.css';
+@import './styles/overrides/product-shipping.css';
 @import './styles/overrides/checkout.css';
 @import './styles/overrides/cart-modal.css';
 @import './styles/overrides/information-message.css';
