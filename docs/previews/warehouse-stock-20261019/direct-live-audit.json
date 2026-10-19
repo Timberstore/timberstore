@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Europe/Bratislava",
+  "shopId": 765909,
+  "source": "public read-only native /action/ProductStockAmount/ GET",
+  "nativeResponse": {
+    "code": 200,
+    "message": null,
+    "messages": [],
+    "payload": {
+      "products": {
+        "347129": {
+          "codes": {
+            "549369": {
+              "amount": "23",
+              "stocks": {
+                "ext": "23"
+              }
+            }
+          }
+        },
+        "331847": {
+          "codes": {
+            "404394": {
+              "amount": "> 100",
+              "stocks": {
+                "ext": "> 100"
+              }
+            }
+          }
+        },
+        "313175": {
+          "codes": {
+            "289124": {
+              "amount": "92",
+              "stocks": {
+                "ext": "92"
+              }
+            }
+          }
+        },
+        "313121": {
+          "codes": {
+            "232861": {
+              "amount": "94",
+              "stocks": {
+                "ext": "94"
+              }
+            }
+          }
+        }
+      },
+      "stocks": {
+        "ext": {
+          "title": "Sklad",
+          "isDeliveryPoint": 0
+        }
+      }
+    }
+  },
+  "adminAccess": {
+    "url": "https://www.timberstore.sk/admin/login/",
+    "title": "Prihlásenie - timberstore.sk",
+    "passwordField": true,
+    "headings": []
+  },
+  "perWarehouseQuantitiesVerified": false,
+  "exportRejectedByUser": true,
+  "productionChanged": false,
+  "newBuildCreated": false
+}
