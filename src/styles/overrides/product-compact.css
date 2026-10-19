@@ -23,11 +23,18 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] h1 {
   line-height: 1.25;
   margin: 0 0 var(--ts-space-3);
 }
-body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-detail-info {
+body.type-detail
+  .p-detail
+  :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header)
+  .p-detail-info {
   margin: 0;
   display: block;
 }
-body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-detail-info > div {
+body.type-detail
+  .p-detail
+  :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header)
+  .p-detail-info
+  > div {
   display: flex;
   width: 100%;
   margin: 0;
@@ -36,7 +43,11 @@ body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner
   justify-content: space-between;
   gap: var(--ts-space-2);
 }
-body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) .p-detail-info :is(.p-code, a[data-testid='productCardBrandName']) {
+body.type-detail
+  .p-detail
+  :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header)
+  .p-detail-info
+  :is(.p-code, a[data-testid='productCardBrandName']) {
   display: inline-block;
   margin: 0;
   font-size: 12.5px;
@@ -66,11 +77,15 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-grid-item {
   margin: 0;
   padding: 0 var(--ts-compact-grid-gutter);
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-grid-title {
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  :is(.detail-grid-title, .delivery-time-label) {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5;
   margin: 0;
+  padding: 0;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block {
   display: flex;
@@ -119,7 +134,10 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional::b
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .price-additional::after {
   content: ' ' attr(data-ts-label) ')';
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] :is(.price-standard, .price-save, .price-measure) {
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  :is(.price-standard, .price-save, .price-measure) {
   flex-basis: 100%;
   order: 2;
   text-align: right;
@@ -151,7 +169,7 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block
   display: block;
   align-self: start;
   grid-column: 1 / -1;
-  margin-top: var(--ts-space-2);
+  margin-top: calc(var(--ts-space-3) - var(--ts-space-2));
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block > td {
   display: flex;
@@ -162,7 +180,10 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .delivery-time-block
   padding: 0;
   margin: 0;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] :is(.delivery-time-label, .delivery-time, .shipping-options-block) {
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  :is(.delivery-time-label, .delivery-time, .shipping-options-block) {
   margin: 0;
   padding: 0;
   font-size: 12px;
@@ -230,7 +251,11 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact]::before {
 }
 
 /* Discounts retain their native nodes, below the two primary price rows. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block > .detail-grid-title {
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .detail-price-block
+  > .detail-grid-title {
   grid-column: 1;
   grid-row: 1;
 }
@@ -241,13 +266,24 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-price-block 
 }
 /* Apollo leaves an empty table after moving its rows. Exclude empty/hidden-only
    parameter shells from flex gaps, keeping actual parameter rows untouched. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-grid > .detail-parameters:not(:has(tr)),
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .detail-parameters-block:not(:has(tr:not([style*='display: none']))) {
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .p-info-grid
+  > .detail-parameters:not(:has(tr)),
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .detail-parameters-block:not(:has(tr:not([style*='display: none']))) {
   display: none;
 }
 
 /* PD Final Polish / phase 1: native nodes grouped without cloning or new links. */
-body.type-detail .p-detail :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header) a[data-testid='productCardBrandName'] span {
+body.type-detail
+  .p-detail
+  :is(.p-info-wrapper[data-ts-compact], .p-detail-inner-header)
+  a[data-testid='productCardBrandName']
+  span {
   /* C3's existing descendant colour is important. */
   color: var(--ts-compact-blue) !important;
 }
@@ -262,11 +298,15 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery
   background: transparent;
   color: var(--ts-color-text);
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery :is(.delivery-time, .delivery-time-label) {
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .ts-product-delivery
+  :is(.delivery-time, .delivery-time-label) {
   color: inherit;
   margin: 0;
   background: transparent;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .shipping-options-block {
@@ -285,7 +325,11 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links > 
   padding: 0;
   border: 0;
 }
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-links .social-buttons-wrapper {
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .ts-product-links
+  .social-buttons-wrapper {
   margin-left: auto;
   width: auto;
 }
@@ -308,78 +352,9 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart {
   align-items: center;
   gap: 14px;
 }
+/* Shared quantity-control.css supplies the mini-cart's existing appearance. */
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .quantity {
-  display: inline-grid;
-  grid-template-columns: 44px 44px 44px;
-  flex: 0 0 134px;
-  width: 134px;
-  height: 48px;
-  padding: 0;
   margin: 0;
-  overflow: hidden;
-  border: 1px solid var(--ts-color-controls-active);
-  border-color: color-mix(in srgb, var(--ts-color-cart-delete) 40%, var(--ts-color-bg));
-  border-radius: var(--ts-radius-checkout-panel);
-  background: var(--ts-color-bg);
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity > label {
-  grid-area: 1 / 2;
-  width: 100%;
-  margin: 0;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity input {
-  width: 100%;
-  height: 46px;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  border-inline: 1px solid var(--ts-color-controls-active);
-  border-inline-color: color-mix(in srgb, var(--ts-color-cart-delete) 40%, var(--ts-color-bg));
-  border-radius: 0;
-  background: var(--ts-color-bg);
-  color: var(--ts-color-table-name);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  appearance: textfield;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity input::-webkit-inner-spin-button,
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity input::-webkit-outer-spin-button {
-  appearance: none;
-  margin: 0;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity :is(.increase, .decrease) {
-  position: static;
-  grid-row: 1;
-  width: 44px;
-  height: 46px;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: var(--ts-color-cart-delete-bg);
-  color: var(--ts-color-controls-active);
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity .decrease {
-  grid-column: 1;
-  color: var(--ts-color-cart-delete);
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity .increase {
-  grid-column: 3;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity :is(.increase, .decrease)::before {
-  display: none;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity :is(.increase__sign, .decrease__sign) {
-  display: block;
-  font-size: 20px;
-  line-height: 1;
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity button:hover {
-  background: var(--ts-color-controls-divider);
-}
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .quantity :is(button, input):focus-visible {
-  outline: 2px solid var(--ts-color-controls-active);
-  outline-offset: -3px;
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to-cart-button {
   display: inline-flex;
@@ -419,7 +394,11 @@ body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .add-to-cart .add-to
 }
 
 /* Final Spacing & Controls: retain the larger variant-to-price section gap. */
-body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .p-info-grid:has(.friendsSection) .detail-price-block {
+body.type-detail
+  .p-detail
+  .p-info-wrapper[data-ts-compact]
+  .p-info-grid:has(.friendsSection)
+  .detail-price-block {
   margin-top: var(--ts-space-2);
 }
 body.type-detail .p-detail .p-info-wrapper[data-ts-compact] .ts-product-delivery .delivery-time {

@@ -19,6 +19,7 @@
 @import './styles/overrides/top-bar.css';
 @import './styles/overrides/header.css';
 @import './styles/overrides/header-popups.css';
+@import './styles/overrides/quantity-control.css';
 @import './styles/overrides/cart-presentation.css';
 @import './styles/overrides/navigation.css';
 @import './styles/overrides/carousel.css';

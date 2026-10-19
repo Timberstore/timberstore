@@ -1,5 +1,11 @@
 # Changelog
 
+## PD Final Unification Fix · 2026-10-19 · Preview only
+
+- Detail quantity uses the mini-cart's existing shared CSS: 36 px shell, 30/38/30 px segments, original colours, dividers and typography. Mini-cart presentation and native handlers preserved.
+- Price, availability and delivery labels use 14 px / 500 / 21 px typography and a shared 16 px information rhythm. Native price hierarchy, green availability/date and CTA rules retained.
+- [Changed files, reference comparisons and native checks](docs/previews/product-unification-fix/README.md). No merge, release or production change.
+
 ## PD Final Spacing & Controls · 2026-10-19 · Preview only
 
 - Background-free delivery with the native date in availability green; 16 px information gaps, cart-token quantity styling, 22/14 px CTA spacing and a slightly narrower desktop button.
