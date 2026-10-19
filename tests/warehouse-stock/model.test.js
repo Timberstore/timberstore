@@ -62,15 +62,15 @@ test('warehouse identity is exact and never inferred from generic ext', () => {
   assert.equal(mapWarehouses([{ id: 'ext', title: 'Sklad' }]), null);
   assert.deepEqual(
     mapWarehouses([
-      { id: 9, title: 'SKLAD-CSNK' },
-      { id: 7, title: 'SKLAD-HRICOV' },
+      { id: 9, title: 'Centrálny sklad' },
+      { id: 7, title: 'Dolný Hričov' },
     ]),
     mapping,
   );
   assert.equal(
     mapWarehouses([
-      { id: 7, title: 'SKLAD-CSNK' },
-      { id: 7, title: 'SKLAD-HRICOV' },
+      { id: 7, title: 'Centrálny sklad' },
+      { id: 7, title: 'Dolný Hričov' },
     ]),
     null,
   );
@@ -90,7 +90,7 @@ test('real observed public ext response is refused, not labeled central', () => 
 });
 test('native missing stock, boolean false and missing unit are not guessed', () => {
   const base = {
-    stocks: { 7: { title: 'SKLAD-HRICOV' }, 9: { title: 'SKLAD-CSNK' } },
+    stocks: { 7: { title: 'Dolný Hričov' }, 9: { title: 'Centrálny sklad' } },
     products: { 101: { codes: { '0001': { stocks: { 7: '12', 9: '45' } } } } },
   };
   const known = fromNative(base, id, 1000, 30000);
@@ -177,11 +177,57 @@ test('empty optional environment IDs use exact warehouse names', () => {
   assert.deepEqual(
     mapWarehouses(
       [
-        { id: 7, title: 'SKLAD-HRICOV' },
-        { id: 9, title: 'SKLAD-CSNK' },
+        { id: 7, title: 'Dolný Hričov' },
+        { id: 9, title: 'Centrálny sklad' },
       ],
       { hricov: '', csnk: '' },
     ),
     { hricov: '7', csnk: '9' },
   );
+});
+
+test('real names read source IDs in any order; TIMBER SKLAD never aliases a target', () => {
+  // Synthetic ID fixtures, not verified IDs of TimberStore warehouses.
+  const stocks = [
+    { id: 11, title: 'TIMBER SKLAD' },
+    { id: 9, title: 'Centrálny sklad' },
+    { id: 7, title: 'Dolný Hričov' },
+  ];
+  assert.deepEqual(mapWarehouses(stocks), { hricov: '7', csnk: '9' });
+  assert.deepEqual(mapWarehouses([...stocks].reverse()), { hricov: '7', csnk: '9' });
+  assert.equal(mapWarehouses(stocks, { hricov: 11, csnk: 9 }), null);
+  assert.equal(
+    mapWarehouses([
+      { id: 7, title: 'SKLAD-HRICOV' },
+      { id: 9, title: 'SKLAD-CSNK' },
+    ]),
+    null,
+  );
+  assert.equal(
+    mapWarehouses([
+      { id: 'ext', title: 'Dolný Hričov' },
+      { id: 9, title: 'Centrálny sklad' },
+    ]),
+    null,
+  );
+  const native = {
+    stocks: Object.fromEntries(stocks.map(({ id, title }) => [id, { title }])),
+    products: {
+      101: { codes: { '0001': { amount: '999', stocks: { 7: '3', 9: '6', 11: '990' } } } },
+    },
+  };
+  assert.deepEqual(fromNative(native, id, 1000, 30000).warehouses, [
+    { key: 'hricov', quantity: 3 },
+    { key: 'csnk', quantity: 6 },
+  ]);
+});
+
+test('pair display uses Slovak forms without converting pairs to pieces', async () => {
+  const { stockUnit } = await import('../../src/core/warehouse-unit.js');
+  assert.equal(stockUnit('pár', 1), 'pár');
+  assert.equal(stockUnit('pár', 2), 'páry');
+  assert.equal(stockUnit('pár', 193), 'párov');
+  assert.equal(stockUnit('pár', 1.5), 'páru');
+  assert.equal(stockUnit('ks', 193), 'ks');
+  assert.equal(stockUnit('sada', 2), 'sada');
 });

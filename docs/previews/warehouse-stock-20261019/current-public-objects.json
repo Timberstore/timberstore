@@ -1,0 +1,164 @@
+{
+  "config": {
+    "inStockAvailabilityId": -1,
+    "stockAmountUrl": "/action/ProductStockAmount/",
+    "ums_variant_and_filter_labels": true
+  },
+  "shoptetKeys": [
+    "stockAvailabilities",
+    "variantsCommon",
+    "variantsData",
+    "variantsSimple",
+    "variantsSplit",
+    "variantsUnavailable",
+    "products",
+    "topProducts",
+    "productSorting",
+    "productSlider"
+  ],
+  "variantObjectKeys": {
+    "stockAvailabilities": [
+      "content",
+      "events",
+      "getDeliveryPointName",
+      "getDeliveryPointAmount",
+      "getStockAvailabilities",
+      "setStockAvailabilities",
+      "attachEventListeners",
+      "mouseEnterListener",
+      "mouseLeaveListener"
+    ],
+    "variantsCommon": [
+      "disableAddingToCart",
+      "enableAddingToCart",
+      "hasUnselectedVariantGroup",
+      "hasToDisableCartButton",
+      "handleSubmit",
+      "handleBrowserValueRestoration",
+      "updateQuantityTooltips",
+      "hideQuantityTooltips",
+      "reasonToDisable",
+      "noDisplayClasses"
+    ],
+    "variantsData": [
+      "fetchData",
+      "getProductVariants"
+    ],
+    "variantsSimple": [
+      "handler",
+      "switcher",
+      "loadedVariant"
+    ],
+    "variantsSplit": [
+      "handler",
+      "getData",
+      "showVariantDependent"
+    ],
+    "variantsUnavailable": [
+      "setupAllParameters",
+      "attachEventListeners",
+      "getAvailableCombinations",
+      "getSelected",
+      "getExistingOptions",
+      "getUnavailableOptgroup",
+      "handleOptions",
+      "getOption",
+      "moveOptionFromUnavailable",
+      "areUnavailableOptionsSelected",
+      "setupCurrentParameter",
+      "sortOptions",
+      "classes"
+    ],
+    "products": [
+      "splitWidgetParameters",
+      "splitSingleWidgetParameter",
+      "replaceImage",
+      "highlightActiveThumbnail",
+      "browseProducts",
+      "setThumbnailsDirection",
+      "setThumbnails",
+      "checkThumbnailsAction",
+      "checkThumbnails",
+      "switchThumbnails",
+      "checkDiscountFlag",
+      "changeStyle",
+      "setStyle",
+      "returnStyle",
+      "unveilProductVideoTab",
+      "changeQuantity"
+    ],
+    "topProducts": [
+      "initTopProducts"
+    ],
+    "productSorting": [
+      "initProductSorting"
+    ],
+    "productSlider": [
+      "runProductSlider"
+    ]
+  },
+  "tracking": {
+    "content_category": "Úchytky a vešiaky / Profily pre bezúchytkové otváranie",
+    "content_type": "product",
+    "content_name": "TULIP Gola otvorená koncovka J profilu, plast, čierna matná, P+L",
+    "base_name": "TULIP Gola otvorená koncovka J profilu, plast, čierna matná, P+L",
+    "variant": null,
+    "manufacturer": "Tulip",
+    "content_ids": [
+      "404394"
+    ],
+    "guid": "e4f27f78-3daf-11f1-b943-bc241158b559",
+    "visibility": 1,
+    "value": "5.98",
+    "valueWoVat": "4.86",
+    "facebookPixelVat": true,
+    "currency": "EUR",
+    "base_id": 331847,
+    "category_path": [
+      "Úchytky a vešiaky",
+      "Profily pre bezúchytkové otváranie"
+    ]
+  },
+  "formPriceId": "332123",
+  "dataLayerProduct": {
+    "id": 331847,
+    "guid": "e4f27f78-3daf-11f1-b943-bc241158b559",
+    "hasVariants": false,
+    "codes": [
+      {
+        "code": 404394,
+        "weight": 0.01,
+        "quantity": "> 100",
+        "stocks": [
+          {
+            "id": "ext",
+            "quantity": "> 100"
+          }
+        ]
+      }
+    ],
+    "code": "404394",
+    "name": "TULIP Gola otvorená koncovka J profilu, plast, čierna matná, P+L",
+    "appendix": "",
+    "weight": 0.01,
+    "manufacturer": "Tulip",
+    "manufacturerGuid": "1F0F796884536126BBEBA6419ACEAA98",
+    "currentCategory": "Úchytky a vešiaky | Profily pre bezúchytkové otváranie",
+    "currentCategoryGuid": "d9aa5b94-3a81-11f1-abd1-bc2411900537",
+    "defaultCategory": "Úchytky a vešiaky | Profily pre bezúchytkové otváranie",
+    "defaultCategoryGuid": "d9aa5b94-3a81-11f1-abd1-bc2411900537",
+    "currency": "EUR",
+    "priceWithVat": 5.98
+  },
+  "dataLayerStocks": [
+    {
+      "id": "ext",
+      "title": "Sklad",
+      "isDeliveryPoint": 0,
+      "visibleOnEshop": 1
+    }
+  ],
+  "nativeAvailability": "SKLADOM (>100 PÁR)",
+  "variantControls": 0,
+  "overflow": false
+}

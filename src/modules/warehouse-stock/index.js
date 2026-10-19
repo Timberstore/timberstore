@@ -1,6 +1,7 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
+import { stockUnit } from '../../core/warehouse-unit.js';
 import { cardIdentity, detailIdentity } from '../../core/warehouse-identity.js';
 import { createStockService, stockKey, STOCK_TTL } from '../../core/warehouse-stock.js';
 /* global __WAREHOUSE_PREVIEW__, __WAREHOUSE_NATIVE_VERIFIED__ */
@@ -66,7 +67,7 @@ function render(record, result) {
       label.textContent = TEXTS.warehouseStock[row.key];
       const amount = document.createElement('strong');
       amount.className = 'ts-warehouse-stock__amount';
-      amount.textContent = `${format.format(row.quantity)} ${result.unit}`;
+      amount.textContent = `${format.format(row.quantity)} ${stockUnit(result.unit, row.quantity)}`;
       element.append(label, ' — ', amount);
       return element;
     });

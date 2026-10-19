@@ -93,7 +93,7 @@ test('native data needs verification; unknown warehouses trigger bounded discove
     fetcher: async () => {
       calls++;
       const stocks = exposed
-        ? { 7: { title: 'SKLAD-HRICOV' }, 9: { title: 'SKLAD-CSNK' } }
+        ? { 7: { title: 'Dolný Hričov' }, 9: { title: 'Centrálny sklad' } }
         : { ext: { title: 'Sklad' } };
       const products = { 101: { codes: { 'SKU-101': { stocks: { 7: '12', 9: '45' } } } } };
       return { ok: true, json: async () => ({ payload: { stocks, products } }) };

@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Europe/Bratislava",
+  "baseCommit": "da9837d7dd62ecb34bc7c8e1a6377a0639c68928",
+  "warehouseNamesCorrected": true,
+  "actualWarehouseIdsVerified": false,
+  "thirdWarehouseExcludedWithoutAggregation": true,
+  "liveSourceReturnsReference": false,
+  "referenceProvenance": "User-confirmed administration, not fetched source",
+  "liveNativeResponseFile": "current-native-response.json",
+  "exportConfigured": false,
+  "serverDeployed": false,
+  "apiConfigured": false,
+  "unitContracts": {
+    "passed": 32,
+    "failed": 0
+  },
+  "lintPassed": true,
+  "build": {
+    "previewJsGzipKiB": 32.97,
+    "cssGzipKiB": 23.17,
+    "jsLimitKiB": 33,
+    "cssLimitKiB": 23.5,
+    "stableBuildGuardPassed": true
+  },
+  "modeledBrowserTests": [
+    {
+      "type": "MODELED DOM ONLY",
+      "sourceMode": "api-contract",
+      "passed": true,
+      "checks": [
+        "variant race: delayed A never overwrites B",
+        "two stocks ordered; exact quantities",
+        "zero and unselected native fallback",
+        "native nodes, delivery and form preserved",
+        "card/grid/list and AJAX append",
+        "no horizontal overflow at 320/375/768/1440",
+        "expired quantities hidden during source outage"
+      ],
+      "realStockVerified": false
+    },
+    {
+      "type": "MODELED DOM ONLY",
+      "sourceMode": "export-cache",
+      "passed": true,
+      "checks": [
+        "variant race: delayed A never overwrites B",
+        "two stocks ordered; exact quantities",
+        "zero and unselected native fallback",
+        "native nodes, delivery and form preserved",
+        "card/grid/list and AJAX append",
+        "no horizontal overflow at 320/375/768/1440",
+        "expired quantities hidden during source outage"
+      ],
+      "realStockVerified": false
+    }
+  ],
+  "limitations": [
+    "No signed-in administration available to tools",
+    "No real protected export or API token supplied",
+    "No ID of any real warehouse observed",
+    "No actual retrieval of split quantities 2+193 yet",
+    "Real browser tests use Chromium emulation; iPhone Safari not run",
+    "New source not production-deployed; no merges or tags created"
+  ],
+  "realPublicPageWithLocalPreview": {
+    "scope": "Real public Shoptet page, current local preview bundle substituted by test harness",
+    "version": "v0.6.13-preview.warehouse-stock",
+    "status": {
+      "state": "unknown",
+      "reason": "required-warehouses-not-exposed"
+    },
+    "availability": "SKLADOM (>100 PÁR)",
+    "priceId": "332123",
+    "price": "5,98 € / pár",
+    "shownEnhancedHosts": 0,
+    "overflow": false
+  }
+}

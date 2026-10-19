@@ -12,6 +12,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright-core')
   });
   try {
     let failSource = false;
+    const exportMode = process.env.STOCK_TEST_SOURCE === 'export';
     const bundle = await build({
       stdin: {
         contents: "import module from './src/modules/warehouse-stock/index.js';module.init();",
@@ -39,10 +40,10 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright-core')
           items: items.map((i) => ({
             ...i,
             state: 'known',
-            unit: 'ks',
-            asOf: Date.now(),
+            unit: 'pár',
+            asOf: Date.now() - (exportMode ? 120000 : 0),
             expiresAt: Date.now() + 5000,
-            source: 'MODELED TEST DATA',
+            source: exportMode ? 'shoptet-export' : 'MODELED TEST DATA',
             warehouses: [
               { key: 'hricov', quantity: i.code === 'A' ? 12 : 0 },
               { key: 'csnk', quantity: i.code === 'A' ? 45 : i.code === 'B' ? 8 : 0 },
@@ -82,20 +83,20 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright-core')
     await page.waitForTimeout(40);
     await page.evaluate(() => changeVariant('22'));
     await page.waitForFunction(() =>
-      document.querySelector('.p-detail .ts-warehouse-stock')?.innerText.includes('8 ks'),
+      document.querySelector('.p-detail .ts-warehouse-stock')?.innerText.includes('8 párov'),
     );
     await page.waitForTimeout(600);
     assert.equal(
       (await page.locator('.p-detail .ts-warehouse-stock').allTextContents())[0],
-      'CENTRÁLNY SKLAD — 8 ks',
+      'CENTRÁLNY SKLAD — 8 párov',
     );
     await page.evaluate(() => changeVariant('11'));
     await page.waitForFunction(() =>
-      document.querySelector('.p-detail .ts-warehouse-stock')?.innerText.includes('12 ks'),
+      document.querySelector('.p-detail .ts-warehouse-stock')?.innerText.includes('12 párov'),
     );
     assert.equal(
       (await page.locator('.p-detail .ts-warehouse-stock').allTextContents())[0],
-      'SKLADOM — 12 ksCENTRÁLNY SKLAD — 45 ks',
+      'SKLADOM — 12 párovCENTRÁLNY SKLAD — 45 párov',
     );
     for (const width of [320, 375, 768, 1440]) {
       await page.setViewportSize({ width, height: 1000 });
@@ -141,6 +142,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright-core')
     assert(await page.locator('.availability-label').isVisible());
     const report = {
       type: 'MODELED DOM ONLY',
+      sourceMode: exportMode ? 'export-cache' : 'api-contract',
       passed: true,
       checks: [
         'variant race: delayed A never overwrites B',

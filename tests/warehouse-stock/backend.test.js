@@ -42,8 +42,8 @@ test('per-GUID cache and single flight do not reset observation age', async () =
         return {
           data: {
             stocks: [
-              { id: 7, title: 'SKLAD-HRICOV' },
-              { id: 9, title: 'SKLAD-CSNK' },
+              { id: 7, title: 'Dolný Hričov' },
+              { id: 9, title: 'Centrálny sklad' },
             ],
           },
         };
@@ -90,8 +90,8 @@ test('backend global concurrency and API budget bound upstream load', async () =
         return {
           data: {
             stocks: [
-              { id: 7, title: 'SKLAD-HRICOV' },
-              { id: 9, title: 'SKLAD-CSNK' },
+              { id: 7, title: 'Dolný Hričov' },
+              { id: 9, title: 'Centrálny sklad' },
             ],
           },
         };

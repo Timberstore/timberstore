@@ -1,8 +1,10 @@
 // Stock names identify warehouses; never infer them from availability labels.
 export const WAREHOUSES = [
-  { key: 'hricov', title: 'SKLAD-HRICOV' },
-  { key: 'csnk', title: 'SKLAD-CSNK' },
+  { key: 'hricov', title: 'Dolný Hričov' },
+  { key: 'csnk', title: 'Centrálny sklad' },
 ];
+// Bounded export snapshots are read-only caches, never a separate stock ledger.
+export const EXPORT_MAX_AGE = 600000;
 export const unknown = (reason) => ({ state: 'unknown', reason });
 export function quantity(value) {
   if (typeof value !== 'number' && typeof value !== 'string') return null;
@@ -11,20 +13,29 @@ export function quantity(value) {
   return Number.isFinite(number) && Math.abs(number) <= 1e12 ? number : null;
 }
 export function mapWarehouses(stocks, explicit = {}) {
+  if (!Array.isArray(stocks)) return null;
+  const name = (value) =>
+    typeof value === 'string' ? value.normalize('NFC').trim().toLocaleLowerCase('sk-SK') : null;
   const result = {};
   for (const warehouse of WAREHOUSES) {
     const configuredId =
       explicit[warehouse.key] == null ? '' : String(explicit[warehouse.key]).trim();
-    const matches = stocks.filter((stock) =>
-      configuredId
-        ? String(stock.id) === configuredId
-        : stock.title?.trim().toUpperCase() === warehouse.title,
+    // Read the ID from the source's named warehouse record; never use list position.
+    // Explicit IDs must still agree with the real name, excluding TIMBER SKLAD.
+    const matches = stocks.filter(
+      (stock) =>
+        name(stock.title) === name(warehouse.title) &&
+        stock.id != null &&
+        /^\d+$/.test(String(stock.id)) &&
+        Number.isSafeInteger(Number(stock.id)) &&
+        (!configuredId || String(stock.id) === configuredId),
     );
     if (matches.length !== 1) return null;
     result[warehouse.key] = String(matches[0].id);
   }
   return result.hricov !== result.csnk ? result : null;
 }
+
 export function makeRecord(identity, amounts, { unit, asOf, expiresAt, source }) {
   if (!unit || typeof unit !== 'string' || unit.length > 30) return unknown('unit-unverified');
   if (!Number.isFinite(asOf) || !Number.isFinite(expiresAt) || expiresAt <= asOf)
@@ -103,7 +114,8 @@ export function validRecord(record, identity, now) {
     Number.isFinite(record.expiresAt) &&
     record.expiresAt > record.asOf &&
     record.expiresAt > now &&
-    record.expiresAt - record.asOf <= 60000 &&
+    record.expiresAt - record.asOf <=
+      (record.source === 'shoptet-export' ? EXPORT_MAX_AGE : 60000) &&
     typeof record.unit === 'string' &&
     record.unit.length > 0 &&
     record.unit.length <= 30 &&

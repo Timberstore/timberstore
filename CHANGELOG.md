@@ -1,5 +1,11 @@
 # Changelog
 
+## Nevydané · oprava skutočných skladov
+
+- Mapovanie Dolný Hričov / Centrálny sklad podľa skutočného ID a názvu zo zdroja; TIMBER SKLAD sa nezobrazuje a nepripočítava. Pôvodné názvy SKLAD-HRICOV/CSNK neboli názvy administrácie.
+- Natívny zdroj pre SKU 404394 naďalej vracia len ext a >100; referenčné počty 2+193 nie sú vložené do aplikácie. Voliteľný zabezpečený CSV adaptér používa existujúci batch backend/cache a zostáva vypnutý do získania skutočného exportu.
+- Zachovaný dizajn, variantové mapovanie, fallback a produkčný loader. [Konkrétny záver, dôkazy a postup pripojenia](docs/previews/warehouse-stock-20261019/CURRENT-SOURCE-DECISION.md).
+
 ## Nevydané · izolovaný warehouse-stock preview
 
 - Spoločná skladová vrstva pre detail, varianty a produktové karty; presné SKU, dávkovanie, expirácia a bezpečný návrat k Shoptetu.

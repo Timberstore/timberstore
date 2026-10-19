@@ -1,0 +1,13 @@
+{
+  "provenance": "User-confirmed Shoptet administration reference; NOT downloaded source data",
+  "date": "2026-10-19",
+  "code": "404394",
+  "unit": "pár",
+  "warehouseIdsVerified": false,
+  "warehouseNames": {"hricov": "Dolný Hričov", "csnk": "Centrálny sklad"},
+  "warehouses": {"hricov": 2, "csnk": 193},
+  "excludedWarehouse": {"title": "TIMBER SKLAD", "quantity": 0},
+  "total": 195,
+  "claims": 0,
+  "usedByApplication": false
+}

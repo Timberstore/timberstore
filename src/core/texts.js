@@ -4,6 +4,7 @@ export const TEXTS = {
     group: 'Dostupné množstvo podľa skladov',
     hricov: 'SKLADOM',
     csnk: 'CENTRÁLNY SKLAD',
+    pairUnit: { one: 'pár', few: 'páry', many: 'párov', fraction: 'páru' },
   },
   services: {
     page: 'Zobraziť ponuku – strana',

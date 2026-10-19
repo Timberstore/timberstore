@@ -1,6 +1,11 @@
 import http from 'node:http';
 import { pathToFileURL } from 'node:url';
 import { createApiStockProvider, createShoptetRequest } from './provider.js';
+import {
+  createExportStockProvider,
+  createExportReader,
+  DEFAULT_EXPORT_COLUMNS,
+} from './export-provider.js';
 
 export function validItems(value) {
   return (
@@ -64,7 +69,10 @@ export function createStockServer({
     if (req.headers.origin && req.headers.origin !== origin)
       return send(403, { error: 'origin-not-allowed' });
     if (req.url === '/health' && req.method === 'GET')
-      return send(200, { status: provider ? 'configured' : 'not-configured' });
+      return send(200, {
+        status: provider ? 'configured' : 'not-configured',
+        source: provider?.status?.(),
+      });
     if (req.url !== '/v1/warehouse-stock/batch') return send(404, { error: 'not-found' });
     if (req.method === 'OPTIONS') {
       res.writeHead(204, {
@@ -95,28 +103,46 @@ export function createStockServer({
       return send(error.message === 'body-too-large' ? 413 : 400, { error: 'invalid-request' });
     }
   });
+  server.on('close', () => provider?.stop?.());
   server.requestTimeout = 8000;
   server.headersTimeout = 5000;
   server.maxConnections = 100;
   return server;
 }
+export function providerFromEnv(env = process.env) {
+  const source = env.STOCK_SOURCE || 'api';
+  if (source === 'export') {
+    if (!env.SHOPTET_EXPORT_URL) return null;
+    return createExportStockProvider({
+      verified: env.SHOPTET_EXPORT_VERIFIED === '1',
+      mode: env.SHOPTET_EXPORT_AMOUNT_MODE,
+      delimiter: env.SHOPTET_EXPORT_DELIMITER || ';',
+      refreshMs: Number(env.SHOPTET_EXPORT_REFRESH_SECONDS || 300) * 1000,
+      columns: {
+        hricov: env.SHOPTET_EXPORT_HRICOV_COLUMN || DEFAULT_EXPORT_COLUMNS.hricov,
+        csnk: env.SHOPTET_EXPORT_CSNK_COLUMN || DEFAULT_EXPORT_COLUMNS.csnk,
+      },
+      readExport: createExportReader({
+        url: env.SHOPTET_EXPORT_URL,
+        encoding: env.SHOPTET_EXPORT_ENCODING || 'utf-8',
+      }),
+    });
+  }
+  if (source !== 'api') throw new Error('Unknown stock source');
+  if (!env.SHOPTET_ACCESS_TOKEN && !env.SHOPTET_PRIVATE_API_TOKEN) return null;
+  return createApiStockProvider({
+    verified: env.SHOPTET_STOCK_VERIFIED === '1',
+    mode: env.SHOPTET_STOCK_AMOUNT_MODE,
+    explicit: { hricov: env.SHOPTET_HRICOV_STOCK_ID, csnk: env.SHOPTET_CSNK_STOCK_ID },
+    request: createShoptetRequest({
+      accessToken: env.SHOPTET_ACCESS_TOKEN,
+      privateToken: env.SHOPTET_PRIVATE_API_TOKEN,
+    }),
+  });
+}
 function start() {
-  const hasToken = process.env.SHOPTET_ACCESS_TOKEN || process.env.SHOPTET_PRIVATE_API_TOKEN;
-  const verified = process.env.SHOPTET_STOCK_VERIFIED === '1';
-  const provider = hasToken
-    ? createApiStockProvider({
-        verified,
-        mode: process.env.SHOPTET_STOCK_AMOUNT_MODE,
-        explicit: {
-          hricov: process.env.SHOPTET_HRICOV_STOCK_ID,
-          csnk: process.env.SHOPTET_CSNK_STOCK_ID,
-        },
-        request: createShoptetRequest({
-          accessToken: process.env.SHOPTET_ACCESS_TOKEN,
-          privateToken: process.env.SHOPTET_PRIVATE_API_TOKEN,
-        }),
-      })
-    : null;
+  const provider = providerFromEnv();
+  provider?.start?.();
   createStockServer({
     provider,
     origin: process.env.STOCK_ALLOWED_ORIGIN || 'https://www.timberstore.sk',

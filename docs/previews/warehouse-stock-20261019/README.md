@@ -1,5 +1,7 @@
 # TimberStore — skladové množstvá, samostatný preview
 
+> **Aktualizácia 19. 10.: skutočné názvy sú Dolný Hričov, Centrálny sklad a TIMBER SKLAD. [Aktuálne zistenia, opravené mapovanie, porovnanie zdrojov a podmienené pripojenie](CURRENT-SOURCE-DECISION.md).** Nasledujúci pôvodný report opisuje historický stav prvého preview, nie overené názvy skladov.
+
 Stav: implementácia pripravená na pripojenie; **skutočné množstvá po skladoch zatiaľ nemožno overiť**. Základ v0.6.13, commit `0c726ffe6986192721a3b62b3743b31c78a01b50`. Vetva `preview/stock-by-warehouse-20261019`. Žiadny merge, release, zmena produkčného loadera ani administrácie. Číslo balíka zostáva 0.6.13; build sa identifikuje ako `v0.6.13-preview.warehouse-stock`. Odmietnutý redizajn detailu sa neprenáša.
 
 ## 1. Preskúmané existujúce súbory
