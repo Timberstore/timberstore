@@ -92,13 +92,3 @@
   outline: 2px solid var(--ts-color-controls-active);
   outline-offset: -2px;
 }
-
-/* M2/C3 · Detail paint only; mini/main cart retain their reference appearance. */
-#content [data-ts-compact] .quantity .decrease {
-  color: var(--ts-qty-minus);
-  background: var(--ts-qty-minus-bg);
-}
-#content [data-ts-compact] .quantity .increase {
-  color: var(--ts-qty-plus);
-  background: var(--ts-qty-plus-bg);
-}

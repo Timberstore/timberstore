@@ -76,16 +76,16 @@
   --ts-color-controls-active: #c97a2b;
   /* Shared quantity paint; geometry stays local to each native component. */
   --ts-qty-border: var(--ts-color-controls-active);
-  --ts-qty-minus: var(--ts-color-error);
-  --ts-qty-minus-bg: var(--ts-color-error-bg);
-  --ts-qty-plus: var(--ts-color-controls-active);
+  --ts-qty-minus: var(--ts-color-controls-text);
+  --ts-qty-minus-bg: var(--ts-color-service-bg);
+  --ts-qty-plus: var(--ts-color-controls-text);
   --ts-qty-plus-bg: var(--ts-color-service-bg);
   --ts-qty-divider: var(--ts-color-controls-border);
   --ts-qty-radius: 7px;
-  --ts-home-cart-gap: 12px;
-  --ts-home-cart-padding: 20px;
-  --ts-home-cart-width: 148px;
-  --ts-home-qty-width: 100px;
+  --ts-home-cart-gap: 20px;
+  --ts-home-row-width: 268px;
+  --ts-home-cols: minmax(0, 1fr) minmax(0, 1.48fr);
+  --ts-color-sku-bg: rgb(255 255 255 / 94%);
   --ts-color-count-bg: #faf8f5;
   --ts-color-count-text: #6f7182;
   --ts-radius-count: 5px;

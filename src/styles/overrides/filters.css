@@ -40,3 +40,20 @@
   > h4 {
   text-decoration: underline;
 }
+
+/* K3 · Mobile price heading lacks Apollo's icon font/absolute positioning.
+   The existing shared glyph and 160ms state rotation remain unchanged. */
+@media (max-width: 991px) {
+  #filters .slider-wrapper > h4::after {
+    position: absolute;
+    font-family: apollo;
+    font-size: 8px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 767px) {
+  #filters .slider-wrapper > h4::after {
+    line-height: 1.4;
+  }
+}

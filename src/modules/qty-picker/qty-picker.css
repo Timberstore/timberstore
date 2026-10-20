@@ -18,14 +18,15 @@
   border: 0;
   background: var(--ts-color-service-bg);
   color: var(--ts-color-controls-text);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1;
   cursor: pointer;
 }
 
 .ts-qty__btn:hover {
-  color: var(--ts-color-accent);
+  color: var(--ts-color-controls-text);
+  background: var(--ts-color-controls-divider);
 }
 
 .ts-qty__btn:focus-visible {

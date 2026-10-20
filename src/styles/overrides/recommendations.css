@@ -35,14 +35,6 @@
 :is(#content, #colorbox) .ts-recommendation .quantity :is(input, button) {
   height: 36px;
 }
-:is(#content, #colorbox) .ts-recommendation .quantity .decrease {
-  color: var(--ts-qty-minus);
-  background: var(--ts-qty-minus-bg);
-}
-:is(#content, #colorbox) .ts-recommendation .quantity .increase {
-  color: var(--ts-qty-plus);
-  background: var(--ts-qty-plus-bg);
-}
 .ts-recommendation .product-btn .btn-cart {
   flex: 1 0 38px !important;
   min-width: 0 !important;
@@ -79,16 +71,4 @@
 }
 .ts-recommendation :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
   white-space: nowrap;
-}
-/* Match the existing tile picker while leaving detail/cart controls unchanged. */
-:is(#content, #colorbox) .ts-recommendation .quantity {
-  border-radius: var(--ts-qty-radius);
-}
-:is(#content, #colorbox) .ts-recommendation .quantity input {
-  border-color: var(--ts-qty-divider);
-  border-radius: 0;
-  color: var(--ts-color-controls-text);
-}
-:is(#content, #colorbox) .ts-recommendation .quantity :is(.increase__sign, .decrease__sign) {
-  font-size: 16px;
 }
