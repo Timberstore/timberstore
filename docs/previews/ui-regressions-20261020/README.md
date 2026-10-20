@@ -2,7 +2,7 @@
 
 Iba vetva `preview/ui-consistency-20261020`. Referencia **v0.7.0** (`db193dbbab7fc778676930ebecbc4a9764be4b16`), porovnanie s preview **47f7f16dcf6cc3ebb2204e569cb79088f548d288**; začiatok práce na dokumentačnom commite `4bb0fe0`. Bez merge, nového tagu/release, zmeny administrácie, produkčného loadera alebo objednávky/platby.
 
-**[Nemenný preview odkaz, presný SHA a CDN overenie](PUBLISHED.md)** · [audit príčin](AUDIT.md) · [všetky zmenené súbory](FILES.md) · [postup opakovania testov](verification/README.md).
+**[Otvoriť immutable preview](https://www.timberstore.sk/?ts_preview=ff681ac9c1f789e4a848cd5ac13bf7d6d49478f8)** · commit **`ff681ac9c1f789e4a848cd5ac13bf7d6d49478f8`** · [CDN zhoda a smoke](PUBLISHED.md) · [audit príčin](AUDIT.md) · [všetky zmenené súbory](FILES.md) · [postup opakovania testov](verification/README.md).
 
 Dva referenčné screenshoty spomenuté v zadaní neboli súčasťou tejto prílohy. Vzhľad preto porovnávame priamo s CSS/JS z nemenného tagu v0.7.0 na rovnakom živom Apollo HTML. Obrázky nižšie jasne rozlišujú referenciu, staré preview, opravený layout a živé nákupy.
 
@@ -44,6 +44,7 @@ Chromium, živé verejné Shoptet stránky a natívne endpointy. Mobil je emulá
 | Rovnaký natívny cart glyph, stav hodín | **PASS** | [icons/hours](evidence/icons-hours.json), home/category/search/detail/related/similar; popup navyše v popup teste. Testované dátumy 10:00 otvorené a 16:01 zatvorené v Bratislave používajú existujúci clock |
 | Galéria a vlastný layout súvisiacich/podobných produktov | **PASS** | [gallery](evidence/gallery.json), 1440/768/430/390/320: otvorenie/fotka/ďalšia/zavretie, quantity a neorezané celé názvy |
 | Zachovanie detailu, galérie, variantových rozmerov, ceny, CTA, stock/doručenia | **PASS – geometria variantov s fixture** | [16 párov pred/po](evidence/detail.json): Jota 494606 + dlhý BLUM 499061, všetkých 8 šírok. Fixture iba nahrádza nedostupnú externú odpoveď; ceny/galéria/formy sú živé |
+| Rozbalenie variantov a navigácia | **PASS – fixture externého feedu** | [interakcie](evidence/variant-interactions.json): 390/320, AGOFORM 8→10 kariet, tlačidlo po rozbalení zmizne; prechod na skutočný verejný produkt. Živá synchronizácia feedu zostáva neoverená |
 | Mobilné menu, sociálne farby/poradie | **PASS** | [menu](evidence/menu.json), 430/390/375/320 |
 | lint / build / diff --check | **PASS** | [build, hash a limity](evidence/build.json); JS **33 107 B gzip (32,33 KiB)**, CSS **28 869 B gzip (28,19 KiB)**; pôvodné limity **32,5 / 28,25 KiB nezvýšené** |
 | Safari/WebKit, fyzický iPhone | **NOT VERIFIED** | Nové testy v týchto prostrediach neprebehli; žiadne pokusy o sťahovanie WebKit |

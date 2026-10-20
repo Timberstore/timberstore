@@ -8,3 +8,7 @@
 
 OK   dist/timber.min.js  32.33 kB gzip / limit 32.5 kB
 OK   dist/timber.min.css  28.19 kB gzip / limit 28.25 kB
+
+git diff 4bb0fe0 HEAD --check: PASS (exit 0).
+CDN byte comparison JS/CSS: PASS.
+Actual CDN Chromium smoke: PASS 1440/390/320.

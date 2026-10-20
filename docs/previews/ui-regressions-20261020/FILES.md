@@ -2,42 +2,45 @@
 
 Implementácia, konfigurácia a build oproti `4bb0fe0`:
 
-- [CHANGELOG.md](../../../../CHANGELOG.md)
-- [CONTRIBUTING.md](../../../../CONTRIBUTING.md)
-- [dist/timber.min.css](../../../../dist/timber.min.css)
-- [dist/timber.min.css.map](../../../../dist/timber.min.css.map)
-- [dist/timber.min.js](../../../../dist/timber.min.js)
-- [dist/timber.min.js.map](../../../../dist/timber.min.js.map)
-- [package-lock.json](../../../../package-lock.json)
-- [package.json](../../../../package.json)
-- [scripts/build.mjs](../../../../scripts/build.mjs)
-- [src/core/texts.js](../../../../src/core/texts.js)
-- [src/legacy/timber-custom-v175.css](../../../../src/legacy/timber-custom-v175.css)
-- [src/modules/cart-presentation/bottom.js](../../../../src/modules/cart-presentation/bottom.js)
-- [src/modules/cart-presentation/popup-shipping.js](../../../../src/modules/cart-presentation/popup-shipping.js)
-- [src/modules/footer-contacts/index.js](../../../../src/modules/footer-contacts/index.js)
-- [src/modules/list-view/list-view.css](../../../../src/modules/list-view/list-view.css)
-- [src/modules/product-compact/index.js](../../../../src/modules/product-compact/index.js)
-- [src/styles/overrides/cart-modal.css](../../../../src/styles/overrides/cart-modal.css)
-- [src/styles/overrides/cart-presentation.css](../../../../src/styles/overrides/cart-presentation.css)
-- [src/styles/overrides/header-popups.css](../../../../src/styles/overrides/header-popups.css)
-- [src/styles/overrides/mobile-category-controls.css](../../../../src/styles/overrides/mobile-category-controls.css)
-- [src/styles/overrides/product-card.css](../../../../src/styles/overrides/product-card.css)
-- [src/styles/overrides/product-compact.css](../../../../src/styles/overrides/product-compact.css)
-- [src/styles/overrides/product-metadata.css](../../../../src/styles/overrides/product-metadata.css)
-- [src/styles/overrides/recommendations.css](../../../../src/styles/overrides/recommendations.css)
-- [src/styles/overrides/ui-consistency.css](../../../../src/styles/overrides/ui-consistency.css)
-- [src/styles/tokens.css](../../../../src/styles/tokens.css)
+- [CHANGELOG.md](../../../CHANGELOG.md)
+- [CONTRIBUTING.md](../../../CONTRIBUTING.md)
+- [dist/timber.min.css](../../../dist/timber.min.css)
+- [dist/timber.min.css.map](../../../dist/timber.min.css.map)
+- [dist/timber.min.js](../../../dist/timber.min.js)
+- [dist/timber.min.js.map](../../../dist/timber.min.js.map)
+- [package-lock.json](../../../package-lock.json)
+- [package.json](../../../package.json)
+- [scripts/build.mjs](../../../scripts/build.mjs)
+- [src/core/texts.js](../../../src/core/texts.js)
+- [src/legacy/timber-custom-v175.css](../../../src/legacy/timber-custom-v175.css)
+- [src/modules/cart-presentation/bottom.js](../../../src/modules/cart-presentation/bottom.js)
+- [src/modules/cart-presentation/popup-shipping.js](../../../src/modules/cart-presentation/popup-shipping.js)
+- [src/modules/footer-contacts/index.js](../../../src/modules/footer-contacts/index.js)
+- [src/modules/list-view/list-view.css](../../../src/modules/list-view/list-view.css)
+- [src/modules/product-compact/index.js](../../../src/modules/product-compact/index.js)
+- [src/styles/overrides/cart-modal.css](../../../src/styles/overrides/cart-modal.css)
+- [src/styles/overrides/cart-presentation.css](../../../src/styles/overrides/cart-presentation.css)
+- [src/styles/overrides/header-popups.css](../../../src/styles/overrides/header-popups.css)
+- [src/styles/overrides/mobile-category-controls.css](../../../src/styles/overrides/mobile-category-controls.css)
+- [src/styles/overrides/product-card.css](../../../src/styles/overrides/product-card.css)
+- [src/styles/overrides/product-compact.css](../../../src/styles/overrides/product-compact.css)
+- [src/styles/overrides/product-metadata.css](../../../src/styles/overrides/product-metadata.css)
+- [src/styles/overrides/recommendations.css](../../../src/styles/overrides/recommendations.css)
+- [src/styles/overrides/ui-consistency.css](../../../src/styles/overrides/ui-consistency.css)
+- [src/styles/tokens.css](../../../src/styles/tokens.css)
 
 Nový audit a dôkazy: všetko v `docs/previews/ui-regressions-20261020/`. Úplný manifest artefaktov:
 
 - `AUDIT.md`
+- `FILES.md`
 - `PUBLISHED.md`
 - `README.md`
 - `evidence/ajax.json`
+- `evidence/assets.json`
 - `evidence/blum-related.json`
 - `evidence/build.json`
 - `evidence/cart-prices.json`
+- `evidence/cdn-smoke.json`
 - `evidence/cold-after-1440.json`
 - `evidence/cold-after-320.json`
 - `evidence/cold-after-375.json`
@@ -91,9 +94,12 @@ Nový audit a dôkazy: všetko v `docs/previews/ui-regressions-20261020/`. Úpln
 - `evidence/popup-native-submit.json`
 - `evidence/popup-scroll.json`
 - `evidence/popup.json`
+- `evidence/production-observed.json`
+- `evidence/project-checks.txt`
 - `evidence/regression-source.diff`
 - `evidence/related-failure.json`
 - `evidence/related-stability.json`
+- `evidence/scope.json`
 - `evidence/shipping.json`
 - `evidence/summary-after-1440.json`
 - `evidence/summary-before-1440.json`
@@ -104,6 +110,7 @@ Nový audit a dôkazy: všetko v `docs/previews/ui-regressions-20261020/`. Úpln
 - `evidence/summary-native.json`
 - `evidence/summary-reference-1440.json`
 - `evidence/summary-reference-390.json`
+- `evidence/variant-interactions.json`
 - `evidence/visual-more.json`
 - `images/blum-related-390.png`
 - `images/card-after-320.png`
@@ -148,6 +155,7 @@ Nový audit a dôkazy: všetko v `docs/previews/ui-regressions-20261020/`. Úpln
 - `verification/blum-related.cjs`
 - `verification/browser.cjs`
 - `verification/cart-prices.cjs`
+- `verification/cdn-smoke.cjs`
 - `verification/cold-final.cjs`
 - `verification/detail-before-after.cjs`
 - `verification/extra-evidence.cjs`
@@ -169,4 +177,5 @@ Nový audit a dôkazy: všetko v `docs/previews/ui-regressions-20261020/`. Úpln
 - `verification/related-failure.cjs`
 - `verification/related-stability.cjs`
 - `verification/shipping-summary.cjs`
+- `verification/variant-interactions.cjs`
 - `verification/visual-more.cjs`
