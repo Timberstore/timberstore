@@ -93,3 +93,11 @@ Chromium s dotykovou/mobilnou emuláciou, nie fyzický iPhone/Safari. Externé v
 - `src/styles/overrides/product-metadata.css` — čitateľný obrazový kód; výnimka pre tabuľku/detail/popup.
 - `dist/timber.min.css`, `dist/timber.min.css.map` — build.
 - `docs/previews/final-ui-quantity-homepage-filters-sku/` — report, merania a screenshoty.
+
+## Immutable preview
+
+- [Homepage](https://www.timberstore.sk/?ts_preview=e308459a47e3aba567d21c9fb2ed866a2ea43ab8)
+- [Kategória a filter CENA](https://www.timberstore.sk/prislusenstvo-legrabox/?ts_preview=e308459a47e3aba567d21c9fb2ed866a2ea43ab8)
+
+Implementácia: `e308459a47e3aba567d21c9fb2ed866a2ea43ab8`.
+JS/CSS z jsDelivr boli bajtovo porovnané s overeným lokálnym buildom, bez rozdielov. [Publikovaný CDN smoke test](cdn-smoke.json) prešiel pri **1440/390/320 px**: správne SHA loadera, stredové osi sklad/množstvo a cena/CTA, neutrálne symboly, SKU podklad a nulový horizontálny presah podľa `scrollWidth <= innerWidth`. Pri 390 px sa reálne pridali **2 kusy SKU 505938**, mini košík potvrdil **689,46 €** a badge **2**. Na živej kategórii mala cenová šípka identický font/rozmery/pozíciu/znak ako filter Značky. Konzola bez nových JS chýb.
