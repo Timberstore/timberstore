@@ -8,8 +8,8 @@
   width: max-content;
   height: 36px;
   padding: 0;
-  border: 1px solid var(--ts-color-controls-active);
-  border-radius: 7px;
+  border: 1px solid var(--ts-qty-border);
+  border-radius: var(--ts-qty-radius);
   background: var(--ts-color-bg);
   font-size: 14px;
   overflow: hidden;
@@ -35,7 +35,7 @@
   font-weight: 600;
   background: var(--ts-color-bg);
   appearance: textfield;
-  border-inline: 1px solid var(--ts-color-controls-border);
+  border-inline: 1px solid var(--ts-qty-divider);
   border-radius: 4px;
 }
 .ts-cart-quantity input::-webkit-inner-spin-button,
@@ -91,4 +91,14 @@
 :is(#content [data-ts-compact], .ts-recommendation) .quantity :is(button, input):focus-visible {
   outline: 2px solid var(--ts-color-controls-active);
   outline-offset: -2px;
+}
+
+/* M2/C3 · Detail paint only; mini/main cart retain their reference appearance. */
+#content [data-ts-compact] .quantity .decrease {
+  color: var(--ts-qty-minus);
+  background: var(--ts-qty-minus-bg);
+}
+#content [data-ts-compact] .quantity .increase {
+  color: var(--ts-qty-plus);
+  background: var(--ts-qty-plus-bg);
 }

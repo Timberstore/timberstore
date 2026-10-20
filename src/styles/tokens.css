@@ -74,6 +74,18 @@
   --ts-color-controls-divider: #e5e0da;
   --ts-color-controls-active-bg: #fff8f1;
   --ts-color-controls-active: #c97a2b;
+  /* Shared quantity paint; geometry stays local to each native component. */
+  --ts-qty-border: var(--ts-color-controls-active);
+  --ts-qty-minus: var(--ts-color-error);
+  --ts-qty-minus-bg: var(--ts-color-error-bg);
+  --ts-qty-plus: var(--ts-color-controls-active);
+  --ts-qty-plus-bg: var(--ts-color-service-bg);
+  --ts-qty-divider: var(--ts-color-controls-border);
+  --ts-qty-radius: 7px;
+  --ts-home-cart-gap: 12px;
+  --ts-home-cart-padding: 20px;
+  --ts-home-cart-width: 148px;
+  --ts-home-qty-width: 100px;
   --ts-color-count-bg: #faf8f5;
   --ts-color-count-text: #6f7182;
   --ts-radius-count: 5px;

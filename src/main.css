@@ -29,6 +29,7 @@
 @import './styles/overrides/filters.css';
 @import './styles/overrides/mobile-category-controls.css';
 @import './styles/overrides/product-card.css';
+@import './styles/overrides/homepage-purchase.css';
 @import './styles/overrides/product-detail.css';
 @import './styles/overrides/product-metadata.css';
 @import './styles/overrides/product-compact.css';

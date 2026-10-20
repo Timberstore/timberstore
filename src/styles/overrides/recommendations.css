@@ -30,17 +30,18 @@
   min-width: 0;
   height: 38px;
   grid-template-columns: 1fr minmax(0, 1.4fr) 1fr;
-  border-color: var(--ts-color-error-bg);
+  border-color: var(--ts-qty-border);
 }
 :is(#content, #colorbox) .ts-recommendation .quantity :is(input, button) {
   height: 36px;
 }
 :is(#content, #colorbox) .ts-recommendation .quantity .decrease {
-  color: var(--ts-color-error);
-  background: var(--ts-color-error-bg);
+  color: var(--ts-qty-minus);
+  background: var(--ts-qty-minus-bg);
 }
 :is(#content, #colorbox) .ts-recommendation .quantity .increase {
-  color: var(--ts-color-controls-active);
+  color: var(--ts-qty-plus);
+  background: var(--ts-qty-plus-bg);
 }
 .ts-recommendation .product-btn .btn-cart {
   flex: 1 0 38px !important;
@@ -81,10 +82,10 @@
 }
 /* Match the existing tile picker while leaving detail/cart controls unchanged. */
 :is(#content, #colorbox) .ts-recommendation .quantity {
-  border-radius: 6px;
+  border-radius: var(--ts-qty-radius);
 }
 :is(#content, #colorbox) .ts-recommendation .quantity input {
-  border-color: var(--ts-color-error-bg);
+  border-color: var(--ts-qty-divider);
   border-radius: 0;
   color: var(--ts-color-controls-text);
 }

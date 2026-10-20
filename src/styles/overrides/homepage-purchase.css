@@ -1,0 +1,43 @@
+/* M2/C3 · Homepage sliders only. Native forms, Swiper and other page layouts
+   stay intact. Important declarations override Apollo/legacy purchase rules. */
+.type-index .products:not(.products-related) .product-btn:has(> form > .ts-qty) {
+  container-type: inline-size;
+}
+.type-index .products:not(.products-related) form.pr-action:has(> .ts-qty) {
+  padding-inline: var(--ts-home-cart-padding) !important;
+  gap: var(--ts-home-cart-gap) !important;
+}
+.type-index .products:not(.products-related) form.pr-action > .ts-qty {
+  flex: 0 1 var(--ts-home-qty-width);
+  width: var(--ts-home-qty-width);
+}
+.type-index .products:not(.products-related) form.pr-action:has(> .ts-qty) > .btn-cart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex: 0 1 var(--ts-home-cart-width);
+  min-width: 38px !important;
+  max-width: var(--ts-home-cart-width) !important;
+  width: var(--ts-home-cart-width) !important;
+  height: 38px !important;
+  min-height: 38px !important;
+  padding: 0 8px !important;
+  font-size: 14px !important;
+}
+.type-index .products:not(.products-related) form.pr-action > .btn-cart > span:not(.ts-cart-count) {
+  display: none !important;
+}
+.type-index .products:not(.products-related) .btn-cart::after {
+  margin: 0 !important;
+}
+/* Decide from the card's real width, including narrow desktop/tablet slides. */
+@container (min-width: 280px) {
+  .type-index
+    .products:not(.products-related)
+    form.pr-action
+    > .btn-cart
+    > span:not(.ts-cart-count) {
+    display: inline !important;
+  }
+}

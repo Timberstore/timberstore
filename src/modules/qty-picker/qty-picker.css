@@ -6,8 +6,8 @@
   width: 118px;
   min-width: 0; /* Allow two narrow mobile cards without forcing the input's intrinsic width. */
   height: 38px;
-  border: 1px solid var(--ts-color-error-bg);
-  border-radius: 6px;
+  border: 1px solid var(--ts-qty-border);
+  border-radius: var(--ts-qty-radius);
   background: var(--ts-color-bg);
   overflow: hidden;
 }
@@ -41,7 +41,7 @@
   margin: 0 !important;
   padding: 0 var(--ts-space-1) !important;
   border: 0 !important;
-  border-inline: 1px solid var(--ts-color-error-bg) !important;
+  border-inline: 1px solid var(--ts-qty-divider) !important;
   border-radius: 0 !important;
   background: var(--ts-color-bg) !important;
   box-shadow: none !important;
@@ -57,11 +57,12 @@
 }
 
 .ts-qty__btn--minus {
-  color: var(--ts-color-error);
-  background: var(--ts-color-error-bg);
+  color: var(--ts-qty-minus);
+  background: var(--ts-qty-minus-bg);
 }
 .ts-qty__btn--plus {
-  color: var(--ts-color-controls-active);
+  color: var(--ts-qty-plus);
+  background: var(--ts-qty-plus-bg);
 }
 @media (max-width: 991px) {
   .ts-qty {

@@ -215,21 +215,10 @@ form.pr-action:has(> .ts-qty) > .btn {
   }
 }
 
-/* Preserve the existing table presentation, including its quiet quantity field. */
+/* M2/C3 · Table geometry stays fixed; only quantity paint is shared. */
 @media (min-width: 992px) {
-  .ts-view-list #products:not(.products-related) .ts-qty {
-    border-color: var(--ts-color-qty-border);
-  }
-  .ts-view-list #products:not(.products-related) .ts-qty__btn {
-    background: var(--ts-color-qty-btn-bg);
-    color: var(--ts-color-qty-text);
-  }
-  .ts-view-list #products:not(.products-related) .ts-qty__btn:hover {
-    color: var(--ts-color-accent);
-  }
   .ts-view-list #products:not(.products-related) .ts-qty__value {
     font-weight: 800 !important;
-    color: var(--ts-color-qty-text) !important;
-    border-color: var(--ts-color-qty-border) !important;
+    color: var(--ts-color-controls-text) !important;
   }
 }
