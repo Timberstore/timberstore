@@ -1,0 +1,1190 @@
+[
+  {
+    "width": 1440,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 72,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 72,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 72,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 72,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 72,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 277.5,
+        "y": 594.5625,
+        "width": 870,
+        "height": 118.046875,
+        "top": 594.5625,
+        "right": 1147.5,
+        "bottom": 712.609375,
+        "left": 277.5
+      },
+      "qty": {
+        "x": 1007.5,
+        "y": 609.703125,
+        "width": 128,
+        "height": 38,
+        "top": 609.703125,
+        "right": 1135.5,
+        "bottom": 647.703125,
+        "left": 1007.5
+      },
+      "button": {
+        "x": 1007.5,
+        "y": 662.609375,
+        "width": 128,
+        "height": 38,
+        "top": 662.609375,
+        "right": 1135.5,
+        "bottom": 700.609375,
+        "left": 1007.5
+      },
+      "image": {
+        "x": 289.5,
+        "y": 613.578125,
+        "width": 80,
+        "height": 80,
+        "top": 613.578125,
+        "right": 369.5,
+        "bottom": 693.578125,
+        "left": 289.5
+      },
+      "name": {
+        "x": 385.5,
+        "y": 606.5625,
+        "width": 410,
+        "height": 44.28125,
+        "top": 606.5625,
+        "right": 795.5,
+        "bottom": 650.84375,
+        "left": 385.5
+      },
+      "code": {
+        "x": 385.5,
+        "y": 654.84375,
+        "width": 410,
+        "height": 19,
+        "top": 654.84375,
+        "right": 795.5,
+        "bottom": 673.84375,
+        "left": 385.5
+      }
+    },
+    "layout": {
+      "view": [
+        1440,
+        1425
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 232.5,
+          "right": 1528.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 232.5,
+          "right": 1528.5
+        }
+      ]
+    },
+    "popup": {
+      "x": 232.5,
+      "y": 211,
+      "width": 960,
+      "height": 547
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "font": "apollo"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 72,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 72,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 72,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 72,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 72,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 197.5,
+        "y": 594.5625,
+        "width": 870,
+        "height": 118.046875,
+        "top": 594.5625,
+        "right": 1067.5,
+        "bottom": 712.609375,
+        "left": 197.5
+      },
+      "qty": {
+        "x": 927.5,
+        "y": 609.703125,
+        "width": 128,
+        "height": 38,
+        "top": 609.703125,
+        "right": 1055.5,
+        "bottom": 647.703125,
+        "left": 927.5
+      },
+      "button": {
+        "x": 927.5,
+        "y": 662.609375,
+        "width": 128,
+        "height": 38,
+        "top": 662.609375,
+        "right": 1055.5,
+        "bottom": 700.609375,
+        "left": 927.5
+      },
+      "image": {
+        "x": 209.5,
+        "y": 613.578125,
+        "width": 80,
+        "height": 80,
+        "top": 613.578125,
+        "right": 289.5,
+        "bottom": 693.578125,
+        "left": 209.5
+      },
+      "name": {
+        "x": 305.5,
+        "y": 606.5625,
+        "width": 410,
+        "height": 44.28125,
+        "top": 606.5625,
+        "right": 715.5,
+        "bottom": 650.84375,
+        "left": 305.5
+      },
+      "code": {
+        "x": 305.5,
+        "y": 654.84375,
+        "width": 410,
+        "height": 19,
+        "top": 654.84375,
+        "right": 715.5,
+        "bottom": 673.84375,
+        "left": 305.5
+      }
+    },
+    "layout": {
+      "view": [
+        1280,
+        1265
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 152.5,
+          "right": 1304.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 152.5,
+          "right": 1304.5
+        }
+      ]
+    },
+    "popup": {
+      "x": 152.5,
+      "y": 211,
+      "width": 960,
+      "height": 547
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "font": "apollo"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 72,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 72,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 72,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 72,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 72,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 69.5,
+        "y": 594.5625,
+        "width": 870,
+        "height": 118.046875,
+        "top": 594.5625,
+        "right": 939.5,
+        "bottom": 712.609375,
+        "left": 69.5
+      },
+      "qty": {
+        "x": 799.5,
+        "y": 609.703125,
+        "width": 128,
+        "height": 38,
+        "top": 609.703125,
+        "right": 927.5,
+        "bottom": 647.703125,
+        "left": 799.5
+      },
+      "button": {
+        "x": 799.5,
+        "y": 662.609375,
+        "width": 128,
+        "height": 38,
+        "top": 662.609375,
+        "right": 927.5,
+        "bottom": 700.609375,
+        "left": 799.5
+      },
+      "image": {
+        "x": 81.5,
+        "y": 613.578125,
+        "width": 80,
+        "height": 80,
+        "top": 613.578125,
+        "right": 161.5,
+        "bottom": 693.578125,
+        "left": 81.5
+      },
+      "name": {
+        "x": 177.5,
+        "y": 606.5625,
+        "width": 410,
+        "height": 44.28125,
+        "top": 606.5625,
+        "right": 587.5,
+        "bottom": 650.84375,
+        "left": 177.5
+      },
+      "code": {
+        "x": 177.5,
+        "y": 654.84375,
+        "width": 410,
+        "height": 19,
+        "top": 654.84375,
+        "right": 587.5,
+        "bottom": 673.84375,
+        "left": 177.5
+      }
+    },
+    "layout": {
+      "view": [
+        1024,
+        1009
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "popup": {
+      "x": 24.5,
+      "y": 211,
+      "width": 960,
+      "height": 547
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "font": "apollo"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 768,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 567,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 567,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 567,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 567,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 567,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 53,
+        "y": 523.96875,
+        "width": 647,
+        "height": 253.765625,
+        "top": 523.96875,
+        "right": 700,
+        "bottom": 777.734375,
+        "left": 53
+      },
+      "qty": {
+        "x": 65,
+        "y": 681.734375,
+        "width": 623,
+        "height": 38,
+        "top": 681.734375,
+        "right": 688,
+        "bottom": 719.734375,
+        "left": 65
+      },
+      "button": {
+        "x": 65,
+        "y": 727.734375,
+        "width": 623,
+        "height": 38,
+        "top": 727.734375,
+        "right": 688,
+        "bottom": 765.734375,
+        "left": 65
+      },
+      "image": {
+        "x": 65,
+        "y": 535.96875,
+        "width": 80,
+        "height": 80,
+        "top": 535.96875,
+        "right": 145,
+        "bottom": 615.96875,
+        "left": 65
+      },
+      "name": {
+        "x": 380.5,
+        "y": 535.96875,
+        "width": 307.5,
+        "height": 48.640625,
+        "top": 535.96875,
+        "right": 688,
+        "bottom": 584.609375,
+        "left": 380.5
+      },
+      "code": {
+        "x": 380.5,
+        "y": 592.609375,
+        "width": 307.5,
+        "height": 23.359375,
+        "top": 592.609375,
+        "right": 688,
+        "bottom": 615.96875,
+        "left": 380.5
+      }
+    },
+    "layout": {
+      "view": [
+        768,
+        753
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "popup": {
+      "x": 8,
+      "y": 146,
+      "width": 737,
+      "height": 677
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "font": "apollo"
+    },
+    "code": {
+      "h": 23.359375,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 430,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 253,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 253,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 253,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 253,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 253,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 41,
+        "y": 535.78125,
+        "width": 333,
+        "height": 272.296875,
+        "top": 535.78125,
+        "right": 374,
+        "bottom": 808.078125,
+        "left": 41
+      },
+      "qty": {
+        "x": 53,
+        "y": 712.078125,
+        "width": 309,
+        "height": 38,
+        "top": 712.078125,
+        "right": 362,
+        "bottom": 750.078125,
+        "left": 53
+      },
+      "button": {
+        "x": 53,
+        "y": 758.078125,
+        "width": 309,
+        "height": 38,
+        "top": 758.078125,
+        "right": 362,
+        "bottom": 796.078125,
+        "left": 53
+      },
+      "image": {
+        "x": 53,
+        "y": 547.78125,
+        "width": 50,
+        "height": 50,
+        "top": 547.78125,
+        "right": 103,
+        "bottom": 597.78125,
+        "left": 53
+      },
+      "name": {
+        "x": 211.5,
+        "y": 547.78125,
+        "width": 150.5,
+        "height": 77.5,
+        "top": 547.78125,
+        "right": 362,
+        "bottom": 625.28125,
+        "left": 211.5
+      },
+      "code": {
+        "x": 211.5,
+        "y": 633.28125,
+        "width": 150.5,
+        "height": 19,
+        "top": 633.28125,
+        "right": 362,
+        "bottom": 652.28125,
+        "left": 211.5
+      }
+    },
+    "layout": {
+      "view": [
+        430,
+        415
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "popup": {
+      "x": 8,
+      "y": 116,
+      "width": 399,
+      "height": 737.078125
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "font": "apollo"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 390,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 213,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 213,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 213,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 213,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 213,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 41,
+        "y": 536.78125,
+        "width": 293,
+        "height": 291.671875,
+        "top": 536.78125,
+        "right": 334,
+        "bottom": 828.453125,
+        "left": 41
+      },
+      "qty": {
+        "x": 53,
+        "y": 732.453125,
+        "width": 269,
+        "height": 38,
+        "top": 732.453125,
+        "right": 322,
+        "bottom": 770.453125,
+        "left": 53
+      },
+      "button": {
+        "x": 53,
+        "y": 778.453125,
+        "width": 269,
+        "height": 38,
+        "top": 778.453125,
+        "right": 322,
+        "bottom": 816.453125,
+        "left": 53
+      },
+      "image": {
+        "x": 53,
+        "y": 548.78125,
+        "width": 50,
+        "height": 50,
+        "top": 548.78125,
+        "right": 103,
+        "bottom": 598.78125,
+        "left": 53
+      },
+      "name": {
+        "x": 191.5,
+        "y": 548.78125,
+        "width": 130.5,
+        "height": 96.875,
+        "top": 548.78125,
+        "right": 322,
+        "bottom": 645.65625,
+        "left": 191.5
+      },
+      "code": {
+        "x": 191.5,
+        "y": 653.65625,
+        "width": 130.5,
+        "height": 19,
+        "top": 653.65625,
+        "right": 322,
+        "bottom": 672.65625,
+        "left": 191.5
+      }
+    },
+    "layout": {
+      "view": [
+        390,
+        375
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "popup": {
+      "x": 8,
+      "y": 95,
+      "width": 359,
+      "height": 778.453125
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "font": "apollo"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 375,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 198,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 198,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 198,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 198,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 198,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 41,
+        "y": 536.78125,
+        "width": 278,
+        "height": 291.671875,
+        "top": 536.78125,
+        "right": 319,
+        "bottom": 828.453125,
+        "left": 41
+      },
+      "qty": {
+        "x": 53,
+        "y": 732.453125,
+        "width": 254,
+        "height": 38,
+        "top": 732.453125,
+        "right": 307,
+        "bottom": 770.453125,
+        "left": 53
+      },
+      "button": {
+        "x": 53,
+        "y": 778.453125,
+        "width": 254,
+        "height": 38,
+        "top": 778.453125,
+        "right": 307,
+        "bottom": 816.453125,
+        "left": 53
+      },
+      "image": {
+        "x": 53,
+        "y": 548.78125,
+        "width": 50,
+        "height": 50,
+        "top": 548.78125,
+        "right": 103,
+        "bottom": 598.78125,
+        "left": 53
+      },
+      "name": {
+        "x": 184,
+        "y": 548.78125,
+        "width": 123,
+        "height": 96.875,
+        "top": 548.78125,
+        "right": 307,
+        "bottom": 645.65625,
+        "left": 184
+      },
+      "code": {
+        "x": 184,
+        "y": 653.65625,
+        "width": 123,
+        "height": 19,
+        "top": 653.65625,
+        "right": 307,
+        "bottom": 672.65625,
+        "left": 184
+      }
+    },
+    "layout": {
+      "view": [
+        375,
+        360
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "popup": {
+      "x": 8,
+      "y": 95,
+      "width": 344,
+      "height": 778.453125
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "font": "apollo"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 320,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 143,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 143,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 143,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 143,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 143,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 41,
+        "y": 539.15625,
+        "width": 223,
+        "height": 327.65625,
+        "top": 539.15625,
+        "right": 264,
+        "bottom": 866.8125,
+        "left": 41
+      },
+      "qty": {
+        "x": 53,
+        "y": 770.8125,
+        "width": 199,
+        "height": 38,
+        "top": 770.8125,
+        "right": 252,
+        "bottom": 808.8125,
+        "left": 53
+      },
+      "button": {
+        "x": 53,
+        "y": 816.8125,
+        "width": 199,
+        "height": 38,
+        "top": 816.8125,
+        "right": 252,
+        "bottom": 854.8125,
+        "left": 53
+      },
+      "image": {
+        "x": 53,
+        "y": 551.15625,
+        "width": 50,
+        "height": 50,
+        "top": 551.15625,
+        "right": 103,
+        "bottom": 601.15625,
+        "left": 53
+      },
+      "name": {
+        "x": 156.5,
+        "y": 551.15625,
+        "width": 95.5,
+        "height": 116.25,
+        "top": 551.15625,
+        "right": 252,
+        "bottom": 667.40625,
+        "left": 156.5
+      },
+      "code": {
+        "x": 156.5,
+        "y": 675.40625,
+        "width": 95.5,
+        "height": 19,
+        "top": 675.40625,
+        "right": 252,
+        "bottom": 694.40625,
+        "left": 156.5
+      }
+    },
+    "layout": {
+      "view": [
+        320,
+        305
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "popup": {
+      "x": 8,
+      "y": 57,
+      "width": 289,
+      "height": 855
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "font": "apollo"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  }
+]

@@ -1,3 +1,4 @@
+import { normalizeNativeShipping } from './popup-shipping.js';
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { getCartInfo } from '../../core/cart.js';
@@ -6,6 +7,7 @@ const seen = new WeakSet();
 let previousPercent;
 
 export function syncBottom() {
+  normalizeNativeShipping(document);
   const footer = document.querySelector(SEL.cartFooter);
   // Keep Apollo's summary and buttons in their native hierarchy. CSS owns
   // the sidebar geometry; no late shell insertion or button relocation.

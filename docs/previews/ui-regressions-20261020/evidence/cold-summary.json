@@ -1,0 +1,188 @@
+[
+  {
+    "width": 1440,
+    "before-visible": {
+      ".p-code": {
+        "x": 14.375,
+        "y": 1.5938,
+        "w": 38.5312,
+        "h": 2.75
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 52.9062,
+        "y": 1.5,
+        "w": 35.2656,
+        "h": 2.9375
+      }
+    },
+    "after": {
+      ".p-code": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      }
+    }
+  },
+  {
+    "width": 768,
+    "before-visible": {
+      ".p-code": {
+        "x": 27.0156,
+        "y": 0.2188,
+        "w": 61.0156,
+        "h": 0.4375
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 40.8281,
+        "y": 0.0,
+        "w": 20.625,
+        "h": 0.4375
+      }
+    },
+    "after": {
+      ".p-code": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      }
+    }
+  },
+  {
+    "width": 430,
+    "before-visible": {
+      ".p-code": {
+        "x": 8.5781,
+        "y": 0.1094,
+        "w": 38.5312,
+        "h": 2.75
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 36.9062,
+        "y": 0.0,
+        "w": 35.2656,
+        "h": 2.9688
+      }
+    },
+    "after": {
+      ".p-code": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      }
+    }
+  },
+  {
+    "width": 390,
+    "before-visible": {
+      ".p-code": {
+        "x": 8.5781,
+        "y": 0.0,
+        "w": 38.5312,
+        "h": 2.75
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 36.7188,
+        "y": 0.0,
+        "w": 34.8906,
+        "h": 2.75
+      }
+    },
+    "after": {
+      ".p-code": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      }
+    }
+  },
+  {
+    "width": 375,
+    "before-visible": {
+      ".p-code": {
+        "x": 8.5781,
+        "y": 0.1094,
+        "w": 38.5312,
+        "h": 2.75
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 36.7812,
+        "y": 0.0,
+        "w": 35.0156,
+        "h": 2.9688
+      }
+    },
+    "after": {
+      ".p-code": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      }
+    }
+  },
+  {
+    "width": 320,
+    "before-visible": {
+      ".p-code": {
+        "x": 9.0781,
+        "y": 0.1094,
+        "w": 38.5312,
+        "h": 2.75
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 36.9062,
+        "y": 0.0,
+        "w": 35.2656,
+        "h": 2.9688
+      }
+    },
+    "after": {
+      ".p-code": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      },
+      "[data-testid=productCardBrandName]": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      }
+    }
+  }
+]

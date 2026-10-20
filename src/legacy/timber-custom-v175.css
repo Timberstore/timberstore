@@ -1315,14 +1315,14 @@ h1[itemprop="name"],
     height: 100% !important;
 }
 
-.products .name:not(#colorbox *),
-.products-block .name:not(#colorbox *),
-.products .name a:not(#colorbox *),
-.products-block .name a:not(#colorbox *),
-.products .p .name:not(#colorbox *),
-.products-block .p .name:not(#colorbox *),
-.products .p .name a:not(#colorbox *),
-.products-block .p .name a:not(#colorbox *) {
+.products .name:not(#colorbox *, .ts-recommendation *),
+.products-block .name:not(#colorbox *, .ts-recommendation *),
+.products .name a:not(#colorbox *, .ts-recommendation *),
+.products-block .name a:not(#colorbox *, .ts-recommendation *),
+.products .p .name:not(#colorbox *, .ts-recommendation *),
+.products-block .p .name:not(#colorbox *, .ts-recommendation *),
+.products .p .name a:not(#colorbox *, .ts-recommendation *),
+.products-block .p .name a:not(#colorbox *, .ts-recommendation *) {
     display: -webkit-box !important;
     -webkit-box-orient: vertical !important;
     -webkit-line-clamp: 3 !important;
@@ -1365,14 +1365,14 @@ h1[itemprop="name"],
 
 @media (max-width: 767px) {
 
-    .products-block .product .name:not(#colorbox *),
-    .products-block .product .name a:not(#colorbox *),
-    .products .product .name:not(#colorbox *),
-    .products .product .name a:not(#colorbox *),
-    .product .name:not(#colorbox *),
-    .product .name a:not(#colorbox *),
-    .p .name:not(#colorbox *),
-    .p .name a:not(#colorbox *) {
+    .products-block .product .name:not(#colorbox *, .ts-recommendation *),
+    .products-block .product .name a:not(#colorbox *, .ts-recommendation *),
+    .products .product .name:not(#colorbox *, .ts-recommendation *),
+    .products .product .name a:not(#colorbox *, .ts-recommendation *),
+    .product .name:not(#colorbox *, .ts-recommendation *),
+    .product .name a:not(#colorbox *, .ts-recommendation *),
+    .p .name:not(#colorbox *, .ts-recommendation *),
+    .p .name a:not(#colorbox *, .ts-recommendation *) {
         font-size: 14px !important;
         line-height: 1.25 !important;
 

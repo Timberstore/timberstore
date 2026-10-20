@@ -99,6 +99,8 @@ function enhanceSidebar(root) {
   const hours = contacts.querySelector('.ts-service-bar__hours');
   const email = contacts.querySelector(SEL.supportEmail);
   const phone = contacts.querySelector(SEL.supportPhone);
+  if (email) icon(email, 'email');
+  if (phone) icon(phone, 'phone');
   let previous;
   for (const node of [hours, email, phone]) {
     if (!node) continue;

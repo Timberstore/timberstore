@@ -1,11 +1,11 @@
 /* M2/C3 · Native cards, forms and events; no replacement purchase controls. */
 :is(#content, #colorbox) .ts-recommendation > .p {
-  display: grid;
+  display: grid !important;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  grid-template-areas: 'image image' 'name name' 'code code' 'stock price' 'stock net' 'qty qty' 'cart cart';
+  grid-template-areas: 'image name' 'image code' 'stock price' 'stock net' 'qty qty' 'cart cart';
   gap: 8px;
   align-content: start;
-  padding: 16px !important;
+  padding: 12px !important;
   height: auto;
   min-width: 0;
 }
@@ -16,43 +16,57 @@
 }
 .ts-recommendation .image {
   grid-area: image;
-  width: 100%;
+  width: 80px;
+  height: 80px;
+  max-height: 80px !important;
   min-width: 0;
+  padding: 0;
   margin: 0;
 }
 .ts-recommendation .image img {
   object-fit: contain;
   max-width: 100%;
+  max-height: 80px;
 }
-.ts-recommendation a.name {
+:is(#content, #colorbox) .ts-recommendation a.name {
   grid-area: name;
-  text-align: center !important;
+  text-align: left !important;
+  font-size: 14px;
+  line-height: 1.4;
   text-transform: none;
   word-break: normal !important;
   overflow-wrap: normal !important;
   hyphens: none;
   min-height: 0;
-  max-height: none;
-  height: auto;
+  max-height: none !important;
+  height: auto !important;
   margin: 0;
-  -webkit-line-clamp: unset;
+  display: block !important;
+  overflow: visible !important;
+  text-overflow: clip;
+  -webkit-line-clamp: unset !important;
 }
 .ts-recommendation .p-code {
   grid-area: code;
   position: static;
   display: block !important;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
-.ts-recommendation .availability {
+:is(#content, #colorbox) .ts-recommendation .availability {
   grid-area: stock;
   align-self: center;
-  text-align: center;
+  text-align: left !important;
+  min-width: 0;
   margin: 0;
+  display: grid;
+  justify-content: start;
+  justify-items: start;
+  gap: 2px;
 }
 .ts-recommendation .price-final {
   grid-area: price;
-  text-align: right;
+  text-align: right !important;
   align-self: end;
   margin: 0 !important;
 }
@@ -60,7 +74,7 @@
   grid-area: net;
   display: block !important;
   align-self: start;
-  text-align: right;
+  text-align: right !important;
   margin: 0 !important;
 }
 .ts-recommendation :is(.price-final, .price-additional) {
@@ -119,5 +133,28 @@
 #colorbox .advanced-order .ts-recommendation { width: 100%; height: auto; margin: 0; padding: 0; }
 #colorbox .advanced-order-suggestion { text-align: center; }
 @media (min-width: 992px) {
-  #colorbox .advanced-order #products { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #colorbox .advanced-order .ts-recommendation > .p {
+    grid-template-columns: 80px minmax(0, 1fr) minmax(140px, 180px) 128px;
+    grid-template-areas: 'image name stock qty' 'image code price cart' 'image . net cart';
+    gap: 4px 16px;
+    align-items: center;
+  }
+  #colorbox .ts-recommendation a.name { align-self: end; }
+  #colorbox .ts-recommendation .p-code { align-self: start; }
+  #colorbox .ts-recommendation .availability { text-align: right !important; justify-content: end; justify-items: end; }
+  #colorbox .ts-recommendation .btn-cart { align-self: end; }
+}
+
+.ts-recommendation .p-code :is(span, .p-code-label) { display: inline; }
+.ts-recommendation .availability > .availability-amount { color: var(--ts-color-controls-text); }
+@media (max-width: 767px) {
+  #colorbox .advanced-order #products { margin-inline: 12px; }
+}
+
+/* Wider detail recommendations keep their own image-left layout. Classic
+   two-column category tiles and homepage sliders are outside this scope. */
+@media (max-width: 767px) {
+  #content :is(.products-related-block, .products-alternative-block) .ts-recommendation {
+    width: 100%;
+  }
 }

@@ -589,6 +589,7 @@
 }
 
 .in-kosik .ts-cart-shipping .extra.delivery strong {
+  white-space: nowrap;
   color: var(--ts-color-summary-accent);
 }
 

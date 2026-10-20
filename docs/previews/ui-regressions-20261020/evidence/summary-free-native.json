@@ -1,0 +1,4 @@
+{
+  "text": "\n                \n        Dopravu máte zadarmo!\n    ",
+  "html": "<div class=\"extra-content ts-cart-shipping ts-cart-shipping-complete\"><div class=\"extra delivery\">\n                \n        <span>Dopravu máte <strong>zadarmo!</strong></span>\n    </div><div class=\"price-range ts-cart-progress\" role=\"progressbar\" aria-label=\"Doprava zdarma\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"100\"><div style=\"width: 100%;\"></div></div></div>"
+}

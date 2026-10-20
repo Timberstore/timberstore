@@ -305,6 +305,7 @@
 /* popup-shipping synchronizes the native state and message from Shoptet
    cartInfo after AJAX, including Apollo's incomplete Slovak prefix detection. */
 #cart-widget .cart-free-shipping strong {
+  white-space: nowrap;
   color: var(--ts-color-success-primary);
   font-weight: 700;
 }

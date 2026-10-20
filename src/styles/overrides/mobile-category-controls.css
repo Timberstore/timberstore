@@ -18,7 +18,7 @@
     width: 100%;
     min-width: 0;
     margin: 0;
-    padding: 0 16px;
+    padding: 0;
     border: 0;
     border-radius: 0;
     background: transparent;
@@ -30,6 +30,18 @@
     overflow-x: hidden;
     overflow-y: auto;
     overscroll-behavior: contain;
+  }
+
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row.is-active {
+    background: var(--ts-color-controls-active-bg);
+    border-radius: var(--ts-radius-controls);
+  }
+  .type-category .ts-mobile-category #filters .ts-mobile-category__row.is-active > h4 {
+    background: transparent;
+  }
+  .type-category .ts-mobile-category #filters .slider-wrapper > :is(.slider-header, .slider-content) {
+    margin-inline: 16px;
+    width: auto;
   }
 
   /* Apollo collapses with height:0/visibility:hidden but leaves overflow
@@ -92,7 +104,7 @@
     width: 100%;
     min-height: 48px;
     margin: 0;
-    padding: 14px 24px 14px 0;
+    padding: 14px 40px 14px 16px;
     border: 0;
     border-bottom: 1px solid var(--ts-color-controls-divider);
     border-radius: 0;
@@ -111,13 +123,14 @@
   /* The shared filter chevron follows its heading colour and native state. */
   .type-category .ts-mobile-category #filters .ts-mobile-category__heading::after {
     top: 50%;
-    right: 0;
+    right: 16px;
     color: inherit;
   }
 
   .type-category .ts-mobile-category #filters .ts-mobile-category__row > form,
   .type-category .ts-mobile-category #filters .ts-mobile-category__row > .param-filter-top {
     position: static;
+    padding: 0 16px 16px;
     background: transparent;
     border: 0;
     box-shadow: none;
@@ -131,7 +144,7 @@
     min-width: 0;
     max-width: none;
     margin: 0;
-    padding: 0;
+    padding: 0 16px 16px;
     border: 0;
     border-radius: 0;
     background: transparent;
@@ -141,7 +154,7 @@
   /* Price labels belong above the track, not absolutely over its handles. */
   .type-category .ts-mobile-category #filters .slider-wrapper.is-active .slider-header {
     position: static;
-    width: 100%;
+    width: auto;
     padding: 10px 0;
   }
 

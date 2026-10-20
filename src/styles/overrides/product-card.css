@@ -110,7 +110,7 @@ body:not(.ordering-process) #content :is(.products, .products-block, .products-t
   background-color: var(--ts-color-accent) !important;
 }
 /* Centre the native warehouse name and quantity; the offer keeps its wrap fallback. */
-body:not(.ordering-process) .content-wrapper .product .availability {
+body:not(.ordering-process) .content-wrapper .product:not(.ts-recommendation) .availability {
   display: grid;
   justify-content: center;
   justify-items: center;
@@ -121,14 +121,14 @@ body:not(.ordering-process) .content-wrapper .product :is(.prices, .p-tools) {
   flex: auto;
 }
 /* Break only at native word spaces: CENTRÁLNY / SKLAD, then its quantity. */
-body:not(.ordering-process) .content-wrapper .product .availability > :first-child {
+body:not(.ordering-process) .content-wrapper .product:not(.ts-recommendation) .availability > :first-child {
   width: min-content;
   max-width: 100%;
   white-space: normal;
 }
 
 /* Classic tiles only. Desktop table rules retain their original specificity. */
-.ts-card a.name:not(#colorbox *) {
+.ts-card:not(.ts-recommendation) a.name {
   text-align: center !important;
 }
 .ts-card .p-bottom > [data-micro='offer'] {
@@ -148,7 +148,9 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
   margin: 0 !important;
 }
 .ts-card .price-additional {
-  text-align: center;
+  text-align: center !important;
+  align-self: center;
+  width: 100%;
   max-width: 100%;
 }
 /* A flexible three-line stock slot keeps prices aligned across mixed warehouses.
@@ -156,7 +158,7 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
 .ts-card .p-tools {
   display: grid;
   align-items: center;
-  min-height: 4em;
+  min-height: 3em;
   width: 100%;
 }
 .ts-card-net::before {
@@ -221,4 +223,22 @@ form.pr-action:has(> .ts-qty) > .btn {
     font-weight: 800 !important;
     color: var(--ts-color-controls-text) !important;
   }
+}
+
+/* Shared native Apollo cart glyph, verified on product CTA in v0.7.0. Keep
+   checkout's next-step arrow and navigation controls outside this component.
+   Important display defeats legacy icon hiding on narrow product buttons. */
+:is(body .btn-cart, .p-detail .add-to-cart-button, .cart-related-product .add-to-cart-button, #colorbox [data-testid='buttonPopupCart'])::after {
+  content: '\e918';
+  font-family: apollo;
+  font-size: 20px;
+  line-height: 1;
+  display: inline-block !important;
+  color: var(--ts-color-bg);
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
 }

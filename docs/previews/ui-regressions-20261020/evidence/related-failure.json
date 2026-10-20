@@ -1,0 +1,28 @@
+{
+  "failure": "source-document intentionally blocked",
+  "enabled": true,
+  "busy": null,
+  "inventedCode": 0,
+  "inventedBounds": 0,
+  "layout": {
+    "view": [
+      390,
+      390
+    ],
+    "bad": [
+      {
+        "tag": "A",
+        "cls": "skip-link sr-only",
+        "x": -1,
+        "right": 0
+      },
+      {
+        "tag": "DIV",
+        "cls": "sr-only",
+        "x": -1,
+        "right": 0
+      }
+    ]
+  },
+  "pass": true
+}

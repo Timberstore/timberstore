@@ -1,0 +1,14 @@
+{
+  "js": {
+    "bytes": 117586,
+    "gzipBytes": 33107,
+    "sha256": "7a28dcf997711e802251728391196682897fb09a8d8f70210df6d7789c5aab49",
+    "limitKiB": 32.5
+  },
+  "css": {
+    "bytes": 182175,
+    "gzipBytes": 28869,
+    "sha256": "eae1f9a354e1542133e6b31e62bee1122e53f1022a06d5c90cfdea49f85b5e26",
+    "limitKiB": 28.25
+  }
+}

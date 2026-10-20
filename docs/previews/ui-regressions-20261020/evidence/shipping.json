@@ -1,0 +1,582 @@
+[
+  {
+    "width": 1440,
+    "topProgress": 0,
+    "first": "",
+    "firstBg": "rgb(102, 191, 58)",
+    "progress": 1,
+    "rows": 2,
+    "text": "Objednajte ešte za 197,74 € a budete mať dopravu ZADARMO.",
+    "percent": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "ZADARMO",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "html": "<div class=\"extras-wrap\"><div class=\"extra-item extra--single\"><div class=\"extra-content\"><div class=\"price-range\"><div style=\"width: 1.13%\"></div></div><div class=\"extra delivery\">\n                \n        <span>\n                            Objednajte ešte za <strong>197,74 €</strong> a budete mať dopravu <strong>ZADARMO</strong>.                                                                \n                    </span>\n    </div></div></div></div>",
+    "geometry": {
+      "view": [
+        1440,
+        1431
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 373.5,
+          "right": 140359.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "topProgress": 0,
+    "first": "",
+    "firstBg": "rgb(102, 191, 58)",
+    "progress": 1,
+    "rows": 2,
+    "text": "Objednajte ešte za 197,74 € a budete mať dopravu ZADARMO.",
+    "percent": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "ZADARMO",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "html": "<div class=\"extras-wrap\"><div class=\"extra-item extra--single\"><div class=\"extra-content\"><div class=\"price-range\"><div style=\"width: 1.13%\"></div></div><div class=\"extra delivery\">\n                \n        <span>\n                            Objednajte ešte za <strong>197,74 €</strong> a budete mať dopravu <strong>ZADARMO</strong>.                                                                \n                    </span>\n    </div></div></div></div>",
+    "geometry": {
+      "view": [
+        1280,
+        1265
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 413.5,
+          "right": 140399.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "topProgress": 0,
+    "first": "",
+    "firstBg": "rgb(102, 191, 58)",
+    "progress": 1,
+    "rows": 2,
+    "text": "Objednajte ešte za 197,74 € a budete mať dopravu ZADARMO.",
+    "percent": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "ZADARMO",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "html": "<div class=\"extras-wrap\"><div class=\"extra-item extra--single\"><div class=\"extra-content\"><div class=\"price-range\"><div style=\"width: 1.13%\"></div></div><div class=\"extra delivery\">\n                \n        <span>\n                            Objednajte ešte za <strong>197,74 €</strong> a budete mať dopravu <strong>ZADARMO</strong>.                                                                \n                    </span>\n    </div></div></div></div>",
+    "geometry": {
+      "view": [
+        1024,
+        1009
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 38.5,
+          "right": 140024.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 768,
+    "topProgress": 0,
+    "first": "",
+    "firstBg": "rgb(102, 191, 58)",
+    "progress": 1,
+    "rows": 2,
+    "text": "Objednajte ešte za 197,74 € a budete mať dopravu ZADARMO.",
+    "percent": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "ZADARMO",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "html": "<div class=\"extras-wrap\"><div class=\"extra-item extra--single\"><div class=\"extra-content\"><div class=\"price-range\"><div style=\"width: 1.13%\"></div></div><div class=\"extra delivery\">\n                \n        <span>\n                            Objednajte ešte za <strong>197,74 €</strong> a budete mať dopravu <strong>ZADARMO</strong>.                                                                \n                    </span>\n    </div></div></div></div>",
+    "geometry": {
+      "view": [
+        768,
+        755
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 23,
+          "right": 140009
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 430,
+    "topProgress": 0,
+    "first": "",
+    "firstBg": "rgb(102, 191, 58)",
+    "progress": 1,
+    "rows": 2,
+    "text": "Objednajte ešte za 197,74 € a budete mať dopravu ZADARMO.",
+    "percent": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "ZADARMO",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "html": "<div class=\"extras-wrap\"><div class=\"extra-item extra--single\"><div class=\"extra-content\"><div class=\"price-range\"><div style=\"width: 1.13%\"></div></div><div class=\"extra delivery\">\n                \n        <span>\n                            Objednajte ešte za <strong>197,74 €</strong> a budete mať dopravu <strong>ZADARMO</strong>.                                                                \n                    </span>\n    </div></div></div></div>",
+    "geometry": {
+      "view": [
+        430,
+        423
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 20,
+          "right": 140006
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 20,
+          "right": 469
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 390,
+    "topProgress": 0,
+    "first": "",
+    "firstBg": "rgb(102, 191, 58)",
+    "progress": 1,
+    "rows": 2,
+    "text": "Objednajte ešte za 197,74 € a budete mať dopravu ZADARMO.",
+    "percent": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "ZADARMO",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "html": "<div class=\"extras-wrap\"><div class=\"extra-item extra--single\"><div class=\"extra-content\"><div class=\"price-range\"><div style=\"width: 1.13%\"></div></div><div class=\"extra delivery\">\n                \n        <span>\n                            Objednajte ešte za <strong>197,74 €</strong> a budete mať dopravu <strong>ZADARMO</strong>.                                                                \n                    </span>\n    </div></div></div></div>",
+    "geometry": {
+      "view": [
+        390,
+        383
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 20,
+          "right": 140006
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 20,
+          "right": 469
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 375,
+    "topProgress": 0,
+    "first": "",
+    "firstBg": "rgb(102, 191, 58)",
+    "progress": 1,
+    "rows": 2,
+    "text": "Objednajte ešte za 197,74 € a budete mať dopravu ZADARMO.",
+    "percent": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "ZADARMO",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "html": "<div class=\"extras-wrap\"><div class=\"extra-item extra--single\"><div class=\"extra-content\"><div class=\"price-range\"><div style=\"width: 1.13%\"></div></div><div class=\"extra delivery\">\n                \n        <span>\n                            Objednajte ešte za <strong>197,74 €</strong> a budete mať dopravu <strong>ZADARMO</strong>.                                                                \n                    </span>\n    </div></div></div></div>",
+    "geometry": {
+      "view": [
+        375,
+        368
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 20,
+          "right": 140006
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 20,
+          "right": 469
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 8,
+          "right": 376
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 8,
+          "right": 376
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 320,
+    "topProgress": 0,
+    "first": "",
+    "firstBg": "rgb(102, 191, 58)",
+    "progress": 1,
+    "rows": 2,
+    "text": "Objednajte ešte za 197,74 € a budete mať dopravu ZADARMO.",
+    "percent": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "ZADARMO",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "html": "<div class=\"extras-wrap\"><div class=\"extra-item extra--single\"><div class=\"extra-content\"><div class=\"price-range\"><div style=\"width: 1.13%\"></div></div><div class=\"extra delivery\">\n                \n        <span>\n                            Objednajte ešte za <strong>197,74 €</strong> a budete mať dopravu <strong>ZADARMO</strong>.                                                                \n                    </span>\n    </div></div></div></div>",
+    "geometry": {
+      "view": [
+        320,
+        313
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 20,
+          "right": 140006
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 20,
+          "right": 469
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 248,
+          "right": 348
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 248,
+          "right": 348
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 8,
+          "right": 322
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 8,
+          "right": 322
+        }
+      ]
+    },
+    "pass": true
+  }
+]

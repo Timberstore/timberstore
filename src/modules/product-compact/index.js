@@ -1,6 +1,5 @@
 // PD Compact · Presentation only; Shoptet retains every price/stock/form node.
-import { getCartShippingPresentation } from '../../core/cart.js';
-import { paintShipping } from '../cart-presentation/popup-shipping.js';
+import { normalizeNativeShipping } from '../cart-presentation/popup-shipping.js';
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { splitShippingName } from '../../core/shipping.js';
@@ -9,22 +8,10 @@ let readiness;
 let popupObserver;
 
 function syncShippingPopup() {
-  const state = getCartShippingPresentation();
   for (const popup of document.querySelectorAll(SEL.compactShippingPopup)) {
-    let panel = popup.querySelector('.ts-delivery-progress');
-    if (!state) { panel?.remove(); continue; }
-    if (!panel) {
-      panel = document.createElement('div');
-      panel.className = 'cart-free-shipping ts-delivery-progress';
-      const message = document.createElement('div');
-      message.className = 'icon-van';
-      const context = document.createElement('small');
-      context.textContent = TEXTS.cart.shippingCartContext;
-      panel.append(context, message);
-      popup.prepend(panel);
-    }
-    panel.classList.toggle(SEL.cartPopupFreeClass, state.complete);
-    paintShipping(panel, panel.querySelector('div'), state);
+    // Keep the native first-child heading and the existing projected delivery
+    // panel. Its amount/percentage belong to this Shoptet response, not cartInfo.
+    normalizeNativeShipping(popup);
   }
   for (const label of document.querySelectorAll(SEL.compactShippingName)) {
     // Match the existing checkout formatter. No price/logo/tooltip/control moves.

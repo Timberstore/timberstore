@@ -1,0 +1,372 @@
+[
+  {
+    "width": 1440,
+    ".products-related-block": {
+      "card": {
+        "x": 383.5,
+        "y": 185.03125,
+        "width": 237,
+        "height": 391.65625,
+        "top": 185.03125,
+        "right": 620.5,
+        "bottom": 576.6875,
+        "left": 383.5
+      },
+      "image": {
+        "x": 395.5,
+        "y": 197.03125,
+        "width": 80,
+        "height": 80,
+        "top": 197.03125,
+        "right": 475.5,
+        "bottom": 277.03125,
+        "left": 395.5
+      },
+      "name": {
+        "x": 506,
+        "y": 205.03125,
+        "width": 102.5,
+        "height": 117.5625,
+        "top": 205.03125,
+        "right": 608.5,
+        "bottom": 322.59375,
+        "left": 506
+      },
+      "nameHeight": 118,
+      "nameScroll": 118
+    },
+    ".products-alternative-block": {
+      "card": {
+        "x": 383.5,
+        "y": 206.328125,
+        "width": 237,
+        "height": 398.453125,
+        "top": 206.328125,
+        "right": 620.5,
+        "bottom": 604.78125,
+        "left": 383.5
+      },
+      "image": {
+        "x": 395.5,
+        "y": 218.328125,
+        "width": 80,
+        "height": 80,
+        "top": 218.328125,
+        "right": 475.5,
+        "bottom": 298.328125,
+        "left": 395.5
+      },
+      "name": {
+        "x": 506,
+        "y": 226.328125,
+        "width": 102.5,
+        "height": 78.375,
+        "top": 226.328125,
+        "right": 608.5,
+        "bottom": 304.703125,
+        "left": 506
+      },
+      "nameHeight": 78,
+      "nameScroll": 78
+    },
+    "galleryNext": true,
+    "gallery": true,
+    "pass": true
+  },
+  {
+    "width": 768,
+    ".products-related-block": {
+      "card": {
+        "x": 43,
+        "y": 244.328125,
+        "width": 323.5,
+        "height": 333.09375,
+        "top": 244.328125,
+        "right": 366.5,
+        "bottom": 577.421875,
+        "left": 43
+      },
+      "image": {
+        "x": 55,
+        "y": 256.328125,
+        "width": 80,
+        "height": 80,
+        "top": 256.328125,
+        "right": 135,
+        "bottom": 336.328125,
+        "left": 55
+      },
+      "name": {
+        "x": 208.75,
+        "y": 264.328125,
+        "width": 145.75,
+        "height": 78.375,
+        "top": 264.328125,
+        "right": 354.5,
+        "bottom": 342.703125,
+        "left": 208.75
+      },
+      "nameHeight": 78,
+      "nameScroll": 78
+    },
+    ".products-alternative-block": {
+      "card": {
+        "x": 43,
+        "y": 283.0625,
+        "width": 323.5,
+        "height": 293.90625,
+        "top": 283.0625,
+        "right": 366.5,
+        "bottom": 576.96875,
+        "left": 43
+      },
+      "image": {
+        "x": 55,
+        "y": 295.0625,
+        "width": 80,
+        "height": 80,
+        "top": 295.0625,
+        "right": 135,
+        "bottom": 375.0625,
+        "left": 55
+      },
+      "name": {
+        "x": 208.75,
+        "y": 303.0625,
+        "width": 145.75,
+        "height": 39.1875,
+        "top": 303.0625,
+        "right": 354.5,
+        "bottom": 342.25,
+        "left": 208.75
+      },
+      "nameHeight": 39,
+      "nameScroll": 39
+    },
+    "galleryNext": true,
+    "gallery": true,
+    "pass": true
+  },
+  {
+    "width": 430,
+    ".products-related-block": {
+      "card": {
+        "x": 10,
+        "y": 701.171875,
+        "width": 230,
+        "height": 372.9375,
+        "top": 701.171875,
+        "right": 240,
+        "bottom": 1074.109375,
+        "left": 10
+      },
+      "image": {
+        "x": 30,
+        "y": 713.171875,
+        "width": 80,
+        "height": 80,
+        "top": 713.171875,
+        "right": 110,
+        "bottom": 793.171875,
+        "left": 30
+      },
+      "name": {
+        "x": 129,
+        "y": 721.171875,
+        "width": 91,
+        "height": 117.5625,
+        "top": 721.171875,
+        "right": 220,
+        "bottom": 838.734375,
+        "left": 129
+      },
+      "nameHeight": 118,
+      "nameScroll": 118
+    },
+    ".products-alternative-block": {
+      "card": {
+        "x": 10,
+        "y": 223.15625,
+        "width": 230,
+        "height": 368.34375,
+        "top": 223.15625,
+        "right": 240,
+        "bottom": 591.5,
+        "left": 10
+      },
+      "image": {
+        "x": 30,
+        "y": 235.15625,
+        "width": 80,
+        "height": 80,
+        "top": 235.15625,
+        "right": 110,
+        "bottom": 315.15625,
+        "left": 30
+      },
+      "name": {
+        "x": 129,
+        "y": 243.15625,
+        "width": 91,
+        "height": 78.375,
+        "top": 243.15625,
+        "right": 220,
+        "bottom": 321.53125,
+        "left": 129
+      },
+      "nameHeight": 78,
+      "nameScroll": 78
+    },
+    "galleryNext": true,
+    "gallery": true,
+    "pass": true
+  },
+  {
+    "width": 390,
+    ".products-related-block": {
+      "card": {
+        "x": 10,
+        "y": 700.921875,
+        "width": 230,
+        "height": 372.9375,
+        "top": 700.921875,
+        "right": 240,
+        "bottom": 1073.859375,
+        "left": 10
+      },
+      "image": {
+        "x": 30,
+        "y": 712.921875,
+        "width": 80,
+        "height": 80,
+        "top": 712.921875,
+        "right": 110,
+        "bottom": 792.921875,
+        "left": 30
+      },
+      "name": {
+        "x": 129,
+        "y": 720.921875,
+        "width": 91,
+        "height": 117.5625,
+        "top": 720.921875,
+        "right": 220,
+        "bottom": 838.484375,
+        "left": 129
+      },
+      "nameHeight": 118,
+      "nameScroll": 118
+    },
+    ".products-alternative-block": {
+      "card": {
+        "x": 10,
+        "y": 204.90625,
+        "width": 230,
+        "height": 387.53125,
+        "top": 204.90625,
+        "right": 240,
+        "bottom": 592.4375,
+        "left": 10
+      },
+      "image": {
+        "x": 30,
+        "y": 216.90625,
+        "width": 80,
+        "height": 80,
+        "top": 216.90625,
+        "right": 110,
+        "bottom": 296.90625,
+        "left": 30
+      },
+      "name": {
+        "x": 129,
+        "y": 224.90625,
+        "width": 91,
+        "height": 78.375,
+        "top": 224.90625,
+        "right": 220,
+        "bottom": 303.28125,
+        "left": 129
+      },
+      "nameHeight": 78,
+      "nameScroll": 78
+    },
+    "galleryNext": true,
+    "gallery": true,
+    "pass": true
+  },
+  {
+    "width": 320,
+    ".products-related-block": {
+      "card": {
+        "x": 2,
+        "y": 219.421875,
+        "width": 230,
+        "height": 372.9375,
+        "top": 219.421875,
+        "right": 232,
+        "bottom": 592.359375,
+        "left": 2
+      },
+      "image": {
+        "x": 22,
+        "y": 231.421875,
+        "width": 80,
+        "height": 80,
+        "top": 231.421875,
+        "right": 102,
+        "bottom": 311.421875,
+        "left": 22
+      },
+      "name": {
+        "x": 121,
+        "y": 239.421875,
+        "width": 91,
+        "height": 117.5625,
+        "top": 239.421875,
+        "right": 212,
+        "bottom": 356.984375,
+        "left": 121
+      },
+      "nameHeight": 118,
+      "nameScroll": 118
+    },
+    ".products-alternative-block": {
+      "card": {
+        "x": 2,
+        "y": 705.40625,
+        "width": 230,
+        "height": 368.34375,
+        "top": 705.40625,
+        "right": 232,
+        "bottom": 1073.75,
+        "left": 2
+      },
+      "image": {
+        "x": 22,
+        "y": 717.40625,
+        "width": 80,
+        "height": 80,
+        "top": 717.40625,
+        "right": 102,
+        "bottom": 797.40625,
+        "left": 22
+      },
+      "name": {
+        "x": 121,
+        "y": 725.40625,
+        "width": 91,
+        "height": 78.375,
+        "top": 725.40625,
+        "right": 212,
+        "bottom": 803.78125,
+        "left": 121
+      },
+      "nameHeight": 78,
+      "nameScroll": 78
+    },
+    "galleryNext": true,
+    "gallery": true,
+    "pass": true
+  }
+]

@@ -1,0 +1,764 @@
+[
+  {
+    "width": 1440,
+    "pagination": [
+      {
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "pagination__currentPage",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "goToTop__button btn btn-secondary",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(212, 136, 74)",
+        "border": "rgb(212, 136, 74)"
+      }
+    ],
+    "hover": "rgb(212, 136, 74)",
+    "support": [
+      {
+        "font": "14px",
+        "display": "flex",
+        "icons": 1,
+        "center": 183.5
+      },
+      {
+        "font": "14px",
+        "display": "flex",
+        "icons": 1,
+        "center": 183.5
+      },
+      {
+        "font": "14px",
+        "display": "flex",
+        "icons": 1,
+        "center": 183.5
+      }
+    ],
+    "geometry": {
+      "view": [
+        1440,
+        1425
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "nativePagination": true,
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "pagination": [
+      {
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "pagination__currentPage",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "goToTop__button btn btn-secondary",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(212, 136, 74)",
+        "border": "rgb(212, 136, 74)"
+      }
+    ],
+    "hover": "rgb(212, 136, 74)",
+    "geometry": {
+      "view": [
+        1280,
+        1265
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "pagination": [
+      {
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "pagination__currentPage",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "goToTop__button btn btn-secondary",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(212, 136, 74)",
+        "border": "rgb(212, 136, 74)"
+      }
+    ],
+    "hover": "rgb(212, 136, 74)",
+    "geometry": {
+      "view": [
+        1024,
+        1009
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 768,
+    "pagination": [
+      {
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "pagination__currentPage",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "goToTop__button btn btn-secondary",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(212, 136, 74)",
+        "border": "rgb(212, 136, 74)"
+      }
+    ],
+    "hover": "rgb(212, 136, 74)",
+    "geometry": {
+      "view": [
+        768,
+        753
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 430,
+    "pagination": [
+      {
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "pagination__currentPage",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "goToTop__button btn btn-secondary",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(212, 136, 74)",
+        "border": "rgb(212, 136, 74)"
+      }
+    ],
+    "hover": "rgb(212, 136, 74)",
+    "filter": [
+      {
+        "cls": "slider-wrapper ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 532.28125,
+          "width": 388,
+          "height": 109.609375,
+          "top": 532.28125,
+          "right": 409,
+          "bottom": 641.890625,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 532.28125,
+          "width": 388,
+          "height": 48,
+          "top": 532.28125,
+          "right": 409,
+          "bottom": 580.28125,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      },
+      {
+        "cls": "filter-section filter-section-boolean ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 580.28125,
+          "width": 388,
+          "height": 259,
+          "top": 580.28125,
+          "right": 409,
+          "bottom": 839.28125,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 580.28125,
+          "width": 388,
+          "height": 48,
+          "top": 580.28125,
+          "right": 409,
+          "bottom": 628.28125,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      },
+      {
+        "cls": "filter-section filter-section-manufacturer ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 628.28125,
+          "width": 388,
+          "height": 220,
+          "top": 628.28125,
+          "right": 409,
+          "bottom": 848.28125,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 628.28125,
+          "width": 388,
+          "height": 48,
+          "top": 628.28125,
+          "right": 409,
+          "bottom": 676.28125,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      }
+    ],
+    "geometry": {
+      "view": [
+        430,
+        430
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 390,
+    "pagination": [
+      {
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "pagination__currentPage",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "goToTop__button btn btn-secondary",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(212, 136, 74)",
+        "border": "rgb(212, 136, 74)"
+      }
+    ],
+    "hover": "rgb(212, 136, 74)",
+    "filter": [
+      {
+        "cls": "slider-wrapper ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 532.28125,
+          "width": 348,
+          "height": 109.609375,
+          "top": 532.28125,
+          "right": 369,
+          "bottom": 641.890625,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 532.28125,
+          "width": 348,
+          "height": 48,
+          "top": 532.28125,
+          "right": 369,
+          "bottom": 580.28125,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      },
+      {
+        "cls": "filter-section filter-section-boolean ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 580.28125,
+          "width": 348,
+          "height": 259,
+          "top": 580.28125,
+          "right": 369,
+          "bottom": 839.28125,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 580.28125,
+          "width": 348,
+          "height": 48,
+          "top": 580.28125,
+          "right": 369,
+          "bottom": 628.28125,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      },
+      {
+        "cls": "filter-section filter-section-manufacturer ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 628.28125,
+          "width": 348,
+          "height": 220,
+          "top": 628.28125,
+          "right": 369,
+          "bottom": 848.28125,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 628.28125,
+          "width": 348,
+          "height": 48,
+          "top": 628.28125,
+          "right": 369,
+          "bottom": 676.28125,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      }
+    ],
+    "geometry": {
+      "view": [
+        390,
+        390
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "nativePagination": true,
+    "pass": true
+  },
+  {
+    "width": 375,
+    "pagination": [
+      {
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "pagination__currentPage",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "goToTop__button btn btn-secondary",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(212, 136, 74)",
+        "border": "rgb(212, 136, 74)"
+      }
+    ],
+    "hover": "rgb(212, 136, 74)",
+    "filter": [
+      {
+        "cls": "slider-wrapper ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 532.46875,
+          "width": 333,
+          "height": 109.609375,
+          "top": 532.46875,
+          "right": 354,
+          "bottom": 642.078125,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 532.46875,
+          "width": 333,
+          "height": 48,
+          "top": 532.46875,
+          "right": 354,
+          "bottom": 580.46875,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      },
+      {
+        "cls": "filter-section filter-section-boolean ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 580.46875,
+          "width": 333,
+          "height": 259,
+          "top": 580.46875,
+          "right": 354,
+          "bottom": 839.46875,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 580.46875,
+          "width": 333,
+          "height": 48,
+          "top": 580.46875,
+          "right": 354,
+          "bottom": 628.46875,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      },
+      {
+        "cls": "filter-section filter-section-manufacturer ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 628.46875,
+          "width": 333,
+          "height": 220,
+          "top": 628.46875,
+          "right": 354,
+          "bottom": 848.46875,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 628.46875,
+          "width": 333,
+          "height": 48,
+          "top": 628.46875,
+          "right": 354,
+          "bottom": 676.46875,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      }
+    ],
+    "geometry": {
+      "view": [
+        375,
+        375
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 320,
+    "pagination": [
+      {
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "pagination__currentPage",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(255, 255, 255)",
+        "border": "rgb(212, 136, 74)"
+      },
+      {
+        "cls": "goToTop__button btn btn-secondary",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(212, 136, 74)",
+        "border": "rgb(212, 136, 74)"
+      }
+    ],
+    "hover": "rgb(212, 136, 74)",
+    "filter": [
+      {
+        "cls": "slider-wrapper ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 531.65625,
+          "width": 278,
+          "height": 109.609375,
+          "top": 531.65625,
+          "right": 299,
+          "bottom": 641.265625,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 531.65625,
+          "width": 278,
+          "height": 48,
+          "top": 531.65625,
+          "right": 299,
+          "bottom": 579.65625,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      },
+      {
+        "cls": "filter-section filter-section-boolean ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 579.65625,
+          "width": 278,
+          "height": 259,
+          "top": 579.65625,
+          "right": 299,
+          "bottom": 838.65625,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 579.65625,
+          "width": 278,
+          "height": 48,
+          "top": 579.65625,
+          "right": 299,
+          "bottom": 627.65625,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      },
+      {
+        "cls": "filter-section filter-section-manufacturer ts-mobile-category__row is-active",
+        "bg": "rgb(255, 248, 241)",
+        "rect": {
+          "x": 21,
+          "y": 627.65625,
+          "width": 278,
+          "height": 220,
+          "top": 627.65625,
+          "right": 299,
+          "bottom": 847.65625,
+          "left": 21
+        },
+        "head": {
+          "x": 21,
+          "y": 627.65625,
+          "width": 278,
+          "height": 48,
+          "top": 627.65625,
+          "right": 299,
+          "bottom": 675.65625,
+          "left": 21
+        },
+        "headBg": "rgb(255, 248, 241)"
+      }
+    ],
+    "geometry": {
+      "view": [
+        320,
+        320
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  }
+]

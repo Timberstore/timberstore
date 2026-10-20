@@ -31,3 +31,38 @@
     padding: 0 !important;
   }
 }
+
+/* Native Apollo metadata exists before JS labels are normalized. Match the
+   final metrics immediately and prevent its global anchor transition from
+   animating the divider padding/width after the first visible frame. */
+.p-detail .p-detail-info :is(.p-code, a, span) {
+  font-size: 12.5px !important;
+  line-height: 1.5 !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+/* A short CSS label has identical metrics before metadata JS wraps its text.
+   Native label text remains accessible; only its visual duplicate is hidden. */
+.p-detail .p-detail-info .p-code,
+.p-detail .p-detail-info .p-code > :is(.p-code-label, .ts-product-meta__label) {
+  font-size: 0 !important;
+}
+.p-detail .p-detail-info .p-code::before {
+  content: 'KÓD: ' / '';
+  font-size: 12.5px;
+  font-weight: 500;
+}
+.p-detail .p-detail-info .p-code > span:not(.p-code-label, .ts-product-meta__label) {
+  color: var(--ts-color-blue);
+  font-weight: 600;
+}
+
+.p-detail .p-detail-info [data-testid='productCardBrandName'] {
+  font-weight: 500 !important;
+  color: var(--ts-color-detail-code) !important;
+}
+.p-detail .p-detail-info [data-testid='productCardBrandName'] > span:not(.ts-product-meta__label) {
+  font-weight: 600 !important;
+  color: var(--ts-color-blue) !important;
+}

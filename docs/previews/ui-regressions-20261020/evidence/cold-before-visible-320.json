@@ -1,0 +1,536 @@
+[
+  {
+    "t": 1451.0999999940395,
+    "nodes": [
+      null,
+      {
+        "s": ".p-detail-info",
+        "x": 20,
+        "y": 268.8125,
+        "w": 280,
+        "h": 16,
+        "visible": false,
+        "parent": "col-xs-12",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 20,
+        "y": 254.96875,
+        "w": 280,
+        "h": 13.84375,
+        "visible": false,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 121.390625,
+        "y": 268.8125,
+        "w": 77.21875,
+        "h": 16,
+        "visible": false,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1"
+  },
+  {
+    "t": 1738.4000000059605,
+    "nodes": [
+      null,
+      {
+        "s": ".p-detail-info",
+        "x": 20,
+        "y": 268.8125,
+        "w": 280,
+        "h": 16,
+        "visible": false,
+        "parent": "col-xs-12",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 20,
+        "y": 254.96875,
+        "w": 280,
+        "h": 13.84375,
+        "visible": false,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 123.96875,
+        "y": 268.8125,
+        "w": 72.046875,
+        "h": 16,
+        "visible": false,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1"
+  },
+  {
+    "t": 2431.5,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 76.78125,
+        "visible": false,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 16,
+        "visible": false,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 59.734375,
+        "y": 233.15625,
+        "w": 112.484375,
+        "h": 16,
+        "visible": false,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 188.21875,
+        "y": 233.15625,
+        "w": 72.046875,
+        "h": 16,
+        "visible": false,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled"
+  },
+  {
+    "t": 2707.0999999940395,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 76.78125,
+        "visible": true,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 16,
+        "visible": true,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 59.734375,
+        "y": 233.15625,
+        "w": 112.484375,
+        "h": 16,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 188.21875,
+        "y": 233.15625,
+        "w": 72.046875,
+        "h": 16,
+        "visible": false,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded"
+  },
+  {
+    "t": 2847.2000000029802,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 76.78125,
+        "visible": true,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 16,
+        "visible": true,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 59.734375,
+        "y": 233.15625,
+        "w": 112.484375,
+        "h": 16,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 188.21875,
+        "y": 233.15625,
+        "w": 72.046875,
+        "h": 16,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded"
+  },
+  {
+    "t": 4434.0999999940395,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 79.53125,
+        "visible": true,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 18.75,
+        "visible": true,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 68.3125,
+        "y": 233.15625,
+        "w": 73.953125,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 158.265625,
+        "y": 233.15625,
+        "w": 93.40625,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded"
+  },
+  {
+    "t": 4545.29999999702,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 79.53125,
+        "visible": true,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 18.75,
+        "visible": true,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 68.8125,
+        "y": 233.15625,
+        "w": 73.953125,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 158.765625,
+        "y": 233.15625,
+        "w": 92.40625,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load"
+  },
+  {
+    "t": 4602,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 79.75,
+        "visible": true,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 18.96875,
+        "visible": true,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 66.109375,
+        "y": 233.265625,
+        "w": 73.953125,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 156.0625,
+        "y": 233.15625,
+        "w": 97.828125,
+        "h": 18.96875,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load"
+  },
+  {
+    "t": 4642.9000000059605,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 79.546875,
+        "visible": true,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 18.765625,
+        "visible": true,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 64.328125,
+        "y": 233.15625,
+        "w": 73.953125,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 154.28125,
+        "y": 233.15625,
+        "w": 101.375,
+        "h": 18.765625,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load"
+  },
+  {
+    "t": 4728.29999999702,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 79.53125,
+        "visible": true,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 18.75,
+        "visible": true,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 62.21875,
+        "y": 233.15625,
+        "w": 73.953125,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 152.171875,
+        "y": 233.15625,
+        "w": 105.59375,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load"
+  },
+  {
+    "t": 4806.4000000059605,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 79.53125,
+        "visible": true,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 18.75,
+        "visible": true,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 61.359375,
+        "y": 233.15625,
+        "w": 73.953125,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 151.3125,
+        "y": 233.15625,
+        "w": 107.3125,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load"
+  },
+  {
+    "t": 4823.9000000059605,
+    "nodes": [
+      {
+        "s": ".p-info-headline",
+        "x": 10,
+        "y": 172.375,
+        "w": 300,
+        "h": 79.53125,
+        "visible": true,
+        "parent": "p-detail-inner-header",
+        "ts": false
+      },
+      {
+        "s": ".p-detail-info",
+        "x": 10,
+        "y": 233.15625,
+        "w": 300,
+        "h": 18.75,
+        "visible": true,
+        "parent": "p-info-headline",
+        "ts": false
+      },
+      {
+        "s": ".p-code",
+        "x": 61.546875,
+        "y": 233.15625,
+        "w": 73.953125,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      },
+      {
+        "s": "[data-testid=productCardBrandName]",
+        "x": 151.5,
+        "y": 233.15625,
+        "w": 106.9375,
+        "h": 18.75,
+        "visible": true,
+        "parent": "",
+        "ts": false
+      }
+    ],
+    "body": "mobile id-7973 in-knopky template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "before": {
+    "ready": "complete",
+    "advanced": true,
+    "express": false,
+    "items": []
+  },
+  "add": {
+    "status": 200,
+    "code": 200,
+    "count": 1
+  },
+  "extended": {
+    "status": 200,
+    "code": 200,
+    "hasContent": true,
+    "hasRecommendations": true
+  },
+  "after": {
+    "modal": "display: block; visibility: visible; top: 682px; left: 144px; position: absolute; width: 1152px; height: 639px;",
+    "advanced": true,
+    "recommendations": 1,
+    "items": [
+      {
+        "sku": "354068",
+        "qty": 1
+      }
+    ]
+  }
+}

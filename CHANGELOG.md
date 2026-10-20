@@ -1,5 +1,12 @@
 # Changelog
 
+## UI Regression Repair · v0.7.1-rc.1 · 2026-10-20 · Preview only
+
+- Obnoviť pôvodné zhrnutie a warm shipping panel z v0.7.0; odstrániť duplicitný progress v doručovacom modale a ponechať natívne sumy.
+- Opraviť Colorbox obaly/výšky, jeden scrollbar a kompaktné horizontálne odporúčania; použiť spoločnú natívnu bielu cart ikonu. Zachovať široké quantity, min/max/step a nové modré/plum cenové akcenty.
+- Stabilné native-first metadata, lokálne opravy specificity paginácie/sidebaru, súvislého pozadia mobilných filtrov a oddelenie širokých odporúčaní od legacy tile clamping. Jemnejšia tabuľka a kompaktnejšie mobilné stock sloty.
+- [Audit príčin, živý popup/nákupy, pred/po screenshoty, cold-load merania a obmedzenia](docs/previews/ui-regressions-20261020/README.md). Pôvodné build limity nezvýšené. Bez merge, tagu, release alebo zásahu do Shoptetu.
+
 ## UI Consistency · v0.7.1-rc.0 · 2026-10-20 · Preview only
 
 - Stable five-digit quantity slots and stacked controls on narrow cards; compact confirmation and recommendation cards with shared native shipping progress. Align sidebar/menu contact order and original social colours; soften table fonts and brand native listing controls.

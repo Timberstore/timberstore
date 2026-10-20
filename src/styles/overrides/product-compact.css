@@ -1,6 +1,6 @@
 /* PD Compact · Only Apollo's existing right-hand detail panel. Its columns,
    gallery, variant cards, native form and availability logic stay intact. */
-#content [data-ts-compact] {
+#content .p-detail .p-info-wrapper {
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -10,7 +10,7 @@
   margin-bottom: 12px;
 }
 /* Native title metrics; presentation/wrapping is shared in product-card.css. */
-#content [data-ts-compact] h1 {
+#content .p-detail .p-info-wrapper h1 {
   font-size: 32px;
   line-height: 1.25;
   margin: 0 0 var(--ts-space-2);
@@ -124,7 +124,7 @@
   .p-detail {
     --ts-compact-frame-space: 8px;
   }
-  #content [data-ts-compact] {
+  #content .p-detail .p-info-wrapper {
     --ts-compact-padding: 20px;
   }
 }
@@ -132,14 +132,14 @@
   .p-detail {
     --ts-compact-frame-space: 18px;
   }
-  #content [data-ts-compact] {
+  #content .p-detail .p-info-wrapper {
     padding-left: 4px;
     padding-right: 16px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  #content [data-ts-compact] {
+  #content .p-detail .p-info-wrapper {
     --ts-compact-padding: 25px;
   }
 }
@@ -349,7 +349,7 @@
   }
 }
 @media (max-width: 374px) {
-  #content [data-ts-compact] {
+  #content .p-detail .p-info-wrapper {
     --ts-compact-radius: 14px;
   }
   #content [data-ts-compact] .ts-product-purchase-panel {
@@ -423,7 +423,7 @@
   justify-content: center;
 }
 /* Shared metadata has important badge resets; override only the detail divider. */
-.p-detail .p-detail-info .ts-product-meta + a {
+.p-detail .p-detail-info .p-code + a {
   border-left: 1px solid var(--ts-compact-border) !important;
   padding-left: 16px !important;
 }

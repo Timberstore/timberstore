@@ -1,0 +1,162 @@
+[
+  {
+    "width": 1440,
+    "bg": "rgba(0, 0, 0, 0)",
+    "border": "0px",
+    "text": "\n                \n        Nakúpte ešte za 197,74 €  a dopravu máte zadarmo!\n    ",
+    "range": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "zadarmo!",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "bg": "rgba(0, 0, 0, 0)",
+    "border": "0px",
+    "text": "\n                \n        Nakúpte ešte za 197,74 €  a dopravu máte zadarmo!\n    ",
+    "range": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "zadarmo!",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "bg": "rgba(0, 0, 0, 0)",
+    "border": "0px",
+    "text": "\n                \n        Nakúpte ešte za 197,74 €  a dopravu máte zadarmo!\n    ",
+    "range": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "zadarmo!",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 768,
+    "bg": "rgba(0, 0, 0, 0)",
+    "border": "0px",
+    "text": "\n                \n        Nakúpte ešte za 197,74 €  a dopravu máte zadarmo!\n    ",
+    "range": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "zadarmo!",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "bg": "rgba(0, 0, 0, 0)",
+    "border": "0px",
+    "text": "\n                \n        Nakúpte ešte za 197,74 €  a dopravu máte zadarmo!\n    ",
+    "range": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "zadarmo!",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "bg": "rgba(0, 0, 0, 0)",
+    "border": "0px",
+    "text": "\n                \n        Nakúpte ešte za 197,74 €  a dopravu máte zadarmo!\n    ",
+    "range": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "zadarmo!",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "bg": "rgba(0, 0, 0, 0)",
+    "border": "0px",
+    "text": "\n                \n        Nakúpte ešte za 197,74 €  a dopravu máte zadarmo!\n    ",
+    "range": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "zadarmo!",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "bg": "rgba(0, 0, 0, 0)",
+    "border": "0px",
+    "text": "\n                \n        Nakúpte ešte za 197,74 €  a dopravu máte zadarmo!\n    ",
+    "range": "1.13%",
+    "amounts": [
+      {
+        "text": "197,74 €",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      },
+      {
+        "text": "zadarmo!",
+        "color": "rgb(0, 200, 83)",
+        "wrap": "nowrap"
+      }
+    ],
+    "pass": true
+  }
+]

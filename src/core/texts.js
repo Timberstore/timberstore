@@ -50,7 +50,6 @@ export const TEXTS = {
     nativeDeliveryPrefix: 'Doručenie možné do:',
     deliveryPrefix: 'MÔŽEME DORUČIŤ DO:',
     shippingProgress: 'Doprava zdarma',
-    shippingCartContext: 'Aktuálny košík',
     addToCart: 'Pridať do košíka',
     productCode: 'Kód:',
     loadingRelated: 'Načítavam…',

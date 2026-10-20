@@ -1,0 +1,88 @@
+{
+  "product": "KOMPLET\nK-BLUM Merivobox, zásuvka K 600mm/40kg, biela, Inserta (komplet)\n60,55 € bez DPH\n74,48 € / sada\nCENTRÁLNY SKLAD\n(40 SADA)\n−\n+",
+  "relatedCount": 1,
+  "cards": [
+    {
+      "name": "StrongFix Skrutka PZ 3,5x16mm, zápustná hlava, zinok, žltý",
+      "code": "Kód: 11109",
+      "bounds": [
+        {
+          "value": "1000",
+          "min": "1000",
+          "max": "9999",
+          "step": "1000"
+        }
+      ],
+      "buttonDisabled": false
+    }
+  ],
+  "exactRelated11109": 1,
+  "highValues": [
+    {
+      "typed": "1",
+      "result": "1000"
+    },
+    {
+      "typed": "10",
+      "result": "1000"
+    },
+    {
+      "typed": "100",
+      "result": "1000"
+    },
+    {
+      "typed": "1000",
+      "result": "1000"
+    },
+    {
+      "typed": "20000",
+      "result": "9999"
+    }
+  ],
+  "width": {
+    "x": 56,
+    "y": 799.84375,
+    "width": 112,
+    "height": 36
+  },
+  "render20000": {
+    "value": "20000",
+    "w": 52,
+    "needed": 27.8076171875
+  },
+  "nativeClamp": "9999",
+  "nativeRelatedAdd1000": true,
+  "items": [
+    {
+      "code": "485572",
+      "quantity": 1,
+      "price": 74.48
+    },
+    {
+      "code": "11109",
+      "quantity": 1000,
+      "price": 0.02
+    }
+  ],
+  "layout": {
+    "view": [
+      390,
+      390
+    ],
+    "bad": [
+      {
+        "tag": "A",
+        "cls": "skip-link sr-only",
+        "x": -1,
+        "right": 0
+      },
+      {
+        "tag": "DIV",
+        "cls": "sr-only",
+        "x": -1,
+        "right": 0
+      }
+    ]
+  },
+  "pass": true
+}

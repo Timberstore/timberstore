@@ -1,0 +1,536 @@
+{
+  "icons": [
+    {
+      "page": "/",
+      "icons": [
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "/uchytky/",
+      "icons": [
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "/vyhladavanie/?string=354068",
+      "icons": [
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "/franke-drez-bfg-611-970x500mm-cierna-matna/",
+      "icons": [
+        {
+          "cls": "btn btn-lg btn-conversion add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        },
+        {
+          "cls": "btn btn-cart add-to-cart-button",
+          "font": "apollo",
+          "content": "\"\"",
+          "color": "rgb(255, 255, 255)",
+          "display": "block"
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "hours": [
+    {
+      "time": "2026-10-20T10:00:00+02:00",
+      "open": "true",
+      "color": "rgb(0, 200, 83)",
+      "rect": {
+        "x": 97.796875,
+        "y": 1752.390625,
+        "width": 8,
+        "height": 7,
+        "top": 1752.390625,
+        "right": 105.796875,
+        "bottom": 1759.390625,
+        "left": 97.796875
+      }
+    },
+    {
+      "time": "2026-10-20T16:01:00+02:00",
+      "open": "false",
+      "color": "rgb(212, 136, 74)",
+      "rect": {
+        "x": 97.796875,
+        "y": 1752.390625,
+        "width": 8,
+        "height": 7,
+        "top": 1752.390625,
+        "right": 105.796875,
+        "bottom": 1759.390625,
+        "left": 97.796875
+      }
+    }
+  ]
+}

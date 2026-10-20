@@ -1,0 +1,840 @@
+diff --git a/src/core/selectors.js b/src/core/selectors.js
+index a405c2a..5f1caa7 100644
+--- a/src/core/selectors.js
++++ b/src/core/selectors.js
+@@ -147,6 +147,12 @@ export const SEL = {
+   headerContactForm: '.contact-box a[href="/kontakty"]',
+   headerAccount:
+     '#header .header-top .top-nav-button-login, #header .header-top .top-nav-button-account',
++  sidebarSupport: '.sidebar-left .timber-support',
++  supportContent: '.support__content',
++  supportContact: '.support__contact',
++  supportEmail: 'a[href^="mailto:"]',
++  supportPhone: 'a[href^="tel:"]',
++  supportButton: '.timber-support-btn',
+   socialFacebook: 'a[data-testid="contactboxFacebook"][href]',
+   socialInstagram: 'a[data-testid="contactboxInstagram"][href]',
+   headerRow: '#header .header-top',
+@@ -218,7 +224,7 @@ export const SEL = {
+   cartQuantityInput:
+     '.in-kosik #cart-wrapper .cart-table .quantity input[name="amount"], #cart-widget .quantity input[name="amount"]',
+   cartRelatedForm:
+-    '.in-kosik #cart-wrapper tr.related.visible .cart-related-product form.pr-action',
++    '.in-kosik #cart-wrapper tr.related .cart-related-product form.pr-action',
+   cartRelatedProduct: '.cart-related-product',
+   cartRelatedLink: '.cart-related-name[href]',
+   cartRelatedAvailability: '.cart-related-availability',
+diff --git a/src/core/texts.js b/src/core/texts.js
+index 066b45d..9528933 100644
+--- a/src/core/texts.js
++++ b/src/core/texts.js
+@@ -50,8 +50,10 @@ export const TEXTS = {
+     nativeDeliveryPrefix: 'Doručenie možné do:',
+     deliveryPrefix: 'MÔŽEME DORUČIŤ DO:',
+     shippingProgress: 'Doprava zdarma',
++    shippingCartContext: 'Aktuálny košík',
+     addToCart: 'Pridať do košíka',
+     productCode: 'Kód:',
++    loadingRelated: 'Načítavam…',
+     title: 'Nákupný košík',
+     summary: 'ZHRNUTIE OBJEDNÁVKY',
+     help: 'Potrebujete pomoc? Sme tu pre Vás:',
+diff --git a/src/main.css b/src/main.css
+index d6d0fc4..7d59a2c 100644
+--- a/src/main.css
++++ b/src/main.css
+@@ -45,3 +45,5 @@
+ @import './styles/overrides/partners.css';
+
+ @import './styles/horizontal-slider.css';
++
++@import './styles/overrides/ui-consistency.css';
+diff --git a/src/modules/cart-presentation/popup-shipping.js b/src/modules/cart-presentation/popup-shipping.js
+index 2edc2ea..45f43e4 100644
+--- a/src/modules/cart-presentation/popup-shipping.js
++++ b/src/modules/cart-presentation/popup-shipping.js
+@@ -19,6 +19,10 @@ export function syncPopupShipping(popup) {
+     if (node && node.classList.contains(SEL.cartPopupFreeClass) !== state.complete)
+       node.classList.toggle(SEL.cartPopupFreeClass, state.complete);
+   }
++  paintShipping(shipping, message, state);
++}
++
++export function paintShipping(shipping, message, state) {
+   const percent = `${state.percent}%`;
+   if (shipping.style.getPropertyValue('--bar-percentage') !== percent)
+     shipping.style.setProperty('--bar-percentage', percent);
+diff --git a/src/modules/cart-presentation/quantity.js b/src/modules/cart-presentation/quantity.js
+index 3004f32..e591af0 100644
+--- a/src/modules/cart-presentation/quantity.js
++++ b/src/modules/cart-presentation/quantity.js
+@@ -5,7 +5,7 @@ export function resizeQuantity(input) {
+   if (!box) return;
+   if (!box.classList.contains('ts-cart-quantity')) box.classList.add('ts-cart-quantity');
+   const digits = String(input.value).length;
+-  const width = String(Math.max(1, digits));
++  const width = String(Math.max(5, digits));
+   if (box.style.getPropertyValue('--ts-cart-digits') !== width)
+     box.style.setProperty('--ts-cart-digits', width);
+ }
+diff --git a/src/modules/cart-presentation/related.js b/src/modules/cart-presentation/related.js
+index 14b95ac..3817dec 100644
+--- a/src/modules/cart-presentation/related.js
++++ b/src/modules/cart-presentation/related.js
+@@ -5,6 +5,28 @@ import { showCode } from './rows.js';
+
+ const requests = new Map();
+ const pending = new WeakSet();
++const settled = new WeakSet();
++const waiting = [];
++let active = 0;
++
++function fetchDocument(url) {
++  // Preload hidden native related rows, bounded to four concurrent documents.
++  return new Promise((resolve) => {
++    waiting.push(async () => {
++      const controller = new AbortController();
++      const timer = window.setTimeout(() => controller.abort(), 8000);
++      try {
++        const response = await fetch(url, { credentials: 'same-origin', signal: controller.signal });
++        resolve(response.ok ? new DOMParser().parseFromString(await response.text(), 'text/html') : null);
++      } catch { resolve(null); }
++      finally { window.clearTimeout(timer); active--; drain(); }
++    });
++    drain();
++  });
++}
++function drain() {
++  while (active < 4 && waiting.length) { active++; void waiting.shift()(); }
++}
+
+ export async function sourceQuantity(url, priceId, expectedCode) {
+   // Related forms omit minimum/maximum/amount completely. Read the existing
+@@ -14,10 +36,7 @@ export async function sourceQuantity(url, priceId, expectedCode) {
+   if (!requests.has(url.href)) {
+     requests.set(
+       url.href,
+-      fetch(url.href, { credentials: 'same-origin' })
+-        .then((response) => (response.ok ? response.text() : null))
+-        .then((html) => (html ? new DOMParser().parseFromString(html, 'text/html') : null))
+-        .catch(() => null),
++      fetchDocument(url.href),
+     );
+   }
+   const doc = await requests.get(url.href);
+@@ -49,15 +68,33 @@ export async function sourceQuantity(url, priceId, expectedCode) {
+ }
+
+ async function enhance(form) {
+-  if (pending.has(form) || form.querySelector('.ts-cart-quantity')) return;
++  if (pending.has(form) || settled.has(form) || form.querySelector('.ts-cart-quantity')) return;
+   const product = form.closest(SEL.cartRelatedProduct);
+   const href = product?.querySelector(SEL.cartRelatedLink)?.href;
+   const priceId = form.querySelector(SEL.cartFormPriceId)?.value;
+   if (!href || !priceId) return;
+   form.querySelector(SEL.cartFormSubmit)?.setAttribute('aria-label', TEXTS.cart.addToCart);
+   pending.add(form);
++  const pendingSubmit = form.querySelector(SEL.cartFormSubmit);
++  const wasDisabled = pendingSubmit?.disabled;
++  if (pendingSubmit) pendingSubmit.disabled = true;
++  form.classList.add('ts-related-pending');
++  form.setAttribute('aria-busy', 'true');
++  const loading = document.createElement('span');
++  loading.className = 'ts-related-loading';
++  loading.setAttribute('role', 'status');
++  loading.textContent = TEXTS.cart.loadingRelated;
++  form.prepend(loading);
+   const source = await sourceQuantity(new URL(href), priceId);
+-  if (!source || !form.isConnected) return; // Native add-to-cart remains available.
++  pending.delete(form);
++  settled.add(form);
++  // One synchronous presentation update when verified data arrives. On failure
++  // restore the original native purchase; never invent min/max, stock or code.
++  loading.remove();
++  if (pendingSubmit) pendingSubmit.disabled = wasDisabled;
++  form.classList.remove('ts-related-pending');
++  form.removeAttribute('aria-busy');
++  if (!source || !form.isConnected) return;
+   const quantity = source.quantity.cloneNode(true);
+   const name = product.querySelector(SEL.cartRelatedLink);
+   showCode(name.parentElement, source.code);
+diff --git a/src/modules/cart-presentation/rows.js b/src/modules/cart-presentation/rows.js
+index 96df2f5..a3c8d43 100644
+--- a/src/modules/cart-presentation/rows.js
++++ b/src/modules/cart-presentation/rows.js
+@@ -10,8 +10,13 @@ export function showCode(parent, code) {
+     label.className = 'ts-cart-code';
+     parent.append(label);
+   }
+-  const text = `${TEXTS.cart.productCode} ${code}`;
+-  if (label.textContent !== text) label.textContent = text;
++  let value = label.querySelector('.ts-cart-code__value');
++  if (!value) {
++    value = document.createElement('span');
++    value.className = 'ts-cart-code__value';
++    label.replaceChildren(TEXTS.cart.productCode + ' ', value);
++  }
++  if (value.textContent !== String(code)) value.textContent = String(code);
+ }
+
+ export function syncRows() {
+diff --git a/src/modules/footer-contacts/index.js b/src/modules/footer-contacts/index.js
+index cd3ef20..9548f85 100644
+--- a/src/modules/footer-contacts/index.js
++++ b/src/modules/footer-contacts/index.js
+@@ -1,3 +1,4 @@
++import { SOCIALS } from '../../core/contacts.js';
+ import { SEL } from '../../core/selectors.js';
+ import { TEXTS } from '../../core/texts.js';
+ import { addHours, updateHours } from '../header-service-bar/index.js';
+@@ -90,10 +91,44 @@ function enhance(footer) {
+   updateHours();
+ }
+
++function enhanceSidebar(root) {
++  const content = root.querySelector(SEL.supportContent);
++  const contacts = root.querySelector(SEL.supportContact);
++  if (!content || !contacts) return;
++  if (!contacts.querySelector('.ts-service-bar__hours')) addHours(contacts);
++  const hours = contacts.querySelector('.ts-service-bar__hours');
++  const email = contacts.querySelector(SEL.supportEmail);
++  const phone = contacts.querySelector(SEL.supportPhone);
++  let previous;
++  for (const node of [hours, email, phone]) {
++    if (!node) continue;
++    if (previous ? node.previousElementSibling !== previous : contacts.firstElementChild !== node) {
++      if (previous) previous.after(node);
++      else contacts.prepend(node);
++    }
++    previous = node;
++  }
++  if (!content.querySelector('.ts-contact-socials')) {
++    const socials = document.createElement('div');
++    socials.className = 'ts-contact-socials';
++    for (const network of ['facebook', 'instagram']) {
++      const link = document.createElement('a');
++      link.href = SOCIALS[network];
++      link.setAttribute('aria-label', TEXTS.header[network]);
++      link.className = `ts-footer-contacts__social ts-footer-contacts__social--${network}`;
++      icon(link, network);
++      socials.append(link);
++    }
++    content.append(socials);
++  }
++  updateHours();
++}
++
+ export default {
+   name: 'footer-contacts',
+   pages: ['*'],
+   init() {
++    document.querySelectorAll(SEL.sidebarSupport).forEach(enhanceSidebar);
+     for (const footer of document.querySelectorAll(SEL.footerContacts)) {
+       enhance(footer);
+       if (observed.has(footer)) continue;
+diff --git a/src/modules/header-service-bar/index.js b/src/modules/header-service-bar/index.js
+index 253f9be..0b434ce 100644
+--- a/src/modules/header-service-bar/index.js
++++ b/src/modules/header-service-bar/index.js
+@@ -276,8 +276,15 @@ function syncMenu() {
+         .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
+       if (phone.textContent !== formatted) phone.textContent = formatted;
+     }
++    let button = contacts.querySelector('.ts-menu-contact-button');
++    if (!button) {
++      button = document.createElement('a');
++      button.className = 'btn btn-primary ts-menu-contact-button';
++      button.href = CONTACT_FORM;
++      button.textContent = TEXTS.footer.writeUs;
++    }
+     let previous = title;
+-    for (const node of [contacts.querySelector(SEL.contactPhone), email, support, socials]) {
++    for (const node of [support, email, contacts.querySelector(SEL.contactPhone), button, socials]) {
+       if (!node) continue;
+       if (node.previousElementSibling !== previous) previous.after(node);
+       previous = node;
+diff --git a/src/modules/list-view/list-view.css b/src/modules/list-view/list-view.css
+index 1f24572..4c4ab73 100644
+--- a/src/modules/list-view/list-view.css
++++ b/src/modules/list-view/list-view.css
+@@ -321,7 +321,7 @@
+
+   /* availability (native element, keeps the colour set in the Shoptet admin) */
+   .ts-view-list #products:not(.products-related) .availability {
+-    --ts-stock-font-size: 14px;
++    --ts-stock-font-size: 13px;
+     grid-area: avail !important;
+     position: static !important;
+     margin: 0 !important;
+@@ -354,7 +354,7 @@
+   .ts-view-list #products:not(.products-related) .prices .price-final strong {
+     order: -1 !important;
+     margin: 0 !important;
+-    font-size: 16px !important;
++    font-size: 15px !important;
+     font-weight: 700 !important;
+     line-height: 1.1 !important;
+     white-space: nowrap !important;
+diff --git a/src/modules/product-compact/index.js b/src/modules/product-compact/index.js
+index 58fc237..d3ab339 100644
+--- a/src/modules/product-compact/index.js
++++ b/src/modules/product-compact/index.js
+@@ -1,4 +1,6 @@
+ // PD Compact · Presentation only; Shoptet retains every price/stock/form node.
++import { getCartShippingPresentation } from '../../core/cart.js';
++import { paintShipping } from '../cart-presentation/popup-shipping.js';
+ import { SEL } from '../../core/selectors.js';
+ import { TEXTS } from '../../core/texts.js';
+ import { splitShippingName } from '../../core/shipping.js';
+@@ -7,6 +9,23 @@ let readiness;
+ let popupObserver;
+
+ function syncShippingPopup() {
++  const state = getCartShippingPresentation();
++  for (const popup of document.querySelectorAll(SEL.compactShippingPopup)) {
++    let panel = popup.querySelector('.ts-delivery-progress');
++    if (!state) { panel?.remove(); continue; }
++    if (!panel) {
++      panel = document.createElement('div');
++      panel.className = 'cart-free-shipping ts-delivery-progress';
++      const message = document.createElement('div');
++      message.className = 'icon-van';
++      const context = document.createElement('small');
++      context.textContent = TEXTS.cart.shippingCartContext;
++      panel.append(context, message);
++      popup.prepend(panel);
++    }
++    panel.classList.toggle(SEL.cartPopupFreeClass, state.complete);
++    paintShipping(panel, panel.querySelector('div'), state);
++  }
+   for (const label of document.querySelectorAll(SEL.compactShippingName)) {
+     // Match the existing checkout formatter. No price/logo/tooltip/control moves.
+     if (label.children.length) continue;
+diff --git a/src/modules/qty-picker/qty-picker.css b/src/modules/qty-picker/qty-picker.css
+index b5b79cd..8c73082 100644
+--- a/src/modules/qty-picker/qty-picker.css
++++ b/src/modules/qty-picker/qty-picker.css
+@@ -2,7 +2,7 @@
+ .ts-qty {
+   display: grid;
+   flex: 0 1 118px;
+-  grid-template-columns: 1fr minmax(0, 1.4fr) 1fr;
++  grid-template-columns: 26px minmax(0, 1fr) 26px;
+   width: 118px;
+   min-width: 0; /* Allow two narrow mobile cards without forcing the input's intrinsic width. */
+   height: 38px;
+@@ -24,7 +24,7 @@
+   cursor: pointer;
+ }
+
+-.ts-qty__btn:hover {
++.ts-qty__btn:is(:hover, :active) {
+   color: var(--ts-color-controls-text);
+   background: var(--ts-color-controls-divider);
+ }
+@@ -40,7 +40,7 @@
+   min-width: 0 !important;
+   height: 100% !important;
+   margin: 0 !important;
+-  padding: 0 var(--ts-space-1) !important;
++  padding: 0 2px !important;
+   border: 0 !important;
+   border-inline: 1px solid var(--ts-qty-divider) !important;
+   border-radius: 0 !important;
+diff --git a/src/styles/overrides/cart-modal.css b/src/styles/overrides/cart-modal.css
+index 66bcdf3..e090a02 100644
+--- a/src/styles/overrides/cart-modal.css
++++ b/src/styles/overrides/cart-modal.css
+@@ -94,105 +94,6 @@
+   box-shadow: none;
+ }
+
+-/* M2/C3 · Original recommendation DOM as a compact purchase table. Native
+-   mobile price relocation remains intact: flatten only presentation wrappers. */
+-#colorbox .advanced-order #products {
+-  display: grid;
+-  gap: 12px;
+-  margin: 16px 24px 24px;
+-}
+-#colorbox .advanced-order .ts-recommendation {
+-  width: 100%;
+-  height: auto;
+-  margin: 0;
+-  padding: 0;
+-}
+-#colorbox .advanced-order .ts-recommendation > .p {
+-  display: grid;
+-  grid-template-columns: 72px minmax(0, 1fr) 110px 160px 100px 42px;
+-  grid-template-areas: 'image name stock price qty cart' 'image code stock net qty cart';
+-  gap: 4px 12px;
+-  align-items: center;
+-  width: 100%;
+-  padding: 16px;
+-  margin: 0;
+-  border: 1px solid var(--ts-color-table-border);
+-  border-radius: 10px;
+-  box-shadow: none;
+-}
+-#colorbox .ts-recommendation :is(.p-in, .p-in-in, .p-bottom, .prices, .p-tools, .product-btn),
+-#colorbox .ts-recommendation .p-bottom > [data-micro='offer'],
+-#colorbox .ts-recommendation .product-btn form {
+-  display: contents !important;
+-}
+-#colorbox .ts-recommendation .image {
+-  grid-area: image;
+-  width: 72px;
+-  padding: 0;
+-  margin: 0;
+-}
+-#colorbox .ts-recommendation .image img {
+-  max-width: 100%;
+-  margin: 0;
+-}
+-#colorbox .ts-recommendation a.name {
+-  grid-area: name;
+-  align-self: end;
+-  min-width: 0;
+-  min-height: 0;
+-  max-height: none;
+-  margin: 0;
+-  font-size: 14px;
+-  line-height: 1.4;
+-  text-align: left !important;
+-}
+-#colorbox .ts-recommendation .p-code {
+-  grid-area: code;
+-  align-self: start;
+-  position: static;
+-  margin: 0;
+-}
+-#colorbox .ts-recommendation .availability {
+-  grid-area: stock;
+-  display: grid;
+-  justify-items: center;
+-  text-align: center;
+-  min-width: 0;
+-  margin: 0;
+-}
+-#colorbox .ts-recommendation .availability > :first-child {
+-  width: min-content;
+-}
+-#colorbox .ts-recommendation .price-final {
+-  grid-area: price;
+-  align-self: end;
+-  margin: 0 !important;
+-  font-size: 18px;
+-}
+-#colorbox .ts-recommendation .price-additional {
+-  grid-area: net;
+-  align-self: start;
+-  margin: 0 !important;
+-  font-size: 12px;
+-}
+-#colorbox .ts-recommendation :is(.quantity, .ts-qty) {
+-  grid-area: qty;
+-  width: 100%;
+-}
+-#colorbox .ts-recommendation .btn-cart {
+-  grid-area: cart;
+-  width: 100% !important;
+-}
+-#colorbox .advanced-order-suggestion {
+-  text-align: center;
+-}
+-@media (max-width: 991px) {
+-  #colorbox .advanced-order .ts-recommendation > .p {
+-    grid-template-columns: 84px minmax(0, 1fr) 42px;
+-    grid-template-areas: 'image name name' 'image code code' 'stock price price' 'stock net net' 'qty cart cart';
+-    gap: 8px 10px;
+-  }
+-}
+ /* Apollo hides SKU and net price in advanced-order. Reveal the original nodes. */
+ #colorbox .ts-recommendation :is(.p-code, .price-additional) {
+   display: block !important;
+diff --git a/src/styles/overrides/cart-presentation.css b/src/styles/overrides/cart-presentation.css
+index ca94dd5..b4b01b4 100644
+--- a/src/styles/overrides/cart-presentation.css
++++ b/src/styles/overrides/cart-presentation.css
+@@ -82,13 +82,15 @@
+   font-weight: 600;
+ }
+ .in-kosik #cart-wrapper .cart-table .show-related {
+-  color: var(--ts-color-accent);
++  color: var(--ts-color-novelty);
+   font-weight: 700;
+   margin: 4px 0 0;
+   white-space: normal;
+ }
+-.in-kosik #cart-wrapper .cart-table .show-related:is(:hover, :active) {
+-  color: var(--ts-color-action-hover);
++.in-kosik #cart-wrapper .cart-table .show-related:is(:hover, :active, :focus-visible) {
++  color: var(--ts-color-novelty);
++  text-decoration: underline;
++  text-underline-offset: 3px;
+ }
+ .in-kosik #cart-wrapper .cart-table .quantity-form {
+   grid-area: 1 / 3;
+diff --git a/src/styles/overrides/product-shipping.css b/src/styles/overrides/product-shipping.css
+index 39d2cbd..f77e797 100644
+--- a/src/styles/overrides/product-shipping.css
++++ b/src/styles/overrides/product-shipping.css
+@@ -76,3 +76,14 @@ body.type-detail #cboxLoadedContent .shipping-options-popup .payment-shipping-pr
+     align-self: center;
+   }
+ }
++/* Native modal inline dimensions can outlive a desktop-to-mobile resize.
++   Constrain its real containing block, including desktop scrollbar width. */
++#colorbox:has(.shipping-options-popup) {
++  width: min(960px, calc(100% - 16px)) !important;
++  left: 50% !important;
++  transform: translateX(-50%);
++}
++#colorbox:has(.shipping-options-popup) :is(#cboxWrapper, #cboxContent, #cboxLoadedContent) {
++  width: 100% !important;
++  box-sizing: border-box;
++}
+diff --git a/src/styles/overrides/quantity-control.css b/src/styles/overrides/quantity-control.css
+index 5444642..0943473 100644
+--- a/src/styles/overrides/quantity-control.css
++++ b/src/styles/overrides/quantity-control.css
+@@ -4,7 +4,7 @@
+ :is(#content [data-ts-compact], .ts-recommendation) .quantity {
+   position: relative;
+   display: inline-grid;
+-  grid-template-columns: 30px max(38px, calc(var(--ts-cart-digits, 1) * 1ch + 12px)) 30px;
++  grid-template-columns: 30px max(52px, calc(var(--ts-cart-digits, 5) * 1ch + 12px)) 30px;
+   width: max-content;
+   height: 36px;
+   padding: 0;
+diff --git a/src/styles/overrides/recommendations.css b/src/styles/overrides/recommendations.css
+index 7552102..4d5c8f6 100644
+--- a/src/styles/overrides/recommendations.css
++++ b/src/styles/overrides/recommendations.css
+@@ -1,11 +1,74 @@
+-/* M2/C3 · Native related/similar cards only. Preserve Swiper tracks/images and
+-   native quantity/forms; replace Apollo's mismatched purchase-row geometry. */
++/* M2/C3 · Native cards, forms and events; no replacement purchase controls. */
++:is(#content, #colorbox) .ts-recommendation > .p {
++  display: grid;
++  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
++  grid-template-areas: 'image image' 'name name' 'code code' 'stock price' 'stock net' 'qty qty' 'cart cart';
++  gap: 8px;
++  align-content: start;
++  padding: 16px !important;
++  height: auto;
++  min-width: 0;
++}
++.ts-recommendation :is(.p-in, .p-in-in, .p-bottom, .prices, .p-tools, .product-btn),
++.ts-recommendation .p-bottom > [data-micro='offer'],
++.ts-recommendation .product-btn form {
++  display: contents !important;
++}
++.ts-recommendation .image {
++  grid-area: image;
++  width: 100%;
++  min-width: 0;
++  margin: 0;
++}
++.ts-recommendation .image img {
++  object-fit: contain;
++  max-width: 100%;
++}
+ .ts-recommendation a.name {
++  grid-area: name;
+   text-align: center !important;
+   text-transform: none;
+   word-break: normal !important;
+   overflow-wrap: normal !important;
+   hyphens: none;
++  min-height: 0;
++  max-height: none;
++  height: auto;
++  margin: 0;
++  -webkit-line-clamp: unset;
++}
++.ts-recommendation .p-code {
++  grid-area: code;
++  position: static;
++  display: block !important;
++  margin: 0;
++  text-align: center;
++}
++.ts-recommendation .availability {
++  grid-area: stock;
++  align-self: center;
++  text-align: center;
++  margin: 0;
++}
++.ts-recommendation .price-final {
++  grid-area: price;
++  text-align: right;
++  align-self: end;
++  margin: 0 !important;
++}
++.ts-recommendation .price-additional {
++  grid-area: net;
++  display: block !important;
++  align-self: start;
++  text-align: right;
++  margin: 0 !important;
++}
++.ts-recommendation :is(.price-final, .price-additional) {
++  min-width: 0;
++  white-space: normal;
++}
++.ts-recommendation :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
++  white-space: nowrap;
+ }
+ .ts-recommendation :is(.pr-list-unit, .ts-recommendation-unit) {
+   display: inline !important;
+@@ -13,62 +76,48 @@
+   font-size: 13px;
+   font-weight: 400;
+ }
+-.ts-recommendation .product-btn {
+-  height: 38px;
+-}
+-.ts-recommendation .product-btn form {
+-  display: flex !important;
+-  align-items: center;
+-  gap: 8px;
+-  padding: 0 12px !important;
+-  width: 100% !important;
+-  max-width: none !important;
+-  margin: 0 !important;
+-}
+ :is(#content, #colorbox) .ts-recommendation .quantity {
+-  flex: 0 1 100px;
+-  min-width: 0;
++  grid-area: qty;
++  width: 100%;
+   height: 38px;
+-  grid-template-columns: 1fr minmax(0, 1.4fr) 1fr;
+-  border-color: var(--ts-qty-border);
++  min-width: 0;
++  margin: 0;
++  grid-template-columns: 28px minmax(0, 1fr) 28px;
+ }
+ :is(#content, #colorbox) .ts-recommendation .quantity :is(input, button) {
+   height: 36px;
+ }
+-.ts-recommendation .product-btn .btn-cart {
+-  flex: 1 0 38px !important;
++:is(#content, #colorbox) .ts-recommendation .ts-qty {
++  grid-area: qty;
++  width: 100%;
++}
++:is(#content, #colorbox) .ts-recommendation .product-btn .btn-cart {
++  grid-area: cart;
++  display: inline-flex;
++  align-items: center;
++  justify-content: center;
++  gap: 8px;
+   min-width: 0 !important;
+   max-width: none !important;
+-  width: auto !important;
++  width: 100% !important;
+   height: 38px !important;
+   min-height: 38px !important;
+   margin: 0 !important;
+-  padding: 0 !important;
+-  font-size: 0 !important;
++  padding: 0 8px !important;
++  font-size: 14px !important;
+   --color-secondary: var(--ts-color-accent);
+   --color-secondary-hover: var(--ts-color-action-hover);
+ }
+-.ts-recommendation .btn-cart > span:not(.ts-cart-count) {
+-  display: none !important;
+-}
+-.ts-recommendation .btn-cart::after {
+-  margin: 0 !important;
+-}
++:is(#content, #colorbox) .ts-recommendation .btn-cart > span:not(.ts-cart-count) { display: inline !important; }
++.ts-recommendation .btn-cart::after { margin: 0 !important; }
+ .type-detail .products-related-block + .products-alternative-block {
+   margin-top: 32px;
+   padding-top: 24px;
+   border-top: 1px solid var(--ts-color-table-border);
+ }
+-/* Apollo reserves 130px for stacked controls. Our shared row needs one line. */
+-:is(.products-related-block, .products-alternative-block) .ts-recommendation > .p {
+-  padding-bottom: 65px !important;
+-}
+-:is(#content, #colorbox) .ts-recommendation .quantity {
+-  margin: 0;
+-}
+-.ts-recommendation :is(.price-final, .price-additional) {
+-  white-space: normal;
+-}
+-.ts-recommendation :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
+-  white-space: nowrap;
++#colorbox .advanced-order #products { display: grid; gap: 16px; margin: 16px 24px 24px; }
++#colorbox .advanced-order .ts-recommendation { width: 100%; height: auto; margin: 0; padding: 0; }
++#colorbox .advanced-order-suggestion { text-align: center; }
++@media (min-width: 992px) {
++  #colorbox .advanced-order #products { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+ }
+diff --git a/src/styles/overrides/ui-consistency.css b/src/styles/overrides/ui-consistency.css
+new file mode 100644
+index 0000000..905b5c0
+--- /dev/null
++++ b/src/styles/overrides/ui-consistency.css
+@@ -0,0 +1,143 @@
++/* M2/C3 · Main price nodes only. cartItemPrice is the secondary per-unit price;
++   never target it or the currency globally. Shoptet still owns every value. */
++.in-kosik #cart-wrapper [data-testid='cartPrice'],
++#cart-widget.ts-header-popup .cart-widget-product-name > [data-testid='cartWidgetProductPrice'],
++.ts-mobile-cart-open #cart-widget .cart-widget-product-name > [data-testid='cartWidgetProductPrice'],
++#cart-widget .ts-cart-summary strong,
++.ordering-process .summary-wrapper .price-wrapper strong[data-testid='recapFullPrice'],
++body.ordering-process #content [data-testid='recapFullPrice'],
++.ordering-process #summary-box .cart-item-price,
++.in-kosik #cart-wrapper .cart-related-button > .price-final {
++  color: var(--ts-color-blue);
++}
++.in-kosik #cart-wrapper .show-related :is(b, span),
++.in-kosik #cart-wrapper .show-related::after,
++.in-kosik #cart-wrapper .show-related::before { color: inherit; }
++.in-kosik #cart-wrapper .show-related[aria-expanded='true'] {
++  text-decoration: underline;
++  text-underline-offset: 3px;
++}
++.in-kosik #cart-wrapper .show-related:focus-visible {
++  outline: 2px solid currentColor;
++  outline-offset: 3px;
++}
++/* Stable five-digit field, without shrinking text or changing native values. */
++.products .product .product-btn { container-type: inline-size; }
++.products .product .p-code { min-height: 19px; }
++.ts-product-meta { font-variant-numeric: tabular-nums; }
++.ts-qty__value, .quantity input { font-variant-numeric: tabular-nums; }
++@container (max-width: 250px) {
++  .products .product:not(.ts-recommendation) form.pr-action:has(> .ts-qty) {
++    display: grid !important;
++    grid-template-columns: minmax(0, 1fr);
++    gap: 8px !important;
++    padding-inline: 0 !important;
++  }
++  .products .product:not(.ts-recommendation) form.pr-action > .ts-qty,
++  .products .product:not(.ts-recommendation) form.pr-action > .btn-cart {
++    width: 100% !important;
++  }
++}
++/* Apollo positions the tile controls absolutely; reserve their stacked height. */
++.products .product:not(.ts-recommendation):has(.ts-qty) > .p { padding-bottom: 106px !important; }
++.products .product:not(.ts-recommendation):has(.ts-qty) .product-btn { height: auto; }
++.type-index .products:not(.products-related) .product:has(.ts-qty) > .p { padding-bottom: 12px !important; }
++@media (min-width: 992px) {
++  .ts-view-list #products:not(.products-related) .product:has(.ts-qty) > .p { padding-bottom: 0 !important; }
++  .ts-view-list #products:not(.products-related) form.pr-action:has(> .ts-qty) { display: contents !important; }
++}
++/* Only the advanced-order modal: Colorbox writes these dimensions inline. */
++@media (min-width: 768px) {
++  #colorbox:has(.advanced-order) { width: min(var(--ts-popup-max-width), 80vw) !important; left: 50% !important; transform: translateX(-50%); }
++  #colorbox:has(.advanced-order) :is(#cboxWrapper, #cboxContent, #cboxLoadedContent) { width: 100% !important; }
++  #colorbox:has(.advanced-order) #cboxLoadedContent { box-sizing: border-box; }
++}
++#colorbox .advancedOrder__buttons [data-testid='buttonPopupCart']::after {
++  content: '';
++  display: inline-block;
++  width: 18px;
++  height: 18px;
++  vertical-align: middle;
++  background: var(--ts-color-bg);
++  mask: var(--ts-icon-cart) center / contain no-repeat;
++  color: var(--ts-color-bg);
++  margin-left: 10px;
++}
++#colorbox .advancedOrder__buttons .next-step-back {
++  border: 1px solid var(--ts-color-controls-active);
++  transition: background-color .15s, box-shadow .15s;
++}
++#colorbox .advancedOrder__buttons .next-step-back:is(:hover, :active) {
++  background: var(--ts-color-service-bg);
++  box-shadow: inset 0 0 0 1px var(--ts-color-controls-active);
++}
++#colorbox .advancedOrder__buttons .next-step-back:focus-visible { outline: 2px solid var(--ts-color-controls-active); outline-offset: 2px; }
++/* Shared shipping presentation; native/server percentages are never recalculated. */
++.in-kosik #cart-wrapper .price-range,
++#colorbox .advanced-order .price-range { height: var(--ts-price-progress-height); flex-basis: var(--ts-price-progress-height); }
++#colorbox .advanced-order .extra.delivery::before { color: var(--ts-color-accent); font-size: 24px; }
++#colorbox .cart-free-shipping.ts-delivery-progress {
++  position: relative;
++  padding: 16px 16px 20px;
++  margin-bottom: 16px;
++  background: var(--ts-color-technical-bg);
++  border: 1px solid var(--ts-color-table-border);
++  border-radius: var(--ts-radius-count);
++}
++#colorbox .ts-delivery-progress > div { padding-left: 36px; }
++#colorbox .ts-delivery-progress > div::before { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--ts-color-accent); font-size: 24px; }
++#colorbox .ts-delivery-progress::after { content: ''; position: absolute; inset: auto 0 0; height: var(--ts-price-progress-height); background: linear-gradient(to right, var(--ts-color-accent) var(--bar-percentage), var(--ts-color-controls-border) var(--bar-percentage)); }
++#colorbox .ts-delivery-progress.is-free-shipping::after { background: var(--ts-color-success); }
++/* Brand colours on custom and native social icons, preserving their destinations. */
++.ts-service-bar__social[data-ts-social='facebook'],
++a[data-testid='contactboxFacebook'] { color: var(--ts-color-facebook); }
++.ts-service-bar__social[data-ts-social='instagram'] { background: var(--ts-instagram-gradient); background-clip: text; color: transparent; }
++.ts-contact-socials { display: flex; justify-content: center; gap: 12px; margin-top: 16px; }
++.ts-contact-socials a { width: 32px; height: 32px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; }
++.ts-contact-socials .ts-footer-contacts__social--facebook { background: var(--ts-color-facebook); }
++.ts-contact-socials .ts-footer-contacts__social--instagram { background: var(--ts-instagram-gradient); }
++.ts-contact-socials svg { width: 18px; height: 18px; fill: none; stroke: var(--ts-color-bg); stroke-width: 1.7; }
++.ts-contact-socials .ts-footer-contacts__social--facebook svg { fill: var(--ts-color-bg); stroke: none; }
++.support__contact .ts-service-bar__hours { display: block; font-size: 13px; margin-bottom: 8px; }
++#header .navigation-in-bottom .ts-menu-contact-button { margin-block: 12px; }
++/* Native listing controls, not carousel track/brand icons. */
++:is(.goToTop__button, .loadMore__button--products, .pagination__link) {
++  color: var(--ts-color-controls-text);
++  border-color: var(--ts-color-controls-active);
++}
++:is(.goToTop__button, .loadMore__button--products, .pagination__link):is(:hover, :active, :focus-visible),
++.pagination__currentPage { color: var(--ts-color-bg); background: var(--ts-color-accent); border-color: var(--ts-color-accent); }
++#cart-widget.ts-header-popup .cart-free-shipping::before,
++#cart-widget.ts-header-popup .cart-free-shipping::after { height: var(--ts-price-progress-height); }
++#header .navigation-in-bottom .ts-menu-socials [data-ts-social='facebook'] { color: var(--ts-color-facebook); }
++#header .navigation-in-bottom .ts-menu-socials [data-ts-social='instagram'] { color: transparent; background: var(--ts-instagram-gradient); background-clip: text; }
++/* One shipping surface across native cart, mini, confirmation and delivery dialog. */
++:is(#cart-widget.ts-header-popup .cart-free-shipping, .in-kosik #cart-wrapper .ts-cart-shipping, #colorbox .advanced-order .extra-content:has(.extra.delivery), #colorbox .ts-delivery-progress) {
++  background: var(--ts-color-technical-bg);
++  border: 1px solid var(--ts-color-table-border);
++  border-radius: var(--ts-radius-count);
++  padding: 12px 16px 18px;
++  line-height: 1.4;
++  font-size: 13px;
++}
++#colorbox .ts-delivery-progress small { display: block; margin-bottom: 4px; color: var(--ts-color-muted); }
++/* Cart code has its own line before and after AJAX; no injected dash. */
++.in-kosik #cart-wrapper .ts-cart-code { display: block; margin-top: 2px; }
++.ts-cart-code__value { color: var(--ts-color-blue); font-weight: 600; }
++/* Related product data is fetched before expansion. Reserve its code and
++   quantity slots while loading, so async data cannot push price/CTA sideways. */
++.in-kosik #cart-wrapper .cart-related-info { grid-template-rows: auto minmax(19px, auto) minmax(36px, auto); }
++.in-kosik #cart-wrapper .cart-related-product { grid-template-columns: minmax(0, 1fr) 112px max-content 40px; }
++.in-kosik #cart-wrapper .ts-related-pending { display: contents; }
++.ts-related-loading { grid-area: 1 / 2; width: 112px; min-height: 36px; display: grid; place-items: center; color: var(--ts-color-muted); font-size: 12px; }
++.ts-related-pending .add-to-cart-button { pointer-events: none; opacity: .6; }
++@media (max-width: 991px) {
++  .in-kosik #cart-wrapper .cart-related-product { grid-template-columns: 112px minmax(0, 1fr) 40px; }
++  .ts-related-loading { grid-area: 2 / 1; }
++}
++.in-kosik #cart-wrapper .cart-related-product .ts-cart-quantity {
++  width: 112px;
++  grid-template-columns: 28px minmax(0, 1fr) 28px;
++}
++:is(#content, #colorbox) .ts-recommendation .p-code :is(.ts-product-meta__label, .ts-product-meta__value) { display: inline !important; }
++:is(#content, #colorbox) .ts-recommendation .availability { display: grid; justify-items: center; }
+diff --git a/src/styles/tokens.css b/src/styles/tokens.css
+index 649971d..c2b06d8 100644
+--- a/src/styles/tokens.css
++++ b/src/styles/tokens.css
+@@ -15,6 +15,9 @@
+   --ts-color-action: var(--ts-color-accent);
+   --ts-color-action-hover: #b8692e;
+   --ts-color-blue: #2454a6; /* Computed product-brand blue; shared custom accent. */
++  --ts-icon-cart: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 3h3l3 11h11l3-8H6M10 19h.01M18 19h.01'/%3E%3C/svg%3E");
++  --ts-popup-max-width: 960px;
++  --ts-price-progress-height: 4px;
+   --ts-color-novelty: #7b3f68; /* Warm plum, distinct from price/CTA/stock. */
+   --ts-color-steel: var(--ts-color-blue);
+   --ts-color-technical-bg: #f3f5f7;

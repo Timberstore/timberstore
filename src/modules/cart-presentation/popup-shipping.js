@@ -47,9 +47,17 @@ export function paintShipping(shipping, message, state) {
     message.replaceChildren(
       t.shippingRemainingPrefix,
       amount,
-      document.createElement('br'),
+      document.createTextNode(' '),
       t.shippingRemainingSuffix,
       free,
     );
+  }
+}
+
+// Text-only native delivery fragments have no controls. Preserve server values
+// and percentage; remove only forced line breaks so each context wraps naturally.
+export function normalizeNativeShipping(root) {
+  for (const delivery of root.querySelectorAll(SEL.cartShippingDelivery)) {
+    delivery.querySelectorAll('br').forEach((node) => node.replaceWith(' '));
   }
 }

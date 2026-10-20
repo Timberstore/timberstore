@@ -1,0 +1,12 @@
+47f7f16 M2/C3: stabilize purchase UI and unify cart price accents
+326282e M2/C3: polish native cart popup and recommendation products
+d3c2607 C3: polish product cards and enable responsive mobile quantity
+8747361 C3/K3: fix preview cart controls, listing stock and filter states
+3e0ec77 fix(preview): colour euro symbols and keep warehouse labels together
+d5e8131 fix(preview): restore feed case and polish price stock and CTA layout
+3f75af6 fix(preview): balance product frame and unify catalogue metadata
+00fc6a8 Release v0.6.12 homepage and footer without product detail preview
+0094da1 COLOR: unify storefront palette for v0.6.2 preview
+eb92414 Style mobile filter counts as subtle neutral badges
+8cba992 Fix hidden accordion scroll overflow and expose native mobile filter reset
+d3abc87 Polish mobile category popups and native filter value lists

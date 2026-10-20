@@ -1,0 +1,8 @@
+{
+  "html": "<div class=\"extra-content ts-cart-shipping\"><div class=\"price-range ts-cart-progress\" role=\"progressbar\" aria-label=\"Doprava zdarma\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"1.13\"><div style=\"width: 1.13%\"></div></div><div class=\"extra delivery\">\n                \n        <span>Nakúpte ešte za <strong class=\"extra-delivery-price\">197,74 €</strong><br> a dopravu máte <strong>zadarmo!</strong></span>\n    </div></div>",
+  "style": {
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "",
+    "padding": "12px 0px"
+  }
+}
