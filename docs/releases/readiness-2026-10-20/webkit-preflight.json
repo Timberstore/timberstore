@@ -1,0 +1,18 @@
+{
+  "packageVersion": "1.57.0",
+  "webkitPath": "/home/agent/.cache/ms-playwright/webkit-2227/pw_run.sh",
+  "binaryExists": false,
+  "physicalIPhone": "No authorized device connection available",
+  "download": {
+    "host": "cdn.playwright.dev",
+    "status": 403,
+    "result": "CONNECT tunnel denied by network policy"
+  },
+  "variantSource": {
+    "host": "friends.shopcode.cz",
+    "status": 403,
+    "result": "CONNECT tunnel denied by network policy"
+  },
+  "launch": "BLOCKED",
+  "launchError": "browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/webkit-2227/pw_run.sh"
+}

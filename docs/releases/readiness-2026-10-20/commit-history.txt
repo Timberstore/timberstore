@@ -1,0 +1,26 @@
+a5d132e PD Compact: align native product detail rows in isolated preview
+e52d447 PD Polish phase 1: compact native information and contact rows
+f71b488 PD Polish phase 2: widen native cart CTA and refine quantity controls
+78a1602 PD Polish phase 3: align product shipping popup with checkout
+3554c38 PD Polish phase 4: mobile variant accent and final regression evidence
+8ef8967 PD: refine final product spacing, delivery and purchase controls
+f9b0a87 docs: clarify isolated unit-layout verification
+cf3076e fix: unify detail quantity with mini-cart and information labels
+4d89af7 fix: align rendered product information spacing and mobile delivery
+035dc7d feat: arrange native product purchase information in two columns
+5ad4689 fix: frame native purchase panel and centre accessible price layout
+8020ed8 fix: unify custom blue accents and align purchase panel to native variants
+0c24cff fix(preview): compact product spacing and remove code chip surface
+3f75af6 fix(preview): balance product frame and unify catalogue metadata
+a708ba7 fix(preview): bound mobile product layout and separate detail frame
+4dbaf85 fix(preview): centre product presentation and refine native gallery gestures
+d5e8131 fix(preview): restore feed case and polish price stock and CTA layout
+3e0ec77 fix(preview): colour euro symbols and keep warehouse labels together
+8747361 C3/K3: fix preview cart controls, listing stock and filter states
+d3c2607 C3: polish product cards and enable responsive mobile quantity
+326282e M2/C3: polish native cart popup and recommendation products
+f694807 Docs: record immutable preview and CDN verification
+6bf544e M2/C3: unify quantity paint and compact homepage purchase rows
+2348b8d Docs: record homepage preview CDN smoke results
+e308459 M2/C3/K3: align quantity reference, homepage columns, price filter and SKU
+9faa138 Docs: record final UI immutable preview and CDN checks
