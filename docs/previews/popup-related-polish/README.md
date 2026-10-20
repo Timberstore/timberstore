@@ -70,3 +70,11 @@ Verzia ostáva `0.6.13-compact.1`; produkčný loader a stabilné limity sú nez
 - `docs/previews/popup-related-polish/README.md`
 - `docs/previews/popup-related-polish/verification.json`
 - `docs/previews/popup-related-polish/*.png`
+
+## Publikované immutable preview
+
+[AGOFORM — popup](https://www.timberstore.sk/pribornik-classico-kristall-softtouch-722x474mm-cierna/?ts_preview=326282ef13c3bfe593a3014a8ed83dc5fe23e40a)
+
+[FRANKE — súvisiace a podobné](https://www.timberstore.sk/franke-drez-bfg-611-970x500mm-cierna-matna/?ts_preview=326282ef13c3bfe593a3014a8ed83dc5fe23e40a)
+
+CDN JS/CSS sú bajtovo zhodné s overeným buildom. Živý smoke test skutočného CDN pri 1440/390 px: správne SHA loadera, modrá cena, natívna jednotka `/ ks`, jeden ovládač a nulový horizontálny overflow. [Výsledok](cdn-smoke.json). Pridanie rodičovského AGOFORM produktu bolo úspešné; endpoint rozšíreného popupu opäť vrátil `content:false`, zhodne s doloženým obmedzením referencie. Tento CDN pokus preto nepotvrdzuje otvorenie popupu; jeho funkčné nákupy sú doložené samostatnými predpublikačnými živými behmi s identickým bundle.
