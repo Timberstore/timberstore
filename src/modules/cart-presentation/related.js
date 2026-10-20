@@ -6,7 +6,7 @@ import { showCode } from './rows.js';
 const requests = new Map();
 const pending = new WeakSet();
 
-async function sourceQuantity(url, priceId) {
+export async function sourceQuantity(url, priceId, expectedCode) {
   // Related forms omit minimum/maximum/amount completely. Read the existing
   // public product document once per URL; never execute its scripts or invent
   // an unrestricted range. Match the exact variant before borrowing its UI.
@@ -22,7 +22,15 @@ async function sourceQuantity(url, priceId) {
   }
   const doc = await requests.get(url.href);
   const detail = doc?.querySelector(SEL.relatedDetailForm);
-  if (detail?.querySelector(SEL.cartFormPriceId)?.value !== priceId) return null;
+  const sku = detail?.querySelector(SEL.detailSku);
+  const code = sku?.getAttribute('content') || sku?.textContent.trim();
+  if (
+    !detail ||
+    (priceId
+      ? detail.querySelector(SEL.cartFormPriceId)?.value !== priceId
+      : !expectedCode || code !== expectedCode)
+  )
+    return null;
   const quantity = detail.querySelector(SEL.nativeQuantity);
   const amount = quantity?.querySelector(SEL.cartFormAmount);
   if (
@@ -32,10 +40,10 @@ async function sourceQuantity(url, priceId) {
     !(Number(amount.step) > 0)
   )
     return null;
-  const sku = detail.querySelector(SEL.detailSku);
   return {
     quantity,
-    code: sku?.getAttribute('content') || sku?.textContent.trim(),
+    unit: doc.querySelector(SEL.sourceProductPriceUnit)?.textContent.trim(),
+    code,
     stock: detail.querySelector(SEL.detailStockAmount),
   };
 }

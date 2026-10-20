@@ -1,13 +1,22 @@
 /* Design tokens — the only place for colours, spacing and breakpoints. */
 :root {
   --ts-color-facebook: #1877f2;
-  --ts-instagram-gradient: linear-gradient(35deg, #feda75, #fa7e1e 25%, #d62976 50%, #962fbf 75%, #4f5bd5);
+  --ts-instagram-gradient: linear-gradient(
+    35deg,
+    #feda75,
+    #fa7e1e 25%,
+    #d62976 50%,
+    #962fbf 75%,
+    #4f5bd5
+  );
   --ts-color-accent: #d4884a; /* btn-primary on timberstore.sk */
   /* Original Timber palette: no alternative brown action/link shades. */
   --ts-color-link: var(--ts-color-accent);
   --ts-color-action: var(--ts-color-accent);
   --ts-color-action-hover: #b8692e;
-  --ts-color-steel: #29465b;
+  --ts-color-blue: #2454a6; /* Computed product-brand blue; shared custom accent. */
+  --ts-color-novelty: #7b3f68; /* Warm plum, distinct from price/CTA/stock. */
+  --ts-color-steel: var(--ts-color-blue);
   --ts-color-technical-bg: #f3f5f7;
   --ts-color-price: #252b32;
   --ts-color-field-border: #828f99;
@@ -34,7 +43,6 @@
   --ts-color-error: #b83b43;
   --ts-color-error-bg: #fcedef;
   --ts-color-info-bg: #eaf3f7;
-  --ts-color-delivery-date: #c0392b;
   --color-primary: var(--ts-color-controls-text);
   --color-primary-hover: var(--ts-color-controls-active);
   --color-tertiary: var(--ts-color-service-bg);
@@ -47,14 +55,13 @@
   --ts-color-service-divider: #ded8d0;
   --ts-service-height: 36px;
   --ts-service-font-size: 13px;
-  --ts-service-gap: 14px;
   --ts-service-icon-size: 18px;
   --ts-service-status-size: 8px;
   --ts-color-service-open: var(--ts-color-positive);
   --ts-color-cart-delete: #b83b43;
   --ts-color-cart-delete-hover: #96362f;
   --ts-color-cart-delete-bg: #fcedef;
-  --ts-color-cart-count-bg: #29465b; /* steel badge, not availability */
+  --ts-color-cart-count-bg: var(--ts-color-blue); /* custom cart badge, not availability */
   --ts-header-logo-width: 200px;
   --ts-header-logo-height: 44px;
   --ts-header-padding: 20px;
@@ -67,6 +74,18 @@
   --ts-color-controls-divider: #e5e0da;
   --ts-color-controls-active-bg: #fff8f1;
   --ts-color-controls-active: #c97a2b;
+  /* Shared quantity paint; geometry stays local to each native component. */
+  --ts-qty-border: var(--ts-color-controls-active);
+  --ts-qty-minus: var(--ts-color-controls-text);
+  --ts-qty-minus-bg: var(--ts-color-service-bg);
+  --ts-qty-plus: var(--ts-color-controls-text);
+  --ts-qty-plus-bg: var(--ts-color-service-bg);
+  --ts-qty-divider: var(--ts-color-controls-border);
+  --ts-qty-radius: 7px;
+  --ts-home-cart-gap: 20px;
+  --ts-home-row-width: 268px;
+  --ts-home-cols: minmax(0, 1fr) minmax(0, 1.48fr);
+  --ts-color-sku-bg: rgb(255 255 255 / 94%);
   --ts-color-count-bg: #faf8f5;
   --ts-color-count-text: #6f7182;
   --ts-radius-count: 5px;
@@ -114,3 +133,16 @@ body {
 /* Breakpoints (CSS custom properties can't be used in media queries —
    keep these values in sync with the Shoptet template):
    sm 768px · md 992px · lg 1200px */
+
+/* PD Compact · scoped variables, no global palette changes. */
+.type-detail .p-detail {
+  --ts-compact-blue-bg: #eaf1fc;
+  --ts-compact-border: #e1e5eb;
+  --ts-compact-purchase-bg: #f8fafc;
+  --ts-compact-purchase-border: #dde4ed;
+  --ts-compact-section: 24px;
+  --ts-compact-radius: 16px;
+  --ts-compact-padding: 10px;
+  --ts-compact-frame-space: 10px;
+  --ts-compact-grid-gutter: 10px;
+}

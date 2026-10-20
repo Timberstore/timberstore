@@ -1020,13 +1020,6 @@ html {
     scrollbar-gutter: stable !important;
 }
 
-/* Nová stránka sa sprístupní až po zostavení DOM. Triedu pridáva malý
-   jednorazový skript v HEAD a potom ju už iba odstráni. Nepoužíva sa
-   nestabilná Shoptet trieda .after-load. */
-html.timber-page-loading body {
-    visibility: hidden !important;
-}
-
 /* Prehliadač počas navigácie podrží hotovú snímku pôvodnej stránky. */
 @view-transition {
     navigation: auto;
@@ -1457,8 +1450,7 @@ h1[itemprop="name"],
         overflow: visible !important;
     }
 
-    #category-filter-hover > .slider-wrapper,
-    #category-filter-hover > .filter-section:not(.filter-section-count) {
+    #category-filter-hover > :is(.slider-wrapper, .filter-section:not(.filter-section-count)) {
         position: relative !important;
         order: 0 !important;
         flex: 0 0 auto !important;
@@ -1473,8 +1465,7 @@ h1[itemprop="name"],
         box-shadow: none !important;
     }
 
-    #category-filter-hover > .slider-wrapper > h4,
-    #category-filter-hover > .filter-section:not(.filter-section-count) > h4 {
+    #category-filter-hover > :is(.slider-wrapper, .filter-section:not(.filter-section-count)) > h4 {
         position: relative !important;
         display: flex !important;
         align-items: center !important;
@@ -1497,38 +1488,17 @@ h1[itemprop="name"],
         transition: background-color .16s ease, color .16s ease !important;
     }
 
-    #category-filter-hover > .slider-wrapper > h4:hover,
-    #category-filter-hover > .filter-section:not(.filter-section-count) > h4:hover {
+    #category-filter-hover > :is(.slider-wrapper, .filter-section:not(.filter-section-count)) > h4:hover {
         background: rgba(255,255,255,.55) !important;
         color: var(--ts-color-link) !important;
     }
 
-    #category-filter-hover > .slider-wrapper > h4::before,
-    #category-filter-hover > .filter-section:not(.filter-section-count) > h4::before {
+    #category-filter-hover > :is(.slider-wrapper, .filter-section:not(.filter-section-count)) > h4::before {
         content: none !important;
         display: none !important;
     }
 
-    #category-filter-hover > .slider-wrapper > h4::after,
-    #category-filter-hover > .filter-section:not(.filter-section-count) > h4::after {
-        content: "" !important;
-        position: absolute !important;
-        right: 15px !important;
-        top: 50% !important;
-        width: 7px !important;
-        height: 7px !important;
-        margin-top: -5px !important;
-        padding: 0 !important;
-        background: transparent !important;
-        border: 0 !important;
-        border-right: 1.5px solid currentColor !important;
-        border-bottom: 1.5px solid currentColor !important;
-        transform: rotate(45deg) !important;
-        pointer-events: none !important;
-    }
-
-    #category-filter-hover > .slider-wrapper::after,
-    #category-filter-hover > .filter-section:not(.filter-section-count)::after {
+    #category-filter-hover > :is(.slider-wrapper, .filter-section:not(.filter-section-count))::after {
         content: "" !important;
         position: absolute !important;
         right: 0 !important;
@@ -1690,23 +1660,6 @@ h1[itemprop="name"],
     body.type-category #filters .filter-headline {
         color: var(--ts-color-controls-text) !important;
         font-weight: 800 !important;
-    }
-
-    /* Bežný stav hlavičiek filtrov – nemeníme rozmery ani layout. */
-    body.type-category #filters #category-filter-hover .slider-wrapper > h4,
-    body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4 {
-        color: var(--ts-color-controls-text) !important;
-        transition: color .16s ease, border-color .16s ease, background-color .16s ease !important;
-    }
-
-    /* Aktívny / otvorený filter v Timber farbách. */
-    body.type-category #filters #category-filter-hover .slider-wrapper.is-active > h4,
-    body.type-category #filters #category-filter-hover .filter-section.is-active > h4,
-    body.type-category #filters #category-filter-hover .slider-wrapper > h4:focus,
-    body.type-category #filters #category-filter-hover .filter-section:not(.filter-section-count) > h4:focus {
-        color: var(--ts-color-link) !important;
-        border-color: var(--ts-color-accent) !important;
-        background-color: var(--ts-color-controls-active-bg) !important;
     }
 
     /* Checkboxy / voľby filtrov v našej oranžovej. */

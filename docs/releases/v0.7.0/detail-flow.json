@@ -1,0 +1,138 @@
+[
+  {
+    "width": 1440,
+    "externalVariants": "NOT VERIFIED; browser-only fixture membership",
+    "gallery": true,
+    "shippingRows": 4,
+    "nativeDetailAdd": 3,
+    "lineTotal": "6,78 €",
+    "checkout": {
+      "path": "/objednavka/krok-1/",
+      "shipping": [
+        {
+          "value": "98",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "value": "95",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "89",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "104",
+          "disabled": false,
+          "checked": false
+        }
+      ],
+      "billing": [
+        {
+          "value": "72",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "value": "84",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "78",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "5",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "66",
+          "disabled": false,
+          "checked": false
+        }
+      ],
+      "viewport": [
+        1440,
+        1425
+      ],
+      "status": "PASS rendering only; no order or payment"
+    },
+    "noOrderOrPaymentSubmitted": true,
+    "fixtureVariantPath": "/tulip-knopka-jota-biela-leskla/",
+    "pass": true
+  },
+  {
+    "width": 393,
+    "externalVariants": "NOT VERIFIED; browser-only fixture membership",
+    "gallery": true,
+    "shippingRows": 4,
+    "nativeDetailAdd": 3,
+    "lineTotal": "2,26 € / ks\n6,78 €",
+    "checkout": {
+      "path": "/objednavka/krok-1/",
+      "shipping": [
+        {
+          "value": "98",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "value": "95",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "89",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "104",
+          "disabled": false,
+          "checked": false
+        }
+      ],
+      "billing": [
+        {
+          "value": "72",
+          "disabled": false,
+          "checked": true
+        },
+        {
+          "value": "84",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "78",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "5",
+          "disabled": false,
+          "checked": false
+        },
+        {
+          "value": "66",
+          "disabled": false,
+          "checked": false
+        }
+      ],
+      "viewport": [
+        393,
+        393
+      ],
+      "status": "PASS rendering only; no order or payment"
+    },
+    "noOrderOrPaymentSubmitted": true,
+    "fixtureVariantPath": "/tulip-knopka-jota-biela-leskla/",
+    "pass": true
+  }
+]

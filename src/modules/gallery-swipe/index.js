@@ -62,17 +62,19 @@ function revealThumb(thumb, triesLeft = MAX_ARROW_CLICKS) {
   setTimeout(() => revealThumb(thumb, triesLeft - 1), 50); // re-check the new offset
 }
 
+function move(dir) {
+  const thumbs = thumbnails();
+  if (thumbs.length < 2) return;
+  const index = Math.max(0, activeIndex(thumbs)) + (dir === 'next' ? 1 : -1);
+  const target = thumbs[index];
+  if (!target) return;
+  target.click();
+  revealThumb(target);
+  preloadNeighbours(thumbs, index);
+}
+
 function bind(image) {
-  bindSwipe(image, (dir) => {
-    const thumbs = thumbnails();
-    if (thumbs.length < 2) return;
-    const index = Math.max(0, activeIndex(thumbs)) + (dir === 'next' ? 1 : -1);
-    const target = thumbs[index];
-    if (!target) return;
-    target.click();
-    revealThumb(target);
-    preloadNeighbours(thumbs, index);
-  });
+  bindSwipe(image, move, true);
 
   // The first swipe should find its photo ready too.
   whenIdleAfterLoad(() => {
@@ -90,14 +92,10 @@ function bind(image) {
 // lightbox (that is a click, not blocked).
 function blockTouchZoom(image) {
   let lastTouch = 0;
-  const onPointer = (e) => {
-    if (e.pointerType !== 'mouse') lastTouch = Date.now();
-  };
   const onTouch = (e) => {
-    lastTouch = Date.now();
-    if (e.target.closest(SEL.productZoomTrap)) e.stopPropagation();
+    if (e.pointerType !== 'mouse') lastTouch = Date.now();
+    if (e.type.startsWith('touch') && e.target.closest(SEL.productZoomTrap)) e.stopPropagation();
   };
-  ['pointerdown', 'pointerup'].forEach((type) => image.addEventListener(type, onPointer, true));
   const onCompatMouse = (e) => {
     // Preserve the live v0.6.5 touch-gallery hotfix in the versioned module:
     // cloud-zoom must not close a zoom that a touch-only device never opened.
@@ -109,8 +107,8 @@ function blockTouchZoom(image) {
     if (touchMouseout || Date.now() - lastTouch < COMPAT_MOUSE_MS) e.stopPropagation();
   };
   // Capture phase on the stable wrapper: the zoom layer itself is recreated.
-  ['touchstart', 'touchmove', 'touchend', 'touchcancel'].forEach((type) =>
-    image.addEventListener(type, onTouch, { capture: true, passive: true }),
+  ['pointerdown', 'pointerup', 'touchstart', 'touchmove', 'touchend', 'touchcancel'].forEach(
+    (type) => image.addEventListener(type, onTouch, { capture: true, passive: true }),
   );
   ['mouseover', 'mousemove', 'mouseout'].forEach((type) =>
     image.addEventListener(type, onCompatMouse, true),
@@ -121,7 +119,7 @@ export default {
   name: 'gallery-swipe',
   pages: ['detail'],
   init(root) {
-    root.querySelectorAll(SEL.productImage).forEach((image) => {
+    root.querySelectorAll(SEL.productImage + ', ' + SEL.productThumbnails).forEach((image) => {
       if (image.dataset.tsInit) return;
       image.dataset.tsInit = 'gallery-swipe';
       image.classList.add('ts-gallery-swipe');

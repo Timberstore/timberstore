@@ -1,5 +1,7 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  productMetadata: { code: 'KÓD: ', brand: 'ZNAČKA: ', variants: 'VŠETKY VARIANTY' },
+  productCompact: { vat: 'bez DPH', vatSuffix: /bez\s+DPH/gi },
   services: {
     page: 'Zobraziť ponuku – strana',
   },
@@ -11,7 +13,8 @@ export const TEXTS = {
     next: 'Ďalšie príspevky',
     page: 'Zobraziť Instagram príspevky – strana',
     title: 'Sledujte nás na Instagrame',
-    unavailable: 'Instagram galéria momentálne nie je dostupná. Príspevky nájdete na našom profile.',
+    unavailable:
+      'Instagram galéria momentálne nie je dostupná. Príspevky nájdete na našom profile.',
   },
   footer: {
     writeUs: 'Napíšte nám',

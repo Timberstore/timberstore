@@ -1,0 +1,78 @@
+/* PD Final Polish / phase 3: product delivery popup only. Share checkout's
+   name/term hierarchy and mobile name-then-logo/price rows; native data stays. */
+body.type-detail #cboxLoadedContent .shipping-options-popup .shipping-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 70px 76px;
+  align-items: center;
+  gap: 10px 12px;
+  margin: 0;
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--ts-color-controls-border);
+}
+body.type-detail #cboxLoadedContent .shipping-options-popup .payment-info {
+  display: block;
+  position: relative;
+  min-width: 0;
+  width: auto;
+  margin: 0;
+  padding: 0 24px 0 0;
+}
+body.type-detail #cboxLoadedContent .shipping-options-popup .shipping-billing-name {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+body.type-detail #cboxLoadedContent .shipping-options-popup .ts-shipping__delivery {
+  margin-top: var(--ts-space-1);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--ts-color-price-secondary);
+}
+body.type-detail #cboxLoadedContent .shipping-options-popup .payment-info > .question-tooltip {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+body.type-detail #cboxLoadedContent .shipping-options-popup :is(.payment-logo, .payment-shipping-price) {
+  float: none;
+  width: auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  justify-self: end;
+}
+body.type-detail #cboxLoadedContent .shipping-options-popup .payment-logo {
+  display: flex;
+  align-items: center;
+  max-width: 70px;
+  height: 30px;
+}
+body.type-detail #cboxLoadedContent .shipping-options-popup .payment-logo img {
+  max-width: 100%;
+  max-height: 30px;
+  object-fit: contain;
+}
+body.type-detail #cboxLoadedContent .shipping-options-popup .payment-shipping-price {
+  text-align: right;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  body.type-detail #cboxLoadedContent .shipping-options-popup .shipping-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  body.type-detail #cboxLoadedContent .shipping-options-popup .payment-info {
+    grid-area: 1 / 1 / 2 / -1;
+  }
+  body.type-detail #cboxLoadedContent .shipping-options-popup .payment-logo {
+    grid-area: 2 / 1;
+    justify-self: start;
+  }
+  body.type-detail #cboxLoadedContent .shipping-options-popup .payment-shipping-price {
+    grid-area: 2 / 2;
+    align-self: center;
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "width": 1440,
+    "cards": [
+      {
+        "sel": ".products-related-block",
+        "styles": {
+          "border": "rgb(201, 122, 43)",
+          "radius": "7px",
+          "minus": {
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(229, 224, 218)",
+            "height": 36
+          },
+          "plus": {
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "height": 36
+          },
+          "input": {
+            "color": "rgb(32, 36, 42)",
+            "bg": "rgb(255, 255, 255)",
+            "height": 36
+          }
+        },
+        "pass": true
+      },
+      {
+        "sel": ".products-alternative-block",
+        "styles": {
+          "border": "rgb(201, 122, 43)",
+          "radius": "7px",
+          "minus": {
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(229, 224, 218)",
+            "height": 36
+          },
+          "plus": {
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "height": 36
+          },
+          "input": {
+            "color": "rgb(32, 36, 42)",
+            "bg": "rgb(255, 255, 255)",
+            "height": 36
+          }
+        },
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "cards": [
+      {
+        "sel": ".products-related-block",
+        "styles": {
+          "border": "rgb(201, 122, 43)",
+          "radius": "7px",
+          "minus": {
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(229, 224, 218)",
+            "height": 36
+          },
+          "plus": {
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "height": 36
+          },
+          "input": {
+            "color": "rgb(32, 36, 42)",
+            "bg": "rgb(255, 255, 255)",
+            "height": 36
+          }
+        },
+        "pass": true
+      },
+      {
+        "sel": ".products-alternative-block",
+        "styles": {
+          "border": "rgb(201, 122, 43)",
+          "radius": "7px",
+          "minus": {
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(229, 224, 218)",
+            "height": 36
+          },
+          "plus": {
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "height": 36
+          },
+          "input": {
+            "color": "rgb(32, 36, 42)",
+            "bg": "rgb(255, 255, 255)",
+            "height": 36
+          }
+        },
+        "pass": true
+      }
+    ],
+    "pass": true
+  }
+]

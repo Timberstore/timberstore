@@ -1,5 +1,94 @@
 # Changelog
 
+## v0.7.0 · 2026-10-20
+
+- Promote approved product-detail, catalogue/filter, homepage, quantity and cart presentation to stable v0.7.0. Preserve native Shoptet purchasing, prices and stock logic.
+- Retain tested 32 KiB JS / 26.75 KiB CSS budgets without increase. Production loader remains v0.6.13 pending manual owner activation.
+- Safari/WebKit and physical iPhone: **WAIVED BY OWNER**. Live external variant feed: **NOT VERIFIED**.
+- [Release, final Chromium results, activation and rollback](docs/releases/v0.7.0.md); [complete changes since v0.6.13](docs/releases/v0.7.0/CHANGES.sk.md).
+
+## PD Price, Stock & Feed-Case Polish · 2026-10-19 · Preview only
+
+- Restore product titles to native feed case while retaining centring and whole-word wrapping.
+- Increase desktop header separation to 24 px, balance native CTA spacing, colour only final-price numeric amounts #2454A6, centre mobile stock label/quantity rows and use the existing orange for KOMPLET.
+- Preserve native price/currency/unit/stock/form data and handlers; reuse the existing observer for idempotent amount presentation and dynamic text updates.
+- [Responsive measurements, native tests, screenshots, changed files and limits](docs/previews/product-price-stock-polish/README.md). Same preview branch; no merge, release or production deployment.
+
+## PD UI & Gallery Final Refinement · 2026-10-19 · Preview only
+
+- Centre uppercase product titles and native code/brand groups without changing title metrics; share whole-word product presentation across catalogue/search/related cards, excluding cart/checkout.
+- Remove variant-heading side rules, colour only contact icons orange, centre mobile partial variant rows and give the existing expansion button its own row.
+- Add subtle mobile submenu backgrounds and opt-in mouse dragging through the existing native-thumbnail gallery integration; retain CloudZoom, Colorbox, touch gestures and native purchasing.
+- [35 responsive comparisons, interaction tests, screenshots and replay limitations](docs/previews/product-ui-gallery-refinement/README.md). Existing preview branch only; no merge, release or production deployment.
+
+## PD Mobile Overflow & Gallery Refinement · 2026-10-19 · Preview only
+
+- Fix real mobile layout expansion (390→402 px) at the frame, without global overflow hiding or header changes. Tests now assert requested device width and category/home header geometry.
+- Keep native title/code/brand outside a bounded detail-body frame; preserve original form and node identities.
+- Branded gallery controls with desktop clearance; centred partial desktop variant rows, 12 px extra desktop purchase spacing, green selected marker.
+- [Root cause, 36 responsive comparisons, native interactions, screenshots and known limits](docs/previews/product-mobile-gallery/README.md). Same preview branch; no merge, release or production deployment.
+
+## PD Panel Insets, Metadata & Variant Heading · 2026-10-19 · Preview only
+
+- Symmetric measured frame insets: 18 px desktop, 15 px tablet, 16 px small mobile, with card/purchase/gallery dimensions retained.
+- Shared neutral KÓD:/ZNAČKA: labels and #2454A6 native values across detail/catalogue; existing observer normalizes AJAX updates without duplicate wrappers.
+- VŠETKY VARIANTY is centred between equal subtle rules on all devices, reusing the category-heading presentation.
+- [Measurements, native tests, screenshots, changed files and limits](docs/previews/product-panel-metadata/README.md). WIRELI live URL became unavailable; its final layout evidence uses stored native HTML. Same preview branch; no merge/release/production deployment.
+
+## PD Final Density & Code Typography · 2026-10-19 · Preview only
+
+- Remove code chip surface/border/padding; neutral labels and matching blue code/brand values share typography.
+- Compact actual title/metadata/variant/purchase/contact spacing. Align title, metadata, short description and links with unchanged card/purchase edges, including Apollo's separate mobile header.
+- [Measured before/after geometry, responsive/native checks, screenshots and limits](docs/previews/product-final-density/README.md). Native DOM/JS, card dimensions, purchase panel and gallery unchanged. No merge, release or production deployment.
+
+## PD Blue Unification & Variant Alignment · 2026-10-19 · Preview only
+
+- Use computed brand blue #2454A6 as the shared custom accent; retain native/social/carrier colours and semantic success/error/medal neutrals. Product-code label matches the neutral brand label; code value stays blue.
+- Orange variant heading; purchase panel follows unchanged native card-grid edges. Symmetric tablet frame; card/image sizes, gaps, active marker and handlers unchanged.
+- [Colour inventory/exceptions, measured alignment, native tests and screenshots](docs/previews/product-blue-alignment/README.md). No JavaScript change, merge, release or production deployment.
+
+## PD Final Purchase Panel · 2026-10-19 · Preview only
+
+- Same-case delivery labels, accessible visually hidden price label and centred price/net price within the existing columns.
+- One subtle #F8FAFC / #DDE4ED bordered purchase surface contains native information and existing quantity/CTA, guarded to retain their original form. Variants and contact links stay outside.
+- [Three-product responsive/native checks, screenshots and known limits](docs/previews/product-purchase-panel/README.md). No merge, release or production changes.
+
+## PD Purchase Information Columns · 2026-10-19 · Preview only
+
+- Group existing native price/availability blocks inside the same Apollo grid: stock/delivery/link left, dominant price and parenthetical net price right. One idempotent wrapper, no duplicate native nodes or pricing/stock logic changes.
+- Compact natural-height columns; intrinsic safe wrap at 320 px and for long prices. Purchase controls, variants, gallery and contacts preserved.
+- [Responsive/native tests, long-price cases, card replay and screenshots](docs/previews/product-purchase-columns/README.md). Same preview branch; no merge, release or production change.
+
+## PD Final Product Information Spacing · 2026-10-19 · Preview only
+
+- Remove Apollo's invisible 10 px unit-price margin; use matching grid rows and one measured spacing rhythm. Visible glyph gaps: 30/20 px → 13/13 px, or 13.5/13 px with wrapped net price at 320 px.
+- Up to 767 px, native delivery date sits 4 px below its label; the delivery-options link remains on the right when it fits and otherwise wraps. Desktop delivery stays horizontal.
+- [Before/after measurements, screenshots and native checks](docs/previews/product-information-spacing/README.md). JS, quantity/CTA styles and production unchanged; no merge or release.
+
+## PD Final Unification Fix · 2026-10-19 · Preview only
+
+- Detail quantity uses the mini-cart's existing shared CSS: 36 px shell, 30/38/30 px segments, original colours, dividers and typography. Mini-cart presentation and native handlers preserved.
+- Price, availability and delivery labels use 14 px / 500 / 21 px typography and a shared 16 px information rhythm. Native price hierarchy, green availability/date and CTA rules retained.
+- [Changed files, reference comparisons and native checks](docs/previews/product-unification-fix/README.md). No merge, release or production change.
+
+## PD Final Spacing & Controls · 2026-10-19 · Preview only
+
+- Background-free delivery with the native date in availability green; 16 px information gaps, cart-token quantity styling, 22/14 px CTA spacing and a slightly narrower desktop button.
+- Product shipping-popup text +1 px; relative ~16 px units, weight 600, kept with the real price. JavaScript, native logic and protected components unchanged.
+- [Changed files, responsive/native tests and limits](docs/previews/product-final-spacing-controls/README.md). No merge, release or production change.
+
+## PD Final Polish · 2026-10-19 · Same isolated preview branch
+
+- Four separately checked phases: information rows, native purchase controls, shipping popup, and mobile variant expansion styling. No merge, release or production change.
+- Fixed Apollo contact-row width, open Colorbox overflow on viewport narrowing, CTA icon wrapping, and net-price whitespace.
+- [Phase results, regressions, changed files and verification limits](docs/previews/product-final-polish/README.md).
+
+## PD Compact PRO · 2026-10-19 · Isolated preview only
+
+- Compact native detail rows, royal blue product code, subtle shared frame and whole-word titles. Stable v0.6.13 base; no prior redesign or warehouse logic carried over.
+- Native variant dimensions/order/active state preserved; Shoptet prices, stock, date, gallery and cart retain their logic.
+- [Changed files, verification evidence and limits](docs/previews/product-compact-pro/README.md). No merge, release tag or production deployment.
+
 ## v0.6.13 · 2026-10-19 · Dokončenie homepage, Instagramu a kontaktov
 
 - Biely text aj v širokej oranžovej hlavičke FAQ, nielen v aktívnom tlačidle kategórie.

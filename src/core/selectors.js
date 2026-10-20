@@ -92,10 +92,30 @@ export const SEL = {
   navigationSubmenuContentLink: '.menu-content a[href]',
   categoryTree: '#categories',
   breadcrumbLinks: '.breadcrumbs-wrapper a[href], .breadcrumbs a[href], .breadcrumb a[href]',
+  productVariantsHeading: '.friendsSection > .h3',
+  productMetadataCode: '.p-detail-info .p-code, .p .p-code',
+  productMetadataBrand:
+    '.p-detail-info [data-testid="productCardBrandName"], .p [data-testid="productCardBrandName"]',
+  productMetadataValue:
+    ':scope > [data-micro="sku"], :scope > span:not(.p-code-label):not(.ts-product-meta__label)',
+  productMetadataLabel: ':scope > .p-code-label, :scope > .ts-product-meta__label',
+  productPriceNumber:
+    '.p-detail .price-final-holder, body:not(.ordering-process) .content-wrapper .price-final > strong, #colorbox .advanced-order .price-final > strong',
   productTextDetailAreas:
-    '.p-detail-inner-header h1, .p-detail h1, .product-top h1, h1[itemprop="name"], .p-short-description, .description-inner, .basic-description, .p-detail-tabs',
+    ':is(.p-detail-inner-header, .p-detail, .product-top) h1, h1[itemprop="name"], .p-short-description, .description-inner, .basic-description, .p-detail-tabs, .p-detail .price-final-holder',
+  classicProductCard:
+    'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product',
+  productNetPrice: '.price-additional',
+  recommendationCard:
+    '.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product',
+  recommendationLink: 'a.name[href]',
+  recommendationSku: '[data-micro="sku"]',
+  recommendationPrice: '.price-final',
+  productPriceUnit: '.pr-list-unit, .ts-recommendation-unit',
+  sourceProductPriceUnit: '.p-detail .price-final .pr-list-unit',
+  cartPopup: '#colorbox .advanced-order',
   productTextCards:
-    '.products-block .product, .products-block .p, .products .product, .products .p, .product[data-micro="product"], .p[data-micro="product"]',
+    ':is(.products-block, .products) :is(.product, .p), :is(.product, .p)[data-micro="product"]',
   categoryFilterBar: '#category-filter-hover',
   categoryFilterItem: '.slider-wrapper, .filter-section:not(.filter-section-count)',
   categoryFilterHeading: ':scope > h4',
@@ -107,6 +127,7 @@ export const SEL = {
   categoryFilterGroup:
     '.slider-wrapper, .filter-section:not(.filter-section-count):not(.filter-section-button)',
   categoryFilterActiveClass: 'is-active',
+  categoryFilterOpenClass: 'open',
   categoryFilterVisibleClass: 'visible',
   categoryFilterRowClass: 'row-filter',
   categoryFilterFieldset: '.filter-section form > fieldset',
@@ -173,6 +194,21 @@ export const SEL = {
   cartSummaryPrices: '.summary-wrapper',
   cartSpinner: '.overlay.spinner',
   cartBack: 'a.next-step-back:not(.colorbox-close)',
+  // PD Compact · Apollo publishes final detail wrappers at is-loaded.
+  compactShippingPopup: '.shipping-options-popup',
+  compactShippingName: '.shipping-options-popup .shipping-billing-name',
+  compactInfo: '.p-detail .p-info-wrapper',
+  compactReadyClass: 'is-loaded',
+  compactGrid: '.p-info-grid',
+  compactPriceBlock: '.detail-price-block',
+  compactPriceLabel: '.detail-price-block > .detail-grid-title',
+  compactCart: '.add-to-cart',
+  compactAvailabilityBlock: '.detail-availability-block',
+  compactDeliveryLabel: '.delivery-time-block .delivery-time-label',
+  compactDeliveryDate: '.delivery-time',
+  compactDescriptionLink: ':scope > p[data-testid=productCardDescr]',
+  compactSocial: ':scope > .social-buttons-wrapper',
+  compactAdditionalPrice: '.p-final-price-wrapper .price-additional',
   detailSku: '[itemprop="sku"]',
   detailStockAmount: '.availability-value .availability-amount',
   nativeQuantity: '.quantity',

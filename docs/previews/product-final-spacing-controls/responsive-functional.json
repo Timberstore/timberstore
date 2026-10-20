@@ -1,0 +1,2555 @@
+{
+  "products": [
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "before": {
+        "width": 1440,
+        "overflow": false,
+        "price": {
+          "x": 882.5,
+          "y": 378.125,
+          "width": 544,
+          "height": 66,
+          "top": 378.125,
+          "right": 1426.5,
+          "bottom": 444.125,
+          "left": 882.5
+        },
+        "stock": {
+          "x": 978.078125,
+          "y": 468.125,
+          "width": 433.421875,
+          "height": 21,
+          "top": 468.125,
+          "right": 1411.5,
+          "bottom": 489.125,
+          "left": 978.078125
+        },
+        "delivery": {
+          "x": 897.5,
+          "y": 523.125,
+          "width": 216.234375,
+          "height": 26,
+          "top": 523.125,
+          "right": 1113.734375,
+          "bottom": 549.125,
+          "left": 897.5
+        },
+        "priceToStock": 24,
+        "stockToDelivery": 34,
+        "dateColor": "rgb(36, 84, 166)",
+        "dateWeight": "400",
+        "deliveryBackground": "rgb(234, 241, 252)",
+        "deliveryBorder": "0px",
+        "labelColor": "rgb(36, 84, 166)",
+        "unit": {
+          "text": "/ ks",
+          "font": "16px",
+          "weight": "700",
+          "box": {
+            "x": 1279.75,
+            "y": 407.125,
+            "width": 26.734375,
+            "height": 20,
+            "top": 407.125,
+            "right": 1306.484375,
+            "bottom": 427.125,
+            "left": 1279.75
+          }
+        },
+        "final": {
+          "x": 1194.703125,
+          "y": 395.125,
+          "width": 111.78125,
+          "height": 35,
+          "top": 395.125,
+          "right": 1306.484375,
+          "bottom": 430.125,
+          "left": 1194.703125
+        },
+        "button": {
+          "x": 1043.5,
+          "y": 573.125,
+          "width": 368,
+          "height": 48.390625,
+          "top": 573.125,
+          "right": 1411.5,
+          "bottom": 621.515625,
+          "left": 1043.5,
+          "whiteSpace": "normal",
+          "text": "Pridať do košíka",
+          "bg": "rgb(212, 136, 74)",
+          "padding": "12px 16px",
+          "gap": "normal",
+          "display": "flex"
+        },
+        "quantity": {
+          "x": 897.5,
+          "y": 573.3125,
+          "width": 134,
+          "height": 48,
+          "top": 573.3125,
+          "right": 1031.5,
+          "bottom": 621.3125,
+          "left": 897.5,
+          "border": "rgb(229, 224, 218)",
+          "minusColor": "rgb(66, 62, 62)",
+          "plusColor": "rgb(66, 62, 62)",
+          "minus": {
+            "x": 898.5,
+            "y": 574.3125,
+            "width": 44,
+            "height": 46,
+            "top": 574.3125,
+            "right": 942.5,
+            "bottom": 620.3125,
+            "left": 898.5
+          },
+          "plus": {
+            "x": 986.5,
+            "y": 574.3125,
+            "width": 44,
+            "height": 46,
+            "top": 574.3125,
+            "right": 1030.5,
+            "bottom": 620.3125,
+            "left": 986.5
+          },
+          "value": {
+            "x": 942.5,
+            "y": 574.3125,
+            "width": 44,
+            "height": 46,
+            "top": 574.3125,
+            "right": 986.5,
+            "bottom": 620.3125,
+            "left": 942.5
+          }
+        },
+        "cartGap": 12,
+        "formCount": 1,
+        "values": {
+          "price": "2,26 € / ks",
+          "net": "1,84 €",
+          "date": "21.10.2026",
+          "stock": "Skladom (>100 ks)"
+        },
+        "gallery": [
+          "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+          "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+          "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+          "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+        ],
+        "titles": [
+          {
+            "break": "normal",
+            "wrap": "normal"
+          }
+        ]
+      },
+      "rows": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "price": {
+            "x": 882.5,
+            "y": 378.125,
+            "width": 544,
+            "height": 62,
+            "top": 378.125,
+            "right": 1426.5,
+            "bottom": 440.125,
+            "left": 882.5
+          },
+          "stock": {
+            "x": 978.078125,
+            "y": 456.125,
+            "width": 433.421875,
+            "height": 21,
+            "top": 456.125,
+            "right": 1411.5,
+            "bottom": 477.125,
+            "left": 978.078125
+          },
+          "delivery": {
+            "x": 897.5,
+            "y": 493.125,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 493.125,
+            "right": 1115.171875,
+            "bottom": 512.625,
+            "left": 897.5
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 1279.828125,
+              "y": 407.125,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 407.125,
+              "right": 1306.484375,
+              "bottom": 427.0625,
+              "left": 1279.828125
+            }
+          },
+          "final": {
+            "x": 1194.78125,
+            "y": 395.125,
+            "width": 111.703125,
+            "height": 35,
+            "top": 395.125,
+            "right": 1306.484375,
+            "bottom": 430.125,
+            "left": 1194.78125
+          },
+          "button": {
+            "x": 1053.5,
+            "y": 536.625,
+            "width": 330,
+            "height": 48.390625,
+            "top": 536.625,
+            "right": 1383.5,
+            "bottom": 585.015625,
+            "left": 1053.5,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 897.5,
+            "y": 536.8125,
+            "width": 134,
+            "height": 48,
+            "top": 536.8125,
+            "right": 1031.5,
+            "bottom": 584.8125,
+            "left": 897.5,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 898.5,
+              "y": 537.8125,
+              "width": 44,
+              "height": 46,
+              "top": 537.8125,
+              "right": 942.5,
+              "bottom": 583.8125,
+              "left": 898.5
+            },
+            "plus": {
+              "x": 986.5,
+              "y": 537.8125,
+              "width": 44,
+              "height": 46,
+              "top": 537.8125,
+              "right": 1030.5,
+              "bottom": 583.8125,
+              "left": 986.5
+            },
+            "value": {
+              "x": 942.5,
+              "y": 537.8125,
+              "width": 44,
+              "height": 46,
+              "top": 537.8125,
+              "right": 986.5,
+              "bottom": 583.8125,
+              "left": 942.5
+            }
+          },
+          "cartGap": 22,
+          "formCount": 1,
+          "values": {
+            "price": "2,26 € / ks",
+            "net": "1,84 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "price": {
+            "x": 8,
+            "y": 1073.5625,
+            "width": 737,
+            "height": 62,
+            "top": 1073.5625,
+            "right": 745,
+            "bottom": 1135.5625,
+            "left": 8
+          },
+          "stock": {
+            "x": 103.578125,
+            "y": 1151.5625,
+            "width": 626.421875,
+            "height": 21,
+            "top": 1151.5625,
+            "right": 730,
+            "bottom": 1172.5625,
+            "left": 103.578125
+          },
+          "delivery": {
+            "x": 23,
+            "y": 1188.5625,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 1188.5625,
+            "right": 240.671875,
+            "bottom": 1208.0625,
+            "left": 23
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 598.328125,
+              "y": 1102.5625,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 1102.5625,
+              "right": 624.984375,
+              "bottom": 1122.5,
+              "left": 598.328125
+            }
+          },
+          "final": {
+            "x": 513.28125,
+            "y": 1090.5625,
+            "width": 111.703125,
+            "height": 35,
+            "top": 1090.5625,
+            "right": 624.984375,
+            "bottom": 1125.5625,
+            "left": 513.28125
+          },
+          "button": {
+            "x": 179,
+            "y": 1232.0625,
+            "width": 330,
+            "height": 48.390625,
+            "top": 1232.0625,
+            "right": 509,
+            "bottom": 1280.453125,
+            "left": 179,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 23,
+            "y": 1232.25,
+            "width": 134,
+            "height": 48,
+            "top": 1232.25,
+            "right": 157,
+            "bottom": 1280.25,
+            "left": 23,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 24,
+              "y": 1233.25,
+              "width": 44,
+              "height": 46,
+              "top": 1233.25,
+              "right": 68,
+              "bottom": 1279.25,
+              "left": 24
+            },
+            "plus": {
+              "x": 112,
+              "y": 1233.25,
+              "width": 44,
+              "height": 46,
+              "top": 1233.25,
+              "right": 156,
+              "bottom": 1279.25,
+              "left": 112
+            },
+            "value": {
+              "x": 68,
+              "y": 1233.25,
+              "width": 44,
+              "height": 46,
+              "top": 1233.25,
+              "right": 112,
+              "bottom": 1279.25,
+              "left": 68
+            }
+          },
+          "cartGap": 22,
+          "formCount": 1,
+          "values": {
+            "price": "2,26 € / ks",
+            "net": "1,84 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "overflow": false,
+          "price": {
+            "x": 10,
+            "y": 722.515625,
+            "width": 395,
+            "height": 62,
+            "top": 722.515625,
+            "right": 405,
+            "bottom": 784.515625,
+            "left": 10
+          },
+          "stock": {
+            "x": 100.578125,
+            "y": 800.515625,
+            "width": 294.421875,
+            "height": 21,
+            "top": 800.515625,
+            "right": 395,
+            "bottom": 821.515625,
+            "left": 100.578125
+          },
+          "delivery": {
+            "x": 20,
+            "y": 837.515625,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 837.515625,
+            "right": 237.671875,
+            "bottom": 857.015625,
+            "left": 20
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 263.328125,
+              "y": 751.515625,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 751.515625,
+              "right": 289.984375,
+              "bottom": 771.453125,
+              "left": 263.328125
+            }
+          },
+          "final": {
+            "x": 178.28125,
+            "y": 739.515625,
+            "width": 111.703125,
+            "height": 35,
+            "top": 739.515625,
+            "right": 289.984375,
+            "bottom": 774.515625,
+            "left": 178.28125
+          },
+          "button": {
+            "x": 20,
+            "y": 949.953125,
+            "width": 352.15625,
+            "height": 48.390625,
+            "top": 949.953125,
+            "right": 372.15625,
+            "bottom": 998.34375,
+            "left": 20,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 20,
+            "y": 887.953125,
+            "width": 134,
+            "height": 48,
+            "top": 887.953125,
+            "right": 154,
+            "bottom": 935.953125,
+            "left": 20,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 21,
+              "y": 888.953125,
+              "width": 44,
+              "height": 46,
+              "top": 888.953125,
+              "right": 65,
+              "bottom": 934.953125,
+              "left": 21
+            },
+            "plus": {
+              "x": 109,
+              "y": 888.953125,
+              "width": 44,
+              "height": 46,
+              "top": 888.953125,
+              "right": 153,
+              "bottom": 934.953125,
+              "left": 109
+            },
+            "value": {
+              "x": 65,
+              "y": 888.953125,
+              "width": 44,
+              "height": 46,
+              "top": 888.953125,
+              "right": 109,
+              "bottom": 934.953125,
+              "left": 65
+            }
+          },
+          "cartGap": 14,
+          "formCount": 1,
+          "values": {
+            "price": "2,26 € / ks",
+            "net": "1,84 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "price": {
+            "x": 10,
+            "y": 720.15625,
+            "width": 355,
+            "height": 62,
+            "top": 720.15625,
+            "right": 365,
+            "bottom": 782.15625,
+            "left": 10
+          },
+          "stock": {
+            "x": 100.578125,
+            "y": 798.15625,
+            "width": 254.421875,
+            "height": 21,
+            "top": 798.15625,
+            "right": 355,
+            "bottom": 819.15625,
+            "left": 100.578125
+          },
+          "delivery": {
+            "x": 20,
+            "y": 835.15625,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 835.15625,
+            "right": 237.671875,
+            "bottom": 854.65625,
+            "left": 20
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 223.328125,
+              "y": 749.15625,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 749.15625,
+              "right": 249.984375,
+              "bottom": 769.09375,
+              "left": 223.328125
+            }
+          },
+          "final": {
+            "x": 138.28125,
+            "y": 737.15625,
+            "width": 111.703125,
+            "height": 35,
+            "top": 737.15625,
+            "right": 249.984375,
+            "bottom": 772.15625,
+            "left": 138.28125
+          },
+          "button": {
+            "x": 20,
+            "y": 976.65625,
+            "width": 335,
+            "height": 48.390625,
+            "top": 976.65625,
+            "right": 355,
+            "bottom": 1025.046875,
+            "left": 20,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 20,
+            "y": 914.65625,
+            "width": 134,
+            "height": 48,
+            "top": 914.65625,
+            "right": 154,
+            "bottom": 962.65625,
+            "left": 20,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 21,
+              "y": 915.65625,
+              "width": 44,
+              "height": 46,
+              "top": 915.65625,
+              "right": 65,
+              "bottom": 961.65625,
+              "left": 21
+            },
+            "plus": {
+              "x": 109,
+              "y": 915.65625,
+              "width": 44,
+              "height": 46,
+              "top": 915.65625,
+              "right": 153,
+              "bottom": 961.65625,
+              "left": 109
+            },
+            "value": {
+              "x": 65,
+              "y": 915.65625,
+              "width": 44,
+              "height": 46,
+              "top": 915.65625,
+              "right": 109,
+              "bottom": 961.65625,
+              "left": 65
+            }
+          },
+          "cartGap": 14,
+          "formCount": 1,
+          "values": {
+            "price": "2,26 € / ks",
+            "net": "1,84 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "price": {
+            "x": 10,
+            "y": 708.90625,
+            "width": 340,
+            "height": 62,
+            "top": 708.90625,
+            "right": 350,
+            "bottom": 770.90625,
+            "left": 10
+          },
+          "stock": {
+            "x": 100.578125,
+            "y": 786.90625,
+            "width": 239.421875,
+            "height": 21,
+            "top": 786.90625,
+            "right": 340,
+            "bottom": 807.90625,
+            "left": 100.578125
+          },
+          "delivery": {
+            "x": 20,
+            "y": 823.90625,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 823.90625,
+            "right": 237.671875,
+            "bottom": 843.40625,
+            "left": 20
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 208.328125,
+              "y": 737.90625,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 737.90625,
+              "right": 234.984375,
+              "bottom": 757.84375,
+              "left": 208.328125
+            }
+          },
+          "final": {
+            "x": 123.28125,
+            "y": 725.90625,
+            "width": 111.703125,
+            "height": 35,
+            "top": 725.90625,
+            "right": 234.984375,
+            "bottom": 760.90625,
+            "left": 123.28125
+          },
+          "button": {
+            "x": 20,
+            "y": 965.40625,
+            "width": 320,
+            "height": 48.390625,
+            "top": 965.40625,
+            "right": 340,
+            "bottom": 1013.796875,
+            "left": 20,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 20,
+            "y": 903.40625,
+            "width": 134,
+            "height": 48,
+            "top": 903.40625,
+            "right": 154,
+            "bottom": 951.40625,
+            "left": 20,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 21,
+              "y": 904.40625,
+              "width": 44,
+              "height": 46,
+              "top": 904.40625,
+              "right": 65,
+              "bottom": 950.40625,
+              "left": 21
+            },
+            "plus": {
+              "x": 109,
+              "y": 904.40625,
+              "width": 44,
+              "height": 46,
+              "top": 904.40625,
+              "right": 153,
+              "bottom": 950.40625,
+              "left": 109
+            },
+            "value": {
+              "x": 65,
+              "y": 904.40625,
+              "width": 44,
+              "height": 46,
+              "top": 904.40625,
+              "right": 109,
+              "bottom": 950.40625,
+              "left": 65
+            }
+          },
+          "cartGap": 14,
+          "formCount": 1,
+          "values": {
+            "price": "2,26 € / ks",
+            "net": "1,84 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "price": {
+            "x": 10,
+            "y": 667.65625,
+            "width": 285,
+            "height": 62,
+            "top": 667.65625,
+            "right": 295,
+            "bottom": 729.65625,
+            "left": 10
+          },
+          "stock": {
+            "x": 100.578125,
+            "y": 745.65625,
+            "width": 184.421875,
+            "height": 21,
+            "top": 745.65625,
+            "right": 285,
+            "bottom": 766.65625,
+            "left": 100.578125
+          },
+          "delivery": {
+            "x": 20,
+            "y": 782.65625,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 782.65625,
+            "right": 237.671875,
+            "bottom": 802.15625,
+            "left": 20
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 153.328125,
+              "y": 696.65625,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 696.65625,
+              "right": 179.984375,
+              "bottom": 716.59375,
+              "left": 153.328125
+            }
+          },
+          "final": {
+            "x": 68.28125,
+            "y": 684.65625,
+            "width": 111.703125,
+            "height": 35,
+            "top": 684.65625,
+            "right": 179.984375,
+            "bottom": 719.65625,
+            "left": 68.28125
+          },
+          "button": {
+            "x": 20,
+            "y": 924.15625,
+            "width": 265,
+            "height": 48.390625,
+            "top": 924.15625,
+            "right": 285,
+            "bottom": 972.546875,
+            "left": 20,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 20,
+            "y": 862.15625,
+            "width": 134,
+            "height": 48,
+            "top": 862.15625,
+            "right": 154,
+            "bottom": 910.15625,
+            "left": 20,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 21,
+              "y": 863.15625,
+              "width": 44,
+              "height": 46,
+              "top": 863.15625,
+              "right": 65,
+              "bottom": 909.15625,
+              "left": 21
+            },
+            "plus": {
+              "x": 109,
+              "y": 863.15625,
+              "width": 44,
+              "height": 46,
+              "top": 863.15625,
+              "right": 153,
+              "bottom": 909.15625,
+              "left": 109
+            },
+            "value": {
+              "x": 65,
+              "y": 863.15625,
+              "width": 44,
+              "height": 46,
+              "top": 863.15625,
+              "right": 109,
+              "bottom": 909.15625,
+              "left": 65
+            }
+          },
+          "cartGap": 14,
+          "formCount": 1,
+          "values": {
+            "price": "2,26 € / ks",
+            "net": "1,84 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-3_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-4_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-5_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/339359-6_tulip-knopka-jota-zlata-matna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f293&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        }
+      ],
+      "modal": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 394.59375,
+              "termY": 421.09375,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 469.59375,
+              "termY": 496.09375,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 544.59375,
+              "termY": 571.09375,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 619.59375,
+              "termY": 646.09375,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 394.59375,
+              "termY": 421.09375,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 469.59375,
+              "termY": 496.09375,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 544.59375,
+              "termY": 571.09375,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 619.59375,
+              "termY": 646.09375,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 314.5625,
+              "termY": 341.0625,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 429.5625,
+              "termY": 456.0625,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 544.5625,
+              "termY": 571.0625,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 659.5625,
+              "termY": 686.0625,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 312.625,
+              "termY": 339.125,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 427.625,
+              "termY": 454.125,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 542.625,
+              "termY": 569.125,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 657.625,
+              "termY": 684.125,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 309.390625,
+              "termY": 335.890625,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 424.390625,
+              "termY": 450.890625,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 539.390625,
+              "termY": 565.890625,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 654.390625,
+              "termY": 703.390625,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 282.296875,
+              "termY": 331.296875,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 439.296875,
+              "termY": 488.296875,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 596.296875,
+              "termY": 645.296875,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 753.296875,
+              "termY": 802.296875,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        }
+      ],
+      "quantityAttributes": {
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      },
+      "typedQuantity": true,
+      "cartProductPresent": true
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "before": {
+        "width": 1440,
+        "overflow": false,
+        "price": {
+          "x": 882.5,
+          "y": 458.125,
+          "width": 544,
+          "height": 66,
+          "top": 458.125,
+          "right": 1426.5,
+          "bottom": 524.125,
+          "left": 882.5
+        },
+        "stock": {
+          "x": 978.078125,
+          "y": 548.125,
+          "width": 433.421875,
+          "height": 21,
+          "top": 548.125,
+          "right": 1411.5,
+          "bottom": 569.125,
+          "left": 978.078125
+        },
+        "delivery": {
+          "x": 897.5,
+          "y": 603.125,
+          "width": 216.234375,
+          "height": 26,
+          "top": 603.125,
+          "right": 1113.734375,
+          "bottom": 629.125,
+          "left": 897.5
+        },
+        "priceToStock": 24,
+        "stockToDelivery": 34,
+        "dateColor": "rgb(36, 84, 166)",
+        "dateWeight": "400",
+        "deliveryBackground": "rgb(234, 241, 252)",
+        "deliveryBorder": "0px",
+        "labelColor": "rgb(36, 84, 166)",
+        "unit": {
+          "text": "/ ks",
+          "font": "16px",
+          "weight": "700",
+          "box": {
+            "x": 1272.453125,
+            "y": 487.125,
+            "width": 26.734375,
+            "height": 20,
+            "top": 487.125,
+            "right": 1299.1875,
+            "bottom": 507.125,
+            "left": 1272.453125
+          }
+        },
+        "final": {
+          "x": 1171.34375,
+          "y": 475.125,
+          "width": 127.84375,
+          "height": 35,
+          "top": 475.125,
+          "right": 1299.1875,
+          "bottom": 510.125,
+          "left": 1171.34375
+        },
+        "button": {
+          "x": 1043.5,
+          "y": 653.125,
+          "width": 368,
+          "height": 48.390625,
+          "top": 653.125,
+          "right": 1411.5,
+          "bottom": 701.515625,
+          "left": 1043.5,
+          "whiteSpace": "normal",
+          "text": "Pridať do košíka",
+          "bg": "rgb(212, 136, 74)",
+          "padding": "12px 16px",
+          "gap": "normal",
+          "display": "flex"
+        },
+        "quantity": {
+          "x": 897.5,
+          "y": 653.3125,
+          "width": 134,
+          "height": 48,
+          "top": 653.3125,
+          "right": 1031.5,
+          "bottom": 701.3125,
+          "left": 897.5,
+          "border": "rgb(229, 224, 218)",
+          "minusColor": "rgb(66, 62, 62)",
+          "plusColor": "rgb(66, 62, 62)",
+          "minus": {
+            "x": 898.5,
+            "y": 654.3125,
+            "width": 44,
+            "height": 46,
+            "top": 654.3125,
+            "right": 942.5,
+            "bottom": 700.3125,
+            "left": 898.5
+          },
+          "plus": {
+            "x": 986.5,
+            "y": 654.3125,
+            "width": 44,
+            "height": 46,
+            "top": 654.3125,
+            "right": 1030.5,
+            "bottom": 700.3125,
+            "left": 986.5
+          },
+          "value": {
+            "x": 942.5,
+            "y": 654.3125,
+            "width": 44,
+            "height": 46,
+            "top": 654.3125,
+            "right": 986.5,
+            "bottom": 700.3125,
+            "left": 942.5
+          }
+        },
+        "cartGap": 12,
+        "formCount": 1,
+        "values": {
+          "price": "23,25 € / ks",
+          "net": "18,90 €",
+          "date": "21.10.2026",
+          "stock": "Skladom (>100 ks)"
+        },
+        "gallery": [
+          "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+          "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+        ],
+        "titles": [
+          {
+            "break": "normal",
+            "wrap": "normal"
+          }
+        ]
+      },
+      "rows": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "price": {
+            "x": 882.5,
+            "y": 458.125,
+            "width": 544,
+            "height": 62,
+            "top": 458.125,
+            "right": 1426.5,
+            "bottom": 520.125,
+            "left": 882.5
+          },
+          "stock": {
+            "x": 978.078125,
+            "y": 536.125,
+            "width": 433.421875,
+            "height": 21,
+            "top": 536.125,
+            "right": 1411.5,
+            "bottom": 557.125,
+            "left": 978.078125
+          },
+          "delivery": {
+            "x": 897.5,
+            "y": 573.125,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 573.125,
+            "right": 1115.171875,
+            "bottom": 592.625,
+            "left": 897.5
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 1272.53125,
+              "y": 487.125,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 487.125,
+              "right": 1299.1875,
+              "bottom": 507.0625,
+              "left": 1272.53125
+            }
+          },
+          "final": {
+            "x": 1171.421875,
+            "y": 475.125,
+            "width": 127.765625,
+            "height": 35,
+            "top": 475.125,
+            "right": 1299.1875,
+            "bottom": 510.125,
+            "left": 1171.421875
+          },
+          "button": {
+            "x": 1053.5,
+            "y": 616.625,
+            "width": 330,
+            "height": 48.390625,
+            "top": 616.625,
+            "right": 1383.5,
+            "bottom": 665.015625,
+            "left": 1053.5,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 897.5,
+            "y": 616.8125,
+            "width": 134,
+            "height": 48,
+            "top": 616.8125,
+            "right": 1031.5,
+            "bottom": 664.8125,
+            "left": 897.5,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 898.5,
+              "y": 617.8125,
+              "width": 44,
+              "height": 46,
+              "top": 617.8125,
+              "right": 942.5,
+              "bottom": 663.8125,
+              "left": 898.5
+            },
+            "plus": {
+              "x": 986.5,
+              "y": 617.8125,
+              "width": 44,
+              "height": 46,
+              "top": 617.8125,
+              "right": 1030.5,
+              "bottom": 663.8125,
+              "left": 986.5
+            },
+            "value": {
+              "x": 942.5,
+              "y": 617.8125,
+              "width": 44,
+              "height": 46,
+              "top": 617.8125,
+              "right": 986.5,
+              "bottom": 663.8125,
+              "left": 942.5
+            }
+          },
+          "cartGap": 22,
+          "formCount": 1,
+          "values": {
+            "price": "23,25 € / ks",
+            "net": "18,90 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "price": {
+            "x": 8,
+            "y": 1142.125,
+            "width": 737,
+            "height": 62,
+            "top": 1142.125,
+            "right": 745,
+            "bottom": 1204.125,
+            "left": 8
+          },
+          "stock": {
+            "x": 103.578125,
+            "y": 1220.125,
+            "width": 626.421875,
+            "height": 21,
+            "top": 1220.125,
+            "right": 730,
+            "bottom": 1241.125,
+            "left": 103.578125
+          },
+          "delivery": {
+            "x": 23,
+            "y": 1257.125,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 1257.125,
+            "right": 240.671875,
+            "bottom": 1276.625,
+            "left": 23
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 591.03125,
+              "y": 1171.125,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 1171.125,
+              "right": 617.6875,
+              "bottom": 1191.0625,
+              "left": 591.03125
+            }
+          },
+          "final": {
+            "x": 489.921875,
+            "y": 1159.125,
+            "width": 127.765625,
+            "height": 35,
+            "top": 1159.125,
+            "right": 617.6875,
+            "bottom": 1194.125,
+            "left": 489.921875
+          },
+          "button": {
+            "x": 179,
+            "y": 1300.625,
+            "width": 330,
+            "height": 48.390625,
+            "top": 1300.625,
+            "right": 509,
+            "bottom": 1349.015625,
+            "left": 179,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 23,
+            "y": 1300.8125,
+            "width": 134,
+            "height": 48,
+            "top": 1300.8125,
+            "right": 157,
+            "bottom": 1348.8125,
+            "left": 23,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 24,
+              "y": 1301.8125,
+              "width": 44,
+              "height": 46,
+              "top": 1301.8125,
+              "right": 68,
+              "bottom": 1347.8125,
+              "left": 24
+            },
+            "plus": {
+              "x": 112,
+              "y": 1301.8125,
+              "width": 44,
+              "height": 46,
+              "top": 1301.8125,
+              "right": 156,
+              "bottom": 1347.8125,
+              "left": 112
+            },
+            "value": {
+              "x": 68,
+              "y": 1301.8125,
+              "width": 44,
+              "height": 46,
+              "top": 1301.8125,
+              "right": 112,
+              "bottom": 1347.8125,
+              "left": 68
+            }
+          },
+          "cartGap": 22,
+          "formCount": 1,
+          "values": {
+            "price": "23,25 € / ks",
+            "net": "18,90 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "overflow": false,
+          "price": {
+            "x": 10,
+            "y": 775.921875,
+            "width": 395,
+            "height": 62,
+            "top": 775.921875,
+            "right": 405,
+            "bottom": 837.921875,
+            "left": 10
+          },
+          "stock": {
+            "x": 100.578125,
+            "y": 853.921875,
+            "width": 294.421875,
+            "height": 21,
+            "top": 853.921875,
+            "right": 395,
+            "bottom": 874.921875,
+            "left": 100.578125
+          },
+          "delivery": {
+            "x": 20,
+            "y": 890.921875,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 890.921875,
+            "right": 237.671875,
+            "bottom": 910.421875,
+            "left": 20
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 256.03125,
+              "y": 804.921875,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 804.921875,
+              "right": 282.6875,
+              "bottom": 824.859375,
+              "left": 256.03125
+            }
+          },
+          "final": {
+            "x": 154.921875,
+            "y": 792.921875,
+            "width": 127.765625,
+            "height": 35,
+            "top": 792.921875,
+            "right": 282.6875,
+            "bottom": 827.921875,
+            "left": 154.921875
+          },
+          "button": {
+            "x": 168,
+            "y": 942.140625,
+            "width": 226.390625,
+            "height": 48.390625,
+            "top": 942.140625,
+            "right": 394.390625,
+            "bottom": 990.53125,
+            "left": 168,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 20,
+            "y": 942.328125,
+            "width": 134,
+            "height": 48,
+            "top": 942.328125,
+            "right": 154,
+            "bottom": 990.328125,
+            "left": 20,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 21,
+              "y": 943.328125,
+              "width": 44,
+              "height": 46,
+              "top": 943.328125,
+              "right": 65,
+              "bottom": 989.328125,
+              "left": 21
+            },
+            "plus": {
+              "x": 109,
+              "y": 943.328125,
+              "width": 44,
+              "height": 46,
+              "top": 943.328125,
+              "right": 153,
+              "bottom": 989.328125,
+              "left": 109
+            },
+            "value": {
+              "x": 65,
+              "y": 943.328125,
+              "width": 44,
+              "height": 46,
+              "top": 943.328125,
+              "right": 109,
+              "bottom": 989.328125,
+              "left": 65
+            }
+          },
+          "cartGap": 14,
+          "formCount": 1,
+          "values": {
+            "price": "23,25 € / ks",
+            "net": "18,90 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "price": {
+            "x": 10,
+            "y": 746.546875,
+            "width": 355,
+            "height": 62,
+            "top": 746.546875,
+            "right": 365,
+            "bottom": 808.546875,
+            "left": 10
+          },
+          "stock": {
+            "x": 100.578125,
+            "y": 824.546875,
+            "width": 254.421875,
+            "height": 21,
+            "top": 824.546875,
+            "right": 355,
+            "bottom": 845.546875,
+            "left": 100.578125
+          },
+          "delivery": {
+            "x": 20,
+            "y": 861.546875,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 861.546875,
+            "right": 237.671875,
+            "bottom": 881.046875,
+            "left": 20
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 216.03125,
+              "y": 775.546875,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 775.546875,
+              "right": 242.6875,
+              "bottom": 795.484375,
+              "left": 216.03125
+            }
+          },
+          "final": {
+            "x": 114.921875,
+            "y": 763.546875,
+            "width": 127.765625,
+            "height": 35,
+            "top": 763.546875,
+            "right": 242.6875,
+            "bottom": 798.546875,
+            "left": 114.921875
+          },
+          "button": {
+            "x": 20,
+            "y": 1003.046875,
+            "width": 335,
+            "height": 48.390625,
+            "top": 1003.046875,
+            "right": 355,
+            "bottom": 1051.4375,
+            "left": 20,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 20,
+            "y": 941.046875,
+            "width": 134,
+            "height": 48,
+            "top": 941.046875,
+            "right": 154,
+            "bottom": 989.046875,
+            "left": 20,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 21,
+              "y": 942.046875,
+              "width": 44,
+              "height": 46,
+              "top": 942.046875,
+              "right": 65,
+              "bottom": 988.046875,
+              "left": 21
+            },
+            "plus": {
+              "x": 109,
+              "y": 942.046875,
+              "width": 44,
+              "height": 46,
+              "top": 942.046875,
+              "right": 153,
+              "bottom": 988.046875,
+              "left": 109
+            },
+            "value": {
+              "x": 65,
+              "y": 942.046875,
+              "width": 44,
+              "height": 46,
+              "top": 942.046875,
+              "right": 109,
+              "bottom": 988.046875,
+              "left": 65
+            }
+          },
+          "cartGap": 14,
+          "formCount": 1,
+          "values": {
+            "price": "23,25 € / ks",
+            "net": "18,90 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "price": {
+            "x": 10,
+            "y": 735.296875,
+            "width": 340,
+            "height": 62,
+            "top": 735.296875,
+            "right": 350,
+            "bottom": 797.296875,
+            "left": 10
+          },
+          "stock": {
+            "x": 100.578125,
+            "y": 813.296875,
+            "width": 239.421875,
+            "height": 21,
+            "top": 813.296875,
+            "right": 340,
+            "bottom": 834.296875,
+            "left": 100.578125
+          },
+          "delivery": {
+            "x": 20,
+            "y": 850.296875,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 850.296875,
+            "right": 237.671875,
+            "bottom": 869.796875,
+            "left": 20
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 201.03125,
+              "y": 764.296875,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 764.296875,
+              "right": 227.6875,
+              "bottom": 784.234375,
+              "left": 201.03125
+            }
+          },
+          "final": {
+            "x": 99.921875,
+            "y": 752.296875,
+            "width": 127.765625,
+            "height": 35,
+            "top": 752.296875,
+            "right": 227.6875,
+            "bottom": 787.296875,
+            "left": 99.921875
+          },
+          "button": {
+            "x": 20,
+            "y": 991.796875,
+            "width": 320,
+            "height": 48.390625,
+            "top": 991.796875,
+            "right": 340,
+            "bottom": 1040.1875,
+            "left": 20,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 20,
+            "y": 929.796875,
+            "width": 134,
+            "height": 48,
+            "top": 929.796875,
+            "right": 154,
+            "bottom": 977.796875,
+            "left": 20,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 21,
+              "y": 930.796875,
+              "width": 44,
+              "height": 46,
+              "top": 930.796875,
+              "right": 65,
+              "bottom": 976.796875,
+              "left": 21
+            },
+            "plus": {
+              "x": 109,
+              "y": 930.796875,
+              "width": 44,
+              "height": 46,
+              "top": 930.796875,
+              "right": 153,
+              "bottom": 976.796875,
+              "left": 109
+            },
+            "value": {
+              "x": 65,
+              "y": 930.796875,
+              "width": 44,
+              "height": 46,
+              "top": 930.796875,
+              "right": 109,
+              "bottom": 976.796875,
+              "left": 65
+            }
+          },
+          "cartGap": 14,
+          "formCount": 1,
+          "values": {
+            "price": "23,25 € / ks",
+            "net": "18,90 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "price": {
+            "x": 10,
+            "y": 747.1875,
+            "width": 285,
+            "height": 81.5,
+            "top": 747.1875,
+            "right": 295,
+            "bottom": 828.6875,
+            "left": 10
+          },
+          "stock": {
+            "x": 100.578125,
+            "y": 844.6875,
+            "width": 184.421875,
+            "height": 21,
+            "top": 844.6875,
+            "right": 285,
+            "bottom": 865.6875,
+            "left": 100.578125
+          },
+          "delivery": {
+            "x": 20,
+            "y": 881.6875,
+            "width": 217.671875,
+            "height": 19.5,
+            "top": 881.6875,
+            "right": 237.671875,
+            "bottom": 901.1875,
+            "left": 20
+          },
+          "priceToStock": 16,
+          "stockToDelivery": 16,
+          "dateColor": "rgb(0, 200, 83)",
+          "dateWeight": "600",
+          "deliveryBackground": "rgba(0, 0, 0, 0)",
+          "deliveryBorder": "0px",
+          "labelColor": "rgb(15, 15, 15)",
+          "unit": {
+            "text": "/ ks",
+            "font": "15.96px",
+            "weight": "600",
+            "box": {
+              "x": 258.34375,
+              "y": 776.1875,
+              "width": 26.65625,
+              "height": 19.9375,
+              "top": 776.1875,
+              "right": 285,
+              "bottom": 796.125,
+              "left": 258.34375
+            }
+          },
+          "final": {
+            "x": 157.234375,
+            "y": 764.1875,
+            "width": 127.765625,
+            "height": 35,
+            "top": 764.1875,
+            "right": 285,
+            "bottom": 799.1875,
+            "left": 157.234375
+          },
+          "button": {
+            "x": 20,
+            "y": 1023.1875,
+            "width": 265,
+            "height": 48.390625,
+            "top": 1023.1875,
+            "right": 285,
+            "bottom": 1071.578125,
+            "left": 20,
+            "whiteSpace": "nowrap",
+            "text": "Pridať do košíka",
+            "bg": "rgb(212, 136, 74)",
+            "padding": "12px 20px",
+            "gap": "12px",
+            "display": "flex"
+          },
+          "quantity": {
+            "x": 20,
+            "y": 961.1875,
+            "width": 134,
+            "height": 48,
+            "top": 961.1875,
+            "right": 154,
+            "bottom": 1009.1875,
+            "left": 20,
+            "border": "color(srgb 0.888627 0.692549 0.705098)",
+            "minusColor": "rgb(184, 59, 67)",
+            "plusColor": "rgb(201, 122, 43)",
+            "minus": {
+              "x": 21,
+              "y": 962.1875,
+              "width": 44,
+              "height": 46,
+              "top": 962.1875,
+              "right": 65,
+              "bottom": 1008.1875,
+              "left": 21
+            },
+            "plus": {
+              "x": 109,
+              "y": 962.1875,
+              "width": 44,
+              "height": 46,
+              "top": 962.1875,
+              "right": 153,
+              "bottom": 1008.1875,
+              "left": 109
+            },
+            "value": {
+              "x": 65,
+              "y": 962.1875,
+              "width": 44,
+              "height": 46,
+              "top": 962.1875,
+              "right": 109,
+              "bottom": 1008.1875,
+              "left": 65
+            }
+          },
+          "cartGap": 14,
+          "formCount": 1,
+          "values": {
+            "price": "23,25 € / ks",
+            "net": "18,90 €",
+            "date": "21.10.2026",
+            "stock": "Skladom (>100 ks)"
+          },
+          "gallery": [
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-1_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6a973b68&sg=161563f2",
+            "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/318821-2_agoform-pribornik-classico-kristall-softtouch--722x474mm--cierna.jpg?ff=1&x=1024&y=768&q=85&ts=6ad3f2bf&sg=161563f2"
+          ],
+          "titles": [
+            {
+              "break": "normal",
+              "wrap": "normal"
+            }
+          ]
+        }
+      ],
+      "modal": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 394.265625,
+              "termY": 420.765625,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 469.265625,
+              "termY": 495.765625,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 544.265625,
+              "termY": 570.765625,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 619.265625,
+              "termY": 645.765625,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 394.59375,
+              "termY": 421.09375,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 469.59375,
+              "termY": 496.09375,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 544.59375,
+              "termY": 571.09375,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 619.59375,
+              "termY": 646.09375,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 430,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 314.5625,
+              "termY": 341.0625,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 429.5625,
+              "termY": 456.0625,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 544.5625,
+              "termY": 571.0625,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 659.5625,
+              "termY": 686.0625,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 312.84375,
+              "termY": 339.34375,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 427.84375,
+              "termY": 454.34375,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 542.84375,
+              "termY": 569.34375,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 657.84375,
+              "termY": 684.34375,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 309.390625,
+              "termY": 335.890625,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 424.390625,
+              "termY": 450.890625,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 539.390625,
+              "termY": 565.890625,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 654.390625,
+              "termY": 703.390625,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "methods": [
+            {
+              "name": "EXPRES KURIÉR – BalíkoBOX (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 284.015625,
+              "termY": 333.015625,
+              "logo": true,
+              "price": "3,90 €"
+            },
+            {
+              "name": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 441.015625,
+              "termY": 490.015625,
+              "logo": true,
+              "price": "5,20 €"
+            },
+            {
+              "name": "PACKETA výdajné miesto/Z-BOX (doručenie 2–3 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 598.015625,
+              "termY": 647.015625,
+              "logo": true,
+              "price": "4,30 €"
+            },
+            {
+              "name": "Doprava pre nadrozmerný produkt (doručenie 1–2 dni od expedície)",
+              "font": "15px",
+              "termFont": "13px",
+              "nameY": 755.015625,
+              "termY": 804.015625,
+              "logo": true,
+              "price": "8,90 €"
+            }
+          ]
+        }
+      ],
+      "quantityAttributes": {
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      },
+      "typedQuantity": true,
+      "cartProductPresent": true
+    }
+  ],
+  "errors": [],
+  "unexpectedErrors": [],
+  "pass": true
+}

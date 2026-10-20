@@ -1,0 +1,254 @@
+[
+  {
+    "width": 320,
+    "engine": "Chromium; not Safari",
+    "pages": [
+      {
+        "url": "/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          320,
+          320
+        ],
+        "header": {
+          "left": 0,
+          "right": 320,
+          "width": 320
+        },
+        "quantityInputs": 32
+      },
+      {
+        "url": "/prislusenstvo-legrabox/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          320,
+          320
+        ],
+        "header": {
+          "left": 0,
+          "right": 320,
+          "width": 320
+        },
+        "quantityInputs": 30
+      }
+    ],
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "engine": "Chromium; not Safari",
+    "pages": [
+      {
+        "url": "/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          375,
+          375
+        ],
+        "header": {
+          "left": 0,
+          "right": 375,
+          "width": 375
+        },
+        "quantityInputs": 32
+      },
+      {
+        "url": "/prislusenstvo-legrabox/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          375,
+          375
+        ],
+        "header": {
+          "left": 0,
+          "right": 375,
+          "width": 375
+        },
+        "quantityInputs": 30
+      }
+    ],
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "engine": "Chromium; not Safari",
+    "pages": [
+      {
+        "url": "/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          390,
+          390
+        ],
+        "header": {
+          "left": 0,
+          "right": 390,
+          "width": 390
+        },
+        "quantityInputs": 32
+      },
+      {
+        "url": "/prislusenstvo-legrabox/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          390,
+          390
+        ],
+        "header": {
+          "left": 0,
+          "right": 390,
+          "width": 390
+        },
+        "quantityInputs": 30
+      }
+    ],
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 393,
+    "engine": "Chromium; not Safari",
+    "pages": [
+      {
+        "url": "/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          393,
+          393
+        ],
+        "header": {
+          "left": 0,
+          "right": 393,
+          "width": 393
+        },
+        "quantityInputs": 32
+      },
+      {
+        "url": "/prislusenstvo-legrabox/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          393,
+          393
+        ],
+        "header": {
+          "left": 0,
+          "right": 393,
+          "width": 393
+        },
+        "quantityInputs": 30
+      }
+    ],
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 430,
+    "engine": "Chromium; not Safari",
+    "pages": [
+      {
+        "url": "/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          430,
+          430
+        ],
+        "header": {
+          "left": 0,
+          "right": 430,
+          "width": 430
+        },
+        "quantityInputs": 32
+      },
+      {
+        "url": "/prislusenstvo-legrabox/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          430,
+          430
+        ],
+        "header": {
+          "left": 0,
+          "right": 430,
+          "width": 430
+        },
+        "quantityInputs": 30
+      }
+    ],
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "engine": "Chromium; not Safari",
+    "pages": [
+      {
+        "url": "/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          768,
+          768
+        ],
+        "header": {
+          "left": 0,
+          "right": 768,
+          "width": 768
+        },
+        "quantityInputs": 32
+      },
+      {
+        "url": "/prislusenstvo-legrabox/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          768,
+          768
+        ],
+        "header": {
+          "left": 0,
+          "right": 768,
+          "width": 768
+        },
+        "quantityInputs": 30
+      }
+    ],
+    "pass": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "engine": "Chromium; not Safari",
+    "pages": [
+      {
+        "url": "/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          1440,
+          1427
+        ],
+        "header": {
+          "left": 0,
+          "right": 1425,
+          "width": 1425
+        },
+        "quantityInputs": 32
+      },
+      {
+        "url": "/prislusenstvo-legrabox/",
+        "loader": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+        "viewport": [
+          1440,
+          1425
+        ],
+        "header": {
+          "left": 0,
+          "right": 1425,
+          "width": 1425
+        },
+        "quantityInputs": 30
+      }
+    ],
+    "pass": true,
+    "errors": []
+  }
+]

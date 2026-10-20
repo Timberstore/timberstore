@@ -108,16 +108,11 @@
     overflow-wrap: anywhere;
   }
 
-  .type-category .ts-mobile-category #filters .is-active > .ts-mobile-category__heading,
-  .type-category .ts-mobile-category #filters .is-active > .ts-mobile-category__heading::after {
-    color: var(--ts-color-link);
-  }
-
-  /* Keep Apollo's single icon and its native is-active glyph change. */
+  /* The shared filter chevron follows its heading colour and native state. */
   .type-category .ts-mobile-category #filters .ts-mobile-category__heading::after {
     top: 50%;
     right: 0;
-    color: var(--ts-color-controls-text);
+    color: inherit;
   }
 
   .type-category .ts-mobile-category #filters .ts-mobile-category__row > form,

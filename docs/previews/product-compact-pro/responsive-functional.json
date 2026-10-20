@@ -1,0 +1,1537 @@
+{
+  "widths": [
+    {
+      "width": 1440,
+      "pass": true,
+      "before": {
+        "width": 1440,
+        "overflow": true,
+        "contentWidth": 514,
+        "panel": {
+          "x": 887.5,
+          "width": 534
+        },
+        "variants": [
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.5,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €\n            bez DPH",
+        "code": {
+          "x": 907.5,
+          "y": 323.875,
+          "width": 140.59375,
+          "height": 18.75,
+          "top": 323.875,
+          "right": 1048.09375,
+          "bottom": 342.625,
+          "left": 907.5
+        },
+        "brand": {
+          "x": 907.5,
+          "y": 343.625,
+          "width": 90.03125,
+          "height": 15,
+          "top": 343.625,
+          "right": 997.53125,
+          "bottom": 358.625,
+          "left": 907.5
+        }
+      },
+      "after": {
+        "width": 1440,
+        "overflow": false,
+        "contentWidth": 514,
+        "panel": {
+          "x": 887.5,
+          "width": 534
+        },
+        "variants": [
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.5,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 138.5,
+            "imgWidth": 116.484375,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €",
+        "code": {
+          "x": 897.5,
+          "y": 327.375,
+          "width": 156.59375,
+          "height": 26.75,
+          "top": 327.375,
+          "right": 1054.09375,
+          "bottom": 354.125,
+          "left": 897.5
+        },
+        "brand": {
+          "x": 1321.46875,
+          "y": 331.375,
+          "width": 90.03125,
+          "height": 18.75,
+          "top": 331.375,
+          "right": 1411.5,
+          "bottom": 350.125,
+          "left": 1321.46875
+        }
+      }
+    },
+    {
+      "width": 1280,
+      "pass": true,
+      "before": {
+        "width": 1280,
+        "overflow": false,
+        "contentWidth": 394,
+        "panel": {
+          "x": 807.5,
+          "width": 414
+        },
+        "variants": [
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.5,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €\n            bez DPH",
+        "code": {
+          "x": 827.5,
+          "y": 362.375,
+          "width": 140.59375,
+          "height": 18.75,
+          "top": 362.375,
+          "right": 968.09375,
+          "bottom": 381.125,
+          "left": 827.5
+        },
+        "brand": {
+          "x": 827.5,
+          "y": 382.125,
+          "width": 90.03125,
+          "height": 15,
+          "top": 382.125,
+          "right": 917.53125,
+          "bottom": 397.125,
+          "left": 827.5
+        }
+      },
+      "after": {
+        "width": 1280,
+        "overflow": false,
+        "contentWidth": 394,
+        "panel": {
+          "x": 807.5,
+          "width": 414
+        },
+        "variants": [
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.5,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 108.5,
+            "imgWidth": 86.46875,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €",
+        "code": {
+          "x": 817.5,
+          "y": 256.375,
+          "width": 156.59375,
+          "height": 26.75,
+          "top": 256.375,
+          "right": 974.09375,
+          "bottom": 283.125,
+          "left": 817.5
+        },
+        "brand": {
+          "x": 1121.46875,
+          "y": 260.375,
+          "width": 90.03125,
+          "height": 18.75,
+          "top": 260.375,
+          "right": 1211.5,
+          "bottom": 279.125,
+          "left": 1121.46875
+        }
+      }
+    },
+    {
+      "width": 1024,
+      "pass": true,
+      "before": {
+        "width": 1024,
+        "overflow": false,
+        "contentWidth": 922,
+        "panel": {
+          "x": 18.5,
+          "width": 972
+        },
+        "variants": [
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.5,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €\n            bez DPH",
+        "code": {
+          "x": 38.5,
+          "y": 1181.46875,
+          "width": 140.59375,
+          "height": 18.75,
+          "top": 1181.46875,
+          "right": 179.09375,
+          "bottom": 1200.21875,
+          "left": 38.5
+        },
+        "brand": {
+          "x": 38.5,
+          "y": 1201.21875,
+          "width": 90.03125,
+          "height": 15,
+          "top": 1201.21875,
+          "right": 128.53125,
+          "bottom": 1216.21875,
+          "left": 38.5
+        }
+      },
+      "after": {
+        "width": 1024,
+        "overflow": false,
+        "contentWidth": 922,
+        "panel": {
+          "x": 18.5,
+          "width": 972
+        },
+        "variants": [
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.5,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 240.5,
+            "imgWidth": 218.46875,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €",
+        "code": {
+          "x": 43.5,
+          "y": 1072.875,
+          "width": 156.59375,
+          "height": 26.75,
+          "top": 1072.875,
+          "right": 200.09375,
+          "bottom": 1099.625,
+          "left": 43.5
+        },
+        "brand": {
+          "x": 875.46875,
+          "y": 1076.875,
+          "width": 90.03125,
+          "height": 18.75,
+          "top": 1076.875,
+          "right": 965.5,
+          "bottom": 1095.625,
+          "left": 875.46875
+        }
+      }
+    },
+    {
+      "width": 768,
+      "pass": true,
+      "before": {
+        "width": 768,
+        "overflow": false,
+        "contentWidth": 707,
+        "panel": {
+          "x": 3,
+          "width": 747
+        },
+        "variants": [
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.75,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "break-word",
+            "hyphens": "manual",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €\n            bez DPH",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "after": {
+        "width": 768,
+        "overflow": false,
+        "contentWidth": 707,
+        "panel": {
+          "x": 3,
+          "width": 747
+        },
+        "variants": [
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.75,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 186.75,
+            "imgWidth": 164.734375,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    },
+    {
+      "width": 430,
+      "pass": true,
+      "before": {
+        "width": 430,
+        "overflow": false,
+        "contentWidth": 375,
+        "panel": {
+          "x": 10,
+          "width": 395
+        },
+        "variants": [
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "break-word",
+            "hyphens": "manual",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €\n            bez DPH",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "after": {
+        "width": 430,
+        "overflow": false,
+        "contentWidth": 375,
+        "panel": {
+          "x": 10,
+          "width": 395
+        },
+        "variants": [
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 134.984375,
+            "imgWidth": 112.96875,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    },
+    {
+      "width": 390,
+      "pass": true,
+      "before": {
+        "width": 390,
+        "overflow": false,
+        "contentWidth": 335,
+        "panel": {
+          "x": 10,
+          "width": 355
+        },
+        "variants": [
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.640625,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "break-word",
+            "hyphens": "manual",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €\n            bez DPH",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "after": {
+        "width": 390,
+        "overflow": false,
+        "contentWidth": 335,
+        "panel": {
+          "x": 10,
+          "width": 355
+        },
+        "variants": [
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.640625,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 121.65625,
+            "imgWidth": 99.625,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    },
+    {
+      "width": 375,
+      "pass": true,
+      "before": {
+        "width": 375,
+        "overflow": false,
+        "contentWidth": 320,
+        "panel": {
+          "x": 10,
+          "width": 340
+        },
+        "variants": [
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "break-word",
+            "hyphens": "manual",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €\n            bez DPH",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "after": {
+        "width": 375,
+        "overflow": false,
+        "contentWidth": 320,
+        "panel": {
+          "x": 10,
+          "width": 340
+        },
+        "variants": [
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 116.65625,
+            "imgWidth": 94.640625,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    },
+    {
+      "width": 320,
+      "pass": true,
+      "before": {
+        "width": 320,
+        "overflow": false,
+        "contentWidth": 265,
+        "panel": {
+          "x": 10,
+          "width": 285
+        },
+        "variants": [
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.5,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "break-word",
+            "hyphens": "manual",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €\n            bez DPH",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "after": {
+        "width": 320,
+        "overflow": false,
+        "contentWidth": 265,
+        "panel": {
+          "x": 10,
+          "width": 285
+        },
+        "variants": [
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-biela-leskla/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-cierna-matna/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-chrom-leskly/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-nikel-matny/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-zlata-leskla/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.5,
+            "href": "/tulip-knopka-jota-zlata-matna/",
+            "active": true
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-chrom-matny/",
+            "active": false
+          },
+          {
+            "width": 147.5,
+            "imgWidth": 125.484375,
+            "href": "/tulip-knopka-jota-nikel-bruseny/",
+            "active": false
+          }
+        ],
+        "title": [
+          {
+            "text": "TULIP Knopka Jota zlatá matná",
+            "wordBreak": "normal",
+            "wrap": "normal",
+            "hyphens": "none",
+            "split": []
+          }
+        ],
+        "price": "2,26 € / ks",
+        "vat": "1,84 €",
+        "code": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "brand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "title": "Jota",
+      "pass": true
+    },
+    {
+      "title": "TULIP Knopka Jota zlatá matná s mimoriadne dlhým názvom produktu pre dynamický katalóg",
+      "pass": true
+    },
+    {
+      "title": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "pass": true
+    },
+    {
+      "nativePriceReplacement": true,
+      "pass": true
+    },
+    {
+      "nativeAvailabilityAndDate": true,
+      "pass": true
+    },
+    {
+      "twoStockRows": true,
+      "pass": true
+    },
+    {
+      "freshMobileVariantCount": 0,
+      "pass": true
+    },
+    {
+      "pageErrors": []
+    },
+    {
+      "freshMobileVariantCount": 1,
+      "pass": true
+    },
+    {
+      "pageErrors": []
+    },
+    {
+      "quantityGalleryDeliveryCart": true,
+      "pass": true
+    },
+    {
+      "variantProductNavigation": true,
+      "url": "https://www.timberstore.sk/tulip-knopka-jota-biela-leskla/",
+      "pass": true
+    },
+    {
+      "freshMobileVariantCount": 8,
+      "pass": true
+    },
+    {
+      "pageErrors": []
+    }
+  ],
+  "limitations": [
+    "Friends API blocked by environment allowlist; variant scenarios use catalog-derived fixture via the unchanged native addon.",
+    "Chromium emulation, no physical iPhone or Safari."
+  ],
+  "cart": "2,26 €"
+}

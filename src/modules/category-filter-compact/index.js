@@ -14,16 +14,21 @@ function getItems(bar) {
   return [...bar.children].filter((item) => item.matches(SEL.categoryFilterItem));
 }
 
-function closeDropdowns(bar) {
-  getItems(bar).forEach((item) => {
-    item.classList.remove('is-active');
-    item.querySelector(SEL.categoryFilterHeading)?.setAttribute('aria-expanded', 'false');
-  });
+export function closeDropdowns(bar = document.querySelector(SEL.categoryFilters), keep) {
+  for (const item of bar?.querySelectorAll(SEL.categoryFilterGroup) || []) {
+    if (item !== keep)
+      item.classList.remove(
+        SEL.categoryFilterOpenClass,
+        document.body.classList.contains(SEL.categoryFilterRowClass)
+          ? SEL.categoryFilterOpenClass
+          : SEL.categoryFilterActiveClass,
+      );
+  }
 }
 
 function setExpanded(bar, expanded) {
   const button = bar?.querySelector(':scope > .timber-filter-more');
-  expandedState = Boolean(expanded);
+  expandedState = expanded;
   bar?.classList.toggle('timber-filter-expanded', expandedState);
 
   if (button) {
@@ -86,19 +91,14 @@ function visibleLimit(bar, items, button) {
 
   for (const item of items) {
     const itemWidth = Math.ceil(item.getBoundingClientRect().width);
-    if (limit > 0 && used + itemWidth > available) break;
-
-    if (limit === 0 || used + itemWidth <= available) {
-      used += itemWidth;
-      limit += 1;
-    } else {
-      break;
-    }
+    if (limit && used + itemWidth > available) break;
+    used += itemWidth;
+    limit += 1;
   }
 
   button.textContent = originalText;
   button.hidden = originalHidden;
-  return Math.max(1, limit);
+  return limit;
 }
 
 function refresh() {
@@ -154,6 +154,7 @@ function bindResize() {
   resizeBound = true;
 
   window.addEventListener('resize', () => {
+    closeDropdowns();
     window.clearTimeout(resizeTimer);
     resizeTimer = window.setTimeout(refresh, 160);
   });

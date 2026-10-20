@@ -1,0 +1,33 @@
+/* Verified native product metadata only; never order numbers or generic links.
+   Apollo/C3 uses important metadata fonts; retain that local precedence. */
+.ts-product-meta,
+.ts-product-meta > span {
+  font-size: 12.5px !important;
+  line-height: 1.5 !important;
+}
+.ts-product-meta {
+  color: var(--ts-color-detail-code) !important;
+  font-weight: 500 !important;
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.ts-product-meta > .ts-product-meta__value {
+  color: var(--ts-color-blue) !important;
+  font-weight: 600 !important;
+}
+
+/* C3 · Contrast only for image-overlay card codes, not detail or popup. */
+.ts-card:not(#colorbox *) .p-code.ts-product-meta {
+  background: var(--ts-color-sku-bg) !important;
+  padding: 2px var(--ts-space-1) !important;
+  border-radius: var(--ts-radius-count);
+}
+@media (min-width: 992px) {
+  .ts-view-list #products:not(.products-related) .p-code.ts-product-meta {
+    background: transparent !important;
+    padding: 0 !important;
+  }
+}

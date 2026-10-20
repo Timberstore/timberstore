@@ -1,0 +1,74 @@
+/* M2/C3 · Reuse native offer/form nodes. Important rules beat Apollo/legacy;
+   only homepage purchase cards participate, never popup/category/detail. */
+.type-index .products:not(.products-related) .product:has(.ts-qty) > .p {
+  padding-bottom: var(--ts-space-3) !important;
+}
+.type-index .products:not(.products-related) .product:has(.ts-qty) .p-in {
+  height: auto !important;
+}
+.type-index .products:not(.products-related) .product-btn:has(> form > .ts-qty) {
+  position: static;
+  width: 100%;
+  max-width: var(--ts-home-row-width);
+  margin: var(--ts-space-3) auto 0;
+  container-type: inline-size;
+}
+.type-index .products:not(.products-related) .product:has(.ts-qty) .p-bottom > [data-micro='offer'],
+.type-index .products:not(.products-related) form.pr-action:has(> .ts-qty) {
+  display: grid !important;
+  grid-template-columns: var(--ts-home-cols);
+  gap: var(--ts-home-cart-gap) !important;
+  width: 100% !important;
+  max-width: var(--ts-home-row-width) !important;
+  margin-inline: auto !important;
+  padding: 0 !important;
+  align-items: center;
+}
+.type-index .products:not(.products-related) .product:has(.ts-qty) .p-tools {
+  grid-area: 1 / 1;
+  min-height: 0;
+  margin: 0 !important;
+}
+.type-index .products:not(.products-related) .product:has(.ts-qty) .prices {
+  grid-area: 1 / 2;
+  min-width: 0;
+  margin: 0 !important;
+}
+.type-index .products:not(.products-related) .price-final {
+  white-space: normal;
+}
+.type-index .products:not(.products-related) :is(.price-final > strong, .pr-list-unit) {
+  display: inline-block;
+  white-space: nowrap;
+}
+.type-index .products:not(.products-related) form.pr-action > .ts-qty {
+  width: 100%;
+}
+.type-index .products:not(.products-related) form.pr-action:has(> .ts-qty) > .btn-cart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 38px !important;
+  max-width: none !important;
+  width: 100% !important;
+  height: 38px !important;
+  min-height: 38px !important;
+  padding: 0 8px !important;
+  font-size: 14px !important;
+}
+.type-index .products:not(.products-related) form.pr-action > .btn-cart > span:not(.ts-cart-count) {
+  display: none !important;
+}
+.type-index .products:not(.products-related) .btn-cart::after {
+  margin: 0 !important;
+}
+@container (min-width: 250px) {
+  .type-index
+    .products:not(.products-related)
+    form.pr-action
+    > .btn-cart
+    > span:not(.ts-cart-count) {
+    display: inline !important;
+  }
+}

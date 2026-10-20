@@ -164,6 +164,18 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Stabilná v0.7.0 (20. 10. 2026, výslovné schválenie majiteľa):** zachováva existujúci otestovaný limit JS 32 KiB / CSS 26,75 KiB z compact.1 bez navýšenia. Majiteľ výslovne schválil merge, produkčný build, tag a GitHub release; Safari/WebKit aj fyzický iPhone majú stav `WAIVED BY OWNER`, nie PASS. Externé živé varianty zostávajú `NOT VERIFIED`. Aktiváciu Shoptetu vykoná majiteľ manuálne, `PROD` ostáva v0.6.13. Staršie verzie a ich limity sa nemenia.
+
+- **Homepage Cart & Quantity UI Fix, rovnaká preview `0.6.13-compact.1` (20. 10. 2026):** CSS limit 26,75 KiB, JS zostáva 32 KiB. Lokálna homepage geometria a zdieľané quantity tokeny; malé rozšírenie podľa historicky evidovaného súhlasu klienta 15. 10. (nižšie), bez opätovného pýtania. Stabilné verzie, loader a ich limity zostávajú nezmenené. Iba preview, bez merge, tagu, release a produkcie.
+
+- **Popup + Recommendations Polish, rovnaká preview `0.6.13-compact.1` (20. 10. 2026):** limit JS 32 KiB a CSS 26,5 KiB. Natívne odporúčané nákupy, jednotky z verejného detailu a lokálne popup/related/similar štýly. Rozšírenie podľa historicky evidovaného súhlasu 15. 10.; stabilné verzie a ich limity zostávajú bez zmeny. Iba preview, bez tagu, merge a produkcie.
+
+- **Final Product Card Polish, rovnaká preview `0.6.13-compact.1` (20. 10. 2026):** limit JS 31,25 KiB, CSS 25,5 KiB. Malé rozšírenie pre mobilný qty-picker a lokálne kartičkové štýly podľa zaznamenaného súhlasu 15. 10.; stabilné verzie, ich limity a produkčný loader zostávajú nezmenené. Bez release, tagu alebo merge.
+
+- **PD Final Polish preview `0.6.13-compact.1` (19. 10. 2026):** JS 30,27 KiB / limit 31, CSS 24,69 KiB / limit 25. Rozšírenie iba pre toto preview podľa zaznamenaného súhlasu 15. 10.; limity `compact.0` a stabilných vydaní sa nemenia. Bez merge, tagu alebo produkčného nasadenia.
+
+- **Izolované PD Compact PRO preview `0.6.13-compact.0` (19. 10. 2026):** CSS limit 24 KiB, výstup 23,91 KiB; JS 29,87 KiB / 30. Navýšenie podľa zaznamenaného súhlasu 15. 10. iba pre toto preview. Stabilná v0.6.13 a staršie limity sa nemenia. Bez merge/tagu/produkčného nasadenia.
+
 - **Stabilná v0.6.13 (schválená 19. 10. 2026):** dokončené opravy homepage/Instagramu/košíka/pätičky bez nového produktového detailu. CSS limit 23,25 KiB (výstup 23,02 KiB), JS 30 KiB (29,55 KiB). Navýšenie podľa existujúceho súhlasu 15. 10.; skoršie tagy a ich limity zostávajú bez zmeny.
 
 - **Stabilná v0.6.12 (schválená 18. 10. 2026):** iba schválené večerné úpravy FAQ/homepage/pätičky nad main v0.6.11, bez rozpracovaného detailu produktu. CSS limit 23 KiB (výstup 22,81 KiB), JS ostáva 30 KiB (29,14 KiB). Navýšenie podľa existujúceho súhlasu 15. 10.; limity ostatných vydaní zostávajú nezmenené.

@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "url": "/tulip-knopka-jota-zlata-matna/",
+      "details": true,
+      "chat": true,
+      "watchdog": true,
+      "cartProductPresent": true
+    },
+    {
+      "url": "/pribornik-classico-kristall-softtouch-722x474mm-cierna/",
+      "details": true,
+      "chat": true,
+      "watchdog": true,
+      "cartProductPresent": true
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

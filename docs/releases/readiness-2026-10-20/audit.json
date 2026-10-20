@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-20",
+  "state": "RELEASE_BLOCKED",
+  "branch": "preview/product-detail-compact-pro-20261019",
+  "auditedHead": "9faa138df5d088af3d28446fa6c9eadeb0d38dd3",
+  "implementation": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+  "production": {
+    "tag": "v0.6.13",
+    "commit": "0c726ffe6986192721a3b62b3743b31c78a01b50",
+    "tagObject": "87d22e4116b370cf7aaef3f4454095ec2ab5bb14",
+    "observedLoaderCount": 1,
+    "assets": {
+      "css": {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.6.13/dist/timber.min.css",
+        "sha256": "6e88302e213d5f0933b0fae6fdf4d66bf30a32ce202fb69a7a531f6a44ae1c68",
+        "bytes": 153038,
+        "matchesTag": true
+      },
+      "js": {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.6.13/dist/timber.min.js",
+        "sha256": "a57561c9261716ed20b1fc2a5ef828040d78ffb47f764d3105d123717d57764c",
+        "bytes": 106937,
+        "matchesTag": true
+      }
+    }
+  },
+  "remoteMain": "0c726ffe6986192721a3b62b3743b31c78a01b50",
+  "aheadBehind": {
+    "behind": 0,
+    "ahead": 26
+  },
+  "checks": {
+    "lint": "PASS",
+    "previewBuild": "PASS",
+    "diffCheck": "PASS",
+    "diffCheckVsProduction": "PASS",
+    "newStableBuild": "NOT_CREATED_GATE_BLOCKED",
+    "webkit": "BLOCKED_MISSING_BINARY_AND_DOWNLOAD_403",
+    "physicalIPhone": "NOT_AVAILABLE",
+    "webkitFunctionalMatrix": "NOT_RUN",
+    "finalCheckoutValidation": "NOT_RUN",
+    "liveExternalVariants": "NOT_VERIFIED_NETWORK_403",
+    "merge": "NOT_PERFORMED",
+    "tag": "NOT_CREATED",
+    "shoptetAdmin": "NOT_MODIFIED"
+  },
+  "build": {
+    "packageVersion": "0.6.13-compact.1",
+    "jsGzip": 32467,
+    "jsLimit": 32768,
+    "cssGzip": 27340,
+    "cssLimit": 27392,
+    "limitsIncreased": false
+  },
+  "plannedVersion": "v0.7.0 (proposal only; tag does not exist)",
+  "sourceChangesInThisAudit": false,
+  "staticUnusedTokenCandidates": [
+    "--ts-color-qty-border",
+    "--ts-color-qty-btn-bg",
+    "--ts-color-qty-text"
+  ],
+  "notes": [
+    "Production has dormant legacy v0.6.5 fallback absent from current repo loader. Exact observed live loader archived; no admin edits.",
+    "Chromium is not WebKit/Safari; old native-shaped fixture tests do not prove live external variant availability.",
+    "No release commands, package bump, main push or new tag executed."
+  ]
+}

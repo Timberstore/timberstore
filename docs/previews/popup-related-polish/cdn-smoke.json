@@ -1,0 +1,35 @@
+[
+  {
+    "loader": "326282ef13c3bfe593a3014a8ed83dc5fe23e40a",
+    "viewport": [
+      1440,
+      1431
+    ],
+    "unit": " / ks",
+    "price": "rgb(36, 84, 166)",
+    "controls": 1,
+    "width": 1440,
+    "pass": true
+  },
+  {
+    "loader": "326282ef13c3bfe593a3014a8ed83dc5fe23e40a",
+    "viewport": [
+      390,
+      390
+    ],
+    "unit": " / ks",
+    "price": "rgb(36, 84, 166)",
+    "controls": 1,
+    "width": 390,
+    "pass": true
+  },
+  {
+    "publishedParentAdd": true,
+    "extended": {
+      "hasContent": false,
+      "status": 200
+    },
+    "nativePopupOpened": false,
+    "baselineLimitation": true
+  }
+]

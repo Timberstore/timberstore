@@ -1,10 +1,10 @@
 import { SEL } from '../../core/selectors.js';
+import { TEXTS } from '../../core/texts.js';
+import { prepareRecommendations } from './recommendations.js';
 
 let observer;
 
 function cleanValue(text) {
-  if (!text) return text;
-
   return text
     .replace(/\s+,/g, ',')
     .replace(/,([^\s\d])/g, ', $1')
@@ -12,44 +12,65 @@ function cleanValue(text) {
 }
 
 function cleanTextNodes(element) {
-  if (!element) return;
-
-  const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, {
-    acceptNode(node) {
-      const parent = node.parentElement;
-      if (!parent || parent.closest('script, style, textarea, input, select, option')) {
-        return NodeFilter.FILTER_REJECT;
-      }
-      return NodeFilter.FILTER_ACCEPT;
-    },
-  });
-
-  const nodes = [];
-  let node;
-  while ((node = walker.nextNode())) nodes.push(node);
-
-  nodes.forEach((textNode) => {
-    const original = textNode.nodeValue;
-    const cleaned = cleanValue(original);
-    if (cleaned !== original) textNode.nodeValue = cleaned;
-  });
+  if (element.matches(SEL.classicProductCard) || element.classList.contains('ts-recommendation')) {
+    element.classList.add('ts-card');
+    const net = element.querySelector(SEL.productNetPrice);
+    if (net) net.classList.toggle('ts-card-net', !/^\s*\(/.test(net.textContent));
+  }
+  const walker = document.createTreeWalker(element, 4 /* NodeFilter.SHOW_TEXT */);
+  for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+    if (node.parentElement.closest('script, style, textarea, input, select, option')) continue;
+    const clean = cleanValue(node.nodeValue);
+    if (node.nodeValue !== clean) node.nodeValue = clean;
+    // Preserve every native price/space/currency node; only style the amount and euro symbol.
+    const parent = node.parentElement;
+    if (!parent.matches(SEL.productPriceNumber) || parent.querySelector('.ts-price-number'))
+      continue;
+    const match = node.nodeValue.match(/\d[\d\s.,€]*/);
+    if (!match) continue;
+    const amount = node.splitText(match.index);
+    amount.splitText(match[0].length);
+    const span = document.createElement('span');
+    span.className = 'ts-price-number';
+    amount.before(span);
+    span.append(amount);
+  }
 }
 
-function cleanProductTexts(root = document) {
-  root.querySelectorAll(SEL.productTextDetailAreas).forEach(cleanTextNodes);
-  root.querySelectorAll(SEL.productTextCards).forEach(cleanTextNodes);
-}
-
-function ensureObserver() {
-  if (observer || !document.body) return;
-
-  observer = new MutationObserver((mutations) => {
-    if (mutations.some((mutation) => mutation.addedNodes?.length)) {
-      cleanProductTexts(document);
+// Presentation only: reuse native SKU/brand value spans and their attributes.
+// Re-query on AJAX; never nest wrappers or replace links/product data.
+function metadata(root, selector, text) {
+  for (const element of root.querySelectorAll(selector)) {
+    const value = element.querySelector(SEL.productMetadataValue);
+    if (!value || value.querySelector('img')) continue;
+    let label = element.querySelector(SEL.productMetadataLabel);
+    if (!label) {
+      const node = [...element.childNodes].find(
+        (n) => n.nodeType === 3 /* Node.TEXT_NODE */ && n.textContent.trim(),
+      );
+      if (!node) continue;
+      label = document.createElement('span');
+      node.replaceWith(label);
     }
-  });
+    if (label.textContent !== text) label.textContent = text;
+    element.classList.add('ts-product-meta');
+    label.classList.add('ts-product-meta__label');
+    value.classList.add('ts-product-meta__value');
+  }
+}
 
-  observer.observe(document.body, { childList: true, subtree: true });
+function cleanProductTexts(root) {
+  prepareRecommendations(root);
+  for (const heading of root.querySelectorAll(SEL.productVariantsHeading)) {
+    if (heading.textContent !== TEXTS.productMetadata.variants) {
+      heading.textContent = TEXTS.productMetadata.variants;
+    }
+  }
+  metadata(root, SEL.productMetadataCode, TEXTS.productMetadata.code);
+  metadata(root, SEL.productMetadataBrand, TEXTS.productMetadata.brand);
+  root
+    .querySelectorAll(SEL.productTextDetailAreas + ', ' + SEL.productTextCards)
+    .forEach(cleanTextNodes);
 }
 
 export default {
@@ -57,6 +78,8 @@ export default {
   pages: ['*'],
   init(root) {
     cleanProductTexts(root);
-    ensureObserver();
+    if (observer || !document.body) return;
+    observer = new MutationObserver(() => cleanProductTexts(document));
+    observer.observe(document.body, { childList: true, subtree: true, characterData: true });
   },
 };
