@@ -91,3 +91,13 @@ CSS gzip **27 211 B / limit 27 392 B (26,75 KiB)**; JS **32 467 B / limit 32 768
 - `scripts/build.mjs`, `CONTRIBUTING.md` — preview CSS rozpočet.
 - `dist/timber.min.css`, `dist/timber.min.css.map` — build.
 - `docs/previews/homepage-cart-quantity-ui/` — report, merania a screenshoty.
+
+## Immutable preview a CDN kontrola
+
+[Homepage preview](https://www.timberstore.sk/?ts_preview=6bf544e5c47eb687e28cfb4a186d30747232d5f7)
+
+Commit s implementáciou: `6bf544e5c47eb687e28cfb4a186d30747232d5f7`.
+JS aj CSS stiahnuté z tohto SHA cez jsDelivr sú bajtovo zhodné s otestovaným buildom.
+[Skutočný CDN smoke test](cdn-smoke.json): 1440/390/320 px, správny SHA loadera, rám/radius, 12 px medzera, 38 px výška po ustálení a korektné skrytie textu iba pri 320 px. Pri 390 px sa reálne pridali 2 kusy SKU 505938 jediným requestom; mini košík ukázal 2 kusy, 689,46 €, badge 2 a dopravu zadarmo. Konzola bez nových JS chýb.
+
+Prvý studený CDN pokus prekročil 30-sekundový navigačný timeout. Pri ďalšom meraní 320 px bola tlačidlová výška zachytená ešte počas natívnej CSS transition (38,14 px). Finálny beh čaká na ustálenie a prechádza na všetkých troch šírkach; žiadna zdrojová oprava kvôli týmto časovaniam nebola potrebná.
