@@ -1,3 +1,5 @@
+> **Historický audit — nahradené rozhodnutie o blokovaní.** Majiteľ 20. 10. 2026 výslovne prijal riziko Safari/iPhone a schválil vydanie. Oba testy majú stav `WAIVED BY OWNER`; živé externé varianty zostávajú `NOT VERIFIED`. Aktuálny stav: [v0.7.0](../v0.7.0.md). Pôvodné výsledky nižšie sú zachované bez prepisovania na PASS.
+
 # Predrelease audit — 20. 10. 2026
 
 **VYDANIE ZASTAVENÉ.** Povinnú Safari/WebKit kompatibilitu nie je možné v tomto prostredí overiť. Podľa výslovnej podmienky zadania nebol vykonaný merge, produkčný build novej verzie, nový tag/release ani zmena Shoptet administrácie. Toto je dokumentácia pripraveného preview a blokujúceho stavu, nie oznámenie vydania.

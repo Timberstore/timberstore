@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.7.0 · 2026-10-20
+
+- Promote approved product-detail, catalogue/filter, homepage, quantity and cart presentation to stable v0.7.0. Preserve native Shoptet purchasing, prices and stock logic.
+- Retain tested 32 KiB JS / 26.75 KiB CSS budgets without increase. Production loader remains v0.6.13 pending manual owner activation.
+- Safari/WebKit and physical iPhone: **WAIVED BY OWNER**. Live external variant feed: **NOT VERIFIED**.
+- [Release, final Chromium results, activation and rollback](docs/releases/v0.7.0.md); [complete changes since v0.6.13](docs/releases/v0.7.0/CHANGES.sk.md).
+
 ## PD Price, Stock & Feed-Case Polish · 2026-10-19 · Preview only
 
 - Restore product titles to native feed case while retaining centring and whole-word wrapping.

@@ -1,0 +1,240 @@
+[
+  {
+    "width": 393,
+    "miniBefore": [
+      {
+        "w": 100,
+        "h": 36,
+        "border": "1px solid rgb(201, 122, 43)",
+        "radius": "7px",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(124, 126, 143)",
+        "font": "14px",
+        "weight": "700",
+        "display": "inline-grid",
+        "padding": "0px",
+        "grid": "30px 38px 30px",
+        "signs": [
+          {
+            "text": "+",
+            "w": 9.828125,
+            "color": "rgb(66, 62, 62)",
+            "display": "block"
+          },
+          {
+            "text": "−",
+            "w": 10.015625,
+            "color": "rgb(66, 62, 62)",
+            "display": "block"
+          }
+        ],
+        "segments": [
+          {
+            "w": 38,
+            "h": 34,
+            "color": "rgb(32, 36, 42)",
+            "bg": "rgb(255, 255, 255)",
+            "border": "",
+            "radius": "4px",
+            "padding": "0px"
+          },
+          {
+            "w": 30,
+            "h": 34,
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "border": "0px none rgb(66, 62, 62)",
+            "radius": "0px",
+            "padding": "0px"
+          },
+          {
+            "w": 30,
+            "h": 34,
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "border": "0px none rgb(66, 62, 62)",
+            "radius": "0px",
+            "padding": "0px"
+          }
+        ]
+      }
+    ],
+    "miniAfter": [
+      {
+        "w": 100,
+        "h": 36,
+        "border": "1px solid rgb(201, 122, 43)",
+        "radius": "7px",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(124, 126, 143)",
+        "font": "14px",
+        "weight": "700",
+        "display": "inline-grid",
+        "padding": "0px",
+        "grid": "30px 38px 30px",
+        "signs": [
+          {
+            "text": "+",
+            "w": 9.828125,
+            "color": "rgb(66, 62, 62)",
+            "display": "block"
+          },
+          {
+            "text": "−",
+            "w": 10.015625,
+            "color": "rgb(66, 62, 62)",
+            "display": "block"
+          }
+        ],
+        "segments": [
+          {
+            "w": 38,
+            "h": 34,
+            "color": "rgb(32, 36, 42)",
+            "bg": "rgb(255, 255, 255)",
+            "border": "",
+            "radius": "4px",
+            "padding": "0px"
+          },
+          {
+            "w": 30,
+            "h": 34,
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "border": "0px none rgb(66, 62, 62)",
+            "radius": "0px",
+            "padding": "0px"
+          },
+          {
+            "w": 30,
+            "h": 34,
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "border": "0px none rgb(66, 62, 62)",
+            "radius": "0px",
+            "padding": "0px"
+          }
+        ]
+      }
+    ],
+    "mainAfter": [
+      {
+        "w": 100,
+        "h": 36,
+        "border": "1px solid rgb(201, 122, 43)",
+        "radius": "7px",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(15, 15, 15)",
+        "font": "14px",
+        "weight": "700",
+        "display": "inline-grid",
+        "padding": "0px",
+        "grid": "30px 38px 30px",
+        "signs": [
+          {
+            "text": "+",
+            "w": 9.828125,
+            "color": "rgb(66, 62, 62)",
+            "display": "block"
+          },
+          {
+            "text": "−",
+            "w": 10.015625,
+            "color": "rgb(66, 62, 62)",
+            "display": "block"
+          }
+        ],
+        "segments": [
+          {
+            "w": 38,
+            "h": 34,
+            "color": "rgb(32, 36, 42)",
+            "bg": "rgb(255, 255, 255)",
+            "border": "",
+            "radius": "4px",
+            "padding": "0px"
+          },
+          {
+            "w": 30,
+            "h": 34,
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "border": "0px none rgb(66, 62, 62)",
+            "radius": "0px",
+            "padding": "0px"
+          },
+          {
+            "w": 30,
+            "h": 34,
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "border": "0px none rgb(66, 62, 62)",
+            "radius": "0px",
+            "padding": "0px"
+          }
+        ]
+      }
+    ],
+    "mainBefore": [
+      {
+        "w": 100,
+        "h": 36,
+        "border": "1px solid rgb(201, 122, 43)",
+        "radius": "7px",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(15, 15, 15)",
+        "font": "14px",
+        "weight": "700",
+        "display": "inline-grid",
+        "padding": "0px",
+        "grid": "30px 38px 30px",
+        "signs": [
+          {
+            "text": "+",
+            "w": 9.828125,
+            "color": "rgb(66, 62, 62)",
+            "display": "block"
+          },
+          {
+            "text": "−",
+            "w": 10.015625,
+            "color": "rgb(66, 62, 62)",
+            "display": "block"
+          }
+        ],
+        "segments": [
+          {
+            "w": 38,
+            "h": 34,
+            "color": "rgb(32, 36, 42)",
+            "bg": "rgb(255, 255, 255)",
+            "border": "",
+            "radius": "4px",
+            "padding": "0px"
+          },
+          {
+            "w": 30,
+            "h": 34,
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "border": "0px none rgb(66, 62, 62)",
+            "radius": "0px",
+            "padding": "0px"
+          },
+          {
+            "w": 30,
+            "h": 34,
+            "color": "rgb(66, 62, 62)",
+            "bg": "rgb(245, 240, 233)",
+            "border": "0px none rgb(66, 62, 62)",
+            "radius": "0px",
+            "padding": "0px"
+          }
+        ]
+      }
+    ],
+    "mainPlus": "4,52 €",
+    "mainMinus": "2,26 €",
+    "pass": true
+  }
+]

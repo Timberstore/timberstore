@@ -1,0 +1,82 @@
+{
+  "version": "v0.7.0",
+  "modules": [
+    "header-service-bar",
+    "footer-contacts",
+    "footer-menu",
+    "instagram",
+    "partners-slider",
+    "cart-presentation",
+    "order-detail",
+    "product-compact",
+    "information-message",
+    "carousel-swipe",
+    "homepage-categories",
+    "menu-card-click",
+    "sidebar-active-path",
+    "product-text-cleanup",
+    "category-filter-compact",
+    "footer-payments",
+    "empty-cart",
+    "gallery-swipe",
+    "category-bestsellers-sidebar",
+    "list-view",
+    "qty-picker",
+    "cart-count",
+    "cart-modal-speed",
+    "mobile-category-controls"
+  ],
+  "body": "mobile id-1 in-index template-11 type-index one-column-body has-carousel columns-mobile-2 columns-4 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-products-slider is-products-slider-mobile is-visible-header-contact is-classic-parameters-color unveiled carousel-set is-loaded after-load",
+  "cart": [
+    {
+      "sku": "494606",
+      "qty": 1
+    }
+  ],
+  "arrows": [
+    {
+      "html": "<button type=\"button\" class=\"ts-cart-preview-toggle\" aria-label=\"Otvoriť alebo zatvoriť náhľad košíka\" aria-controls=\"cart-widget\" aria-haspopup=\"dialog\" aria-expanded=\"false\"></button>",
+      "rect": {
+        "x": 305,
+        "y": 0,
+        "w": 28,
+        "h": 50
+      },
+      "parent": "click-cart ts-cart-control",
+      "style": "block"
+    },
+    {
+      "html": "<button type=\"button\" class=\"ts-cart-preview-toggle\" aria-label=\"Otvoriť alebo zatvoriť náhľad košíka\" aria-controls=\"cart-widget\" aria-haspopup=\"dialog\" aria-expanded=\"false\"></button>",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "parent": "click-cart ts-cart-control",
+      "style": "none"
+    }
+  ],
+  "header": "tid=\"headerMenuItem\" role=\"menuitem\"><span>Melamínové hrany</span></a>\n                        </div></li><li class=\"menu-item-9051\" role=\"none\"><a href=\"/hrany-k-pracovnym-doskam/\" class=\"menu-image\" data-testid=\"headerMenuItem\" tabindex=\"-1\" aria-hidden=\"true\"><img src=\"https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/pracovne_dosky-1.png\" alt=\"\" aria-hidden=\"true\" width=\"140\" height=\"100\" data-src=\"https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/pracovne_dosky-1.png\" fetchpriority=\"low\" loading=\"lazy\"></a><div><a href=\"/hrany-k-pracovnym-doskam/\" data-testid=\"headerMenuItem\" role=\"menuitem\"><span>Hrany k pracovným doskám</span></a>\n                        </div></li><li class=\"menu-item-9081\" role=\"none\"><a href=\"/prislusenstvo-2/\" class=\"menu-image\" data-testid=\"headerMenuItem\" tabindex=\"-1\" aria-hidden=\"true\"><img src=\"https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/prislusenstvo-1.jpg\" alt=\"\" aria-hidden=\"true\" width=\"140\" height=\"100\" data-src=\"https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/prislusenstvo-1.jpg\" fetchpriority=\"low\" loading=\"lazy\"></a><div><a href=\"/prislusenstvo-2/\" data-testid=\"headerMenuItem\" role=\"menuitem\"><span>Príslušenstvo</span></a>\n                        </div></li></ul></li>\n<li class=\"menu-item-9038\" role=\"none\"><a href=\"/3d-tlacene-produkty/\" data-testid=\"headerMenuItem\" role=\"menuitem\" aria-expanded=\"false\"><b>3D TLAČ</b></a></li>\n</ul></div>\n</div>",
+  "cartControls": [
+    {
+      "html": "<a href=\"/kosik/\" class=\"btn btn-icon toggle-window cart-count full\" data-target=\"cart\" data-hover=\"true\" data-redirect=\"true\" data-testid=\"headerCart\" rel=\"nofollow\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"cart-widget\">\n        \n                <span class=\"sr-only\">Nákupný košík</span>\n        \n            <span class=\"cart-price visible-lg-inline-block\" data-testid=\"headerCartPrice\">\n                                    2,26 €\n                            </span>\n        \n    \n        <i data-testid=\"headerCartCount\">1</i>    </a>",
+      "rect": {
+        "x": 216.328125,
+        "y": 5,
+        "w": 116.671875,
+        "h": 40
+      }
+    },
+    {
+      "html": "<a href=\"/kosik/\" class=\"btn btn-icon toggle-window cart-count full\" data-target=\"cart\" data-hover=\"true\" data-redirect=\"true\" data-testid=\"headerCart\" rel=\"nofollow\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"cart-widget\">\n        \n                <span class=\"sr-only\">Nákupný košík</span>\n        \n            <span class=\"cart-price visible-lg-inline-block\" data-testid=\"headerCartPrice\">\n                                    2,26 €\n                            </span>\n        \n    \n        <i data-testid=\"headerCartCount\">1</i>    </a>",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      }
+    }
+  ],
+  "errors": []
+}

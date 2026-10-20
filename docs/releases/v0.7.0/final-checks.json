@@ -1,0 +1,16 @@
+{
+  "version": "v0.7.0",
+  "lint": "PASS",
+  "build": "PASS",
+  "diffCheck": "PASS",
+  "approvedPreview": "e308459a47e3aba567d21c9fb2ed866a2ea43ab8",
+  "cssIdentical": true,
+  "jsOnlyVersionChange": true,
+  "safariWebKit": "WAIVED BY OWNER",
+  "physicalIPhone": "WAIVED BY OWNER",
+  "liveExternalVariants": "NOT VERIFIED",
+  "shoptetAdminModified": false,
+  "loaderProd": "v0.6.13",
+  "orderSubmitted": false,
+  "paymentSubmitted": false
+}

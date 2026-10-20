@@ -16,8 +16,9 @@ const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 // v0.6.11 stable promotion retains the approved rc.4 allowance (2026-10-16).
 // Preview allowances: v0.6.6 17 kB, v0.6.7 18.25 kB, v0.6.8 18.75 kB.
 // v0.6.13: approved homepage refinements; earlier release limits stay fixed.
-// Isolated PD Compact preview; stable v0.6.13 retains its original allowance.
-const cssBudgetKiB = pkg.version === '0.6.13-compact.1' ? 26.75 : pkg.version === '0.6.13-compact.0' ? 24 : pkg.version === '0.6.13' ? 23.25 : pkg.version === '0.6.12' ? 23 : ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
+// Owner-approved v0.7.0 retains the tested compact.1 limits without increase.
+// Stable v0.6.13 and earlier versions retain their original allowances.
+const cssBudgetKiB = ['0.7.0', '0.6.13-compact.1'].includes(pkg.version) ? 26.75 : pkg.version === '0.6.13-compact.0' ? 24 : pkg.version === '0.6.13' ? 23.25 : pkg.version === '0.6.12' ? 23 : ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
   ? 21
   : ['0.6.11-rc.2', '0.6.11-rc.3'].includes(pkg.version)
     ? 20.25
@@ -34,7 +35,7 @@ const cssBudgetKiB = pkg.version === '0.6.13-compact.1' ? 26.75 : pkg.version ==
               : pkg.version === '0.6.5'
                 ? 16
                 : 15;
-const BUDGET = { 'dist/timber.min.js': (pkg.version === '0.6.13-compact.1' ? 32 : 30) * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
+const BUDGET = { 'dist/timber.min.js': (['0.7.0', '0.6.13-compact.1'].includes(pkg.version) ? 32 : 30) * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
 
 const common = {
   bundle: true,
