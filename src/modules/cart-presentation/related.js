@@ -5,6 +5,28 @@ import { showCode } from './rows.js';
 
 const requests = new Map();
 const pending = new WeakSet();
+const settled = new WeakSet();
+const waiting = [];
+let active = 0;
+
+function fetchDocument(url) {
+  // Preload hidden native related rows, bounded to four concurrent documents.
+  return new Promise((resolve) => {
+    waiting.push(async () => {
+      const controller = new AbortController();
+      const timer = window.setTimeout(() => controller.abort(), 8000);
+      try {
+        const response = await fetch(url, { credentials: 'same-origin', signal: controller.signal });
+        resolve(response.ok ? new DOMParser().parseFromString(await response.text(), 'text/html') : null);
+      } catch { resolve(null); }
+      finally { window.clearTimeout(timer); active--; drain(); }
+    });
+    drain();
+  });
+}
+function drain() {
+  while (active < 4 && waiting.length) { active++; void waiting.shift()(); }
+}
 
 export async function sourceQuantity(url, priceId, expectedCode) {
   // Related forms omit minimum/maximum/amount completely. Read the existing
@@ -14,10 +36,7 @@ export async function sourceQuantity(url, priceId, expectedCode) {
   if (!requests.has(url.href)) {
     requests.set(
       url.href,
-      fetch(url.href, { credentials: 'same-origin' })
-        .then((response) => (response.ok ? response.text() : null))
-        .then((html) => (html ? new DOMParser().parseFromString(html, 'text/html') : null))
-        .catch(() => null),
+      fetchDocument(url.href),
     );
   }
   const doc = await requests.get(url.href);
@@ -49,15 +68,33 @@ export async function sourceQuantity(url, priceId, expectedCode) {
 }
 
 async function enhance(form) {
-  if (pending.has(form) || form.querySelector('.ts-cart-quantity')) return;
+  if (pending.has(form) || settled.has(form) || form.querySelector('.ts-cart-quantity')) return;
   const product = form.closest(SEL.cartRelatedProduct);
   const href = product?.querySelector(SEL.cartRelatedLink)?.href;
   const priceId = form.querySelector(SEL.cartFormPriceId)?.value;
   if (!href || !priceId) return;
   form.querySelector(SEL.cartFormSubmit)?.setAttribute('aria-label', TEXTS.cart.addToCart);
   pending.add(form);
+  const pendingSubmit = form.querySelector(SEL.cartFormSubmit);
+  const wasDisabled = pendingSubmit?.disabled;
+  if (pendingSubmit) pendingSubmit.disabled = true;
+  form.classList.add('ts-related-pending');
+  form.setAttribute('aria-busy', 'true');
+  const loading = document.createElement('span');
+  loading.className = 'ts-related-loading';
+  loading.setAttribute('role', 'status');
+  loading.textContent = TEXTS.cart.loadingRelated;
+  form.prepend(loading);
   const source = await sourceQuantity(new URL(href), priceId);
-  if (!source || !form.isConnected) return; // Native add-to-cart remains available.
+  pending.delete(form);
+  settled.add(form);
+  // One synchronous presentation update when verified data arrives. On failure
+  // restore the original native purchase; never invent min/max, stock or code.
+  loading.remove();
+  if (pendingSubmit) pendingSubmit.disabled = wasDisabled;
+  form.classList.remove('ts-related-pending');
+  form.removeAttribute('aria-busy');
+  if (!source || !form.isConnected) return;
   const quantity = source.quantity.cloneNode(true);
   const name = product.querySelector(SEL.cartRelatedLink);
   showCode(name.parentElement, source.code);

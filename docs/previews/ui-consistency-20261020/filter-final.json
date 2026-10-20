@@ -1,0 +1,452 @@
+[
+  {
+    "width": 1440,
+    "row": true,
+    "closed": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -4)",
+      "width": "14.8594px",
+      "height": "8px",
+      "line": "8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "other": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -4)",
+      "width": "14.8594px",
+      "height": "8px",
+      "line": "8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Značky</span>"
+    },
+    "open": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(-1, 0, 0, -1, 0, -4)",
+      "width": "14.8594px",
+      "height": "8px",
+      "line": "8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "applied": "294",
+    "url": "https://www.timberstore.sk/prislusenstvo-legrabox/?priceMin=294&priceMax=1480",
+    "viewport": [
+      1440,
+      1425
+    ],
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "row": true,
+    "closed": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -4)",
+      "width": "14.8594px",
+      "height": "8px",
+      "line": "8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "other": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -4)",
+      "width": "14.8594px",
+      "height": "8px",
+      "line": "8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Značky</span>"
+    },
+    "open": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(-1, 0, 0, -1, 0, -4)",
+      "width": "14.8594px",
+      "height": "8px",
+      "line": "8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "applied": "294",
+    "url": "https://www.timberstore.sk/prislusenstvo-legrabox/?priceMin=294&priceMax=1480",
+    "viewport": [
+      1280,
+      1265
+    ],
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "row": true,
+    "closed": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -4)",
+      "width": "14.8594px",
+      "height": "8px",
+      "line": "8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "other": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -4)",
+      "width": "14.8594px",
+      "height": "8px",
+      "line": "8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Značky</span>"
+    },
+    "open": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(-1, 0, 0, -1, 0, -4)",
+      "width": "14.8594px",
+      "height": "8px",
+      "line": "8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "applied": "294",
+    "url": "https://www.timberstore.sk/prislusenstvo-legrabox/?priceMin=294&priceMax=1480",
+    "viewport": [
+      1024,
+      1009
+    ],
+    "pass": true
+  },
+  {
+    "width": 768,
+    "row": false,
+    "closed": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -4.39844)",
+      "width": "14.8594px",
+      "height": "8.79688px",
+      "line": "8.8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "other": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -4.39844)",
+      "width": "14.8594px",
+      "height": "8.79688px",
+      "line": "8.8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Značky</span>"
+    },
+    "open": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(-1, 0, 0, -1, 0, -4.39844)",
+      "width": "14.8594px",
+      "height": "8.79688px",
+      "line": "8.8px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "applied": "81",
+    "url": "https://www.timberstore.sk/prislusenstvo-legrabox/?priceMin=81&priceMax=1480",
+    "viewport": [
+      768,
+      768
+    ],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "row": false,
+    "closed": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "other": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Značky</span>"
+    },
+    "open": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(-1, 0, 0, -1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "applied": "156",
+    "url": "https://www.timberstore.sk/prislusenstvo-legrabox/?priceMin=156&priceMax=1480",
+    "viewport": [
+      430,
+      430
+    ],
+    "pass": true
+  },
+  {
+    "width": 393,
+    "row": false,
+    "closed": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "other": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Značky</span>"
+    },
+    "open": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(-1, 0, 0, -1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "applied": "176",
+    "url": "https://www.timberstore.sk/prislusenstvo-legrabox/?priceMin=176&priceMax=1480",
+    "viewport": [
+      393,
+      393
+    ],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "row": false,
+    "closed": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "other": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Značky</span>"
+    },
+    "open": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(-1, 0, 0, -1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "applied": "177",
+    "url": "https://www.timberstore.sk/prislusenstvo-legrabox/?priceMin=177&priceMax=1480",
+    "viewport": [
+      390,
+      390
+    ],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "row": false,
+    "closed": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "other": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Značky</span>"
+    },
+    "open": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(-1, 0, 0, -1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "applied": "187",
+    "url": "https://www.timberstore.sk/prislusenstvo-legrabox/?priceMin=187&priceMax=1480",
+    "viewport": [
+      375,
+      375
+    ],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "row": false,
+    "closed": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "other": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Značky</span>"
+    },
+    "open": {
+      "font": "apollo",
+      "size": "8px",
+      "position": "absolute",
+      "content": "\"\"",
+      "transform": "matrix(-1, 0, 0, -1, 0, -5.59375)",
+      "width": "14.8594px",
+      "height": "11.1875px",
+      "line": "11.2px",
+      "transition": "0.16s",
+      "before": "none",
+      "html": "<span>Cena</span>"
+    },
+    "applied": "233",
+    "url": "https://www.timberstore.sk/prislusenstvo-legrabox/?priceMin=233&priceMax=1480",
+    "viewport": [
+      320,
+      320
+    ],
+    "pass": true
+  }
+]

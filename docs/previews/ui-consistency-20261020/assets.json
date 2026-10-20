@@ -1,0 +1,19 @@
+{
+  "version": "0.7.1-rc.0",
+  "branch": "preview/ui-consistency-20261020",
+  "productionModified": false,
+  "assets": {
+    "js": {
+      "bytes": 117882,
+      "gzipBytes": 33202,
+      "budgetBytes": 33280,
+      "sha256": "96358a8d708dd0e74104586b69b6d1b07f8e14f068348d2f1fa656f30396ba6e"
+    },
+    "css": {
+      "bytes": 181291,
+      "gzipBytes": 28705,
+      "budgetBytes": 28928,
+      "sha256": "1f2d44fa0ab3d6079b31574d3af8a2d72ff6522786467f990cc0df9265ce3ddb"
+    }
+  }
+}

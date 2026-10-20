@@ -1,0 +1,520 @@
+[
+  {
+    "width": 1440,
+    "layout": {
+      "view": [
+        1440,
+        1425
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "open": "true",
+    "colors": {
+      "main": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "unit": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(124, 126, 143)"
+        }
+      ],
+      "total": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "net": [
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "related": [
+        {
+          "text": "Súvisiaci tovar: 1 (od 4,50 €)",
+          "color": "rgb(123, 63, 104)"
+        },
+        {
+          "text": "1",
+          "color": "rgb(123, 63, 104)"
+        }
+      ],
+      "arrow": "rgb(123, 63, 104)"
+    },
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "layout": {
+      "view": [
+        1280,
+        1265
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "open": "true",
+    "colors": {
+      "main": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "unit": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(124, 126, 143)"
+        }
+      ],
+      "total": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "net": [
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "related": [
+        {
+          "text": "Súvisiaci tovar: 1 (od 4,50 €)",
+          "color": "rgb(123, 63, 104)"
+        },
+        {
+          "text": "1",
+          "color": "rgb(123, 63, 104)"
+        }
+      ],
+      "arrow": "rgb(123, 63, 104)"
+    },
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "layout": {
+      "view": [
+        1024,
+        1009
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "open": "true",
+    "colors": {
+      "main": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "unit": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(124, 126, 143)"
+        }
+      ],
+      "total": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "net": [
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "related": [
+        {
+          "text": "Súvisiaci tovar: 1 (od 4,50 €)",
+          "color": "rgb(123, 63, 104)"
+        },
+        {
+          "text": "1",
+          "color": "rgb(123, 63, 104)"
+        }
+      ],
+      "arrow": "rgb(123, 63, 104)"
+    },
+    "pass": true
+  },
+  {
+    "width": 768,
+    "layout": {
+      "view": [
+        768,
+        753
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "open": "true",
+    "colors": {
+      "main": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "unit": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "total": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "net": [
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "related": [
+        {
+          "text": "Súvisiaci tovar: 1 (od 4,50 €)",
+          "color": "rgb(123, 63, 104)"
+        },
+        {
+          "text": "1",
+          "color": "rgb(123, 63, 104)"
+        }
+      ],
+      "arrow": "rgb(123, 63, 104)"
+    },
+    "pass": true
+  },
+  {
+    "width": 430,
+    "layout": {
+      "view": [
+        430,
+        415
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "open": "true",
+    "colors": {
+      "main": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "unit": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "total": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "net": [
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "related": [
+        {
+          "text": "Súvisiaci tovar: 1 (od 4,50 €)",
+          "color": "rgb(123, 63, 104)"
+        },
+        {
+          "text": "1",
+          "color": "rgb(123, 63, 104)"
+        }
+      ],
+      "arrow": "rgb(123, 63, 104)"
+    },
+    "pass": true
+  },
+  {
+    "width": 390,
+    "layout": {
+      "view": [
+        390,
+        375
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "open": "true",
+    "colors": {
+      "main": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "unit": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "total": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "net": [
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "related": [
+        {
+          "text": "Súvisiaci tovar: 1 (od 4,50 €)",
+          "color": "rgb(123, 63, 104)"
+        },
+        {
+          "text": "1",
+          "color": "rgb(123, 63, 104)"
+        }
+      ],
+      "arrow": "rgb(123, 63, 104)"
+    },
+    "pass": true
+  },
+  {
+    "width": 375,
+    "layout": {
+      "view": [
+        375,
+        360
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "open": "true",
+    "colors": {
+      "main": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "unit": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "total": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "net": [
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "related": [
+        {
+          "text": "Súvisiaci tovar: 1 (od 4,50 €)",
+          "color": "rgb(123, 63, 104)"
+        },
+        {
+          "text": "1",
+          "color": "rgb(123, 63, 104)"
+        }
+      ],
+      "arrow": "rgb(123, 63, 104)"
+    },
+    "pass": true
+  },
+  {
+    "width": 320,
+    "layout": {
+      "view": [
+        320,
+        305
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "open": "true",
+    "colors": {
+      "main": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "unit": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "total": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "net": [
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "related": [
+        {
+          "text": "Súvisiaci tovar: 1 (od 4,50 €)",
+          "color": "rgb(123, 63, 104)"
+        },
+        {
+          "text": "1",
+          "color": "rgb(123, 63, 104)"
+        }
+      ],
+      "arrow": "rgb(123, 63, 104)"
+    },
+    "pass": true
+  },
+  {
+    "ajax": true,
+    "after": {
+      "text": "4,52 €",
+      "color": "rgb(36, 84, 166)"
+    },
+    "geometry": {
+      "before": {
+        "x": 41,
+        "y": 819.453125,
+        "width": 114.15625,
+        "height": 36
+      },
+      "after": {
+        "x": 41,
+        "y": 819.453125,
+        "width": 114.15625,
+        "height": 36
+      }
+    },
+    "pass": true
+  }
+]

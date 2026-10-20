@@ -1,0 +1,586 @@
+[
+  {
+    "width": 1440,
+    "shipping": {
+      "panels": 1,
+      "context": "Aktuálny košík",
+      "text": "Nakúpte ešte za 197,74 € a dopravu máte zadarmo!",
+      "percent": "1.1299999999999977%",
+      "nativeRows": 2
+    },
+    "layout": {
+      "view": [
+        1440,
+        1431
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 373.5,
+          "right": 140359.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "gallery": true,
+    ".products-related-block": true,
+    ".products-alternative-block": true,
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "shipping": {
+      "panels": 1,
+      "context": "Aktuálny košík",
+      "text": "Nakúpte ešte za 197,74 € a dopravu máte zadarmo!",
+      "percent": "1.1299999999999977%",
+      "nativeRows": 2
+    },
+    "layout": {
+      "view": [
+        1280,
+        1265
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 413.5,
+          "right": 140399.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    ".products-related-block": true,
+    ".products-alternative-block": true,
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "shipping": {
+      "panels": 1,
+      "context": "Aktuálny košík",
+      "text": "Nakúpte ešte za 197,74 € a dopravu máte zadarmo!",
+      "percent": "1.1299999999999977%",
+      "nativeRows": 2
+    },
+    "layout": {
+      "view": [
+        1024,
+        1009
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 38.5,
+          "right": 140024.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    ".products-related-block": true,
+    ".products-alternative-block": true,
+    "pass": true
+  },
+  {
+    "width": 768,
+    "shipping": {
+      "panels": 1,
+      "context": "Aktuálny košík",
+      "text": "Nakúpte ešte za 197,74 € a dopravu máte zadarmo!",
+      "percent": "1.1299999999999977%",
+      "nativeRows": 2
+    },
+    "layout": {
+      "view": [
+        768,
+        755
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 23,
+          "right": 140009
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    ".products-related-block": true,
+    ".products-alternative-block": true,
+    "pass": true
+  },
+  {
+    "width": 430,
+    "shipping": {
+      "panels": 1,
+      "context": "Aktuálny košík",
+      "text": "Nakúpte ešte za 197,74 € a dopravu máte zadarmo!",
+      "percent": "1.1299999999999977%",
+      "nativeRows": 2
+    },
+    "layout": {
+      "view": [
+        430,
+        423
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 20,
+          "right": 140006
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 20,
+          "right": 469
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 362,
+          "right": 462
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    ".products-related-block": true,
+    ".products-alternative-block": true,
+    "pass": true
+  },
+  {
+    "width": 390,
+    "shipping": {
+      "panels": 1,
+      "context": "Aktuálny košík",
+      "text": "Nakúpte ešte za 197,74 € a dopravu máte zadarmo!",
+      "percent": "1.1299999999999977%",
+      "nativeRows": 2
+    },
+    "layout": {
+      "view": [
+        390,
+        383
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -9,
+          "right": -8
+        },
+        {
+          "tag": "DIV",
+          "cls": "overall-wrapper",
+          "x": -8,
+          "right": 367
+        },
+        {
+          "tag": "DIV",
+          "cls": "user-action",
+          "x": -8,
+          "right": 367
+        },
+        {
+          "tag": "DIV",
+          "cls": "container",
+          "x": -8,
+          "right": 367
+        },
+        {
+          "tag": "DIV",
+          "cls": "container breadcrumbs-wrapper",
+          "x": -8,
+          "right": 367
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "x": -8,
+          "right": 367
+        },
+        {
+          "tag": "DIV",
+          "cls": "container content-wrapper",
+          "x": -8,
+          "right": 367
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 12,
+          "right": 139998
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 12,
+          "right": 461
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 354,
+          "right": 454
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 354,
+          "right": 454
+        },
+        {
+          "tag": "DIV",
+          "cls": "products products-block products-related products-additional p-switchable",
+          "x": -8,
+          "right": 367
+        },
+        {
+          "tag": "DIV",
+          "cls": "js-slider-group slider-group-products",
+          "x": -8,
+          "right": 367
+        },
+        {
+          "tag": "DIV",
+          "cls": "products products-block products-additional products-alternative p-switchable",
+          "x": -8,
+          "right": 367
+        },
+        {
+          "tag": "DIV",
+          "cls": "js-slider-group slider-group-products",
+          "x": -8,
+          "right": 367
+        }
+      ]
+    },
+    "gallery": true,
+    ".products-related-block": true,
+    ".products-alternative-block": true,
+    "pass": true
+  },
+  {
+    "width": 375,
+    "shipping": {
+      "panels": 1,
+      "context": "Aktuálny košík",
+      "text": "Nakúpte ešte za 197,74 € a dopravu máte zadarmo!",
+      "percent": "1.1299999999999977%",
+      "nativeRows": 2
+    },
+    "layout": {
+      "view": [
+        375,
+        368
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -9,
+          "right": -8
+        },
+        {
+          "tag": "DIV",
+          "cls": "overall-wrapper",
+          "x": -8,
+          "right": 352
+        },
+        {
+          "tag": "DIV",
+          "cls": "user-action",
+          "x": -8,
+          "right": 352
+        },
+        {
+          "tag": "DIV",
+          "cls": "container",
+          "x": -8,
+          "right": 352
+        },
+        {
+          "tag": "DIV",
+          "cls": "container breadcrumbs-wrapper",
+          "x": -8,
+          "right": 352
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "x": -8,
+          "right": 352
+        },
+        {
+          "tag": "DIV",
+          "cls": "container content-wrapper",
+          "x": -8,
+          "right": 352
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 12,
+          "right": 139998
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 12,
+          "right": 461
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 354,
+          "right": 454
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 354,
+          "right": 454
+        },
+        {
+          "tag": "DIV",
+          "cls": "products products-block products-related products-additional p-switchable",
+          "x": -8,
+          "right": 352
+        },
+        {
+          "tag": "DIV",
+          "cls": "js-slider-group slider-group-products",
+          "x": -8,
+          "right": 352
+        },
+        {
+          "tag": "DIV",
+          "cls": "products products-block products-additional products-alternative p-switchable",
+          "x": -8,
+          "right": 352
+        },
+        {
+          "tag": "DIV",
+          "cls": "js-slider-group slider-group-products",
+          "x": -8,
+          "right": 352
+        }
+      ]
+    },
+    ".products-related-block": true,
+    ".products-alternative-block": true,
+    "pass": true
+  },
+  {
+    "width": 320,
+    "shipping": {
+      "panels": 1,
+      "context": "Aktuálny košík",
+      "text": "Nakúpte ešte za 197,74 € a dopravu máte zadarmo!",
+      "percent": "1.1299999999999977%",
+      "nativeRows": 2
+    },
+    "layout": {
+      "view": [
+        320,
+        313
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -9,
+          "right": -8
+        },
+        {
+          "tag": "DIV",
+          "cls": "overall-wrapper",
+          "x": -8,
+          "right": 297
+        },
+        {
+          "tag": "DIV",
+          "cls": "user-action",
+          "x": -8,
+          "right": 297
+        },
+        {
+          "tag": "DIV",
+          "cls": "container",
+          "x": -8,
+          "right": 297
+        },
+        {
+          "tag": "DIV",
+          "cls": "container breadcrumbs-wrapper",
+          "x": -8,
+          "right": 297
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "x": -8,
+          "right": 297
+        },
+        {
+          "tag": "DIV",
+          "cls": "container content-wrapper",
+          "x": -8,
+          "right": 297
+        },
+        {
+          "tag": "DIV",
+          "cls": "p-thumbnails-inner",
+          "x": 12,
+          "right": 139998
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 12,
+          "right": 461
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 240,
+          "right": 340
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 240,
+          "right": 340
+        },
+        {
+          "tag": "A",
+          "cls": "p-thumbnail",
+          "x": 354,
+          "right": 454
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": 354,
+          "right": 454
+        },
+        {
+          "tag": "DIV",
+          "cls": "products products-block products-related products-additional p-switchable",
+          "x": -8,
+          "right": 297
+        },
+        {
+          "tag": "DIV",
+          "cls": "js-slider-group slider-group-products",
+          "x": -8,
+          "right": 297
+        }
+      ]
+    },
+    ".products-related-block": true,
+    ".products-alternative-block": true,
+    "pass": true
+  }
+]

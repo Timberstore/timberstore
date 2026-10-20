@@ -276,8 +276,15 @@ function syncMenu() {
         .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
       if (phone.textContent !== formatted) phone.textContent = formatted;
     }
+    let button = contacts.querySelector('.ts-menu-contact-button');
+    if (!button) {
+      button = document.createElement('a');
+      button.className = 'btn btn-primary ts-menu-contact-button';
+      button.href = CONTACT_FORM;
+      button.textContent = TEXTS.footer.writeUs;
+    }
     let previous = title;
-    for (const node of [contacts.querySelector(SEL.contactPhone), email, support, socials]) {
+    for (const node of [support, email, contacts.querySelector(SEL.contactPhone), button, socials]) {
       if (!node) continue;
       if (node.previousElementSibling !== previous) previous.after(node);
       previous = node;

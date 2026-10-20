@@ -1,0 +1,2386 @@
+[
+  {
+    "width": 1440,
+    "home": {
+      "view": [
+        1440,
+        1427
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "homeQuantities": [
+      {
+        "value": "1",
+        "w": 44,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 54.25,
+          "y": 973.453125,
+          "width": 268,
+          "height": 38,
+          "top": 973.453125,
+          "right": 322.25,
+          "bottom": 1011.453125,
+          "left": 54.25
+        }
+      },
+      {
+        "value": "10",
+        "w": 44,
+        "needed": 15.123046875,
+        "root": {
+          "x": 54.25,
+          "y": 973.453125,
+          "width": 268,
+          "height": 38,
+          "top": 973.453125,
+          "right": 322.25,
+          "bottom": 1011.453125,
+          "left": 54.25
+        }
+      },
+      {
+        "value": "100",
+        "w": 44,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 54.25,
+          "y": 973.453125,
+          "width": 268,
+          "height": 38,
+          "top": 973.453125,
+          "right": 322.25,
+          "bottom": 1011.453125,
+          "left": 54.25
+        }
+      },
+      {
+        "value": "1000",
+        "w": 44,
+        "needed": 26.24609375,
+        "root": {
+          "x": 54.25,
+          "y": 973.453125,
+          "width": 268,
+          "height": 38,
+          "top": 973.453125,
+          "right": 322.25,
+          "bottom": 1011.453125,
+          "left": 54.25
+        }
+      },
+      {
+        "value": "20000",
+        "w": 44,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 54.25,
+          "y": 973.453125,
+          "width": 268,
+          "height": 38,
+          "top": 973.453125,
+          "right": 322.25,
+          "bottom": 1011.453125,
+          "left": 54.25
+        }
+      }
+    ],
+    "sliders": 3,
+    "category": {
+      "view": [
+        1440,
+        1425
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "categoryQuantities": [
+      {
+        "value": "1",
+        "w": 62,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 373.5,
+          "y": 967.296875,
+          "width": 329.328125,
+          "height": 50,
+          "top": 967.296875,
+          "right": 702.828125,
+          "bottom": 1017.296875,
+          "left": 373.5
+        }
+      },
+      {
+        "value": "10",
+        "w": 62,
+        "needed": 15.123046875,
+        "root": {
+          "x": 373.5,
+          "y": 967.296875,
+          "width": 329.328125,
+          "height": 50,
+          "top": 967.296875,
+          "right": 702.828125,
+          "bottom": 1017.296875,
+          "left": 373.5
+        }
+      },
+      {
+        "value": "100",
+        "w": 62,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 373.5,
+          "y": 967.296875,
+          "width": 329.328125,
+          "height": 50,
+          "top": 967.296875,
+          "right": 702.828125,
+          "bottom": 1017.296875,
+          "left": 373.5
+        }
+      },
+      {
+        "value": "1000",
+        "w": 62,
+        "needed": 26.24609375,
+        "root": {
+          "x": 373.5,
+          "y": 967.296875,
+          "width": 329.328125,
+          "height": 50,
+          "top": 967.296875,
+          "right": 702.828125,
+          "bottom": 1017.296875,
+          "left": 373.5
+        }
+      },
+      {
+        "value": "20000",
+        "w": 62,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 373.5,
+          "y": 967.296875,
+          "width": 329.328125,
+          "height": 50,
+          "top": 967.296875,
+          "right": 702.828125,
+          "bottom": 1017.296875,
+          "left": 373.5
+        }
+      }
+    ],
+    "categoryCard": {
+      "x": 363.5,
+      "y": 438.15625,
+      "width": 349.328125,
+      "height": 609.140625,
+      "right": 712.828125,
+      "bottom": 1047.296875
+    },
+    "control": {
+      "x": 387.5,
+      "y": 973.296875,
+      "width": 118,
+      "height": 38,
+      "right": 505.5,
+      "bottom": 1011.296875
+    },
+    "button": {
+      "x": 513.5,
+      "y": 967.296875,
+      "width": 175.328125,
+      "height": 50,
+      "right": 688.828125,
+      "bottom": 1017.296875
+    },
+    "table": {
+      "view": [
+        1440,
+        1425
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "tableFonts": {
+      "price": "15px",
+      "stock": "13px"
+    },
+    "tableQuantities": [
+      {
+        "value": "1",
+        "w": 48,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "10",
+        "w": 48,
+        "needed": 15.123046875,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "100",
+        "w": 48,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "1000",
+        "w": 48,
+        "needed": 26.24609375,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "20000",
+        "w": 48,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    ],
+    "sidebar": {
+      "hours": true,
+      "socials": 2,
+      "order": [
+        "PO – PIA (08:00 – 16:00)",
+        "info@timberstore.sk",
+        "+421904 479 842"
+      ]
+    },
+    "footer": {
+      "hours": true,
+      "actions": [
+        "A",
+        "UL"
+      ],
+      "socials": 2
+    },
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "home": {
+      "view": [
+        1280,
+        1265
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "homeQuantities": [
+      {
+        "value": "1",
+        "w": 44,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 112.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 380.5,
+          "bottom": 1010.53125,
+          "left": 112.5
+        }
+      },
+      {
+        "value": "10",
+        "w": 44,
+        "needed": 15.123046875,
+        "root": {
+          "x": 112.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 380.5,
+          "bottom": 1010.53125,
+          "left": 112.5
+        }
+      },
+      {
+        "value": "100",
+        "w": 44,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 112.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 380.5,
+          "bottom": 1010.53125,
+          "left": 112.5
+        }
+      },
+      {
+        "value": "1000",
+        "w": 44,
+        "needed": 26.24609375,
+        "root": {
+          "x": 112.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 380.5,
+          "bottom": 1010.53125,
+          "left": 112.5
+        }
+      },
+      {
+        "value": "20000",
+        "w": 44,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 112.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 380.5,
+          "bottom": 1010.53125,
+          "left": 112.5
+        }
+      }
+    ],
+    "sliders": 3,
+    "category": {
+      "view": [
+        1280,
+        1265
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "categoryQuantities": [
+      {
+        "value": "1",
+        "w": 193,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 413.5,
+          "y": 972.953125,
+          "width": 249.328125,
+          "height": 96,
+          "top": 972.953125,
+          "right": 662.828125,
+          "bottom": 1068.953125,
+          "left": 413.5
+        }
+      },
+      {
+        "value": "10",
+        "w": 193,
+        "needed": 15.123046875,
+        "root": {
+          "x": 413.5,
+          "y": 972.953125,
+          "width": 249.328125,
+          "height": 96,
+          "top": 972.953125,
+          "right": 662.828125,
+          "bottom": 1068.953125,
+          "left": 413.5
+        }
+      },
+      {
+        "value": "100",
+        "w": 193,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 413.5,
+          "y": 972.953125,
+          "width": 249.328125,
+          "height": 96,
+          "top": 972.953125,
+          "right": 662.828125,
+          "bottom": 1068.953125,
+          "left": 413.5
+        }
+      },
+      {
+        "value": "1000",
+        "w": 193,
+        "needed": 26.24609375,
+        "root": {
+          "x": 413.5,
+          "y": 972.953125,
+          "width": 249.328125,
+          "height": 96,
+          "top": 972.953125,
+          "right": 662.828125,
+          "bottom": 1068.953125,
+          "left": 413.5
+        }
+      },
+      {
+        "value": "20000",
+        "w": 193,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 413.5,
+          "y": 972.953125,
+          "width": 249.328125,
+          "height": 96,
+          "top": 972.953125,
+          "right": 662.828125,
+          "bottom": 1068.953125,
+          "left": 413.5
+        }
+      }
+    ],
+    "categoryCard": {
+      "x": 403.5,
+      "y": 549.953125,
+      "width": 269.328125,
+      "height": 549,
+      "right": 672.828125,
+      "bottom": 1098.953125
+    },
+    "control": {
+      "x": 413.5,
+      "y": 972.953125,
+      "width": 249.328125,
+      "height": 38,
+      "right": 662.828125,
+      "bottom": 1010.953125
+    },
+    "button": {
+      "x": 413.5,
+      "y": 1018.953125,
+      "width": 249.328125,
+      "height": 50,
+      "right": 662.828125,
+      "bottom": 1068.953125
+    },
+    "table": {
+      "view": [
+        1280,
+        1265
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "tableFonts": {
+      "price": "15px",
+      "stock": "13px"
+    },
+    "tableQuantities": [
+      {
+        "value": "1",
+        "w": 40,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "10",
+        "w": 40,
+        "needed": 15.123046875,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "100",
+        "w": 40,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "1000",
+        "w": 40,
+        "needed": 26.24609375,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "20000",
+        "w": 40,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    ],
+    "sidebar": {
+      "hours": true,
+      "socials": 2,
+      "order": [
+        "PO – PIA (08:00 – 16:00)",
+        "info@timberstore.sk",
+        "+421904 479 842"
+      ]
+    },
+    "footer": {
+      "hours": true,
+      "actions": [
+        "A",
+        "UL"
+      ],
+      "socials": 2
+    },
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "home": {
+      "view": [
+        1024,
+        1009
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "homeQuantities": [
+      {
+        "value": "1",
+        "w": 181,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 68.5,
+          "y": 973,
+          "width": 237.328125,
+          "height": 84,
+          "top": 973,
+          "right": 305.828125,
+          "bottom": 1057,
+          "left": 68.5
+        }
+      },
+      {
+        "value": "10",
+        "w": 181,
+        "needed": 15.123046875,
+        "root": {
+          "x": 68.5,
+          "y": 973,
+          "width": 237.328125,
+          "height": 84,
+          "top": 973,
+          "right": 305.828125,
+          "bottom": 1057,
+          "left": 68.5
+        }
+      },
+      {
+        "value": "100",
+        "w": 181,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 68.5,
+          "y": 973,
+          "width": 237.328125,
+          "height": 84,
+          "top": 973,
+          "right": 305.828125,
+          "bottom": 1057,
+          "left": 68.5
+        }
+      },
+      {
+        "value": "1000",
+        "w": 181,
+        "needed": 26.24609375,
+        "root": {
+          "x": 68.5,
+          "y": 973,
+          "width": 237.328125,
+          "height": 84,
+          "top": 973,
+          "right": 305.828125,
+          "bottom": 1057,
+          "left": 68.5
+        }
+      },
+      {
+        "value": "20000",
+        "w": 181,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 68.5,
+          "y": 973,
+          "width": 237.328125,
+          "height": 84,
+          "top": 973,
+          "right": 305.828125,
+          "bottom": 1057,
+          "left": 68.5
+        }
+      }
+    ],
+    "sliders": 3,
+    "category": {
+      "view": [
+        1024,
+        1009
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "categoryQuantities": [
+      {
+        "value": "1",
+        "w": 62,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 38.5,
+          "y": 967,
+          "width": 297.328125,
+          "height": 50,
+          "top": 967,
+          "right": 335.828125,
+          "bottom": 1017,
+          "left": 38.5
+        }
+      },
+      {
+        "value": "10",
+        "w": 62,
+        "needed": 15.123046875,
+        "root": {
+          "x": 38.5,
+          "y": 967,
+          "width": 297.328125,
+          "height": 50,
+          "top": 967,
+          "right": 335.828125,
+          "bottom": 1017,
+          "left": 38.5
+        }
+      },
+      {
+        "value": "100",
+        "w": 62,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 38.5,
+          "y": 967,
+          "width": 297.328125,
+          "height": 50,
+          "top": 967,
+          "right": 335.828125,
+          "bottom": 1017,
+          "left": 38.5
+        }
+      },
+      {
+        "value": "1000",
+        "w": 62,
+        "needed": 26.24609375,
+        "root": {
+          "x": 38.5,
+          "y": 967,
+          "width": 297.328125,
+          "height": 50,
+          "top": 967,
+          "right": 335.828125,
+          "bottom": 1017,
+          "left": 38.5
+        }
+      },
+      {
+        "value": "20000",
+        "w": 62,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 38.5,
+          "y": 967,
+          "width": 297.328125,
+          "height": 50,
+          "top": 967,
+          "right": 335.828125,
+          "bottom": 1017,
+          "left": 38.5
+        }
+      }
+    ],
+    "categoryCard": {
+      "x": 28.5,
+      "y": 461.921875,
+      "width": 317.328125,
+      "height": 585.078125,
+      "right": 345.828125,
+      "bottom": 1047
+    },
+    "control": {
+      "x": 52.5,
+      "y": 973,
+      "width": 118,
+      "height": 38,
+      "right": 170.5,
+      "bottom": 1011
+    },
+    "button": {
+      "x": 178.5,
+      "y": 967,
+      "width": 143.328125,
+      "height": 50,
+      "right": 321.828125,
+      "bottom": 1017
+    },
+    "table": {
+      "view": [
+        1024,
+        1009
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "tableFonts": {
+      "price": "15px",
+      "stock": "13px"
+    },
+    "tableQuantities": [
+      {
+        "value": "1",
+        "w": 40,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "10",
+        "w": 40,
+        "needed": 15.123046875,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "100",
+        "w": 40,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "1000",
+        "w": 40,
+        "needed": 26.24609375,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "value": "20000",
+        "w": 40,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    ],
+    "sidebar": {
+      "hours": true,
+      "socials": 2,
+      "order": [
+        "PO – PIA (08:00 – 16:00)",
+        "info@timberstore.sk",
+        "+421904 479 842"
+      ]
+    },
+    "footer": {
+      "hours": true,
+      "actions": [
+        "A",
+        "UL"
+      ],
+      "socials": 2
+    },
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 768,
+    "home": {
+      "view": [
+        768,
+        753
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "homeQuantities": [
+      {
+        "value": "1",
+        "w": 44,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 65.75,
+          "y": 972.828125,
+          "width": 268,
+          "height": 38,
+          "top": 972.828125,
+          "right": 333.75,
+          "bottom": 1010.828125,
+          "left": 65.75
+        }
+      },
+      {
+        "value": "10",
+        "w": 44,
+        "needed": 15.123046875,
+        "root": {
+          "x": 65.75,
+          "y": 972.828125,
+          "width": 268,
+          "height": 38,
+          "top": 972.828125,
+          "right": 333.75,
+          "bottom": 1010.828125,
+          "left": 65.75
+        }
+      },
+      {
+        "value": "100",
+        "w": 44,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 65.75,
+          "y": 972.828125,
+          "width": 268,
+          "height": 38,
+          "top": 972.828125,
+          "right": 333.75,
+          "bottom": 1010.828125,
+          "left": 65.75
+        }
+      },
+      {
+        "value": "1000",
+        "w": 44,
+        "needed": 26.24609375,
+        "root": {
+          "x": 65.75,
+          "y": 972.828125,
+          "width": 268,
+          "height": 38,
+          "top": 972.828125,
+          "right": 333.75,
+          "bottom": 1010.828125,
+          "left": 65.75
+        }
+      },
+      {
+        "value": "20000",
+        "w": 44,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 65.75,
+          "y": 972.828125,
+          "width": 268,
+          "height": 38,
+          "top": 972.828125,
+          "right": 333.75,
+          "bottom": 1010.828125,
+          "left": 65.75
+        }
+      }
+    ],
+    "sliders": 3,
+    "category": {
+      "view": [
+        768,
+        753
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "categoryQuantities": [
+      {
+        "value": "1",
+        "w": 32,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 23,
+          "y": 972.5,
+          "width": 343.5,
+          "height": 38,
+          "top": 972.5,
+          "right": 366.5,
+          "bottom": 1010.5,
+          "left": 23
+        }
+      },
+      {
+        "value": "10",
+        "w": 32,
+        "needed": 15.123046875,
+        "root": {
+          "x": 23,
+          "y": 972.5,
+          "width": 343.5,
+          "height": 38,
+          "top": 972.5,
+          "right": 366.5,
+          "bottom": 1010.5,
+          "left": 23
+        }
+      },
+      {
+        "value": "100",
+        "w": 32,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 23,
+          "y": 972.5,
+          "width": 343.5,
+          "height": 38,
+          "top": 972.5,
+          "right": 366.5,
+          "bottom": 1010.5,
+          "left": 23
+        }
+      },
+      {
+        "value": "1000",
+        "w": 32,
+        "needed": 26.24609375,
+        "root": {
+          "x": 23,
+          "y": 972.5,
+          "width": 343.5,
+          "height": 38,
+          "top": 972.5,
+          "right": 366.5,
+          "bottom": 1010.5,
+          "left": 23
+        }
+      },
+      {
+        "value": "20000",
+        "w": 32,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 23,
+          "y": 972.5,
+          "width": 343.5,
+          "height": 38,
+          "top": 972.5,
+          "right": 366.5,
+          "bottom": 1010.5,
+          "left": 23
+        }
+      }
+    ],
+    "categoryCard": {
+      "x": 13,
+      "y": 420.71875,
+      "width": 363.5,
+      "height": 619.78125,
+      "right": 376.5,
+      "bottom": 1040.5
+    },
+    "control": {
+      "x": 31,
+      "y": 972.5,
+      "width": 88,
+      "height": 38,
+      "right": 119,
+      "bottom": 1010.5
+    },
+    "button": {
+      "x": 127,
+      "y": 972.5,
+      "width": 231.5,
+      "height": 38,
+      "right": 358.5,
+      "bottom": 1010.5
+    },
+    "footer": {
+      "hours": true,
+      "actions": [
+        "A",
+        "UL"
+      ],
+      "socials": 2
+    },
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "home": {
+      "view": [
+        430,
+        430
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "homeQuantities": [
+      {
+        "value": "1",
+        "w": 44,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 81,
+          "y": 972.859375,
+          "width": 268,
+          "height": 38,
+          "top": 972.859375,
+          "right": 349,
+          "bottom": 1010.859375,
+          "left": 81
+        }
+      },
+      {
+        "value": "10",
+        "w": 44,
+        "needed": 15.123046875,
+        "root": {
+          "x": 81,
+          "y": 972.859375,
+          "width": 268,
+          "height": 38,
+          "top": 972.859375,
+          "right": 349,
+          "bottom": 1010.859375,
+          "left": 81
+        }
+      },
+      {
+        "value": "100",
+        "w": 44,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 81,
+          "y": 972.859375,
+          "width": 268,
+          "height": 38,
+          "top": 972.859375,
+          "right": 349,
+          "bottom": 1010.859375,
+          "left": 81
+        }
+      },
+      {
+        "value": "1000",
+        "w": 44,
+        "needed": 26.24609375,
+        "root": {
+          "x": 81,
+          "y": 972.859375,
+          "width": 268,
+          "height": 38,
+          "top": 972.859375,
+          "right": 349,
+          "bottom": 1010.859375,
+          "left": 81
+        }
+      },
+      {
+        "value": "20000",
+        "w": 44,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 81,
+          "y": 972.859375,
+          "width": 268,
+          "height": 38,
+          "top": 972.859375,
+          "right": 349,
+          "bottom": 1010.859375,
+          "left": 81
+        }
+      }
+    ],
+    "sliders": 3,
+    "category": {
+      "view": [
+        430,
+        430
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "categoryQuantities": [
+      {
+        "value": "1",
+        "w": 129,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 20,
+          "y": 973.71875,
+          "width": 185,
+          "height": 84.03125,
+          "top": 973.71875,
+          "right": 205,
+          "bottom": 1057.75,
+          "left": 20
+        }
+      },
+      {
+        "value": "10",
+        "w": 129,
+        "needed": 15.123046875,
+        "root": {
+          "x": 20,
+          "y": 972.75,
+          "width": 185,
+          "height": 84,
+          "top": 972.75,
+          "right": 205,
+          "bottom": 1056.75,
+          "left": 20
+        }
+      },
+      {
+        "value": "100",
+        "w": 129,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 20,
+          "y": 972.75,
+          "width": 185,
+          "height": 84,
+          "top": 972.75,
+          "right": 205,
+          "bottom": 1056.75,
+          "left": 20
+        }
+      },
+      {
+        "value": "1000",
+        "w": 129,
+        "needed": 26.24609375,
+        "root": {
+          "x": 20,
+          "y": 972.75,
+          "width": 185,
+          "height": 84,
+          "top": 972.75,
+          "right": 205,
+          "bottom": 1056.75,
+          "left": 20
+        }
+      },
+      {
+        "value": "20000",
+        "w": 129,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 20,
+          "y": 972.75,
+          "width": 185,
+          "height": 84,
+          "top": 972.75,
+          "right": 205,
+          "bottom": 1056.75,
+          "left": 20
+        }
+      }
+    ],
+    "categoryCard": {
+      "x": 10,
+      "y": 592.890625,
+      "width": 205,
+      "height": 488.859375,
+      "right": 215,
+      "bottom": 1081.75
+    },
+    "control": {
+      "x": 20,
+      "y": 972.75,
+      "width": 185,
+      "height": 38,
+      "right": 205,
+      "bottom": 1010.75
+    },
+    "button": {
+      "x": 20,
+      "y": 1018.75,
+      "width": 185,
+      "height": 38,
+      "right": 205,
+      "bottom": 1056.75
+    },
+    "footer": {
+      "hours": true,
+      "actions": [
+        "A",
+        "UL"
+      ],
+      "socials": 2
+    },
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "home": {
+      "view": [
+        390,
+        390
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "homeQuantities": [
+      {
+        "value": "1",
+        "w": 44,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 61,
+          "y": 972.890625,
+          "width": 268,
+          "height": 38,
+          "top": 972.890625,
+          "right": 329,
+          "bottom": 1010.890625,
+          "left": 61
+        }
+      },
+      {
+        "value": "10",
+        "w": 44,
+        "needed": 15.123046875,
+        "root": {
+          "x": 61,
+          "y": 972.890625,
+          "width": 268,
+          "height": 38,
+          "top": 972.890625,
+          "right": 329,
+          "bottom": 1010.890625,
+          "left": 61
+        }
+      },
+      {
+        "value": "100",
+        "w": 44,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 61,
+          "y": 972.890625,
+          "width": 268,
+          "height": 38,
+          "top": 972.890625,
+          "right": 329,
+          "bottom": 1010.890625,
+          "left": 61
+        }
+      },
+      {
+        "value": "1000",
+        "w": 44,
+        "needed": 26.24609375,
+        "root": {
+          "x": 61,
+          "y": 972.890625,
+          "width": 268,
+          "height": 38,
+          "top": 972.890625,
+          "right": 329,
+          "bottom": 1010.890625,
+          "left": 61
+        }
+      },
+      {
+        "value": "20000",
+        "w": 44,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 61,
+          "y": 972.890625,
+          "width": 268,
+          "height": 38,
+          "top": 972.890625,
+          "right": 329,
+          "bottom": 1010.890625,
+          "left": 61
+        }
+      }
+    ],
+    "sliders": 3,
+    "category": {
+      "view": [
+        390,
+        390
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "categoryQuantities": [
+      {
+        "value": "1",
+        "w": 109,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 20,
+          "y": 973.6875,
+          "width": 165,
+          "height": 84.03125,
+          "top": 973.6875,
+          "right": 185,
+          "bottom": 1057.71875,
+          "left": 20
+        }
+      },
+      {
+        "value": "10",
+        "w": 109,
+        "needed": 15.123046875,
+        "root": {
+          "x": 20,
+          "y": 972.71875,
+          "width": 165,
+          "height": 84,
+          "top": 972.71875,
+          "right": 185,
+          "bottom": 1056.71875,
+          "left": 20
+        }
+      },
+      {
+        "value": "100",
+        "w": 109,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 20,
+          "y": 972.71875,
+          "width": 165,
+          "height": 84,
+          "top": 972.71875,
+          "right": 185,
+          "bottom": 1056.71875,
+          "left": 20
+        }
+      },
+      {
+        "value": "1000",
+        "w": 109,
+        "needed": 26.24609375,
+        "root": {
+          "x": 20,
+          "y": 972.71875,
+          "width": 165,
+          "height": 84,
+          "top": 972.71875,
+          "right": 185,
+          "bottom": 1056.71875,
+          "left": 20
+        }
+      },
+      {
+        "value": "20000",
+        "w": 109,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 20,
+          "y": 972.71875,
+          "width": 165,
+          "height": 84,
+          "top": 972.71875,
+          "right": 185,
+          "bottom": 1056.71875,
+          "left": 20
+        }
+      }
+    ],
+    "categoryCard": {
+      "x": 10,
+      "y": 607.890625,
+      "width": 185,
+      "height": 473.828125,
+      "right": 195,
+      "bottom": 1081.71875
+    },
+    "control": {
+      "x": 20,
+      "y": 972.71875,
+      "width": 165,
+      "height": 38,
+      "right": 185,
+      "bottom": 1010.71875
+    },
+    "button": {
+      "x": 20,
+      "y": 1018.71875,
+      "width": 165,
+      "height": 38,
+      "right": 185,
+      "bottom": 1056.71875
+    },
+    "footer": {
+      "hours": true,
+      "actions": [
+        "A",
+        "UL"
+      ],
+      "socials": 2
+    },
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "home": {
+      "view": [
+        375,
+        375
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "homeQuantities": [
+      {
+        "value": "1",
+        "w": 44,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 53.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 321.5,
+          "bottom": 1010.53125,
+          "left": 53.5
+        }
+      },
+      {
+        "value": "10",
+        "w": 44,
+        "needed": 15.123046875,
+        "root": {
+          "x": 53.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 321.5,
+          "bottom": 1010.53125,
+          "left": 53.5
+        }
+      },
+      {
+        "value": "100",
+        "w": 44,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 53.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 321.5,
+          "bottom": 1010.53125,
+          "left": 53.5
+        }
+      },
+      {
+        "value": "1000",
+        "w": 44,
+        "needed": 26.24609375,
+        "root": {
+          "x": 53.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 321.5,
+          "bottom": 1010.53125,
+          "left": 53.5
+        }
+      },
+      {
+        "value": "20000",
+        "w": 44,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 53.5,
+          "y": 972.53125,
+          "width": 268,
+          "height": 38,
+          "top": 972.53125,
+          "right": 321.5,
+          "bottom": 1010.53125,
+          "left": 53.5
+        }
+      }
+    ],
+    "sliders": 3,
+    "category": {
+      "view": [
+        375,
+        375
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "categoryQuantities": [
+      {
+        "value": "1",
+        "w": 102,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 20,
+          "y": 973.046875,
+          "width": 157.5,
+          "height": 84.21875,
+          "top": 973.046875,
+          "right": 177.5,
+          "bottom": 1057.265625,
+          "left": 20
+        }
+      },
+      {
+        "value": "10",
+        "w": 102,
+        "needed": 15.123046875,
+        "root": {
+          "x": 20,
+          "y": 973.265625,
+          "width": 157.5,
+          "height": 84,
+          "top": 973.265625,
+          "right": 177.5,
+          "bottom": 1057.265625,
+          "left": 20
+        }
+      },
+      {
+        "value": "100",
+        "w": 102,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 20,
+          "y": 973.265625,
+          "width": 157.5,
+          "height": 84,
+          "top": 973.265625,
+          "right": 177.5,
+          "bottom": 1057.265625,
+          "left": 20
+        }
+      },
+      {
+        "value": "1000",
+        "w": 102,
+        "needed": 26.24609375,
+        "root": {
+          "x": 20,
+          "y": 973.265625,
+          "width": 157.5,
+          "height": 84,
+          "top": 973.265625,
+          "right": 177.5,
+          "bottom": 1057.265625,
+          "left": 20
+        }
+      },
+      {
+        "value": "20000",
+        "w": 102,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 20,
+          "y": 973.265625,
+          "width": 157.5,
+          "height": 84,
+          "top": 973.265625,
+          "right": 177.5,
+          "bottom": 1057.265625,
+          "left": 20
+        }
+      }
+    ],
+    "categoryCard": {
+      "x": 10,
+      "y": 614.078125,
+      "width": 177.5,
+      "height": 468.1875,
+      "right": 187.5,
+      "bottom": 1082.265625
+    },
+    "control": {
+      "x": 20,
+      "y": 973.265625,
+      "width": 157.5,
+      "height": 38,
+      "right": 177.5,
+      "bottom": 1011.265625
+    },
+    "button": {
+      "x": 20,
+      "y": 1019.265625,
+      "width": 157.5,
+      "height": 38,
+      "right": 177.5,
+      "bottom": 1057.265625
+    },
+    "footer": {
+      "hours": true,
+      "actions": [
+        "A",
+        "UL"
+      ],
+      "socials": 2
+    },
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "home": {
+      "view": [
+        320,
+        320
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "homeQuantities": [
+      {
+        "value": "1",
+        "w": 172,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 46,
+          "y": 973.390625,
+          "width": 228,
+          "height": 84,
+          "top": 973.390625,
+          "right": 274,
+          "bottom": 1057.390625,
+          "left": 46
+        }
+      },
+      {
+        "value": "10",
+        "w": 172,
+        "needed": 15.123046875,
+        "root": {
+          "x": 46,
+          "y": 973.390625,
+          "width": 228,
+          "height": 84,
+          "top": 973.390625,
+          "right": 274,
+          "bottom": 1057.390625,
+          "left": 46
+        }
+      },
+      {
+        "value": "100",
+        "w": 172,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 46,
+          "y": 973.390625,
+          "width": 228,
+          "height": 84,
+          "top": 973.390625,
+          "right": 274,
+          "bottom": 1057.390625,
+          "left": 46
+        }
+      },
+      {
+        "value": "1000",
+        "w": 172,
+        "needed": 26.24609375,
+        "root": {
+          "x": 46,
+          "y": 973.390625,
+          "width": 228,
+          "height": 84,
+          "top": 973.390625,
+          "right": 274,
+          "bottom": 1057.390625,
+          "left": 46
+        }
+      },
+      {
+        "value": "20000",
+        "w": 172,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 46,
+          "y": 973.390625,
+          "width": 228,
+          "height": 84,
+          "top": 973.390625,
+          "right": 274,
+          "bottom": 1057.390625,
+          "left": 46
+        }
+      }
+    ],
+    "sliders": 3,
+    "category": {
+      "view": [
+        320,
+        320
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "categoryQuantities": [
+      {
+        "value": "1",
+        "w": 32,
+        "needed": 9.5615234375,
+        "root": {
+          "x": 20,
+          "y": 973.546875,
+          "width": 280,
+          "height": 38,
+          "top": 973.546875,
+          "right": 300,
+          "bottom": 1011.546875,
+          "left": 20
+        }
+      },
+      {
+        "value": "10",
+        "w": 32,
+        "needed": 15.123046875,
+        "root": {
+          "x": 20,
+          "y": 972.546875,
+          "width": 280,
+          "height": 38,
+          "top": 972.546875,
+          "right": 300,
+          "bottom": 1010.546875,
+          "left": 20
+        }
+      },
+      {
+        "value": "100",
+        "w": 32,
+        "needed": 20.6845703125,
+        "root": {
+          "x": 20,
+          "y": 972.546875,
+          "width": 280,
+          "height": 38,
+          "top": 972.546875,
+          "right": 300,
+          "bottom": 1010.546875,
+          "left": 20
+        }
+      },
+      {
+        "value": "1000",
+        "w": 32,
+        "needed": 26.24609375,
+        "root": {
+          "x": 20,
+          "y": 972.546875,
+          "width": 280,
+          "height": 38,
+          "top": 972.546875,
+          "right": 300,
+          "bottom": 1010.546875,
+          "left": 20
+        }
+      },
+      {
+        "value": "20000",
+        "w": 32,
+        "needed": 31.8076171875,
+        "root": {
+          "x": 20,
+          "y": 972.546875,
+          "width": 280,
+          "height": 38,
+          "top": 972.546875,
+          "right": 300,
+          "bottom": 1010.546875,
+          "left": 20
+        }
+      }
+    ],
+    "categoryCard": {
+      "x": 10,
+      "y": 475.265625,
+      "width": 300,
+      "height": 560.28125,
+      "right": 310,
+      "bottom": 1035.546875
+    },
+    "control": {
+      "x": 28,
+      "y": 972.546875,
+      "width": 88,
+      "height": 38,
+      "right": 116,
+      "bottom": 1010.546875
+    },
+    "button": {
+      "x": 124,
+      "y": 972.546875,
+      "width": 168,
+      "height": 38,
+      "right": 292,
+      "bottom": 1010.546875
+    },
+    "footer": {
+      "hours": true,
+      "actions": [
+        "A",
+        "UL"
+      ],
+      "socials": 2
+    },
+    "errors": [],
+    "pass": true
+  }
+]

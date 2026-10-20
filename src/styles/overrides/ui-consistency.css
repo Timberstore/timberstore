@@ -1,0 +1,143 @@
+/* M2/C3 · Main price nodes only. cartItemPrice is the secondary per-unit price;
+   never target it or the currency globally. Shoptet still owns every value. */
+.in-kosik #cart-wrapper [data-testid='cartPrice'],
+#cart-widget.ts-header-popup .cart-widget-product-name > [data-testid='cartWidgetProductPrice'],
+.ts-mobile-cart-open #cart-widget .cart-widget-product-name > [data-testid='cartWidgetProductPrice'],
+#cart-widget .ts-cart-summary strong,
+.ordering-process .summary-wrapper .price-wrapper strong[data-testid='recapFullPrice'],
+body.ordering-process #content [data-testid='recapFullPrice'],
+.ordering-process #summary-box .cart-item-price,
+.in-kosik #cart-wrapper .cart-related-button > .price-final {
+  color: var(--ts-color-blue);
+}
+.in-kosik #cart-wrapper .show-related :is(b, span),
+.in-kosik #cart-wrapper .show-related::after,
+.in-kosik #cart-wrapper .show-related::before { color: inherit; }
+.in-kosik #cart-wrapper .show-related[aria-expanded='true'] {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.in-kosik #cart-wrapper .show-related:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+/* Stable five-digit field, without shrinking text or changing native values. */
+.products .product .product-btn { container-type: inline-size; }
+.products .product .p-code { min-height: 19px; }
+.ts-product-meta { font-variant-numeric: tabular-nums; }
+.ts-qty__value, .quantity input { font-variant-numeric: tabular-nums; }
+@container (max-width: 250px) {
+  .products .product:not(.ts-recommendation) form.pr-action:has(> .ts-qty) {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px !important;
+    padding-inline: 0 !important;
+  }
+  .products .product:not(.ts-recommendation) form.pr-action > .ts-qty,
+  .products .product:not(.ts-recommendation) form.pr-action > .btn-cart {
+    width: 100% !important;
+  }
+}
+/* Apollo positions the tile controls absolutely; reserve their stacked height. */
+.products .product:not(.ts-recommendation):has(.ts-qty) > .p { padding-bottom: 106px !important; }
+.products .product:not(.ts-recommendation):has(.ts-qty) .product-btn { height: auto; }
+.type-index .products:not(.products-related) .product:has(.ts-qty) > .p { padding-bottom: 12px !important; }
+@media (min-width: 992px) {
+  .ts-view-list #products:not(.products-related) .product:has(.ts-qty) > .p { padding-bottom: 0 !important; }
+  .ts-view-list #products:not(.products-related) form.pr-action:has(> .ts-qty) { display: contents !important; }
+}
+/* Only the advanced-order modal: Colorbox writes these dimensions inline. */
+@media (min-width: 768px) {
+  #colorbox:has(.advanced-order) { width: min(var(--ts-popup-max-width), 80vw) !important; left: 50% !important; transform: translateX(-50%); }
+  #colorbox:has(.advanced-order) :is(#cboxWrapper, #cboxContent, #cboxLoadedContent) { width: 100% !important; }
+  #colorbox:has(.advanced-order) #cboxLoadedContent { box-sizing: border-box; }
+}
+#colorbox .advancedOrder__buttons [data-testid='buttonPopupCart']::after {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  background: var(--ts-color-bg);
+  mask: var(--ts-icon-cart) center / contain no-repeat;
+  color: var(--ts-color-bg);
+  margin-left: 10px;
+}
+#colorbox .advancedOrder__buttons .next-step-back {
+  border: 1px solid var(--ts-color-controls-active);
+  transition: background-color .15s, box-shadow .15s;
+}
+#colorbox .advancedOrder__buttons .next-step-back:is(:hover, :active) {
+  background: var(--ts-color-service-bg);
+  box-shadow: inset 0 0 0 1px var(--ts-color-controls-active);
+}
+#colorbox .advancedOrder__buttons .next-step-back:focus-visible { outline: 2px solid var(--ts-color-controls-active); outline-offset: 2px; }
+/* Shared shipping presentation; native/server percentages are never recalculated. */
+.in-kosik #cart-wrapper .price-range,
+#colorbox .advanced-order .price-range { height: var(--ts-price-progress-height); flex-basis: var(--ts-price-progress-height); }
+#colorbox .advanced-order .extra.delivery::before { color: var(--ts-color-accent); font-size: 24px; }
+#colorbox .cart-free-shipping.ts-delivery-progress {
+  position: relative;
+  padding: 16px 16px 20px;
+  margin-bottom: 16px;
+  background: var(--ts-color-technical-bg);
+  border: 1px solid var(--ts-color-table-border);
+  border-radius: var(--ts-radius-count);
+}
+#colorbox .ts-delivery-progress > div { padding-left: 36px; }
+#colorbox .ts-delivery-progress > div::before { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--ts-color-accent); font-size: 24px; }
+#colorbox .ts-delivery-progress::after { content: ''; position: absolute; inset: auto 0 0; height: var(--ts-price-progress-height); background: linear-gradient(to right, var(--ts-color-accent) var(--bar-percentage), var(--ts-color-controls-border) var(--bar-percentage)); }
+#colorbox .ts-delivery-progress.is-free-shipping::after { background: var(--ts-color-success); }
+/* Brand colours on custom and native social icons, preserving their destinations. */
+.ts-service-bar__social[data-ts-social='facebook'],
+a[data-testid='contactboxFacebook'] { color: var(--ts-color-facebook); }
+.ts-service-bar__social[data-ts-social='instagram'] { background: var(--ts-instagram-gradient); background-clip: text; color: transparent; }
+.ts-contact-socials { display: flex; justify-content: center; gap: 12px; margin-top: 16px; }
+.ts-contact-socials a { width: 32px; height: 32px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; }
+.ts-contact-socials .ts-footer-contacts__social--facebook { background: var(--ts-color-facebook); }
+.ts-contact-socials .ts-footer-contacts__social--instagram { background: var(--ts-instagram-gradient); }
+.ts-contact-socials svg { width: 18px; height: 18px; fill: none; stroke: var(--ts-color-bg); stroke-width: 1.7; }
+.ts-contact-socials .ts-footer-contacts__social--facebook svg { fill: var(--ts-color-bg); stroke: none; }
+.support__contact .ts-service-bar__hours { display: block; font-size: 13px; margin-bottom: 8px; }
+#header .navigation-in-bottom .ts-menu-contact-button { margin-block: 12px; }
+/* Native listing controls, not carousel track/brand icons. */
+:is(.goToTop__button, .loadMore__button--products, .pagination__link) {
+  color: var(--ts-color-controls-text);
+  border-color: var(--ts-color-controls-active);
+}
+:is(.goToTop__button, .loadMore__button--products, .pagination__link):is(:hover, :active, :focus-visible),
+.pagination__currentPage { color: var(--ts-color-bg); background: var(--ts-color-accent); border-color: var(--ts-color-accent); }
+#cart-widget.ts-header-popup .cart-free-shipping::before,
+#cart-widget.ts-header-popup .cart-free-shipping::after { height: var(--ts-price-progress-height); }
+#header .navigation-in-bottom .ts-menu-socials [data-ts-social='facebook'] { color: var(--ts-color-facebook); }
+#header .navigation-in-bottom .ts-menu-socials [data-ts-social='instagram'] { color: transparent; background: var(--ts-instagram-gradient); background-clip: text; }
+/* One shipping surface across native cart, mini, confirmation and delivery dialog. */
+:is(#cart-widget.ts-header-popup .cart-free-shipping, .in-kosik #cart-wrapper .ts-cart-shipping, #colorbox .advanced-order .extra-content:has(.extra.delivery), #colorbox .ts-delivery-progress) {
+  background: var(--ts-color-technical-bg);
+  border: 1px solid var(--ts-color-table-border);
+  border-radius: var(--ts-radius-count);
+  padding: 12px 16px 18px;
+  line-height: 1.4;
+  font-size: 13px;
+}
+#colorbox .ts-delivery-progress small { display: block; margin-bottom: 4px; color: var(--ts-color-muted); }
+/* Cart code has its own line before and after AJAX; no injected dash. */
+.in-kosik #cart-wrapper .ts-cart-code { display: block; margin-top: 2px; }
+.ts-cart-code__value { color: var(--ts-color-blue); font-weight: 600; }
+/* Related product data is fetched before expansion. Reserve its code and
+   quantity slots while loading, so async data cannot push price/CTA sideways. */
+.in-kosik #cart-wrapper .cart-related-info { grid-template-rows: auto minmax(19px, auto) minmax(36px, auto); }
+.in-kosik #cart-wrapper .cart-related-product { grid-template-columns: minmax(0, 1fr) 112px max-content 40px; }
+.in-kosik #cart-wrapper .ts-related-pending { display: contents; }
+.ts-related-loading { grid-area: 1 / 2; width: 112px; min-height: 36px; display: grid; place-items: center; color: var(--ts-color-muted); font-size: 12px; }
+.ts-related-pending .add-to-cart-button { pointer-events: none; opacity: .6; }
+@media (max-width: 991px) {
+  .in-kosik #cart-wrapper .cart-related-product { grid-template-columns: 112px minmax(0, 1fr) 40px; }
+  .ts-related-loading { grid-area: 2 / 1; }
+}
+.in-kosik #cart-wrapper .cart-related-product .ts-cart-quantity {
+  width: 112px;
+  grid-template-columns: 28px minmax(0, 1fr) 28px;
+}
+:is(#content, #colorbox) .ts-recommendation .p-code :is(.ts-product-meta__label, .ts-product-meta__value) { display: inline !important; }
+:is(#content, #colorbox) .ts-recommendation .availability { display: grid; justify-items: center; }

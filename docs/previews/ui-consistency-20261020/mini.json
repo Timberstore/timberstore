@@ -1,0 +1,194 @@
+[
+  {
+    "width": 1440,
+    "before": {
+      "prices": [
+        {
+          "text": "2,26 €",
+          "color": "rgb(36, 84, 166)",
+          "html": "<span data-testid=\"cartWidgetProductPrice\">2,26 €</span>"
+        },
+        {
+          "text": "2,26 €",
+          "color": "rgb(36, 84, 166)",
+          "html": "<strong>2,26 €</strong>"
+        }
+      ]
+    },
+    "after": {
+      "text": "4,52 €",
+      "color": "rgb(36, 84, 166)"
+    },
+    "layout": {
+      "view": [
+        1440,
+        1427
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 390,
+    "before": {
+      "prices": [
+        {
+          "text": "2,26 €",
+          "color": "rgb(36, 84, 166)",
+          "html": "<span data-testid=\"cartWidgetProductPrice\">2,26 €</span>"
+        },
+        {
+          "text": "2,26 €",
+          "color": "rgb(36, 84, 166)",
+          "html": "<strong>2,26 €</strong>"
+        }
+      ]
+    },
+    "after": {
+      "text": "4,52 €",
+      "color": "rgb(36, 84, 166)"
+    },
+    "layout": {
+      "view": [
+        390,
+        390
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 320,
+    "before": {
+      "prices": [
+        {
+          "text": "2,26 €",
+          "color": "rgb(36, 84, 166)",
+          "html": "<span data-testid=\"cartWidgetProductPrice\">2,26 €</span>"
+        },
+        {
+          "text": "2,26 €",
+          "color": "rgb(36, 84, 166)",
+          "html": "<strong>2,26 €</strong>"
+        }
+      ]
+    },
+    "after": {
+      "text": "4,52 €",
+      "color": "rgb(36, 84, 166)"
+    },
+    "layout": {
+      "view": [
+        320,
+        320
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  }
+]

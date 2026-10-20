@@ -1,5 +1,12 @@
 # Changelog
 
+## UI Consistency · v0.7.1-rc.0 · 2026-10-20 · Preview only
+
+- Stable five-digit quantity slots and stacked controls on narrow cards; compact confirmation and recommendation cards with shared native shipping progress. Align sidebar/menu contact order and original social colours; soften table fonts and brand native listing controls.
+- Apply royal blue to primary cart/mini/checkout prices including €, retaining neutral unit/net prices. Use the existing plum novelty token for the related-goods toggle and arrow.
+- Prefetch verified related SKU/quantity data before expansion with bounded requests and stable loading geometry. Put cart SKU under the title, neutral label and blue value. Native limits, stock, prices and handlers remain authoritative.
+- [Measurements, responsive/native tests, screenshots, limits and known restrictions](docs/previews/ui-consistency-20261020/README.md). Preview only; no merge, tag/release, production or loader change.
+
 ## v0.7.0 · 2026-10-20
 
 - Promote approved product-detail, catalogue/filter, homepage, quantity and cart presentation to stable v0.7.0. Preserve native Shoptet purchasing, prices and stock logic.

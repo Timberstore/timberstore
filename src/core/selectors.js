@@ -147,6 +147,12 @@ export const SEL = {
   headerContactForm: '.contact-box a[href="/kontakty"]',
   headerAccount:
     '#header .header-top .top-nav-button-login, #header .header-top .top-nav-button-account',
+  sidebarSupport: '.sidebar-left .timber-support',
+  supportContent: '.support__content',
+  supportContact: '.support__contact',
+  supportEmail: 'a[href^="mailto:"]',
+  supportPhone: 'a[href^="tel:"]',
+  supportButton: '.timber-support-btn',
   socialFacebook: 'a[data-testid="contactboxFacebook"][href]',
   socialInstagram: 'a[data-testid="contactboxInstagram"][href]',
   headerRow: '#header .header-top',
@@ -218,7 +224,7 @@ export const SEL = {
   cartQuantityInput:
     '.in-kosik #cart-wrapper .cart-table .quantity input[name="amount"], #cart-widget .quantity input[name="amount"]',
   cartRelatedForm:
-    '.in-kosik #cart-wrapper tr.related.visible .cart-related-product form.pr-action',
+    '.in-kosik #cart-wrapper tr.related .cart-related-product form.pr-action',
   cartRelatedProduct: '.cart-related-product',
   cartRelatedLink: '.cart-related-name[href]',
   cartRelatedAvailability: '.cart-related-availability',

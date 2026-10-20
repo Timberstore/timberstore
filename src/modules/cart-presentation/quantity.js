@@ -5,7 +5,7 @@ export function resizeQuantity(input) {
   if (!box) return;
   if (!box.classList.contains('ts-cart-quantity')) box.classList.add('ts-cart-quantity');
   const digits = String(input.value).length;
-  const width = String(Math.max(1, digits));
+  const width = String(Math.max(5, digits));
   if (box.style.getPropertyValue('--ts-cart-digits') !== width)
     box.style.setProperty('--ts-cart-digits', width);
 }

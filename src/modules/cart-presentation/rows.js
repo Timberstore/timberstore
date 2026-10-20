@@ -10,8 +10,13 @@ export function showCode(parent, code) {
     label.className = 'ts-cart-code';
     parent.append(label);
   }
-  const text = `${TEXTS.cart.productCode} ${code}`;
-  if (label.textContent !== text) label.textContent = text;
+  let value = label.querySelector('.ts-cart-code__value');
+  if (!value) {
+    value = document.createElement('span');
+    value.className = 'ts-cart-code__value';
+    label.replaceChildren(TEXTS.cart.productCode + ' ', value);
+  }
+  if (value.textContent !== String(code)) value.textContent = String(code);
 }
 
 export function syncRows() {

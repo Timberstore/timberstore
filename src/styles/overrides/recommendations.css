@@ -1,11 +1,74 @@
-/* M2/C3 · Native related/similar cards only. Preserve Swiper tracks/images and
-   native quantity/forms; replace Apollo's mismatched purchase-row geometry. */
+/* M2/C3 · Native cards, forms and events; no replacement purchase controls. */
+:is(#content, #colorbox) .ts-recommendation > .p {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-areas: 'image image' 'name name' 'code code' 'stock price' 'stock net' 'qty qty' 'cart cart';
+  gap: 8px;
+  align-content: start;
+  padding: 16px !important;
+  height: auto;
+  min-width: 0;
+}
+.ts-recommendation :is(.p-in, .p-in-in, .p-bottom, .prices, .p-tools, .product-btn),
+.ts-recommendation .p-bottom > [data-micro='offer'],
+.ts-recommendation .product-btn form {
+  display: contents !important;
+}
+.ts-recommendation .image {
+  grid-area: image;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+.ts-recommendation .image img {
+  object-fit: contain;
+  max-width: 100%;
+}
 .ts-recommendation a.name {
+  grid-area: name;
   text-align: center !important;
   text-transform: none;
   word-break: normal !important;
   overflow-wrap: normal !important;
   hyphens: none;
+  min-height: 0;
+  max-height: none;
+  height: auto;
+  margin: 0;
+  -webkit-line-clamp: unset;
+}
+.ts-recommendation .p-code {
+  grid-area: code;
+  position: static;
+  display: block !important;
+  margin: 0;
+  text-align: center;
+}
+.ts-recommendation .availability {
+  grid-area: stock;
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+.ts-recommendation .price-final {
+  grid-area: price;
+  text-align: right;
+  align-self: end;
+  margin: 0 !important;
+}
+.ts-recommendation .price-additional {
+  grid-area: net;
+  display: block !important;
+  align-self: start;
+  text-align: right;
+  margin: 0 !important;
+}
+.ts-recommendation :is(.price-final, .price-additional) {
+  min-width: 0;
+  white-space: normal;
+}
+.ts-recommendation :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
+  white-space: nowrap;
 }
 .ts-recommendation :is(.pr-list-unit, .ts-recommendation-unit) {
   display: inline !important;
@@ -13,62 +76,48 @@
   font-size: 13px;
   font-weight: 400;
 }
-.ts-recommendation .product-btn {
-  height: 38px;
-}
-.ts-recommendation .product-btn form {
-  display: flex !important;
-  align-items: center;
-  gap: 8px;
-  padding: 0 12px !important;
-  width: 100% !important;
-  max-width: none !important;
-  margin: 0 !important;
-}
 :is(#content, #colorbox) .ts-recommendation .quantity {
-  flex: 0 1 100px;
-  min-width: 0;
+  grid-area: qty;
+  width: 100%;
   height: 38px;
-  grid-template-columns: 1fr minmax(0, 1.4fr) 1fr;
-  border-color: var(--ts-qty-border);
+  min-width: 0;
+  margin: 0;
+  grid-template-columns: 28px minmax(0, 1fr) 28px;
 }
 :is(#content, #colorbox) .ts-recommendation .quantity :is(input, button) {
   height: 36px;
 }
-.ts-recommendation .product-btn .btn-cart {
-  flex: 1 0 38px !important;
+:is(#content, #colorbox) .ts-recommendation .ts-qty {
+  grid-area: qty;
+  width: 100%;
+}
+:is(#content, #colorbox) .ts-recommendation .product-btn .btn-cart {
+  grid-area: cart;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   min-width: 0 !important;
   max-width: none !important;
-  width: auto !important;
+  width: 100% !important;
   height: 38px !important;
   min-height: 38px !important;
   margin: 0 !important;
-  padding: 0 !important;
-  font-size: 0 !important;
+  padding: 0 8px !important;
+  font-size: 14px !important;
   --color-secondary: var(--ts-color-accent);
   --color-secondary-hover: var(--ts-color-action-hover);
 }
-.ts-recommendation .btn-cart > span:not(.ts-cart-count) {
-  display: none !important;
-}
-.ts-recommendation .btn-cart::after {
-  margin: 0 !important;
-}
+:is(#content, #colorbox) .ts-recommendation .btn-cart > span:not(.ts-cart-count) { display: inline !important; }
+.ts-recommendation .btn-cart::after { margin: 0 !important; }
 .type-detail .products-related-block + .products-alternative-block {
   margin-top: 32px;
   padding-top: 24px;
   border-top: 1px solid var(--ts-color-table-border);
 }
-/* Apollo reserves 130px for stacked controls. Our shared row needs one line. */
-:is(.products-related-block, .products-alternative-block) .ts-recommendation > .p {
-  padding-bottom: 65px !important;
-}
-:is(#content, #colorbox) .ts-recommendation .quantity {
-  margin: 0;
-}
-.ts-recommendation :is(.price-final, .price-additional) {
-  white-space: normal;
-}
-.ts-recommendation :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
-  white-space: nowrap;
+#colorbox .advanced-order #products { display: grid; gap: 16px; margin: 16px 24px 24px; }
+#colorbox .advanced-order .ts-recommendation { width: 100%; height: auto; margin: 0; padding: 0; }
+#colorbox .advanced-order-suggestion { text-align: center; }
+@media (min-width: 992px) {
+  #colorbox .advanced-order #products { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

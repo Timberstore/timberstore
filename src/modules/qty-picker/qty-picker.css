@@ -2,7 +2,7 @@
 .ts-qty {
   display: grid;
   flex: 0 1 118px;
-  grid-template-columns: 1fr minmax(0, 1.4fr) 1fr;
+  grid-template-columns: 26px minmax(0, 1fr) 26px;
   width: 118px;
   min-width: 0; /* Allow two narrow mobile cards without forcing the input's intrinsic width. */
   height: 38px;
@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.ts-qty__btn:hover {
+.ts-qty__btn:is(:hover, :active) {
   color: var(--ts-color-controls-text);
   background: var(--ts-color-controls-divider);
 }
@@ -40,7 +40,7 @@
   min-width: 0 !important;
   height: 100% !important;
   margin: 0 !important;
-  padding: 0 var(--ts-space-1) !important;
+  padding: 0 2px !important;
   border: 0 !important;
   border-inline: 1px solid var(--ts-qty-divider) !important;
   border-radius: 0 !important;

@@ -1,3 +1,4 @@
+import { SOCIALS } from '../../core/contacts.js';
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { addHours, updateHours } from '../header-service-bar/index.js';
@@ -90,10 +91,44 @@ function enhance(footer) {
   updateHours();
 }
 
+function enhanceSidebar(root) {
+  const content = root.querySelector(SEL.supportContent);
+  const contacts = root.querySelector(SEL.supportContact);
+  if (!content || !contacts) return;
+  if (!contacts.querySelector('.ts-service-bar__hours')) addHours(contacts);
+  const hours = contacts.querySelector('.ts-service-bar__hours');
+  const email = contacts.querySelector(SEL.supportEmail);
+  const phone = contacts.querySelector(SEL.supportPhone);
+  let previous;
+  for (const node of [hours, email, phone]) {
+    if (!node) continue;
+    if (previous ? node.previousElementSibling !== previous : contacts.firstElementChild !== node) {
+      if (previous) previous.after(node);
+      else contacts.prepend(node);
+    }
+    previous = node;
+  }
+  if (!content.querySelector('.ts-contact-socials')) {
+    const socials = document.createElement('div');
+    socials.className = 'ts-contact-socials';
+    for (const network of ['facebook', 'instagram']) {
+      const link = document.createElement('a');
+      link.href = SOCIALS[network];
+      link.setAttribute('aria-label', TEXTS.header[network]);
+      link.className = `ts-footer-contacts__social ts-footer-contacts__social--${network}`;
+      icon(link, network);
+      socials.append(link);
+    }
+    content.append(socials);
+  }
+  updateHours();
+}
+
 export default {
   name: 'footer-contacts',
   pages: ['*'],
   init() {
+    document.querySelectorAll(SEL.sidebarSupport).forEach(enhanceSidebar);
     for (const footer of document.querySelectorAll(SEL.footerContacts)) {
       enhance(footer);
       if (observed.has(footer)) continue;

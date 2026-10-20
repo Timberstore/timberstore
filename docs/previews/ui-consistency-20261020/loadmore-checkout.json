@@ -1,0 +1,49 @@
+{
+  "before": 30,
+  "moreColor": {
+    "border": "rgb(66, 62, 62)",
+    "color": "rgb(255, 255, 255)"
+  },
+  "after": 60,
+  "duplicatePickers": 0,
+  "layout": {
+    "view": [
+      390,
+      390
+    ],
+    "bad": [
+      {
+        "tag": "A",
+        "cls": "skip-link sr-only",
+        "x": -1,
+        "right": 0
+      },
+      {
+        "tag": "H2",
+        "cls": "sr-only",
+        "x": -1,
+        "right": 0
+      },
+      {
+        "tag": "IMG",
+        "cls": "",
+        "x": -7,
+        "right": 79
+      },
+      {
+        "tag": "DIV",
+        "cls": "sr-only",
+        "x": -1,
+        "right": 0
+      }
+    ]
+  },
+  "checkout": [
+    {
+      "text": "10,68 €",
+      "color": "rgb(36, 84, 166)"
+    }
+  ],
+  "noOrderOrPayment": true,
+  "pass": true
+}

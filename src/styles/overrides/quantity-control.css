@@ -4,7 +4,7 @@
 :is(#content [data-ts-compact], .ts-recommendation) .quantity {
   position: relative;
   display: inline-grid;
-  grid-template-columns: 30px max(38px, calc(var(--ts-cart-digits, 1) * 1ch + 12px)) 30px;
+  grid-template-columns: 30px max(52px, calc(var(--ts-cart-digits, 5) * 1ch + 12px)) 30px;
   width: max-content;
   height: 36px;
   padding: 0;

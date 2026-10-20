@@ -1,0 +1,366 @@
+[
+  {
+    "width": 430,
+    "controls": [
+      {
+        "text": "Načítať 30 ďalších",
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "testid": "buttonMoreItems"
+      },
+      {
+        "text": "Hore",
+        "cls": "goToTop__button btn btn-secondary",
+        "testid": "buttonPageUp"
+      }
+    ],
+    "contact": {
+      "order": [
+        {
+          "cls": "ts-service-bar__hours",
+          "text": "PO – PIA (08:00 – 16:00)",
+          "href": null
+        },
+        {
+          "cls": "project-email",
+          "text": "info@timberstore.sk",
+          "href": "mailto:info@timberstore.sk"
+        },
+        {
+          "cls": "project-phone",
+          "text": "+421 904 479 842",
+          "href": "tel:+421904479842"
+        },
+        {
+          "cls": "btn btn-primary ts-menu-contact-button",
+          "text": "Napíšte nám",
+          "href": "/kontakty"
+        },
+        {
+          "cls": "ts-menu-socials",
+          "text": "",
+          "href": null
+        }
+      ],
+      "social": [
+        {
+          "network": "facebook",
+          "color": "rgb(24, 119, 242)",
+          "background": "none",
+          "href": "https://www.facebook.com/timberstore"
+        },
+        {
+          "network": "instagram",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))",
+          "href": "https://www.instagram.com/timberstore.sk/"
+        }
+      ]
+    },
+    "layout": {
+      "view": [
+        430,
+        430
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 390,
+    "controls": [
+      {
+        "text": "Načítať 30 ďalších",
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "testid": "buttonMoreItems"
+      },
+      {
+        "text": "Hore",
+        "cls": "goToTop__button btn btn-secondary",
+        "testid": "buttonPageUp"
+      }
+    ],
+    "contact": {
+      "order": [
+        {
+          "cls": "ts-service-bar__hours",
+          "text": "PO – PIA (08:00 – 16:00)",
+          "href": null
+        },
+        {
+          "cls": "project-email",
+          "text": "info@timberstore.sk",
+          "href": "mailto:info@timberstore.sk"
+        },
+        {
+          "cls": "project-phone",
+          "text": "+421 904 479 842",
+          "href": "tel:+421904479842"
+        },
+        {
+          "cls": "btn btn-primary ts-menu-contact-button",
+          "text": "Napíšte nám",
+          "href": "/kontakty"
+        },
+        {
+          "cls": "ts-menu-socials",
+          "text": "",
+          "href": null
+        }
+      ],
+      "social": [
+        {
+          "network": "facebook",
+          "color": "rgb(24, 119, 242)",
+          "background": "none",
+          "href": "https://www.facebook.com/timberstore"
+        },
+        {
+          "network": "instagram",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))",
+          "href": "https://www.instagram.com/timberstore.sk/"
+        }
+      ]
+    },
+    "layout": {
+      "view": [
+        390,
+        390
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 375,
+    "controls": [
+      {
+        "text": "Načítať 30 ďalších",
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "testid": "buttonMoreItems"
+      },
+      {
+        "text": "Hore",
+        "cls": "goToTop__button btn btn-secondary",
+        "testid": "buttonPageUp"
+      }
+    ],
+    "contact": {
+      "order": [
+        {
+          "cls": "ts-service-bar__hours",
+          "text": "PO – PIA (08:00 – 16:00)",
+          "href": null
+        },
+        {
+          "cls": "project-email",
+          "text": "info@timberstore.sk",
+          "href": "mailto:info@timberstore.sk"
+        },
+        {
+          "cls": "project-phone",
+          "text": "+421 904 479 842",
+          "href": "tel:+421904479842"
+        },
+        {
+          "cls": "btn btn-primary ts-menu-contact-button",
+          "text": "Napíšte nám",
+          "href": "/kontakty"
+        },
+        {
+          "cls": "ts-menu-socials",
+          "text": "",
+          "href": null
+        }
+      ],
+      "social": [
+        {
+          "network": "facebook",
+          "color": "rgb(24, 119, 242)",
+          "background": "none",
+          "href": "https://www.facebook.com/timberstore"
+        },
+        {
+          "network": "instagram",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))",
+          "href": "https://www.instagram.com/timberstore.sk/"
+        }
+      ]
+    },
+    "layout": {
+      "view": [
+        375,
+        375
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 320,
+    "controls": [
+      {
+        "text": "Načítať 30 ďalších",
+        "cls": "loadMore__button loadMore__button--products btn btn-secondary js-loadMore__button--products",
+        "testid": "buttonMoreItems"
+      },
+      {
+        "text": "Hore",
+        "cls": "goToTop__button btn btn-secondary",
+        "testid": "buttonPageUp"
+      }
+    ],
+    "contact": {
+      "order": [
+        {
+          "cls": "ts-service-bar__hours",
+          "text": "PO – PIA (08:00 – 16:00)",
+          "href": null
+        },
+        {
+          "cls": "project-email",
+          "text": "info@timberstore.sk",
+          "href": "mailto:info@timberstore.sk"
+        },
+        {
+          "cls": "project-phone",
+          "text": "+421 904 479 842",
+          "href": "tel:+421904479842"
+        },
+        {
+          "cls": "btn btn-primary ts-menu-contact-button",
+          "text": "Napíšte nám",
+          "href": "/kontakty"
+        },
+        {
+          "cls": "ts-menu-socials",
+          "text": "",
+          "href": null
+        }
+      ],
+      "social": [
+        {
+          "network": "facebook",
+          "color": "rgb(24, 119, 242)",
+          "background": "none",
+          "href": "https://www.facebook.com/timberstore"
+        },
+        {
+          "network": "instagram",
+          "color": "rgba(0, 0, 0, 0)",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))",
+          "href": "https://www.instagram.com/timberstore.sk/"
+        }
+      ]
+    },
+    "layout": {
+      "view": [
+        320,
+        320
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pass": true
+  }
+]

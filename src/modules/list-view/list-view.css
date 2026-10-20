@@ -321,7 +321,7 @@
 
   /* availability (native element, keeps the colour set in the Shoptet admin) */
   .ts-view-list #products:not(.products-related) .availability {
-    --ts-stock-font-size: 14px;
+    --ts-stock-font-size: 13px;
     grid-area: avail !important;
     position: static !important;
     margin: 0 !important;
@@ -354,7 +354,7 @@
   .ts-view-list #products:not(.products-related) .prices .price-final strong {
     order: -1 !important;
     margin: 0 !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
     font-weight: 700 !important;
     line-height: 1.1 !important;
     white-space: nowrap !important;

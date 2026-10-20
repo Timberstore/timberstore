@@ -82,13 +82,15 @@
   font-weight: 600;
 }
 .in-kosik #cart-wrapper .cart-table .show-related {
-  color: var(--ts-color-accent);
+  color: var(--ts-color-novelty);
   font-weight: 700;
   margin: 4px 0 0;
   white-space: normal;
 }
-.in-kosik #cart-wrapper .cart-table .show-related:is(:hover, :active) {
-  color: var(--ts-color-action-hover);
+.in-kosik #cart-wrapper .cart-table .show-related:is(:hover, :active, :focus-visible) {
+  color: var(--ts-color-novelty);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .in-kosik #cart-wrapper .cart-table .quantity-form {
   grid-area: 1 / 3;

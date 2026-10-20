@@ -19,6 +19,10 @@ export function syncPopupShipping(popup) {
     if (node && node.classList.contains(SEL.cartPopupFreeClass) !== state.complete)
       node.classList.toggle(SEL.cartPopupFreeClass, state.complete);
   }
+  paintShipping(shipping, message, state);
+}
+
+export function paintShipping(shipping, message, state) {
   const percent = `${state.percent}%`;
   if (shipping.style.getPropertyValue('--bar-percentage') !== percent)
     shipping.style.setProperty('--bar-percentage', percent);

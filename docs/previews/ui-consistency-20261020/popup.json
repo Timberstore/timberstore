@@ -1,0 +1,1358 @@
+[
+  {
+    "width": 1440,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 339,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 339,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 339,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 339,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 339,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 277.5,
+        "y": 500.5625,
+        "width": 427,
+        "height": 341.046875,
+        "top": 500.5625,
+        "right": 704.5,
+        "bottom": 841.609375,
+        "left": 277.5
+      },
+      "qty": {
+        "x": 293.5,
+        "y": 741.609375,
+        "width": 395,
+        "height": 38,
+        "top": 741.609375,
+        "right": 688.5,
+        "bottom": 779.609375,
+        "left": 293.5
+      },
+      "button": {
+        "x": 293.5,
+        "y": 787.609375,
+        "width": 395,
+        "height": 38,
+        "top": 787.609375,
+        "right": 688.5,
+        "bottom": 825.609375,
+        "left": 293.5
+      },
+      "image": {
+        "x": 293.5,
+        "y": 516.5625,
+        "width": 80,
+        "height": 80,
+        "top": 516.5625,
+        "right": 373.5,
+        "bottom": 596.5625,
+        "left": 293.5
+      },
+      "name": {
+        "x": 293.5,
+        "y": 604.5625,
+        "width": 395,
+        "height": 44.28125,
+        "top": 604.5625,
+        "right": 688.5,
+        "bottom": 648.84375,
+        "left": 293.5
+      },
+      "code": {
+        "x": 293.5,
+        "y": 656.84375,
+        "width": 395,
+        "height": 19,
+        "top": 656.84375,
+        "right": 688.5,
+        "bottom": 675.84375,
+        "left": 293.5
+      }
+    },
+    "layout": {
+      "view": [
+        1440,
+        1427
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 232.5,
+          "right": 1528.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 232.5,
+          "right": 1528.5
+        }
+      ]
+    },
+    "popup": {
+      "x": 232.5,
+      "y": 133,
+      "width": 960,
+      "height": 734
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 3h3l3 11h11l3-8H6M10 19h.01M18 19h.01'/%3E%3C/svg%3E\")"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 339,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 339,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 339,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 339,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 339,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 197.5,
+        "y": 500.5625,
+        "width": 427,
+        "height": 341.046875,
+        "top": 500.5625,
+        "right": 624.5,
+        "bottom": 841.609375,
+        "left": 197.5
+      },
+      "qty": {
+        "x": 213.5,
+        "y": 741.609375,
+        "width": 395,
+        "height": 38,
+        "top": 741.609375,
+        "right": 608.5,
+        "bottom": 779.609375,
+        "left": 213.5
+      },
+      "button": {
+        "x": 213.5,
+        "y": 787.609375,
+        "width": 395,
+        "height": 38,
+        "top": 787.609375,
+        "right": 608.5,
+        "bottom": 825.609375,
+        "left": 213.5
+      },
+      "image": {
+        "x": 213.5,
+        "y": 516.5625,
+        "width": 80,
+        "height": 80,
+        "top": 516.5625,
+        "right": 293.5,
+        "bottom": 596.5625,
+        "left": 213.5
+      },
+      "name": {
+        "x": 213.5,
+        "y": 604.5625,
+        "width": 395,
+        "height": 44.28125,
+        "top": 604.5625,
+        "right": 608.5,
+        "bottom": 648.84375,
+        "left": 213.5
+      },
+      "code": {
+        "x": 213.5,
+        "y": 656.84375,
+        "width": 395,
+        "height": 19,
+        "top": 656.84375,
+        "right": 608.5,
+        "bottom": 675.84375,
+        "left": 213.5
+      }
+    },
+    "layout": {
+      "view": [
+        1280,
+        1265
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 152.5,
+          "right": 1304.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 152.5,
+          "right": 1304.5
+        }
+      ]
+    },
+    "popup": {
+      "x": 152.5,
+      "y": 133,
+      "width": 960,
+      "height": 734
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 3h3l3 11h11l3-8H6M10 19h.01M18 19h.01'/%3E%3C/svg%3E\")"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 269,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 269,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 269,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 269,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 269,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 139.90625,
+        "y": 500.5625,
+        "width": 356.59375,
+        "height": 341.046875,
+        "top": 500.5625,
+        "right": 496.5,
+        "bottom": 841.609375,
+        "left": 139.90625
+      },
+      "qty": {
+        "x": 155.90625,
+        "y": 741.609375,
+        "width": 324.59375,
+        "height": 38,
+        "top": 741.609375,
+        "right": 480.5,
+        "bottom": 779.609375,
+        "left": 155.90625
+      },
+      "button": {
+        "x": 155.90625,
+        "y": 787.609375,
+        "width": 324.59375,
+        "height": 38,
+        "top": 787.609375,
+        "right": 480.5,
+        "bottom": 825.609375,
+        "left": 155.90625
+      },
+      "image": {
+        "x": 155.90625,
+        "y": 516.5625,
+        "width": 80,
+        "height": 80,
+        "top": 516.5625,
+        "right": 235.90625,
+        "bottom": 596.5625,
+        "left": 155.90625
+      },
+      "name": {
+        "x": 155.90625,
+        "y": 604.5625,
+        "width": 324.59375,
+        "height": 44.28125,
+        "top": 604.5625,
+        "right": 480.5,
+        "bottom": 648.84375,
+        "left": 155.90625
+      },
+      "code": {
+        "x": 155.90625,
+        "y": 656.84375,
+        "width": 324.59375,
+        "height": 19,
+        "top": 656.84375,
+        "right": 480.5,
+        "bottom": 675.84375,
+        "left": 155.90625
+      }
+    },
+    "layout": {
+      "view": [
+        1024,
+        1009
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 94.90625,
+          "right": 1026.90625
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 94.90625,
+          "right": 1026.90625
+        }
+      ]
+    },
+    "popup": {
+      "x": 94.90625,
+      "y": 133,
+      "width": 819.1875,
+      "height": 734
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 3h3l3 11h11l3-8H6M10 19h.01M18 19h.01'/%3E%3C/svg%3E\")"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 768,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 436,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 436,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 436,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 436,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 436,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 114.3046875,
+        "y": 508.96875,
+        "width": 524.390625,
+        "height": 341.046875,
+        "top": 508.96875,
+        "right": 638.6953125,
+        "bottom": 850.015625,
+        "left": 114.3046875
+      },
+      "qty": {
+        "x": 130.3046875,
+        "y": 750.015625,
+        "width": 492.390625,
+        "height": 38,
+        "top": 750.015625,
+        "right": 622.6953125,
+        "bottom": 788.015625,
+        "left": 130.3046875
+      },
+      "button": {
+        "x": 130.3046875,
+        "y": 796.015625,
+        "width": 492.390625,
+        "height": 38,
+        "top": 796.015625,
+        "right": 622.6953125,
+        "bottom": 834.015625,
+        "left": 130.3046875
+      },
+      "image": {
+        "x": 130.3046875,
+        "y": 524.96875,
+        "width": 80,
+        "height": 80,
+        "top": 524.96875,
+        "right": 210.3046875,
+        "bottom": 604.96875,
+        "left": 130.3046875
+      },
+      "name": {
+        "x": 130.3046875,
+        "y": 612.96875,
+        "width": 492.390625,
+        "height": 44.28125,
+        "top": 612.96875,
+        "right": 622.6953125,
+        "bottom": 657.25,
+        "left": 130.3046875
+      },
+      "code": {
+        "x": 130.3046875,
+        "y": 665.25,
+        "width": 492.390625,
+        "height": 19,
+        "top": 665.25,
+        "right": 622.6953125,
+        "bottom": 684.25,
+        "left": 130.3046875
+      }
+    },
+    "layout": {
+      "view": [
+        768,
+        753
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 69.3046875,
+          "right": 776.3046875
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "x": 69.3046875,
+          "right": 776.3046875
+        }
+      ]
+    },
+    "popup": {
+      "x": 69.3046875,
+      "y": 125,
+      "width": 614.390625,
+      "height": 750
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 3h3l3 11h11l3-8H6M10 19h.01M18 19h.01'/%3E%3C/svg%3E\")"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 430,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 276,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 276,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 276,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 276,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 276,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 33,
+        "y": 532.78125,
+        "width": 364,
+        "height": 299.546875,
+        "top": 532.78125,
+        "right": 397,
+        "bottom": 832.328125,
+        "left": 33
+      },
+      "qty": {
+        "x": 49,
+        "y": 732.328125,
+        "width": 332,
+        "height": 38,
+        "top": 732.328125,
+        "right": 381,
+        "bottom": 770.328125,
+        "left": 49
+      },
+      "button": {
+        "x": 49,
+        "y": 778.328125,
+        "width": 332,
+        "height": 38,
+        "top": 778.328125,
+        "right": 381,
+        "bottom": 816.328125,
+        "left": 49
+      },
+      "image": {
+        "x": 49,
+        "y": 548.78125,
+        "width": 50,
+        "height": 50,
+        "top": 548.78125,
+        "right": 99,
+        "bottom": 598.78125,
+        "left": 49
+      },
+      "name": {
+        "x": 49,
+        "y": 606.78125,
+        "width": 332,
+        "height": 38.75,
+        "top": 606.78125,
+        "right": 381,
+        "bottom": 645.53125,
+        "left": 49
+      },
+      "code": {
+        "x": 49,
+        "y": 653.53125,
+        "width": 332,
+        "height": 19,
+        "top": 653.53125,
+        "right": 381,
+        "bottom": 672.53125,
+        "left": 49
+      }
+    },
+    "layout": {
+      "view": [
+        430,
+        423
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "h1",
+          "x": -11,
+          "right": 441
+        }
+      ]
+    },
+    "popup": {
+      "x": 8,
+      "y": 143,
+      "width": 414,
+      "height": 714
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 3h3l3 11h11l3-8H6M10 19h.01M18 19h.01'/%3E%3C/svg%3E\")"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 390,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 236,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 236,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 236,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 236,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 236,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 33,
+        "y": 532.78125,
+        "width": 324,
+        "height": 299.546875,
+        "top": 532.78125,
+        "right": 357,
+        "bottom": 832.328125,
+        "left": 33
+      },
+      "qty": {
+        "x": 49,
+        "y": 732.328125,
+        "width": 292,
+        "height": 38,
+        "top": 732.328125,
+        "right": 341,
+        "bottom": 770.328125,
+        "left": 49
+      },
+      "button": {
+        "x": 49,
+        "y": 778.328125,
+        "width": 292,
+        "height": 38,
+        "top": 778.328125,
+        "right": 341,
+        "bottom": 816.328125,
+        "left": 49
+      },
+      "image": {
+        "x": 49,
+        "y": 548.78125,
+        "width": 50,
+        "height": 50,
+        "top": 548.78125,
+        "right": 99,
+        "bottom": 598.78125,
+        "left": 49
+      },
+      "name": {
+        "x": 49,
+        "y": 606.78125,
+        "width": 292,
+        "height": 38.75,
+        "top": 606.78125,
+        "right": 341,
+        "bottom": 645.53125,
+        "left": 49
+      },
+      "code": {
+        "x": 49,
+        "y": 653.53125,
+        "width": 292,
+        "height": 19,
+        "top": 653.53125,
+        "right": 341,
+        "bottom": 672.53125,
+        "left": 49
+      }
+    },
+    "layout": {
+      "view": [
+        390,
+        383
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "h1",
+          "x": -11,
+          "right": 401
+        }
+      ]
+    },
+    "popup": {
+      "x": 8,
+      "y": 143,
+      "width": 374,
+      "height": 714
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 3h3l3 11h11l3-8H6M10 19h.01M18 19h.01'/%3E%3C/svg%3E\")"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 375,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 221,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 221,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 221,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 221,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 221,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 26,
+        "y": 532.78125,
+        "width": 309,
+        "height": 299.546875,
+        "top": 532.78125,
+        "right": 335,
+        "bottom": 832.328125,
+        "left": 26
+      },
+      "qty": {
+        "x": 42,
+        "y": 732.328125,
+        "width": 277,
+        "height": 38,
+        "top": 732.328125,
+        "right": 319,
+        "bottom": 770.328125,
+        "left": 42
+      },
+      "button": {
+        "x": 42,
+        "y": 778.328125,
+        "width": 277,
+        "height": 38,
+        "top": 778.328125,
+        "right": 319,
+        "bottom": 816.328125,
+        "left": 42
+      },
+      "image": {
+        "x": 42,
+        "y": 548.78125,
+        "width": 50,
+        "height": 50,
+        "top": 548.78125,
+        "right": 92,
+        "bottom": 598.78125,
+        "left": 42
+      },
+      "name": {
+        "x": 42,
+        "y": 606.78125,
+        "width": 277,
+        "height": 38.75,
+        "top": 606.78125,
+        "right": 319,
+        "bottom": 645.53125,
+        "left": 42
+      },
+      "code": {
+        "x": 42,
+        "y": 653.53125,
+        "width": 277,
+        "height": 19,
+        "top": 653.53125,
+        "right": 319,
+        "bottom": 672.53125,
+        "left": 42
+      }
+    },
+    "layout": {
+      "view": [
+        375,
+        368
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -8,
+          "right": -7
+        },
+        {
+          "tag": "DIV",
+          "cls": "overall-wrapper",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "user-action",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "container",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "container content-wrapper",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "content-wrapper homepage-box before-carousel",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "content-wrapper-in",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "container",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "row banners-row",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "col-sm-8",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "carousel slide ts-carousel-swipe",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "OL",
+          "cls": "carousel-indicators",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "carousel-inner",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "DIV",
+          "cls": "item active carousel-item-banner--has-text",
+          "x": -7,
+          "right": 353
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "x": -7,
+          "right": 353
+        }
+      ]
+    },
+    "popup": {
+      "x": 1,
+      "y": 143,
+      "width": 359,
+      "height": 714
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 3h3l3 11h11l3-8H6M10 19h.01M18 19h.01'/%3E%3C/svg%3E\")"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  },
+  {
+    "width": 320,
+    "fixture": "captured native advanced-order HTML; not a fresh native popup response",
+    "fields": [
+      {
+        "value": "1",
+        "w": 166,
+        "needed": 9.5615234375
+      },
+      {
+        "value": "10",
+        "w": 166,
+        "needed": 15.123046875
+      },
+      {
+        "value": "100",
+        "w": 166,
+        "needed": 20.6845703125
+      },
+      {
+        "value": "1000",
+        "w": 166,
+        "needed": 26.24609375
+      },
+      {
+        "value": "20000",
+        "w": 166,
+        "needed": 31.8076171875
+      }
+    ],
+    "controls": {
+      "card": {
+        "x": 26,
+        "y": 530.78125,
+        "width": 254,
+        "height": 324.9375,
+        "top": 530.78125,
+        "right": 280,
+        "bottom": 855.71875,
+        "left": 26
+      },
+      "qty": {
+        "x": 42,
+        "y": 755.71875,
+        "width": 222,
+        "height": 38,
+        "top": 755.71875,
+        "right": 264,
+        "bottom": 793.71875,
+        "left": 42
+      },
+      "button": {
+        "x": 42,
+        "y": 801.71875,
+        "width": 222,
+        "height": 38,
+        "top": 801.71875,
+        "right": 264,
+        "bottom": 839.71875,
+        "left": 42
+      },
+      "image": {
+        "x": 42,
+        "y": 546.78125,
+        "width": 50,
+        "height": 50,
+        "top": 546.78125,
+        "right": 92,
+        "bottom": 596.78125,
+        "left": 42
+      },
+      "name": {
+        "x": 42,
+        "y": 604.78125,
+        "width": 222,
+        "height": 58.125,
+        "top": 604.78125,
+        "right": 264,
+        "bottom": 662.90625,
+        "left": 42
+      },
+      "code": {
+        "x": 42,
+        "y": 670.90625,
+        "width": 222,
+        "height": 19,
+        "top": 670.90625,
+        "right": 264,
+        "bottom": 689.90625,
+        "left": 42
+      }
+    },
+    "layout": {
+      "view": [
+        320,
+        313
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -8,
+          "right": -7
+        },
+        {
+          "tag": "DIV",
+          "cls": "overall-wrapper",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "user-action",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "container",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "container content-wrapper",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "content-wrapper homepage-box before-carousel",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "content-wrapper-in",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "container",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "row banners-row",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "col-sm-8",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "carousel slide ts-carousel-swipe",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "OL",
+          "cls": "carousel-indicators",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "carousel-inner",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "DIV",
+          "cls": "item active carousel-item-banner--has-text",
+          "x": -7,
+          "right": 298
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "x": -7,
+          "right": 298
+        }
+      ]
+    },
+    "popup": {
+      "x": 1,
+      "y": 119,
+      "width": 304,
+      "height": 762
+    },
+    "icon": {
+      "content": "\"\"",
+      "color": "rgb(255, 255, 255)",
+      "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 3h3l3 11h11l3-8H6M10 19h.01M18 19h.01'/%3E%3C/svg%3E\")"
+    },
+    "code": {
+      "h": 19,
+      "display": [
+        "inline",
+        "inline"
+      ]
+    },
+    "pass": true
+  }
+]
