@@ -1,0 +1,147 @@
+[
+  {
+    "width": 1440,
+    "pages": [
+      {
+        "path": "/",
+        "loader": "v0.7.0",
+        "runtime": "v0.7.0",
+        "preview": true,
+        "viewport": [
+          1440,
+          1427
+        ],
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.js"
+        ]
+      },
+      {
+        "path": "/uchytky/",
+        "loader": "v0.7.0",
+        "runtime": "v0.7.0",
+        "preview": true,
+        "viewport": [
+          1440,
+          1425
+        ],
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.js"
+        ]
+      }
+    ],
+    "pageErrors": [],
+    "pass": true
+  },
+  {
+    "width": 393,
+    "pages": [
+      {
+        "path": "/",
+        "loader": "v0.7.0",
+        "runtime": "v0.7.0",
+        "preview": true,
+        "viewport": [
+          393,
+          393
+        ],
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.js"
+        ]
+      },
+      {
+        "path": "/uchytky/",
+        "loader": "v0.7.0",
+        "runtime": "v0.7.0",
+        "preview": true,
+        "viewport": [
+          393,
+          393
+        ],
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.js"
+        ]
+      }
+    ],
+    "cdnNativeAddAndMini": {
+      "items": [
+        {
+          "code": "494606",
+          "quantity": 1,
+          "price": 2.26
+        }
+      ],
+      "ui": [
+        {
+          "sku": "494606",
+          "input": "1",
+          "price": "2,26 €",
+          "signs": [
+            {
+              "text": "+",
+              "display": "block",
+              "w": 9.828125
+            },
+            {
+              "text": "−",
+              "display": "block",
+              "w": 10.015625
+            }
+          ],
+          "control": {
+            "w": 100,
+            "h": 36
+          }
+        }
+      ],
+      "total": "2,26 €",
+      "badge": "1",
+      "shipping": {
+        "left": 197.74,
+        "formatted": "197,74 €",
+        "threshold": 200,
+        "ui": "Nakúpte ešte za 197,74 € a dopravu máte zadarmo!"
+      }
+    },
+    "pageErrors": [],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "pages": [
+      {
+        "path": "/",
+        "loader": "v0.7.0",
+        "runtime": "v0.7.0",
+        "preview": true,
+        "viewport": [
+          320,
+          320
+        ],
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.js"
+        ]
+      },
+      {
+        "path": "/uchytky/",
+        "loader": "v0.7.0",
+        "runtime": "v0.7.0",
+        "preview": true,
+        "viewport": [
+          320,
+          320
+        ],
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.js"
+        ]
+      }
+    ],
+    "pageErrors": [],
+    "pass": true
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "loader": "v0.6.13",
+  "runtime": "v0.6.13",
+  "preview": false,
+  "viewport": [
+    393,
+    393
+  ]
+}

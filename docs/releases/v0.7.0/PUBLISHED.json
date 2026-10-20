@@ -1,0 +1,59 @@
+{
+  "version": "v0.7.0",
+  "releasedCommit": "db193dbbab7fc778676930ebecbc4a9764be4b16",
+  "tagObject": "8fb48142aea8a00c8b2b907aa665fab75abf59c9",
+  "immutableTag": "v0.7.0",
+  "mergePR": "https://github.com/Timberstore/timberstore/pull/36",
+  "release": "https://github.com/Timberstore/timberstore/releases/tag/v0.7.0",
+  "assets": {
+    "css": {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.css",
+      "bytes": 174016,
+      "sha256": "7225588534f20ff8d010e124fbc798c42fcfcbfdd3fe73110385ae41fb33050b",
+      "gzipBytes": 27340,
+      "budgetBytes": 27392,
+      "byteEqual": true,
+      "cdnSha256": "7225588534f20ff8d010e124fbc798c42fcfcbfdd3fe73110385ae41fb33050b"
+    },
+    "js": {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.js",
+      "bytes": 115241,
+      "sha256": "d16ed85fbc5891789f3bdb71fb53ede57a0eda0f1c51c804d325ca85c303d5c6",
+      "gzipBytes": 32460,
+      "budgetBytes": 32768,
+      "byteEqual": true,
+      "cdnSha256": "d16ed85fbc5891789f3bdb71fb53ede57a0eda0f1c51c804d325ca85c303d5c6"
+    }
+  },
+  "publishedCDNSmoke": "PASS 1440/393/320, native mobile add/mini cart",
+  "production": {
+    "loader": "v0.6.13",
+    "runtime": "v0.6.13",
+    "preview": false,
+    "viewport": [
+      393,
+      393
+    ]
+  },
+  "shoptetAdminChanged": false,
+  "safariWebKit": "WAIVED BY OWNER",
+  "physicalIPhone": "WAIVED BY OWNER",
+  "externalVariants": "NOT VERIFIED",
+  "rollback": {
+    "tag": "v0.6.13",
+    "tagObject": "87d22e4116b370cf7aaef3f4454095ec2ab5bb14",
+    "commit": "0c726ffe6986192721a3b62b3743b31c78a01b50",
+    "assets": {
+      "js": {
+        "byteEqualToOriginalTag": true,
+        "sha256": "a57561c9261716ed20b1fc2a5ef828040d78ffb47f764d3105d123717d57764c",
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.6.13/dist/timber.min.js"
+      },
+      "css": {
+        "byteEqualToOriginalTag": true,
+        "sha256": "6e88302e213d5f0933b0fae6fdf4d66bf30a32ce202fb69a7a531f6a44ae1c68",
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.6.13/dist/timber.min.css"
+      }
+    }
+  }
+}
