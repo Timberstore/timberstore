@@ -84,3 +84,12 @@ README vysvetľuje rozsah, príčiny, výsledky a obmedzenia. PUBLISHED obsahuje
 - [verification/popup-scroll.cjs](verification/popup-scroll.cjs)
 - [verification/stability-final.cjs](verification/stability-final.cjs)
 - [verification/variant-interactions.cjs](verification/variant-interactions.cjs)
+
+## Doplnené po publikovaní (iba dokumentácia)
+
+- [evidence/cdn-smoke.json](evidence/cdn-smoke.json)
+- [evidence/cdn-smoke.log](evidence/cdn-smoke.log)
+- [evidence/production-observed.json](evidence/production-observed.json)
+- [evidence/remote-scope.txt](evidence/remote-scope.txt)
+- [evidence/cdn-byte-match.json](evidence/cdn-byte-match.json)
+- [verification/cdn-smoke.cjs](verification/cdn-smoke.cjs)

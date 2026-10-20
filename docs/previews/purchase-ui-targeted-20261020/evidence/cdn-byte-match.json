@@ -1,0 +1,19 @@
+{
+  "commit": "25b55106a9198ebc772224ea9d4646dd60b83a99",
+  "assets": {
+    "css": {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+      "httpStatus": 200,
+      "bytes": 182455,
+      "sha256": "455954b647c55b71709105589664ace9469df2356242a5758228ab73ce8ee389",
+      "byteEqual": true
+    },
+    "js": {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+      "httpStatus": 200,
+      "bytes": 117303,
+      "sha256": "7b5a3a9a1ff2e5b96e94e0b57d95d7793e576a55cc98cd6a6f92d224c57c7d1a",
+      "byteEqual": true
+    }
+  }
+}

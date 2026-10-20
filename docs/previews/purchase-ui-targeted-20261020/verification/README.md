@@ -9,3 +9,5 @@ Spustenie zo zložky tohto súboru: `node check.cjs`, `node stability-final.cjs`
 Replay: multi-layout používa tri zachytené natívne karty, synteticky zvýšenú cenu len na kontrolu geometrie; popup-scroll násobí karty kvôli výške. Zachytené HTML má staré vlastné quantity obaly odstránené pred inicializáciou, natívne min/max/step sa zachovávajú. Variant-interactions používa fixture.json pre nedostupný externý feed; nie je živá validácia jeho synchronizácie.
 
 Niektoré testy po prázdnej natívnej odpovedi GetExtendedOrder zaznamenajú neoverené otvorenie a vykonajú ďalšie reálne pridanie. Produkčný JS také opakovanie neobsahuje. Aktuálna dostupnosť backendu môže ovplyvniť reprodukciu.
+
+Publikovanú immutable verziu overí `node cdn-smoke.cjs`: skutočné CDN, samostatné anonymné košíky a na konci čistá produkčná session.

@@ -1,0 +1,4 @@
+PASS actual immutable CDN home/category/live popup/cart AJAX/detail 1440
+PASS actual immutable CDN home/category/live popup/cart AJAX/detail 390
+PASS actual immutable CDN home/category/live popup/cart AJAX/detail 320
+PASS independent production remains unchanged { loader: 'v0.7.0', preview: false, runtime: 'v0.7.0' }

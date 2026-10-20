@@ -50,6 +50,7 @@ PASS znamená úspech uvedeného scenára; fixture/replay nie je živá integrá
 | Filtre/AJAX, opakovaný lifecycle bez duplicít a jediný nákupný POST | 1440, 390 | **PASS**, [ajax](evidence/ajax.json) |
 | Načítanie ďalších a checkout suma | natívne komponenty | **PASS**, [loadmore-checkout](evidence/loadmore-checkout.json); bez odoslania objednávky alebo platby |
 | Rozbalenie variantov a navigácia | 390, 320 | **PASS – externé dáta replay**, reálna navigácia; [variant-interactions](evidence/variant-interactions.json) |
+| Skutočné immutable CDN, nákup/popup, košík AJAX, detail/doprava; čistá produkčná session | 1440, 390, 320 | **PASS**, [publikovanie](PUBLISHED.md) |
 | Lint, build, diff whitespace | rc.2 | **PASS**, [výstup](evidence/final-checks.txt), [bajty a hash](evidence/build.json) |
 
 Celostránkový horizontálny overflow sa kontroluje skutočným `scrollWidth` a geometriou. Žiadny nový globálny `overflow-x:hidden` na html/body.

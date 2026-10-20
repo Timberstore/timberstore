@@ -1,0 +1,296 @@
+[
+  {
+    "width": 1440,
+    "loader": {
+      "sha": "25b55106a9198ebc772224ea9d4646dd60b83a99",
+      "preview": true,
+      "runtime": "v0.7.1-rc.2"
+    },
+    "loadMore": "rgb(212, 136, 74)",
+    "responses": [
+      {
+        "attempt": 1,
+        "hasContent": true
+      }
+    ],
+    "cartInitial": 1,
+    "popup": {
+      "x": 232.5,
+      "y": 20,
+      "width": 960,
+      "height": 472.1875
+    },
+    "summary": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px"
+    },
+    "prices": [
+      {
+        "text": "23,25 €",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "23,25 €",
+        "color": "rgb(36, 84, 166)"
+      }
+    ],
+    "meta": {
+      "code": "\n        KÓD: \n                    494606\n            ",
+      "brand": "ZNAČKA: Tulip"
+    },
+    "shipping": {
+      "bars": 1,
+      "scrolls": []
+    },
+    "assets": [
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      }
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "loader": {
+      "sha": "25b55106a9198ebc772224ea9d4646dd60b83a99",
+      "preview": true,
+      "runtime": "v0.7.1-rc.2"
+    },
+    "loadMore": "rgb(212, 136, 74)",
+    "responses": [
+      {
+        "attempt": 1,
+        "hasContent": true
+      }
+    ],
+    "cartInitial": 1,
+    "popup": {
+      "x": 8,
+      "y": 20,
+      "width": 374,
+      "height": 810.78125
+    },
+    "summary": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px"
+    },
+    "prices": [
+      {
+        "text": "23,25 €",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "23,25 €",
+        "color": "rgb(36, 84, 166)"
+      }
+    ],
+    "meta": {
+      "code": "\n        KÓD: \n                    494606\n            ",
+      "brand": "ZNAČKA: Tulip"
+    },
+    "shipping": {
+      "bars": 1,
+      "scrolls": []
+    },
+    "assets": [
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      }
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "loader": {
+      "sha": "25b55106a9198ebc772224ea9d4646dd60b83a99",
+      "preview": true,
+      "runtime": "v0.7.1-rc.2"
+    },
+    "loadMore": "rgb(212, 136, 74)",
+    "responses": [
+      {
+        "attempt": 1,
+        "hasContent": true
+      }
+    ],
+    "cartInitial": 1,
+    "popup": {
+      "x": 8,
+      "y": 20,
+      "width": 304,
+      "height": 835.96875
+    },
+    "summary": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px"
+    },
+    "prices": [
+      {
+        "text": "23,25 €",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "23,25 €",
+        "color": "rgb(36, 84, 166)"
+      }
+    ],
+    "meta": {
+      "code": "\n        KÓD: \n                    494606\n            ",
+      "brand": "ZNAČKA: Tulip"
+    },
+    "shipping": {
+      "bars": 1,
+      "scrolls": []
+    },
+    "assets": [
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@25b55106a9198ebc772224ea9d4646dd60b83a99/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      }
+    ],
+    "errors": [],
+    "pass": true
+  }
+]
