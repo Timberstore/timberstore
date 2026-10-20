@@ -111,6 +111,7 @@ export const SEL = {
   recommendationLink: 'a.name[href]',
   recommendationSku: '[data-micro="sku"]',
   recommendationPrice: '.price-final',
+  recommendationPrices: '.prices',
   productPriceUnit: '.pr-list-unit, .ts-recommendation-unit',
   sourceProductPriceUnit: '.p-detail .price-final .pr-list-unit',
   cartPopup: '#colorbox .advanced-order',

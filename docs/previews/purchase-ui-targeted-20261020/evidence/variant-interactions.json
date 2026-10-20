@@ -1,0 +1,21 @@
+[
+  {
+    "width": 390,
+    "source": "explicit external variant reply fixture; live Shoptet page/handlers",
+    "before": 8,
+    "after": 10,
+    "pass": true
+  },
+  {
+    "width": 320,
+    "source": "explicit external variant reply fixture; live Shoptet page/handlers",
+    "before": 8,
+    "after": 10,
+    "pass": true
+  },
+  {
+    "navigation": "https://www.timberstore.sk/drziak-nozov-do-pribornikov-classico-422x155mm-drevo/",
+    "source": "fixture link to real product document",
+    "pass": true
+  }
+]

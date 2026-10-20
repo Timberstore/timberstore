@@ -1,25 +1,31 @@
-/* Advanced-order owns one viewport-constrained scroll area. Apollo writes
+/* Purchase and delivery Colorboxes share one viewport-constrained scroll area. Apollo writes
    inline heights; clearing the outer heights avoids empty tails/double scroll. */
-body:has(#colorbox:not([style*='display: none']) .advanced-order) {
+body:has(#colorbox:not([style*='display: none']) :is(.advanced-order, .shipping-options-popup)) {
   overflow-y: hidden;
 }
-#colorbox:has(.advanced-order) {
+#colorbox:has(.advanced-order, .shipping-options-popup) {
   width: min(var(--ts-popup-max-width), calc(100% - 16px)) !important;
   left: 50% !important;
   transform: translateX(-50%);
   height: auto !important;
+  position: fixed !important;
+  top: 20px !important;
 }
-#colorbox:has(.advanced-order) :is(#cboxWrapper, #cboxContent, #cboxLoadedContent) {
+#colorbox:has(.advanced-order, .shipping-options-popup) :is(#cboxWrapper, #cboxContent, #cboxLoadedContent) {
   width: 100% !important;
   height: auto !important;
   box-sizing: border-box;
 }
-#colorbox:has(.advanced-order) #cboxWrapper { position: relative; }
+#colorbox:has(.advanced-order, .shipping-options-popup) #cboxWrapper { position: relative; }
+/* Empty native side rails have zero width, but their animated inline heights
+   were still determining the float wrapper height after content was ready. */
+#colorbox:has(.advanced-order, .shipping-options-popup) :is(#cboxMiddleLeft, #cboxMiddleRight) { height: 0 !important; }
 #colorbox .advanced-order { margin: 0; padding: 0 20px 20px !important; }
-#colorbox:has(.advanced-order) #cboxContent { margin-top: 0; }
+#colorbox:has(.advanced-order, .shipping-options-popup) #cboxContent { margin-top: 0; }
 #colorbox .colorbox-html-content:has(> .advanced-order) { padding: 0; }
-#colorbox:has(.advanced-order) #cboxLoadedContent {
+#colorbox:has(.advanced-order, .shipping-options-popup) #cboxLoadedContent {
   max-height: calc(100dvh - 40px);
+  padding: 0;
   overflow-y: auto !important;
   overflow-x: clip !important;
   overscroll-behavior: contain;
@@ -27,7 +33,8 @@ body:has(#colorbox:not([style*='display: none']) .advanced-order) {
 #cboxLoadedContent .advanced-order > .h1:not(.advanced-order-suggestion) {
   background: var(--ts-color-success-bg);
   color: var(--ts-color-controls-text);
-  box-shadow: inset 0 0 0 1px var(--ts-color-success-border);
+  border: 1px solid var(--ts-color-success-border);
+  border-radius: var(--ts-radius-popup) var(--ts-radius-popup) 0 0;
   margin: 0 -20px 24px;
   padding: 16px 48px 16px 70px;
   height: auto;
@@ -46,13 +53,20 @@ body:has(#colorbox:not([style*='display: none']) .advanced-order) {
   overflow-wrap: normal;
   hyphens: none;
 }
-#colorbox .advanced-order .extras-wrap { margin: 16px 24px; }
+#colorbox .advanced-order .extras-wrap { width: auto; margin: 16px 0; }
+#colorbox .advanced-order .extra-item { width: 100%; min-width: 0; margin: 0; padding: 0; }
+#colorbox .advanced-order .extra-content { width: auto; display: flex; flex-direction: column; align-items: stretch; padding: 16px 20px; }
+#colorbox .advanced-order .extra.delivery { justify-content: center; align-items: center; gap: 12px; }
+#colorbox .advanced-order .extra.delivery::before { flex-shrink: 0; margin: 0; }
+#colorbox .advanced-order .extra.delivery > span { width: auto; }
+#colorbox .advanced-order .price-range { position: static; order: 1; flex: none; width: 100%; margin-top: 12px; }
 /* Native warm delivery panel and native projected percentage. */
 .extras-wrap .extra-item .extra-content:has(.extra.delivery) {
   background-color: var(--ts-color-service-bg);
 }
 .extras-wrap .price-range > div { background-color: var(--ts-color-accent); }
 #colorbox .advanced-order .extra.delivery { background: transparent; }
+#colorbox .advanced-order .extra.delivery br { display: none; }
 #colorbox :is(.advanced-order, .shipping-options-popup) .extra.delivery strong {
   color: var(--ts-color-success);
   white-space: nowrap;
@@ -84,8 +98,8 @@ body:has(#colorbox:not([style*='display: none']) .advanced-order) {
   background: var(--ts-color-accent);
   color: var(--ts-color-bg);
 }
-#colorbox .ts-recommendation :is(.p-code, .price-additional) { display: block !important; }
 @media (max-width: 767px) {
-  #colorbox .advanced-order .extras-wrap { margin-inline: 12px; }
+  #colorbox .advanced-order { padding-inline: 16px !important; }
+  #cboxLoadedContent .advanced-order > .h1:not(.advanced-order-suggestion) { margin-inline: -16px; }
   #colorbox .advancedOrder__buttons { padding-inline: 12px; }
 }

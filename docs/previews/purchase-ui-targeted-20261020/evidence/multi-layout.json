@@ -1,0 +1,2109 @@
+[
+  {
+    "width": 1440,
+    "fixture": "3 captured native recommendations assembled for layout; backend currently returns one recommendation",
+    "cards": [
+      {
+        "p": {
+          "x": 252.5,
+          "y": 378.1875,
+          "width": 920,
+          "height": 94,
+          "top": 378.1875,
+          "right": 1172.5,
+          "bottom": 472.1875,
+          "left": 252.5
+        },
+        "image": {
+          "x": 264.5,
+          "y": 390.1875,
+          "width": 70,
+          "height": 70,
+          "top": 390.1875,
+          "right": 334.5,
+          "bottom": 460.1875,
+          "left": 264.5
+        },
+        "name": {
+          "x": 346.5,
+          "y": 390.1875,
+          "width": 366,
+          "height": 39.1875,
+          "top": 390.1875,
+          "right": 712.5,
+          "bottom": 429.375,
+          "left": 346.5
+        },
+        "code": {
+          "x": 346.5,
+          "y": 433.375,
+          "width": 366,
+          "height": 19,
+          "top": 433.375,
+          "right": 712.5,
+          "bottom": 452.375,
+          "left": 346.5
+        },
+        "stock": {
+          "x": 724.5,
+          "y": 397.890625,
+          "width": 84,
+          "height": 54.578125,
+          "top": 397.890625,
+          "right": 808.5,
+          "bottom": 452.46875,
+          "left": 724.5
+        },
+        "price": {
+          "x": 820.5,
+          "y": 403.796875,
+          "width": 160,
+          "height": 45.765625,
+          "top": 403.796875,
+          "right": 980.5,
+          "bottom": 449.5625,
+          "left": 820.5
+        },
+        "qty": {
+          "x": 992.5,
+          "y": 407.1875,
+          "width": 112,
+          "height": 36,
+          "top": 407.1875,
+          "right": 1104.5,
+          "bottom": 443.1875,
+          "left": 992.5
+        },
+        "button": {
+          "x": 1116.5,
+          "y": 407.1875,
+          "width": 44,
+          "height": 36,
+          "top": 407.1875,
+          "right": 1160.5,
+          "bottom": 443.1875,
+          "left": 1116.5
+        },
+        "divider": "1px",
+        "stockText": "\n \n Centrálny sklad \n (59 ks)\n "
+      },
+      {
+        "p": {
+          "x": 252.5,
+          "y": 501.1875,
+          "width": 920,
+          "height": 94,
+          "top": 501.1875,
+          "right": 1172.5,
+          "bottom": 595.1875,
+          "left": 252.5
+        },
+        "image": {
+          "x": 264.5,
+          "y": 513.1875,
+          "width": 70,
+          "height": 70,
+          "top": 513.1875,
+          "right": 334.5,
+          "bottom": 583.1875,
+          "left": 264.5
+        },
+        "name": {
+          "x": 346.5,
+          "y": 513.1875,
+          "width": 366,
+          "height": 39.1875,
+          "top": 513.1875,
+          "right": 712.5,
+          "bottom": 552.375,
+          "left": 346.5
+        },
+        "code": {
+          "x": 346.5,
+          "y": 556.375,
+          "width": 366,
+          "height": 19,
+          "top": 556.375,
+          "right": 712.5,
+          "bottom": 575.375,
+          "left": 346.5
+        },
+        "stock": {
+          "x": 724.5,
+          "y": 529.890625,
+          "width": 84,
+          "height": 36.59375,
+          "top": 529.890625,
+          "right": 808.5,
+          "bottom": 566.484375,
+          "left": 724.5
+        },
+        "price": {
+          "x": 820.5,
+          "y": 526.796875,
+          "width": 160,
+          "height": 45.765625,
+          "top": 526.796875,
+          "right": 980.5,
+          "bottom": 572.5625,
+          "left": 820.5
+        },
+        "qty": {
+          "x": 992.5,
+          "y": 530.1875,
+          "width": 112,
+          "height": 36,
+          "top": 530.1875,
+          "right": 1104.5,
+          "bottom": 566.1875,
+          "left": 992.5
+        },
+        "button": {
+          "x": 1116.5,
+          "y": 530.1875,
+          "width": 44,
+          "height": 36,
+          "top": 530.1875,
+          "right": 1160.5,
+          "bottom": 566.1875,
+          "left": 1116.5
+        },
+        "divider": "1px",
+        "stockText": "\n \n Skladom \n (>100 ks)\n "
+      },
+      {
+        "p": {
+          "x": 252.5,
+          "y": 624.1875,
+          "width": 920,
+          "height": 94,
+          "top": 624.1875,
+          "right": 1172.5,
+          "bottom": 718.1875,
+          "left": 252.5
+        },
+        "image": {
+          "x": 264.5,
+          "y": 636.1875,
+          "width": 70,
+          "height": 70,
+          "top": 636.1875,
+          "right": 334.5,
+          "bottom": 706.1875,
+          "left": 264.5
+        },
+        "name": {
+          "x": 346.5,
+          "y": 636.1875,
+          "width": 366,
+          "height": 39.1875,
+          "top": 636.1875,
+          "right": 712.5,
+          "bottom": 675.375,
+          "left": 346.5
+        },
+        "code": {
+          "x": 346.5,
+          "y": 679.375,
+          "width": 366,
+          "height": 19,
+          "top": 679.375,
+          "right": 712.5,
+          "bottom": 698.375,
+          "left": 346.5
+        },
+        "stock": {
+          "x": 724.5,
+          "y": 652.890625,
+          "width": 84,
+          "height": 36.59375,
+          "top": 652.890625,
+          "right": 808.5,
+          "bottom": 689.484375,
+          "left": 724.5
+        },
+        "price": {
+          "x": 820.5,
+          "y": 649.796875,
+          "width": 160,
+          "height": 45.765625,
+          "top": 649.796875,
+          "right": 980.5,
+          "bottom": 695.5625,
+          "left": 820.5
+        },
+        "qty": {
+          "x": 992.5,
+          "y": 653.1875,
+          "width": 112,
+          "height": 36,
+          "top": 653.1875,
+          "right": 1104.5,
+          "bottom": 689.1875,
+          "left": 992.5
+        },
+        "button": {
+          "x": 1116.5,
+          "y": 653.1875,
+          "width": 44,
+          "height": 36,
+          "top": 653.1875,
+          "right": 1160.5,
+          "bottom": 689.1875,
+          "left": 1116.5
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (22 ks)\n "
+      }
+    ],
+    "highPriceFixture": {
+      "p": {
+        "x": 252.5,
+        "y": 378.1875,
+        "width": 920,
+        "height": 94,
+        "top": 378.1875,
+        "right": 1172.5,
+        "bottom": 472.1875,
+        "left": 252.5
+      },
+      "price": {
+        "x": 838.078125,
+        "y": 403.796875,
+        "width": 124.84375,
+        "height": 22.390625,
+        "top": 403.796875,
+        "right": 962.921875,
+        "bottom": 426.1875,
+        "left": 838.078125
+      },
+      "unit": {
+        "x": 917.6875,
+        "y": 404.796875,
+        "width": 45.234375,
+        "height": 19,
+        "top": 404.796875,
+        "right": 962.921875,
+        "bottom": 423.796875,
+        "left": 917.6875
+      },
+      "stock": {
+        "x": 724.5,
+        "y": 397.890625,
+        "width": 84,
+        "height": 54.578125,
+        "top": 397.890625,
+        "right": 808.5,
+        "bottom": 452.46875,
+        "left": 724.5
+      }
+    },
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "fixture": "3 captured native recommendations assembled for layout; backend currently returns one recommendation",
+    "cards": [
+      {
+        "p": {
+          "x": 172.5,
+          "y": 378.1875,
+          "width": 920,
+          "height": 94,
+          "top": 378.1875,
+          "right": 1092.5,
+          "bottom": 472.1875,
+          "left": 172.5
+        },
+        "image": {
+          "x": 184.5,
+          "y": 390.1875,
+          "width": 70,
+          "height": 70,
+          "top": 390.1875,
+          "right": 254.5,
+          "bottom": 460.1875,
+          "left": 184.5
+        },
+        "name": {
+          "x": 266.5,
+          "y": 390.1875,
+          "width": 366,
+          "height": 39.1875,
+          "top": 390.1875,
+          "right": 632.5,
+          "bottom": 429.375,
+          "left": 266.5
+        },
+        "code": {
+          "x": 266.5,
+          "y": 433.375,
+          "width": 366,
+          "height": 19,
+          "top": 433.375,
+          "right": 632.5,
+          "bottom": 452.375,
+          "left": 266.5
+        },
+        "stock": {
+          "x": 644.5,
+          "y": 397.890625,
+          "width": 84,
+          "height": 54.578125,
+          "top": 397.890625,
+          "right": 728.5,
+          "bottom": 452.46875,
+          "left": 644.5
+        },
+        "price": {
+          "x": 740.5,
+          "y": 403.796875,
+          "width": 160,
+          "height": 45.765625,
+          "top": 403.796875,
+          "right": 900.5,
+          "bottom": 449.5625,
+          "left": 740.5
+        },
+        "qty": {
+          "x": 912.5,
+          "y": 407.1875,
+          "width": 112,
+          "height": 36,
+          "top": 407.1875,
+          "right": 1024.5,
+          "bottom": 443.1875,
+          "left": 912.5
+        },
+        "button": {
+          "x": 1036.5,
+          "y": 407.1875,
+          "width": 44,
+          "height": 36,
+          "top": 407.1875,
+          "right": 1080.5,
+          "bottom": 443.1875,
+          "left": 1036.5
+        },
+        "divider": "1px",
+        "stockText": "\n \n Centrálny sklad \n (59 ks)\n "
+      },
+      {
+        "p": {
+          "x": 172.5,
+          "y": 501.1875,
+          "width": 920,
+          "height": 94,
+          "top": 501.1875,
+          "right": 1092.5,
+          "bottom": 595.1875,
+          "left": 172.5
+        },
+        "image": {
+          "x": 184.5,
+          "y": 513.1875,
+          "width": 70,
+          "height": 70,
+          "top": 513.1875,
+          "right": 254.5,
+          "bottom": 583.1875,
+          "left": 184.5
+        },
+        "name": {
+          "x": 266.5,
+          "y": 513.1875,
+          "width": 366,
+          "height": 39.1875,
+          "top": 513.1875,
+          "right": 632.5,
+          "bottom": 552.375,
+          "left": 266.5
+        },
+        "code": {
+          "x": 266.5,
+          "y": 556.375,
+          "width": 366,
+          "height": 19,
+          "top": 556.375,
+          "right": 632.5,
+          "bottom": 575.375,
+          "left": 266.5
+        },
+        "stock": {
+          "x": 644.5,
+          "y": 529.890625,
+          "width": 84,
+          "height": 36.59375,
+          "top": 529.890625,
+          "right": 728.5,
+          "bottom": 566.484375,
+          "left": 644.5
+        },
+        "price": {
+          "x": 740.5,
+          "y": 526.796875,
+          "width": 160,
+          "height": 45.765625,
+          "top": 526.796875,
+          "right": 900.5,
+          "bottom": 572.5625,
+          "left": 740.5
+        },
+        "qty": {
+          "x": 912.5,
+          "y": 530.1875,
+          "width": 112,
+          "height": 36,
+          "top": 530.1875,
+          "right": 1024.5,
+          "bottom": 566.1875,
+          "left": 912.5
+        },
+        "button": {
+          "x": 1036.5,
+          "y": 530.1875,
+          "width": 44,
+          "height": 36,
+          "top": 530.1875,
+          "right": 1080.5,
+          "bottom": 566.1875,
+          "left": 1036.5
+        },
+        "divider": "1px",
+        "stockText": "\n \n Skladom \n (>100 ks)\n "
+      },
+      {
+        "p": {
+          "x": 172.5,
+          "y": 624.1875,
+          "width": 920,
+          "height": 94,
+          "top": 624.1875,
+          "right": 1092.5,
+          "bottom": 718.1875,
+          "left": 172.5
+        },
+        "image": {
+          "x": 184.5,
+          "y": 636.1875,
+          "width": 70,
+          "height": 70,
+          "top": 636.1875,
+          "right": 254.5,
+          "bottom": 706.1875,
+          "left": 184.5
+        },
+        "name": {
+          "x": 266.5,
+          "y": 636.1875,
+          "width": 366,
+          "height": 39.1875,
+          "top": 636.1875,
+          "right": 632.5,
+          "bottom": 675.375,
+          "left": 266.5
+        },
+        "code": {
+          "x": 266.5,
+          "y": 679.375,
+          "width": 366,
+          "height": 19,
+          "top": 679.375,
+          "right": 632.5,
+          "bottom": 698.375,
+          "left": 266.5
+        },
+        "stock": {
+          "x": 644.5,
+          "y": 652.890625,
+          "width": 84,
+          "height": 36.59375,
+          "top": 652.890625,
+          "right": 728.5,
+          "bottom": 689.484375,
+          "left": 644.5
+        },
+        "price": {
+          "x": 740.5,
+          "y": 649.796875,
+          "width": 160,
+          "height": 45.765625,
+          "top": 649.796875,
+          "right": 900.5,
+          "bottom": 695.5625,
+          "left": 740.5
+        },
+        "qty": {
+          "x": 912.5,
+          "y": 653.1875,
+          "width": 112,
+          "height": 36,
+          "top": 653.1875,
+          "right": 1024.5,
+          "bottom": 689.1875,
+          "left": 912.5
+        },
+        "button": {
+          "x": 1036.5,
+          "y": 653.1875,
+          "width": 44,
+          "height": 36,
+          "top": 653.1875,
+          "right": 1080.5,
+          "bottom": 689.1875,
+          "left": 1036.5
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (22 ks)\n "
+      }
+    ],
+    "highPriceFixture": {
+      "p": {
+        "x": 172.5,
+        "y": 378.1875,
+        "width": 920,
+        "height": 94,
+        "top": 378.1875,
+        "right": 1092.5,
+        "bottom": 472.1875,
+        "left": 172.5
+      },
+      "price": {
+        "x": 758.078125,
+        "y": 403.796875,
+        "width": 124.84375,
+        "height": 22.390625,
+        "top": 403.796875,
+        "right": 882.921875,
+        "bottom": 426.1875,
+        "left": 758.078125
+      },
+      "unit": {
+        "x": 837.6875,
+        "y": 404.796875,
+        "width": 45.234375,
+        "height": 19,
+        "top": 404.796875,
+        "right": 882.921875,
+        "bottom": 423.796875,
+        "left": 837.6875
+      },
+      "stock": {
+        "x": 644.5,
+        "y": 397.890625,
+        "width": 84,
+        "height": 54.578125,
+        "top": 397.890625,
+        "right": 728.5,
+        "bottom": 452.46875,
+        "left": 644.5
+      }
+    },
+    "pass": true
+  },
+  {
+    "width": 768,
+    "fixture": "3 captured native recommendations assembled for layout; backend currently returns one recommendation",
+    "cards": [
+      {
+        "p": {
+          "x": 28,
+          "y": 378.1875,
+          "width": 340.5,
+          "height": 364.765625,
+          "top": 378.1875,
+          "right": 368.5,
+          "bottom": 742.953125,
+          "left": 28
+        },
+        "image": {
+          "x": 40,
+          "y": 390.1875,
+          "width": 316.5,
+          "height": 160,
+          "top": 390.1875,
+          "right": 356.5,
+          "bottom": 550.1875,
+          "left": 40
+        },
+        "name": {
+          "x": 40,
+          "y": 558.1875,
+          "width": 316.5,
+          "height": 39.1875,
+          "top": 558.1875,
+          "right": 356.5,
+          "bottom": 597.375,
+          "left": 40
+        },
+        "code": {
+          "x": 40,
+          "y": 605.375,
+          "width": 316.5,
+          "height": 19,
+          "top": 605.375,
+          "right": 356.5,
+          "bottom": 624.375,
+          "left": 40
+        },
+        "stock": {
+          "x": 40,
+          "y": 632.375,
+          "width": 128.25,
+          "height": 54.578125,
+          "top": 632.375,
+          "right": 168.25,
+          "bottom": 686.953125,
+          "left": 40
+        },
+        "price": {
+          "x": 176.25,
+          "y": 638.28125,
+          "width": 180.25,
+          "height": 45.765625,
+          "top": 638.28125,
+          "right": 356.5,
+          "bottom": 684.046875,
+          "left": 176.25
+        },
+        "qty": {
+          "x": 40,
+          "y": 694.953125,
+          "width": 264.5,
+          "height": 36,
+          "top": 694.953125,
+          "right": 304.5,
+          "bottom": 730.953125,
+          "left": 40
+        },
+        "button": {
+          "x": 312.5,
+          "y": 694.953125,
+          "width": 44,
+          "height": 36,
+          "top": 694.953125,
+          "right": 356.5,
+          "bottom": 730.953125,
+          "left": 312.5
+        },
+        "divider": "0px",
+        "stockText": "\n \n Centrálny sklad \n (59 ks)\n "
+      },
+      {
+        "p": {
+          "x": 384.5,
+          "y": 378.1875,
+          "width": 340.5,
+          "height": 364.765625,
+          "top": 378.1875,
+          "right": 725,
+          "bottom": 742.953125,
+          "left": 384.5
+        },
+        "image": {
+          "x": 396.5,
+          "y": 390.1875,
+          "width": 316.5,
+          "height": 160,
+          "top": 390.1875,
+          "right": 713,
+          "bottom": 550.1875,
+          "left": 396.5
+        },
+        "name": {
+          "x": 396.5,
+          "y": 558.1875,
+          "width": 316.5,
+          "height": 45,
+          "top": 558.1875,
+          "right": 713,
+          "bottom": 603.1875,
+          "left": 396.5
+        },
+        "code": {
+          "x": 396.5,
+          "y": 611.1875,
+          "width": 316.5,
+          "height": 19,
+          "top": 611.1875,
+          "right": 713,
+          "bottom": 630.1875,
+          "left": 396.5
+        },
+        "stock": {
+          "x": 396.5,
+          "y": 644.265625,
+          "width": 128.25,
+          "height": 36.59375,
+          "top": 644.265625,
+          "right": 524.75,
+          "bottom": 680.859375,
+          "left": 396.5
+        },
+        "price": {
+          "x": 532.75,
+          "y": 641.1875,
+          "width": 180.25,
+          "height": 45.765625,
+          "top": 641.1875,
+          "right": 713,
+          "bottom": 686.953125,
+          "left": 532.75
+        },
+        "qty": {
+          "x": 396.5,
+          "y": 694.953125,
+          "width": 264.5,
+          "height": 36,
+          "top": 694.953125,
+          "right": 661,
+          "bottom": 730.953125,
+          "left": 396.5
+        },
+        "button": {
+          "x": 669,
+          "y": 694.953125,
+          "width": 44,
+          "height": 36,
+          "top": 694.953125,
+          "right": 713,
+          "bottom": 730.953125,
+          "left": 669
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (>100 ks)\n "
+      },
+      {
+        "p": {
+          "x": 28,
+          "y": 758.953125,
+          "width": 340.5,
+          "height": 358.953125,
+          "top": 758.953125,
+          "right": 368.5,
+          "bottom": 1117.90625,
+          "left": 28
+        },
+        "image": {
+          "x": 40,
+          "y": 770.953125,
+          "width": 316.5,
+          "height": 160,
+          "top": 770.953125,
+          "right": 356.5,
+          "bottom": 930.953125,
+          "left": 40
+        },
+        "name": {
+          "x": 40,
+          "y": 938.953125,
+          "width": 316.5,
+          "height": 39.1875,
+          "top": 938.953125,
+          "right": 356.5,
+          "bottom": 978.140625,
+          "left": 40
+        },
+        "code": {
+          "x": 40,
+          "y": 986.140625,
+          "width": 316.5,
+          "height": 19,
+          "top": 986.140625,
+          "right": 356.5,
+          "bottom": 1005.140625,
+          "left": 40
+        },
+        "stock": {
+          "x": 40,
+          "y": 1019.21875,
+          "width": 128.25,
+          "height": 36.59375,
+          "top": 1019.21875,
+          "right": 168.25,
+          "bottom": 1055.8125,
+          "left": 40
+        },
+        "price": {
+          "x": 176.25,
+          "y": 1016.140625,
+          "width": 180.25,
+          "height": 45.765625,
+          "top": 1016.140625,
+          "right": 356.5,
+          "bottom": 1061.90625,
+          "left": 176.25
+        },
+        "qty": {
+          "x": 40,
+          "y": 1069.90625,
+          "width": 264.5,
+          "height": 36,
+          "top": 1069.90625,
+          "right": 304.5,
+          "bottom": 1105.90625,
+          "left": 40
+        },
+        "button": {
+          "x": 312.5,
+          "y": 1069.90625,
+          "width": 44,
+          "height": 36,
+          "top": 1069.90625,
+          "right": 356.5,
+          "bottom": 1105.90625,
+          "left": 312.5
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (22 ks)\n "
+      }
+    ],
+    "highPriceFixture": {
+      "p": {
+        "x": 28,
+        "y": 378.1875,
+        "width": 340.5,
+        "height": 364.765625,
+        "top": 378.1875,
+        "right": 368.5,
+        "bottom": 742.953125,
+        "left": 28
+      },
+      "price": {
+        "x": 203.953125,
+        "y": 638.28125,
+        "width": 124.84375,
+        "height": 22.390625,
+        "top": 638.28125,
+        "right": 328.796875,
+        "bottom": 660.671875,
+        "left": 203.953125
+      },
+      "unit": {
+        "x": 283.5625,
+        "y": 639.28125,
+        "width": 45.234375,
+        "height": 19,
+        "top": 639.28125,
+        "right": 328.796875,
+        "bottom": 658.28125,
+        "left": 283.5625
+      },
+      "stock": {
+        "x": 40,
+        "y": 632.375,
+        "width": 128.25,
+        "height": 54.578125,
+        "top": 632.375,
+        "right": 168.25,
+        "bottom": 686.953125,
+        "left": 40
+      }
+    },
+    "pass": true
+  },
+  {
+    "width": 430,
+    "fixture": "3 captured native recommendations assembled for layout; backend currently returns one recommendation",
+    "cards": [
+      {
+        "p": {
+          "x": 24,
+          "y": 448.78125,
+          "width": 367,
+          "height": 362,
+          "top": 448.78125,
+          "right": 391,
+          "bottom": 810.78125,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 460.78125,
+          "width": 343,
+          "height": 160,
+          "top": 460.78125,
+          "right": 379,
+          "bottom": 620.78125,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 628.78125,
+          "width": 343,
+          "height": 39.1875,
+          "top": 628.78125,
+          "right": 379,
+          "bottom": 667.96875,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 675.96875,
+          "width": 343,
+          "height": 19,
+          "top": 675.96875,
+          "right": 379,
+          "bottom": 694.96875,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 702.96875,
+          "width": 141.5,
+          "height": 51.8125,
+          "top": 702.96875,
+          "right": 177.5,
+          "bottom": 754.78125,
+          "left": 36
+        },
+        "price": {
+          "x": 185.5,
+          "y": 710.46875,
+          "width": 193.5,
+          "height": 39.796875,
+          "top": 710.46875,
+          "right": 379,
+          "bottom": 750.265625,
+          "left": 185.5
+        },
+        "qty": {
+          "x": 36,
+          "y": 762.78125,
+          "width": 291,
+          "height": 36,
+          "top": 762.78125,
+          "right": 327,
+          "bottom": 798.78125,
+          "left": 36
+        },
+        "button": {
+          "x": 335,
+          "y": 762.78125,
+          "width": 44,
+          "height": 36,
+          "top": 762.78125,
+          "right": 379,
+          "bottom": 798.78125,
+          "left": 335
+        },
+        "divider": "0px",
+        "stockText": "\n \n Centrálny sklad \n (59 ks)\n "
+      },
+      {
+        "p": {
+          "x": 24,
+          "y": 826.78125,
+          "width": 367,
+          "height": 352.984375,
+          "top": 826.78125,
+          "right": 391,
+          "bottom": 1179.765625,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 838.78125,
+          "width": 343,
+          "height": 160,
+          "top": 838.78125,
+          "right": 379,
+          "bottom": 998.78125,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 1006.78125,
+          "width": 343,
+          "height": 39.1875,
+          "top": 1006.78125,
+          "right": 379,
+          "bottom": 1045.96875,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 1053.96875,
+          "width": 343,
+          "height": 19,
+          "top": 1053.96875,
+          "right": 379,
+          "bottom": 1072.96875,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 1085.453125,
+          "width": 141.5,
+          "height": 33.828125,
+          "top": 1085.453125,
+          "right": 177.5,
+          "bottom": 1119.28125,
+          "left": 36
+        },
+        "price": {
+          "x": 185.5,
+          "y": 1083.96875,
+          "width": 193.5,
+          "height": 39.796875,
+          "top": 1083.96875,
+          "right": 379,
+          "bottom": 1123.765625,
+          "left": 185.5
+        },
+        "qty": {
+          "x": 36,
+          "y": 1131.765625,
+          "width": 291,
+          "height": 36,
+          "top": 1131.765625,
+          "right": 327,
+          "bottom": 1167.765625,
+          "left": 36
+        },
+        "button": {
+          "x": 335,
+          "y": 1131.765625,
+          "width": 44,
+          "height": 36,
+          "top": 1131.765625,
+          "right": 379,
+          "bottom": 1167.765625,
+          "left": 335
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (>100 ks)\n "
+      },
+      {
+        "p": {
+          "x": 24,
+          "y": 1195.765625,
+          "width": 367,
+          "height": 352.984375,
+          "top": 1195.765625,
+          "right": 391,
+          "bottom": 1548.75,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 1207.765625,
+          "width": 343,
+          "height": 160,
+          "top": 1207.765625,
+          "right": 379,
+          "bottom": 1367.765625,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 1375.765625,
+          "width": 343,
+          "height": 39.1875,
+          "top": 1375.765625,
+          "right": 379,
+          "bottom": 1414.953125,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 1422.953125,
+          "width": 343,
+          "height": 19,
+          "top": 1422.953125,
+          "right": 379,
+          "bottom": 1441.953125,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 1454.4375,
+          "width": 141.5,
+          "height": 33.828125,
+          "top": 1454.4375,
+          "right": 177.5,
+          "bottom": 1488.265625,
+          "left": 36
+        },
+        "price": {
+          "x": 185.5,
+          "y": 1452.953125,
+          "width": 193.5,
+          "height": 39.796875,
+          "top": 1452.953125,
+          "right": 379,
+          "bottom": 1492.75,
+          "left": 185.5
+        },
+        "qty": {
+          "x": 36,
+          "y": 1500.75,
+          "width": 291,
+          "height": 36,
+          "top": 1500.75,
+          "right": 327,
+          "bottom": 1536.75,
+          "left": 36
+        },
+        "button": {
+          "x": 335,
+          "y": 1500.75,
+          "width": 44,
+          "height": 36,
+          "top": 1500.75,
+          "right": 379,
+          "bottom": 1536.75,
+          "left": 335
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (22 ks)\n "
+      }
+    ],
+    "highPriceFixture": {
+      "p": {
+        "x": 24,
+        "y": 448.78125,
+        "width": 367,
+        "height": 362,
+        "top": 448.78125,
+        "right": 391,
+        "bottom": 810.78125,
+        "left": 24
+      },
+      "price": {
+        "x": 219.828125,
+        "y": 710.46875,
+        "width": 124.84375,
+        "height": 19.1875,
+        "top": 710.46875,
+        "right": 344.671875,
+        "bottom": 729.65625,
+        "left": 219.828125
+      },
+      "unit": {
+        "x": 299.4375,
+        "y": 710.46875,
+        "width": 45.234375,
+        "height": 19,
+        "top": 710.46875,
+        "right": 344.671875,
+        "bottom": 729.46875,
+        "left": 299.4375
+      },
+      "stock": {
+        "x": 36,
+        "y": 702.96875,
+        "width": 141.5,
+        "height": 51.8125,
+        "top": 702.96875,
+        "right": 177.5,
+        "bottom": 754.78125,
+        "left": 36
+      }
+    },
+    "pass": true
+  },
+  {
+    "width": 390,
+    "fixture": "3 captured native recommendations assembled for layout; backend currently returns one recommendation",
+    "cards": [
+      {
+        "p": {
+          "x": 24,
+          "y": 470.78125,
+          "width": 327,
+          "height": 362,
+          "top": 470.78125,
+          "right": 351,
+          "bottom": 832.78125,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 482.78125,
+          "width": 303,
+          "height": 160,
+          "top": 482.78125,
+          "right": 339,
+          "bottom": 642.78125,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 650.78125,
+          "width": 303,
+          "height": 39.1875,
+          "top": 650.78125,
+          "right": 339,
+          "bottom": 689.96875,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 697.96875,
+          "width": 303,
+          "height": 19,
+          "top": 697.96875,
+          "right": 339,
+          "bottom": 716.96875,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 724.96875,
+          "width": 121.5,
+          "height": 51.8125,
+          "top": 724.96875,
+          "right": 157.5,
+          "bottom": 776.78125,
+          "left": 36
+        },
+        "price": {
+          "x": 165.5,
+          "y": 732.46875,
+          "width": 173.5,
+          "height": 39.796875,
+          "top": 732.46875,
+          "right": 339,
+          "bottom": 772.265625,
+          "left": 165.5
+        },
+        "qty": {
+          "x": 36,
+          "y": 784.78125,
+          "width": 251,
+          "height": 36,
+          "top": 784.78125,
+          "right": 287,
+          "bottom": 820.78125,
+          "left": 36
+        },
+        "button": {
+          "x": 295,
+          "y": 784.78125,
+          "width": 44,
+          "height": 36,
+          "top": 784.78125,
+          "right": 339,
+          "bottom": 820.78125,
+          "left": 295
+        },
+        "divider": "0px",
+        "stockText": "\n \n Centrálny sklad \n (59 ks)\n "
+      },
+      {
+        "p": {
+          "x": 24,
+          "y": 848.78125,
+          "width": 327,
+          "height": 352.984375,
+          "top": 848.78125,
+          "right": 351,
+          "bottom": 1201.765625,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 860.78125,
+          "width": 303,
+          "height": 160,
+          "top": 860.78125,
+          "right": 339,
+          "bottom": 1020.78125,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 1028.78125,
+          "width": 303,
+          "height": 39.1875,
+          "top": 1028.78125,
+          "right": 339,
+          "bottom": 1067.96875,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 1075.96875,
+          "width": 303,
+          "height": 19,
+          "top": 1075.96875,
+          "right": 339,
+          "bottom": 1094.96875,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 1107.453125,
+          "width": 121.5,
+          "height": 33.828125,
+          "top": 1107.453125,
+          "right": 157.5,
+          "bottom": 1141.28125,
+          "left": 36
+        },
+        "price": {
+          "x": 165.5,
+          "y": 1105.96875,
+          "width": 173.5,
+          "height": 39.796875,
+          "top": 1105.96875,
+          "right": 339,
+          "bottom": 1145.765625,
+          "left": 165.5
+        },
+        "qty": {
+          "x": 36,
+          "y": 1153.765625,
+          "width": 251,
+          "height": 36,
+          "top": 1153.765625,
+          "right": 287,
+          "bottom": 1189.765625,
+          "left": 36
+        },
+        "button": {
+          "x": 295,
+          "y": 1153.765625,
+          "width": 44,
+          "height": 36,
+          "top": 1153.765625,
+          "right": 339,
+          "bottom": 1189.765625,
+          "left": 295
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (>100 ks)\n "
+      },
+      {
+        "p": {
+          "x": 24,
+          "y": 1217.765625,
+          "width": 327,
+          "height": 352.984375,
+          "top": 1217.765625,
+          "right": 351,
+          "bottom": 1570.75,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 1229.765625,
+          "width": 303,
+          "height": 160,
+          "top": 1229.765625,
+          "right": 339,
+          "bottom": 1389.765625,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 1397.765625,
+          "width": 303,
+          "height": 39.1875,
+          "top": 1397.765625,
+          "right": 339,
+          "bottom": 1436.953125,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 1444.953125,
+          "width": 303,
+          "height": 19,
+          "top": 1444.953125,
+          "right": 339,
+          "bottom": 1463.953125,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 1476.4375,
+          "width": 121.5,
+          "height": 33.828125,
+          "top": 1476.4375,
+          "right": 157.5,
+          "bottom": 1510.265625,
+          "left": 36
+        },
+        "price": {
+          "x": 165.5,
+          "y": 1474.953125,
+          "width": 173.5,
+          "height": 39.796875,
+          "top": 1474.953125,
+          "right": 339,
+          "bottom": 1514.75,
+          "left": 165.5
+        },
+        "qty": {
+          "x": 36,
+          "y": 1522.75,
+          "width": 251,
+          "height": 36,
+          "top": 1522.75,
+          "right": 287,
+          "bottom": 1558.75,
+          "left": 36
+        },
+        "button": {
+          "x": 295,
+          "y": 1522.75,
+          "width": 44,
+          "height": 36,
+          "top": 1522.75,
+          "right": 339,
+          "bottom": 1558.75,
+          "left": 295
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (22 ks)\n "
+      }
+    ],
+    "highPriceFixture": {
+      "p": {
+        "x": 24,
+        "y": 470.78125,
+        "width": 327,
+        "height": 362,
+        "top": 470.78125,
+        "right": 351,
+        "bottom": 832.78125,
+        "left": 24
+      },
+      "price": {
+        "x": 189.828125,
+        "y": 732.46875,
+        "width": 124.84375,
+        "height": 19.1875,
+        "top": 732.46875,
+        "right": 314.671875,
+        "bottom": 751.65625,
+        "left": 189.828125
+      },
+      "unit": {
+        "x": 269.4375,
+        "y": 732.46875,
+        "width": 45.234375,
+        "height": 19,
+        "top": 732.46875,
+        "right": 314.671875,
+        "bottom": 751.46875,
+        "left": 269.4375
+      },
+      "stock": {
+        "x": 36,
+        "y": 724.96875,
+        "width": 121.5,
+        "height": 51.8125,
+        "top": 724.96875,
+        "right": 157.5,
+        "bottom": 776.78125,
+        "left": 36
+      }
+    },
+    "pass": true
+  },
+  {
+    "width": 375,
+    "fixture": "3 captured native recommendations assembled for layout; backend currently returns one recommendation",
+    "cards": [
+      {
+        "p": {
+          "x": 24,
+          "y": 470.78125,
+          "width": 312,
+          "height": 362,
+          "top": 470.78125,
+          "right": 336,
+          "bottom": 832.78125,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 482.78125,
+          "width": 288,
+          "height": 160,
+          "top": 482.78125,
+          "right": 324,
+          "bottom": 642.78125,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 650.78125,
+          "width": 288,
+          "height": 39.1875,
+          "top": 650.78125,
+          "right": 324,
+          "bottom": 689.96875,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 697.96875,
+          "width": 288,
+          "height": 19,
+          "top": 697.96875,
+          "right": 324,
+          "bottom": 716.96875,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 724.96875,
+          "width": 114,
+          "height": 51.8125,
+          "top": 724.96875,
+          "right": 150,
+          "bottom": 776.78125,
+          "left": 36
+        },
+        "price": {
+          "x": 158,
+          "y": 732.46875,
+          "width": 166,
+          "height": 39.796875,
+          "top": 732.46875,
+          "right": 324,
+          "bottom": 772.265625,
+          "left": 158
+        },
+        "qty": {
+          "x": 36,
+          "y": 784.78125,
+          "width": 236,
+          "height": 36,
+          "top": 784.78125,
+          "right": 272,
+          "bottom": 820.78125,
+          "left": 36
+        },
+        "button": {
+          "x": 280,
+          "y": 784.78125,
+          "width": 44,
+          "height": 36,
+          "top": 784.78125,
+          "right": 324,
+          "bottom": 820.78125,
+          "left": 280
+        },
+        "divider": "0px",
+        "stockText": "\n \n Centrálny sklad \n (59 ks)\n "
+      },
+      {
+        "p": {
+          "x": 24,
+          "y": 848.78125,
+          "width": 312,
+          "height": 352.984375,
+          "top": 848.78125,
+          "right": 336,
+          "bottom": 1201.765625,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 860.78125,
+          "width": 288,
+          "height": 160,
+          "top": 860.78125,
+          "right": 324,
+          "bottom": 1020.78125,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 1028.78125,
+          "width": 288,
+          "height": 39.1875,
+          "top": 1028.78125,
+          "right": 324,
+          "bottom": 1067.96875,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 1075.96875,
+          "width": 288,
+          "height": 19,
+          "top": 1075.96875,
+          "right": 324,
+          "bottom": 1094.96875,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 1107.453125,
+          "width": 114,
+          "height": 33.828125,
+          "top": 1107.453125,
+          "right": 150,
+          "bottom": 1141.28125,
+          "left": 36
+        },
+        "price": {
+          "x": 158,
+          "y": 1105.96875,
+          "width": 166,
+          "height": 39.796875,
+          "top": 1105.96875,
+          "right": 324,
+          "bottom": 1145.765625,
+          "left": 158
+        },
+        "qty": {
+          "x": 36,
+          "y": 1153.765625,
+          "width": 236,
+          "height": 36,
+          "top": 1153.765625,
+          "right": 272,
+          "bottom": 1189.765625,
+          "left": 36
+        },
+        "button": {
+          "x": 280,
+          "y": 1153.765625,
+          "width": 44,
+          "height": 36,
+          "top": 1153.765625,
+          "right": 324,
+          "bottom": 1189.765625,
+          "left": 280
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (>100 ks)\n "
+      },
+      {
+        "p": {
+          "x": 24,
+          "y": 1217.765625,
+          "width": 312,
+          "height": 352.984375,
+          "top": 1217.765625,
+          "right": 336,
+          "bottom": 1570.75,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 1229.765625,
+          "width": 288,
+          "height": 160,
+          "top": 1229.765625,
+          "right": 324,
+          "bottom": 1389.765625,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 1397.765625,
+          "width": 288,
+          "height": 39.1875,
+          "top": 1397.765625,
+          "right": 324,
+          "bottom": 1436.953125,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 1444.953125,
+          "width": 288,
+          "height": 19,
+          "top": 1444.953125,
+          "right": 324,
+          "bottom": 1463.953125,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 1476.4375,
+          "width": 114,
+          "height": 33.828125,
+          "top": 1476.4375,
+          "right": 150,
+          "bottom": 1510.265625,
+          "left": 36
+        },
+        "price": {
+          "x": 158,
+          "y": 1474.953125,
+          "width": 166,
+          "height": 39.796875,
+          "top": 1474.953125,
+          "right": 324,
+          "bottom": 1514.75,
+          "left": 158
+        },
+        "qty": {
+          "x": 36,
+          "y": 1522.75,
+          "width": 236,
+          "height": 36,
+          "top": 1522.75,
+          "right": 272,
+          "bottom": 1558.75,
+          "left": 36
+        },
+        "button": {
+          "x": 280,
+          "y": 1522.75,
+          "width": 44,
+          "height": 36,
+          "top": 1522.75,
+          "right": 324,
+          "bottom": 1558.75,
+          "left": 280
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (22 ks)\n "
+      }
+    ],
+    "highPriceFixture": {
+      "p": {
+        "x": 24,
+        "y": 470.78125,
+        "width": 312,
+        "height": 362,
+        "top": 470.78125,
+        "right": 336,
+        "bottom": 832.78125,
+        "left": 24
+      },
+      "price": {
+        "x": 178.578125,
+        "y": 732.46875,
+        "width": 124.84375,
+        "height": 19.1875,
+        "top": 732.46875,
+        "right": 303.421875,
+        "bottom": 751.65625,
+        "left": 178.578125
+      },
+      "unit": {
+        "x": 258.1875,
+        "y": 732.46875,
+        "width": 45.234375,
+        "height": 19,
+        "top": 732.46875,
+        "right": 303.421875,
+        "bottom": 751.46875,
+        "left": 258.1875
+      },
+      "stock": {
+        "x": 36,
+        "y": 724.96875,
+        "width": 114,
+        "height": 51.8125,
+        "top": 724.96875,
+        "right": 150,
+        "bottom": 776.78125,
+        "left": 36
+      }
+    },
+    "pass": true
+  },
+  {
+    "width": 320,
+    "fixture": "3 captured native recommendations assembled for layout; backend currently returns one recommendation",
+    "cards": [
+      {
+        "p": {
+          "x": 24,
+          "y": 473.96875,
+          "width": 257,
+          "height": 381.59375,
+          "top": 473.96875,
+          "right": 281,
+          "bottom": 855.5625,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 485.96875,
+          "width": 233,
+          "height": 160,
+          "top": 485.96875,
+          "right": 269,
+          "bottom": 645.96875,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 653.96875,
+          "width": 233,
+          "height": 58.78125,
+          "top": 653.96875,
+          "right": 269,
+          "bottom": 712.75,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 720.75,
+          "width": 233,
+          "height": 19,
+          "top": 720.75,
+          "right": 269,
+          "bottom": 739.75,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 747.75,
+          "width": 86.5,
+          "height": 51.8125,
+          "top": 747.75,
+          "right": 122.5,
+          "bottom": 799.5625,
+          "left": 36
+        },
+        "price": {
+          "x": 130.5,
+          "y": 755.25,
+          "width": 138.5,
+          "height": 39.796875,
+          "top": 755.25,
+          "right": 269,
+          "bottom": 795.046875,
+          "left": 130.5
+        },
+        "qty": {
+          "x": 36,
+          "y": 807.5625,
+          "width": 181,
+          "height": 36,
+          "top": 807.5625,
+          "right": 217,
+          "bottom": 843.5625,
+          "left": 36
+        },
+        "button": {
+          "x": 225,
+          "y": 807.5625,
+          "width": 44,
+          "height": 36,
+          "top": 807.5625,
+          "right": 269,
+          "bottom": 843.5625,
+          "left": 225
+        },
+        "divider": "0px",
+        "stockText": "\n \n Centrálny sklad \n (59 ks)\n "
+      },
+      {
+        "p": {
+          "x": 24,
+          "y": 871.5625,
+          "width": 257,
+          "height": 352.984375,
+          "top": 871.5625,
+          "right": 281,
+          "bottom": 1224.546875,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 883.5625,
+          "width": 233,
+          "height": 160,
+          "top": 883.5625,
+          "right": 269,
+          "bottom": 1043.5625,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 1051.5625,
+          "width": 233,
+          "height": 39.1875,
+          "top": 1051.5625,
+          "right": 269,
+          "bottom": 1090.75,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 1098.75,
+          "width": 233,
+          "height": 19,
+          "top": 1098.75,
+          "right": 269,
+          "bottom": 1117.75,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 1130.234375,
+          "width": 86.5,
+          "height": 33.828125,
+          "top": 1130.234375,
+          "right": 122.5,
+          "bottom": 1164.0625,
+          "left": 36
+        },
+        "price": {
+          "x": 130.5,
+          "y": 1128.75,
+          "width": 138.5,
+          "height": 39.796875,
+          "top": 1128.75,
+          "right": 269,
+          "bottom": 1168.546875,
+          "left": 130.5
+        },
+        "qty": {
+          "x": 36,
+          "y": 1176.546875,
+          "width": 181,
+          "height": 36,
+          "top": 1176.546875,
+          "right": 217,
+          "bottom": 1212.546875,
+          "left": 36
+        },
+        "button": {
+          "x": 225,
+          "y": 1176.546875,
+          "width": 44,
+          "height": 36,
+          "top": 1176.546875,
+          "right": 269,
+          "bottom": 1212.546875,
+          "left": 225
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (>100 ks)\n "
+      },
+      {
+        "p": {
+          "x": 24,
+          "y": 1240.546875,
+          "width": 257,
+          "height": 352.984375,
+          "top": 1240.546875,
+          "right": 281,
+          "bottom": 1593.53125,
+          "left": 24
+        },
+        "image": {
+          "x": 36,
+          "y": 1252.546875,
+          "width": 233,
+          "height": 160,
+          "top": 1252.546875,
+          "right": 269,
+          "bottom": 1412.546875,
+          "left": 36
+        },
+        "name": {
+          "x": 36,
+          "y": 1420.546875,
+          "width": 233,
+          "height": 39.1875,
+          "top": 1420.546875,
+          "right": 269,
+          "bottom": 1459.734375,
+          "left": 36
+        },
+        "code": {
+          "x": 36,
+          "y": 1467.734375,
+          "width": 233,
+          "height": 19,
+          "top": 1467.734375,
+          "right": 269,
+          "bottom": 1486.734375,
+          "left": 36
+        },
+        "stock": {
+          "x": 36,
+          "y": 1499.21875,
+          "width": 86.5,
+          "height": 33.828125,
+          "top": 1499.21875,
+          "right": 122.5,
+          "bottom": 1533.046875,
+          "left": 36
+        },
+        "price": {
+          "x": 130.5,
+          "y": 1497.734375,
+          "width": 138.5,
+          "height": 39.796875,
+          "top": 1497.734375,
+          "right": 269,
+          "bottom": 1537.53125,
+          "left": 130.5
+        },
+        "qty": {
+          "x": 36,
+          "y": 1545.53125,
+          "width": 181,
+          "height": 36,
+          "top": 1545.53125,
+          "right": 217,
+          "bottom": 1581.53125,
+          "left": 36
+        },
+        "button": {
+          "x": 225,
+          "y": 1545.53125,
+          "width": 44,
+          "height": 36,
+          "top": 1545.53125,
+          "right": 269,
+          "bottom": 1581.53125,
+          "left": 225
+        },
+        "divider": "0px",
+        "stockText": "\n \n Skladom \n (22 ks)\n "
+      }
+    ],
+    "highPriceFixture": {
+      "p": {
+        "x": 24,
+        "y": 473.96875,
+        "width": 257,
+        "height": 381.59375,
+        "top": 473.96875,
+        "right": 281,
+        "bottom": 855.5625,
+        "left": 24
+      },
+      "price": {
+        "x": 137.328125,
+        "y": 755.25,
+        "width": 124.84375,
+        "height": 19.1875,
+        "top": 755.25,
+        "right": 262.171875,
+        "bottom": 774.4375,
+        "left": 137.328125
+      },
+      "unit": {
+        "x": 216.9375,
+        "y": 755.25,
+        "width": 45.234375,
+        "height": 19,
+        "top": 755.25,
+        "right": 262.171875,
+        "bottom": 774.25,
+        "left": 216.9375
+      },
+      "stock": {
+        "x": 36,
+        "y": 747.75,
+        "width": 86.5,
+        "height": 51.8125,
+        "top": 747.75,
+        "right": 122.5,
+        "bottom": 799.5625,
+        "left": 36
+      }
+    },
+    "pass": true
+  }
+]

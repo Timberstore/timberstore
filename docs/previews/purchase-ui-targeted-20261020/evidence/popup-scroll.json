@@ -1,0 +1,95 @@
+[
+  {
+    "width": 1440,
+    "fixture": "6 captured-card copies, excess-height stress only",
+    "box": {
+      "x": 232.5,
+      "y": 20,
+      "width": 960,
+      "height": 680,
+      "top": 20,
+      "right": 1192.5,
+      "bottom": 700,
+      "left": 232.5
+    },
+    "bodyY": "hidden",
+    "scrolls": [
+      "cboxLoadedContent"
+    ],
+    "bottom": 1107.1875,
+    "loaded": {
+      "x": 232.5,
+      "y": 20,
+      "width": 960,
+      "height": 680,
+      "top": 20,
+      "right": 1192.5,
+      "bottom": 700,
+      "left": 232.5
+    },
+    "closedOverflow": "visible",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "fixture": "6 captured-card copies, excess-height stress only",
+    "box": {
+      "x": 8,
+      "y": 20,
+      "width": 359,
+      "height": 680,
+      "top": 20,
+      "right": 367,
+      "bottom": 700,
+      "left": 8
+    },
+    "bodyY": "hidden",
+    "scrolls": [
+      "cboxLoadedContent"
+    ],
+    "bottom": 2742.78125,
+    "loaded": {
+      "x": 8,
+      "y": 20,
+      "width": 359,
+      "height": 680,
+      "top": 20,
+      "right": 367,
+      "bottom": 700,
+      "left": 8
+    },
+    "closedOverflow": "visible",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "fixture": "6 captured-card copies, excess-height stress only",
+    "box": {
+      "x": 8,
+      "y": 20,
+      "width": 289,
+      "height": 680,
+      "top": 20,
+      "right": 297,
+      "bottom": 700,
+      "left": 8
+    },
+    "bodyY": "hidden",
+    "scrolls": [
+      "cboxLoadedContent"
+    ],
+    "bottom": 2863.53125,
+    "loaded": {
+      "x": 8,
+      "y": 20,
+      "width": 289,
+      "height": 680,
+      "top": 20,
+      "right": 297,
+      "bottom": 700,
+      "left": 8
+    },
+    "closedOverflow": "visible",
+    "pass": true
+  }
+]

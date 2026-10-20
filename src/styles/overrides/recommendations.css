@@ -1,112 +1,70 @@
-/* M2/C3 · Native cards, forms and events; no replacement purchase controls. */
+/* M2/C3 · Existing native cards/forms. Product cards and popup table have
+   separate areas; classic homepage/category tiles are outside this scope.
+   Areas: i=image, n=name, c=code, p=prices, s=stock, q=quantity, b=basket. */
 :is(#content, #colorbox) .ts-recommendation > .p {
-  display: grid !important;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  grid-template-areas: 'image name' 'image code' 'stock price' 'stock net' 'qty qty' 'cart cart';
+  display: grid !important; /* native tile flex is important */
+  grid-template-columns: 100%;
+  grid-template-areas: 'i' 'n' 'c' 'p' 's' 'q' 'b';
+  grid-template-rows: auto 1fr;
   gap: 8px;
-  align-content: start;
   padding: 12px !important;
-  height: auto;
-  min-width: 0;
+  height: 100%;
 }
-.ts-recommendation :is(.p-in, .p-in-in, .p-bottom, .prices, .p-tools, .product-btn),
-.ts-recommendation .p-bottom > [data-micro='offer'],
-.ts-recommendation .product-btn form {
-  display: contents !important;
-}
-.ts-recommendation .image {
-  grid-area: image;
-  width: 80px;
-  height: 80px;
-  max-height: 80px !important;
-  min-width: 0;
-  padding: 0;
+:is(#content, #colorbox) .ts-recommendation
+  :is(.p-in, .p-in-in, .p-bottom, .p-tools, .product-btn, .p-bottom > [data-micro='offer'], .product-btn form) { display: contents !important; }
+:is(#content, #colorbox) .ts-recommendation .image {
+  grid-area: i;
+  width: 100%;
+  height: 160px;
+  max-height: none !important; /* Apollo writes the previous measured height inline */
   margin: 0;
+  padding: 0;
 }
-.ts-recommendation .image img {
-  object-fit: contain;
-  max-width: 100%;
-  max-height: 80px;
-}
+:is(#content, #colorbox) .ts-recommendation .image img { object-fit: contain; max-width: 100%; max-height: 160px; }
 :is(#content, #colorbox) .ts-recommendation a.name {
-  grid-area: name;
-  text-align: left !important;
+  grid-area: n;
+  text-align: center !important;
   font-size: 14px;
   line-height: 1.4;
-  text-transform: none;
   word-break: normal !important;
   overflow-wrap: normal !important;
-  hyphens: none;
-  min-height: 0;
   max-height: none !important;
   height: auto !important;
   margin: 0;
   display: block !important;
   overflow: visible !important;
-  text-overflow: clip;
-  -webkit-line-clamp: unset !important;
 }
-.ts-recommendation .p-code {
-  grid-area: code;
-  position: static;
-  display: block !important;
-  margin: 0;
-  text-align: left;
-}
+:is(#content, #colorbox) .ts-recommendation .p-code { grid-area: c; position: static; display: block !important; margin: 0; text-align: center; }
+.ts-recommendation .p-code span { display: inline; }
 :is(#content, #colorbox) .ts-recommendation .availability {
-  grid-area: stock;
-  align-self: center;
-  text-align: left !important;
-  min-width: 0;
-  margin: 0;
+  grid-area: s;
   display: grid;
-  justify-content: start;
-  justify-items: start;
+  align-self: center;
+  justify-items: center;
   gap: 2px;
+  text-align: center !important;
 }
-.ts-recommendation .price-final {
-  grid-area: price;
-  text-align: right !important;
-  align-self: end;
-  margin: 0 !important;
+.ts-recommendation .availability > :first-child { width: min-content; max-width: 100%; white-space: normal; }
+:is(#content, #colorbox) .ts-recommendation .prices {
+  grid-area: p;
+  display: flex !important;
+  flex-direction: column;
+  align-self: center;
 }
-.ts-recommendation .price-additional {
-  grid-area: net;
-  display: block !important;
-  align-self: start;
-  text-align: right !important;
-  margin: 0 !important;
-}
-.ts-recommendation :is(.price-final, .price-additional) {
-  min-width: 0;
-  white-space: normal;
-}
-.ts-recommendation :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
-  white-space: nowrap;
-}
-.ts-recommendation :is(.pr-list-unit, .ts-recommendation-unit) {
-  display: inline !important;
-  color: var(--ts-color-price-secondary);
-  font-size: 13px;
-  font-weight: 400;
-}
-:is(#content, #colorbox) .ts-recommendation .quantity {
-  grid-area: qty;
+.ts-recommendation :is(.price-final, .price-additional) { white-space: nowrap; }
+.ts-recommendation .price-final { order: -1; }
+.ts-recommendation .price-additional { display: block !important; }
+.ts-recommendation :is(.pr-list-unit, .ts-recommendation-unit) { display: inline !important; color: var(--ts-color-price-secondary); font-size: 13px; font-weight: 400; }
+:is(#content, #colorbox) .ts-recommendation :is(.quantity, .ts-qty) {
+  grid-area: q;
   width: 100%;
-  height: 38px;
+  height: 36px;
   min-width: 0;
   margin: 0;
   grid-template-columns: 28px minmax(0, 1fr) 28px;
 }
-:is(#content, #colorbox) .ts-recommendation .quantity :is(input, button) {
-  height: 36px;
-}
-:is(#content, #colorbox) .ts-recommendation .ts-qty {
-  grid-area: qty;
-  width: 100%;
-}
 :is(#content, #colorbox) .ts-recommendation .product-btn .btn-cart {
-  grid-area: cart;
+  grid-area: b;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -114,8 +72,8 @@
   min-width: 0 !important;
   max-width: none !important;
   width: 100% !important;
-  height: 38px !important;
-  min-height: 38px !important;
+  height: 36px !important;
+  min-height: 36px !important;
   margin: 0 !important;
   padding: 0 8px !important;
   font-size: 14px !important;
@@ -123,38 +81,28 @@
   --color-secondary-hover: var(--ts-color-action-hover);
 }
 :is(#content, #colorbox) .ts-recommendation .btn-cart > span:not(.ts-cart-count) { display: inline !important; }
-.ts-recommendation .btn-cart::after { margin: 0 !important; }
-.type-detail .products-related-block + .products-alternative-block {
-  margin-top: 32px;
-  padding-top: 24px;
-  border-top: 1px solid var(--ts-color-table-border);
-}
-#colorbox .advanced-order #products { display: grid; gap: 16px; margin: 16px 24px 24px; }
+.type-detail .products-related-block + .products-alternative-block { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--ts-color-table-border); }
+#colorbox .advanced-order #products { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 16px; margin: 16px 0 0; }
 #colorbox .advanced-order .ts-recommendation { width: 100%; height: auto; margin: 0; padding: 0; }
-#colorbox .advanced-order-suggestion { text-align: center; }
+#colorbox .advanced-order .ts-recommendation > .p {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 44px;
+  grid-template-areas: 'i i i' 'n n n' 'c c c' 's p p' 'q q b';
+}
+#colorbox .ts-recommendation .btn-cart > span:not(.ts-cart-count) { display: none !important; }
 @media (min-width: 992px) {
+  #colorbox .advanced-order #products { grid-template-columns: minmax(0, 1fr); }
   #colorbox .advanced-order .ts-recommendation > .p {
-    grid-template-columns: 80px minmax(0, 1fr) minmax(140px, 180px) 128px;
-    grid-template-areas: 'image name stock qty' 'image code price cart' 'image . net cart';
-    gap: 4px 16px;
+    grid-template-columns: 70px minmax(0, 1fr) 84px 160px 112px 44px;
+    grid-template-areas: 'i n s p q b' 'i c s p q b';
+    gap: 4px 12px;
     align-items: center;
   }
-  #colorbox .ts-recommendation a.name { align-self: end; }
-  #colorbox .ts-recommendation .p-code { align-self: start; }
-  #colorbox .ts-recommendation .availability { text-align: right !important; justify-content: end; justify-items: end; }
-  #colorbox .ts-recommendation .btn-cart { align-self: end; }
+  #colorbox .ts-recommendation:not(:last-child) { border-bottom: 1px solid var(--ts-color-table-border); padding-bottom: 12px; }
+  #colorbox .ts-recommendation .image { height: 70px; }
+  #colorbox .ts-recommendation .image img { max-height: 70px; }
+  #colorbox .ts-recommendation a.name { text-align: left !important; align-self: end; }
+  #colorbox .ts-recommendation .p-code { text-align: left; align-self: start; }
 }
-
-.ts-recommendation .p-code :is(span, .p-code-label) { display: inline; }
-.ts-recommendation .availability > .availability-amount { color: var(--ts-color-controls-text); }
 @media (max-width: 767px) {
-  #colorbox .advanced-order #products { margin-inline: 12px; }
-}
-
-/* Wider detail recommendations keep their own image-left layout. Classic
-   two-column category tiles and homepage sliders are outside this scope. */
-@media (max-width: 767px) {
-  #content :is(.products-related-block, .products-alternative-block) .ts-recommendation {
-    width: 100%;
-  }
+  #content :is(.products-related-block, .products-alternative-block) .ts-recommendation { width: 100%; }
 }

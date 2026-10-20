@@ -1,0 +1,47 @@
+[
+  {
+    "width": 1440,
+    "scrolls": [
+      "cboxLoadedContent"
+    ],
+    "body": "hidden",
+    "photo": {
+      "x": 439,
+      "y": 45,
+      "width": 562,
+      "height": 421.5
+    },
+    "galleryRootPosition": "absolute",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "scrolls": [
+      "cboxLoadedContent"
+    ],
+    "body": "hidden",
+    "photo": {
+      "x": 5,
+      "y": 114,
+      "width": 380,
+      "height": 285
+    },
+    "galleryRootPosition": "absolute",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "scrolls": [
+      "cboxLoadedContent"
+    ],
+    "body": "hidden",
+    "photo": {
+      "x": 4,
+      "y": 139,
+      "width": 312,
+      "height": 234
+    },
+    "galleryRootPosition": "absolute",
+    "pass": true
+  }
+]

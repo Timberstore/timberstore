@@ -1,0 +1,77 @@
+[
+  {
+    "width": 1440,
+    "initial": {
+      "ui": "1000",
+      "native": "1000"
+    },
+    "packNative1000": true,
+    "posts": [
+      "1",
+      "1000"
+    ],
+    "pickups": [
+      {
+        "text": "Zvoľte odberné miesto",
+        "color": "rgb(123, 63, 104)",
+        "href": "#"
+      },
+      {
+        "text": "Zvoľte odberné miesto",
+        "color": "rgb(123, 63, 104)",
+        "href": "#"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "initial": {
+      "ui": "1000",
+      "native": "1000"
+    },
+    "packNative1000": true,
+    "posts": [
+      "1",
+      "1000"
+    ],
+    "pickups": [
+      {
+        "text": "Zvoľte odberné miesto",
+        "color": "rgb(123, 63, 104)",
+        "href": "#"
+      },
+      {
+        "text": "Zvoľte odberné miesto",
+        "color": "rgb(123, 63, 104)",
+        "href": "#"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "initial": {
+      "ui": "1000",
+      "native": "1000"
+    },
+    "packNative1000": true,
+    "posts": [
+      "1",
+      "1000"
+    ],
+    "pickups": [
+      {
+        "text": "Zvoľte odberné miesto",
+        "color": "rgb(123, 63, 104)",
+        "href": "#"
+      },
+      {
+        "text": "Zvoľte odberné miesto",
+        "color": "rgb(123, 63, 104)",
+        "href": "#"
+      }
+    ],
+    "pass": true
+  }
+]

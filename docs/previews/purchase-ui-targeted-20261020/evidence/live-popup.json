@@ -1,0 +1,77 @@
+[
+  {
+    "width": 1440,
+    "origin": "LIVE native GetExtendedOrder, no fixture",
+    "reopened": true,
+    "recommendation": "399235",
+    "recommendedNativeSubmission": true,
+    "responses": [
+      {
+        "status": 200,
+        "hasContent": true,
+        "hasRecommendations": true
+      },
+      {
+        "status": 200,
+        "hasContent": true,
+        "hasRecommendations": true
+      }
+    ],
+    "posts": [
+      "1",
+      "1",
+      "1"
+    ],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "origin": "LIVE native GetExtendedOrder, no fixture",
+    "reopened": true,
+    "recommendation": "399235",
+    "recommendedNativeSubmission": true,
+    "responses": [
+      {
+        "status": 200,
+        "hasContent": true,
+        "hasRecommendations": true
+      },
+      {
+        "status": 200,
+        "hasContent": true,
+        "hasRecommendations": true
+      }
+    ],
+    "posts": [
+      "1",
+      "1",
+      "1"
+    ],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "origin": "LIVE native GetExtendedOrder, no fixture",
+    "reopened": true,
+    "recommendation": "399235",
+    "recommendedNativeSubmission": true,
+    "responses": [
+      {
+        "status": 200,
+        "hasContent": true,
+        "hasRecommendations": true
+      },
+      {
+        "status": 200,
+        "hasContent": true,
+        "hasRecommendations": true
+      }
+    ],
+    "posts": [
+      "1",
+      "1",
+      "1"
+    ],
+    "pass": true
+  }
+]

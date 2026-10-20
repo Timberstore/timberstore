@@ -1,0 +1,663 @@
+{
+  "width": 390,
+  "trace": {
+    "frames": [
+      {
+        "t": 2416.300000011921,
+        "x": 8,
+        "y": 260,
+        "w": 374,
+        "h": 416,
+        "style": "display: block; visibility: visible; top: 260px; left: 195px; position: absolute; width: 374px; height: 448px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2431.199999988079,
+        "x": 8,
+        "y": 261.109375,
+        "w": 374,
+        "h": 417,
+        "style": "display: block; visibility: visible; top: 261.114px; left: 173.717px; position: absolute; width: 374.891px; height: 449.337px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2446.699999988079,
+        "x": 8,
+        "y": 262.375,
+        "w": 374,
+        "h": 418,
+        "style": "display: block; visibility: visible; top: 262.388px; left: 149.399px; position: absolute; width: 375.91px; height: 450.865px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2463.800000011921,
+        "x": 8,
+        "y": 265.515625,
+        "w": 374,
+        "h": 422,
+        "style": "display: block; visibility: visible; top: 265.523px; left: 89.5175px; position: absolute; width: 378.418px; height: 454.627px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2481.5999999940395,
+        "x": 8,
+        "y": 267.140625,
+        "w": 374,
+        "h": 424,
+        "style": "display: block; visibility: visible; top: 267.153px; left: 58.3862px; position: absolute; width: 379.722px; height: 456.583px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2496.4000000059605,
+        "x": 8,
+        "y": 268.53125,
+        "w": 374,
+        "h": 426,
+        "style": "display: block; visibility: visible; top: 268.536px; left: 31.9713px; position: absolute; width: 380.828px; height: 458.243px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2512.5,
+        "x": 8,
+        "y": 269.96875,
+        "w": 374,
+        "h": 427,
+        "style": "display: block; visibility: visible; top: 269.973px; left: 4.52316px; position: absolute; width: 381.978px; height: 459.967px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2546.0999999940395,
+        "x": 8,
+        "y": 270,
+        "w": 374,
+        "h": 759.953125,
+        "style": "display: block; visibility: visible; top: 270px; left: 4px; position: absolute; width: 382px; height: 460px;",
+        "unit": 0
+      },
+      {
+        "t": 2557.699999988079,
+        "x": 8,
+        "y": 270,
+        "w": 374,
+        "h": 759.953125,
+        "style": "display: block; visibility: visible; top: 270px; left: 195px; position: absolute; width: 374px; height: 760px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2581.9000000059605,
+        "x": 8,
+        "y": 248.671875,
+        "w": 374,
+        "h": 759.953125,
+        "style": "display: block; visibility: visible; top: 248.681px; left: 172.525px; position: absolute; width: 370.918px; height: 764.11px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2599.0999999940395,
+        "x": 8,
+        "y": 226.59375,
+        "w": 374,
+        "h": 759.953125,
+        "style": "display: block; visibility: visible; top: 226.604px; left: 149.251px; position: absolute; width: 367.726px; height: 768.365px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2615.699999988079,
+        "x": 8,
+        "y": 199.96875,
+        "w": 374,
+        "h": 759.953125,
+        "style": "display: block; visibility: visible; top: 199.984px; left: 121.188px; position: absolute; width: 363.877px; height: 773.497px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2631.5999999940395,
+        "x": 8,
+        "y": 171.859375,
+        "w": 374,
+        "h": 759.953125,
+        "style": "display: block; visibility: visible; top: 171.874px; left: 91.5544px; position: absolute; width: 359.813px; height: 778.916px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2647.800000011921,
+        "x": 8,
+        "y": 123.875,
+        "w": 374,
+        "h": 759.953125,
+        "style": "display: block; visibility: visible; top: 123.886px; left: 40.9645px; position: absolute; width: 352.875px; height: 788.166px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2664.800000011921,
+        "x": 8,
+        "y": 109.5,
+        "w": 374,
+        "h": 759.953125,
+        "style": "display: block; visibility: visible; top: 109.513px; left: 25.8117px; position: absolute; width: 350.797px; height: 790.937px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2680.5,
+        "x": 8,
+        "y": 104.015625,
+        "w": 374,
+        "h": 759.953125,
+        "style": "display: block; visibility: visible; top: 104.028px; left: 20.03px; position: absolute; width: 350.004px; height: 791.995px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2697.300000011921,
+        "x": 8,
+        "y": 104,
+        "w": 374,
+        "h": 760,
+        "style": "display: block; visibility: visible; top: 104px; left: 20px; position: absolute; width: 350px; height: 792px; overflow: hidden;",
+        "unit": 0
+      },
+      {
+        "t": 2902,
+        "x": 8,
+        "y": 104,
+        "w": 374,
+        "h": 760,
+        "style": "display: block; visibility: visible; top: 104px; left: 20px; position: absolute; width: 350px; height: 792px; overflow: hidden;",
+        "unit": 1
+      }
+    ],
+    "calls": [
+      {
+        "t": 2546.4000000059605,
+        "stack": "Error\n    at shoptet.modal.resize (eval at evaluate (:290:30), <anonymous>:1:169)\n    at https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.js:1:40909"
+      },
+      {
+        "t": 2554,
+        "stack": "Error\n    at shoptet.modal.resize (eval at evaluate (:290:30), <anonymous>:1:169)\n    at shoptetResize (https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.f2b852c7698b6f8a58cc.js:2:347990)\n    at Object.applyFunction (https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.f2b852c7698b6f8a58cc.js:2:18305)\n    at shoptet.<computed>.<computed> [as shoptetResize] (https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.f2b852c7698b6f8a58cc.js:2:20674)\n    at https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.f2b852c7698b6f8a58cc.js:2:308707"
+      },
+      {
+        "t": 2902,
+        "stack": "Error\n    at shoptet.modal.resize (eval at evaluate (:290:30), <anonymous>:1:169)\n    at https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.0/dist/timber.min.js:1:40909"
+      }
+    ]
+  },
+  "popup": {
+    "progress": [
+      {
+        "cls": "extras-wrap",
+        "r": {
+          "x": 41,
+          "y": 285,
+          "width": 308,
+          "height": 79.1875,
+          "top": 285,
+          "right": 349,
+          "bottom": 364.1875,
+          "left": 41
+        },
+        "padding": "0px",
+        "display": "flex",
+        "align": "center"
+      },
+      {
+        "cls": "extra-content",
+        "r": {
+          "x": 41,
+          "y": 285,
+          "width": 308,
+          "height": 79.1875,
+          "top": 285,
+          "right": 349,
+          "bottom": 364.1875,
+          "left": 41
+        },
+        "padding": "20px",
+        "display": "flex",
+        "align": "center"
+      },
+      {
+        "cls": "price-range",
+        "r": {
+          "x": 41,
+          "y": 285,
+          "width": 308,
+          "height": 6,
+          "top": 285,
+          "right": 349,
+          "bottom": 291,
+          "left": 41
+        },
+        "padding": "0px",
+        "display": "block",
+        "align": "center"
+      },
+      {
+        "cls": "extra delivery",
+        "r": {
+          "x": 61,
+          "y": 305,
+          "width": 268,
+          "height": 39.1875,
+          "top": 305,
+          "right": 329,
+          "bottom": 344.1875,
+          "left": 61
+        },
+        "padding": "0px",
+        "display": "flex",
+        "align": "center"
+      }
+    ]
+  },
+  "shipping": [
+    {
+      "id": "cboxWrapper",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 209,
+        "width": 374,
+        "height": 582,
+        "top": 209,
+        "right": 382,
+        "bottom": 791,
+        "left": 8
+      },
+      "clientH": 582,
+      "scrollH": 582,
+      "clientW": 374,
+      "scrollW": 374,
+      "overflow": "hidden",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxTopLeft",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 209,
+        "width": 0,
+        "height": 0,
+        "top": 209,
+        "right": 8,
+        "bottom": 209,
+        "left": 8
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxTopCenter",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 209,
+        "width": 382,
+        "height": 0,
+        "top": 209,
+        "right": 390,
+        "bottom": 209,
+        "left": 8
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 382,
+      "scrollW": 382,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxTopRight",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 209,
+        "width": 0,
+        "height": 0,
+        "top": 209,
+        "right": 8,
+        "bottom": 209,
+        "left": 8
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxMiddleLeft",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 209,
+        "width": 0,
+        "height": 550,
+        "top": 209,
+        "right": 8,
+        "bottom": 759,
+        "left": 8
+      },
+      "clientH": 550,
+      "scrollH": 550,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxContent",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 241,
+        "width": 374,
+        "height": 550,
+        "top": 241,
+        "right": 382,
+        "bottom": 791,
+        "left": 8
+      },
+      "clientH": 550,
+      "scrollH": 550,
+      "clientW": 374,
+      "scrollW": 374,
+      "overflow": "hidden",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxLoadedContent",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 241,
+        "width": 374,
+        "height": 548,
+        "top": 241,
+        "right": 382,
+        "bottom": 789,
+        "left": 8
+      },
+      "clientH": 548,
+      "scrollH": 550,
+      "clientW": 374,
+      "scrollW": 374,
+      "overflow": "auto",
+      "padding": "1px"
+    },
+    {
+      "id": "",
+      "cls": "shipping-options-popup",
+      "r": {
+        "x": 29,
+        "y": 282,
+        "width": 332,
+        "height": 477.75,
+        "top": 282,
+        "right": 361,
+        "bottom": 759.75,
+        "left": 29
+      },
+      "clientH": 478,
+      "scrollH": 478,
+      "clientW": 332,
+      "scrollW": 353,
+      "overflow": "visible",
+      "padding": "10px 0px"
+    },
+    {
+      "id": "cboxTitle",
+      "cls": "",
+      "r": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxCurrent",
+      "cls": "",
+      "r": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxPrevious",
+      "cls": "",
+      "r": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxNext",
+      "cls": "",
+      "r": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxSlideshow",
+      "cls": "",
+      "r": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxLoadingOverlay",
+      "cls": "",
+      "r": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxLoadingGraphic",
+      "cls": "",
+      "r": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxClose",
+      "cls": "cboxClose--shipping",
+      "r": {
+        "x": 322,
+        "y": 251,
+        "width": 50,
+        "height": 40,
+        "top": 251,
+        "right": 372,
+        "bottom": 291,
+        "left": 322
+      },
+      "clientH": 40,
+      "scrollH": 40,
+      "clientW": 50,
+      "scrollW": 50,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxMiddleRight",
+      "cls": "",
+      "r": {
+        "x": 382,
+        "y": 209,
+        "width": 0,
+        "height": 550,
+        "top": 209,
+        "right": 382,
+        "bottom": 759,
+        "left": 382
+      },
+      "clientH": 550,
+      "scrollH": 550,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxBottomLeft",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 791,
+        "width": 0,
+        "height": 0,
+        "top": 791,
+        "right": 8,
+        "bottom": 791,
+        "left": 8
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxBottomCenter",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 791,
+        "width": 382,
+        "height": 0,
+        "top": 791,
+        "right": 390,
+        "bottom": 791,
+        "left": 8
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 382,
+      "scrollW": 382,
+      "overflow": "visible",
+      "padding": "0px"
+    },
+    {
+      "id": "cboxBottomRight",
+      "cls": "",
+      "r": {
+        "x": 8,
+        "y": 791,
+        "width": 0,
+        "height": 0,
+        "top": 791,
+        "right": 8,
+        "bottom": 791,
+        "left": 8
+      },
+      "clientH": 0,
+      "scrollH": 0,
+      "clientW": 0,
+      "scrollW": 0,
+      "overflow": "visible",
+      "padding": "0px"
+    }
+  ],
+  "pickup": [
+    {
+      "html": "<a href=\"#\">Zvo\u013ete odbern\u00e9 miesto</a>",
+      "parent": "<span class=\"sublabel new-widget-choose\" data-new-gen-code=\"shoptet\" data-testid=\"deliveryPoint\">\n                                                                                                    <a href=\"#\">Zvo\u013ete odbern\u00e9 miesto</a>\n                                                                                            </span>"
+    },
+    {
+      "html": "<a href=\"#\">Zvo\u013ete odbern\u00e9 miesto</a>",
+      "parent": "<span class=\"sublabel new-widget-choose\" data-new-gen-code=\"shoptet\" data-testid=\"deliveryPoint\">\n                                                                                                    <a href=\"#\">Zvo\u013ete odbern\u00e9 miesto</a>\n                                                                                            </span>"
+    }
+  ]
+}

@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Purchase UI preview `0.7.1-rc.2` (20. 10. 2026):** bez navýšenia limitov rc.0/rc.1: JS 32,5 KiB / CSS 28,25 KiB. Výsledok JS 32 999 B, CSS 28 927 B gzip. Iba preview; [audit a testy](docs/previews/purchase-ui-targeted-20261020/README.md).
+
 - **UI regression preview `0.7.1-rc.1` (20. 10. 2026):** zachováva limity rc.0 bez navýšenia: JS 32,5 KiB / CSS 28,25 KiB. Výsledok JS 33 107 B (32,33 KiB), CSS 28 869 B (28,19 KiB) gzip. Iba preview, žiadny nový release/tag alebo zmena loadera. [Audit a testy](docs/previews/ui-regressions-20261020/README.md).
 
 - **UI consistency preview `0.7.1-rc.0` (20. 10. 2026):** JS 32,5 KiB / CSS 28,25 KiB, podľa existujúceho súhlasu klienta 15. 10. pre potrebné rozšírenie objednaných úprav. Finálny výstup JS 33 202 B (32,42 KiB) / CSS 28 705 B (28,03 KiB), vrátane prednačítania súvisiaceho tovaru a lokálnej opravy dialógu dopravy pri resize. Klient 20. 10. v tejto relácii výslovne potvrdil potrebné rozšírenie bez opätovného pýtania. Limity platia iba pre novú preview verziu; stabilné tagy, ich build limity a loader sa nemenia. Bez merge alebo produkčného nasadenia.

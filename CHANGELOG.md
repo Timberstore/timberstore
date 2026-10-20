@@ -1,5 +1,12 @@
 # Changelog
 
+## Purchase UI targeted refinement · v0.7.1-rc.2 · 2026-10-20 · Preview only
+
+- Stabilizovať nákupný popup od prvého viditeľného obsahu; súvislý zelený header, symetrický shipping progress a pôvodné nákupné tlačidlá.
+- Desktop popup: šesťstĺpcové odporúčania; mobil: vertikálne karty so širokým quantity vedľa cart ikony. Súvisiace/podobné v detaile zostávajú klasické karty.
+- Zachovať cenu/jednotku a netto pod ňou aj po natívnom mobilnom premiestnení ceny; lokálne vyriešiť Apollo špecificitu. Jediný potrebný scroller v doprave a existujúca plum farba pre odberné miesto.
+- [Živé a replay testy, merania stability, screenshoty a otvorené obmedzenia](docs/previews/purchase-ui-targeted-20261020/README.md). Rovnaké build limity; bez merge, release, tagu alebo zásahu do Shoptetu.
+
 ## UI Regression Repair · v0.7.1-rc.1 · 2026-10-20 · Preview only
 
 - Obnoviť pôvodné zhrnutie a warm shipping panel z v0.7.0; odstrániť duplicitný progress v doručovacom modale a ponechať natívne sumy.

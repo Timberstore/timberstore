@@ -1,0 +1,51 @@
+{
+  "before": 30,
+  "moreColor": {
+    "border": "rgb(212, 136, 74)",
+    "color": "rgb(255, 255, 255)"
+  },
+  "after": 60,
+  "duplicatePickers": 0,
+  "layout": {
+    "view": [
+      390,
+      390
+    ],
+    "bad": [
+      {
+        "tag": "A",
+        "cls": "skip-link sr-only",
+        "x": -1,
+        "right": 0
+      },
+      {
+        "tag": "H2",
+        "cls": "sr-only",
+        "x": -1,
+        "right": 0
+      },
+      {
+        "tag": "IMG",
+        "cls": "",
+        "x": -7,
+        "right": 79
+      },
+      {
+        "tag": "DIV",
+        "cls": "sr-only",
+        "x": -1,
+        "right": 0
+      }
+    ]
+  },
+  "checkout": [
+    {
+      "text": "10,68 €",
+      "color": "rgb(36, 84, 166)",
+      "html": "<span data-price-total-wv=\"6.78\" data-price-total-vat=\"1.27\" data-testid=\"recapFullPrice\">10,68 €</span>",
+      "parent": "<strong class=\"price price-primary\">\n                    <span data-price-total-wv=\"6.78\" data-price-total-vat=\"1.27\" data-testid=\"recapFullPrice\">10,68 €</span>\n            </strong>"
+    }
+  ],
+  "noOrderOrPayment": true,
+  "pass": true
+}

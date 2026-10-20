@@ -76,14 +76,3 @@ body.type-detail #cboxLoadedContent .shipping-options-popup .payment-shipping-pr
     align-self: center;
   }
 }
-/* Native modal inline dimensions can outlive a desktop-to-mobile resize.
-   Constrain its real containing block, including desktop scrollbar width. */
-#colorbox:has(.shipping-options-popup) {
-  width: min(960px, calc(100% - 16px)) !important;
-  left: 50% !important;
-  transform: translateX(-50%);
-}
-#colorbox:has(.shipping-options-popup) :is(#cboxWrapper, #cboxContent, #cboxLoadedContent) {
-  width: 100% !important;
-  box-sizing: border-box;
-}

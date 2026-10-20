@@ -694,3 +694,6 @@ body.ordering-process.in-krok-2 .co-contact-information .login-button:focus-visi
 .ordering-process #summary-box .ts-checkout-method-recap > span:not(.ts-checkout-method-label) {
   display: none;
 }
+
+/* M2 · Native pickup trigger shares the existing related-goods plum accent. */
+.ordering-process #content [data-testid='deliveryPoint'] > a { color: var(--ts-color-novelty); }
