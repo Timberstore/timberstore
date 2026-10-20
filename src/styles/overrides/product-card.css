@@ -126,3 +126,110 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
   max-width: 100%;
   white-space: normal;
 }
+
+/* Classic tiles only. Desktop table rules retain their original specificity. */
+.ts-card a.name:not(#colorbox *) {
+  text-align: center !important;
+}
+.ts-card .p-bottom > [data-micro='offer'] {
+  flex-direction: column;
+  align-items: stretch;
+}
+.ts-card .prices {
+  align-items: center;
+  text-align: center !important;
+  gap: 4px;
+}
+.ts-card .price-final {
+  text-align: center !important;
+  max-width: 100%;
+}
+.ts-card :is(.price-final, .price-additional) {
+  margin: 0 !important;
+}
+.ts-card .price-additional {
+  text-align: center;
+  max-width: 100%;
+}
+/* A flexible three-line stock slot keeps prices aligned across mixed warehouses.
+   It can grow; the native label, count and colour are unchanged. */
+.ts-card .p-tools {
+  display: grid;
+  align-items: center;
+  min-height: 4em;
+  width: 100%;
+}
+.ts-card-net::before {
+  content: '(';
+}
+.ts-card-net::after {
+  content: ')';
+}
+@media (min-width: 992px) {
+  .ts-view-list #products :is(.price-final, .price-additional) {
+    text-align: left !important;
+  }
+  .ts-view-list #products .ts-card-net::before,
+  .ts-view-list #products .ts-card-net::after {
+    content: none;
+  }
+}
+
+/* Grid tiles: quantity and "Do košíka" side by side. Scoped with :has() to forms
+   that carry our field, so the rule does nothing without this module.
+   !important: timber-custom.css (legacy) styles the cart form/button with !important. */
+form.pr-action:has(> .ts-qty) {
+  width: auto !important;
+  max-width: 100% !important; /* legacy caps the form at 180 px, too narrow for field + button */
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: var(--ts-space-2) !important;
+  padding: 0 14px !important;
+  box-sizing: border-box;
+}
+form.pr-action:has(> .ts-qty) > .btn {
+  flex: 1 0 120px;
+}
+
+@media (max-width: 991px) {
+  form.pr-action:has(> .ts-qty) {
+    padding: 0 8px !important;
+  }
+  form.pr-action:has(> .ts-qty) > .btn {
+    flex: 1 0 36px;
+    min-width: 0 !important;
+    width: auto !important;
+    max-width: none !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    padding: 0 !important;
+    font-size: 0 !important;
+  }
+  form.pr-action:has(> .ts-qty) > .btn > span:not(.ts-cart-count) {
+    display: none !important;
+  }
+  form.pr-action:has(> .ts-qty) > .btn::after {
+    margin: 0 !important;
+  }
+}
+
+/* Preserve the existing table presentation, including its quiet quantity field. */
+@media (min-width: 992px) {
+  .ts-view-list #products .ts-qty {
+    border-color: var(--ts-color-qty-border);
+  }
+  .ts-view-list #products .ts-qty__btn {
+    background: var(--ts-color-qty-btn-bg);
+    color: var(--ts-color-qty-text);
+  }
+  .ts-view-list #products .ts-qty__btn:hover {
+    color: var(--ts-color-accent);
+  }
+  .ts-view-list #products .ts-qty__value {
+    font-weight: 800 !important;
+    color: var(--ts-color-qty-text) !important;
+    border-color: var(--ts-color-qty-border) !important;
+  }
+}

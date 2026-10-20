@@ -11,17 +11,16 @@ function cleanValue(text) {
 }
 
 function cleanTextNodes(element) {
-  const walker = document.createTreeWalker(element, 4 /* NodeFilter.SHOW_TEXT */, {
-    acceptNode(node) {
-      if (node.parentElement.closest('script, style, textarea, input, select, option')) {
-        return 2; // NodeFilter.FILTER_REJECT
-      }
-      return 1; // NodeFilter.FILTER_ACCEPT
-    },
-  });
-
+  if (element.matches(SEL.classicProductCard)) {
+    element.classList.add('ts-card');
+    const net = element.querySelector(SEL.productNetPrice);
+    if (net) net.classList.toggle('ts-card-net', !/^\s*\(/.test(net.textContent));
+  }
+  const walker = document.createTreeWalker(element, 4 /* NodeFilter.SHOW_TEXT */);
   for (let node = walker.nextNode(); node; node = walker.nextNode()) {
-    if (node.nodeValue !== cleanValue(node.nodeValue)) node.nodeValue = cleanValue(node.nodeValue);
+    if (node.parentElement.closest('script, style, textarea, input, select, option')) continue;
+    const clean = cleanValue(node.nodeValue);
+    if (node.nodeValue !== clean) node.nodeValue = clean;
     // Preserve every native price/space/currency node; only style the amount and euro symbol.
     const parent = node.parentElement;
     if (!parent.matches(SEL.productPriceNumber) || parent.querySelector('.ts-price-number'))

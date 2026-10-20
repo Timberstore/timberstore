@@ -1,4 +1,4 @@
-// C3 · Quantity field in product tiles and table rows (desktop).
+// C3 · Quantity field in product tiles and table rows at every breakpoint.
 //
 // "Do košíka" in a listing adds one pack; ordering 40 hinges means opening every
 // detail. We add − [field] + inside Shoptet's own cart form and only write the
@@ -47,52 +47,33 @@ function bind(form) {
   box.append(minus, field, plus);
   form.insertBefore(box, submit);
 
-  // Whole packs, at least one: 150 with a pack of 100 → 200.
-  const toPacks = (n) => Math.max(step, Math.ceil(n / step) * step);
-
-  const write = (qty) => {
+  // Keep the add-on's pack size until the first edit. Native bounds, when
+  // present, are read at each edit; server-side stock validation stays native.
+  const syncStep = () => {
+    if (!touched) field.value = String((step = parse(amount.value) || 1));
+  };
+  const commit = (render = true) => {
+    touched = true;
+    const min = Math.ceil((parse(amount.min) || step) / step) * step;
+    const max = Math.floor((parse(amount.max) || Infinity) / step) * step;
+    const qty = Math.max(min, Math.min(max, Math.ceil((parse(field.value) || min) / step) * step));
     amount.value = String(qty);
+    if (render) field.value = amount.value;
     amount.dispatchEvent(new Event('change', { bubbles: true }));
   };
-
-  // multiply_order may write the pack size after we ran; pick it up until the
-  // customer has changed the amount themselves.
-  const syncStep = () => {
-    if (touched) return;
-    step = parse(amount.value) || 1;
-    field.value = String(step);
-  };
-
-  const commit = () => {
-    const qty = toPacks(parse(field.value) || step);
-    field.value = String(qty);
-    write(qty);
-  };
-
   const change = (direction) => {
     syncStep();
-    touched = true;
-    const current = parse(amount.value) || step;
-    const qty = Math.max(step, Math.round((current + direction * step) / step) * step);
-    field.value = String(qty);
-    write(qty);
+    field.value = String((parse(amount.value) || step) + direction * step);
+    commit();
   };
-
   minus.addEventListener('click', () => change(-1));
   plus.addEventListener('click', () => change(1));
-
   field.addEventListener('focus', () => {
     syncStep();
     field.select();
   });
-  // While typing, keep the submitted amount valid without rewriting the field.
-  field.addEventListener('input', () => {
-    touched = true;
-    const n = parse(field.value);
-    if (n) write(toPacks(n));
-  });
-  field.addEventListener('change', commit); // blur after editing
-  // Enter adds to cart like a normal quantity field — round first.
+  field.addEventListener('input', () => commit(false));
+  field.addEventListener('change', () => commit());
   field.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') commit();
   });
@@ -102,9 +83,9 @@ function bind(form) {
 
 export default {
   name: 'qty-picker',
-  pages: ['category', 'search'],
+  pages: ['home', 'category', 'search'],
   init(root) {
-    root.querySelectorAll(`${SEL.productCard} ${SEL.cartForm}`).forEach((form) => {
+    root.querySelectorAll(`${SEL.classicProductCard} ${SEL.cartForm}`).forEach((form) => {
       if (form.dataset.tsInit) return;
       form.dataset.tsInit = 'qty-picker';
       bind(form);

@@ -103,6 +103,9 @@ export const SEL = {
     '.p-detail .price-final-holder, body:not(.ordering-process) .content-wrapper .price-final > strong',
   productTextDetailAreas:
     ':is(.p-detail-inner-header, .p-detail, .product-top) h1, h1[itemprop="name"], .p-short-description, .description-inner, .basic-description, .p-detail-tabs, .p-detail .price-final-holder',
+  classicProductCard:
+    'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product',
+  productNetPrice: '.price-additional',
   productTextCards:
     ':is(.products-block, .products) :is(.product, .p), :is(.product, .p)[data-micro="product"]',
   categoryFilterBar: '#category-filter-hover',
