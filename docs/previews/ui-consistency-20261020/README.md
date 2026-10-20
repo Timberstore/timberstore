@@ -1,6 +1,12 @@
 # UI consistency — v0.7.1-rc.0, 20. 10. 2026
 
-Iba preview vetva `preview/ui-consistency-20261020`, nad schválenou v0.7.0 (aktuálny main pred prácou `d42ec21`, posledná zmena iba verejné Instagram dáta). Bez merge, nového release/tagu, zmeny Shoptet administrácie alebo loadera. Nemenný preview odkaz a CDN hashe sa doplnia po publikovaní commitu. Zdrojové zadanie: príloha body 1–11, doplnenie 12–13 a následná oprava oneskoreného súvisiaceho tovaru/kódu v košíku. Videá neboli v tejto správe dostupné; zistenia vychádzajú zo skutočného DOM, interakcií a meraní.
+Iba preview vetva `preview/ui-consistency-20261020`, nad schválenou v0.7.0 (aktuálny main pred prácou `d42ec21`, posledná zmena iba verejné Instagram dáta). Bez merge, nového release/tagu, zmeny Shoptet administrácie alebo loadera. Nemenný preview commit: **`47f7f16dcf6cc3ebb2204e569cb79088f548d288`**. [Otvoriť preview](https://www.timberstore.sk/?ts_preview=47f7f16dcf6cc3ebb2204e569cb79088f548d288) · [otvoriť košík v preview](https://www.timberstore.sk/kosik/?ts_preview=47f7f16dcf6cc3ebb2204e569cb79088f548d288). [CDN súbory, SHA-256 a bajtová zhoda](assets.json). Zdrojové zadanie: príloha body 1–11, doplnenie 12–13 a následná oprava oneskoreného súvisiaceho tovaru/kódu v košíku. Videá neboli v tejto správe dostupné; zistenia vychádzajú zo skutočného DOM, interakcií a meraní.
+
+## Publikované overenie
+
+Skutočné CDN CSS aj JS sú bajtovo zhodné s testovaným buildom. [CDN smoke](cdn-smoke.json) prešiel na 1440 / 390 / 320 px: homepage, kategória, natívne pridanie FRANKE, kód pod názvom, pripravený súvisiaci tovar, modré hlavné a neutrálne sekundárne ceny, fialový toggle, bez overflow a nových JS výnimiek. [Čistá produkčná relácia](production-observed.json) potvrdila **v0.7.0**, `preview=false`; táto preview ju nemení.
+
+Pri kontrole použite uvedený odkaz; pôvodný preview cookie sa nahradí týmto commitom. Návrat na bežný web: `?ts_preview=off`. Nič nekopírovať do Shoptet administrácie.
 
 ## Výsledné zmeny
 
@@ -59,6 +65,8 @@ Nebola odoslaná objednávka ani platba. Všetky nákupy sú iba testovací serv
 - Nové neopravené aplikačné regresie sa pri dostupných testoch nepotvrdili. PageSpeed Insights a fyzické zariadenia neboli merané.
 
 ## Screenshoty
+
+Z reálnej CDN preview: [desktop](images/cdn-cart-1440.png), [390 px](images/cdn-cart-390.png), [320 px](images/cdn-cart-320.png).
 
 - Košík a súvisiaci tovar: [desktop](images/related-final-1440.png), [390 px](images/related-final-390.png), [320 px](images/related-final-320.png).
 - Konkrétny BLUM a súvisiaca skrutka: [390 px po natívnom nákupe](images/blum-related-390.png).

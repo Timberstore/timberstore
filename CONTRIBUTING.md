@@ -164,7 +164,7 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
-- **UI consistency preview `0.7.1-rc.0` (20. 10. 2026):** JS 32,5 KiB / CSS 28,25 KiB, podľa existujúceho súhlasu klienta 15. 10. pre potrebné rozšírenie objednaných úprav. Prvý výstup JS 32,15 / CSS 27,50 KiB; po doplnení prednačítania súvisiaceho tovaru a stabilných rezerv JS 32,39 / CSS 28,03 KiB vrátane opravy rozmerov natívneho dialógu dopravy pri resize. Klient 20. 10. v tejto relácii výslovne potvrdil potrebné rozšírenie bez opätovného pýtania. Limity platia iba pre novú preview verziu; stabilné tagy, ich build limity a loader sa nemenia. Bez merge alebo produkčného nasadenia.
+- **UI consistency preview `0.7.1-rc.0` (20. 10. 2026):** JS 32,5 KiB / CSS 28,25 KiB, podľa existujúceho súhlasu klienta 15. 10. pre potrebné rozšírenie objednaných úprav. Finálny výstup JS 33 202 B (32,42 KiB) / CSS 28 705 B (28,03 KiB), vrátane prednačítania súvisiaceho tovaru a lokálnej opravy dialógu dopravy pri resize. Klient 20. 10. v tejto relácii výslovne potvrdil potrebné rozšírenie bez opätovného pýtania. Limity platia iba pre novú preview verziu; stabilné tagy, ich build limity a loader sa nemenia. Bez merge alebo produkčného nasadenia.
 
 - **Stabilná v0.7.0 (20. 10. 2026, výslovné schválenie majiteľa):** zachováva existujúci otestovaný limit JS 32 KiB / CSS 26,75 KiB z compact.1 bez navýšenia. Majiteľ výslovne schválil merge, produkčný build, tag a GitHub release; Safari/WebKit aj fyzický iPhone majú stav `WAIVED BY OWNER`, nie PASS. Externé živé varianty zostávajú `NOT VERIFIED`. Aktiváciu Shoptetu vykoná majiteľ manuálne, `PROD` ostáva v0.6.13. Staršie verzie a ich limity sa nemenia.
 

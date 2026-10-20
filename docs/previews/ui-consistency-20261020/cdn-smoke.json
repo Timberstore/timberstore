@@ -1,0 +1,419 @@
+[
+  {
+    "width": 1440,
+    "runtime": {
+      "loader": "47f7f16dcf6cc3ebb2204e569cb79088f548d288",
+      "preview": true,
+      "runtime": "v0.7.1-rc.0",
+      "assets": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@47f7f16dcf6cc3ebb2204e569cb79088f548d288/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@47f7f16dcf6cc3ebb2204e569cb79088f548d288/dist/timber.min.js"
+      ]
+    },
+    "home": {
+      "view": [
+        1440,
+        1427
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow swiper-arrow-prev js-swiper-arrow-prev swiper-button-disabled",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "DIV",
+          "cls": "swiper-arrow-content",
+          "x": -1.5,
+          "right": 48.5
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "category": {
+      "view": [
+        1440,
+        1425
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "cart": {
+      "prices": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        },
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "units": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(124, 126, 143)"
+        },
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "toggle": "rgb(123, 63, 104)",
+      "code": [
+        {
+          "text": "477822",
+          "color": "rgb(36, 84, 166)"
+        },
+        {
+          "text": "346147",
+          "color": "rgb(36, 84, 166)"
+        }
+      ]
+    },
+    "geometry": {
+      "view": [
+        1440,
+        1425
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pageErrors": [],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "runtime": {
+      "loader": "47f7f16dcf6cc3ebb2204e569cb79088f548d288",
+      "preview": true,
+      "runtime": "v0.7.1-rc.0",
+      "assets": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@47f7f16dcf6cc3ebb2204e569cb79088f548d288/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@47f7f16dcf6cc3ebb2204e569cb79088f548d288/dist/timber.min.js"
+      ]
+    },
+    "home": {
+      "view": [
+        390,
+        390
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "category": {
+      "view": [
+        390,
+        390
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "cart": {
+      "prices": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        },
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "units": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(102, 104, 120)"
+        },
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "toggle": "rgb(123, 63, 104)",
+      "code": [
+        {
+          "text": "477822",
+          "color": "rgb(36, 84, 166)"
+        },
+        {
+          "text": "346147",
+          "color": "rgb(36, 84, 166)"
+        }
+      ]
+    },
+    "geometry": {
+      "view": [
+        390,
+        390
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pageErrors": [],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "runtime": {
+      "loader": "47f7f16dcf6cc3ebb2204e569cb79088f548d288",
+      "preview": true,
+      "runtime": "v0.7.1-rc.0",
+      "assets": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@47f7f16dcf6cc3ebb2204e569cb79088f548d288/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@47f7f16dcf6cc3ebb2204e569cb79088f548d288/dist/timber.min.js"
+      ]
+    },
+    "home": {
+      "view": [
+        320,
+        320
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "category": {
+      "view": [
+        320,
+        320
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "H2",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "x": -7,
+          "right": 79
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "cart": {
+      "prices": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        },
+        {
+          "text": "244,81 €",
+          "color": "rgb(36, 84, 166)"
+        }
+      ],
+      "units": [
+        {
+          "text": "244,81 €",
+          "color": "rgb(102, 104, 120)"
+        },
+        {
+          "text": "199,03 €",
+          "color": "rgb(102, 104, 120)"
+        }
+      ],
+      "toggle": "rgb(123, 63, 104)",
+      "code": [
+        {
+          "text": "477822",
+          "color": "rgb(36, 84, 166)"
+        },
+        {
+          "text": "346147",
+          "color": "rgb(36, 84, 166)"
+        }
+      ]
+    },
+    "geometry": {
+      "view": [
+        320,
+        320
+      ],
+      "bad": [
+        {
+          "tag": "A",
+          "cls": "skip-link sr-only",
+          "x": -1,
+          "right": 0
+        },
+        {
+          "tag": "DIV",
+          "cls": "sr-only",
+          "x": -1,
+          "right": 0
+        }
+      ]
+    },
+    "pageErrors": [],
+    "pass": true
+  }
+]
