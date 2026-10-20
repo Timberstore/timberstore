@@ -50,7 +50,7 @@ body :is(.btn-primary, .btn-conversion, .btn-cart),
 }
 /* Apollo renders the configured New flag background inline. */
 .flag.flag-new {
-  background-color: var(--ts-color-steel) !important;
+  background-color: var(--ts-color-novelty) !important;
 }
 
 /* Apollo supplies Central warehouse copper inline; darken only that verified
@@ -166,11 +166,11 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
   content: ')';
 }
 @media (min-width: 992px) {
-  .ts-view-list #products :is(.price-final, .price-additional) {
+  .ts-view-list #products:not(.products-related) :is(.price-final, .price-additional) {
     text-align: left !important;
   }
-  .ts-view-list #products .ts-card-net::before,
-  .ts-view-list #products .ts-card-net::after {
+  .ts-view-list #products:not(.products-related) .ts-card-net::before,
+  .ts-view-list #products:not(.products-related) .ts-card-net::after {
     content: none;
   }
 }
@@ -217,17 +217,17 @@ form.pr-action:has(> .ts-qty) > .btn {
 
 /* Preserve the existing table presentation, including its quiet quantity field. */
 @media (min-width: 992px) {
-  .ts-view-list #products .ts-qty {
+  .ts-view-list #products:not(.products-related) .ts-qty {
     border-color: var(--ts-color-qty-border);
   }
-  .ts-view-list #products .ts-qty__btn {
+  .ts-view-list #products:not(.products-related) .ts-qty__btn {
     background: var(--ts-color-qty-btn-bg);
     color: var(--ts-color-qty-text);
   }
-  .ts-view-list #products .ts-qty__btn:hover {
+  .ts-view-list #products:not(.products-related) .ts-qty__btn:hover {
     color: var(--ts-color-accent);
   }
-  .ts-view-list #products .ts-qty__value {
+  .ts-view-list #products:not(.products-related) .ts-qty__value {
     font-weight: 800 !important;
     color: var(--ts-color-qty-text) !important;
     border-color: var(--ts-color-qty-border) !important;

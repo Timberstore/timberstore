@@ -15,6 +15,7 @@
   --ts-color-action: var(--ts-color-accent);
   --ts-color-action-hover: #b8692e;
   --ts-color-blue: #2454a6; /* Computed product-brand blue; shared custom accent. */
+  --ts-color-novelty: #7b3f68; /* Warm plum, distinct from price/CTA/stock. */
   --ts-color-steel: var(--ts-color-blue);
   --ts-color-technical-bg: #f3f5f7;
   --ts-color-price: #252b32;

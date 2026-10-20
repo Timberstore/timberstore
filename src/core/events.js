@@ -14,3 +14,6 @@ export const SHOPTET_EVENTS = {
 
 // Events after which modules re-run on the (partly) new DOM.
 export const CONTENT_EVENTS = [SHOPTET_EVENTS.pageContentLoaded, SHOPTET_EVENTS.moreProductsLoaded];
+
+// Native jQuery Colorbox lifecycle; keep gallery events separate from DOM events.
+export const COLORBOX_EVENTS = { complete: 'cbox_complete' };

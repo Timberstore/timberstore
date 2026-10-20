@@ -85,10 +85,14 @@ export default {
   name: 'qty-picker',
   pages: ['home', 'category', 'search'],
   init(root) {
-    root.querySelectorAll(`${SEL.classicProductCard} ${SEL.cartForm}`).forEach((form) => {
-      if (form.dataset.tsInit) return;
-      form.dataset.tsInit = 'qty-picker';
-      bind(form);
-    });
+    root
+      .querySelectorAll(
+        `${SEL.classicProductCard} ${SEL.cartForm}, .ts-recommendation ${SEL.cartForm}`,
+      )
+      .forEach((form) => {
+        if (form.dataset.tsInit || form.querySelector(SEL.nativeQuantity)) return;
+        form.dataset.tsInit = 'qty-picker';
+        bind(form);
+      });
   },
 };

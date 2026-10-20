@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Popup + Recommendations Polish, rovnaká preview `0.6.13-compact.1` (20. 10. 2026):** limit JS 32 KiB a CSS 26,5 KiB. Natívne odporúčané nákupy, jednotky z verejného detailu a lokálne popup/related/similar štýly. Rozšírenie podľa historicky evidovaného súhlasu 15. 10.; stabilné verzie a ich limity zostávajú bez zmeny. Iba preview, bez tagu, merge a produkcie.
+
 - **Final Product Card Polish, rovnaká preview `0.6.13-compact.1` (20. 10. 2026):** limit JS 31,25 KiB, CSS 25,5 KiB. Malé rozšírenie pre mobilný qty-picker a lokálne kartičkové štýly podľa zaznamenaného súhlasu 15. 10.; stabilné verzie, ich limity a produkčný loader zostávajú nezmenené. Bez release, tagu alebo merge.
 
 - **PD Final Polish preview `0.6.13-compact.1` (19. 10. 2026):** JS 30,27 KiB / limit 31, CSS 24,69 KiB / limit 25. Rozšírenie iba pre toto preview podľa zaznamenaného súhlasu 15. 10.; limity `compact.0` a stabilných vydaní sa nemenia. Bez merge, tagu alebo produkčného nasadenia.

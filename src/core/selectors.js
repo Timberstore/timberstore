@@ -100,12 +100,20 @@ export const SEL = {
     ':scope > [data-micro="sku"], :scope > span:not(.p-code-label):not(.ts-product-meta__label)',
   productMetadataLabel: ':scope > .p-code-label, :scope > .ts-product-meta__label',
   productPriceNumber:
-    '.p-detail .price-final-holder, body:not(.ordering-process) .content-wrapper .price-final > strong',
+    '.p-detail .price-final-holder, body:not(.ordering-process) .content-wrapper .price-final > strong, #colorbox .advanced-order .price-final > strong',
   productTextDetailAreas:
     ':is(.p-detail-inner-header, .p-detail, .product-top) h1, h1[itemprop="name"], .p-short-description, .description-inner, .basic-description, .p-detail-tabs, .p-detail .price-final-holder',
   classicProductCard:
     'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product',
   productNetPrice: '.price-additional',
+  recommendationCard:
+    '.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product',
+  recommendationLink: 'a.name[href]',
+  recommendationSku: '[data-micro="sku"]',
+  recommendationPrice: '.price-final',
+  productPriceUnit: '.pr-list-unit, .ts-recommendation-unit',
+  sourceProductPriceUnit: '.p-detail .price-final .pr-list-unit',
+  cartPopup: '#colorbox .advanced-order',
   productTextCards:
     ':is(.products-block, .products) :is(.product, .p), :is(.product, .p)[data-micro="product"]',
   categoryFilterBar: '#category-filter-hover',

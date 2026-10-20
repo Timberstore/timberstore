@@ -1,5 +1,6 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
+import { prepareRecommendations } from './recommendations.js';
 
 let observer;
 
@@ -11,7 +12,7 @@ function cleanValue(text) {
 }
 
 function cleanTextNodes(element) {
-  if (element.matches(SEL.classicProductCard)) {
+  if (element.matches(SEL.classicProductCard) || element.classList.contains('ts-recommendation')) {
     element.classList.add('ts-card');
     const net = element.querySelector(SEL.productNetPrice);
     if (net) net.classList.toggle('ts-card-net', !/^\s*\(/.test(net.textContent));
@@ -59,6 +60,7 @@ function metadata(root, selector, text) {
 }
 
 function cleanProductTexts(root) {
+  prepareRecommendations(root);
   for (const heading of root.querySelectorAll(SEL.productVariantsHeading)) {
     if (heading.textContent !== TEXTS.productMetadata.variants) {
       heading.textContent = TEXTS.productMetadata.variants;
