@@ -1,6 +1,11 @@
 {
-  "updatedAt": "2026-10-20T17:16:53.311974+00:00",
+  "updatedAt": "2026-10-21T11:59:52.057179+00:00",
   "posts": [
+    {
+      "url": "https://www.instagram.com/p/Detz6FbChCt/",
+      "image": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/system/instagram/658_856399792_122117529831298488_6383491508027352109_n.jpg",
+      "alt": "Od 0,33 € nekúpite ani kávu, ale kovanie áno ☕ STRONG Bystrica závesné kovanie v balení po 2 ks K dispozícii v štyroch..."
+    },
     {
       "url": "https://www.instagram.com/p/Derf7CmDNkt/",
       "image": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/system/instagram/658_854296601_122117462301298488_7641405757829477012_n.jpg",
@@ -75,11 +80,6 @@
       "url": "https://www.instagram.com/p/DZGSK9BjXvb/",
       "image": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/system/instagram/658_712465596_18107143924759240_7404365522467167111_n.jpg",
       "alt": "Prečo tak často používame kinetické vypínače? Nie každá rekonštrukcia je jednoduchá. Často sa stretávame so situáciou, keď..."
-    },
-    {
-      "url": "https://www.instagram.com/p/DZGQGefjac_/",
-      "image": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/system/instagram/658_716170730_18107142616759240_5876856679055533313_n.jpg",
-      "alt": "Aj vy ešte vidíte jednotlivé bodky na LED páse? My už nie. 😊 Pri výrobe nábytku sme postupne úplne prešli na COB LED pásy...."
     }
   ]
 }
