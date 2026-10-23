@@ -39,3 +39,13 @@ Malá oprava priamo nad main / v0.7.0. Aplikačné zmeny sú len v troch zdrojov
 - [verification/slow.cjs](verification/slow.cjs)
 
 - [Finálne kontroly](evidence/checks.txt)
+
+## Doplnené po publikovaní (iba dokumentácia)
+
+- [evidence/cdn.json](evidence/cdn.json)
+- [evidence/cdn-assets.json](evidence/cdn-assets.json)
+- [evidence/production.json](evidence/production.json)
+- [evidence/remote.txt](evidence/remote.txt)
+- [images/cdn-history-1440.png](images/cdn-history-1440.png)
+- [images/cdn-history-390.png](images/cdn-history-390.png)
+- [verification/cdn.cjs](verification/cdn.cjs)

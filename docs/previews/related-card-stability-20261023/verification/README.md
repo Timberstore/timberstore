@@ -9,3 +9,5 @@ V koreňovom repo: `npm ci`, `npm run lint`, `npm run build`. Potom v tejto zlo�
 - `node functional.cjs`: baseline geometria homepage/kategória/detail, reálne natívne množstvo a nákup presne 2 ks súvisiacej pružiny 11454. Každý beh má vlastný anonymný košík. Žiadne odoslanie objednávky alebo platba.
 
 Pripravené merania sú v ../evidence, nezamieňajte ich s novým behom. Test rešpektuje natívne skryté mobilné SKU (`getClientRects` prázdne) a obnovu scrollu, meria vnútornú geometriu karty. Serverová dostupnosť alebo aktuálne zmenený sortiment môže ovplyvniť reprodukciu.
+
+`node cdn.cjs` overí publikovaný immutable build cez skutočné CDN, dva cykly Back na 1440/390 px a samostatnú produkčnú reláciu.

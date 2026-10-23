@@ -44,7 +44,8 @@ Prvé automatizované pokusy odhalili ďalšie zachytenie starej snímky po Back
 
 ## Screenshoty
 
-- [Desktop 1440 px](images/after-1440.png)
+- **Po návrate Back cez skutočnú CDN:** [desktop 1440 px](images/cdn-history-1440.png), [mobil 390 px](images/cdn-history-390.png)
+- [Desktop po prvom načítaní, 1440 px](images/after-1440.png)
 - [Mobil 390 px](images/after-390.png), [320 px](images/after-320.png)
 - [Pôvodná v0.7.0 v testovacom prostredí](images/before-1440.png)
 
