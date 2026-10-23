@@ -1,7 +1,9 @@
 /* Verified native product metadata only; never order numbers or generic links.
    Apollo/C3 uses important metadata fonts; retain that local precedence. */
 .ts-product-meta,
-.ts-product-meta > span {
+.ts-product-meta > span,
+.p-detail :is(.products-related, .products-alternative) .p-code,
+.p-detail :is(.products-related, .products-alternative) .p-code > span {
   font-size: 12.5px !important;
   line-height: 1.5 !important;
 }

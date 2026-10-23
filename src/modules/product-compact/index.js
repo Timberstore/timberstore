@@ -4,6 +4,7 @@ import { TEXTS } from '../../core/texts.js';
 import { splitShippingName } from '../../core/shipping.js';
 
 let readiness;
+let historyStyle;
 let popupObserver;
 
 function syncShippingPopup() {
@@ -141,6 +142,14 @@ export default {
   name: 'product-compact',
   pages: ['detail'],
   init() {
+    // Apollo reconstructs product cards on history navigation. A cross-document
+    // root snapshot can retain their old geometry/visibility during that work.
+    // Opt out only on detail documents, once; other page types keep the effect.
+    if (!historyStyle) {
+      historyStyle = document.createElement('style');
+      historyStyle.textContent = '@view-transition{navigation:none}';
+      document.head.append(historyStyle);
+    }
     observeShippingPopup();
     const run = () => document.querySelectorAll(SEL.compactInfo).forEach(enhance);
     if (document.body.classList.contains(SEL.compactReadyClass)) return run();

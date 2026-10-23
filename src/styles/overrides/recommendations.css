@@ -72,3 +72,30 @@
 .ts-recommendation :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
   white-space: nowrap;
 }
+
+/* Detail recommendations: keep flags inside the image's safe rectangle,
+   away from the rounded tile clip. Never change the slider's overflow. */
+.p-detail :is(.products-related, .products-alternative) .p .flags-default {
+  left: 0;
+  top: 0;
+}
+/* Native ready and our idempotent card preparation must both finish before
+   revealing the card. No unit-fetch-dependent gate or additional timer. */
+.type-detail:not(.after-load) .p-detail :is(.products-related, .products-alternative),
+.p-detail :is(.products-related, .products-alternative) .product:not(.ts-recommendation) {
+  visibility: hidden;
+}
+.p-detail :is(.products-related, .products-alternative) :is(.p-code, .image, .name) {
+  transition-property: color, background-color, border-color;
+}
+/* Reserve the same unit slot before its verified asynchronous value arrives.
+   The amount stays still; this placeholder contains no guessed unit or data. */
+.p-detail :is(.products-related, .products-alternative) .price-final:not(:has(.pr-list-unit, .ts-recommendation-unit))::after {
+  content: '';
+}
+.p-detail :is(.products-related, .products-alternative) :is(.pr-list-unit, .ts-recommendation-unit),
+.p-detail :is(.products-related, .products-alternative) .price-final::after {
+  display: inline-block !important;
+  min-width: 3em;
+  font-size: 13px !important;
+}

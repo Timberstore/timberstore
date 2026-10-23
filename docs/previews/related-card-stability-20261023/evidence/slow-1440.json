@@ -1,0 +1,1855 @@
+[
+  {
+    "baseline": true,
+    "phases": [
+      {
+        "font": "10px",
+        "code": "K\u00f3d: 11454",
+        "w": 237,
+        "h": 460.765625,
+        "codeX": 142.859375,
+        "codeY": 15
+      },
+      {
+        "font": "12.5px",
+        "code": "K\u00d3D: 11454",
+        "w": 237,
+        "h": 453.5625,
+        "codeX": 137,
+        "codeY": 15
+      }
+    ],
+    "samples": [
+      {
+        "t": 868.6999999999534,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "t": 1818.3000000000466,
+        "ready": false,
+        "fonts": "loading",
+        "view": [
+          1440,
+          1425
+        ]
+      },
+      {
+        "t": 2367.5999999998603,
+        "ready": false,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1425
+        ]
+      },
+      {
+        "t": 2757.5,
+        "ready": false,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1437
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 460.765625,
+            "visible": "hidden",
+            "opacity": "0",
+            "code": {
+              "text": "K\u00f3d: 11454",
+              "x": 142.859375,
+              "y": 15,
+              "w": 69.140625,
+              "h": 19.84375,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "10px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 8,
+              "y": 8,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 30,
+              "y": 270.78125,
+              "w": 55.765625,
+              "h": 24,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          },
+          {
+            "w": 237,
+            "h": 460.765625,
+            "visible": "hidden",
+            "opacity": "0",
+            "code": {
+              "text": "K\u00f3d: 500212",
+              "x": 137.109375,
+              "y": 15,
+              "w": 74.890625,
+              "h": 19.84375,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "10px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 30,
+              "y": 270.78125,
+              "w": 55.765625,
+              "h": 24,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          }
+        ]
+      },
+      {
+        "t": 3192.399999999907,
+        "ready": false,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1437
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 460.765625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00f3d: 11454",
+              "x": 142.859375,
+              "y": 15,
+              "w": 69.140625,
+              "h": 19.84375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "10px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 8,
+              "y": 8,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 30,
+              "y": 270.78125,
+              "w": 55.765625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          },
+          {
+            "w": 237,
+            "h": 460.765625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00f3d: 500212",
+              "x": 137.109375,
+              "y": 15,
+              "w": 74.890625,
+              "h": 19.84375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "10px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 30,
+              "y": 270.78125,
+              "w": 55.765625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          }
+        ]
+      },
+      {
+        "t": 6176.09999999986,
+        "ready": false,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 8,
+              "y": 8,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 90.609375,
+              "y": 265.1875,
+              "w": 55.765625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 90.609375,
+              "y": 265.1875,
+              "w": 55.765625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          }
+        ]
+      },
+      {
+        "t": 6881.5,
+        "ready": true,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 8,
+              "y": 8,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 90.609375,
+              "y": 265.1875,
+              "w": 55.765625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 90.609375,
+              "y": 265.1875,
+              "w": 55.765625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          }
+        ]
+      },
+      {
+        "t": 7962.699999999953,
+        "ready": true,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 8,
+              "y": 8,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 71.296875,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 132.046875,
+              "y": 265.1875,
+              "w": 33.65625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            }
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 90.609375,
+              "y": 265.1875,
+              "w": 55.765625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          }
+        ]
+      },
+      {
+        "t": 8011.09999999986,
+        "ready": true,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 8,
+              "y": 8,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 71.296875,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 132.046875,
+              "y": 265.1875,
+              "w": 33.65625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            }
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 71.296875,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 132.046875,
+              "y": 265.1875,
+              "w": 33.65625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            }
+          }
+        ]
+      },
+      {
+        "t": 10851.09999999986,
+        "ready": true,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 8,
+              "y": 8,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 71.296875,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 132.046875,
+              "y": 265.1875,
+              "w": 33.65625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            }
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 71.296875,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 132.046875,
+              "y": 265.1875,
+              "w": 33.65625,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "baseline": false,
+    "phases": [
+      {
+        "font": "12.5px",
+        "code": "K\u00d3D: 11454",
+        "w": 237,
+        "h": 453.5625,
+        "codeX": 137,
+        "codeY": 15
+      }
+    ],
+    "samples": [
+      {
+        "t": 599,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "t": 1084.5999999998603,
+        "ready": false,
+        "fonts": "loading",
+        "view": [
+          1440,
+          1425
+        ]
+      },
+      {
+        "t": 1221.0999999998603,
+        "ready": false,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1425
+        ]
+      },
+      {
+        "t": 1628.8000000000466,
+        "ready": false,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1437
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 460.765625,
+            "visible": "hidden",
+            "opacity": "0",
+            "code": {
+              "text": "K\u00f3d: 11454",
+              "x": 129.578125,
+              "y": 15,
+              "w": 82.421875,
+              "h": 24.75,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 30,
+              "y": 270.78125,
+              "w": 60.75,
+              "h": 24,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          },
+          {
+            "w": 237,
+            "h": 460.765625,
+            "visible": "hidden",
+            "opacity": "0",
+            "code": {
+              "text": "K\u00f3d: 500212",
+              "x": 122.40625,
+              "y": 15,
+              "w": 89.59375,
+              "h": 24.75,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 30,
+              "y": 270.78125,
+              "w": 60.75,
+              "h": 24,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          }
+        ]
+      },
+      {
+        "t": 1754.6999999999534,
+        "ready": false,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1437
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 460.765625,
+            "visible": "hidden",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00f3d: 11454",
+              "x": 129.578125,
+              "y": 15,
+              "w": 82.421875,
+              "h": 24.75,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 30,
+              "y": 270.78125,
+              "w": 60.75,
+              "h": 24,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          },
+          {
+            "w": 237,
+            "h": 460.765625,
+            "visible": "hidden",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00f3d: 500212",
+              "x": 122.40625,
+              "y": 15,
+              "w": 89.59375,
+              "h": 24.75,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 30,
+              "y": 270.78125,
+              "w": 60.75,
+              "h": 24,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          }
+        ]
+      },
+      {
+        "t": 5466.59999999986,
+        "ready": false,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "hidden",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "hidden",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "hidden",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          }
+        ]
+      },
+      {
+        "t": 5553.59999999986,
+        "ready": true,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          }
+        ]
+      },
+      {
+        "t": 6306.09999999986,
+        "ready": true,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": null
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 129.375,
+              "y": 271.1875,
+              "w": 39,
+              "h": 18.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "13px"
+            }
+          }
+        ]
+      },
+      {
+        "t": 6418.199999999953,
+        "ready": true,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 129.375,
+              "y": 271.1875,
+              "w": 39,
+              "h": 18.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "13px"
+            }
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 129.375,
+              "y": 271.1875,
+              "w": 39,
+              "h": 18.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "13px"
+            }
+          }
+        ]
+      },
+      {
+        "t": 10499.699999999953,
+        "ready": true,
+        "fonts": "loaded",
+        "view": [
+          1440,
+          1431
+        ],
+        "cards": [
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 11454",
+              "x": 137,
+              "y": 15,
+              "w": 75,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "Pru\u017eina k zdv\u00fdhaku KP03 - 3.00x22.5x142x36, silnej\u0161ia",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 65.265625,
+              "h": 26.09375,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "11px"
+            },
+            "image": {
+              "text": "Novinka",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,57 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 129.375,
+              "y": 271.1875,
+              "w": 39,
+              "h": 18.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "13px"
+            }
+          },
+          {
+            "w": 237,
+            "h": 453.5625,
+            "visible": "visible",
+            "opacity": "1",
+            "code": {
+              "text": "K\u00d3D: 500212",
+              "x": 129.828125,
+              "y": 15,
+              "w": 82.171875,
+              "h": 22.75,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "12.5px"
+            },
+            "name": {
+              "text": "POLI kryt poste\u013eov\u00e9ho v\u00fdklopn\u00e9ho kovania 500mm pre KP03",
+              "x": 30,
+              "y": 181,
+              "w": 177,
+              "h": 70.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "18px"
+            },
+            "flag": null,
+            "image": {
+              "text": "",
+              "x": 30,
+              "y": 30,
+              "w": 177,
+              "h": 133,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "14px"
+            },
+            "amount": {
+              "text": "1,07 \u20ac",
+              "x": 68.625,
+              "y": 265.1875,
+              "w": 60.75,
+              "h": 24,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "20px"
+            },
+            "unit": {
+              "text": "/ ks",
+              "x": 129.375,
+              "y": 271.1875,
+              "w": 39,
+              "h": 18.1875,
+              "visible": "visible",
+              "opacity": "1",
+              "font": "13px"
+            }
+          }
+        ]
+      }
+    ],
+    "validation": {
+      "visibleSamples": 100,
+      "ranges": [
+        {
+          "card": 0,
+          "sku": "K\u00d3D: 11454",
+          "w": 0,
+          "h": 0,
+          "code-x": 0,
+          "code-y": 0,
+          "code-w": 0,
+          "code-h": 0,
+          "name-x": 0,
+          "name-y": 0,
+          "name-w": 0,
+          "name-h": 0,
+          "image-x": 0,
+          "image-y": 0,
+          "image-w": 0,
+          "image-h": 0,
+          "amount-x": 0,
+          "amount-y": 0,
+          "amount-w": 0,
+          "amount-h": 0
+        },
+        {
+          "card": 1,
+          "sku": "K\u00d3D: 500212",
+          "w": 0,
+          "h": 0,
+          "code-x": 0,
+          "code-y": 0,
+          "code-w": 0,
+          "code-h": 0,
+          "name-x": 0,
+          "name-y": 0,
+          "name-w": 0,
+          "name-h": 0,
+          "image-x": 0,
+          "image-y": 0,
+          "image-w": 0,
+          "image-h": 0,
+          "amount-x": 0,
+          "amount-y": 0,
+          "amount-w": 0,
+          "amount-h": 0
+        }
+      ]
+    }
+  }
+]

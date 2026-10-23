@@ -1,0 +1,1648 @@
+[
+  {
+    "width": 1440,
+    "initial": {
+      "t": 11382.699999999953,
+      "ready": true,
+      "fonts": "loaded",
+      "view": [
+        1440,
+        1431
+      ],
+      "persisted": false,
+      "cards": [
+        {
+          "w": 237,
+          "h": 453.5625,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 11454",
+            "x": 137,
+            "y": 15,
+            "w": 75,
+            "h": 22.75,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "x": 30,
+            "y": 181,
+            "w": 177,
+            "h": 70.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "18px"
+          },
+          "flag": {
+            "text": "Novinka",
+            "x": 30,
+            "y": 30,
+            "w": 65.265625,
+            "h": 26.09375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "11px"
+          },
+          "image": {
+            "text": "Novinka",
+            "x": 30,
+            "y": 30,
+            "w": 177,
+            "h": 133,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,57 €",
+            "x": 68.625,
+            "y": 265.1875,
+            "w": 60.75,
+            "h": 24,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "20px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 129.375,
+            "y": 271.1875,
+            "w": 39,
+            "h": 18.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        },
+        {
+          "w": 237,
+          "h": 453.5625,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 500212",
+            "x": 129.828125,
+            "y": 15,
+            "w": 82.171875,
+            "h": 22.75,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "POLI kryt posteľového výklopného kovania 500mm pre KP03",
+            "x": 30,
+            "y": 181,
+            "w": 177,
+            "h": 70.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "18px"
+          },
+          "flag": null,
+          "image": {
+            "text": "",
+            "x": 30,
+            "y": 30,
+            "w": 177,
+            "h": 133,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,07 €",
+            "x": 68.625,
+            "y": 265.1875,
+            "w": 60.75,
+            "h": 24,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "20px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 129.375,
+            "y": 271.1875,
+            "w": 39,
+            "h": 18.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        }
+      ]
+    },
+    "errors": [],
+    "pass": true,
+    "rounds": [
+      {
+        "round": 0,
+        "visibleSamples": 94,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "visibleSamples": 102,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "initial": {
+      "t": 10900,
+      "ready": true,
+      "fonts": "loaded",
+      "view": [
+        768,
+        755
+      ],
+      "persisted": false,
+      "cards": [
+        {
+          "w": 323.5,
+          "h": 518.5625,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 11454",
+            "x": 223.5,
+            "y": 15,
+            "w": 75,
+            "h": 22.75,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "x": 30,
+            "y": 246,
+            "w": 263.5,
+            "h": 70.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "18px"
+          },
+          "flag": {
+            "text": "Novinka",
+            "x": 30,
+            "y": 30,
+            "w": 65.265625,
+            "h": 26.09375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "11px"
+          },
+          "image": {
+            "text": "Novinka",
+            "x": 30,
+            "y": 30,
+            "w": 263.5,
+            "h": 198,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,57 €",
+            "x": 111.875,
+            "y": 330.1875,
+            "w": 60.75,
+            "h": 24,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "20px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 172.625,
+            "y": 336.1875,
+            "w": 39,
+            "h": 18.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        },
+        {
+          "w": 323.5,
+          "h": 518.5625,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 500212",
+            "x": 216.328125,
+            "y": 15,
+            "w": 82.171875,
+            "h": 22.75,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "POLI kryt posteľového výklopného kovania 500mm pre KP03",
+            "x": 30,
+            "y": 246,
+            "w": 263.5,
+            "h": 70.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "18px"
+          },
+          "flag": null,
+          "image": {
+            "text": "",
+            "x": 30,
+            "y": 30,
+            "w": 263.5,
+            "h": 198,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,07 €",
+            "x": 111.875,
+            "y": 330.1875,
+            "w": 60.75,
+            "h": 24,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "20px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 172.625,
+            "y": 336.1875,
+            "w": 39,
+            "h": 18.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        }
+      ]
+    },
+    "errors": [],
+    "pass": true,
+    "rounds": [
+      {
+        "round": 0,
+        "visibleSamples": 104,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "visibleSamples": 109,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 430,
+    "initial": {
+      "t": 6425.899999999907,
+      "ready": true,
+      "fonts": "loaded",
+      "view": [
+        430,
+        430
+      ],
+      "persisted": false,
+      "cards": [
+        {
+          "w": 214,
+          "h": 437.609375,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 11454",
+            "x": -18,
+            "y": -288.921875,
+            "w": 0,
+            "h": 0,
+            "visible": "hidden",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "x": 16,
+            "y": 174.8125,
+            "w": 182,
+            "h": 70,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "flag": {
+            "text": "Novinka",
+            "x": 16,
+            "y": 20,
+            "w": 56.609375,
+            "h": 21.890625,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "9px"
+          },
+          "image": {
+            "text": "Novinka",
+            "x": 16,
+            "y": 20,
+            "w": 182,
+            "h": 136.8125,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,57 €",
+            "x": 63.203125,
+            "y": 256.8125,
+            "w": 48.59375,
+            "h": 19,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "16px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 111.796875,
+            "y": 259.8125,
+            "w": 39,
+            "h": 15.59375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        },
+        {
+          "w": 214,
+          "h": 437.609375,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 500212",
+            "x": -248,
+            "y": -288.921875,
+            "w": 0,
+            "h": 0,
+            "visible": "hidden",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "POLI kryt posteľového výklopného kovania 500mm pre KP03",
+            "x": 16,
+            "y": 174.8125,
+            "w": 182,
+            "h": 70,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "flag": null,
+          "image": {
+            "text": "",
+            "x": 16,
+            "y": 20,
+            "w": 182,
+            "h": 136.8125,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,07 €",
+            "x": 63.203125,
+            "y": 256.8125,
+            "w": 48.59375,
+            "h": 19,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "16px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 111.796875,
+            "y": 259.8125,
+            "w": 39,
+            "h": 15.59375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        }
+      ]
+    },
+    "errors": [],
+    "pass": true,
+    "rounds": [
+      {
+        "round": 0,
+        "visibleSamples": 132,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "visibleSamples": 133,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "initial": {
+      "t": 6360.40000000014,
+      "ready": true,
+      "fonts": "loaded",
+      "view": [
+        390,
+        390
+      ],
+      "persisted": false,
+      "cards": [
+        {
+          "w": 214,
+          "h": 437.609375,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 11454",
+            "x": -18,
+            "y": -288.921875,
+            "w": 0,
+            "h": 0,
+            "visible": "hidden",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "x": 16,
+            "y": 174.8125,
+            "w": 182,
+            "h": 70,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "flag": {
+            "text": "Novinka",
+            "x": 16,
+            "y": 20,
+            "w": 56.609375,
+            "h": 21.890625,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "9px"
+          },
+          "image": {
+            "text": "Novinka",
+            "x": 16,
+            "y": 20,
+            "w": 182,
+            "h": 136.8125,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,57 €",
+            "x": 63.203125,
+            "y": 256.8125,
+            "w": 48.59375,
+            "h": 19,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "16px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 111.796875,
+            "y": 259.8125,
+            "w": 39,
+            "h": 15.59375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        },
+        {
+          "w": 214,
+          "h": 437.609375,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 500212",
+            "x": -248,
+            "y": -288.921875,
+            "w": 0,
+            "h": 0,
+            "visible": "hidden",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "POLI kryt posteľového výklopného kovania 500mm pre KP03",
+            "x": 16,
+            "y": 174.8125,
+            "w": 182,
+            "h": 70,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "flag": null,
+          "image": {
+            "text": "",
+            "x": 16,
+            "y": 20,
+            "w": 182,
+            "h": 136.8125,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,07 €",
+            "x": 63.203125,
+            "y": 256.8125,
+            "w": 48.59375,
+            "h": 19,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "16px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 111.796875,
+            "y": 259.8125,
+            "w": 39,
+            "h": 15.59375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        }
+      ]
+    },
+    "errors": [],
+    "pass": true,
+    "rounds": [
+      {
+        "round": 0,
+        "visibleSamples": 131,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "visibleSamples": 132,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "initial": {
+      "t": 5914.5,
+      "ready": true,
+      "fonts": "loaded",
+      "view": [
+        375,
+        375
+      ],
+      "persisted": false,
+      "cards": [
+        {
+          "w": 214,
+          "h": 437.609375,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 11454",
+            "x": -18,
+            "y": -288.671875,
+            "w": 0,
+            "h": 0,
+            "visible": "hidden",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "x": 16,
+            "y": 174.8125,
+            "w": 182,
+            "h": 70,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "flag": {
+            "text": "Novinka",
+            "x": 16,
+            "y": 20,
+            "w": 56.609375,
+            "h": 21.890625,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "9px"
+          },
+          "image": {
+            "text": "Novinka",
+            "x": 16,
+            "y": 20,
+            "w": 182,
+            "h": 136.8125,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,57 €",
+            "x": 63.203125,
+            "y": 256.8125,
+            "w": 48.59375,
+            "h": 19,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "16px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 111.796875,
+            "y": 259.8125,
+            "w": 39,
+            "h": 15.59375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        },
+        {
+          "w": 214,
+          "h": 437.609375,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 500212",
+            "x": -248,
+            "y": -288.671875,
+            "w": 0,
+            "h": 0,
+            "visible": "hidden",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "POLI kryt posteľového výklopného kovania 500mm pre KP03",
+            "x": 16,
+            "y": 174.8125,
+            "w": 182,
+            "h": 70,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "flag": null,
+          "image": {
+            "text": "",
+            "x": 16,
+            "y": 20,
+            "w": 182,
+            "h": 136.8125,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,07 €",
+            "x": 63.203125,
+            "y": 256.8125,
+            "w": 48.59375,
+            "h": 19,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "16px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 111.796875,
+            "y": 259.8125,
+            "w": 39,
+            "h": 15.59375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        }
+      ]
+    },
+    "errors": [],
+    "pass": true,
+    "rounds": [
+      {
+        "round": 0,
+        "visibleSamples": 129,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "visibleSamples": 128,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "initial": {
+      "t": 5837.300000000047,
+      "ready": true,
+      "fonts": "loaded",
+      "view": [
+        320,
+        320
+      ],
+      "persisted": false,
+      "cards": [
+        {
+          "w": 214,
+          "h": 437.609375,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 11454",
+            "x": 160.140625,
+            "y": 8,
+            "w": 43.859375,
+            "h": 41.5,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "x": 16,
+            "y": 174.8125,
+            "w": 182,
+            "h": 70,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "flag": {
+            "text": "Novinka",
+            "x": 16,
+            "y": 20,
+            "w": 56.609375,
+            "h": 21.890625,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "9px"
+          },
+          "image": {
+            "text": "Novinka",
+            "x": 16,
+            "y": 20,
+            "w": 182,
+            "h": 136.8125,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,57 €",
+            "x": 63.203125,
+            "y": 256.8125,
+            "w": 48.59375,
+            "h": 19,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "16px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 111.796875,
+            "y": 259.8125,
+            "w": 39,
+            "h": 15.59375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        },
+        {
+          "w": 214,
+          "h": 437.609375,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 500212",
+            "x": 152.96875,
+            "y": 8,
+            "w": 51.03125,
+            "h": 41.5,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "POLI kryt posteľového výklopného kovania 500mm pre KP03",
+            "x": 16,
+            "y": 174.8125,
+            "w": 182,
+            "h": 70,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "flag": null,
+          "image": {
+            "text": "",
+            "x": 16,
+            "y": 20,
+            "w": 182,
+            "h": 136.8125,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,07 €",
+            "x": 63.203125,
+            "y": 256.8125,
+            "w": 48.59375,
+            "h": 19,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "16px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 111.796875,
+            "y": 259.8125,
+            "w": 39,
+            "h": 15.59375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        }
+      ]
+    },
+    "errors": [],
+    "pass": true,
+    "rounds": [
+      {
+        "round": 0,
+        "visibleSamples": 133,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "visibleSamples": 128,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 2074,
+    "initial": {
+      "t": 5437.800000000047,
+      "ready": true,
+      "fonts": "loaded",
+      "view": [
+        2074,
+        2059
+      ],
+      "persisted": false,
+      "cards": [
+        {
+          "w": 237,
+          "h": 453.5625,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 11454",
+            "x": 137,
+            "y": 15,
+            "w": 75,
+            "h": 22.75,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "x": 30,
+            "y": 181,
+            "w": 177,
+            "h": 70.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "18px"
+          },
+          "flag": {
+            "text": "Novinka",
+            "x": 30,
+            "y": 30,
+            "w": 65.265625,
+            "h": 26.09375,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "11px"
+          },
+          "image": {
+            "text": "Novinka",
+            "x": 30,
+            "y": 30,
+            "w": 177,
+            "h": 133,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,57 €",
+            "x": 68.625,
+            "y": 265.1875,
+            "w": 60.75,
+            "h": 24,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "20px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 129.375,
+            "y": 271.1875,
+            "w": 39,
+            "h": 18.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        },
+        {
+          "w": 237,
+          "h": 453.5625,
+          "visible": "visible",
+          "opacity": "1",
+          "code": {
+            "text": "KÓD: 500212",
+            "x": 129.828125,
+            "y": 15,
+            "w": 82.171875,
+            "h": 22.75,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "12.5px"
+          },
+          "name": {
+            "text": "POLI kryt posteľového výklopného kovania 500mm pre KP03",
+            "x": 30,
+            "y": 181,
+            "w": 177,
+            "h": 70.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "18px"
+          },
+          "flag": null,
+          "image": {
+            "text": "",
+            "x": 30,
+            "y": 30,
+            "w": 177,
+            "h": 133,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "14px"
+          },
+          "amount": {
+            "text": "1,07 €",
+            "x": 68.625,
+            "y": 265.1875,
+            "w": 60.75,
+            "h": 24,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "20px"
+          },
+          "unit": {
+            "text": "/ ks",
+            "x": 129.375,
+            "y": 271.1875,
+            "w": 39,
+            "h": 18.1875,
+            "visible": "visible",
+            "opacity": "1",
+            "font": "13px"
+          }
+        }
+      ]
+    },
+    "errors": [],
+    "pass": true,
+    "rounds": [
+      {
+        "round": 0,
+        "visibleSamples": 138,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "visibleSamples": 133,
+        "ranges": [
+          {
+            "card": 0,
+            "sku": "KÓD: 11454",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          },
+          {
+            "card": 1,
+            "sku": "KÓD: 500212",
+            "w": 0,
+            "h": 0,
+            "code-x": 0,
+            "code-y": 0,
+            "code-w": 0,
+            "code-h": 0,
+            "name-x": 0,
+            "name-y": 0,
+            "name-w": 0,
+            "name-h": 0,
+            "image-x": 0,
+            "image-y": 0,
+            "image-w": 0,
+            "image-h": 0,
+            "amount-x": 0,
+            "amount-y": 0,
+            "amount-w": 0,
+            "amount-h": 0
+          }
+        ]
+      }
+    ]
+  }
+]

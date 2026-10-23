@@ -1,5 +1,11 @@
 # Changelog
 
+## Related-card stability · 0.7.0-related.1 · 2026-10-23 · Preview only
+
+- Samostatná malá oprava priamo z main/v0.7.0, bez prenesenia odmietnutých UI preview. Bezpečné umiestnenie NOVINKA a stabilná typografia/geometria súvisiacich kariet pri návrate Back.
+- Produktové dokumenty nepoužívajú starú navigačnú snímku; ostatné stránky a pôvodná galéria/varianty/košík bez zmeny.
+- [Merania, screenshoty, testy a immutable preview](docs/previews/related-card-stability-20261023/README.md). Bez merge alebo produkčného nasadenia.
+
 ## v0.7.0 · 2026-10-20
 
 - Promote approved product-detail, catalogue/filter, homepage, quantity and cart presentation to stable v0.7.0. Preserve native Shoptet purchasing, prices and stock logic.

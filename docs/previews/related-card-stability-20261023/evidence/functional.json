@@ -1,0 +1,644 @@
+[
+  {
+    "width": 1440,
+    "pass": true,
+    "runs": [
+      {
+        "width": 1440,
+        "baseline": true,
+        "home": {
+          "#header": {
+            "w": 1425,
+            "h": 150,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": null,
+          ".homepage-group-products .product .p": null,
+          ".content-wrapper .product .p": {
+            "w": 329.5,
+            "h": 492.46875,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          }
+        },
+        "category": {
+          "#header": {
+            "w": 1425,
+            "h": 150,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": {
+            "w": 329.328125,
+            "h": 563.140625,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .name": {
+            "w": 269.328125,
+            "h": 70.1875,
+            "color": "rgb(15, 15, 15)",
+            "font": "18px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#products .product .p-code": {
+            "w": 82.171875,
+            "h": 22.75,
+            "color": "rgb(74, 82, 94)",
+            "font": "12.5px",
+            "background": "rgba(255, 255, 255, 0.94)"
+          }
+        },
+        "detail": {
+          "#header": {
+            "w": 1425,
+            "h": 150,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          ".p-image-wrapper": {
+            "w": 534,
+            "h": 498,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".p-info-headline": {
+            "w": 0,
+            "h": 0,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".ts-product-purchase": null,
+          ".ts-product-purchase-info": {
+            "w": 510,
+            "h": 110,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".add-to-cart": {
+            "w": 510,
+            "h": 48.390625,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        }
+      },
+      {
+        "width": 1440,
+        "baseline": false,
+        "home": {
+          "#header": {
+            "w": 1425,
+            "h": 150,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": null,
+          ".homepage-group-products .product .p": null,
+          ".content-wrapper .product .p": {
+            "w": 329.5,
+            "h": 492.46875,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          }
+        },
+        "category": {
+          "#header": {
+            "w": 1425,
+            "h": 150,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": {
+            "w": 329.328125,
+            "h": 563.140625,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .name": {
+            "w": 269.328125,
+            "h": 70.1875,
+            "color": "rgb(15, 15, 15)",
+            "font": "18px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#products .product .p-code": {
+            "w": 82.171875,
+            "h": 22.75,
+            "color": "rgb(74, 82, 94)",
+            "font": "12.5px",
+            "background": "rgba(255, 255, 255, 0.94)"
+          }
+        },
+        "detail": {
+          "#header": {
+            "w": 1425,
+            "h": 150,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          ".p-image-wrapper": {
+            "w": 534,
+            "h": 498,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".p-info-headline": {
+            "w": 0,
+            "h": 0,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".ts-product-purchase": null,
+          ".ts-product-purchase-info": {
+            "w": 510,
+            "h": 110,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".add-to-cart": {
+            "w": 510,
+            "h": 48.390625,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        },
+        "serverCart": [
+          {
+            "code": "11454",
+            "guid": "68041d6e-ca77-11f1-af48-bc2411288012",
+            "priceId": 410184,
+            "quantity": 2,
+            "priceWithVat": 1.57,
+            "priceWithoutDiscount": 1.57,
+            "discounts": {
+              "quantityRatio": 1,
+              "customerRatio": 1,
+              "volumeRatio": 1,
+              "couponRatio": 1,
+              "unknown": 1,
+              "minimalRatio": null,
+              "customerGroupMaximum": null,
+              "cashDeskPriceRatio": 1,
+              "summaryRatio": 1,
+              "finalRatio": 1,
+              "xyDiscount": false
+            },
+            "itemId": "6adb401c7896e",
+            "name": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "weight": 0.13
+          }
+        ],
+        "posts": 1,
+        "cart": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia Kód: 11454\nCENTRÁLNY SKLAD\n(5 ks)\nSÚVISIACI TOVAR: 1 (OD 10,52 €)\nMnožstvo\n+\n−\n1,57 € / ks\n3,14 €"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "pass": true,
+    "runs": [
+      {
+        "width": 390,
+        "baseline": true,
+        "home": {
+          "#header": {
+            "w": 390,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": null,
+          ".homepage-group-products .product .p": null,
+          ".content-wrapper .product .p": {
+            "w": 330,
+            "h": 487.953125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          }
+        },
+        "category": {
+          "#header": {
+            "w": 390,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": {
+            "w": 165,
+            "h": 412.828125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .name": {
+            "w": 133,
+            "h": 70,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#products .product .p-code": {
+            "w": 0,
+            "h": 0,
+            "color": "rgb(74, 82, 94)",
+            "font": "12.5px",
+            "background": "rgba(255, 255, 255, 0.94)"
+          }
+        },
+        "detail": {
+          "#header": {
+            "w": 390,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          ".p-image-wrapper": {
+            "w": 370,
+            "h": 397.5,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".p-info-headline": {
+            "w": 370,
+            "h": 79.53125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".ts-product-purchase": null,
+          ".ts-product-purchase-info": {
+            "w": 344,
+            "h": 110,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".add-to-cart": {
+            "w": 344,
+            "h": 48.390625,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        }
+      },
+      {
+        "width": 390,
+        "baseline": false,
+        "home": {
+          "#header": {
+            "w": 390,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": null,
+          ".homepage-group-products .product .p": null,
+          ".content-wrapper .product .p": {
+            "w": 330,
+            "h": 487.8125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          }
+        },
+        "category": {
+          "#header": {
+            "w": 390,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": {
+            "w": 165,
+            "h": 412.828125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .name": {
+            "w": 133,
+            "h": 70,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#products .product .p-code": {
+            "w": 0,
+            "h": 0,
+            "color": "rgb(74, 82, 94)",
+            "font": "12.5px",
+            "background": "rgba(255, 255, 255, 0.94)"
+          }
+        },
+        "detail": {
+          "#header": {
+            "w": 390,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          ".p-image-wrapper": {
+            "w": 370,
+            "h": 397.5,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".p-info-headline": {
+            "w": 370,
+            "h": 79.53125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".ts-product-purchase": null,
+          ".ts-product-purchase-info": {
+            "w": 344,
+            "h": 110,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".add-to-cart": {
+            "w": 344,
+            "h": 48.390625,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        },
+        "serverCart": [
+          {
+            "code": "11454",
+            "guid": "68041d6e-ca77-11f1-af48-bc2411288012",
+            "priceId": 410184,
+            "quantity": 2,
+            "priceWithVat": 1.57,
+            "priceWithoutDiscount": 1.57,
+            "discounts": {
+              "quantityRatio": 1,
+              "customerRatio": 1,
+              "volumeRatio": 1,
+              "couponRatio": 1,
+              "unknown": 1,
+              "minimalRatio": null,
+              "customerGroupMaximum": null,
+              "cashDeskPriceRatio": 1,
+              "summaryRatio": 1,
+              "finalRatio": 1,
+              "xyDiscount": false
+            },
+            "itemId": "6adb40313e6bb",
+            "name": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "weight": 0.13
+          }
+        ],
+        "posts": 1,
+        "cart": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia Kód: 11454\nCENTRÁLNY SKLAD\n(5 ks)\nSÚVISIACI TOVAR: 1 (OD 10,52 €)\nMnožstvo\n+\n−\n1,57 € / ks\n3,14 €"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "pass": true,
+    "runs": [
+      {
+        "width": 320,
+        "baseline": true,
+        "home": {
+          "#header": {
+            "w": 320,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": null,
+          ".homepage-group-products .product .p": null,
+          ".content-wrapper .product .p": {
+            "w": 260,
+            "h": 434.8125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          }
+        },
+        "category": {
+          "#header": {
+            "w": 320,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": {
+            "w": 280,
+            "h": 499.28125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .name": {
+            "w": 248,
+            "h": 70,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#products .product .p-code": {
+            "w": 51.03125,
+            "h": 41.5,
+            "color": "rgb(74, 82, 94)",
+            "font": "12.5px",
+            "background": "rgba(255, 255, 255, 0.94)"
+          }
+        },
+        "detail": {
+          "#header": {
+            "w": 320,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          ".p-image-wrapper": {
+            "w": 300,
+            "h": 345,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".p-info-headline": {
+            "w": 300,
+            "h": 105.921875,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".ts-product-purchase": null,
+          ".ts-product-purchase-info": {
+            "w": 278,
+            "h": 110,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".add-to-cart": {
+            "w": 278,
+            "h": 100.390625,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        }
+      },
+      {
+        "width": 320,
+        "baseline": false,
+        "home": {
+          "#header": {
+            "w": 320,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": null,
+          ".homepage-group-products .product .p": null,
+          ".content-wrapper .product .p": {
+            "w": 260,
+            "h": 434.8125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          }
+        },
+        "category": {
+          "#header": {
+            "w": 320,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .p": {
+            "w": 280,
+            "h": 499.28125,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          "#products .product .name": {
+            "w": 248,
+            "h": 70,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#products .product .p-code": {
+            "w": 51.03125,
+            "h": 41.5,
+            "color": "rgb(74, 82, 94)",
+            "font": "12.5px",
+            "background": "rgba(255, 255, 255, 0.94)"
+          }
+        },
+        "detail": {
+          "#header": {
+            "w": 320,
+            "h": 60,
+            "color": "rgb(85, 111, 209)",
+            "font": "14px",
+            "background": "rgb(255, 255, 255)"
+          },
+          ".p-image-wrapper": {
+            "w": 300,
+            "h": 345,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".p-info-headline": {
+            "w": 300,
+            "h": 105.921875,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".ts-product-purchase": null,
+          ".ts-product-purchase-info": {
+            "w": 278,
+            "h": 110,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".add-to-cart": {
+            "w": 278,
+            "h": 100.390625,
+            "color": "rgb(15, 15, 15)",
+            "font": "14px",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        },
+        "serverCart": [
+          {
+            "code": "11454",
+            "guid": "68041d6e-ca77-11f1-af48-bc2411288012",
+            "priceId": 410184,
+            "quantity": 2,
+            "priceWithVat": 1.57,
+            "priceWithoutDiscount": 1.57,
+            "discounts": {
+              "quantityRatio": 1,
+              "customerRatio": 1,
+              "volumeRatio": 1,
+              "couponRatio": 1,
+              "unknown": 1,
+              "minimalRatio": null,
+              "customerGroupMaximum": null,
+              "cashDeskPriceRatio": 1,
+              "summaryRatio": 1,
+              "finalRatio": 1,
+              "xyDiscount": false
+            },
+            "itemId": "6adb4041848ab",
+            "name": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia",
+            "weight": 0.13
+          }
+        ],
+        "posts": 1,
+        "cart": "Pružina k zdvýhaku KP03 - 3.00x22.5x142x36, silnejšia Kód: 11454\nCENTRÁLNY SKLAD\n(5 ks)\nSÚVISIACI TOVAR: 1 (OD 10,52 €)\nMnožstvo\n+\n−\n1,57 € / ks\n3,14 €"
+      }
+    ]
+  }
+]

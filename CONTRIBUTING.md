@@ -290,3 +290,5 @@ E-shop zůstává na Shoptetu. Na serveru běží **jen pomocné úlohy**: staho
 ### 5.4 Komunikace s klientem
 - **Měsíční souhrn slovensky** — lidsky psaný přehled z CHANGELOGu: co se změnilo, co to přináší, co má klient vyzkoušet. Slouží zároveň jako podklad k faktuře.
 - Stav jednotlivých úkolů klient vidí v Trellu.
+
+- **Izolovaná preview `0.7.0-related.1` (23. 10. 2026):** oprava štítku NOVINKA a stability súvisiacich kariet priamo nad v0.7.0. JS limit 32 KiB nezmenený; CSS 27 KiB len pre túto preview (oproti stabilným 26,75 KiB), podľa existujúceho súhlasu majiteľa na potrebné rozšírenie priestoru. Výstup JS 32 507 B / CSS 27 497 B gzip. Stabilné tagy ani ich limity sa nemenia. [Audit](docs/previews/related-card-stability-20261023/README.md).
