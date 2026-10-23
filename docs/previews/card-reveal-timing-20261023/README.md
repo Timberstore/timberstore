@@ -6,7 +6,7 @@ Pokračovanie `preview/related-card-stability-20261023`, verzia **0.7.0-related.
 
 Related.2 skrývalo nákupný riadok kategórie až do `body.after-load`, teda do načítania celej stránky vrátane obrázkov. Pri chýbajúcich natívnych údajoch jednotky navyše skrývalo samotnú cenu do odpovede overovacieho zdroja. Predošlé testy sledovali geometriu až od odhalenia ovládačov a tento rozdiel časov nezachytili.
 
-- Odstránená závislosť kategórií, vyhľadávania a odporúčaní od `after-load`. Synchronous príprava existujúcich kariet zostáva; žiadny nový časovač ani skrývanie celej stránky.
+- Odstránená závislosť kategórií, vyhľadávania a odporúčaní od `after-load`. Synchrónna príprava existujúcich kariet zostáva; žiadny nový časovač ani skrývanie celej stránky.
 - Existujúca cena sa neskrýva počas overovania chýbajúcej jednotky. Zhodné natívne predajné jednotky sa dopĺňajú synchronicky; pri skutočne chýbajúcich údajoch zostáva overený fallback a rezervované miesto, nie vymyslená `/ks`.
 - Zachované statické rozmery. Na podobných produktoch test odhalil aj pôvodnú krátku animáciu tlačidla; lokálny zoznam povolených farebných prechodov teraz zahŕňa formulár, tlačidlo a množstvo v oboch sekciách odporúčaní.
 
@@ -36,7 +36,9 @@ Pri úvodnej tvorbe harnessu bol opravený selektor podobných kariet; test poto
 
 Zdrojové zmeny: `src/styles/overrides/product-card.css`, `src/styles/overrides/recommendations.css`, `src/modules/product-text-cleanup/recommendations.js`. Ďalej verzia v `package.json`/`package-lock.json`, rovnaká preview výnimka v `scripts/build.mjs`, zostavené `dist/`, changelog a tento report s overovacími skriptmi/dôkazmi.
 
-JS gzip **32687 B / 32768 B**, CSS **27577 B / 27648 B**; presné výsledky sú v [build.json](evidence/build.json). Limity sa nezvyšujú. Skutočné bajty v build.json majú prednosť pred zaokrúhlenými údajmi.
+JS gzip **32687 B / 32768 B**, CSS **27577 B / 27648 B**; presné výsledky sú v [build.json](evidence/build.json). Limity sa nezvyšujú. Lint, build a `git diff --check`: PASS; [záznam](evidence/checks.txt).
+
+[Desktop screenshot](images/category-1440.png) · [mobil screenshot](images/category-390.png). [Samostatné overenie skutočnej CDN, nákupu a nezmenenej produkcie](PUBLISHED.md).
 
 ## Limity a rozsah
 
