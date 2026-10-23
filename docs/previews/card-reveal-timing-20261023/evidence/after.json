@@ -1,0 +1,224 @@
+[
+  {
+    "width": 390,
+    "trace": [
+      {
+        "part": "name",
+        "t": 3542,
+        "body": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 36,
+          "y": 520.609375,
+          "width": 133,
+          "height": 70,
+          "top": 520.609375,
+          "right": 169,
+          "bottom": 590.609375,
+          "left": 36
+        }
+      },
+      {
+        "part": "price",
+        "t": 3542,
+        "body": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 57.234375,
+          "y": 602.609375,
+          "width": 90.515625,
+          "height": 19.1875,
+          "top": 602.609375,
+          "right": 147.75,
+          "bottom": 621.796875,
+          "left": 57.234375
+        }
+      },
+      {
+        "part": "net",
+        "t": 3542,
+        "body": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 50.984375,
+          "y": 625.796875,
+          "width": 103.015625,
+          "height": 16.609375,
+          "top": 625.796875,
+          "right": 154,
+          "bottom": 642.40625,
+          "left": 50.984375
+        }
+      },
+      {
+        "part": "stock",
+        "t": 3542,
+        "body": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 36,
+          "y": 671.484375,
+          "width": 133,
+          "height": 31.828125,
+          "top": 671.484375,
+          "right": 169,
+          "bottom": 703.3125,
+          "left": 36
+        }
+      },
+      {
+        "part": "form",
+        "t": 3542,
+        "body": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 20,
+          "y": 730.40625,
+          "width": 165,
+          "height": 38,
+          "top": 730.40625,
+          "right": 185,
+          "bottom": 768.40625,
+          "left": 20
+        }
+      },
+      {
+        "part": "qty",
+        "t": 3542,
+        "body": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 28,
+          "y": 730.40625,
+          "width": 88,
+          "height": 38,
+          "top": 730.40625,
+          "right": 116,
+          "bottom": 768.40625,
+          "left": 28
+        }
+      },
+      {
+        "part": "button",
+        "t": 3542,
+        "body": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 124,
+          "y": 730.40625,
+          "width": 53,
+          "height": 38,
+          "top": 730.40625,
+          "right": 177,
+          "bottom": 768.40625,
+          "left": 124
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "trace": [
+      {
+        "part": "price",
+        "t": 1953,
+        "body": "desktop id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design row-filter is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 484.53125,
+          "y": 860.734375,
+          "width": 107.265625,
+          "height": 28,
+          "top": 860.734375,
+          "right": 591.796875,
+          "bottom": 888.734375,
+          "left": 484.53125
+        }
+      },
+      {
+        "part": "net",
+        "t": 1953,
+        "body": "desktop id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design row-filter is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 478.0625,
+          "y": 892.734375,
+          "width": 120.203125,
+          "height": 19.375,
+          "top": 892.734375,
+          "right": 598.265625,
+          "bottom": 912.109375,
+          "left": 478.0625
+        }
+      },
+      {
+        "part": "stock",
+        "t": 1953,
+        "body": "desktop id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design row-filter is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 403.5,
+          "y": 937.8125,
+          "width": 269.328125,
+          "height": 34.59375,
+          "top": 937.8125,
+          "right": 672.828125,
+          "bottom": 972.40625,
+          "left": 403.5
+        }
+      },
+      {
+        "part": "form",
+        "t": 1953,
+        "body": "desktop id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design row-filter is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 373.5,
+          "y": 996.109375,
+          "width": 329.328125,
+          "height": 50,
+          "top": 996.109375,
+          "right": 702.828125,
+          "bottom": 1046.109375,
+          "left": 373.5
+        }
+      },
+      {
+        "part": "qty",
+        "t": 1953,
+        "body": "desktop id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design row-filter is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 387.5,
+          "y": 1002.109375,
+          "width": 118,
+          "height": 38,
+          "top": 1002.109375,
+          "right": 505.5,
+          "bottom": 1040.109375,
+          "left": 387.5
+        }
+      },
+      {
+        "part": "button",
+        "t": 1953,
+        "body": "desktop id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design row-filter is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 513.5,
+          "y": 996.109375,
+          "width": 175.328125,
+          "height": 50,
+          "top": 996.109375,
+          "right": 688.828125,
+          "bottom": 1046.109375,
+          "left": 513.5
+        }
+      },
+      {
+        "part": "name",
+        "t": 2062,
+        "body": "desktop id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design row-filter is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+        "rect": {
+          "x": 403.5,
+          "y": 778.546875,
+          "width": 269.328125,
+          "height": 70.1875,
+          "top": 778.546875,
+          "right": 672.828125,
+          "bottom": 848.734375,
+          "left": 403.5
+        }
+      }
+    ],
+    "errors": []
+  }
+]

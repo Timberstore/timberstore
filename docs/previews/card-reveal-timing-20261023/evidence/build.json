@@ -1,0 +1,12 @@
+{
+  "js": {
+    "bytes": 115775,
+    "gzipBytes": 32687,
+    "sha256": "275fbcbc368ce247bebef929fcc83bb59a9aaa452b2da118b835ff6e33f73f89"
+  },
+  "css": {
+    "bytes": 175324,
+    "gzipBytes": 27577,
+    "sha256": "f4de893b6c4779dd4cb6ccea558b621cf065d5675a303d94fd87f7040e587640"
+  }
+}

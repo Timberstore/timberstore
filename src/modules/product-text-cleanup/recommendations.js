@@ -45,7 +45,6 @@ async function supplyUnit(card) {
     sources.set(card, source);
   }
   if (card.querySelector(SEL.productPriceUnit)) {
-    card.classList.remove('ts-unit-pending');
     return;
   }
   if (source.pending) return;
@@ -53,12 +52,10 @@ async function supplyUnit(card) {
   if (source.failed && !unit) return;
   source.pending = true;
   if (!unit) {
-    card.classList.add('ts-unit-pending');
     unit = (await sourceQuantity(new URL(href), priceId, code))?.unit;
   }
   source.pending = false;
   if (sources.get(card) !== source) return;
-  card.classList.remove('ts-unit-pending');
   if (!unit) {
     source.failed = true;
     return;

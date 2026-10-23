@@ -1,0 +1,896 @@
+[
+  {
+    "width": 1440,
+    "cold": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 5594.5999999996275,
+        "quantityFirstMs": 5594.5999999996275,
+        "buttonFirstMs": 5594.5999999996275,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 5594.5999999996275,
+        "quantityFirstMs": 5594.5999999996275,
+        "buttonFirstMs": 5594.5999999996275,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "detail": [
+      {
+        "code": "346147",
+        "delayMs": 0,
+        "priceFirstMs": 1900.9000000003725,
+        "quantityFirstMs": 1900.9000000003725,
+        "buttonFirstMs": 1900.9000000003725,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "207319",
+        "delayMs": 0,
+        "priceFirstMs": 1900.9000000003725,
+        "quantityFirstMs": 1900.9000000003725,
+        "buttonFirstMs": 1900.9000000003725,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "back": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 1901.7000000001863,
+        "quantityFirstMs": 1901.7000000001863,
+        "buttonFirstMs": 1901.7000000001863,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 1901.7000000001863,
+        "quantityFirstMs": 1901.7000000001863,
+        "buttonFirstMs": 1901.7000000001863,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 768,
+    "cold": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 4353.699999999255,
+        "quantityFirstMs": 4353.699999999255,
+        "buttonFirstMs": 4353.699999999255,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 4353.699999999255,
+        "quantityFirstMs": 4353.699999999255,
+        "buttonFirstMs": 4353.699999999255,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "detail": [
+      {
+        "code": "346147",
+        "delayMs": 0,
+        "priceFirstMs": 1434.4000000003725,
+        "quantityFirstMs": 1434.4000000003725,
+        "buttonFirstMs": 1434.4000000003725,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "207319",
+        "delayMs": 0,
+        "priceFirstMs": 1434.4000000003725,
+        "quantityFirstMs": 1434.4000000003725,
+        "buttonFirstMs": 1434.4000000003725,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "back": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 1774.7999999998137,
+        "quantityFirstMs": 1774.7999999998137,
+        "buttonFirstMs": 1774.7999999998137,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 1774.7999999998137,
+        "quantityFirstMs": 1774.7999999998137,
+        "buttonFirstMs": 1774.7999999998137,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "cold": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 3801.4000000003725,
+        "quantityFirstMs": 3801.4000000003725,
+        "buttonFirstMs": 3801.4000000003725,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 3801.4000000003725,
+        "quantityFirstMs": 3801.4000000003725,
+        "buttonFirstMs": 3801.4000000003725,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "detail": [
+      {
+        "code": "346147",
+        "delayMs": 0,
+        "priceFirstMs": 2318.5,
+        "quantityFirstMs": 2318.5,
+        "buttonFirstMs": 2318.5,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "207319",
+        "delayMs": 0,
+        "priceFirstMs": 2318.5,
+        "quantityFirstMs": 2318.5,
+        "buttonFirstMs": 2318.5,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "back": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 2196,
+        "quantityFirstMs": 2196,
+        "buttonFirstMs": 2196,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 2196,
+        "quantityFirstMs": 2196,
+        "buttonFirstMs": 2196,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "cold": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 3906.2000000001863,
+        "quantityFirstMs": 3906.2000000001863,
+        "buttonFirstMs": 3906.2000000001863,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 3906.2000000001863,
+        "quantityFirstMs": 3906.2000000001863,
+        "buttonFirstMs": 3906.2000000001863,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "detail": [
+      {
+        "code": "346147",
+        "delayMs": 0,
+        "priceFirstMs": 2054.7999999998137,
+        "quantityFirstMs": 2054.7999999998137,
+        "buttonFirstMs": 2054.7999999998137,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "207319",
+        "delayMs": 0,
+        "priceFirstMs": 2054.7999999998137,
+        "quantityFirstMs": 2054.7999999998137,
+        "buttonFirstMs": 2054.7999999998137,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "back": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 2045.4000000003725,
+        "quantityFirstMs": 2045.4000000003725,
+        "buttonFirstMs": 2045.4000000003725,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 2045.4000000003725,
+        "quantityFirstMs": 2045.4000000003725,
+        "buttonFirstMs": 2045.4000000003725,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "cold": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 2875.9000000003725,
+        "quantityFirstMs": 2875.9000000003725,
+        "buttonFirstMs": 2875.9000000003725,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 2875.9000000003725,
+        "quantityFirstMs": 2875.9000000003725,
+        "buttonFirstMs": 2875.9000000003725,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "detail": [
+      {
+        "code": "346147",
+        "delayMs": 0,
+        "priceFirstMs": 2504.7000000001863,
+        "quantityFirstMs": 2504.7000000001863,
+        "buttonFirstMs": 2504.7000000001863,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "207319",
+        "delayMs": 0,
+        "priceFirstMs": 2504.7000000001863,
+        "quantityFirstMs": 2504.7000000001863,
+        "buttonFirstMs": 2504.7000000001863,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "back": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 1751.6000000005588,
+        "quantityFirstMs": 1751.6000000005588,
+        "buttonFirstMs": 1751.6000000005588,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 1751.6000000005588,
+        "quantityFirstMs": 1751.6000000005588,
+        "buttonFirstMs": 1751.6000000005588,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "cold": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 2501.9000000003725,
+        "quantityFirstMs": 2501.9000000003725,
+        "buttonFirstMs": 2501.9000000003725,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 2501.9000000003725,
+        "quantityFirstMs": 2501.9000000003725,
+        "buttonFirstMs": 2501.9000000003725,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "detail": [
+      {
+        "code": "346147",
+        "delayMs": 0,
+        "priceFirstMs": 2457.2000000001863,
+        "quantityFirstMs": 2457.2000000001863,
+        "buttonFirstMs": 2457.2000000001863,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "207319",
+        "delayMs": 0,
+        "priceFirstMs": 2457.2000000001863,
+        "quantityFirstMs": 2457.2000000001863,
+        "buttonFirstMs": 2457.2000000001863,
+        "unit": "/ ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "back": [
+      {
+        "code": "477822",
+        "delayMs": 0,
+        "priceFirstMs": 1309.5,
+        "quantityFirstMs": 1309.5,
+        "buttonFirstMs": 1309.5,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      },
+      {
+        "code": "384446",
+        "delayMs": 0,
+        "priceFirstMs": 1309.5,
+        "quantityFirstMs": 1309.5,
+        "buttonFirstMs": 1309.5,
+        "unit": "/\u00a0ks",
+        "beforeLoad": true,
+        "geometry": {
+          "quantity": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "button": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "pass": true
+  }
+]

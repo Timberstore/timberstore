@@ -1,5 +1,11 @@
 # Changelog
 
+## Card reveal timing · 0.7.0-related.3 · 2026-10-23 · Preview only
+
+- Opraviť regresiu related.2: nákupné ovládače nečakajú na `after-load`/obrázky; chýbajúca jednotka neskrýva existujúcu cenu.
+- Zachovať synchronizované natívne jednotky a rezervovaný priestor; zrušiť animovanie rozmerov a odhaľovania aj tlačidiel podobných produktov. Bez zmeny výsledného dizajnu a nákupnej logiky.
+- [Meranie prvého zobrazenia, regresné testy a preview](docs/previews/card-reveal-timing-20261023/README.md). Rovnaké limity, bez merge alebo produkčného nasadenia.
+
 ## Immediate units and static category purchase rows · 0.7.0-related.2 · 2026-10-23 · Preview only
 
 - Zobrazovať jednotku s cenou z natívnych údajov karty bez load/idle a dodatočného requestu; zachovať overený fallback bez odhadu zo skladu.

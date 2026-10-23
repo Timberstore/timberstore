@@ -79,14 +79,12 @@
   left: 0;
   top: 0;
 }
-/* Native ready and our idempotent card preparation must both finish before
-   revealing the card. No unit-fetch-dependent gate or additional timer. */
-.type-detail:not(.after-load) .p-detail :is(.products-related, .products-alternative),
+/* Prepare recommendations synchronously; unrelated assets must not delay them. */
 .p-detail :is(.products-related, .products-alternative) .product:not(.ts-recommendation) {
   visibility: hidden;
 }
-.p-detail :is(.products-related, .products-alternative) :is(.p-code, .image, .name) {
-  transition-property: color, background-color, border-color;
+.p-detail :is(.products-related, .products-alternative) :is(.p-code, .image, .name, form.pr-action, .btn, .quantity, input) {
+  transition-property: color, background-color, border-color, box-shadow;
 }
 /* Reserve the same unit slot before its verified asynchronous value arrives.
    The amount stays still; this placeholder contains no guessed unit or data. */
@@ -98,9 +96,4 @@
   display: inline-block !important;
   min-width: 3em;
   font-size: 13px !important;
-}
-/* When native unit metadata is unavailable, reveal amount and verified unit
-   together. A failed source fails open to the original price, never a guess. */
-.ts-unit-pending .price-final {
-  visibility: hidden;
 }
