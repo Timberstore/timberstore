@@ -28,6 +28,10 @@ Natívne inputy, min/max/step, produkty, obrázky, ceny, mena, DPH, skladové ú
 
 Timing záznamy uchovávajú zmeny a prvý/posledný stav namiesto opakovaných identických vzoriek. Testy čítajú iba skutočne zobrazené ovládače, nie skrytý natívny amount input. V prvom rozpracovanom harnesse bol selektor opravený z hidden inputu na viditeľné množstevné pole; nejde o zmenu aplikácie. Konečná matica je celá PASS.
 
+## Screenshoty z publikovanej CDN
+
+[Desktop – dve karty](images/category-1440.png) · [Mobil – dve karty vedľa seba](images/category-390.png). Obrázky sú po skutočnom Back; načítanie dokladujú timing záznamy.
+
 ## Rozsah a limity
 
 Zdrojové zásahy oproti related.1: jeden selector jednotkových hlásení; okamžité doplnenie jednotky v recommendations; presun už existujúceho produktového navigačného štýlu do cleanup modulu pre tri typy stránok; dve lokálne CSS pravidlá pre kategórie a pending cenu. Žiadny nový observer, knižnica alebo skladová/cenová logika.

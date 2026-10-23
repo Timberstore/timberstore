@@ -1,0 +1,240 @@
+[
+  {
+    "width": 1440,
+    "cold": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "loader": {
+      "sha": "1e465fdb04f581e028a6f60fc76b6dc5a11c8e13",
+      "preview": true,
+      "runtime": "v0.7.0-related.2"
+    },
+    "related": [
+      {
+        "sku": "346147",
+        "firstMs": 2170.5,
+        "unit": "/ ks"
+      },
+      {
+        "sku": "207319",
+        "firstMs": 2170.5,
+        "unit": "/ ks"
+      }
+    ],
+    "sourceFetches": [],
+    "back": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      }
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "cold": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "loader": {
+      "sha": "1e465fdb04f581e028a6f60fc76b6dc5a11c8e13",
+      "preview": true,
+      "runtime": "v0.7.0-related.2"
+    },
+    "related": [
+      {
+        "sku": "346147",
+        "firstMs": 1146.7999999998137,
+        "unit": "/ ks"
+      },
+      {
+        "sku": "207319",
+        "firstMs": 1146.7999999998137,
+        "unit": "/ ks"
+      }
+    ],
+    "sourceFetches": [],
+    "back": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.css",
+        "status": 200,
+        "type": "stylesheet"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@1e465fdb04f581e028a6f60fc76b6dc5a11c8e13/dist/timber.min.js",
+        "status": 200,
+        "type": "script"
+      }
+    ],
+    "errors": [],
+    "pass": true
+  }
+]

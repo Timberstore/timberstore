@@ -34,3 +34,12 @@
 - [verification/units.cjs](verification/units.cjs)
 
 - [Finálne kontroly](evidence/checks.txt)
+
+## Doplnené po publikovaní (iba dokumentácia)
+
+- [evidence/cdn.json](evidence/cdn.json)
+- [evidence/cdn-assets.json](evidence/cdn-assets.json)
+- [evidence/production.json](evidence/production.json)
+- [verification/cdn.cjs](verification/cdn.cjs)
+- [images/category-1440.png](images/category-1440.png)
+- [images/category-390.png](images/category-390.png)

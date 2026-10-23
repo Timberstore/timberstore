@@ -9,3 +9,5 @@ Z tejto zložky:
 - `node functional.cjs`: natívne množstvo +/−, reálny anonymný nákup 1 ks 477822, kontrola serverového/hlavného košíka, preklik kategórií a Back na 1440/390/320. Bez objednávky alebo platby.
 
 JSON pri skriptoch sú nové výstupy; auditované výsledky sú v ../evidence. Verejné dáta a dostupnosť servera môžu ovplyvniť ďalšie behy. Skripty nemenia administráciu.
+
+`node cdn.cjs` overí presný immutable commit cez CDN na 1440/390 px a následne čistú produkčnú reláciu bez preview.
