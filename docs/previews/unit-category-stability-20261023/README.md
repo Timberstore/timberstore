@@ -30,7 +30,7 @@ Timing záznamy uchovávajú zmeny a prvý/posledný stav namiesto opakovaných 
 
 ## Screenshoty z publikovanej CDN
 
-[Desktop – dve karty](images/category-1440.png) · [Mobil – dve karty vedľa seba](images/category-390.png). Obrázky sú po skutočnom Back; načítanie dokladujú timing záznamy.
+[Desktop – dve karty](images/category-1440.png) · [Mobil – dve karty vedľa seba](images/category-390.png). Obrázky sú z čistého otvorenia po natívnom odmietnutí cookie banneru; načítanie a Back dokladujú timing záznamy.
 
 ## Rozsah a limity
 

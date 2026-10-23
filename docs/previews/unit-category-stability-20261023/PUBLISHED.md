@@ -14,7 +14,7 @@ Oba HTTP 200 a bajtovo zhodné s finálnym dist cez cmp aj SHA-256. [Dôkaz](evi
 
 Chromium cez skutočnú CDN, bez lokálnej náhrady assetov: **1440 a 390 px PASS**. Cold otvorenie kategórie, klik produktu, prvé viditeľné ceny súvisiacich/podobných už s jednotkou, Back a geometria oboch nákupných riadkov. Rozsah zmien rozmerov/polohy ovládačov **0 px**. Pre jednotky žiadne fetchovanie ďalších produktových dokumentov. Žiadna nová pageError. [Merania](evidence/cdn.json), [skript](verification/cdn.cjs).
 
-Screenshoty dvojice kariet po Back: [desktop](images/category-1440.png), [mobil](images/category-390.png).
+Čisté screenshoty dvojice kariet (natívny cookie banner odmietnutý): [desktop](images/category-1440.png), [mobil](images/category-390.png).
 
 Nová nezávislá relácia bez preview: loader **v0.7.0**, runtime **v0.7.0**, preview **false**. [Záznam](evidence/production.json).
 

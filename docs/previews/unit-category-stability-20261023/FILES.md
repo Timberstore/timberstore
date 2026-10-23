@@ -43,3 +43,5 @@
 - [verification/cdn.cjs](verification/cdn.cjs)
 - [images/category-1440.png](images/category-1440.png)
 - [images/category-390.png](images/category-390.png)
+
+- [Čisté screenshoty cez natívne odmietnutie cookie banneru](verification/screenshots.cjs)
