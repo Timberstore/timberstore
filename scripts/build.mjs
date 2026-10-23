@@ -19,7 +19,7 @@ const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 // Owner-approved v0.7.0 retains the tested compact.1 limits without increase.
 // Stable v0.6.13 and earlier versions retain their original allowances.
 // Isolated related-card fix: 27 KiB CSS preview cap; stable releases stay unchanged.
-const cssBudgetKiB = pkg.version === '0.7.0-related.1' ? 27 : ['0.7.0', '0.6.13-compact.1'].includes(pkg.version) ? 26.75 : pkg.version === '0.6.13-compact.0' ? 24 : pkg.version === '0.6.13' ? 23.25 : pkg.version === '0.6.12' ? 23 : ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
+const cssBudgetKiB = ['0.7.0-related.1', '0.7.0-related.2'].includes(pkg.version) ? 27 : ['0.7.0', '0.6.13-compact.1'].includes(pkg.version) ? 26.75 : pkg.version === '0.6.13-compact.0' ? 24 : pkg.version === '0.6.13' ? 23.25 : pkg.version === '0.6.12' ? 23 : ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
   ? 21
   : ['0.6.11-rc.2', '0.6.11-rc.3'].includes(pkg.version)
     ? 20.25
@@ -36,7 +36,7 @@ const cssBudgetKiB = pkg.version === '0.7.0-related.1' ? 27 : ['0.7.0', '0.6.13-
               : pkg.version === '0.6.5'
                 ? 16
                 : 15;
-const BUDGET = { 'dist/timber.min.js': (['0.7.0', '0.7.0-related.1', '0.6.13-compact.1'].includes(pkg.version) ? 32 : 30) * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
+const BUDGET = { 'dist/timber.min.js': (['0.7.0', '0.7.0-related.1', '0.7.0-related.2', '0.6.13-compact.1'].includes(pkg.version) ? 32 : 30) * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
 
 const common = {
   bundle: true,

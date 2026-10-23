@@ -222,3 +222,14 @@ form.pr-action:has(> .ts-qty) > .btn {
     color: var(--ts-color-controls-text) !important;
   }
 }
+
+/* Category/search purchase rows reveal in their final native/enhanced state.
+   Keep their reserved layout space while Apollo and the quantity UI prepare. */
+:is(.type-category, .type-search):not(.after-load) .content-wrapper #products form.pr-action,
+:is(.type-category, .type-search) .content-wrapper #products .product:not(.ts-card) form.pr-action,
+:is(.type-category, .type-search) .content-wrapper #products form.pr-action:has(input[name='amount']):not(:has(.ts-qty, .quantity)) {
+  visibility: hidden;
+}
+:is(.type-category, .type-search) .content-wrapper #products :is(form.pr-action, .btn-cart, .ts-qty, .quantity, input) {
+  transition-property: color, background-color, border-color, box-shadow;
+}

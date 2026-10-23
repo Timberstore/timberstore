@@ -1,0 +1,866 @@
+{
+  "width": 390,
+  "cold": [
+    {
+      "sku": "477822",
+      "quantity-x": 0,
+      "quantity-y": 0,
+      "quantity-w": 0,
+      "quantity-h": 0,
+      "button-x": 0,
+      "button-y": 0,
+      "button-w": 0,
+      "button-h": 0,
+      "field-x": 0,
+      "field-y": 0,
+      "field-w": 0,
+      "field-h": 0
+    },
+    {
+      "sku": "384446",
+      "quantity-x": 0,
+      "quantity-y": 0,
+      "quantity-w": 0,
+      "quantity-h": 0,
+      "button-x": 0,
+      "button-y": 0,
+      "button-w": 0,
+      "button-h": 0,
+      "field-x": 0,
+      "field-y": 0,
+      "field-w": 0,
+      "field-h": 0
+    }
+  ],
+  "initial": [
+    {
+      "t": 915.6000000000931,
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": []
+    },
+    {
+      "t": 1152.2000000001863,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": []
+    },
+    {
+      "t": 1324.2000000001863,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 21.796875,
+            "y": 12,
+            "w": 111.203125,
+            "h": 40
+          },
+          "field": null
+        },
+        {
+          "sku": "384446",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 21.796875,
+            "y": 12,
+            "w": 111.203125,
+            "h": 40
+          },
+          "field": null
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 1731.5,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 12.375,
+            "y": 0,
+            "w": 140.25,
+            "h": 40
+          },
+          "field": null
+        },
+        {
+          "sku": "384446",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 12.375,
+            "y": 0,
+            "w": 140.25,
+            "h": 40
+          },
+          "field": null
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 1912.2000000001863,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 12.375,
+            "y": 0,
+            "w": 140.25,
+            "h": 40
+          },
+          "field": null
+        },
+        {
+          "sku": "384446",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 12.375,
+            "y": 0,
+            "w": 140.25,
+            "h": 40
+          },
+          "field": null
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 3758.9000000003725,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": false,
+          "quantity": {
+            "visible": false,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": false,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": false,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        },
+        {
+          "sku": "384446",
+          "visible": false,
+          "quantity": {
+            "visible": false,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": false,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": false,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 3803.4000000003725,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": true,
+          "quantity": {
+            "visible": true,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": true,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": true,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        },
+        {
+          "sku": "384446",
+          "visible": true,
+          "quantity": {
+            "visible": true,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": true,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": true,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 9359.200000000186,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": true,
+          "quantity": {
+            "visible": true,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": true,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": true,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        },
+        {
+          "sku": "384446",
+          "visible": true,
+          "quantity": {
+            "visible": true,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": true,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": true,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        }
+      ],
+      "prices": []
+    }
+  ],
+  "related": [
+    {
+      "sku": "346147",
+      "firstMs": 3292.899999999907,
+      "unit": "/ ks"
+    },
+    {
+      "sku": "207319",
+      "firstMs": 3292.899999999907,
+      "unit": "/ ks"
+    }
+  ],
+  "detail": [
+    {
+      "t": 533.5,
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": []
+    },
+    {
+      "t": 831.2000000001863,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": []
+    },
+    {
+      "t": 1172.7000000001863,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": []
+    },
+    {
+      "t": 1374.8999999999069,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": []
+    },
+    {
+      "t": 3252.7000000001863,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": [
+        {
+          "sku": "346147",
+          "visible": false,
+          "unit": "/ ks",
+          "hints": [
+            "Nie je mo\u017en\u00e9 zak\u00fapi\u0165 viac ne\u017e 9999 ks.",
+            "Minim\u00e1lne mno\u017estvo, ktor\u00e9 je mo\u017en\u00e9 zak\u00fapi\u0165 je 1 ks."
+          ]
+        },
+        {
+          "sku": "207319",
+          "visible": false,
+          "unit": "/ ks",
+          "hints": [
+            "Nie je mo\u017en\u00e9 zak\u00fapi\u0165 viac ne\u017e 9999 ks.",
+            "Minim\u00e1lne mno\u017estvo, ktor\u00e9 je mo\u017en\u00e9 zak\u00fapi\u0165 je 1 ks."
+          ]
+        }
+      ]
+    },
+    {
+      "t": 3292.899999999907,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": [
+        {
+          "sku": "346147",
+          "visible": true,
+          "unit": "/ ks",
+          "hints": [
+            "Nie je mo\u017en\u00e9 zak\u00fapi\u0165 viac ne\u017e 9999 ks.",
+            "Minim\u00e1lne mno\u017estvo, ktor\u00e9 je mo\u017en\u00e9 zak\u00fapi\u0165 je 1 ks."
+          ]
+        },
+        {
+          "sku": "207319",
+          "visible": true,
+          "unit": "/ ks",
+          "hints": [
+            "Nie je mo\u017en\u00e9 zak\u00fapi\u0165 viac ne\u017e 9999 ks.",
+            "Minim\u00e1lne mno\u017estvo, ktor\u00e9 je mo\u017en\u00e9 zak\u00fapi\u0165 je 1 ks."
+          ]
+        }
+      ]
+    },
+    {
+      "t": 9005.700000000186,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-product type-detail multiple-columns-body columns-mobile-2 columns-1 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": [
+        {
+          "sku": "346147",
+          "visible": true,
+          "unit": "/ ks",
+          "hints": [
+            "Nie je mo\u017en\u00e9 zak\u00fapi\u0165 viac ne\u017e 9999 ks.",
+            "Minim\u00e1lne mno\u017estvo, ktor\u00e9 je mo\u017en\u00e9 zak\u00fapi\u0165 je 1 ks."
+          ]
+        },
+        {
+          "sku": "207319",
+          "visible": true,
+          "unit": "/ ks",
+          "hints": [
+            "Nie je mo\u017en\u00e9 zak\u00fapi\u0165 viac ne\u017e 9999 ks.",
+            "Minim\u00e1lne mno\u017estvo, ktor\u00e9 je mo\u017en\u00e9 zak\u00fapi\u0165 je 1 ks."
+          ]
+        }
+      ]
+    }
+  ],
+  "fallbackRequests": [],
+  "back": [
+    {
+      "sku": "477822",
+      "quantity-x": 0,
+      "quantity-y": 0,
+      "quantity-w": 0,
+      "quantity-h": 0,
+      "button-x": 0,
+      "button-y": 0,
+      "button-w": 0,
+      "button-h": 0,
+      "field-x": 0,
+      "field-y": 0,
+      "field-w": 0,
+      "field-h": 0
+    },
+    {
+      "sku": "384446",
+      "quantity-x": 0,
+      "quantity-y": 0,
+      "quantity-w": 0,
+      "quantity-h": 0,
+      "button-x": 0,
+      "button-y": 0,
+      "button-w": 0,
+      "button-h": 0,
+      "field-x": 0,
+      "field-y": 0,
+      "field-w": 0,
+      "field-h": 0
+    }
+  ],
+  "backSamples": [
+    {
+      "t": 1487,
+      "view": [
+        390,
+        390
+      ],
+      "rows": [],
+      "prices": []
+    },
+    {
+      "t": 1682.7000000001863,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 20.8125,
+            "y": 12,
+            "w": 112.1875,
+            "h": 40
+          },
+          "field": null
+        },
+        {
+          "sku": "384446",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 20.8125,
+            "y": 12,
+            "w": 112.1875,
+            "h": 40
+          },
+          "field": null
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 1743.3999999999069,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 21.796875,
+            "y": 12,
+            "w": 111.203125,
+            "h": 40
+          },
+          "field": null
+        },
+        {
+          "sku": "384446",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 21.796875,
+            "y": 12,
+            "w": 111.203125,
+            "h": 40
+          },
+          "field": null
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 1865,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 12.375,
+            "y": 0,
+            "w": 140.25,
+            "h": 40
+          },
+          "field": null
+        },
+        {
+          "sku": "384446",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 12.375,
+            "y": 0,
+            "w": 140.25,
+            "h": 40
+          },
+          "field": null
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 1993.6000000000931,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 12.375,
+            "y": 0,
+            "w": 140.25,
+            "h": 40
+          },
+          "field": null
+        },
+        {
+          "sku": "384446",
+          "visible": false,
+          "quantity": null,
+          "button": {
+            "visible": false,
+            "x": 12.375,
+            "y": 0,
+            "w": 140.25,
+            "h": 40
+          },
+          "field": null
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 4224.600000000093,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": false,
+          "quantity": {
+            "visible": false,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": false,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": false,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        },
+        {
+          "sku": "384446",
+          "visible": false,
+          "quantity": {
+            "visible": false,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": false,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": false,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 4258.100000000093,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": true,
+          "quantity": {
+            "visible": true,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": true,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": true,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        },
+        {
+          "sku": "384446",
+          "visible": true,
+          "quantity": {
+            "visible": true,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": true,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": true,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        }
+      ],
+      "prices": []
+    },
+    {
+      "t": 7430,
+      "page": "mobile id-8141 in-granitove-drezy template-11 type-category multiple-columns-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load",
+      "view": [
+        390,
+        390
+      ],
+      "rows": [
+        {
+          "sku": "477822",
+          "visible": true,
+          "quantity": {
+            "visible": true,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": true,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": true,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        },
+        {
+          "sku": "384446",
+          "visible": true,
+          "quantity": {
+            "visible": true,
+            "x": 8,
+            "y": 0,
+            "w": 88,
+            "h": 38
+          },
+          "button": {
+            "visible": true,
+            "x": 104,
+            "y": 0,
+            "w": 53,
+            "h": 38
+          },
+          "field": {
+            "visible": true,
+            "x": 34.28125,
+            "y": 1,
+            "w": 35.421875,
+            "h": 36
+          }
+        }
+      ],
+      "prices": []
+    }
+  ],
+  "pass": true
+}

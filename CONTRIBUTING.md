@@ -292,3 +292,5 @@ E-shop zůstává na Shoptetu. Na serveru běží **jen pomocné úlohy**: staho
 - Stav jednotlivých úkolů klient vidí v Trellu.
 
 - **Izolovaná preview `0.7.0-related.1` (23. 10. 2026):** oprava štítku NOVINKA a stability súvisiacich kariet priamo nad v0.7.0. JS limit 32 KiB nezmenený; CSS 27 KiB len pre túto preview (oproti stabilným 26,75 KiB), podľa existujúceho súhlasu majiteľa na potrebné rozšírenie priestoru. Výstup JS 32 507 B / CSS 27 497 B gzip. Stabilné tagy ani ich limity sa nemenia. [Audit](docs/previews/related-card-stability-20261023/README.md).
+
+- **Preview `0.7.0-related.2` (23. 10. 2026):** existujúce limity related.1 bez navýšenia, JS 32 KiB / CSS 27 KiB. Jednotky a statické nákupné riadky kategórií, výsledok JS 32714 B / CSS 27607 B gzip. [Audit](docs/previews/unit-category-stability-20261023/README.md). Iba aktuálna preview vetva, stabilné tagy a loader nezmenené.

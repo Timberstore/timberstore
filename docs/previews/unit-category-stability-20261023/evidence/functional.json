@@ -1,0 +1,293 @@
+[
+  {
+    "width": 1440,
+    "code": "477822",
+    "posts": 1,
+    "cart": [
+      {
+        "code": "477822",
+        "guid": "ddc6155e-7f07-11f1-a25b-bc2411ba050d",
+        "priceId": 386489,
+        "quantity": 1,
+        "priceWithVat": 244.81,
+        "priceWithoutDiscount": 244.81,
+        "discounts": {
+          "quantityRatio": 1,
+          "customerRatio": 1,
+          "volumeRatio": 1,
+          "couponRatio": 1,
+          "unknown": 1,
+          "minimalRatio": null,
+          "customerGroupMaximum": null,
+          "cashDeskPriceRatio": 1,
+          "summaryRatio": 1,
+          "finalRatio": 1,
+          "xyDiscount": false
+        },
+        "itemId": "6adb45e7da6d7",
+        "name": "FRANKE Drez BFG 611 970x500mm čierna matná",
+        "weight": 19.04
+      }
+    ],
+    "categoryNavigation": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "categoryBack": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "styles": 1,
+    "pass": true
+  },
+  {
+    "width": 390,
+    "code": "477822",
+    "posts": 1,
+    "cart": [
+      {
+        "code": "477822",
+        "guid": "ddc6155e-7f07-11f1-a25b-bc2411ba050d",
+        "priceId": 386489,
+        "quantity": 1,
+        "priceWithVat": 244.81,
+        "priceWithoutDiscount": 244.81,
+        "discounts": {
+          "quantityRatio": 1,
+          "customerRatio": 1,
+          "volumeRatio": 1,
+          "couponRatio": 1,
+          "unknown": 1,
+          "minimalRatio": null,
+          "customerGroupMaximum": null,
+          "cashDeskPriceRatio": 1,
+          "summaryRatio": 1,
+          "finalRatio": 1,
+          "xyDiscount": false
+        },
+        "itemId": "6adb45fc9f72d",
+        "name": "FRANKE Drez BFG 611 970x500mm čierna matná",
+        "weight": 19.04
+      }
+    ],
+    "categoryNavigation": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "categoryBack": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "styles": 1,
+    "pass": true
+  },
+  {
+    "width": 320,
+    "code": "477822",
+    "posts": 1,
+    "cart": [
+      {
+        "code": "477822",
+        "guid": "ddc6155e-7f07-11f1-a25b-bc2411ba050d",
+        "priceId": 386489,
+        "quantity": 1,
+        "priceWithVat": 244.81,
+        "priceWithoutDiscount": 244.81,
+        "discounts": {
+          "quantityRatio": 1,
+          "customerRatio": 1,
+          "volumeRatio": 1,
+          "couponRatio": 1,
+          "unknown": 1,
+          "minimalRatio": null,
+          "customerGroupMaximum": null,
+          "cashDeskPriceRatio": 1,
+          "summaryRatio": 1,
+          "finalRatio": 1,
+          "xyDiscount": false
+        },
+        "itemId": "6adb46102b344",
+        "name": "FRANKE Drez BFG 611 970x500mm čierna matná",
+        "weight": 19.04
+      }
+    ],
+    "categoryNavigation": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "categoryBack": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "styles": 1,
+    "pass": true
+  }
+]

@@ -3,12 +3,10 @@
 // labels or a guessed "ks". One cached document per URL, no scripts executed.
 import { SEL } from '../../core/selectors.js';
 import { COLORBOX_EVENTS } from '../../core/events.js';
-import { whenIdleAfterLoad } from '../../core/idle.js';
 import qtyPicker from '../qty-picker/index.js';
 import { sourceQuantity } from '../cart-presentation/related.js';
 
 const sources = new WeakMap();
-const queued = new WeakSet();
 let resizePending = false;
 let listening = false;
 const completed = new WeakSet();
@@ -24,6 +22,16 @@ function resizePopup(card) {
   });
 }
 
+function quantityUnit(card) {
+  // Both native order-limit messages describe this card's selling unit. Read
+  // their shared suffix, never availability text or an assumed default unit.
+  const units = [...card.querySelectorAll(SEL.recommendationUnitHints)].map((hint) =>
+    (hint.getAttribute('data-original-title') || hint.getAttribute('title') || '')
+      .match(/\d[\d\s.,]*\s+(\p{L}[\p{L}\p{N}²³/._ -]{0,31})\.\s*$/u)?.[1].trim(),
+  );
+  return units.length === 2 && units[0] && units[0] === units[1] ? '/ ' + units[0] : null;
+}
+
 async function supplyUnit(card) {
   const href = card.querySelector(SEL.recommendationLink)?.href;
   const priceId = card.querySelector(SEL.cartFormPriceId)?.value;
@@ -36,11 +44,22 @@ async function supplyUnit(card) {
     source = { key };
     sources.set(card, source);
   }
-  if (card.querySelector(SEL.productPriceUnit) || source.pending || source.failed) return;
+  if (card.querySelector(SEL.productPriceUnit)) {
+    card.classList.remove('ts-unit-pending');
+    return;
+  }
+  if (source.pending) return;
+  let unit = quantityUnit(card);
+  if (source.failed && !unit) return;
   source.pending = true;
-  const data = await sourceQuantity(new URL(href), priceId, code);
+  if (!unit) {
+    card.classList.add('ts-unit-pending');
+    unit = (await sourceQuantity(new URL(href), priceId, code))?.unit;
+  }
   source.pending = false;
-  if (!data?.unit) {
+  if (sources.get(card) !== source) return;
+  card.classList.remove('ts-unit-pending');
+  if (!unit) {
     source.failed = true;
     return;
   }
@@ -50,7 +69,7 @@ async function supplyUnit(card) {
   if (!price) return;
   const span = document.createElement('span');
   span.className = 'ts-recommendation-unit';
-  span.textContent = ' ' + data.unit.replace(/\s+/g, ' ');
+  span.textContent = ' ' + unit.replace(/\s+/g, ' ');
   price.append(span);
   resizePopup(card);
 }
@@ -75,12 +94,6 @@ export function prepareRecommendations(root) {
     // Keep native quantity handlers; reuse the picker only for this card's
     // missing UI. Classic listings retain their original page/init scope.
     qtyPicker.init(card);
-    if (!queued.has(card)) {
-      queued.add(card);
-      whenIdleAfterLoad(() => {
-        queued.delete(card);
-        if (card.isConnected) void supplyUnit(card);
-      });
-    }
+    void supplyUnit(card);
   }
 }

@@ -110,6 +110,7 @@ export const SEL = {
     '.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product',
   recommendationLink: 'a.name[href]',
   recommendationSku: '[data-micro="sku"]',
+  recommendationUnitHints: '.quantity .decrease-tooltip, .quantity .increase-tooltip',
   recommendationPrice: '.price-final',
   productPriceUnit: '.pr-list-unit, .ts-recommendation-unit',
   sourceProductPriceUnit: '.p-detail .price-final .pr-list-unit',

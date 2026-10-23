@@ -1,5 +1,11 @@
 # Changelog
 
+## Immediate units and static category purchase rows · 0.7.0-related.2 · 2026-10-23 · Preview only
+
+- Zobrazovať jednotku s cenou z natívnych údajov karty bez load/idle a dodatočného requestu; zachovať overený fallback bez odhadu zo skladu.
+- Kategórie/vyhľadávanie: odhaliť nákupný riadok pripravený, neanimovať šírky a zdieľať už existujúci opt-out navigačnej snímky. Bez zmeny výsledného dizajnu a natívnych nákupov.
+- [Testy, rozsah, jednotkové fallbacky a preview](docs/previews/unit-category-stability-20261023/README.md). Bez navýšenia limitov, merge alebo produkčného nasadenia.
+
 ## Related-card stability · 0.7.0-related.1 · 2026-10-23 · Preview only
 
 - Samostatná malá oprava priamo z main/v0.7.0, bez prenesenia odmietnutých UI preview. Bezpečné umiestnenie NOVINKA a stabilná typografia/geometria súvisiacich kariet pri návrate Back.

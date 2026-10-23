@@ -1,8 +1,10 @@
+import { getPageType } from '../../core/page.js';
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { prepareRecommendations } from './recommendations.js';
 
 let observer;
+let historyStyle;
 
 function cleanValue(text) {
   return text
@@ -77,6 +79,12 @@ export default {
   name: 'product-text-cleanup',
   pages: ['*'],
   init(root) {
+    // Product/listing history must not restore an intermediate Apollo snapshot.
+    if (!historyStyle && ['detail', 'category', 'search'].includes(getPageType())) {
+      historyStyle = document.createElement('style');
+      historyStyle.textContent = '@view-transition{navigation:none}';
+      document.head.append(historyStyle);
+    }
     cleanProductTexts(root);
     if (observer || !document.body) return;
     observer = new MutationObserver(() => cleanProductTexts(document));

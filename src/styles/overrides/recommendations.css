@@ -99,3 +99,8 @@
   min-width: 3em;
   font-size: 13px !important;
 }
+/* When native unit metadata is unavailable, reveal amount and verified unit
+   together. A failed source fails open to the original price, never a guess. */
+.ts-unit-pending .price-final {
+  visibility: hidden;
+}

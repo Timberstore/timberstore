@@ -1,0 +1,10 @@
+
+> timberstore@0.7.0-related.2 lint
+> eslint --no-error-on-unmatched-pattern src shared scripts
+
+
+> timberstore@0.7.0-related.2 build
+> node scripts/build.mjs
+
+OK   dist/timber.min.js  31.95 kB gzip / limit 32 kB
+OK   dist/timber.min.css  26.96 kB gzip / limit 27 kB

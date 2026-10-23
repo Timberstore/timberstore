@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://www.timberstore.sk/zdvihak-postelovy-kp03-baleny--jednolozko-priecne-70-par/",
+    "unit": "/ pár",
+    "sku": 11431,
+    "extracted": "/ pár",
+    "source": "live main quantity cloned into isolated recommendation fixture",
+    "pass": true
+  },
+  {
+    "url": "https://www.timberstore.sk/led-pasik-8mm-9-6w-m-12v-biela-tepla/",
+    "unit": "/ m",
+    "sku": 179304,
+    "extracted": "/ m",
+    "source": "live main quantity cloned into isolated recommendation fixture",
+    "pass": true
+  },
+  {
+    "url": "https://www.timberstore.sk/pruzina-k-zdvihaku-kp03-3-00x22-5x142x36-silnejsia/",
+    "unit": "/ ks",
+    "sku": 11454,
+    "extracted": "/ ks",
+    "source": "live main quantity cloned into isolated recommendation fixture",
+    "pass": true
+  },
+  {
+    "case": "conflicting hints: kg vs ks",
+    "fallback": "verified exact product",
+    "pendingMainPriceVisibility": "hidden",
+    "result": "/ ks",
+    "pass": true
+  },
+  {
+    "case": "source 503 + stock text ks",
+    "inventedUnit": false,
+    "mainPriceRestored": true,
+    "pass": true
+  },
+  {
+    "case": "new native unit replaces in-flight source",
+    "unit": "/ m",
+    "pendingCleared": true,
+    "noStaleAppend": true,
+    "pass": true
+  }
+]

@@ -1,0 +1,36 @@
+# Zmenené súbory oproti related.1
+
+- [CHANGELOG.md](../../../CHANGELOG.md)
+- [CONTRIBUTING.md](../../../CONTRIBUTING.md)
+- [dist/timber.min.css](../../../dist/timber.min.css)
+- [dist/timber.min.css.map](../../../dist/timber.min.css.map)
+- [dist/timber.min.js](../../../dist/timber.min.js)
+- [dist/timber.min.js.map](../../../dist/timber.min.js.map)
+- [package-lock.json](../../../package-lock.json)
+- [package.json](../../../package.json)
+- [scripts/build.mjs](../../../scripts/build.mjs)
+- [src/core/selectors.js](../../../src/core/selectors.js)
+- [src/modules/product-compact/index.js](../../../src/modules/product-compact/index.js)
+- [src/modules/product-text-cleanup/index.js](../../../src/modules/product-text-cleanup/index.js)
+- [src/modules/product-text-cleanup/recommendations.js](../../../src/modules/product-text-cleanup/recommendations.js)
+- [src/styles/overrides/product-card.css](../../../src/styles/overrides/product-card.css)
+- [src/styles/overrides/recommendations.css](../../../src/styles/overrides/recommendations.css)
+
+## Dôkazy a testy
+
+- [PUBLISHED.md](PUBLISHED.md)
+- [README.md](README.md)
+- [evidence/build.json](evidence/build.json)
+- [evidence/functional.json](evidence/functional.json)
+- [evidence/matrix.json](evidence/matrix.json)
+- [evidence/timing-1440.json](evidence/timing-1440.json)
+- [evidence/timing-390.json](evidence/timing-390.json)
+- [evidence/units.json](evidence/units.json)
+- [verification/README.md](verification/README.md)
+- [verification/browser.cjs](verification/browser.cjs)
+- [verification/check.cjs](verification/check.cjs)
+- [verification/functional.cjs](verification/functional.cjs)
+- [verification/metrics.cjs](verification/metrics.cjs)
+- [verification/units.cjs](verification/units.cjs)
+
+- [Finálne kontroly](evidence/checks.txt)

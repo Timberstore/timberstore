@@ -1,0 +1,488 @@
+[
+  {
+    "width": 1440,
+    "cold": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "related": [
+      {
+        "sku": "346147",
+        "firstMs": 3665.899999999907,
+        "unit": "/ ks"
+      },
+      {
+        "sku": "207319",
+        "firstMs": 3665.899999999907,
+        "unit": "/ ks"
+      }
+    ],
+    "fallbackRequests": [],
+    "back": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 768,
+    "cold": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "related": [
+      {
+        "sku": "346147",
+        "firstMs": 3625.100000000093,
+        "unit": "/ ks"
+      },
+      {
+        "sku": "207319",
+        "firstMs": 3625.100000000093,
+        "unit": "/ ks"
+      }
+    ],
+    "fallbackRequests": [],
+    "back": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "cold": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "related": [
+      {
+        "sku": "346147",
+        "firstMs": 3452.600000000093,
+        "unit": "/ ks"
+      },
+      {
+        "sku": "207319",
+        "firstMs": 3452.600000000093,
+        "unit": "/ ks"
+      }
+    ],
+    "fallbackRequests": [],
+    "back": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 390,
+    "cold": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "related": [
+      {
+        "sku": "346147",
+        "firstMs": 3292.899999999907,
+        "unit": "/ ks"
+      },
+      {
+        "sku": "207319",
+        "firstMs": 3292.899999999907,
+        "unit": "/ ks"
+      }
+    ],
+    "fallbackRequests": [],
+    "back": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "cold": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "related": [
+      {
+        "sku": "346147",
+        "firstMs": 3269.100000000093,
+        "unit": "/ ks"
+      },
+      {
+        "sku": "207319",
+        "firstMs": 3269.100000000093,
+        "unit": "/ ks"
+      }
+    ],
+    "fallbackRequests": [],
+    "back": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "cold": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "related": [
+      {
+        "sku": "346147",
+        "firstMs": 3505.399999999907,
+        "unit": "/ ks"
+      },
+      {
+        "sku": "207319",
+        "firstMs": 3505.399999999907,
+        "unit": "/ ks"
+      }
+    ],
+    "fallbackRequests": [],
+    "back": [
+      {
+        "sku": "477822",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      },
+      {
+        "sku": "384446",
+        "quantity-x": 0,
+        "quantity-y": 0,
+        "quantity-w": 0,
+        "quantity-h": 0,
+        "button-x": 0,
+        "button-y": 0,
+        "button-w": 0,
+        "button-h": 0,
+        "field-x": 0,
+        "field-y": 0,
+        "field-w": 0,
+        "field-h": 0
+      }
+    ],
+    "pass": true
+  }
+]
