@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.7.3-rc.2 — preview (27. 10. 2026)
+
+- PC karty: sklad a množstvo používajú spoločný stĺpec; cena a tlačidlo Do košíka druhý spoločný stĺpec. Vycentrované pod sebou. Mobilné zobrazenie ostáva bez zmeny.
+- PC tabuľka: SKLADOM a cena s DPH v prvom riadku, počet kusov a cena bez DPH v zátvorkách v druhom. Pri centrálnom sklade CENTRÁLNY v prvom, SKLAD (počet) v druhom riadku. Dostupnosť vľavo.
+- V tabuľke označenie skladu 13px namiesto 14px; viditeľná modrá suma vrátane € 19px namiesto 20px. Názov produktu v tabuľke normálnou hrúbkou 400; na kartách zostáva tučný.
+- Len preview, zachované predchádzajúce úpravy, natívne formuláre a produkčný loader.
+
 ## v0.7.3-rc.1 — preview (27. 10. 2026)
 
 - Len PC od 992 px: produktové karty rezervujú štyri riadky názvu namiesto troch. Pod názvom je jemná oranžová oddeľovacia čiara pred skladom a cenou.
