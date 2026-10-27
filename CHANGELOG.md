@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.3-rc.1 — preview (27. 10. 2026)
+
+- Len PC od 992 px: produktové karty rezervujú štyri riadky názvu namiesto troch. Pod názvom je jemná oranžová oddeľovacia čiara pred skladom a cenou.
+- Mobilné štýly ostávajú z rc.0; desktopová tabuľka a horizontálne riadky popupu ostávajú bez tejto úpravy.
+- Zachované rozloženie skladu/ceny a potvrdená jedna karta na úzkom mobile z rc.0. Iba preview bez zmeny produkčného loadera.
+
 ## v0.7.3-rc.0 — preview (27. 10. 2026)
 
 - Produktové karty: sklad vľavo a cena vpravo v spoločnom riadku; cena bez DPH zostáva v zátvorkách.

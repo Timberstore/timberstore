@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Desktop titles preview `0.7.3-rc.1` (27. 10. 2026):** JS 32.5 KiB / CSS 29 KiB podľa zaznamenaného súhlasu 15. 10.; výstup 32.31 / 28.94 KiB. Iba desktopové štyri riadky názvu a jemný oddeľovač. Limity starších verzií a produkčný loader nezmenené.
+
 - **Stock/price preview `0.7.3-rc.0` (27. 10. 2026):** JS limit 32.5 KiB / CSS 28.875 KiB podľa súhlasu 15. 10. 2026, výstup 32.31 / 28.83 KiB. Zdieľané rozloženie kariet a zalomenie centrálneho skladu; pôvodné limity, stabilné tagy a produkčný loader zachované. Iba preview.
 
 - **Stabilní v0.7.2 (27. 10. 2026, výslovný souhlas majitele s merge/vydáním/nasazením):** přebírá schválené rc.6 limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení. Aplikační zdroje při povýšení beze změny, pouze číslo verze buildu. Safari/iPhone NOT TESTED; starší limity/tagy zachovány. Aktivace Shoptetu vyžaduje ověřený přístup do administrace.

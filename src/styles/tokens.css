@@ -9,6 +9,7 @@
     #962fbf 75%,
     #4f5bd5
   );
+  --ts-color-card-divider: rgba(212, 136, 74, 0.28);
   --ts-color-accent: #d4884a; /* btn-primary on timberstore.sk */
   /* Original Timber palette: no alternative brown action/link shades. */
   --ts-color-link: var(--ts-color-accent);

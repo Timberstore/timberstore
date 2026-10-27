@@ -298,3 +298,24 @@ body:not(.type-detail, .ordering-process) #content :is(.products, .products-bloc
     max-width: 100%;
   }
 }
+
+/* M2 · Desktop tiles reserve four title lines, followed by a subtle separator.
+   Important height/clamp rules override the legacy three-line !important cap.
+   Native horizontal popup rows and the desktop table keep their existing flow. */
+@media (min-width: 992px) {
+  :is(#content, .content-wrapper) :is(.products, .products-block)
+    .product:not(:where(#colorbox *, .ts-view-list #products > .product)) a.name {
+    -webkit-line-clamp: 4 !important;
+    line-clamp: 4 !important;
+    min-height: calc(1.3em * 4) !important;
+    max-height: calc(1.3em * 4) !important;
+  }
+  :is(#content, .content-wrapper) :is(.products, .products-block)
+    .product:not(:where(#colorbox *, .ts-view-list #products > .product)) .p-in-in::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: var(--ts-color-card-divider);
+    margin: 12px 0;
+  }
+}
