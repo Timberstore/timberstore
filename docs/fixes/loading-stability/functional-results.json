@@ -1,0 +1,440 @@
+[
+  {
+    "page": "category",
+    "width": 768,
+    "cards": 30,
+    "errors": [],
+    "controls": [
+      {
+        "priceId": "319091",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 231.5,
+        "h": 38,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "319094",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 231.5,
+        "h": 38,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "319097",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 231.5,
+        "h": 38,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "test": "cloned card / pack step / rounding / one native amount",
+    "width": 768,
+    "result": {
+      "initial": "10",
+      "plus": "20",
+      "rounded": "30",
+      "minus": "20",
+      "submitted": [
+        "20"
+      ],
+      "count": 1
+    }
+  },
+  {
+    "test": "native AJAX sorting first-frame quantities",
+    "width": 768,
+    "frames": 138,
+    "controls": 30
+  },
+  {
+    "page": "search",
+    "width": 768,
+    "cards": 24,
+    "errors": [],
+    "controls": [
+      {
+        "priceId": "329438",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 221.5,
+        "h": 38,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "323573",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 221.5,
+        "h": 38,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "324683",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 221.5,
+        "h": 38,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "page": "brand",
+    "width": 768,
+    "cards": 30,
+    "errors": [],
+    "controls": [
+      {
+        "priceId": "332123",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 221.5,
+        "h": 38,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "365874",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 221.5,
+        "h": 38,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "365877",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 221.5,
+        "h": 38,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "page": "home",
+    "width": 768,
+    "cards": 32,
+    "errors": [],
+    "controls": [
+      {
+        "priceId": "383978",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 148,
+        "h": 38,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "358694",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 148,
+        "h": 38,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "382733",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 148,
+        "h": 38,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "test": "native add-to-cart popup recommendations",
+    "width": 768,
+    "cards": 2
+  },
+  {
+    "test": "native cart quantity update",
+    "width": 768,
+    "before": "1",
+    "after": "2"
+  },
+  {
+    "page": "category",
+    "width": 1440,
+    "cards": 30,
+    "errors": [],
+    "controls": [
+      {
+        "priceId": "319091",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 175.328125,
+        "h": 50,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "319094",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 175.328125,
+        "h": 50,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "319097",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 175.328125,
+        "h": 50,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "test": "cloned card / pack step / rounding / one native amount",
+    "width": 1440,
+    "result": {
+      "initial": "10",
+      "plus": "20",
+      "rounded": "30",
+      "minus": "20",
+      "submitted": [
+        "20"
+      ],
+      "count": 1
+    }
+  },
+  {
+    "test": "native AJAX sorting first-frame quantities",
+    "width": 1440,
+    "frames": 135,
+    "controls": 30
+  },
+  {
+    "page": "search",
+    "width": 1440,
+    "cards": 24,
+    "errors": [],
+    "controls": [
+      {
+        "priceId": "329438",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 285.328125,
+        "h": 50,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "323573",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 285.328125,
+        "h": 50,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "324683",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 285.328125,
+        "h": 50,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "page": "brand",
+    "width": 1440,
+    "cards": 30,
+    "errors": [],
+    "controls": [
+      {
+        "priceId": "332123",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 285.328125,
+        "h": 50,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "365874",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 285.328125,
+        "h": 50,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "365877",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 285.328125,
+        "h": 50,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "page": "home",
+    "width": 1440,
+    "cards": 32,
+    "errors": [],
+    "controls": [
+      {
+        "priceId": "383978",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 148,
+        "h": 38,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "358694",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 148,
+        "h": 38,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      },
+      {
+        "priceId": "382733",
+        "qty": true,
+        "duplicates": 1,
+        "amount": "1",
+        "visibleAmount": "1",
+        "w": 148,
+        "h": 38,
+        "font": "14px",
+        "transition": "color, background-color, border-color, box-shadow",
+        "mask": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "test": "native add-to-cart popup recommendations",
+    "width": 1440,
+    "cards": 2
+  },
+  {
+    "test": "native cart quantity update",
+    "width": 1440,
+    "before": "1",
+    "after": "2"
+  }
+]

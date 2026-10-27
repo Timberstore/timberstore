@@ -10,6 +10,9 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 
+const boundForms = new WeakSet();
+const syncSteps = new WeakMap();
+
 function parse(value) {
   const n = parseFloat(String(value).replace(',', '.'));
   return Number.isFinite(n) && n > 0 ? n : NaN;
@@ -28,6 +31,10 @@ function bind(form) {
   const amount = form.querySelector(SEL.cartFormAmount);
   const submit = form.querySelector(SEL.cartFormSubmit);
   if (!amount || !submit) return;
+  // Native carousels may clone an enhanced card without its event listeners.
+  form.querySelector('.ts-qty')?.remove();
+  boundForms.add(form);
+  form.dataset.tsInit = 'qty-picker';
 
   let step = parse(amount.value) || 1;
   let touched = false;
@@ -52,6 +59,8 @@ function bind(form) {
   const syncStep = () => {
     if (!touched) field.value = String((step = parse(amount.value) || 1));
   };
+  syncSteps.set(form, syncStep);
+  amount.addEventListener('change', syncStep);
   const commit = (render = true) => {
     touched = true;
     const min = Math.ceil((parse(amount.min) || step) / step) * step;
@@ -81,18 +90,49 @@ function bind(form) {
   if (document.readyState !== 'complete') window.addEventListener('load', syncStep, { once: true });
 }
 
-export default {
+const qtyPicker = {
   name: 'qty-picker',
-  pages: ['home', 'category', 'search'],
+  pages: ['*'],
   init(root) {
-    root
-      .querySelectorAll(
-        `${SEL.classicProductCard} ${SEL.cartForm}, .ts-recommendation ${SEL.cartForm}`,
-      )
-      .forEach((form) => {
-        if (form.dataset.tsInit || form.querySelector(SEL.nativeQuantity)) return;
-        form.dataset.tsInit = 'qty-picker';
-        bind(form);
-      });
+    root.querySelectorAll(SEL.productPurchaseForms).forEach((form) => {
+      if (boundForms.has(form)) return syncSteps.get(form)?.();
+      if (form.querySelector(SEL.nativeQuantity)) return;
+      bind(form);
+    });
   },
 };
+
+// Start while HTML is still streaming. New cards (including native AJAX and
+// popup inserts) are enhanced in the mutation microtask, before their first paint.
+// Watch insertions and native pack/bounds attributes only; our own controls
+// and cart-count writes do not trigger another full-page scan.
+let observing = false;
+export function prepareQuantities() {
+  qtyPicker.init(document);
+  if (observing) return;
+  observing = true;
+  new MutationObserver((mutations) => {
+    const roots = new Set();
+    for (const mutation of mutations) {
+      if (mutation.type === 'attributes') {
+        if (mutation.target.matches(SEL.cartFormAmount))
+          syncSteps.get(mutation.target.closest(SEL.cartForm))?.();
+        continue;
+      }
+      for (const node of mutation.addedNodes) {
+        if (!(node instanceof Element) || node.closest('.ts-qty')) continue;
+        const card = node.closest(SEL.purchaseCard);
+        if (card) roots.add(card);
+        else if (node.querySelector(SEL.purchaseCard)) roots.add(node);
+      }
+    }
+    for (const root of roots) qtyPicker.init(root);
+  }).observe(document.documentElement, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ['value', 'min', 'max', 'step'],
+  });
+}
+
+export default qtyPicker;

@@ -1,22 +1,22 @@
 /* M2/C3 · Native related/similar cards only. Preserve Swiper tracks/images and
    native quantity/forms; replace Apollo's mismatched purchase-row geometry. */
-.ts-recommendation a.name {
+:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) a.name {
   text-align: center !important;
   text-transform: none;
   word-break: normal !important;
   overflow-wrap: normal !important;
   hyphens: none;
 }
-.ts-recommendation :is(.pr-list-unit, .ts-recommendation-unit) {
+:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) :is(.pr-list-unit, .ts-recommendation-unit) {
   display: inline !important;
   color: var(--ts-color-price-secondary);
   font-size: 13px;
   font-weight: 400;
 }
-.ts-recommendation .product-btn {
+:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .product-btn {
   height: 38px;
 }
-.ts-recommendation .product-btn form {
+:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .product-btn form {
   display: flex !important;
   align-items: center;
   gap: 8px;
@@ -25,17 +25,17 @@
   max-width: none !important;
   margin: 0 !important;
 }
-:is(#content, #colorbox) .ts-recommendation .quantity {
+:is(#content, #colorbox) :is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .quantity {
   flex: 0 1 100px;
   min-width: 0;
   height: 38px;
   grid-template-columns: 1fr minmax(0, 1.4fr) 1fr;
   border-color: var(--ts-qty-border);
 }
-:is(#content, #colorbox) .ts-recommendation .quantity :is(input, button) {
+:is(#content, #colorbox) :is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .quantity :is(input, button) {
   height: 36px;
 }
-.ts-recommendation .product-btn .btn-cart {
+:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .product-btn .btn-cart {
   flex: 1 0 38px !important;
   min-width: 0 !important;
   max-width: none !important;
@@ -48,10 +48,10 @@
   --color-secondary: var(--ts-color-accent);
   --color-secondary-hover: var(--ts-color-action-hover);
 }
-.ts-recommendation .btn-cart > span:not(.ts-cart-count) {
+:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .btn-cart > span:not(.ts-cart-count) {
   display: none !important;
 }
-.ts-recommendation .btn-cart::after {
+:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .btn-cart::after {
   margin: 0 !important;
 }
 .type-detail .products-related-block + .products-alternative-block {
@@ -60,15 +60,15 @@
   border-top: 1px solid var(--ts-color-table-border);
 }
 /* Apollo reserves 130px for stacked controls. Our shared row needs one line. */
-:is(.products-related-block, .products-alternative-block) .ts-recommendation > .p {
+:is(.products-related-block, .products-alternative-block) :is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) > .p {
   padding-bottom: 65px !important;
 }
-:is(#content, #colorbox) .ts-recommendation .quantity {
+:is(#content, #colorbox) :is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .quantity {
   margin: 0;
 }
-.ts-recommendation :is(.price-final, .price-additional) {
+:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) :is(.price-final, .price-additional) {
   white-space: normal;
 }
-.ts-recommendation :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
+:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
   white-space: nowrap;
 }

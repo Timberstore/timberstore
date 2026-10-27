@@ -2,21 +2,13 @@
    The original Shoptet bestseller section stays in the DOM for Apollo's own JS.
    The sidebar copy reuses the native TOP 10 box markup/classes, so Apollo itself
    controls the border, radius, padding, background, shadow and typography. */
-.type-category .products-top-wrapper.ts-category-bestsellers-source {
+/* Apply the final visibility before JS relocates the sidebar copy. */
+.type-category .products-top-wrapper {
   display: none !important;
 }
 
 .ts-category-bestsellers-sidebar {
   display: none !important;
-}
-
-/* Apollo removes the desktop sidebar on mobile/tablet, so the JS module has no
-   sidebar root to work with there. Hide the native bestseller block directly
-   below the desktop breakpoint so it cannot remain visible in the main column. */
-@media (max-width: 1199px) {
-  .type-category .products-top-wrapper {
-    display: none !important;
-  }
 }
 
 @media (min-width: 1200px) {

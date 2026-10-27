@@ -4,6 +4,7 @@ const PAGE_CLASSES = {
   order: 'in-moja-objednavka',
   home: 'type-index',
   category: 'type-category',
+  brand: 'type-manufacturer-detail',
   detail: 'type-detail',
   search: 'type-search',
   cart: 'ordering-process',

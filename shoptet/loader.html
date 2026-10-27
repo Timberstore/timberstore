@@ -1,23 +1,28 @@
-<!--
-  Timberstore loader — the ONLY Timber custom code in Shoptet HEAD.
-  Change only PROD when deploying a tested release.
--->
+<!-- Timberstore loader: approved v0.7.1 target, activation pending. -->
 <script>
 (function () {
   /* jshint evil: true */
 
   var BASE = 'https://cdn.jsdelivr.net/gh/Timberstore/timberstore@';
-  var PROD = 'v0.6.13';
+  var PROD = 'v0.7.1';
 
   var root = document.documentElement;
   var pageLoadingTimer;
 
+  // Restore the catalogue view before its first paint, even on a slow bundle.
+  try {
+    root.classList.toggle('ts-view-list', localStorage.getItem('ts-product-view') === 'list');
+  } catch (err) { /* Storage may be unavailable; the default grid still works. */ }
+
+
   root.classList.add('timber-page-loading');
+
   pageLoadingTimer = window.setTimeout(function () {
     root.classList.remove('timber-page-loading');
   }, 1500);
 
   var q = location.search.match(/[?&]ts_preview=([\w.\-]+)/);
+
   if (q) {
     if (q[1] === 'off') {
       document.cookie = 'ts_preview=; max-age=0; path=/';
@@ -38,7 +43,25 @@
 
   if (!v) return;
 
-  document.write('<link rel="stylesheet" href="' + BASE + v + '/dist/timber.min.css">');
+  // Oprava mobilnej galerie pre v0.6.5, 12. 10. 2026.
+  var cssUrl = BASE + v + '/dist/timber.min.css';
+
+  if (!ok && v === 'v0.6.5') {
+    cssUrl = '/user/documents/upload/timber-galeria-20261012.css';
+  }
+
+  document.write('<link rel="stylesheet" href="' + cssUrl + '">');
+
+  // Dotykova galeria nema volat zatvorenie neotvorenej lupy.
+  if (!ok && v === 'v0.6.5') {
+    document.addEventListener('mouseout', function (e) {
+      if (window.matchMedia('(hover: none) and (pointer: coarse)').matches &&
+          e.target instanceof Element &&
+          e.target.closest('.p-image-wrapper .mousetrap')) {
+        e.stopPropagation();
+      }
+    }, true);
+  }
 
   var s = document.createElement('script');
   s.src = BASE + v + '/dist/timber.min.js';

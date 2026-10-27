@@ -12,6 +12,17 @@
   overflow: hidden;
 }
 
+/* Reserve the same flex/grid slot before async JS arrives. A real native cart
+   button remains usable if JS fails; the reservation is never a fake control. */
+.product form.pr-action:has(> input[name='amount'][type='hidden']):not(:has(> .ts-qty))::before {
+  content: '';
+  display: block;
+  flex: 0 1 118px;
+  width: 118px;
+  min-width: 0;
+  height: 38px;
+}
+
 .ts-qty__btn {
   margin: 0;
   padding: 0;
@@ -66,7 +77,8 @@
   background: var(--ts-qty-plus-bg);
 }
 @media (max-width: 991px) {
-  .ts-qty {
+  .ts-qty,
+  .product form.pr-action:has(> input[name='amount'][type='hidden']):not(:has(> .ts-qty))::before {
     flex: 0 1 88px;
   }
 }

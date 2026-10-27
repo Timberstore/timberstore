@@ -166,7 +166,7 @@ function refresh() {
 
 export default {
   name: 'list-view',
-  pages: ['category', 'search'],
+  pages: ['category', 'search', 'brand'],
   init(root) {
     const list = root.querySelector(SEL.productList);
     if (!list) return;

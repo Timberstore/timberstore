@@ -1,11 +1,8 @@
-/* Verified native product metadata only; never order numbers or generic links.
+/* PD · Style native detail metadata before the async cleanup adds ts- classes.
    Apollo/C3 uses important metadata fonts; retain that local precedence. */
-.ts-product-meta,
-.ts-product-meta > span {
+:is(.ts-product-meta, .p-detail .p-code, .p .p-code, .p-detail-info [data-testid='productCardBrandName']) {
   font-size: 12.5px !important;
   line-height: 1.5 !important;
-}
-.ts-product-meta {
   color: var(--ts-color-detail-code) !important;
   font-weight: 500 !important;
   background: transparent !important;
@@ -13,20 +10,34 @@
   padding: 0 !important;
   max-width: 100%;
   overflow-wrap: anywhere;
+  /* Apollo animates all link properties, including typography on load. */
+  transition: none;
 }
-.ts-product-meta > .ts-product-meta__value {
+:is(.ts-product-meta, .p-detail .p-code, .p .p-code, .p-detail-info [data-testid='productCardBrandName'])
+  > span:not(.p-code-label, .ts-product-meta__label) {
   color: var(--ts-color-blue) !important;
   font-weight: 600 !important;
 }
 
+/* Apollo expands this label to 'Kód produktu:' before cleanup. Render the final
+   short label from first paint so its later text update cannot resize the row. */
+.p-detail .p-code-label {
+  display: inline-block;
+  font-size: 0 !important;
+}
+.p-detail .p-code-label::before {
+  content: 'KÓD:';
+  font-size: 12.5px;
+}
+
 /* C3 · Contrast only for image-overlay card codes, not detail or popup. */
-.ts-card:not(#colorbox *) .p-code.ts-product-meta {
+:is(.ts-card, .products .product, .products-block .product):not(#colorbox *) .p-code {
   background: var(--ts-color-sku-bg) !important;
   padding: 2px var(--ts-space-1) !important;
   border-radius: var(--ts-radius-count);
 }
 @media (min-width: 992px) {
-  .ts-view-list #products:not(.products-related) .p-code.ts-product-meta {
+  .ts-view-list #products:not(.products-related) .p-code {
     background: transparent !important;
     padding: 0 !important;
   }

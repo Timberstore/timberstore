@@ -3,7 +3,7 @@ import { start } from './core/index.js';
 import carouselSwipe from './modules/carousel-swipe/index.js';
 import gallerySwipe from './modules/gallery-swipe/index.js';
 import listView from './modules/list-view/index.js';
-import qtyPicker from './modules/qty-picker/index.js';
+import qtyPicker, { prepareQuantities } from './modules/qty-picker/index.js';
 import cartCount from './modules/cart-count/index.js';
 import cartModalSpeed from './modules/cart-modal-speed/index.js';
 import categoryBestsellersSidebar from './modules/category-bestsellers-sidebar/index.js';
@@ -25,6 +25,9 @@ import headerServiceBar from './modules/header-service-bar/index.js';
 import cartPresentation from './modules/cart-presentation/index.js';
 import orderDetail from './modules/order-detail/index.js';
 import productCompact from './modules/product-compact/index.js';
+
+// Prepare buyable cards before DOMContentLoaded and after streaming/AJAX inserts.
+prepareQuantities();
 
 // Register every module here. Order = init order.
 // qty-picker before cart-count: the badge goes into the button the qty field sits next to.

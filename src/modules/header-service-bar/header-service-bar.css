@@ -75,7 +75,7 @@
 }
 
 /* Sibling button, never an interactive element inside the native link. */
-.ts-cart-control {
+:is(.ts-cart-control, .click-cart) {
   isolation: isolate;
   position: relative;
 }
@@ -110,16 +110,16 @@
   outline: 2px solid var(--ts-color-controls-active);
   outline-offset: -3px;
 }
-#header .ts-cart-control .cart-count::after {
+#header :is(.ts-cart-control, .click-cart) .cart-count::after {
   visibility: hidden;
 }
 @media (max-width: 767px) {
-  .top-navigation-bar .responsive-tools .ts-cart-control {
+  .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) {
     display: inline-flex;
     align-items: center;
     padding-right: 0;
   }
-  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count {
+  .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .cart-count {
     /* Apollo disables this link and redirects the wrapper. Restore the link
        so touch, keyboard and modified clicks share the same native href. */
     pointer-events: auto;
@@ -138,26 +138,26 @@
     background: var(--ts-color-accent);
     color: var(--ts-color-bg);
   }
-  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count::before,
-  .top-navigation-bar .responsive-tools .ts-cart-control .cart-price {
+  .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .cart-count::before,
+  .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .cart-price {
     color: var(--ts-color-bg);
   }
-  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count:is(:hover, :active),
-  .cart-window-visible .top-navigation-bar .responsive-tools .ts-cart-control .cart-count {
+  .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .cart-count:is(:hover, :active),
+  .cart-window-visible .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .cart-count {
     background: var(--ts-color-controls-active);
   }
-  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count::before {
+  .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .cart-count::before {
     grid-area: 1 / 1;
     justify-self: start;
     margin: 0;
   }
-  .top-navigation-bar .responsive-tools .ts-cart-control .cart-price {
+  .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .cart-price {
     /* Bootstrap hides visible-lg labels below 1200px; this mobile price stays. */
     display: inline-block !important;
     grid-area: 1 / 2;
     white-space: nowrap;
   }
-  .top-navigation-bar .responsive-tools .ts-cart-control .cart-count > i {
+  .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .cart-count > i {
     left: 26px;
     right: auto;
     min-width: 22px;

@@ -1,0 +1,12 @@
+{
+  "timber.min.css": {
+    "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.css",
+    "bytes": 180803,
+    "sha256": "2aa332c7b23cb85bdea06d4c3b73b01cb72b3d58537a2d18fa25eb9ba0a346ce"
+  },
+  "timber.min.js": {
+    "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.js",
+    "bytes": 116229,
+    "sha256": "ae84811e9306a4cb726fb5b10107f981c6308b3f9a8ea42e3733ca8cf5af3a2b"
+  }
+}
