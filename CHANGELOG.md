@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.3-rc.9 — preview (27. 10. 2026)
+
+- Detail produktu: pás miniatúr sa plynulo posúva počas držania a ťahania myšou aj prstom, oboma smermi. Zachované natívne miniatúry, šípky, výber hlavnej fotky a zväčšenie.
+- Presné hranice pásu, zachytenie pohybu mimo pásu, bez nechceného kliknutia po potiahnutí. Zvislé dotykové posúvanie stránky zostáva funkčné.
+- Hlavná fotografia používa pôvodné swipe prepínanie; súvisiace/podobné Swiper bloky bez zmeny. Predchádzajúce produktové/filter úpravy zachované. Iba preview bez zmeny loadera.
+
 ## v0.7.3-rc.8 — preview (27. 10. 2026)
 
 - Aj na mobilných kartách je počet kusov pod označením SKLADOM. CENTRÁLNY / SKLAD (počet) ostáva zachovaný.

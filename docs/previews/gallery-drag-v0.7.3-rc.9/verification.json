@@ -1,0 +1,95 @@
+[
+  {
+    "width": 375,
+    "touch": false,
+    "overflow": true,
+    "heldSamples": [
+      {
+        "offset": -25,
+        "active": 0,
+        "drag": true,
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/386843-5_tulip-uchytka-tende-32-146-antracit.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "box": false
+      },
+      {
+        "offset": -75,
+        "active": 0,
+        "drag": true,
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/386843-5_tulip-uchytka-tende-32-146-antracit.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "box": false
+      }
+    ],
+    "thumbSelection": 1,
+    "mainMouseSwipe": 2,
+    "nativeLightbox": true,
+    "nativeArrowsAfterDrag": true,
+    "noErrors": true,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "touch": false,
+    "overflow": true,
+    "heldSamples": [
+      {
+        "offset": -25,
+        "active": 0,
+        "drag": true,
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/386843-5_tulip-uchytka-tende-32-146-antracit.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "box": false
+      },
+      {
+        "offset": -75,
+        "active": 0,
+        "drag": true,
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/386843-5_tulip-uchytka-tende-32-146-antracit.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "box": false
+      }
+    ],
+    "thumbSelection": 1,
+    "mainMouseSwipe": 2,
+    "nativeLightbox": true,
+    "nativeArrowsAfterDrag": true,
+    "noErrors": true,
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "touch": false,
+    "overflow": false,
+    "heldSamples": [],
+    "thumbSelection": 1,
+    "mainMouseSwipe": 2,
+    "nativeLightbox": true,
+    "nativeArrowsAfterDrag": false,
+    "noErrors": true,
+    "pass": true
+  },
+  {
+    "width": 375,
+    "touch": true,
+    "overflow": true,
+    "heldSamples": [
+      {
+        "offset": -25,
+        "active": 0,
+        "drag": true,
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/386843-5_tulip-uchytka-tende-32-146-antracit.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "box": false
+      },
+      {
+        "offset": -75,
+        "active": 0,
+        "drag": true,
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/big/386843-5_tulip-uchytka-tende-32-146-antracit.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "box": false
+      }
+    ],
+    "thumbSelection": 1,
+    "mainMouseSwipe": 2,
+    "nativeLightbox": true,
+    "nativeArrowsAfterDrag": true,
+    "noErrors": true,
+    "pass": true
+  }
+]

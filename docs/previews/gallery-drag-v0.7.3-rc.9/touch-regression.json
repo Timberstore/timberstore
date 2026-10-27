@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "verticalTouchOverStripScrollsPage": true,
+      "beforeY": 149,
+      "afterY": 234
+    },
+    {
+      "realTouchCancelCleansUp": true,
+      "tapAfterCancelSelects": 1
+    },
+    {
+      "mainTouchSwipe": true,
+      "firstLastLimits": true
+    },
+    {
+      "nativeVariantCards": "not present on this current live Tende detail",
+      "variantSwitch": "NOT TESTED"
+    },
+    {
+      "singlePhotoCount": 0,
+      "singleDragSafeAndTapOpens": true
+    }
+  ],
+  "errors": [],
+  "pass": true
+}
