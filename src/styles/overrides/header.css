@@ -283,10 +283,12 @@ body .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .c
 }
 
 /* M1 · Preserve the native toggle background, MENU label and focus treatment.
-   Only the hamburger glyph uses the requested Timber orange. */
+   Hamburger lines are orange when closed and white on the open dark toggle. */
 @media (max-width: 767px) {
-  body .responsive-tools .toggle-window[data-target='navigation']::before,
-  body.navigation-window-visible .responsive-tools .toggle-window[data-target='navigation']::before {
+  body .responsive-tools .toggle-window[data-target='navigation']::before {
     color: var(--ts-color-accent);
+  }
+  body.navigation-window-visible .responsive-tools .toggle-window[data-target='navigation']::before {
+    color: var(--ts-color-bg);
   }
 }

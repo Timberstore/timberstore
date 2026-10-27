@@ -24,9 +24,9 @@ const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
 // Stable v0.6.13 and earlier versions retain their original allowances.
 // Cart previews rc.1/rc.2 retain 32 KiB JS; CSS allowance 28.5 KiB
 // under the recorded 2026-10-15 authorization. Stable budgets stay fixed.
-// Mobile menu rc.3/rc.4: 32.25 KiB JS / 28.75 KiB CSS under the recorded
+// Mobile menu rc.3–rc.5: 32.25 KiB JS / 28.75 KiB CSS under the recorded
 // 2026-10-15 allowance. Previous version budgets remain fixed.
-const cssBudgetKiB = ['0.7.2-rc.3', '0.7.2-rc.4'].includes(pkg.version) ? 28.75 : ['0.7.2-rc.2', '0.7.2-rc.1'].includes(pkg.version) ? 28.5 : pkg.version === '0.7.2-rc.0' ? 27.625 : ['0.7.1', '0.7.1-rc.0'].includes(pkg.version) ? 27.5 : ['0.7.0', '0.6.13-compact.1'].includes(pkg.version) ? 26.75 : pkg.version === '0.6.13-compact.0' ? 24 : pkg.version === '0.6.13' ? 23.25 : pkg.version === '0.6.12' ? 23 : ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
+const cssBudgetKiB = ['0.7.2-rc.3', '0.7.2-rc.4', '0.7.2-rc.5'].includes(pkg.version) ? 28.75 : ['0.7.2-rc.2', '0.7.2-rc.1'].includes(pkg.version) ? 28.5 : pkg.version === '0.7.2-rc.0' ? 27.625 : ['0.7.1', '0.7.1-rc.0'].includes(pkg.version) ? 27.5 : ['0.7.0', '0.6.13-compact.1'].includes(pkg.version) ? 26.75 : pkg.version === '0.6.13-compact.0' ? 24 : pkg.version === '0.6.13' ? 23.25 : pkg.version === '0.6.12' ? 23 : ['0.6.11-rc.4', '0.6.11'].includes(pkg.version)
   ? 21
   : ['0.6.11-rc.2', '0.6.11-rc.3'].includes(pkg.version)
     ? 20.25
@@ -43,7 +43,7 @@ const cssBudgetKiB = ['0.7.2-rc.3', '0.7.2-rc.4'].includes(pkg.version) ? 28.75 
               : pkg.version === '0.6.5'
                 ? 16
                 : 15;
-const BUDGET = { 'dist/timber.min.js': (['0.7.2-rc.3', '0.7.2-rc.4'].includes(pkg.version) ? 32.25 : ['0.7.2-rc.2', '0.7.2-rc.1', '0.7.2-rc.0', '0.7.1', '0.7.1-rc.0', '0.7.0', '0.6.13-compact.1'].includes(pkg.version) ? 32 : 30) * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
+const BUDGET = { 'dist/timber.min.js': (['0.7.2-rc.3', '0.7.2-rc.4', '0.7.2-rc.5'].includes(pkg.version) ? 32.25 : ['0.7.2-rc.2', '0.7.2-rc.1', '0.7.2-rc.0', '0.7.1', '0.7.1-rc.0', '0.7.0', '0.6.13-compact.1'].includes(pkg.version) ? 32 : 30) * 1024, 'dist/timber.min.css': cssBudgetKiB * 1024 };
 
 const common = {
   bundle: true,

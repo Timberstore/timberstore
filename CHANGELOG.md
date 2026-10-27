@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased · 0.7.2-rc.5 · 2026-10-27 · M1 open menu glyph
+
+- Show white hamburger lines on the dark open MENU toggle; retain orange lines when closed. Other menu/contact styling stays as in rc.4. Preview only, with unchanged budgets and production loader.
+
 ## Unreleased · 0.7.2-rc.4 · 2026-10-27 · M1 menu toggle correction
 
 - Restore the mobile MENU toggle's original background, label and focus treatment. Colour only the three-line hamburger glyph orange in closed/open states.
