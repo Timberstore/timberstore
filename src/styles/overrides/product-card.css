@@ -319,3 +319,12 @@ body:not(.type-detail, .ordering-process) #content :is(.products, .products-bloc
     margin: 12px 0;
   }
 }
+
+/* M2 · Phone stock counts belong below SKLADOM. Keep central warehouse's
+   existing inline last-word/count flow, including before JS adds its class. */
+@media (max-width: 767px) {
+  body:not(.ordering-process) .content-wrapper .product
+    .availability:not(:has(> .ts-stock-central, > span[style*='#c97a2b' i])) > .availability-amount {
+    display: block;
+  }
+}

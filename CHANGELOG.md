@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.7.3-rc.8 — preview (27. 10. 2026)
+
+- Aj na mobilných kartách je počet kusov pod označením SKLADOM. CENTRÁLNY / SKLAD (počet) ostáva zachovaný.
+- PC, kód na fotografiách, 24px rozostupy a mobilné filtre bez zmeny. Iba preview.
+
 ## v0.7.3-rc.7 — preview (27. 10. 2026)
 
 - Mobil: natívny kód produktu je opäť viditeľný na fotografiách v kategóriách, značkách, homepage karuseloch a súvisiacich produktových kartách. Zachované pôvodné hodnoty, pozícia a farby; odstránené iba mobilné skrytie.

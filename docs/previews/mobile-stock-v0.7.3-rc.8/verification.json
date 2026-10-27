@@ -1,0 +1,126 @@
+{
+  "checks": [
+    {
+      "width": 375,
+      "page": "category",
+      "cards": 30,
+      "normalBelow": 30,
+      "central": 0,
+      "baselineEqual": false,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 480,
+      "page": "category",
+      "cards": 30,
+      "normalBelow": 30,
+      "central": 0,
+      "baselineEqual": false,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 480,
+      "page": "brand",
+      "cards": 30,
+      "normalBelow": 29,
+      "central": 1,
+      "baselineEqual": false,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "page": "brand",
+      "cards": 30,
+      "normalBelow": 29,
+      "central": 1,
+      "baselineEqual": false,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 480,
+      "page": "home",
+      "cards": 32,
+      "normalBelow": 0,
+      "central": 32,
+      "baselineEqual": false,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "page": "home",
+      "cards": 32,
+      "normalBelow": 0,
+      "central": 32,
+      "baselineEqual": false,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 480,
+      "page": "central",
+      "cards": 1,
+      "normalBelow": 0,
+      "central": 1,
+      "baselineEqual": true,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "page": "central",
+      "cards": 1,
+      "normalBelow": 0,
+      "central": 1,
+      "baselineEqual": true,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "page": "category",
+      "cards": 30,
+      "normalBelow": 30,
+      "central": 0,
+      "baselineEqual": true,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "page": "brand",
+      "cards": 30,
+      "normalBelow": 29,
+      "central": 1,
+      "baselineEqual": true,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "page": "home",
+      "cards": 32,
+      "normalBelow": 0,
+      "central": 32,
+      "baselineEqual": true,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "page": "central",
+      "cards": 1,
+      "normalBelow": 0,
+      "central": 1,
+      "baselineEqual": true,
+      "bad": [],
+      "errors": []
+    }
+  ],
+  "cards": 279,
+  "pass": true
+}
