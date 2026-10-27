@@ -3,28 +3,12 @@
 // labels or a guessed "ks". One cached document per URL, no scripts executed.
 import { TEXTS } from '../../core/texts.js';
 import { SEL } from '../../core/selectors.js';
-import { COLORBOX_EVENTS } from '../../core/events.js';
 import { whenIdleAfterLoad } from '../../core/idle.js';
 import qtyPicker from '../qty-picker/index.js';
 import { sourceQuantity } from '../cart-presentation/related.js';
 
 const sources = new WeakMap();
 const queued = new WeakSet();
-let resizePending = false;
-let listening = false;
-const completed = new WeakSet();
-
-function resizePopup(card) {
-  const popup = card.closest(SEL.cartPopup);
-  if (!popup || !completed.has(popup) || resizePending) return;
-  resizePending = true;
-  requestAnimationFrame(() => {
-    resizePending = false;
-    if (document.querySelector(SEL.cartPopup) === popup && popup.getClientRects().length)
-      window.shoptet?.modal?.resize?.();
-  });
-}
-
 async function supplyUnit(card) {
   const href = card.querySelector(SEL.recommendationLink)?.href;
   const priceId = card.querySelector(SEL.cartFormPriceId)?.value;
@@ -53,22 +37,11 @@ async function supplyUnit(card) {
   span.className = 'ts-recommendation-unit';
   span.textContent = ' ' + data.unit.replace(/\s+/g, ' ');
   price.append(span);
-  resizePopup(card);
 }
 
 export function prepareRecommendations(root) {
-  // Colorbox is jQuery-based. Resize only after its opening animation completes,
-  // once per native popup node; async unit insertion can then resize it again.
-  if (!listening && window.jQuery) {
-    listening = true;
-    window.jQuery(document).on(COLORBOX_EVENTS.complete + '.tsRecommendations', () => {
-      const popup = document.querySelector(SEL.cartPopup);
-      if (popup && !completed.has(popup)) {
-        completed.add(popup);
-        resizePopup(popup);
-      }
-    });
-  }
+  // Popup height follows its content in CSS. Do not race the native
+  // post-open resize or animate again when a fetched unit is appended.
   for (const card of root.querySelectorAll(SEL.recommendationCard)) {
     if (!card.classList.contains('ts-recommendation')) {
       card.classList.add('ts-recommendation', 'ts-card');

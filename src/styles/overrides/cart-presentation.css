@@ -338,7 +338,7 @@
   transform: translateY(-50%);
   width: 24px;
   text-align: center;
-  color: var(--ts-color-accent);
+  color: var(--ts-color-success);
   font-size: 18px;
   margin: 0;
 }
@@ -391,7 +391,7 @@
   line-height: 1.45;
 }
 .in-kosik #cart-wrapper .ts-cart-shipping .extra.delivery::before {
-  color: var(--ts-color-accent);
+  color: var(--ts-color-success);
   font-size: 24px;
   left: 0;
   top: 50%;
@@ -418,7 +418,7 @@
 .in-kosik #cart-wrapper .price-range > div {
   height: 100%;
   border-radius: inherit;
-  background: var(--ts-color-accent);
+  background: var(--ts-color-success);
 }
 .in-kosik #cart-wrapper .ts-cart-shipping-complete .price-range > div {
   background: var(--ts-color-success);

@@ -1,0 +1,48 @@
+[
+  {
+    "width": 375,
+    "popup": {
+      "remainder": "rgb(0, 200, 83)",
+      "fill": "rgb(0, 200, 83)"
+    },
+    "mini": {
+      "fill": "rgb(0, 200, 83)",
+      "amount": "rgb(0, 200, 83)",
+      "truck": "rgb(0, 200, 83)"
+    },
+    "cart": {
+      "fill": "rgb(0, 200, 83)",
+      "amount": "rgb(0, 200, 83)",
+      "truck": "rgb(0, 200, 83)",
+      "percent": "0.29%"
+    },
+    "gallery": {
+      "transform": "none",
+      "hasCart": false
+    },
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "popup": {
+      "remainder": "rgb(0, 200, 83)",
+      "fill": "rgb(0, 200, 83)"
+    },
+    "mini": {
+      "fill": "rgb(0, 200, 83)",
+      "amount": "rgb(0, 200, 83)",
+      "truck": "rgb(0, 200, 83)"
+    },
+    "cart": {
+      "fill": "rgb(0, 200, 83)",
+      "amount": "rgb(0, 200, 83)",
+      "truck": "rgb(0, 200, 83)",
+      "percent": "0.29%"
+    },
+    "gallery": {
+      "transform": "none",
+      "hasCart": false
+    },
+    "pass": true
+  }
+]

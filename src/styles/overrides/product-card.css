@@ -36,6 +36,9 @@ body :is(.btn-primary, .btn-conversion, .btn-cart),
 /* Main amount and euro symbol only; never units, net price or cart totals. */
 .ts-price-number {
   display: contents;
+}
+:where(.content-wrapper .product, #colorbox .advanced-order) .price-final > strong,
+.ts-price-number {
   color: var(--ts-color-blue);
 }
 /* Keep the established VAT-exclusive colour without a duplicate tile rule. */
@@ -109,13 +112,10 @@ body:not(.ordering-process) #content :is(.products, .products-block, .products-t
 .flag-komplet {
   background-color: var(--ts-color-accent) !important;
 }
-/* Keep the native warehouse label and quantity together when space permits. */
+/* Inline text lets the quantity follow SKLAD on the last label line, rather
+   than wrapping the whole two-word label as one flex item. */
 body:not(.ordering-process) .content-wrapper .product .availability {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: flex-start;
-  gap: 2px 4px;
+  display: block;
   text-align: left;
   min-width: 0;
 }
@@ -124,9 +124,15 @@ body:not(.ordering-process) .content-wrapper .product :is(.prices, .p-tools) {
 }
 /* Break only at native word spaces: CENTRÁLNY / SKLAD, then its quantity. */
 body:not(.ordering-process) .content-wrapper .product .availability > :first-child {
+  display: inline;
   width: auto;
   max-width: 100%;
   white-space: normal;
+}
+
+body:not(.ordering-process) .content-wrapper .product .availability-amount {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 /* Classic tiles only. Desktop table rules retain their original specificity. */

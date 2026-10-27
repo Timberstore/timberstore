@@ -1,0 +1,50 @@
+[
+  {
+    "width": 375,
+    "nativePack": [
+      10,
+      20,
+      10
+    ],
+    "cloneFiveDigitAndBounds": {
+      "typed": "10000",
+      "increased": "10010",
+      "rounded": "10010",
+      "limited": "20000",
+      "oneAmount": 1,
+      "onePicker": 1,
+      "min": "10",
+      "max": "20000",
+      "step": "10"
+    },
+    "nativeContentEvents": 2,
+    "ajaxFrames": 79,
+    "missing": 0,
+    "filterQuantities": 30,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "nativePack": [
+      10,
+      20,
+      10
+    ],
+    "cloneFiveDigitAndBounds": {
+      "typed": "10000",
+      "increased": "10010",
+      "rounded": "10010",
+      "limited": "20000",
+      "oneAmount": 1,
+      "onePicker": 1,
+      "min": "10",
+      "max": "20000",
+      "step": "10"
+    },
+    "nativeContentEvents": 2,
+    "ajaxFrames": 113,
+    "missing": 0,
+    "filterQuantities": 30,
+    "errors": []
+  }
+]

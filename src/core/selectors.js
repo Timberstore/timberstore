@@ -111,6 +111,9 @@ export const SEL = {
   classicProductCard:
     'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product',
   productNetPrice: '.price-additional',
+  productStock: '.product .availability, .p-detail .availability-value',
+  productStockLabel: ':scope > span:first-child',
+  productStockAmount: '.availability-amount',
   recommendationCard:
     '.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product',
   recommendationLink: 'a.name[href]',

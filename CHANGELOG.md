@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased · 0.7.2-rc.2 · 2026-10-27 · M2/C3 cart stability and green delivery
+
+- Restore the established Emerald success icon/outline, free-delivery text/remainder and progress accents across the advanced popup, mini-cart and cart. Primary purchase buttons retain their orange treatment.
+- Use the final native price colour before JS text cleanup; reserve missing-unit space so verified unit fetches cannot push prices later.
+- Keep the last warehouse word and stock amount together with an idempotent nonbreaking space, preserving native stock spans, data and colour.
+- Remove the competing custom post-open/unit resizes. Use content-driven cart-only Colorbox geometry and skip its size tween, so Apollo finishes rearranging forms before paint. Restore normal Colorbox speed for galleries and other dialogs.
+- Preview only; published v0.7.1, the production loader and previous bundle budgets are unchanged. [Evidence and checks](docs/previews/cart-stability-v0.7.2-rc.2/README.md).
+
 ## Unreleased · 0.7.2-rc.1 · 2026-10-27 · Cart and recommendation controls
 
 - Keep header counts above the cart icon, with wide mobile badges growing away from the price.

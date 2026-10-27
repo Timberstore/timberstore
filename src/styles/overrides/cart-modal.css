@@ -1,67 +1,70 @@
-/* M2 · Add-to-cart Colorbox is taller than the mobile viewport and its
-   native opening animation grows the modal from a narrow strip on the right.
-   Keep a fixed mobile width from the first frame, preserve vertical positioning,
-   and let oversized content scroll inside the popup.
-   !important is required because Colorbox writes dimensions inline. */
+/* M2 · The native Colorbox opening and post-open resize used different
+   dimensions, causing the already visible cart popup to jump. Its final width
+   and content-driven height apply from insertion, before Apollo enhancement.
+   Inline animation dimensions are intentionally overridden only for this popup;
+   galleries and other dialogs keep their native geometry and animation. */
+#colorbox:has(.advanced-order) {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+  width: min(1152px, calc(100vw - 32px)) !important;
+  height: auto !important;
+  max-height: calc(100vh - 16px);
+}
+#colorbox:has(.advanced-order) :is(#cboxWrapper, #cboxContent, #cboxLoadedContent) {
+  box-sizing: border-box;
+  width: 100% !important;
+  height: auto !important;
+}
+#colorbox:has(.advanced-order) #cboxWrapper {
+  position: relative !important;
+  display: flow-root;
+}
+/* Decorative Colorbox edge floats retain stale animated heights; the native
+   content already draws this dialog's border and radius. */
+#colorbox:has(.advanced-order) #cboxWrapper > div > div:not(#cboxContent) {
+  display: none;
+}
+#colorbox:has(.advanced-order) #cboxContent {
+  float: none !important;
+}
+#colorbox:has(.advanced-order) #cboxLoadedContent {
+  max-height: calc(100vh - 32px);
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+@supports (height: 100dvh) {
+  #colorbox:has(.advanced-order) #cboxLoadedContent {
+    max-height: calc(100dvh - 32px);
+  }
+}
 @media (max-width: 767px) {
   #colorbox:has(.advanced-order) {
-    left: 8px !important;
     width: calc(100vw - 16px) !important;
-  }
-
-  #colorbox:has(.advanced-order) #cboxWrapper,
-  #colorbox:has(.advanced-order) #cboxContent,
-  #colorbox:has(.advanced-order) #cboxLoadedContent {
-    width: 100% !important;
-  }
-
-  #colorbox:has(.advanced-order),
-  #colorbox:has(.advanced-order) #cboxWrapper,
-  #colorbox:has(.advanced-order) #cboxContent {
-    max-height: calc(100vh - 16px) !important;
-  }
-
-  #colorbox:has(.advanced-order) #cboxLoadedContent {
-    box-sizing: border-box;
-    height: auto !important;
-    max-height: calc(100vh - 32px) !important;
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-    overscroll-behavior: contain;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  @supports (height: 100dvh) {
-    #colorbox:has(.advanced-order),
-    #colorbox:has(.advanced-order) #cboxWrapper,
-    #colorbox:has(.advanced-order) #cboxContent {
-      max-height: calc(100dvh - 16px) !important;
-    }
-
-    #colorbox:has(.advanced-order) #cboxLoadedContent {
-      max-height: calc(100dvh - 32px) !important;
-    }
   }
 }
 
 /* Actual Apollo advanced-order header, not unrelated Colorbox dialogs. */
 #cboxLoadedContent .advanced-order > .h1:not(.advanced-order-suggestion) {
-  background: var(--ts-color-controls-active-bg);
+  background: var(--ts-color-success-bg);
   color: var(--ts-color-controls-text);
-  box-shadow: inset 0 0 0 1px var(--ts-color-accent);
+  box-shadow: inset 0 0 0 1px var(--ts-color-success);
 }
 #cboxLoadedContent .advanced-order > .h1::before {
-  color: var(--ts-color-accent);
+  color: var(--ts-color-success);
 }
 #colorbox:has(.advanced-order) #cboxClose::before {
   color: var(--ts-color-controls-text);
 }
-/* Delivery in cart, advanced-order and mini-cart uses one warm family. */
+/* Delivery progress shares the cart success colour, including partial progress. */
 .extras-wrap .extra-item .extra-content:has(.extra.delivery) {
   background-color: var(--ts-color-service-bg);
 }
 .extras-wrap .price-range > div {
-  background-color: var(--ts-color-accent);
+  background-color: var(--ts-color-success);
 }
 
 
@@ -83,7 +86,7 @@
 }
 #colorbox .advanced-order .extra.delivery::before,
 #colorbox .advanced-order .extra.delivery strong {
-  color: var(--ts-color-accent);
+  color: var(--ts-color-success);
 }
 #colorbox .advancedOrder__buttons {
   display: flex;
@@ -154,7 +157,7 @@
 }
 #colorbox .advanced-order .product :is(.p-in, .p-in-in, .p-bottom, .prices, .p-tools, .product-btn),
 #colorbox .advanced-order .product .p-bottom > [data-micro='offer'],
-#colorbox .advanced-order .product .product-btn form {
+#colorbox .advanced-order .product form.pr-action {
   display: contents !important;
 }
 #colorbox .advanced-order .product .image {
@@ -190,17 +193,19 @@
 }
 #colorbox .advanced-order .product .availability {
   grid-area: stock;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: flex-start;
-  gap: 2px 4px;
+  display: block;
   text-align: left;
   min-width: 0;
   margin: 0;
 }
 #colorbox .advanced-order .product .availability > :first-child {
+  display: inline;
   width: auto;
+  white-space: normal;
+}
+#colorbox .advanced-order .product .availability-amount {
+  display: inline-block;
+  white-space: nowrap;
 }
 #colorbox .advanced-order .product .price-final {
   grid-area: price;

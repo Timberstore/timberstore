@@ -113,3 +113,27 @@
   height: auto;
   margin-top: 12px;
 }
+
+/* Price styling exists on the native node before text cleanup runs. Reserve a
+   unit slot even while a verified public-detail unit is being fetched, so its
+   late arrival cannot push the already visible amount or resize the popup. */
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .product .price-final {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 0 4px;
+  transition: none;
+}
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .product .price-final > strong {
+  transition: none;
+}
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final :is(.pr-list-unit, .ts-recommendation-unit),
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final:not(:has(.pr-list-unit, .ts-recommendation-unit))::after {
+  min-width: var(--ts-recommendation-unit-width);
+  font-size: 13px;
+  text-align: left;
+}
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final:not(:has(.pr-list-unit, .ts-recommendation-unit))::after {
+  content: '';
+}

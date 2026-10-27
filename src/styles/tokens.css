@@ -48,6 +48,7 @@
   --color-tertiary: var(--ts-color-service-bg);
   --ts-color-text: #0f0f0f;
   --ts-color-muted: #666878; /* Shoptet's secondary text (e.g. back links) */
+  --ts-recommendation-unit-width: 3.25em;
   --ts-color-price-secondary: #666878; /* AA contrast for small text on white */
   --ts-z-information-message: 10; /* Apollo's original information-toast priority */
   --ts-color-editorial-bg: #f9efe6; /* Existing Overené reálnou výrobou panel. */
@@ -127,7 +128,7 @@
 body {
   --basket-bg: var(--ts-color-technical-bg);
   --basket-free-delivery-bg: var(--ts-color-service-bg);
-  --basket-free-delivery-top-bg: var(--ts-color-accent);
+  --basket-free-delivery-top-bg: var(--ts-color-success);
   --basket-choose-box-bg: var(--ts-color-technical-bg);
   --basket-choose-box-border: var(--ts-color-controls-border);
   --basket-discount-bg: var(--ts-color-controls-active-bg);
