@@ -1,0 +1,30 @@
+{
+  "version": "v0.7.2",
+  "tagCommit": "5dd4901bad8f82742b4f52ec427210d8c72d4de4",
+  "mergePR": "https://github.com/Timberstore/timberstore/pull/45",
+  "releaseUrl": "https://github.com/Timberstore/timberstore/releases/tag/v0.7.2",
+  "published": true,
+  "draft": false,
+  "prerelease": false,
+  "assets": [
+    {
+      "file": "timber.min.css",
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.2/dist/timber.min.css",
+      "sha256": "b5d3c1c5585a3d9eb2214a248ee1846032a06de4dceca80aeadafe810cf963a9",
+      "plainMatches": true
+    },
+    {
+      "file": "timber.min.js",
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.2/dist/timber.min.js",
+      "sha256": "46d6305d2921afa14b57caf835a818d6fc9958e6be4de3a349b749dda270284c",
+      "plainMatches": true
+    }
+  ],
+  "taggedSmokePassed": true,
+  "productionObserved": {
+    "version": "v0.7.1",
+    "loader": "v0.7.1",
+    "preview": false
+  },
+  "activation": "PENDING_AUTHENTICATED_SHOPTET_ADMIN"
+}
