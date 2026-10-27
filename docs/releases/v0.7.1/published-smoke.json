@@ -1,0 +1,138 @@
+{
+  "source": "actual jsDelivr tag without local bundle interception",
+  "checks": [
+    {
+      "page": "home",
+      "width": 375,
+      "version": "v0.7.1",
+      "loader": "v0.7.1",
+      "preview": true,
+      "pickers": 32,
+      "missing": 0,
+      "assetUrls": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.js"
+      ],
+      "errors": []
+    },
+    {
+      "page": "category",
+      "width": 375,
+      "version": "v0.7.1",
+      "loader": "v0.7.1",
+      "preview": true,
+      "pickers": 29,
+      "missing": 0,
+      "assetUrls": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.js"
+      ],
+      "errors": []
+    },
+    {
+      "page": "brand",
+      "width": 375,
+      "version": "v0.7.1",
+      "loader": "v0.7.1",
+      "preview": true,
+      "pickers": 30,
+      "missing": 0,
+      "assetUrls": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.js"
+      ],
+      "errors": []
+    },
+    {
+      "page": "detail",
+      "width": 375,
+      "version": "v0.7.1",
+      "loader": "v0.7.1",
+      "preview": true,
+      "pickers": 0,
+      "missing": 0,
+      "assetUrls": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.js"
+      ],
+      "errors": []
+    },
+    {
+      "page": "native add + cart increase",
+      "width": 375,
+      "before": "1",
+      "after": "2",
+      "version": "v0.7.1",
+      "errors": []
+    },
+    {
+      "page": "home",
+      "width": 1440,
+      "version": "v0.7.1",
+      "loader": "v0.7.1",
+      "preview": true,
+      "pickers": 32,
+      "missing": 0,
+      "assetUrls": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.js"
+      ],
+      "errors": []
+    },
+    {
+      "page": "category",
+      "width": 1440,
+      "version": "v0.7.1",
+      "loader": "v0.7.1",
+      "preview": true,
+      "pickers": 29,
+      "missing": 0,
+      "assetUrls": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.js"
+      ],
+      "errors": []
+    },
+    {
+      "page": "brand",
+      "width": 1440,
+      "version": "v0.7.1",
+      "loader": "v0.7.1",
+      "preview": true,
+      "pickers": 30,
+      "missing": 0,
+      "assetUrls": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.js"
+      ],
+      "errors": []
+    },
+    {
+      "page": "detail",
+      "width": 1440,
+      "version": "v0.7.1",
+      "loader": "v0.7.1",
+      "preview": true,
+      "pickers": 0,
+      "missing": 0,
+      "assetUrls": [
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.css",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.1/dist/timber.min.js"
+      ],
+      "errors": []
+    },
+    {
+      "page": "native add + cart increase",
+      "width": 1440,
+      "before": "1",
+      "after": "2",
+      "version": "v0.7.1",
+      "errors": []
+    }
+  ],
+  "public_production": {
+    "version": "v0.7.0",
+    "loader": "v0.7.0",
+    "preview": false
+  }
+}

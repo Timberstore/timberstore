@@ -8,6 +8,7 @@
 - Restore a saved list view in the head loader before the bundle arrives. Keep the bounded loader fallback and native purchasing available if the bundle fails.
 - Preserve the detail `KÓD:`/`ZNAČKA:` fix, including Apollo's intermediate `Kód produktu:` label.
 - Owner authorized release/deployment on 2026-10-27. Promote the tested candidate to v0.7.1 without application-code changes. Retain its JS 32 KiB / CSS 27.5 KiB budgets; earlier stable limits unchanged. Shoptet activation is pending authenticated admin access; the target loader preserves the live historical guards and rollback v0.7.0. See [release status](docs/releases/v0.7.1.md).
+- Published plain-CDN bytes verified against SHA-256; real-CDN mobile/desktop smoke PASS, including native cart updates. Clean production remains v0.7.0 pending admin login/activation.
 - [Coverage, functional checks, slow/failed-load measurements and limitations](docs/fixes/loading-stability/README.md); [original detail metadata evidence](docs/fixes/product-metadata-loading/README.md).
 
 ## v0.7.0 · 2026-10-20
