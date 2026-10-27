@@ -12,4 +12,10 @@ At desktop widths >=992px, product tiles reserve four title lines instead of thr
 - Native purchase smoke at 375/1440px is recorded separately in purchase.json: popup, native cart quantity, shipping/payment to personal details. No order submitted.
 - ESLint, build and whitespace checks pass. JS 32.31 / 32.5 KiB gzip; CSS 28.94 / 29 KiB. Only rc.1 receives its small documented CSS allowance; older budgets remain fixed.
 
-Initial title measurements/screenshots use locally routed candidate bundles on the public shop. Actual immutable CDN evidence is added after push. Safari/iPhone and PageSpeed NOT TESTED.
+Title measurements use locally routed candidate bundles on the public shop. cdn.json verifies exact immutable CDN asset bytes and real preview checks at 375/1440px; screenshots are from those actual CDN checks. Safari/iPhone and PageSpeed NOT TESTED.
+
+## Preview
+
+https://www.timberstore.sk/?ts_preview=6d34dcf6d4033c13a374ea9d8268c1098848c438
+
+Source/build frozen at that commit; subsequent commits only add evidence. Production loader unchanged.

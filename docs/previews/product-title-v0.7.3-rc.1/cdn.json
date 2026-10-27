@@ -1,0 +1,61 @@
+{
+  "commit": "6d34dcf6d4033c13a374ea9d8268c1098848c438",
+  "cdn": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@6d34dcf6d4033c13a374ea9d8268c1098848c438/dist/timber.min.css",
+      "status": 200,
+      "sha256": "aa3b56f655f14e27c206b52ed0097e0e6fa4bf98baea7fc1045b7f35064f5981",
+      "exactBytes": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@6d34dcf6d4033c13a374ea9d8268c1098848c438/dist/timber.min.js",
+      "status": 200,
+      "sha256": "1805de0bd8182a97b97e7bf8695fa64e2719f79a2c382c5a2b689afeefbf2efd",
+      "exactBytes": true
+    }
+  ],
+  "browser": [
+    {
+      "width": 375,
+      "page": "category",
+      "meta": {
+        "version": "v0.7.3-rc.1",
+        "loader": "6d34dcf6d4033c13a374ea9d8268c1098848c438",
+        "preview": true
+      },
+      "result": {
+        "stockLeft": true,
+        "netBefore": "\"(\"",
+        "netAfter": "\")\"",
+        "central": "Centr\u00e1lny\nsklad",
+        "title": {
+          "lines": "4",
+          "divider": "none"
+        }
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "page": "category",
+      "meta": {
+        "version": "v0.7.3-rc.1",
+        "loader": "6d34dcf6d4033c13a374ea9d8268c1098848c438",
+        "preview": true
+      },
+      "result": {
+        "stockLeft": true,
+        "netBefore": "\"(\"",
+        "netAfter": "\")\"",
+        "central": "Centr\u00e1lny\nsklad",
+        "title": {
+          "lines": "4",
+          "divider": "\"\""
+        }
+      },
+      "errors": [],
+      "pass": true
+    }
+  ]
+}
