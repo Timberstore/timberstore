@@ -35,3 +35,7 @@ The reference recording measured 9 white-spinner frames; the repaired recording 
 Evidence: verification.json, regression-results.json, reopen-results.json, before-after.json, screenshots and before.mp4/after.mp4. Scripts in checks/ require Python Playwright/Chromium; TIMBER_TRANSITION_WORK and TIMBER_CHROMIUM select scratch/executable. Use the inherited HTTPS_PROXY where required. Test sessions use native cookie acceptance; consent logic is unchanged. Safari/physical devices are NOT TESTED; no global zero-CLS claim.
 
 ESLint, production build and whitespace checks pass. Gzip JS 32.20 KiB / 32.25 limit; CSS 28.71 KiB / 28.75 limit. No budget increase. CDN byte equality and actual preview verification are recorded in the draft pull request before sharing the URL.
+
+## CDN package ceiling
+
+Initial publication was rejected by jsDelivr with HTTP 403: package size exceeded 50MB. The tracked tree was 56,439,460 bytes. Compact only whitespace outside JSON strings in 16 historical preview reports, preserving paths, every string/number token, key order and parsed data. This saves 8,315,024 bytes without deleting evidence. Old commits/tags remain immutable. See cdn-package-size.json. This formatting-only cleanup is necessary for the new immutable asset URL to load.
