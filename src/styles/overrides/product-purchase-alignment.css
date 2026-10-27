@@ -10,7 +10,8 @@
     width: 100% !important;
     max-width: none !important;
     margin-inline: 0 !important;
-    padding: 0 !important;
+    padding: 0 var(--ts-card-purchase-inset) !important;
+    box-sizing: border-box;
     align-items: center;
   }
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .product-btn {
@@ -18,13 +19,13 @@
     max-width: none;
   }
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability {
-    text-align: center;
+    text-align: left;
   }
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .prices {
-    align-items: center;
+    align-items: flex-end;
   }
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) :is(.price-final, .price-additional) {
-    text-align: center !important;
+    text-align: right !important;
     white-space: normal;
   }
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) form.pr-action > .btn-cart {
@@ -38,7 +39,34 @@
   }
 
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) form.pr-action > .ts-qty {
-    justify-self: center;
+    justify-self: start;
+  }
+
+  /* M2 · Keep amount and unit in one explicit flex row; whitespace nodes no
+     longer decide whether balenie wraps while ks does not. Narrow equal-width
+     tiles switch every unit to a second line at the same container breakpoint. */
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability {
+    --ts-stock-font-size: 12px;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 2px;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final :is(strong, .pr-list-unit) {
+    white-space: nowrap;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) a.name {
+    font-size: 19px !important;
+  }
+  @container (max-width: 300px) {
+    :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final {
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0;
+    }
   }
 
   /* C3 · Shared line boxes align stock/amount with gross/net. Zero-size only
@@ -47,14 +75,14 @@
     --ts-table-cols: 80px minmax(0, 1fr) 128px 150px var(--ts-qty-width) 44px;
   }
   .ts-view-list #products:not(.products-related) .availability {
-    --ts-stock-font-size: 13px;
+    --ts-stock-font-size: 12px;
     min-height: calc(2 * var(--ts-table-offer-line));
     font-size: 0 !important;
     line-height: 0 !important;
     text-align: left !important;
   }
   .ts-view-list #products:not(.products-related) .availability > span:first-child {
-    font-size: 13px !important;
+    font-size: 12px !important;
     line-height: var(--ts-table-offer-line);
   }
   .ts-view-list #products:not(.products-related) .availability > span:first-child:not(.ts-stock-central) {

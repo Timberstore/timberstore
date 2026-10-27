@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Card edges preview `0.7.3-rc.3` (27. 10. 2026):** zachováva rc.2 limity JS 32.5 KiB / CSS 29.5 KiB, namerané 32.31 / 29.44 KiB. Len PC karty, explicitné jednotky cien a menšie označenia skladov. Staršie limity a produkčný loader bez zmeny.
+
 - **Purchase alignment preview `0.7.3-rc.2` (27. 10. 2026):** JS 32.5 KiB / CSS 29.5 KiB podľa historického súhlasu 15. 10.; namerané 32.31 / 29.35 KiB. Iba CSS rozloženia PC kariet a tabuľky. Staršie rozpočty/tagy a produkčný loader zachované.
 
 - **Desktop titles preview `0.7.3-rc.1` (27. 10. 2026):** JS 32.5 KiB / CSS 29 KiB podľa zaznamenaného súhlasu 15. 10.; výstup 32.31 / 28.94 KiB. Iba desktopové štyri riadky názvu a jemný oddeľovač. Limity starších verzií a produkčný loader nezmenené.

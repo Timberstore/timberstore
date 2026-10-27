@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.7.3-rc.3 — preview (27. 10. 2026)
+
+- PC karty: sklad a množstvo vľavo, ceny a tlačidlo vpravo, s jednotným 2px vnútorným odstupom nad rámec existujúceho odsadenia karty.
+- Suma a jednotka používajú explicitný flex riadok; na kartách do 300px ide jednotka vždy do druhého riadka, bez rozdielu medzi ks, pár a balenie.
+- Názov PC karty 19px namiesto 18px; označenia skladov 12px namiesto 13px na kartách aj v PC tabuľke. Tabuľkový názov a ceny zachované. Mobil bez zmeny.
+- Len preview, bez zmeny produkčného loadera.
+
 ## v0.7.3-rc.2 — preview (27. 10. 2026)
 
 - PC karty: sklad a množstvo používajú spoločný stĺpec; cena a tlačidlo Do košíka druhý spoločný stĺpec. Vycentrované pod sebou. Mobilné zobrazenie ostáva bez zmeny.
