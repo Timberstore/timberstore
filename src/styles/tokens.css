@@ -102,6 +102,8 @@
   /* C3 product table + view switch + quantity (values from the client's design) */
   --ts-card-gross-line: 28px;
   --ts-card-net-line: 20px;
+  --ts-card-purchase-gap: 16px;
+  --ts-card-purchase-outset: 4px;
   --ts-card-purchase-inset: 2px;
   --ts-card-purchase-cols: 118px minmax(0, 1fr);
   --ts-table-offer-line: 22px;

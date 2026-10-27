@@ -6,10 +6,10 @@
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) form.pr-action:has(> input[name='amount'][type='hidden']) {
     display: grid !important;
     grid-template-columns: var(--ts-card-purchase-cols);
-    gap: var(--ts-space-2) !important;
-    width: 100% !important;
+    gap: var(--ts-card-purchase-gap) !important;
+    width: calc(100% + var(--ts-card-purchase-outset) + var(--ts-card-purchase-outset)) !important;
     max-width: none !important;
-    margin-inline: 0 !important;
+    margin-inline: calc(-1 * var(--ts-card-purchase-outset)) !important;
     padding: 0 var(--ts-card-purchase-inset) !important;
     box-sizing: border-box;
     align-items: center;

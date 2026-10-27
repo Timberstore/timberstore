@@ -25,11 +25,10 @@
   }
 
   .type-category .ts-mobile-category #filters {
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     min-height: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    overscroll-behavior: contain;
+    overflow: visible;
+    overscroll-behavior: auto;
   }
 
   /* Apollo collapses with height:0/visibility:hidden but leaves overflow

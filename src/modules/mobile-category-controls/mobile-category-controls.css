@@ -71,11 +71,11 @@
     border-radius: var(--ts-radius-controls);
     background: var(--ts-color-bg);
     box-shadow: var(--ts-shadow-controls);
-    max-height: var(--ts-mobile-category-max-height, 70vh);
+    max-height: none;
     overflow-x: hidden;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scrollbar-gutter: stable;
+    overflow-y: visible;
+    overscroll-behavior: auto;
+    scrollbar-gutter: auto;
   }
 
   .ts-mobile-category__slot {
@@ -85,8 +85,12 @@
     width: 100%;
   }
 
-  /* The shell stays out of flow; only the native filter body scrolls.
-     The reset footer is a separate, non-scrolling flex item. */
+  /* An open panel is part of the page, so inside gestures naturally scroll
+     the panel together with its document instead of a trapped inner scroller. */
+  .ts-mobile-category__slot:has(> .ts-mobile-category__panel:not([hidden])) {
+    position: static;
+    margin-top: 8px;
+  }
   .type-category .ts-mobile-category .ts-mobile-category__filters {
     display: flex;
     flex-direction: column;

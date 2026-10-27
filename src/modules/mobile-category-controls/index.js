@@ -11,24 +11,14 @@ let listening = false;
 let panel = null;
 const expandedValues = new Set();
 let outsideTouch = null;
+let scrollInside = false;
 
+// Keep an inside-origin gesture (including its momentum) owned by the panel.
+// The next outside pointer/touch/wheel explicitly releases that ownership.
 function pageScroll() {
-  if (state && panel && Math.abs(window.scrollY - state.openScrollY) > 16) closePanel();
-  else resizePopup();
-}
-
-function resizePopup() {
   if (!state || !panel) return;
-  const viewport = window.visualViewport;
-  const bottom = viewport ? viewport.offsetTop + viewport.height : window.innerHeight;
-  const available = Math.max(
-    120,
-    Math.min(
-      (viewport?.height || window.innerHeight) * 0.72,
-      bottom - state.root.getBoundingClientRect().bottom - 20,
-    ),
-  );
-  state.root.style.setProperty('--ts-mobile-category-max-height', `${Math.floor(available)}px`);
+  if (scrollInside) state.openScrollY = window.scrollY;
+  else if (Math.abs(window.scrollY - state.openScrollY) > 16) closePanel();
 }
 
 function closePanel(restoreFocus = false) {
@@ -36,6 +26,7 @@ function closePanel(restoreFocus = false) {
   const button = panel === 'filters' ? state.filterButton : state.sortButton;
   panel = null;
   outsideTouch = null;
+  scrollInside = false;
   closeDropdowns();
   sync();
   if (restoreFocus) button.focus();
@@ -123,7 +114,6 @@ function sync() {
         String(group.classList.contains(SEL.categoryFilterActiveClass)),
       );
   }
-  resizePopup();
 }
 
 function dispose() {
@@ -269,6 +259,7 @@ function refresh() {
       panel = panel === trigger.dataset.tsPanel ? null : trigger.dataset.tsPanel;
       state.openScrollY = window.scrollY;
       outsideTouch = null;
+      scrollInside = false;
       sync();
     } else if (more) {
       state.values.toggle(more);
@@ -320,13 +311,13 @@ export default {
     if (!listening) {
       listening = true;
       media.addEventListener('change', refresh);
-      window.addEventListener('resize', resizePopup, { passive: true });
       window.addEventListener('scroll', pageScroll, { passive: true });
       // Only gestures outside the popover dismiss it: native sliders and long
       // option lists must remain usable and retain their real scroll handlers.
       document.addEventListener(
         'touchstart',
         (event) => {
+          scrollInside = !!(state && panel && state.root.contains(event.target));
           outsideTouch =
             state && panel && event.touches.length === 1 && !state.root.contains(event.target)
               ? event.touches[0].clientY
@@ -363,13 +354,19 @@ export default {
       document.addEventListener(
         'wheel',
         (event) => {
-          if (state && panel && Math.abs(event.deltaY) > 1 && !state.root.contains(event.target))
-            closePanel();
+          if (!state || !panel) return;
+          scrollInside = state.root.contains(event.target);
+          if (Math.abs(event.deltaY) > 1 && !scrollInside) closePanel();
         },
         { passive: true },
       );
-      window.visualViewport?.addEventListener('resize', resizePopup, { passive: true });
-      window.visualViewport?.addEventListener('scroll', resizePopup, { passive: true });
+      document.addEventListener(
+        'pointerdown',
+        (event) => {
+          if (state && panel) scrollInside = state.root.contains(event.target);
+        },
+        { passive: true },
+      );
       // Close after the native click: collapsing on pointerdown can move the
       // next accordion heading out from under the pointer before mouseup.
       document.addEventListener('click', (event) => {
@@ -379,6 +376,12 @@ export default {
         if (state && !state.root.contains(event.target)) closePanel();
       });
       document.addEventListener('keydown', (event) => {
+        if (
+          state &&
+          panel &&
+          ['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Home', 'End', ' '].includes(event.key)
+        )
+          scrollInside = state.root.contains(event.target);
         if (event.key === 'Escape') closeDropdowns();
         if (event.key === 'Escape' && panel) {
           event.preventDefault();

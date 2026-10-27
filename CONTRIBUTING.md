@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Filter/page scroll preview `0.7.3-rc.5` (27. 10. 2026):** zachované rc.4 limity JS 32.5 KiB / CSS 29.75 KiB bez navýšenia; namerané 32.43 / 29.65 KiB. Iba nové rozostupy PC kariet a zdieľaný tok/scroll mobilných panelov. Staršie rozpočty/tagy a produkčný loader zachované.
+
 - **Filters/stock preview `0.7.3-rc.4` (27. 10. 2026):** JS limit zostáva 32.5 KiB, CSS 29.75 KiB podľa súhlasu 15. 10.; namerané 32.48 / 29.59 KiB. Zatváranie mobilných panelov pri opustení, celoplošné nadpisy filtrov a PC riadky dostupnosti. Staršie rozpočty/tagy a produkčný loader zachované.
 
 - **Card edges preview `0.7.3-rc.3` (27. 10. 2026):** zachováva rc.2 limity JS 32.5 KiB / CSS 29.5 KiB, namerané 32.31 / 29.44 KiB. Len PC karty, explicitné jednotky cien a menšie označenia skladov. Staršie limity a produkčný loader bez zmeny.

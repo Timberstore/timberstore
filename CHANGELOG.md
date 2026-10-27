@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.7.3-rc.5 — preview (27. 10. 2026)
+
+- PC karty: medzera medzi ľavou a pravou nákupnou stranou 16px namiesto 8px; oba bloky o 4px bližšie k okrajom v rámci existujúceho vnútorného odsadenia. Šírka ceny/tlačidla a päťciferného množstva zachované.
+- Mobilné filtre a zoradenie sú pri otvorení súčasťou toku stránky, bez maximálnej výšky a bez samostatného vnútorného scrollovania. Posúvajú sa spolu so stránkou hore aj dole.
+- Gesto začaté vo filtri/zoradení ho nezatvára ani pri dobehnutí pohybu; ďalšie gesto mimo panelu ho zatvorí. Zachované hodnoty, natívne checkboxy/reset/zoradenie a Escape.
+- Rozpočty JS 32.5 / CSS 29.75 KiB bez navýšenia. Iba preview, produkčný loader bez zmeny.
+
 ## v0.7.3-rc.4 — preview (27. 10. 2026)
 
 - PC karty: SKLADOM v prvom riadku oproti hlavnej cene, počet kusov pod ním oproti cene bez DPH v zátvorkách. Cena a tlačidlo zdieľajú stred pravého stĺpca. Tok CENTRÁLNY / SKLAD (počet) zachovaný.
