@@ -32,3 +32,5 @@ async def main():
    if w==1440:await page.locator('#products').screenshot(path=str(work/'reference-1440.png'))
   await b.close()
 asyncio.run(main())
+
+assert rows and all(not x['bad'] and max(x['variation'].values()) <= 1 for x in rows)

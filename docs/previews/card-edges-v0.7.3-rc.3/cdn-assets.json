@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@2cabd8a27b97aa84c2b4e347268f887e76d0ac53/dist/timber.min.css",
+    "exactBytes": true,
+    "sha256": "2a8de2e004e002c8f63356172e37fcf91e323b1bd1aea12c835b879b2eefcd4e"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@2cabd8a27b97aa84c2b4e347268f887e76d0ac53/dist/timber.min.js",
+    "exactBytes": true,
+    "sha256": "d6ba198139923343dbd9c14a6ac777c0bd732ad45c273a442ccc353ffb0cb786"
+  }
+]

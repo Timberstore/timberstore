@@ -11,7 +11,13 @@ Classic desktop title is 19px instead of 18px, keeping four reserved lines and t
 - 23 Chromium cases / 700 cards at 375/992/1024/1440/1920px: stock category, central-stock category, homepage, grid and desktop table. Verify shared left/right edges, no overflow, stock font 12px, table price 19px and row alignment, names bold only in grid, parentheses. Full lossless measurements are in alignment.json.gz; summary.json lists outcomes.
 - Exact reference products 11455 (pár), 344255 (balenie), 381119 (ks) have identical gross top/height and net top within a shared native grid at 992/1024/1440/1920px (all measured differences 0px). This is an explicit geometry fixture: unmodified public product cards fetched from real search pages are placed together in one native category grid. Native shopping is tested separately; no claims of buying from this fixture. See reference.json and reference-1440.png.
 - Native add/popup/cart quantity/shipping/payment to personal details at 375/1440px PASS. No order submitted.
-- Mobile at 375px: category and homepage title metrics, clamp, separator state and stock/price overlap compare identically against rc.2 CSS (mobile-parity.json). Actual immutable CDN verification follows push.
+- Mobile at 375px: category and homepage title metrics, clamp, separator state and stock/price overlap compare identically against rc.2 CSS (mobile-parity.json). Actual immutable CDN CSS/JS byte equality and eight actual CDN layout cases at 375/1440px pass (cdn-assets.json, cdn-alignment.json.gz). Native table add also passes: five-digit input, reset to 2 before submit, exactly one native POST, popup and return to table (table-native.json).
 - ESLint/build/whitespace PASS. JS 32.31/32.5 KiB, CSS 29.44/29.5 KiB. No budget increase over rc.2. Safari/iPhone and PageSpeed NOT TESTED.
 
 Initial checks route local candidate dist files on the native public site; this is not production activation evidence.
+
+## Preview
+
+https://www.timberstore.sk/?ts_preview=2cabd8a27b97aa84c2b4e347268f887e76d0ac53
+
+Frozen source/build commit above; later commits add evidence only. Production loader unchanged.

@@ -46,3 +46,5 @@ async def main():
     await ctx.close()
   await asyncio.gather(*(case(w) for w in [375,992,1024,1440,1920]));await b.close()
 asyncio.run(main())
+
+assert results and all(not x['bad'] and not x['errors'] for x in results)
