@@ -264,3 +264,20 @@
     pointer-events: none;
   }
 }
+
+/* Keep the native count in front of the cart glyph, including the SVG mask.
+   This changes stacking only, never the count, total or click targets. */
+#header .cart-count::before,
+.top-navigation-bar .cart-count::before {
+  position: relative;
+  z-index: 0;
+}
+#header .cart-count > i,
+.top-navigation-bar .cart-count > i {
+  z-index: 2;
+}
+/* Wide counts grow to the left of the glyph instead of covering its price. */
+body .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .cart-count > i {
+  left: auto;
+  right: calc(100% - 42px);
+}

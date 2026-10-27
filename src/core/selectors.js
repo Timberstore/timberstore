@@ -114,6 +114,7 @@ export const SEL = {
   recommendationCard:
     '.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product',
   recommendationLink: 'a.name[href]',
+  recommendationCartLabel: '.btn-cart > span:not(.ts-cart-count)',
   recommendationSku: '[data-micro="sku"]',
   recommendationPrice: '.price-final',
   productPriceUnit: '.pr-list-unit, .ts-recommendation-unit',

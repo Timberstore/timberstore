@@ -494,3 +494,15 @@
     color: var(--ts-color-accent);
   }
 }
+
+/* Primary mini-cart action uses the same native conversion policy as the popup. */
+#cart-widget .cart-widget-button .btn {
+  background: var(--ts-color-accent);
+  border-color: var(--ts-color-accent);
+  color: var(--ts-color-bg);
+  box-shadow: none;
+}
+#cart-widget .cart-widget-button .btn:hover {
+  background: var(--ts-color-action-hover);
+  border-color: var(--ts-color-action-hover);
+}

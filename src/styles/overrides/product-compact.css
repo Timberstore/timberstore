@@ -441,3 +441,30 @@
 #content .p-info-wrapper > .p-info-headline {
   margin-bottom: 24px;
 }
+
+/* The purchasing pair keeps availability left and amounts right. */
+#content .p-info-wrapper :is(.detail-price-block, .p-final-price-wrapper) {
+  align-items: flex-end;
+  text-align: right;
+}
+#content .p-info-wrapper .price-final-holder {
+  justify-content: flex-end;
+}
+/* Keep the real native quantity and submit beside one another on phones. */
+@media (max-width: 767px) {
+  #content .p-info-wrapper .add-to-cart {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  #content .p-info-wrapper .add-to-cart .add-to-cart-button {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 10px 8px;
+    margin-right: 0;
+    font-size: 14px;
+    white-space: normal;
+  }
+  #content .p-info-wrapper .add-to-cart .add-to-cart-button::after {
+    display: none;
+  }
+}

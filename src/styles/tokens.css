@@ -82,9 +82,12 @@
   --ts-qty-plus-bg: var(--ts-color-service-bg);
   --ts-qty-divider: var(--ts-color-controls-border);
   --ts-qty-radius: 7px;
-  --ts-home-cart-gap: 20px;
+  --ts-qty-button-width: 26px;
+  --ts-qty-field-width: 64px;
+  --ts-qty-width: 118px;
+  --ts-home-cart-gap: 8px;
   --ts-home-row-width: 268px;
-  --ts-home-cols: minmax(0, 1fr) minmax(0, 1.48fr);
+  --ts-home-cols: var(--ts-qty-width) minmax(0, 1fr);
   --ts-color-sku-bg: rgb(255 255 255 / 94%);
   --ts-color-count-bg: #faf8f5;
   --ts-color-count-text: #6f7182;

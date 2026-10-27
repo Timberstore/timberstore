@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased · 0.7.2-rc.1 · 2026-10-27 · Cart and recommendation controls
+
+- Keep header counts above the cart icon, with wide mobile badges growing away from the price.
+- Give native/custom quantity inputs at least 64 px of centre space for 10000; retain original min/max, pack steps, native submissions and stock validation. Extend list/cart tracks; narrow two-column cards wrap the purchase row instead of clipping it.
+- Remove the recommendation/popup specificity conflict. Left-align recommendation titles and SKU, show stock counts beside labels, right-align prices and keep mobile popup/detail quantities left of labelled add-to-cart buttons.
+- Use brand orange for cart/checkout primary actions and the add confirmation/shipping accents; neutral secondary back buttons. Preserve stock colours and other native status logic.
+- Combined preview includes the approved cookie-button colours/white text. No stable release, main merge or production loader change. [Evidence and reproducible checks](docs/previews/cart-controls-v0.7.2-rc.1/README.md).
+
 ## Unreleased · 0.7.2-rc.0 · 2026-10-27 · Cookie button colours
 
 - Give the native “Súhlasím” button the Timber orange background with the requested white label. Keep “Odmietnuť” on the notice background with a subtle inset outline. Preserve sizes, settings, native consent handlers and both choices.

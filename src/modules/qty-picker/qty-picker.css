@@ -1,10 +1,10 @@
 /* C3 · Shared tile quantity field at every breakpoint; native form submits. */
 .ts-qty {
   display: grid;
-  flex: 0 1 118px;
-  grid-template-columns: 1fr minmax(0, 1.4fr) 1fr;
-  width: 118px;
-  min-width: 0; /* Allow two narrow mobile cards without forcing the input's intrinsic width. */
+  flex: 0 0 var(--ts-qty-width);
+  grid-template-columns: var(--ts-qty-button-width) minmax(var(--ts-qty-field-width), 1fr) var(--ts-qty-button-width);
+  width: var(--ts-qty-width);
+  min-width: var(--ts-qty-width);
   height: 38px;
   border: 1px solid var(--ts-qty-border);
   border-radius: var(--ts-qty-radius);
@@ -17,9 +17,9 @@
 .product form.pr-action:has(> input[name='amount'][type='hidden']):not(:has(> .ts-qty))::before {
   content: '';
   display: block;
-  flex: 0 1 118px;
-  width: 118px;
-  min-width: 0;
+  flex: 0 0 var(--ts-qty-width);
+  width: var(--ts-qty-width);
+  min-width: var(--ts-qty-width);
   height: 38px;
 }
 
@@ -75,10 +75,4 @@
 .ts-qty__btn--plus {
   color: var(--ts-qty-plus);
   background: var(--ts-qty-plus-bg);
-}
-@media (max-width: 991px) {
-  .ts-qty,
-  .product form.pr-action:has(> input[name='amount'][type='hidden']):not(:has(> .ts-qty))::before {
-    flex: 0 1 88px;
-  }
 }

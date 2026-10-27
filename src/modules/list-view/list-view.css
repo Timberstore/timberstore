@@ -25,14 +25,14 @@
     --ts-table-gap: 12px;
     /* fixed columns sized to their content at the C3 font sizes; the rest goes to
        the name (it wraps, never clamps) */
-    --ts-table-cols: 80px minmax(0, 1fr) 92px 150px 96px 44px;
+    --ts-table-cols: 80px minmax(0, 1fr) 92px 150px var(--ts-qty-width) 44px;
   }
 }
 
 @media (min-width: 1440px) {
   :root {
     --ts-table-gap: 16px;
-    --ts-table-cols: 80px minmax(0, 1fr) 104px 150px 104px 44px;
+    --ts-table-cols: 80px minmax(0, 1fr) 104px 150px var(--ts-qty-width) 44px;
   }
 }
 
@@ -369,11 +369,11 @@
     white-space: nowrap !important;
   }
 
-  /* quantity (qty-picker module); narrow −/+ so 4 digits fit the 96 px column */
+  /* Shared five-digit quantity field, including the pre-JS reservation. */
   .ts-view-list #products:not(.products-related) .ts-qty,
   .ts-view-list #products:not(.products-related) form.pr-action::before {
     grid-area: qty !important;
-    grid-template-columns: 26px minmax(0, 1fr) 26px !important;
+    grid-template-columns: var(--ts-qty-button-width) minmax(var(--ts-qty-field-width), 1fr) var(--ts-qty-button-width) !important;
     width: 100% !important;
   }
 

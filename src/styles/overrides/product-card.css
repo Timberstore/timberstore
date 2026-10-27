@@ -109,12 +109,14 @@ body:not(.ordering-process) #content :is(.products, .products-block, .products-t
 .flag-komplet {
   background-color: var(--ts-color-accent) !important;
 }
-/* Centre the native warehouse name and quantity; the offer keeps its wrap fallback. */
+/* Keep the native warehouse label and quantity together when space permits. */
 body:not(.ordering-process) .content-wrapper .product .availability {
-  display: grid;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 2px 4px;
+  text-align: left;
   min-width: 0;
 }
 body:not(.ordering-process) .content-wrapper .product :is(.prices, .p-tools) {
@@ -122,13 +124,13 @@ body:not(.ordering-process) .content-wrapper .product :is(.prices, .p-tools) {
 }
 /* Break only at native word spaces: CENTRÁLNY / SKLAD, then its quantity. */
 body:not(.ordering-process) .content-wrapper .product .availability > :first-child {
-  width: min-content;
+  width: auto;
   max-width: 100%;
   white-space: normal;
 }
 
 /* Classic tiles only. Desktop table rules retain their original specificity. */
-:is(.ts-card, .products .product, .products-block .product) a.name:not(#colorbox *) {
+:is(.ts-card, .products .product, .products-block .product) a.name:not(:where(#colorbox *, .products-related-block *, .products-alternative-block *)) {
   text-align: center !important;
 }
 :is(.ts-card, .products .product, .products-block .product) .p-bottom > [data-micro='offer'] {
@@ -136,19 +138,19 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
   align-items: stretch;
 }
 :is(.ts-card, .products .product, .products-block .product) .prices {
-  align-items: center;
-  text-align: center !important;
+  align-items: flex-end;
+  text-align: right !important;
   gap: 4px;
 }
 :is(.ts-card, .products .product, .products-block .product) .price-final {
-  text-align: center !important;
+  text-align: right !important;
   max-width: 100%;
 }
 :is(.ts-card, .products .product, .products-block .product) :is(.price-final, .price-additional) {
   margin: 0 !important;
 }
 :is(.ts-card, .products .product, .products-block .product) .price-additional {
-  text-align: center;
+  text-align: right;
   max-width: 100%;
 }
 /* A flexible three-line stock slot keeps prices aligned across mixed warehouses.
@@ -195,7 +197,7 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
 
 @media (max-width: 991px) {
   .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) {
-    padding: 0 8px !important;
+    padding: 0 !important;
   }
   .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) > .btn {
     flex: 1 0 36px;
@@ -220,5 +222,37 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
   .ts-view-list #products:not(.products-related) .ts-qty__value {
     font-weight: 800 !important;
     color: var(--ts-color-controls-text) !important;
+  }
+}
+
+/* Five-digit fields cannot be squeezed into narrow two-column cards. Keep
+   native cards/slider tracks; let just their purchase row wrap when necessary. */
+body:not(.type-detail, .ordering-process) #content :is(.products, .products-block):not(.products-related) .product {
+  container-type: inline-size;
+}
+body:not(.type-detail, .ordering-process) #content :is(.products, .products-block):not(.products-related) .product:has(form.pr-action > input[name='amount'][type='hidden']) > .p {
+  padding-bottom: var(--ts-space-3) !important;
+}
+body:not(.type-detail, .ordering-process) #content :is(.products, .products-block):not(.products-related) .product:has(form.pr-action > input[name='amount'][type='hidden']) .p-in {
+  height: auto !important;
+}
+body:not(.type-detail, .ordering-process) #content :is(.products, .products-block):not(.products-related) .product:has(form.pr-action > input[name='amount'][type='hidden']) .product-btn {
+  position: static;
+  height: auto;
+  margin-top: 12px;
+  width: 100%;
+}
+@container (max-width: 161px) {
+  .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) {
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    padding: 0 !important;
+  }
+  .product form.pr-action > .ts-qty {
+    flex: 1 0 var(--ts-qty-width);
+    width: 100%;
+  }
+  .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) > .btn {
+    flex: 1 0 100%;
   }
 }

@@ -1,6 +1,7 @@
 // M2/C3 · Reuse the native recommendation cards and quantity handlers. Missing
 // units come from the exact product's public Shoptet document, never from stock
 // labels or a guessed "ks". One cached document per URL, no scripts executed.
+import { TEXTS } from '../../core/texts.js';
 import { SEL } from '../../core/selectors.js';
 import { COLORBOX_EVENTS } from '../../core/events.js';
 import { whenIdleAfterLoad } from '../../core/idle.js';
@@ -72,6 +73,9 @@ export function prepareRecommendations(root) {
     if (!card.classList.contains('ts-recommendation')) {
       card.classList.add('ts-recommendation', 'ts-card');
     }
+    const label = card.querySelector(SEL.recommendationCartLabel);
+    if (label && label.textContent !== TEXTS.cart.addToCart)
+      label.textContent = TEXTS.cart.addToCart;
     // Keep native quantity handlers; reuse the picker only for this card's
     // missing UI. Classic listings retain their original page/init scope.
     qtyPicker.init(card);

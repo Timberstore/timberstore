@@ -16,7 +16,7 @@
 }
 .in-kosik #cart-wrapper :where(.cart-table tr.removeable, .ts-cart-head) {
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr) 120px 115px 115px 40px;
+  grid-template-columns: 64px minmax(0, 1fr) 120px var(--ts-qty-width) 115px 40px;
   align-items: center;
   gap: 8px 12px;
   padding: 16px 0;
@@ -226,7 +226,7 @@
 .in-kosik #cart-wrapper .cart-related-product {
   display: grid;
   /* Reserve the native quantity box while its verified bounds are fetched. */
-  grid-template-columns: minmax(0, 1fr) 112px max-content 40px;
+  grid-template-columns: minmax(0, 1fr) var(--ts-qty-width) max-content 40px;
   gap: 8px;
   align-items: center;
 }
@@ -290,7 +290,7 @@
 }
 @media (max-width: 991px) {
   .in-kosik #cart-wrapper .cart-related-product {
-    grid-template-columns: 112px minmax(0, 1fr) 40px;
+    grid-template-columns: var(--ts-qty-width) minmax(0, 1fr) 40px;
   }
   .in-kosik #cart-wrapper .cart-related-info {
     grid-area: 1 / 1 / 2 / -1;
@@ -451,7 +451,7 @@
   border-radius: 8px;
   order: 0;
   background: var(--ts-color-checkout-cta);
-  border-color: var(--ts-color-success-border);
+  border-color: var(--ts-color-accent);
   transition: background-color 160ms ease;
   color: var(--ts-color-bg);
   font-weight: 700;
@@ -466,8 +466,8 @@
   a.next-step-back:not(.colorbox-close) {
   display: inline-flex;
   align-items: center;
-  background: var(--ts-color-bg);
-  border: 1px solid var(--ts-color-accent);
+  background: var(--ts-color-service-bg);
+  border: 1px solid var(--ts-color-controls-border);
   color: var(--ts-color-controls-text);
   box-shadow: none;
   border-radius: 8px;
@@ -591,11 +591,11 @@
   color: var(--ts-color-summary-accent);
 }
 
-/* White native labels/arrows on the approved Emerald action surface. */
+/* Native primary checkout actions share the storefront orange policy. */
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)
   :is(.next-step-forward, .next-step-finish):is(:hover, :active, :focus) {
-  background: var(--ts-color-success-active);
-  border-color: var(--ts-color-success-border);
+  background: var(--ts-color-action-hover);
+  border-color: var(--ts-color-action-hover);
   color: var(--ts-color-bg);
 }
 :is(#cart-wrapper .cart-summary, .ordering-process #checkoutSidebar .next-step)

@@ -4,8 +4,8 @@
 :is(.p-detail .p-info-wrapper, .products-related-block, .products-alternative-block, #colorbox .advanced-order) .quantity {
   position: relative;
   display: inline-grid;
-  /* Native min/max packs up to four digits fit before the digit count arrives. */
-  grid-template-columns: 30px max(50px, calc(var(--ts-cart-digits, 1) * 1ch + 12px)) 30px;
+  /* Reserve at least five visible digits without changing native quantity bounds. */
+  grid-template-columns: var(--ts-qty-button-width) max(var(--ts-qty-field-width), calc(var(--ts-cart-digits, 6) * 1ch + 12px)) var(--ts-qty-button-width);
   width: max-content;
   height: 36px;
   padding: 0;
@@ -26,6 +26,7 @@
 :is(.in-kosik #cart-wrapper, #cart-widget) .quantity input,
 :is(.p-detail .p-info-wrapper, .products-related-block, .products-alternative-block, #colorbox .advanced-order) .quantity input {
   width: 100%;
+  min-width: 0;
   height: 34px;
   padding: 0;
   margin: 0;
@@ -51,6 +52,7 @@
   position: static;
   grid-row: 1;
   width: 100%;
+  min-width: 0;
   height: 34px;
   padding: 0;
   border: 0;
