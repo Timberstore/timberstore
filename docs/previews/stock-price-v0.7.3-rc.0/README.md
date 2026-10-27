@@ -15,6 +15,12 @@ Narrow catalogue phones (up to 479px) show one wider tile per row to fit readabl
 - Desktop list/grid restoration and five-digit quantity checked separately in list.json.
 - ESLint, build, whitespace checks. JS 32.31 / 32.5 KiB gzip; CSS 28.83 / 28.875 KiB. Historical version budgets unchanged; small preview allowances follow recorded 15 October authorization.
 
-Evidence uses locally routed candidate dist files on the real native public shop; loader badge/assets in these screenshots retain v0.7.2. This is not production activation evidence. CDN verification is recorded separately after push. The check scripts use Python Playwright with /usr/bin/chromium and the inherited HTTPS_PROXY; TIMBER_STOCK_WORK selects scratch output.
+The 28 layout and purchase checks use locally routed candidate dist files on the real native public shop. Separately, cdn.json verifies exact CSS/JS bytes and actual immutable-preview browser checks at 375/1440px; the four screenshots are from those actual CDN checks. This is not production activation evidence. The check scripts use Python Playwright with /usr/bin/chromium and the inherited HTTPS_PROXY; TIMBER_STOCK_WORK selects scratch output.
 
 Safari/iPhone and PageSpeed are NOT TESTED. The overall visible preview still awaits review before merge/release.
+
+## Review link
+
+https://www.timberstore.sk/?ts_preview=2e3b7b64e860882627d7ec0458c19b8c35ac5693
+
+Fixed source/build commit 2e3b7b64e860882627d7ec0458c19b8c35ac5693. Following commits only add verification evidence. To leave preview: ?ts_preview=off.

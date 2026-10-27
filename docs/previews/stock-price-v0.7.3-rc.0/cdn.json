@@ -1,0 +1,87 @@
+{
+  "commit": "2e3b7b64e860882627d7ec0458c19b8c35ac5693",
+  "cdn": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@2e3b7b64e860882627d7ec0458c19b8c35ac5693/dist/timber.min.css",
+      "status": 200,
+      "sha256": "e9ab4ef728d83c34755421a4efa3df065ccf0d3972af8aedfbbd631c4c0970cd",
+      "exactBytes": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@2e3b7b64e860882627d7ec0458c19b8c35ac5693/dist/timber.min.js",
+      "status": 200,
+      "sha256": "b29375ebc8d97938ccba9bfd15e16dc0453236f620a2e33d7aba0fefc27e4d23",
+      "exactBytes": true
+    }
+  ],
+  "browser": [
+    {
+      "width": 375,
+      "page": "category",
+      "meta": {
+        "version": "v0.7.3-rc.0",
+        "loader": "2e3b7b64e860882627d7ec0458c19b8c35ac5693",
+        "preview": true
+      },
+      "result": {
+        "stockLeft": true,
+        "netBefore": "\"(\"",
+        "netAfter": "\")\"",
+        "central": null
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 375,
+      "page": "central",
+      "meta": {
+        "version": "v0.7.3-rc.0",
+        "loader": "2e3b7b64e860882627d7ec0458c19b8c35ac5693",
+        "preview": true
+      },
+      "result": {
+        "stockLeft": true,
+        "netBefore": "\"(\"",
+        "netAfter": "\")\"",
+        "central": "Centr\u00e1lny\nsklad"
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "page": "category",
+      "meta": {
+        "version": "v0.7.3-rc.0",
+        "loader": "2e3b7b64e860882627d7ec0458c19b8c35ac5693",
+        "preview": true
+      },
+      "result": {
+        "stockLeft": true,
+        "netBefore": "\"(\"",
+        "netAfter": "\")\"",
+        "central": null
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "page": "central",
+      "meta": {
+        "version": "v0.7.3-rc.0",
+        "loader": "2e3b7b64e860882627d7ec0458c19b8c35ac5693",
+        "preview": true
+      },
+      "result": {
+        "stockLeft": true,
+        "netBefore": "\"(\"",
+        "netAfter": "\")\"",
+        "central": "Centr\u00e1lny\nsklad"
+      },
+      "errors": [],
+      "pass": true
+    }
+  ]
+}
