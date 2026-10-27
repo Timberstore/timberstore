@@ -18,4 +18,10 @@ Native names, stock values, prices, units, form nodes, amount limits and handler
 - Native purchase smoke at 375/1440px: original add/popup with no white/blank frames or background movement, quantity increase in cart, shipping/payment to personal details; no order submitted.
 - ESLint, build and whitespace pass. JS 32.31 / 32.5 KiB gzip, CSS 29.35 / 29.5 KiB. New preview CSS allowance follows recorded owner authorization of 15 October; earlier version allowances stay fixed.
 
-These measurements route local candidate dist files on the public shop; they are not production activation evidence. Actual immutable CDN checks are recorded after push. Safari/iPhone and PageSpeed NOT TESTED.
+These measurements route local candidate dist files on the public shop; they are not production activation evidence. Actual immutable CDN exact-byte checks are in cdn-assets.json. Eight actual CDN geometry cases at 375/1440px pass (cdn-alignment.json.gz); final screenshots use this immutable CDN version. Native table add at 1440px passes: five-digit field maps to native hidden amount, reset to 2 before submit, exactly one native add POST, popup opens and return preserves table mode (table-native.json). Safari/iPhone and PageSpeed NOT TESTED.
+
+## Preview
+
+https://www.timberstore.sk/?ts_preview=47aeb467a5ad1b78b9ea25f37305f6ac0710251e
+
+Source/build is fixed at this commit; later commits only add evidence. This preview supersedes rc.1 and includes its four-line desktop titles and separator.
