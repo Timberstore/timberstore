@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased · 0.7.2-rc.4 · 2026-10-27 · M1 menu toggle correction
+
+- Restore the mobile MENU toggle's original background, label and focus treatment. Colour only the three-line hamburger glyph orange in closed/open states.
+- Retain rc.3 contact order, write-us action and footer-matched icons. Preview only; no production loader, stable tag or release changes.
+
 ## Unreleased · 0.7.2-rc.3 · 2026-10-27 · M1 mobile menu contacts
 
 - Keep the mobile MENU toggle orange, including its open, hover and keyboard states.

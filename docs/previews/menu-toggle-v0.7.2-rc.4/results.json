@@ -1,0 +1,191 @@
+[
+  {
+    "width": 320,
+    "native": {
+      "closed": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "label": "rgb(124, 126, 143)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(124, 126, 143)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "open": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(255, 255, 255)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "hover": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(255, 255, 255)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "new": {
+      "closed": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "label": "rgb(124, 126, 143)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(212, 136, 74)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "open": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(212, 136, 74)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "hover": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(212, 136, 74)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "contactsPreserved": true,
+    "pass": true
+  },
+  {
+    "width": 375,
+    "native": {
+      "closed": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "label": "rgb(124, 126, 143)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(124, 126, 143)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "open": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(255, 255, 255)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "hover": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(255, 255, 255)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "new": {
+      "closed": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "label": "rgb(124, 126, 143)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(212, 136, 74)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "open": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(212, 136, 74)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "hover": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(212, 136, 74)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "contactsPreserved": true,
+    "pass": true
+  },
+  {
+    "width": 767,
+    "native": {
+      "closed": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "label": "rgb(124, 126, 143)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(124, 126, 143)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "open": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(255, 255, 255)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "hover": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(255, 255, 255)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "new": {
+      "closed": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "label": "rgb(124, 126, 143)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(212, 136, 74)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "open": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(212, 136, 74)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      },
+      "hover": {
+        "bg": "rgb(66, 62, 62)",
+        "label": "rgb(255, 255, 255)",
+        "labelContent": "\"Menu\"",
+        "glyph": "rgb(212, 136, 74)",
+        "content": "\"\ue92f\"",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "contactsPreserved": true,
+    "pass": true
+  }
+]
