@@ -1,46 +1,49 @@
-/* M2 · Add-to-cart Colorbox is taller than the mobile viewport and its
-   native opening animation grows the modal from a narrow strip on the right.
-   Keep a fixed mobile width from the first frame, preserve vertical positioning,
-   and let oversized content scroll inside the popup.
-   !important is required because Colorbox writes dimensions inline. */
+/* M2 · The native Colorbox opening and post-open resize used different
+   dimensions, causing the already visible cart popup to jump. Its final width
+   and content-driven height apply from insertion, before Apollo enhancement.
+   Inline animation dimensions are intentionally overridden only for this popup;
+   galleries and other dialogs keep their native geometry and animation. */
+#colorbox:has(.advanced-order) {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+  width: min(1152px, calc(100vw - 32px)) !important;
+  height: auto !important;
+  max-height: calc(100vh - 16px);
+}
+#colorbox:has(.advanced-order) :is(#cboxWrapper, #cboxContent, #cboxLoadedContent) {
+  box-sizing: border-box;
+  width: 100% !important;
+  height: auto !important;
+}
+#colorbox:has(.advanced-order) #cboxWrapper {
+  position: relative !important;
+  display: flow-root;
+}
+/* Decorative Colorbox edge floats retain stale animated heights; the native
+   content already draws this dialog's border and radius. */
+#colorbox:has(.advanced-order) #cboxWrapper > div > div:not(#cboxContent) {
+  display: none;
+}
+#colorbox:has(.advanced-order) #cboxContent {
+  float: none !important;
+}
+#colorbox:has(.advanced-order) #cboxLoadedContent {
+  max-height: calc(100vh - 32px);
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+@supports (height: 100dvh) {
+  #colorbox:has(.advanced-order) #cboxLoadedContent {
+    max-height: calc(100dvh - 32px);
+  }
+}
 @media (max-width: 767px) {
   #colorbox:has(.advanced-order) {
-    left: 8px !important;
     width: calc(100vw - 16px) !important;
-  }
-
-  #colorbox:has(.advanced-order) #cboxWrapper,
-  #colorbox:has(.advanced-order) #cboxContent,
-  #colorbox:has(.advanced-order) #cboxLoadedContent {
-    width: 100% !important;
-  }
-
-  #colorbox:has(.advanced-order),
-  #colorbox:has(.advanced-order) #cboxWrapper,
-  #colorbox:has(.advanced-order) #cboxContent {
-    max-height: calc(100vh - 16px) !important;
-  }
-
-  #colorbox:has(.advanced-order) #cboxLoadedContent {
-    box-sizing: border-box;
-    height: auto !important;
-    max-height: calc(100vh - 32px) !important;
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-    overscroll-behavior: contain;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  @supports (height: 100dvh) {
-    #colorbox:has(.advanced-order),
-    #colorbox:has(.advanced-order) #cboxWrapper,
-    #colorbox:has(.advanced-order) #cboxContent {
-      max-height: calc(100dvh - 16px) !important;
-    }
-
-    #colorbox:has(.advanced-order) #cboxLoadedContent {
-      max-height: calc(100dvh - 32px) !important;
-    }
   }
 }
 
@@ -48,7 +51,7 @@
 #cboxLoadedContent .advanced-order > .h1:not(.advanced-order-suggestion) {
   background: var(--ts-color-success-bg);
   color: var(--ts-color-controls-text);
-  box-shadow: inset 0 0 0 1px var(--ts-color-success-border);
+  box-shadow: inset 0 0 0 1px var(--ts-color-success);
 }
 #cboxLoadedContent .advanced-order > .h1::before {
   color: var(--ts-color-success);
@@ -56,17 +59,17 @@
 #colorbox:has(.advanced-order) #cboxClose::before {
   color: var(--ts-color-controls-text);
 }
-/* Delivery in cart, advanced-order and mini-cart uses one warm family. */
+/* Delivery progress shares the cart success colour, including partial progress. */
 .extras-wrap .extra-item .extra-content:has(.extra.delivery) {
   background-color: var(--ts-color-service-bg);
 }
 .extras-wrap .price-range > div {
-  background-color: var(--ts-color-accent);
+  background-color: var(--ts-color-success);
 }
 
-/* M2 · One centred confirmation and balanced native navigation/transport blocks. */
+
+/* M2/C3 · Brand confirmation and native primary/secondary actions. */
 #colorbox .advanced-order > :is(.h1, .h2) {
-  text-align: center;
   word-break: normal;
   overflow-wrap: normal;
   hyphens: none;
@@ -75,8 +78,15 @@
   margin: 16px 24px;
 }
 #colorbox .advanced-order .extra-content:has(.extra.delivery) {
-  background: var(--ts-color-technical-bg);
-  border-color: var(--ts-color-table-border);
+  background-color: var(--ts-color-service-bg) !important;
+  border-color: var(--ts-color-controls-border);
+}
+#colorbox .advanced-order .extra.delivery {
+  background: transparent;
+}
+#colorbox .advanced-order .extra.delivery::before,
+#colorbox .advanced-order .extra.delivery strong {
+  color: var(--ts-color-success);
 }
 #colorbox .advancedOrder__buttons {
   display: flex;
@@ -86,30 +96,55 @@
   padding: 0 24px;
 }
 #colorbox .advancedOrder__buttons .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
   margin: 0;
-}
-#colorbox .advancedOrder__buttons .next-step-back {
-  background: var(--ts-color-technical-bg);
-  color: var(--ts-color-controls-text);
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  border: 1px solid var(--ts-color-accent);
   box-shadow: none;
 }
+#colorbox .advancedOrder__buttons .btn-conversion {
+  background: var(--ts-color-accent);
+  color: var(--ts-color-bg);
+}
+#colorbox .advancedOrder__buttons .btn-conversion:hover {
+  background: var(--ts-color-action-hover);
+  border-color: var(--ts-color-action-hover);
+}
+#colorbox .advancedOrder__buttons .next-step-back {
+  background: var(--ts-color-service-bg);
+  color: var(--ts-color-controls-text);
+  border-color: var(--ts-color-controls-border);
+}
+#colorbox .advancedOrder__buttons .next-step-back:hover {
+  background: var(--ts-color-controls-divider);
+}
+#colorbox .advancedOrder__buttons .btn:focus-visible {
+  outline: 2px solid var(--ts-color-controls-active);
+  outline-offset: 3px;
+}
 
-/* M2/C3 · Original recommendation DOM as a compact purchase table. Native
-   mobile price relocation remains intact: flatten only presentation wrappers. */
+/* Native recommendation wrappers become one grid. Explicit track widths and
+   input minima prevent the form's intrinsic 30px width from clipping digits. */
 #colorbox .advanced-order #products {
   display: grid;
   gap: 12px;
   margin: 16px 24px 24px;
 }
-#colorbox .advanced-order .ts-recommendation {
+#colorbox .advanced-order .product {
   width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
 }
-#colorbox .advanced-order .ts-recommendation > .p {
+#colorbox .advanced-order .product > .p {
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr) 110px 160px 100px 42px;
+  grid-template-columns: 64px minmax(170px, 1fr) max-content minmax(110px, 140px) var(--ts-qty-width) minmax(110px, 140px);
   grid-template-areas: 'image name stock price qty cart' 'image code stock net qty cart';
   gap: 4px 12px;
   align-items: center;
@@ -120,22 +155,22 @@
   border-radius: 10px;
   box-shadow: none;
 }
-#colorbox .ts-recommendation :is(.p-in, .p-in-in, .p-bottom, .prices, .p-tools, .product-btn),
-#colorbox .ts-recommendation .p-bottom > [data-micro='offer'],
-#colorbox .ts-recommendation .product-btn form {
+#colorbox .advanced-order .product :is(.p-in, .p-in-in, .p-bottom, .prices, .p-tools, .product-btn),
+#colorbox .advanced-order .product .p-bottom > [data-micro='offer'],
+#colorbox .advanced-order .product form.pr-action {
   display: contents !important;
 }
-#colorbox .ts-recommendation .image {
+#colorbox .advanced-order .product .image {
   grid-area: image;
-  width: 72px;
+  width: 64px;
   padding: 0;
   margin: 0;
 }
-#colorbox .ts-recommendation .image img {
+#colorbox .advanced-order .product .image img {
   max-width: 100%;
   margin: 0;
 }
-#colorbox .ts-recommendation a.name {
+#colorbox .advanced-order .product a.name {
   grid-area: name;
   align-self: end;
   min-width: 0;
@@ -146,63 +181,82 @@
   line-height: 1.4;
   text-align: left !important;
 }
-#colorbox .ts-recommendation .p-code {
+#colorbox .advanced-order .product .p-code {
   grid-area: code;
   align-self: start;
   position: static;
   margin: 0;
+  text-align: left !important;
 }
-#colorbox .ts-recommendation .availability {
+#colorbox .advanced-order .product .p-code > span {
+  display: inline;
+}
+#colorbox .advanced-order .product .availability {
   grid-area: stock;
-  display: grid;
-  justify-items: center;
-  text-align: center;
+  display: block;
+  text-align: left;
   min-width: 0;
   margin: 0;
 }
-#colorbox .ts-recommendation .availability > :first-child {
-  width: min-content;
+#colorbox .advanced-order .product .availability > :first-child {
+  display: inline;
+  width: auto;
+  white-space: normal;
 }
-#colorbox .ts-recommendation .price-final {
+#colorbox .advanced-order .product .availability-amount {
+  display: inline-block;
+  white-space: nowrap;
+}
+#colorbox .advanced-order .product .price-final {
   grid-area: price;
   align-self: end;
   margin: 0 !important;
   font-size: 18px;
+  text-align: right !important;
 }
-#colorbox .ts-recommendation .price-additional {
+#colorbox .advanced-order .product .price-additional {
   grid-area: net;
   align-self: start;
   margin: 0 !important;
   font-size: 12px;
+  text-align: right !important;
 }
-#colorbox .ts-recommendation :is(.quantity, .ts-qty) {
+#colorbox .advanced-order .product :is(.quantity, .ts-qty) {
   grid-area: qty;
-  width: 100%;
+  width: var(--ts-qty-width) !important;
+  min-width: var(--ts-qty-width);
+  grid-template-columns: var(--ts-qty-button-width) minmax(var(--ts-qty-field-width), 1fr) var(--ts-qty-button-width);
 }
-#colorbox .ts-recommendation .btn-cart {
+#colorbox .advanced-order .product .btn-cart {
   grid-area: cart;
   width: 100% !important;
+  height: auto !important;
+  min-height: 46px !important;
+  padding: 6px 8px !important;
+  font-size: 13px !important;
+  font-weight: 600;
+  line-height: 1.3;
+  white-space: normal;
+  background: var(--ts-color-accent);
+  color: var(--ts-color-bg);
+  border-color: var(--ts-color-accent);
+  box-shadow: none;
 }
-#colorbox .advanced-order-suggestion {
-  text-align: center;
+#colorbox .advanced-order .product .btn-cart > span:not(.ts-cart-count) {
+  display: inline !important;
 }
-@media (max-width: 991px) {
-  #colorbox .advanced-order .ts-recommendation > .p {
-    grid-template-columns: 84px minmax(0, 1fr) 42px;
-    grid-template-areas: 'image name name' 'image code code' 'stock price price' 'stock net net' 'qty cart cart';
-    gap: 8px 10px;
-  }
+#colorbox .advanced-order .product .btn-cart::after {
+  display: none;
 }
-/* Apollo hides SKU and net price in advanced-order. Reveal the original nodes. */
-#colorbox .ts-recommendation :is(.p-code, .price-additional) {
+#colorbox .advanced-order .product .btn-cart:hover {
+  background: var(--ts-color-action-hover);
+  border-color: var(--ts-color-action-hover);
+}
+#colorbox .advanced-order .product :is(.p-code, .price-additional) {
   display: block !important;
 }
-/* Keep the native shipping percentage, rendered as a thin progress track. */
-#colorbox .advanced-order .extra-content:has(.extra.delivery) {
-  background-color: var(--ts-color-technical-bg) !important;
-}
-#colorbox .advanced-order .extra.delivery {
-  background: transparent;
+#colorbox .advanced-order-suggestion {
+  text-align: left;
 }
 #colorbox .advanced-order .price-range {
   top: auto;
@@ -218,21 +272,56 @@
   height: 100%;
   border-radius: 0;
 }
-#colorbox .ts-recommendation .btn-cart {
-  max-width: 180px !important;
-  justify-self: end;
+@media (max-width: 1199px) {
+  #colorbox .advanced-order .product > .p {
+    grid-template-columns: var(--ts-qty-width) minmax(0, 1fr);
+    grid-template-areas: 'name name' 'code code' 'stock price' 'stock net' 'qty cart';
+    gap: 8px 10px;
+  }
+  #colorbox .advanced-order .product .image {
+    grid-area: 1 / 1 / 3 / 2;
+    align-self: start;
+    width: 56px;
+  }
+  #colorbox .advanced-order .product :is(a.name, .p-code) {
+    margin-left: 66px;
+  }
 }
 @media (max-width: 767px) {
-  #colorbox .advanced-order #products {
-    margin-inline: 12px;
-  }
+  #colorbox .advanced-order #products,
   #colorbox .advanced-order .extras-wrap {
     margin-inline: 12px;
   }
   #colorbox .advancedOrder__buttons {
     padding-inline: 12px;
   }
-  #colorbox .advanced-order .ts-recommendation > .p {
+  #colorbox .advanced-order .product > .p {
     padding: 12px;
+  }
+}
+
+/* M2 · Keep native pointer blocking and request/error cleanup, but avoid the
+   white spinner → clear page → dark modal flash on a product add. Only the
+   spinner inserted by that submit is marked; other loading masks stay native. */
+body:not(.ordering-process) .overlay.spinner.ts-cart-add-spinner {
+  background: transparent;
+  cursor: progress;
+}
+body:not(.ordering-process) .overlay.spinner.ts-cart-add-spinner > * {
+  visibility: hidden;
+}
+/* Reveal the completed dialog with opacity only. The backdrop animates toward
+   its native inline opacity, preserving Shoptet's configured dimming amount. */
+#colorbox:has(.advanced-order),
+body:has(#colorbox .advanced-order) #cboxOverlay {
+  animation: ts-cart-reveal var(--ts-cart-reveal-duration) ease-out;
+}
+@keyframes ts-cart-reveal {
+  from { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #colorbox:has(.advanced-order),
+  body:has(#colorbox .advanced-order) #cboxOverlay {
+    animation: none;
   }
 }

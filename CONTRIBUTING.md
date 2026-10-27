@@ -164,6 +164,22 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Stabilní v0.7.2 (27. 10. 2026, výslovný souhlas majitele s merge/vydáním/nasazením):** přebírá schválené rc.6 limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení. Aplikační zdroje při povýšení beze změny, pouze číslo verze buildu. Safari/iPhone NOT TESTED; starší limity/tagy zachovány. Aktivace Shoptetu vyžaduje ověřený přístup do administrace.
+
+- **Cart transition `0.7.2-rc.6` (27. 10. 2026):** zachované limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení; naměřeno 32.20 / 28.71 KiB. Pouze preview, starší tagy/limity a produkční loader beze změny.
+
+- **Open menu glyph `0.7.2-rc.5` (27. 10. 2026):** zachované rc.3/rc.4 limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení. Pouze preview; starší limity, stabilní tagy a loader beze změny.
+
+- **Menu toggle correction `0.7.2-rc.4` (27. 10. 2026):** zachovává rc.3 limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení; naměřeno 32.10 / 28.53 KiB. Pouze preview, starší limity/tagy a loader beze změny.
+
+- **Mobile menu preview `0.7.2-rc.3` (27. 10. 2026):** JS limit 32.25 KiB / CSS 28.75 KiB, naměřeno 32.10 / 28.54 KiB. Malé rozšíření pro kontaktní CTA a společné ikony/styly dle evidovaného souhlasu 15. 10. 2026. Starší preview/stabilní limity, tagy a produkční loader zůstávají beze změny.
+
+- **Cart stability preview `0.7.2-rc.2` (27. 10. 2026):** zachované limity JS 32 KiB / CSS 28.5 KiB; naměřeno 31.98 / 28.26 KiB. Bez dalšího navýšení. Pouze preview, stabilní tagy a produkční loader beze změny.
+
+- **Cart controls preview `0.7.2-rc.1` (27. 10. 2026):** JS limit 32 KiB, CSS 28.5 KiB; naměřeno 31.99 / 28.08 KiB. Rozšíření pouze pro lokální rozložení, šířky množství a nákupní barevnou politiku podle evidovaného souhlasu 15. 10. 2026. Limity stabilních vydání, jejich tagy i produkční loader zůstávají beze změny.
+
+- **Cookies preview `0.7.2-rc.0` (27. 10. 2026):** JS limit 32 KiB, CSS 27.625 KiB; naměřeno 31.96 / 27.53 KiB. Malé rozšíření pouze pro nové barevné styly podle evidovaného souhlasu 15. 10. 2026. Stabilní v0.7.1, její limity a loader beze změny.
+
 - **Stabilní v0.7.1 (27. 10. 2026, výslovný souhlas majitele s vydáním/nasazením):** přebírá otestované limity kandidáta rc.0: JS 32 KiB / CSS 27.5 KiB, bez dalšího navýšení. Aplikační kód při povýšení beze změny; starší limity zůstávají pevné. Safari/iPhone pro toto vydání NOT TESTED, nikoli PASS nebo automaticky převzatý waiver. Aktivace Shoptetu čeká na ověřený přístup do administrace.
 
 - **Stabilita načítání celého webu, lokální kandidát `0.7.1-rc.0` (27. 10. 2026):** JS limit 32 KiB, CSS 27.5 KiB, naměřeno 31.96 / 27.43 KiB. Rozšíření CSS podle evidovaného souhlasu klienta 15. 10. 2026 pro společné nativní styly ovládání, rezervaci množství, první vykreslení KÓD/ZNAČKA a košíkové SVG. Limity stabilních vydání a produkční verze loaderu se nemění; bez tagu, release a nasazení.

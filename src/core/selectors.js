@@ -69,6 +69,7 @@ export const SEL = {
   purchaseCard: '.product',
   productPurchaseForms:
     'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product form.pr-action, .products-related-block .product form.pr-action, .products-alternative-block .product form.pr-action, #colorbox .advanced-order .product form.pr-action',
+  cartModalForm: 'form.pr-action, form.variant-submit',
   cartForm: 'form.pr-action',
   cartFormAmount: 'input[name="amount"]', // hidden; the multiply_order add-on writes the pack size here
   cartFormPriceId: 'input[name="priceId"]',
@@ -111,9 +112,13 @@ export const SEL = {
   classicProductCard:
     'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product',
   productNetPrice: '.price-additional',
+  productStock: '.product .availability, .p-detail .availability-value',
+  productStockLabel: ':scope > span:first-child',
+  productStockAmount: '.availability-amount',
   recommendationCard:
     '.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product',
   recommendationLink: 'a.name[href]',
+  recommendationCartLabel: '.btn-cart > span:not(.ts-cart-count)',
   recommendationSku: '[data-micro="sku"]',
   recommendationPrice: '.price-final',
   productPriceUnit: '.pr-list-unit, .ts-recommendation-unit',

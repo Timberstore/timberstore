@@ -1,6 +1,7 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { SHOPTET_EVENTS } from '../../core/events.js';
+import { addContactIcon } from '../../core/contact-icons.js';
 import { SOCIALS, CONTACT_FORM, CHECKOUT_SUPPORT_EMAIL } from '../../core/contacts.js';
 import { syncMobileCart, releaseMobileCart } from './mobile-cart.js';
 import { isBusinessOpen } from './business-hours.js';
@@ -276,8 +277,24 @@ function syncMenu() {
         .replace(/^(\+\d{3})(\d{3})(\d{3})(\d{3})$/, '$1 $2 $3 $4');
       if (phone.textContent !== formatted) phone.textContent = formatted;
     }
+    if (email) addContactIcon(email, 'email');
+    const phoneLink = contacts.querySelector(SEL.contactPhone);
+    if (phoneLink) addContactIcon(phoneLink, 'phone');
+    for (const link of socials.querySelectorAll('[data-ts-social]')) {
+      const network = link.dataset.tsSocial;
+      link.querySelector('.ts-service-bar__social-icon')?.remove();
+      link.classList.add('ts-footer-contacts__social', `ts-footer-contacts__social--${network}`);
+      addContactIcon(link, network);
+    }
+    let write = contacts.querySelector('.ts-menu-write-us');
+    if (!write) {
+      write = document.createElement('a');
+      write.className = 'ts-menu-write-us btn btn-primary';
+      write.href = CONTACT_FORM;
+      write.textContent = TEXTS.footer.writeUs;
+    }
     let previous = title;
-    for (const node of [contacts.querySelector(SEL.contactPhone), email, support, socials]) {
+    for (const node of [support, email, phoneLink, write, socials]) {
       if (!node) continue;
       if (node.previousElementSibling !== previous) previous.after(node);
       previous = node;

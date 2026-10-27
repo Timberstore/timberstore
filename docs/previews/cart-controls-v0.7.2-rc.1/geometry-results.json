@@ -1,0 +1,188 @@
+[
+  {
+    "width": 320,
+    "page": "home",
+    "controls": 32,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 320,
+    "page": "category",
+    "controls": 29,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 320,
+    "page": "detail",
+    "controls": 1,
+    "normalRecommendations": [
+      {
+        "align": "left",
+        "price": "right",
+        "label": "Prida\u0165 do ko\u0161\u00edka",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "mainPurchasePair": {
+      "sameRow": true,
+      "left": true
+    }
+  },
+  {
+    "width": 375,
+    "page": "category",
+    "controls": 29,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 375,
+    "page": "detail",
+    "controls": 1,
+    "normalRecommendations": [
+      {
+        "align": "left",
+        "price": "right",
+        "label": "Prida\u0165 do ko\u0161\u00edka",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "mainPurchasePair": {
+      "sameRow": true,
+      "left": true
+    }
+  },
+  {
+    "width": 375,
+    "page": "home",
+    "controls": 32,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 430,
+    "page": "category",
+    "controls": 29,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 430,
+    "page": "home",
+    "controls": 32,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 430,
+    "page": "detail",
+    "controls": 1,
+    "normalRecommendations": [
+      {
+        "align": "left",
+        "price": "right",
+        "label": "Prida\u0165 do ko\u0161\u00edka",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "mainPurchasePair": {
+      "sameRow": true,
+      "left": true
+    }
+  },
+  {
+    "width": 768,
+    "page": "category",
+    "controls": 29,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 768,
+    "page": "home",
+    "controls": 32,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 768,
+    "page": "detail",
+    "controls": 1,
+    "normalRecommendations": [
+      {
+        "align": "left",
+        "price": "right",
+        "label": "Prida\u0165 do ko\u0161\u00edka",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "mainPurchasePair": {
+      "sameRow": true,
+      "left": true
+    }
+  },
+  {
+    "width": 1024,
+    "page": "category",
+    "controls": 29,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 1024,
+    "page": "home",
+    "controls": 32,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 1024,
+    "page": "detail",
+    "controls": 1,
+    "normalRecommendations": [
+      {
+        "align": "left",
+        "price": "right",
+        "label": "Prida\u0165 do ko\u0161\u00edka",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "mainPurchasePair": {
+      "sameRow": true,
+      "left": true
+    }
+  },
+  {
+    "width": 1440,
+    "page": "category",
+    "controls": 29,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 1440,
+    "page": "home",
+    "controls": 32,
+    "normalRecommendations": [],
+    "mainPurchasePair": null
+  },
+  {
+    "width": 1440,
+    "page": "detail",
+    "controls": 1,
+    "normalRecommendations": [
+      {
+        "align": "left",
+        "price": "right",
+        "label": "Prida\u0165 do ko\u0161\u00edka",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "mainPurchasePair": {
+      "sameRow": true,
+      "left": true
+    }
+  }
+]

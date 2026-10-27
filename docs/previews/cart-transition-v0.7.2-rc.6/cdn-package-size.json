@@ -1,0 +1,101 @@
+{
+  "savedBytes": 8315024,
+  "files": [
+    {
+      "file": "docs/previews/cart-actions/render-traces.json",
+      "beforeBytes": 455149,
+      "afterBytes": 198687,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/critical-list-cart-fixes/verification.json",
+      "beforeBytes": 922756,
+      "afterBytes": 445064,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/final-product-card-polish/verification.json",
+      "beforeBytes": 763028,
+      "afterBytes": 348314,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/final-ui-quantity-homepage-filters-sku/verification.json",
+      "beforeBytes": 2855584,
+      "afterBytes": 1376003,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/homepage-cart-quantity-ui/verification.json",
+      "beforeBytes": 1900546,
+      "afterBytes": 904351,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/popup-related-polish/verification.json",
+      "beforeBytes": 676628,
+      "afterBytes": 336757,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/product-blue-alignment/verification.json",
+      "beforeBytes": 504938,
+      "afterBytes": 250492,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/product-final-density/verification.json",
+      "beforeBytes": 573826,
+      "afterBytes": 280492,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/product-information-spacing/measurements.json",
+      "beforeBytes": 624546,
+      "afterBytes": 287944,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/product-mobile-gallery/verification.json",
+      "beforeBytes": 3961580,
+      "afterBytes": 1925402,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/product-panel-metadata/verification.json",
+      "beforeBytes": 1008640,
+      "afterBytes": 520769,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/product-price-stock-polish/verification.json",
+      "beforeBytes": 311786,
+      "afterBytes": 172679,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/product-purchase-columns/verification.json",
+      "beforeBytes": 431282,
+      "afterBytes": 216917,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/product-purchase-panel/verification.json",
+      "beforeBytes": 565302,
+      "afterBytes": 289728,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/product-ui-gallery-refinement/verification.json",
+      "beforeBytes": 663782,
+      "afterBytes": 399576,
+      "parsedDataIdentical": true
+    },
+    {
+      "file": "docs/previews/regression-v064/verification.json",
+      "beforeBytes": 103514,
+      "afterBytes": 54688,
+      "parsedDataIdentical": true
+    }
+  ]
+}

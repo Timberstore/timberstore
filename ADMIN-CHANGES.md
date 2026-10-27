@@ -47,3 +47,10 @@ Klient potvrdil aktiváciu buildu v0.6.12. Čistá mobilná relácia následne o
 - Klient schválil nové vydanie po zladení pozadia Instagramu s výrobným blokom. Zahŕňa všetky priebežne schválené opravy nad v0.6.12, bez rozpracovaného detailu produktu.
 - Repo loader pripravený na `PROD = 'v0.6.13'`. Agent nemá prístup do Shoptet administrácie; nejde o záznam vykonanej aktivácie.
 - Po overení CDN synchronizovať iba hodnotu PROD existujúceho Timber loadera; [postup a rollback](docs/releases/v0.6.13.md).
+
+## 2026-10-27 — v0.7.2, príprava schválenej aktivácie
+
+- Majiteľ výslovne schválil merge do main, vydanie a live nasadenie po preview rc.6.
+- Pred vydaním verejný web používa `PROD = 'v0.7.1'`; uložený je presný [loader pred zmenou](shoptet/backup/2026-10-27/live-loader-before-v0.7.2.html).
+- Repo [loader](shoptet/loader.html) cieli na `v0.7.2`. Toto je príprava, nie tvrdenie o vykonanej aktivácii: dostupná administrácia presmeruje na `/admin/login/`.
+- Po overení CDN nahradiť iba existujúci Timber loader jeho verziovaným cieľom; ostatné integrácie ponechať. Overiť čistú reláciu s `Timber.version = TimberLoader.version = v0.7.2`, `preview = false`. Rollback je uložený v0.7.1 loader.

@@ -1,0 +1,122 @@
+[
+  {
+    "width": 320,
+    "stock": {
+      "label": "\n Centr\u00e1lny sklad",
+      "count": "(>100\u00a0sada)",
+      "wordY": 3548.109375,
+      "countY": 3550.109375,
+      "wordBottom": 3563.109375,
+      "countBottom": 3563.953125,
+      "space": "\u00a0",
+      "wordRight": 87.8125,
+      "countX": 90.546875,
+      "width": 118
+    },
+    "recommendations": [
+      {
+        "alternative": false,
+        "color": "rgb(36, 84, 166)",
+        "beforeCleanupColor": "rgb(36, 84, 166)",
+        "align": "left"
+      },
+      {
+        "alternative": true,
+        "color": "rgb(36, 84, 166)",
+        "beforeCleanupColor": "rgb(36, 84, 166)",
+        "align": "left"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "stock": {
+      "label": "\n Centr\u00e1lny sklad",
+      "count": "(>100\u00a0sada)",
+      "wordY": 3658.0625,
+      "countY": 3660.0625,
+      "wordBottom": 3673.0625,
+      "countBottom": 3673.90625,
+      "space": "\u00a0",
+      "wordRight": 87.8125,
+      "countX": 90.546875,
+      "width": 118
+    },
+    "recommendations": [
+      {
+        "alternative": false,
+        "color": "rgb(36, 84, 166)",
+        "beforeCleanupColor": "rgb(36, 84, 166)",
+        "align": "left"
+      },
+      {
+        "alternative": true,
+        "color": "rgb(36, 84, 166)",
+        "beforeCleanupColor": "rgb(36, 84, 166)",
+        "align": "left"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 768,
+    "stock": {
+      "label": "\n Centr\u00e1lny sklad",
+      "count": "(>100\u00a0sada)",
+      "wordY": 2375.9375,
+      "countY": 2375.9375,
+      "wordBottom": 2390.9375,
+      "countBottom": 2392.546875,
+      "space": "\u00a0",
+      "wordRight": 107.5625,
+      "countX": 110.796875,
+      "width": 118
+    },
+    "recommendations": [
+      {
+        "alternative": false,
+        "color": "rgb(36, 84, 166)",
+        "beforeCleanupColor": "rgb(36, 84, 166)",
+        "align": "left"
+      },
+      {
+        "alternative": true,
+        "color": "rgb(36, 84, 166)",
+        "beforeCleanupColor": "rgb(36, 84, 166)",
+        "align": "left"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "stock": {
+      "label": "\n Centr\u00e1lny sklad",
+      "count": "(>100\u00a0sada)",
+      "wordY": 2397.5625,
+      "countY": 2397.5625,
+      "wordBottom": 2412.5625,
+      "countBottom": 2414.171875,
+      "space": "\u00a0",
+      "wordRight": 96.0625,
+      "countX": 99.296875,
+      "width": 118
+    },
+    "recommendations": [
+      {
+        "alternative": false,
+        "color": "rgb(36, 84, 166)",
+        "beforeCleanupColor": "rgb(36, 84, 166)",
+        "align": "left"
+      },
+      {
+        "alternative": true,
+        "color": "rgb(36, 84, 166)",
+        "beforeCleanupColor": "rgb(36, 84, 166)",
+        "align": "left"
+      }
+    ],
+    "pass": true
+  }
+]

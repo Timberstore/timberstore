@@ -1,0 +1,278 @@
+[
+  {
+    "width": 320,
+    "popup": {
+      "q": {
+        "x": 46,
+        "y": 749.015625,
+        "w": 118,
+        "h": 38,
+        "right": 164
+      },
+      "input": {
+        "x": 73,
+        "y": 750.015625,
+        "w": 64,
+        "h": 36,
+        "right": 137
+      },
+      "button": {
+        "x": 174,
+        "y": 744.125,
+        "w": 84,
+        "h": 47.78125,
+        "right": 258
+      },
+      "titleAlign": "left",
+      "line": "19.6px",
+      "priceAlign": "right",
+      "stockInline": true,
+      "buttonLabel": "Prida\u0165 do ko\u0161\u00edka",
+      "headerBg": "rgb(255, 248, 241)",
+      "primary": "rgb(212, 136, 74)",
+      "back": "rgb(229, 224, 218)",
+      "overflow": 0
+    },
+    "fiveDigits": {
+      "value": "10000",
+      "scroll": 0,
+      "w": 64
+    },
+    "badge": {
+      "z": "2",
+      "iconZ": "0",
+      "width": 39.5625,
+      "right": 157.703125,
+      "priceX": 173.703125,
+      "old": "3"
+    },
+    "mini": {
+      "x": 0,
+      "w": 305
+    },
+    "cartAmounts": [
+      {
+        "v": "1",
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      },
+      {
+        "v": "2",
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      }
+    ],
+    "singlePosts": 2,
+    "checkout": "https://www.timberstore.sk/objednavka/krok-1/",
+    "errors": []
+  },
+  {
+    "width": 375,
+    "popup": {
+      "q": {
+        "x": 54,
+        "y": 739.328125,
+        "w": 118,
+        "h": 38,
+        "right": 172
+      },
+      "input": {
+        "x": 81,
+        "y": 740.328125,
+        "w": 64,
+        "h": 36,
+        "right": 145
+      },
+      "button": {
+        "x": 182,
+        "y": 736.328125,
+        "w": 139,
+        "h": 44,
+        "right": 321
+      },
+      "titleAlign": "left",
+      "line": "19.6px",
+      "priceAlign": "right",
+      "stockInline": true,
+      "buttonLabel": "Prida\u0165 do ko\u0161\u00edka",
+      "headerBg": "rgb(255, 248, 241)",
+      "primary": "rgb(212, 136, 74)",
+      "back": "rgb(245, 240, 233)",
+      "overflow": 0
+    },
+    "fiveDigits": {
+      "value": "10000",
+      "scroll": 0,
+      "w": 64
+    },
+    "badge": {
+      "z": "2",
+      "iconZ": "0",
+      "width": 39.5625,
+      "right": 212.703125,
+      "priceX": 228.703125,
+      "old": "3"
+    },
+    "mini": {
+      "x": 0,
+      "w": 360
+    },
+    "cartAmounts": [
+      {
+        "v": "1",
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      },
+      {
+        "v": "2",
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      }
+    ],
+    "singlePosts": 2,
+    "checkout": "https://www.timberstore.sk/objednavka/krok-1/",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "popup": {
+      "q": {
+        "x": 113,
+        "y": 719.1875,
+        "w": 118,
+        "h": 38,
+        "right": 231
+      },
+      "input": {
+        "x": 140,
+        "y": 720.1875,
+        "w": 64,
+        "h": 36,
+        "right": 204
+      },
+      "button": {
+        "x": 241,
+        "y": 716.1875,
+        "w": 415,
+        "h": 44,
+        "right": 656
+      },
+      "titleAlign": "left",
+      "line": "19.6px",
+      "priceAlign": "right",
+      "stockInline": true,
+      "buttonLabel": "Prida\u0165 do ko\u0161\u00edka",
+      "headerBg": "rgb(255, 248, 241)",
+      "primary": "rgb(212, 136, 74)",
+      "back": "rgb(245, 240, 233)",
+      "overflow": 0
+    },
+    "fiveDigits": {
+      "value": "10000",
+      "scroll": 0,
+      "w": 64
+    },
+    "badge": {
+      "z": "2",
+      "iconZ": "0",
+      "width": 46.4375,
+      "right": 594.09375,
+      "priceX": 612.09375,
+      "old": "3"
+    },
+    "mini": {
+      "x": 310,
+      "w": 420
+    },
+    "cartAmounts": [
+      {
+        "v": "1",
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      },
+      {
+        "v": "2",
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      }
+    ],
+    "singlePosts": 2,
+    "checkout": "https://www.timberstore.sk/objednavka/krok-1/",
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "popup": {
+      "q": {
+        "x": 944,
+        "y": 646.1875,
+        "w": 118,
+        "h": 38,
+        "right": 1062
+      },
+      "input": {
+        "x": 971,
+        "y": 647.1875,
+        "w": 64,
+        "h": 36,
+        "right": 1035
+      },
+      "button": {
+        "x": 1074,
+        "y": 643.1875,
+        "w": 140,
+        "h": 44,
+        "right": 1214
+      },
+      "titleAlign": "left",
+      "line": "19.6px",
+      "priceAlign": "right",
+      "stockInline": true,
+      "buttonLabel": "Prida\u0165 do ko\u0161\u00edka",
+      "headerBg": "rgb(255, 248, 241)",
+      "primary": "rgb(212, 136, 74)",
+      "back": "rgb(245, 240, 233)",
+      "overflow": 0
+    },
+    "fiveDigits": {
+      "value": "10000",
+      "scroll": 0,
+      "w": 64
+    },
+    "badge": {
+      "z": "2",
+      "iconZ": "0",
+      "width": 46.4375,
+      "right": 1265.59375,
+      "priceX": 1283.59375,
+      "old": "3"
+    },
+    "mini": {
+      "x": 981.5,
+      "w": 420
+    },
+    "cartAmounts": [
+      {
+        "v": "1",
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      },
+      {
+        "v": "2",
+        "min": "1",
+        "max": "9999",
+        "step": "1"
+      }
+    ],
+    "singlePosts": 2,
+    "checkout": "https://www.timberstore.sk/objednavka/krok-1/",
+    "errors": []
+  }
+]

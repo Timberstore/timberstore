@@ -1,5 +1,62 @@
 # Changelog
 
+## v0.7.2 · 2026-10-27 · Schválené úpravy od v0.7.1
+
+- Plynulý popup po pridaní do košíka: odstránený biely načítavací záblesk, jemné zobrazenie hotového okna a pozadia, stabilné rozmery aj pri doplnení jednotky ceny. Prázdne obaly už nezväčšujú produkty na pozadí pri opakovanom otvorení. Rešpektované obmedzené animácie.
+- Čitateľné polia množstva aj pre 10000 kusov v kartách, odporúčaniach a košíku; zachované skladové limity a balenia. Počítadlo v hlavičke sa zobrazuje pred ikonou košíka.
+- Odporúčané a podobné produkty: názov/kód vľavo, cena vpravo, množstvo vedľa tlačidla na mobile. Počet kusov zostáva pri slove SKLAD aj pri centrálnom sklade.
+- Zjednotené zelené potvrdenie a údaje o doprave zadarmo vrátane zostávajúcej sumy a priebehu. Hlavné tlačidlá sú oranžové s bielym textom, vedľajšie neutrálne; ceny produktov zostávajú modré.
+- Mobilné MENU: oranžové čiary pri zatvorení, biele po otvorení, pôvodné pozadie. Kontakty podľa pätičky: hodiny, e-mail, telefón, Napíšte nám, farebné sociálne siete.
+- Cookies: oranžové Súhlasím s bielym textom a jemnejšie Odmietnuť; pôvodné funkcie súhlasu zostali zachované.
+- Technická údržba: zjednotené pravidlá štýlov a bezstratovo zmenšené formátovanie starších testovacích JSON záznamov pre CDN limit; dáta a odkazy zachované.
+- Majiteľ schválil merge, vydanie a nasadenie. Stabilné vydanie povyšuje schválené rc.6 bez funkčných zmien; [popis, overenie a aktivácia](docs/releases/v0.7.2.md). Safari/iPhone NOT TESTED. Pred aktiváciou bol na webe overený v0.7.1; administrácia vyžaduje prihlásenie.
+
+## Unreleased · 0.7.2-rc.6 · 2026-10-27 · M2 complete cart transition
+
+- Remove the native white loading wash only from the spinner created during a product/variant submit, preserving its pointer shield and native request/error lifecycle. Limit the observer to the current event task and restore its class on completion/fallback; unrelated loaders stay native.
+- Reveal the completed cart popup/backdrop with a 160ms opacity fade, respecting reduced motion. Retain synchronous native structural completion and stable dimensions.
+- Hide empty purchase wrappers left by Apollo's global advanced-order product rearrangement; repeated popup opens no longer grow background cards. Reserve unit-slot height as well as width on narrow recommendation rows.
+- Keep the new CDN snapshot under its 50MB package limit by removing only insignificant whitespace from historical JSON reports; preserve all paths and parsed data.
+- Verify the complete click/loading/reveal sequence, stable background, delayed real responses, repeated opens/double-click shielding, galleries, failure-state isolation and native cart/checkout. Preview only; production v0.7.1 and loader unchanged. [Evidence and videos](docs/previews/cart-transition-v0.7.2-rc.6/README.md).
+
+## Unreleased · 0.7.2-rc.5 · 2026-10-27 · M1 open menu glyph
+
+- Show white hamburger lines on the dark open MENU toggle; retain orange lines when closed. Other menu/contact styling stays as in rc.4. Preview only, with unchanged budgets and production loader.
+
+## Unreleased · 0.7.2-rc.4 · 2026-10-27 · M1 menu toggle correction
+
+- Restore the mobile MENU toggle's original background, label and focus treatment. Colour only the three-line hamburger glyph orange in closed/open states.
+- Retain rc.3 contact order, write-us action and footer-matched icons. Preview only; no production loader, stable tag or release changes.
+
+## Unreleased · 0.7.2-rc.3 · 2026-10-27 · M1 mobile menu contacts
+
+- Keep the mobile MENU toggle orange, including its open, hover and keyboard states.
+- Match the footer contact sequence in the mobile menu: business hours, email, phone, Napíšte nám, social links. Preserve native mail/tel destinations, category navigation and legal links.
+- Share contact SVGs with the footer and use its Facebook blue, Instagram gradient, orange mail/phone icons and text styling. Add the existing native contact-page destination as the write-us action.
+- Validate repeated initialization, responsive menu cloning, native category accordions, footer/desktop parity and purchase flow. Preview only; production v0.7.1 and the loader are unchanged. [Evidence](docs/previews/mobile-menu-v0.7.2-rc.3/README.md).
+
+## Unreleased · 0.7.2-rc.2 · 2026-10-27 · M2/C3 cart stability and green delivery
+
+- Restore the established Emerald success icon/outline, free-delivery text/remainder and progress accents across the advanced popup, mini-cart and cart. Primary purchase buttons retain their orange treatment.
+- Use the final native price colour before JS text cleanup; reserve missing-unit space so verified unit fetches cannot push prices later.
+- Keep the last warehouse word and stock amount together with an idempotent nonbreaking space, preserving native stock spans, data and colour.
+- Remove the competing custom post-open/unit resizes. Use content-driven cart-only Colorbox geometry and skip its size tween, so Apollo finishes rearranging forms before paint. Restore normal Colorbox speed for galleries and other dialogs.
+- Preview only; published v0.7.1, the production loader and previous bundle budgets are unchanged. [Evidence and checks](docs/previews/cart-stability-v0.7.2-rc.2/README.md).
+
+## Unreleased · 0.7.2-rc.1 · 2026-10-27 · Cart and recommendation controls
+
+- Keep header counts above the cart icon, with wide mobile badges growing away from the price.
+- Give native/custom quantity inputs at least 64 px of centre space for 10000; retain original min/max, pack steps, native submissions and stock validation. Extend list/cart tracks; narrow two-column cards wrap the purchase row instead of clipping it.
+- Remove the recommendation/popup specificity conflict. Left-align recommendation titles and SKU, show stock counts beside labels, right-align prices and keep mobile popup/detail quantities left of labelled add-to-cart buttons.
+- Use brand orange for cart/checkout primary actions and the add confirmation/shipping accents; neutral secondary back buttons. Preserve stock colours and other native status logic.
+- Combined preview includes the approved cookie-button colours/white text. No stable release, main merge or production loader change. [Evidence and reproducible checks](docs/previews/cart-controls-v0.7.2-rc.1/README.md).
+
+## Unreleased · 0.7.2-rc.0 · 2026-10-27 · Cookie button colours
+
+- Give the native “Súhlasím” button the Timber orange background with the requested white label. Keep “Odmietnuť” on the notice background with a subtle inset outline. Preserve sizes, settings, native consent handlers and both choices.
+- Isolated preview branch only; published v0.7.1 and the production loader are unchanged.
+- [Mobile/desktop appearance and native-choice checks](docs/previews/cookies-v0.7.2-rc.0/README.md).
+
 ## v0.7.1 · 2026-10-27 · Site-wide loading stability
 
 - Apply final product metadata, card, native quantity and detail-control styles before JS classes arrive. Remove Apollo's geometry/visibility interpolation from interactive controls; preserve colour/shadow feedback and native component states.

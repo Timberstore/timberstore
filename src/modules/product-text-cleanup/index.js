@@ -59,8 +59,29 @@ function metadata(root, selector, text) {
   }
 }
 
+// Keep the last warehouse word and its native amount on the same line. Inline
+// CSS can wrap CENTRÁLNY / SKLAD, but a regular inter-node space would still let
+// the amount wrap alone. Preserve both original spans and their attributes.
+function stockSpacing(root) {
+  for (const stock of root.querySelectorAll(SEL.productStock)) {
+    const label = stock.querySelector(SEL.productStockLabel);
+    const amount = stock.querySelector(SEL.productStockAmount);
+    if (!label || !amount || label === amount) continue;
+    const tail = label.lastChild;
+    if (tail?.nodeType === 3 && tail.nodeValue !== tail.nodeValue.trimEnd())
+      tail.nodeValue = tail.nodeValue.trimEnd();
+    const space = amount.previousSibling;
+    if (space?.nodeType === 3 && !space.nodeValue.trim()) {
+      if (space.nodeValue !== '\u00a0') space.nodeValue = '\u00a0';
+    } else if (space === label) {
+      amount.before(document.createTextNode('\u00a0'));
+    }
+  }
+}
+
 function cleanProductTexts(root) {
   prepareRecommendations(root);
+  stockSpacing(root);
   for (const heading of root.querySelectorAll(SEL.productVariantsHeading)) {
     if (heading.textContent !== TEXTS.productMetadata.variants) {
       heading.textContent = TEXTS.productMetadata.variants;

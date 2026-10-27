@@ -1,0 +1,354 @@
+[
+  {
+    "width": 375,
+    "choice": "Reject",
+    "before": [
+      {
+        "id": "cookiesSettings",
+        "w": 330,
+        "h": 42,
+        "padding": "0px 16px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(37, 37, 37)",
+        "border": "rgb(0, 0, 0)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesReject",
+        "w": 157,
+        "h": 55,
+        "padding": "0px",
+        "font": "16px",
+        "bg": "rgb(37, 37, 37)",
+        "color": "rgb(248, 250, 251)",
+        "border": "rgb(248, 250, 251)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesAccept",
+        "w": 157,
+        "h": 55,
+        "padding": "0px",
+        "font": "16px",
+        "bg": "rgb(37, 37, 37)",
+        "color": "rgb(248, 250, 251)",
+        "border": "rgb(248, 250, 251)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      }
+    ],
+    "after": [
+      {
+        "id": "cookiesSettings",
+        "w": 330,
+        "h": 42,
+        "padding": "0px 16px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(37, 37, 37)",
+        "border": "rgb(0, 0, 0)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesReject",
+        "w": 157,
+        "h": 55,
+        "padding": "0px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(66, 62, 62)",
+        "border": "rgb(231, 234, 238)",
+        "shadow": "rgb(231, 234, 238) 0px 0px 0px 1px inset",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesAccept",
+        "w": 157,
+        "h": 55,
+        "padding": "0px",
+        "font": "16px",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(15, 15, 15)",
+        "border": "rgb(212, 136, 74)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      }
+    ],
+    "nativeChoicePersisted": true,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "choice": "Accept",
+    "before": [
+      {
+        "id": "cookiesSettings",
+        "w": 330,
+        "h": 42,
+        "padding": "0px 16px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(37, 37, 37)",
+        "border": "rgb(0, 0, 0)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesReject",
+        "w": 157,
+        "h": 55,
+        "padding": "0px",
+        "font": "16px",
+        "bg": "rgb(37, 37, 37)",
+        "color": "rgb(248, 250, 251)",
+        "border": "rgb(248, 250, 251)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesAccept",
+        "w": 157,
+        "h": 55,
+        "padding": "0px",
+        "font": "16px",
+        "bg": "rgb(37, 37, 37)",
+        "color": "rgb(248, 250, 251)",
+        "border": "rgb(248, 250, 251)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      }
+    ],
+    "after": [
+      {
+        "id": "cookiesSettings",
+        "w": 330,
+        "h": 42,
+        "padding": "0px 16px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(37, 37, 37)",
+        "border": "rgb(0, 0, 0)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesReject",
+        "w": 157,
+        "h": 55,
+        "padding": "0px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(66, 62, 62)",
+        "border": "rgb(231, 234, 238)",
+        "shadow": "rgb(231, 234, 238) 0px 0px 0px 1px inset",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesAccept",
+        "w": 157,
+        "h": 55,
+        "padding": "0px",
+        "font": "16px",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(15, 15, 15)",
+        "border": "rgb(212, 136, 74)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      }
+    ],
+    "nativeChoicePersisted": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "choice": "Reject",
+    "before": [
+      {
+        "id": "cookiesSettings",
+        "w": 116.453125,
+        "h": 42,
+        "padding": "0px 16px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(37, 37, 37)",
+        "border": "rgb(0, 0, 0)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesReject",
+        "w": 125.84375,
+        "h": 55,
+        "padding": "0px 25px",
+        "font": "16px",
+        "bg": "rgb(37, 37, 37)",
+        "color": "rgb(248, 250, 251)",
+        "border": "rgb(248, 250, 251)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesAccept",
+        "w": 117.03125,
+        "h": 55,
+        "padding": "0px 25px",
+        "font": "16px",
+        "bg": "rgb(37, 37, 37)",
+        "color": "rgb(248, 250, 251)",
+        "border": "rgb(248, 250, 251)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      }
+    ],
+    "after": [
+      {
+        "id": "cookiesSettings",
+        "w": 116.453125,
+        "h": 42,
+        "padding": "0px 16px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(37, 37, 37)",
+        "border": "rgb(0, 0, 0)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesReject",
+        "w": 125.84375,
+        "h": 55,
+        "padding": "0px 25px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(66, 62, 62)",
+        "border": "rgb(231, 234, 238)",
+        "shadow": "rgb(231, 234, 238) 0px 0px 0px 1px inset",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesAccept",
+        "w": 117.03125,
+        "h": 55,
+        "padding": "0px 25px",
+        "font": "16px",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(15, 15, 15)",
+        "border": "rgb(212, 136, 74)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      }
+    ],
+    "nativeChoicePersisted": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "choice": "Accept",
+    "before": [
+      {
+        "id": "cookiesSettings",
+        "w": 116.453125,
+        "h": 42,
+        "padding": "0px 16px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(37, 37, 37)",
+        "border": "rgb(0, 0, 0)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesReject",
+        "w": 125.84375,
+        "h": 55,
+        "padding": "0px 25px",
+        "font": "16px",
+        "bg": "rgb(37, 37, 37)",
+        "color": "rgb(248, 250, 251)",
+        "border": "rgb(248, 250, 251)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesAccept",
+        "w": 117.03125,
+        "h": 55,
+        "padding": "0px 25px",
+        "font": "16px",
+        "bg": "rgb(37, 37, 37)",
+        "color": "rgb(248, 250, 251)",
+        "border": "rgb(248, 250, 251)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      }
+    ],
+    "after": [
+      {
+        "id": "cookiesSettings",
+        "w": 116.453125,
+        "h": 42,
+        "padding": "0px 16px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(37, 37, 37)",
+        "border": "rgb(0, 0, 0)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesReject",
+        "w": 125.84375,
+        "h": 55,
+        "padding": "0px 25px",
+        "font": "16px",
+        "bg": "rgb(248, 250, 251)",
+        "color": "rgb(66, 62, 62)",
+        "border": "rgb(231, 234, 238)",
+        "shadow": "rgb(231, 234, 238) 0px 0px 0px 1px inset",
+        "outline": "3px",
+        "opacity": "1"
+      },
+      {
+        "id": "buttonCookiesAccept",
+        "w": 117.03125,
+        "h": 55,
+        "padding": "0px 25px",
+        "font": "16px",
+        "bg": "rgb(212, 136, 74)",
+        "color": "rgb(15, 15, 15)",
+        "border": "rgb(212, 136, 74)",
+        "shadow": "none",
+        "outline": "3px",
+        "opacity": "1"
+      }
+    ],
+    "nativeChoicePersisted": true,
+    "errors": []
+  }
+]

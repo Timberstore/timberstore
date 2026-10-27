@@ -1,23 +1,25 @@
 /* M2/C3 · Native related/similar cards only. Preserve Swiper tracks/images and
    native quantity/forms; replace Apollo's mismatched purchase-row geometry. */
-:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) a.name {
-  text-align: center !important;
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) a.name {
+  text-align: left !important;
   text-transform: none;
   word-break: normal !important;
   overflow-wrap: normal !important;
   hyphens: none;
 }
-:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) :is(.pr-list-unit, .ts-recommendation-unit) {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) :is(.pr-list-unit, .ts-recommendation-unit) {
   display: inline !important;
   color: var(--ts-color-price-secondary);
   font-size: 13px;
   font-weight: 400;
 }
-:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .product-btn {
-  height: 38px;
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .product-btn {
+  min-height: 44px;
+  height: auto;
 }
-:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .product-btn form {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .product-btn form {
   display: flex !important;
+  flex-wrap: wrap !important;
   align-items: center;
   gap: 8px;
   padding: 0 12px !important;
@@ -25,33 +27,37 @@
   max-width: none !important;
   margin: 0 !important;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .quantity {
-  flex: 0 1 100px;
-  min-width: 0;
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .quantity {
+  flex: 0 0 var(--ts-qty-width);
+  width: var(--ts-qty-width);
+  min-width: var(--ts-qty-width);
   height: 38px;
-  grid-template-columns: 1fr minmax(0, 1.4fr) 1fr;
+  grid-template-columns: var(--ts-qty-button-width) minmax(var(--ts-qty-field-width), 1fr) var(--ts-qty-button-width);
   border-color: var(--ts-qty-border);
 }
-:is(#content, #colorbox) :is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .quantity :is(input, button) {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .quantity :is(input, button) {
   height: 36px;
 }
-:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .product-btn .btn-cart {
-  flex: 1 0 38px !important;
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .product-btn .btn-cart {
+  flex: 1 0 80px !important;
   min-width: 0 !important;
   max-width: none !important;
   width: auto !important;
-  height: 38px !important;
-  min-height: 38px !important;
+  height: auto !important;
+  min-height: 46px !important;
   margin: 0 !important;
-  padding: 0 !important;
-  font-size: 0 !important;
+  padding: 6px 8px !important;
+  font-size: 13px !important;
+  line-height: 1.3;
+  white-space: normal;
   --color-secondary: var(--ts-color-accent);
   --color-secondary-hover: var(--ts-color-action-hover);
 }
-:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .btn-cart > span:not(.ts-cart-count) {
-  display: none !important;
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .btn-cart > span:not(.ts-cart-count) {
+  display: inline !important;
 }
-:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .btn-cart::after {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .btn-cart::after {
+  display: none;
   margin: 0 !important;
 }
 .type-detail .products-related-block + .products-alternative-block {
@@ -60,15 +66,77 @@
   border-top: 1px solid var(--ts-color-table-border);
 }
 /* Apollo reserves 130px for stacked controls. Our shared row needs one line. */
-:is(.products-related-block, .products-alternative-block) :is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) > .p {
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) > .p {
   padding-bottom: 65px !important;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) .quantity {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .quantity {
   margin: 0;
 }
-:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) :is(.price-final, .price-additional) {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) :is(.price-final, .price-additional) {
   white-space: normal;
 }
-:is(.ts-recommendation, .products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product) :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
   white-space: nowrap;
+}
+
+/* Native detail recommendations share the stock/price and purchase-row policy.
+   Keep Swiper slides/images and form handlers; only presentation wrappers flow. */
+#content :is(.products-related-block, .products-alternative-block) .product > .p {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--ts-space-3) !important;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .p-in {
+  height: auto !important;
+  flex: 1 1 auto;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .p-bottom > [data-micro='offer'] {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .p-tools {
+  grid-area: 1 / 1;
+  min-height: 0;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .prices {
+  grid-area: 1 / 2;
+  align-items: flex-end;
+}
+#content :is(.products-related-block, .products-alternative-block) .product :is(.price-final, .price-additional) {
+  text-align: right !important;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .product-btn {
+  position: static;
+  width: 100%;
+  height: auto;
+  margin-top: 12px;
+}
+
+/* Price styling exists on the native node before text cleanup runs. Reserve a
+   unit slot even while a verified public-detail unit is being fetched, so its
+   late arrival cannot push the already visible amount or resize the popup.
+   Reserve height too: on narrow cards the unit occupies its own flex line. */
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .product .price-final {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 0 4px;
+  transition: none;
+}
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .product .price-final > strong {
+  transition: none;
+}
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final :is(.pr-list-unit, .ts-recommendation-unit),
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final:not(:has(.pr-list-unit, .ts-recommendation-unit))::after {
+  min-width: var(--ts-recommendation-unit-width);
+  min-height: 1.2em;
+  line-height: 1.2;
+  font-size: 13px;
+  text-align: left;
+}
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final:not(:has(.pr-list-unit, .ts-recommendation-unit))::after {
+  content: '';
 }

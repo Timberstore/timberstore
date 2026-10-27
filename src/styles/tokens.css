@@ -48,6 +48,7 @@
   --color-tertiary: var(--ts-color-service-bg);
   --ts-color-text: #0f0f0f;
   --ts-color-muted: #666878; /* Shoptet's secondary text (e.g. back links) */
+  --ts-recommendation-unit-width: 3.25em;
   --ts-color-price-secondary: #666878; /* AA contrast for small text on white */
   --ts-z-information-message: 10; /* Apollo's original information-toast priority */
   --ts-color-editorial-bg: #f9efe6; /* Existing Overené reálnou výrobou panel. */
@@ -82,9 +83,12 @@
   --ts-qty-plus-bg: var(--ts-color-service-bg);
   --ts-qty-divider: var(--ts-color-controls-border);
   --ts-qty-radius: 7px;
-  --ts-home-cart-gap: 20px;
+  --ts-qty-button-width: 26px;
+  --ts-qty-field-width: 64px;
+  --ts-qty-width: 118px;
+  --ts-home-cart-gap: 8px;
   --ts-home-row-width: 268px;
-  --ts-home-cols: minmax(0, 1fr) minmax(0, 1.48fr);
+  --ts-home-cols: var(--ts-qty-width) minmax(0, 1fr);
   --ts-color-sku-bg: rgb(255 255 255 / 94%);
   --ts-color-count-bg: #faf8f5;
   --ts-color-count-text: #6f7182;
@@ -116,6 +120,7 @@
   --ts-space-2: 8px;
   --ts-space-3: 16px;
   --ts-space-section: 40px; /* vertical gap around homepage blocks */
+  --ts-cart-reveal-duration: 160ms;
   --ts-z-preview: 99999;
 }
 
@@ -124,7 +129,7 @@
 body {
   --basket-bg: var(--ts-color-technical-bg);
   --basket-free-delivery-bg: var(--ts-color-service-bg);
-  --basket-free-delivery-top-bg: var(--ts-color-accent);
+  --basket-free-delivery-top-bg: var(--ts-color-success);
   --basket-choose-box-bg: var(--ts-color-technical-bg);
   --basket-choose-box-border: var(--ts-color-controls-border);
   --basket-discount-bg: var(--ts-color-controls-active-bg);
