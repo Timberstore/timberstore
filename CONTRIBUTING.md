@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Mobile SKU `0.7.3-rc.7` (27. 10. 2026):** preberá rc.6 limity JS 32.5 / CSS 29.75 KiB bez navýšenia; namerané 32.43 / 29.67 KiB. Jedno mobilné CSS odkrytie existujúceho kódu. Staršie limity a loader zachované.
+
 - **Card gap `0.7.3-rc.6` (27. 10. 2026):** zachováva rc.5 limity JS 32.5 / CSS 29.75 KiB bez navýšenia. Len dva tokeny PC rozostupov; predchádzajúce limity a loader zachované.
 
 - **Filter/page scroll preview `0.7.3-rc.5` (27. 10. 2026):** zachované rc.4 limity JS 32.5 KiB / CSS 29.75 KiB bez navýšenia; namerané 32.43 / 29.65 KiB. Iba nové rozostupy PC kariet a zdieľaný tok/scroll mobilných panelov. Staršie rozpočty/tagy a produkčný loader zachované.

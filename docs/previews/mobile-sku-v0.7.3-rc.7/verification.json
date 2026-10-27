@@ -1,0 +1,146 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "page": "category",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "page": "category",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 320,
+      "page": "brand",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "page": "brand",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 320,
+      "page": "home",
+      "cards": 32,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "page": "home",
+      "cards": 32,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 320,
+      "page": "related",
+      "cards": 1,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 480,
+      "page": "category",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "page": "related",
+      "cards": 1,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 480,
+      "page": "brand",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "page": "category",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "page": "brand",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 480,
+      "page": "home",
+      "cards": 32,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 480,
+      "page": "related",
+      "cards": 1,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "page": "home",
+      "cards": 32,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "page": "category",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "page": "related",
+      "cards": 1,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "page": "brand",
+      "cards": 30,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "page": "home",
+      "cards": 32,
+      "bad": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "page": "related",
+      "cards": 1,
+      "bad": [],
+      "errors": []
+    }
+  ],
+  "cards": 465,
+  "pass": true
+}

@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.7.3-rc.7 — preview (27. 10. 2026)
+
+- Mobil: natívny kód produktu je opäť viditeľný na fotografiách v kategóriách, značkách, homepage karuseloch a súvisiacich produktových kartách. Zachované pôvodné hodnoty, pozícia a farby; odstránené iba mobilné skrytie.
+- Zachované predchádzajúce úpravy vrátane 24px medzery na PC. Len preview, produkčný loader bez zmeny.
+
 ## v0.7.3-rc.6 — preview (27. 10. 2026)
 
 - Na ďalšiu požiadavku majiteľa zväčšená PC medzera medzi nákupnými stĺpcami zo 16 na 24px. Bloky sú o ďalšie 4px bližšie k okrajom pri zachovaní šírok a vnútorného odsadenia.
