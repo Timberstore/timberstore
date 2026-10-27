@@ -19,4 +19,10 @@ Native headings extend across the full panel width, retaining the 16px text/chev
 - Native purchase at 375/1440px: add popup without white/blank frames or background movement, quantity increase, shipping/payment to personal details; no order submitted.
 - ESLint/build/whitespace PASS. JS 32.48/32.5 KiB (unchanged allowance), CSS 29.59/29.75 KiB (small rc.4-only allowance under recorded authorization); prior budgets preserved.
 
-Initial evidence routes local candidate assets on the native public shop; actual CDN checks follow push. Safari/iPhone and PageSpeed NOT TESTED.
+Initial evidence routes local candidate assets on the native public shop; actual immutable CDN CSS/JS byte equality is recorded in cdn-assets.json. Eight actual CDN layout cases at 375/1440px pass (cdn-alignment.json.gz), as do touch-enabled 375/430px real outside/internal gesture, full-width heading and native sort checks (cdn-mobile.json). The toolbar is positioned in the viewport above the fixed preview badge before gesture tests. Final screenshots use the actual immutable CDN version. Safari/iPhone and PageSpeed NOT TESTED.
+
+## Preview
+
+https://www.timberstore.sk/?ts_preview=85a6902a2e30fd8ba1a542cd0ac6c00b61cafaba
+
+Source/build frozen at this commit. Later commits only add verification evidence; no production loader change.
