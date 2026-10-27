@@ -1,8 +1,8 @@
 /* Cookie notice · Colour hierarchy only; retain native consent handlers and
-   button dimensions. Dark labels remain readable on the brand orange. */
+   button dimensions. Acceptance uses the requested white label. */
 body .siteCookies [data-testid='buttonCookiesAccept'] {
   background-color: var(--ts-color-accent);
-  color: var(--ts-color-text);
+  color: var(--ts-color-bg);
   border-color: var(--ts-color-accent);
 }
 body .siteCookies [data-testid='buttonCookiesAccept']:hover {
