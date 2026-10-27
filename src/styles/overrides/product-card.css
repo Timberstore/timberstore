@@ -128,32 +128,32 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
 }
 
 /* Classic tiles only. Desktop table rules retain their original specificity. */
-.ts-card a.name:not(#colorbox *) {
+:is(.ts-card, .products .product, .products-block .product) a.name:not(#colorbox *) {
   text-align: center !important;
 }
-.ts-card .p-bottom > [data-micro='offer'] {
+:is(.ts-card, .products .product, .products-block .product) .p-bottom > [data-micro='offer'] {
   flex-direction: column;
   align-items: stretch;
 }
-.ts-card .prices {
+:is(.ts-card, .products .product, .products-block .product) .prices {
   align-items: center;
   text-align: center !important;
   gap: 4px;
 }
-.ts-card .price-final {
+:is(.ts-card, .products .product, .products-block .product) .price-final {
   text-align: center !important;
   max-width: 100%;
 }
-.ts-card :is(.price-final, .price-additional) {
+:is(.ts-card, .products .product, .products-block .product) :is(.price-final, .price-additional) {
   margin: 0 !important;
 }
-.ts-card .price-additional {
+:is(.ts-card, .products .product, .products-block .product) .price-additional {
   text-align: center;
   max-width: 100%;
 }
 /* A flexible three-line stock slot keeps prices aligned across mixed warehouses.
    It can grow; the native label, count and colour are unchanged. */
-.ts-card .p-tools {
+:is(.ts-card, .products .product, .products-block .product) .p-tools {
   display: grid;
   align-items: center;
   min-height: 4em;
@@ -175,10 +175,10 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
   }
 }
 
-/* Grid tiles: quantity and "Do košíka" side by side. Scoped with :has() to forms
-   that carry our field, so the rule does nothing without this module.
+/* Grid tiles: reserve the final purchase row on native buyable cards before
+   the quantity picker is inserted, including the loader network fallback.
    !important: timber-custom.css (legacy) styles the cart form/button with !important. */
-form.pr-action:has(> .ts-qty) {
+.product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) {
   width: auto !important;
   max-width: 100% !important; /* legacy caps the form at 180 px, too narrow for field + button */
   display: flex !important;
@@ -189,15 +189,15 @@ form.pr-action:has(> .ts-qty) {
   padding: 0 14px !important;
   box-sizing: border-box;
 }
-form.pr-action:has(> .ts-qty) > .btn {
+.product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) > .btn {
   flex: 1 0 120px;
 }
 
 @media (max-width: 991px) {
-  form.pr-action:has(> .ts-qty) {
+  .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) {
     padding: 0 8px !important;
   }
-  form.pr-action:has(> .ts-qty) > .btn {
+  .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) > .btn {
     flex: 1 0 36px;
     min-width: 0 !important;
     width: auto !important;
@@ -207,10 +207,10 @@ form.pr-action:has(> .ts-qty) > .btn {
     padding: 0 !important;
     font-size: 0 !important;
   }
-  form.pr-action:has(> .ts-qty) > .btn > span:not(.ts-cart-count) {
+  .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) > .btn > span:not(.ts-cart-count) {
     display: none !important;
   }
-  form.pr-action:has(> .ts-qty) > .btn::after {
+  .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) > .btn::after {
     margin: 0 !important;
   }
 }

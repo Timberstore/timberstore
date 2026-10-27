@@ -164,6 +164,10 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Stabilní v0.7.1 (27. 10. 2026, výslovný souhlas majitele s vydáním/nasazením):** přebírá otestované limity kandidáta rc.0: JS 32 KiB / CSS 27.5 KiB, bez dalšího navýšení. Aplikační kód při povýšení beze změny; starší limity zůstávají pevné. Safari/iPhone pro toto vydání NOT TESTED, nikoli PASS nebo automaticky převzatý waiver. Aktivace Shoptetu čeká na ověřený přístup do administrace.
+
+- **Stabilita načítání celého webu, lokální kandidát `0.7.1-rc.0` (27. 10. 2026):** JS limit 32 KiB, CSS 27.5 KiB, naměřeno 31.96 / 27.43 KiB. Rozšíření CSS podle evidovaného souhlasu klienta 15. 10. 2026 pro společné nativní styly ovládání, rezervaci množství, první vykreslení KÓD/ZNAČKA a košíkové SVG. Limity stabilních vydání a produkční verze loaderu se nemění; bez tagu, release a nasazení.
+
 - **Stabilná v0.7.0 (20. 10. 2026, výslovné schválenie majiteľa):** zachováva existujúci otestovaný limit JS 32 KiB / CSS 26,75 KiB z compact.1 bez navýšenia. Majiteľ výslovne schválil merge, produkčný build, tag a GitHub release; Safari/WebKit aj fyzický iPhone majú stav `WAIVED BY OWNER`, nie PASS. Externé živé varianty zostávajú `NOT VERIFIED`. Aktiváciu Shoptetu vykoná majiteľ manuálne, `PROD` ostáva v0.6.13. Staršie verzie a ich limity sa nemenia.
 
 - **Homepage Cart & Quantity UI Fix, rovnaká preview `0.6.13-compact.1` (20. 10. 2026):** CSS limit 26,75 KiB, JS zostáva 32 KiB. Lokálna homepage geometria a zdieľané quantity tokeny; malé rozšírenie podľa historicky evidovaného súhlasu klienta 15. 10. (nižšie), bez opätovného pýtania. Stabilné verzie, loader a ich limity zostávajú nezmenené. Iba preview, bez merge, tagu, release a produkcie.

@@ -1,0 +1,56 @@
+[
+  {
+    "width": 320,
+    "page": "fasteners",
+    "forms": 29,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "page": "home",
+    "forms": 32,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "page": "detail",
+    "forms": 1,
+    "errors": []
+  },
+  {
+    "width": 430,
+    "page": "fasteners",
+    "forms": 29,
+    "errors": []
+  },
+  {
+    "width": 430,
+    "page": "home",
+    "forms": 32,
+    "errors": []
+  },
+  {
+    "width": 430,
+    "page": "detail",
+    "forms": 1,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "page": "fasteners",
+    "forms": 29,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "page": "home",
+    "forms": 32,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "page": "detail",
+    "forms": 1,
+    "errors": []
+  }
+]

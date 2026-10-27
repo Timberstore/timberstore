@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.7.1 · 2026-10-27 · Site-wide loading stability
+
+- Apply final product metadata, card, native quantity and detail-control styles before JS classes arrive. Remove Apollo's geometry/visibility interpolation from interactive controls; preserve colour/shadow feedback and native component states.
+- Reserve quantity slots in grid/list/homepage and cart-related rows. Prepare streaming, AJAX and cloned cards before paint; preserve native form submission, bounds, pack steps and quantity handlers. Include manufacturer listings and their saved list view.
+- Use font-independent cart SVG masks on purchase/header controls, native mobile-header geometry, early category bestseller visibility and native footer styles/icon/hour reservations.
+- Restore a saved list view in the head loader before the bundle arrives. Keep the bounded loader fallback and native purchasing available if the bundle fails.
+- Preserve the detail `KÓD:`/`ZNAČKA:` fix, including Apollo's intermediate `Kód produktu:` label.
+- Owner authorized release/deployment on 2026-10-27. Promote the tested candidate to v0.7.1 without application-code changes. Retain its JS 32 KiB / CSS 27.5 KiB budgets; earlier stable limits unchanged. Shoptet activation is pending authenticated admin access; the target loader preserves the live historical guards and rollback v0.7.0. See [release status](docs/releases/v0.7.1.md).
+- [Coverage, functional checks, slow/failed-load measurements and limitations](docs/fixes/loading-stability/README.md); [original detail metadata evidence](docs/fixes/product-metadata-loading/README.md).
+
 ## v0.7.0 · 2026-10-20
 
 - Promote approved product-detail, catalogue/filter, homepage, quantity and cart presentation to stable v0.7.0. Preserve native Shoptet purchasing, prices and stock logic.

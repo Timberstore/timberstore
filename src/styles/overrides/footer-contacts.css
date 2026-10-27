@@ -9,33 +9,33 @@
   letter-spacing: normal;
   text-transform: uppercase;
 }
-#footer .ts-footer-contacts .contact-box {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box {
   min-width: 0;
 }
-#footer .ts-footer-contacts .contact-box > ul {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box > ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-#footer .ts-footer-contacts .contact-box > ul > li {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box > ul > li {
   margin: 0;
   padding-block: 0;
 }
-#footer .ts-footer-contacts .contact-box .mail,
-#footer .ts-footer-contacts .contact-box .tel,
-#footer .ts-footer-contacts .contact-box .facebook,
-#footer .ts-footer-contacts .contact-box .instagram {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .mail,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .tel,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .facebook,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .instagram {
   padding: 0;
 }
-#footer .ts-footer-contacts .contact-box .mail::before,
-#footer .ts-footer-contacts .contact-box .tel::before,
-#footer .ts-footer-contacts .contact-box .facebook::before,
-#footer .ts-footer-contacts .contact-box .instagram::before {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .mail::before,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .tel::before,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .facebook::before,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .instagram::before {
   display: none;
 }
-#footer .ts-footer-contacts .contact-box .mail a,
-#footer .ts-footer-contacts .contact-box .tel a,
-#footer .ts-footer-contacts .contact-box .ts-footer-contacts__social {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .mail a,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .tel a,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .ts-footer-contacts__social {
   display: inline-flex;
   align-items: center;
   gap: var(--ts-space-2);
@@ -46,13 +46,13 @@
   font-weight: 400;
   line-height: 1.4;
 }
-#footer .ts-footer-contacts .contact-box .tel a {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .tel a {
   white-space: nowrap;
 }
-#footer .ts-footer-contacts .contact-box .mail a {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .mail a {
   overflow-wrap: anywhere;
 }
-#footer .ts-footer-contacts .ts-footer-contacts__icon {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__icon {
   flex: 0 0 20px;
   width: 20px;
   height: 20px;
@@ -63,7 +63,7 @@
   stroke-linejoin: round;
   fill: none;
 }
-#footer .ts-footer-contacts .ts-footer-contacts__social .ts-footer-contacts__icon {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__social .ts-footer-contacts__icon {
   flex-basis: 26px;
   width: 26px;
   height: 26px;
@@ -71,25 +71,25 @@
   border-radius: var(--ts-radius-controls);
   color: var(--ts-color-bg);
 }
-#footer .ts-footer-contacts .ts-footer-contacts__social--facebook .ts-footer-contacts__icon {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__social--facebook .ts-footer-contacts__icon {
   background: var(--ts-color-facebook);
   fill: currentColor;
   stroke: none;
 }
-#footer .ts-footer-contacts .ts-footer-contacts__social--instagram .ts-footer-contacts__icon {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__social--instagram .ts-footer-contacts__icon {
   background: var(--ts-instagram-gradient);
 }
-#footer .ts-footer-contacts .contact-box a:hover,
-#footer .ts-footer-contacts .contact-box a:focus-visible {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box a:hover,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box a:focus-visible {
   color: var(--ts-color-action-hover);
 }
-#footer .ts-footer-contacts .ts-footer-contacts__hours {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__hours {
   margin-block: 0;
   min-height: 32px;
   display: flex;
   align-items: center;
 }
-#footer .ts-footer-contacts .ts-footer-contacts__hours .ts-service-bar__hours {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__hours .ts-service-bar__hours {
   display: inline-grid;
   grid-template-columns: 20px minmax(0, 1fr);
   max-width: 100%;
@@ -102,15 +102,15 @@
   line-height: 1.4;
   white-space: normal;
 }
-#footer .ts-footer-contacts .ts-footer-contacts__hours .ts-service-bar__hours::before {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__hours .ts-service-bar__hours::before {
   content: none;
 }
-#footer .ts-footer-contacts .ts-service-bar__status {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-service-bar__status {
   flex-shrink: 0;
   order: 0;
   margin-inline: calc((20px - var(--ts-service-status-size)) / 2);
 }
-#footer .ts-footer-contacts a.btn {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) a.btn {
   display: inline-flex;
   align-items: center;
   min-height: 40px;
@@ -122,37 +122,37 @@
   color: var(--ts-color-bg);
   font-weight: 400;
 }
-#footer .ts-footer-contacts a.btn:hover,
-#footer .ts-footer-contacts a.btn:focus-visible {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) a.btn:hover,
+#footer :is(.ts-footer-contacts, .custom-footer__contact) a.btn:focus-visible {
   background: var(--ts-color-controls-active);
   border-color: var(--ts-color-controls-active);
   color: var(--ts-color-bg);
 }
 
-#footer .ts-footer-contacts .contact-box-icon-list {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box-icon-list {
   display: flex;
   gap: var(--ts-space-2);
   margin: 0;
   align-items: center;
 }
-#footer .ts-footer-contacts .contact-box-icon-list > li {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box-icon-list > li {
   width: auto;
   margin: 0;
   padding: 0;
 }
-#footer .ts-footer-contacts .contact-box-icon-list .ts-footer-contacts__social {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box-icon-list .ts-footer-contacts__social {
   width: 32px;
   height: 32px;
 }
 
-#footer .ts-footer-contacts .ts-footer-contacts__actions {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__actions {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--ts-space-2);
   margin-top: var(--ts-space-2);
 }
-#footer .ts-footer-contacts .ts-footer-contacts__actions > .btn {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__actions > .btn {
   flex: 0 0 auto;
   justify-content: center;
   width: var(--ts-footer-phone-width, 150px);
@@ -160,27 +160,27 @@
   text-transform: uppercase;
   white-space: nowrap;
 }
-#footer .ts-footer-contacts .ts-footer-contacts__actions > .contact-box-icon-list {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__actions > .contact-box-icon-list {
   flex: 0 0 auto;
   clear: none;
 }
 
 /* All three mobile menus share the same native Apollo accordion rhythm. */
 @media (max-width: 767px) {
-  #footer .custom-footer__contact.ts-footer-contacts {
+  #footer .custom-footer__contact:is(.ts-footer-contacts, .custom-footer__contact) {
     border-bottom: 1px solid var(--ts-color-service-divider);
     padding-bottom: var(--ts-space-3);
     margin-bottom: var(--ts-space-3);
   }
 
-  #footer .custom-footer__contact.ts-footer-contacts .pageElement__heading {
+  #footer .custom-footer__contact:is(.ts-footer-contacts, .custom-footer__contact) .pageElement__heading {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: var(--ts-space-3);
   }
-  #footer .custom-footer__contact.ts-footer-contacts .pageElement__heading::before,
-  #footer .custom-footer__contact.ts-footer-contacts .pageElement__heading::after {
+  #footer .custom-footer__contact:is(.ts-footer-contacts, .custom-footer__contact) .pageElement__heading::before,
+  #footer .custom-footer__contact:is(.ts-footer-contacts, .custom-footer__contact) .pageElement__heading::after {
     content: '';
     position: static;
     transform: none;
@@ -190,21 +190,21 @@
     border-top: 1px solid var(--ts-color-controls-border);
   }
 
-  #footer .custom-footer__contact.ts-footer-contacts,
-  #footer .ts-footer-contacts .contact-box {
+  #footer .custom-footer__contact:is(.ts-footer-contacts, .custom-footer__contact),
+  #footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box {
     text-align: center;
   }
-  #footer .ts-footer-contacts .ts-footer-contacts__hours,
-  #footer .ts-footer-contacts .ts-footer-contacts__hours .ts-service-bar__hours,
-  #footer .ts-footer-contacts .ts-footer-contacts__actions {
+  #footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__hours,
+  #footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__hours .ts-service-bar__hours,
+  #footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__actions {
     justify-content: center;
   }
 
-  #footer .custom-footer .ts-footer-menu {
+  #footer .custom-footer :is(.ts-footer-menu, .custom-footer__articles, .custom-footer__onlinePayments, .custom-footer__banner7) {
     margin-block: 0;
     padding-block: 0;
   }
-  #footer .custom-footer .ts-footer-menu > .accordion__trigger {
+  #footer .custom-footer :is(.ts-footer-menu, .custom-footer__articles, .custom-footer__onlinePayments, .custom-footer__banner7) > .accordion__trigger {
     display: flex;
     align-items: center;
     min-height: 56px;
@@ -212,39 +212,54 @@
     padding: var(--ts-space-3) 32px var(--ts-space-3) 0;
     line-height: 1.4;
   }
-  #footer .custom-footer .ts-footer-menu > .accordion__content {
+  #footer .custom-footer :is(.ts-footer-menu, .custom-footer__articles, .custom-footer__onlinePayments, .custom-footer__banner7) > .accordion__content {
     margin: 0;
   }
-  #footer .custom-footer .ts-footer-menu:not(.is-active) > .accordion__content {
+  #footer .custom-footer :is(.ts-footer-menu, .custom-footer__articles, .custom-footer__onlinePayments, .custom-footer__banner7):not(.is-active) > .accordion__content {
     visibility: hidden;
     overflow: hidden;
     height: 0;
     opacity: 0;
     padding: 0;
   }
-  #footer .custom-footer .ts-footer-menu.is-active > .accordion__content {
+  #footer .custom-footer :is(.ts-footer-menu, .custom-footer__articles, .custom-footer__onlinePayments, .custom-footer__banner7).is-active > .accordion__content {
     padding: 0 0 var(--ts-space-3);
   }
 }
 
 /* Contact order is shared across desktop and mobile. */
-#footer .ts-footer-contacts .contact-box > ul:first-of-type {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box > ul:first-of-type {
   display: flex;
   flex-direction: column;
 }
-#footer .ts-footer-contacts .contact-box > ul > .ts-footer-contacts__hours {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box > ul > .ts-footer-contacts__hours {
   order: -1;
 }
 @media (min-width: 768px) {
-  #footer .ts-footer-contacts .ts-footer-contacts__actions {
+  #footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__actions {
     width: 100%;
     max-width: 220px;
     align-items: stretch;
   }
-  #footer .ts-footer-contacts .ts-footer-contacts__actions > .btn {
+  #footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__actions > .btn {
     width: 100%;
   }
-  #footer .ts-footer-contacts .ts-footer-contacts__actions > .contact-box-icon-list {
+  #footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__actions > .contact-box-icon-list {
     justify-content: center;
   }
+}
+
+/* Native contact rows retain their final icon/hour slots while enhancement
+   creates SVGs and the support-hours row. Empty reservations are decorative. */
+#footer .custom-footer__contact :is(.mail, .tel) a:not(:has(> .ts-footer-contacts__icon))::before {
+  content: '';
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+}
+#footer .custom-footer__contact .contact-box > ul:first-of-type:not(:has(.ts-footer-contacts__hours))::before {
+  content: '';
+  display: block;
+  min-height: 32px;
+  order: -1;
 }

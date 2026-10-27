@@ -1,0 +1,176 @@
+[
+  {
+    "width": 375,
+    "page": "fasteners",
+    "view": "grid",
+    "before": {
+      "view": false,
+      "timber": false,
+      "loading": false,
+      "button": {
+        "w": 38,
+        "h": 38,
+        "rx": 114,
+        "ry": 358.5625,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow"
+      },
+      "card": {
+        "w": 170,
+        "h": 421.5625,
+        "rx": 0,
+        "ry": 0,
+        "font": "14px",
+        "transition": "background-color, border-color, box-shadow"
+      },
+      "glyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "headerGlyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "pseudo": "88px",
+      "footerFont": "16px",
+      "enabled": true
+    },
+    "after": {
+      "view": false,
+      "timber": true,
+      "loading": false,
+      "button": {
+        "w": 38,
+        "h": 38,
+        "rx": 114,
+        "ry": 358.5625,
+        "font": "0px",
+        "transition": "color, background-color, border-color, box-shadow"
+      },
+      "card": {
+        "w": 170,
+        "h": 421.5625,
+        "rx": 0,
+        "ry": 0,
+        "font": "14px",
+        "transition": "background-color, border-color, box-shadow"
+      },
+      "glyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "headerGlyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "pseudo": "auto",
+      "footerFont": "16px",
+      "enabled": true
+    },
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "page": "fasteners",
+    "view": "list",
+    "before": {
+      "view": true,
+      "timber": false,
+      "loading": false,
+      "button": {
+        "w": 44,
+        "h": 44,
+        "rx": 968,
+        "ry": 16,
+        "font": "0px",
+        "transition": "none"
+      },
+      "card": {
+        "w": 1026,
+        "h": 77,
+        "rx": 0,
+        "ry": 0,
+        "font": "14px",
+        "transition": "none"
+      },
+      "glyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "headerGlyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "pseudo": "104px",
+      "footerFont": "16px",
+      "enabled": true
+    },
+    "after": {
+      "view": true,
+      "timber": true,
+      "loading": false,
+      "button": {
+        "w": 44,
+        "h": 44,
+        "rx": 968,
+        "ry": 16,
+        "font": "0px",
+        "transition": "none"
+      },
+      "card": {
+        "w": 1026,
+        "h": 77,
+        "rx": 0,
+        "ry": 0,
+        "font": "14px",
+        "transition": "none"
+      },
+      "glyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "headerGlyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "pseudo": "100%",
+      "footerFont": "16px",
+      "enabled": true
+    },
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "page": "brand",
+    "view": "list",
+    "before": {
+      "view": true,
+      "timber": false,
+      "loading": false,
+      "button": {
+        "w": 44,
+        "h": 44,
+        "rx": 1298,
+        "ry": 16,
+        "font": "0px",
+        "transition": "none"
+      },
+      "card": {
+        "w": 1356,
+        "h": 77,
+        "rx": 0,
+        "ry": 0,
+        "font": "14px",
+        "transition": "none"
+      },
+      "glyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "headerGlyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "pseudo": "104px",
+      "footerFont": "16px",
+      "enabled": true
+    },
+    "after": {
+      "view": true,
+      "timber": true,
+      "loading": false,
+      "button": {
+        "w": 44,
+        "h": 44,
+        "rx": 1298,
+        "ry": 16,
+        "font": "0px",
+        "transition": "none"
+      },
+      "card": {
+        "w": 1356,
+        "h": 77,
+        "rx": 0,
+        "ry": 0,
+        "font": "14px",
+        "transition": "none"
+      },
+      "glyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "headerGlyph": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")",
+      "pseudo": "100%",
+      "footerFont": "16px",
+      "enabled": true
+    },
+    "errors": []
+  }
+]

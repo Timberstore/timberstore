@@ -1,0 +1,38 @@
+[
+  {
+    "width": 375,
+    "actualPack": {
+      "amount": "10",
+      "field": "10"
+    },
+    "miniCart": {
+      "x": 0,
+      "y": 50,
+      "w": 360,
+      "h": 950,
+      "visibility": "visible"
+    },
+    "checkoutUrl": "https://www.timberstore.sk/objednavka/krok-1/",
+    "shipping": 1,
+    "billing": 1,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "actualPack": {
+      "amount": "10",
+      "field": "10"
+    },
+    "miniCart": {
+      "x": 981.5,
+      "y": 106,
+      "w": 420,
+      "h": 369.203125,
+      "visibility": "visible"
+    },
+    "checkoutUrl": "https://www.timberstore.sk/objednavka/krok-1/",
+    "shipping": 1,
+    "billing": 1,
+    "errors": []
+  }
+]

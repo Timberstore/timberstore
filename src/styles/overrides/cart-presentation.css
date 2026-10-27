@@ -225,7 +225,8 @@
 
 .in-kosik #cart-wrapper .cart-related-product {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) max-content max-content 40px;
+  /* Reserve the native quantity box while its verified bounds are fetched. */
+  grid-template-columns: minmax(0, 1fr) 112px max-content 40px;
   gap: 8px;
   align-items: center;
 }
@@ -258,7 +259,7 @@
   padding: 0;
   width: auto;
 }
-.in-kosik #cart-wrapper :is(.cart-related-button, .ts-cart-related-form) {
+.in-kosik #cart-wrapper :is(.cart-related-button, .cart-related-product form.pr-action) {
   display: contents;
 }
 .in-kosik #cart-wrapper .cart-related-product .ts-cart-quantity {
@@ -289,7 +290,7 @@
 }
 @media (max-width: 991px) {
   .in-kosik #cart-wrapper .cart-related-product {
-    grid-template-columns: max-content minmax(0, 1fr) 40px;
+    grid-template-columns: 112px minmax(0, 1fr) 40px;
   }
   .in-kosik #cart-wrapper .cart-related-info {
     grid-area: 1 / 1 / 2 / -1;

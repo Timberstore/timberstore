@@ -370,10 +370,17 @@
   }
 
   /* quantity (qty-picker module); narrow −/+ so 4 digits fit the 96 px column */
-  .ts-view-list #products:not(.products-related) .ts-qty {
+  .ts-view-list #products:not(.products-related) .ts-qty,
+  .ts-view-list #products:not(.products-related) form.pr-action::before {
     grid-area: qty !important;
     grid-template-columns: 26px minmax(0, 1fr) 26px !important;
     width: 100% !important;
+  }
+
+  /* The JS column heading occupies 44px plus its 8px top margin. Retain that
+     space on a slow initial bundle, before the real sortable heading exists. */
+  .ts-view-list #products:not(.products-related):not(.ts-product-table-head + #products) {
+    margin-top: 52px !important;
   }
 
   .ts-view-list #products:not(.products-related) .ts-qty__value {

@@ -64,6 +64,11 @@ export const SEL = {
   // #products.products-block; .products-related tells it apart from the listing.
   productList: '#products:not(.products-related)',
   productCard: '#products:not(.products-related) > .product',
+  // Buyable classic cards plus native related/similar/popup recommendations.
+  // Exclude the main detail/cart forms; those retain native quantity handlers.
+  purchaseCard: '.product',
+  productPurchaseForms:
+    'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product form.pr-action, .products-related-block .product form.pr-action, .products-alternative-block .product form.pr-action, #colorbox .advanced-order .product form.pr-action',
   cartForm: 'form.pr-action',
   cartFormAmount: 'input[name="amount"]', // hidden; the multiply_order add-on writes the pack size here
   cartFormPriceId: 'input[name="priceId"]',

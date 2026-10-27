@@ -43,7 +43,7 @@ let listening = false;
 
 export default {
   name: 'cart-count',
-  pages: ['category', 'search'],
+  pages: ['home', 'category', 'search', 'brand'],
   init() {
     render();
     if (listening) return;

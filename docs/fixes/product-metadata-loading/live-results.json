@@ -1,0 +1,176 @@
+[
+  {
+    "width": 375,
+    "before": [
+      {
+        "text": "K\u00f3d produktu:\n                    11454",
+        "width": 66.796875,
+        "height": 18.75,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": null
+      },
+      {
+        "text": "Zna\u010dka: N/A",
+        "width": 94.40625,
+        "height": 18.75,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": "/znacka/n-a/"
+      },
+      {
+        "text": "K\u00f3d produktu:\n                    11454",
+        "width": 0,
+        "height": 0,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": null
+      },
+      {
+        "text": "Zna\u010dka: N/A",
+        "width": 0,
+        "height": 0,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": "/znacka/n-a/"
+      }
+    ],
+    "after": [
+      {
+        "text": "K\u00d3D: \n                    11454",
+        "width": 66.796875,
+        "height": 18.75,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": null
+      },
+      {
+        "text": "ZNA\u010cKA: N/A",
+        "width": 94.40625,
+        "height": 18.75,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": "/znacka/n-a/"
+      },
+      {
+        "text": "K\u00d3D: \n                    11454",
+        "width": 0,
+        "height": 0,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": null
+      },
+      {
+        "text": "ZNA\u010cKA: N/A",
+        "width": 0,
+        "height": 0,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": "/znacka/n-a/"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "before": [
+      {
+        "text": "K\u00f3d produktu:\n                    11454",
+        "width": 0,
+        "height": 0,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": null
+      },
+      {
+        "text": "Zna\u010dka: N/A",
+        "width": 0,
+        "height": 0,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": "/znacka/n-a/"
+      },
+      {
+        "text": "K\u00f3d produktu:\n                    11454",
+        "width": 66.796875,
+        "height": 18.75,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": null
+      },
+      {
+        "text": "Zna\u010dka: N/A",
+        "width": 94.40625,
+        "height": 18.75,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": "/znacka/n-a/"
+      }
+    ],
+    "after": [
+      {
+        "text": "K\u00d3D: \n                    11454",
+        "width": 0,
+        "height": 0,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": null
+      },
+      {
+        "text": "ZNA\u010cKA: N/A",
+        "width": 0,
+        "height": 0,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": "/znacka/n-a/"
+      },
+      {
+        "text": "K\u00d3D: \n                    11454",
+        "width": 66.796875,
+        "height": 18.75,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": null
+      },
+      {
+        "text": "ZNA\u010cKA: N/A",
+        "width": 94.40625,
+        "height": 18.75,
+        "font": "12.5px",
+        "line": "18.75px",
+        "weight": "500",
+        "transition": "0s",
+        "href": "/znacka/n-a/"
+      }
+    ]
+  }
+]
