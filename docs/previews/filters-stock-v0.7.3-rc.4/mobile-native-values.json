@@ -1,0 +1,47 @@
+[
+  {
+    "width": 375,
+    "fullWidthHeadings": [
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "bg": "rgb(255, 248, 241)",
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "bg": "rgb(255, 248, 241)",
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "bg": "rgb(255, 248, 241)",
+        "active": true
+      }
+    ],
+    "pageScrollClosesFilterAndSort": true,
+    "realOutsideTouchClosesBoth": true,
+    "insideScrollBefore": 180,
+    "insideScrollAfter": 273,
+    "insideScrollKeepsOpen": true,
+    "escape": true,
+    "nativeSliderHandles": true,
+    "nativeSortPrice": true,
+    "singleRootAfterAjax": true,
+    "checkboxAjaxAndPersistence": true,
+    "nativeResetAjax": true,
+    "nativePriceDragAjax": true,
+    "priceRangeBefore": "left: 0%; width: 100%;",
+    "priceRangeAfter": "left: 10.8719%; width: 89.1281%;",
+    "errors": [],
+    "pass": true
+  }
+]

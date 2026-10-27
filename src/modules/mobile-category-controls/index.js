@@ -10,6 +10,12 @@ let state = null;
 let listening = false;
 let panel = null;
 const expandedValues = new Set();
+let outsideTouch = null;
+
+function pageScroll() {
+  if (state && panel && Math.abs(window.scrollY - state.openScrollY) > 16) closePanel();
+  else resizePopup();
+}
 
 function resizePopup() {
   if (!state || !panel) return;
@@ -29,6 +35,7 @@ function closePanel(restoreFocus = false) {
   if (!state || !panel) return;
   const button = panel === 'filters' ? state.filterButton : state.sortButton;
   panel = null;
+  outsideTouch = null;
   closeDropdowns();
   sync();
   if (restoreFocus) button.focus();
@@ -215,6 +222,7 @@ function refresh() {
 
   state = {
     root,
+    openScrollY: window.scrollY,
     filters,
     sorting,
     wrapper,
@@ -259,6 +267,8 @@ function refresh() {
     const more = event.target.closest('.ts-mobile-category__more');
     if (trigger) {
       panel = panel === trigger.dataset.tsPanel ? null : trigger.dataset.tsPanel;
+      state.openScrollY = window.scrollY;
+      outsideTouch = null;
       sync();
     } else if (more) {
       state.values.toggle(more);
@@ -311,7 +321,53 @@ export default {
       listening = true;
       media.addEventListener('change', refresh);
       window.addEventListener('resize', resizePopup, { passive: true });
-      window.addEventListener('scroll', resizePopup, { passive: true });
+      window.addEventListener('scroll', pageScroll, { passive: true });
+      // Only gestures outside the popover dismiss it: native sliders and long
+      // option lists must remain usable and retain their real scroll handlers.
+      document.addEventListener(
+        'touchstart',
+        (event) => {
+          outsideTouch =
+            state && panel && event.touches.length === 1 && !state.root.contains(event.target)
+              ? event.touches[0].clientY
+              : null;
+        },
+        { passive: true },
+      );
+      document.addEventListener(
+        'touchmove',
+        (event) => {
+          if (
+            outsideTouch !== null &&
+            event.touches.length === 1 &&
+            Math.abs(event.touches[0].clientY - outsideTouch) > 12
+          )
+            closePanel();
+        },
+        { passive: true },
+      );
+      document.addEventListener(
+        'touchend',
+        () => {
+          outsideTouch = null;
+        },
+        { passive: true },
+      );
+      document.addEventListener(
+        'touchcancel',
+        () => {
+          outsideTouch = null;
+        },
+        { passive: true },
+      );
+      document.addEventListener(
+        'wheel',
+        (event) => {
+          if (state && panel && Math.abs(event.deltaY) > 1 && !state.root.contains(event.target))
+            closePanel();
+        },
+        { passive: true },
+      );
       window.visualViewport?.addEventListener('resize', resizePopup, { passive: true });
       window.visualViewport?.addEventListener('scroll', resizePopup, { passive: true });
       // Close after the native click: collapsing on pointerdown can move the

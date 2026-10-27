@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.7.3-rc.4 — preview (27. 10. 2026)
+
+- PC karty: SKLADOM v prvom riadku oproti hlavnej cene, počet kusov pod ním oproti cene bez DPH v zátvorkách. Cena a tlačidlo zdieľajú stred pravého stĺpca. Tok CENTRÁLNY / SKLAD (počet) zachovaný.
+- V PC tabuľke sú názvy opäť tučné (700) podľa nového rozhodnutia majiteľa.
+- Mobilné filtre: aktívne pozadie nadpisu je na celú šírku panelu pri všetkých skupinách.
+- Filtre aj zoradenie sa zatvoria po posunutí stránky o viac ako 16px alebo pri posúvaní mimo panelu (touch/wheel). Posúvanie vo vnútri a ovládanie filtra zostávajú funkčné, hodnoty sa neresetujú.
+- Mobilné produktové karty bez zmeny; iba preview bez zmeny produkčného loadera.
+
 ## v0.7.3-rc.3 — preview (27. 10. 2026)
 
 - PC karty: sklad a množstvo vľavo, ceny a tlačidlo vpravo, s jednotným 2px vnútorným odstupom nad rámec existujúceho odsadenia karty.

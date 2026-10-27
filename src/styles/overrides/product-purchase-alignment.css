@@ -22,10 +22,10 @@
     text-align: left;
   }
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .prices {
-    align-items: flex-end;
+    align-items: center;
   }
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) :is(.price-final, .price-additional) {
-    text-align: right !important;
+    text-align: center !important;
     white-space: normal;
   }
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) form.pr-action > .btn-cart {
@@ -51,7 +51,7 @@
   :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: baseline;
     gap: 2px;
   }
@@ -64,9 +64,45 @@
   @container (max-width: 300px) {
     :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final {
       flex-direction: column;
-      align-items: flex-end;
+      align-items: center;
       gap: 0;
     }
+  }
+
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .prices {
+    gap: 0;
+    margin: 0 !important;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final {
+    min-height: var(--ts-card-gross-line);
+    line-height: var(--ts-card-gross-line);
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-additional {
+    line-height: var(--ts-card-net-line);
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .p-tools:has(.availability-amount):not(:has(.ts-stock-central)) {
+    align-self: stretch;
+    align-items: stretch;
+    min-height: 0;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability:has(.availability-amount):not(:has(.ts-stock-central)) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0;
+    line-height: 0;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability:not(:has(.ts-stock-central)) > span:first-child {
+    font-size: var(--ts-stock-font-size) !important;
+    line-height: var(--ts-card-gross-line);
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability:not(:has(.ts-stock-central)) > .availability-amount {
+    font-size: 12px;
+    line-height: var(--ts-card-net-line);
+  }
+
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final .pr-list-unit {
+    line-height: normal;
   }
 
   /* C3 · Shared line boxes align stock/amount with gross/net. Zero-size only
@@ -113,6 +149,6 @@
     content: ')';
   }
   .ts-view-list #products:not(.products-related) a.name {
-    font-weight: 400 !important;
+    font-weight: 700 !important;
   }
 }
