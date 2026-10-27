@@ -47,3 +47,5 @@
 @import './styles/horizontal-slider.css';
 
 @import './styles/overrides/loading-stability.css';
+
+@import './styles/overrides/cookies.css';

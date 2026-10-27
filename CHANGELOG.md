@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased · 0.7.2-rc.0 · 2026-10-27 · Cookie button colours
+
+- Give the native “Súhlasím” button the Timber orange background with a readable dark label. Keep “Odmietnuť” on the notice background with a subtle inset outline. Preserve sizes, settings, native consent handlers and both choices.
+- Isolated preview branch only; published v0.7.1 and the production loader are unchanged.
+- [Mobile/desktop appearance and native-choice checks](docs/previews/cookies-v0.7.2-rc.0/README.md).
+
 ## v0.7.1 · 2026-10-27 · Site-wide loading stability
 
 - Apply final product metadata, card, native quantity and detail-control styles before JS classes arrive. Remove Apollo's geometry/visibility interpolation from interactive controls; preserve colour/shadow feedback and native component states.
