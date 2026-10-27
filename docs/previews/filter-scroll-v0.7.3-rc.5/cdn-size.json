@@ -1,0 +1,30 @@
+{
+  "reason": "Repository snapshot near jsDelivr 50MB ceiling; make room for requested preview and evidence without deleting historical records or changing old tags",
+  "records": [
+    {
+      "path": "docs/previews/stock-price-v0.7.3-rc.0/layout.json",
+      "beforeBytes": 321722,
+      "afterBytes": 194112,
+      "saved": 127610,
+      "dataEqual": true,
+      "change": "Whitespace outside JSON strings only; all tokens/paths/order preserved"
+    },
+    {
+      "path": "docs/previews/product-title-v0.7.3-rc.1/titles.json",
+      "beforeBytes": 145632,
+      "afterBytes": 102516,
+      "saved": 43116,
+      "dataEqual": true,
+      "change": "Whitespace outside JSON strings only; all tokens/paths/order preserved"
+    },
+    {
+      "path": "docs/previews/stock-price-v0.7.3-rc.0/list.json",
+      "beforeBytes": 15162,
+      "afterBytes": 9295,
+      "saved": 5867,
+      "dataEqual": true,
+      "change": "Whitespace outside JSON strings only; all tokens/paths/order preserved"
+    }
+  ],
+  "savedBytes": 176593
+}
