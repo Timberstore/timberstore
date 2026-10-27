@@ -1,0 +1,80 @@
+{
+  "checks": [
+    {
+      "width": 375,
+      "meta": {
+        "version": "v0.7.2",
+        "loader": "v0.7.2",
+        "preview": true,
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.2/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.2/dist/timber.min.js"
+        ]
+      },
+      "homeCategoryBrandDetail": true,
+      "cookiesAndMobileMenu": true,
+      "nativeAddAndCartIncrease": true,
+      "shippingPaymentToPersonalDetails": true,
+      "personalDetailsUrl": "https://www.timberstore.sk/objednavka/krok-2/",
+      "backgroundVariation": {
+        "x": 0,
+        "y": 0.0,
+        "w": 0,
+        "h": 0.0
+      },
+      "whiteFrames": 0,
+      "blankPopupFrames": 0,
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "meta": {
+        "version": "v0.7.2",
+        "loader": "v0.7.2",
+        "preview": true,
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.2/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.2/dist/timber.min.js"
+        ]
+      },
+      "homeCategoryBrandDetail": true,
+      "cookiesAndMobileMenu": true,
+      "nativeAddAndCartIncrease": true,
+      "shippingPaymentToPersonalDetails": true,
+      "personalDetailsUrl": "https://www.timberstore.sk/objednavka/krok-2/",
+      "backgroundVariation": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0,
+        "h": 0.0
+      },
+      "whiteFrames": 0,
+      "blankPopupFrames": 0,
+      "errors": [],
+      "pass": true
+    }
+  ],
+  "nativeEmptyAttempts": [
+    {
+      "width": 375,
+      "attempt": 1,
+      "contentFalse": true
+    },
+    {
+      "width": 1440,
+      "attempt": 1,
+      "contentFalse": true
+    },
+    {
+      "width": 1440,
+      "attempt": 2,
+      "contentFalse": true
+    }
+  ],
+  "productionObserved": {
+    "version": "v0.7.1",
+    "loader": "v0.7.1",
+    "preview": false
+  }
+}

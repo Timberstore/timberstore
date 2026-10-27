@@ -54,3 +54,5 @@ Klient potvrdil aktiváciu buildu v0.6.12. Čistá mobilná relácia následne o
 - Pred vydaním verejný web používa `PROD = 'v0.7.1'`; uložený je presný [loader pred zmenou](shoptet/backup/2026-10-27/live-loader-before-v0.7.2.html).
 - Repo [loader](shoptet/loader.html) cieli na `v0.7.2`. Toto je príprava, nie tvrdenie o vykonanej aktivácii: dostupná administrácia presmeruje na `/admin/login/`.
 - Po overení CDN nahradiť iba existujúci Timber loader jeho verziovaným cieľom; ostatné integrácie ponechať. Overiť čistú reláciu s `Timber.version = TimberLoader.version = v0.7.2`, `preview = false`. Rollback je uložený v0.7.1 loader.
+
+- Doplnenie po publikácii v0.7.2: PR #45 zlúčený do main, stabilný tag/release vydané, priame CDN súbory zhodné s manifestom a smoke 375/1440px prešiel až po osobné údaje bez odoslania. Čistá produkčná relácia stále v0.7.1, preview vypnuté; aktivácia sa neuskutočnila. [Dôkaz](docs/releases/v0.7.2/PUBLISHED.json).
