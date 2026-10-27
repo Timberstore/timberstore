@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.7.3-rc.6 — preview (27. 10. 2026)
+
+- Na ďalšiu požiadavku majiteľa zväčšená PC medzera medzi nákupnými stĺpcami zo 16 na 24px. Bloky sú o ďalšie 4px bližšie k okrajom pri zachovaní šírok a vnútorného odsadenia.
+- Mobilné karty, správanie filtrov a tabuľka bez zmeny. Len preview.
+
 ## v0.7.3-rc.5 — preview (27. 10. 2026)
 
 - PC karty: medzera medzi ľavou a pravou nákupnou stranou 16px namiesto 8px; oba bloky o 4px bližšie k okrajom v rámci existujúceho vnútorného odsadenia. Šírka ceny/tlačidla a päťciferného množstva zachované.
