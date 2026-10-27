@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.7.2 · 2026-10-27 · Schválené úpravy od v0.7.1
+
+- Plynulý popup po pridaní do košíka: odstránený biely načítavací záblesk, jemné zobrazenie hotového okna a pozadia, stabilné rozmery aj pri doplnení jednotky ceny. Prázdne obaly už nezväčšujú produkty na pozadí pri opakovanom otvorení. Rešpektované obmedzené animácie.
+- Čitateľné polia množstva aj pre 10000 kusov v kartách, odporúčaniach a košíku; zachované skladové limity a balenia. Počítadlo v hlavičke sa zobrazuje pred ikonou košíka.
+- Odporúčané a podobné produkty: názov/kód vľavo, cena vpravo, množstvo vedľa tlačidla na mobile. Počet kusov zostáva pri slove SKLAD aj pri centrálnom sklade.
+- Zjednotené zelené potvrdenie a údaje o doprave zadarmo vrátane zostávajúcej sumy a priebehu. Hlavné tlačidlá sú oranžové s bielym textom, vedľajšie neutrálne; ceny produktov zostávajú modré.
+- Mobilné MENU: oranžové čiary pri zatvorení, biele po otvorení, pôvodné pozadie. Kontakty podľa pätičky: hodiny, e-mail, telefón, Napíšte nám, farebné sociálne siete.
+- Cookies: oranžové Súhlasím s bielym textom a jemnejšie Odmietnuť; pôvodné funkcie súhlasu zostali zachované.
+- Technická údržba: zjednotené pravidlá štýlov a bezstratovo zmenšené formátovanie starších testovacích JSON záznamov pre CDN limit; dáta a odkazy zachované.
+- Majiteľ schválil merge, vydanie a nasadenie. Stabilné vydanie povyšuje schválené rc.6 bez funkčných zmien; [popis, overenie a aktivácia](docs/releases/v0.7.2.md). Safari/iPhone NOT TESTED. Pred aktiváciou bol na webe overený v0.7.1; administrácia vyžaduje prihlásenie.
+
 ## Unreleased · 0.7.2-rc.6 · 2026-10-27 · M2 complete cart transition
 
 - Remove the native white loading wash only from the spinner created during a product/variant submit, preserving its pointer shield and native request/error lifecycle. Limit the observer to the current event task and restore its class on completion/fallback; unrelated loaders stay native.
