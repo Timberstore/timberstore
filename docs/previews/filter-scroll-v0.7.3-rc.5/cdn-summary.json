@@ -1,0 +1,86 @@
+[
+  {
+    "width": 375,
+    "page": "stock",
+    "view": "grid",
+    "cards": 30,
+    "bad": [],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "page": "stock",
+    "view": "grid",
+    "cards": 30,
+    "bad": [],
+    "errors": [],
+    "pass": true,
+    "controlGaps": [
+      16.0
+    ],
+    "minimumCardInset": 38.0
+  },
+  {
+    "width": 1440,
+    "page": "stock",
+    "view": "list",
+    "cards": 30,
+    "bad": [],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "central",
+    "view": "grid",
+    "cards": 30,
+    "bad": [],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "page": "central",
+    "view": "grid",
+    "cards": 30,
+    "bad": [],
+    "errors": [],
+    "pass": true,
+    "controlGaps": [
+      16.0
+    ],
+    "minimumCardInset": 38.0
+  },
+  {
+    "width": 1440,
+    "page": "central",
+    "view": "list",
+    "cards": 30,
+    "bad": [],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "home",
+    "view": "grid",
+    "cards": 32,
+    "bad": [],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "page": "home",
+    "view": "grid",
+    "cards": 32,
+    "bad": [],
+    "errors": [],
+    "pass": true,
+    "controlGaps": [
+      16.0
+    ],
+    "minimumCardInset": 28.0
+  }
+]

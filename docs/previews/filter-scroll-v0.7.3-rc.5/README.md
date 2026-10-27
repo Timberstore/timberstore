@@ -16,4 +16,10 @@ Open mobile filter and sort panels are now in normal document flow. Their height
 - Native purchase at 375/1440px: add/popup without white/blank frames or background movement, cart quantity increase, shipping/payment through personal details; no order submitted.
 - ESLint/build/whitespace PASS. JS 32.43/32.5 KiB, CSS 29.65/29.75 KiB, no allowance increase. Safari/iPhone and PageSpeed NOT TESTED.
 
-Initial verification routes local candidate assets on the public shop. Immutable CDN verification follows push. cdn-size.json records whitespace-only compaction of three previous JSON reports, preserving all data/tokens/paths and existing tags, to keep the new snapshot below the CDN 50MB ceiling.
+Initial verification routes local candidate assets on the public shop. Immutable CDN CSS/JS exact bytes pass (cdn-assets.json); 8 actual CDN geometry cases pass (cdn-summary.json records outcomes/derived gap and inset checks). Actual touch-enabled 375/430px CDN checks also pass, including native price-slider drag/AJAX and viewport round trip to 1024px and back with restored native filters and exactly one mobile toolbar (cdn-mobile.json, check-cdn-mobile.py). Screenshots use actual CDN assets. cdn-size.json records whitespace-only compaction of three previous JSON reports, preserving all data/tokens/paths and existing tags, to keep the new snapshot below the CDN 50MB ceiling.
+
+## Preview
+
+https://www.timberstore.sk/?ts_preview=0b52102db4ef13610a0255476ccf538891f88af0
+
+Source/build frozen at that commit; later commits add evidence only. Production loader unchanged.
