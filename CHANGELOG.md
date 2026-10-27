@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased · 0.7.2-rc.6 · 2026-10-27 · M2 complete cart transition
+
+- Remove the native white loading wash only from the spinner created during a product/variant submit, preserving its pointer shield and native request/error lifecycle. Limit the observer to the current event task and restore its class on completion/fallback; unrelated loaders stay native.
+- Reveal the completed cart popup/backdrop with a 160ms opacity fade, respecting reduced motion. Retain synchronous native structural completion and stable dimensions.
+- Hide empty purchase wrappers left by Apollo's global advanced-order product rearrangement; repeated popup opens no longer grow background cards. Reserve unit-slot height as well as width on narrow recommendation rows.
+- Verify the complete click/loading/reveal sequence, stable background, delayed real responses, repeated opens/double-click shielding, galleries, failure-state isolation and native cart/checkout. Preview only; production v0.7.1 and loader unchanged. [Evidence and videos](docs/previews/cart-transition-v0.7.2-rc.6/README.md).
+
 ## Unreleased · 0.7.2-rc.5 · 2026-10-27 · M1 open menu glyph
 
 - Show white hamburger lines on the dark open MENU toggle; retain orange lines when closed. Other menu/contact styling stays as in rc.4. Preview only, with unchanged budgets and production loader.

@@ -69,6 +69,7 @@ export const SEL = {
   purchaseCard: '.product',
   productPurchaseForms:
     'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product form.pr-action, .products-related-block .product form.pr-action, .products-alternative-block .product form.pr-action, #colorbox .advanced-order .product form.pr-action',
+  cartModalForm: 'form.pr-action, form.variant-submit',
   cartForm: 'form.pr-action',
   cartFormAmount: 'input[name="amount"]', // hidden; the multiply_order add-on writes the pack size here
   cartFormPriceId: 'input[name="priceId"]',

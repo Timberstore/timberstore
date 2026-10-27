@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Cart transition `0.7.2-rc.6` (27. 10. 2026):** zachované limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení; naměřeno 32.20 / 28.71 KiB. Pouze preview, starší tagy/limity a produkční loader beze změny.
+
 - **Open menu glyph `0.7.2-rc.5` (27. 10. 2026):** zachované rc.3/rc.4 limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení. Pouze preview; starší limity, stabilní tagy a loader beze změny.
 
 - **Menu toggle correction `0.7.2-rc.4` (27. 10. 2026):** zachovává rc.3 limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení; naměřeno 32.10 / 28.53 KiB. Pouze preview, starší limity/tagy a loader beze změny.

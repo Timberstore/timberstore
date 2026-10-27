@@ -1,0 +1,64 @@
+[
+  {
+    "width": 375,
+    "opened": 3,
+    "attempts": [
+      {
+        "attempt": 1,
+        "nativeNoPopup": true
+      },
+      {
+        "attempt": 2,
+        "height": 468.5625,
+        "posts": 2,
+        "pass": true
+      },
+      {
+        "attempt": 3,
+        "height": 468.5625,
+        "posts": 3,
+        "pass": true
+      },
+      {
+        "attempt": 4,
+        "nativeNoPopup": true
+      },
+      {
+        "attempt": 5,
+        "height": 468.5625,
+        "posts": 5,
+        "pass": true
+      }
+    ],
+    "doubleClickOnlyOnePost": true,
+    "backgroundHeight": 468.5625,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "opened": 3,
+    "attempts": [
+      {
+        "attempt": 1,
+        "height": 581.140625,
+        "posts": 1,
+        "pass": true
+      },
+      {
+        "attempt": 2,
+        "height": 581.140625,
+        "posts": 2,
+        "pass": true
+      },
+      {
+        "attempt": 3,
+        "height": 581.140625,
+        "posts": 3,
+        "pass": true
+      }
+    ],
+    "doubleClickOnlyOnePost": true,
+    "backgroundHeight": 581.140625,
+    "pass": true
+  }
+]

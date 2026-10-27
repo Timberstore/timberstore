@@ -262,3 +262,10 @@ body:not(.type-detail, .ordering-process) #content :is(.products, .products-bloc
     flex: 1 0 100%;
   }
 }
+
+/* M2 · Apollo reruns its global product rearrangement when advanced-order
+   opens. It leaves empty product-btn spans after moving stock back into p-tools;
+   their margins/min-height otherwise grow background cards on every open. */
+#content .product .product-btn:empty {
+  display: none;
+}

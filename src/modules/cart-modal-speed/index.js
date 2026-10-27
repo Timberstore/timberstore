@@ -13,6 +13,22 @@ function speedUpCartPopup() {
   const $ = window.jQuery;
   if (!$?.colorbox?.settings) return;
 
+  // Native add first shows a white full-page spinner, hides it after the POST,
+  // then opens the dark dialog after a second request. Mark only the spinner
+  // inserted by this synchronous submit so CSS can keep the page unwashed.
+  // Observe until the end of this task: invalid submissions cannot accidentally
+  // affect a later gallery, filter, shipping or checkout spinner.
+  let loadingSpinner;
+  const spinner = new MutationObserver((records) => {
+    for (const record of records) for (const node of record.addedNodes)
+      if (node instanceof Element && node.matches(SEL.cartSpinner)) {
+        loadingSpinner = node;
+        node.classList.add('ts-cart-add-spinner');
+      }
+  });
+  spinner.observe(document.body, { childList: true });
+  window.setTimeout(() => spinner.disconnect(), 0);
+
   restoreActiveSpeed?.();
 
   const previousSpeed = $.colorbox.settings.speed;
@@ -24,6 +40,7 @@ function speedUpCartPopup() {
     restored = true;
     if (timer) window.clearTimeout(timer);
     $(document).off('.tsCartModalSpeed');
+    loadingSpinner?.classList.remove('ts-cart-add-spinner');
     $.colorbox.settings.speed = previousSpeed;
     if (restoreActiveSpeed === restore) restoreActiveSpeed = null;
   };
@@ -47,7 +64,7 @@ export default {
     document.addEventListener(
       'submit',
       (event) => {
-        if (event.target instanceof HTMLFormElement && event.target.matches(SEL.cartForm)) {
+        if (event.target instanceof HTMLFormElement && event.target.matches(SEL.cartModalForm)) {
           speedUpCartPopup();
         }
       },

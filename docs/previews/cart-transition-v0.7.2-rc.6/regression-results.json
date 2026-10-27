@@ -1,0 +1,48 @@
+[
+  {
+    "width": 375,
+    "customFailureStateRecovered": true,
+    "nativeFailureSpinnerCount": 1,
+    "rejectedVariantFixtureNoObserverLeak": true,
+    "galleryNative": true,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "cartMasks": [
+      {
+        "marked": false,
+        "bg": "rgba(255, 255, 255, 0.65)"
+      }
+    ],
+    "nativeAddRequests": 2,
+    "nativeSuccessfulAdds": 1,
+    "cartQuantity": 2,
+    "checkoutShippingPayment": true,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "customFailureStateRecovered": true,
+    "nativeFailureSpinnerCount": 1,
+    "rejectedVariantFixtureNoObserverLeak": true,
+    "galleryNative": true,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "cartMasks": [
+      {
+        "marked": false,
+        "bg": "rgba(255, 255, 255, 0.65)"
+      }
+    ],
+    "nativeAddRequests": 2,
+    "nativeSuccessfulAdds": 1,
+    "cartQuantity": 2,
+    "checkoutShippingPayment": true,
+    "pass": true
+  }
+]

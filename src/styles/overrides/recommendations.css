@@ -116,7 +116,8 @@
 
 /* Price styling exists on the native node before text cleanup runs. Reserve a
    unit slot even while a verified public-detail unit is being fetched, so its
-   late arrival cannot push the already visible amount or resize the popup. */
+   late arrival cannot push the already visible amount or resize the popup.
+   Reserve height too: on narrow cards the unit occupies its own flex line. */
 :is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .product .price-final {
   display: flex;
   flex-wrap: wrap;
@@ -131,6 +132,8 @@
 :is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final :is(.pr-list-unit, .ts-recommendation-unit),
 :is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final:not(:has(.pr-list-unit, .ts-recommendation-unit))::after {
   min-width: var(--ts-recommendation-unit-width);
+  min-height: 1.2em;
+  line-height: 1.2;
   font-size: 13px;
   text-align: left;
 }

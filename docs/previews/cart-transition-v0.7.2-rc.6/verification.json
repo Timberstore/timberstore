@@ -1,0 +1,443 @@
+[
+  {
+    "width": 768,
+    "page": "detail",
+    "slowPost600msGet1400ms": false,
+    "reduced": false,
+    "frames": 91,
+    "backgroundVariation": {
+      "x": 0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.320207,
+      0.46181,
+      0.590473,
+      0.706746,
+      0.808179,
+      0.891923,
+      0.95551,
+      0.993146,
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1920,
+    "page": "detail",
+    "slowPost600msGet1400ms": false,
+    "reduced": false,
+    "frames": 95,
+    "backgroundVariation": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.462029,
+      0.590672,
+      0.706922,
+      0.807771,
+      0.892043,
+      0.955593,
+      0.993182,
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "home",
+    "slowPost600msGet1400ms": false,
+    "reduced": false,
+    "frames": 97,
+    "backgroundVariation": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.955658,
+      0.993076,
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "category",
+    "slowPost600msGet1400ms": false,
+    "reduced": false,
+    "frames": 76,
+    "backgroundVariation": {
+      "x": 0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "page": "home",
+    "slowPost600msGet1400ms": false,
+    "reduced": false,
+    "frames": 64,
+    "backgroundVariation": {
+      "x": 0.0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.892079,
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "page": "category",
+    "slowPost600msGet1400ms": false,
+    "reduced": false,
+    "frames": 58,
+    "backgroundVariation": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.707132,
+      0.80795,
+      0.955383,
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "detail",
+    "slowPost600msGet1400ms": true,
+    "reduced": false,
+    "frames": 257,
+    "backgroundVariation": {
+      "x": 0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.320966,
+      0.461696,
+      0.591106,
+      0.706654,
+      0.808101,
+      0.89186,
+      0.955467,
+      0.992993,
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "detail",
+    "slowPost600msGet1400ms": false,
+    "reduced": true,
+    "frames": 98,
+    "backgroundVariation": {
+      "x": 0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "page": "detail",
+    "slowPost600msGet1400ms": false,
+    "reduced": true,
+    "frames": 85,
+    "backgroundVariation": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "page": "detail",
+    "slowPost600msGet1400ms": false,
+    "reduced": false,
+    "frames": 97,
+    "backgroundVariation": {
+      "x": 0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.320622,
+      0.462192,
+      0.590819,
+      0.706399,
+      0.807883,
+      0.892133,
+      0.955346,
+      0.993208,
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "page": "detail",
+    "slowPost600msGet1400ms": true,
+    "reduced": false,
+    "frames": 214,
+    "backgroundVariation": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.167057,
+      0.320569,
+      0.461331,
+      0.590775,
+      0.707014,
+      0.80785,
+      0.892106,
+      0.955637,
+      0.993067,
+      1
+    ],
+    "posts": 1,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "page": "detail",
+    "slowPost600msGet1400ms": false,
+    "reduced": false,
+    "frames": 89,
+    "backgroundVariation": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.461761,
+      0.591165,
+      0.706707,
+      0.808146,
+      0.892343,
+      0.955491,
+      0.993138,
+      1
+    ],
+    "posts": 2,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false,
+      false
+    ],
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "detail",
+    "slowPost600msGet1400ms": false,
+    "reduced": false,
+    "frames": 94,
+    "backgroundVariation": {
+      "x": 0,
+      "y": 0.0,
+      "w": 0,
+      "h": 0.0
+    },
+    "whiteLoadingFrames": 0,
+    "blankPopupFrames": 0,
+    "opacitySamples": [
+      0.000333252,
+      0.321046,
+      0.461769,
+      0.590436,
+      0.706713,
+      0.808151,
+      0.892347,
+      0.955495,
+      0.993139,
+      1
+    ],
+    "posts": 2,
+    "futureSpinner": {
+      "marked": false,
+      "bg": "rgba(255, 255, 255, 0.65)",
+      "loader": "visible"
+    },
+    "nativeEmptyResponses": [
+      false,
+      false
+    ],
+    "errors": [],
+    "pass": true
+  }
+]

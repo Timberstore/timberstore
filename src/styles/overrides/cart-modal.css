@@ -299,3 +299,29 @@
     padding: 12px;
   }
 }
+
+/* M2 · Keep native pointer blocking and request/error cleanup, but avoid the
+   white spinner → clear page → dark modal flash on a product add. Only the
+   spinner inserted by that submit is marked; other loading masks stay native. */
+body:not(.ordering-process) .overlay.spinner.ts-cart-add-spinner {
+  background: transparent;
+  cursor: progress;
+}
+body:not(.ordering-process) .overlay.spinner.ts-cart-add-spinner > * {
+  visibility: hidden;
+}
+/* Reveal the completed dialog with opacity only. The backdrop animates toward
+   its native inline opacity, preserving Shoptet's configured dimming amount. */
+#colorbox:has(.advanced-order),
+body:has(#colorbox .advanced-order) #cboxOverlay {
+  animation: ts-cart-reveal var(--ts-cart-reveal-duration) ease-out;
+}
+@keyframes ts-cart-reveal {
+  from { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #colorbox:has(.advanced-order),
+  body:has(#colorbox .advanced-order) #cboxOverlay {
+    animation: none;
+  }
+}

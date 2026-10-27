@@ -1,0 +1,16 @@
+[
+  {
+    "width": 320,
+    "page": "detail",
+    "slow": false,
+    "reduced": false,
+    "contentFalse": true
+  },
+  {
+    "width": 1440,
+    "page": "detail",
+    "slow": true,
+    "reduced": false,
+    "contentFalse": true
+  }
+]
