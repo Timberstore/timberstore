@@ -18,4 +18,10 @@ Pointer capture retains movement outside the viewport; child implicit-capture lo
 - Native purchase smoke at 375/1440px: add popup without blank/white frames or background movement, cart quantity, shipping/payment to personal details; no order submitted.
 - ESLint/build/whitespace PASS. JS 32.99/33.25 KiB (new rc.9-only allowance under recorded authorization), CSS 29.74/29.75 KiB (no increase). All earlier budgets preserved. Safari/iPhone and PageSpeed NOT TESTED.
 
-Initial tests route local candidate bundles on the native public shop. Actual immutable CDN verification follows push. The independent first commit compacts whitespace outside strings in five older preview reports, preserving tokens/data/order/paths and immutable historical tags; see cdn-size.json. No historical evidence deleted.
+Initial tests route local candidate bundles on the native public shop. Actual immutable CDN CSS/JS exact byte equality passes (cdn-assets.json). Three actual CDN gallery cases pass: mouse at 375/1440px and touch at 375px, including held movement, reverse, bounds, native arrows, selection, main-photo mouse swipe and lightbox (cdn-verification.json). The independent first commit compacts whitespace outside strings in five older preview reports, preserving tokens/data/order/paths and immutable historical tags; see cdn-size.json. No historical evidence deleted.
+
+## Preview
+
+https://www.timberstore.sk/tulip-uchytka-tende-32-146-antracit-2/?ts_preview=a4d33f00d093ee7cbab3959c2a8520700a5b0f67
+
+Source/build frozen at this commit; later commits only add evidence. Production loader unchanged.
