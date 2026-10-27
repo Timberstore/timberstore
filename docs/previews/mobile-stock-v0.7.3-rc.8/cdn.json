@@ -1,0 +1,57 @@
+{
+  "commit": "f66dd06e018f3b8d18352b1a3b1cfe5666676006",
+  "assets": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@f66dd06e018f3b8d18352b1a3b1cfe5666676006/dist/timber.min.css",
+      "sha256": "920649b659887edf149149a9f1977b7feea34919105eb952ce500bcb7007e015",
+      "exactBytes": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@f66dd06e018f3b8d18352b1a3b1cfe5666676006/dist/timber.min.js",
+      "sha256": "d9e8bd7780bd439732b3fc4406a7d5639f1cdfce8659eaedf851f7a64e945725",
+      "exactBytes": true
+    }
+  ],
+  "checks": [
+    {
+      "width": 375,
+      "page": "stock",
+      "cards": 30,
+      "normalCountBelow": true,
+      "centralInlinePreserved": true,
+      "skuVisible": true,
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 375,
+      "page": "central",
+      "cards": 1,
+      "normalCountBelow": true,
+      "centralInlinePreserved": true,
+      "skuVisible": true,
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 480,
+      "page": "stock",
+      "cards": 30,
+      "normalCountBelow": true,
+      "centralInlinePreserved": true,
+      "skuVisible": true,
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 480,
+      "page": "central",
+      "cards": 1,
+      "normalCountBelow": true,
+      "centralInlinePreserved": true,
+      "skuVisible": true,
+      "errors": [],
+      "pass": true
+    }
+  ]
+}
