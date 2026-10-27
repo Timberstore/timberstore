@@ -48,5 +48,10 @@
 @media (max-width: 767px) {
   body:not(.ordering-process) .content-wrapper :is(.products, .products-block) .product > .p > .p-code {
     display: block !important;
+    width: max-content;
+    white-space: nowrap;
+  }
+  body:not(.ordering-process) .content-wrapper :is(.products, .products-block) .product > .p > .p-code > span {
+    display: inline !important;
   }
 }
