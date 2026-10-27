@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Mobile menu preview `0.7.2-rc.3` (27. 10. 2026):** JS limit 32.25 KiB / CSS 28.75 KiB, naměřeno 32.10 / 28.54 KiB. Malé rozšíření pro kontaktní CTA a společné ikony/styly dle evidovaného souhlasu 15. 10. 2026. Starší preview/stabilní limity, tagy a produkční loader zůstávají beze změny.
+
 - **Cart stability preview `0.7.2-rc.2` (27. 10. 2026):** zachované limity JS 32 KiB / CSS 28.5 KiB; naměřeno 31.98 / 28.26 KiB. Bez dalšího navýšení. Pouze preview, stabilní tagy a produkční loader beze změny.
 
 - **Cart controls preview `0.7.2-rc.1` (27. 10. 2026):** JS limit 32 KiB, CSS 28.5 KiB; naměřeno 31.99 / 28.08 KiB. Rozšíření pouze pro lokální rozložení, šířky množství a nákupní barevnou politiku podle evidovaného souhlasu 15. 10. 2026. Limity stabilních vydání, jejich tagy i produkční loader zůstávají beze změny.

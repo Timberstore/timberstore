@@ -1,0 +1,67 @@
+/* M1 · Match the homepage footer contact sequence and visual treatment while
+   retaining Apollo's category tree, legal links and native contact destinations. */
+@media (max-width: 767px) {
+  #header .navigation-in-bottom .top-navigation-contacts {
+    gap: 0;
+    padding: 24px 16px;
+    margin: 0;
+    background: var(--ts-color-bg);
+  }
+  #header .navigation-in-bottom .ts-menu-contact-title {
+    margin-bottom: 16px;
+  }
+  #header .navigation-in-bottom :is(.project-phone, .project-email)::before,
+  #header .navigation-in-bottom .ts-menu-socials a::before {
+    display: none;
+  }
+  #header .navigation-in-bottom .top-navigation-contacts > :is(.project-phone, .project-email, .ts-service-bar__hours) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 32px;
+    padding: 0;
+    color: var(--ts-color-controls-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+  #header .navigation-in-bottom .ts-service-bar__hours .ts-service-bar__status {
+    margin-inline: calc((20px - var(--ts-service-status-size)) / 2);
+  }
+  #header .navigation-in-bottom .ts-menu-write-us {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    margin: 8px 0 0;
+    padding: 8px 24px;
+    background: var(--ts-color-accent);
+    border-color: var(--ts-color-accent);
+    color: var(--ts-color-bg);
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  #header .navigation-in-bottom .ts-menu-write-us:is(:hover, :focus-visible) {
+    background: var(--ts-color-controls-active);
+    border-color: var(--ts-color-controls-active);
+  }
+  #header .navigation-in-bottom .ts-menu-socials {
+    margin-top: 8px;
+    gap: 8px;
+  }
+  #header .navigation-in-bottom .ts-menu-socials a {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+/* Apollo colours/sizes the native inner labels separately from their links. */
+@media (max-width: 767px) {
+  #header .navigation-in-bottom .top-navigation-contacts > :is(.project-phone, .project-email) > span {
+    color: inherit;
+    font-size: inherit;
+  }
+}

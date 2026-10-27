@@ -281,3 +281,17 @@ body .top-navigation-bar .responsive-tools :is(.ts-cart-control, .click-cart) .c
   left: auto;
   right: calc(100% - 42px);
 }
+
+/* M1 · The native open/hover menu state used a dark grey background. Keep the
+   same Timber orange in every mobile toggle state, including keyboard focus. */
+@media (max-width: 767px) {
+  body .responsive-tools .toggle-window[data-target='navigation'],
+  body.navigation-window-visible .responsive-tools .toggle-window[data-target='navigation'] {
+    background-color: var(--ts-color-accent);
+    color: var(--ts-color-bg);
+  }
+  body .responsive-tools .toggle-window[data-target='navigation']:focus-visible {
+    outline: 2px solid var(--ts-color-controls-text);
+    outline-offset: -3px;
+  }
+}

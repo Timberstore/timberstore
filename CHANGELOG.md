@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased · 0.7.2-rc.3 · 2026-10-27 · M1 mobile menu contacts
+
+- Keep the mobile MENU toggle orange, including its open, hover and keyboard states.
+- Match the footer contact sequence in the mobile menu: business hours, email, phone, Napíšte nám, social links. Preserve native mail/tel destinations, category navigation and legal links.
+- Share contact SVGs with the footer and use its Facebook blue, Instagram gradient, orange mail/phone icons and text styling. Add the existing native contact-page destination as the write-us action.
+- Validate repeated initialization, responsive menu cloning, native category accordions, footer/desktop parity and purchase flow. Preview only; production v0.7.1 and the loader are unchanged. [Evidence](docs/previews/mobile-menu-v0.7.2-rc.3/README.md).
+
 ## Unreleased · 0.7.2-rc.2 · 2026-10-27 · M2/C3 cart stability and green delivery
 
 - Restore the established Emerald success icon/outline, free-delivery text/remainder and progress accents across the advanced popup, mini-cart and cart. Primary purchase buttons retain their orange treatment.

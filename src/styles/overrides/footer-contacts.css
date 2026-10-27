@@ -1,4 +1,5 @@
-/* Footer only: preserve native contact form and configured social destinations. */
+/* Footer layout with shared menu/footer SVG treatment; preserve native contact
+   forms and configured social destinations. */
 /* Match all four existing footer column headings, including the custom banner. */
 #footer .custom-footer__contact .pageElement__heading,
 #footer .custom-footer__articles .pageElement__heading,
@@ -52,7 +53,8 @@
 #footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box .mail a {
   overflow-wrap: anywhere;
 }
-#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__icon {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__icon,
+#header .navigation-in-bottom .ts-footer-contacts__icon {
   flex: 0 0 20px;
   width: 20px;
   height: 20px;
@@ -63,7 +65,8 @@
   stroke-linejoin: round;
   fill: none;
 }
-#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__social .ts-footer-contacts__icon {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__social .ts-footer-contacts__icon,
+#header .navigation-in-bottom .ts-footer-contacts__social .ts-footer-contacts__icon {
   flex-basis: 26px;
   width: 26px;
   height: 26px;
@@ -71,12 +74,14 @@
   border-radius: var(--ts-radius-controls);
   color: var(--ts-color-bg);
 }
-#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__social--facebook .ts-footer-contacts__icon {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__social--facebook .ts-footer-contacts__icon,
+#header .navigation-in-bottom .ts-footer-contacts__social--facebook .ts-footer-contacts__icon {
   background: var(--ts-color-facebook);
   fill: currentColor;
   stroke: none;
 }
-#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__social--instagram .ts-footer-contacts__icon {
+#footer :is(.ts-footer-contacts, .custom-footer__contact) .ts-footer-contacts__social--instagram .ts-footer-contacts__icon,
+#header .navigation-in-bottom .ts-footer-contacts__social--instagram .ts-footer-contacts__icon {
   background: var(--ts-instagram-gradient);
 }
 #footer :is(.ts-footer-contacts, .custom-footer__contact) .contact-box a:hover,

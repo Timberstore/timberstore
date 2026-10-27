@@ -1,0 +1,1389 @@
+[
+  {
+    "width": 320,
+    "page": "home",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "page": "category",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "page": "detail",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "category",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "detail",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "page": "home",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "page": "category",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "page": "detail",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 767,
+    "page": "home",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 767,
+    "page": "category",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "true",
+      "footerHours": "true",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 767,
+    "page": "detail",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "false",
+      "footerHours": "false",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 375,
+    "page": "home",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "false",
+      "footerHours": "false",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "nativeCategoryAccordion": true,
+    "repeatInit": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "test": "resize through desktop breakpoint",
+    "contact": {
+      "order": [
+        "ts-menu-contact-title",
+        "ts-service-bar__hours",
+        "project-email",
+        "project-phone",
+        "ts-menu-write-us btn btn-primary",
+        "ts-menu-socials"
+      ],
+      "text": "KONTAKTUJTE N\u00c1S\nPO \u2013 PIA (08:00 \u2013 16:00)\ninfo@timberstore.sk\n+421 904 479 842\nNAP\u00cd\u0160TE N\u00c1M",
+      "email": "mailto:info@timberstore.sk",
+      "phone": "tel:+421904479842",
+      "write": "/kontakty",
+      "buttonCount": 1,
+      "nested": 0,
+      "icons": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "hours": "false",
+      "footerHours": "false",
+      "emailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 144.516,
+        "h": 22.391
+      },
+      "footerEmailStyle": {
+        "color": "rgb(66, 62, 62)",
+        "font": "16px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "w": 172.516,
+        "h": 32.391
+      },
+      "socials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "footerSocials": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgb(24, 119, 242)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "background": "none"
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "style": {
+            "color": "rgb(255, 255, 255)",
+            "font": "16px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "w": 26,
+            "h": 26
+          },
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "background": "linear-gradient(35deg, rgb(254, 218, 117), rgb(250, 126, 30) 25%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 75%, rgb(79, 91, 213))"
+        }
+      ],
+      "inside": true,
+      "toggle": {
+        "color": "rgb(255, 255, 255)",
+        "font": "14px",
+        "bg": "rgb(212, 136, 74)",
+        "w": 50,
+        "h": 50
+      }
+    },
+    "pass": true
+  }
+]

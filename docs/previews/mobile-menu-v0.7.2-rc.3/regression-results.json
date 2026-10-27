@@ -1,0 +1,29 @@
+[
+  {
+    "test": "footer/header/categories match rc.2",
+    "width": 375,
+    "pass": true
+  },
+  {
+    "test": "footer/header/categories match rc.2",
+    "width": 1024,
+    "pass": true
+  },
+  {
+    "test": "footer/header/categories match rc.2",
+    "width": 1440,
+    "pass": true
+  },
+  {
+    "test": "native purchase/cart/checkout shipping/payment",
+    "width": 375,
+    "posts": 1,
+    "pass": true
+  },
+  {
+    "test": "native purchase/cart/checkout shipping/payment",
+    "width": 1440,
+    "posts": 1,
+    "pass": true
+  }
+]
