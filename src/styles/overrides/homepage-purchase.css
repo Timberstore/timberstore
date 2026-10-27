@@ -73,3 +73,22 @@
     display: inline !important;
   }
 }
+
+/* M2 · The offer has independent intrinsic columns; quantity width only
+   belongs to the separate purchase form. */
+.type-index .products:not(.products-related) .product:has(form.pr-action > input[name='amount'][type='hidden']) .p-bottom > [data-micro='offer'] {
+  grid-template-columns: minmax(max-content, 1fr) minmax(0, 1fr);
+}
+/* Native two-slide phone carousels can be narrower than a readable pair.
+   Keep their Swiper geometry and safely wrap only this offer when necessary. */
+@container (max-width: 220px) {
+  .type-index .products:not(.products-related) .product:has(form.pr-action > input[name='amount'][type='hidden']) .p-bottom > [data-micro='offer'] {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .type-index .products:not(.products-related) .product:has(form.pr-action > input[name='amount'][type='hidden']) .prices {
+    grid-area: 2 / 1;
+  }
+}
+.type-index .products:not(.products-related) .product {
+  container-type: inline-size;
+}

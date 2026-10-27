@@ -1,6 +1,7 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
   productMetadata: { code: 'KÓD: ', brand: 'ZNAČKA: ', variants: 'VŠETKY VARIANTY' },
+  productStock: { central: /^centrálny\s+sklad$/i },
   productCompact: { vat: 'bez DPH', vatSuffix: /bez\s+DPH/gi },
   services: {
     page: 'Zobraziť ponuku – strana',

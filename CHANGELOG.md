@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.7.3-rc.0 — preview (27. 10. 2026)
+
+- Produktové karty: sklad vľavo a cena vpravo v spoločnom riadku; cena bez DPH zostáva v zátvorkách.
+- CENTRÁLNY / SKLAD (počet): pevné zalomenie označenia na dva riadky, počet spolu so slovom SKLAD. Pôvodné hodnoty, farby a jednotky zachované.
+- Na úzkych telefónoch do 479 px jedna katalógová karta v riadku pre čitateľné údaje; natívne slidery a desktopová tabuľka zachované.
+- Iba preview, bez zmeny produkčného loadera, merge alebo stabilného vydania.
+
+
 ## v0.7.2 · 2026-10-27 · Schválené úpravy od v0.7.1
 
 - Plynulý popup po pridaní do košíka: odstránený biely načítavací záblesk, jemné zobrazenie hotového okna a pozadia, stabilné rozmery aj pri doplnení jednotky ceny. Prázdne obaly už nezväčšujú produkty na pozadí pri opakovanom otvorení. Rešpektované obmedzené animácie.
