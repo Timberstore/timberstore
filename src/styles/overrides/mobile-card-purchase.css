@@ -64,30 +64,17 @@
     width: 100%;
     text-align: center !important;
   }
-  /* Centre the main amount itself; its secondary unit occupies the next track. */
+  /* M2 · Centre the complete amount/EUR/unit line, not the numeric part. */
   body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .price-final {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) max-content minmax(0, 1fr);
-    column-gap: 2px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
     align-items: center;
+    gap: 2px;
   }
-  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .price-final > strong {
-    grid-area: 1 / 2;
-  }
-  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .price-final .pr-list-unit {
-    grid-area: 1 / 3;
-    justify-self: start;
-    width: max-content;
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .price-final :is(strong, .pr-list-unit) {
+    flex: 0 0 auto;
     white-space: nowrap;
-    text-align: left;
-  }
-  /* Tiny cards centre the complete price/unit line to keep long units readable. */
-  @container (max-width: 280px) {
-    body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .price-final {
-      display: flex;
-      justify-content: center;
-      gap: 2px;
-    }
   }
   /* Keep both the five-digit field and label readable on small catalogue tiles. */
   @media (max-width: 599px) {

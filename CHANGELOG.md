@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.4-rc.2 — preview (28. 10. 2026)
+
+- Centrovanie celého riadka ceny: suma, €, lomitko aj jednotka spolu nad cenou bez DPH, podľa spresnenia majiteľa. Mobilné karty zdieľajú stred s košíkom.
+- PC podobné/súvisiace: kompaktný cenový blok ukotvený pri pravom okraji košíka, o 23.33px viac doprava na overenom príklade StrongPower. Zachované dva riadky, sklad vľavo, odstupy a štyri karty.
+- PC klasické a obľúbené produkty: celá cena s jednotkou v spoločnom riadku. Iba CSS a verzia buildu, bez zmeny produkcie. [Overenie](docs/previews/full-price-centering-v0.7.4-rc.2/README.md).
+
 ## v0.7.4-rc.1 — preview (28. 10. 2026)
 
 - Mobilný katalóg: hlavná cena nad stredom tlačidla košíka v spoločnom pravom stĺpci; jednotka vedľa sumy. V najmenších kartách sa centruje celý riadok ceny s jednotkou, aby sa neorezal.

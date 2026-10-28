@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Full price centering `0.7.4-rc.2` (28. 10. 2026):** preberá rc.1 limity JS 33.25 / CSS 30.625 KiB bez navýšenia, namerané 32.99 / 30.42 KiB. Iba CSS centrovanie celej ceny a pravé ukotvenie odporúčaní. Predchádzajúce limity/tagy a produkčný loader zachované. Iba preview.
+
 - **Price centering `0.7.4-rc.1` (28. 10. 2026):** zachovaný JS limit 33.25 KiB; CSS 30.625 KiB podľa súhlasu 15. 10., namerané 32.99 / 30.51 KiB. Lokálne CSS centrovanie ceny pri zachovaní jednotiek a úzkeho mobilného fallbacku. Predchádzajúce rozpočty/tagy a produkčný loader bez zmeny. Iba preview.
 
 - **Mobile cards/recommendations `0.7.4-rc.0` (28. 10. 2026):** JS limit 33.25 KiB zachovaný; CSS 30.5 KiB podľa zaznamenaného súhlasu 15. 10. Namerané 32.99 / 30.32 KiB. Iba lokálne CSS pre mobilné ovládanie a úzke odporúčania; funkčný JS, staršie limity/tagy a produkčný loader bez zmeny. Iba preview.
