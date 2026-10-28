@@ -9,6 +9,7 @@
     #962fbf 75%,
     #4f5bd5
   );
+  --ts-color-card-divider: rgba(212, 136, 74, 0.28);
   --ts-color-accent: #d4884a; /* btn-primary on timberstore.sk */
   /* Original Timber palette: no alternative brown action/link shades. */
   --ts-color-link: var(--ts-color-accent);
@@ -99,6 +100,13 @@
   --ts-shadow-text-on-photo: 0 1px 2px rgb(0 0 0 / 45%), 0 0 14px rgb(0 0 0 / 35%);
 
   /* C3 product table + view switch + quantity (values from the client's design) */
+  --ts-card-gross-line: 28px;
+  --ts-card-net-line: 20px;
+  --ts-card-purchase-gap: 24px;
+  --ts-card-purchase-outset: 8px;
+  --ts-card-purchase-inset: 2px;
+  --ts-card-purchase-cols: 118px minmax(0, 1fr);
+  --ts-table-offer-line: 22px;
   --ts-color-table-border: #e7eaee;
   --ts-color-table-row-border: #eef1f3;
   --ts-color-table-head-bg: #f5f7f9;

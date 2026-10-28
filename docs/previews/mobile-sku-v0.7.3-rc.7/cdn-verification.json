@@ -1,0 +1,30 @@
+[
+  {
+    "width": 375,
+    "page": "category",
+    "cards": 30,
+    "bad": [],
+    "errors": []
+  },
+  {
+    "width": 480,
+    "page": "category",
+    "cards": 30,
+    "bad": [],
+    "errors": []
+  },
+  {
+    "width": 480,
+    "page": "home",
+    "cards": 32,
+    "bad": [],
+    "errors": []
+  },
+  {
+    "width": 375,
+    "page": "home",
+    "cards": 32,
+    "bad": [],
+    "errors": []
+  }
+]

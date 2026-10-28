@@ -1,0 +1,9 @@
+# M2/C3 — Mobile stock count below SKLADOM, v0.7.3-rc.8
+
+One phone-only CSS display rule puts the original quantity on its own line under a normal stock label. Central warehouse is excluded both by its existing ts-stock-central class and its verified native copper inline colour, retaining SKLAD (count) on the second line even before JS cleanup. Values/colours/fonts, native product code overlay, 24px desktop gap, table and mobile filter/page scroll behavior unchanged. Preview only; no main merge/release/production loader change.
+
+12 Chromium cases / 279 cards at 375/480/1440px: stock category, brand, homepage and exact central-stock search. Phone normal count is block, below the label and flush left, without stock/price overflow; SKU stays visible. Central-stock geometry compares exactly against rc.7 CSS at both phone widths; all desktop page metrics compare exactly against rc.7. Lint/build/whitespace PASS. JS 32.43/32.5 KiB, CSS 29.70/29.75 KiB, allowances unchanged. No duplicate purchase/gesture test for this display-only rule. Safari/iPhone and PageSpeed NOT TESTED. Initial checks use local candidate assets on the real shop; immutable CDN CSS/JS exact bytes and four actual preview checks at 375/480px pass: normal count below, central count inline on the second label line, SKU visible and no overflow (cdn.json).
+
+Preview: https://www.timberstore.sk/?ts_preview=f66dd06e018f3b8d18352b1a3b1cfe5666676006
+
+Source/build fixed at that commit; later commits add evidence only.

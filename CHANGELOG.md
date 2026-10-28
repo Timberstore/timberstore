@@ -1,5 +1,78 @@
 # Changelog
 
+## v0.7.3 · 2026-10-28 · Schválené produktové karty, filtre a galéria
+
+- Jednotné zarovnanie skladov, cien, množstva a košíka; väčšie PC rozostupy, štyri riadky názvu a jemná oranžová čiara.
+- Opravený PC tabuľkový výpis vrátane dvojriadkového skladu a cien; názvy zostávajú tučné.
+- Mobilný kód na fotografii, počet pod SKLADOM a jedna karta na úzkom mobile.
+- Mobilné filtre so širokým aktívnym pozadím, posúvaním spolu so stránkou a zatvorením až pri geste mimo panelu.
+- Plynulé ťahanie pásu miniatúr myšou aj prstom v detaile, zachované šípky, výber a zväčšenie.
+- Povýšenie schváleného rc.9 bez funkčných zmien. [Celý popis, overenie a aktivácia](docs/releases/v0.7.3.md). Safari/iPhone NOT TESTED. Aktivácia v Shoptete vyžaduje prihlásenie.
+
+## v0.7.3-rc.9 — preview (27. 10. 2026)
+
+- Detail produktu: pás miniatúr sa plynulo posúva počas držania a ťahania myšou aj prstom, oboma smermi. Zachované natívne miniatúry, šípky, výber hlavnej fotky a zväčšenie.
+- Presné hranice pásu, zachytenie pohybu mimo pásu, bez nechceného kliknutia po potiahnutí. Zvislé dotykové posúvanie stránky zostáva funkčné.
+- Hlavná fotografia používa pôvodné swipe prepínanie; súvisiace/podobné Swiper bloky bez zmeny. Predchádzajúce produktové/filter úpravy zachované. Iba preview bez zmeny loadera.
+
+## v0.7.3-rc.8 — preview (27. 10. 2026)
+
+- Aj na mobilných kartách je počet kusov pod označením SKLADOM. CENTRÁLNY / SKLAD (počet) ostáva zachovaný.
+- PC, kód na fotografiách, 24px rozostupy a mobilné filtre bez zmeny. Iba preview.
+
+## v0.7.3-rc.7 — preview (27. 10. 2026)
+
+- Mobil: natívny kód produktu je opäť viditeľný na fotografiách v kategóriách, značkách, homepage karuseloch a súvisiacich produktových kartách. Zachované pôvodné hodnoty, pozícia a farby; odstránené iba mobilné skrytie.
+- Zachované predchádzajúce úpravy vrátane 24px medzery na PC. Len preview, produkčný loader bez zmeny.
+
+## v0.7.3-rc.6 — preview (27. 10. 2026)
+
+- Na ďalšiu požiadavku majiteľa zväčšená PC medzera medzi nákupnými stĺpcami zo 16 na 24px. Bloky sú o ďalšie 4px bližšie k okrajom pri zachovaní šírok a vnútorného odsadenia.
+- Mobilné karty, správanie filtrov a tabuľka bez zmeny. Len preview.
+
+## v0.7.3-rc.5 — preview (27. 10. 2026)
+
+- PC karty: medzera medzi ľavou a pravou nákupnou stranou 16px namiesto 8px; oba bloky o 4px bližšie k okrajom v rámci existujúceho vnútorného odsadenia. Šírka ceny/tlačidla a päťciferného množstva zachované.
+- Mobilné filtre a zoradenie sú pri otvorení súčasťou toku stránky, bez maximálnej výšky a bez samostatného vnútorného scrollovania. Posúvajú sa spolu so stránkou hore aj dole.
+- Gesto začaté vo filtri/zoradení ho nezatvára ani pri dobehnutí pohybu; ďalšie gesto mimo panelu ho zatvorí. Zachované hodnoty, natívne checkboxy/reset/zoradenie a Escape.
+- Rozpočty JS 32.5 / CSS 29.75 KiB bez navýšenia. Iba preview, produkčný loader bez zmeny.
+
+## v0.7.3-rc.4 — preview (27. 10. 2026)
+
+- PC karty: SKLADOM v prvom riadku oproti hlavnej cene, počet kusov pod ním oproti cene bez DPH v zátvorkách. Cena a tlačidlo zdieľajú stred pravého stĺpca. Tok CENTRÁLNY / SKLAD (počet) zachovaný.
+- V PC tabuľke sú názvy opäť tučné (700) podľa nového rozhodnutia majiteľa.
+- Mobilné filtre: aktívne pozadie nadpisu je na celú šírku panelu pri všetkých skupinách.
+- Filtre aj zoradenie sa zatvoria po posunutí stránky o viac ako 16px alebo pri posúvaní mimo panelu (touch/wheel). Posúvanie vo vnútri a ovládanie filtra zostávajú funkčné, hodnoty sa neresetujú.
+- Mobilné produktové karty bez zmeny; iba preview bez zmeny produkčného loadera.
+
+## v0.7.3-rc.3 — preview (27. 10. 2026)
+
+- PC karty: sklad a množstvo vľavo, ceny a tlačidlo vpravo, s jednotným 2px vnútorným odstupom nad rámec existujúceho odsadenia karty.
+- Suma a jednotka používajú explicitný flex riadok; na kartách do 300px ide jednotka vždy do druhého riadka, bez rozdielu medzi ks, pár a balenie.
+- Názov PC karty 19px namiesto 18px; označenia skladov 12px namiesto 13px na kartách aj v PC tabuľke. Tabuľkový názov a ceny zachované. Mobil bez zmeny.
+- Len preview, bez zmeny produkčného loadera.
+
+## v0.7.3-rc.2 — preview (27. 10. 2026)
+
+- PC karty: sklad a množstvo používajú spoločný stĺpec; cena a tlačidlo Do košíka druhý spoločný stĺpec. Vycentrované pod sebou. Mobilné zobrazenie ostáva bez zmeny.
+- PC tabuľka: SKLADOM a cena s DPH v prvom riadku, počet kusov a cena bez DPH v zátvorkách v druhom. Pri centrálnom sklade CENTRÁLNY v prvom, SKLAD (počet) v druhom riadku. Dostupnosť vľavo.
+- V tabuľke označenie skladu 13px namiesto 14px; viditeľná modrá suma vrátane € 19px namiesto 20px. Názov produktu v tabuľke normálnou hrúbkou 400; na kartách zostáva tučný.
+- Len preview, zachované predchádzajúce úpravy, natívne formuláre a produkčný loader.
+
+## v0.7.3-rc.1 — preview (27. 10. 2026)
+
+- Len PC od 992 px: produktové karty rezervujú štyri riadky názvu namiesto troch. Pod názvom je jemná oranžová oddeľovacia čiara pred skladom a cenou.
+- Mobilné štýly ostávajú z rc.0; desktopová tabuľka a horizontálne riadky popupu ostávajú bez tejto úpravy.
+- Zachované rozloženie skladu/ceny a potvrdená jedna karta na úzkom mobile z rc.0. Iba preview bez zmeny produkčného loadera.
+
+## v0.7.3-rc.0 — preview (27. 10. 2026)
+
+- Produktové karty: sklad vľavo a cena vpravo v spoločnom riadku; cena bez DPH zostáva v zátvorkách.
+- CENTRÁLNY / SKLAD (počet): pevné zalomenie označenia na dva riadky, počet spolu so slovom SKLAD. Pôvodné hodnoty, farby a jednotky zachované.
+- Na úzkych telefónoch do 479 px jedna katalógová karta v riadku pre čitateľné údaje; natívne slidery a desktopová tabuľka zachované.
+- Iba preview, bez zmeny produkčného loadera, merge alebo stabilného vydania.
+
+
 ## v0.7.2 · 2026-10-27 · Schválené úpravy od v0.7.1
 
 - Plynulý popup po pridaní do košíka: odstránený biely načítavací záblesk, jemné zobrazenie hotového okna a pozadia, stabilné rozmery aj pri doplnení jednotky ceny. Prázdne obaly už nezväčšujú produkty na pozadí pri opakovanom otvorení. Rešpektované obmedzené animácie.

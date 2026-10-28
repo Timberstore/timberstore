@@ -42,3 +42,16 @@
     padding: 0 !important;
   }
 }
+
+/* M2/C3 · Apollo hides the original image-overlay SKU on phones. Reveal the
+   real badge while retaining its native position and shared contrast styling. */
+@media (max-width: 767px) {
+  body:not(.ordering-process) .content-wrapper :is(.products, .products-block) .product > .p > .p-code {
+    display: block !important;
+    width: max-content;
+    white-space: nowrap;
+  }
+  body:not(.ordering-process) .content-wrapper :is(.products, .products-block) .product > .p > .p-code > span {
+    display: inline !important;
+  }
+}

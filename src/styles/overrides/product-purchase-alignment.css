@@ -1,0 +1,154 @@
+/* M2/C3 · Desktop cards share the same stock/quantity and price/cart columns.
+   Important resets beat legacy form padding, native CTA sizing and homepage caps.
+   Table, popup rows and detail recommendation layouts have their own geometry. */
+@media (min-width: 992px) {
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .p-bottom > [data-micro='offer'],
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) form.pr-action:has(> input[name='amount'][type='hidden']) {
+    display: grid !important;
+    grid-template-columns: var(--ts-card-purchase-cols);
+    gap: var(--ts-card-purchase-gap) !important;
+    width: calc(100% + var(--ts-card-purchase-outset) + var(--ts-card-purchase-outset)) !important;
+    max-width: none !important;
+    margin-inline: calc(-1 * var(--ts-card-purchase-outset)) !important;
+    padding: 0 var(--ts-card-purchase-inset) !important;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .product-btn {
+    width: 100%;
+    max-width: none;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability {
+    text-align: left;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .prices {
+    align-items: center;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) :is(.price-final, .price-additional) {
+    text-align: center !important;
+    white-space: normal;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) form.pr-action > .btn-cart {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    padding-inline: 8px !important;
+  }
+
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) form.pr-action > .ts-qty {
+    justify-self: start;
+  }
+
+  /* M2 · Keep amount and unit in one explicit flex row; whitespace nodes no
+     longer decide whether balenie wraps while ks does not. Narrow equal-width
+     tiles switch every unit to a second line at the same container breakpoint. */
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability {
+    --ts-stock-font-size: 12px;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2px;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final :is(strong, .pr-list-unit) {
+    white-space: nowrap;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) a.name {
+    font-size: 19px !important;
+  }
+  @container (max-width: 300px) {
+    :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final {
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+  }
+
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .prices {
+    gap: 0;
+    margin: 0 !important;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final {
+    min-height: var(--ts-card-gross-line);
+    line-height: var(--ts-card-gross-line);
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-additional {
+    line-height: var(--ts-card-net-line);
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .p-tools:has(.availability-amount):not(:has(.ts-stock-central)) {
+    align-self: stretch;
+    align-items: stretch;
+    min-height: 0;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability:has(.availability-amount):not(:has(.ts-stock-central)) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0;
+    line-height: 0;
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability:not(:has(.ts-stock-central)) > span:first-child {
+    font-size: var(--ts-stock-font-size) !important;
+    line-height: var(--ts-card-gross-line);
+  }
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .availability:not(:has(.ts-stock-central)) > .availability-amount {
+    font-size: 12px;
+    line-height: var(--ts-card-net-line);
+  }
+
+  :is(#content, .content-wrapper) .product:not(:where(.ts-view-list #products > .product, .ts-recommendation, #colorbox *)) .price-final .pr-list-unit {
+    line-height: normal;
+  }
+
+  /* C3 · Shared line boxes align stock/amount with gross/net. Zero-size only
+     the native inter-span NBSP; each real text span keeps its explicit font. */
+  :root {
+    --ts-table-cols: 80px minmax(0, 1fr) 128px 150px var(--ts-qty-width) 44px;
+  }
+  .ts-view-list #products:not(.products-related) .availability {
+    --ts-stock-font-size: 12px;
+    min-height: calc(2 * var(--ts-table-offer-line));
+    font-size: 0 !important;
+    line-height: 0 !important;
+    text-align: left !important;
+  }
+  .ts-view-list #products:not(.products-related) .availability > span:first-child {
+    font-size: 12px !important;
+    line-height: var(--ts-table-offer-line);
+  }
+  .ts-view-list #products:not(.products-related) .availability > span:first-child:not(.ts-stock-central) {
+    display: block;
+  }
+  .ts-view-list #products:not(.products-related) .availability-amount {
+    display: inline;
+    line-height: var(--ts-table-offer-line);
+  }
+  .ts-view-list #products:not(.products-related) .ts-stock-central + .availability-amount::before {
+    content: '\00a0';
+  }
+  .ts-view-list #products:not(.products-related) .prices {
+    min-height: calc(2 * var(--ts-table-offer-line));
+    gap: 0 !important;
+  }
+  .ts-view-list #products:not(.products-related) .prices :is(.price-final, .price-final strong, .ts-price-number) {
+    font-size: 19px !important; /* native visible amount was 20px, including EUR */
+    line-height: var(--ts-table-offer-line) !important;
+  }
+  .ts-view-list #products:not(.products-related) .prices .price-additional {
+    line-height: var(--ts-table-offer-line) !important;
+  }
+  .ts-view-list #products:not(.products-related) .price-additional.ts-card-net::before {
+    content: '(';
+  }
+  .ts-view-list #products:not(.products-related) .price-additional.ts-card-net::after {
+    content: ')';
+  }
+  .ts-view-list #products:not(.products-related) a.name {
+    font-weight: 700 !important;
+  }
+}

@@ -7,3 +7,15 @@
   -webkit-user-drag: none;
   user-select: none;
 }
+
+.ts-gallery-strip {
+  cursor: grab;
+}
+.ts-gallery-strip--dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+/* Native arrow styling animates the offset; a held drag must follow immediately. */
+.ts-gallery-strip--dragging .ts-gallery-strip__track {
+  transition: none !important;
+}

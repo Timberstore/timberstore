@@ -4,6 +4,7 @@
 // thumbnail swaps the main image. A swipe over the main image clicks the
 // next/previous thumbnail, so Shoptet's own gallery logic (variants, lightbox,
 // highlighted thumbnail) stays in charge. Stops at the first/last photo.
+// The thumbnail strip has its own continuous pointer drag, like a carousel.
 //
 // Client feedback: swiping to a photo whose thumbnail is outside the strip left
 // the highlighted thumbnail hidden, and the next photo loaded only after the
@@ -12,6 +13,7 @@
 
 import { SEL } from '../../core/selectors.js';
 import { bindSwipe } from '../../core/swipe.js';
+import { bindStripDrag } from './strip-drag.js';
 import { whenIdleAfterLoad, preloadImage } from '../../core/idle.js';
 
 // Compat mouse events a phone fires after a touch arrive within this window.
@@ -123,7 +125,8 @@ export default {
       if (image.dataset.tsInit) return;
       image.dataset.tsInit = 'gallery-swipe';
       image.classList.add('ts-gallery-swipe');
-      bind(image);
+      if (image.matches(SEL.productThumbnails)) bindStripDrag(image);
+      else bind(image);
       blockTouchZoom(image);
     });
   },

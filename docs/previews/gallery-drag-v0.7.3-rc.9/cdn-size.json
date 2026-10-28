@@ -1,0 +1,51 @@
+{
+  "reason": "Current snapshot is near 50MB; retain full historic evidence, all tokens/order/paths and immutable old tags while creating room for requested gallery module and its checks",
+  "savedBytes": 199889,
+  "records": [
+    {
+      "path": "docs/previews/product-currency-stock-fix/verification.json",
+      "beforeBytes": 99504,
+      "afterBytes": 55657,
+      "beforeSha256": "c774093994ff560a231a362f94cb96be83f582904d71f2199ceb460249c336d4",
+      "afterSha256": "5950aa7c0b1544d0bdb535d58627f557e5bd58a288b7b4be246bdd9d97f9b486",
+      "dataEqual": true,
+      "onlyWhitespaceOutsideStringsRemoved": true
+    },
+    {
+      "path": "docs/previews/product-purchase-panel/edge-cases.json",
+      "beforeBytes": 88039,
+      "afterBytes": 47198,
+      "beforeSha256": "46e4f27cd7d23bcc21ffca4fc841e32f25f8cf7fff21ab69415fc2e44523648c",
+      "afterSha256": "bf9ed1ea0b972cfd0bd9fdc3f1495a4284ea3a40e2023c8f978b56a883d5fa73",
+      "dataEqual": true,
+      "onlyWhitespaceOutsideStringsRemoved": true
+    },
+    {
+      "path": "docs/previews/product-final-polish/phase-4.json",
+      "beforeBytes": 82220,
+      "afterBytes": 42104,
+      "beforeSha256": "49c60c4d3504c977766c8e45c57ce192ad1c24002a138a381abe6c7ae6851230",
+      "afterSha256": "941d1cb16a92c5f2283674dba83bbf972d9d3ee64cf32791acce1f8353c1d246",
+      "dataEqual": true,
+      "onlyWhitespaceOutsideStringsRemoved": true
+    },
+    {
+      "path": "docs/previews/product-final-polish/phase-3.json",
+      "beforeBytes": 82354,
+      "afterBytes": 42238,
+      "beforeSha256": "ad2f93e20e57921fcebe68e2f62e882746f459fd721944a0d02063c5d16ccb72",
+      "afterSha256": "964f7b8d0d17019ab267a97fe7009e71120596a385142367f9b059f5ea6f4396",
+      "dataEqual": true,
+      "onlyWhitespaceOutsideStringsRemoved": true
+    },
+    {
+      "path": "docs/previews/product-final-spacing-controls/responsive-functional.json",
+      "beforeBytes": 78517,
+      "afterBytes": 43548,
+      "beforeSha256": "1ddfe69c94dfd6ccc0cef2393caffdca5be6d8fa0421184b9db211df0b68ed24",
+      "afterSha256": "e5b8807ba76f3eb50857d75e3e4bbeacdf7b42f9e3db83eb2e1a0c42b9fc8af0",
+      "dataEqual": true,
+      "onlyWhitespaceOutsideStringsRemoved": true
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "width": 992,
+    "fixture": "Three unmodified public product cards in one native catalogue grid; geometry only",
+    "data": [
+      {
+        "sku": "11455",
+        "stockLeft": 42,
+        "qtyLeft": 42,
+        "priceRight": 275.328125,
+        "buttonRight": 275.328125,
+        "grossTop": 397.3125,
+        "grossHeight": 44,
+        "netTop": 441.3125,
+        "unit": "/\u00a0p\u00e1r",
+        "font": "19px",
+        "stockFont": "12px",
+        "priceOverflow": false,
+        "stockOverflow": false
+      },
+      {
+        "sku": "344255",
+        "stockLeft": 42,
+        "qtyLeft": 42,
+        "priceRight": 275.328125,
+        "buttonRight": 275.328125,
+        "grossTop": 397.3125,
+        "grossHeight": 44,
+        "netTop": 441.3125,
+        "unit": "/\u00a0balenie",
+        "font": "19px",
+        "stockFont": "12px",
+        "priceOverflow": false,
+        "stockOverflow": false
+      },
+      {
+        "sku": "381119",
+        "stockLeft": 42,
+        "qtyLeft": 42,
+        "priceRight": 275.328125,
+        "buttonRight": 275.328125,
+        "grossTop": 397.3125,
+        "grossHeight": 44,
+        "netTop": 441.3125,
+        "unit": "/\u00a0ks",
+        "font": "19px",
+        "stockFont": "12px",
+        "priceOverflow": false,
+        "stockOverflow": false
+      }
+    ],
+    "variation": {
+      "grossTop": 0.0,
+      "grossHeight": 0,
+      "netTop": 0.0
+    },
+    "bad": []
+  },
+  {
+    "width": 1440,
+    "fixture": "Three unmodified public product cards in one native catalogue grid; geometry only",
+    "data": [
+      {
+        "sku": "11455",
+        "stockLeft": 42,
+        "qtyLeft": 42,
+        "priceRight": 307.328125,
+        "buttonRight": 307.328125,
+        "grossTop": 421.375,
+        "grossHeight": 28,
+        "netTop": 449.375,
+        "unit": "/\u00a0p\u00e1r",
+        "font": "19px",
+        "stockFont": "12px",
+        "priceOverflow": false,
+        "stockOverflow": false
+      },
+      {
+        "sku": "344255",
+        "stockLeft": 42,
+        "qtyLeft": 42,
+        "priceRight": 307.328125,
+        "buttonRight": 307.328125,
+        "grossTop": 421.375,
+        "grossHeight": 28,
+        "netTop": 449.375,
+        "unit": "/\u00a0balenie",
+        "font": "19px",
+        "stockFont": "12px",
+        "priceOverflow": false,
+        "stockOverflow": false
+      },
+      {
+        "sku": "381119",
+        "stockLeft": 42,
+        "qtyLeft": 42,
+        "priceRight": 307.328125,
+        "buttonRight": 307.328125,
+        "grossTop": 421.375,
+        "grossHeight": 28,
+        "netTop": 449.375,
+        "unit": "/\u00a0ks",
+        "font": "19px",
+        "stockFont": "12px",
+        "priceOverflow": false,
+        "stockOverflow": false
+      }
+    ],
+    "variation": {
+      "grossTop": 0.0,
+      "grossHeight": 0,
+      "netTop": 0.0
+    },
+    "bad": []
+  }
+]

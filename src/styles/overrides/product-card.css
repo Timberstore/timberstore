@@ -131,7 +131,7 @@ body:not(.ordering-process) .content-wrapper .product .availability > :first-chi
 }
 
 body:not(.ordering-process) .content-wrapper .product .availability-amount {
-  display: inline-block;
+  display: inline;
   white-space: nowrap;
 }
 
@@ -140,8 +140,10 @@ body:not(.ordering-process) .content-wrapper .product .availability-amount {
   text-align: center !important;
 }
 :is(.ts-card, .products .product, .products-block .product) .p-bottom > [data-micro='offer'] {
-  flex-direction: column;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: minmax(max-content, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
 }
 :is(.ts-card, .products .product, .products-block .product) .prices {
   align-items: flex-end;
@@ -159,13 +161,29 @@ body:not(.ordering-process) .content-wrapper .product .availability-amount {
   text-align: right;
   max-width: 100%;
 }
-/* A flexible three-line stock slot keeps prices aligned across mixed warehouses.
-   It can grow; the native label, count and colour are unchanged. */
+/* M2 · Native offer nodes share a stock-left / price-right row. Desktop list
+   view keeps its existing display:contents and named table columns. */
 :is(.ts-card, .products .product, .products-block .product) .p-tools {
   display: grid;
   align-items: center;
-  min-height: 4em;
-  width: 100%;
+  grid-area: 1 / 1;
+  min-height: 3em;
+  min-width: 0;
+  width: auto;
+  margin: 0;
+}
+/* The legacy :not(#colorbox *) rule carries ID specificity and a stock offset. */
+#content :is(.products, .products-block) .product .p-tools {
+  margin-top: 0 !important;
+}
+/* The last word and count retain the existing nonbreaking separator. */
+.product .availability > .ts-stock-central {
+  white-space: pre-line !important; /* native label wrapping override */
+}
+:is(.ts-card, .products .product, .products-block .product) .prices {
+  grid-area: 1 / 2;
+  min-width: 0;
+  width: auto;
 }
 .ts-card-net::before {
   content: '(';
@@ -268,4 +286,45 @@ body:not(.type-detail, .ordering-process) #content :is(.products, .products-bloc
    their margins/min-height otherwise grow background cards on every open. */
 #content .product .product-btn:empty {
   display: none;
+}
+
+/* M2 · A narrow catalogue tile cannot hold both readable stock and price.
+   Keep their shared row by showing one full-width tile on narrow phones;
+   native recommendation sliders and desktop list columns remain unchanged. */
+@media (max-width: 479px) {
+  #content #products.products-block:not(.products-related) > .product {
+    width: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+/* M2 · Desktop tiles reserve four title lines, followed by a subtle separator.
+   Important height/clamp rules override the legacy three-line !important cap.
+   Native horizontal popup rows and the desktop table keep their existing flow. */
+@media (min-width: 992px) {
+  :is(#content, .content-wrapper) :is(.products, .products-block)
+    .product:not(:where(#colorbox *, .ts-view-list #products > .product)) a.name {
+    -webkit-line-clamp: 4 !important;
+    line-clamp: 4 !important;
+    min-height: calc(1.3em * 4) !important;
+    max-height: calc(1.3em * 4) !important;
+  }
+  :is(#content, .content-wrapper) :is(.products, .products-block)
+    .product:not(:where(#colorbox *, .ts-view-list #products > .product)) .p-in-in::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: var(--ts-color-card-divider);
+    margin: 12px 0;
+  }
+}
+
+/* M2 · Phone stock counts belong below SKLADOM. Keep central warehouse's
+   existing inline last-word/count flow, including before JS adds its class. */
+@media (max-width: 767px) {
+  body:not(.ordering-process) .content-wrapper .product
+    .availability:not(:has(> .ts-stock-central, > span[style*='#c97a2b' i])) > .availability-amount {
+    display: block;
+  }
 }

@@ -164,6 +164,28 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Stabilná v0.7.3 (28. 10. 2026, výslovný súhlas majiteľa s vydaním):** preberá otestované rc.9 limity JS 33.25 KiB / CSS 29.75 KiB bez navýšenia. Aplikačné zdroje bez zmeny, iba verzia buildu a pripravený loader. Safari/iPhone NOT TESTED. Aktivácia Shoptetu vyžaduje autentifikovaný prístup; staršie tagy a limity zachované.
+
+- **Gallery drag `0.7.3-rc.9` (27. 10. 2026):** nový JS limit 33.25 KiB podľa historického súhlasu 15. 10., namerané 32.99 KiB; CSS zostáva 29.75 KiB (29.74 KiB). Lokálny pointer drag natívneho pásu miniatúr a oprava odovzdania touch capture. Staršie rozpočty/tagy a loader nezmenené. Iba preview.
+
+- **Mobile stock `0.7.3-rc.8` (27. 10. 2026):** zachované limity JS 32.5 / CSS 29.75 KiB; namerané 32.43 / 29.70 KiB. Jedno CSS pravidlo pre počet pod SKLADOM, centrálny sklad a PC zachované. Staré limity/tagy a loader bez zmeny.
+
+- **Mobile SKU `0.7.3-rc.7` (27. 10. 2026):** preberá rc.6 limity JS 32.5 / CSS 29.75 KiB bez navýšenia; namerané 32.43 / 29.69 KiB. Jedno mobilné CSS odkrytie existujúceho kódu. Staršie limity a loader zachované.
+
+- **Card gap `0.7.3-rc.6` (27. 10. 2026):** zachováva rc.5 limity JS 32.5 / CSS 29.75 KiB bez navýšenia. Len dva tokeny PC rozostupov; predchádzajúce limity a loader zachované.
+
+- **Filter/page scroll preview `0.7.3-rc.5` (27. 10. 2026):** zachované rc.4 limity JS 32.5 KiB / CSS 29.75 KiB bez navýšenia; namerané 32.43 / 29.65 KiB. Iba nové rozostupy PC kariet a zdieľaný tok/scroll mobilných panelov. Staršie rozpočty/tagy a produkčný loader zachované.
+
+- **Filters/stock preview `0.7.3-rc.4` (27. 10. 2026):** JS limit zostáva 32.5 KiB, CSS 29.75 KiB podľa súhlasu 15. 10.; namerané 32.48 / 29.59 KiB. Zatváranie mobilných panelov pri opustení, celoplošné nadpisy filtrov a PC riadky dostupnosti. Staršie rozpočty/tagy a produkčný loader zachované.
+
+- **Card edges preview `0.7.3-rc.3` (27. 10. 2026):** zachováva rc.2 limity JS 32.5 KiB / CSS 29.5 KiB, namerané 32.31 / 29.44 KiB. Len PC karty, explicitné jednotky cien a menšie označenia skladov. Staršie limity a produkčný loader bez zmeny.
+
+- **Purchase alignment preview `0.7.3-rc.2` (27. 10. 2026):** JS 32.5 KiB / CSS 29.5 KiB podľa historického súhlasu 15. 10.; namerané 32.31 / 29.35 KiB. Iba CSS rozloženia PC kariet a tabuľky. Staršie rozpočty/tagy a produkčný loader zachované.
+
+- **Desktop titles preview `0.7.3-rc.1` (27. 10. 2026):** JS 32.5 KiB / CSS 29 KiB podľa zaznamenaného súhlasu 15. 10.; výstup 32.31 / 28.94 KiB. Iba desktopové štyri riadky názvu a jemný oddeľovač. Limity starších verzií a produkčný loader nezmenené.
+
+- **Stock/price preview `0.7.3-rc.0` (27. 10. 2026):** JS limit 32.5 KiB / CSS 28.875 KiB podľa súhlasu 15. 10. 2026, výstup 32.31 / 28.83 KiB. Zdieľané rozloženie kariet a zalomenie centrálneho skladu; pôvodné limity, stabilné tagy a produkčný loader zachované. Iba preview.
+
 - **Stabilní v0.7.2 (27. 10. 2026, výslovný souhlas majitele s merge/vydáním/nasazením):** přebírá schválené rc.6 limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení. Aplikační zdroje při povýšení beze změny, pouze číslo verze buildu. Safari/iPhone NOT TESTED; starší limity/tagy zachovány. Aktivace Shoptetu vyžaduje ověřený přístup do administrace.
 
 - **Cart transition `0.7.2-rc.6` (27. 10. 2026):** zachované limity JS 32.25 KiB / CSS 28.75 KiB bez navýšení; naměřeno 32.20 / 28.71 KiB. Pouze preview, starší tagy/limity a produkční loader beze změny.

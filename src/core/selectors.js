@@ -55,6 +55,8 @@ export const SEL = {
   productThumbnailsPrev: '.p-thumbnails-arrows .thumbnail-prev',
   productThumbnailsVerticalClass: 'p-thumbnails-vertical',
   productThumbnailsBusyClass: 'clicked',
+  productThumbnailsOverflowPrevClass: 'overflow-prev',
+  productThumbnailsOverflowNextClass: 'overflow-next',
   // Transparent layer cloud-zoom puts over the main image (rebuilt ~201 ms after every photo switch)
   productZoomTrap: '.mousetrap',
 

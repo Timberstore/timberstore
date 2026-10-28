@@ -25,11 +25,10 @@
   }
 
   .type-category .ts-mobile-category #filters {
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     min-height: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    overscroll-behavior: contain;
+    overflow: visible;
+    overscroll-behavior: auto;
   }
 
   /* Apollo collapses with height:0/visibility:hidden but leaves overflow
@@ -89,10 +88,11 @@
     display: flex;
     align-items: center;
     position: relative;
-    width: 100%;
+    width: calc(100% + 32px);
+    max-width: none;
     min-height: 48px;
-    margin: 0;
-    padding: 14px 24px 14px 0;
+    margin: 0 -16px;
+    padding: 14px 40px 14px 16px;
     border: 0;
     border-bottom: 1px solid var(--ts-color-controls-divider);
     border-radius: 0;
@@ -111,7 +111,7 @@
   /* The shared filter chevron follows its heading colour and native state. */
   .type-category .ts-mobile-category #filters .ts-mobile-category__heading::after {
     top: 50%;
-    right: 0;
+    right: 16px;
     color: inherit;
   }
 

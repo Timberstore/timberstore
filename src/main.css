@@ -50,3 +50,5 @@
 
 @import './styles/overrides/cookies.css';
 @import './styles/overrides/mobile-menu-contacts.css';
+
+@import './styles/overrides/product-purchase-alignment.css';

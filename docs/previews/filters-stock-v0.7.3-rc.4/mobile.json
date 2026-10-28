@@ -1,0 +1,82 @@
+[
+  {
+    "width": 375,
+    "fullWidthHeadings": [
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "bg": "rgb(255, 248, 241)",
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "bg": "rgb(255, 248, 241)",
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "bg": "rgb(255, 248, 241)",
+        "active": true
+      }
+    ],
+    "pageScrollClosesFilterAndSort": true,
+    "realOutsideTouchClosesBoth": true,
+    "insideScrollBefore": 180,
+    "insideScrollAfter": 282,
+    "insideScrollKeepsOpen": true,
+    "escape": true,
+    "nativeSliderHandles": true,
+    "nativeSortPrice": true,
+    "singleRootAfterAjax": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "fullWidthHeadings": [
+      {
+        "x": 21,
+        "right": 409,
+        "px": 20,
+        "pr": 410,
+        "bg": "rgb(255, 248, 241)",
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 409,
+        "px": 20,
+        "pr": 410,
+        "bg": "rgb(255, 248, 241)",
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 409,
+        "px": 20,
+        "pr": 410,
+        "bg": "rgb(255, 248, 241)",
+        "active": true
+      }
+    ],
+    "pageScrollClosesFilterAndSort": true,
+    "realOutsideTouchClosesBoth": true,
+    "insideScrollBefore": 179,
+    "insideScrollAfter": 274,
+    "insideScrollKeepsOpen": true,
+    "escape": true,
+    "nativeSliderHandles": true,
+    "nativeSortPrice": true,
+    "singleRootAfterAjax": true,
+    "errors": [],
+    "pass": true
+  }
+]

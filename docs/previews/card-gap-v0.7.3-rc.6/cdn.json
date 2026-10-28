@@ -1,0 +1,47 @@
+{
+  "commit": "9ee7ef6dd42117eacca09aabeafbedcb831a51c8",
+  "assets": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@9ee7ef6dd42117eacca09aabeafbedcb831a51c8/dist/timber.min.css",
+      "sha256": "040c4d3cd8b72735feb09f83329586c2403beef6726e341b424ecd7becf76544",
+      "exactBytes": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@9ee7ef6dd42117eacca09aabeafbedcb831a51c8/dist/timber.min.js",
+      "sha256": "036599b521e3e14a50d8afde76ec3dd66d497a19256474dce067dc139d2b1290",
+      "exactBytes": true
+    }
+  ],
+  "checks": [
+    {
+      "width": 375,
+      "meta": {
+        "version": "v0.7.3-rc.6",
+        "loader": "9ee7ef6dd42117eacca09aabeafbedcb831a51c8",
+        "preview": true
+      },
+      "geometry": {
+        "gap": 8,
+        "left": 26,
+        "right": 26
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "meta": {
+        "version": "v0.7.3-rc.6",
+        "loader": "9ee7ef6dd42117eacca09aabeafbedcb831a51c8",
+        "preview": true
+      },
+      "geometry": {
+        "gap": 24,
+        "left": 34,
+        "right": 34
+      },
+      "errors": [],
+      "pass": true
+    }
+  ]
+}

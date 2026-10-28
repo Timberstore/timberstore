@@ -67,6 +67,17 @@ function stockSpacing(root) {
     const label = stock.querySelector(SEL.productStockLabel);
     const amount = stock.querySelector(SEL.productStockAmount);
     if (!label || !amount || label === amount) continue;
+    // Tile labels reserve two warehouse lines; keep native detail text intact.
+    if (
+      stock.closest(`${SEL.classicProductCard}, ${SEL.recommendationCard}`) &&
+      label.childNodes.length === 1 &&
+      label.firstChild.nodeType === 3 &&
+      TEXTS.productStock.central.test(label.textContent.trim())
+    ) {
+      label.classList.add('ts-stock-central');
+      const text = label.textContent.trim().replace(/\s+/, '\n');
+      if (label.firstChild.nodeValue !== text) label.firstChild.nodeValue = text;
+    }
     const tail = label.lastChild;
     if (tail?.nodeType === 3 && tail.nodeValue !== tail.nodeValue.trimEnd())
       tail.nodeValue = tail.nodeValue.trimEnd();
