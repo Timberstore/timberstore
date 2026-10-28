@@ -1,0 +1,47 @@
+{
+  "commit": "v0.7.3",
+  "assets": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.3/dist/timber.min.css",
+      "sha256": "1d620cbf09ea7b3decbadabdfe31d1969afd7ce68a855d2ca179be49035a5b2b",
+      "exactBytes": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.3/dist/timber.min.js",
+      "sha256": "e9ce08428d8d186fa790c6f7afa88ce32a8f3531daab04d6daae768930a949de",
+      "exactBytes": true
+    }
+  ],
+  "checks": [
+    {
+      "width": 375,
+      "meta": {
+        "version": "v0.7.3",
+        "loader": "v0.7.3",
+        "preview": true
+      },
+      "geometry": {
+        "gap": 8,
+        "left": 26,
+        "right": 26
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "meta": {
+        "version": "v0.7.3",
+        "loader": "v0.7.3",
+        "preview": true
+      },
+      "geometry": {
+        "gap": 24,
+        "left": 34,
+        "right": 34
+      },
+      "errors": [],
+      "pass": true
+    }
+  ]
+}
