@@ -3,7 +3,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from playwright.async_api import async_playwright
 w=Path(os.environ.get('TIMBER_CARD_WORK','/tmp/timber-card-recommendations'));repo=Path(__file__).resolve().parents[3];results=[]
-MEASURE=next(ast.literal_eval(n.value) for n in ast.parse((w/'check.py').read_text()).body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='MEASURE' for t in n.targets))
+MEASURE=next(ast.literal_eval(n.value) for n in ast.parse(Path(__file__).with_name('check.py').read_text()).body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='MEASURE' for t in n.targets))
 w.mkdir(parents=True,exist_ok=True)
 async def main():
  async with async_playwright() as p:

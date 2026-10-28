@@ -15,4 +15,12 @@ Related/similar detail cards keep the native four-visible desktop carousel and i
 - Native recommendation add amount 2, popup without blank/white frames or moving background, cart increment to 3, shipping/payment to personal details at 375/1440 PASS. No personal data filled and no order submitted. Initial test selected a parcel locker without a pickup point and correctly remained on shipping; final test selects address delivery. purchase-smoke.json.
 - Lint/build/whitespace PASS; JS 32.99/33.25 KiB, CSS 30.32/30.5 KiB. Small preview CSS allowance under recorded owner authorization 2026-10-15; stable budgets unchanged. Safari/physical iPhone and PageSpeed NOT TESTED.
 
-Initial tests replace only the native shop's Timber CSS/JS with local candidate dist; CDN verification and immutable preview URL are added after publication. Previous release remains immutable.
+Initial tests replace only the native shop's Timber CSS/JS with local candidate dist. Final actual immutable CDN checks do not replace assets: exact CSS/JS bytes match (cdn-assets.json), and 4 scenarios / 44 cards PASS: 375px catalogue, StrongPower similar products at 375/1440px and FRANKE related at 375px (cdn-verification.json.gz). The previous stable release remains immutable.
+
+## Preview
+
+Source/build frozen at fd5e1ae0c637a021ed9329c8c6dc5d94b6d7b5dd; later commits add evidence only.
+
+- Catalogue: https://www.timberstore.sk/spojovaci-material/?ts_preview=fd5e1ae0c637a021ed9329c8c6dc5d94b6d7b5dd
+- Similar products: https://www.timberstore.sk/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/?ts_preview=fd5e1ae0c637a021ed9329c8c6dc5d94b6d7b5dd
+- Related: https://www.timberstore.sk/franke-drez-ubg-611-86-860x500mm-sedy-kamen/?ts_preview=fd5e1ae0c637a021ed9329c8c6dc5d94b6d7b5dd
