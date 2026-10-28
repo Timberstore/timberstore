@@ -52,6 +52,43 @@
   body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product :is(.price-final, .price-additional) {
     line-height: var(--ts-rail-offer-line);
   }
+  /* M2 · Offer and form share columns, so the price sits over the cart CTA.
+     Important resets override native offer sizing and legacy price alignment. */
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .p-bottom > [data-micro='offer'] {
+    grid-template-columns: var(--ts-home-cols);
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .prices {
+    align-items: center;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product :is(.price-final, .price-additional) {
+    width: 100%;
+    text-align: center !important;
+  }
+  /* Centre the main amount itself; its secondary unit occupies the next track. */
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .price-final {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) max-content minmax(0, 1fr);
+    column-gap: 2px;
+    align-items: center;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .price-final > strong {
+    grid-area: 1 / 2;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .price-final .pr-list-unit {
+    grid-area: 1 / 3;
+    justify-self: start;
+    width: max-content;
+    white-space: nowrap;
+    text-align: left;
+  }
+  /* Tiny cards centre the complete price/unit line to keep long units readable. */
+  @container (max-width: 280px) {
+    body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .price-final {
+      display: flex;
+      justify-content: center;
+      gap: 2px;
+    }
+  }
   /* Keep both the five-digit field and label readable on small catalogue tiles. */
   @media (max-width: 599px) {
     #content #products.products-block:not(.products-related) > .product {

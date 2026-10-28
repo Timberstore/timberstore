@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.4-rc.1 — preview (28. 10. 2026)
+
+- Mobilný katalóg: hlavná cena nad stredom tlačidla košíka v spoločnom pravom stĺpci; jednotka vedľa sumy. V najmenších kartách sa centruje celý riadok ceny s jednotkou, aby sa neorezal.
+- PC podobné/súvisiace a obľúbené produkty: hlavná suma má spoločný stred s cenou bez DPH, sekundárna jednotka ho neposúva. Zachované dva skladové riadky, rozostupy a štyri odporúčania vedľa seba.
+- Iba CSS a verzia buildu. Predchádzajúce úpravy aj stabilný release zachované. [Overenie](docs/previews/price-centering-v0.7.4-rc.1/README.md).
+
 ## v0.7.4-rc.0 — preview (28. 10. 2026)
 
 - Mobilné produktové karty: viditeľné Do košíka aj s ikonou, 14px medzera a o 6px väčšie vnútorné odsadenie nákupných blokov. Jedna katalógová karta do 599px, na úzkych homepage slidroch čitateľné tlačidlo v samostatnom riadku.

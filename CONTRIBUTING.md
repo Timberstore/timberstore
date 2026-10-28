@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Price centering `0.7.4-rc.1` (28. 10. 2026):** zachovaný JS limit 33.25 KiB; CSS 30.625 KiB podľa súhlasu 15. 10., namerané 32.99 / 30.51 KiB. Lokálne CSS centrovanie ceny pri zachovaní jednotiek a úzkeho mobilného fallbacku. Predchádzajúce rozpočty/tagy a produkčný loader bez zmeny. Iba preview.
+
 - **Mobile cards/recommendations `0.7.4-rc.0` (28. 10. 2026):** JS limit 33.25 KiB zachovaný; CSS 30.5 KiB podľa zaznamenaného súhlasu 15. 10. Namerané 32.99 / 30.32 KiB. Iba lokálne CSS pre mobilné ovládanie a úzke odporúčania; funkčný JS, staršie limity/tagy a produkčný loader bez zmeny. Iba preview.
 
 - **Stabilná v0.7.3 (28. 10. 2026, výslovný súhlas majiteľa s vydaním):** preberá otestované rc.9 limity JS 33.25 KiB / CSS 29.75 KiB bez navýšenia. Aplikačné zdroje bez zmeny, iba verzia buildu a pripravený loader. Safari/iPhone NOT TESTED. Aktivácia Shoptetu vyžaduje autentifikovaný prístup; staršie tagy a limity zachované.
