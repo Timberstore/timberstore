@@ -1,0 +1,64 @@
+[
+  {
+    "width": 375,
+    "longUnitFixtures": [
+      {
+        "unit": "ks",
+        "firstRowGap": 33.65625,
+        "secondRowGap": 28.375,
+        "twoLines": true
+      },
+      {
+        "unit": "balenie",
+        "firstRowGap": 25.625,
+        "secondRowGap": 13.421875,
+        "twoLines": true
+      },
+      {
+        "unit": "p\u00e1r",
+        "firstRowGap": 25.625,
+        "secondRowGap": 33.71875,
+        "twoLines": true
+      },
+      {
+        "unit": "sada",
+        "firstRowGap": 14.109375,
+        "secondRowGap": 13.421875,
+        "twoLines": true
+      }
+    ],
+    "lateUnitNoShift": true,
+    "syntheticDataPresentationOnly": true
+  },
+  {
+    "width": 1440,
+    "longUnitFixtures": [
+      {
+        "unit": "ks",
+        "firstRowGap": 61.25,
+        "secondRowGap": 28.046875,
+        "twoLines": true
+      },
+      {
+        "unit": "balenie",
+        "firstRowGap": 57.234375,
+        "secondRowGap": 8.140625,
+        "twoLines": true
+      },
+      {
+        "unit": "p\u00e1r",
+        "firstRowGap": 57.234375,
+        "secondRowGap": 36.203125,
+        "twoLines": true
+      },
+      {
+        "unit": "sada",
+        "firstRowGap": 51.484375,
+        "secondRowGap": 7.28125,
+        "twoLines": true
+      }
+    ],
+    "lateUnitNoShift": true,
+    "syntheticDataPresentationOnly": true
+  }
+]

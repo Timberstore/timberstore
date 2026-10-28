@@ -140,3 +140,186 @@
 :is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final:not(:has(.pr-list-unit, .ts-recommendation-unit))::after {
   content: '';
 }
+
+/* M2 · Compact detail rails: one quantity/icon row and two aligned offer lines.
+   Scoped outside Colorbox; native Swiper widths, forms and values stay intact.
+   Important resets beat Apollo's fixed form/padding and earlier CTA treatment. */
+#content :is(.products-related-block, .products-alternative-block) .product {
+  container-type: inline-size;
+  --ts-stock-font-size: 11px;
+}
+#content :is(.products-related-block, .products-alternative-block) .product > .p {
+  padding-inline: var(--ts-rail-card-inset) !important;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .p-in {
+  padding-inline: 0 !important;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .p-bottom > [data-micro='offer'] {
+  grid-template-columns: minmax(max-content, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: var(--ts-rail-card-gap);
+}
+#content :is(.products-related-block, .products-alternative-block) .product :is(.p-tools, .availability) {
+  min-height: 0;
+  text-align: left;
+  align-items: start;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .availability {
+  font-size: 0;
+  line-height: 0;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .availability > span:first-child {
+  font-size: var(--ts-stock-font-size) !important;
+  line-height: var(--ts-rail-offer-line);
+}
+#content :is(.products-related-block, .products-alternative-block) .product .availability > span:first-child:not(.ts-stock-central) {
+  display: block;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .availability-amount {
+  font-size: 10px;
+  line-height: var(--ts-rail-offer-line);
+}
+#content :is(.products-related-block, .products-alternative-block) .product .ts-stock-central + .availability-amount::before {
+  content: '\00a0';
+}
+#content :is(.products-related-block, .products-alternative-block) .product .prices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0;
+  margin: 0 !important;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .price-final {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2px;
+  min-height: var(--ts-rail-offer-line);
+  line-height: var(--ts-rail-offer-line);
+}
+#content :is(.products-related-block, .products-alternative-block) .product .price-final :is(strong, .ts-price-number) {
+  font-size: 16px !important;
+  line-height: var(--ts-rail-offer-line);
+  white-space: nowrap;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .price-final :is(.pr-list-unit, .ts-recommendation-unit),
+#content :is(.products-related-block, .products-alternative-block) .product .price-final::after {
+  min-width: var(--ts-rail-unit-width);
+  font-size: 11px;
+  line-height: var(--ts-rail-offer-line);
+}
+#content :is(.products-related-block, .products-alternative-block) .product .price-additional {
+  font-size: 11px;
+  line-height: var(--ts-rail-offer-line);
+  white-space: nowrap;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .product-btn {
+  padding-inline: 0;
+  box-sizing: border-box;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .product-btn form {
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  gap: var(--ts-rail-card-gap) !important;
+  padding: 0 !important;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .product-btn .btn-cart {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 40px !important;
+  width: 40px !important;
+  height: 38px !important;
+  min-height: 38px !important;
+  padding: 0 !important;
+  font-size: 0 !important;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .btn-cart > span:not(.ts-cart-count) {
+  display: none !important;
+}
+#content :is(.products-related-block, .products-alternative-block) .product .btn-cart::after {
+  display: inline-block;
+  font-size: 20px;
+}
+@container (max-width: 240px) {
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final :is(strong, .ts-price-number) {
+    font-size: 14px !important;
+  }
+  #content :is(.products-related-block, .products-alternative-block) .product .price-additional,
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final :is(.pr-list-unit, .ts-recommendation-unit),
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final::after {
+    font-size: 10px;
+  }
+}
+
+/* M2 · Centre each complete price/unit line over VAT. The intrinsic-width
+   two-row price block anchors at the cart's right edge, closer to the icon.
+   Native offer rows, quantity and slide widths remain unchanged. */
+@media (min-width: 992px) {
+  #content :is(.products-related-block, .products-alternative-block) .product .prices {
+    display: grid;
+    grid-template-columns: max-content;
+    justify-items: center;
+    justify-self: end;
+    width: max-content;
+    max-width: none;
+    gap: 0;
+  }
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final {
+    grid-area: 1 / 1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: max-content;
+    max-width: none;
+  }
+  #content :is(.products-related-block, .products-alternative-block) .product .price-additional {
+    grid-area: 2 / 1;
+    width: max-content;
+    max-width: none;
+    text-align: center !important;
+  }
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final :is(.pr-list-unit, .ts-recommendation-unit),
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final::after {
+    min-width: 0;
+    width: max-content;
+  }
+  /* Homepage favourites: the unit is part of the centred first line too. */
+  .type-index :is(#content, .content-wrapper) .product .price-final {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+  }
+  .type-index :is(#content, .content-wrapper) .product .price-final :is(strong, .pr-list-unit) {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+}
+
+/* M2 · Mobile/tablet rails centre complete intrinsic price lines in their
+   existing right column. Relative positioning preserves both 22px rows and
+   avoids native flex shrinking long units or overflowing VAT from one side. */
+@media (max-width: 991px) {
+  #content :is(.products-related-block, .products-alternative-block) .product :is(.price-final, .price-additional) {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    align-self: flex-start;
+    width: max-content;
+    max-width: none;
+    text-align: center !important;
+  }
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final {
+    justify-content: center;
+  }
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final :is(strong, .pr-list-unit, .ts-recommendation-unit),
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final::after {
+    flex: 0 0 auto;
+    min-width: 0;
+    width: max-content;
+  }
+}

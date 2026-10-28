@@ -1,0 +1,25 @@
+{
+  "version": "v0.7.4",
+  "approvedCandidate": "dbd17a5a30f1c7ec49d8394074c97c0b4afccf27",
+  "applicationSourcesIdentical": true,
+  "cssIdentical": true,
+  "jsOnlyVersionChanged": true,
+  "budgetsKiB": {
+    "js": 33.25,
+    "css": 30.625
+  },
+  "assets": [
+    {
+      "file": "timber.min.css",
+      "sha256": "eab33ad89e8e019b3e20155a71a14a9c7221a397a38b41fb88b4a3ddb3b935af",
+      "bytes": 208796,
+      "gzipKiB": 30.490234375
+    },
+    {
+      "file": "timber.min.js",
+      "sha256": "b0b8d9bbf06d5d447b229fb524a2eba8c8ee4b30931f69ee5a8954fdebb9e007",
+      "bytes": 120140,
+      "gzipKiB": 32.990234375
+    }
+  ]
+}

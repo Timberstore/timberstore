@@ -1,0 +1,10 @@
+{
+  "path": "docs/previews/product-unification-fix/verification.json",
+  "reason": "Keep new preview snapshot below CDN 50MB while preserving all historical evidence paths and data",
+  "beforeBytes": 74803,
+  "afterBytes": 43481,
+  "beforeSha256": "0404216ee88de573593b4e18313893d6c26a2100121d3e93b5903bb86657730f",
+  "afterSha256": "f6e2c4625b94cbe7ccc7336ef7c00b32f798775c841662f1156eed3a16001cdd",
+  "onlyWhitespaceOutsideStringsRemoved": true,
+  "dataEqual": true
+}

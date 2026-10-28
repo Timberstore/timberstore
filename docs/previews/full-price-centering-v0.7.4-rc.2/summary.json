@@ -1,0 +1,12 @@
+{
+  "scenarios": 18,
+  "cards": 331,
+  "photoSku255328Checked": true,
+  "desktopSimilarPriceCenterShiftRightPx": 23.33,
+  "completeAmountSlashUnitCentered": true,
+  "priceBlockRightEdgeMatchesCart": true,
+  "functionalJavaScriptUnchanged": true,
+  "productionLoaderUnchanged": true,
+  "safariPhysicalIPhone": "NOT TESTED",
+  "pageSpeed": "NOT TESTED"
+}

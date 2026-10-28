@@ -1,0 +1,10 @@
+{
+  "path": "docs/previews/cart-v066/regression.json",
+  "beforeBytes": 67177,
+  "afterBytes": 35380,
+  "beforeSha256": "a7289249a2a7a09489d5a0e32ba4c5270f7c21c470bc728c3ad1797f7a52e234",
+  "afterSha256": "97aaea93fb44682c56bf022b0a61e4fbe9bfee32487d7daf55172cd204d6c648",
+  "onlyWhitespaceOutsideStringsRemoved": true,
+  "dataEqual": true,
+  "reason": "Keep current preview below the CDN snapshot limit; preserve data, path and immutable historical tags"
+}

@@ -1,5 +1,36 @@
 # Changelog
 
+## v0.7.4 · 2026-10-28 · Schválené mobilné karty a centrovanie cien
+
+- Mobilné Do košíka s ikonou, väčšie medzery a vnútorné odsadenie.
+- Podobné/súvisiace: množstvo a ikona vedľa seba, sklad a ceny v dvoch riadkoch, štyri produkty na PC zachované.
+- Celý riadok ceny s €/jednotkou centrovaný nad cenou bez DPH na PC aj mobile; PC odporúčania viac doprava nad košíkom.
+- Povýšenie schváleného rc.3 bez funkčných zmien; [celý popis, overenie a aktivácia](docs/releases/v0.7.4.md). Safari/iPhone NOT TESTED. Aktivácia Shoptetu vyžaduje prihlásenie.
+
+## v0.7.4-rc.3 — preview (28. 10. 2026)
+
+- Mobilné/tabletové podobné a súvisiace produkty: celý riadok ceny s €, lomitkom a jednotkou centrovaný na cenu bez DPH. Odstránené natívne zmenšovanie dlhých jednotiek a jednostranné pretečenie ceny.
+- PC centrovanie a ostatné rozloženie zachované. Iba mobilné CSS a verzia buildu, bez zmeny produkcie. [Overenie](docs/previews/mobile-rail-centering-v0.7.4-rc.3/README.md).
+
+## v0.7.4-rc.2 — preview (28. 10. 2026)
+
+- Centrovanie celého riadka ceny: suma, €, lomitko aj jednotka spolu nad cenou bez DPH, podľa spresnenia majiteľa. Mobilné karty zdieľajú stred s košíkom.
+- PC podobné/súvisiace: kompaktný cenový blok ukotvený pri pravom okraji košíka, o 23.33px viac doprava na overenom príklade StrongPower. Zachované dva riadky, sklad vľavo, odstupy a štyri karty.
+- PC klasické a obľúbené produkty: celá cena s jednotkou v spoločnom riadku. Iba CSS a verzia buildu, bez zmeny produkcie. [Overenie](docs/previews/full-price-centering-v0.7.4-rc.2/README.md).
+
+## v0.7.4-rc.1 — preview (28. 10. 2026)
+
+- Mobilný katalóg: hlavná cena nad stredom tlačidla košíka v spoločnom pravom stĺpci; jednotka vedľa sumy. V najmenších kartách sa centruje celý riadok ceny s jednotkou, aby sa neorezal.
+- PC podobné/súvisiace a obľúbené produkty: hlavná suma má spoločný stred s cenou bez DPH, sekundárna jednotka ho neposúva. Zachované dva skladové riadky, rozostupy a štyri odporúčania vedľa seba.
+- Iba CSS a verzia buildu. Predchádzajúce úpravy aj stabilný release zachované. [Overenie](docs/previews/price-centering-v0.7.4-rc.1/README.md).
+
+## v0.7.4-rc.0 — preview (28. 10. 2026)
+
+- Mobilné produktové karty: viditeľné Do košíka aj s ikonou, 14px medzera a o 6px väčšie vnútorné odsadenie nákupných blokov. Jedna katalógová karta do 599px, na úzkych homepage slidroch čitateľné tlačidlo v samostatnom riadku.
+- Súvisiace/podobné produkty: množstvo vľavo a iba ikona košíka vpravo v jednom riadku; odstránené zdvojené odsadenie. Zachované štyri produkty na PC a natívne karusely.
+- Dva zarovnané riadky skladu a cien vrátane jednotky, centrálneho skladu a počtu. Cena bez DPH v zátvorkách. Menšie označenie skladu a kompaktná typografia podľa šírky karty.
+- Iba CSS a verzia buildu; funkčný JS, produkčný loader a stabilný release bez zmeny. [Overenie](docs/previews/mobile-card-recommendations-v0.7.4-rc.0/README.md).
+
 ## v0.7.3 · 2026-10-28 · Schválené produktové karty, filtre a galéria
 
 - Jednotné zarovnanie skladov, cien, množstva a košíka; väčšie PC rozostupy, štyri riadky názvu a jemná oranžová čiara.

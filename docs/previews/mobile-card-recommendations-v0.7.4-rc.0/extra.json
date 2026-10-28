@@ -1,0 +1,65 @@
+[
+  {
+    "width": 375,
+    "longUnitFixtures": [
+      {
+        "unit": "ks",
+        "firstRowGap": 33.65625,
+        "secondRowGap": 28.375,
+        "twoLines": true
+      },
+      {
+        "unit": "balenie",
+        "firstRowGap": 25.625,
+        "secondRowGap": 13.421875,
+        "twoLines": true
+      },
+      {
+        "unit": "p\u00e1r",
+        "firstRowGap": 25.625,
+        "secondRowGap": 33.71875,
+        "twoLines": true
+      },
+      {
+        "unit": "sada",
+        "firstRowGap": 14.109375,
+        "secondRowGap": 13.421875,
+        "twoLines": true
+      }
+    ],
+    "lateUnitNoShift": true,
+    "syntheticDataPresentationOnly": true,
+    "homepageMobileLabels": 32
+  },
+  {
+    "width": 1440,
+    "longUnitFixtures": [
+      {
+        "unit": "ks",
+        "firstRowGap": 56.65625,
+        "secondRowGap": 51.375,
+        "twoLines": true
+      },
+      {
+        "unit": "balenie",
+        "firstRowGap": 48.625,
+        "secondRowGap": 28.65625,
+        "twoLines": true
+      },
+      {
+        "unit": "p\u00e1r",
+        "firstRowGap": 48.625,
+        "secondRowGap": 56.71875,
+        "twoLines": true
+      },
+      {
+        "unit": "sada",
+        "firstRowGap": 37.109375,
+        "secondRowGap": 23.75,
+        "twoLines": true
+      }
+    ],
+    "lateUnitNoShift": true,
+    "syntheticDataPresentationOnly": true
+  }
+]

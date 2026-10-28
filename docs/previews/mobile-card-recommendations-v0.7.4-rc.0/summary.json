@@ -1,0 +1,170 @@
+{
+  "scenarios": 23,
+  "cards": 317,
+  "checks": [
+    {
+      "width": 320,
+      "path": "/spojovaci-material/",
+      "kind": "catalogue",
+      "cards": 29,
+      "pass": true
+    },
+    {
+      "width": 430,
+      "path": "/spojovaci-material/",
+      "kind": "catalogue",
+      "cards": 29,
+      "pass": true
+    },
+    {
+      "width": 375,
+      "path": "/spojovaci-material/",
+      "kind": "catalogue",
+      "cards": 29,
+      "pass": true
+    },
+    {
+      "width": 480,
+      "path": "/spojovaci-material/",
+      "kind": "catalogue",
+      "cards": 29,
+      "pass": true
+    },
+    {
+      "width": 600,
+      "path": "/spojovaci-material/",
+      "kind": "catalogue",
+      "cards": 29,
+      "pass": true
+    },
+    {
+      "width": 767,
+      "path": "/spojovaci-material/",
+      "kind": "catalogue",
+      "cards": 29,
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/spojovaci-material/",
+      "kind": "catalogue",
+      "cards": 29,
+      "pass": true
+    },
+    {
+      "width": 992,
+      "path": "/spojovaci-material/",
+      "kind": "catalogue",
+      "cards": 29,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "path": "/spojovaci-material/",
+      "kind": "catalogue",
+      "cards": 29,
+      "pass": true
+    },
+    {
+      "width": 320,
+      "path": "/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/",
+      "kind": "recommendation",
+      "cards": 7,
+      "pass": true
+    },
+    {
+      "width": 320,
+      "path": "/franke-drez-ubg-611-86-860x500mm-sedy-kamen/",
+      "kind": "recommendation",
+      "cards": 1,
+      "pass": true
+    },
+    {
+      "width": 375,
+      "path": "/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/",
+      "kind": "recommendation",
+      "cards": 7,
+      "pass": true
+    },
+    {
+      "width": 600,
+      "path": "/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/",
+      "kind": "recommendation",
+      "cards": 7,
+      "pass": true
+    },
+    {
+      "width": 375,
+      "path": "/franke-drez-ubg-611-86-860x500mm-sedy-kamen/",
+      "kind": "recommendation",
+      "cards": 1,
+      "pass": true
+    },
+    {
+      "width": 600,
+      "path": "/franke-drez-ubg-611-86-860x500mm-sedy-kamen/",
+      "kind": "recommendation",
+      "cards": 1,
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/franke-drez-ubg-611-86-860x500mm-sedy-kamen/",
+      "kind": "recommendation",
+      "cards": 1,
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "path": "/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/",
+      "kind": "recommendation",
+      "cards": 7,
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/",
+      "kind": "recommendation",
+      "cards": 7,
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "path": "/franke-drez-ubg-611-86-860x500mm-sedy-kamen/",
+      "kind": "recommendation",
+      "cards": 1,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "path": "/franke-drez-ubg-611-86-860x500mm-sedy-kamen/",
+      "kind": "recommendation",
+      "cards": 1,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "path": "/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/",
+      "kind": "recommendation",
+      "cards": 7,
+      "pass": true
+    },
+    {
+      "width": 1920,
+      "path": "/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/",
+      "kind": "recommendation",
+      "cards": 7,
+      "pass": true
+    },
+    {
+      "width": 1920,
+      "path": "/franke-drez-ubg-611-86-860x500mm-sedy-kamen/",
+      "kind": "recommendation",
+      "cards": 1,
+      "pass": true
+    }
+  ],
+  "javascriptOnlyVersionChanged": true,
+  "loaderUnchanged": true,
+  "productionReleaseUnchanged": true
+}
