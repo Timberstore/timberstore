@@ -8,4 +8,12 @@ Mobile classic cards centre the entire price line over the same cart/VAT column.
 
 Browser-only unit fixtures ks/balenie/pár/sada, including 1 234,56 €, check centred complete lines, clipping and stock/net separation at 320/375 mobile and 1440 PC (fixtures.json); no shop data modified. Run the compressed check from repo root by decompressing check.py.gz to /tmp and invoking Python. Script routes local candidate dist over the native public shop. Function JS differs only by version; rc.0 purchase checks remain evidence of native functionality, not represented as rerun for this CSS correction.
 
-Lint/build/whitespace PASS. Existing rc.1 limits retained: JS 32.99/33.25 KiB, CSS 30.42/30.625 KiB. Safari/physical iPhone and PageSpeed NOT TESTED. Immutable CDN verification follows publication. No main merge, stable tag/release or production loader change.
+Lint/build/whitespace PASS. Existing rc.1 limits retained: JS 32.99/33.25 KiB, CSS 30.42/30.625 KiB. Safari/physical iPhone and PageSpeed NOT TESTED. Actual immutable CDN CSS/JS byte matches PASS (cdn-assets.json). Three actual CDN cases / 68 cards pass without local asset replacement: 375px catalogue, 1440px similar and 1440px homepage favourites (cdn-verification.json.gz). No main merge, stable tag/release or production loader change.
+
+## Preview
+
+Source/build frozen at 4a055169849e9ea23a6f972d4a746f4daba61141. Later commits add evidence only. PR #60 supersedes #59, without merge.
+
+- Catalogue: https://www.timberstore.sk/spojovaci-material/?ts_preview=4a055169849e9ea23a6f972d4a746f4daba61141
+- Similar: https://www.timberstore.sk/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/?ts_preview=4a055169849e9ea23a6f972d4a746f4daba61141
+- Favourites: https://www.timberstore.sk/?ts_preview=4a055169849e9ea23a6f972d4a746f4daba61141
