@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.7.4 · 2026-10-28 · Schválené mobilné karty a centrovanie cien
+
+- Mobilné Do košíka s ikonou, väčšie medzery a vnútorné odsadenie.
+- Podobné/súvisiace: množstvo a ikona vedľa seba, sklad a ceny v dvoch riadkoch, štyri produkty na PC zachované.
+- Celý riadok ceny s €/jednotkou centrovaný nad cenou bez DPH na PC aj mobile; PC odporúčania viac doprava nad košíkom.
+- Povýšenie schváleného rc.3 bez funkčných zmien; [celý popis, overenie a aktivácia](docs/releases/v0.7.4.md). Safari/iPhone NOT TESTED. Aktivácia Shoptetu vyžaduje prihlásenie.
+
 ## v0.7.4-rc.3 — preview (28. 10. 2026)
 
 - Mobilné/tabletové podobné a súvisiace produkty: celý riadok ceny s €, lomitkom a jednotkou centrovaný na cenu bez DPH. Odstránené natívne zmenšovanie dlhých jednotiek a jednostranné pretečenie ceny.

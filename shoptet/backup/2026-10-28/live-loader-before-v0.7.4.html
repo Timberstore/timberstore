@@ -1,0 +1,63 @@
+<script>
+(function () {
+  /* jshint evil: true */
+
+  var BASE = 'https://cdn.jsdelivr.net/gh/Timberstore/timberstore@';
+  var PROD = 'v0.7.3';
+
+  var root = document.documentElement;
+  var pageLoadingTimer;
+
+  root.classList.add('timber-page-loading');
+
+  pageLoadingTimer = window.setTimeout(function () {
+    root.classList.remove('timber-page-loading');
+  }, 1500);
+
+  var q = location.search.match(/[?&]ts_preview=([\w.\-]+)/);
+
+  if (q) {
+    if (q[1] === 'off') {
+      document.cookie = 'ts_preview=; max-age=0; path=/';
+    } else {
+      document.cookie = 'ts_preview=' + q[1] + '; max-age=604800; path=/';
+    }
+  }
+
+  var c = document.cookie.match(/(?:^|; )ts_preview=([\w.\-]+)/);
+  var ok = c && /^(v\d+\.\d+\.\d+(-rc\.\d+)?|[0-9a-f]{7,40})$/.test(c[1]);
+  var v = ok ? c[1] : PROD;
+
+  window.TimberLoader = {
+    version: v,
+    preview: !!ok,
+    pageLoadingTimer: pageLoadingTimer
+  };
+
+  if (!v) return;
+
+  // Oprava mobilnej galerie pre v0.6.5, 12. 10. 2026.
+  var cssUrl = BASE + v + '/dist/timber.min.css';
+
+  if (!ok && v === 'v0.6.5') {
+    cssUrl = '/user/documents/upload/timber-galeria-20261012.css';
+  }
+
+  document.write('<link rel="stylesheet" href="' + cssUrl + '">');
+
+  // Dotykova galeria nema volat zatvorenie neotvorenej lupy.
+  if (!ok && v === 'v0.6.5') {
+    document.addEventListener('mouseout', function (e) {
+      if (window.matchMedia('(hover: none) and (pointer: coarse)').matches &&
+          e.target instanceof Element &&
+          e.target.closest('.p-image-wrapper .mousetrap')) {
+        e.stopPropagation();
+      }
+    }, true);
+  }
+
+  var s = document.createElement('script');
+  s.src = BASE + v + '/dist/timber.min.js';
+  document.head.appendChild(s);
+})();
+</script>
