@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-10-28T10:01:01.595709+00:00",
+  "release": {
+    "isDraft": false,
+    "isPrerelease": false,
+    "publishedAt": "2026-10-28T09:58:26Z",
+    "tagName": "v0.7.4",
+    "url": "https://github.com/Timberstore/timberstore/releases/tag/v0.7.4"
+  },
+  "tagTarget": "6e1b8ab7b0abf73fc470079df6358e91f61171f1",
+  "pullRequest": "https://github.com/Timberstore/timberstore/pull/61",
+  "tagSnapshotBytes": 49969716,
+  "assets": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.4/dist/timber.min.css",
+      "exactBytes": true,
+      "sha256": "eab33ad89e8e019b3e20155a71a14a9c7221a397a38b41fb88b4a3ddb3b935af"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.4/dist/timber.min.js",
+      "exactBytes": true,
+      "sha256": "b0b8d9bbf06d5d447b229fb524a2eba8c8ee4b30931f69ee5a8954fdebb9e007"
+    }
+  ],
+  "productionObserved": {
+    "version": "v0.7.3",
+    "loader": "v0.7.3",
+    "preview": false
+  },
+  "shoptetActivation": "PENDING_AUTHENTICATED_ADMIN_ACCESS",
+  "adminObservedURL": "https://www.timberstore.sk/admin/login/",
+  "checks": {
+    "lint": "PASS",
+    "build": "PASS",
+    "sourceAndCssEquivalence": "PASS",
+    "publishedMobileSimilarAndRelatedAndDesktopRegression": "PASS \u2014 375/1440, actual CDN without asset replacement",
+    "publishedNativeCheckout": "PASS \u2014 375/1440, recommendation quantity 2, cart increment 3, address shipping/payment through personal details",
+    "personalDataFilled": false,
+    "orderSubmitted": false,
+    "safariPhysicalIPhone": "NOT TESTED",
+    "pageSpeed": "NOT TESTED"
+  }
+}
