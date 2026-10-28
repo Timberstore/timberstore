@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.7.4-rc.3 — preview (28. 10. 2026)
+
+- Mobilné/tabletové podobné a súvisiace produkty: celý riadok ceny s €, lomitkom a jednotkou centrovaný na cenu bez DPH. Odstránené natívne zmenšovanie dlhých jednotiek a jednostranné pretečenie ceny.
+- PC centrovanie a ostatné rozloženie zachované. Iba mobilné CSS a verzia buildu, bez zmeny produkcie. [Overenie](docs/previews/mobile-rail-centering-v0.7.4-rc.3/README.md).
+
 ## v0.7.4-rc.2 — preview (28. 10. 2026)
 
 - Centrovanie celého riadka ceny: suma, €, lomitko aj jednotka spolu nad cenou bez DPH, podľa spresnenia majiteľa. Mobilné karty zdieľajú stred s košíkom.

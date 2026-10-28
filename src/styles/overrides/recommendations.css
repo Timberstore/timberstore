@@ -299,3 +299,27 @@
     white-space: nowrap;
   }
 }
+
+/* M2 · Mobile/tablet rails centre complete intrinsic price lines in their
+   existing right column. Relative positioning preserves both 22px rows and
+   avoids native flex shrinking long units or overflowing VAT from one side. */
+@media (max-width: 991px) {
+  #content :is(.products-related-block, .products-alternative-block) .product :is(.price-final, .price-additional) {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    align-self: flex-start;
+    width: max-content;
+    max-width: none;
+    text-align: center !important;
+  }
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final {
+    justify-content: center;
+  }
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final :is(strong, .pr-list-unit, .ts-recommendation-unit),
+  #content :is(.products-related-block, .products-alternative-block) .product .price-final::after {
+    flex: 0 0 auto;
+    min-width: 0;
+    width: max-content;
+  }
+}
