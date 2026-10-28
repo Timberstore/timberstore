@@ -12,4 +12,12 @@ On PC >=992px, related/similar cards centre the main numeric amount over the VAT
 
 Long-unit fixtures ks/balenie/pár/sada at 375/1440, sums up to 1 234,56 €, retain stock/price row separation and placeholder-to-real-unit geometry (units.json). Separate synthetic mobile unit fixtures exercise 320/375px (mobile-units.json.gz). Fixture data is browser-only; no product data changes or order submits. CSS-only follow-up, function JS identical except version; previous rc.0 native purchase check at 375/1440 retained, not misrepresented as rerun.
 
-Lint/build/whitespace PASS. JS 32.99/33.25 KiB; CSS 30.51/30.625 KiB under recorded 2026-10-15 authorization, old limits unchanged. Safari/physical iPhone and PageSpeed NOT TESTED. Initial checks route local candidate bundles on the native shop; immutable CDN confirmation follows publication.
+Lint/build/whitespace PASS. JS 32.99/33.25 KiB; CSS 30.51/30.625 KiB under recorded 2026-10-15 authorization, old limits unchanged. Safari/physical iPhone and PageSpeed NOT TESTED. Initial checks route local candidate bundles on the native shop. Actual immutable CDN CSS/JS exact-byte checks PASS (cdn-assets.json); 3 actual-CDN scenarios / 68 cards PASS without local asset replacement: 375px catalogue, 1440px similar products and 1440px homepage favourites (cdn-verification.json.gz).
+
+## Preview
+
+Source/build frozen at 119afca61422f549ef5a289427bc9e348faadd00; follow-up commits contain evidence only. Draft PR #59 supersedes #58 without merging.
+
+- Catalogue: https://www.timberstore.sk/spojovaci-material/?ts_preview=119afca61422f549ef5a289427bc9e348faadd00
+- Similar products: https://www.timberstore.sk/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/?ts_preview=119afca61422f549ef5a289427bc9e348faadd00
+- Favourites: https://www.timberstore.sk/?ts_preview=119afca61422f549ef5a289427bc9e348faadd00
