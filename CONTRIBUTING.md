@@ -164,6 +164,8 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Mobile cards/recommendations `0.7.4-rc.0` (28. 10. 2026):** JS limit 33.25 KiB zachovaný; CSS 30.5 KiB podľa zaznamenaného súhlasu 15. 10. Namerané 32.99 / 30.32 KiB. Iba lokálne CSS pre mobilné ovládanie a úzke odporúčania; funkčný JS, staršie limity/tagy a produkčný loader bez zmeny. Iba preview.
+
 - **Stabilná v0.7.3 (28. 10. 2026, výslovný súhlas majiteľa s vydaním):** preberá otestované rc.9 limity JS 33.25 KiB / CSS 29.75 KiB bez navýšenia. Aplikačné zdroje bez zmeny, iba verzia buildu a pripravený loader. Safari/iPhone NOT TESTED. Aktivácia Shoptetu vyžaduje autentifikovaný prístup; staršie tagy a limity zachované.
 
 - **Gallery drag `0.7.3-rc.9` (27. 10. 2026):** nový JS limit 33.25 KiB podľa historického súhlasu 15. 10., namerané 32.99 KiB; CSS zostáva 29.75 KiB (29.74 KiB). Lokálny pointer drag natívneho pásu miniatúr a oprava odovzdania touch capture. Staršie rozpočty/tagy a loader nezmenené. Iba preview.

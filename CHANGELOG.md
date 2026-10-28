@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.7.4-rc.0 — preview (28. 10. 2026)
+
+- Mobilné produktové karty: viditeľné Do košíka aj s ikonou, 14px medzera a o 6px väčšie vnútorné odsadenie nákupných blokov. Jedna katalógová karta do 599px, na úzkych homepage slidroch čitateľné tlačidlo v samostatnom riadku.
+- Súvisiace/podobné produkty: množstvo vľavo a iba ikona košíka vpravo v jednom riadku; odstránené zdvojené odsadenie. Zachované štyri produkty na PC a natívne karusely.
+- Dva zarovnané riadky skladu a cien vrátane jednotky, centrálneho skladu a počtu. Cena bez DPH v zátvorkách. Menšie označenie skladu a kompaktná typografia podľa šírky karty.
+- Iba CSS a verzia buildu; funkčný JS, produkčný loader a stabilný release bez zmeny. [Overenie](docs/previews/mobile-card-recommendations-v0.7.4-rc.0/README.md).
+
 ## v0.7.3 · 2026-10-28 · Schválené produktové karty, filtre a galéria
 
 - Jednotné zarovnanie skladov, cien, množstva a košíka; väčšie PC rozostupy, štyri riadky názvu a jemná oranžová čiara.

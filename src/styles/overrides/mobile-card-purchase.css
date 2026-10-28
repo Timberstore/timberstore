@@ -1,0 +1,69 @@
+/* M2 · Phone catalogue cards retain a readable label and breathing room.
+   Native mobile rules hide the label; important resets override those rules.
+   Detail recommendations and popup rows retain their own purchase policy. */
+@media (max-width: 767px) {
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .p-bottom > [data-micro='offer'],
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) {
+    width: 100% !important;
+    max-width: none !important;
+    margin-inline: 0 !important;
+    padding-inline: var(--ts-mobile-purchase-inset) !important;
+    gap: var(--ts-mobile-purchase-gap) !important;
+    box-sizing: border-box;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product form.pr-action > .btn-cart {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding-inline: 6px !important;
+    font-size: 13px !important;
+    white-space: nowrap;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product form.pr-action > .btn-cart > span:not(.ts-cart-count) {
+    display: inline !important;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product form.pr-action > .btn-cart::after {
+    margin: 0 !important;
+    font-size: 20px;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product :is(.p-tools, .availability) {
+    min-height: 0;
+    align-items: start;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .availability {
+    font-size: 0;
+    line-height: 0;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .availability > span:first-child {
+    font-size: 13px !important;
+    line-height: var(--ts-rail-offer-line);
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .availability-amount {
+    font-size: 11px;
+    line-height: var(--ts-rail-offer-line);
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .ts-stock-central + .availability-amount::before {
+    content: '\00a0';
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product .prices {
+    gap: 0;
+  }
+  body:not(.type-detail, .ordering-process) :is(#content, .content-wrapper) .product :is(.price-final, .price-additional) {
+    line-height: var(--ts-rail-offer-line);
+  }
+  /* Keep both the five-digit field and label readable on small catalogue tiles. */
+  @media (max-width: 599px) {
+    #content #products.products-block:not(.products-related) > .product {
+      width: 100%;
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+  /* Homepage rails retain native slide widths; small slides may use two rows. */
+  @container (max-width: 250px) {
+    .type-index :is(#content, .content-wrapper) .product form.pr-action:has(> .ts-qty, > input[name='amount'][type='hidden']) {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+}

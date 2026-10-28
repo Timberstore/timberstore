@@ -87,6 +87,12 @@
   --ts-qty-button-width: 26px;
   --ts-qty-field-width: 64px;
   --ts-qty-width: 118px;
+  --ts-mobile-purchase-gap: 14px;
+  --ts-mobile-purchase-inset: 6px;
+  --ts-rail-card-inset: 12px;
+  --ts-rail-card-gap: 10px;
+  --ts-rail-offer-line: 22px;
+  --ts-rail-unit-width: 4.25em;
   --ts-home-cart-gap: 8px;
   --ts-home-row-width: 268px;
   --ts-home-cols: var(--ts-qty-width) minmax(0, 1fr);
