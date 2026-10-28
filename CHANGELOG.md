@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.7.3 · 2026-10-28 · Schválené produktové karty, filtre a galéria
+
+- Jednotné zarovnanie skladov, cien, množstva a košíka; väčšie PC rozostupy, štyri riadky názvu a jemná oranžová čiara.
+- Opravený PC tabuľkový výpis vrátane dvojriadkového skladu a cien; názvy zostávajú tučné.
+- Mobilný kód na fotografii, počet pod SKLADOM a jedna karta na úzkom mobile.
+- Mobilné filtre so širokým aktívnym pozadím, posúvaním spolu so stránkou a zatvorením až pri geste mimo panelu.
+- Plynulé ťahanie pásu miniatúr myšou aj prstom v detaile, zachované šípky, výber a zväčšenie.
+- Povýšenie schváleného rc.9 bez funkčných zmien. [Celý popis, overenie a aktivácia](docs/releases/v0.7.3.md). Safari/iPhone NOT TESTED. Aktivácia v Shoptete vyžaduje prihlásenie.
+
 ## v0.7.3-rc.9 — preview (27. 10. 2026)
 
 - Detail produktu: pás miniatúr sa plynulo posúva počas držania a ťahania myšou aj prstom, oboma smermi. Zachované natívne miniatúry, šípky, výber hlavnej fotky a zväčšenie.
