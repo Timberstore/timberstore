@@ -6,4 +6,11 @@ Correct the missing mobile/tablet scope from rc.2. Only <=991px detail related/s
 
 Presentation-only unit fixtures ks/balenie/pár/sada up to 1 234,56 € at 320/375/768px check full-line centres, bounds and stock/net separation (fixtures.json). No shop data/order submitted. Previous checkout proof is retained, not described as rerun for this CSS-only fix. Decompress check.py.gz to /tmp and run from repo root to repeat locally routed checks.
 
-Lint/build/whitespace PASS. Existing limits retained: JS 32.99/33.25 KiB, CSS 30.49/30.625 KiB. Safari/iPhone and PageSpeed NOT TESTED. CDN evidence follows immutable preview publication. Historical report change removes only whitespace outside strings; data/path and old tags retained (cdn-size.json).
+Lint/build/whitespace PASS. Existing limits retained: JS 32.99/33.25 KiB, CSS 30.49/30.625 KiB. Safari/iPhone and PageSpeed NOT TESTED. Actual immutable CDN CSS/JS exact-byte checks PASS (cdn-assets.json). Mobile similar and related at 375px, plus PC similar at 1440px PASS without local asset replacement: 3 cases / 15 cards (cdn-verification.json.gz). Historical report change removes only whitespace outside strings; data/path and old tags retained (cdn-size.json).
+
+## Preview
+
+Source/build frozen at dbd17a5a30f1c7ec49d8394074c97c0b4afccf27; later commits add evidence only. PR #61 supersedes #60 without merge.
+
+- Similar: https://www.timberstore.sk/strongpower-elektricka-zasuvka-3x-230v--schuko--strieborna/?ts_preview=dbd17a5a30f1c7ec49d8394074c97c0b4afccf27
+- Related: https://www.timberstore.sk/franke-drez-ubg-611-86-860x500mm-sedy-kamen/?ts_preview=dbd17a5a30f1c7ec49d8394074c97c0b4afccf27
