@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "width": 375,
+      "meta": {
+        "version": "v0.7.4",
+        "loader": "v0.7.4",
+        "preview": true,
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.4/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.4/dist/timber.min.js"
+        ]
+      },
+      "homeCategoryBrandDetail": true,
+      "cookiesAndMobileMenu": true,
+      "nativeRecommendationAddAmount2AndCartIncreaseTo3": true,
+      "shippingPaymentToPersonalDetails": true,
+      "personalDetailsUrl": "https://www.timberstore.sk/objednavka/krok-2/",
+      "backgroundVariation": {
+        "x": 0,
+        "y": 0.0,
+        "w": 0,
+        "h": 0.0
+      },
+      "whiteFrames": 0,
+      "blankPopupFrames": 0,
+      "errors": [],
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "meta": {
+        "version": "v0.7.4",
+        "loader": "v0.7.4",
+        "preview": true,
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.4/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.4/dist/timber.min.js"
+        ]
+      },
+      "homeCategoryBrandDetail": true,
+      "cookiesAndMobileMenu": true,
+      "nativeRecommendationAddAmount2AndCartIncreaseTo3": true,
+      "shippingPaymentToPersonalDetails": true,
+      "personalDetailsUrl": "https://www.timberstore.sk/objednavka/krok-2/",
+      "backgroundVariation": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0,
+        "h": 0.0
+      },
+      "whiteFrames": 0,
+      "blankPopupFrames": 0,
+      "errors": [],
+      "pass": true
+    }
+  ],
+  "nativeEmptyAttempts": []
+}
