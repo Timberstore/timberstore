@@ -1,0 +1,234 @@
+[
+  {
+    "width": 375,
+    "path": "/spony--klince/",
+    "headings": [
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 354,
+        "px": 20,
+        "pr": 355,
+        "active": true
+      }
+    ],
+    "insidePageGestures": [
+      {
+        "panel": "filters",
+        "fingerDy": -100,
+        "before": {
+          "scrollY": 387,
+          "y": 234.46875,
+          "h": 418
+        },
+        "after": {
+          "scrollY": 472,
+          "y": 149.46875,
+          "h": 418
+        },
+        "keptOpen": true
+      },
+      {
+        "panel": "filters",
+        "fingerDy": 100,
+        "before": {
+          "scrollY": 472,
+          "y": 149.46875,
+          "h": 418
+        },
+        "after": {
+          "scrollY": 387,
+          "y": 234.46875,
+          "h": 418
+        },
+        "keptOpen": true
+      },
+      {
+        "panel": "sorting",
+        "fingerDy": -100,
+        "before": {
+          "scrollY": 387,
+          "y": 234.46875,
+          "h": 242
+        },
+        "after": {
+          "scrollY": 472,
+          "y": 149.46875,
+          "h": 242
+        },
+        "keptOpen": true
+      },
+      {
+        "panel": "sorting",
+        "fingerDy": 100,
+        "before": {
+          "scrollY": 472,
+          "y": 149.46875,
+          "h": 242
+        },
+        "after": {
+          "scrollY": 387,
+          "y": 234.46875,
+          "h": 242
+        },
+        "keptOpen": true
+      }
+    ],
+    "outsideTouchClosesBoth": true,
+    "insideMomentumPreserved": true,
+    "normalDocumentFlow": {
+      "max": "none",
+      "slot": "static",
+      "bodyOverflow": "visible",
+      "bodyHeight": 299,
+      "bodyScroll": 299
+    },
+    "nativeCheckboxPersistenceAndReset": true,
+    "insideWheelScrollsPageWithoutClosing": true,
+    "outsideWheelCloses": true,
+    "unownedPageScrollCloses": true,
+    "nativeSortAndEscape": true,
+    "nativePriceSliderAjax": true,
+    "rangeBefore": "left: 0%; width: 100%;",
+    "rangeAfter": "left: 9.17431%; width: 90.8257%;",
+    "responsiveRoundTrip": true,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "width": 430,
+    "path": "/nabytkove-kovania/",
+    "headings": [
+      {
+        "x": 21,
+        "right": 409,
+        "px": 20,
+        "pr": 410,
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 409,
+        "px": 20,
+        "pr": 410,
+        "active": true
+      },
+      {
+        "x": 21,
+        "right": 409,
+        "px": 20,
+        "pr": 410,
+        "active": true
+      }
+    ],
+    "insidePageGestures": [
+      {
+        "panel": "filters",
+        "fingerDy": -100,
+        "before": {
+          "scrollY": 695,
+          "y": 234.453125,
+          "h": 400
+        },
+        "after": {
+          "scrollY": 780,
+          "y": 149.453125,
+          "h": 400
+        },
+        "keptOpen": true
+      },
+      {
+        "panel": "filters",
+        "fingerDy": 100,
+        "before": {
+          "scrollY": 780,
+          "y": 149.453125,
+          "h": 400
+        },
+        "after": {
+          "scrollY": 695,
+          "y": 234.453125,
+          "h": 400
+        },
+        "keptOpen": true
+      },
+      {
+        "panel": "sorting",
+        "fingerDy": -100,
+        "before": {
+          "scrollY": 695,
+          "y": 234.453125,
+          "h": 242
+        },
+        "after": {
+          "scrollY": 780,
+          "y": 149.453125,
+          "h": 242
+        },
+        "keptOpen": true
+      },
+      {
+        "panel": "sorting",
+        "fingerDy": 100,
+        "before": {
+          "scrollY": 780,
+          "y": 149.453125,
+          "h": 242
+        },
+        "after": {
+          "scrollY": 695,
+          "y": 234.453125,
+          "h": 242
+        },
+        "keptOpen": true
+      }
+    ],
+    "outsideTouchClosesBoth": true,
+    "insideMomentumPreserved": true,
+    "normalDocumentFlow": {
+      "max": "none",
+      "slot": "static",
+      "bodyOverflow": "visible",
+      "bodyHeight": 1453,
+      "bodyScroll": 1453
+    },
+    "nativeCheckboxPersistenceAndReset": true,
+    "insideWheelScrollsPageWithoutClosing": true,
+    "outsideWheelCloses": true,
+    "unownedPageScrollCloses": true,
+    "nativeSortAndEscape": true,
+    "nativePriceSliderAjax": true,
+    "rangeBefore": "left: 0%; width: 100%;",
+    "rangeAfter": "left: 7.53498%; width: 92.465%;",
+    "responsiveRoundTrip": true,
+    "errors": [],
+    "pass": true
+  }
+]

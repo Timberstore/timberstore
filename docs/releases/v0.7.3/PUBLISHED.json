@@ -1,0 +1,48 @@
+{
+  "verifiedAt": "2026-10-28T06:40:51.761017+00:00",
+  "release": {
+    "isDraft": false,
+    "isPrerelease": false,
+    "publishedAt": "2026-10-28T06:37:48Z",
+    "tagName": "v0.7.3",
+    "url": "https://github.com/Timberstore/timberstore/releases/tag/v0.7.3"
+  },
+  "tagTarget": "bad28077478a37bf239756f651becc433b7624f0",
+  "pullRequest": "https://github.com/Timberstore/timberstore/pull/56",
+  "tagSnapshotBytes": 49840225,
+  "assets": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.3/dist/timber.min.css",
+      "exactBytes": true,
+      "sha256": "1d620cbf09ea7b3decbadabdfe31d1969afd7ce68a855d2ca179be49035a5b2b"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.3/dist/timber.min.js",
+      "exactBytes": true,
+      "sha256": "e9ce08428d8d186fa790c6f7afa88ce32a8f3531daab04d6daae768930a949de"
+    }
+  ],
+  "productionObserved": {
+    "version": "v0.7.2",
+    "loader": "v0.7.2",
+    "preview": false
+  },
+  "shoptetActivation": "PENDING_AUTHENTICATED_ADMIN_ACCESS",
+  "adminObservedURL": "https://www.timberstore.sk/admin/login/",
+  "checks": {
+    "lint": "PASS",
+    "build": "PASS",
+    "sourceAndCssEquivalence": "PASS",
+    "publishedGallery": "PASS \u2014 375 mouse/touch and 1440 mouse",
+    "publishedFilters": "PASS \u2014 375/430 real touch, native AJAX and sort",
+    "publishedCardSpacing": "PASS \u2014 375/1440",
+    "publishedNativeCheckout": "PASS \u2014 375/1440 through personal details; no order submitted",
+    "safariPhysicalIPhone": "NOT TESTED",
+    "pageSpeed": "NOT TESTED",
+    "nativeVariantSwitch": "NOT TESTED \u2014 unavailable in anonymous DOM"
+  },
+  "testHarnessNotes": [
+    "The first filter heading-activation pass observed active:false after tap and stopped. No application changes followed. The rerun checks the existing heading state before tapping and passed both full cases, including all heading widths, inside/outside gestures and native AJAX. The initial cause was not conclusively established."
+  ],
+  "gzipMetricNote": "assets.json uses node:zlib gzipSync, the same compressor as the build budget. Python gzip produces slightly different sizes on this runtime. SHA256 and byte sizes are unchanged."
+}
