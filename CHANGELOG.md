@@ -1,3 +1,7 @@
+# Unreleased local candidate – product downloads (2026-10-30)
+
+Local-only 0.7.5-rc.0: scoped related-files tab/accordion rename and compact responsive document rows, original names and hrefs retained, explicit URL/MIME formats only, safe external targets. No document fetching or source-data edits. See docs/previews/product-downloads for changes, validation limits and separate Mergado/Shoptet diagnostic/test plan. Trello card code not supplied. Lint/build and Node metadata checks PASS; browser/mobile/iPhone, checkout regression and PageSpeed NOT TESTED. Preview branch push explicitly requested on 2026-10-30; no merge, tag, release, production deployment or loader change.
+
 # Changelog
 
 ## v0.7.4 · 2026-10-28 · Schválené mobilné karty a centrovanie cien

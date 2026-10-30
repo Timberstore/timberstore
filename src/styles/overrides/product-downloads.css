@@ -1,0 +1,103 @@
+/* Product downloads: replace Apollo's isolated link boxes inside its existing
+   tab frame. Native tab/accordion display, padding and active states stay intact. */
+#relatedFiles.ts-downloads .ts-downloads__list {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#relatedFiles.ts-downloads li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  border-bottom: 1px solid var(--ts-color-controls-border);
+}
+#relatedFiles.ts-downloads .ts-downloads__heading {
+  margin: 0 0 var(--ts-space-2);
+  font:
+    700 20px/1.4 Raleway,
+    sans-serif;
+  color: var(--ts-color-text);
+}
+#relatedFiles.ts-downloads .ts-downloads__subtitle {
+  margin: 0 0 var(--ts-space-3);
+  color: var(--ts-color-muted);
+  font:
+    400 14px/1.6 'Open Sans',
+    sans-serif;
+}
+#relatedFiles.ts-downloads li a.ts-downloads__row {
+  display: grid;
+  grid-template-columns: var(--ts-download-icon) minmax(0, 1fr) var(--ts-download-icon);
+  align-items: center;
+  gap: var(--ts-space-2);
+  width: 100%;
+  min-height: var(--ts-download-touch);
+  padding: var(--ts-space-2);
+  box-sizing: border-box;
+  border: 0;
+  border-radius: var(--ts-radius);
+  background: transparent;
+  box-shadow: none;
+  color: var(--ts-color-text);
+  text-decoration: none;
+  font:
+    600 14px/1.5 'Open Sans',
+    sans-serif;
+}
+#relatedFiles.ts-downloads .ts-downloads__copy {
+  min-width: 0;
+}
+#relatedFiles.ts-downloads .ts-downloads__name {
+  display: block;
+  overflow-wrap: anywhere;
+}
+#relatedFiles.ts-downloads .ts-downloads__format {
+  display: block;
+  margin-top: var(--ts-space-1);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--ts-color-muted);
+}
+/* Universal document glyph: format comes solely from explicit metadata/path. */
+#relatedFiles.ts-downloads li a.ts-downloads__row::before {
+  content: '';
+  width: 16px;
+  height: 21px;
+  justify-self: center;
+  border: 2px solid var(--ts-download-accent);
+  border-radius: var(--ts-radius);
+  box-sizing: border-box;
+}
+/* Override Apollo's absolutely positioned download glyph with a grid action. */
+#relatedFiles.ts-downloads li a.ts-downloads__row::after {
+  content: '↗';
+  position: static;
+  transform: none;
+  margin: 0;
+  font: 400 24px/1 sans-serif !important; /* Apollo forces its icon font. */
+  color: var(--ts-download-accent);
+  text-align: center;
+}
+#relatedFiles.ts-downloads li a.ts-downloads__row:hover,
+#relatedFiles.ts-downloads li a.ts-downloads__row:focus-visible {
+  background: var(--ts-download-bg);
+}
+#relatedFiles.ts-downloads li a.ts-downloads__row:hover::before {
+  border-width: 3px;
+}
+#relatedFiles.ts-downloads li a.ts-downloads__row:focus-visible {
+  outline: 2px solid var(--ts-download-accent);
+  outline-offset: -2px;
+}
+@media (min-width: 768px) {
+  #relatedFiles.ts-downloads li a.ts-downloads__row {
+    padding: var(--ts-space-3);
+    gap: var(--ts-space-3);
+  }
+  #relatedFiles.ts-downloads .ts-downloads__heading {
+    font-size: 24px;
+  }
+}

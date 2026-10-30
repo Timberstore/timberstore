@@ -164,6 +164,9 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Lokálny kandidát príloh `0.7.5-rc.0` (30. 10. 2026):** JS 34.25 / CSS 31 KiB, namerané 34.01 / 30.89 KiB. Rozšírenie pre objednanú sekciu podľa zaznamenaného súhlasu 15. 10.; limity starších vydaní zachované. Preview pracovného commitu vyžiadaný 30. 10.; bez vydania, tagu a produkčného nasadenia. Schválenie produkcie zatiaľ nebolo udelené. Browser QA NOT TESTED.
+
+
 - **Stabilná v0.7.4 (28. 10. 2026, výslovný súhlas majiteľa):** preberá rc.3 limity JS 33.25 / CSS 30.625 KiB bez navýšenia. Zdroje aplikácie a CSS bez zmeny, iba verzia buildu a pripravený loader. Safari/iPhone NOT TESTED. Staršie limity/tagy zachované; aktivácia Shoptetu vyžaduje autentifikáciu.
 
 - **Mobile rail centering `0.7.4-rc.3` (28. 10. 2026):** preberá rc.2 limity JS 33.25 / CSS 30.625 KiB bez navýšenia, namerané 32.99 / 30.49 KiB. Iba mobilné/tabletové CSS centrovanie odporúčaní. Predchádzajúce limity/tagy a produkčný loader zachované. Iba preview.

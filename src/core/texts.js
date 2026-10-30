@@ -1,5 +1,12 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
+  productDownloads: {
+    tab: 'Súbory na stiahnutie',
+    oldTab: /Súvisiace\s+súbory/gi,
+    heading: 'SÚBORY NA STIAHNUTIE',
+    subtitle: 'Technické výkresy, návody a dokumentácia k produktu.',
+  },
+
   productMetadata: { code: 'KÓD: ', brand: 'ZNAČKA: ', variants: 'VŠETKY VARIANTY' },
   productStock: { central: /^centrálny\s+sklad$/i },
   productCompact: { vat: 'bez DPH', vatSuffix: /bez\s+DPH/gi },

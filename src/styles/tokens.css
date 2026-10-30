@@ -1,5 +1,10 @@
 /* Design tokens — the only place for colours, spacing and breakpoints. */
 :root {
+  --ts-download-accent: #c97a2b;
+  --ts-download-bg: #f5f4ef;
+  --ts-download-icon: 24px;
+  --ts-download-touch: 56px;
+
   --ts-color-facebook: #1877f2;
   --ts-instagram-gradient: linear-gradient(
     35deg,
