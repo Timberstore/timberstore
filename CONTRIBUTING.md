@@ -164,6 +164,9 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Schválená stabilná `0.7.5` (1. 11. 2026):** povýšenie schválených príloh a centrovaných kontaktov bez zmeny zdrojov aplikácie; preberá limity JS 34.5 / CSS 31.5 KiB, namerané 34.34 / 31.31 KiB. Staršie verzie/limity/tagy nezmenené. Majiteľ výslovne schválil vydanie a aktivuje ho v Shoptete sám. Safari/iPhone a PageSpeed NOT TESTED.
+
+
 - **Sidebar support preview `0.7.5-rc.2` (1. 11. 2026):** spoločné kontaktné údaje a stav hodín v pôvodnom Apollo bannere. JS 34.5 / CSS 31.5 KiB, namerané 34.34 / 31.29 KiB, podľa súhlasu 15. 10.; limity starších verzií nezmenené. Iba pracovný commit-preview bez release/tagu/merge/produkčného loadera.
 
 

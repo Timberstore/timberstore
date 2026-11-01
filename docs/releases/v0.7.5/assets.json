@@ -1,0 +1,19 @@
+{
+  "version": "v0.7.5",
+  "approvedSource": "3270a04b4abccd25dd1d8a5ce6e81f432d1d6b33",
+  "mainBeforeRelease": "a295bcb2793f3dfdb4ad4b0d1b7ec912ea06cfc1",
+  "assets": [
+    {
+      "file": "dist/timber.min.css",
+      "sha256": "5cbc0a838317655fe1036ce1a590d5b3d692970d110123b00f0e02409a2e931a",
+      "gzipBytes": 31758,
+      "equivalence": "exact"
+    },
+    {
+      "file": "dist/timber.min.js",
+      "sha256": "6308996b718d28d0fde741daaff4224237f1c5aa30fc81c8371c203ef0b0ecc5",
+      "gzipBytes": 34894,
+      "equivalence": "version-only"
+    }
+  ]
+}
