@@ -38,3 +38,7 @@ Zdroj/build je zmrazený na `f423f7f84284d64fa6e88a2083c1382cd4c330ea`; nasleduj
 ## Centrovanie podľa spätnej väzby (1. 11. 2026)
 
 Celý existujúci banner má text zarovnaný na stred, kontaktné riadky sa centrujú individuálne a kontakty majú 15 px / 700 (pôvodne 16 px / 400). Nadpisy a tlačidlo ostávajú bold; aj podnadpis má 700 podľa požiadavky na celý blok. CSS iba v .ts-sidebar-support, bez zmien JS, údajov alebo href. Všetkých päť breakpointov prešlo; desktop overuje aj text-align center a odchýlku stredu každého kontaktného riadka a tlačidla pod 1 px. Screenshot 1440 vizuálne skontrolovaný. Dôkaz center-local-qa.json a center-qa.mjs. Build/lint/whitespace PASS, CSS 31.31 / 31.5 KiB bez navýšenia limitu.
+
+Aktuálny centrovaný preview: https://www.timberstore.sk/profily-a-listy-k-pracovnym-doskam/?ts_preview=3270a04b4abccd25dd1d8a5ce6e81f432d1d6b33
+
+Zdroj/build zmrazený na 3270a04b4abccd25dd1d8a5ce6e81f432d1d6b33. Presné CDN bajty a všetky breakpointy vrátane merania centrovania prešli aj bez lokálnych náhrad: center-cdn-assets.json, center-cdn-qa.json. Nasledujúce commity iba dopĺňajú dôkazy. Bez release, tagu, merge alebo úpravy produkcie.
