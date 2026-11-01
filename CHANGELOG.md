@@ -1,3 +1,7 @@
+# Owner-approved main merge – downloads and sidebar support (2026-11-01)
+
+The owner explicitly approved merging both reviewed changes into main: product download rows/icons and the centred sidebar support banner with 15px bold contact rows. Source/build unchanged from the reviewed preview; this update records approval only. Current lint/build/metadata/whitespace checks pass, with immutable CDN and browser evidence retained under docs/previews. No stable release/tag or live loader switch in this merge. See docs/previews/sidebar-support/OWNER-APPROVAL.md.
+
 # Unreleased preview feedback – centred sidebar contacts (2026-11-01)
 
 Centre the full existing support banner, including CTA and individual contact rows. Hours/email/phone use 15px bold; subtitle is bold as requested for the whole block. Scoped CSS only, no contact data, URLs, JS logic, visibility, release or loader changes. Five viewport checks pass, with measured centres within 1px; existing gzip allowances retained.
