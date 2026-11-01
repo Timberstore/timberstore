@@ -1,0 +1,38 @@
+{
+  "verifiedAt": "2026-11-01T17:19:34.565005+00:00",
+  "release": {
+    "isDraft": false,
+    "isPrerelease": false,
+    "publishedAt": "2026-11-01T17:17:55Z",
+    "tagName": "v0.7.5",
+    "url": "https://github.com/Timberstore/timberstore/releases/tag/v0.7.5"
+  },
+  "tagTarget": "8248ce849b4c37cfffda27d608d46c1ca4cddefa",
+  "pullRequest": "https://github.com/Timberstore/timberstore/pull/64",
+  "assets": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.5/dist/timber.min.js",
+      "exactBytes": true,
+      "bytes": 124616,
+      "sha256": "6308996b718d28d0fde741daaff4224237f1c5aa30fc81c8371c203ef0b0ecc5"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.5/dist/timber.min.css",
+      "exactBytes": true,
+      "bytes": 214300,
+      "sha256": "5cbc0a838317655fe1036ce1a590d5b3d692970d110123b00f0e02409a2e931a"
+    }
+  ],
+  "productionLoaderAfterPublication": "v0.7.4",
+  "activation": "Owner will switch Shoptet manually; assistant did not change Shoptet.",
+  "checks": {
+    "sourceAndCssEquivalence": "PASS",
+    "jsVersionOnlyChange": "PASS",
+    "lintBuildMetadataWhitespace": "PASS",
+    "publishedContacts": "PASS: 375/768/1024/1280/1440 Chromium; centred 15px bold, original destinations, native visibility and refresh",
+    "publishedDownloads": "PASS: 375/1440 Chromium; SVG icons, full-row clicks, tabs, long names and original URLs",
+    "safariPhysicalIPhone": "NOT TESTED",
+    "pageSpeed": "NOT TESTED",
+    "fullCheckoutForThisPromotion": "NOT RERUN"
+  }
+}
