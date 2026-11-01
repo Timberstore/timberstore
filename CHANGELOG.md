@@ -1,3 +1,7 @@
+# v0.7.5 – approved product downloads and sidebar contacts (2026-11-01)
+
+Stable promotion of the approved attachments redesign and centred support contacts. Source and CSS unchanged from the reviewed preview, JS differs only by version. Existing gzip allowances retained. Owner explicitly authorized stable publication and will change Shoptet manually. Prepared loader targets v0.7.5; actual live loader backed up without modification. Details: docs/releases/v0.7.5.md.
+
 # Owner-approved main merge – downloads and sidebar support (2026-11-01)
 
 The owner explicitly approved merging both reviewed changes into main: product download rows/icons and the centred sidebar support banner with 15px bold contact rows. Source/build unchanged from the reviewed preview; this update records approval only. Current lint/build/metadata/whitespace checks pass, with immutable CDN and browser evidence retained under docs/previews. No stable release/tag or live loader switch in this merge. See docs/previews/sidebar-support/OWNER-APPROVAL.md.
