@@ -1,0 +1,271 @@
+{
+  "sha": "2e3f454619984b7326e89373697e1ee706c0031b",
+  "rows": [
+    {
+      "width": 375,
+      "path": "/kontakty/",
+      "pass": true,
+      "original": {
+        "form": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          }
+        },
+        "footer": {
+          "color": "rgb(124, 126, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(124, 126, 143)"
+        },
+        "footerIcon": {
+          "color": "rgb(212, 136, 74)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(212, 136, 74)"
+        },
+        "footerCTA": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          }
+        }
+      },
+      "current": {
+        "form": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          }
+        },
+        "footer": {
+          "color": "rgb(124, 126, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(124, 126, 143)"
+        },
+        "footerIcon": {
+          "color": "rgb(212, 136, 74)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(212, 136, 74)"
+        },
+        "footerCTA": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          }
+        }
+      },
+      "contact": {
+        "hours": 1,
+        "hoursText": "PO – PIA (08:00 – 16:00)",
+        "company": "Sídlo spoločnosti a fakturačné údaje\nTimber Global s. r. o.\nDo Dubu 583/37 013 14 Kamenná Poruba Slovenská republika IČO: 56 039 921DIČ: 2122201609 IČ DPH: SK2122201609 E-mail: info@timberstore.sk Tel.: +421 904 479 842\n",
+        "valid": false,
+        "action": "/action/MailForm/SendEmail/",
+        "overflow": 0
+      },
+      "iconsMatchOriginalOrange": true,
+      "staleVariantIgnored": true
+    },
+    {
+      "width": 1440,
+      "path": "/kontakty/",
+      "pass": true,
+      "original": {
+        "form": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          },
+          "hover": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(184, 105, 46)",
+            "border": "rgb(184, 105, 46)"
+          }
+        },
+        "footer": {
+          "color": "rgb(124, 126, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(124, 126, 143)"
+        },
+        "footerIcon": {
+          "color": "rgb(212, 136, 74)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(212, 136, 74)"
+        },
+        "footerCTA": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          },
+          "hover": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(201, 122, 43)",
+            "border": "rgb(201, 122, 43)"
+          }
+        }
+      },
+      "current": {
+        "form": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          },
+          "hover": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(184, 105, 46)",
+            "border": "rgb(184, 105, 46)"
+          }
+        },
+        "footer": {
+          "color": "rgb(124, 126, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(124, 126, 143)"
+        },
+        "footerIcon": {
+          "color": "rgb(212, 136, 74)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(212, 136, 74)"
+        },
+        "footerCTA": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          },
+          "hover": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(201, 122, 43)",
+            "border": "rgb(201, 122, 43)"
+          }
+        }
+      },
+      "contact": {
+        "hours": 1,
+        "hoursText": "PO – PIA (08:00 – 16:00)",
+        "company": "Sídlo spoločnosti a fakturačné údaje\nTimber Global s. r. o.\nDo Dubu 583/37 013 14 Kamenná Poruba Slovenská republika IČO: 56 039 921DIČ: 2122201609 IČ DPH: SK2122201609 E-mail: info@timberstore.sk Tel.: +421 904 479 842\n",
+        "valid": false,
+        "action": "/action/MailForm/SendEmail/",
+        "overflow": 2
+      },
+      "iconsMatchOriginalOrange": true,
+      "staleVariantIgnored": true
+    },
+    {
+      "width": 375,
+      "path": "/hmozdinka-do-steny-10x60mm/",
+      "pass": true,
+      "originalProduct": {
+        "button": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          }
+        },
+        "stock": {
+          "color": "rgb(201, 122, 43)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(201, 122, 43)"
+        }
+      },
+      "currentProduct": {
+        "button": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          }
+        },
+        "stock": {
+          "color": "rgb(201, 122, 43)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(201, 122, 43)"
+        }
+      }
+    },
+    {
+      "width": 375,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/hmozdinka-do-steny-10x60mm/",
+      "pass": true,
+      "originalProduct": {
+        "button": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          },
+          "hover": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(184, 105, 46)",
+            "border": "rgb(184, 105, 46)"
+          }
+        },
+        "stock": {
+          "color": "rgb(201, 122, 43)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(201, 122, 43)"
+        }
+      },
+      "currentProduct": {
+        "button": {
+          "normal": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(212, 136, 74)",
+            "border": "rgb(212, 136, 74)"
+          },
+          "hover": {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(184, 105, 46)",
+            "border": "rgb(184, 105, 46)"
+          }
+        },
+        "stock": {
+          "color": "rgb(201, 122, 43)",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(201, 122, 43)"
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/doprava-a-platba/",
+      "pass": true,
+      "textAndHeadingSizesColoursIdentical": true,
+      "h1Before": 10,
+      "h1After": 1
+    },
+    {
+      "width": 1440,
+      "path": "/obchodne-podmienky/",
+      "pass": true,
+      "textAndHeadingSizesColoursIdentical": true,
+      "h1Before": 23,
+      "h1After": 1
+    },
+    {
+      "width": 1440,
+      "path": "/reklamacny-poriadok/",
+      "pass": true,
+      "textAndHeadingSizesColoursIdentical": true,
+      "h1Before": 12,
+      "h1After": 1
+    },
+    {
+      "path": "/",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "errors": []
+    }
+  ]
+}
