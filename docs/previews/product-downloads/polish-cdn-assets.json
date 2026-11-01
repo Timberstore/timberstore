@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-11-01T13:08:16.628Z",
+  "commit": "752288c3769810da9b3276579c1a6bc7c587546f",
+  "assets": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@752288c3769810da9b3276579c1a6bc7c587546f/dist/timber.min.js",
+      "bytes": 123406,
+      "sha256": "172ec072a84cab08c411c41f4771acabfb5b7b1db7688eb67e1d037897f8861c",
+      "exactBytes": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@752288c3769810da9b3276579c1a6bc7c587546f/dist/timber.min.css",
+      "bytes": 212842,
+      "sha256": "86d549491313df65e55de90d37e62df142ecf1841fb6372305907133166e07ae",
+      "exactBytes": true
+    }
+  ],
+  "release": false,
+  "tag": false,
+  "merged": false,
+  "productionLoaderChanged": false
+}

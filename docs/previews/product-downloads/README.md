@@ -60,3 +60,9 @@ CDN JS/CSS majú overenú presnú zhodu s lokálnym buildom (`cdn-assets.json`).
 ## Doladenie 0.7.5-rc.1
 
 Novšie výsledky a rozsah vizuálneho doladenia sú v `POLISH.sk.md` a `polish-local-qa.json`. Predchádzajúce tabuľky opisujú prvý kandidát; doladenie má overené reálne Chromium DOM na 320/375/390/768/1024/1440 px vrátane dotykovej emulácie, klávesnice a pôvodných URL. Safari/physical iPhone ostáva NOT TESTED.
+
+## Aktuálny preview – overený 1. 11. 2026
+
+https://www.timberstore.sk/spojovacia-lista-rohova-na-pracovnu-dosku-38-l-p-hlinik/?ts_preview=752288c3769810da9b3276579c1a6bc7c587546f
+
+Zdrojový/build commit `752288c3769810da9b3276579c1a6bc7c587546f`. Vetva `feature/product-downloads-preview`; neskoršie commity iba dopĺňajú dôkazy. CDN CSS/JS sa bajtovo zhodujú s otestovaným buildom (`polish-cdn-assets.json`). Priamo z CDN prešli mobil 375 px a desktop 1440 px, 12/12 zásahov odkazov, SVG ikony, focus, hover, dlhé názvy a prepínanie natívnych záložiek (`polish-cdn-qa.json`). Bez lokálnej náhrady CSS/JS. Bez releasu, tagu, merge a zmeny produkčného loadera.
