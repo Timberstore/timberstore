@@ -1,0 +1,24 @@
+{
+  "release": {
+    "isDraft": false,
+    "isPrerelease": false,
+    "publishedAt": "2026-11-01T19:28:19Z",
+    "tagName": "v0.7.6",
+    "targetCommitish": "main",
+    "url": "https://github.com/Timberstore/timberstore/releases/tag/v0.7.6"
+  },
+  "pullRequest": {
+    "headRefOid": "8d430174012e9699fc455b04fe0297fc09ec6d92",
+    "mergeCommit": {
+      "oid": "db47b0dc71fbd41a3d72b7e5b06d8b473b12d654"
+    },
+    "mergedAt": "2026-11-01T19:28:14Z",
+    "number": 66,
+    "state": "MERGED",
+    "url": "https://github.com/Timberstore/timberstore/pull/66"
+  },
+  "tagCommit": "db47b0dc71fbd41a3d72b7e5b06d8b473b12d654",
+  "liveShoptetChanged": false,
+  "activation": "Owner changes PROD to v0.7.6 in existing loader",
+  "qa": "Published tag assets are byte-identical to local stable build; public HTML rendered in browser-only production-mode simulation with preview disabled. Real tag-preview links also tested without HTML overrides. No live admin changes."
+}

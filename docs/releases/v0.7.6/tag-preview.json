@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "path": "/kontakty/",
+      "version": "v0.7.6",
+      "loader": "v0.7.6",
+      "preview": true,
+      "contact": 1,
+      "h1": [
+        "Kontakty"
+      ],
+      "pass": true
+    },
+    {
+      "path": "/",
+      "version": "v0.7.6",
+      "loader": "v0.7.6",
+      "preview": true,
+      "contact": 0,
+      "h1": [
+        "Nábytkové kovanie a príslušenstvo"
+      ],
+      "pass": true
+    },
+    {
+      "publicProductionUnchanged": {
+        "version": "v0.7.5",
+        "loader": "v0.7.5",
+        "preview": false
+      }
+    }
+  ],
+  "errors": []
+}

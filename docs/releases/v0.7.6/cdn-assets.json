@@ -1,0 +1,20 @@
+{
+  "sha": "v0.7.6",
+  "checked": "2026-11-01T19:28:45.428Z",
+  "rows": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.6/dist/timber.min.js",
+      "status": 200,
+      "bytes": 130262,
+      "sha256": "d44a771c896b343fb47d525d48afc1e01667fe0a30294adde170ca131c5967c6",
+      "exact": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.6/dist/timber.min.css",
+      "status": 200,
+      "bytes": 219725,
+      "sha256": "1ae6cb22ac37246a15476568799e45c58617fd264ed5c7a35109d6b08e5dd3df",
+      "exact": true
+    }
+  ]
+}
