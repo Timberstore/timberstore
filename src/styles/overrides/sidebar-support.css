@@ -1,9 +1,18 @@
 /* Sidebar support banner: preserve Apollo's box, placement and breakpoints.
    The migrated legacy .support__item rules force display/type/margins with
    !important; matching flags below are limited to these existing contact rows. */
+.sidebar-inner .ts-sidebar-support {
+  text-align: center;
+  font-weight: 700;
+}
+/* The banner subtitle inherits a forced legacy font weight. */
+.sidebar-inner .ts-sidebar-support .support__subtitle {
+  font-weight: 700 !important;
+}
 .sidebar-inner .ts-sidebar-support .support__contact {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: var(--ts-space-1);
 }
 .sidebar-inner .ts-sidebar-support .support__contact .support__item,
@@ -17,8 +26,8 @@
   margin: 0 !important;
   padding: 0;
   color: var(--ts-color-controls-text) !important;
-  font-size: 16px !important;
-  font-weight: 400 !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
   line-height: 1.4;
   white-space: normal;
   overflow-wrap: anywhere;

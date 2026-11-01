@@ -34,3 +34,7 @@ Nové zdroje: `src/modules/sidebar-support/index.js`, `src/styles/overrides/side
 https://www.timberstore.sk/profily-a-listy-k-pracovnym-doskam/?ts_preview=f423f7f84284d64fa6e88a2083c1382cd4c330ea
 
 Zdroj/build je zmrazený na `f423f7f84284d64fa6e88a2083c1382cd4c330ea`; nasledujúce commity dopĺňajú iba dôkazy. CDN JS/CSS presná bajtová zhoda (`cdn-assets.json`). Všetkých 5 šírok prešlo aj priamo cez CDN bez lokálnej náhrady bundlov (`cdn-qa.json`), bez pageerror. Produkčný loader ani pôvodné kontaktné href sa nemenili.
+
+## Centrovanie podľa spätnej väzby (1. 11. 2026)
+
+Celý existujúci banner má text zarovnaný na stred, kontaktné riadky sa centrujú individuálne a kontakty majú 15 px / 700 (pôvodne 16 px / 400). Nadpisy a tlačidlo ostávajú bold; aj podnadpis má 700 podľa požiadavky na celý blok. CSS iba v .ts-sidebar-support, bez zmien JS, údajov alebo href. Všetkých päť breakpointov prešlo; desktop overuje aj text-align center a odchýlku stredu každého kontaktného riadka a tlačidla pod 1 px. Screenshot 1440 vizuálne skontrolovaný. Dôkaz center-local-qa.json a center-qa.mjs. Build/lint/whitespace PASS, CSS 31.31 / 31.5 KiB bez navýšenia limitu.

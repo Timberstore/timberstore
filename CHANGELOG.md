@@ -1,3 +1,7 @@
+# Unreleased preview feedback – centred sidebar contacts (2026-11-01)
+
+Centre the full existing support banner, including CTA and individual contact rows. Hours/email/phone use 15px bold; subtitle is bold as requested for the whole block. Scoped CSS only, no contact data, URLs, JS logic, visibility, release or loader changes. Five viewport checks pass, with measured centres within 1px; existing gzip allowances retained.
+
 # Unreleased preview – sidebar support contacts (2026-11-01)
 
 0.7.5-rc.2: reuse shared support hours/timezone/status, contact labels and SVG icons in the existing sidebar banner. Hours/email/phone order; original Apollo anchors, CTA destination, placement, visibility and box retained. Idempotent enhancement handles native inner-content rebuilds through a component-only observer. Chromium 375/768/1024/1280/1440 checks pass; Safari/iPhone not tested. No release, tag, merge, admin edit or production loader change. See docs/previews/sidebar-support.
