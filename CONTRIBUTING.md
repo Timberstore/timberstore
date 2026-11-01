@@ -164,6 +164,9 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Preview príloh `0.7.5-rc.1` (30. 10. 2026):** SVG ikony a lokálne spodné odsadenie. JS limit 34.25 KiB zachovaný, CSS 31.25 KiB podľa zaznamenaného súhlasu 15. 10.; namerané JS 34.01 / CSS 31.16 KiB. Len pracovný commit-preview, bez merge, tagu, release a produkčného loadera. Staršie limity nezmenené.
+
+
 - **Lokálny kandidát príloh `0.7.5-rc.0` (30. 10. 2026):** JS 34.25 / CSS 31 KiB, namerané 34.01 / 30.89 KiB. Rozšírenie pre objednanú sekciu podľa zaznamenaného súhlasu 15. 10.; limity starších vydaní zachované. Preview pracovného commitu vyžiadaný 30. 10.; bez vydania, tagu a produkčného nasadenia. Schválenie produkcie zatiaľ nebolo udelené. Browser QA NOT TESTED.
 
 

@@ -48,3 +48,15 @@ Samostatná diagnostika a presný plán bezpečného testu: `DIAGNOSTIKA.sk.md`.
 ## Lokálny fixture
 
 `work/downloads/preview.html` je samostatný interaktívny fixture generovaný z nového modulu a CSS. Obsahuje 0/1/2/5 príloh, dlhý názov, známy/neznámy formát, opakované init a DOM kontrolu spúšťanú až pri otvorení v prehliadači. Generátor: `node work/downloads/make-preview.mjs`. Fixture sa tu v prehliadači nespustil, preto nie je dôkazom PASS. Samostatný fixture nie je publikovaný; požadovaný preview používa natívny loader s commit hashom. Predpísaný adresár výstupov `/codex/browser/.../output` nie je v tomto cloudovom prostredí zapisovateľný (read-only koreň); nevytvára sa nefunkčný odkaz na prílohu.
+
+## Sprístupnený preview pracovnej vetvy
+
+Majiteľ 30. 10. 2026 potvrdil pokračovanie zaužívaného commit-preview postupu z predchádzajúcich TIMBERSTORE chatov. Commit `a221c7affdf0c207953fe8d3cbe37cb13cd1bb42` je na vetve `feature/product-downloads-preview`, bez tagu, release, merge a produkčného nasadenia.
+
+Preview: https://www.timberstore.sk/spojovacia-lista-rohova-na-pracovnu-dosku-38-l-p-hlinik/?ts_preview=a221c7affdf0c207953fe8d3cbe37cb13cd1bb42
+
+CDN JS/CSS majú overenú presnú zhodu s lokálnym buildom (`cdn-assets.json`). Po použití podporovaného sieťového oprávnenia shellu sa načítalo aj aktuálne HTML produktu 313668: selektory a obe pôvodné URL sú potvrdené. Predchádzajúca poznámka o nefunkčnom proxy opisuje stav pred týmto overením. Obsah dokumentov sa neotváral. Vizuálny browser/Safari test ostáva NOT TESTED.
+
+## Doladenie 0.7.5-rc.1
+
+Novšie výsledky a rozsah vizuálneho doladenia sú v `POLISH.sk.md` a `polish-local-qa.json`. Predchádzajúce tabuľky opisujú prvý kandidát; doladenie má overené reálne Chromium DOM na 320/375/390/768/1024/1440 px vrátane dotykovej emulácie, klávesnice a pôvodných URL. Safari/physical iPhone ostáva NOT TESTED.

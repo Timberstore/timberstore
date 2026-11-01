@@ -1,3 +1,7 @@
+# Unreleased preview polish – product downloads (2026-10-30)
+
+Local candidate 0.7.5-rc.1: folded-corner document SVG masks, SVG open-in-new-tab action (download glyph only for an existing download attribute), full-width native anchors and subtle hover retained. Downloads-only bottom padding reduced to 16px, preserving native mobile collapse and other panes. No name, href, import or functional JS edits; JS build differs only by local version. No release, tag, merge or production loader change. See docs/previews/product-downloads/POLISH.sk.md for scoped validation.
+
 # Unreleased local candidate – product downloads (2026-10-30)
 
 Local-only 0.7.5-rc.0: scoped related-files tab/accordion rename and compact responsive document rows, original names and hrefs retained, explicit URL/MIME formats only, safe external targets. No document fetching or source-data edits. See docs/previews/product-downloads for changes, validation limits and separate Mergado/Shoptet diagnostic/test plan. Trello card code not supplied. Lint/build and Node metadata checks PASS; browser/mobile/iPhone, checkout regression and PageSpeed NOT TESTED. Preview branch push explicitly requested on 2026-10-30; no merge, tag, release, production deployment or loader change.
