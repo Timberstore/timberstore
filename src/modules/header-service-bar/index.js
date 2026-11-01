@@ -375,28 +375,14 @@ function addSocial(contacts, selector, network) {
   const href = source?.href || SOCIALS[network];
   if (!href) return;
   const link = document.createElement('a');
-  link.className = `ts-service-bar__social${network === 'instagram' ? ' icon-instagram' : ''}`;
+  link.className = 'ts-service-bar__social';
   link.dataset.tsSocial = network;
   link.href = href;
   link.target = source?.target || '_blank';
   link.rel = 'noopener noreferrer';
   link.setAttribute('aria-label', TEXTS.header[network]);
   link.title = TEXTS.header[network];
-  if (network === 'facebook') {
-    // Apollo's Facebook glyph includes a filled circle; use a tiny local
-    // plain brand mark to meet the service bar's no-circle design.
-    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    svg.setAttribute('viewBox', '0 0 24 24');
-    svg.setAttribute('aria-hidden', 'true');
-    svg.classList.add('ts-service-bar__social-icon');
-    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    path.setAttribute(
-      'd',
-      'M15.12 5H18V1h-3.78C9.93 1 9 4.16 9 6.18V9H6v4h3v10h4V13h3.64L17 9h-4V6.71C13 5.61 13.43 5 15.12 5z',
-    );
-    svg.append(path);
-    link.append(svg);
-  }
+  addContactIcon(link, network);
   contacts.append(link);
 }
 

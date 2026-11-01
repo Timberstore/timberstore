@@ -7,9 +7,19 @@ const paths = {
     'M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01',
 };
 export function addContactIcon(link, kind) {
-  if (link.querySelector('.ts-footer-contacts__icon')) return;
+  const social = kind === 'facebook' || kind === 'instagram';
+  if (social) {
+    link.classList.add('ts-social-link');
+    if (link.dataset.tsSocialBrand !== kind) link.dataset.tsSocialBrand = kind;
+  }
+  const existing = link.querySelector('.ts-footer-contacts__icon');
+  if (existing) {
+    if (social) existing.classList.add('ts-social-icon');
+    return;
+  }
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.classList.add('ts-footer-contacts__icon');
+  if (social) svg.classList.add('ts-social-icon');
   svg.setAttribute('viewBox', '0 0 24 24');
   svg.setAttribute('aria-hidden', 'true');
   const path = document.createElementNS(svg.namespaceURI, 'path');
@@ -17,4 +27,3 @@ export function addContactIcon(link, kind) {
   svg.append(path);
   link.prepend(svg);
 }
-

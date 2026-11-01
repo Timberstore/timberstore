@@ -1,3 +1,7 @@
+# Aktuálna verzia: rc.2 s jednotnými sociálnymi ikonami
+
+Pozri [SOCIAL-ICONS.sk.md](SOCIAL-ICONS.sk.md). Predchádzajúce farby tlačidiel ostávajú pôvodné. Nižšie sú historické poznámky.
+
 # Aktuálna verzia: rc.1 s pôvodnými farbami
 
 Kontrastné návrhy nižšie majiteľ odmietol. Aktuálny stav a preview sú v [ORIGINAL-COLOURS.sk.md](ORIGINAL-COLOURS.sk.md). Nasledujúci záznam a dôkazy zachovávajú historické rc.0.

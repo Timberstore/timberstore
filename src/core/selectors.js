@@ -1,6 +1,8 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  socialProfiles: 'a[href*="facebook.com/timberstore"], a[href*="instagram.com/timberstore.sk"]',
+
   auditHomeTitleAnchor: '.timber-categories-banner',
   auditArticle: '#content .pageArticleDetail',
   auditArticleBody: ':scope > [itemprop="about"]',

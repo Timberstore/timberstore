@@ -1,5 +1,11 @@
 # v0.7.5 – approved product downloads and sidebar contacts (2026-11-01)
 
+## 0.7.6-rc.2 — shared brand social icons preview (2026-11-01)
+
+- Unify Facebook/Instagram across header, footer, mobile menu, contacts, cart/checkout and Instagram profile heading with shared 26px SVGs, Facebook blue and the existing Instagram gradient. Preserve links, native visibility and other approved colours/layout.
+- JS 36.14/36.25 and CSS 32.13/32.5 KiB gzip. Preview only; no release/tag/merge/production changes. Safari/iPhone and PageSpeed NOT TESTED.
+
+
 ## 0.7.6-rc.1 — original-colour preview correction (2026-11-01)
 
 - Owner rejected contrast experiments: remove the variant handler, overrides and experimental colour tokens. Original CTA normal/hover colours, warehouse text and footer links restored; contact email/phone icons use the shared original brand orange.
