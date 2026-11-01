@@ -8,19 +8,6 @@ import { addHours, updateHours } from '../header-service-bar/index.js';
 const copy = TEXTS.auditPreview;
 let brandObserver;
 
-function contrast() {
-  // Two owner-review variants. Never activate these experiments outside preview.
-  const choice = new URLSearchParams(location.search).get('ts_contrast');
-  let variant = 'copper';
-  try {
-    if (['copper', 'ink'].includes(choice)) sessionStorage.setItem('ts-audit-contrast', choice);
-    variant = sessionStorage.getItem('ts-audit-contrast') === 'ink' ? 'ink' : 'copper';
-  } catch {
-    if (choice === 'ink') variant = 'ink';
-  }
-  document.documentElement.dataset.tsContrast = variant;
-}
-
 function heading(element, tag) {
   if (!element || element.tagName.toLowerCase() === tag) return element;
   const replacement = document.createElement(tag);
@@ -181,7 +168,6 @@ export default {
   pages: ['*'],
   init(root) {
     if (!window.TimberLoader?.preview) return;
-    contrast();
     const page = getAuditPage();
     if (page === 'contacts') contacts(root);
     if (page === 'article') articleHeadings(root);

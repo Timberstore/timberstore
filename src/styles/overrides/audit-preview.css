@@ -1,72 +1,3 @@
-/* Owner-requested audit experiments. All rules require an explicit preview
-   attribute; production palette, checkout success colours and geometry stay. */
-html[data-ts-contrast] {
-  --ts-audit-button-bg: var(--ts-audit-copper);
-  --ts-audit-button-hover: var(--ts-audit-copper-hover);
-  --ts-audit-button-text: var(--ts-color-bg);
-}
-html[data-ts-contrast='ink'] {
-  --ts-audit-button-bg: var(--ts-color-accent);
-  --ts-audit-button-hover: var(--ts-color-accent);
-  --ts-audit-button-text: var(--ts-audit-ink);
-}
-/* !important beats existing legacy !important CTA paint, not native behaviour.
-   Only orange CTAs: never disabled controls or green checkout conversion CTAs. */
-html[data-ts-contrast]
-  body
-  :is(
-    .p-detail .add-to-cart-button,
-    .timber-support-btn,
-    .custom-footer__contact a.btn,
-    .ts-contact-form .btn-primary
-  ):not(:disabled):not(.disabled) {
-  background-color: var(--ts-audit-button-bg) !important;
-  border-color: var(--ts-audit-button-bg) !important;
-  color: var(--ts-audit-button-text) !important;
-}
-html[data-ts-contrast]
-  body
-  :is(
-    .p-detail .add-to-cart-button,
-    .timber-support-btn,
-    .custom-footer__contact a.btn,
-    .ts-contact-form .btn-primary
-  ):not(:disabled):not(.disabled):is(:hover, :focus-visible) {
-  background-color: var(--ts-audit-button-hover) !important;
-  border-color: var(--ts-audit-button-hover) !important;
-  color: var(--ts-audit-button-text) !important;
-}
-html[data-ts-contrast]
-  body
-  :is(
-    .p-detail .add-to-cart-button,
-    .timber-support-btn,
-    .custom-footer__contact a.btn,
-    .ts-contact-form .btn-primary
-  ):focus-visible {
-  outline: 2px solid var(--ts-color-blue);
-  outline-offset: 3px;
-}
-/* Verified inline warehouse copper only; no changes to stock data or emerald. */
-html[data-ts-contrast]
-  body
-  :is(.availability > span, .availability-label, .availability-value > span)[style*='#c97a2b' i] {
-  color: var(--ts-audit-copper-ink) !important;
-}
-html[data-ts-contrast]
-  #footer
-  :is(.custom-footer__articles, .custom-footer__banner7, .ts-footer-menu)
-  a:not(.btn) {
-  color: var(--ts-audit-muted);
-}
-html[data-ts-contrast]
-  #footer
-  :is(.custom-footer__articles, .custom-footer__banner7, .ts-footer-menu)
-  a:not(.btn):is(:hover, :focus-visible) {
-  color: var(--ts-audit-copper-ink);
-  text-decoration: underline;
-}
-
 /* Native Apollo contact article: original form/captcha/consents and business
    data retained. Mobile contact information precedes the native message form. */
 .ts-contact-page {
@@ -135,7 +66,7 @@ html[data-ts-contrast]
   stroke-linejoin: round;
 }
 .ts-contact-link .ts-footer-contacts__icon {
-  color: var(--ts-audit-copper-ink);
+  color: var(--ts-color-accent);
 }
 .ts-contact-socials {
   display: flex;
@@ -168,7 +99,7 @@ html[data-ts-contrast]
   color: var(--ts-color-controls-text);
 }
 .ts-contact-grid a:hover {
-  color: var(--ts-audit-copper-ink);
+  color: var(--ts-color-accent);
   text-decoration: underline;
 }
 /* These !important rules override the verified inline CMS company-card styles. */
@@ -229,7 +160,7 @@ html[data-ts-contrast]
 }
 .ts-contact-company__caption {
   margin: 0 0 var(--ts-space-2);
-  color: var(--ts-audit-muted);
+  color: var(--ts-color-muted);
   font-size: 13px;
   font-weight: 700;
 }

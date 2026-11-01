@@ -1,3 +1,7 @@
+# Aktuálna verzia: rc.1 s pôvodnými farbami
+
+Kontrastné návrhy nižšie majiteľ odmietol. Aktuálny stav a preview sú v [ORIGINAL-COLOURS.sk.md](ORIGINAL-COLOURS.sk.md). Nasledujúci záznam a dôkazy zachovávajú historické rc.0.
+
 # Audit follow-up – 0.7.6-rc.0, iba preview
 
 Požiadavka majiteľa 1. 11. 2026: vyskúšať kontrast a nadpisy v preview; prázdne kategórie rieši sám; N/A značku nahradiť Timber Store; zlepšiť kontakty a doplniť spoločné hodiny. Dodatočne schválil viditeľný H1 „Nábytkové kovanie a príslušenstvo“. Trello kód nedodaný, karta nevymyslená.

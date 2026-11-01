@@ -1,11 +1,5 @@
 /* Design tokens — the only place for colours, spacing and breakpoints. */
 :root {
-  /* Audit comparison only; applied by data-ts-contrast in a preview session. */
-  --ts-audit-copper: #a95d25;
-  --ts-audit-copper-hover: #8f4d1e;
-  --ts-audit-ink: #29241f;
-  --ts-audit-copper-ink: #9a551f;
-  --ts-audit-muted: #666878;
   --ts-contact-max: 1120px;
   --ts-contact-gap: 24px;
   --ts-contact-padding: 24px;

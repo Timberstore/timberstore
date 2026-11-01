@@ -164,6 +164,9 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Pôvodné farby, preview `0.7.6-rc.1` (1. 11. 2026):** odstránené klientom odmietnuté kontrastné experimenty; preberá rc.0 limity JS 36.25 / CSS 32.5 KiB bez zvýšenia. Kontaktný layout a veľkosti nadpisov zachované. Iba commit-preview, bez release/tagu/merge alebo úpravy produkcie. Safari/iPhone a PageSpeed NOT TESTED.
+
+
 - **Audit follow-up preview `0.7.6-rc.0` (1. 11. 2026):** JS 36.25 / CSS 32.5 KiB, namerané 36.17 / 32.20 KiB. Rozšírenie pre dve kontrastné možnosti, kontakty a schválené príklady nadpisov podľa súhlasu 15. 10.; všetky staršie limity nezmenené. Iba pracovný commit-preview. Žiadny release, tag, merge ani zmena produkčného loadera. Všetky experimenty navyše vyžadujú `TimberLoader.preview`. Safari/iPhone a PageSpeed NOT TESTED.
 
 

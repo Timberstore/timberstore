@@ -1,5 +1,12 @@
 # v0.7.5 – approved product downloads and sidebar contacts (2026-11-01)
 
+## 0.7.6-rc.1 — original-colour preview correction (2026-11-01)
+
+- Owner rejected contrast experiments: remove the variant handler, overrides and experimental colour tokens. Original CTA normal/hover colours, warehouse text and footer links restored; contact email/phone icons use the shared original brand orange.
+- Keep the approved contact layout, heading sizes and semantic hierarchy, homepage H1, confirmed tax ID and N/A brand fallback. Categories and shipping promises unchanged.
+- Preview only; no tag, release, merge, production-loader or admin changes. Reuses rc.0 budgets without increase. Safari/iPhone and PageSpeed NOT TESTED.
+
+
 ## 0.7.6-rc.0 — audit follow-up preview (2026-11-01)
 
 - Owner-requested preview only: two accessible copper CTA treatments, readable warehouse/footer text, contacts with shared support hours and the original native form/business data, N/A brand display fallback, semantic article-heading examples and approved visible homepage H1.
