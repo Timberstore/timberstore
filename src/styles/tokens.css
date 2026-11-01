@@ -1,5 +1,17 @@
 /* Design tokens — the only place for colours, spacing and breakpoints. */
 :root {
+  --ts-social-icon-size: 32px;
+  --ts-social-link-size: 32px;
+  --ts-social-icon-padding: 7px;
+  --ts-social-icon-radius: 0;
+
+  --ts-contact-max: 1120px;
+  --ts-contact-gap: 24px;
+  --ts-contact-padding: 24px;
+  --ts-contact-radius: 16px;
+  --ts-contact-title: 22px;
+  --ts-contact-touch: 44px;
+
   --ts-download-accent: #c97a2b;
   --ts-download-bg: #f5f4ef;
   --ts-download-icon: 24px;

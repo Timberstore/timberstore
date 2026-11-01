@@ -1,5 +1,44 @@
 # v0.7.5 – approved product downloads and sidebar contacts (2026-11-01)
 
+## 0.7.6 — Kontakty, nadpisy a oranžové sociálne ikony (2026-11-01)
+
+- Stabilné vydanie schváleného rc.4: responzívne kontakty so spoločnými hodinami, pôvodným formulárom a potvrdeným DIČ; sémantické nadpisy a úvodný H1; N/A → Timber Store v zobrazení; rovnaké oranžové sociálne SVG bez pozadia/rámika všade na PC/mobile.
+- CSS identické s odsúhlaseným preview. Jediná aplikačná zmena pri povýšení: odstránená podmienka iba-preview, aby sa schválené úpravy načítali bez cookie. Žiadne zmeny kategórií, expedičných lehôt, importu alebo príloh.
+- JS 36.13/36.25 a CSS 32.11/32.5 KiB gzip. Safari/iPhone a PageSpeed NOT TESTED. Aktiváciu Shoptetu vykoná majiteľ; rollback v0.7.5. Podrobnosti a dôkazy v docs/releases/v0.7.6.md.
+
+
+## 0.7.6-rc.4 — plain orange social icons preview (2026-11-01)
+
+- Keep the selected logo shapes and Timber orange; remove backgrounds, borders and shadows from social icons/links, including hover. Keep the same glyph size and click area. Keyboard focus remains visible.
+- CSS/tokens only plus build version. JS 36.14/36.25, CSS 32.11/32.5 KiB gzip. Preview only; no release/tag/merge/production changes. Safari/iPhone and PageSpeed NOT TESTED.
+
+
+## 0.7.6-rc.3 — thin-frame Timber social icons preview (2026-11-01)
+
+- Owner-selected design 3: matching 32px white squares, thin warm-grey border, 8px corners and original Timber orange logos on every social control. Subtle existing orange hover/focus colours. Link behaviour and other controls unchanged.
+- CSS/tokens-only design update plus build version; JS 36.14/36.25 and CSS 32.12/32.5 KiB gzip. Preview only; no release/tag/merge/production changes. Safari/iPhone and PageSpeed NOT TESTED.
+
+
+## 0.7.6-rc.2 — shared brand social icons preview (2026-11-01)
+
+- Unify Facebook/Instagram across header, footer, mobile menu, contacts, cart/checkout and Instagram profile heading with shared 26px SVGs, Facebook blue and the existing Instagram gradient. Preserve links, native visibility and other approved colours/layout.
+- JS 36.14/36.25 and CSS 32.13/32.5 KiB gzip. Preview only; no release/tag/merge/production changes. Safari/iPhone and PageSpeed NOT TESTED.
+
+
+## 0.7.6-rc.1 — original-colour preview correction (2026-11-01)
+
+- Owner rejected contrast experiments: remove the variant handler, overrides and experimental colour tokens. Original CTA normal/hover colours, warehouse text and footer links restored; contact email/phone icons use the shared original brand orange.
+- Keep the approved contact layout, heading sizes and semantic hierarchy, homepage H1, confirmed tax ID and N/A brand fallback. Categories and shipping promises unchanged.
+- Preview only; no tag, release, merge, production-loader or admin changes. Reuses rc.0 budgets without increase. Safari/iPhone and PageSpeed NOT TESTED.
+
+
+## 0.7.6-rc.0 — audit follow-up preview (2026-11-01)
+
+- Owner-requested preview only: two accessible copper CTA treatments, readable warehouse/footer text, contacts with shared support hours and the original native form/business data, N/A brand display fallback, semantic article-heading examples and approved visible homepage H1.
+- No category, shipping-promise, Mergado, attachment, production-loader or admin changes. No stable release/tag/merge. Trello code not supplied.
+- JS 36.17 / 36.25 KiB and CSS 32.20 / 32.5 KiB gzip. Safari/iPhone and PageSpeed NOT TESTED; browser evidence in docs/previews/audit-followup.
+
+
 Stable promotion of the approved attachments redesign and centred support contacts. Source and CSS unchanged from the reviewed preview, JS differs only by version. Existing gzip allowances retained. Owner explicitly authorized stable publication and will change Shoptet manually. Prepared loader targets v0.7.5; actual live loader backed up without modification. Details: docs/releases/v0.7.5.md.
 
 # Owner-approved main merge – downloads and sidebar support (2026-11-01)

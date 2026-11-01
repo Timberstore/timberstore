@@ -1,0 +1,73 @@
+{
+  "sha": "0054e904ef4e27824406a8e96fb7a3e71e3d6f0f",
+  "results": [
+    {
+      "path": "/doprava-a-platba/",
+      "originalH1": 10,
+      "previewH1": 1,
+      "bodyTextIdentical": true,
+      "visualHeadingStylesIdentical": true
+    },
+    {
+      "path": "/obchodne-podmienky/",
+      "originalH1": 23,
+      "previewH1": 1,
+      "bodyTextIdentical": true,
+      "visualHeadingStylesIdentical": true
+    },
+    {
+      "path": "/reklamacny-poriadok/",
+      "originalH1": 12,
+      "previewH1": 1,
+      "bodyTextIdentical": true,
+      "visualHeadingStylesIdentical": true
+    },
+    {
+      "colors": [
+        {
+          "selector": ".availability-label",
+          "text": "\n                    Centrálny sklad",
+          "fg": "rgb(154, 85, 31)",
+          "bg": "rgb(248, 250, 252)",
+          "ratio": 5.434647679853476
+        },
+        {
+          "selector": ".availability-value span:first-child",
+          "text": "\n                    Centrálny sklad",
+          "fg": "rgb(154, 85, 31)",
+          "bg": "rgb(248, 250, 252)",
+          "ratio": 5.434647679853476
+        },
+        {
+          "selector": "#footer .custom-footer__articles a",
+          "text": "Cookies",
+          "fg": "rgb(102, 104, 120)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 5.502719087589254
+        }
+      ]
+    },
+    {
+      "attachmentLinksPreserved": [
+        {
+          "name": "Priloha 1",
+          "href": "https://www.demos24plus.com/download/product-attachment/313668/3430",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "name": "Priloha 2",
+          "href": "https://www.demos24plus.com/download/product-attachment/313668/73691",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "production": "v0.7.5",
+      "preview": false,
+      "experimentsAbsent": true
+    }
+  ],
+  "errors": []
+}

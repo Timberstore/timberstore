@@ -164,6 +164,24 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Schválená stabilná `0.7.6` (1. 11. 2026):** preberá limity rc.0–rc.4 JS 36.25 / CSS 32.5 KiB bez zvýšenia; namerané 36.13 / 32.11 KiB. CSS identické s rc.4, len aktivácia schváleného frontendového modulu aj mimo preview a verzia buildu. Majiteľ schválil release a prepne PROD v Shoptete sám. Staršie limity/tagy nezmenené. Safari/iPhone a PageSpeed NOT TESTED.
+
+
+- **Samotné oranžové sociálne ikony `0.7.6-rc.4` (1. 11. 2026):** podľa požiadavky majiteľa bez rámika/pozadia, aj pri hoveri. Len CSS/tokeny + verzia; preberá limity JS 36.25 / CSS 32.5 KiB, namerané 36.14 / 32.11 KiB. Iba commit-preview, bez release/tagu/merge alebo zmeny produkcie. Safari/iPhone a PageSpeed NOT TESTED.
+
+
+- **Sociálne ikony, variant 3 `0.7.6-rc.3` (1. 11. 2026):** klient vybral tenký rámik a farby webu. Iba CSS/tokeny a build verzia; preberá limity JS 36.25 / CSS 32.5 KiB bez zvýšenia. Výstup 36.14 / 32.12 KiB. Iba commit-preview, bez release/tagu/merge alebo zmeny produkčného loadera. Safari/iPhone a PageSpeed NOT TESTED.
+
+
+- **Sociálne ikony preview `0.7.6-rc.2` (1. 11. 2026):** rovnaké SVG a značkové farby všade na webe podľa požiadavky majiteľa. Preberá rc.0/rc.1 limity JS 36.25 / CSS 32.5 KiB bez zvýšenia; namerané 36.14 / 32.13 KiB. Iba commit-preview, bez release/tagu/merge alebo zmeny produkčného loadera. Safari/iPhone a PageSpeed NOT TESTED.
+
+
+- **Pôvodné farby, preview `0.7.6-rc.1` (1. 11. 2026):** odstránené klientom odmietnuté kontrastné experimenty; preberá rc.0 limity JS 36.25 / CSS 32.5 KiB bez zvýšenia. Kontaktný layout a veľkosti nadpisov zachované. Iba commit-preview, bez release/tagu/merge alebo úpravy produkcie. Safari/iPhone a PageSpeed NOT TESTED.
+
+
+- **Audit follow-up preview `0.7.6-rc.0` (1. 11. 2026):** JS 36.25 / CSS 32.5 KiB, namerané 36.17 / 32.20 KiB. Rozšírenie pre dve kontrastné možnosti, kontakty a schválené príklady nadpisov podľa súhlasu 15. 10.; všetky staršie limity nezmenené. Iba pracovný commit-preview. Žiadny release, tag, merge ani zmena produkčného loadera. Všetky experimenty navyše vyžadujú `TimberLoader.preview`. Safari/iPhone a PageSpeed NOT TESTED.
+
+
 - **Schválená stabilná `0.7.5` (1. 11. 2026):** povýšenie schválených príloh a centrovaných kontaktov bez zmeny zdrojov aplikácie; preberá limity JS 34.5 / CSS 31.5 KiB, namerané 34.34 / 31.31 KiB. Staršie verzie/limity/tagy nezmenené. Majiteľ výslovne schválil vydanie a aktivuje ho v Shoptete sám. Safari/iPhone a PageSpeed NOT TESTED.
 
 

@@ -17,3 +17,27 @@ export const CHECKOUT_SUPPORT_EMAIL = 'info@timberstore.sk';
 // Public data only; production JavaScript/CSS remain pinned to immutable tags.
 export const INSTAGRAM_FEED =
   'https://raw.githubusercontent.com/Timberstore/timberstore/main/data/instagram.json';
+
+export const CONTACT_HELP_LINKS = [
+  '/moja-objednavka/',
+  '/doprava-a-platba/',
+  '/reklamacny-poriadok/',
+  '/podmienky-ochrany-osobnych-udajov/',
+];
+
+// Public tax data confirmed directly by the owner on 2026-11-01 (FinStat reference).
+export const COMPANY_TAX_ID = '2122201609';
+
+// Match profile links only; Instagram post thumbnails are not social controls.
+export function getSocialNetwork(href) {
+  try {
+    const url = new URL(href, location.origin);
+    const host = url.hostname.replace(/^www\./, '');
+    const path = url.pathname.replace(/\/+$/, '').toLowerCase();
+    if (host === 'facebook.com' && path === '/timberstore') return 'facebook';
+    if (host === 'instagram.com' && path === '/timberstore.sk') return 'instagram';
+  } catch {
+    /* Keep malformed or unrelated links untouched. */
+  }
+  return null;
+}

@@ -1,0 +1,189 @@
+/* Native Apollo contact article: original form/captcha/consents and business
+   data retained. Mobile contact information precedes the native message form. */
+.ts-contact-page {
+  max-width: var(--ts-contact-max);
+  margin-inline: auto;
+}
+.ts-contact-grid {
+  display: grid;
+  gap: var(--ts-contact-gap);
+  align-items: start;
+}
+.ts-contact-aside {
+  display: grid;
+  gap: var(--ts-contact-gap);
+  min-width: 0;
+}
+.ts-contact-grid :is(.ts-contact-support, .ts-contact-form, .ts-contact-company, .ts-contact-help) {
+  min-width: 0;
+  padding: var(--ts-contact-padding);
+  border: 1px solid var(--ts-color-controls-border);
+  border-radius: var(--ts-contact-radius);
+  background: var(--ts-color-bg);
+}
+.ts-contact-grid .ts-contact-support {
+  background: var(--ts-color-support-bg);
+}
+.ts-contact-grid h2 {
+  margin: 0 0 var(--ts-space-3);
+  font-size: var(--ts-contact-title);
+  line-height: 1.3;
+  font-weight: 700;
+}
+.ts-contact-support > p,
+.ts-contact-form > p {
+  margin-bottom: var(--ts-space-3);
+}
+.ts-contact-link,
+.ts-contact-hours .ts-service-bar__hours {
+  display: flex;
+  align-items: center;
+  gap: var(--ts-space-2);
+  min-height: var(--ts-contact-touch);
+  padding: 0;
+  color: var(--ts-color-controls-text);
+  font-size: 15px;
+  font-weight: 700;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.ts-contact-hours .ts-service-bar__hours::before {
+  content: none;
+}
+.ts-contact-hours .ts-service-bar__status {
+  margin-inline: 6px;
+  flex-shrink: 0;
+}
+.ts-contact-link .ts-footer-contacts__icon,
+.ts-contact-socials .ts-footer-contacts__icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.ts-contact-link .ts-footer-contacts__icon {
+  color: var(--ts-color-accent);
+}
+.ts-contact-socials {
+  display: flex;
+  gap: var(--ts-space-2);
+  margin-top: var(--ts-space-2);
+}
+.ts-contact-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--ts-contact-touch);
+  min-height: var(--ts-contact-touch);
+  border: 1px solid var(--ts-color-controls-border);
+  border-radius: var(--ts-radius-controls);
+  color: var(--ts-color-controls-text);
+  background: var(--ts-color-bg);
+}
+.ts-contact-socials a[aria-label*='Facebook'] svg {
+  fill: currentColor;
+  stroke: none;
+}
+.ts-contact-grid a:focus-visible {
+  outline: 2px solid var(--ts-color-blue);
+  outline-offset: 3px;
+}
+.ts-contact-help a {
+  display: flex;
+  align-items: center;
+  min-height: var(--ts-contact-touch);
+  color: var(--ts-color-controls-text);
+}
+.ts-contact-grid a:hover {
+  color: var(--ts-color-accent);
+  text-decoration: underline;
+}
+/* These !important rules override the verified inline CMS company-card styles. */
+.ts-contact-grid .ts-contact-company {
+  margin: 0 !important;
+  max-width: none !important;
+  padding: var(--ts-contact-padding) !important;
+  border-top: 1px solid var(--ts-color-controls-border) !important;
+}
+.ts-contact-grid .ts-contact-company__name {
+  font-size: var(--ts-contact-title) !important;
+  line-height: 1.3 !important;
+  margin: 0 0 var(--ts-space-3) !important;
+  color: var(--ts-color-controls-text) !important;
+}
+.ts-contact-form .contact-form {
+  margin: 0;
+  max-width: none;
+}
+.ts-contact-form .form-control {
+  max-width: 100%;
+  font-size: 16px;
+}
+.ts-contact-form textarea.form-control {
+  resize: vertical;
+  min-height: 160px;
+}
+.ts-contact-form .captcha-block {
+  max-width: 100%;
+}
+.ts-contact-form .captcha-block h2 {
+  font-size: 18px;
+}
+.ts-contact-form .btn-primary {
+  min-height: var(--ts-contact-touch);
+}
+@media (min-width: 992px) {
+  .ts-contact-grid {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  }
+}
+/* The message form is immediately after support on mobile; company details and
+   help links stay below it. Desktop keeps a calm information/form two-column grid. */
+.ts-contact-aside {
+  display: contents;
+}
+.ts-contact-support {
+  order: 1;
+}
+.ts-contact-form {
+  order: 2;
+}
+.ts-contact-company {
+  order: 3;
+}
+.ts-contact-help {
+  order: 4;
+}
+.ts-contact-company__caption {
+  margin: 0 0 var(--ts-space-2);
+  color: var(--ts-color-muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+@media (min-width: 992px) {
+  .ts-contact-support {
+    grid-area: 1 / 1;
+  }
+  .ts-contact-company {
+    grid-area: 2 / 1;
+  }
+  .ts-contact-help {
+    grid-area: 3 / 1;
+  }
+  .ts-contact-form {
+    grid-area: 1 / 2 / 4 / 3;
+  }
+}
+
+.ts-home-title {
+  margin: var(--ts-space-3) auto;
+  padding-inline: var(--ts-space-3);
+  font-size: clamp(24px, 3vw, 32px);
+  line-height: 1.25;
+  font-weight: 700;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+{
+  "version": "v0.7.6",
+  "reviewed": "f6e38ba9af1b49c8063a7f1b3513a548586a6466",
+  "assets": [
+    {
+      "path": "dist/timber.min.js",
+      "bytes": 130262,
+      "gzipKiB": 36.1259765625,
+      "sha256": "d44a771c896b343fb47d525d48afc1e01667fe0a30294adde170ca131c5967c6",
+      "previewSha256": "2d0883b9dcf43a5e9be4a988258c03093cf1bfdb37d0d6d16b9e1355f8cd9643",
+      "identicalToReviewedPreview": false
+    },
+    {
+      "path": "dist/timber.min.css",
+      "bytes": 219725,
+      "gzipKiB": 32.1142578125,
+      "sha256": "1ae6cb22ac37246a15476568799e45c58617fd264ed5c7a35109d6b08e5dd3df",
+      "previewSha256": "1ae6cb22ac37246a15476568799e45c58617fd264ed5c7a35109d6b08e5dd3df",
+      "identicalToReviewedPreview": true
+    }
+  ],
+  "sourceChange": "Remove only the preview-only activation guard, so approved changes activate after owner switches PROD.",
+  "srcDiff": "diff --git a/src/modules/audit-preview/index.js b/src/modules/audit-preview/index.js\nindex 5e4b59a..ee02348 100644\n--- a/src/modules/audit-preview/index.js\n+++ b/src/modules/audit-preview/index.js\n@@ -167,7 +167,6 @@ export default {\n   name: 'audit-preview',\n   pages: ['*'],\n   init(root) {\n-    if (!window.TimberLoader?.preview) return;\n     const page = getAuditPage();\n     if (page === 'contacts') contacts(root);\n     if (page === 'article') articleHeadings(root);\n"
+}

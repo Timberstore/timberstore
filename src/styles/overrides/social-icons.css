@@ -1,0 +1,62 @@
+/* Owner-requested shared social appearance. Override Apollo/footer/header
+   icon paint in one place; preserve each anchor, its destination and handlers.
+   Original orange logos only: no background or frame in any pointer state. */
+:is(body, #header, #footer, #content) a.ts-social-link[data-ts-social-brand] {
+  align-items: center;
+  justify-content: center;
+  gap: var(--ts-space-2);
+  min-width: var(--ts-social-link-size);
+  min-height: var(--ts-social-link-size);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+:is(body, #header, #footer, #content)
+  a.ts-social-link[data-ts-social-brand]:not(.ts-service-bar__social) {
+  display: inline-flex;
+}
+:is(body, #header, #footer, #content) a.ts-social-link[data-ts-social-brand]::before {
+  display: none;
+  content: none;
+}
+:is(body, #header, #footer, #content)
+  a.ts-social-link[data-ts-social-brand]
+  > svg.ts-footer-contacts__icon.ts-social-icon {
+  display: block;
+  box-sizing: border-box;
+  flex: 0 0 var(--ts-social-icon-size);
+  width: var(--ts-social-icon-size);
+  height: var(--ts-social-icon-size);
+  margin: 0;
+  padding: var(--ts-social-icon-padding);
+  border: 0;
+  border-radius: var(--ts-social-icon-radius);
+  background: transparent;
+  color: var(--ts-color-accent);
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+:is(body, #header, #footer, #content)
+  a.ts-social-link[data-ts-social-brand='facebook']
+  > svg.ts-footer-contacts__icon.ts-social-icon {
+  fill: currentColor;
+  stroke: none;
+}
+/* Keep the same contact hit area without a separate surrounding surface. */
+.ts-contact-socials a.ts-social-link[data-ts-social-brand] {
+  width: var(--ts-social-link-size);
+  height: var(--ts-social-link-size);
+  min-width: var(--ts-social-link-size);
+  min-height: var(--ts-social-link-size);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+:is(body, #header, #footer, #content) a.ts-social-link[data-ts-social-brand]:focus-visible {
+  outline: 2px solid var(--ts-color-accent);
+  outline-offset: 2px;
+}

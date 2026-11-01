@@ -1,0 +1,1586 @@
+{
+  "live": true,
+  "sha": "0054e904ef4e27824406a8e96fb7a3e71e3d6f0f",
+  "results": [
+    {
+      "path": "/kontakty/",
+      "width": 375,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": 0,
+      "h1": [
+        "Kontakty"
+      ],
+      "contact": {
+        "forms": 1,
+        "action": "/action/MailForm/SendEmail/",
+        "method": "post",
+        "inputs": [
+          {
+            "name": "formId",
+            "type": "hidden",
+            "required": false,
+            "value": "1"
+          },
+          {
+            "name": "fullName",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "surname",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "message",
+            "type": "textarea",
+            "required": true
+          },
+          {
+            "name": "captcha",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "consents[]",
+            "type": "hidden",
+            "required": false,
+            "value": "25"
+          }
+        ],
+        "valid": false,
+        "hours": 1,
+        "hoursText": "PO – PIA (08:00 – 16:00)",
+        "company": "Sídlo spoločnosti a fakturačné údaje\nTimber Global s. r. o.\nDo Dubu 583/37 013 14 Kamenná Poruba Slovenská republika IČO: 56 039 921DIČ: 2122201609 IČ DPH: SK2122201609 E-mail: info@timberstore.sk Tel.: +421 904 479 842\n",
+        "links": [
+          {
+            "href": "mailto:info@timberstore.sk",
+            "text": "info@timberstore.sk"
+          },
+          {
+            "href": "tel:+421904479842",
+            "text": "+421 904 479 842"
+          },
+          {
+            "href": "https://www.facebook.com/timberstore",
+            "text": ""
+          },
+          {
+            "href": "https://www.instagram.com/timberstore.sk/",
+            "text": ""
+          },
+          {
+            "href": "/moja-objednavka/",
+            "text": "Stav objednávky"
+          },
+          {
+            "href": "/doprava-a-platba/",
+            "text": "Doprava a platba"
+          },
+          {
+            "href": "/reklamacny-poriadok/",
+            "text": "Reklamácie"
+          },
+          {
+            "href": "/podmienky-ochrany-osobnych-udajov/",
+            "text": "Ochrana osobných údajov"
+          },
+          {
+            "href": "/podmienky-ochrany-osobnych-udajov/",
+            "text": "podmienkami ochrany osobných údajov"
+          }
+        ],
+        "captcha": true,
+        "consent": true,
+        "h1": 1,
+        "columns": "335px"
+      }
+    },
+    {
+      "path": "/doprava-a-platba/",
+      "width": 375,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": 0,
+      "h1": [
+        "Doprava a platba"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Doprava a platba"
+        },
+        {
+          "tag": "H2",
+          "text": "1. Úvodné ustanovenia"
+        },
+        {
+          "tag": "H2",
+          "text": "2. Možnosti dopravy"
+        },
+        {
+          "tag": "H2",
+          "text": "3. Doba dodania"
+        },
+        {
+          "tag": "H3",
+          "text": "Tovar skladom"
+        },
+        {
+          "tag": "H3",
+          "text": "Tovar z centrálneho alebo externého skladu"
+        },
+        {
+          "tag": "H3",
+          "text": "Individuálne alebo nadrozmerné zásielky"
+        },
+        {
+          "tag": "H2",
+          "text": "4. Kontrola zásielky pri prevzatí"
+        },
+        {
+          "tag": "H2",
+          "text": "5. Platobné možnosti"
+        },
+        {
+          "tag": "H3",
+          "text": "Online platba kartou"
+        },
+        {
+          "tag": "H3",
+          "text": "Bankový prevod"
+        },
+        {
+          "tag": "H3",
+          "text": "Dobierka"
+        },
+        {
+          "tag": "H2",
+          "text": "6. Elektronická faktúra"
+        },
+        {
+          "tag": "H2",
+          "text": "7. Obmedzenie doručenia"
+        },
+        {
+          "tag": "H2",
+          "text": "8. Neprevzaté zásielky"
+        },
+        {
+          "tag": "H2",
+          "text": "9. Záverečné ustanovenia"
+        }
+      ]
+    },
+    {
+      "path": "/obchodne-podmienky/",
+      "width": 375,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": 0,
+      "h1": [
+        "Obchodné podmienky"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Obchodné podmienky"
+        },
+        {
+          "tag": "H2",
+          "text": "1. Úvodné ustanovenia"
+        },
+        {
+          "tag": "H3",
+          "text": "1.1 Prevádzkovateľ internetového obchodu"
+        },
+        {
+          "tag": "H3",
+          "text": "1.2 Právne predpisy"
+        },
+        {
+          "tag": "H3",
+          "text": "1.3 Vymedzenie pojmov"
+        },
+        {
+          "tag": "H3",
+          "text": "Spotrebiteľ"
+        },
+        {
+          "tag": "H3",
+          "text": "Podnikateľ / B2B zákazník"
+        },
+        {
+          "tag": "H3",
+          "text": "Tovar"
+        },
+        {
+          "tag": "H2",
+          "text": "2. Objednávka a uzatvorenie zmluvy"
+        },
+        {
+          "tag": "H3",
+          "text": "2.1 Vytvorenie objednávky"
+        },
+        {
+          "tag": "H3",
+          "text": "2.2 Uzatvorenie kúpnej zmluvy"
+        },
+        {
+          "tag": "H3",
+          "text": "2.3 Predobjednávky a tovar na objednávku"
+        },
+        {
+          "tag": "H2",
+          "text": "3. Cena tovaru"
+        },
+        {
+          "tag": "H3",
+          "text": "3.1 Ceny"
+        },
+        {
+          "tag": "H3",
+          "text": "3.2 Zjavne nesprávna cena"
+        },
+        {
+          "tag": "H3",
+          "text": "3.3 Akcie a zľavy"
+        },
+        {
+          "tag": "H2",
+          "text": "4. Platobné podmienky"
+        },
+        {
+          "tag": "H2",
+          "text": "5. Dodacie podmienky"
+        },
+        {
+          "tag": "H3",
+          "text": "5.1 Miesto doručenia"
+        },
+        {
+          "tag": "H3",
+          "text": "5.2 Doba dodania"
+        },
+        {
+          "tag": "H3",
+          "text": "5.3 Nadrozmerné a atypické zásielky"
+        },
+        {
+          "tag": "H3",
+          "text": "5.4 Rozdelenie objednávky"
+        },
+        {
+          "tag": "H2",
+          "text": "6. Prevzatie tovaru a prechod nebezpečenstva škody"
+        },
+        {
+          "tag": "H2",
+          "text": "7. Výhrada vlastníckeho práva"
+        },
+        {
+          "tag": "H2",
+          "text": "8. Reklamácie a zodpovednosť za vady"
+        },
+        {
+          "tag": "H2",
+          "text": "9. Odstúpenie od zmluvy"
+        },
+        {
+          "tag": "H2",
+          "text": "10. Technické informácie a fotografie"
+        },
+        {
+          "tag": "H2",
+          "text": "11. Elektro komponenty a odborná montáž"
+        },
+        {
+          "tag": "H2",
+          "text": "12. Technické poradenstvo"
+        },
+        {
+          "tag": "H2",
+          "text": "13. B2B podmienky"
+        },
+        {
+          "tag": "H2",
+          "text": "14. Neprevzaté zásielky"
+        },
+        {
+          "tag": "H2",
+          "text": "15. Vyššia moc"
+        },
+        {
+          "tag": "H2",
+          "text": "16. Recenzie a hodnotenia"
+        },
+        {
+          "tag": "H2",
+          "text": "17. Newsletter a marketingová komunikácia"
+        },
+        {
+          "tag": "H2",
+          "text": "18. Autorské práva"
+        },
+        {
+          "tag": "H2",
+          "text": "19. Ochrana osobných údajov"
+        },
+        {
+          "tag": "H2",
+          "text": "20. Alternatívne riešenie sporov"
+        },
+        {
+          "tag": "H2",
+          "text": "21. Záverečné ustanovenia"
+        }
+      ]
+    },
+    {
+      "path": "/reklamacny-poriadok/",
+      "width": 375,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": 0,
+      "h1": [
+        "Reklamačný poriadok"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Reklamačný poriadok"
+        },
+        {
+          "tag": "H2",
+          "text": "1. Úvodné ustanovenia"
+        },
+        {
+          "tag": "H2",
+          "text": "2. Vymedzenie pojmov"
+        },
+        {
+          "tag": "H3",
+          "text": "Spotrebiteľ"
+        },
+        {
+          "tag": "H3",
+          "text": "Podnikateľ / B2B zákazník"
+        },
+        {
+          "tag": "H2",
+          "text": "3. Zodpovednosť za vady"
+        },
+        {
+          "tag": "H2",
+          "text": "4. Doba zodpovednosti za vady"
+        },
+        {
+          "tag": "H3",
+          "text": "Spotrebiteľské zmluvy (B2C)"
+        },
+        {
+          "tag": "H3",
+          "text": "B2B zákazníci"
+        },
+        {
+          "tag": "H2",
+          "text": "5. Uplatnenie reklamácie"
+        },
+        {
+          "tag": "H2",
+          "text": "6. Postup vybavenia reklamácie"
+        },
+        {
+          "tag": "H2",
+          "text": "7. Náklady reklamácie"
+        },
+        {
+          "tag": "H2",
+          "text": "8. Výluky zo zodpovednosti za vady"
+        },
+        {
+          "tag": "H2",
+          "text": "9. Odmietnutie reklamácie"
+        },
+        {
+          "tag": "H2",
+          "text": "10. Alternatívne riešenie sporov"
+        },
+        {
+          "tag": "H2",
+          "text": "11. Záverečné ustanovenia"
+        }
+      ]
+    },
+    {
+      "path": "/hmozdinka-do-steny-10x60mm/",
+      "width": 375,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": 0,
+      "h1": [
+        "Hmoždinka do steny 10X60MM"
+      ],
+      "brand": [
+        {
+          "tag": "SPAN",
+          "text": "ZNAČKA: Timber Store",
+          "href": null
+        },
+        {
+          "tag": "SPAN",
+          "text": "ZNAČKA: Timber Store",
+          "href": null
+        }
+      ],
+      "colors": [
+        {
+          "variant": "copper",
+          "state": "normal",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(169, 93, 37)",
+          "outline": "3px",
+          "icon": "rgb(255, 255, 255)",
+          "disabled": false,
+          "ratio": 4.907163626445864
+        },
+        {
+          "variant": "copper",
+          "state": "hover",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(169, 93, 37)",
+          "outline": "3px",
+          "icon": "rgb(255, 255, 255)",
+          "disabled": false,
+          "ratio": 4.907163626445864
+        },
+        {
+          "variant": "copper",
+          "state": "focus",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(143, 77, 30)",
+          "outline": "2px",
+          "icon": "rgb(255, 255, 255)",
+          "disabled": false,
+          "ratio": 6.465066773336304
+        },
+        {
+          "variant": "ink",
+          "state": "normal",
+          "fg": "rgb(41, 36, 31)",
+          "bg": "rgb(212, 136, 74)",
+          "outline": "3px",
+          "icon": "rgb(41, 36, 31)",
+          "disabled": false,
+          "ratio": 5.430217428455296
+        },
+        {
+          "variant": "ink",
+          "state": "hover",
+          "fg": "rgb(41, 36, 31)",
+          "bg": "rgb(212, 136, 74)",
+          "outline": "3px",
+          "icon": "rgb(41, 36, 31)",
+          "disabled": false,
+          "ratio": 5.430217428455296
+        },
+        {
+          "variant": "ink",
+          "state": "focus",
+          "fg": "rgb(41, 36, 31)",
+          "bg": "rgb(212, 136, 74)",
+          "outline": "2px",
+          "icon": "rgb(41, 36, 31)",
+          "disabled": false,
+          "ratio": 5.430217428455296
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "width": 375,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": 0,
+      "h1": [
+        "Nábytkové kovanie a príslušenstvo"
+      ]
+    },
+    {
+      "path": "/profily-a-listy-k-pracovnym-doskam/",
+      "width": 375,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": 0,
+      "h1": [
+        "Profily a lišty k pracovným doskám"
+      ]
+    },
+    {
+      "width": 375,
+      "errors": [],
+      "blocked": [
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "path": "/kontakty/",
+      "width": 1440,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": 2,
+      "h1": [
+        "Kontakty"
+      ],
+      "contact": {
+        "forms": 1,
+        "action": "/action/MailForm/SendEmail/",
+        "method": "post",
+        "inputs": [
+          {
+            "name": "formId",
+            "type": "hidden",
+            "required": false,
+            "value": "1"
+          },
+          {
+            "name": "fullName",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "surname",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "message",
+            "type": "textarea",
+            "required": true
+          },
+          {
+            "name": "captcha",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "consents[]",
+            "type": "hidden",
+            "required": false,
+            "value": "25"
+          }
+        ],
+        "valid": false,
+        "hours": 1,
+        "hoursText": "PO – PIA (08:00 – 16:00)",
+        "company": "Sídlo spoločnosti a fakturačné údaje\nTimber Global s. r. o.\nDo Dubu 583/37 013 14 Kamenná Poruba Slovenská republika IČO: 56 039 921DIČ: 2122201609 IČ DPH: SK2122201609 E-mail: info@timberstore.sk Tel.: +421 904 479 842\n",
+        "links": [
+          {
+            "href": "mailto:info@timberstore.sk",
+            "text": "info@timberstore.sk"
+          },
+          {
+            "href": "tel:+421904479842",
+            "text": "+421 904 479 842"
+          },
+          {
+            "href": "https://www.facebook.com/timberstore",
+            "text": ""
+          },
+          {
+            "href": "https://www.instagram.com/timberstore.sk/",
+            "text": ""
+          },
+          {
+            "href": "/moja-objednavka/",
+            "text": "Stav objednávky"
+          },
+          {
+            "href": "/doprava-a-platba/",
+            "text": "Doprava a platba"
+          },
+          {
+            "href": "/reklamacny-poriadok/",
+            "text": "Reklamácie"
+          },
+          {
+            "href": "/podmienky-ochrany-osobnych-udajov/",
+            "text": "Ochrana osobných údajov"
+          },
+          {
+            "href": "/podmienky-ochrany-osobnych-udajov/",
+            "text": "podmienkami ochrany osobných údajov"
+          }
+        ],
+        "captcha": true,
+        "consent": true,
+        "h1": 1,
+        "columns": "414.797px 561.203px"
+      }
+    },
+    {
+      "path": "/doprava-a-platba/",
+      "width": 1440,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": -15,
+      "h1": [
+        "Doprava a platba"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Doprava a platba"
+        },
+        {
+          "tag": "H2",
+          "text": "1. Úvodné ustanovenia"
+        },
+        {
+          "tag": "H2",
+          "text": "2. Možnosti dopravy"
+        },
+        {
+          "tag": "H2",
+          "text": "3. Doba dodania"
+        },
+        {
+          "tag": "H3",
+          "text": "Tovar skladom"
+        },
+        {
+          "tag": "H3",
+          "text": "Tovar z centrálneho alebo externého skladu"
+        },
+        {
+          "tag": "H3",
+          "text": "Individuálne alebo nadrozmerné zásielky"
+        },
+        {
+          "tag": "H2",
+          "text": "4. Kontrola zásielky pri prevzatí"
+        },
+        {
+          "tag": "H2",
+          "text": "5. Platobné možnosti"
+        },
+        {
+          "tag": "H3",
+          "text": "Online platba kartou"
+        },
+        {
+          "tag": "H3",
+          "text": "Bankový prevod"
+        },
+        {
+          "tag": "H3",
+          "text": "Dobierka"
+        },
+        {
+          "tag": "H2",
+          "text": "6. Elektronická faktúra"
+        },
+        {
+          "tag": "H2",
+          "text": "7. Obmedzenie doručenia"
+        },
+        {
+          "tag": "H2",
+          "text": "8. Neprevzaté zásielky"
+        },
+        {
+          "tag": "H2",
+          "text": "9. Záverečné ustanovenia"
+        }
+      ]
+    },
+    {
+      "path": "/obchodne-podmienky/",
+      "width": 1440,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": -15,
+      "h1": [
+        "Obchodné podmienky"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Obchodné podmienky"
+        },
+        {
+          "tag": "H2",
+          "text": "1. Úvodné ustanovenia"
+        },
+        {
+          "tag": "H3",
+          "text": "1.1 Prevádzkovateľ internetového obchodu"
+        },
+        {
+          "tag": "H3",
+          "text": "1.2 Právne predpisy"
+        },
+        {
+          "tag": "H3",
+          "text": "1.3 Vymedzenie pojmov"
+        },
+        {
+          "tag": "H3",
+          "text": "Spotrebiteľ"
+        },
+        {
+          "tag": "H3",
+          "text": "Podnikateľ / B2B zákazník"
+        },
+        {
+          "tag": "H3",
+          "text": "Tovar"
+        },
+        {
+          "tag": "H2",
+          "text": "2. Objednávka a uzatvorenie zmluvy"
+        },
+        {
+          "tag": "H3",
+          "text": "2.1 Vytvorenie objednávky"
+        },
+        {
+          "tag": "H3",
+          "text": "2.2 Uzatvorenie kúpnej zmluvy"
+        },
+        {
+          "tag": "H3",
+          "text": "2.3 Predobjednávky a tovar na objednávku"
+        },
+        {
+          "tag": "H2",
+          "text": "3. Cena tovaru"
+        },
+        {
+          "tag": "H3",
+          "text": "3.1 Ceny"
+        },
+        {
+          "tag": "H3",
+          "text": "3.2 Zjavne nesprávna cena"
+        },
+        {
+          "tag": "H3",
+          "text": "3.3 Akcie a zľavy"
+        },
+        {
+          "tag": "H2",
+          "text": "4. Platobné podmienky"
+        },
+        {
+          "tag": "H2",
+          "text": "5. Dodacie podmienky"
+        },
+        {
+          "tag": "H3",
+          "text": "5.1 Miesto doručenia"
+        },
+        {
+          "tag": "H3",
+          "text": "5.2 Doba dodania"
+        },
+        {
+          "tag": "H3",
+          "text": "5.3 Nadrozmerné a atypické zásielky"
+        },
+        {
+          "tag": "H3",
+          "text": "5.4 Rozdelenie objednávky"
+        },
+        {
+          "tag": "H2",
+          "text": "6. Prevzatie tovaru a prechod nebezpečenstva škody"
+        },
+        {
+          "tag": "H2",
+          "text": "7. Výhrada vlastníckeho práva"
+        },
+        {
+          "tag": "H2",
+          "text": "8. Reklamácie a zodpovednosť za vady"
+        },
+        {
+          "tag": "H2",
+          "text": "9. Odstúpenie od zmluvy"
+        },
+        {
+          "tag": "H2",
+          "text": "10. Technické informácie a fotografie"
+        },
+        {
+          "tag": "H2",
+          "text": "11. Elektro komponenty a odborná montáž"
+        },
+        {
+          "tag": "H2",
+          "text": "12. Technické poradenstvo"
+        },
+        {
+          "tag": "H2",
+          "text": "13. B2B podmienky"
+        },
+        {
+          "tag": "H2",
+          "text": "14. Neprevzaté zásielky"
+        },
+        {
+          "tag": "H2",
+          "text": "15. Vyššia moc"
+        },
+        {
+          "tag": "H2",
+          "text": "16. Recenzie a hodnotenia"
+        },
+        {
+          "tag": "H2",
+          "text": "17. Newsletter a marketingová komunikácia"
+        },
+        {
+          "tag": "H2",
+          "text": "18. Autorské práva"
+        },
+        {
+          "tag": "H2",
+          "text": "19. Ochrana osobných údajov"
+        },
+        {
+          "tag": "H2",
+          "text": "20. Alternatívne riešenie sporov"
+        },
+        {
+          "tag": "H2",
+          "text": "21. Záverečné ustanovenia"
+        }
+      ]
+    },
+    {
+      "path": "/reklamacny-poriadok/",
+      "width": 1440,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": -15,
+      "h1": [
+        "Reklamačný poriadok"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Reklamačný poriadok"
+        },
+        {
+          "tag": "H2",
+          "text": "1. Úvodné ustanovenia"
+        },
+        {
+          "tag": "H2",
+          "text": "2. Vymedzenie pojmov"
+        },
+        {
+          "tag": "H3",
+          "text": "Spotrebiteľ"
+        },
+        {
+          "tag": "H3",
+          "text": "Podnikateľ / B2B zákazník"
+        },
+        {
+          "tag": "H2",
+          "text": "3. Zodpovednosť za vady"
+        },
+        {
+          "tag": "H2",
+          "text": "4. Doba zodpovednosti za vady"
+        },
+        {
+          "tag": "H3",
+          "text": "Spotrebiteľské zmluvy (B2C)"
+        },
+        {
+          "tag": "H3",
+          "text": "B2B zákazníci"
+        },
+        {
+          "tag": "H2",
+          "text": "5. Uplatnenie reklamácie"
+        },
+        {
+          "tag": "H2",
+          "text": "6. Postup vybavenia reklamácie"
+        },
+        {
+          "tag": "H2",
+          "text": "7. Náklady reklamácie"
+        },
+        {
+          "tag": "H2",
+          "text": "8. Výluky zo zodpovednosti za vady"
+        },
+        {
+          "tag": "H2",
+          "text": "9. Odmietnutie reklamácie"
+        },
+        {
+          "tag": "H2",
+          "text": "10. Alternatívne riešenie sporov"
+        },
+        {
+          "tag": "H2",
+          "text": "11. Záverečné ustanovenia"
+        }
+      ]
+    },
+    {
+      "path": "/hmozdinka-do-steny-10x60mm/",
+      "width": 1440,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": -9,
+      "h1": [
+        "Hmoždinka do steny 10X60MM"
+      ],
+      "brand": [
+        {
+          "tag": "SPAN",
+          "text": "ZNAČKA: Timber Store",
+          "href": null
+        },
+        {
+          "tag": "SPAN",
+          "text": "ZNAČKA: Timber Store",
+          "href": null
+        }
+      ],
+      "colors": [
+        {
+          "variant": "copper",
+          "state": "normal",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(169, 93, 37)",
+          "outline": "3px",
+          "icon": "rgb(255, 255, 255)",
+          "disabled": false,
+          "ratio": 4.907163626445864
+        },
+        {
+          "variant": "copper",
+          "state": "hover",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(143, 77, 30)",
+          "outline": "3px",
+          "icon": "rgb(255, 255, 255)",
+          "disabled": false,
+          "ratio": 6.465066773336304
+        },
+        {
+          "variant": "copper",
+          "state": "focus",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(143, 77, 30)",
+          "outline": "2px",
+          "icon": "rgb(255, 255, 255)",
+          "disabled": false,
+          "ratio": 6.465066773336304
+        },
+        {
+          "variant": "ink",
+          "state": "normal",
+          "fg": "rgb(41, 36, 31)",
+          "bg": "rgb(212, 136, 74)",
+          "outline": "3px",
+          "icon": "rgb(41, 36, 31)",
+          "disabled": false,
+          "ratio": 5.430217428455296
+        },
+        {
+          "variant": "ink",
+          "state": "hover",
+          "fg": "rgb(41, 36, 31)",
+          "bg": "rgb(212, 136, 74)",
+          "outline": "3px",
+          "icon": "rgb(41, 36, 31)",
+          "disabled": false,
+          "ratio": 5.430217428455296
+        },
+        {
+          "variant": "ink",
+          "state": "focus",
+          "fg": "rgb(41, 36, 31)",
+          "bg": "rgb(212, 136, 74)",
+          "outline": "2px",
+          "icon": "rgb(41, 36, 31)",
+          "disabled": false,
+          "ratio": 5.430217428455296
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": -13,
+      "h1": [
+        "Nábytkové kovanie a príslušenstvo"
+      ]
+    },
+    {
+      "path": "/profily-a-listy-k-pracovnym-doskam/",
+      "width": 1440,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": -15,
+      "h1": [
+        "Profily a lišty k pracovným doskám"
+      ]
+    },
+    {
+      "width": 1440,
+      "errors": [],
+      "blocked": [
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "path": "/kontakty/",
+      "width": 320,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": 0,
+      "h1": [
+        "Kontakty"
+      ],
+      "contact": {
+        "forms": 1,
+        "action": "/action/MailForm/SendEmail/",
+        "method": "post",
+        "inputs": [
+          {
+            "name": "formId",
+            "type": "hidden",
+            "required": false,
+            "value": "1"
+          },
+          {
+            "name": "fullName",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "surname",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "message",
+            "type": "textarea",
+            "required": true
+          },
+          {
+            "name": "captcha",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "consents[]",
+            "type": "hidden",
+            "required": false,
+            "value": "25"
+          }
+        ],
+        "valid": false,
+        "hours": 1,
+        "hoursText": "PO – PIA (08:00 – 16:00)",
+        "company": "Sídlo spoločnosti a fakturačné údaje\nTimber Global s. r. o.\nDo Dubu 583/37 013 14 Kamenná Poruba Slovenská republika IČO: 56 039 921DIČ: 2122201609 IČ DPH: SK2122201609 E-mail: info@timberstore.sk Tel.: +421 904 479 842\n",
+        "links": [
+          {
+            "href": "mailto:info@timberstore.sk",
+            "text": "info@timberstore.sk"
+          },
+          {
+            "href": "tel:+421904479842",
+            "text": "+421 904 479 842"
+          },
+          {
+            "href": "https://www.facebook.com/timberstore",
+            "text": ""
+          },
+          {
+            "href": "https://www.instagram.com/timberstore.sk/",
+            "text": ""
+          },
+          {
+            "href": "/moja-objednavka/",
+            "text": "Stav objednávky"
+          },
+          {
+            "href": "/doprava-a-platba/",
+            "text": "Doprava a platba"
+          },
+          {
+            "href": "/reklamacny-poriadok/",
+            "text": "Reklamácie"
+          },
+          {
+            "href": "/podmienky-ochrany-osobnych-udajov/",
+            "text": "Ochrana osobných údajov"
+          },
+          {
+            "href": "/podmienky-ochrany-osobnych-udajov/",
+            "text": "podmienkami ochrany osobných údajov"
+          }
+        ],
+        "captcha": true,
+        "consent": true,
+        "h1": 1,
+        "columns": "280px"
+      }
+    },
+    {
+      "width": 320,
+      "errors": [],
+      "blocked": [
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    },
+    {
+      "path": "/kontakty/",
+      "width": 1024,
+      "version": "v0.7.6-rc.0",
+      "preview": true,
+      "variant": "copper",
+      "overflow": -15,
+      "h1": [
+        "Kontakty"
+      ],
+      "contact": {
+        "forms": 1,
+        "action": "/action/MailForm/SendEmail/",
+        "method": "post",
+        "inputs": [
+          {
+            "name": "formId",
+            "type": "hidden",
+            "required": false,
+            "value": "1"
+          },
+          {
+            "name": "fullName",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "surname",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "message",
+            "type": "textarea",
+            "required": true
+          },
+          {
+            "name": "captcha",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "consents[]",
+            "type": "hidden",
+            "required": false,
+            "value": "25"
+          }
+        ],
+        "valid": false,
+        "hours": 1,
+        "hoursText": "PO – PIA (08:00 – 16:00)",
+        "company": "Sídlo spoločnosti a fakturačné údaje\nTimber Global s. r. o.\nDo Dubu 583/37 013 14 Kamenná Poruba Slovenská republika IČO: 56 039 921DIČ: 2122201609 IČ DPH: SK2122201609 E-mail: info@timberstore.sk Tel.: +421 904 479 842\n",
+        "links": [
+          {
+            "href": "mailto:info@timberstore.sk",
+            "text": "info@timberstore.sk"
+          },
+          {
+            "href": "tel:+421904479842",
+            "text": "+421 904 479 842"
+          },
+          {
+            "href": "https://www.facebook.com/timberstore",
+            "text": ""
+          },
+          {
+            "href": "https://www.instagram.com/timberstore.sk/",
+            "text": ""
+          },
+          {
+            "href": "/moja-objednavka/",
+            "text": "Stav objednávky"
+          },
+          {
+            "href": "/doprava-a-platba/",
+            "text": "Doprava a platba"
+          },
+          {
+            "href": "/reklamacny-poriadok/",
+            "text": "Reklamácie"
+          },
+          {
+            "href": "/podmienky-ochrany-osobnych-udajov/",
+            "text": "Ochrana osobných údajov"
+          },
+          {
+            "href": "/podmienky-ochrany-osobnych-udajov/",
+            "text": "podmienkami ochrany osobných údajov"
+          }
+        ],
+        "captcha": true,
+        "consent": true,
+        "h1": 1,
+        "columns": "377.391px 510.609px"
+      }
+    },
+    {
+      "width": 1024,
+      "errors": [],
+      "blocked": [
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        }
+      ]
+    }
+  ]
+}

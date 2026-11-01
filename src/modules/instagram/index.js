@@ -1,3 +1,4 @@
+import { addContactIcon } from '../../core/contact-icons.js';
 import { SEL } from '../../core/selectors.js';
 import { setupHorizontalSlider } from '../../core/horizontal-slider.js';
 import { INSTAGRAM_FEED } from '../../core/contacts.js';
@@ -95,6 +96,7 @@ function sync(block) {
     follow.classList.remove('btn', 'btn-primary', 'btn-secondary');
     follow.textContent = TEXTS.instagram.title;
     follow.rel = 'noopener noreferrer';
+    addContactIcon(follow, 'instagram');
     heading.append(follow);
     block.prepend(heading);
   }

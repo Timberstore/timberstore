@@ -1,0 +1,19 @@
+import{browser,context,visit}from'../audit-2026-11-01/lib.mjs';import{writeFileSync}from'node:fs';import assert from'node:assert/strict';
+const sha='0054e904ef4e27824406a8e96fb7a3e71e3d6f0f',b=await browser(),{c,errors}=await context(b),p=await c.newPage(),out=[];
+const ratio=(a,b)=>{const l=c=>c.match(/[\d.]+/g).slice(0,3).map(Number).map(x=>(x/=255)<=.04045?x/12.92:((x+.055)/1.055)**2.4).reduce((s,v,i)=>s+v*[.2126,.7152,.0722][i],0);const x=l(a),y=l(b);return(Math.max(x,y)+.05)/(Math.min(x,y)+.05)};
+try{
+ for(const path of ['/doprava-a-platba/','/obchodne-podmienky/','/reklamacny-poriadok/']){
+  await visit(p,path+'?ts_preview=off');const original=await p.locator('.pageArticleDetail').evaluate(e=>({text:e.textContent,headings:[...e.querySelectorAll('h1,h2,h3,h4')].map(e=>({text:e.textContent,style:['fontSize','fontWeight','lineHeight','marginTop','marginBottom','color'].map(k=>getComputedStyle(e)[k])})),h1:e.querySelectorAll('h1').length}));
+  assert.equal(await p.locator('html').getAttribute('data-ts-contrast'),null);
+  await visit(p,path+'?ts_preview='+sha);const changed=await p.locator('.pageArticleDetail').evaluate(e=>({text:e.textContent,headings:[...e.querySelectorAll('header h1,.ts-audit-heading,h1,h2,h3,h4')].map(e=>({text:e.textContent,style:['fontSize','fontWeight','lineHeight','marginTop','marginBottom','color'].map(k=>getComputedStyle(e)[k])})),h1:e.querySelectorAll('h1').length}));
+  assert.equal(changed.text,original.text);assert.deepEqual(changed.headings,original.headings);assert.equal(changed.h1,1);out.push({path,originalH1:original.h1,previewH1:changed.h1,bodyTextIdentical:true,visualHeadingStylesIdentical:true});
+ }
+ await visit(p,'/hmozdinka-do-steny-10x60mm/?ts_preview='+sha+'&ts_contrast=copper');
+ const colors=await p.evaluate(()=>['.availability-label','.availability-value span:first-child','#footer .custom-footer__articles a'].map(selector=>{const e=document.querySelector(selector);if(!e)return{selector,missing:true};let parent=e,bg;while(parent){bg=getComputedStyle(parent).backgroundColor;if(bg!=='rgba(0, 0, 0, 0)')break;parent=parent.parentElement}return{selector,text:e.textContent,fg:getComputedStyle(e).color,bg:bg==='rgba(0, 0, 0, 0)'?'rgb(255, 255, 255)':bg}}));
+ for(const s of colors){assert(!s.missing);s.ratio=ratio(s.fg,s.bg);assert(s.ratio>=4.5,JSON.stringify(s));}out.push({colors});
+ await visit(p,'/spojovacia-lista-rohova-na-pracovnu-dosku-38-l-p-hlinik/?ts_preview='+sha);
+ const a=p.locator('.shp-tab-link[href="#relatedFiles"]');if(await a.count())await a.first().evaluate(e=>e.click());const files=await p.locator('#relatedFiles li a[href]').evaluateAll(es=>es.map(e=>({name:e.textContent.trim(),href:e.getAttribute('href'),target:e.target,rel:e.rel})));assert(files.length>=2);out.push({attachmentLinksPreserved:files});
+ await visit(p,'/?ts_preview='+sha);await p.evaluate(()=>{document.querySelector('[data-testid=buttonCookiesReject]')?.click();document.querySelector('.site-msg.information .js-close-information-msg')?.click()});await p.locator('.ts-home-title').scrollIntoViewIfNeeded();await p.screenshot({path:'/workspace/timberstore/work/audit-preview-evidence/cdn-home.png'});assert(await p.locator('.ts-home-title').isVisible());
+ await visit(p,'/kontakty/?ts_preview=off');assert.equal(await p.locator('.ts-contact-grid').count(),0);assert.equal(await p.locator('.pageArticleDetail h1').textContent(),'Napíšte nám');assert.equal(await p.locator('html').getAttribute('data-ts-contrast'),null);assert.equal(await p.evaluate(()=>Timber.version),'v0.7.5');assert.equal(await p.evaluate(()=>TimberLoader.preview),false);out.push({production:'v0.7.5',preview:false,experimentsAbsent:true});
+}finally{writeFileSync('/workspace/timberstore/work/audit-preview-evidence/cdn-extra.json',JSON.stringify({sha,results:out,errors},null,2));await b.close()}
+console.log(JSON.stringify(out));

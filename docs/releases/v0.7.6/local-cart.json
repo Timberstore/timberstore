@@ -1,0 +1,718 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "pass": true,
+      "checks": [
+        {
+          "test": "add quantity 2",
+          "status": 200
+        },
+        {
+          "test": "server cart quantity 2",
+          "pass": true,
+          "text": "Spojovacia lišta rohová na pracovnú dosku 38 L/P hliník Kód: 313668\nSKLADOM\n(>100 ks)\nSÚVISIACI TOVAR: 2 (OD 3,36 €)\nMnožstvo\n+\n−\n4,05 € / ks\n8,10 €"
+        },
+        {
+          "test": "change quantity 3",
+          "pass": true,
+          "text": "Spojovacia lišta rohová na pracovnú dosku 38 L/P hliník Kód: 313668\nSKLADOM\n(>100 ks)\nSÚVISIACI TOVAR: 2 (OD 3,36 €)\nMnožstvo\n+\n−\n4,05 € / ks\n8,10 €"
+        },
+        {
+          "test": "shipping/payment selected",
+          "shipping": {
+            "id": "shippingId-95",
+            "value": "95",
+            "disabled": false,
+            "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície) ? 5,20 €"
+          },
+          "payment": {
+            "id": "billingId-5",
+            "value": "5",
+            "disabled": false,
+            "text": "Prevodom Táto kombinácia dopravy a platby nie je možná. ZADARMO"
+          }
+        },
+        {
+          "test": "checkout shared social icons",
+          "pass": true,
+          "socials": [
+            {
+              "href": "https://www.facebook.com/timberstore",
+              "kind": "facebook",
+              "count": 1,
+              "color": "rgb(212, 136, 74)",
+              "size": "32px"
+            },
+            {
+              "href": "https://www.instagram.com/timberstore.sk/",
+              "kind": "instagram",
+              "count": 1,
+              "color": "rgb(212, 136, 74)",
+              "size": "32px"
+            }
+          ]
+        },
+        {
+          "test": "personal details reached, no fields filled and no order submitted",
+          "pass": true,
+          "url": "https://www.timberstore.sk/objednavka/krok-2/",
+          "fields": [
+            {
+              "name": "surname",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "billFullName",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "phone",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "companyShopping",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "companyId",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "vatId",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "billCompany",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "billStreet",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "billCity",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "billZip",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "anotherShipping",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "deliveryFullName",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "deliveryStreet",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "deliveryCity",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "deliveryZip",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "deliveryCompany",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "doNotSendNewsletter",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "setRegistration",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "heurekaConsent",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "productRatingRequestOptOut",
+              "type": "checkbox",
+              "required": false
+            }
+          ],
+          "buttons": [
+            "Objednať\n        s povinnosťou platby"
+          ],
+          "summary": "Srí Lanka +94 Stredoafrická republika +236 Sudán +249 Surinam +597 Svätá Lucia +1 Svätý Krištof a Nevis +1 Svätý Tomáš a Princov ostrov +239 Svazijsko +268 Sýria +963 Šalomúnove ostrovy +677 Španielsko +34 Španielsko - Ceuta +34 Španielsko - Kanárske ostrovy +34 Španielsko - Melilla +34 Švajčiarsko +41 Švédsko +46 Tádžikistán +992 Taiwan +886 Taliansko +39 Tanzánia +255 Thajsko +66 Togo +228 Tonga +676 Trinidad a Tobago +1868 Tunisko +216 Turecko +90 Turkménsko +993 Tuvalu +688 Uganda +256 Ukrajina +380 Uruguay +598 Uzbekistan +998 Vanuatu +678 Vatikán +39 Veľká Británia +44 Venezuela +58 Vietnam +84 Východný Timor +670 Zambie +260 Západná Sahara +212 Zimbabwe +263 Fakturačná adresa Objednávam na firmu IČO IČ DPH (len platcovia DPH) ? Uvádzajte len v prípade, že ste platcom DPH. Vždy začína dvoma písmenami - kódom štátu. Pre SR má tvar SK + 10 číslic. Český ekvivalent je DIČ u platcov DPH. Anglicky -VAT number. Názov spoločnosti Ulica a číslo domu Mesto PSČ Štát Slovensko Štát Slovensko Doručiť na inú adresu Doručovacia adresa Meno a priezvisko Ulica a číslo domu Mesto PSČ Spoločnosť Zadať poznámku pre predajcu Vaša poznámka Neprajem si odoberať newslettre Chcem sa registrovať (Informácie o registrácii Vám budú zaslané e-mailom) Zhrnutie objednávky Spojovacia lišta rohová na pracovnú dosku 38 L/P hliník 3 ks 12,15 € Doprava Spôsob dopravy 5,20 € EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície) Platba Platba 0 € Prevodom Celkom za tovar: 12,15 € Celkom k úhrade 17,35 € Cena bez DPH 14,11 € Nezasielať dotazník spokojnosti v rámci programu Overené zákazníkmi Nesúhlasím so zaslaním žiadosti o hodnotenie internetového obchodu a produktov Odoslaním objednávky súhlasíte s obchodnými podmienkami a podmienkami ochrany osobných údajov Späť Objednať s povinnosťou platby ",
+          "horizontal": false
+        }
+      ],
+      "records": [
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/CustomerCookieConsent/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/Cart/addCartItem/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/FacebookCAPI/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "cdn.myshoptet.com",
+          "path": "/usr/apollo.jakubtursky.sk/user/documents/assets/img/colorbox/loading.gif",
+          "status": 404,
+          "policy": false
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/Cart/setCartItemAmount/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/FacebookCAPI/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/OrderingProcess/step2CustomerAjax/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/orderingProcess/Step1Validate/",
+          "method": "POST",
+          "status": 302
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/Cart/deleteCartItem/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/FacebookCAPI/",
+          "method": "POST",
+          "status": 200
+        }
+      ],
+      "blocked": [
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.heureka.sk",
+          "path": "/ocm/sdk.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "applepay.cdn-apple.com",
+          "path": "/jsapi/1.latest/apple-pay-sdk.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "d1uuj3mi6rzwpm.cloudfront.net",
+          "path": "/logos/providers/sk/slovenska_sporitelna_sk.svg",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "pass": true,
+      "checks": [
+        {
+          "test": "add quantity 2",
+          "status": 200
+        },
+        {
+          "test": "server cart quantity 2",
+          "pass": true,
+          "text": "Spojovacia lišta rohová na pracovnú dosku 38 L/P hliník Kód: 313668\nSKLADOM\n(>100 ks)\nSÚVISIACI TOVAR: 2 (OD 3,36 €)\nMnožstvo\n+\n−\n4,05 € / ks\n8,10 €"
+        },
+        {
+          "test": "change quantity 3",
+          "pass": true,
+          "text": "Spojovacia lišta rohová na pracovnú dosku 38 L/P hliník Kód: 313668\nSKLADOM\n(>100 ks)\nSÚVISIACI TOVAR: 2 (OD 3,36 €)\nMnožstvo\n+\n−\n4,05 € / ks\n8,10 €"
+        },
+        {
+          "test": "shipping/payment selected",
+          "shipping": {
+            "id": "shippingId-95",
+            "value": "95",
+            "disabled": false,
+            "text": "EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície) ? 5,20 €"
+          },
+          "payment": {
+            "id": "billingId-5",
+            "value": "5",
+            "disabled": false,
+            "text": "Prevodom Táto kombinácia dopravy a platby nie je možná. ZADARMO"
+          }
+        },
+        {
+          "test": "checkout shared social icons",
+          "pass": true,
+          "socials": [
+            {
+              "href": "https://www.facebook.com/timberstore",
+              "kind": "facebook",
+              "count": 1,
+              "color": "rgb(212, 136, 74)",
+              "size": "32px"
+            },
+            {
+              "href": "https://www.instagram.com/timberstore.sk/",
+              "kind": "instagram",
+              "count": 1,
+              "color": "rgb(212, 136, 74)",
+              "size": "32px"
+            }
+          ]
+        },
+        {
+          "test": "personal details reached, no fields filled and no order submitted",
+          "pass": true,
+          "url": "https://www.timberstore.sk/objednavka/krok-2/",
+          "fields": [
+            {
+              "name": "surname",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "billFullName",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "phone",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "companyShopping",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "companyId",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "vatId",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "billCompany",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "billStreet",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "billCity",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "billZip",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "anotherShipping",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "deliveryFullName",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "deliveryStreet",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "deliveryCity",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "deliveryZip",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "deliveryCompany",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "doNotSendNewsletter",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "setRegistration",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "heurekaConsent",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "productRatingRequestOptOut",
+              "type": "checkbox",
+              "required": false
+            }
+          ],
+          "buttons": [
+            "Objednať\n        s povinnosťou platby"
+          ],
+          "summary": "Srí Lanka +94 Stredoafrická republika +236 Sudán +249 Surinam +597 Svätá Lucia +1 Svätý Krištof a Nevis +1 Svätý Tomáš a Princov ostrov +239 Svazijsko +268 Sýria +963 Šalomúnove ostrovy +677 Španielsko +34 Španielsko - Ceuta +34 Španielsko - Kanárske ostrovy +34 Španielsko - Melilla +34 Švajčiarsko +41 Švédsko +46 Tádžikistán +992 Taiwan +886 Taliansko +39 Tanzánia +255 Thajsko +66 Togo +228 Tonga +676 Trinidad a Tobago +1868 Tunisko +216 Turecko +90 Turkménsko +993 Tuvalu +688 Uganda +256 Ukrajina +380 Uruguay +598 Uzbekistan +998 Vanuatu +678 Vatikán +39 Veľká Británia +44 Venezuela +58 Vietnam +84 Východný Timor +670 Zambie +260 Západná Sahara +212 Zimbabwe +263 Fakturačná adresa Objednávam na firmu IČO IČ DPH (len platcovia DPH) ? Uvádzajte len v prípade, že ste platcom DPH. Vždy začína dvoma písmenami - kódom štátu. Pre SR má tvar SK + 10 číslic. Český ekvivalent je DIČ u platcov DPH. Anglicky -VAT number. Názov spoločnosti Ulica a číslo domu Mesto PSČ Štát Slovensko Štát Slovensko Doručiť na inú adresu Doručovacia adresa Meno a priezvisko Ulica a číslo domu Mesto PSČ Spoločnosť Zadať poznámku pre predajcu Vaša poznámka Neprajem si odoberať newslettre Chcem sa registrovať (Informácie o registrácii Vám budú zaslané e-mailom) Zhrnutie objednávky Spojovacia lišta rohová na pracovnú dosku 38 L/P hliník 3 ks 12,15 € Doprava Spôsob dopravy 5,20 € EXPRES KURIÉR – na adresu (doručenie 1–2 dni od expedície) Platba Platba 0 € Prevodom Celkom za tovar: 12,15 € Celkom k úhrade 17,35 € Cena bez DPH 14,11 € Nezasielať dotazník spokojnosti v rámci programu Overené zákazníkmi Nesúhlasím so zaslaním žiadosti o hodnotenie internetového obchodu a produktov Odoslaním objednávky súhlasíte s obchodnými podmienkami a podmienkami ochrany osobných údajov Späť Objednať s povinnosťou platby ",
+          "horizontal": false
+        }
+      ],
+      "records": [
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/CustomerCookieConsent/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/Cart/addCartItem/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/FacebookCAPI/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "cdn.myshoptet.com",
+          "path": "/usr/apollo.jakubtursky.sk/user/documents/assets/img/colorbox/loading.gif",
+          "status": 404,
+          "policy": false
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/Cart/setCartItemAmount/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/FacebookCAPI/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/OrderingProcess/step2CustomerAjax/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/orderingProcess/Step1Validate/",
+          "method": "POST",
+          "status": 302
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/Cart/deleteCartItem/",
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "host": "www.timberstore.sk",
+          "path": "/action/FacebookCAPI/",
+          "method": "POST",
+          "status": 200
+        }
+      ],
+      "blocked": [
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.heureka.sk",
+          "path": "/ocm/sdk.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "applepay.cdn-apple.com",
+          "path": "/jsapi/1.latest/apple-pay-sdk.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "d1uuj3mi6rzwpm.cloudfront.net",
+          "path": "/logos/providers/sk/slovenska_sporitelna_sk.svg",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "scripts.luigisbox.tech",
+          "path": "/LBX-1266949.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "host": "bat.bing.com",
+          "path": "/bat.js",
+          "error": "TypeError: fetch failed"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
