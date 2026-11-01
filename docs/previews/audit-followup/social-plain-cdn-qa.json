@@ -1,0 +1,1611 @@
+{
+  "sha": "f6e38ba9af1b49c8063a7f1b3513a548586a6466",
+  "rows": [
+    {
+      "width": 1440,
+      "path": "/kontakty/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "path": "/kontakty/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "path": "/profily-a-listy-k-pracovnym-doskam/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "path": "/profily-a-listy-k-pracovnym-doskam/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "path": "/hmozdinka-do-steny-10x60mm/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "path": "/hmozdinka-do-steny-10x60mm/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "path": "/kosik/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "path": "/kosik/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "path": "/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": false,
+          "rect": {
+            "width": 0,
+            "height": 0
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "pass": true,
+      "items": [
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.facebook.com/timberstore",
+          "kind": "facebook",
+          "count": 1,
+          "label": "Timber Store na Facebooku",
+          "legacy": "none",
+          "path": "M14 22v-9h3l1-4h-4V7c0-1 0-2 2-2h2V1h-3c-4 0-5 3-5 6v2H7v4h3v9z",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "rgb(212, 136, 74)",
+            "stroke": "none",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/timberstore.sk/",
+          "kind": "instagram",
+          "count": 1,
+          "label": "Timber Store na Instagrame",
+          "legacy": "none",
+          "path": "M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M17 6h.01",
+          "visible": true,
+          "rect": {
+            "width": 32,
+            "height": 32
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "padding": "7px",
+            "borderWidth": "0px",
+            "borderColor": "rgb(212, 136, 74)",
+            "borderRadius": "0px",
+            "color": "rgb(212, 136, 74)",
+            "fill": "none",
+            "stroke": "rgb(212, 136, 74)",
+            "strokeWidth": "1.8px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none"
+          }
+        }
+      ]
+    },
+    {
+      "resizedWidth": 768,
+      "pass": true
+    },
+    {
+      "resizedWidth": 1024,
+      "pass": true
+    },
+    {
+      "resizedWidth": 320,
+      "pass": true
+    },
+    {
+      "resizedWidth": 1440,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "errors": []
+    }
+  ]
+}
