@@ -164,6 +164,9 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Sociálne ikony, variant 3 `0.7.6-rc.3` (1. 11. 2026):** klient vybral tenký rámik a farby webu. Iba CSS/tokeny a build verzia; preberá limity JS 36.25 / CSS 32.5 KiB bez zvýšenia. Výstup 36.14 / 32.12 KiB. Iba commit-preview, bez release/tagu/merge alebo zmeny produkčného loadera. Safari/iPhone a PageSpeed NOT TESTED.
+
+
 - **Sociálne ikony preview `0.7.6-rc.2` (1. 11. 2026):** rovnaké SVG a značkové farby všade na webe podľa požiadavky majiteľa. Preberá rc.0/rc.1 limity JS 36.25 / CSS 32.5 KiB bez zvýšenia; namerané 36.14 / 32.13 KiB. Iba commit-preview, bez release/tagu/merge alebo zmeny produkčného loadera. Safari/iPhone a PageSpeed NOT TESTED.
 
 

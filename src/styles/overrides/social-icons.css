@@ -1,6 +1,6 @@
 /* Owner-requested shared social appearance. Override Apollo/footer/header
    icon paint in one place; preserve each anchor, its destination and handlers.
-   The native footer's 26px marks are the reference on every viewport. */
+   Variant 3: a fine warm-grey frame and the site's original orange logos. */
 :is(body, #header, #footer, #content) a.ts-social-link[data-ts-social-brand] {
   align-items: center;
   justify-content: center;
@@ -8,7 +8,8 @@
   min-width: var(--ts-social-link-size);
   min-height: var(--ts-social-link-size);
 }
-:is(body, #header, #footer, #content) a.ts-social-link[data-ts-social-brand]:not(.ts-service-bar__social) {
+:is(body, #header, #footer, #content)
+  a.ts-social-link[data-ts-social-brand]:not(.ts-service-bar__social) {
   display: inline-flex;
 }
 :is(body, #header, #footer, #content) a.ts-social-link[data-ts-social-brand]::before {
@@ -25,9 +26,10 @@
   height: var(--ts-social-icon-size);
   margin: 0;
   padding: var(--ts-social-icon-padding);
-  border: 0;
+  border: 1px solid var(--ts-color-controls-border);
   border-radius: var(--ts-social-icon-radius);
-  color: var(--ts-color-bg);
+  background: var(--ts-color-bg);
+  color: var(--ts-color-accent);
   fill: none;
   stroke: currentColor;
   stroke-width: 1.8;
@@ -37,16 +39,10 @@
 :is(body, #header, #footer, #content)
   a.ts-social-link[data-ts-social-brand='facebook']
   > svg.ts-footer-contacts__icon.ts-social-icon {
-  background: var(--ts-color-facebook);
   fill: currentColor;
   stroke: none;
 }
-:is(body, #header, #footer, #content)
-  a.ts-social-link[data-ts-social-brand='instagram']
-  > svg.ts-footer-contacts__icon.ts-social-icon {
-  background: var(--ts-instagram-gradient);
-}
-/* Contact-page social controls use the same bare coloured marks as the footer. */
+/* The shared SVG owns the frame; never double it with a contact-only frame. */
 .ts-contact-socials a.ts-social-link[data-ts-social-brand] {
   width: var(--ts-social-link-size);
   height: var(--ts-social-link-size);
@@ -58,6 +54,13 @@
   background: transparent;
 }
 :is(body, #header, #footer, #content) a.ts-social-link[data-ts-social-brand]:focus-visible {
-  outline: 2px solid var(--ts-color-blue);
+  outline: 2px solid var(--ts-color-accent);
   outline-offset: 2px;
+}
+
+:is(body, #header, #footer, #content)
+  a.ts-social-link[data-ts-social-brand]:is(:hover, :focus-visible)
+  > svg.ts-footer-contacts__icon.ts-social-icon {
+  border-color: var(--ts-color-accent);
+  background: var(--ts-color-controls-active-bg);
 }

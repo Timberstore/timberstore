@@ -1,3 +1,7 @@
+# Aktuálna verzia: rc.3 – tenký rámik, oranžové logá
+
+Majiteľ vybral návrh 3 vo farbách Timber Store. Pozri [SOCIAL-FRAMES.sk.md](SOCIAL-FRAMES.sk.md). Nižšie sú historické návrhy.
+
 # Aktuálna verzia: rc.2 s jednotnými sociálnymi ikonami
 
 Pozri [SOCIAL-ICONS.sk.md](SOCIAL-ICONS.sk.md). Predchádzajúce farby tlačidiel ostávajú pôvodné. Nižšie sú historické poznámky.
