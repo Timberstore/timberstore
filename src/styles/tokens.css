@@ -2,8 +2,8 @@
 :root {
   --ts-social-icon-size: 32px;
   --ts-social-link-size: 32px;
-  --ts-social-icon-padding: 6px;
-  --ts-social-icon-radius: 8px;
+  --ts-social-icon-padding: 7px;
+  --ts-social-icon-radius: 0;
 
   --ts-contact-max: 1120px;
   --ts-contact-gap: 24px;

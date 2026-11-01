@@ -1,5 +1,11 @@
 # v0.7.5 – approved product downloads and sidebar contacts (2026-11-01)
 
+## 0.7.6-rc.4 — plain orange social icons preview (2026-11-01)
+
+- Keep the selected logo shapes and Timber orange; remove backgrounds, borders and shadows from social icons/links, including hover. Keep the same glyph size and click area. Keyboard focus remains visible.
+- CSS/tokens only plus build version. JS 36.14/36.25, CSS 32.11/32.5 KiB gzip. Preview only; no release/tag/merge/production changes. Safari/iPhone and PageSpeed NOT TESTED.
+
+
 ## 0.7.6-rc.3 — thin-frame Timber social icons preview (2026-11-01)
 
 - Owner-selected design 3: matching 32px white squares, thin warm-grey border, 8px corners and original Timber orange logos on every social control. Subtle existing orange hover/focus colours. Link behaviour and other controls unchanged.

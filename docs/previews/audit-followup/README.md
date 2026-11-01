@@ -1,3 +1,7 @@
+# Aktuálna verzia: rc.4 – samotné oranžové logá
+
+Bez pozadia a rámika podľa poslednej požiadavky. Pozri [SOCIAL-PLAIN.sk.md](SOCIAL-PLAIN.sk.md). Nižšie sú historické návrhy.
+
 # Aktuálna verzia: rc.3 – tenký rámik, oranžové logá
 
 Majiteľ vybral návrh 3 vo farbách Timber Store. Pozri [SOCIAL-FRAMES.sk.md](SOCIAL-FRAMES.sk.md). Nižšie sú historické návrhy.
