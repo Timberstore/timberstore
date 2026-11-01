@@ -30,4 +30,16 @@ Iba presné N/A (s toleranciou medzier/veľkosti písmen) v sémantických miest
 
 ## Overenie a limity
 
-Lint/build a kontroly na Chromium desktop/mobile; kompletné výsledky sa doplnia po presnom CDN teste. Formulár/účet ani objednávka sa neodosielajú. Safari na reálnom iPhone a PageSpeed NOT TESTED. Tretie strany blokované sieťovou politikou sa nepovažujú za chybu webu. Expedičné lehoty čakajú na obchodné rozhodnutie majiteľa. [Zoznam 21 prázdnych kategórií](PRAZDNE-KATEGORIE.sk.md).
+Lint/build a kontroly na Chromium desktop/mobile; 16 stránka×šírka kontrol na 375/1440 px, kontakty navyše 320/1024 px PASS, konzola bez nových chýb. Presné bajty CDN a produkčné vypnutie experimentov overené. Doprava/VOP/reklamácie: textContent aj vypočítané vizuálne štýly všetkých pôvodných nadpisov identické. Centrálny sklad 5.43:1, informačné odkazy pätičky 5.50:1. Kumulatívne nákupné kontroly oboch kontrastov na desktop/mobile prešli až po osobné údaje; vlastný skúšobný košík vyčistený. Nákupné dôkazy sú z 40612a1; jediný následný aplikačný rozdiel v 0054e90 je majiteľom potvrdené DIČ v kontaktoch. Finálny CDN test vrátane DIČ je 0054e90. Formulár/účet ani objednávka sa neodosielajú. Safari na reálnom iPhone a PageSpeed NOT TESTED. Tretie strany blokované sieťovou politikou sa nepovažujú za chybu webu. Expedičné lehoty čakajú na obchodné rozhodnutie majiteľa. [Zoznam 21 prázdnych kategórií](PRAZDNE-KATEGORIE.sk.md).
+
+
+## Overený commit-preview
+
+Zmrazený zdroj/build: `0054e904ef4e27824406a8e96fb7a3e71e3d6f0f`. Nasledujúci commit iba dopĺňa dôkazy. Gzip: JS 36.17/36.25, CSS 32.20/32.5 KiB. `cdn-assets.json`, `cdn-qa.json`, `cdn-extra.json`, `cdn-copper-cart.json`, `cdn-ink-cart.json`.
+
+- Odporúčaná medená: https://www.timberstore.sk/hmozdinka-do-steny-10x60mm/?ts_preview=0054e904ef4e27824406a8e96fb7a3e71e3d6f0f&ts_contrast=copper
+- Alternatíva tmavý text: https://www.timberstore.sk/hmozdinka-do-steny-10x60mm/?ts_preview=0054e904ef4e27824406a8e96fb7a3e71e3d6f0f&ts_contrast=ink
+- Kontakty: https://www.timberstore.sk/kontakty/?ts_preview=0054e904ef4e27824406a8e96fb7a3e71e3d6f0f&ts_contrast=copper
+- Úvod: https://www.timberstore.sk/?ts_preview=0054e904ef4e27824406a8e96fb7a3e71e3d6f0f&ts_contrast=copper
+- Nadpisy dopravy: https://www.timberstore.sk/doprava-a-platba/?ts_preview=0054e904ef4e27824406a8e96fb7a3e71e3d6f0f
+- Vypnutie: https://www.timberstore.sk/?ts_preview=off

@@ -164,7 +164,7 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
-- **Audit follow-up preview `0.7.6-rc.0` (1. 11. 2026):** JS 36.25 / CSS 32.5 KiB, namerané 36.04 / 32.20 KiB. Rozšírenie pre dve kontrastné možnosti, kontakty a schválené príklady nadpisov podľa súhlasu 15. 10.; všetky staršie limity nezmenené. Iba pracovný commit-preview. Žiadny release, tag, merge ani zmena produkčného loadera. Všetky experimenty navyše vyžadujú `TimberLoader.preview`. Safari/iPhone a PageSpeed NOT TESTED.
+- **Audit follow-up preview `0.7.6-rc.0` (1. 11. 2026):** JS 36.25 / CSS 32.5 KiB, namerané 36.17 / 32.20 KiB. Rozšírenie pre dve kontrastné možnosti, kontakty a schválené príklady nadpisov podľa súhlasu 15. 10.; všetky staršie limity nezmenené. Iba pracovný commit-preview. Žiadny release, tag, merge ani zmena produkčného loadera. Všetky experimenty navyše vyžadujú `TimberLoader.preview`. Safari/iPhone a PageSpeed NOT TESTED.
 
 
 - **Schválená stabilná `0.7.5` (1. 11. 2026):** povýšenie schválených príloh a centrovaných kontaktov bez zmeny zdrojov aplikácie; preberá limity JS 34.5 / CSS 31.5 KiB, namerané 34.34 / 31.31 KiB. Staršie verzie/limity/tagy nezmenené. Majiteľ výslovne schválil vydanie a aktivuje ho v Shoptete sám. Safari/iPhone a PageSpeed NOT TESTED.
