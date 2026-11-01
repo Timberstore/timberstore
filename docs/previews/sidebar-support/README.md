@@ -28,3 +28,9 @@ Chromium 151, aktuálne HTML/JS Apollo, kategória `/profily-a-listy-k-pracovnym
 Dôkazy: `local-qa.json`, skript `qa.mjs`. Lokálny režim nahrádza iba Timber bundle kandidátnymi súbormi; CDN režim (`TS_SIDEBAR_SHA=<commit>`) používa presné vzdialené súbory bez náhrady. HTTPS sa načítava cez zdedené proxy a CA trust s TLS kontrolou a plní sa do prehliadača cez route.fulfill. Fyzický iPhone/Safari a PageSpeed NOT TESTED. Celý nákupný priechod sa pre tento lokálny kontaktný blok neopakoval.
 
 Nové zdroje: `src/modules/sidebar-support/index.js`, `src/styles/overrides/sidebar-support.css`. Registrácia v main.js/main.css, selektory v core/selectors.js, interná verzia/build rozpočet a dokumentácia. Predošlé úpravy súborov na stiahnutie ostávajú zdrojovo nezmenené.
+
+## Overený preview
+
+https://www.timberstore.sk/profily-a-listy-k-pracovnym-doskam/?ts_preview=f423f7f84284d64fa6e88a2083c1382cd4c330ea
+
+Zdroj/build je zmrazený na `f423f7f84284d64fa6e88a2083c1382cd4c330ea`; nasledujúce commity dopĺňajú iba dôkazy. CDN JS/CSS presná bajtová zhoda (`cdn-assets.json`). Všetkých 5 šírok prešlo aj priamo cez CDN bez lokálnej náhrady bundlov (`cdn-qa.json`), bez pageerror. Produkčný loader ani pôvodné kontaktné href sa nemenili.
