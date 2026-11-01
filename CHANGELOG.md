@@ -1,3 +1,7 @@
+# Unreleased preview – sidebar support contacts (2026-11-01)
+
+0.7.5-rc.2: reuse shared support hours/timezone/status, contact labels and SVG icons in the existing sidebar banner. Hours/email/phone order; original Apollo anchors, CTA destination, placement, visibility and box retained. Idempotent enhancement handles native inner-content rebuilds through a component-only observer. Chromium 375/768/1024/1280/1440 checks pass; Safari/iPhone not tested. No release, tag, merge, admin edit or production loader change. See docs/previews/sidebar-support.
+
 # Unreleased preview polish – product downloads (2026-10-30)
 
 Local candidate 0.7.5-rc.1: folded-corner document SVG masks, SVG open-in-new-tab action (download glyph only for an existing download attribute), full-width native anchors and subtle hover retained. Downloads-only bottom padding reduced to 16px, preserving native mobile collapse and other panes. No name, href, import or functional JS edits; JS build differs only by local version. No release, tag, merge or production loader change. See docs/previews/product-downloads/POLISH.sk.md for scoped validation.

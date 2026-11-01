@@ -1,6 +1,12 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  sidebarSupport: '.sidebar-inner .timber-support',
+  sidebarSupportContacts: '.support__contact',
+  sidebarSupportEmail: 'a[href^="mailto:"]',
+  sidebarSupportPhone: 'a[href^="tel:"]',
+  sidebarSupportForm: 'a.timber-support-btn[href]',
+
   productDownloads: '#relatedFiles',
   productDownloadsBody: ':scope > .detail-tab-content',
   productDownloadLinks: 'li a[href]',

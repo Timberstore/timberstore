@@ -1,0 +1,50 @@
+/* Sidebar support banner: preserve Apollo's box, placement and breakpoints.
+   The migrated legacy .support__item rules force display/type/margins with
+   !important; matching flags below are limited to these existing contact rows. */
+.sidebar-inner .ts-sidebar-support .support__contact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ts-space-1);
+}
+.sidebar-inner .ts-sidebar-support .support__contact .support__item,
+.sidebar-inner .ts-sidebar-support .ts-service-bar__hours {
+  display: grid !important;
+  grid-template-columns: 20px minmax(0, 1fr);
+  align-items: center;
+  gap: var(--ts-space-2);
+  min-height: 32px;
+  max-width: 100%;
+  margin: 0 !important;
+  padding: 0;
+  color: var(--ts-color-controls-text) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.4;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.sidebar-inner .ts-sidebar-support .ts-service-bar__hours::before {
+  content: none;
+}
+.sidebar-inner .ts-sidebar-support .ts-service-bar__status {
+  justify-self: center;
+}
+.sidebar-inner .ts-sidebar-support .ts-footer-contacts__icon {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  color: var(--ts-color-accent);
+}
+.sidebar-inner .ts-sidebar-support .support__contact .support__item:hover,
+.sidebar-inner .ts-sidebar-support .support__contact .support__item:focus-visible {
+  color: var(--ts-color-action-hover) !important;
+}
+.sidebar-inner .ts-sidebar-support .support__contact .support__item:focus-visible {
+  outline: 2px solid var(--ts-color-accent);
+  outline-offset: 2px;
+  border-radius: var(--ts-radius);
+}

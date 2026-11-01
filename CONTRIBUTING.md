@@ -164,6 +164,9 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Sidebar support preview `0.7.5-rc.2` (1. 11. 2026):** spoločné kontaktné údaje a stav hodín v pôvodnom Apollo bannere. JS 34.5 / CSS 31.5 KiB, namerané 34.34 / 31.29 KiB, podľa súhlasu 15. 10.; limity starších verzií nezmenené. Iba pracovný commit-preview bez release/tagu/merge/produkčného loadera.
+
+
 - **Preview príloh `0.7.5-rc.1` (30. 10. 2026):** SVG ikony a lokálne spodné odsadenie. JS limit 34.25 KiB zachovaný, CSS 31.25 KiB podľa zaznamenaného súhlasu 15. 10.; namerané JS 34.01 / CSS 31.16 KiB. Len pracovný commit-preview, bez merge, tagu, release a produkčného loadera. Staršie limity nezmenené.
 
 
