@@ -16,7 +16,7 @@ Všetky nové experimenty sa spustia iba pri `TimberLoader.preview === true`. Pr
 
 Pôvodný formulár sa presunie ako ten istý DOM uzol. Zachová `action`, method, ID, všetky polia, hidden hodnoty, honeypot, CAPTCHA, súhlas aj natívnu validáciu a odoslanie. Pridané autocomplete name/email. Na mobile ide najprv podpora/hodiny/email/telefón, potom formulár, sídlo a pomocné odkazy; od 992 px dva stĺpce.
 
-Hodiny a stav zdieľajú existujúci Bratislava timer s hlavičkou/pätičkou. Pôvodné fakturačné údaje sú presunuté bez prepisu. Adresa je označená ako sídlo, bez tvrdenia o predajni/osobnom odbere. Dopĺňa sa podpora, Facebook/Instagram z overených spoločných konštánt a odkazy na stav objednávky, dopravu, reklamácie a ochranu údajov. Chýbajúce DIČ a zápis v OR sú vyžiadané od majiteľa; nevymýšľajú sa. Nejde o potvrdenie úplnej právnej zhody.
+Hodiny a stav zdieľajú existujúci Bratislava timer s hlavičkou/pätičkou. Pôvodné fakturačné údaje sú presunuté bez prepisu; pridané DIČ 2122201609 potvrdené priamo majiteľom (FinStat odkaz), IČ DPH SK2122201609 zostáva. Adresa je označená ako sídlo, bez tvrdenia o predajni/osobnom odbere. Dopĺňa sa podpora, Facebook/Instagram z overených spoločných konštánt a odkazy na stav objednávky, dopravu, reklamácie a ochranu údajov. Údaj o zápise v OR zatiaľ nebol dodaný a nevymýšľa sa. Nejde o potvrdenie úplnej právnej zhody.
 
 ## Nadpisy
 

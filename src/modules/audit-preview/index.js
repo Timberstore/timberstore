@@ -1,7 +1,7 @@
 import { SEL } from '../../core/selectors.js';
 import { TEXTS } from '../../core/texts.js';
 import { getAuditPage } from '../../core/page.js';
-import { CONTACT_HELP_LINKS, SOCIALS } from '../../core/contacts.js';
+import { CONTACT_HELP_LINKS, SOCIALS, COMPANY_TAX_ID } from '../../core/contacts.js';
 import { addContactIcon } from '../../core/contact-icons.js';
 import { addHours, updateHours } from '../header-service-bar/index.js';
 
@@ -142,6 +142,15 @@ function contacts(root) {
     caption.className = 'ts-contact-company__caption';
     caption.textContent = copy.company;
     company.prepend(caption);
+    const walker = document.createTreeWalker(company, 4 /* NodeFilter.SHOW_TEXT */);
+    for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+      if (!copy.vatLabel.test(node.textContent)) continue;
+      const tax = document.createElement('span');
+      tax.className = 'ts-contact-company__tax';
+      tax.textContent = copy.taxId + COMPANY_TAX_ID;
+      node.before(tax, document.createElement('br'));
+      break;
+    }
     const title = heading(company.querySelector('h3'), 'h2');
     title?.classList.add('ts-contact-company__name');
     company.setAttribute('aria-label', copy.company);

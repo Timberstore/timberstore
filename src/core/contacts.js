@@ -24,3 +24,6 @@ export const CONTACT_HELP_LINKS = [
   '/reklamacny-poriadok/',
   '/podmienky-ochrany-osobnych-udajov/',
 ];
+
+// Public tax data confirmed directly by the owner on 2026-11-01 (FinStat reference).
+export const COMPANY_TAX_ID = '2122201609';
