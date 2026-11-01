@@ -1,5 +1,12 @@
 # v0.7.5 – approved product downloads and sidebar contacts (2026-11-01)
 
+## 0.7.6 — Kontakty, nadpisy a oranžové sociálne ikony (2026-11-01)
+
+- Stabilné vydanie schváleného rc.4: responzívne kontakty so spoločnými hodinami, pôvodným formulárom a potvrdeným DIČ; sémantické nadpisy a úvodný H1; N/A → Timber Store v zobrazení; rovnaké oranžové sociálne SVG bez pozadia/rámika všade na PC/mobile.
+- CSS identické s odsúhlaseným preview. Jediná aplikačná zmena pri povýšení: odstránená podmienka iba-preview, aby sa schválené úpravy načítali bez cookie. Žiadne zmeny kategórií, expedičných lehôt, importu alebo príloh.
+- JS 36.13/36.25 a CSS 32.11/32.5 KiB gzip. Safari/iPhone a PageSpeed NOT TESTED. Aktiváciu Shoptetu vykoná majiteľ; rollback v0.7.5. Podrobnosti a dôkazy v docs/releases/v0.7.6.md.
+
+
 ## 0.7.6-rc.4 — plain orange social icons preview (2026-11-01)
 
 - Keep the selected logo shapes and Timber orange; remove backgrounds, borders and shadows from social icons/links, including hover. Keep the same glyph size and click area. Keyboard focus remains visible.

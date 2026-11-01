@@ -167,7 +167,6 @@ export default {
   name: 'audit-preview',
   pages: ['*'],
   init(root) {
-    if (!window.TimberLoader?.preview) return;
     const page = getAuditPage();
     if (page === 'contacts') contacts(root);
     if (page === 'article') articleHeadings(root);

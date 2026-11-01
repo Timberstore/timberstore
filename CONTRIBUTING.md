@@ -164,6 +164,9 @@ Všechno povinné, u každého releasu:
 
 ### 3.4 Výkonový rozpočet
 
+- **Schválená stabilná `0.7.6` (1. 11. 2026):** preberá limity rc.0–rc.4 JS 36.25 / CSS 32.5 KiB bez zvýšenia; namerané 36.13 / 32.11 KiB. CSS identické s rc.4, len aktivácia schváleného frontendového modulu aj mimo preview a verzia buildu. Majiteľ schválil release a prepne PROD v Shoptete sám. Staršie limity/tagy nezmenené. Safari/iPhone a PageSpeed NOT TESTED.
+
+
 - **Samotné oranžové sociálne ikony `0.7.6-rc.4` (1. 11. 2026):** podľa požiadavky majiteľa bez rámika/pozadia, aj pri hoveri. Len CSS/tokeny + verzia; preberá limity JS 36.25 / CSS 32.5 KiB, namerané 36.14 / 32.11 KiB. Iba commit-preview, bez release/tagu/merge alebo zmeny produkcie. Safari/iPhone a PageSpeed NOT TESTED.
 
 
