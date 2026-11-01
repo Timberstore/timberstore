@@ -1,5 +1,12 @@
 # v0.7.5 – approved product downloads and sidebar contacts (2026-11-01)
 
+## 0.7.6-rc.0 — audit follow-up preview (2026-11-01)
+
+- Owner-requested preview only: two accessible copper CTA treatments, readable warehouse/footer text, contacts with shared support hours and the original native form/business data, N/A brand display fallback, semantic article-heading examples and approved visible homepage H1.
+- No category, shipping-promise, Mergado, attachment, production-loader or admin changes. No stable release/tag/merge. Trello code not supplied.
+- JS 36.04 / 36.25 KiB and CSS 32.20 / 32.5 KiB gzip. Safari/iPhone and PageSpeed NOT TESTED; browser evidence in docs/previews/audit-followup.
+
+
 Stable promotion of the approved attachments redesign and centred support contacts. Source and CSS unchanged from the reviewed preview, JS differs only by version. Existing gzip allowances retained. Owner explicitly authorized stable publication and will change Shoptet manually. Prepared loader targets v0.7.5; actual live loader backed up without modification. Details: docs/releases/v0.7.5.md.
 
 # Owner-approved main merge – downloads and sidebar support (2026-11-01)

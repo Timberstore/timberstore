@@ -1,6 +1,14 @@
 // Shoptet (Apollo template) selectors — the only place that knows Shoptet markup.
 // When the template changes, fix it here.
 export const SEL = {
+  auditHomeTitleAnchor: '.timber-categories-banner',
+  auditArticle: '#content .pageArticleDetail',
+  auditArticleBody: ':scope > [itemprop="about"]',
+  auditArticleTitle: ':scope > header h1',
+  contactForm: '#formContact',
+  contactCompany: ':scope > div',
+  unknownBrand: 'a[href="/znacka/n-a/"], [itemprop="brand"]',
+
   sidebarSupport: '.sidebar-inner .timber-support',
   sidebarSupportContacts: '.support__contact',
   sidebarSupportEmail: 'a[href^="mailto:"]',
@@ -12,7 +20,8 @@ export const SEL = {
   productDownloadLinks: 'li a[href]',
   productDownloadLists: 'ul, ol',
   productDownloadHeadings: ':scope > h3',
-  productDownloadsTabs: '.shp-tab-link[href="#relatedFiles"], .js-detail-tab-item[data-content="relatedFiles"]',
+  productDownloadsTabs:
+    '.shp-tab-link[href="#relatedFiles"], .js-detail-tab-item[data-content="relatedFiles"]',
 
   apolloReady: 'body.after-load',
   footerColumns: '#footer .custom-footer',

@@ -1,4 +1,5 @@
 import './legacy/timber-menu-guard.js';
+import auditPreview from './modules/audit-preview/index.js';
 import { start } from './core/index.js';
 import carouselSwipe from './modules/carousel-swipe/index.js';
 import gallerySwipe from './modules/gallery-swipe/index.js';
@@ -60,4 +61,5 @@ start([
   cartCount,
   cartModalSpeed,
   mobileCategoryControls,
+  auditPreview,
 ]);

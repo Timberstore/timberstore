@@ -17,3 +17,10 @@ export const CHECKOUT_SUPPORT_EMAIL = 'info@timberstore.sk';
 // Public data only; production JavaScript/CSS remain pinned to immutable tags.
 export const INSTAGRAM_FEED =
   'https://raw.githubusercontent.com/Timberstore/timberstore/main/data/instagram.json';
+
+export const CONTACT_HELP_LINKS = [
+  '/moja-objednavka/',
+  '/doprava-a-platba/',
+  '/reklamacny-poriadok/',
+  '/podmienky-ochrany-osobnych-udajov/',
+];

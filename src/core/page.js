@@ -16,3 +16,13 @@ export function getPageType(body = document.body) {
   }
   return 'other';
 }
+
+// Exact public CMS routes verified during the functional audit.
+export function getAuditPage(path = location.pathname) {
+  const canonical = path.replace(/\/+$/, '') || '/';
+  if (canonical === '/kontakty') return 'contacts';
+  if (['/doprava-a-platba', '/obchodne-podmienky', '/reklamacny-poriadok'].includes(canonical))
+    return 'article';
+  if (canonical === '/') return 'home';
+  return 'other';
+}
