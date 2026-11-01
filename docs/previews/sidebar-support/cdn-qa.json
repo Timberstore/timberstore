@@ -1,0 +1,204 @@
+{
+  "verifiedAt": "2026-11-01T13:22:10.818Z",
+  "previewSha": "f423f7f84284d64fa6e88a2083c1382cd4c330ea",
+  "localOverrides": false,
+  "results": [
+    {
+      "width": 375,
+      "mobile": true,
+      "visible": false,
+      "pass": true,
+      "data": {
+        "children": [
+          "PO – PIA (08:00 – 16:00)",
+          "info@timberstore.sk",
+          "+421 904 479 842"
+        ],
+        "hours": 1,
+        "icons": 2,
+        "open": "false",
+        "hoursAria": "PO – PIA (08:00 – 16:00) — Zákaznícka podpora: mimo pracovných hodín",
+        "links": [
+          {
+            "href": "mailto:info@timberstore.sk",
+            "text": "info@timberstore.sk",
+            "icon": 1
+          },
+          {
+            "href": "tel:+421904479842",
+            "text": "+421 904 479 842",
+            "icon": 1
+          }
+        ],
+        "cta": "/kontakty",
+        "ctaText": "Napíšte nám",
+        "apollo": true,
+        "overflow": false,
+        "heading": "Sme tu pre vás"
+      },
+      "statusesMatch": true,
+      "idempotent": true,
+      "nativeMarkupRefresh": true,
+      "footerUnchanged": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "mobile": false,
+      "visible": false,
+      "pass": true,
+      "data": {
+        "children": [
+          "PO – PIA (08:00 – 16:00)",
+          "info@timberstore.sk",
+          "+421 904 479 842"
+        ],
+        "hours": 1,
+        "icons": 2,
+        "open": "false",
+        "hoursAria": "PO – PIA (08:00 – 16:00) — Zákaznícka podpora: mimo pracovných hodín",
+        "links": [
+          {
+            "href": "mailto:info@timberstore.sk",
+            "text": "info@timberstore.sk",
+            "icon": 1
+          },
+          {
+            "href": "tel:+421904479842",
+            "text": "+421 904 479 842",
+            "icon": 1
+          }
+        ],
+        "cta": "/kontakty",
+        "ctaText": "Napíšte nám",
+        "apollo": true,
+        "overflow": false,
+        "heading": "Sme tu pre vás"
+      },
+      "statusesMatch": true,
+      "idempotent": true,
+      "nativeMarkupRefresh": true,
+      "footerUnchanged": true,
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "mobile": false,
+      "visible": false,
+      "pass": true,
+      "data": {
+        "children": [
+          "PO – PIA (08:00 – 16:00)",
+          "info@timberstore.sk",
+          "+421 904 479 842"
+        ],
+        "hours": 1,
+        "icons": 2,
+        "open": "false",
+        "hoursAria": "PO – PIA (08:00 – 16:00) — Zákaznícka podpora: mimo pracovných hodín",
+        "links": [
+          {
+            "href": "mailto:info@timberstore.sk",
+            "text": "info@timberstore.sk",
+            "icon": 1
+          },
+          {
+            "href": "tel:+421904479842",
+            "text": "+421 904 479 842",
+            "icon": 1
+          }
+        ],
+        "cta": "/kontakty",
+        "ctaText": "Napíšte nám",
+        "apollo": true,
+        "overflow": false,
+        "heading": "Sme tu pre vás"
+      },
+      "statusesMatch": true,
+      "idempotent": true,
+      "nativeMarkupRefresh": true,
+      "footerUnchanged": true,
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "mobile": false,
+      "visible": true,
+      "pass": true,
+      "data": {
+        "children": [
+          "PO – PIA (08:00 – 16:00)",
+          "info@timberstore.sk",
+          "+421 904 479 842"
+        ],
+        "hours": 1,
+        "icons": 2,
+        "open": "false",
+        "hoursAria": "PO – PIA (08:00 – 16:00) — Zákaznícka podpora: mimo pracovných hodín",
+        "links": [
+          {
+            "href": "mailto:info@timberstore.sk",
+            "text": "info@timberstore.sk",
+            "icon": 1
+          },
+          {
+            "href": "tel:+421904479842",
+            "text": "+421 904 479 842",
+            "icon": 1
+          }
+        ],
+        "cta": "/kontakty",
+        "ctaText": "Napíšte nám",
+        "apollo": true,
+        "overflow": false,
+        "heading": "Sme tu pre vás"
+      },
+      "statusesMatch": true,
+      "idempotent": true,
+      "nativeMarkupRefresh": true,
+      "footerUnchanged": true,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "mobile": false,
+      "visible": true,
+      "pass": true,
+      "data": {
+        "children": [
+          "PO – PIA (08:00 – 16:00)",
+          "info@timberstore.sk",
+          "+421 904 479 842"
+        ],
+        "hours": 1,
+        "icons": 2,
+        "open": "false",
+        "hoursAria": "PO – PIA (08:00 – 16:00) — Zákaznícka podpora: mimo pracovných hodín",
+        "links": [
+          {
+            "href": "mailto:info@timberstore.sk",
+            "text": "info@timberstore.sk",
+            "icon": 1
+          },
+          {
+            "href": "tel:+421904479842",
+            "text": "+421 904 479 842",
+            "icon": 1
+          }
+        ],
+        "cta": "/kontakty",
+        "ctaText": "Napíšte nám",
+        "apollo": true,
+        "overflow": false,
+        "heading": "Sme tu pre vás"
+      },
+      "statusesMatch": true,
+      "idempotent": true,
+      "nativeMarkupRefresh": true,
+      "footerUnchanged": true,
+      "errors": []
+    }
+  ],
+  "physicalIPhoneSafari": "NOT TESTED",
+  "note": "Chromium mobile/touch emulation. HTTPS resources fetched with inherited proxy and CA trust; browser route fulfills verified TLS responses. Local mode only replaces Timber CSS/JS; CDN mode uses immutable remote assets unchanged."
+}

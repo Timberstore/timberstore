@@ -1,3 +1,23 @@
+# Owner-approved main merge – downloads and sidebar support (2026-11-01)
+
+The owner explicitly approved merging both reviewed changes into main: product download rows/icons and the centred sidebar support banner with 15px bold contact rows. Source/build unchanged from the reviewed preview; this update records approval only. Current lint/build/metadata/whitespace checks pass, with immutable CDN and browser evidence retained under docs/previews. No stable release/tag or live loader switch in this merge. See docs/previews/sidebar-support/OWNER-APPROVAL.md.
+
+# Unreleased preview feedback – centred sidebar contacts (2026-11-01)
+
+Centre the full existing support banner, including CTA and individual contact rows. Hours/email/phone use 15px bold; subtitle is bold as requested for the whole block. Scoped CSS only, no contact data, URLs, JS logic, visibility, release or loader changes. Five viewport checks pass, with measured centres within 1px; existing gzip allowances retained.
+
+# Unreleased preview – sidebar support contacts (2026-11-01)
+
+0.7.5-rc.2: reuse shared support hours/timezone/status, contact labels and SVG icons in the existing sidebar banner. Hours/email/phone order; original Apollo anchors, CTA destination, placement, visibility and box retained. Idempotent enhancement handles native inner-content rebuilds through a component-only observer. Chromium 375/768/1024/1280/1440 checks pass; Safari/iPhone not tested. No release, tag, merge, admin edit or production loader change. See docs/previews/sidebar-support.
+
+# Unreleased preview polish – product downloads (2026-10-30)
+
+Local candidate 0.7.5-rc.1: folded-corner document SVG masks, SVG open-in-new-tab action (download glyph only for an existing download attribute), full-width native anchors and subtle hover retained. Downloads-only bottom padding reduced to 16px, preserving native mobile collapse and other panes. No name, href, import or functional JS edits; JS build differs only by local version. No release, tag, merge or production loader change. See docs/previews/product-downloads/POLISH.sk.md for scoped validation.
+
+# Unreleased local candidate – product downloads (2026-10-30)
+
+Local-only 0.7.5-rc.0: scoped related-files tab/accordion rename and compact responsive document rows, original names and hrefs retained, explicit URL/MIME formats only, safe external targets. No document fetching or source-data edits. See docs/previews/product-downloads for changes, validation limits and separate Mergado/Shoptet diagnostic/test plan. Trello card code not supplied. Lint/build and Node metadata checks PASS; browser/mobile/iPhone, checkout regression and PageSpeed NOT TESTED. Preview branch push explicitly requested on 2026-10-30; no merge, tag, release, production deployment or loader change.
+
 # Changelog
 
 ## v0.7.4 · 2026-10-28 · Schválené mobilné karty a centrovanie cien

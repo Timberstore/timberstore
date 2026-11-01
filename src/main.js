@@ -25,6 +25,8 @@ import headerServiceBar from './modules/header-service-bar/index.js';
 import cartPresentation from './modules/cart-presentation/index.js';
 import orderDetail from './modules/order-detail/index.js';
 import productCompact from './modules/product-compact/index.js';
+import productDownloads from './modules/product-downloads/index.js';
+import sidebarSupport from './modules/sidebar-support/index.js';
 
 // Prepare buyable cards before DOMContentLoaded and after streaming/AJAX inserts.
 prepareQuantities();
@@ -34,12 +36,14 @@ prepareQuantities();
 start([
   headerServiceBar,
   footerContacts,
+  sidebarSupport,
   footerMenu,
   instagram,
   partnersSlider,
   cartPresentation,
   orderDetail,
   productCompact,
+  productDownloads,
   informationMessage,
   carouselSwipe,
   homepageCategories,
