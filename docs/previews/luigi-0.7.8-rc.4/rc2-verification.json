@@ -1,0 +1,1958 @@
+{
+  "candidate": "2c27b0f",
+  "startedAt": "2026-11-02T22:23:17.773Z",
+  "contexts": [
+    {
+      "width": 1440,
+      "mode": "before",
+      "states": [
+        {
+          "name": "same-card",
+          "data": {
+            "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n225,83 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 553488",
+            "rect": {
+              "x": 419.28125,
+              "y": 113.171875,
+              "width": 299.1875,
+              "height": 577.140625,
+              "bottom": 690.3125
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": 459.28125,
+                "y": 512.3125,
+                "width": 219.1875,
+                "height": 88,
+                "bottom": 600.3125
+              }
+            ],
+            "names": [
+              {
+                "text": "K-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)",
+                "rect": {
+                  "x": 459.28125,
+                  "y": 360.5625,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 475.3125
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        },
+        {
+          "name": "results",
+          "data": {
+            "text": "KOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n125,90 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255445\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255401\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255397\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)\n117,26 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255444\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)\n116,43 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255257\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)\n116,43 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255253\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)\n114,17 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255443\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)\n109,45 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255400\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, sklo (komplet)\n109,45 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255396\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, reling (komplet)\n107,78 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255256\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, reling (komplet)\n107,78 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255252\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/40 kg, Blumotion/TOB, šedá, skrutka (komplet)\n105,88 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255442\nKOMPLET\nK-BLUM Legrabox zásuvka C pure 450 mm, 70 kg, Blumotion/TOB, biela, vnútornej typu sklo (komplet)\n106,36 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255399\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)\n106,36 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255395\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, biela, vnútorná (komplet)\n95,58 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254944\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)\n98,06 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255394\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, šedá, vnútorná (komplet)\n95,58 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254940\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela skrutka (komplet)\n94,07 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255241\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n94,07 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255237\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, Expando (komplet)\n94,41 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255249\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, Expando (komplet)\n94,41 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255245\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, biela, vnútorná (komplet)\n86,94 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254943\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, šedá, vnútorná (komplet)\n86,94 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254939\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, Expando (komplet)\n85,77 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255244",
+            "rect": {
+              "x": 419.28125,
+              "y": 110.171875,
+              "width": 929.59375,
+              "height": 4832.875,
+              "bottom": 4943.046875
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": 459.28125,
+                "y": 514.3125,
+                "width": 219.1875,
+                "height": 88,
+                "bottom": 602.3125
+              },
+              {
+                "x": 774.46875,
+                "y": 514.3125,
+                "width": 219.1875,
+                "height": 88,
+                "bottom": 602.3125
+              },
+              {
+                "x": 1089.65625,
+                "y": 514.3125,
+                "width": 219.1875,
+                "height": 88,
+                "bottom": 602.3125
+              },
+              {
+                "x": 459.28125,
+                "y": 1107.453125,
+                "width": 219.1875,
+                "height": 88,
+                "bottom": 1195.453125
+              },
+              {
+                "x": 774.46875,
+                "y": 1132.140625,
+                "width": 219.1875,
+                "height": 88,
+                "bottom": 1220.140625
+              },
+              {
+                "x": 1089.65625,
+                "y": 1132.140625,
+                "width": 219.1875,
+                "height": 88,
+                "bottom": 1220.140625
+              },
+              {
+                "x": 459.28125,
+                "y": 1725.28125,
+                "width": 219.1875,
+                "height": 88,
+                "bottom": 1813.28125
+              },
+              {
+                "x": 774.46875,
+                "y": 1725.28125,
+                "width": 219.1875,
+                "height": 88,
+                "bottom": 1813.28125
+              }
+            ],
+            "names": [
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 459.28125,
+                  "y": 362.5625,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 477.3125
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 774.46875,
+                  "y": 362.5625,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 477.3125
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 1089.65625,
+                  "y": 362.5625,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 477.3125
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 459.28125,
+                  "y": 955.703125,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 1070.453125
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)",
+                "rect": {
+                  "x": 774.46875,
+                  "y": 955.703125,
+                  "width": 219.1875,
+                  "height": 139.4375,
+                  "bottom": 1095.140625
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+                "rect": {
+                  "x": 1089.65625,
+                  "y": 955.703125,
+                  "width": 219.1875,
+                  "height": 139.4375,
+                  "bottom": 1095.140625
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 459.28125,
+                  "y": 1573.53125,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 1688.28125
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 774.46875,
+                  "y": 1573.53125,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 1688.28125
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        },
+        {
+          "name": "detail",
+          "data": {
+            "text": "High-contrast mode\nMohlo by Vás zaujímať\nNaspäť\nĎalej\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306383\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306385\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306382\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306384\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227547\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227543\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 €\n/ pár\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 257254\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227600\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306383\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306385\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306382\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306384\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227547\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227543\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 €\n/ pár\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 257254\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227600\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306383\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306385\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306382\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306384\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227547\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227543\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 €\n/ pár\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 257254\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227600",
+            "rect": {
+              "x": 23.5,
+              "y": 162.609375,
+              "width": 1378,
+              "height": 674.90625,
+              "bottom": 837.515625
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": -2502.5,
+                "y": 681.515625,
+                "width": 247,
+                "height": 56,
+                "bottom": 737.515625
+              },
+              {
+                "x": -2175.5,
+                "y": 681.515625,
+                "width": 247,
+                "height": 56,
+                "bottom": 737.515625
+              },
+              {
+                "x": -1848.5,
+                "y": 681.515625,
+                "width": 247,
+                "height": 56,
+                "bottom": 737.515625
+              },
+              {
+                "x": -1521.5,
+                "y": 681.515625,
+                "width": 247,
+                "height": 56,
+                "bottom": 737.515625
+              },
+              {
+                "x": -1194.5,
+                "y": 681.515625,
+                "width": 247,
+                "height": 56,
+                "bottom": 737.515625
+              },
+              {
+                "x": -867.5,
+                "y": 681.515625,
+                "width": 247,
+                "height": 56,
+                "bottom": 737.515625
+              },
+              {
+                "x": -540.5,
+                "y": 681.515625,
+                "width": 247,
+                "height": 56,
+                "bottom": 737.515625
+              },
+              {
+                "x": -213.5,
+                "y": 681.515625,
+                "width": 247,
+                "height": 56,
+                "bottom": 737.515625
+              }
+            ],
+            "names": [
+              {
+                "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela",
+                "rect": {
+                  "x": -2502.5,
+                  "y": 570.453125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 644.515625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela",
+                "rect": {
+                  "x": -2175.5,
+                  "y": 570.453125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 644.515625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá",
+                "rect": {
+                  "x": -1848.5,
+                  "y": 570.453125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 644.515625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá",
+                "rect": {
+                  "x": -1521.5,
+                  "y": 570.453125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 644.515625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka",
+                "rect": {
+                  "x": -1194.5,
+                  "y": 570.453125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 644.515625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka",
+                "rect": {
+                  "x": -867.5,
+                  "y": 570.453125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 644.515625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm",
+                "rect": {
+                  "x": -540.5,
+                  "y": 570.453125,
+                  "width": 247,
+                  "height": 49.375,
+                  "bottom": 619.828125
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez",
+                "rect": {
+                  "x": -213.5,
+                  "y": 570.453125,
+                  "width": 247,
+                  "height": 49.375,
+                  "bottom": 619.828125
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        }
+      ],
+      "errors": [],
+      "cartPosts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "version": "v0.7.8-rc.0",
+      "loader": {
+        "version": "3cef596",
+        "preview": true,
+        "pageLoadingTimer": null
+      },
+      "homepageWidgets": [],
+      "nativeCard": {
+        "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n183,60 € bez DPH\n225,83 €\n/ sada\nCENTRÁLNY\nSKLAD (84 SADA)\nKÓD: 553488\n−\n+\nDo košíka",
+        "icon": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")"
+      },
+      "filters": [
+        {
+          "label": "initial",
+          "text": "Filtre\nCena\nod 0,11 € - do 178,39 €\n0,11 €\n178,39 €\nŠtítky\nCentrálny sklad (507)\nKomplet (411)\nNovinka (16)\nSkladom (14)\nKategórie\nNábytkové kovania (521)\nVýrobca\nBLUM (516)\nGOLLINUCCI (3)\nKESSEBÖHMER (2)\nFarby\nSivá (240)\nBiela (158)\nČierna (57)\nStrieborný (11)\nNeuvedené (7)\nVýsledky pre BLUM 450 (526)\nKategórie (4)\nZnačky (1)\nAventos (BLUM)\nAMBIA-LINE (BLUM)\nORGA-LINE (BLUM)\nVýsuvy a bočnice\nZoradiť podľa:  \nPredvolené\nOd najlacnejších\nOd najdrahších\nNázov A-Z\nNázov Z-A\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n125,90 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255445\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255401\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 4",
+          "checked": [],
+          "prices": [
+            "125.9",
+            "118.08",
+            "118.08",
+            "117.26",
+            "116.43",
+            "116.43",
+            "114.17",
+            "109.45",
+            "109.45",
+            "107.78",
+            "107.78",
+            "105.88",
+            "106.36",
+            "106.36",
+            "95.58",
+            "98.06",
+            "95.58",
+            "94.07",
+            "94.07",
+            "94.41",
+            "94.41",
+            "86.94",
+            "86.94",
+            "85.77"
+          ],
+          "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+        },
+        {
+          "label": "stock-label-click",
+          "text": "Filtre\nZrušiť všetky filtre\nSkladom\nCena\nod 0,41 € - do 24,60 €\n0,41 €\n24,60 €\nŠtítky\nSkladom (14)\nCentrálny sklad (507)\nKomplet (411)\nNovinka (16)\nKategórie\nNábytkové kovania (14)\nVýrobca\nBLUM (14)\nFarby\nBiela (3)\nSivá (3)\nNeuvedené (1)\nVýsledky pre BLUM 450 (21)\nKategórie (6)\nZnačky (1)\nAventos (BLUM)\nAMBIA-LINE (BLUM)\nORGA-LINE (BLUM)\nVýsuvy a bočnice\nVýsuvy a bočnice\nPríslušenstvo MERIVOBOX\nZoradiť podľa:  \nPredvolené\nOd najlacnejších\nOd najdrahších\nNázov A-Z\nNázov Z-A\nBLUM 378M4502SA Antaro, bočnica 450 biela sada\n21,16 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: IN024B\nBLUM 450.4501B Merivobox, výsuv 450mm/40kg, Blumotion/TOB\n24,24 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: 481617\nBLUM 450.5001B Merivobox, výsuv 500mm/40kg, Blumotion/TOB\n24,60 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: 481618\nBLUM 578.4501M Antaro, výsu",
+          "checked": [
+            "Skladom (14)"
+          ],
+          "prices": [
+            "21.16",
+            "24.24",
+            "24.6",
+            "21.32",
+            "22.95",
+            "22.95",
+            "21.16",
+            "6.42",
+            "6.42",
+            "8.06",
+            "8.06",
+            "6.54",
+            "6.54",
+            "0.41"
+          ],
+          "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom"
+        },
+        {
+          "label": "stock-and-brand",
+          "text": "Filtre\nZrušiť všetky filtre\nSkladom\nBLUM\nCena\nod 0,41 € - do 24,60 €\n0,41 €\n24,60 €\nŠtítky\nSkladom (14)\nCentrálny sklad (502)\nKomplet (411)\nNovinka (16)\nKategórie\nNábytkové kovania (14)\nVýrobca\nBLUM (14)\nFarby\nBiela (3)\nSivá (3)\nNeuvedené (1)\nVýsledky pre BLUM 450 (21)\nKategórie (6)\nZnačky (1)\nAventos (BLUM)\nAMBIA-LINE (BLUM)\nORGA-LINE (BLUM)\nVýsuvy a bočnice\nVýsuvy a bočnice\nPríslušenstvo MERIVOBOX\nZoradiť podľa:  \nPredvolené\nOd najlacnejších\nOd najdrahších\nNázov A-Z\nNázov Z-A\nBLUM 378M4502SA Antaro, bočnica 450 biela sada\n21,16 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: IN024B\nBLUM 450.4501B Merivobox, výsuv 450mm/40kg, Blumotion/TOB\n24,24 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: 481617\nBLUM 450.5001B Merivobox, výsuv 500mm/40kg, Blumotion/TOB\n24,60 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: 481618\nBLUM 578.4501M Antaro,",
+          "checked": [
+            "Skladom (14)",
+            "BLUM (14)"
+          ],
+          "prices": [
+            "21.16",
+            "24.24",
+            "24.6",
+            "21.32",
+            "22.95",
+            "22.95",
+            "21.16",
+            "6.42",
+            "6.42",
+            "8.06",
+            "8.06",
+            "6.54",
+            "6.54",
+            "0.41"
+          ],
+          "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=brand%3ABLUM"
+        },
+        {
+          "label": "reset",
+          "text": "Filtre\nCena\nod 0,11 € - do 178,39 €\n0,11 €\n178,39 €\nŠtítky\nCentrálny sklad (507)\nKomplet (411)\nNovinka (16)\nSkladom (14)\nKategórie\nNábytkové kovania (521)\nVýrobca\nBLUM (516)\nGOLLINUCCI (3)\nKESSEBÖHMER (2)\nFarby\nSivá (240)\nBiela (158)\nČierna (57)\nStrieborný (11)\nNeuvedené (7)\nVýsledky pre BLUM 450 (526)\nKategórie (4)\nZnačky (1)\nAventos (BLUM)\nAMBIA-LINE (BLUM)\nORGA-LINE (BLUM)\nVýsuvy a bočnice\nZoradiť podľa:  \nPredvolené\nOd najlacnejších\nOd najdrahších\nNázov A-Z\nNázov Z-A\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n125,90 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255445\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255401\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 4",
+          "checked": [],
+          "prices": [
+            "125.9",
+            "118.08",
+            "118.08",
+            "117.26",
+            "116.43",
+            "116.43",
+            "114.17",
+            "109.45",
+            "109.45",
+            "107.78",
+            "107.78",
+            "105.88",
+            "106.36",
+            "106.36",
+            "95.58",
+            "98.06",
+            "95.58",
+            "94.07",
+            "94.07",
+            "94.41",
+            "94.41",
+            "86.94",
+            "86.94",
+            "85.77"
+          ],
+          "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+        }
+      ],
+      "resetFound": true,
+      "sortedPrices": [
+        0.11,
+        0.17,
+        0.41,
+        0.5,
+        0.79,
+        0.79,
+        1.89,
+        2.67,
+        6.42,
+        6.42,
+        6.42,
+        6.54,
+        6.54,
+        6.54,
+        7.85,
+        7.85,
+        8.06,
+        8.06,
+        9.03,
+        9.03,
+        9.03,
+        9.03,
+        9.03,
+        9.03
+      ],
+      "autocomplete": {
+        "lastBottom": 970.125,
+        "buttonTop": 583,
+        "buttonPosition": "absolute",
+        "visibleBuy": 1
+      },
+      "cart": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+        "amounts": [
+          "100",
+          "100"
+        ],
+        "inputs": [
+          {
+            "outer": "<input type=\"number\" name=\"amount\" value=\"100\" class=\"amount multiple-check\" autocomplete=\"off\" data-decimals=\"0\" step=\"100\" min=\"100\" max=\"9999\" data-testid=\"cartAmount\" data-orig-step=\"1\" data-orig-datamin=\"\" data-min=\"100\">",
+            "visible": true,
+            "form": "/action/Cart/setCartItemAmount/"
+          },
+          {
+            "outer": "<input type=\"hidden\" name=\"amount\" value=\"100\" autocomplete=\"off\">",
+            "visible": false,
+            "form": "/action/Cart/deleteCartItem/"
+          }
+        ]
+      },
+      "nativeSwitch": 1,
+      "table": {
+        "class": "header-background-light external-fonts-loaded ts-view-list ts-luigi-preview scrolled scrolled-down",
+        "firstWidth": 299.1875,
+        "listWidth": 929.59375
+      }
+    },
+    {
+      "width": 1440,
+      "mode": "after",
+      "states": [
+        {
+          "name": "same-card",
+          "data": {
+            "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n225,83 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 553488",
+            "rect": {
+              "x": 419.28125,
+              "y": 113.171875,
+              "width": 299.1875,
+              "height": 581.75,
+              "bottom": 694.921875
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": 459.28125,
+                "y": 550.921875,
+                "width": 219.1875,
+                "height": 118,
+                "bottom": 668.921875
+              }
+            ],
+            "names": [
+              {
+                "text": "K-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)",
+                "rect": {
+                  "x": 459.28125,
+                  "y": 326.21875,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 440.96875
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        },
+        {
+          "name": "results",
+          "data": {
+            "text": "KOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n125,90 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255445\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255401\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255397\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)\n117,26 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255444\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)\n116,43 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255257\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)\n116,43 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255253\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)\n114,17 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255443\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)\n109,45 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255400\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, sklo (komplet)\n109,45 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255396\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, reling (komplet)\n107,78 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255256\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, reling (komplet)\n107,78 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255252\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/40 kg, Blumotion/TOB, šedá, skrutka (komplet)\n105,88 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255442\nKOMPLET\nK-BLUM Legrabox zásuvka C pure 450 mm, 70 kg, Blumotion/TOB, biela, vnútornej typu sklo (komplet)\n106,36 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255399\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)\n106,36 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255395\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, biela, vnútorná (komplet)\n95,58 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254944\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)\n98,06 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255394\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, šedá, vnútorná (komplet)\n95,58 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254940\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela skrutka (komplet)\n94,07 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255241\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n94,07 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255237\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, Expando (komplet)\n94,41 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255249\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, Expando (komplet)\n94,41 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255245\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, biela, vnútorná (komplet)\n86,94 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254943\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, šedá, vnútorná (komplet)\n86,94 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254939\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, Expando (komplet)\n85,77 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255244",
+            "rect": {
+              "x": 419.28125,
+              "y": 110.171875,
+              "width": 929.59375,
+              "height": 4869.75,
+              "bottom": 4979.921875
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": 459.28125,
+                "y": 552.921875,
+                "width": 219.1875,
+                "height": 118,
+                "bottom": 670.921875
+              },
+              {
+                "x": 774.46875,
+                "y": 552.921875,
+                "width": 219.1875,
+                "height": 118,
+                "bottom": 670.921875
+              },
+              {
+                "x": 1089.65625,
+                "y": 552.921875,
+                "width": 219.1875,
+                "height": 118,
+                "bottom": 670.921875
+              },
+              {
+                "x": 459.28125,
+                "y": 1175.359375,
+                "width": 219.1875,
+                "height": 118,
+                "bottom": 1293.359375
+              },
+              {
+                "x": 774.46875,
+                "y": 1175.359375,
+                "width": 219.1875,
+                "height": 118,
+                "bottom": 1293.359375
+              },
+              {
+                "x": 1089.65625,
+                "y": 1175.359375,
+                "width": 219.1875,
+                "height": 118,
+                "bottom": 1293.359375
+              },
+              {
+                "x": 459.28125,
+                "y": 1773.109375,
+                "width": 219.1875,
+                "height": 118,
+                "bottom": 1891.109375
+              },
+              {
+                "x": 774.46875,
+                "y": 1773.109375,
+                "width": 219.1875,
+                "height": 118,
+                "bottom": 1891.109375
+              }
+            ],
+            "names": [
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 459.28125,
+                  "y": 328.21875,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 442.96875
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 774.46875,
+                  "y": 328.21875,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 442.96875
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 1089.65625,
+                  "y": 328.21875,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 442.96875
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 459.28125,
+                  "y": 928.3125,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 1043.0625
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)",
+                "rect": {
+                  "x": 774.46875,
+                  "y": 928.3125,
+                  "width": 219.1875,
+                  "height": 139.4375,
+                  "bottom": 1067.75
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+                "rect": {
+                  "x": 1089.65625,
+                  "y": 928.3125,
+                  "width": 219.1875,
+                  "height": 139.4375,
+                  "bottom": 1067.75
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 459.28125,
+                  "y": 1548.40625,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 1663.15625
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 774.46875,
+                  "y": 1548.40625,
+                  "width": 219.1875,
+                  "height": 114.75,
+                  "bottom": 1663.15625
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        },
+        {
+          "name": "detail",
+          "data": {
+            "text": "High-contrast mode\nMohlo by Vás zaujímať\nNaspäť\nĎalej\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 €\n/ pár\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 €\n/ pár\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 €\n/ pár\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka",
+            "rect": {
+              "x": 23.5,
+              "y": 167.609375,
+              "width": 1378,
+              "height": 664.25,
+              "bottom": 831.859375
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": -2502.5,
+                "y": 704.265625,
+                "width": 247,
+                "height": 91.59375,
+                "bottom": 795.859375
+              },
+              {
+                "x": -2175.5,
+                "y": 704.265625,
+                "width": 247,
+                "height": 91.59375,
+                "bottom": 795.859375
+              },
+              {
+                "x": -1848.5,
+                "y": 704.265625,
+                "width": 247,
+                "height": 91.59375,
+                "bottom": 795.859375
+              },
+              {
+                "x": -1521.5,
+                "y": 704.265625,
+                "width": 247,
+                "height": 91.59375,
+                "bottom": 795.859375
+              },
+              {
+                "x": -1194.5,
+                "y": 704.265625,
+                "width": 247,
+                "height": 91.59375,
+                "bottom": 795.859375
+              },
+              {
+                "x": -867.5,
+                "y": 704.265625,
+                "width": 247,
+                "height": 91.59375,
+                "bottom": 795.859375
+              },
+              {
+                "x": -540.5,
+                "y": 704.265625,
+                "width": 247,
+                "height": 91.59375,
+                "bottom": 795.859375
+              },
+              {
+                "x": -213.5,
+                "y": 704.265625,
+                "width": 247,
+                "height": 91.59375,
+                "bottom": 795.859375
+              }
+            ],
+            "names": [
+              {
+                "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela",
+                "rect": {
+                  "x": -2502.5,
+                  "y": 593.203125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 667.265625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela",
+                "rect": {
+                  "x": -2175.5,
+                  "y": 593.203125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 667.265625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá",
+                "rect": {
+                  "x": -1848.5,
+                  "y": 593.203125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 667.265625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá",
+                "rect": {
+                  "x": -1521.5,
+                  "y": 593.203125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 667.265625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka",
+                "rect": {
+                  "x": -1194.5,
+                  "y": 593.203125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 667.265625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka",
+                "rect": {
+                  "x": -867.5,
+                  "y": 593.203125,
+                  "width": 247,
+                  "height": 74.0625,
+                  "bottom": 667.265625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm",
+                "rect": {
+                  "x": -540.5,
+                  "y": 593.203125,
+                  "width": 247,
+                  "height": 49.375,
+                  "bottom": 642.578125
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez",
+                "rect": {
+                  "x": -213.5,
+                  "y": 593.203125,
+                  "width": 247,
+                  "height": 49.375,
+                  "bottom": 642.578125
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        }
+      ],
+      "errors": [],
+      "cartPosts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "version": "v0.7.8-rc.2",
+      "loader": {
+        "version": "2c27b0f",
+        "preview": true,
+        "pageLoadingTimer": null
+      },
+      "homepageWidgets": [],
+      "nativeCard": {
+        "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n183,60 € bez DPH\n225,83 €\n/ sada\nCENTRÁLNY\nSKLAD (84 SADA)\nKÓD: 553488\n−\n+\nDo košíka",
+        "icon": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")"
+      },
+      "filters": [
+        {
+          "label": "initial",
+          "text": "Filtre\nCena\nod 0,11 € - do 178,39 €\n0,11 €\n178,39 €\nŠtítky\nCentrálny sklad (507)\nKomplet (411)\nNovinka (16)\nSkladom (14)\nKategórie\nNábytkové kovania (521)\nVýrobca\nBLUM (516)\nGOLLINUCCI (3)\nKESSEBÖHMER (2)\nFarby\nSivá (240)\nBiela (158)\nČierna (57)\nStrieborný (11)\nNeuvedené (7)\nVýsledky pre BLUM 450 (526)\nKategórie (4)\nZnačky (1)\nAventos (BLUM)\nAMBIA-LINE (BLUM)\nORGA-LINE (BLUM)\nVýsuvy a bočnice\nZoradiť podľa:  \nPredvolené\nOd najlacnejších\nOd najdrahších\nNázov A-Z\nNázov Z-A\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n125,90 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255445\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255401\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 4",
+          "checked": [],
+          "prices": [
+            "125.9",
+            "118.08",
+            "118.08",
+            "117.26",
+            "116.43",
+            "116.43",
+            "114.17",
+            "109.45",
+            "109.45",
+            "107.78",
+            "107.78",
+            "105.88",
+            "106.36",
+            "106.36",
+            "95.58",
+            "98.06",
+            "95.58",
+            "94.07",
+            "94.07",
+            "94.41",
+            "94.41",
+            "86.94",
+            "86.94",
+            "85.77"
+          ],
+          "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+        },
+        {
+          "label": "stock-label-click",
+          "text": "Filtre\nZrušiť všetky filtre\nSkladom\nCena\nod 0,41 € - do 24,60 €\n0,41 €\n24,60 €\nŠtítky\nSkladom (14)\nCentrálny sklad (507)\nKomplet (411)\nNovinka (16)\nKategórie\nNábytkové kovania (14)\nVýrobca\nBLUM (14)\nFarby\nBiela (3)\nSivá (3)\nNeuvedené (1)\nVýsledky pre BLUM 450 (21)\nKategórie (6)\nZnačky (1)\nAventos (BLUM)\nAMBIA-LINE (BLUM)\nORGA-LINE (BLUM)\nVýsuvy a bočnice\nVýsuvy a bočnice\nPríslušenstvo MERIVOBOX\nZoradiť podľa:  \nPredvolené\nOd najlacnejších\nOd najdrahších\nNázov A-Z\nNázov Z-A\nBLUM 378M4502SA Antaro, bočnica 450 biela sada\n21,16 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: IN024B\nBLUM 450.4501B Merivobox, výsuv 450mm/40kg, Blumotion/TOB\n24,24 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: 481617\nBLUM 450.5001B Merivobox, výsuv 500mm/40kg, Blumotion/TOB\n24,60 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: 481618\nBLUM 578.4501M Antaro, výsu",
+          "checked": [
+            "Skladom (14)"
+          ],
+          "prices": [
+            "21.16",
+            "24.24",
+            "24.6",
+            "21.32",
+            "22.95",
+            "22.95",
+            "21.16",
+            "6.42",
+            "6.42",
+            "8.06",
+            "8.06",
+            "6.54",
+            "6.54",
+            "0.41"
+          ],
+          "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom"
+        },
+        {
+          "label": "stock-and-brand",
+          "text": "Filtre\nZrušiť všetky filtre\nSkladom\nBLUM\nCena\nod 0,41 € - do 24,60 €\n0,41 €\n24,60 €\nŠtítky\nSkladom (14)\nCentrálny sklad (502)\nKomplet (411)\nNovinka (16)\nKategórie\nNábytkové kovania (14)\nVýrobca\nBLUM (14)\nFarby\nBiela (3)\nSivá (3)\nNeuvedené (1)\nVýsledky pre BLUM 450 (21)\nKategórie (6)\nZnačky (1)\nAventos (BLUM)\nAMBIA-LINE (BLUM)\nORGA-LINE (BLUM)\nVýsuvy a bočnice\nVýsuvy a bočnice\nPríslušenstvo MERIVOBOX\nZoradiť podľa:  \nPredvolené\nOd najlacnejších\nOd najdrahších\nNázov A-Z\nNázov Z-A\nBLUM 378M4502SA Antaro, bočnica 450 biela sada\n21,16 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: IN024B\nBLUM 450.4501B Merivobox, výsuv 450mm/40kg, Blumotion/TOB\n24,24 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: 481617\nBLUM 450.5001B Merivobox, výsuv 500mm/40kg, Blumotion/TOB\n24,60 €\n/ pár\nSKLADOM\nDo košíka\nKÓD: 481618\nBLUM 578.4501M Antaro,",
+          "checked": [
+            "Skladom (14)",
+            "BLUM (14)"
+          ],
+          "prices": [
+            "21.16",
+            "24.24",
+            "24.6",
+            "21.32",
+            "22.95",
+            "22.95",
+            "21.16",
+            "6.42",
+            "6.42",
+            "8.06",
+            "8.06",
+            "6.54",
+            "6.54",
+            "0.41"
+          ],
+          "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=brand%3ABLUM"
+        },
+        {
+          "label": "reset",
+          "text": "Filtre\nCena\nod 0,11 € - do 178,39 €\n0,11 €\n178,39 €\nŠtítky\nCentrálny sklad (507)\nKomplet (411)\nNovinka (16)\nSkladom (14)\nKategórie\nNábytkové kovania (521)\nVýrobca\nBLUM (516)\nGOLLINUCCI (3)\nKESSEBÖHMER (2)\nFarby\nSivá (240)\nBiela (158)\nČierna (57)\nStrieborný (11)\nNeuvedené (7)\nVýsledky pre BLUM 450 (526)\nKategórie (4)\nZnačky (1)\nAventos (BLUM)\nAMBIA-LINE (BLUM)\nORGA-LINE (BLUM)\nVýsuvy a bočnice\nZoradiť podľa:  \nPredvolené\nOd najlacnejších\nOd najdrahších\nNázov A-Z\nNázov Z-A\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n125,90 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255445\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255401\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 4",
+          "checked": [],
+          "prices": [
+            "125.9",
+            "118.08",
+            "118.08",
+            "117.26",
+            "116.43",
+            "116.43",
+            "114.17",
+            "109.45",
+            "109.45",
+            "107.78",
+            "107.78",
+            "105.88",
+            "106.36",
+            "106.36",
+            "95.58",
+            "98.06",
+            "95.58",
+            "94.07",
+            "94.07",
+            "94.41",
+            "94.41",
+            "86.94",
+            "86.94",
+            "85.77"
+          ],
+          "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+        }
+      ],
+      "resetFound": true,
+      "sortedPrices": [
+        0.11,
+        0.17,
+        0.41,
+        0.5,
+        0.79,
+        0.79,
+        1.89,
+        2.67,
+        6.42,
+        6.42,
+        6.42,
+        6.54,
+        6.54,
+        6.54,
+        7.85,
+        7.85,
+        8.06,
+        8.06,
+        9.03,
+        9.03,
+        9.03,
+        9.03,
+        9.03,
+        9.03
+      ],
+      "autocomplete": {
+        "lastBottom": 865.9375,
+        "buttonTop": 877.9375,
+        "buttonPosition": "static",
+        "visibleBuy": 1
+      },
+      "cart": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+        "amounts": [
+          "100",
+          "100"
+        ],
+        "inputs": [
+          {
+            "outer": "<input type=\"number\" name=\"amount\" value=\"100\" class=\"amount multiple-check\" autocomplete=\"off\" data-decimals=\"0\" step=\"100\" min=\"100\" max=\"9999\" data-testid=\"cartAmount\" data-orig-step=\"1\" data-orig-datamin=\"\" data-min=\"100\">",
+            "visible": true,
+            "form": "/action/Cart/setCartItemAmount/"
+          },
+          {
+            "outer": "<input type=\"hidden\" name=\"amount\" value=\"100\" autocomplete=\"off\">",
+            "visible": false,
+            "form": "/action/Cart/deleteCartItem/"
+          }
+        ]
+      },
+      "nativeSwitch": 1,
+      "table": {
+        "class": "header-background-light external-fonts-loaded ts-view-list ts-luigi-preview scrolled scrolled-down",
+        "firstWidth": 299.1875,
+        "listWidth": 929.59375
+      }
+    },
+    {
+      "width": 375,
+      "mode": "before",
+      "states": [
+        {
+          "name": "same-card",
+          "data": {
+            "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n225,83 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 553488",
+            "rect": {
+              "x": 14.375,
+              "y": 307.375,
+              "width": 346.25,
+              "height": 470.1875,
+              "bottom": 777.5625
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": 40.375,
+                "y": 668.5625,
+                "width": 294.25,
+                "height": 34,
+                "bottom": 702.5625
+              }
+            ],
+            "names": [
+              {
+                "text": "K-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 588.0625,
+                  "width": 294.25,
+                  "height": 68.5,
+                  "bottom": 656.5625
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        },
+        {
+          "name": "results",
+          "data": {
+            "text": "KOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n125,90 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255445\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255401\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255397\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)\n117,26 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255444\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)\n116,43 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255257\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)\n116,43 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255253\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)\n114,17 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255443\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)\n109,45 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255400\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, sklo (komplet)\n109,45 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255396\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, reling (komplet)\n107,78 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255256\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, reling (komplet)\n107,78 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255252\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/40 kg, Blumotion/TOB, šedá, skrutka (komplet)\n105,88 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255442\nKOMPLET\nK-BLUM Legrabox zásuvka C pure 450 mm, 70 kg, Blumotion/TOB, biela, vnútornej typu sklo (komplet)\n106,36 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255399\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)\n106,36 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255395\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, biela, vnútorná (komplet)\n95,58 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254944\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)\n98,06 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255394\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, šedá, vnútorná (komplet)\n95,58 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254940\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela skrutka (komplet)\n94,07 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255241\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n94,07 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255237\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, Expando (komplet)\n94,41 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255249\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, Expando (komplet)\n94,41 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255245\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, biela, vnútorná (komplet)\n86,94 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254943\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, šedá, vnútorná (komplet)\n86,94 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254939\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, Expando (komplet)\n85,77 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255244",
+            "rect": {
+              "x": 14.375,
+              "y": 477.921875,
+              "width": 346.25,
+              "height": 11290,
+              "bottom": 11767.921875
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": 40.375,
+                "y": 826.609375,
+                "width": 294.25,
+                "height": 34,
+                "bottom": 860.609375
+              },
+              {
+                "x": 40.375,
+                "y": 1295.296875,
+                "width": 294.25,
+                "height": 34,
+                "bottom": 1329.296875
+              },
+              {
+                "x": 40.375,
+                "y": 1763.984375,
+                "width": 294.25,
+                "height": 34,
+                "bottom": 1797.984375
+              },
+              {
+                "x": 40.375,
+                "y": 2232.671875,
+                "width": 294.25,
+                "height": 34,
+                "bottom": 2266.671875
+              },
+              {
+                "x": 40.375,
+                "y": 2701.359375,
+                "width": 294.25,
+                "height": 34,
+                "bottom": 2735.359375
+              },
+              {
+                "x": 40.375,
+                "y": 3170.046875,
+                "width": 294.25,
+                "height": 34,
+                "bottom": 3204.046875
+              },
+              {
+                "x": 40.375,
+                "y": 3638.734375,
+                "width": 294.25,
+                "height": 34,
+                "bottom": 3672.734375
+              },
+              {
+                "x": 40.375,
+                "y": 4107.421875,
+                "width": 294.25,
+                "height": 34,
+                "bottom": 4141.421875
+              }
+            ],
+            "names": [
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 763.609375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 814.609375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 1232.296875,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 1283.296875
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 1700.984375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 1751.984375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 2169.671875,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 2220.671875
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 2638.359375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 2689.359375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 3107.046875,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 3158.046875
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 3575.734375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 3626.734375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 4044.421875,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 4095.421875
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        },
+        {
+          "name": "detail",
+          "data": {
+            "text": "High-contrast mode\nMohlo by Vás zaujímať\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 € / pár\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 € / pár\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 € / ks\nCENTRÁLNY SKLAD\nDo košíka",
+            "rect": {
+              "x": 20,
+              "y": 116.59375,
+              "width": 335,
+              "height": 577.875,
+              "bottom": 694.46875
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": -564,
+                "y": 556.28125,
+                "width": 85.5,
+                "height": 53.1875,
+                "bottom": 609.46875
+              },
+              {
+                "x": -406.5,
+                "y": 556.28125,
+                "width": 85.5,
+                "height": 53.1875,
+                "bottom": 609.46875
+              },
+              {
+                "x": -249,
+                "y": 556.28125,
+                "width": 87.234375,
+                "height": 53.1875,
+                "bottom": 609.46875
+              },
+              {
+                "x": -91.5,
+                "y": 556.28125,
+                "width": 85.5,
+                "height": 53.1875,
+                "bottom": 609.46875
+              },
+              {
+                "x": 66,
+                "y": 556.28125,
+                "width": 85.5,
+                "height": 53.1875,
+                "bottom": 609.46875
+              },
+              {
+                "x": 223.5,
+                "y": 556.28125,
+                "width": 85.5,
+                "height": 53.1875,
+                "bottom": 609.46875
+              },
+              {
+                "x": 381,
+                "y": 556.28125,
+                "width": 85.5,
+                "height": 53.1875,
+                "bottom": 609.46875
+              },
+              {
+                "x": 538.5,
+                "y": 556.28125,
+                "width": 85.5,
+                "height": 53.1875,
+                "bottom": 609.46875
+              }
+            ],
+            "names": [
+              {
+                "text": "BLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka",
+                "rect": {
+                  "x": -564,
+                  "y": 401.78125,
+                  "width": 85.5,
+                  "height": 105,
+                  "bottom": 506.78125
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka",
+                "rect": {
+                  "x": -406.5,
+                  "y": 401.78125,
+                  "width": 85.5,
+                  "height": 105,
+                  "bottom": 506.78125
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm",
+                "rect": {
+                  "x": -249,
+                  "y": 401.78125,
+                  "width": 87.234375,
+                  "height": 105,
+                  "bottom": 506.78125
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez",
+                "rect": {
+                  "x": -91.5,
+                  "y": 401.78125,
+                  "width": 85.5,
+                  "height": 105,
+                  "bottom": 506.78125
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela",
+                "rect": {
+                  "x": 66,
+                  "y": 401.78125,
+                  "width": 85.5,
+                  "height": 122.5,
+                  "bottom": 524.28125
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela",
+                "rect": {
+                  "x": 223.5,
+                  "y": 401.78125,
+                  "width": 85.5,
+                  "height": 122.5,
+                  "bottom": 524.28125
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá",
+                "rect": {
+                  "x": 381,
+                  "y": 401.78125,
+                  "width": 85.5,
+                  "height": 122.5,
+                  "bottom": 524.28125
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá",
+                "rect": {
+                  "x": 538.5,
+                  "y": 401.78125,
+                  "width": 85.5,
+                  "height": 122.5,
+                  "bottom": 524.28125
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        }
+      ],
+      "errors": [],
+      "cartPosts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "version": "v0.7.8-rc.0",
+      "loader": {
+        "version": "3cef596",
+        "preview": true,
+        "pageLoadingTimer": null
+      },
+      "homepageWidgets": [],
+      "nativeCard": {
+        "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n183,60 € bez DPH\n225,83 €\n/ sada\nCENTRÁLNY\nSKLAD (84 SADA)\nKÓD: 553488\n−\n+\nDo košíka",
+        "icon": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")"
+      },
+      "autocomplete": {
+        "lastBottom": 673.859375,
+        "buttonTop": 673.859375,
+        "buttonPosition": "relative",
+        "visibleBuy": 1
+      },
+      "cart": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+        "amounts": [
+          "100",
+          "100"
+        ],
+        "inputs": [
+          {
+            "outer": "<input type=\"number\" name=\"amount\" value=\"100\" class=\"amount multiple-check\" autocomplete=\"off\" data-decimals=\"0\" step=\"100\" min=\"100\" max=\"9999\" data-testid=\"cartAmount\" data-orig-step=\"1\" data-orig-datamin=\"\" data-min=\"100\">",
+            "visible": true,
+            "form": "/action/Cart/setCartItemAmount/"
+          },
+          {
+            "outer": "<input type=\"hidden\" name=\"amount\" value=\"100\" autocomplete=\"off\">",
+            "visible": false,
+            "form": "/action/Cart/deleteCartItem/"
+          }
+        ]
+      }
+    },
+    {
+      "width": 375,
+      "mode": "after",
+      "states": [
+        {
+          "name": "same-card",
+          "data": {
+            "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n225,83 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 553488",
+            "rect": {
+              "x": 14.375,
+              "y": 307.375,
+              "width": 346.25,
+              "height": 463.375,
+              "bottom": 770.75
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": 40.375,
+                "y": 656.5625,
+                "width": 294.25,
+                "height": 88.1875,
+                "bottom": 744.75
+              }
+            ],
+            "names": [
+              {
+                "text": "K-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 576.0625,
+                  "width": 294.25,
+                  "height": 68.5,
+                  "bottom": 644.5625
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        },
+        {
+          "name": "results",
+          "data": {
+            "text": "KOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n125,90 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255445\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255401\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)\n118,08 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255397\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)\n117,26 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255444\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)\n116,43 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255257\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)\n116,43 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255253\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)\n114,17 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255443\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)\n109,45 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255400\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, sklo (komplet)\n109,45 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255396\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, reling (komplet)\n107,78 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255256\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, reling (komplet)\n107,78 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255252\nKOMPLET\nK-BLUM Legrabox, zásuvka F 450 mm/40 kg, Blumotion/TOB, šedá, skrutka (komplet)\n105,88 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255442\nKOMPLET\nK-BLUM Legrabox zásuvka C pure 450 mm, 70 kg, Blumotion/TOB, biela, vnútornej typu sklo (komplet)\n106,36 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255399\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)\n106,36 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255395\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, biela, vnútorná (komplet)\n95,58 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254944\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)\n98,06 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255394\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, šedá, vnútorná (komplet)\n95,58 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254940\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela skrutka (komplet)\n94,07 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255241\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)\n94,07 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255237\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, Expando (komplet)\n94,41 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255249\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, Expando (komplet)\n94,41 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255245\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, biela, vnútorná (komplet)\n86,94 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254943\nKOMPLET\nK-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, šedá, vnútorná (komplet)\n86,94 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254939\nKOMPLET\nK-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, Expando (komplet)\n85,77 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 255244",
+            "rect": {
+              "x": 14.375,
+              "y": 477.921875,
+              "width": 346.25,
+              "height": 11126.5,
+              "bottom": 11604.421875
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": 40.375,
+                "y": 814.609375,
+                "width": 294.25,
+                "height": 88.1875,
+                "bottom": 902.796875
+              },
+              {
+                "x": 40.375,
+                "y": 1276.484375,
+                "width": 294.25,
+                "height": 88.1875,
+                "bottom": 1364.671875
+              },
+              {
+                "x": 40.375,
+                "y": 1738.359375,
+                "width": 294.25,
+                "height": 88.1875,
+                "bottom": 1826.546875
+              },
+              {
+                "x": 40.375,
+                "y": 2200.234375,
+                "width": 294.25,
+                "height": 88.1875,
+                "bottom": 2288.421875
+              },
+              {
+                "x": 40.375,
+                "y": 2662.109375,
+                "width": 294.25,
+                "height": 88.1875,
+                "bottom": 2750.296875
+              },
+              {
+                "x": 40.375,
+                "y": 3123.984375,
+                "width": 294.25,
+                "height": 88.1875,
+                "bottom": 3212.171875
+              },
+              {
+                "x": 40.375,
+                "y": 3585.859375,
+                "width": 294.25,
+                "height": 88.1875,
+                "bottom": 3674.046875
+              },
+              {
+                "x": 40.375,
+                "y": 4047.734375,
+                "width": 294.25,
+                "height": 88.1875,
+                "bottom": 4135.921875
+              }
+            ],
+            "names": [
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 751.609375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 802.609375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 1213.484375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 1264.484375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 1675.359375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 1726.359375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 2137.234375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 2188.234375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 2599.109375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 2650.109375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 3060.984375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 3111.984375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 3522.859375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 3573.859375
+                },
+                "clipped": false
+              },
+              {
+                "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+                "rect": {
+                  "x": 40.375,
+                  "y": 3984.734375,
+                  "width": 294.25,
+                  "height": 51,
+                  "bottom": 4035.734375
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        },
+        {
+          "name": "detail",
+          "data": {
+            "text": "High-contrast mode\nMohlo by Vás zaujímať\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227547\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227543\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 € / pár\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 257254\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227600\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306383\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306385\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306382\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306384\nBLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka\n0,81 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227547\nBLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka\n0,34 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227543\nBLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm\n37,31 € / pár\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 257254\nBLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez\n33,70 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 227600\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306383\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela\n0,17 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306385\nBLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá\n0,16 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306382\nBLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá\n0,17 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306384",
+            "rect": {
+              "x": 20,
+              "y": 149.59375,
+              "width": 335,
+              "height": 512.59375,
+              "bottom": 662.1875
+            },
+            "overflow": false,
+            "offers": [
+              {
+                "x": -564,
+                "y": 503.40625,
+                "width": 85.5,
+                "height": 122.78125,
+                "bottom": 626.1875
+              },
+              {
+                "x": -406.5,
+                "y": 503.40625,
+                "width": 85.5,
+                "height": 122.78125,
+                "bottom": 626.1875
+              },
+              {
+                "x": -249,
+                "y": 503.40625,
+                "width": 85.5,
+                "height": 122.78125,
+                "bottom": 626.1875
+              },
+              {
+                "x": -91.5,
+                "y": 503.40625,
+                "width": 85.5,
+                "height": 122.78125,
+                "bottom": 626.1875
+              },
+              {
+                "x": 66,
+                "y": 503.40625,
+                "width": 85.5,
+                "height": 122.78125,
+                "bottom": 626.1875
+              },
+              {
+                "x": 223.5,
+                "y": 503.40625,
+                "width": 85.5,
+                "height": 122.78125,
+                "bottom": 626.1875
+              },
+              {
+                "x": 381,
+                "y": 503.40625,
+                "width": 85.5,
+                "height": 122.78125,
+                "bottom": 626.1875
+              },
+              {
+                "x": 538.5,
+                "y": 503.40625,
+                "width": 85.5,
+                "height": 122.78125,
+                "bottom": 626.1875
+              }
+            ],
+            "names": [
+              {
+                "text": "BLUM ZF7C7002 Legrabox, zásuvka čelný príchyt C, skrutka",
+                "rect": {
+                  "x": -564,
+                  "y": 348.90625,
+                  "width": 85.5,
+                  "height": 105,
+                  "bottom": 453.90625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZF7M7002 Legrabox, zásuvka čelný príchyt M, skrutka",
+                "rect": {
+                  "x": -406.5,
+                  "y": 348.90625,
+                  "width": 85.5,
+                  "height": 105,
+                  "bottom": 453.90625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZE7S388G Legrabox, zásuvný prvok Free, 500mm",
+                "rect": {
+                  "x": -249,
+                  "y": 348.90625,
+                  "width": 85.5,
+                  "height": 105,
+                  "bottom": 453.90625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZR7.1080U Legrabox čelný reling 1080mm, nerez",
+                "rect": {
+                  "x": -91.5,
+                  "y": 348.90625,
+                  "width": 85.5,
+                  "height": 105,
+                  "bottom": 453.90625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela",
+                "rect": {
+                  "x": 66,
+                  "y": 348.90625,
+                  "width": 85.5,
+                  "height": 122.5,
+                  "bottom": 471.40625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, biela",
+                "rect": {
+                  "x": 223.5,
+                  "y": 348.90625,
+                  "width": 85.5,
+                  "height": 122.5,
+                  "bottom": 471.40625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, šedá",
+                "rect": {
+                  "x": 381,
+                  "y": 348.90625,
+                  "width": 85.5,
+                  "height": 122.5,
+                  "bottom": 471.40625
+                },
+                "clipped": false
+              },
+              {
+                "text": "BLUM ZA7.5700.BT Legrabox, vnútorná krytka s logom BLUM, šedá",
+                "rect": {
+                  "x": 538.5,
+                  "y": 348.90625,
+                  "width": 85.5,
+                  "height": 122.5,
+                  "bottom": 471.40625
+                },
+                "clipped": false
+              }
+            ],
+            "quantities": 0,
+            "netPrices": 0
+          }
+        }
+      ],
+      "errors": [],
+      "cartPosts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "version": "v0.7.8-rc.2",
+      "loader": {
+        "version": "2c27b0f",
+        "preview": true,
+        "pageLoadingTimer": null
+      },
+      "homepageWidgets": [],
+      "nativeCard": {
+        "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n183,60 € bez DPH\n225,83 €\n/ sada\nCENTRÁLNY\nSKLAD (84 SADA)\nKÓD: 553488\n−\n+\nDo košíka",
+        "icon": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E\")"
+      },
+      "autocomplete": {
+        "lastBottom": 649.859375,
+        "buttonTop": 661.859375,
+        "buttonPosition": "static",
+        "visibleBuy": 1
+      },
+      "cart": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+        "amounts": [
+          "100",
+          "100"
+        ],
+        "inputs": [
+          {
+            "outer": "<input type=\"number\" name=\"amount\" value=\"100\" class=\"amount multiple-check\" autocomplete=\"off\" data-decimals=\"0\" step=\"100\" min=\"100\" max=\"9999\" data-testid=\"cartAmount\" data-orig-step=\"1\" data-orig-datamin=\"\" data-min=\"100\">",
+            "visible": true,
+            "form": "/action/Cart/setCartItemAmount/"
+          },
+          {
+            "outer": "<input type=\"hidden\" name=\"amount\" value=\"100\" autocomplete=\"off\">",
+            "visible": false,
+            "form": "/action/Cart/deleteCartItem/"
+          }
+        ]
+      }
+    }
+  ]
+}

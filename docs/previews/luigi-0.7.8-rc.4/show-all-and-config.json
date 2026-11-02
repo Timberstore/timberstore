@@ -1,0 +1,44 @@
+[
+  {
+    "width": 1440,
+    "browser": "151.0.7922.173",
+    "settings": {
+      "hasDescription": "false",
+      "hasUnit": "true",
+      "hasCode": "true",
+      "hasActionButton": "versionB",
+      "carouselItemsSix": 2
+    },
+    "screenshot": {
+      "status": "CAPTURED"
+    },
+    "afterClick": {
+      "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450",
+      "version": "v0.7.8-rc.4",
+      "preview": true,
+      "results": 24,
+      "acVisible": false
+    }
+  },
+  {
+    "width": 375,
+    "browser": "151.0.7922.173",
+    "settings": {
+      "hasDescription": "false",
+      "hasUnit": "true",
+      "hasCode": "true",
+      "hasActionButton": "versionB",
+      "carouselItemsSix": 2
+    },
+    "screenshot": {
+      "status": "CAPTURED"
+    },
+    "afterClick": {
+      "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450",
+      "version": "v0.7.8-rc.4",
+      "preview": true,
+      "results": 24,
+      "acVisible": true
+    }
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "orderSubmitted": false,
+  "variant": {
+    "sku": "494606",
+    "status": "NOT TESTED",
+    "requests": [
+      {
+        "host": "friends.shopcode.cz",
+        "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+      }
+    ],
+    "dom": {
+      "text": "TULIP Knopka Jota zlatá matná\nKÓD: 494606\nZNAČKA: TULIP\nDostupnosť\nSKLADOM (>100 KS)\nMôžeme doručiť do:\n05.11.2026\nMožnosti doručenia\nCena\n2,26 €\n/ ks\n1,84 €\nJednotková cena:\nMnožstvo\n+\n−\nPridať do košíka\n\nDETAILNÉ INFORMÁCIE\n\nOPÝTAŤ SA\nSTRÁŽIŤ",
+      "selects": [],
+      "amounts": [
+        {
+          "value": "1",
+          "min": "1",
+          "step": "1"
+        }
+      ],
+      "variantLinks": 0
+    }
+  },
+  "unorderable": {
+    "status": "NOT TESTED",
+    "qualifiedSku": null,
+    "queries": [
+      {
+        "query": "nedostupné",
+        "ui": "Výsledky pre nedostupné (0)\nNenašli sme žiadne vhodné výsledky\nMohlo by vás zaujímať\nKategórie\nSpojovací materiál\nÚchytky a vešiaky\nANTARO\nChémia\nZnačky\nFESTOOL\nACRYLUX\nBBP\nGETACORE\nČlánky\nStránka nenájdená\nDoprava a platba\nObchodné podmienky\nKontakty\nTop produkty\nKOMPLET\nK-BLUM Antaro, zásuvka M 550 mm/30 kg, Blumotion/TOB, šedá, Inserta (komplet)\n50,52 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254433\nKOMPLET\nK-BLUM Merivobox, zásuvka K 600mm/40kg, biela, Inserta (komplet)\n74,48 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 485572\nKOMPLET\nK-KES LeMans II, police a uchytenie, Arena Classic, biela/strieb. Ľ,450/min 1265 (komplet)\n344,73 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 505938\nStrongFix Skrutka PZ 3,5x16mm zápustná hlava zinok žltý\n0,02 €\n/ ks\nSKLADOM\nDo košíka\nKÓD: 11109\nKOMPLET\nK-BLUM Antaro, zásuvka D 550 mm/30 kg, Blumotion/TOB, biela, skrutka, drez (komplet)\n86,44 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 336692\nKOMPLET\nK-BLUM Legrabox M 500 mm/40 kg, skrutka+protišm.podl.Ago-Fibre 80(722x474)biela (komplet)\n40,76 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 454726",
+        "cards": [
+          {
+            "sku": "254433",
+            "availability": "CENTRÁLNY SKLAD",
+            "buy": true
+          },
+          {
+            "sku": "485572",
+            "availability": "CENTRÁLNY SKLAD",
+            "buy": true
+          },
+          {
+            "sku": "505938",
+            "availability": "CENTRÁLNY SKLAD",
+            "buy": true
+          },
+          {
+            "sku": "11109",
+            "availability": "SKLADOM",
+            "buy": true
+          },
+          {
+            "sku": "336692",
+            "availability": "CENTRÁLNY SKLAD",
+            "buy": true
+          },
+          {
+            "sku": "454726",
+            "availability": "CENTRÁLNY SKLAD",
+            "buy": true
+          }
+        ]
+      },
+      {
+        "query": "vypredané",
+        "ui": "Filtre\nCena\nod 0,10 € - do 0,20 €\nŠtítky\nCentrálny sklad (1)\nKategórie\nSpojovací materiál (1)\nVýrobca\nN/A (1)\nVýsledky pre vypredané (3)\nKategórie (1)\nZnačky (1)\nExcentre a tiahla\nZoradiť podľa:  \nPredvolené\nOd najlacnejších\nOd najdrahších\nNázov A-Z\nNázov Z-A\nExcenter EC16 priemer 15cm\n0,10 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 283688\nVýsledky 1 - 1 z 1",
+        "cards": [
+          {
+            "sku": "283688",
+            "availability": "CENTRÁLNY SKLAD",
+            "buy": true
+          }
+        ]
+      }
+    ]
+  },
+  "safari": {
+    "status": "NOT TESTED",
+    "reason": "Linux Chromium environment; Safari/WebKit executable unavailable"
+  },
+  "rollback": {
+    "version": "v0.7.7",
+    "loader": {
+      "version": "v0.7.7",
+      "preview": false,
+      "pageLoadingTimer": null
+    },
+    "h1": 0,
+    "categories": 12,
+    "previewCookie": false
+  }
+}

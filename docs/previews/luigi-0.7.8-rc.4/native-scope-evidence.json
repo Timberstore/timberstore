@@ -1,0 +1,18 @@
+{
+  "cart-modal.css": {
+    "nativeCssOtherwiseIdenticalToRc2": true,
+    "guard": ":not(:where(.lb-product))",
+    "specificityChange": 0
+  },
+  "recommendations.css": {
+    "nativeCssOtherwiseIdenticalToRc2": true,
+    "guard": ":not(:where(.lb-product))",
+    "specificityChange": 0
+  },
+  "selectorsDiff": "diff --git a/src/core/selectors.js b/src/core/selectors.js\nindex d3107be..6259280 100644\n--- a/src/core/selectors.js\n+++ b/src/core/selectors.js\n@@ -93,7 +93,7 @@ export const SEL = {\n   // Exclude the main detail/cart forms; those retain native quantity handlers.\n   purchaseCard: '.product',\n   productPurchaseForms:\n-    'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product form.pr-action, .products-related-block .product form.pr-action, .products-alternative-block .product form.pr-action, #colorbox .advanced-order .product form.pr-action',\n+    'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product:not(.lb-product) form.pr-action, .products-related-block .product:not(.lb-product) form.pr-action, .products-alternative-block .product:not(.lb-product) form.pr-action, #colorbox .advanced-order .product:not(.lb-product) form.pr-action',\n   cartModalForm: 'form.pr-action, form.variant-submit',\n   cartForm: 'form.pr-action',\n   cartFormAmount: 'input[name=\"amount\"]', // hidden; the multiply_order add-on writes the pack size here\n@@ -141,7 +141,7 @@ export const SEL = {\n   productStockLabel: ':scope > span:first-child',\n   productStockAmount: '.availability-amount',\n   recommendationCard:\n-    '.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product',\n+    '.products-related-block .product:not(.lb-product), .products-alternative-block .product:not(.lb-product), #colorbox .advanced-order .product:not(.lb-product)',\n   recommendationLink: 'a.name[href]',\n   recommendationCartLabel: '.btn-cart > span:not(.ts-cart-count)',\n   recommendationSku: '[data-micro=\"sku\"]',\n",
+  "problematicOriginalRules": [
+    "#colorbox .advanced-order .product :is(a.name, .p-code) {\n    margin-left: 66px;\n  }",
+    "#colorbox .advanced-order .product .btn-cart::after {\n  display: none;\n}"
+  ],
+  "observedVendorCardClasses": "product lb-product lb-recommend"
+}
