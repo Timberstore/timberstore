@@ -738,3 +738,8 @@ Obsahuje i v0.1.0 a v0.2.0 (nikdy nenasazené, jen tagy / rc).
 ## 0.7.7-rc.0 — LB1 preview only (2026-11-02)
 - Scoped Luigi presentation and semantic availability colours, gated by TimberLoader.preview.
 - Stable v0.7.6 loader retained. No vendor configuration changes.
+
+## 0.7.7-rc.1 — LB1 re-audit preview (2026-11-02)
+- Improve mobile technical result readability in a preview-only single column.
+- Retain native purchase logic; do not imitate unsupported quantity/variant controls.
+- This candidate is not a completed or approved integration.

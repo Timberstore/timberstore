@@ -374,3 +374,5 @@ E-shop zůstává na Shoptetu. Na serveru běží **jen pomocné úlohy**: staho
 - Stav jednotlivých úkolů klient vidí v Trellu.
 
 - **LB1 isolated Luigi preview `0.7.7-rc.0` (2. 11. 2026):** JS 36.25 KiB unchanged; CSS 32.75 KiB under the recorded 2026-10-15 preview allowance. Measured 36.18 / 32.72 KiB. Explicit preview guard only; stable v0.7.6 and its budgets unchanged. No production loader change.
+
+- **LB1 re-audit preview 0.7.7-rc.1 (2. 11. 2026):** inherits rc.0 budgets 36.25 / 32.75 KiB; measured 36.18 / 32.74 KiB. Mobile technical results use a readable single column. Functional parity remains subject to documented vendor integration blockers; not approved for production.

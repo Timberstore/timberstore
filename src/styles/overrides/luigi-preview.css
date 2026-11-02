@@ -134,3 +134,12 @@ html.ts-luigi-preview #lbx-ac-element .luigi-ac-action-heromobile {
 /* LB1: use explicit vendor availability metadata, never rank numbers. */
 html.ts-luigi-preview #lbx-ac-element .luigi-ac-attrs[content="Centrálny sklad"] .luigi-ac-attr { color: var(--ts-color-controls-active) !important; }
 html.ts-luigi-preview #lbx-ac-element .luigi-ac-attrs[content="Skladom"] .luigi-ac-attr { color: var(--ts-color-success-primary) !important; }
+
+/* LB1 rc.1: technical titles need one readable mobile column, not narrow tiles.
+   Presentation only; native/vendor purchase contracts remain untouched. */
+html.ts-luigi-preview #lb-search-element .lb-results {
+  align-items: stretch;
+}
+@media (max-width: 767px) {
+  html.ts-luigi-preview #lb-search-element .lb-results { grid-template-columns: minmax(0, 1fr); }
+}
