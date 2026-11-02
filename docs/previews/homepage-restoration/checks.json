@@ -1,0 +1,22 @@
+{
+  "status": "PARTIAL RESTORATION: external homepage recommendation removal pending",
+  "build": "0.7.7-rc.5",
+  "ref": "9eede39",
+  "widths": [
+    1440,
+    768,
+    375
+  ],
+  "isolatedContexts": 6,
+  "previewH1Created": false,
+  "productionH1Unchanged": true,
+  "originalCategoryLinksUnchanged": true,
+  "originalCategoryLinks": 12,
+  "externalSettingsChanged": false,
+  "orderSubmitted": false,
+  "remaining": [
+    "homepage_personalized selective vendor deactivation",
+    "homepage_last_seen selective vendor deactivation",
+    "full integration parity per OWNER-REQUIREMENTS.txt"
+  ]
+}
