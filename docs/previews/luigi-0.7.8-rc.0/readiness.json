@@ -1,0 +1,18 @@
+{
+  "stableRelease": {
+    "isDraft": false,
+    "isPrerelease": false,
+    "tagName": "v0.7.7",
+    "url": "https://github.com/Timberstore/timberstore/releases/tag/v0.7.7"
+  },
+  "productionLoader": "v0.7.7",
+  "mainIntegrated": true,
+  "homeH1SourceMatchesMain": true,
+  "previewVersion": "0.7.8-rc.0",
+  "previewRef": "3cef596",
+  "productionOrExternalSettingsChanged": false,
+  "assets": {
+    "timber.min.js": "502dee3e5b9405f50735d28c33cfb25095919063478a0658a0f7cd771f0a4411",
+    "timber.min.css": "414fbfb3148a863c551fe2b5c9cd8a2489c81a91d0706678d0e705e5bbe0c94d"
+  }
+}

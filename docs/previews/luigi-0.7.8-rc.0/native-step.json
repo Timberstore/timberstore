@@ -1,0 +1,17 @@
+{
+  "sku": "237597",
+  "before": {
+    "value": "100",
+    "min": "100",
+    "max": "9999",
+    "step": "100"
+  },
+  "typed": "101",
+  "afterBlur": "200",
+  "cart": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n18 €",
+  "cartAmounts": [
+    "200",
+    "200"
+  ],
+  "orderSubmitted": false
+}

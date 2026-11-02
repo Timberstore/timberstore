@@ -1,0 +1,50 @@
+[
+  {
+    "surface": "native-detail",
+    "posts": [
+      {
+        "path": "/action/Cart/addCartItem/",
+        "amount": "1",
+        "productId": "317291",
+        "priceId": "317567"
+      }
+    ],
+    "cart": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks) Kód: 344255\nCENTRÁLNY SKLAD\n(>100 balenie)\nMnožstvo\n+\n−\n186,49 € / balenie\n186,49 €",
+    "amounts": [
+      "1",
+      "1"
+    ]
+  },
+  {
+    "surface": "luigi-results",
+    "posts": [
+      {
+        "path": "/action/Cart/addCartItem/",
+        "amount": null,
+        "productId": null,
+        "priceId": null
+      }
+    ],
+    "cart": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks) Kód: 344255\nCENTRÁLNY SKLAD\n(>100 balenie)\nMnožstvo\n+\n−\n186,49 € / balenie\n186,49 €",
+    "amounts": [
+      "1",
+      "1"
+    ]
+  },
+  {
+    "surface": "luigi-autocomplete",
+    "posts": [
+      {
+        "path": "/action/Cart/addCartItem/",
+        "amount": null,
+        "productId": null,
+        "priceId": null
+      }
+    ],
+    "cart": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks) Kód: 344255\nCENTRÁLNY SKLAD\n(>100 balenie)\nMnožstvo\n+\n−\n186,49 € / balenie\n186,49 €",
+    "amounts": [
+      "1",
+      "1"
+    ]
+  }
+]

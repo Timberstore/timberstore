@@ -1,3 +1,5 @@
+Aktuálne pokračovanie po stabilnej v0.7.7: [0.7.8-rc.0 report](../luigi-0.7.8-rc.0/REPORT.md) · [reálne pred/po](../luigi-0.7.8-rc.0/index.html).
+
 Aktuálna priorita obnovy homepage: [homepage-restoration/REPORT.md](../homepage-restoration/REPORT.md).
 
 Aktuálny neschválený re-audit a blokery: [integration-audit/REPORT.md](integration-audit/REPORT.md).
