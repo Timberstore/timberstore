@@ -1,0 +1,137 @@
+{
+  "before": {
+    "hero": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/vyklopne_zasuvky_1920x600_under1000kb.jpg?69efc427",
+    "heroOptions": {
+      "interval": 9000,
+      "pause": "hover",
+      "wrap": true,
+      "keyboard": true,
+      "tsInit": "carousel-swipe",
+      "testid": "carousel",
+      "ride": "carousel"
+    },
+    "luigiAutoplay": 0,
+    "categories": 12,
+    "candidates": [
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-1_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-2_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-1_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-2_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/346391-3_tulip-uchytovy-profil-lori-160-200-cierna-brusena.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/346391_tulip-uchytovy-profil-lori-160-200-cierna-brusena.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-1_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-2_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-1_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-2_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      }
+    ]
+  },
+  "hovered": {
+    "hero": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/vyklopne_zasuvky_1920x600_under1000kb.jpg?69efc427",
+    "heroOptions": {
+      "interval": 9000,
+      "pause": "hover",
+      "wrap": true,
+      "keyboard": true,
+      "tsInit": "carousel-swipe",
+      "testid": "carousel",
+      "ride": "carousel"
+    },
+    "luigiAutoplay": 0,
+    "categories": 12,
+    "candidates": [
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-1_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-2_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-1_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-2_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/346391-3_tulip-uchytovy-profil-lori-160-200-cierna-brusena.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/346391_tulip-uchytovy-profil-lori-160-200-cierna-brusena.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-1_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-2_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/346391-3_tulip-uchytovy-profil-lori-160-200-cierna-brusena.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/346391_tulip-uchytovy-profil-lori-160-200-cierna-brusena.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      }
+    ]
+  },
+  "after": {
+    "hero": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/vysuvy_blum_1920x600_under1000kb.jpg?69efc3ea",
+    "heroOptions": {
+      "interval": 9000,
+      "pause": "hover",
+      "wrap": true,
+      "keyboard": true,
+      "tsInit": "carousel-swipe",
+      "testid": "carousel",
+      "ride": "carousel"
+    },
+    "luigiAutoplay": 0,
+    "categories": 12,
+    "candidates": [
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-1_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-2_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-1_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-2_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/346391-3_tulip-uchytovy-profil-lori-160-200-cierna-brusena.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/346391_tulip-uchytovy-profil-lori-160-200-cierna-brusena.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-1_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-2_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-1_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "next": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-2_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+        "root": "lb-recommend-element-homepage_personalized"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "from": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-1_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "to": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-2_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "stack": "Error\n    at Element.setAttribute (<anonymous>:2:250)\n    at attr (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:74012)\n    at d.access (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:35305)\n    at d.fn.init.attr (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:73537)\n    at HTMLDivElement.<anonymous> (https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.ef40bf635618934522f0.js:2:137079)\n    at HTMLDivElement.handle (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:44485)\n    at HTMLDocument.dispatch (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:40499)\n    at y.handle (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:37210)"
+    },
+    {
+      "from": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-2_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "to": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-1_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "stack": "Error\n    at Element.setAttribute (<anonymous>:2:250)\n    at attr (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:74012)\n    at d.access (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:35305)\n    at d.fn.init.attr (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:73537)\n    at HTMLDivElement.<anonymous> (https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.ef40bf635618934522f0.js:2:137212)\n    at HTMLDivElement.handle (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:44485)\n    at HTMLDocument.dispatch (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:40499)\n    at y.handle (https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js:2:37210)"
+    }
+  ]
+}

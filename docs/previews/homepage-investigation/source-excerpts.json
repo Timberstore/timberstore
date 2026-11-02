@@ -1,0 +1,37 @@
+{
+  "title": {
+    "found": true,
+    "offset": 101109,
+    "excerpt": "1etr\\xedte\",originally:\"P\\xf4vodne\",availability:{0:\"Vypredan\\xe9\",1:\"Skladom\"},rc_title_hp_perso:\"Vybrali sme pre V\\xe1s\",rc_title_item_detail:\"Mohlo by V\\xe1s zauj\\xedma\\u0165\",rc_title_lastseen:\"Naposledy ste si prezerali\",rc_title_baske"
+  },
+  "config": {
+    "found": true,
+    "offset": 112356,
+    "excerpt": "s:!1}}}),Luigis.Recommend(e.recommender,e.elementSelector),!1)}),!1}},{recommender:{TrackerId:\"842889-1266949\",GATrackingCode:\"default\",Theme:\"luigis\",Type:\"user_conversion_based\",Name:\"homepage_personalized\",Size:8,GetItemIds:function(){return[]},GetBlacklistedItemIds:function(){return[]},RecommendationContext:function(){return{}},SettingsOverride:function(){return{}},Locale:\"sk\",Translations:null,OnDone:function(){if(window."
+  },
+  "template": {
+    "found": true,
+    "offset": 117441,
+    "excerpt": "\"template-recommend-homepage_personalized\":'<div v-if=\"$window._isCarousel === true && items && items.length > 1\" class=\"content-wrapper container lb-recommender-wrapper\">\\n  <div class=\"content-wrapper-in\">\\n    <main class=\"content\">\\n      <div class=\"homepage-group-title homepage-products-heading-5 h4 lb-reco-title\">\\n        {{ trans(\\'resultDefault.rc_title_hp_perso\\')}}\\n      </div>\\n      <div class=\"products products-block klasik-produkts custom-products homepage-products-5 carousel slick-initialized slick-slider lb-recommend\">\\n        <lbx-carousel>\\n            <recommend-item :is=\"component\" v-for=\"item in items\" :key=\"name.concat(\\'-\\').concat(item.url)\" :item=\"item\"></recommend-item>\\n        </lbx-carousel>\\n      </div>\\n    </main>\\n  </div>\\n</div>\\n\\n<div v-else-if=\"$window._isCarousel === false && items && items.length > 1\" class=\"lb-recommender-wrapper\">\\n    <div class=\"h4 homepage-group-title homepage-products-heading-17 lb-reco-title\">{{ trans(\\'resultDefault.rc_title_hp_perso\\')}}</div>\\n    <div class=\"products products-block homepage-products-5 carousel lb-hp-perso-wrapper\" v-if=\"items && items.length > 0\">\\n        <recommend-item\\n            :is=\"component\"\\n            v-for=\"item in items\"\\n            :key=\"name.concat(\\'-\\').concat(item.url)\"\\n            :item=\"item\"\\n        ></recommend-item>\\n    </div>\\n</div>'},initialize:function(e){return Luigis.Utils.wait(function(){if(dataLayer&&dataLayer[0]&&dataLayer[0].shoptet&&dataLayer[0].shoptet.customer&&dataLayer[0].shoptet.customer.priceListId&&(window.LBb2bprice=dataLayer[0].shoptet.customer.priceListId),!(window._lbCurrencies&&window._lbCurrency&&window._lbLocale&&window._lbRecoTranslations))return!1;if(document.querySelectorAll('meta[name=\"luigisbox-tracker-id\"]').length>1){if(lo"
+  },
+  "placement": {
+    "found": true,
+    "offset": 120252,
+    "excerpt": " :item=\"item\"\\n        ></recommend-item>\\n    </div>\\n</div>'},initialize:function(e){return Luigis.Utils.wait(function(){if(dataLayer&&dataLayer[0]&&dataLayer[0].shoptet&&dataLayer[0].shoptet.customer&&dataLayer[0].shoptet.customer.priceListId&&(window.LBb2bprice=dataLayer[0].shoptet.customer.priceListId),!(window._lbCurrencies&&window._lbCurrency&&window._lbLocale&&window._lbRecoTranslations))return!1;if(document.querySelectorAll('meta[name=\"luigisbox-tracker-id\"]').length>1){if(location.pathname!=\"/\"+window._lbLocale+\"/\"&&\"/\"!=location.pathname)return}else if(\"/\"!=location.pathname)return;null!=window._matchingId&&(e.recommender.TrackerId=window._matchingId),e.recommender.Locale=window._lbLocale,e.recommender.PriceFilter=window._lbCurrencies[window._lbCurrency],e.recommender.Translations=window._lbRecoTranslations;var t=document.createElement(\"div\");if(t.id=e.elementSelector.substring(1,e.elementSelector.length),document.querySelector(\".benefitBanner.position--benefitHomepage\")){if(!(i=document.querySelector(\".benefitBanner.position--benefitHomepage\")))return!1;i.after(t)}else if(document.querySelector(\".footer-banners.banner-wrapper\")){if(!(i=document.querySelector(\".footer-banners.banner-wrapper\")))return!1;i.after(t)}else if(document.querySelector(\".content-wrapper .banners-row\")){var i;if(!(i=document.querySelector(\".content-wrapper .banners-row\")))return!1;i.after(t)}else{var a=document.querySelector(\"#content-in > div.homepage-banners-wrap.clearfix\");if(!a)return!1;a.insertBefore(t,a.childNodes[0])}window._isCarousel&&(e.recommender.CarouselOptions={disableStyles:!1,color:\"#000\",itemClass:\"lb-recommend\",arrows:!0,pager:window._carouselPager,items:window._carouselItems,autoPlay:window._carouselAutoPlay,moveBy:1,infinite:!0,pauseOnFocus:!0,pauseOnHover:!0,responsive:{1440:{items:window._carouselItemsTwo},1200:{items:window._carouselItemsThree},992:{items:window._carouselItemsFour},768:{items:window._carouselItemsFive},480:{items:window._carouselItemsSix,arro"
+  },
+  "image-contract": {
+    "found": true,
+    "offset": 47970,
+    "excerpt": "{ width: 85%; } }\",templates:{\n\"template-result-default\":'<div class=\"product lb-product\">\\n    <!--Remove class \\'swap-images\\' if you dont want images to change on hover-->\\n    <div class=\"p swap-images\" data-micro=\"product\" :data-micro-product-id=\"attributes.code && attributes.code[0].split(\\'/\\')[0]\">\\n        <a :href=\"url\" class=\"image\" @click=\"ga && ga.sendGAClick(\\'Result\\')\">\\n            <img :src=\"attributes.image_link\" data-fallback-img=\"/cms/img/common/missing_images/detail.png\" onerror=\"this.src = this.getAttribute(\\'data-fallback-img\\')\" \\n                :data-src=\"attributes.image_link ? attributes.image_link : \\'\\'\" :data-next=\"attributes.images && attributes.images[1] ? attributes.images[1] : (attributes.image_link ? attributes.image_link : \\'/cms/img/common/missing_images/detail.png\\')\" \\n                :alt=\"attributes.title\" :data-micro-image=\"attributes.image_link ? attributes.image_link : \\'\\'\" class=\"swap-imag"
+  },
+  "autoplay": {
+    "found": true,
+    "offset": 100897,
+    "excerpt": "uselItemsThree=3,window._carouselItemsFour=2,window._carouselItemsFive=2,window._carouselItemsSix=2,window._carouselAutoPlay=0,window._carouselPager=!1,window._isSlick=!1,window._lbRecoTranslations={sk:{resultDefault:{saving:\"U\\u0161etr\\xedte\",originally:\"P\\xf4vodne\",availability"
+  },
+  "native-image-handler": {
+    "source": "https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.ef40bf635618934522f0.js",
+    "offset": 137071,
+    "excerpt": "ps\")})})(shoptet)},5053:function(){$(document).on(\"mouseenter\",\".swap-images\",function(){var t=$(this).find(\".swap-image\");t.attr(\"data-next\")&&t.attr(\"src\",t.attr(\"data-next\"))}).on(\"mouseleave\",\".swap-images\",function(){var t=$(this).find(\".swap-image\");t.attr(\"data-next\")&&t.attr(\"src\",t.attr(\"data-src\"))})},3542:function(__unused_webpack_module,__unused_webpack___webpack_exports__,__webpack_require__){\"use strict\";var _shared_js_typeAssertions__WEBPACK_IMPORTED_MODULE_0__=__webpack_require__"
+  }
+}
