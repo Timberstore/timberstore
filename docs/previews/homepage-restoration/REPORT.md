@@ -1,3 +1,7 @@
+> Aktuálny kandidát odstránenia nechceného H1: **0.7.7-rc.6**, build `fbf34bb`.
+> Preview: https://www.timberstore.sk/?ts_preview=fbf34bb
+> Rc.5 nižšie je historický krok; rc.6 odstraňuje celú tvorbu nadpisu aj nepoužité zdroje.
+
 # TIMBER STORE · obnova homepage, preview 0.7.7-rc.5
 
 Majiteľ 2. 11. 2026 potvrdil dnešné nasadenie Luigi a očakávanie iba vyhľadávania.
@@ -111,3 +115,8 @@ z rc.5: pri budúcom schválenom vydaní sa táto vetva nemôže znovu aktivova�
 Kontakty, sémantické nadpisy článkov a pôvodný kategóriový modul zostávajú.
 Produkčný tag/loader v0.7.6 sa nemení; na verejnom webe text ostane až do
 samostatne schváleného nasadenia opravy. Externé odporúčania sú ďalší oddelený krok.
+
+Rc.6 overenie skutočného CDN buildu pri1440px: bez pridaného H1, pôvodných12
+kategórií zachovaných, kontakty1grid a doprava1H1. Dôkazy rc6-qa.json,
+rc6-regression.json a rc6-home-1440-after.png. Lint/build PASS; JS36.08KiB,
+CSS32.71KiB. Predchádzajúce responsive testy rc.5 sa neoznačujú za nový rc.6 beh.

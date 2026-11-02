@@ -4,10 +4,12 @@
   "reference-computed.json": "29d206f783eb3b4678508adc77302c47baaa347f4402865a0f895305d439aee1",
   "regression.json": "c6e69c8285c2ccc2fea8306031264951876baa88244a08b5de4aef3c488a1100",
   "home-1440-after.png": "6db8307435dd846877e3c2b8ae94b717eaf43c871de2df0d9066046859965c1c",
-  "REPORT.md": "01abfed60c1c5e67b972b7a5d3af518a4c6f67dea90589390bddbe610801592f",
+  "REPORT.md": "a3a2d4220b5bbfa5c7708909bc47a6b32c84ca5b5c4e02b8c4d4f8a0b3ea3db7",
   "cart-1440.png": "588caf3a41c40265a397eaeebc555307ca0973b792d297dd51c3b62619b2acbf",
+  "rc6-qa.json": "d9fd76bbb390669d5374693a1f39da1bb6d14c6af0dd67a73f787e107d57e0ee",
   "home-768-before.png": "e5dbc328b8d0daf716610e0ebbf9f933eb525708afefdb54dce966adef4a5c5b",
   "detail-1440.png": "0b183e0c4ef0aa41105409cb640939268d483a87d0184b0e598678cac4b6d199",
+  "rc6-home-1440-after.png": "09440feb4e5ec5327d67fe370ea7c0946b108f4771be507c6db92a8fe216df37",
   "autocomplete-typed-1440.png": "c9b0f420caaa8463df26cbb0cd62af653d4101d9d9cce7855156aafbcb458309",
   "cart-popup-1440.png": "946e0f77716106f9e601b499ac2d947d4b8f4e68fa0c23d69227595f5334a790",
   "preview-qa.json": "40606f7b5dc3a52dca6beb91dd019f77b5665a69e9fe3aba06c35cd0db512378",
@@ -21,5 +23,6 @@
   "INVENTORY.md": "02ba904d47382abdbbd1ee896b31098125d23a41bc165b789474ec70669e4014",
   "home-1440-before.png": "5037bd9c7cc1fa9a605ecd6acca11001b559abbc38ce4a4b9ac5122b5c1a8d72",
   "measure-reference.cjs": "84ba0cdbb90de5bfa644ed82b0030e3b21b870c304ed6105a9d4a81bc2c25613",
+  "rc6-regression.json": "6fb621ab8954215b2fcd5f1aae6d77fa7ee4d432f1589c0e666cdff619c46bf3",
   "home-375-after.png": "7002701b6db5492d763e90a46bea81c9ea4ab0baa69cd3d551762b7e2211ea2f"
 }
