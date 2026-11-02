@@ -142,5 +142,6 @@ html.ts-luigi-preview #lb-search-element .lb-results {
 }
 @media (max-width: 767px) {
   html.ts-luigi-preview #lb-search-element .lb-results { /* Preview exception: vendor injected stylesheet specifies columns with important. */
+    display: grid;
     grid-template-columns: minmax(0, 1fr) !important; }
 }
