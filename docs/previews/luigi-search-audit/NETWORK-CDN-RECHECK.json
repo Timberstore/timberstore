@@ -1,0 +1,386 @@
+{
+  "checkedAt": "2026-11-02T19:34:23.075Z",
+  "requests": [
+    {
+      "width": 1440,
+      "url": "https://scripts.luigisbox.tech/LBX-1266949.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/autocomplete.css",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/recco.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/timberstore.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://api.luigisbox.com/",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/search.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/recco/css/luigis.css",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/autocomplete.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.css",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://live.luigisbox.tech/v2/trending_queries?tracker_id=842889-1266949&hostname=www.timberstore.sk",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://live.luigisbox.tech/v1/recommend?tracker_id=842889-1266949",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 1440,
+      "url": "https://live.luigisbox.tech/v1/recommend?tracker_id=842889-1266949",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 1440,
+      "url": "https://scripts.luigisbox.tech/LBX-1266949.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/autocomplete.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/autocomplete.css",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/search.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/recco.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/timberstore.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.css",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://api.luigisbox.com/",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 1440,
+      "url": "https://live.luigisbox.tech/v2/trending_queries?tracker_id=842889-1266949&hostname=www.timberstore.sk",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/chunks/50.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://live.luigisbox.tech/search?tracker_id=842889-1266949&remove_fields=nested&f%5B%5D=type:product&q=BLUM+450&facets=price_eur_amount,flags,category_path,brand,color,Materi%C3%A1l,Mot%C3%ADv,Velikost&quicksearch_types=category:6,brand:6,article:6&size=24",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 375,
+      "url": "https://scripts.luigisbox.tech/LBX-1266949.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/autocomplete.css",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/autocomplete.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/v2/trending_queries?tracker_id=842889-1266949&hostname=www.timberstore.sk",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/v1/top_items?tracker_id=842889-1266949&type=product:7,query:4,category:4,brand:3,article:3&hostname=www.timberstore.sk",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/recco.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/timberstore.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://api.luigisbox.com/",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/recco/css/luigis.css",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/v1/recommend?tracker_id=842889-1266949",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/v1/recommend?tracker_id=842889-1266949",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/search.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.css",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://scripts.luigisbox.tech/LBX-1266949.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/autocomplete.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/autocomplete.css",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/search.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/recco.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/timberstore.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.css",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://api.luigisbox.com/",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/v2/trending_queries?tracker_id=842889-1266949&hostname=www.timberstore.sk",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/chunks/50.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/search?tracker_id=842889-1266949&remove_fields=nested&f%5B%5D=type:product&q=BLUM+450&facets=price_eur_amount,flags,category_path,brand,color,Materi%C3%A1l,Mot%C3%ADv,Velikost&quicksearch_types=category:6,brand:6,article:6&size=24",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    }
+  ],
+  "states": [
+    {
+      "width": 1440,
+      "state": "autocomplete",
+      "rootPresent": true,
+      "rootText": "",
+      "productCount": 0
+    },
+    {
+      "width": 1440,
+      "state": "results",
+      "roots": [
+        {
+          "tag": "STYLE",
+          "id": "lbx-global-init-styles",
+          "class": "",
+          "text": "#lb-search-element .lb-search .lb-results { gap: 16px; } #lb-search-element .lb-search .lb-results .lb-product { width: 100%; } @media (min-width: 321px) { #lb-search-element .lb-search .lb-results .l"
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "class": "desktop id--11 in-vyhladavanie template-11 type-search one-column-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load luigi-apollo"
+        },
+        {
+          "tag": "DIV",
+          "id": "lbx-ac-element",
+          "class": "luigi-ac luigi-ac-heromobile luigi-ac-heromobile--right luigi-ac-autocomplete",
+          "text": ""
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "class": "luigi-ac-heromobile-input-wrap",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "class": "luigi-ac-heromobile-input",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "class": "luigi-ac-heromobile-input-voice-search",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "class": "luigi-ac-heromobile-input-clear",
+          "text": ""
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "class": "luigi-ac-heromobile-css-active",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "state": "autocomplete",
+      "rootPresent": true,
+      "rootText": "",
+      "productCount": 0
+    },
+    {
+      "width": 375,
+      "state": "results",
+      "roots": [
+        {
+          "tag": "STYLE",
+          "id": "lbx-global-init-styles",
+          "class": "",
+          "text": "#lb-search-element .lb-search .lb-results { gap: 16px; } #lb-search-element .lb-search .lb-results .lb-product { width: 100%; } @media (min-width: 321px) { #lb-search-element .lb-search .lb-results .l"
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "class": "desktop id--11 in-vyhladavanie template-11 type-search one-column-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load luigi-apollo"
+        },
+        {
+          "tag": "DIV",
+          "id": "lbx-ac-element",
+          "class": "luigi-ac luigi-ac-heromobile luigi-ac-heromobile--right luigi-ac-autocomplete luigi-ac--fixed",
+          "text": ""
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "class": "luigi-ac-heromobile-input-wrap",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "class": "luigi-ac-heromobile-input",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "class": "luigi-ac-heromobile-input-voice-search",
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "class": "luigi-ac-heromobile-input-clear",
+          "text": ""
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "class": "luigi-ac-heromobile-css-active",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "productionOrVendorSettingsChanged": false,
+  "scopedCssImplemented": false,
+  "qualifyingBeforeScreenshots": false,
+  "qualifyingAfterScreenshots": false
+}

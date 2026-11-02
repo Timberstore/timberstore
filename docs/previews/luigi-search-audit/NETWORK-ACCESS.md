@@ -72,3 +72,30 @@ Cart and analytics preservation in the real widget: NOT TESTED.
 Merge / deployment / published vendor settings: NOT PERFORMED.
 
 The existing `before-results-*` screenshots remain Shoptet fallback evidence. The existing `proposal-*` screenshots remain a standalone model. Neither set fulfills the requested real Luigi before/after comparison.
+
+## Latest recheck: runtime assets allowed, data connections blocked
+
+This section supersedes the acceptance status above. On 2 November 2026 the
+published environment includes `cdn.luigisbox.tech`. Real browser requests return
+HTTP 200 for the bootstrap, autocomplete.css/js, timberstore.js, search.js,
+recco.js and Boo theme assets. `#lbx-ac-element` is created but remains empty
+when querying BLUM 450. The following additional runtime hosts are observed:
+
+| Host to add | Observed use | Result |
+|---|---|---|
+| `live.luigisbox.tech` | `/v2/trending_queries`, `/v1/recommend`, search data | Chromium tunnel failure; absent from enforced allowed hosts |
+| `api.luigisbox.com` | Integration analytics endpoint `/` | Chromium tunnel failure; absent from enforced allowed hosts |
+
+Keep the existing allowed hosts and add these exact hosts using the configuration
+route above. The tools in this task cannot publish environment configuration.
+Do not use `live.luigisbox.com` as a substitute for the observed `.tech` endpoint.
+No proxy, DNS, routing or policy bypass was attempted. Browser trust uses the
+provided environment CA certificates imported into an isolated NSS profile;
+TLS verification remains enabled.
+
+`NETWORK-CDN-RECHECK.json` records successful assets, failed connections and
+rendered state at desktop/mobile widths. No request bodies, cookies or credentials
+are stored. The widget shell is insufficient to implement or validate product
+CSS, so scoped CSS and qualifying before/after captures remain incomplete.
+Cart actions and analytics remain NOT TESTED. Nothing was merged, deployed,
+released or published in Luigi's Box.

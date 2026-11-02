@@ -19,3 +19,20 @@ actual runtime host `cdn.luigisbox.tech`. That host is still absent from the
 enforced policy, so the widget CSS/JS remains blocked. See
 `NETWORK-RECHECK.json`; `cdn.luigisbox.com` does not cover the observed `.tech`
 host.
+
+## Recheck with cdn.luigisbox.tech allowed
+
+The subsequent 2 November republish allows the bootstrap and runtime CSS/JS
+(HTTP 200, including Autocomplete, Search, Recco and the Boo theme). Chromium
+creates `#lbx-ac-element`, but its content is empty: the next observed
+connections to `live.luigisbox.tech` (queries/recommendations) and
+`api.luigisbox.com` (analytics) fail with `net::ERR_TUNNEL_CONNECTION_FAILED`.
+The enforced policy allows `live.luigisbox.com`, which is a different host.
+See `NETWORK-CDN-RECHECK.json` for the new desktop/mobile evidence; the earlier
+`NETWORK-RECHECK.json` records the previous runtime-asset blockage.
+
+**Still blocked:** real populated before/after captures, CSS against populated
+product components, cart and analytics verification. No model/fallback image is
+relabeled as a real Luigi screenshot. No production or vendor configuration was
+changed. Add the two observed hosts through the environment configuration and
+republish before continuing the acceptance checklist in `NETWORK-ACCESS.md`.
