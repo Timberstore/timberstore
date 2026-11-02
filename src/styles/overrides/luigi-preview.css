@@ -8,7 +8,8 @@ html.ts-luigi-preview #lb-search-element {
   --ts-lb-action: var(--ts-color-accent, #d4884a);
   --ts-lb-blue: var(--ts-color-blue, #2454a6);
 }
-/* Remove vendor line clamps so technical specifications remain visible. */
+/* Remove vendor line clamps; important wrapping beats the native global rule
+   so complete technical specifications remain visible in narrow vendor cards. */
 html.ts-luigi-preview #lbx-ac-element .luigi-ac-name,
 html.ts-luigi-preview #lb-search-element .lb-product .name {
   display: block;
@@ -18,7 +19,7 @@ html.ts-luigi-preview #lb-search-element .lb-product .name {
   height: auto;
   overflow: visible;
   white-space: normal;
-  overflow-wrap: anywhere;
+  overflow-wrap: anywhere !important;
   line-height: 1.45;
 }
 html.ts-luigi-preview #lbx-ac-element .luigi-ac-description,
@@ -162,7 +163,7 @@ html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-el
   min-height: 0 !important;
   overflow: visible;
   white-space: normal;
-  overflow-wrap: anywhere;
+  overflow-wrap: anywhere !important;
   line-height: 1.45;
 }
 html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .lb-product :is(.p-in, .p-in-in) { min-width: 0; }
@@ -286,3 +287,7 @@ html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_deta
   html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .btn-cart > span { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
 }
 
+/* Keep the desktop close hit-area outside the scrollable product column. */
+@media (min-width: 1200px) {
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-close { right: -44px; top: 0; width: 44px; height: 44px; background-color: var(--ts-color-bg); }
+}
