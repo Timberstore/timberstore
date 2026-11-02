@@ -141,5 +141,6 @@ html.ts-luigi-preview #lb-search-element .lb-results {
   align-items: stretch;
 }
 @media (max-width: 767px) {
-  html.ts-luigi-preview #lb-search-element .lb-results { grid-template-columns: minmax(0, 1fr); }
+  html.ts-luigi-preview #lb-search-element .lb-results { /* Preview exception: vendor injected stylesheet specifies columns with important. */
+    grid-template-columns: minmax(0, 1fr) !important; }
 }
