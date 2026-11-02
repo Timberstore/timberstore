@@ -1,3 +1,5 @@
+Aktuálny samostatný build a rollback: [PREVIEW-0.7.7-rc.0.md](PREVIEW-0.7.7-rc.0.md).
+
 ## Aktuálny stav po obnovení prostredia
 
 Reálny Luigi runtime aj dátové odpovede sú dostupné. Pokračovanie a aktuálne

@@ -1,0 +1,52 @@
+{
+  "build": "0.7.7-rc.0",
+  "ref": "5c2a7e7f43fb612564964bd64716447550fbadd5",
+  "states": [
+    {
+      "width": 375,
+      "loader": {
+        "version": "5c2a7e7",
+        "preview": true,
+        "pageLoadingTimer": null
+      },
+      "availability": [
+        {
+          "label": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "label": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "label": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "label": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "label": "Skladom",
+          "color": "rgb(0, 200, 83)"
+        },
+        {
+          "label": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "label": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        }
+      ],
+      "codes": [
+        "rgb(74, 82, 94)",
+        "rgb(74, 82, 94)"
+      ]
+    }
+  ],
+  "events": [],
+  "cart": [],
+  "safari": "NOT TESTED: Safari unavailable on Linux",
+  "webkit": "NOT TESTED: WebKit browser executable unavailable"
+}

@@ -1,0 +1,15 @@
+{
+  "method": "Local interception of built assets before CDN publication; CDN JS SHA256 later matched exactly",
+  "events": [
+    {
+      "action": "buy",
+      "resource": "https://www.timberstore.sk/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/",
+      "attributions": [
+        {
+          "list": "Search Results",
+          "eventLinked": true
+        }
+      ]
+    }
+  ]
+}
