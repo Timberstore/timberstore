@@ -1,0 +1,27 @@
+{
+  "release": {
+    "isDraft": false,
+    "isPrerelease": false,
+    "publishedAt": "2026-11-02T21:02:21Z",
+    "tagName": "v0.7.7",
+    "url": "https://github.com/Timberstore/timberstore/releases/tag/v0.7.7"
+  },
+  "mergeCommit": "f0bfec1128d82a5f48a749991a00ce11d33e4f04",
+  "pullRequest": "https://github.com/Timberstore/timberstore/pull/69",
+  "assets": {
+    "js": {
+      "sha256": "b2d3288e9502e0b54064a2c2d097034dec1d42e2693bac1f3aee712d52460054",
+      "cdnStatus": 200,
+      "byteIdentical": true
+    },
+    "css": {
+      "sha256": "27981b1a563111612f8e68aec520c5f157bb52fb88ae5e95ee048e4599cb5062",
+      "cdnStatus": 200,
+      "byteIdentical": true
+    }
+  },
+  "liveProdObserved": "v0.7.6",
+  "liveShoptetChanged": false,
+  "externalLuigiChanged": false,
+  "scope": "Only unintended H1 removal; no Luigi preview implementation promoted"
+}
