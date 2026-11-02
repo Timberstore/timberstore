@@ -8,6 +8,29 @@
 - The tools available in this task can inspect environment status and diagnostics, but cannot edit or publish the environment configuration.
 - No network-policy file, proxy, DNS or routing settings were changed to bypass this restriction.
 
+## Recheck after the 2 November 2026 environment republish
+
+The republished environment is current (`observations_current: true`), running,
+and its restricted policy is enforced. The originally blocked bootstrap now
+loads from `scripts.luigisbox.tech/LBX-1266949.js`. It then requests the shop's
+actual runtime assets from a different host:
+
+- `https://cdn.luigisbox.tech/autocomplete.css`
+- `https://cdn.luigisbox.tech/autocomplete.js`
+- `https://cdn.luigisbox.tech/recco.js`
+- `https://cdn.luigisbox.tech/timberstore.js`
+
+All four fail in Chromium with `net::ERR_TUNNEL_CONNECTION_FAILED` because
+`cdn.luigisbox.tech` is absent from the enforced allowed-host list. Note the
+`.tech` suffix: the previously requested and allowed `cdn.luigisbox.com` is a
+different host. The bootstrap request succeeding is therefore not sufficient
+for the real widget to render. The observed requests and bounded failure record
+are in `NETWORK-RECHECK.json`.
+
+No screenshots from this state qualify as real Luigi evidence: without the
+runtime JS/CSS, only the Shoptet fallback is present. No CSS selectors are being
+derived from that fallback and the standalone model is not being substituted.
+
 ## Official configuration route
 
 Official source: https://learn.chatgpt.com/docs/environments/cloud-environments
@@ -18,9 +41,10 @@ Open Settings → Codex Cloud → Environments. For the environment used by this
 
 | Host | Reason | Evidence level |
 |---|---|---|
-| `scripts.luigisbox.tech` | Observed bootstrap script LBX-1266949.js | Confirmed required; currently blocked |
+| `scripts.luigisbox.tech` | Observed bootstrap script LBX-1266949.js | Confirmed required; allowed after the republish |
 | `cdn.luigisbox.com` | Official Autocomplete.js documentation identifies this for scripts/styles | Documented dependency; runtime use on this shop still to verify |
 | `live.luigisbox.com` | Official Autocomplete.js documentation identifies this for connections | Documented dependency; runtime use on this shop still to verify |
+| `cdn.luigisbox.tech` | Observed runtime CSS, Autocomplete, Recco and shop integration assets after the bootstrap became available | Confirmed required; currently blocked |
 
 Keep existing entries. These are host names, not paths or URLs; no broad wildcard or unrestricted internet is required by this proposal. No HTTP secret or vendor administration credential is needed to fetch the public bootstrap script.
 
@@ -40,10 +64,10 @@ Resume PR #68 on `feature/lb1-search-audit-preview`; do not merge or deploy. Use
 
 ## Acceptance status
 
-Real Luigi DOM/styles: BLOCKED.
-Real Luigi desktop/mobile before screenshots: BLOCKED.
+Real Luigi DOM/styles: BLOCKED by the newly observed `cdn.luigisbox.tech` dependency.
+Real Luigi desktop/mobile before screenshots: BLOCKED by the same dependency.
 Scoped CSS for confirmed Luigi components: NOT IMPLEMENTED pending DOM access.
-Real Luigi desktop/mobile after screenshots: BLOCKED.
+Real Luigi desktop/mobile after screenshots: BLOCKED by the same dependency.
 Cart and analytics preservation in the real widget: NOT TESTED.
 Merge / deployment / published vendor settings: NOT PERFORMED.
 

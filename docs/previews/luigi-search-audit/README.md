@@ -13,3 +13,9 @@ Next: allow the Luigi script and observed dependencies through the environment c
 ## Real integration follow-up
 
 See `NETWORK-ACCESS.md` for the verified proxy denial, official configuration route, exact hosts and continuation checklist. Real Luigi before/after screenshots and scoped vendor CSS remain blocked until the published environment permits the runtime script. The approved coloured stock text must be preserved; the model’s alternative contrast treatment is not an approved implementation.
+
+The 2 November 2026 republish unblocked the bootstrap, which exposed the shop's
+actual runtime host `cdn.luigisbox.tech`. That host is still absent from the
+enforced policy, so the widget CSS/JS remains blocked. See
+`NETWORK-RECHECK.json`; `cdn.luigisbox.com` does not cover the observed `.tech`
+host.
