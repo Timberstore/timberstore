@@ -384,3 +384,5 @@ E-shop zůstává na Shoptetu. Na serveru běží **jen pomocné úlohy**: staho
 - **LB1 homepage restoration candidate 0.7.7-rc.5 (2. 11. 2026):** retains rc.4 budgets 36.25 / 32.75 KiB; measured 36.18 / 32.75. Only explicit-preview home H1 creation is omitted; contacts/articles and production loader unchanged. External homepage recommendations require a separate approved vendor configuration change. Not a completed homepage restoration.
 
 - **LB1 0.7.7-rc.6:** same 36.25 / 32.75 KiB preview limits; removes unintended homepage heading creation rather than hiding/guarding it. Production v0.7.6 unchanged pending explicit deployment approval.
+
+- **Stable 0.7.7 (2. 11. 2026):** owner-authorized isolated removal of unintended homepage heading. Inherits 0.7.6 budgets JS36.25/CSS32.5 KiB; measured36.03/32.07. No experimental Luigi code promoted; live loader activation by owner. Rollback v0.7.6.

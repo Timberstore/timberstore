@@ -761,3 +761,8 @@ Obsahuje i v0.1.0 a v0.2.0 (nikdy nenasazené, jen tagy / rc).
 - Owner clarified H1 normalization never authorized adding new homepage copy.
 - Remove the homepage H1 creation branch, its text, selector and unused CSS.
 - Keep article/contact changes and production loader untouched; preview only.
+
+## 0.7.7 — 2026-11-02
+- Owner-authorized isolated homepage fix: remove the unintended added H1 and its dead text/selector/CSS.
+- Preserve native categories, contact/article behavior and purchase logic. No experimental Luigi integration changes promoted.
+- JS36.03 / CSS32.07 KiB gzip within existing stable budgets. Production activation by owner; rollback v0.7.6.
