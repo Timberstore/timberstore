@@ -734,3 +734,7 @@ Obsahuje i v0.1.0 a v0.2.0 (nikdy nenasazené, jen tagy / rc).
 
 ## v0.1.0 · nenasazeno (jen tag)
 - Základ repa: core (detekce stránky, registr modulů, preview štítek), loader, build s kontrolou rozpočtu.
+
+## 0.7.7-rc.0 — LB1 preview only (2026-11-02)
+- Scoped Luigi presentation and semantic availability colours, gated by TimberLoader.preview.
+- Stable v0.7.6 loader retained. No vendor configuration changes.

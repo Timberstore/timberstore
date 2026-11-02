@@ -1,0 +1,136 @@
+/* LB1 preview only: observed Luigi roots, 2026-11-02. Not imported by production.
+   Keep vendor DOM, order, availability colours and action/analytics handlers. */
+html.ts-luigi-preview #lbx-ac-element,
+html.ts-luigi-preview #lb-search-element {
+  --ts-lb-space: 16px;
+  --ts-lb-radius: 12px;
+  --ts-lb-border: var(--ts-color-controls-border, #e5e0da);
+  --ts-lb-action: var(--ts-color-accent, #d4884a);
+  --ts-lb-blue: var(--ts-color-blue, #2454a6);
+}
+/* Remove vendor line clamps so technical specifications remain visible. */
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-name,
+html.ts-luigi-preview #lb-search-element .lb-product .name {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  max-height: none;
+  height: auto;
+  overflow: visible;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.45;
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-description,
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-text,
+html.ts-luigi-preview #lb-search-element .lb-product .p-in,
+html.ts-luigi-preview #lb-search-element .lb-product .p-in-in {
+  min-width: 0;
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-product {
+  border-bottom: 1px solid var(--ts-lb-border);
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-name {
+  font-size: 14px;
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-price {
+  color: var(--ts-lb-blue);
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-button-buy,
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-action-heromobile,
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-button-heromobile {
+  background-color: var(--ts-lb-action);
+  border-radius: var(--ts-lb-radius);
+  min-height: 44px;
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-action-heromobile {
+  min-width: 44px;
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-other {
+  min-height: 44px;
+}
+html.ts-luigi-preview #lb-search-element .lb-product .p-code {
+  color: var(--ts-lb-blue);
+}
+html.ts-luigi-preview #lb-search-element .lb-facet__label {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+html.ts-luigi-preview #lb-search-element .lb-sorts select,
+html.ts-luigi-preview #lb-search-element .lb-search__mobile-filter {
+  min-height: 44px;
+}
+html.ts-luigi-preview #lb-search-element .lb-product .p-in-in {
+  flex-grow: 1;
+}
+html.ts-luigi-preview #lb-search-element .lb-product .name {
+  padding-bottom: var(--ts-lb-space);
+}
+html.ts-luigi-preview #lbx-ac-element :is(a, button, [role='button']):focus-visible,
+html.ts-luigi-preview #lb-search-element :is(a, button, select, input, [role='button']):focus-visible {
+  outline: 3px solid var(--ts-lb-blue);
+  outline-offset: 2px;
+}
+/* Compact the existing Top product without removing it or moving its nodes. */
+@media (min-width: 768px) {
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-image {
+    height: 120px;
+  }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-image img {
+    max-height: 120px;
+    object-fit: contain;
+  }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-description {
+    padding-top: 12px;
+  }
+}
+/* Existing production title cap is !important. This preview exception is
+   necessary to undo that cap inside Luigi only; no global rule is changed. */
+html.ts-luigi-preview #lb-search-element #lb-results .lb-product a.name {
+  -webkit-line-clamp: unset !important;
+  line-clamp: unset !important;
+  max-height: none !important;
+  min-height: 0 !important;
+}
+/* Vendor theme uses important action backgrounds; retain brand orange rather
+   than the inherited dark theme. These are isolated preview exceptions. */
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-action-heromobile {
+  background: var(--ts-lb-action) !important;
+}
+@media (min-width: 768px) {
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-product {
+    width: 100%;
+    display: flex;
+    float: none;
+    min-height: 120px;
+    height: auto;
+  }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-image {
+    flex: 0 0 72px;
+  }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-description {
+    flex: 1;
+    padding-right: 56px;
+  }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-product {
+    height: auto;
+  }
+}
+@media (min-width: 768px) {
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-price,
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-heromobile-action-for-desktop {
+    position: static;
+    margin: 0;
+    width: auto;
+  }
+}
+
+/* LB1: use explicit vendor availability metadata, never rank numbers. */
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-attrs[content="Centrálny sklad"] .luigi-ac-attr { color: var(--ts-color-controls-active) !important; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-attrs[content="Skladom"] .luigi-ac-attr { color: var(--ts-color-success-primary) !important; }

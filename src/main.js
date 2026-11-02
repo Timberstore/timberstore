@@ -1,3 +1,4 @@
+import luigiPreview from './modules/luigi-preview/index.js';
 import './legacy/timber-menu-guard.js';
 import auditPreview from './modules/audit-preview/index.js';
 import socialIcons from './modules/social-icons/index.js';
@@ -36,6 +37,7 @@ prepareQuantities();
 // Register every module here. Order = init order.
 // qty-picker before cart-count: the badge goes into the button the qty field sits next to.
 start([
+  luigiPreview,
   headerServiceBar,
   footerContacts,
   sidebarSupport,
