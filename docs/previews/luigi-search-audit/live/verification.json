@@ -1,0 +1,1638 @@
+{
+  "checkedAt": "2026-11-02T20:01:40.634Z",
+  "requests": [
+    {
+      "width": 1440,
+      "url": "https://scripts.luigisbox.tech/LBX-1266949.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/autocomplete.css",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/search.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/autocomplete.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.css",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/recco.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/timberstore.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/chunks/50.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://live.luigisbox.tech/v2/trending_queries?tracker_id=842889-1266949&hostname=www.timberstore.sk",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://live.luigisbox.tech/search?tracker_id=842889-1266949&remove_fields=nested&f%5B%5D=type:product&q=BLUM+450&facets=price_eur_amount,flags,category_path,brand,color,Materi%C3%A1l,Mot%C3%ADv,Velikost&quicksearch_types=category:6,brand:6,article:6&size=24",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.tech/chunks/206.js",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://live.luigisbox.tech/autocomplete/v2?tracker_id=842889-1266949&type=product:7,query:4,category:4,brand:3,article:3&q=BLUM%20450&hostname=www.timberstore.sk",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://cdn.luigisbox.com/autocomplete/assets/cart.svg",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://scripts.luigisbox.tech/LBX-1266949.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/autocomplete.css",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/autocomplete.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/search.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/recco.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/timberstore.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/v2/trending_queries?tracker_id=842889-1266949&hostname=www.timberstore.sk",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.css",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/chunks/50.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/search?tracker_id=842889-1266949&remove_fields=nested&f%5B%5D=type:product&q=BLUM+450&facets=price_eur_amount,flags,category_path,brand,color,Materi%C3%A1l,Mot%C3%ADv,Velikost&quicksearch_types=category:6,brand:6,article:6&size=24",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.tech/chunks/206.js",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/v1/top_items?tracker_id=842889-1266949&type=product:7,query:4,category:4,brand:3,article:3&hostname=www.timberstore.sk",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://live.luigisbox.tech/autocomplete/v2?tracker_id=842889-1266949&type=product:7,query:4,category:4,brand:3,article:3&q=BLUM%20450&hostname=www.timberstore.sk",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://cdn.luigisbox.com/autocomplete/assets/cart.svg",
+      "status": 200
+    },
+    {
+      "width": 375,
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    }
+  ],
+  "states": [
+    {
+      "width": 1440,
+      "state": "results",
+      "after": false,
+      "names": [
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, biela, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, šedá, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela skrutka (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, Expando (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, Expando (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, biela, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, šedá, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, Expando (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "4",
+          "height": 99,
+          "scrollHeight": 99
+        }
+      ],
+      "links": [
+        "/aventos--blum/",
+        "/ambia-line--blum-/",
+        "/orga-line--blum-/",
+        "/vysuvy-a-bocnice-3/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka--c-pure-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka--c-pure-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "#"
+      ],
+      "colors": [
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        }
+      ],
+      "horizontalOverflow": false,
+      "root": ""
+    },
+    {
+      "width": 1440,
+      "state": "results",
+      "after": true,
+      "names": [
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, biela, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, šedá, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, Expando (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, Expando (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, biela, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, šedá, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, Expando (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 115,
+          "scrollHeight": 115
+        }
+      ],
+      "links": [
+        "/aventos--blum/",
+        "/ambia-line--blum-/",
+        "/orga-line--blum-/",
+        "/vysuvy-a-bocnice-3/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka--c-pure-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka--c-pure-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "#"
+      ],
+      "colors": [
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        }
+      ],
+      "horizontalOverflow": false,
+      "root": ""
+    },
+    {
+      "width": 1440,
+      "state": "autocomplete",
+      "after": false,
+      "names": [
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "3",
+          "height": 70,
+          "scrollHeight": 119
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "3",
+          "height": 54,
+          "scrollHeight": 109
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "3",
+          "height": 54,
+          "scrollHeight": 91
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "3",
+          "height": 54,
+          "scrollHeight": 109
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "3",
+          "height": 54,
+          "scrollHeight": 109
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "3",
+          "height": 54,
+          "scrollHeight": 109
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "3",
+          "height": 54,
+          "scrollHeight": 109
+        }
+      ],
+      "links": [
+        "/vysuvy-a-bocnice-3/",
+        "/blum/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "https://www.luigisbox.com/?utm_source=www.timberstore.sk&utm_medium=referral&utm_campaign=Client&utm_content=Autocomplete"
+      ],
+      "colors": [
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        }
+      ],
+      "horizontalOverflow": false,
+      "root": "luigi-ac luigi-ac-heromobile luigi-ac-heromobile--right luigi-ac-autocomplete luigi-ac-open luigi-ac--fixed"
+    },
+    {
+      "width": 1440,
+      "state": "autocomplete",
+      "after": true,
+      "names": [
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 61,
+          "scrollHeight": 61
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 41,
+          "scrollHeight": 41
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 41,
+          "scrollHeight": 41
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 41,
+          "scrollHeight": 41
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 41,
+          "scrollHeight": 41
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 41,
+          "scrollHeight": 41
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 41,
+          "scrollHeight": 41
+        }
+      ],
+      "links": [
+        "/vysuvy-a-bocnice-3/",
+        "/blum/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "https://www.luigisbox.com/?utm_source=www.timberstore.sk&utm_medium=referral&utm_campaign=Client&utm_content=Autocomplete"
+      ],
+      "colors": [
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        }
+      ],
+      "horizontalOverflow": false,
+      "root": "luigi-ac luigi-ac-heromobile luigi-ac-heromobile--right luigi-ac-autocomplete luigi-ac-open luigi-ac--fixed"
+    },
+    {
+      "width": 375,
+      "state": "results",
+      "after": false,
+      "names": [
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 105
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 105
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, biela, vnútorná (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, šedá, vnútorná (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela skrutka (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 105
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 105
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, Expando (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, Expando (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, biela, vnútorná (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, šedá, vnútorná (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, Expando (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 123
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "4",
+          "height": 70,
+          "scrollHeight": 105
+        }
+      ],
+      "links": [
+        "/aventos--blum/",
+        "/ambia-line--blum-/",
+        "/orga-line--blum-/",
+        "/vysuvy-a-bocnice-3/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka--c-pure-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka--c-pure-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "#"
+      ],
+      "colors": [
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        }
+      ],
+      "horizontalOverflow": false,
+      "root": ""
+    },
+    {
+      "width": 375,
+      "state": "results",
+      "after": true,
+      "names": [
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 121,
+          "scrollHeight": 121
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 121,
+          "scrollHeight": 121
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, biela, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka F 450 mm/40 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, biela, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Blumotion/TOB, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/70 kg, Tip-on, šedá, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 121,
+          "scrollHeight": 121
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 121,
+          "scrollHeight": 121
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, biela, Expando (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/70 kg, Tip-on, šedá, Expando (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, biela, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka M 450 mm/40 kg, Tip-on, šedá, vnútorná (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, Expando (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 139,
+          "scrollHeight": 139
+        },
+        {
+          "text": "K-BLUM Legrabox, zásuvka C pure 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 121,
+          "scrollHeight": 121
+        }
+      ],
+      "links": [
+        "/aventos--blum/",
+        "/ambia-line--blum-/",
+        "/orga-line--blum-/",
+        "/vysuvy-a-bocnice-3/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--blumotion-tob--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-70-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--biela-vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-m-450-mm-40-kg--tip-on--seda--vnutorna--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--expando--komplet-/",
+        "/k-blum-legrabox-zasuvka--c-pure-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka--c-pure-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "#"
+      ],
+      "colors": [
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(201, 122, 43)"
+        }
+      ],
+      "horizontalOverflow": false,
+      "root": ""
+    },
+    {
+      "width": 375,
+      "state": "autocomplete",
+      "after": false,
+      "names": [
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 71,
+          "scrollHeight": 71
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "3",
+          "height": 50,
+          "scrollHeight": 50
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "3",
+          "height": 50,
+          "scrollHeight": 50
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "3",
+          "height": 50,
+          "scrollHeight": 50
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "3",
+          "height": 50,
+          "scrollHeight": 50
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "3",
+          "height": 50,
+          "scrollHeight": 50
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": true,
+          "clamp": "3",
+          "height": 62,
+          "scrollHeight": 71
+        }
+      ],
+      "links": [
+        "/vysuvy-a-bocnice-3/",
+        "/blum/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "https://www.luigisbox.com/?utm_source=www.timberstore.sk&utm_medium=referral&utm_campaign=Client&utm_content=Autocomplete"
+      ],
+      "colors": [
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        }
+      ],
+      "horizontalOverflow": false,
+      "root": "luigi-ac luigi-ac-heromobile luigi-ac-heromobile--right luigi-ac-autocomplete luigi-ac--fixed luigi-ac-open"
+    },
+    {
+      "width": 375,
+      "state": "autocomplete",
+      "after": true,
+      "names": [
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 69,
+          "scrollHeight": 69
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 69,
+          "scrollHeight": 69
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 69,
+          "scrollHeight": 69
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, sklo (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 69,
+          "scrollHeight": 69
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 69,
+          "scrollHeight": 69
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 69,
+          "scrollHeight": 69
+        },
+        {
+          "text": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)",
+          "clipped": false,
+          "clamp": "none",
+          "height": 69,
+          "scrollHeight": 69
+        }
+      ],
+      "links": [
+        "/vysuvy-a-bocnice-3/",
+        "/blum/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+        "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+        "https://www.luigisbox.com/?utm_source=www.timberstore.sk&utm_medium=referral&utm_campaign=Client&utm_content=Autocomplete"
+      ],
+      "colors": [
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        },
+        {
+          "text": "Centrálny sklad",
+          "color": "rgb(55, 59, 67)"
+        }
+      ],
+      "horizontalOverflow": false,
+      "root": "luigi-ac luigi-ac-heromobile luigi-ac-heromobile--right luigi-ac-autocomplete luigi-ac--fixed luigi-ac-open"
+    }
+  ],
+  "errors": [],
+  "cart": "NOT TESTED: no cart mutation",
+  "safari": "NOT TESTED"
+}

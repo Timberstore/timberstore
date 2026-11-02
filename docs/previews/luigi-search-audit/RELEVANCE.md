@@ -1,3 +1,6 @@
+> Aktuálne pokračovanie z 2. 11. 2026: [LIVE-REVIEW.md](LIVE-REVIEW.md).
+> Sieťové blokácie nižšie sú historické; reálne Luigi odpovede sú v `live/search-responses.json`.
+
 # Audit relevancie · porovnávací základ Shoptetu
 
 2. 11. 2026. Luigi script bol blokovaný prostredím; stav Luigi testu je pri každom dopyte **BLOCKED**. Následné údaje sú zákaznícka stránka Shoptetu pri nedostupnom Luigi, nie hodnotenie Luigi. Zachytených najviac prvých 10 kariet, pri menšom počte všetky dostupné. Hodnotenie vychádza z názvov, nie z potvrdených indexovaných parametrov. Poradie sa môže časom meniť.

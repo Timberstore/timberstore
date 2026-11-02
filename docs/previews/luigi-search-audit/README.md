@@ -1,3 +1,10 @@
+## Aktuálny stav po obnovení prostredia
+
+Reálny Luigi runtime aj dátové odpovede sú dostupné. Pokračovanie a aktuálne
+obmedzenia: [LIVE-REVIEW.md](LIVE-REVIEW.md). Izolovaný kandidát:
+[luigi-scoped.css](luigi-scoped.css). Reálne desktop/mobile páry sú v [live/](live/).
+Staršie sieťové záznamy nižšie sú historické. Produkcia sa nemení.
+
 # LB1 · Luigi’s Box audit and isolated preview
 
 Local branch: `feature/lb1-search-audit-preview`. Base: `dd709bb` (v0.7.6 repository state). LB1 is a local task identifier, not a verified Trello card.

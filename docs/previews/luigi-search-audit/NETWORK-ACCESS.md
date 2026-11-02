@@ -1,3 +1,6 @@
+> Aktuálne pokračovanie z 2. 11. 2026: [LIVE-REVIEW.md](LIVE-REVIEW.md).
+> Sieťové blokácie nižšie sú historické; reálne Luigi odpovede sú v `live/search-responses.json`.
+
 # LB1 · Network access required for real Luigi integration
 
 ## Verified in the PR follow-up

@@ -1,3 +1,6 @@
+> Aktuálne pokračovanie z 2. 11. 2026: [LIVE-REVIEW.md](LIVE-REVIEW.md).
+> Sieťové blokácie nižšie sú historické; reálne Luigi odpovede sú v `live/search-responses.json`.
+
 # TIMBER STORE · audit Luigi’s Box a návrh redizajnu
 
 Dátum: 2. 11. 2026. Pracovná vetva: `feature/lb1-search-audit-preview`. Základ repozitára: `dd709bb`, verzia 0.7.6. Stav: dokončený audit dostupných zdrojov a samostatný dizajnový model; **audit funkčnej integrácie Luigi’s Box ostáva blokovaný sieťou**. Žiadne produkčné nasadenie ani zmena administrácie.
