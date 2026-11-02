@@ -766,3 +766,8 @@ Obsahuje i v0.1.0 a v0.2.0 (nikdy nenasazené, jen tagy / rc).
 - Owner-authorized isolated homepage fix: remove the unintended added H1 and its dead text/selector/CSS.
 - Preserve native categories, contact/article behavior and purchase logic. No experimental Luigi integration changes promoted.
 - JS36.03 / CSS32.07 KiB gzip within existing stable budgets. Production activation by owner; rollback v0.7.6.
+
+## 0.7.8-rc.0 — LB1 continuation after v0.7.7 (2026-11-02)
+- Integrate published stable homepage H1 removal and retain production loader target v0.7.7.
+- Preview-only whole recommendation titles, existing price/SKU/unit styling and focus; normalize observed native green ink to approved token without deriving stock data.
+- No new qty/variant/cart/analytics implementation. External homepage deactivation and functional vendor contracts remain blocked.

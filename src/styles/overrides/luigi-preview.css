@@ -146,3 +146,30 @@ html.ts-luigi-preview #lb-search-element .lb-results {
   /* Preview exception against vendor important tile widths. */
   html.ts-luigi-preview #lb-search-element .lb-results .lb-product { width: 100% !important; }
 }
+
+/* LB1 0.7.8-rc.0: observed recommendation roots; keep native/vendor buy nodes,
+   carousel tracks, item order and all recommendation visibility unchanged. */
+html.ts-luigi-preview :is(#lb-recommend-element-homepage_personalized, #lb-recommend-element-homepage_last_seen, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) {
+  --ts-lb-blue: var(--ts-color-blue);
+}
+/* Override the inherited important title cap, never truncate technical data. */
+html.ts-luigi-preview :is(#lb-recommend-element-homepage_personalized, #lb-recommend-element-homepage_last_seen, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product a.name {
+  -webkit-line-clamp: unset !important;
+  line-clamp: unset !important;
+  max-height: none !important;
+  height: auto;
+  min-height: 0 !important;
+  overflow: visible;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.45;
+}
+html.ts-luigi-preview :is(#lb-recommend-element-homepage_personalized, #lb-recommend-element-homepage_last_seen, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .lb-product :is(.p-in, .p-in-in) { min-width: 0; }
+html.ts-luigi-preview :is(#lb-recommend-element-homepage_personalized, #lb-recommend-element-homepage_last_seen, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .lb-product :is([data-micro="sku"], .price-final strong) { color: var(--ts-color-blue); }
+html.ts-luigi-preview :is(#lb-recommend-element-homepage_personalized, #lb-recommend-element-homepage_last_seen, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .lb-product .price-additional { color: var(--ts-color-price-secondary); }
+html.ts-luigi-preview :is(#lb-recommend-element-homepage_personalized, #lb-recommend-element-homepage_last_seen, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .lb-product .pr-list-unit { white-space: nowrap; color: var(--ts-color-price-secondary); }
+html.ts-luigi-preview :is(#lb-recommend-element-homepage_personalized, #lb-recommend-element-homepage_last_seen, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) :is(a, button, [role="button"]):focus-visible { outline: 3px solid var(--ts-color-blue); outline-offset: 2px; }
+/* Brand-normalize only the observed native green inline colour. No availability
+   classification, quantity calculation or stock inference is performed.
+   Important is required against vendor inline color; unknown values stay native. */
+html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-homepage_personalized, #lb-recommend-element-homepage_last_seen, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .availability > span:is([style*="#2e7d32" i], [style*="rgb(46, 125, 50)"]) { color: var(--ts-color-success-primary) !important; }
