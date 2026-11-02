@@ -170,7 +170,9 @@ export default {
     const page = getAuditPage();
     if (page === 'contacts') contacts(root);
     if (page === 'article') articleHeadings(root);
-    if (page === 'home' && !root.querySelector('h1')) {
+    // Homepage restoration candidate: omit only our added H1 in explicit preview.
+    // Contacts/article heading behavior and production v0.7.6 remain unchanged.
+    if (page === 'home' && !window.TimberLoader?.preview && !root.querySelector('h1')) {
       const anchor = root.querySelector(SEL.auditHomeTitleAnchor);
       if (anchor) {
         const title = document.createElement('h1');

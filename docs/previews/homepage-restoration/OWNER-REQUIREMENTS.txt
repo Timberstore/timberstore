@@ -1,0 +1,178 @@
+TIMBER STORE — kompletné zjednotenie Luigi’s Box s existujúcim e-shopom
+
+Pokračuj v PR #68 na jeho aktuálnej vetve. Doterajší výsledok nie je
+schválený ako dokončený. Rozsah zahŕňa celú integráciu Luigi’s Box,
+nielen našepkávač a farby dostupnosti.
+
+CIEĽ
+
+Luigi’s Box musí vizuálne aj funkčne dodržiavať schválené pravidlá
+TIMBER STORE. Zdrojom pravdy je existujúca správne fungujúca
+implementácia e-shopu a repozitár, nie predvolený dizajn Luigi.
+
+Nezačínaj ďalším prefarbovaním. Najprv zisti rozdiely, ich príčiny
+a možnosti podporovanej nápravy.
+
+1. ZACHOVAJ A ZDOKUMENTUJ VÝCHODISKOVÝ STAV
+
+Over aktuálnu produkčnú verziu, preview buildy, stav PR a loader.
+Zachyť čistú produkciu a preview v oddelených kontextoch bez
+prenášania preview cookies.
+
+Pred zásahom ulož screenshoty, relevantný DOM a dostupnú konfiguráciu.
+Nevypínaj plošne Luigi, nepresúvaj produkčné sekcie ani nemeň
+nastavenia v administrácii bez schválenia.
+
+2. ZMAPUJ VŠETKY KOMPONENTY A ICH PÔVOD
+
+Skontroluj:
+- našepkávač pred písaním aj počas písania;
+- Top produkt, kategórie, značky a články;
+- stránku výsledkov, filtre, radenie a stránkovanie;
+- odporúčania na homepage vrátane „Vybrali sme pre Vás“;
+- odporúčania na detaile a podobné/súvisiace produkty;
+- odporúčania v košíku a okne po pridaní do košíka,
+  vrátane „Zákazníci tiež kúpili“.
+
+Pri každej sekcii preukáž, či ju vykresľuje Luigi, Shoptet, Apollo
+alebo náš kód. Názov sekcie nie je dôkaz jej pôvodu.
+
+Majiteľ uvádza, že na mieste „Vybrali sme pre Vás“ boli pôvodne
+„Najobľúbenejšie kategórie“. Zisti, či sú kategórie presunuté,
+skryté alebo nahradené. Návrh obnovy podlož doloženým pôvodným stavom.
+Nevymýšľaj nové poradie homepage.
+
+3. VYTVOR REFERENČNÚ ŠPECIFIKÁCIU TIMBER STORE
+
+Preštuduj existujúce zdroje, tokeny a správne fungujúce komponenty.
+Pred implementáciou zdokumentuj:
+
+- hlavná cena s DPH: farba, veľkosť, váha, formát a pozícia;
+- cena bez DPH: popis, farba, veľkosť a pozícia voči hlavnej cene;
+- predajná jednotka a prípadné jednotkové ceny;
+- Skladom, Centrálny sklad, nedostupnosť a počty dostupných kusov;
+- SKU, výrobné kódy a značky;
+- množstevné ovládanie, minimum, krok, násobitele a balenia;
+- košíková ikona, tlačidlo, rozmery a stavy;
+- názvy produktov, technické údaje, riadkovanie a zarovnanie;
+- obrázky, štítky, rádiusy, rozstupy a správanie sliderov.
+
+Referencie vyber osobitne pre produktovú kartu, kompaktný riadok,
+odporúčací pás a košík. Neprenášaj rozmery veľkej karty do každého
+malého widgetu; zachovaj spoločné pravidlá a vhodnú geometriu.
+
+Schválená identita:
+Skladom zelené, Centrálny sklad oranžové, produktové kódy modré,
+nákupné tlačidlá jednotné podľa webu. Presné hodnoty over zo zdrojov.
+Kontrastné výhrady zaznamenaj samostatne, nie ako automatické
+povolenie meniť identitu.
+
+4. PRIPRAV A REALIZUJ ZJEDNOTENIE
+
+Pre každú komponentu vypracuj tabuľku:
+aktuálny problém → referenčné pravidlo → spôsob opravy → overenie.
+
+Oprav najmä:
+- rozdielne pozície cien, DPH, jednotiek a dostupnosti;
+- chýbajúce alebo nesprávne množstvá a skladové počty;
+- rozdielne košíkové ikony a nákupné ovládanie;
+- nesúlad výšok, obrázkov, medzier a zarovnania kariet;
+- nečitateľné zalamovanie technických názvov;
+- nevyvážený Top produkt;
+- prekrývanie obsahu, tlačidiel a spodných častí panelov;
+- sliderové šípky, dotykové ovládanie a nežiaduce automatické pohyby;
+- duplicitné odporúčania alebo konflikty s pôvodnými sekciami;
+- nerelevantné kategórie/články, napríklad „Stránka nenájdená“;
+- interné filtre, napríklad creation_time.
+
+Neskrývaj podstatné technické údaje kvôli zarovnaniu.
+Nepoužívaj svojvoľné pevné výšky, ktoré orezávajú obsah.
+
+5. NÁKUPNÉ PRAVIDLÁ SÚ FUNKČNÁ POŽIADAVKA
+
+Nestačí pridať vizuálne tlačidlá +/−.
+
+Over skutočný zdroj údajov pre minimum, krok, násobiteľ, balenie,
+jednotku, variant a dostupné množstvo. Rovnaké požiadavky musia platiť
+pri pridaní z našepkávača, výsledkov aj odporúčacích widgetov.
+
+Príklady:
+- pri kroku 10 nesmie Luigi odoslať nepovolené množstvo 1;
+- pri variante nesmie vložiť iný variant alebo neurčený produkt;
+- cena za kus sa nesmie prezentovať ako cena za balenie;
+- dostupné množstvo nesmie byť vymyslené, zastarané bez označenia
+  alebo odvodené len z farby.
+
+Ak widget nemá potrebné dáta, presne označ chýbajúce mapovanie
+a navrhni podporované riešenie. Nepredstieraj splnenie požiadavky
+nefunkčným ovládaním. Prípadné presmerovanie na detail navrhni
+ako výslovnú alternatívu na schválenie.
+
+6. TECHNICKÉ HRANICE
+
+Priorita: oficiálne nastavenie → podporované šablóny/hooks →
+izolované CSS → nevyhnutný podporovaný JS → podpora dodávateľa.
+
+Používaj potvrdené stabilné korene komponentov a selektory.
+Nemeň globálne produktové štýly spôsobom, ktorý poškodí pôvodný web.
+Nepridávaj druhú inicializáciu Luigi, duplicitné košíkové handlery,
+náhradnú analytiku ani nezdokumentované API.
+
+Pri externých nastaveniach priprav presné pôvodné a navrhované
+hodnoty a spôsob návratu. Návrat Git buildu externé nastavenia nevráti.
+
+7. NOVÝ BUILD A MOŽNOSŤ NÁVRATU
+
+Over posledný stav vetvy a existujúce verzie. Priprav ďalší voľný
+verzovaný preview build bez prepisovania existujúcich buildov a tagov.
+
+Úpravy aktivuj iba v explicitnom preview. Zachovaj aktuálny
+produkčný build a pôvodný loader. Poskytni odkaz na preview,
+vypnutie preview a presný rollback.
+
+Ak oprava potrebuje externú zmenu, ktorá by zasiahla zákazníkov,
+nepublikuj ju. Označ ju ako samostatný krok vyžadujúci schválenie.
+
+8. POVINNÉ OVERENIE
+
+Otestuj všetky dotknuté typy komponentov na desktope, tablete a mobile.
+Zahrň dlhé názvy, rôzne jednotky, lokálny/centrálny sklad,
+nedostupný produkt, variant, minimálny odber a násobiteľ balenia.
+
+Pre nákupné prípady porovnaj s pôvodným webom:
+produkt a variant, požadované a skutočné množstvo,
+jednotkovú cenu, DPH a výsledný súčet v košíku.
+
+Použi oddelený testovací kontext. Objednávku neodosielaj.
+Over opakované kliknutia, zmenu množstva, AJAX prekreslenie,
+mobilnú klávesnicu, scroll a otvorenie/zatvorenie našepkávača.
+
+Over zachovanie analytickej atribúcie pre jednotlivé umiestnenia
+a správanie podľa cookie súhlasu. Dôkaz odoslania požiadavky
+neoznačuj automaticky za potvrdený zápis vo vendor reportingu.
+
+Samotné HTTP 200, správna farba alebo pridanie jedného kusového
+produktu nie sú dôkazom dokončenia integrácie.
+
+9. VÝSTUP A AKCEPTÁCIA
+
+Odovzdaj:
+- inventár všetkých widgetov s preukázaným pôvodom;
+- referenčné pravidlá TIMBER STORE;
+- zoznam problémov a stav každej opravy;
+- číslo buildu a funkčný preview odkaz;
+- skutočné screenshoty pred/po pre každé dotknuté umiestnenie,
+  osobitne desktop a mobil, pri porovnateľnom obsahu;
+- výsledky nákupných, responzívnych a analytických kontrol;
+- samostatný zoznam blokovaného a neotestovaného;
+- rollback kódu aj plán návratu externých nastavení.
+
+Prácu neoznačuj ako dokončenú, ak zostávajú zásadné rozdiely
+v cenách, jednotkách, množstvách, dostupnosti alebo košíku.
+
+Cieľom je kompletné prevzatie existujúcich pravidiel TIMBER STORE
+do všetkých relevantných Luigi komponentov, nie ďalší samostatný
+vizuálny systém.
+
+Bez môjho schválenia nerob merge, produkčné nasadenie
+ani publikovanie nastavení Luigi’s Box alebo Shoptetu.

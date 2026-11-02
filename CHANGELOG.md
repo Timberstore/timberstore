@@ -752,3 +752,7 @@ Obsahuje i v0.1.0 a v0.2.0 (nikdy nenasazené, jen tagy / rc).
 - Retain vendor flex layout and expand mobile technical result cards.
 - Audit includes native/Search/Autocomplete default minimum purchase comparison,
   live sorting/filter checks, and explicit support blockers. Not integration-complete.
+
+## 0.7.7-rc.5 — LB1 homepage restoration candidate (2026-11-02)
+- Omit our added homepage H1 in explicit preview only, without hiding it with CSS.
+- Preserve production v0.7.6 and all external settings. Homepage recommender removal is pending supported vendor configuration, not implemented with DOM deletion or global blocking.
