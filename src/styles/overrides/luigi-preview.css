@@ -141,7 +141,8 @@ html.ts-luigi-preview #lb-search-element .lb-results {
   align-items: stretch;
 }
 @media (max-width: 767px) {
-  html.ts-luigi-preview #lb-search-element .lb-results { /* Preview exception: vendor injected stylesheet specifies columns with important. */
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) !important; }
+  /* Vendor forces flex; retain it and change only the mobile flow. */
+  html.ts-luigi-preview #lb-search-element .lb-results { flex-direction: column; }
+  /* Preview exception against vendor important tile widths. */
+  html.ts-luigi-preview #lb-search-element .lb-results .lb-product { width: 100% !important; }
 }
