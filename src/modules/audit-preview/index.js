@@ -170,17 +170,6 @@ export default {
     const page = getAuditPage();
     if (page === 'contacts') contacts(root);
     if (page === 'article') articleHeadings(root);
-    // Homepage restoration candidate: omit only our added H1 in explicit preview.
-    // Contacts/article heading behavior and production v0.7.6 remain unchanged.
-    if (page === 'home' && !window.TimberLoader?.preview && !root.querySelector('h1')) {
-      const anchor = root.querySelector(SEL.auditHomeTitleAnchor);
-      if (anchor) {
-        const title = document.createElement('h1');
-        title.className = 'ts-home-title';
-        title.textContent = copy.homeTitle;
-        anchor.before(title);
-      }
-    }
     brands(root);
     if (!brandObserver && document.body) {
       brandObserver = new MutationObserver(() => brands(document));

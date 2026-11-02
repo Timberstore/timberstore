@@ -97,3 +97,17 @@ neprepísal. Aktuálny produkčný loader ani stabilný tag sa nemenili.
 Externý rollback sa pripraví podľa exportu konkrétnych vendor admin polí;
 repo rollback externé nastavenia NEVRÁTI. Bez schválenia nič nepublikovať v
 Luigi/Shoptet administrácii a nič nemergovať ani produkčne nenasadzovať.
+
+## Výslovné upresnenie majiteľa a rc.6
+
+Majiteľ odmietol samotné pridanie textu „Nábytkové kovanie a príslušenstvo“:
+zjednotenie H1 nemalo vytvoriť nový obsah homepage. Skorší súhrn release,
+ktorý ho označil ako schválený, sa nesmie považovať za autoritatívny výklad jeho
+zadania. Pridanie bolo nesprávnym rozšírením rozsahu.
+
+Nový kandidát **0.7.7-rc.6** odstraňuje CELÚ vetvu vytvárania homepage H1,
+súvisiaci text, selektor a nepoužitý CSS blok. Nejde už len o preview guard
+z rc.5: pri budúcom schválenom vydaní sa táto vetva nemôže znovu aktivovať.
+Kontakty, sémantické nadpisy článkov a pôvodný kategóriový modul zostávajú.
+Produkčný tag/loader v0.7.6 sa nemení; na verejnom webe text ostane až do
+samostatne schváleného nasadenia opravy. Externé odporúčania sú ďalší oddelený krok.

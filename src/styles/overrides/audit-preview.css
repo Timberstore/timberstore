@@ -178,12 +178,3 @@
     grid-area: 1 / 2 / 4 / 3;
   }
 }
-
-.ts-home-title {
-  margin: var(--ts-space-3) auto;
-  padding-inline: var(--ts-space-3);
-  font-size: clamp(24px, 3vw, 32px);
-  line-height: 1.25;
-  font-weight: 700;
-  text-align: center;
-}

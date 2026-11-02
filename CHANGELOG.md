@@ -756,3 +756,8 @@ Obsahuje i v0.1.0 a v0.2.0 (nikdy nenasazené, jen tagy / rc).
 ## 0.7.7-rc.5 — LB1 homepage restoration candidate (2026-11-02)
 - Omit our added homepage H1 in explicit preview only, without hiding it with CSS.
 - Preserve production v0.7.6 and all external settings. Homepage recommender removal is pending supported vendor configuration, not implemented with DOM deletion or global blocking.
+
+## 0.7.7-rc.6 — remove unintended homepage heading (2026-11-02)
+- Owner clarified H1 normalization never authorized adding new homepage copy.
+- Remove the homepage H1 creation branch, its text, selector and unused CSS.
+- Keep article/contact changes and production loader untouched; preview only.
