@@ -1,3 +1,5 @@
+Aktuálny neschválený re-audit a blokery: [integration-audit/REPORT.md](integration-audit/REPORT.md).
+
 Aktuálny samostatný build a rollback: [PREVIEW-0.7.7-rc.0.md](PREVIEW-0.7.7-rc.0.md).
 
 ## Aktuálny stav po obnovení prostredia

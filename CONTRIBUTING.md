@@ -376,3 +376,7 @@ E-shop zůstává na Shoptetu. Na serveru běží **jen pomocné úlohy**: staho
 - **LB1 isolated Luigi preview `0.7.7-rc.0` (2. 11. 2026):** JS 36.25 KiB unchanged; CSS 32.75 KiB under the recorded 2026-10-15 preview allowance. Measured 36.18 / 32.72 KiB. Explicit preview guard only; stable v0.7.6 and its budgets unchanged. No production loader change.
 
 - **LB1 re-audit preview 0.7.7-rc.1 (2. 11. 2026):** inherits rc.0 budgets 36.25 / 32.75 KiB; measured 36.18 / 32.74 KiB. Mobile technical results use a readable single column. Functional parity remains subject to documented vendor integration blockers; not approved for production.
+
+- **LB1 0.7.7-rc.2:** retains rc.1 36.25 / 32.75 KiB limits, measured 36.18 / 32.74. Corrects vendor important column conflict found in rc.1 live review. Functional integration remains incomplete; no production approval.
+
+- **LB1 0.7.7-rc.3/rc.4:** same preview budgets 36.25 / 32.75 KiB; final rc.4 measured 36.18 / 32.75. Rc.4 retains vendor flex and adjusts mobile flow; earlier immutable candidates retained. No functional parity approval.

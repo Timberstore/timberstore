@@ -743,3 +743,12 @@ Obsahuje i v0.1.0 a v0.2.0 (nikdy nenasazené, jen tagy / rc).
 - Improve mobile technical result readability in a preview-only single column.
 - Retain native purchase logic; do not imitate unsupported quantity/variant controls.
 - This candidate is not a completed or approved integration.
+
+## 0.7.7-rc.2 — LB1 candidate correction (2026-11-02)
+- Isolated important column override for vendor layout conflict; rc.1 remains immutable.
+- Functional audit and support blockers documented separately; no production promotion.
+
+## 0.7.7-rc.4 — LB1 vendor flex candidate (2026-11-02)
+- Retain vendor flex layout and expand mobile technical result cards.
+- Audit includes native/Search/Autocomplete default minimum purchase comparison,
+  live sorting/filter checks, and explicit support blockers. Not integration-complete.
