@@ -1,5 +1,6 @@
 /* Design tokens — the only place for colours, spacing and breakpoints. */
 :root {
+  --ts-lb-stock-font: 12px;
   --ts-lb-card-title: 19px; /* Verified native TOP card, desktop. */
   --ts-lb-card-title-mobile: 14px; /* Verified native TOP card, mobile. */
   --ts-cart-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E");
