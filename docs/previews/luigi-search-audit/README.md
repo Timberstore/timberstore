@@ -9,3 +9,7 @@ Open `preview.html` beside `preview.css`. This is a standalone design model with
 No production source, dist, loader, package version, admin setting or search configuration was changed. No merge, deployment or release.
 
 Next: allow the Luigi script and observed dependencies through the environment configuration, inspect the live widget and official supported customization hooks, then map this design to confirmed hooks only.
+
+## Real integration follow-up
+
+See `NETWORK-ACCESS.md` for the verified proxy denial, official configuration route, exact hosts and continuation checklist. Real Luigi before/after screenshots and scoped vendor CSS remain blocked until the published environment permits the runtime script. The approved coloured stock text must be preserved; the model’s alternative contrast treatment is not an approved implementation.
