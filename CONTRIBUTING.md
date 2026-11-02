@@ -372,3 +372,5 @@ E-shop zůstává na Shoptetu. Na serveru běží **jen pomocné úlohy**: staho
 ### 5.4 Komunikace s klientem
 - **Měsíční souhrn slovensky** — lidsky psaný přehled z CHANGELOGu: co se změnilo, co to přináší, co má klient vyzkoušet. Slouží zároveň jako podklad k faktuře.
 - Stav jednotlivých úkolů klient vidí v Trellu.
+
+- **Stable 0.7.7 (2. 11. 2026):** owner-authorized isolated removal of unintended homepage heading. Inherits 0.7.6 budgets JS36.25/CSS32.5 KiB; measured36.03/32.07. No experimental Luigi code promoted; live loader activation by owner. Rollback v0.7.6.

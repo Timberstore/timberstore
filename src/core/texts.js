@@ -1,7 +1,6 @@
 // Customer-facing texts (Slovak). No hard-coded strings in modules.
 export const TEXTS = {
   auditPreview: {
-    homeTitle: 'Nábytkové kovanie a príslušenstvo',
     contacts: 'Kontakty',
     support: 'Sme tu pre vás',
     supportIntro: 'Pomôžeme vám s výberom kovania, úchytiek aj príslušenstva.',
