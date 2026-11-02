@@ -3,7 +3,6 @@
 export const SEL = {
   socialProfiles: 'a[href*="facebook.com/timberstore"], a[href*="instagram.com/timberstore.sk"]',
 
-  auditHomeTitleAnchor: '.timber-categories-banner',
   auditArticle: '#content .pageArticleDetail',
   auditArticleBody: ':scope > [itemprop="about"]',
   auditArticleTitle: ':scope > header h1',

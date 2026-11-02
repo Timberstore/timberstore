@@ -1,0 +1,73 @@
+{
+  "method": "Browser-only replacement of live asset responses with release candidate; preview=false; production HTML/loader and admin unchanged",
+  "rows": [
+    {
+      "width": 1440,
+      "path": "/",
+      "version": "v0.7.7",
+      "preview": false,
+      "h1": [],
+      "homeTitle": 0,
+      "categories": 12,
+      "contacts": 0
+    },
+    {
+      "width": 1440,
+      "path": "/kontakty/",
+      "version": "v0.7.7",
+      "preview": false,
+      "h1": [
+        "Kontakty"
+      ],
+      "homeTitle": 0,
+      "categories": 0,
+      "contacts": 1
+    },
+    {
+      "width": 1440,
+      "path": "/doprava-a-platba/",
+      "version": "v0.7.7",
+      "preview": false,
+      "h1": [
+        "Doprava a platba"
+      ],
+      "homeTitle": 0,
+      "categories": 0,
+      "contacts": 0
+    },
+    {
+      "width": 375,
+      "path": "/",
+      "version": "v0.7.7",
+      "preview": false,
+      "h1": [],
+      "homeTitle": 0,
+      "categories": 12,
+      "contacts": 0
+    },
+    {
+      "width": 375,
+      "path": "/kontakty/",
+      "version": "v0.7.7",
+      "preview": false,
+      "h1": [
+        "Kontakty"
+      ],
+      "homeTitle": 0,
+      "categories": 0,
+      "contacts": 1
+    },
+    {
+      "width": 375,
+      "path": "/doprava-a-platba/",
+      "version": "v0.7.7",
+      "preview": false,
+      "h1": [
+        "Doprava a platba"
+      ],
+      "homeTitle": 0,
+      "categories": 0,
+      "contacts": 0
+    }
+  ]
+}

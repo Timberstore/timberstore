@@ -734,3 +734,8 @@ Obsahuje i v0.1.0 a v0.2.0 (nikdy nenasazené, jen tagy / rc).
 
 ## v0.1.0 · nenasazeno (jen tag)
 - Základ repa: core (detekce stránky, registr modulů, preview štítek), loader, build s kontrolou rozpočtu.
+
+## 0.7.7 — 2026-11-02
+- Owner-authorized isolated homepage fix: remove the unintended added H1 and its dead text/selector/CSS.
+- Preserve native categories, contact/article behavior and purchase logic. No experimental Luigi integration changes promoted.
+- JS36.03 / CSS32.07 KiB gzip within existing stable budgets. Production activation by owner; rollback v0.7.6.
