@@ -285,3 +285,4 @@ html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_deta
   html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .btn-cart { width: 100% !important; min-width: 0; max-width: 100%; }
   html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .btn-cart > span { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
 }
+
