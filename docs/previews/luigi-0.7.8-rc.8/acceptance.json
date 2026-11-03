@@ -1,0 +1,81 @@
+{
+  "build": "0.7.8-rc.8",
+  "layoutIssues": [
+    {
+      "id": 1,
+      "status": "FIXED",
+      "evidence": [
+        "rc4-1440-typed.png",
+        "rc8-1440-typed.png",
+        "metrics-rc8.json"
+      ]
+    },
+    {
+      "id": 2,
+      "status": "FIXED",
+      "evidence": [
+        "rc4-1440-typed.png",
+        "rc8-1440-typed.png",
+        "metrics-rc8.json"
+      ]
+    },
+    {
+      "id": 3,
+      "status": "FIXED",
+      "evidence": [
+        "rc4-1440-typed.png",
+        "rc8-1440-typed.png",
+        "metrics-rc8.json"
+      ]
+    },
+    {
+      "id": 4,
+      "status": "FIXED",
+      "evidence": [
+        "rc4-1440-typed.png",
+        "rc8-1440-typed.png",
+        "metrics-rc8.json"
+      ]
+    },
+    {
+      "id": 5,
+      "status": "FIXED",
+      "evidence": [
+        "rc4-1440-typed.png",
+        "rc8-1440-typed.png",
+        "metrics-rc8.json"
+      ]
+    },
+    {
+      "id": 6,
+      "status": "FIXED",
+      "evidence": [
+        "rc4-1440-typed.png",
+        "rc8-1440-typed.png",
+        "metrics-rc8.json"
+      ]
+    },
+    {
+      "id": 7,
+      "status": "FIXED",
+      "evidence": [
+        "rc4-1440-empty.png",
+        "rc8-1440-empty.png",
+        "rc4-375-empty.png",
+        "rc8-375-empty.png"
+      ]
+    }
+  ],
+  "mobileClose": "original back navigation preserved; panel moved outside viewport",
+  "functional": "4 UI purchases, navigation, colors and rollback PASS",
+  "shortScreen": "scroll end and header/close hit tests PASS",
+  "unresolved": [
+    "Safari NOT TESTED",
+    "vendor server reporting NOT TESTED",
+    "existing integration data/template blockers unchanged",
+    "system page in popular articles BLOCKED — SUPPORT-ADDENDUM.md"
+  ],
+  "productionChanged": false,
+  "externalSettingsChanged": false,
+  "orderSubmitted": false
+}

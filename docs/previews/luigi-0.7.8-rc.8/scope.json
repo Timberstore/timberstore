@@ -1,0 +1,15 @@
+{
+  "nonAutocompleteCSS": "unchanged selectors and declarations after excluding #lbx-ac-element rules",
+  "sourceJavaScript": "no changes",
+  "productionLoader": "no changes",
+  "externalSettings": "no changes",
+  "existingPreviewRefs": "preserved",
+  "compiledJavaScriptVersionOnly": true,
+  "productionLoaderSHA256": "91cbbde8e1f0fa656376e2510365a20a5919e5c6d36eb4b45e19fd4ce528bd30",
+  "productionLoaderUnchanged": true,
+  "currentPreview": "197550549a296603eb6fc307bd9921966fde8a2d",
+  "priorPreviewRc5": "a0a6641a79fa57a1125120b2ce3787bb14734b45",
+  "rejectedPreviewRc4": "a4e7ebc70e0a98216b3bd9c76f9c4406adb29154",
+  "priorPreviewRc6": "b311c151eb7ce510814d6c04457cb7f086186042",
+  "priorPreviewRc7": "876f24df8118b6dda1b39017131bf3991aee47af"
+}
