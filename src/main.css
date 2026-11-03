@@ -64,3 +64,5 @@
 @import './styles/overrides/social-icons.css';
 
 @import './styles/overrides/luigi-preview.css';
+
+@import './styles/overrides/luigi-autocomplete.css';

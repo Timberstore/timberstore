@@ -1,6 +1,5 @@
 /* LB1 preview only: observed Luigi roots, 2026-11-02. Not imported by production.
    Keep vendor DOM, order and action/analytics handlers. */
-html.ts-luigi-preview #lbx-ac-element,
 html.ts-luigi-preview #lb-search-element {
   --ts-lb-space: 16px;
   --ts-lb-radius: 12px;
@@ -10,7 +9,6 @@ html.ts-luigi-preview #lb-search-element {
 }
 /* Remove vendor line clamps; important wrapping beats the native global rule
    so complete technical specifications remain visible in narrow vendor cards. */
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-name,
 html.ts-luigi-preview #lb-search-element .lb-product .name {
   display: block;
   -webkit-line-clamp: unset;
@@ -22,33 +20,9 @@ html.ts-luigi-preview #lb-search-element .lb-product .name {
   overflow-wrap: anywhere !important;
   line-height: 1.45;
 }
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-description,
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-text,
 html.ts-luigi-preview #lb-search-element .lb-product .p-in,
 html.ts-luigi-preview #lb-search-element .lb-product .p-in-in {
   min-width: 0;
-}
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-product {
-  border-bottom: 1px solid var(--ts-lb-border);
-}
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-name {
-  font-size: 14px;
-}
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-price {
-  color: var(--ts-lb-blue);
-}
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-button-buy,
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-action-heromobile,
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-button-heromobile {
-  background-color: var(--ts-lb-action);
-  border-radius: var(--ts-lb-radius);
-  min-height: 44px;
-}
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-action-heromobile {
-  min-width: 44px;
-}
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-other {
-  min-height: 44px;
 }
 html.ts-luigi-preview #lb-search-element .lb-product .p-code {
   color: var(--ts-lb-blue);
@@ -68,23 +42,9 @@ html.ts-luigi-preview #lb-search-element .lb-product .p-in-in {
 html.ts-luigi-preview #lb-search-element .lb-product .name {
   padding-bottom: var(--ts-lb-space);
 }
-html.ts-luigi-preview #lbx-ac-element :is(a, button, [role='button']):focus-visible,
 html.ts-luigi-preview #lb-search-element :is(a, button, select, input, [role='button']):focus-visible {
   outline: 3px solid var(--ts-lb-blue);
   outline-offset: 2px;
-}
-/* Compact the existing Top product without removing it or moving its nodes. */
-@media (min-width: 768px) {
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-image {
-    height: 120px;
-  }
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-image img {
-    max-height: 120px;
-    object-fit: contain;
-  }
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-description {
-    padding-top: 12px;
-  }
 }
 /* Existing production title cap is !important. This preview exception is
    necessary to undo that cap inside Luigi only; no global rule is changed. */
@@ -94,61 +54,18 @@ html.ts-luigi-preview #lb-search-element #lb-results .lb-product a.name {
   max-height: none !important;
   min-height: 0 !important;
 }
-/* Vendor theme uses important action backgrounds; retain brand orange rather
-   than the inherited dark theme. These are isolated preview exceptions. */
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-action-heromobile {
-  background: var(--ts-lb-action) !important;
-}
-@media (min-width: 768px) {
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-product {
-    width: 100%;
-    display: flex;
-    float: none;
-    min-height: 0;
-    height: auto;
-    gap: 12px;
-    align-items: flex-start;
-  }
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-image {
-    flex: 0 0 72px;
-  }
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-description {
-    flex: 1;
-  }
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-product {
-    height: auto;
-  }
-}
-@media (min-width: 768px) {
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-description {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-price,
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-heromobile-action-for-desktop {
-    position: static;
-    margin: 0;
-    width: auto;
-  }
-}
-
-/* LB1: use explicit vendor availability metadata, never rank numbers. */
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-attrs[content="Centrálny sklad"] .luigi-ac-attr { color: var(--ts-color-controls-active) !important; }
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-attrs[content="Skladom"] .luigi-ac-attr { color: var(--ts-color-success-primary) !important; }
-
 /* LB1: technical titles need one readable mobile column, not narrow tiles.
    Presentation only; native/vendor purchase contracts remain untouched. */
 html.ts-luigi-preview #lb-search-element .lb-results {
   align-items: stretch;
 }
 @media (max-width: 767px) {
-  /* Vendor forces flex; retain it and change only the mobile flow. */
-  html.ts-luigi-preview #lb-search-element .lb-results { flex-direction: column; }
-  /* Preview exception against vendor important tile widths. */
-  html.ts-luigi-preview #lb-search-element .lb-results .lb-product { width: 100% !important; }
-}
+/* Vendor forces flex; retain it and change only the mobile flow. */
+html.ts-luigi-preview #lb-search-element .lb-results { flex-direction: column; }
+/* Preview exception against vendor important tile widths. */
+html.ts-luigi-preview #lb-search-element .lb-results .lb-product { width: 100% !important; }
 
+}
 /* LB1 0.7.8-rc.0: observed recommendation roots; keep native/vendor buy nodes,
    carousel tracks, item order and all recommendation visibility unchanged. */
 html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) {
@@ -175,40 +92,6 @@ html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-el
    classification, quantity calculation or stock inference is performed.
    Important is required against vendor inline color; unknown values stay native. */
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .availability > span:is([style*="#2e7d32" i], [style*="rgb(46, 125, 50)"]) { color: var(--ts-color-success-primary) !important; }
-
-/* Owner screenshot corrections: regular flow reserves real space for show-all. */
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-button-block--show-all {
-  position: static;
-  inset: auto;
-  transform: none;
-  flex: 0 0 auto;
-  width: auto;
-  margin: 12px 16px;
-}
-@media (min-width: 1200px) {
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-results-content {
-    max-height: calc(100vh - 180px);
-    overflow-y: auto;
-    overscroll-behavior: contain;
-  }
-  html.ts-luigi-preview #lbx-ac-element :is(.luigi-ac-inner, .luigi-ac-products, .luigi-ac-first-main, .luigi-ac-rest-main) {
-    /* Vendor fixed column heights caused overflowing rows underneath the CTA. */
-    height: auto !important;
-    max-height: none;
-    align-self: stretch;
-  }
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-product { flex-shrink: 0; }
-}
-/* Native cart silhouette, same shared token and box as the original card.
-   Only the vendor decorative SVG is replaced; buy nodes/handlers stay intact. */
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-action-heromobile img { display: none; }
-html.ts-luigi-preview #lbx-ac-element :is(.luigi-ac-button-buy, .luigi-ac-rest-main .luigi-ac-action-heromobile) {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-html.ts-luigi-preview #lbx-ac-element :is(.luigi-ac-button-buy, .luigi-ac-action-heromobile)::after,
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .btn-cart::after {
   content: '';
   display: inline-block;
@@ -236,20 +119,7 @@ html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_deta
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .prices { grid-column: 2; grid-row: 1; align-items: flex-end; }
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .p-tools { grid-column: 1; grid-row: 1; margin: 0; max-width: none !important; width: auto !important; }
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .product-btn { position: static !important; grid-column: 1 / -1; grid-row: 2; width: 100%; margin-top: 0 !important; }
-
-
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .btn-cart { min-height: 38px; height: 38px; padding: 8px 12px; }
-
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-description {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 44px;
-  gap: 8px;
-  padding-right: 0;
-}
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-text { grid-column: 1 / -1; }
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-price { position: static; grid-column: 1; grid-row: 2; align-self: center; }
-html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-action-heromobile { position: static; grid-column: 2; grid-row: 2; align-self: center; }
-
 /* Native TOP reference: 19px/1.3 desktop title, 14px/1.25 mobile title,
    228px image area. Important beats configured vendor title/image rules. */
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .lb-recommender-wrapper .products .lb-product .p .p-in .p-in-in :is(a.name, a.name span) { text-align: center !important; font-size: var(--ts-lb-card-title); line-height: 1.3; }
@@ -257,37 +127,32 @@ html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_deta
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p a.image img { width: 100%; height: 100% !important; max-height: 228px !important; object-fit: contain; }
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .availability { font-size: var(--ts-lb-stock-font); font-weight: 700; line-height: 1.4; }
 @media (max-width: 767px) {
-  html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .lb-recommender-wrapper .products .lb-product .p .p-in .p-in-in :is(a.name, a.name span) { font-size: var(--ts-lb-card-title-mobile); line-height: 1.25; }
-}
+html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .lb-recommender-wrapper .products .lb-product .p .p-in .p-in-in :is(a.name, a.name span) { font-size: var(--ts-lb-card-title-mobile); line-height: 1.25; }
 
+}
 /* Stretch actual result cards, including subsequent rows with unequal names.
    Vendor height:100% resolves to content height in an auto-sized flex row. */
 html.ts-luigi-preview #lb-search-element .lb-results .lb-product { display: flex; height: auto !important; }
 html.ts-luigi-preview #lb-search-element .lb-results .lb-product > .p { flex: 1; height: auto !important; }
 html.ts-luigi-preview #lb-search-element .lb-product .p :is(a.name, a.name span) { font-size: var(--ts-lb-card-title); line-height: 1.3; text-align: center !important; }
 @media (max-width: 767px) {
-  html.ts-luigi-preview #lb-search-element .lb-product .p :is(a.name, a.name span) { font-size: var(--ts-lb-card-title-mobile); line-height: 1.25; }
-}
+html.ts-luigi-preview #lb-search-element .lb-product .p :is(a.name, a.name span) { font-size: var(--ts-lb-card-title-mobile); line-height: 1.25; }
 
+}
 /* The flow CTA no longer needs the vendor's absolute-button bottom reserve. */
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product > .p { padding-bottom: 16px !important; }
 html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .availability span { font-size: inherit; line-height: inherit; }
-
 /* Narrow recommendation rails retain vendor slide widths/handlers. Use the
    native compact price sizes, a readable stacked offer and accessible icon CTA. */
 @media (max-width: 767px) {
-  html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p a.image { height: auto !important; aspect-ratio: 4 / 3; max-height: 228px; }
-  html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p a.image img { height: auto !important; }
-  html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .p-bottom > [data-micro-price] { grid-template-columns: minmax(0, 1fr); }
-  html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .prices { grid-area: 1 / 1; align-items: center !important; }
-  html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .p-tools { grid-area: 2 / 1; }
-  html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .product-btn { grid-area: 3 / 1; }
-  html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .price-final strong { font-size: var(--ts-lb-card-title-mobile); }
-  html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .btn-cart { width: 100% !important; min-width: 0; max-width: 100%; }
-  html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .btn-cart > span { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
-}
+html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p a.image { height: auto !important; aspect-ratio: 4 / 3; max-height: 228px; }
+html.ts-luigi-preview :is(#lb-search-element, #lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p a.image img { height: auto !important; }
+html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .p-bottom > [data-micro-price] { grid-template-columns: minmax(0, 1fr); }
+html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .prices { grid-area: 1 / 1; align-items: center !important; }
+html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .p-tools { grid-area: 2 / 1; }
+html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .product-btn { grid-area: 3 / 1; }
+html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .price-final strong { font-size: var(--ts-lb-card-title-mobile); }
+html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .btn-cart { width: 100% !important; min-width: 0; max-width: 100%; }
+html.ts-luigi-preview :is(#lb-recommend-element-product_detail, #lb-recommend-element-basket, #lb-recommend-element-basket_popup) .products .lb-product .p .btn-cart > span { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
 
-/* Keep the desktop close hit-area outside the scrollable product column. */
-@media (min-width: 1200px) {
-  html.ts-luigi-preview #lbx-ac-element .luigi-ac-close { right: -44px; top: 0; width: 44px; height: 44px; background-color: var(--ts-color-bg); }
 }

@@ -1,5 +1,32 @@
 /* Design tokens — the only place for colours, spacing and breakpoints. */
 :root {
+  /* LB1 compact autocomplete: original vendor panel measured at 1440px. */
+  --ts-lb-ac-panel-height: 535px;
+  --ts-lb-ac-viewport-gap: 180px;
+  --ts-lb-ac-sidebar: 22%;
+  --ts-lb-ac-top-share: 32%;
+  --ts-lb-ac-top-image: 160px;
+  --ts-lb-ac-row-image: 52px;
+  --ts-lb-ac-row-image-height: 60px;
+  --ts-lb-ac-action: 32px;
+  --ts-lb-ac-mobile-action: 40px;
+  --ts-lb-ac-footer: 36px;
+  --ts-lb-ac-buy-height: 38px;
+  --ts-lb-ac-cart-glyph: 18px;
+  --ts-lb-ac-price-size: 20px;
+  --ts-lb-ac-chip-height: 30px;
+  --ts-lb-ac-name-size: 13px;
+  --ts-lb-ac-top-name-size: 14px;
+  --ts-lb-ac-credit-size: 11px;
+  --ts-lb-ac-pad: 12px;
+  --ts-lb-ac-gap: 10px;
+  --ts-lb-ac-row-pad: 6px;
+  --ts-lb-ac-focus-width: 3px;
+  --ts-lb-ac-control-radius: 20px;
+  --ts-lb-ac-heading-line: 20px;
+  --ts-lb-ac-ribbon: 6px;
+  --ts-lb-ac-chip-gap: 3px;
+  --ts-lb-ac-chip-radius: 16px;
   --ts-lb-stock-font: 12px;
   --ts-lb-card-title: 19px; /* Verified native TOP card, desktop. */
   --ts-lb-card-title-mobile: 14px; /* Verified native TOP card, mobile. */
