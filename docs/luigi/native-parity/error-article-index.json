@@ -1,0 +1,15 @@
+{
+  "observedDate": "2026-11-03",
+  "query": "Stránka nenájdená",
+  "type": "article",
+  "identity": "/stranka-nenajdena/",
+  "attributes": {
+    "boosted_via": [],
+    "bool_tags": [],
+    "title": "Stránka nenájdená",
+    "original_url": "https://www.timberstore.sk/stranka-nenajdena/",
+    "boost": 0,
+    "title_common": "Stránka nenájdená"
+  },
+  "sourceIngestionOrigin": "BLOCKED: requires vendor index/source export"
+}

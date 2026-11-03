@@ -1,5 +1,12 @@
 # v0.7.5 – approved product downloads and sidebar contacts (2026-11-01)
 
+## Unreleased — LB1 native purchase parity (2026-11-03)
+
+- Rc.8 remains rejected. Added a documented Search API boundary, customer facet/sort allowlist, URL-state preservation and purchase-data preflight, without connecting it to the storefront bundle.
+- Established supported template / ResultsRenderer / headless alternatives, a concrete supplier data contract, full PASS/FAIL/BLOCKED matrix and an unsent final support request. No new cosmetic preview or purchase controls.
+- Captured the same native/Luigi SKU553488 at1440/375 and focused filter-history/layout evidence. Confirmed the error article is indexed and its source returns200 withindex,follow; removal/source changes remain pending approval.
+- Productionv0.7.7, loader, compiled assets and external settings unchanged. No merge, release tag, order or production deployment.
+
 ## 0.7.6 — Kontakty, nadpisy a oranžové sociálne ikony (2026-11-01)
 
 - Stabilné vydanie schváleného rc.4: responzívne kontakty so spoločnými hodinami, pôvodným formulárom a potvrdeným DIČ; sémantické nadpisy a úvodný H1; N/A → Timber Store v zobrazení; rovnaké oranžové sociálne SVG bez pozadia/rámika všade na PC/mobile.

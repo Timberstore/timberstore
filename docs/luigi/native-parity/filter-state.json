@@ -1,0 +1,212 @@
+[
+  {
+    "width": 1440,
+    "states": [
+      {
+        "name": "initial",
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450",
+        "checked": [],
+        "productCount": 24,
+        "sort": "",
+        "facetNames": [
+          "Cena",
+          "Štítky",
+          "Kategórie",
+          "Výrobca",
+          "Farby"
+        ]
+      },
+      {
+        "name": "stock",
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "productCount": 14,
+        "sort": "",
+        "facetNames": [
+          " Použité filtre ",
+          "Cena",
+          "Štítky",
+          "Kategórie",
+          "Výrobca",
+          "Farby",
+          " Použité filtre "
+        ]
+      },
+      {
+        "name": "after-sort",
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.sort=price_eur_amount%3Aasc",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "productCount": 14,
+        "sort": "price_eur_amount:asc",
+        "facetNames": [
+          " Použité filtre ",
+          "Cena",
+          "Štítky",
+          "Kategórie",
+          "Výrobca",
+          "Farby",
+          " Použité filtre "
+        ]
+      },
+      {
+        "name": "after-reload",
+        "url": "https://www.timberstore.sk/vyhladavanie/?lb.f%5B%5D=flags%3ASkladom&lb.sort=price_eur_amount%3Aasc&string=BLUM%20450",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "productCount": 14,
+        "sort": "price_eur_amount:asc",
+        "facetNames": [
+          " Použité filtre ",
+          "Cena",
+          "Štítky",
+          "Kategórie",
+          "Výrobca",
+          "Farby",
+          " Použité filtre "
+        ]
+      },
+      {
+        "name": "after-back",
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.sort=price_eur_amount%3Aasc",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "productCount": 14,
+        "sort": "price_eur_amount:asc",
+        "facetNames": [
+          " Použité filtre ",
+          "Cena",
+          "Štítky",
+          "Kategórie",
+          "Výrobca",
+          "Farby",
+          " Použité filtre "
+        ]
+      }
+    ],
+    "collapse": {
+      "before": {
+        "h": 143,
+        "display": "block"
+      },
+      "after": {
+        "h": 0,
+        "display": "none"
+      },
+      "restored": {
+        "h": 143,
+        "display": "block"
+      }
+    }
+  },
+  {
+    "width": 375,
+    "states": [
+      {
+        "name": "initial",
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450",
+        "checked": [],
+        "productCount": 24,
+        "sort": "",
+        "facetNames": [
+          "Cena",
+          "Štítky",
+          "Kategórie",
+          "Výrobca",
+          "Farby"
+        ]
+      },
+      {
+        "name": "stock",
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "productCount": 14,
+        "sort": "",
+        "facetNames": [
+          " Použité filtre ",
+          "Cena",
+          "Štítky",
+          "Kategórie",
+          "Výrobca",
+          "Farby",
+          "Použité filtre"
+        ]
+      },
+      {
+        "name": "after-sort",
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.sort=price_eur_amount%3Aasc",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "productCount": 14,
+        "sort": "price_eur_amount:asc",
+        "facetNames": [
+          " Použité filtre ",
+          " Cena ",
+          " Štítky (4)",
+          " Kategórie (1)",
+          " Výrobca (1)",
+          " Farby (3)",
+          " Použité filtre "
+        ]
+      },
+      {
+        "name": "after-reload",
+        "url": "https://www.timberstore.sk/vyhladavanie/?lb.f%5B%5D=flags%3ASkladom&lb.sort=price_eur_amount%3Aasc&string=BLUM%20450",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "productCount": 14,
+        "sort": "price_eur_amount:asc",
+        "facetNames": [
+          " Použité filtre ",
+          " Cena ",
+          " Štítky (4)",
+          " Kategórie (1)",
+          " Výrobca (1)",
+          " Farby (3)",
+          " Použité filtre "
+        ]
+      },
+      {
+        "name": "after-back",
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.sort=price_eur_amount%3Aasc",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "productCount": 14,
+        "sort": "price_eur_amount:asc",
+        "facetNames": [
+          " Použité filtre ",
+          " Cena ",
+          " Štítky (4)",
+          " Kategórie (1)",
+          " Výrobca (1)",
+          " Farby (3)",
+          " Použité filtre "
+        ]
+      }
+    ],
+    "collapse": {
+      "before": {
+        "h": 135,
+        "display": "block"
+      },
+      "after": {
+        "h": 0,
+        "display": "none"
+      },
+      "restored": {
+        "h": 135,
+        "display": "block"
+      }
+    }
+  }
+]
