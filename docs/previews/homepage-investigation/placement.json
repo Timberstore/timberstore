@@ -1,0 +1,26 @@
+{
+  "ancestors": [
+    {
+      "tag": "DIV",
+      "id": "lb-recommend-element-homepage_personalized",
+      "class": "",
+      "previous": "benefitBanner position--benefitHomepage",
+      "parent": ".container"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "container",
+      "parent": ".content-wrapper banners-top-block js-banners-top-block"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "class": "content-wrapper banners-top-block js-banners-top-block",
+      "previous": "content-wrapper banners-benefits-block js-banners-benefits-block",
+      "parent": ".overall-wrapper"
+    }
+  ],
+  "benefit": "<div class=\"benefitBanner position--benefitHomepage\">\n                                    <div class=\"benefitBanner__item\"><div class=\"benefitBanner__picture\"><img src=\"https://cdn.myshoptet.com/usr/w",
+  "categories": 12
+}

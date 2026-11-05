@@ -1,0 +1,489 @@
+{
+  "hash": "1975505",
+  "browser": "151.0.7922.173",
+  "orderSubmitted": false,
+  "checks": [
+    {
+      "width": 1440,
+      "kind": "top",
+      "version": "v0.7.8-rc.8",
+      "card": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX\nCentrálny sklad\n0,09 €\nDO KOŠÍKA",
+      "productPath": "/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+      "native": {
+        "sku": "237597",
+        "quantity": "100",
+        "min": "100",
+        "step": "100",
+        "prices": [
+          "0,09 €\n/ ks",
+          "0,07 €"
+        ]
+      },
+      "cartEvents": 1,
+      "analytics": [
+        {
+          "action": "Do košíka",
+          "resource": "https://www.timberstore.sk/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+          "consent": true
+        }
+      ],
+      "posts": [
+        "/action/Cart/addCartItem/"
+      ],
+      "cart": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+        "amounts": [
+          "100"
+        ]
+      },
+      "priceCheck": {
+        "nativeGrossWithUnit": "0,09 € / ks",
+        "expectedTotal": 9,
+        "cartTotal": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "kind": "top",
+      "version": "v0.7.8-rc.8",
+      "card": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX\nCentrálny sklad\n0,09 €",
+      "productPath": "/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+      "native": {
+        "sku": "237597",
+        "quantity": "100",
+        "min": "100",
+        "step": "100",
+        "prices": [
+          "0,09 €\n/ ks",
+          "0,07 €"
+        ]
+      },
+      "cartEvents": 1,
+      "analytics": [
+        {
+          "action": "Do košíka",
+          "resource": "https://www.timberstore.sk/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+          "consent": true
+        }
+      ],
+      "posts": [
+        "/action/Cart/addCartItem/"
+      ],
+      "cart": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+        "amounts": [
+          "100"
+        ]
+      },
+      "priceCheck": {
+        "nativeGrossWithUnit": "0,09 € / ks",
+        "expectedTotal": 9,
+        "cartTotal": 9
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "kind": "regular",
+      "version": "v0.7.8-rc.8",
+      "card": "KOMPLET\nK-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, sklo (komplet)\nCentrálny sklad\n118,08 €",
+      "productPath": "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+      "native": {
+        "sku": "255401",
+        "quantity": "1",
+        "min": "1",
+        "step": "1",
+        "prices": [
+          "118,08 €\n/ sada",
+          "96 €"
+        ]
+      },
+      "cartEvents": 1,
+      "analytics": [
+        {
+          "action": "Do košíka",
+          "resource": "https://www.timberstore.sk/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+          "consent": true
+        }
+      ],
+      "posts": [
+        "/action/Cart/addCartItem/"
+      ],
+      "cart": {
+        "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, sklo (komplet) Kód: 255401\nCENTRÁLNY SKLAD\n(8 sada)\nSÚVISIACI TOVAR: 1 (OD 0,02 €)\nMnožstvo\n+\n−\n118,08 € / sada\n118,08 €",
+        "amounts": [
+          "1"
+        ]
+      },
+      "priceCheck": {
+        "nativeGrossWithUnit": "118,08 € / sada",
+        "expectedTotal": 118.08,
+        "cartTotal": 118.08
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "kind": "regular",
+      "version": "v0.7.8-rc.8",
+      "card": "KOMPLET\nK-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, sklo (komplet)\nCentrálny sklad\n118,08 €",
+      "productPath": "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+      "native": {
+        "sku": "255401",
+        "quantity": "1",
+        "min": "1",
+        "step": "1",
+        "prices": [
+          "118,08 €\n/ sada",
+          "96 €"
+        ]
+      },
+      "cartEvents": 1,
+      "analytics": [
+        {
+          "action": "Do košíka",
+          "resource": "https://www.timberstore.sk/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+          "consent": true
+        }
+      ],
+      "posts": [
+        "/action/Cart/addCartItem/"
+      ],
+      "cart": {
+        "text": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, sklo (komplet) Kód: 255401\nCENTRÁLNY SKLAD\n(8 sada)\nSÚVISIACI TOVAR: 1 (OD 0,02 €)\nMnožstvo\n+\n−\n118,08 € / sada\n118,08 €",
+        "amounts": [
+          "1"
+        ]
+      },
+      "priceCheck": {
+        "nativeGrossWithUnit": "118,08 € / sada",
+        "expectedTotal": 118.08,
+        "cartTotal": 118.08
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "kind": "layout-and-navigation",
+      "geometry": {
+        "panel": {
+          "x": 232.5,
+          "y": 121,
+          "w": 960,
+          "h": 535,
+          "bottom": 656,
+          "right": 1192.5
+        },
+        "inner": {
+          "x": 232.5,
+          "y": 127,
+          "w": 960,
+          "h": 529,
+          "bottom": 656,
+          "right": 1192.5
+        },
+        "close": {
+          "x": 1148.5,
+          "y": 133,
+          "w": 32,
+          "h": 32,
+          "bottom": 165,
+          "right": 1180.5
+        },
+        "overflow": false,
+        "scroll": {
+          "inner": {
+            "client": 529,
+            "content": 529
+          },
+          "rest": {
+            "client": 528,
+            "content": 528
+          }
+        },
+        "chip": {
+          "background": "rgb(245, 240, 233)",
+          "radius": "16px"
+        },
+        "pricePositions": [
+          {
+            "x": 755.96875,
+            "y": 268.4375,
+            "w": 140.75,
+            "h": 25.390625,
+            "bottom": 293.828125,
+            "right": 896.71875
+          },
+          {
+            "x": 1002.71875,
+            "y": 268.4375,
+            "w": 140.765625,
+            "h": 25.390625,
+            "bottom": 293.828125,
+            "right": 1143.484375
+          },
+          {
+            "x": 755.96875,
+            "y": 404.578125,
+            "w": 140.75,
+            "h": 25.390625,
+            "bottom": 429.96875,
+            "right": 896.71875
+          },
+          {
+            "x": 1002.71875,
+            "y": 404.578125,
+            "w": 140.765625,
+            "h": 25.390625,
+            "bottom": 429.96875,
+            "right": 1143.484375
+          },
+          {
+            "x": 755.96875,
+            "y": 540.71875,
+            "w": 140.75,
+            "h": 25.390625,
+            "bottom": 566.109375,
+            "right": 896.71875
+          },
+          {
+            "x": 1002.71875,
+            "y": 540.71875,
+            "w": 140.765625,
+            "h": 25.390625,
+            "bottom": 566.109375,
+            "right": 1143.484375
+          }
+        ],
+        "actionPositions": [
+          {
+            "x": 900.71875,
+            "y": 265.140625,
+            "w": 32,
+            "h": 32,
+            "bottom": 297.140625,
+            "right": 932.71875
+          },
+          {
+            "x": 1147.484375,
+            "y": 265.140625,
+            "w": 32,
+            "h": 32,
+            "bottom": 297.140625,
+            "right": 1179.484375
+          },
+          {
+            "x": 900.71875,
+            "y": 401.28125,
+            "w": 32,
+            "h": 32,
+            "bottom": 433.28125,
+            "right": 932.71875
+          },
+          {
+            "x": 1147.484375,
+            "y": 401.28125,
+            "w": 32,
+            "h": 32,
+            "bottom": 433.28125,
+            "right": 1179.484375
+          },
+          {
+            "x": 900.71875,
+            "y": 537.421875,
+            "w": 32,
+            "h": 32,
+            "bottom": 569.421875,
+            "right": 932.71875
+          },
+          {
+            "x": 1147.484375,
+            "y": 537.421875,
+            "w": 32,
+            "h": 32,
+            "bottom": 569.421875,
+            "right": 1179.484375
+          }
+        ]
+      },
+      "showAll": {
+        "x": 695.96875,
+        "y": 575.421875,
+        "width": 483.515625,
+        "height": 46
+      },
+      "afterShowAll": {
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450",
+        "results": 24
+      },
+      "phraseHref": null,
+      "afterPhrase": {
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=blum%20450",
+        "query": "blum 450"
+      },
+      "closeHidden": true
+    },
+    {
+      "width": 375,
+      "kind": "layout-and-navigation",
+      "geometry": {
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 812,
+          "bottom": 812,
+          "right": 375
+        },
+        "inner": {
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 742.890625,
+          "bottom": 742.890625,
+          "right": 375
+        },
+        "close": {
+          "x": 17,
+          "y": 23,
+          "w": 22,
+          "h": 22,
+          "bottom": 45,
+          "right": 39
+        },
+        "overflow": false,
+        "scroll": {
+          "inner": {
+            "client": 743,
+            "content": 1092
+          },
+          "rest": {
+            "client": 803,
+            "content": 803
+          }
+        },
+        "chip": {
+          "background": "rgb(245, 240, 233)",
+          "radius": "16px"
+        },
+        "pricePositions": [
+          {
+            "x": 76,
+            "y": 371.8125,
+            "w": 239,
+            "h": 21,
+            "bottom": 392.8125,
+            "right": 315
+          },
+          {
+            "x": 76,
+            "y": 493.375,
+            "w": 239,
+            "h": 21,
+            "bottom": 514.375,
+            "right": 315
+          },
+          {
+            "x": 76,
+            "y": 614.9375,
+            "w": 239,
+            "h": 21,
+            "bottom": 635.9375,
+            "right": 315
+          },
+          {
+            "x": 76,
+            "y": 736.5,
+            "w": 239,
+            "h": 21,
+            "bottom": 757.5,
+            "right": 315
+          },
+          {
+            "x": 76,
+            "y": 858.0625,
+            "w": 239,
+            "h": 21,
+            "bottom": 879.0625,
+            "right": 315
+          },
+          {
+            "x": 76,
+            "y": 979.625,
+            "w": 239,
+            "h": 21,
+            "bottom": 1000.625,
+            "right": 315
+          }
+        ],
+        "actionPositions": [
+          {
+            "x": 319,
+            "y": 362.3125,
+            "w": 40,
+            "h": 40,
+            "bottom": 402.3125,
+            "right": 359
+          },
+          {
+            "x": 319,
+            "y": 483.875,
+            "w": 40,
+            "h": 40,
+            "bottom": 523.875,
+            "right": 359
+          },
+          {
+            "x": 319,
+            "y": 605.4375,
+            "w": 40,
+            "h": 40,
+            "bottom": 645.4375,
+            "right": 359
+          },
+          {
+            "x": 319,
+            "y": 727,
+            "w": 40,
+            "h": 40,
+            "bottom": 767,
+            "right": 359
+          },
+          {
+            "x": 319,
+            "y": 848.5625,
+            "w": 40,
+            "h": 40,
+            "bottom": 888.5625,
+            "right": 359
+          },
+          {
+            "x": 319,
+            "y": 970.125,
+            "w": 40,
+            "h": 40,
+            "bottom": 1010.125,
+            "right": 359
+          }
+        ]
+      },
+      "showAll": {
+        "x": 0,
+        "y": 669.125,
+        "width": 244.8125,
+        "height": 74
+      },
+      "afterShowAll": {
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450",
+        "results": 24
+      },
+      "phraseHref": null,
+      "afterPhrase": {
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=blum%20450",
+        "query": "blum 450"
+      },
+      "mobileBackOutsideViewport": true
+    }
+  ]
+}

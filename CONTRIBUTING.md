@@ -373,4 +373,26 @@ E-shop zůstává na Shoptetu. Na serveru běží **jen pomocné úlohy**: staho
 - **Měsíční souhrn slovensky** — lidsky psaný přehled z CHANGELOGu: co se změnilo, co to přináší, co má klient vyzkoušet. Slouží zároveň jako podklad k faktuře.
 - Stav jednotlivých úkolů klient vidí v Trellu.
 
+- **LB1 isolated Luigi preview `0.7.7-rc.0` (2. 11. 2026):** JS 36.25 KiB unchanged; CSS 32.75 KiB under the recorded 2026-10-15 preview allowance. Measured 36.18 / 32.72 KiB. Explicit preview guard only; stable v0.7.6 and its budgets unchanged. No production loader change.
+
+- **LB1 re-audit preview 0.7.7-rc.1 (2. 11. 2026):** inherits rc.0 budgets 36.25 / 32.75 KiB; measured 36.18 / 32.74 KiB. Mobile technical results use a readable single column. Functional parity remains subject to documented vendor integration blockers; not approved for production.
+
+- **LB1 0.7.7-rc.2:** retains rc.1 36.25 / 32.75 KiB limits, measured 36.18 / 32.74. Corrects vendor important column conflict found in rc.1 live review. Functional integration remains incomplete; no production approval.
+
+- **LB1 0.7.7-rc.3/rc.4:** same preview budgets 36.25 / 32.75 KiB; final rc.4 measured 36.18 / 32.75. Rc.4 retains vendor flex and adjusts mobile flow; earlier immutable candidates retained. No functional parity approval.
+
+- **LB1 homepage restoration candidate 0.7.7-rc.5 (2. 11. 2026):** retains rc.4 budgets 36.25 / 32.75 KiB; measured 36.18 / 32.75. Only explicit-preview home H1 creation is omitted; contacts/articles and production loader unchanged. External homepage recommendations require a separate approved vendor configuration change. Not a completed homepage restoration.
+
+- **LB1 0.7.7-rc.6:** same 36.25 / 32.75 KiB preview limits; removes unintended homepage heading creation rather than hiding/guarding it. Production v0.7.6 unchanged pending explicit deployment approval.
+
 - **Stable 0.7.7 (2. 11. 2026):** owner-authorized isolated removal of unintended homepage heading. Inherits 0.7.6 budgets JS36.25/CSS32.5 KiB; measured36.03/32.07. No experimental Luigi code promoted; live loader activation by owner. Rollback v0.7.6.
+
+- **LB1 0.7.8-rc.0:** new isolated preview after stable0.7.7; JS36.25KiB, CSS33.25KiB under recorded 2026-10-15 preview allowance. Measured36.08/32.92. Existing stable budgets unchanged. Recommendation presentation only; no new purchase/analytics handlers or external configuration publication.
+
+- **LB1 compact autocomplete preview `0.7.8-rc.5` (3. 11. 2026):** replaces rejected rc.4 autocomplete layout with the measured original 960 × 535 px desktop panel, three bounded columns and vendor 1020/1021 px mobile breakpoint. Presentation only; purchase/search handlers and other Luigi surfaces unchanged. JS36.25/CSS34.875 KiB preview allowance under recorded 2026-10-15 authorization; measured36.09/34.76 KiB. Stable v0.7.7 loader/budgets and all existing previews retained. No merge, release tag, admin publication or production deployment. Superseded during short-screen QA by rc.6; immutable preview retained.
+
+- **LB1 `0.7.8-rc.6` (3. 11. 2026):** retains rc.5 compact layout and budgets; show-all stays in normal grid flow so short-screen scrolling cannot cover the last card. Rc.5 remains immutable, unapproved. JS36.09/CSS34.76 KiB measured. Preview only, no changes to purchase logic, stable loader or external settings. Superseded during scroll-end screenshot review by rc.7; immutable preview retained.
+
+- **LB1 `0.7.8-rc.7` (3. 11. 2026):** removes the remaining sticky results header so vendor flags cannot overlap it at the scroll boundary. Keeps rc.6 normal-flow show-all footer, original compact desktop geometry and all vendor actions. Same preview budgets36.25/34.875 KiB. Production v0.7.7 and external settings unchanged. Superseded by rc.8 after reviewing the scrolled close-button region; immutable preview retained.
+
+- **LB1 `0.7.8-rc.8` (3. 11. 2026):** final compact autocomplete candidate. Each result creates an isolated stacking context; the opaque sticky header reserves the close region and covers scrolled product flags. Show-all remains in normal flow below the last result. Short-screen scroll-end screenshot visually reviewed before publishing this candidate. Same JS36.25/CSS34.875 KiB preview budgets; measured36.09/34.77 KiB. No action/analytics changes, production loader or external settings changes. Evidence: `docs/previews/luigi-0.7.8-rc.8/REPORT.md`.

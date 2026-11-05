@@ -1,0 +1,16 @@
+{
+  "build": "0.7.8-rc.4",
+  "commit": "a4e7ebc70e0a98216b3bd9c76f9c4406adb29154",
+  "nativeCartMaskIdenticalToStable": true,
+  "functionalSourceChangesSinceRejectedRc0": [
+    "src/core/selectors.js"
+  ],
+  "homepageWidgetIdsInPreviewCss": false,
+  "productionLoaderPinnedV077": true,
+  "existingRc1Retained": "1e82d9ed7e9aa17deee91cbaeefd0c32ef366ffc",
+  "rejectedRc0Retained": "3cef596",
+  "stableTagCommit": "f0bfec1128d82a5f48a749991a00ce11d33e4f04",
+  "functionalChange": "Exclude vendor cards from native enhancement; no new action handler or external API",
+  "existingRc2Retained": "2c27b0f7931ae51293e73b81a1d378466455a3a0",
+  "existingRc3Retained": "9b779c477497972f7fbe979b510203844ab612db"
+}

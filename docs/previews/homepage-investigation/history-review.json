@@ -1,0 +1,23 @@
+{
+  "scope": "Selected accessible chats only; not a complete service audit log",
+  "reviewed": [
+    {
+      "title": "List Mergado MCP tools",
+      "id": "01a1988a-0535-72b2-82fc-56385a29bc71",
+      "finding": "Recent turns concern product indexing/export and hidden category mapping; no reviewed evidence of homepage slot editing."
+    },
+    {
+      "title": "Overiť prácu v Mergade",
+      "id": "01a19b85-ce0f-74f0-9e0d-f63b9ea1088c",
+      "finding": "Latest accessible turn concerns Pilot V2 product text prompts/Contexts and product selection; no reviewed evidence of homepage slot editing."
+    },
+    {
+      "title": "Ideme pokracovat dalsimi udajmi TIMBERSTORE: Bude to dalsi…",
+      "id": "01a18c41-82c1-7045-94b7-1d850e069048",
+      "finding": "Release v0.7.6 history records deliberate removal of audit-preview guard and approved homepage H1; consistent with repo history."
+    }
+  ],
+  "mergadoLiveAuditLogAvailable": false,
+  "luigiAdminAuditLogAvailable": false,
+  "actorAndActivationDateOfRecommender": "UNKNOWN"
+}

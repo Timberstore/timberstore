@@ -1,0 +1,1342 @@
+[
+  {
+    "width": 1440,
+    "mode": "before",
+    "states": [
+      {
+        "name": "initial",
+        "checked": [],
+        "products": 24,
+        "availability": [
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (526)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+      },
+      {
+        "name": "entire-label-stock",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "products": 14,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (21)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom"
+      },
+      {
+        "name": "stock-white",
+        "checked": [
+          "Skladom (3)",
+          "Biela (3)"
+        ],
+        "products": 3,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (10)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=color%3ABiela"
+      },
+      {
+        "name": "stock-white-brand",
+        "checked": [
+          "Skladom (3)",
+          "BLUM (3)",
+          "Biela (3)"
+        ],
+        "products": 3,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (10)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=color%3ABiela&lb.f%5B%5D=brand%3ABLUM"
+      },
+      {
+        "name": "reset",
+        "checked": [],
+        "products": 24,
+        "availability": [
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (526)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+      }
+    ],
+    "labelGeometry": [
+      {
+        "label": "Centrálny sklad (507)",
+        "box": {
+          "x": 86.09375,
+          "y": 172.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 178.203125,
+          "w": 132.046875,
+          "h": 24
+        }
+      },
+      {
+        "label": "Komplet (411)",
+        "box": {
+          "x": 86.09375,
+          "y": 221.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 227.203125,
+          "w": 88.796875,
+          "h": 24
+        }
+      },
+      {
+        "label": "Novinka (16)",
+        "box": {
+          "x": 86.09375,
+          "y": 270.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 276.203125,
+          "w": 79.328125,
+          "h": 24
+        }
+      },
+      {
+        "label": "Skladom (14)",
+        "box": {
+          "x": 86.09375,
+          "y": 319.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 325.203125,
+          "w": 83.40625,
+          "h": 24
+        }
+      },
+      {
+        "label": "Nábytkové kovania (521)",
+        "box": {
+          "x": 86.09375,
+          "y": 452.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 458.203125,
+          "w": 153.84375,
+          "h": 24
+        }
+      },
+      {
+        "label": "BLUM (516)",
+        "box": {
+          "x": 86.09375,
+          "y": 564.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 570.203125,
+          "w": 73.890625,
+          "h": 24
+        }
+      },
+      {
+        "label": "GOLLINUCCI (3)",
+        "box": {
+          "x": 86.09375,
+          "y": 613.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 619.203125,
+          "w": 100.109375,
+          "h": 24
+        }
+      },
+      {
+        "label": "KESSEBÖHMER (2)",
+        "box": {
+          "x": 86.09375,
+          "y": 662.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 668.203125,
+          "w": 119.40625,
+          "h": 24
+        }
+      },
+      {
+        "label": "Sivá (240)",
+        "box": {
+          "x": 86.09375,
+          "y": 786.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 792.203125,
+          "w": 62.703125,
+          "h": 24
+        }
+      },
+      {
+        "label": "Biela (158)",
+        "box": {
+          "x": 86.09375,
+          "y": 835.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 841.203125,
+          "w": 67.25,
+          "h": 24
+        }
+      },
+      {
+        "label": "Čierna (57)",
+        "box": {
+          "x": 86.09375,
+          "y": 884.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 890.203125,
+          "w": 68.859375,
+          "h": 24
+        }
+      },
+      {
+        "label": "Strieborný (11)",
+        "box": {
+          "x": 86.09375,
+          "y": 933.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 939.203125,
+          "w": 92.203125,
+          "h": 24
+        }
+      },
+      {
+        "label": "Neuvedené (7)",
+        "box": {
+          "x": 86.09375,
+          "y": 982.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 111.09375,
+          "y": 988.203125,
+          "w": 90.671875,
+          "h": 24
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "mode": "after",
+    "states": [
+      {
+        "name": "initial",
+        "checked": [],
+        "products": 24,
+        "availability": [
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (526)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+      },
+      {
+        "name": "entire-label-stock",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "products": 14,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (21)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom"
+      },
+      {
+        "name": "stock-white",
+        "checked": [
+          "Skladom (3)",
+          "Biela (3)"
+        ],
+        "products": 3,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (10)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=color%3ABiela"
+      },
+      {
+        "name": "stock-white-brand",
+        "checked": [
+          "Skladom (3)",
+          "BLUM (3)",
+          "Biela (3)"
+        ],
+        "products": 3,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (10)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=color%3ABiela&lb.f%5B%5D=brand%3ABLUM"
+      },
+      {
+        "name": "reset",
+        "checked": [],
+        "products": 24,
+        "availability": [
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (526)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+      }
+    ],
+    "labelGeometry": [
+      {
+        "label": "Centrálny sklad (507)",
+        "box": {
+          "x": 111.09375,
+          "y": 182.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 180.40625,
+          "w": 132.046875,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Komplet (411)",
+        "box": {
+          "x": 111.09375,
+          "y": 231.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 229.40625,
+          "w": 88.796875,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Novinka (16)",
+        "box": {
+          "x": 111.09375,
+          "y": 280.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 278.40625,
+          "w": 79.328125,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Skladom (14)",
+        "box": {
+          "x": 111.09375,
+          "y": 329.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 327.40625,
+          "w": 83.40625,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Nábytkové kovania (521)",
+        "box": {
+          "x": 111.09375,
+          "y": 462.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 460.40625,
+          "w": 153.84375,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "BLUM (516)",
+        "box": {
+          "x": 111.09375,
+          "y": 574.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 572.40625,
+          "w": 73.890625,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "GOLLINUCCI (3)",
+        "box": {
+          "x": 111.09375,
+          "y": 623.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 621.40625,
+          "w": 100.109375,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "KESSEBÖHMER (2)",
+        "box": {
+          "x": 111.09375,
+          "y": 672.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 670.40625,
+          "w": 119.40625,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Sivá (240)",
+        "box": {
+          "x": 111.09375,
+          "y": 796.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 794.40625,
+          "w": 62.703125,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Biela (158)",
+        "box": {
+          "x": 111.09375,
+          "y": 845.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 843.40625,
+          "w": 67.25,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Čierna (57)",
+        "box": {
+          "x": 111.09375,
+          "y": 894.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 892.40625,
+          "w": 68.859375,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Strieborný (11)",
+        "box": {
+          "x": 111.09375,
+          "y": 943.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 941.40625,
+          "w": 92.203125,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Neuvedené (7)",
+        "box": {
+          "x": 111.09375,
+          "y": 992.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 139.09375,
+          "y": 990.40625,
+          "w": 90.671875,
+          "h": 19.59375
+        }
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "mode": "before",
+    "states": [
+      {
+        "name": "initial",
+        "checked": [],
+        "products": 24,
+        "availability": [
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (526)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+      },
+      {
+        "name": "entire-label-stock",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "products": 14,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (21)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom"
+      },
+      {
+        "name": "stock-white",
+        "checked": [
+          "Skladom (3)",
+          "Biela (3)"
+        ],
+        "products": 3,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (10)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=color%3ABiela"
+      },
+      {
+        "name": "stock-white-brand",
+        "checked": [
+          "Skladom (3)",
+          "BLUM (3)",
+          "Biela (3)"
+        ],
+        "products": 3,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (10)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=color%3ABiela&lb.f%5B%5D=brand%3ABLUM"
+      },
+      {
+        "name": "reset",
+        "checked": [],
+        "products": 24,
+        "availability": [
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (526)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+      }
+    ],
+    "labelGeometry": [
+      {
+        "label": "Centrálny sklad (507)",
+        "box": {
+          "x": 20,
+          "y": 342.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 348.203125,
+          "w": 132.046875,
+          "h": 24
+        }
+      },
+      {
+        "label": "Komplet (411)",
+        "box": {
+          "x": 17.600000381469727,
+          "y": 384.8031311035156,
+          "w": 20.80000114440918,
+          "h": 20.79998779296875
+        },
+        "text": {
+          "x": 45,
+          "y": 393.203125,
+          "w": 88.796875,
+          "h": 24
+        }
+      },
+      {
+        "label": "Novinka (16)",
+        "box": {
+          "x": 20,
+          "y": 432.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 438.203125,
+          "w": 79.328125,
+          "h": 24
+        }
+      },
+      {
+        "label": "Skladom (14)",
+        "box": {
+          "x": 20,
+          "y": 477.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 483.203125,
+          "w": 83.40625,
+          "h": 24
+        }
+      },
+      {
+        "label": "Nábytkové kovania (521)",
+        "box": {
+          "x": 20,
+          "y": 602.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 608.203125,
+          "w": 153.84375,
+          "h": 24
+        }
+      },
+      {
+        "label": "BLUM (516)",
+        "box": {
+          "x": 20,
+          "y": 710.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 716.203125,
+          "w": 73.890625,
+          "h": 24
+        }
+      },
+      {
+        "label": "GOLLINUCCI (3)",
+        "box": {
+          "x": 20,
+          "y": 755.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 761.203125,
+          "w": 100.109375,
+          "h": 24
+        }
+      },
+      {
+        "label": "KESSEBÖHMER (2)",
+        "box": {
+          "x": 20,
+          "y": 800.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 806.203125,
+          "w": 119.40625,
+          "h": 24
+        }
+      },
+      {
+        "label": "Sivá (240)",
+        "box": {
+          "x": 20,
+          "y": 920.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 926.203125,
+          "w": 62.703125,
+          "h": 24
+        }
+      },
+      {
+        "label": "Biela (158)",
+        "box": {
+          "x": 20,
+          "y": 965.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 971.203125,
+          "w": 67.25,
+          "h": 24
+        }
+      },
+      {
+        "label": "Čierna (57)",
+        "box": {
+          "x": 20,
+          "y": 1010.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 1016.203125,
+          "w": 68.859375,
+          "h": 24
+        }
+      },
+      {
+        "label": "Strieborný (11)",
+        "box": {
+          "x": 20,
+          "y": 1055.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 1061.203125,
+          "w": 92.203125,
+          "h": 24
+        }
+      },
+      {
+        "label": "Neuvedené (7)",
+        "box": {
+          "x": 20,
+          "y": 1100.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 45,
+          "y": 1106.203125,
+          "w": 90.671875,
+          "h": 24
+        }
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "mode": "after",
+    "states": [
+      {
+        "name": "initial",
+        "checked": [],
+        "products": 24,
+        "availability": [
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (526)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+      },
+      {
+        "name": "entire-label-stock",
+        "checked": [
+          "Skladom (14)"
+        ],
+        "products": 14,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (21)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom"
+      },
+      {
+        "name": "stock-white",
+        "checked": [
+          "Skladom (3)",
+          "Biela (3)"
+        ],
+        "products": 3,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (10)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=color%3ABiela"
+      },
+      {
+        "name": "stock-white-brand",
+        "checked": [
+          "Skladom (3)",
+          "BLUM (3)",
+          "Biela (3)"
+        ],
+        "products": 3,
+        "availability": [
+          "SKLADOM",
+          "SKLADOM",
+          "SKLADOM"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (10)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450&lb.f%5B%5D=flags%3ASkladom&lb.f%5B%5D=color%3ABiela&lb.f%5B%5D=brand%3ABLUM"
+      },
+      {
+        "name": "reset",
+        "checked": [],
+        "products": 24,
+        "availability": [
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD",
+          "CENTRÁLNY SKLAD"
+        ],
+        "header": [
+          "Výsledky pre BLUM 450 (526)"
+        ],
+        "url": "https://www.timberstore.sk/vyhladavanie/?string=BLUM%20450"
+      }
+    ],
+    "labelGeometry": [
+      {
+        "label": "Centrálny sklad (507)",
+        "box": {
+          "x": 45,
+          "y": 352.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 350.40625,
+          "w": 132.046875,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Komplet (411)",
+        "box": {
+          "x": 45,
+          "y": 397.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 395.40625,
+          "w": 88.796875,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Novinka (16)",
+        "box": {
+          "x": 45,
+          "y": 442.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 440.40625,
+          "w": 79.328125,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Skladom (14)",
+        "box": {
+          "x": 45,
+          "y": 487.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 485.40625,
+          "w": 83.40625,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Nábytkové kovania (521)",
+        "box": {
+          "x": 45,
+          "y": 612.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 610.40625,
+          "w": 153.84375,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "BLUM (516)",
+        "box": {
+          "x": 45,
+          "y": 720.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 718.40625,
+          "w": 73.890625,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "GOLLINUCCI (3)",
+        "box": {
+          "x": 45,
+          "y": 765.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 763.40625,
+          "w": 100.109375,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "KESSEBÖHMER (2)",
+        "box": {
+          "x": 45,
+          "y": 810.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 808.40625,
+          "w": 119.40625,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Sivá (240)",
+        "box": {
+          "x": 45,
+          "y": 930.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 928.40625,
+          "w": 62.703125,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Biela (158)",
+        "box": {
+          "x": 45,
+          "y": 975.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 973.40625,
+          "w": 67.25,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Čierna (57)",
+        "box": {
+          "x": 45,
+          "y": 1020.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 1018.40625,
+          "w": 68.859375,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Strieborný (11)",
+        "box": {
+          "x": 45,
+          "y": 1065.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 1063.40625,
+          "w": 92.203125,
+          "h": 19.59375
+        }
+      },
+      {
+        "label": "Neuvedené (7)",
+        "box": {
+          "x": 45,
+          "y": 1110.203125,
+          "w": 16,
+          "h": 16
+        },
+        "text": {
+          "x": 73,
+          "y": 1108.40625,
+          "w": 90.671875,
+          "h": 19.59375
+        }
+      }
+    ]
+  }
+]

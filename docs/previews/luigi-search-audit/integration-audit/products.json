@@ -1,0 +1,662 @@
+[
+  {
+    "query": "306317",
+    "hits": [
+      {
+        "url": "/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/",
+        "attributes": {
+          "availability_rank_color": [
+            "#C97A2B"
+          ],
+          "discount_price_min_ratio_proportion_amount": 0,
+          "price": "4.11 €",
+          "price_eur_as_received": "4.11 €",
+          "price_as_received": "4.11 €",
+          "price_amount": 4.11,
+          "discount_price_eur_absolute_amount": 0,
+          "availability_in_stock": [
+            "Centrálny sklad"
+          ],
+          "availability": 1,
+          "minimum_amount": [
+            1
+          ],
+          "currency_code": [
+            "EUR"
+          ],
+          "price_as_received_amount": 4.11,
+          "discount_price_eur_as_received_percentage_amount": 0,
+          "discount_price_absolute_amount": 0,
+          "price_min_ratio_amount": 0,
+          "availability_dolny_hricov": [
+            0
+          ],
+          "price_eur_as_received_amount": 4.11,
+          "discount_price_min_ratio_absolute_amount": 0,
+          "availability_rank_text": [
+            "Centrálny sklad"
+          ],
+          "discount_price_as_received_proportion_amount": 0,
+          "availability_stock_quantity": [
+            4648
+          ],
+          "price_eur": "4.11 €",
+          "discount_price_eur_proportion_amount": 0,
+          "unit": [
+            "ks"
+          ],
+          "discount_price_percentage_amount": 0,
+          "flags_codes": [
+            {
+              "show_in_search": false,
+              "code": "centralny-sklad",
+              "color": "#5c5757",
+              "title": "Centrálny sklad",
+              "show_in_detail": false
+            },
+            {
+              "show_in_search": true,
+              "code": "new",
+              "color": "#a98484",
+              "title": "Novinka",
+              "show_in_detail": true
+            }
+          ],
+          "discount_price_as_received_absolute_amount": 0,
+          "code": [
+            "306317"
+          ],
+          "price_min_ratio": 0,
+          "discount_price_min_ratio_percentage_amount": 0,
+          "title": "BLUM 71B3550 záves,naložený,Blumotion,skrutka,110°,Onyx",
+          "availability_centralny_sklad_": [
+            1
+          ],
+          "discount_price_eur_as_received_absolute_amount": 0,
+          "discount_price_proportion_amount": 0,
+          "price_eur_amount": 4.11,
+          "availability_timber_sklad": [
+            0
+          ],
+          "discount_price_as_received_percentage_amount": 0,
+          "discount_price_eur_percentage_amount": 0,
+          "discount_price_eur_as_received_proportion_amount": 0,
+          "availability_rank": 4,
+          "title_common": "BLUM 71B3550 záves,naložený,Blumotion,skrutka,110°,Onyx",
+          "color_code": [
+            "#c97a2b"
+          ]
+        }
+      }
+    ],
+    "luigi": [
+      {
+        "text": "NOVINKA\nBLUM 71B3550 záves, naložený, Blumotion, skrutka,110°, Onyx\n4,11 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306317",
+        "forms": 0,
+        "amounts": 0,
+        "link": "/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/"
+      }
+    ],
+    "detail": {
+      "title": "BLUM 71B3550 záves, naložený, Blumotion, skrutka,110°, Onyx",
+      "inputs": [
+        {
+          "name": "productId",
+          "value": "421668",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "priceId",
+          "value": "421725",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "language",
+          "value": "sk",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "amount",
+          "value": "1",
+          "min": "1",
+          "max": "9999",
+          "step": "1",
+          "type": "number"
+        }
+      ],
+      "prices": [
+        "CENTRÁLNY SKLAD (>100 KS)",
+        "4,11 €\n/ ks",
+        "3,34 €",
+        "0,48 € bez DPH",
+        "0,59 €\n/ ks",
+        "0,57 € bez DPH",
+        "0,70 €\n/ ks",
+        "0,15 € bez DPH",
+        "0,18 €\n/ ks",
+        "0,22 € bez DPH",
+        "0,27 €\n/ ks",
+        "0,03 € bez DPH",
+        "0,04 €\n/ ks",
+        "0,73 € bez DPH",
+        "0,90 €\n/ ks",
+        "3,13 € bez DPH",
+        "3,85 €\n/ ks"
+      ],
+      "variantLinks": []
+    }
+  },
+  {
+    "query": "237597",
+    "hits": [
+      {
+        "url": "/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+        "attributes": {
+          "availability_rank_color": [
+            "#C97A2B"
+          ],
+          "discount_price_min_ratio_proportion_amount": 0,
+          "price": "0.09 €",
+          "price_eur_as_received": "0.09 €",
+          "price_as_received": "0.09 €",
+          "price_amount": 0.09,
+          "discount_price_eur_absolute_amount": 0,
+          "availability_in_stock": [
+            "Centrálny sklad"
+          ],
+          "availability": 1,
+          "minimum_amount": [
+            100
+          ],
+          "currency_code": [
+            "EUR"
+          ],
+          "price_as_received_amount": 0.09,
+          "discount_price_eur_as_received_percentage_amount": 0,
+          "discount_price_absolute_amount": 0,
+          "price_min_ratio_amount": 0,
+          "availability_dolny_hricov": [
+            0
+          ],
+          "price_eur_as_received_amount": 0.09,
+          "discount_price_min_ratio_absolute_amount": 0,
+          "availability_rank_text": [
+            "Centrálny sklad"
+          ],
+          "discount_price_as_received_proportion_amount": 0,
+          "availability_stock_quantity": [
+            4000
+          ],
+          "price_eur": "0.09 €",
+          "discount_price_eur_proportion_amount": 0,
+          "unit": [
+            "ks"
+          ],
+          "discount_price_percentage_amount": 0,
+          "flags_codes": [
+            {
+              "show_in_search": false,
+              "code": "centralny-sklad",
+              "color": "#5c5757",
+              "title": "Centrálny sklad",
+              "show_in_detail": false
+            }
+          ],
+          "discount_price_as_received_absolute_amount": 0,
+          "code": [
+            "237597"
+          ],
+          "price_min_ratio": 0,
+          "discount_price_min_ratio_percentage_amount": 0,
+          "title": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX",
+          "availability_centralny_sklad_": [
+            1
+          ],
+          "discount_price_eur_as_received_absolute_amount": 0,
+          "discount_price_proportion_amount": 0,
+          "price_eur_amount": 0.09,
+          "availability_timber_sklad": [
+            0
+          ],
+          "discount_price_as_received_percentage_amount": 0,
+          "discount_price_eur_percentage_amount": 0,
+          "discount_price_eur_as_received_proportion_amount": 0,
+          "availability_rank": 4,
+          "title_common": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX",
+          "color_code": [
+            "#c97a2b"
+          ]
+        }
+      }
+    ],
+    "luigi": [
+      {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX\nCentrálny sklad\n0,09 €\n/ ks\nDo košíka\nKÓD: 237597",
+        "forms": 0,
+        "amounts": 0,
+        "link": "/blum-61d-1500-skrutka-4x15-pro-legrabox/"
+      }
+    ],
+    "detail": {
+      "title": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX",
+      "inputs": [
+        {
+          "name": "productId",
+          "value": "353027",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "priceId",
+          "value": "353411",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "language",
+          "value": "sk",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "amount",
+          "value": "100",
+          "min": "100",
+          "max": "9999",
+          "step": "1",
+          "type": "number"
+        }
+      ],
+      "prices": [
+        "CENTRÁLNY SKLAD (>100 KS)",
+        "0,09 €\n/ ks",
+        "0,07 €",
+        "0,47 € bez DPH",
+        "0,58 €",
+        "0,02 € bez DPH",
+        "0,02 €",
+        "0,04 € bez DPH",
+        "0,05 €"
+      ],
+      "variantLinks": []
+    }
+  },
+  {
+    "query": "344255",
+    "hits": [
+      {
+        "url": "/kolik-spojovaci-dreveny-kalibrovany-breza-8x35mm-s-lepidlom--8650-ks/",
+        "attributes": {
+          "availability_rank_color": [
+            "#C97A2B"
+          ],
+          "discount_price_min_ratio_proportion_amount": 0,
+          "price": "186.49 €",
+          "price_eur_as_received": "186.49 €",
+          "price_as_received": "186.49 €",
+          "price_amount": 186.49,
+          "discount_price_eur_absolute_amount": 0,
+          "availability_in_stock": [
+            "Centrálny sklad"
+          ],
+          "availability": 1,
+          "minimum_amount": [
+            1
+          ],
+          "currency_code": [
+            "EUR"
+          ],
+          "price_as_received_amount": 186.49,
+          "discount_price_eur_as_received_percentage_amount": 0,
+          "discount_price_absolute_amount": 0,
+          "price_min_ratio_amount": 0,
+          "availability_dolny_hricov": [
+            0
+          ],
+          "price_eur_as_received_amount": 186.49,
+          "discount_price_min_ratio_absolute_amount": 0,
+          "availability_rank_text": [
+            "Centrálny sklad"
+          ],
+          "discount_price_as_received_proportion_amount": 0,
+          "availability_stock_quantity": [
+            119
+          ],
+          "price_eur": "186.49 €",
+          "discount_price_eur_proportion_amount": 0,
+          "unit": [
+            "balenie"
+          ],
+          "discount_price_percentage_amount": 0,
+          "flags_codes": [
+            {
+              "show_in_search": false,
+              "code": "centralny-sklad",
+              "color": "#5c5757",
+              "title": "Centrálny sklad",
+              "show_in_detail": false
+            }
+          ],
+          "discount_price_as_received_absolute_amount": 0,
+          "code": [
+            "344255"
+          ],
+          "price_min_ratio": 0,
+          "discount_price_min_ratio_percentage_amount": 0,
+          "title": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks)",
+          "availability_centralny_sklad_": [
+            1
+          ],
+          "discount_price_eur_as_received_absolute_amount": 0,
+          "discount_price_proportion_amount": 0,
+          "price_eur_amount": 186.49,
+          "availability_timber_sklad": [
+            0
+          ],
+          "discount_price_as_received_percentage_amount": 0,
+          "discount_price_eur_percentage_amount": 0,
+          "discount_price_eur_as_received_proportion_amount": 0,
+          "availability_rank": 4,
+          "title_common": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks)",
+          "color_code": [
+            "#c97a2b"
+          ]
+        }
+      }
+    ],
+    "luigi": [
+      {
+        "text": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks)\nCentrálny sklad\n186,49 €\n/ balenie\nDo košíka\nKÓD: 344255",
+        "forms": 0,
+        "amounts": 0,
+        "link": "/kolik-spojovaci-dreveny-kalibrovany-breza-8x35mm-s-lepidlom--8650-ks/"
+      }
+    ],
+    "detail": {
+      "title": "",
+      "inputs": [
+        {
+          "name": "productId",
+          "value": "317291",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "priceId",
+          "value": "317567",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "language",
+          "value": "sk",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "amount",
+          "value": "1",
+          "min": "1",
+          "max": "9999",
+          "step": "1",
+          "type": "number"
+        }
+      ],
+      "prices": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "variantLinks": []
+    }
+  },
+  {
+    "query": "494606",
+    "hits": [
+      {
+        "url": "/tulip-knopka-jota-zlata-matna/",
+        "attributes": {
+          "availability_rank_color": [
+            "#2E7D32"
+          ],
+          "discount_price_min_ratio_proportion_amount": 0,
+          "price": "2.26 €",
+          "price_eur_as_received": "2.26 €",
+          "price_as_received": "2.26 €",
+          "price_amount": 2.26,
+          "discount_price_eur_absolute_amount": 0,
+          "availability_in_stock": [
+            "Skladom"
+          ],
+          "availability": 1,
+          "minimum_amount": [
+            1
+          ],
+          "currency_code": [
+            "EUR"
+          ],
+          "price_as_received_amount": 2.26,
+          "discount_price_eur_as_received_percentage_amount": 0,
+          "discount_price_absolute_amount": 0,
+          "price_min_ratio_amount": 0,
+          "availability_dolny_hricov": [
+            1
+          ],
+          "price_eur_as_received_amount": 2.26,
+          "discount_price_min_ratio_absolute_amount": 0,
+          "availability_rank_text": [
+            "Skladom"
+          ],
+          "discount_price_as_received_proportion_amount": 0,
+          "availability_stock_quantity": [
+            1387
+          ],
+          "price_eur": "2.26 €",
+          "discount_price_eur_proportion_amount": 0,
+          "unit": [
+            "ks"
+          ],
+          "discount_price_percentage_amount": 0,
+          "flags_codes": [
+            {
+              "show_in_search": false,
+              "code": "skladom",
+              "color": "#121111",
+              "title": "Skladom",
+              "show_in_detail": false
+            }
+          ],
+          "discount_price_as_received_absolute_amount": 0,
+          "code": [
+            "494606"
+          ],
+          "price_min_ratio": 0,
+          "discount_price_min_ratio_percentage_amount": 0,
+          "title": "TULIP Knopka Jota zlatá matná",
+          "availability_centralny_sklad_": [
+            1
+          ],
+          "discount_price_eur_as_received_absolute_amount": 0,
+          "discount_price_proportion_amount": 0,
+          "price_eur_amount": 2.26,
+          "availability_timber_sklad": [
+            0
+          ],
+          "discount_price_as_received_percentage_amount": 0,
+          "discount_price_eur_percentage_amount": 0,
+          "discount_price_eur_as_received_proportion_amount": 0,
+          "availability_rank": 4,
+          "title_common": "TULIP Knopka Jota zlatá matná",
+          "color_code": [
+            "#2e7d32"
+          ]
+        }
+      }
+    ],
+    "luigi": [
+      {
+        "text": "TULIP Knopka Jota zlatá matná\nSKLADOM\n2,26 €\n/ ks\nDo košíka\nKÓD: 494606",
+        "forms": 0,
+        "amounts": 0,
+        "link": "/tulip-knopka-jota-zlata-matna/"
+      }
+    ],
+    "detail": {
+      "title": "\n TULIP Knopka Jota zlatá matná ",
+      "inputs": [
+        {
+          "name": "productId",
+          "value": "339359",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "priceId",
+          "value": "339635",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "language",
+          "value": "sk",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "amount",
+          "value": "1",
+          "min": "1",
+          "max": "9999",
+          "step": "1",
+          "type": "number"
+        }
+      ],
+      "prices": [
+        "",
+        "",
+        "",
+        "1,77 € bez DPH",
+        "\n \n 2,18 €\n \n \n \n \n ",
+        "1,77 € bez DPH",
+        "\n \n 2,18 €\n \n \n \n \n ",
+        "1,77 € bez DPH",
+        "\n \n 2,18 €\n \n \n \n \n ",
+        "1,77 € bez DPH",
+        "\n \n 2,18 €\n \n \n \n \n ",
+        "1,52 € bez DPH",
+        "\n \n 1,87 €\n \n \n \n \n ",
+        "1,77 € bez DPH",
+        "\n \n 2,18 €\n \n \n \n \n ",
+        "1,55 € bez DPH",
+        "\n \n 1,91 €\n \n \n \n \n "
+      ],
+      "variantLinks": []
+    }
+  },
+  {
+    "query": "nedostupné",
+    "hits": [],
+    "luigi": [
+      {
+        "text": "KOMPLET\nK-BLUM Antaro, zásuvka M 550 mm/30 kg, Blumotion/TOB, šedá, Inserta (komplet)\n50,52 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 254433",
+        "forms": 0,
+        "amounts": 0,
+        "link": "/k-blum-antaro--zasuvka-m-550-mm-30-kg--blumotion-tob--seda--inserta--komplet-/"
+      },
+      {
+        "text": "KOMPLET\nK-BLUM Merivobox, zásuvka K 600mm/40kg, biela, Inserta (komplet)\n74,48 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 485572",
+        "forms": 0,
+        "amounts": 0,
+        "link": "/k-blum-merivobox--zasuvka-k-600mm-40kg--biela--inserta--komplet-/"
+      },
+      {
+        "text": "KOMPLET\nK-KES LeMans II, police a uchytenie, Arena Classic, biela/strieb. Ľ,450/min 1265 (komplet)\n344,73 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 505938",
+        "forms": 0,
+        "amounts": 0,
+        "link": "/k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265/"
+      }
+    ],
+    "detail": {
+      "title": "K-BLUM Antaro, zásuvka M 550 mm/30 kg, Blumotion/TOB, šedá, Inserta (komplet)",
+      "inputs": [
+        {
+          "name": "productId",
+          "value": "383591",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "priceId",
+          "value": "383975",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "language",
+          "value": "sk",
+          "min": "",
+          "max": "",
+          "step": "",
+          "type": "hidden"
+        },
+        {
+          "name": "amount",
+          "value": "1",
+          "min": "1",
+          "max": "9999",
+          "step": "1",
+          "type": "number"
+        }
+      ],
+      "prices": [
+        "CENTRÁLNY SKLAD (>100 SADA)",
+        "50,52 €\n/ sada",
+        "41,07 €",
+        "0,02 € bez DPH",
+        "0,02 €\n/ ks",
+        "46,85 € bez DPH",
+        "57,63 €\n/ sada"
+      ],
+      "variantLinks": []
+    }
+  }
+]

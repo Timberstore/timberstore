@@ -1,0 +1,151 @@
+[
+  {
+    "surface": "product_detail",
+    "posts": [
+      {
+        "path": "/action/Cart/addCartItem/"
+      }
+    ],
+    "orderSubmitted": false,
+    "card": {
+      "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\n0,16 €\nCENTRÁLNY SKLAD\nDo košíka",
+      "code": "306383",
+      "url": "/blum-za7-0700-bt-legrabox--vonkajsia-krytka-s-logom-blum--biela/",
+      "gross": "0.16"
+    },
+    "native": {
+      "text": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela\nKÓD: 306383\nZNAČKA: BLUM\nDostupnosť\nCENTRÁLNY SKLAD (>100 KS)\nMôžeme doručiť do:\n10.11.2026\nMožnosti doručenia\nCena\n0,16 €\n/ ks\n0,13 €\nJednotková cena:\nMnožstvo\n+\n−\nPridať do košíka\n\nDETAILNÉ INFORMÁCIE\n\nOPÝTAŤ SA\nSTRÁŽIŤ",
+      "sku": "306382",
+      "amount": [
+        {
+          "value": "1",
+          "min": "1",
+          "step": "1"
+        }
+      ],
+      "unit": "/ ks"
+    },
+    "beforePosts": 0,
+    "analytics": [
+      {
+        "action": "buy",
+        "resource": null,
+        "consent": true,
+        "attributions": []
+      }
+    ],
+    "vendorReporting": "NOT TESTED",
+    "cart": "BLUM ZA7.0700.BT Legrabox, vonkajšia krytka s logom BLUM, biela Kód: 306383\nCENTRÁLNY SKLAD\n(>100 ks)\nMnožstvo\n+\n−\n0,16 € / ks\n0,16 €",
+    "amounts": [
+      "1"
+    ],
+    "singleOperation": true,
+    "skuPresent": true
+  },
+  {
+    "surface": "basket",
+    "posts": [
+      {
+        "path": "/action/Cart/addCartItem/"
+      },
+      {
+        "path": "/action/Cart/addCartItem/"
+      }
+    ],
+    "orderSubmitted": false,
+    "card": {
+      "text": "BLUM ZB4M00AK MERIVOBOX krytka pro držák zadní stěny výška M pro výšku E, IG-M\n2,04 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 481640",
+      "code": "481640",
+      "url": "/blum-zb4m00ak-merivobox-krytka-pro-drzak-zadni-steny-vyska-m-pro-vysku-e--ig-m/",
+      "gross": "2.04"
+    },
+    "native": {
+      "text": "BLUM ZB4M00AK MERIVOBOX krytka pro držák zadní stěny výška M pro výšku E, IG-M\nKÓD: 481640\nZNAČKA: BLUM\nDostupnosť\nCENTRÁLNY SKLAD (>100 KS)\nMôžeme doručiť do:\n10.11.2026\nMožnosti doručenia\nCena\n2,04 €\n/ ks\n1,66 €\nJednotková cena:\nMnožstvo\n+\n−\nPridať do košíka\n\nDETAILNÉ INFORMÁCIE\n\nOPÝTAŤ SA\nSTRÁŽIŤ",
+      "sku": "\n        KÓD: \n                    481640\n            ",
+      "amount": [
+        {
+          "value": "1",
+          "min": "1",
+          "step": "1"
+        }
+      ],
+      "unit": "/ ks"
+    },
+    "beforePosts": 1,
+    "analytics": [
+      {
+        "action": "buy",
+        "resource": null,
+        "consent": false,
+        "attributions": []
+      },
+      {
+        "action": "buy",
+        "resource": null,
+        "consent": true,
+        "attributions": []
+      }
+    ],
+    "vendorReporting": "NOT TESTED",
+    "cart": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €\nBLUM ZB4M00AK MERIVOBOX krytka pro držák zadní stěny výška M pro výšku E, IG-M Kód: 481640\nCENTRÁLNY SKLAD\n(>100 ks)\nMnožstvo\n+\n−\n2,04 € / ks\n2,04 €",
+    "amounts": [
+      "100",
+      "1"
+    ],
+    "singleOperation": true,
+    "skuPresent": true
+  },
+  {
+    "surface": "basket_popup",
+    "posts": [
+      {
+        "path": "/action/Cart/addCartItem/"
+      },
+      {
+        "path": "/action/Cart/addCartItem/"
+      }
+    ],
+    "orderSubmitted": false,
+    "card": {
+      "text": "BLUM ZB4M00AK MERIVOBOX krytka pro držák zadní stěny výška M pro výšku E, IG-M\n2,04 € / ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 481640",
+      "code": "481640",
+      "url": "/blum-zb4m00ak-merivobox-krytka-pro-drzak-zadni-steny-vyska-m-pro-vysku-e--ig-m/",
+      "gross": "2.04"
+    },
+    "native": {
+      "text": "BLUM ZB4M00AK MERIVOBOX krytka pro držák zadní stěny výška M pro výšku E, IG-M\nKÓD: 481640\nZNAČKA: BLUM\nDostupnosť\nCENTRÁLNY SKLAD (>100 KS)\nMôžeme doručiť do:\n10.11.2026\nMožnosti doručenia\nCena\n2,04 €\n/ ks\n1,66 €\nJednotková cena:\nMnožstvo\n+\n−\nPridať do košíka\n\nDETAILNÉ INFORMÁCIE\n\nOPÝTAŤ SA\nSTRÁŽIŤ",
+      "sku": "\n        KÓD: \n                    481640\n            ",
+      "amount": [
+        {
+          "value": "1",
+          "min": "1",
+          "step": "1"
+        }
+      ],
+      "unit": "/ ks"
+    },
+    "beforePosts": 1,
+    "analytics": [
+      {
+        "action": "buy",
+        "resource": null,
+        "consent": false,
+        "attributions": []
+      },
+      {
+        "action": "buy",
+        "resource": null,
+        "consent": true,
+        "attributions": []
+      }
+    ],
+    "vendorReporting": "NOT TESTED",
+    "cart": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €\nBLUM ZB4M00AK MERIVOBOX krytka pro držák zadní stěny výška M pro výšku E, IG-M Kód: 481640\nCENTRÁLNY SKLAD\n(>100 ks)\nMnožstvo\n+\n−\n2,04 € / ks\n2,04 €",
+    "amounts": [
+      "100",
+      "1"
+    ],
+    "singleOperation": true,
+    "skuPresent": true
+  }
+]

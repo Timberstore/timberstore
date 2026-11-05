@@ -1,0 +1,41 @@
+{
+  "status": "PARTIAL: functional blockers remain",
+  "screenshots": {
+    "baseline": "v0.7.6",
+    "preview": "v0.7.7-rc.4",
+    "viewports": [
+      1440,
+      375
+    ],
+    "pairs": 4,
+    "skuColor": "#2454A6"
+  },
+  "minimumDefaultPurchase": {
+    "sku": "237597",
+    "surfaces": [
+      "native-detail",
+      "luigi-results",
+      "luigi-autocomplete"
+    ],
+    "amount": 100,
+    "unit": "ks",
+    "unitGross": 0.09,
+    "totalGross": 9,
+    "singleCartRequest": true
+  },
+  "sortAscending": true,
+  "stockFilter": {
+    "count": 13,
+    "allSkladom": true
+  },
+  "remaining": [
+    "independent pack multiplier",
+    "editable Luigi quantities",
+    "variant purchase",
+    "unorderable SKU",
+    "net price templates",
+    "cart-count parity",
+    "analytics attribution",
+    "Safari"
+  ]
+}

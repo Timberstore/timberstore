@@ -1,0 +1,1185 @@
+{
+  "url": "https://www.timberstore.sk/zasuvkove-vysuvy/?ts_preview=off",
+  "groups": [
+    {
+      "class": "filter-section filter-section-button",
+      "heading": "Rozbaliť filter",
+      "text": "Rozbaliť filter",
+      "inputs": []
+    },
+    {
+      "class": "filter-section filter-section-boolean",
+      "heading": "Podľa dostupnosti",
+      "text": "Podľa dostupnostiNa sklade 4932Akcia0Novinka1513Tip0Komplet2141Centrálny sklad4812Skladom153",
+      "inputs": [
+        {
+          "name": "stock",
+          "value": "1",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Na sklade 4932"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        },
+        {
+          "name": "dd[]",
+          "value": "1",
+          "type": "checkbox",
+          "disabled": true,
+          "label": "Akcia0"
+        },
+        {
+          "name": "dd[]",
+          "value": "2",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Novinka1513"
+        },
+        {
+          "name": "dd[]",
+          "value": "3",
+          "type": "checkbox",
+          "disabled": true,
+          "label": "Tip0"
+        },
+        {
+          "name": "dd[]",
+          "value": "77",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Komplet2141"
+        },
+        {
+          "name": "dd[]",
+          "value": "504",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Centrálny sklad4812"
+        },
+        {
+          "name": "dd[]",
+          "value": "507",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Skladom153"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-manufacturer",
+      "heading": "Značky",
+      "text": "ZnačkyBLUM 2670FGV 2HETTICH 1221N/A 1STRONG 1071",
+      "inputs": [
+        {
+          "name": "manufacturerId[]",
+          "value": "blum",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "BLUM 2670"
+        },
+        {
+          "name": "manufacturerId[]",
+          "value": "fgv",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "FGV 2"
+        },
+        {
+          "name": "manufacturerId[]",
+          "value": "hettich",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "HETTICH 1221"
+        },
+        {
+          "name": "manufacturerId[]",
+          "value": "n-a",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "N/A 1"
+        },
+        {
+          "name": "manufacturerId[]",
+          "value": "strong",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "STRONG 1071"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-parametric filter-section-parametric-id-105",
+      "heading": "Dĺžka mm",
+      "text": "Dĺžka mm182 1214 2250 9270 178275 2278 1300 272320 1325 1342 1350 306365 2380 5400 291406 1420 6450 604460 1480 3500 803510 1520 6550 499560 1580 4600 330650 145660 1700 10750 5790 1800 3900 11000 21200 1710 1",
+      "inputs": [
+        {
+          "name": "pv[]",
+          "value": "182",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "182 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "214",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "214 2"
+        },
+        {
+          "name": "pv[]",
+          "value": "250",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "250 9"
+        },
+        {
+          "name": "pv[]",
+          "value": "270",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "270 178"
+        },
+        {
+          "name": "pv[]",
+          "value": "275",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "275 2"
+        },
+        {
+          "name": "pv[]",
+          "value": "278",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "278 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "300",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "300 272"
+        },
+        {
+          "name": "pv[]",
+          "value": "320",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "320 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "325",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "325 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "342",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "342 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "350",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "350 306"
+        },
+        {
+          "name": "pv[]",
+          "value": "365",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "365 2"
+        },
+        {
+          "name": "pv[]",
+          "value": "380",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "380 5"
+        },
+        {
+          "name": "pv[]",
+          "value": "400",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "400 291"
+        },
+        {
+          "name": "pv[]",
+          "value": "406",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "406 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "420",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "420 6"
+        },
+        {
+          "name": "pv[]",
+          "value": "450",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "450 604"
+        },
+        {
+          "name": "pv[]",
+          "value": "460",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "460 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "480",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "480 3"
+        },
+        {
+          "name": "pv[]",
+          "value": "500",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "500 803"
+        },
+        {
+          "name": "pv[]",
+          "value": "510",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "510 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "520",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "520 6"
+        },
+        {
+          "name": "pv[]",
+          "value": "550",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "550 499"
+        },
+        {
+          "name": "pv[]",
+          "value": "560",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "560 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "580",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "580 4"
+        },
+        {
+          "name": "pv[]",
+          "value": "600",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "600 330"
+        },
+        {
+          "name": "pv[]",
+          "value": "650",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "650 145"
+        },
+        {
+          "name": "pv[]",
+          "value": "660",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "660 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "700",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "700 10"
+        },
+        {
+          "name": "pv[]",
+          "value": "750",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "750 5"
+        },
+        {
+          "name": "pv[]",
+          "value": "790",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "790 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "800",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "800 3"
+        },
+        {
+          "name": "pv[]",
+          "value": "900",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "900 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "1000",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "1000 2"
+        },
+        {
+          "name": "pv[]",
+          "value": "1200",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "1200 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "710",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "710 1"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-parametric filter-section-parametric-id-270",
+      "heading": "Druh vedenia výsuvu",
+      "text": "Druh vedenia výsuvuCelovýsuv 393Čiastočný výsuv 147Plný výsuv 18Neuvedené 3",
+      "inputs": [
+        {
+          "name": "pv[]",
+          "value": "Celovýsuv",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Celovýsuv 393"
+        },
+        {
+          "name": "pv[]",
+          "value": "Čiastočný výsuv",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Čiastočný výsuv 147"
+        },
+        {
+          "name": "pv[]",
+          "value": "Plný výsuv",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Plný výsuv 18"
+        },
+        {
+          "name": "pv[]",
+          "value": "Neuvedené",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Neuvedené 3"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-parametric filter-section-parametric-id-96",
+      "heading": "Farba",
+      "text": "FarbaBiela 1126Čierna 468Strieborný 236Sivá 1205Neuvedené 64Titan 4Šedá (antracit) 31",
+      "inputs": [
+        {
+          "name": "pv[]",
+          "value": "Biela",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Biela 1126"
+        },
+        {
+          "name": "pv[]",
+          "value": "Čierna",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Čierna 468"
+        },
+        {
+          "name": "pv[]",
+          "value": "Strieborný",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Strieborný 236"
+        },
+        {
+          "name": "pv[]",
+          "value": "Sivá",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Sivá 1205"
+        },
+        {
+          "name": "pv[]",
+          "value": "Neuvedené",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Neuvedené 64"
+        },
+        {
+          "name": "pv[]",
+          "value": "Titan",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Titan 4"
+        },
+        {
+          "name": "pv[]",
+          "value": "Šedá (antracit)",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Šedá (antracit) 31"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-parametric filter-section-parametric-id-111 timber-filter-overflow",
+      "heading": "Nosnosť kg",
+      "text": "Nosnosť kg10 2812 315 220 825 13230 42335 20240 141845 1755 160 6665 14370 57890 2100 1110 1120 1",
+      "inputs": [
+        {
+          "name": "pv[]",
+          "value": "10",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "10 28"
+        },
+        {
+          "name": "pv[]",
+          "value": "12",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "12 3"
+        },
+        {
+          "name": "pv[]",
+          "value": "15",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "15 2"
+        },
+        {
+          "name": "pv[]",
+          "value": "20",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "20 8"
+        },
+        {
+          "name": "pv[]",
+          "value": "25",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "25 132"
+        },
+        {
+          "name": "pv[]",
+          "value": "30",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "30 423"
+        },
+        {
+          "name": "pv[]",
+          "value": "35",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "35 202"
+        },
+        {
+          "name": "pv[]",
+          "value": "40",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "40 1418"
+        },
+        {
+          "name": "pv[]",
+          "value": "45",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "45 17"
+        },
+        {
+          "name": "pv[]",
+          "value": "55",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "55 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "60",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "60 66"
+        },
+        {
+          "name": "pv[]",
+          "value": "65",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "65 143"
+        },
+        {
+          "name": "pv[]",
+          "value": "70",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "70 578"
+        },
+        {
+          "name": "pv[]",
+          "value": "90",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "90 2"
+        },
+        {
+          "name": "pv[]",
+          "value": "100",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "100 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "110",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "110 1"
+        },
+        {
+          "name": "pv[]",
+          "value": "120",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "120 1"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-parametric filter-section-parametric-id-102 timber-filter-overflow",
+      "heading": "Pohyb výsuvu",
+      "text": "Pohyb výsuvuS tlmením 1249Bez tlmenia 60S tlmením alebo bezúchytkové s tlumením 1138Bezúchytkové 452Bezúchytkové s tlmením 17Neuvedené 102Celovýsuv 1",
+      "inputs": [
+        {
+          "name": "pv[]",
+          "value": "S tlmením",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "S tlmením 1249"
+        },
+        {
+          "name": "pv[]",
+          "value": "Bez tlmenia",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Bez tlmenia 60"
+        },
+        {
+          "name": "pv[]",
+          "value": "S tlmením alebo bezúchytkové s tlumením",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "S tlmením alebo bezúchytkové s tlumením 1138"
+        },
+        {
+          "name": "pv[]",
+          "value": "Bezúchytkové",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Bezúchytkové 452"
+        },
+        {
+          "name": "pv[]",
+          "value": "Bezúchytkové s tlmením",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Bezúchytkové s tlmením 17"
+        },
+        {
+          "name": "pv[]",
+          "value": "Neuvedené",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Neuvedené 102"
+        },
+        {
+          "name": "pv[]",
+          "value": "Celovýsuv",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Celovýsuv 1"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-parametric filter-section-parametric-id-201 timber-filter-overflow",
+      "heading": "Priložené čelné kovanie",
+      "text": "Priložené čelné kovanieNa hmoždinku 572Vnútorné 596Na skrutku 521",
+      "inputs": [
+        {
+          "name": "pv[]",
+          "value": "Na hmoždinku",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Na hmoždinku 572"
+        },
+        {
+          "name": "pv[]",
+          "value": "Vnútorné",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Vnútorné 596"
+        },
+        {
+          "name": "pv[]",
+          "value": "Na skrutku",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "Na skrutku 521"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-parametric filter-section-parametric-id-108 timber-filter-overflow",
+      "heading": "Svetlosť výsuvu mm",
+      "text": "Svetlosť výsuvu mm54.0 374.0 582.5 1283.0 1086.0 2094.0 6098.5 2599.0 83104.0 23105.0 45106.0 82108.0 103111.0 83118.0 6126.0 9130.5 18131.0 52137.0 217138.0 4143.0 43144.0 104146.0 60150.0 7165.0 32175.0 14186.0 48191.0 52192.0 78193.0 269207.0 296209.0 186214.0 3218.0 46224.0 100225.0 65250.0 23257.0 83271.0 19273.0 5282.0 140303.0 2353.0 14403.0 9453.0 8503.0 11553.0 22603.0 3653.0 380.0 4",
+      "inputs": [
+        {
+          "name": "pv[]",
+          "value": "54.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "54.0 3"
+        },
+        {
+          "name": "pv[]",
+          "value": "74.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "74.0 5"
+        },
+        {
+          "name": "pv[]",
+          "value": "82.5",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "82.5 12"
+        },
+        {
+          "name": "pv[]",
+          "value": "83.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "83.0 10"
+        },
+        {
+          "name": "pv[]",
+          "value": "86.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "86.0 20"
+        },
+        {
+          "name": "pv[]",
+          "value": "94.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "94.0 60"
+        },
+        {
+          "name": "pv[]",
+          "value": "98.5",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "98.5 25"
+        },
+        {
+          "name": "pv[]",
+          "value": "99.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "99.0 83"
+        },
+        {
+          "name": "pv[]",
+          "value": "104.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "104.0 23"
+        },
+        {
+          "name": "pv[]",
+          "value": "105.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "105.0 45"
+        },
+        {
+          "name": "pv[]",
+          "value": "106.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "106.0 82"
+        },
+        {
+          "name": "pv[]",
+          "value": "108.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "108.0 103"
+        },
+        {
+          "name": "pv[]",
+          "value": "111.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "111.0 83"
+        },
+        {
+          "name": "pv[]",
+          "value": "118.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "118.0 6"
+        },
+        {
+          "name": "pv[]",
+          "value": "126.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "126.0 9"
+        },
+        {
+          "name": "pv[]",
+          "value": "130.5",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "130.5 18"
+        },
+        {
+          "name": "pv[]",
+          "value": "131.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "131.0 52"
+        },
+        {
+          "name": "pv[]",
+          "value": "137.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "137.0 217"
+        },
+        {
+          "name": "pv[]",
+          "value": "138.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "138.0 4"
+        },
+        {
+          "name": "pv[]",
+          "value": "143.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "143.0 43"
+        },
+        {
+          "name": "pv[]",
+          "value": "144.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "144.0 104"
+        },
+        {
+          "name": "pv[]",
+          "value": "146.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "146.0 60"
+        },
+        {
+          "name": "pv[]",
+          "value": "150.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "150.0 7"
+        },
+        {
+          "name": "pv[]",
+          "value": "165.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "165.0 32"
+        },
+        {
+          "name": "pv[]",
+          "value": "175.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "175.0 14"
+        },
+        {
+          "name": "pv[]",
+          "value": "186.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "186.0 48"
+        },
+        {
+          "name": "pv[]",
+          "value": "191.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "191.0 52"
+        },
+        {
+          "name": "pv[]",
+          "value": "192.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "192.0 78"
+        },
+        {
+          "name": "pv[]",
+          "value": "193.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "193.0 269"
+        },
+        {
+          "name": "pv[]",
+          "value": "207.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "207.0 296"
+        },
+        {
+          "name": "pv[]",
+          "value": "209.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "209.0 186"
+        },
+        {
+          "name": "pv[]",
+          "value": "214.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "214.0 3"
+        },
+        {
+          "name": "pv[]",
+          "value": "218.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "218.0 46"
+        },
+        {
+          "name": "pv[]",
+          "value": "224.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "224.0 100"
+        },
+        {
+          "name": "pv[]",
+          "value": "225.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "225.0 65"
+        },
+        {
+          "name": "pv[]",
+          "value": "250.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "250.0 23"
+        },
+        {
+          "name": "pv[]",
+          "value": "257.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "257.0 83"
+        },
+        {
+          "name": "pv[]",
+          "value": "271.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "271.0 19"
+        },
+        {
+          "name": "pv[]",
+          "value": "273.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "273.0 5"
+        },
+        {
+          "name": "pv[]",
+          "value": "282.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "282.0 140"
+        },
+        {
+          "name": "pv[]",
+          "value": "303.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "303.0 2"
+        },
+        {
+          "name": "pv[]",
+          "value": "353.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "353.0 14"
+        },
+        {
+          "name": "pv[]",
+          "value": "403.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "403.0 9"
+        },
+        {
+          "name": "pv[]",
+          "value": "453.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "453.0 8"
+        },
+        {
+          "name": "pv[]",
+          "value": "503.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "503.0 11"
+        },
+        {
+          "name": "pv[]",
+          "value": "553.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "553.0 22"
+        },
+        {
+          "name": "pv[]",
+          "value": "603.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "603.0 3"
+        },
+        {
+          "name": "pv[]",
+          "value": "653.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "653.0 3"
+        },
+        {
+          "name": "pv[]",
+          "value": "80.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "80.0 4"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-parametric filter-section-parametric-id-99 timber-filter-overflow",
+      "heading": "Výška bočnice mm",
+      "text": "Výška bočnice mm66.5 2089.0 8390.5 24994.0 169121.0 75126.0 35128.5 150177.0 400185.0 86241.0 150249.0 32",
+      "inputs": [
+        {
+          "name": "pv[]",
+          "value": "66.5",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "66.5 20"
+        },
+        {
+          "name": "pv[]",
+          "value": "89.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "89.0 83"
+        },
+        {
+          "name": "pv[]",
+          "value": "90.5",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "90.5 249"
+        },
+        {
+          "name": "pv[]",
+          "value": "94.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "94.0 169"
+        },
+        {
+          "name": "pv[]",
+          "value": "121.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "121.0 75"
+        },
+        {
+          "name": "pv[]",
+          "value": "126.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "126.0 35"
+        },
+        {
+          "name": "pv[]",
+          "value": "128.5",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "128.5 150"
+        },
+        {
+          "name": "pv[]",
+          "value": "177.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "177.0 400"
+        },
+        {
+          "name": "pv[]",
+          "value": "185.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "185.0 86"
+        },
+        {
+          "name": "pv[]",
+          "value": "241.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "241.0 150"
+        },
+        {
+          "name": "pv[]",
+          "value": "249.0",
+          "type": "checkbox",
+          "disabled": false,
+          "label": "249.0 32"
+        },
+        {
+          "name": "referer",
+          "value": "/zasuvkove-vysuvy/?ts_preview=off",
+          "type": "hidden",
+          "disabled": false,
+          "label": "Surname"
+        }
+      ]
+    },
+    {
+      "class": "filter-section filter-section-count",
+      "text": "Zobrazených položiek: 4965",
+      "inputs": []
+    }
+  ]
+}

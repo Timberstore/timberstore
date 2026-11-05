@@ -1,0 +1,64 @@
+[
+  {
+    "consentUi": "accept",
+    "requests": [
+      {
+        "method": "POST",
+        "bodyAvailable": true,
+        "parsed": true,
+        "status": 200
+      },
+      {
+        "method": "OPTIONS",
+        "bodyAvailable": false,
+        "parsed": false,
+        "status": 204
+      },
+      {
+        "method": "POST",
+        "bodyAvailable": true,
+        "parsed": true,
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "bodyAvailable": true,
+        "parsed": true,
+        "status": 200
+      },
+      {
+        "method": "OPTIONS",
+        "bodyAvailable": false,
+        "parsed": false,
+        "status": 204
+      },
+      {
+        "method": "POST",
+        "bodyAvailable": true,
+        "parsed": true,
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "bodyAvailable": true,
+        "parsed": true,
+        "status": 200
+      }
+    ],
+    "types": [
+      "pv",
+      "pv",
+      "event",
+      "click",
+      "event"
+    ],
+    "conversions": [
+      {
+        "type": "click",
+        "action": "buy",
+        "consent": true
+      }
+    ],
+    "vendorReporting": "NOT TESTED"
+  }
+]

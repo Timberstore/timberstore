@@ -1,0 +1,126 @@
+[
+  {
+    "width": 1440,
+    "after": false,
+    "loader": {
+      "version": "v0.7.6",
+      "preview": false,
+      "pageLoadingTimer": null
+    },
+    "version": "v0.7.6",
+    "codes": [
+      {
+        "text": "255445",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "255401",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "255397",
+        "color": "rgb(36, 84, 166)"
+      }
+    ],
+    "filters": [
+      " Cena ",
+      " Štítky (4)",
+      " Kategórie (1)",
+      " Výrobca (3)",
+      " Farby (5)"
+    ]
+  },
+  {
+    "width": 375,
+    "after": false,
+    "loader": {
+      "version": "v0.7.6",
+      "preview": false,
+      "pageLoadingTimer": null
+    },
+    "version": "v0.7.6",
+    "codes": [
+      {
+        "text": "255445",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "255401",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "255397",
+        "color": "rgb(36, 84, 166)"
+      }
+    ],
+    "filters": [
+      " Cena ",
+      " Štítky (4)",
+      " Kategórie (1)",
+      " Výrobca (3)",
+      " Farby (5)"
+    ]
+  },
+  {
+    "width": 1440,
+    "after": true,
+    "loader": {
+      "version": "e8148ed",
+      "preview": true,
+      "pageLoadingTimer": null
+    },
+    "version": "v0.7.7-rc.4",
+    "codes": [
+      {
+        "text": "255445",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "255397",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "255444",
+        "color": "rgb(36, 84, 166)"
+      }
+    ],
+    "filters": [
+      " Cena ",
+      " Štítky (4)",
+      " Kategórie (1)",
+      " Výrobca (3)",
+      " Farby (5)"
+    ]
+  },
+  {
+    "width": 375,
+    "after": true,
+    "loader": {
+      "version": "e8148ed",
+      "preview": true,
+      "pageLoadingTimer": null
+    },
+    "version": "v0.7.7-rc.4",
+    "codes": [
+      {
+        "text": "255445",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "255397",
+        "color": "rgb(36, 84, 166)"
+      },
+      {
+        "text": "255444",
+        "color": "rgb(36, 84, 166)"
+      }
+    ],
+    "filters": [
+      " Cena ",
+      " Štítky (4)",
+      " Kategórie (1)",
+      " Výrobca (3)",
+      " Farby (5)"
+    ]
+  }
+]

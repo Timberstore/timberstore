@@ -1,0 +1,25 @@
+{
+  "freshContexts": true,
+  "production": "v0.7.6",
+  "preview": "e8148ed",
+  "categories": {
+    "visible": true,
+    "count": 12,
+    "removed": false
+  },
+  "recommenderPredecessor": "benefitBanner position--benefitHomepage",
+  "motion": {
+    "hoverSwapStack": "Shoptet main-3g",
+    "luigiAutoplay": 0,
+    "heroInterval": 9000,
+    "heroChanged": true
+  },
+  "productionModified": false,
+  "newBuildPublished": false,
+  "externalSettingsModified": false,
+  "unknown": [
+    "external configuration author",
+    "external publication date",
+    "complete last-correct production snapshot"
+  ]
+}

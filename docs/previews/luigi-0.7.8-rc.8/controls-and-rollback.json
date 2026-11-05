@@ -1,0 +1,66 @@
+{
+  "hash": "1975505",
+  "checks": [
+    {
+      "width": 1440,
+      "cssFailures": [],
+      "colors": [
+        {
+          "q": "491405",
+          "availability": "Skladom",
+          "availabilityColor": "rgb(0, 200, 83)",
+          "priceColor": "rgb(36, 84, 166)",
+          "actionColor": "rgb(212, 136, 74)"
+        },
+        {
+          "q": "237597",
+          "availability": "Centrálny sklad",
+          "availabilityColor": "rgb(201, 122, 43)",
+          "priceColor": "rgb(36, 84, 166)",
+          "actionColor": "rgb(212, 136, 74)"
+        }
+      ],
+      "rollback": {
+        "version": "v0.7.7",
+        "preview": false,
+        "previewClass": false,
+        "homeH1": [],
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.7/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.7/dist/timber.min.js"
+        ]
+      }
+    },
+    {
+      "width": 375,
+      "cssFailures": [],
+      "colors": [
+        {
+          "q": "491405",
+          "availability": "Skladom",
+          "availabilityColor": "rgb(0, 200, 83)",
+          "priceColor": "rgb(36, 84, 166)",
+          "actionColor": "rgb(212, 136, 74)"
+        },
+        {
+          "q": "237597",
+          "availability": "Centrálny sklad",
+          "availabilityColor": "rgb(201, 122, 43)",
+          "priceColor": "rgb(36, 84, 166)",
+          "actionColor": "rgb(212, 136, 74)"
+        }
+      ],
+      "rollback": {
+        "version": "v0.7.7",
+        "preview": false,
+        "previewClass": false,
+        "homeH1": [],
+        "assets": [
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.7/dist/timber.min.css",
+          "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.7/dist/timber.min.js"
+        ]
+      }
+    }
+  ],
+  "settingsChanged": false
+}

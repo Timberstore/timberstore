@@ -1,0 +1,95 @@
+{
+  "recordedDate": "2026-11-03",
+  "frontendModified": false,
+  "currentRejectedPreview": "0.7.8-rc.8 / 1975505",
+  "production": "v0.7.7",
+  "nativeDiagnostic": "Luigi bootstrap aborted only in native reference context; other native runtime retained",
+  "sameSku": "553488",
+  "sameQuery": "BLUM 450",
+  "browser": "Chromium",
+  "screenshots": [
+    {
+      "file": "filter-sort-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "905812016c84107d08bacd3761533c1937b482677789b4feb03cf5c2a32768ad"
+    },
+    {
+      "file": "filter-sort-375.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "5cd70b315e600add78b464400c60c4d0d05c9f1496a2be5a6b1516969daa85d8"
+    },
+    {
+      "file": "luigi-1440-553488.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "a70ba65c7f1fd88997cfe780215673b772cd11fcffa3d1b40f2d3426e27b663c"
+    },
+    {
+      "file": "luigi-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "9c24f87c7cd2a872d62e10618943b4e0c6a62ee3f82bfee0d810a48198433abb"
+    },
+    {
+      "file": "luigi-375-553488.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "4b7bcdc54062df3c305e867d59542e0610f46b8b916a4ae4ea648c0913283c09"
+    },
+    {
+      "file": "luigi-375.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "69acd20b7d3c5a1e29cdc2acd22ff87263c6bed0d699cbea7cb9a06325c5df25"
+    },
+    {
+      "file": "native-1440-553488.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "ce7cb4d5ec3e53a558c8dae28d651b50a49505f7b35a1e904e4a948151a77c26"
+    },
+    {
+      "file": "native-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "1ba8eae33e15aa93335700d95e6f7ca03e28cac786d297f903f2b65b97ad320f"
+    },
+    {
+      "file": "native-375-553488.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "23e1d23e6bddf1c811cf52354f8688b97a99dbfa0638e9d0cad8f055274b4ce9"
+    },
+    {
+      "file": "native-375.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "826521db67028cba057fd65d44e6eaf1bb1224fddfc4e0034c4c9c0730d4907c"
+    },
+    {
+      "file": "native-category-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "eb3714c8bbc8b5bcb26563ae1e5bbb5f4721d86a324336ec0c0eb9b4337233c3"
+    },
+    {
+      "file": "native-category-375.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "47f6a80cd555be6292f6a70cbbb85372273dd8f41e68a7386848d6c00144b728"
+    }
+  ],
+  "imagesReviewed": [
+    "native-1440-553488.png",
+    "luigi-1440-553488.png",
+    "native-375-553488.png",
+    "luigi-375-553488.png"
+  ],
+  "nativeBreakpointMeasurement": "existing desktop context resized through recorded sizes; 150ms settling; sampled values, not claimed as exhaustive fresh-context breakpoint specification",
+  "cartEvidence": "existing rc.4/rc.8 evidence reused; no new purchase interface activated",
+  "noOrderSubmitted": true,
+  "externalChanges": [],
+  "newPreviewBuild": null
+}

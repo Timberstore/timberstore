@@ -1,0 +1,1056 @@
+{
+  "mode": "without-timber",
+  "freshContext": true,
+  "initialCookies": [],
+  "sourceSha256": "5edb60fc2e7c8fe7d934cccb531d7079a957cb6e3ceebf14fadccfb1bbffa2ba",
+  "network": [
+    {
+      "url": "https://www.timberstore.sk/",
+      "status": 200
+    },
+    {
+      "url": "https://www.timberstore.sk/user/documents/allstyle.css?v=1111",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/uchytky_banner_1920x600_under1000kb.jpg?6ac3f678",
+      "status": 200
+    },
+    {
+      "url": "https://www.timberstore.sk/user/documents/allscript.js?v=111",
+      "status": 200
+    },
+    {
+      "url": "https://scripts.luigisbox.tech/LBX-1266949.js",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/logos/1-1.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/kineticke_vypinace_nove.png?6a4ecb16",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/365328-1_k-strongsinks-s3-set-drez-labe-1000x500mm-granit-cierna-bateria-garonne-chrom--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/led_pasy_nove.png?69f7be6f",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/348104-1_k-strongsinks-s3-set-drez-hron-430x460mm-granit-cierna-bateria-garonne-chrom--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/351032-1_k-blum-legrabox-zasuvka-m-500-mm-40-kg--blumotion-tob--biela-vnutorna--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Nase%20sluzby%20Banner/Spax.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/364169-1_k-strongmini-zasuvka-121-300mm--tlmeny-plnovysuv-30kg--biela--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Nase%20sluzby%20Banner/LED%20TEST.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Nase%20sluzby%20Banner/Kineticke.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/autocomplete.css",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Blum.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Franke.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Blanco.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Hafele.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Kessebohmer.svg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/GTV.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Italiana%20Ferramenta.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Spax.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Legrand.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Strong.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/images.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/documents/upload/Znacky%20Loga/Tulip.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/vyklopy_a_sklopy.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/vybavenie_satnikov.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/profily_pre_bezuchytkove_otvaranie.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/zavesne_kovanie.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/stlove_kovania1.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/uchytky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/led_pasiky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/ostatne_doplnky_v_kategorii_spojovaci_material.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/prislusenstvo_k_drezom.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/krytky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/drezy.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/lepidla.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/baliace_pasky.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/opravne_vosky_a_fixy.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/obaly_prislusenstvo.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/prislusenstvo-1.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/abs_hrany_(3).png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/nabytkove_zavesy1.png?69f8a3bb",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/zasuvkove_vysuvy.png?69f8a3e0",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/kuchynske_baterie.png?69f8a3d7",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/siroky_sortiment.png?69f7c33f",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/vyklopne_mechanizmy.png?69f8a44c",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/doprava_zadarmo-1.png?6a46345b",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/14_dnova_garancia.png?69f7c756",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/odborne_poradenstvo.png?69f7c7aa",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/361967-1_k-blum-legrabox--zasuvka-c-pure-400mm-40kg--tip-on--cierna--vnutorna--reling--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/361688-1_k-blum-legrabox--zasuvka-k-450mm-70kg--blumotion-tob--cierna--skrutka--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/361565-1_k-blum-legrabox--zasuvka-m-500mm-40kg--tip-on--cierna--vnutorna--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/skrutky_spax_web.png?6a024323",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/387717_k-strongsinks-s3-set-drez-labe-780x500mm-granit-bezovy-bateria-arda-bezova--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/423459_hettich-9318251-actro-5d-celovysuv-450-40-kg-sisy-l.jpg?ff=1&x=423&y=318&q=85&ts=6ae7c6c8&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/cistice.png?6a024227",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/423456_strongbins-prislusenstvo-nahradne-drzadlo-pre-vkladaci-sorter-16-l--antracit.jpg?ff=1&x=423&y=318&q=85&ts=6ae7c6c8&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/423450_agoform-drziak-nozov-do-pribornikov-scoop-ii-v2-strieborna.jpg?ff=1&x=423&y=318&q=85&ts=6ae7c6c8&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/423453_agoform-drziak-koreniciek-do-pribornikov-scoop-ii-v2-strieborna.jpg?ff=1&x=423&y=318&q=85&ts=6ae7c6c8&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/423444_spax-skruka-4x35mm-zapustna-hlava-pz-w-4c-mh.jpg?ff=1&x=423&y=318&q=85&ts=6ae7c6c8&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/423447_agoform-miska-k-pribornikom-scoop-ii-strieborna.jpg?ff=1&x=423&y=318&q=85&ts=6ae7c6c8&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/423438_k-hettich-actro-5d-skryty-celovysuv--450mm-70kg--sada-pre-16mm--spojky--sisy--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae7c6c8&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/359435-1_k-blum-merivobox--zasuvka-m-500mm-40kg--biela--skrutka--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/423441_blum-760h3200t-movento-celovysuv-320mm-40kg--tip-on.jpg?ff=1&x=423&y=318&q=85&ts=6ae7c6c8&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/359465-1_k-blum-merivobox--zasuvka-e-reling-500mm-40kg--biela--skrutka--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/359243-1_k-blum-merivobox--zasuvka-n-500mm-40kg--biela--skrutka--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/359873-1_k-blum-merivobox--zasuvka-k-500mm-40kg--biela--skrutka--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/360749-1_k-blum-merivobox--zasuvka-e-boxcover-500mm-40kg--biela--skrutka--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/360422-1_k-blum-merivobox--zasuvka-e-boxcap-500mm-40kg--biela--skrutka--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/360878-1_k-blum-merivobox--zasuvka-m-500mm-40kg--biela--skrutka--drez--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/360950-1_k-blum-merivobox--zasuvka-e-reling-500mm-40kg--biela--vrut--drez--komplet-.jpg?ff=1&x=423&y=318&q=85&ts=6ae04761&sg=2175fb9d",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/autocomplete.js",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/recco.js",
+      "status": 200
+    },
+    {
+      "url": "https://live.luigisbox.tech/v2/trending_queries?tracker_id=842889-1266949&hostname=www.timberstore.sk",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/timberstore.js",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/recco/css/luigis.css",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/search.js",
+      "status": 200
+    },
+    {
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.css",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/theme/boo/app.js",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/tlmice_dvierok__dorazove_sosovky.png",
+      "status": 200
+    },
+    {
+      "url": "https://www.timberstore.sk/favicon.png",
+      "status": 200
+    },
+    {
+      "url": "https://live.luigisbox.tech/v1/recommend?tracker_id=842889-1266949",
+      "status": 200
+    },
+    {
+      "url": "https://live.luigisbox.tech/v1/recommend?tracker_id=842889-1266949",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/recco/js/chunks/239.js",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/383591_k-blum-antaro--zasuvka-m-550-mm-30-kg--blumotion-tob--seda--inserta--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/343724-1_k-kes-lemans-ii--police-a-uchytenie--arena-classic-biela-strieb--l-450-min-1265--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/384134_k-blum-merivobox--zasuvka-k-600mm-40kg--biela--inserta--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "status": 200
+    },
+    {
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/382349_k-blum-antaro--zasuvka-d-550-mm-30-kg--blumotion-tob--biela--skrutka--drez--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/322868-1_strongfix-skrutka-pz-3-5x16mm-zapustna-hlava-zinok-zlty.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "status": 200
+    },
+    {
+      "url": "https://api.luigisbox.com/",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/346391-3_tulip-uchytovy-profil-lori-160-200-cierna-brusena.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/358310-1_k-blum-legrabox-m-500-mm-40-kg--skrutka-protism-podl-ago-fibre-80-722x474-biela--komplet-.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/shop/detail/410478-1_wireli-difuzor-pds--pds4-klip-c-cerny-liger--2m--metraz.jpg?ff=1&x=1024&y=768&q=85&ts=6ae04761&sg=161563f2",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/banners/vyklopne_zasuvky_1920x600_under1000kb.jpg?69efc427",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/zasuvkove_vysuvy.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/panty1.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/nohy_kolieska_klzaky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/kuchynsky_program.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/kancelarske_vybavenie.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/stolarske_pomocky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/knopky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/dverove_klucky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/prislusenstvo_k_uchytkam.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/zapustne_uchytky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/vesiaky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/police_korpusy.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/pracovne_dosky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/postelove_zdvihaky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/konfirmaty__skrutky_hmozdinky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/koliky__lamely__zalepky.png",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.myshoptet.com/usr/www.timberstore.sk/user/categories/thumb/konzoly__spojovacie_uholniky.png",
+      "status": 200
+    }
+  ],
+  "snapshots": [
+    {
+      "time": 2098.3000000002794,
+      "loader": {
+        "version": "v0.7.6",
+        "preview": false,
+        "pageLoadingTimer": 1
+      },
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Prihlásenie k vášmu účtu",
+          "id": "loginHeading",
+          "class": "",
+          "visible": false,
+          "y": 0,
+          "parent": ".popup-widget-inner"
+        },
+        {
+          "tag": "DIV",
+          "text": "TOP Produkty",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-1 h4",
+          "visible": true,
+          "y": 1447.453125,
+          "parent": ".content"
+        },
+        {
+          "tag": "DIV",
+          "text": "Novinky v ponuke",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-2 h4",
+          "visible": true,
+          "y": 2531.28125,
+          "parent": ".content"
+        },
+        {
+          "tag": "DIV",
+          "text": "Výsuvy MERIVOBOX (Blum)",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-3 h4",
+          "visible": true,
+          "y": 3211.09375,
+          "parent": ".content"
+        },
+        {
+          "tag": "H2",
+          "text": "Overené reálnou výrobou",
+          "id": "",
+          "class": "",
+          "visible": true,
+          "y": 4043.5,
+          "parent": ".timber-real-text"
+        },
+        {
+          "tag": "DIV",
+          "text": "FAQ - často kladené otázky",
+          "id": "",
+          "class": "h4 homepage-group-title",
+          "visible": true,
+          "y": 5242.671875,
+          "parent": ".content-wrapper faq-block js-faq-block"
+        },
+        {
+          "tag": "DIV",
+          "text": "Značky, ktorým dôverujeme",
+          "id": "",
+          "class": "h4 homepage-group-title",
+          "visible": true,
+          "y": 5750.265625,
+          "parent": ".content-wrapper partners-block js-partners-block"
+        },
+        {
+          "tag": "H2",
+          "text": "Zápätie",
+          "id": "",
+          "class": "sr-only",
+          "visible": true,
+          "y": 6138.859375,
+          "parent": "footer.footer is-white no-newsletter no-logo"
+        },
+        {
+          "tag": "H3",
+          "text": "Kontakt",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": true,
+          "y": 6199.859375,
+          "parent": ".custom-footer__contact  footer-item footer-item--contact"
+        },
+        {
+          "tag": "H3",
+          "text": "Informácie pre Vás",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": true,
+          "y": 6199.859375,
+          "parent": ".custom-footer__articles  footer-item accordion__item js-accordion-item"
+        },
+        {
+          "tag": "H3",
+          "text": "Prijímame online platby",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": true,
+          "y": 6199.859375,
+          "parent": ".custom-footer__onlinePayments  footer-item accordion__item js-accordion-item"
+        },
+        {
+          "tag": "H3",
+          "text": "Instagram",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": false,
+          "y": 0,
+          "parent": ".custom-footer__instagram  footer-item accordion__item js-accordion-item"
+        }
+      ],
+      "categories": [],
+      "widgets": [],
+      "scripts": [
+        "https://bat.bing.com/bat.js",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7",
+        "https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g-header.js.27c4444ba5dd6be3416d.js",
+        "https://scripts.luigisbox.tech/LBX-1266949.js",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.6/dist/timber.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6",
+        "https://cdn.luigisbox.tech/autocomplete.js",
+        "https://cdn.luigisbox.tech/recco.js",
+        "https://cdn.luigisbox.tech/timberstore.js",
+        "https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js",
+        "https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.ef40bf635618934522f0.js",
+        "https://cdn.myshoptet.com/prj/dist/master/cms/templates/frontend_templates/shared/js/jqueryui/i18n/datepicker-sk.js",
+        "https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/plugins/js/swiper.min.js?v=99",
+        "https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/app.min.js?v=1657",
+        "https://cdn.myshoptet.com/usr/webotvurci.myshoptet.com/user/documents/plugin-product-interconnection/product-interconnection-scripts-final.js?v=39",
+        "https://cdn.myshoptet.com/addons/dominikmartini/multiply_order/scripts.footer.min.js?daad9d87ba1aedb5b19b6f8228d674a9c84d1c04",
+        "https://www.timberstore.sk/user/documents/allscript.js?v=111"
+      ],
+      "carousel": "<div id=\"carousel\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"9000\" data-testid=\"carousel\"><ol class=\"carousel-indicators\"><li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li> <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li> <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li></ol>\n        <div class=\"carousel-inner\" style=\"min-height: 450px;\">\n                            <div class=\"item active carousel-item-banner-"
+    },
+    {
+      "time": 5141.5,
+      "loader": {
+        "version": "v0.7.6",
+        "preview": false,
+        "pageLoadingTimer": 1
+      },
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Prihlásenie k vášmu účtu",
+          "id": "loginHeading",
+          "class": "",
+          "visible": false,
+          "y": 0,
+          "parent": ".popup-widget-inner"
+        },
+        {
+          "tag": "DIV",
+          "text": "TOP Produkty",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-1 h4",
+          "visible": true,
+          "y": 1447.453125,
+          "parent": ".content"
+        },
+        {
+          "tag": "DIV",
+          "text": "Novinky v ponuke",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-2 h4",
+          "visible": true,
+          "y": 2531.28125,
+          "parent": ".content"
+        },
+        {
+          "tag": "DIV",
+          "text": "Výsuvy MERIVOBOX (Blum)",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-3 h4",
+          "visible": true,
+          "y": 3211.09375,
+          "parent": ".content"
+        },
+        {
+          "tag": "H2",
+          "text": "Overené reálnou výrobou",
+          "id": "",
+          "class": "",
+          "visible": true,
+          "y": 4043.5,
+          "parent": ".timber-real-text"
+        },
+        {
+          "tag": "DIV",
+          "text": "FAQ - často kladené otázky",
+          "id": "",
+          "class": "h4 homepage-group-title",
+          "visible": true,
+          "y": 5242.671875,
+          "parent": ".content-wrapper faq-block js-faq-block"
+        },
+        {
+          "tag": "DIV",
+          "text": "Značky, ktorým dôverujeme",
+          "id": "",
+          "class": "h4 homepage-group-title",
+          "visible": true,
+          "y": 5750.265625,
+          "parent": ".content-wrapper partners-block js-partners-block"
+        },
+        {
+          "tag": "H2",
+          "text": "Zápätie",
+          "id": "",
+          "class": "sr-only",
+          "visible": true,
+          "y": 6138.859375,
+          "parent": "footer.footer is-white no-newsletter no-logo"
+        },
+        {
+          "tag": "H3",
+          "text": "Kontakt",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": true,
+          "y": 6199.859375,
+          "parent": ".custom-footer__contact  footer-item footer-item--contact"
+        },
+        {
+          "tag": "H3",
+          "text": "Informácie pre Vás",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": true,
+          "y": 6199.859375,
+          "parent": ".custom-footer__articles  footer-item accordion__item js-accordion-item"
+        },
+        {
+          "tag": "H3",
+          "text": "Prijímame online platby",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": true,
+          "y": 6199.859375,
+          "parent": ".custom-footer__onlinePayments  footer-item accordion__item js-accordion-item"
+        },
+        {
+          "tag": "H3",
+          "text": "Instagram",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": false,
+          "y": 0,
+          "parent": ".custom-footer__instagram  footer-item accordion__item js-accordion-item"
+        }
+      ],
+      "categories": [],
+      "widgets": [],
+      "scripts": [
+        "https://bat.bing.com/bat.js",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7",
+        "https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g-header.js.27c4444ba5dd6be3416d.js",
+        "https://scripts.luigisbox.tech/LBX-1266949.js",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.6/dist/timber.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6",
+        "https://cdn.luigisbox.tech/autocomplete.js",
+        "https://cdn.luigisbox.tech/recco.js",
+        "https://cdn.luigisbox.tech/timberstore.js",
+        "https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js",
+        "https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.ef40bf635618934522f0.js",
+        "https://cdn.myshoptet.com/prj/dist/master/cms/templates/frontend_templates/shared/js/jqueryui/i18n/datepicker-sk.js",
+        "https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/plugins/js/swiper.min.js?v=99",
+        "https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/app.min.js?v=1657",
+        "https://cdn.myshoptet.com/usr/webotvurci.myshoptet.com/user/documents/plugin-product-interconnection/product-interconnection-scripts-final.js?v=39",
+        "https://cdn.myshoptet.com/addons/dominikmartini/multiply_order/scripts.footer.min.js?daad9d87ba1aedb5b19b6f8228d674a9c84d1c04",
+        "https://www.timberstore.sk/user/documents/allscript.js?v=111"
+      ],
+      "carousel": "<div id=\"carousel\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"9000\" data-testid=\"carousel\"><ol class=\"carousel-indicators\"><li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li> <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li> <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li></ol>\n        <div class=\"carousel-inner\" style=\"min-height: 450px;\">\n                            <div class=\"item active carousel-item-banner-"
+    },
+    {
+      "time": 17146.400000000373,
+      "loader": {
+        "version": "v0.7.6",
+        "preview": false,
+        "pageLoadingTimer": 1
+      },
+      "headings": [
+        {
+          "tag": "H2",
+          "text": "Prihlásenie k vášmu účtu",
+          "id": "loginHeading",
+          "class": "",
+          "visible": false,
+          "y": 0,
+          "parent": ".popup-widget-inner"
+        },
+        {
+          "tag": "DIV",
+          "text": "Vybrali sme pre Vás",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-5 h4 lb-reco-title",
+          "visible": true,
+          "y": 1008.0625,
+          "parent": ".content"
+        },
+        {
+          "tag": "DIV",
+          "text": "TOP Produkty",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-1 h4",
+          "visible": true,
+          "y": 2008.671875,
+          "parent": ".content"
+        },
+        {
+          "tag": "DIV",
+          "text": "Novinky v ponuke",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-2 h4",
+          "visible": true,
+          "y": 3142.5,
+          "parent": ".content"
+        },
+        {
+          "tag": "DIV",
+          "text": "Výsuvy MERIVOBOX (Blum)",
+          "id": "",
+          "class": "homepage-group-title homepage-products-heading-3 h4",
+          "visible": true,
+          "y": 3822.3125,
+          "parent": ".content"
+        },
+        {
+          "tag": "H2",
+          "text": "Overené reálnou výrobou",
+          "id": "",
+          "class": "",
+          "visible": true,
+          "y": 4654.71875,
+          "parent": ".timber-real-text"
+        },
+        {
+          "tag": "DIV",
+          "text": "FAQ - často kladené otázky",
+          "id": "",
+          "class": "h4 homepage-group-title",
+          "visible": true,
+          "y": 5853.890625,
+          "parent": ".content-wrapper faq-block js-faq-block"
+        },
+        {
+          "tag": "DIV",
+          "text": "Značky, ktorým dôverujeme",
+          "id": "",
+          "class": "h4 homepage-group-title",
+          "visible": true,
+          "y": 6361.484375,
+          "parent": ".content-wrapper partners-block js-partners-block"
+        },
+        {
+          "tag": "H2",
+          "text": "Zápätie",
+          "id": "",
+          "class": "sr-only",
+          "visible": true,
+          "y": 6750.078125,
+          "parent": "footer.footer is-white no-newsletter no-logo"
+        },
+        {
+          "tag": "H3",
+          "text": "Kontakt",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": true,
+          "y": 6811.078125,
+          "parent": ".custom-footer__contact  footer-item footer-item--contact"
+        },
+        {
+          "tag": "H3",
+          "text": "Informácie pre Vás",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": true,
+          "y": 6811.078125,
+          "parent": ".custom-footer__articles  footer-item accordion__item js-accordion-item"
+        },
+        {
+          "tag": "H3",
+          "text": "Prijímame online platby",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": true,
+          "y": 6811.078125,
+          "parent": ".custom-footer__onlinePayments  footer-item accordion__item js-accordion-item"
+        },
+        {
+          "tag": "H3",
+          "text": "Instagram",
+          "id": "",
+          "class": "pageElement__heading accordion__trigger js-accordion-trigger",
+          "visible": false,
+          "y": 0,
+          "parent": ".custom-footer__instagram  footer-item accordion__item js-accordion-item"
+        }
+      ],
+      "categories": [],
+      "widgets": [
+        {
+          "id": "lb-recommend-element-homepage_personalized",
+          "class": "",
+          "text": "High-contrast mode\n        Vybrali sme pre Vás\n        Naspäť  Ďalej  \n                            K",
+          "y": 1008.0625
+        },
+        {
+          "id": "lb-recommend-element-homepage_personalized-script",
+          "class": "",
+          "text": "\n                {\n                    \"@context\": \"http://schema.org\",\n                    \"@type\":",
+          "y": 0
+        },
+        {
+          "id": "lb-recommend-element-homepage_last_seen",
+          "class": "",
+          "text": "\n                \n                {\n                    \"@context\": \"http://schema.org\",\n           ",
+          "y": 2678.484375
+        },
+        {
+          "id": "lb-recommend-element-homepage_last_seen-script",
+          "class": "",
+          "text": "\n                {\n                    \"@context\": \"http://schema.org\",\n                    \"@type\":",
+          "y": 0
+        }
+      ],
+      "scripts": [
+        "https://bat.bing.com/bat.js",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-T6HDTXT7",
+        "https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g-header.js.27c4444ba5dd6be3416d.js",
+        "https://scripts.luigisbox.tech/LBX-1266949.js",
+        "https://cdn.jsdelivr.net/gh/Timberstore/timberstore@v0.7.6/dist/timber.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-80H08B2PC6",
+        "https://cdn.luigisbox.tech/autocomplete.js",
+        "https://cdn.luigisbox.tech/recco.js",
+        "https://cdn.luigisbox.tech/timberstore.js",
+        "https://cdn.luigisbox.tech/search.js",
+        "https://cdn.luigisbox.tech/theme/boo/app.js",
+        "https://cdn.myshoptet.com/prj/dist/master/cms/libs/jquery/jquery-1.11.3-sec1.min.js",
+        "https://cdn.myshoptet.com/prj/dist/master/shop/dist/main-3g.js.ef40bf635618934522f0.js",
+        "https://cdn.myshoptet.com/prj/dist/master/cms/templates/frontend_templates/shared/js/jqueryui/i18n/datepicker-sk.js",
+        "https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/plugins/js/swiper.min.js?v=99",
+        "https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/app.min.js?v=1657",
+        "https://cdn.myshoptet.com/usr/webotvurci.myshoptet.com/user/documents/plugin-product-interconnection/product-interconnection-scripts-final.js?v=39",
+        "https://cdn.myshoptet.com/addons/dominikmartini/multiply_order/scripts.footer.min.js?daad9d87ba1aedb5b19b6f8228d674a9c84d1c04",
+        "https://www.timberstore.sk/user/documents/allscript.js?v=111"
+      ],
+      "carousel": "<div id=\"carousel\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"9000\" data-testid=\"carousel\"><ol class=\"carousel-indicators\"><li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"\"></li> <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\" class=\"active\"></li> <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li></ol>\n        <div class=\"carousel-inner\" style=\"min-height: 450px;\">\n                            <div class=\"item carousel-item-banne"
+    }
+  ],
+  "mutations": [
+    {
+      "operation": "insertBefore",
+      "target": "DIV#",
+      "node": "DIV#lb-recommend-element-homepage_personalized.",
+      "text": "",
+      "stack": "Error\n    at Node.<computed> [as insertBefore] (<anonymous>:2:533)\n    at Object.Wi [as insertBefore] (https://cdn.luigisbox.tech/recco.js:14:47116)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50110)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at ti.__patch__ (https://cdn.luigisbox.tech/recco.js:14:53921)\n    at t._update (https://cdn.luigisbox.tech/recco.js:14:22080)\n    at ti.r (https://cdn.luigisbox.tech/recco.js:14:22826)\n    at t.get (https://cdn.luigisbox.tech/recco.js:14:28600)\n    at new t (https://cdn.luigisbox.tech/recco.js:14:28513)",
+      "time": 6054.800000000279
+    },
+    {
+      "operation": "appendChild",
+      "target": "MAIN#",
+      "node": "DIV#lb-recommend-element-homepage_last_seen.",
+      "text": "",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at ti.__patch__ (https://cdn.luigisbox.tech/recco.js:14:53921)\n    at t._update (https://cdn.luigisbox.tech/recco.js:14:22080)\n    at ti.r (https://cdn.luigisbox.tech/recco.js:14:22826)\n    at t.get (https://cdn.luigisbox.tech/recco.js:14:28600)\n    at new t (https://cdn.luigisbox.tech/recco.js:14:28513)",
+      "time": 6057.100000000093
+    },
+    {
+      "operation": "appendChild",
+      "target": "MAIN#",
+      "node": "DIV#.homepage-group-title homepage-products-heading-5 h4 lb-reco-title",
+      "text": "\n        Vybrali sme pre Vás\n      ",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49370)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)",
+      "time": 8346.900000000373
+    },
+    {
+      "operation": "appendChild",
+      "target": "MAIN#",
+      "node": "DIV#.products products-block klasik-produkts custom-products homepage-products-5 carousel slick-initialized slick-slider lb-recommend",
+      "text": "",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49370)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)",
+      "time": 8347
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "MAIN#.content",
+      "text": "\n        Vybrali sme pre Vás\n       ",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49370)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at a.__patch__ (https://cdn.luigisbox.tech/recco.js:14:53921)\n    at t._update (https://cdn.luigisbox.tech/recco.js:14:22063)",
+      "time": 8347.100000000093
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "DIV#.content-wrapper-in",
+      "text": "\n        Vybrali sme pre Vás\n       ",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49370)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at a.__patch__ (https://cdn.luigisbox.tech/recco.js:14:53921)\n    at t._update (https://cdn.luigisbox.tech/recco.js:14:22063)\n    at a.r (https://cdn.luigisbox.tech/recco.js:14:22826)\n    at t.get (https://cdn.luigisbox.tech/recco.js:14:28600)",
+      "time": 8347.100000000093
+    },
+    {
+      "operation": "insertBefore",
+      "target": "DIV#lb-recommend-element-homepage_personalized",
+      "node": "DIV#.content-wrapper container lb-recommender-wrapper",
+      "text": "\n        Vybrali sme pre Vás\n       ",
+      "stack": "Error\n    at Node.<computed> [as insertBefore] (<anonymous>:2:533)\n    at Object.Wi [as insertBefore] (https://cdn.luigisbox.tech/recco.js:14:47116)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50110)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49370)\n    at a.__patch__ (https://cdn.luigisbox.tech/recco.js:14:53921)\n    at t._update (https://cdn.luigisbox.tech/recco.js:14:22063)\n    at a.r (https://cdn.luigisbox.tech/recco.js:14:22826)\n    at t.get (https://cdn.luigisbox.tech/recco.js:14:28600)\n    at t.run (https://cdn.luigisbox.tech/recco.js:14:29337)\n    at En (https://cdn.luigisbox.tech/recco.js:14:25042)",
+      "time": 8347.200000000186
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "DIV#.product lb-product lb-recommend",
+      "text": " \n                            Komplet\n                          \n                        K-BLUM Antaro, zásuvka M 550 mm/30 kg, Blumotion/TOB, šedá, Inserta (komplet) \n            ",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)",
+      "time": 8610.600000000093
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "DIV#.product lb-product lb-recommend",
+      "text": " \n                            Komplet\n                          \n                        K-BLUM Merivobox, zásuvka K 600mm/40kg, biela, Inserta (komplet) \n                         ",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)",
+      "time": 8612.100000000093
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "DIV#.product lb-product lb-recommend",
+      "text": " \n                            Komplet\n                          \n                        K-KES LeMans II, police a uchytenie, Arena Classic,biela/strieb. Ľ,450/min 1265 (komplet) \n",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)",
+      "time": 8613.100000000093
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "DIV#.product lb-product lb-recommend",
+      "text": "   \n                        StrongFix Skrutka PZ 3,5x16mm zápustná hlava zinok žltý \n                           \n                                    0,02 € \n                       ",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)",
+      "time": 8614.30000000028
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "DIV#.product lb-product lb-recommend",
+      "text": " \n                            Komplet\n                          \n                        K-BLUM Antaro, zásuvka D 550 mm/30 kg, Blumotion/TOB, biela, skrutka, drez (komplet) \n     ",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)",
+      "time": 8615.30000000028
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "DIV#.product lb-product lb-recommend",
+      "text": " \n                            Komplet\n                          \n                        K-BLUM Legrabox M 500 mm/40 kg, skrutka+protišm.podl.Ago-Fibre 80(722x474)biela (komplet) \n",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)",
+      "time": 8616.100000000093
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "DIV#.product lb-product lb-recommend",
+      "text": "   \n                        Wireli Difuzor PDS, PDS4 KLIP C ČERNÝ LIGER, 2m (metráž) \n                           \n                                    11,65 € \n                     ",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)",
+      "time": 8617.30000000028
+    },
+    {
+      "operation": "appendChild",
+      "target": "DIV#",
+      "node": "DIV#.product lb-product lb-recommend",
+      "text": "   \n                        TULIP Úchytový profil Lori 160/200 čierna brúsená \n                           \n                                    3,54 € \n                             ",
+      "stack": "Error\n    at Node.<computed> [as appendChild] (<anonymous>:2:533)\n    at Object.Ki [as appendChild] (https://cdn.luigisbox.tech/recco.js:14:47187)\n    at y (https://cdn.luigisbox.tech/recco.js:14:50132)\n    at m (https://cdn.luigisbox.tech/recco.js:14:49649)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49233)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)\n    at h (https://cdn.luigisbox.tech/recco.js:14:49348)\n    at _ (https://cdn.luigisbox.tech/recco.js:14:50206)",
+      "time": 8618.900000000373
+    }
+  ]
+}

@@ -1,0 +1,1918 @@
+{
+  "recordedAt": "2026-11-03T14:53:01.200Z",
+  "diagnosticOnly": true,
+  "frontendActivated": false,
+  "analyticsEmitted": false,
+  "requests": [
+    {
+      "query": "306317",
+      "request": "https://live.luigisbox.com/search?q=306317&tracker_id=842889-1266949&f%5B%5D=type%3Aproduct&size=3&facets=brand%2Ccolor%2Cflags%2Cprice_amount&dynamic_facets_size=0",
+      "productCount": 1,
+      "facets": [
+        "brand",
+        "flags",
+        "price_amount"
+      ],
+      "hits": [
+        {
+          "identity": "/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/",
+          "type": "product",
+          "title": "BLUM 71B3550 záves,naložený,Blumotion,skrutka,110°,Onyx",
+          "fields": {
+            "price_amount": 4.11,
+            "unit": [
+              "ks"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "250"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              4463
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              0
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "306317"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "centralny-sklad",
+                "color": "#5c5757",
+                "title": "Centrálny sklad",
+                "show_in_detail": false
+              },
+              {
+                "show_in_search": true,
+                "code": "new",
+                "color": "#a98484",
+                "title": "Novinka",
+                "show_in_detail": true
+              }
+            ]
+          },
+          "attributeNames": [
+            "#kamaradi",
+            "#kamaradi-hodnoty",
+            "Balenie",
+            "Montáž do materiálu",
+            "Montáž na podložku",
+            "Rozbaliteľnosť",
+            "Uhol otvorenia",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "categories_lvl_4",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "main_category_lvl_4",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "related_products",
+            "search_flags",
+            "serial_number",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 3
+        }
+      ]
+    },
+    {
+      "query": "553488",
+      "request": "https://live.luigisbox.com/search?q=553488&tracker_id=842889-1266949&f%5B%5D=type%3Aproduct&size=3&facets=brand%2Ccolor%2Cflags%2Cprice_amount&dynamic_facets_size=0",
+      "productCount": 1,
+      "facets": [
+        "brand",
+        "flags",
+        "price_amount"
+      ],
+      "hits": [
+        {
+          "identity": "/k-strongsinks-s3-set-drez-hron-430x460mm-granit-cierny-bateria-garonne-chrom/",
+          "type": "product",
+          "title": "K-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)",
+          "fields": {
+            "price_amount": 225.83,
+            "unit": [
+              "sada"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "1"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              80
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              0
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "553488"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "centralny-sklad",
+                "color": "#5c5757",
+                "title": "Centrálny sklad",
+                "show_in_detail": false
+              },
+              {
+                "show_in_search": true,
+                "code": "komplet",
+                "color": "#745c06",
+                "title": "Komplet",
+                "show_in_detail": true
+              }
+            ]
+          },
+          "attributeNames": [
+            "#kamaradi",
+            "#kamaradi-hodnoty",
+            "Balenie",
+            "Rozbaliteľnosť",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "search_flags",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        }
+      ]
+    },
+    {
+      "query": "344255",
+      "request": "https://live.luigisbox.com/search?q=344255&tracker_id=842889-1266949&f%5B%5D=type%3Aproduct&size=3&facets=brand%2Ccolor%2Cflags%2Cprice_amount&dynamic_facets_size=0",
+      "productCount": 2,
+      "facets": [
+        "brand",
+        "flags",
+        "price_amount"
+      ],
+      "hits": [
+        {
+          "identity": "/kolik-spojovaci-dreveny-kalibrovany-breza-8x35mm-s-lepidlom--8650-ks/",
+          "type": "product",
+          "title": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks)",
+          "fields": {
+            "price_amount": 186.49,
+            "unit": [
+              "balenie"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "32"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              116
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              0
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "344255"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "centralny-sklad",
+                "color": "#5c5757",
+                "title": "Centrálny sklad",
+                "show_in_detail": false
+              }
+            ]
+          },
+          "attributeNames": [
+            "#kamaradi",
+            "#kamaradi-hodnoty",
+            "Balenie",
+            "Dĺžka mm",
+            "Materiál",
+            "Priemer mm",
+            "Rozbaliteľnosť",
+            "S lepidlom",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "search_flags",
+            "serial_number",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        },
+        {
+          "identity": "/strong-kolik-spojovaci-dreveny-buk-8x35-mm/",
+          "type": "product",
+          "title": "Strong Kolík spojovací drevený buk 8x35 mm",
+          "fields": {
+            "price_amount": 6.37,
+            "unit": [
+              "kg"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "20"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              744
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              1
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "01413"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "skladom",
+                "color": "#121111",
+                "title": "Skladom",
+                "show_in_detail": false
+              }
+            ]
+          },
+          "attributeNames": [
+            "#kamaradi",
+            "#kamaradi-hodnoty",
+            "Balenie",
+            "Dĺžka mm",
+            "Materiál",
+            "Priemer mm",
+            "Rozbaliteľnosť",
+            "S lepidlom",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "search_flags",
+            "serial_number",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        }
+      ]
+    },
+    {
+      "query": "491405",
+      "request": "https://live.luigisbox.com/search?q=491405&tracker_id=842889-1266949&f%5B%5D=type%3Aproduct&size=3&facets=brand%2Ccolor%2Cflags%2Cprice_amount&dynamic_facets_size=0",
+      "productCount": 10,
+      "facets": [
+        "brand",
+        "flags",
+        "price_amount"
+      ],
+      "hits": [
+        {
+          "identity": "/stronglumio-led-pasik-cob-24v-12w-m--480-led-m--8mm--biela-neutralna/",
+          "type": "product",
+          "title": "StrongLumio LED pásik COB 24V 12W/m (480 LED/m) 8mm, biela neutrálna",
+          "fields": {
+            "price_amount": 6.03,
+            "unit": [
+              "m"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "50"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              28334
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              1
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "491405"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "skladom",
+                "color": "#121111",
+                "title": "Skladom",
+                "show_in_detail": false
+              }
+            ]
+          },
+          "attributeNames": [
+            "#kamaradi",
+            "#kamaradi-hodnoty",
+            "Balenie",
+            "CRI Ra vernosť farieb",
+            "Farba svetla",
+            "Príkon W",
+            "Rozbaliteľnosť",
+            "Stupeň ochrany",
+            "Svetelný výkon lm m",
+            "Výstupné napätie V",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "related_products",
+            "search_flags",
+            "serial_number",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        },
+        {
+          "identity": "/k-stronglumio-led-cob-24v-12w-m-tepla-ii-surface-strieb-krytka-priesv-2m-13/",
+          "type": "product",
+          "title": "K-StrongLumio LED COB 24V 12W/m teplá II, Surface strieb., krytka priesv., 2m",
+          "fields": {
+            "price_amount": 87.65,
+            "unit": [
+              "ks"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "1"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              230
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              0
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "560277"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "centralny-sklad",
+                "color": "#5c5757",
+                "title": "Centrálny sklad",
+                "show_in_detail": false
+              },
+              {
+                "show_in_search": true,
+                "code": "new",
+                "color": "#a98484",
+                "title": "Novinka",
+                "show_in_detail": true
+              }
+            ]
+          },
+          "attributeNames": [
+            "Balenie",
+            "Rozbaliteľnosť",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "search_flags",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        },
+        {
+          "identity": "/k-stronglumio-led-cob-24v-12w-m-tepla-ii-surface-strieb-krytka-priesv-2m-7/",
+          "type": "product",
+          "title": "K-StrongLumio LED COB 24V 12W/m teplá II, Surface strieb., krytka priesv., 2m",
+          "fields": {
+            "price_amount": 81.35,
+            "unit": [
+              "ks"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "1"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              408
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              0
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "560257"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "centralny-sklad",
+                "color": "#5c5757",
+                "title": "Centrálny sklad",
+                "show_in_detail": false
+              },
+              {
+                "show_in_search": true,
+                "code": "new",
+                "color": "#a98484",
+                "title": "Novinka",
+                "show_in_detail": true
+              }
+            ]
+          },
+          "attributeNames": [
+            "Balenie",
+            "Rozbaliteľnosť",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "search_flags",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        }
+      ]
+    },
+    {
+      "query": "237597",
+      "request": "https://live.luigisbox.com/search?q=237597&tracker_id=842889-1266949&f%5B%5D=type%3Aproduct&size=3&facets=brand%2Ccolor%2Cflags%2Cprice_amount&dynamic_facets_size=0",
+      "productCount": 1,
+      "facets": [
+        "brand",
+        "flags",
+        "price_amount"
+      ],
+      "hits": [
+        {
+          "identity": "/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+          "type": "product",
+          "title": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX",
+          "fields": {
+            "price_amount": 0.09,
+            "unit": [
+              "ks"
+            ],
+            "minimum_amount": [
+              100
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "100"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              3800
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              0
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "237597"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "centralny-sklad",
+                "color": "#5c5757",
+                "title": "Centrálny sklad",
+                "show_in_detail": false
+              }
+            ]
+          },
+          "attributeNames": [
+            "Balenie",
+            "Rozbaliteľnosť",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "categories_lvl_4",
+            "categories_lvl_5",
+            "categories_lvl_6",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "main_category_lvl_4",
+            "main_category_lvl_5",
+            "main_category_lvl_6",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "related_products",
+            "search_flags",
+            "serial_number",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        }
+      ]
+    },
+    {
+      "query": "494606",
+      "request": "https://live.luigisbox.com/search?q=494606&tracker_id=842889-1266949&f%5B%5D=type%3Aproduct&size=3&facets=brand%2Ccolor%2Cflags%2Cprice_amount&dynamic_facets_size=0",
+      "productCount": 1,
+      "facets": [
+        "brand",
+        "flags",
+        "price_amount"
+      ],
+      "hits": [
+        {
+          "identity": "/tulip-knopka-jota-zlata-matna/",
+          "type": "product",
+          "title": "TULIP Knopka Jota zlatá matná",
+          "fields": {
+            "price_amount": 2.26,
+            "unit": [
+              "ks"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "50"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              1337
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              1
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "494606"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "skladom",
+                "color": "#121111",
+                "title": "Skladom",
+                "show_in_detail": false
+              }
+            ]
+          },
+          "attributeNames": [
+            "#kamaradi",
+            "#kamaradi-hodnoty",
+            "Balenie",
+            "Materiál knopky",
+            "Rozbaliteľnosť",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "search_flags",
+            "serial_number",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 3
+        }
+      ]
+    },
+    {
+      "query": "BLUM 450",
+      "request": "https://live.luigisbox.com/search?q=BLUM+450&tracker_id=842889-1266949&f%5B%5D=type%3Aproduct&size=3&facets=brand%2Ccolor%2Cflags%2Cprice_amount&dynamic_facets_size=0",
+      "productCount": 521,
+      "facets": [
+        "brand",
+        "color",
+        "flags",
+        "price_amount"
+      ],
+      "hits": [
+        {
+          "identity": "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+          "type": "product",
+          "title": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)",
+          "fields": {
+            "price_amount": 125.9,
+            "unit": [
+              "sada"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "1"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              8
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              0
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "255445"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "centralny-sklad",
+                "color": "#5c5757",
+                "title": "Centrálny sklad",
+                "show_in_detail": false
+              },
+              {
+                "show_in_search": true,
+                "code": "komplet",
+                "color": "#745c06",
+                "title": "Komplet",
+                "show_in_detail": true
+              }
+            ]
+          },
+          "attributeNames": [
+            "#kamaradi",
+            "#kamaradi-hodnoty",
+            "Balenie",
+            "Dĺžka mm",
+            "Farba",
+            "Nosnosť kg",
+            "Pohyb výsuvu",
+            "Priložené čelné kovanie",
+            "Rozbaliteľnosť",
+            "Svetlosť výsuvu mm",
+            "Výška bočnice mm",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "categories_lvl_4",
+            "categories_lvl_5",
+            "categories_lvl_6",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "main_category_lvl_4",
+            "main_category_lvl_5",
+            "main_category_lvl_6",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "related_products",
+            "search_flags",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        },
+        {
+          "identity": "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+          "type": "product",
+          "title": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela  , vnútorná, sklo (komplet)",
+          "fields": {
+            "price_amount": 118.08,
+            "unit": [
+              "sada"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "1"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              8
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              0
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "255401"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "centralny-sklad",
+                "color": "#5c5757",
+                "title": "Centrálny sklad",
+                "show_in_detail": false
+              },
+              {
+                "show_in_search": true,
+                "code": "komplet",
+                "color": "#745c06",
+                "title": "Komplet",
+                "show_in_detail": true
+              }
+            ]
+          },
+          "attributeNames": [
+            "#kamaradi",
+            "#kamaradi-hodnoty",
+            "Balenie",
+            "Dĺžka mm",
+            "Farba",
+            "Nosnosť kg",
+            "Pohyb výsuvu",
+            "Priložené čelné kovanie",
+            "Rozbaliteľnosť",
+            "Svetlosť výsuvu mm",
+            "Výška bočnice mm",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "categories_lvl_4",
+            "categories_lvl_5",
+            "categories_lvl_6",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "main_category_lvl_4",
+            "main_category_lvl_5",
+            "main_category_lvl_6",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "related_products",
+            "search_flags",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        },
+        {
+          "identity": "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+          "type": "product",
+          "title": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)",
+          "fields": {
+            "price_amount": 118.08,
+            "unit": [
+              "sada"
+            ],
+            "minimum_amount": [
+              1
+            ],
+            "vat_rate": [
+              23
+            ],
+            "Balenie": [
+              "1"
+            ],
+            "negative_amount": [
+              false
+            ],
+            "availability": 1,
+            "availability_stock_quantity": [
+              8
+            ],
+            "availability_timber_sklad": [
+              0
+            ],
+            "availability_dolny_hricov": [
+              0
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "availability_centralny_sklad_": [
+              1
+            ],
+            "code": [
+              "255397"
+            ],
+            "flags_codes": [
+              {
+                "show_in_search": false,
+                "code": "centralny-sklad",
+                "color": "#5c5757",
+                "title": "Centrálny sklad",
+                "show_in_detail": false
+              },
+              {
+                "show_in_search": true,
+                "code": "komplet",
+                "color": "#745c06",
+                "title": "Komplet",
+                "show_in_detail": true
+              }
+            ]
+          },
+          "attributeNames": [
+            "#kamaradi",
+            "#kamaradi-hodnoty",
+            "Balenie",
+            "Dĺžka mm",
+            "Farba",
+            "Nosnosť kg",
+            "Pohyb výsuvu",
+            "Priložené čelné kovanie",
+            "Rozbaliteľnosť",
+            "Svetlosť výsuvu mm",
+            "Výška bočnice mm",
+            "all_categories",
+            "availability",
+            "availability_centralny_sklad_",
+            "availability_dolny_hricov",
+            "availability_in_stock",
+            "availability_rank",
+            "availability_rank_color",
+            "availability_rank_text",
+            "availability_stock_quantity",
+            "availability_timber_sklad",
+            "bool_tags",
+            "boost",
+            "boosted_via",
+            "brand",
+            "categories",
+            "categories_lvl_1",
+            "categories_lvl_2",
+            "categories_lvl_3",
+            "categories_lvl_4",
+            "categories_lvl_5",
+            "categories_lvl_6",
+            "category",
+            "category_upto_lvl_1",
+            "category_upto_lvl_2",
+            "category_upto_lvl_3",
+            "category_upto_lvl_4",
+            "category_upto_lvl_5",
+            "category_uuid",
+            "code",
+            "color",
+            "color_code",
+            "creation_time",
+            "currency_code",
+            "description",
+            "discount_price_absolute_amount",
+            "discount_price_as_received_absolute_amount",
+            "discount_price_as_received_percentage_amount",
+            "discount_price_as_received_proportion_amount",
+            "discount_price_eur_absolute_amount",
+            "discount_price_eur_as_received_absolute_amount",
+            "discount_price_eur_as_received_percentage_amount",
+            "discount_price_eur_as_received_proportion_amount",
+            "discount_price_eur_percentage_amount",
+            "discount_price_eur_proportion_amount",
+            "discount_price_min_ratio_absolute_amount",
+            "discount_price_min_ratio_percentage_amount",
+            "discount_price_min_ratio_proportion_amount",
+            "discount_price_percentage_amount",
+            "discount_price_proportion_amount",
+            "flags",
+            "flags_codes",
+            "free_billing",
+            "free_shipping",
+            "image_link",
+            "images",
+            "item_type",
+            "loyalty_discount",
+            "main_category_lvl_1",
+            "main_category_lvl_2",
+            "main_category_lvl_3",
+            "main_category_lvl_4",
+            "main_category_lvl_5",
+            "main_category_lvl_6",
+            "minimum_amount",
+            "negative_amount",
+            "original_url",
+            "part_number",
+            "price",
+            "price_amount",
+            "price_as_received",
+            "price_as_received_amount",
+            "price_eur",
+            "price_eur_amount",
+            "price_eur_as_received",
+            "price_eur_as_received_amount",
+            "price_min_ratio",
+            "price_min_ratio_amount",
+            "rating_score",
+            "rating_votes_total",
+            "related_products",
+            "search_flags",
+            "title",
+            "title_common",
+            "unit",
+            "uuid",
+            "vat_rate",
+            "visibility"
+          ],
+          "nestedCount": 2
+        }
+      ]
+    },
+    {
+      "state": {
+        "query": "BLUM 450",
+        "filters": [
+          "flags:Skladom"
+        ],
+        "sort": "",
+        "page": 1
+      },
+      "request": "https://live.luigisbox.com/search?q=BLUM+450&f%5B%5D=flags%3ASkladom&tracker_id=842889-1266949&f%5B%5D=type%3Aproduct&size=3&facets=brand%2Ccolor%2Cflags%2Cprice_amount&dynamic_facets_size=0",
+      "productCount": 14,
+      "filters": [
+        "flags:Skladom",
+        "type:product"
+      ],
+      "facets": [
+        "brand",
+        "color",
+        "flags",
+        "price_amount"
+      ],
+      "returnedPrices": [
+        21.16,
+        24.24,
+        24.6
+      ]
+    },
+    {
+      "state": {
+        "query": "BLUM 450",
+        "filters": [
+          "flags:Skladom",
+          "color:Biela",
+          "brand:BLUM"
+        ],
+        "sort": "price_amount:asc",
+        "page": 1
+      },
+      "request": "https://live.luigisbox.com/search?q=BLUM+450&f%5B%5D=flags%3ASkladom&f%5B%5D=color%3ABiela&f%5B%5D=brand%3ABLUM&sort=price_amount%3Aasc&tracker_id=842889-1266949&f%5B%5D=type%3Aproduct&size=3&facets=brand%2Ccolor%2Cflags%2Cprice_amount&dynamic_facets_size=0",
+      "productCount": 3,
+      "filters": [
+        "flags:Skladom",
+        "color:Biela",
+        "brand:BLUM",
+        "type:product"
+      ],
+      "facets": [
+        "brand",
+        "color",
+        "flags",
+        "price_amount"
+      ],
+      "returnedPrices": [
+        8.06,
+        21.16,
+        22.95
+      ]
+    }
+  ],
+  "unavailableCandidates": {
+    "productCount": 0,
+    "hits": [],
+    "qualifiedUnorderable": false
+  }
+}

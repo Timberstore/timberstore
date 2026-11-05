@@ -1,0 +1,209 @@
+[
+  {
+    "tag": "h2",
+    "id": "loginHeading",
+    "class": "",
+    "text": "Prihlásenie k vášmu účtu"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "row banners-row"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner position--benefitHomepage"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__item"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__picture"
+  },
+  {
+    "tag": "img",
+    "id": "",
+    "class": "benefitBanner__img"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__content"
+  },
+  {
+    "tag": "strong",
+    "id": "",
+    "class": "benefitBanner__title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__data"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__item"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__picture"
+  },
+  {
+    "tag": "img",
+    "id": "",
+    "class": "benefitBanner__img"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__content"
+  },
+  {
+    "tag": "strong",
+    "id": "",
+    "class": "benefitBanner__title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__data"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__item"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__picture"
+  },
+  {
+    "tag": "img",
+    "id": "",
+    "class": "benefitBanner__img"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__content"
+  },
+  {
+    "tag": "strong",
+    "id": "",
+    "class": "benefitBanner__title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__data"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__item"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__picture"
+  },
+  {
+    "tag": "img",
+    "id": "",
+    "class": "benefitBanner__img"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__content"
+  },
+  {
+    "tag": "strong",
+    "id": "",
+    "class": "benefitBanner__title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "benefitBanner__data"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "homepage-group-title homepage-products-heading-1 h4",
+    "text": "TOP Produkty"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "homepage-group-title homepage-products-heading-2 h4",
+    "text": "Novinky v ponuke"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "homepage-group-title homepage-products-heading-3 h4",
+    "text": "Výsuvy MERIVOBOX (Blum)"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "footer-banners row banner-wrapper"
+  },
+  {
+    "tag": "h2",
+    "id": "",
+    "class": "",
+    "text": "Overené reálnou výrobou"
+  },
+  {
+    "tag": "h2",
+    "id": "",
+    "class": "sr-only",
+    "text": "Zápätie"
+  },
+  {
+    "tag": "h3",
+    "id": "",
+    "class": "pageElement__heading",
+    "text": "\n        Kontakt\n    "
+  },
+  {
+    "tag": "h3",
+    "id": "",
+    "class": "pageElement__heading",
+    "text": "\n            Informácie pre Vás\n        "
+  },
+  {
+    "tag": "h3",
+    "id": "",
+    "class": "pageElement__heading",
+    "text": "\n        Prijímame online platby\n    "
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "h4 homepage-group-title",
+    "text": "\n    FAQ - často kladené otázky\n  "
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "h4 homepage-group-title",
+    "text": "\n        Značky, ktorým dôverujeme\n    "
+  },
+  {
+    "tag": "h3",
+    "id": "",
+    "class": "pageElement__heading",
+    "text": "\n                Instagram\n            "
+  }
+]

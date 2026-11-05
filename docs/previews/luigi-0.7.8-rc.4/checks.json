@@ -1,0 +1,15 @@
+{
+  "build": "0.7.8-rc.4",
+  "commit": "a4e7ebc70e0a98216b3bd9c76f9c4406adb29154",
+  "contexts": 4,
+  "purchaseCases": 12,
+  "recommendationPurchases": 3,
+  "filterContexts": 4,
+  "nativeEnhancerExcludedFromVendorCards": true,
+  "allReferencedImagesExist": true,
+  "staleAfterScreenshots": [],
+  "orderSubmitted": false,
+  "productionVersion": "v0.7.7",
+  "fullIntegrationAcceptance": false,
+  "remaining": "See REPORT.md and SUPPORT-REQUEST.md"
+}

@@ -1,0 +1,11 @@
+{
+  "lastBottom": 575.421875,
+  "buttonTop": 575.421875,
+  "scrollTop": 0,
+  "client": 528,
+  "content": 528,
+  "hitTests": {
+    "header": true,
+    "close": true
+  }
+}

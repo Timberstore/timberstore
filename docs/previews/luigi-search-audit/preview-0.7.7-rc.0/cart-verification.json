@@ -1,0 +1,10 @@
+{
+  "expected": "NOVINKA\nBLUM 71B3550 záves, naložený, Blumotion, skrutka,110°, Onyx\n4,11 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306317",
+  "cart": "BLUM 71B3550 záves,naložený,Blumotion,skrutka,110°,Onyx Kód: 306317\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 6 (OD 0,04 €)\nMnožstvo\n+\n−\n4,11 € / ks\n4,11 €",
+  "quantities": [
+    "1",
+    "1"
+  ],
+  "version": "v0.7.7-rc.0",
+  "events": []
+}

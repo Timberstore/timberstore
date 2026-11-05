@@ -1,0 +1,467 @@
+{
+  "build": "0.7.8-rc.4",
+  "buildCommit": "a4e7ebc70e0a98216b3bd9c76f9c4406adb29154",
+  "createdAt": "2026-11-02T23:23:09.751158+00:00",
+  "before": "rejected rc.0 3cef596; popup-conflict-before is rc.2 2c27b0f",
+  "after": "rc.4 a4e7ebc",
+  "nativeReference": "production v0.7.7, same SKU553488",
+  "comparisonSheets": "Browser-rendered documentation using unmodified original screenshots; originals retained",
+  "screenshots": [
+    {
+      "file": "autocomplete-1440-after.png",
+      "sha256": "45b6aad341e2fcd96ee7a61087b53e0228fe8b46fc6dc0d619ca65fe9208debd",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "autocomplete-1440-before.png",
+      "sha256": "519af46d40d59c0bb02b4b4059769f1c868ca7188abc0d521b50772c9e2196c8",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "autocomplete-375-after.png",
+      "sha256": "e5f4342338ad30d136695d8a50137474b785b937603eff32e52f719189cebdca",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "autocomplete-375-before.png",
+      "sha256": "aa2415dd71e4abdc0edd9b981ad8444a91346e40bed624cbbce2b3be68a728c4",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "autocomplete-closed-1440-after.png",
+      "sha256": "5120397f66ebb550cac31581c74ee9d0f6a74087c977b880b37f5ce8a457fad1",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "autocomplete-footer-1440-after.png",
+      "sha256": "bf0ee4742d7bf8363bda05768ce757a680fa8b2e1bd0e7ae3dc0d1aab36cf584",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "autocomplete-footer-1440-before.png",
+      "sha256": "519af46d40d59c0bb02b4b4059769f1c868ca7188abc0d521b50772c9e2196c8",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "autocomplete-footer-375-after.png",
+      "sha256": "5323c2ef440afce2803f58e987239577cb5846df9b9d30bba47938d365c3bf5d",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "autocomplete-footer-375-before.png",
+      "sha256": "7642a24961cd4f45d56f53a7f6b8b03f8ffdfd7d55a6fc0bb0a04e8b4162590b",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "cart-1440-after.png",
+      "sha256": "f0dcf8d458c16be781d5542248eae2046c35b27031f2e8a0045c0c77c23b0892",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "cart-1440-before.png",
+      "sha256": "7210e3500d6650860b6fba9b1a684c34686e946dbba03e9b5aa5a622f3c328e9",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "cart-375-after.png",
+      "sha256": "0a70acd3c809ed884fc8f30e69c7c14de3fe07ce6d8400bd929813df75204c4d",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "cart-375-before.png",
+      "sha256": "91798ffcc4868a7a54fe4901631fb9235f0b948a5c2a5e33b06e38ba12c32e48",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "comparison-1440.png",
+      "sha256": "39938e5bef05fd89284be473ae9c82df81287634bdb30a3552a7a99241903115",
+      "width": 1000,
+      "height": 900
+    },
+    {
+      "file": "comparison-375.png",
+      "sha256": "7cbcf72d18bc98ea3dc660c774d3110fc6a875aff3f612913ead242a53d69bad",
+      "width": 1000,
+      "height": 900
+    },
+    {
+      "file": "detail-1440-after.png",
+      "sha256": "fc9256d9705028b3dc6e8109f849e68d1ac87df9584fca3c02e1a4d355aa6b06",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "detail-1440-before.png",
+      "sha256": "26eee4e62c483591c1f07775975018085a0bbc027c7594677143be7a41defbbf",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "detail-375-after.png",
+      "sha256": "cfeb01a806e55776495af2e6dc706cf93ab16ff2012176eb1b017b0322a97a92",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "detail-375-before.png",
+      "sha256": "20986c959695a68dd3edd3968722f835f8858a8b38f0bedda2ac23f7cdcfc125",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "filter-combination-1440-after.png",
+      "sha256": "691bb0fc17110ed8c9ba373d774611f5af9590b5e486dc6889ee97f0e3650c04",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filter-combination-1440-before.png",
+      "sha256": "db659c9ca716220371e79b85b720f5d74f6b4dae150b52dd73cd713b9eae3196",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filter-stock-1440-after.png",
+      "sha256": "218cd5500db8237a6b29ee9da1cd5e7aca8eaf0bbba1cdfbfbeb9587024f02a2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filter-stock-1440-before.png",
+      "sha256": "36e10f372bd2834a3045f6fd4db9248f319b3a0f652f560a752be5272145f15b",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filters-1440-after.png",
+      "sha256": "4dcdcdd012577665d0bddae1175667fbffccce6d2d51d6e53b7638cf10bad483",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filters-1440-before.png",
+      "sha256": "9cde6704a2e62a575d22008a530d12080fc059e16268daafc18a81878beb162a",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filters-combination-1440-after.png",
+      "sha256": "ea4d41f1f7850bb61a5b82bdd852b79c9e777ed8f2a345fdd391e1dc422f967f",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filters-combination-1440-before.png",
+      "sha256": "5af5c52cbf5d5dc0fe7432260ddcbbe62c61d42bba24244a0ffbc0f1a6a01dd7",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filters-combination-375-after.png",
+      "sha256": "5d7663b1aed7a4bb9c462fbcef47f67d753688a8f3733e31d39fd16e5f7973dc",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "filters-combination-375-before.png",
+      "sha256": "de9393d91f5d6825a1a1ac3dee4323ebdf1e141c78ac94023f73affff29d4ff7",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "filters-open-1440-after.png",
+      "sha256": "9d02e5ce19543a4b47947f2f76cd071df97dd5ff564a85a34d59c45715c6e394",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filters-open-1440-before.png",
+      "sha256": "c2666a99dc2ea3db6a97e7090ec33b1e94cad08da8f5d9183ff8bb8e62ffd896",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "filters-open-375-after.png",
+      "sha256": "0804ffbd61bc17c13f6e1311cce80478931336beb0d2aeecd26ff67f73c48a1f",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "filters-open-375-before.png",
+      "sha256": "010e1d0a898d5c0ec8972524fe1e49e7259570f41259263eeea1405f848ec553",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "homepage-1440-after.png",
+      "sha256": "6e8c84214ed63112311f3525ec3d5ebfcb9e2f7601b402f43d8c1abe1115ded8",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "homepage-1440-before.png",
+      "sha256": "776ee11e4a6c31b20780de62628b69ee37aa0d22d7a5d04085a2166796b7d43d",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "homepage-375-after.png",
+      "sha256": "04c5b5c4499d7df1f71ce179290520b956332158b71edf65dcfa026762e2bc28",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "homepage-375-before.png",
+      "sha256": "2bed99ea9b606b3753fa628393cf06b085259cc2cc28208d49fd9b982dd851b7",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "luigi-card-1440-after.png",
+      "sha256": "a4c6e09b9ee59925af6215ea3d4cdc259d732c4dff86c2ccf3038db7a6e270e6",
+      "width": 300,
+      "height": 582
+    },
+    {
+      "file": "luigi-card-1440-before.png",
+      "sha256": "c24a000f0090927115f8942aba811ba01f9213df5fc8cbfa87e9ebd306d9ad84",
+      "width": 300,
+      "height": 578
+    },
+    {
+      "file": "luigi-card-375-after.png",
+      "sha256": "943ed84d870b17899715899d13908d334ea1b26b23b529a3c09db2cdaf3b8885",
+      "width": 347,
+      "height": 464
+    },
+    {
+      "file": "luigi-card-375-before.png",
+      "sha256": "a5beea7eac04a9cb758a38d72d0a88916ade9bfb55842fb21a1b9691b16764e0",
+      "width": 347,
+      "height": 471
+    },
+    {
+      "file": "native-top-1440.png",
+      "sha256": "20f0a3e341a4ae1cfc35ff77274925cd6bd359b3692f31f405995dee94d40857",
+      "width": 330,
+      "height": 531
+    },
+    {
+      "file": "native-top-375.png",
+      "sha256": "0d717aed2236b7709ff11fb4b00506c6b42d6498cd102ec82ce138f86a8f7f7f",
+      "width": 315,
+      "height": 473
+    },
+    {
+      "file": "popup-1440-after.png",
+      "sha256": "ea5536da5c2b3f6274387f8b9145e8297003db64e6f0e7a58af2186cf8ad80c3",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "popup-1440-before.png",
+      "sha256": "26a3094c9c104a0b779950530b6e1a1c2a99d85c642b175a33d6886479879e88",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "popup-375-after.png",
+      "sha256": "9ec07154445a61573261d55f5b6323148faed08633e7f8ade12bcc6efb7708b7",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "popup-375-before.png",
+      "sha256": "c203a147762f0f024bbe3367ab8514230028d18e1b40e22b4324bc08652298cf",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "popup-conflict-375-after.png",
+      "sha256": "9ec07154445a61573261d55f5b6323148faed08633e7f8ade12bcc6efb7708b7",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "popup-conflict-375-before.png",
+      "sha256": "15567fd953e2396fb704baf6a926b9cb5adb83efcb7b7f7572c6c3f315f50505",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "popup-debug-1440.png",
+      "sha256": "ea5536da5c2b3f6274387f8b9145e8297003db64e6f0e7a58af2186cf8ad80c3",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "popup-debug-375.png",
+      "sha256": "9ec07154445a61573261d55f5b6323148faed08633e7f8ade12bcc6efb7708b7",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "purchase-237597-autocomplete.png",
+      "sha256": "02c30ea1047218477f95495ef59bbed8a54e26a09d8973ddb0f80c9204837a2a",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-237597-native.png",
+      "sha256": "01b31d8d5f73b7df52e89cb283912e11f16451b1153fee6db36725d7b45b69bb",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-237597-search.png",
+      "sha256": "f76278c969b939583ef00d0c3d5f9205049355db4d5f5cad7d6de50a1cd7fa5a",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-306317-autocomplete.png",
+      "sha256": "de2e96afe601af1bb9ef80352cf58491d099f674dacbefd7049dda350b87ec1b",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-306317-native.png",
+      "sha256": "6f9138250934f60787f167a3dbd8ead2c98904fdef38523574158b4ef1b5c19f",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-306317-search.png",
+      "sha256": "de2e96afe601af1bb9ef80352cf58491d099f674dacbefd7049dda350b87ec1b",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-344255-autocomplete.png",
+      "sha256": "d6e65d07c29f188768c93f5bdc12982b9bfc0f98f344ed46f55d30ea9ba07142",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-344255-native.png",
+      "sha256": "c5123be71a89b4275539dcb2a3d02ab97ad7778407becc06ae7008b61d34f423",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-344255-search.png",
+      "sha256": "3f958403bbc5269ec95d14eba3455a539ad95a97239b0da6f0e9baa562996037",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-491405-autocomplete.png",
+      "sha256": "5bb0e6c8965fd187fd655f5f977a0a5296624775590d04c96727895be3206377",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-491405-native.png",
+      "sha256": "d9906015d1c82e12a03d769426ce13a2c9b680e3863eaafb71aaa2546b087d2e",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-491405-search.png",
+      "sha256": "5bb0e6c8965fd187fd655f5f977a0a5296624775590d04c96727895be3206377",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-recommendation-basket.png",
+      "sha256": "6a0cd885ea468e28dacfe4eea582e202c2a9a36e217898ed2974003259c9c5b7",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-recommendation-basket_popup.png",
+      "sha256": "6a0cd885ea468e28dacfe4eea582e202c2a9a36e217898ed2974003259c9c5b7",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "purchase-recommendation-product_detail.png",
+      "sha256": "ffb8a721aa9d4845ba8f35ce7b2d42d282b5af755b7c464f9fde7799638b9f91",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "results-1440-after.png",
+      "sha256": "9bba9770de4a53f355129d62d5c230019c12e08f20f220a5584a359c583bfa84",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "results-1440-before.png",
+      "sha256": "e6a832bccd54f307ede62c06f452e1414640bd82916a8cdee7a0cce12840dcb5",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "results-375-after.png",
+      "sha256": "57549ac6726bed774817c095c07e8ae82ab9b3b4a12ebe01af04e6da3857cc37",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "results-375-before.png",
+      "sha256": "e3d9323434b87f60ad6085e8c759ef40d8c874b57ced63f2480cf63950d8aaa1",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "results-row2-1440-after.png",
+      "sha256": "a30123d902bdc2b84dc1b4f20e0f31236669c075894b901b9dfd191482cab0da",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "results-row2-1440-before.png",
+      "sha256": "21655ccf35c9d9d477a58ea7ec8f1f074f28b64da2d23092e8c185b164f5751c",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "show-all-click-1440.png",
+      "sha256": "e35efb3ec2944c5dbd340ca6a471f5a47e227dae488c017b9f5094dfb3ade31d",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "show-all-click-375.png",
+      "sha256": "d40d251b40ddad808b1b3e0c05dd48a30c98c06998a58c51f9bc0a0041b5cde1",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "table-1440-after.png",
+      "sha256": "54b0f93b33b9b3352a0928b4a140fbf6d6145ff8be69e73863eadcb40ccb6c5f",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "table-1440-before.png",
+      "sha256": "12db4db43da28558dd25b8226bbebfa3246319751791c410765014f7f21bda45",
+      "width": 1440,
+      "height": 1000
+    }
+  ]
+}

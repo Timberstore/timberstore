@@ -1,5 +1,12 @@
 # v0.7.5 – approved product downloads and sidebar contacts (2026-11-01)
 
+## Unreleased — LB1 native purchase parity (2026-11-03)
+
+- Rc.8 remains rejected. Added a documented Search API boundary, customer facet/sort allowlist, URL-state preservation and purchase-data preflight, without connecting it to the storefront bundle.
+- Established supported template / ResultsRenderer / headless alternatives, a concrete supplier data contract, full PASS/FAIL/BLOCKED matrix and an unsent final support request. No new cosmetic preview or purchase controls.
+- Captured the same native/Luigi SKU553488 at1440/375 and focused filter-history/layout evidence. Confirmed the error article is indexed and its source returns200 withindex,follow; removal/source changes remain pending approval.
+- Productionv0.7.7, loader, compiled assets and external settings unchanged. No merge, release tag, order or production deployment.
+
 ## 0.7.6 — Kontakty, nadpisy a oranžové sociálne ikony (2026-11-01)
 
 - Stabilné vydanie schváleného rc.4: responzívne kontakty so spoločnými hodinami, pôvodným formulárom a potvrdeným DIČ; sémantické nadpisy a úvodný H1; N/A → Timber Store v zobrazení; rovnaké oranžové sociálne SVG bez pozadia/rámika všade na PC/mobile.
@@ -735,7 +742,39 @@ Obsahuje i v0.1.0 a v0.2.0 (nikdy nenasazené, jen tagy / rc).
 ## v0.1.0 · nenasazeno (jen tag)
 - Základ repa: core (detekce stránky, registr modulů, preview štítek), loader, build s kontrolou rozpočtu.
 
+## 0.7.7-rc.0 — LB1 preview only (2026-11-02)
+- Scoped Luigi presentation and semantic availability colours, gated by TimberLoader.preview.
+- Stable v0.7.6 loader retained. No vendor configuration changes.
+
+## 0.7.7-rc.1 — LB1 re-audit preview (2026-11-02)
+- Improve mobile technical result readability in a preview-only single column.
+- Retain native purchase logic; do not imitate unsupported quantity/variant controls.
+- This candidate is not a completed or approved integration.
+
+## 0.7.7-rc.2 — LB1 candidate correction (2026-11-02)
+- Isolated important column override for vendor layout conflict; rc.1 remains immutable.
+- Functional audit and support blockers documented separately; no production promotion.
+
+## 0.7.7-rc.4 — LB1 vendor flex candidate (2026-11-02)
+- Retain vendor flex layout and expand mobile technical result cards.
+- Audit includes native/Search/Autocomplete default minimum purchase comparison,
+  live sorting/filter checks, and explicit support blockers. Not integration-complete.
+
+## 0.7.7-rc.5 — LB1 homepage restoration candidate (2026-11-02)
+- Omit our added homepage H1 in explicit preview only, without hiding it with CSS.
+- Preserve production v0.7.6 and all external settings. Homepage recommender removal is pending supported vendor configuration, not implemented with DOM deletion or global blocking.
+
+## 0.7.7-rc.6 — remove unintended homepage heading (2026-11-02)
+- Owner clarified H1 normalization never authorized adding new homepage copy.
+- Remove the homepage H1 creation branch, its text, selector and unused CSS.
+- Keep article/contact changes and production loader untouched; preview only.
+
 ## 0.7.7 — 2026-11-02
 - Owner-authorized isolated homepage fix: remove the unintended added H1 and its dead text/selector/CSS.
 - Preserve native categories, contact/article behavior and purchase logic. No experimental Luigi integration changes promoted.
 - JS36.03 / CSS32.07 KiB gzip within existing stable budgets. Production activation by owner; rollback v0.7.6.
+
+## 0.7.8-rc.0 — LB1 continuation after v0.7.7 (2026-11-02)
+- Integrate published stable homepage H1 removal and retain production loader target v0.7.7.
+- Preview-only whole recommendation titles, existing price/SKU/unit styling and focus; normalize observed native green ink to approved token without deriving stock data.
+- No new qty/variant/cart/analytics implementation. External homepage deactivation and functional vendor contracts remain blocked.

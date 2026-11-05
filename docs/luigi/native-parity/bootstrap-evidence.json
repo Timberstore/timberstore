@@ -1,0 +1,11 @@
+{
+  "source": "https://scripts.luigisbox.tech/LBX-1266949.js",
+  "sha256": "3b99802aa84ed0a7b7adf0d895b9ad65ff44ca83b13bd6502f7a928fe901c221",
+  "sameAsRc4Snapshot": true,
+  "ResultsRendererConfigured": false,
+  "removeFields": [
+    "nested"
+  ],
+  "nativeTemplateExportAvailable": false,
+  "vendorLicenseEntitlement": "BLOCKED"
+}

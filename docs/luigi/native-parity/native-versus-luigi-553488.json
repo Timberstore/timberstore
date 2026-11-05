@@ -1,0 +1,206 @@
+[
+  {
+    "mode": "native",
+    "width": 1440,
+    "nativeDiagnostic": "Only Luigi bootstrap request blocked in this isolated browser; real Shoptet server HTML and native handlers retained. No site setting changed.",
+    "data": {
+      "version": "v0.7.7",
+      "loader": {
+        "version": "v0.7.7",
+        "preview": false,
+        "pageLoadingTimer": null
+      },
+      "bodyClass": "desktop id--11 in-vyhladavanie template-11 type-search one-column-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load",
+      "list": {
+        "x": 13.5,
+        "y": 367.765625,
+        "w": 1378,
+        "h": 640.0625
+      },
+      "cards": [
+        {
+          "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n183,60 € bez DPH\n225,83 €\n/ sada\nCENTRÁLNY\nSKLAD (80 SADA)\nKÓD: 553488\n−\n+\nDo košíka",
+          "rect": {
+            "x": 13.5,
+            "y": 367.765625,
+            "w": 459.328125,
+            "h": 640.0625
+          },
+          "amounts": [
+            {
+              "value": "1",
+              "min": "",
+              "max": "",
+              "step": ""
+            }
+          ],
+          "form": true,
+          "qty": true,
+          "url": "/k-strongsinks-s3-set-drez-hron-430x460mm-granit-cierny-bateria-garonne-chrom/"
+        }
+      ],
+      "filters": [],
+      "sort": [],
+      "switch": true,
+      "htmlView": false
+    }
+  },
+  {
+    "mode": "native",
+    "width": 375,
+    "nativeDiagnostic": "Only Luigi bootstrap request blocked in this isolated browser; real Shoptet server HTML and native handlers retained. No site setting changed.",
+    "data": {
+      "version": "v0.7.7",
+      "loader": {
+        "version": "v0.7.7",
+        "preview": false,
+        "pageLoadingTimer": null
+      },
+      "bodyClass": "desktop id--11 in-vyhladavanie template-11 type-search one-column-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load",
+      "list": {
+        "x": 10,
+        "y": 279.5625,
+        "w": 355,
+        "h": 494.84375
+      },
+      "cards": [
+        {
+          "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n183,60 € bez DPH\n225,83 €\n/ sada\nCENTRÁLNY\nSKLAD (80 SADA)\nKÓD: 553488\n−\n+\nDo košíka",
+          "rect": {
+            "x": 10,
+            "y": 279.5625,
+            "w": 355,
+            "h": 494.84375
+          },
+          "amounts": [
+            {
+              "value": "1",
+              "min": "",
+              "max": "",
+              "step": ""
+            }
+          ],
+          "form": true,
+          "qty": true,
+          "url": "/k-strongsinks-s3-set-drez-hron-430x460mm-granit-cierny-bateria-garonne-chrom/"
+        }
+      ],
+      "filters": [],
+      "sort": [],
+      "switch": true,
+      "htmlView": false
+    }
+  },
+  {
+    "mode": "luigi",
+    "width": 1440,
+    "nativeDiagnostic": null,
+    "data": {
+      "version": "v0.7.8-rc.8",
+      "loader": {
+        "version": "1975505",
+        "preview": true,
+        "pageLoadingTimer": null
+      },
+      "bodyClass": "desktop id--11 in-vyhladavanie template-11 type-search one-column-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-header-fixed is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load luigi-apollo type-category is-start-scrolling",
+      "list": {
+        "x": 419.28125,
+        "y": 292.171875,
+        "w": 929.59375,
+        "h": 586.75
+      },
+      "cards": [
+        {
+          "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n225,83 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 553488",
+          "rect": {
+            "x": 419.28125,
+            "y": 297.171875,
+            "w": 299.1875,
+            "h": 581.75
+          },
+          "amounts": [],
+          "form": false,
+          "qty": false,
+          "url": "/k-strongsinks-s3-set-drez-hron-430x460mm-granit-cierny-bateria-garonne-chrom/"
+        }
+      ],
+      "filters": [
+        {
+          "class": "lb-facet lb-facet--range",
+          "text": "Cena\nod 225,50 € - do 226,00 €"
+        },
+        {
+          "class": "lb-facet lb-facet--multichoice  lb-facet--flags",
+          "text": "Štítky\nCentrálny sklad (1)\nKomplet (1)"
+        },
+        {
+          "class": "lb-facet lb-facet--hierarchical  lb-facet--category_path",
+          "text": "Kategórie\nDrezy a Batérie (1)"
+        },
+        {
+          "class": "lb-facet lb-facet--multichoice  lb-facet--brand",
+          "text": "Výrobca\nSTRONG (1)"
+        }
+      ],
+      "sort": [],
+      "switch": false,
+      "htmlView": false
+    }
+  },
+  {
+    "mode": "luigi",
+    "width": 375,
+    "nativeDiagnostic": null,
+    "data": {
+      "version": "v0.7.8-rc.8",
+      "loader": {
+        "version": "1975505",
+        "preview": true,
+        "pageLoadingTimer": null
+      },
+      "bodyClass": "desktop id--11 in-vyhladavanie template-11 type-search one-column-body columns-mobile-2 columns-3 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-visible-header-contact is-classic-parameters-color carousel-is-empty unveiled is-loaded after-load luigi-apollo type-category is-start-scrolling is-hidden-search-bar",
+      "list": {
+        "x": 14.375,
+        "y": 302.375,
+        "w": 346.25,
+        "h": 468.375
+      },
+      "cards": [
+        {
+          "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n225,83 €\n/ sada\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 553488",
+          "rect": {
+            "x": 14.375,
+            "y": 307.375,
+            "w": 346.25,
+            "h": 463.375
+          },
+          "amounts": [],
+          "form": false,
+          "qty": false,
+          "url": "/k-strongsinks-s3-set-drez-hron-430x460mm-granit-cierny-bateria-garonne-chrom/"
+        }
+      ],
+      "filters": [
+        {
+          "class": "lb-facet lb-facet--range",
+          "text": " Cena    od 225,50 €  -  do 226,00 €  "
+        },
+        {
+          "class": "lb-facet lb-facet--multichoice  lb-facet--flags",
+          "text": " Štítky (2)      Centrálny sklad (1)     Komplet (1)   "
+        },
+        {
+          "class": "lb-facet lb-facet--hierarchical  lb-facet--category_path",
+          "text": " Kategórie (1)        Drezy a Batérie (1)    "
+        },
+        {
+          "class": "lb-facet lb-facet--multichoice  lb-facet--brand",
+          "text": " Výrobca (1)      STRONG (1)   "
+        }
+      ],
+      "sort": [],
+      "switch": false,
+      "htmlView": false
+    }
+  }
+]

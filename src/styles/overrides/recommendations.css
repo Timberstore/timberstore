@@ -1,23 +1,24 @@
+/* LB1: native purchase/layout rules exclude Luigi cards; the vendor owns their template and actions. */
 /* M2/C3 · Native related/similar cards only. Preserve Swiper tracks/images and
    native quantity/forms; replace Apollo's mismatched purchase-row geometry. */
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) a.name {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) a.name {
   text-align: left !important;
   text-transform: none;
   word-break: normal !important;
   overflow-wrap: normal !important;
   hyphens: none;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) :is(.pr-list-unit, .ts-recommendation-unit) {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) :is(.pr-list-unit, .ts-recommendation-unit) {
   display: inline !important;
   color: var(--ts-color-price-secondary);
   font-size: 13px;
   font-weight: 400;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .product-btn {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) .product-btn {
   min-height: 44px;
   height: auto;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .product-btn form {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) .product-btn form {
   display: flex !important;
   flex-wrap: wrap !important;
   align-items: center;
@@ -27,7 +28,7 @@
   max-width: none !important;
   margin: 0 !important;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .quantity {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) .quantity {
   flex: 0 0 var(--ts-qty-width);
   width: var(--ts-qty-width);
   min-width: var(--ts-qty-width);
@@ -35,10 +36,10 @@
   grid-template-columns: var(--ts-qty-button-width) minmax(var(--ts-qty-field-width), 1fr) var(--ts-qty-button-width);
   border-color: var(--ts-qty-border);
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .quantity :is(input, button) {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) .quantity :is(input, button) {
   height: 36px;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .product-btn .btn-cart {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) .product-btn .btn-cart {
   flex: 1 0 80px !important;
   min-width: 0 !important;
   max-width: none !important;
@@ -53,10 +54,10 @@
   --color-secondary: var(--ts-color-accent);
   --color-secondary-hover: var(--ts-color-action-hover);
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .btn-cart > span:not(.ts-cart-count) {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) .btn-cart > span:not(.ts-cart-count) {
   display: inline !important;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .btn-cart::after {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) .btn-cart::after {
   display: none;
   margin: 0 !important;
 }
@@ -66,48 +67,48 @@
   border-top: 1px solid var(--ts-color-table-border);
 }
 /* Apollo reserves 130px for stacked controls. Our shared row needs one line. */
-:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) > .p {
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) > .p {
   padding-bottom: 65px !important;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) .quantity {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) .quantity {
   margin: 0;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) :is(.price-final, .price-additional) {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) :is(.price-final, .price-additional) {
   white-space: normal;
 }
-:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product)) :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
+:is(#content, #colorbox) :is(.ts-recommendation, :where(.products-related-block .product:not(:where(.lb-product)), .products-alternative-block .product:not(:where(.lb-product)), #colorbox .advanced-order .product:not(:where(.lb-product)))) :is(.price-final > strong, .pr-list-unit, .ts-recommendation-unit) {
   white-space: nowrap;
 }
 
 /* Native detail recommendations share the stock/price and purchase-row policy.
    Keep Swiper slides/images and form handlers; only presentation wrappers flow. */
-#content :is(.products-related-block, .products-alternative-block) .product > .p {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) > .p {
   display: flex;
   flex-direction: column;
   padding-bottom: var(--ts-space-3) !important;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .p-in {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .p-in {
   height: auto !important;
   flex: 1 1 auto;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .p-bottom > [data-micro='offer'] {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .p-bottom > [data-micro='offer'] {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   align-items: center;
   gap: 8px;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .p-tools {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .p-tools {
   grid-area: 1 / 1;
   min-height: 0;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .prices {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .prices {
   grid-area: 1 / 2;
   align-items: flex-end;
 }
-#content :is(.products-related-block, .products-alternative-block) .product :is(.price-final, .price-additional) {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) :is(.price-final, .price-additional) {
   text-align: right !important;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .product-btn {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .product-btn {
   position: static;
   width: 100%;
   height: auto;
@@ -118,7 +119,7 @@
    unit slot even while a verified public-detail unit is being fetched, so its
    late arrival cannot push the already visible amount or resize the popup.
    Reserve height too: on narrow cards the unit occupies its own flex line. */
-:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .product .price-final {
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .product:not(:where(.lb-product)) .price-final {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -126,7 +127,7 @@
   gap: 0 4px;
   transition: none;
 }
-:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .product .price-final > strong {
+:is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .product:not(:where(.lb-product)) .price-final > strong {
   transition: none;
 }
 :is(#content, #colorbox) :is(.products-related-block, .products-alternative-block, .advanced-order) .price-final :is(.pr-list-unit, .ts-recommendation-unit),
@@ -144,52 +145,52 @@
 /* M2 · Compact detail rails: one quantity/icon row and two aligned offer lines.
    Scoped outside Colorbox; native Swiper widths, forms and values stay intact.
    Important resets beat Apollo's fixed form/padding and earlier CTA treatment. */
-#content :is(.products-related-block, .products-alternative-block) .product {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) {
   container-type: inline-size;
   --ts-stock-font-size: 11px;
 }
-#content :is(.products-related-block, .products-alternative-block) .product > .p {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) > .p {
   padding-inline: var(--ts-rail-card-inset) !important;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .p-in {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .p-in {
   padding-inline: 0 !important;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .p-bottom > [data-micro='offer'] {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .p-bottom > [data-micro='offer'] {
   grid-template-columns: minmax(max-content, 1fr) minmax(0, 1fr);
   align-items: start;
   gap: var(--ts-rail-card-gap);
 }
-#content :is(.products-related-block, .products-alternative-block) .product :is(.p-tools, .availability) {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) :is(.p-tools, .availability) {
   min-height: 0;
   text-align: left;
   align-items: start;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .availability {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .availability {
   font-size: 0;
   line-height: 0;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .availability > span:first-child {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .availability > span:first-child {
   font-size: var(--ts-stock-font-size) !important;
   line-height: var(--ts-rail-offer-line);
 }
-#content :is(.products-related-block, .products-alternative-block) .product .availability > span:first-child:not(.ts-stock-central) {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .availability > span:first-child:not(.ts-stock-central) {
   display: block;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .availability-amount {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .availability-amount {
   font-size: 10px;
   line-height: var(--ts-rail-offer-line);
 }
-#content :is(.products-related-block, .products-alternative-block) .product .ts-stock-central + .availability-amount::before {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .ts-stock-central + .availability-amount::before {
   content: '\00a0';
 }
-#content :is(.products-related-block, .products-alternative-block) .product .prices {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .prices {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 0;
   margin: 0 !important;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .price-final {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
@@ -198,33 +199,33 @@
   min-height: var(--ts-rail-offer-line);
   line-height: var(--ts-rail-offer-line);
 }
-#content :is(.products-related-block, .products-alternative-block) .product .price-final :is(strong, .ts-price-number) {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final :is(strong, .ts-price-number) {
   font-size: 16px !important;
   line-height: var(--ts-rail-offer-line);
   white-space: nowrap;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .price-final :is(.pr-list-unit, .ts-recommendation-unit),
-#content :is(.products-related-block, .products-alternative-block) .product .price-final::after {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final :is(.pr-list-unit, .ts-recommendation-unit),
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final::after {
   min-width: var(--ts-rail-unit-width);
   font-size: 11px;
   line-height: var(--ts-rail-offer-line);
 }
-#content :is(.products-related-block, .products-alternative-block) .product .price-additional {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-additional {
   font-size: 11px;
   line-height: var(--ts-rail-offer-line);
   white-space: nowrap;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .product-btn {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .product-btn {
   padding-inline: 0;
   box-sizing: border-box;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .product-btn form {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .product-btn form {
   flex-wrap: nowrap !important;
   justify-content: space-between !important;
   gap: var(--ts-rail-card-gap) !important;
   padding: 0 !important;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .product-btn .btn-cart {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .product-btn .btn-cart {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
@@ -235,20 +236,20 @@
   padding: 0 !important;
   font-size: 0 !important;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .btn-cart > span:not(.ts-cart-count) {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .btn-cart > span:not(.ts-cart-count) {
   display: none !important;
 }
-#content :is(.products-related-block, .products-alternative-block) .product .btn-cart::after {
+#content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .btn-cart::after {
   display: inline-block;
   font-size: 20px;
 }
 @container (max-width: 240px) {
-  #content :is(.products-related-block, .products-alternative-block) .product .price-final :is(strong, .ts-price-number) {
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final :is(strong, .ts-price-number) {
     font-size: 14px !important;
   }
-  #content :is(.products-related-block, .products-alternative-block) .product .price-additional,
-  #content :is(.products-related-block, .products-alternative-block) .product .price-final :is(.pr-list-unit, .ts-recommendation-unit),
-  #content :is(.products-related-block, .products-alternative-block) .product .price-final::after {
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-additional,
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final :is(.pr-list-unit, .ts-recommendation-unit),
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final::after {
     font-size: 10px;
   }
 }
@@ -257,7 +258,7 @@
    two-row price block anchors at the cart's right edge, closer to the icon.
    Native offer rows, quantity and slide widths remain unchanged. */
 @media (min-width: 992px) {
-  #content :is(.products-related-block, .products-alternative-block) .product .prices {
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .prices {
     display: grid;
     grid-template-columns: max-content;
     justify-items: center;
@@ -266,7 +267,7 @@
     max-width: none;
     gap: 0;
   }
-  #content :is(.products-related-block, .products-alternative-block) .product .price-final {
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final {
     grid-area: 1 / 1;
     display: flex;
     flex-flow: row nowrap;
@@ -274,19 +275,19 @@
     width: max-content;
     max-width: none;
   }
-  #content :is(.products-related-block, .products-alternative-block) .product .price-additional {
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-additional {
     grid-area: 2 / 1;
     width: max-content;
     max-width: none;
     text-align: center !important;
   }
-  #content :is(.products-related-block, .products-alternative-block) .product .price-final :is(.pr-list-unit, .ts-recommendation-unit),
-  #content :is(.products-related-block, .products-alternative-block) .product .price-final::after {
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final :is(.pr-list-unit, .ts-recommendation-unit),
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final::after {
     min-width: 0;
     width: max-content;
   }
   /* Homepage favourites: the unit is part of the centred first line too. */
-  .type-index :is(#content, .content-wrapper) .product .price-final {
+  .type-index :is(#content, .content-wrapper) .product:not(:where(.lb-product)) .price-final {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -294,7 +295,7 @@
     gap: 2px;
     width: 100%;
   }
-  .type-index :is(#content, .content-wrapper) .product .price-final :is(strong, .pr-list-unit) {
+  .type-index :is(#content, .content-wrapper) .product:not(:where(.lb-product)) .price-final :is(strong, .pr-list-unit) {
     flex: 0 0 auto;
     white-space: nowrap;
   }
@@ -304,7 +305,7 @@
    existing right column. Relative positioning preserves both 22px rows and
    avoids native flex shrinking long units or overflowing VAT from one side. */
 @media (max-width: 991px) {
-  #content :is(.products-related-block, .products-alternative-block) .product :is(.price-final, .price-additional) {
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) :is(.price-final, .price-additional) {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -313,11 +314,11 @@
     max-width: none;
     text-align: center !important;
   }
-  #content :is(.products-related-block, .products-alternative-block) .product .price-final {
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final {
     justify-content: center;
   }
-  #content :is(.products-related-block, .products-alternative-block) .product .price-final :is(strong, .pr-list-unit, .ts-recommendation-unit),
-  #content :is(.products-related-block, .products-alternative-block) .product .price-final::after {
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final :is(strong, .pr-list-unit, .ts-recommendation-unit),
+  #content :is(.products-related-block, .products-alternative-block) .product:not(:where(.lb-product)) .price-final::after {
     flex: 0 0 auto;
     min-width: 0;
     width: max-content;

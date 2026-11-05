@@ -1,0 +1,97 @@
+{
+  "status": "PARTIAL: vendor integration blockers remain",
+  "contexts": [
+    {
+      "width": 1440,
+      "preview": false,
+      "titleClipping": 17,
+      "overflow": false,
+      "pageErrors": 0,
+      "cartAmount": 100,
+      "cartTotal": 9
+    },
+    {
+      "width": 1440,
+      "preview": true,
+      "titleClipping": 0,
+      "overflow": false,
+      "pageErrors": 0,
+      "cartAmount": 100,
+      "cartTotal": 9
+    },
+    {
+      "width": 768,
+      "preview": false,
+      "titleClipping": 10,
+      "overflow": false,
+      "pageErrors": 0,
+      "cartAmount": 100,
+      "cartTotal": 9
+    },
+    {
+      "width": 768,
+      "preview": true,
+      "titleClipping": 0,
+      "overflow": false,
+      "pageErrors": 0,
+      "cartAmount": 100,
+      "cartTotal": 9
+    },
+    {
+      "width": 375,
+      "preview": false,
+      "titleClipping": 58,
+      "overflow": false,
+      "pageErrors": 0,
+      "cartAmount": 100,
+      "cartTotal": 9
+    },
+    {
+      "width": 375,
+      "preview": true,
+      "titleClipping": 0,
+      "overflow": false,
+      "pageErrors": 0,
+      "cartAmount": 100,
+      "cartTotal": 9
+    }
+  ],
+  "screenshots": {
+    "comparisonPairs": 21,
+    "mainPng": 42,
+    "packageCartPng": 3
+  },
+  "defaultMinimumPurchase": {
+    "sku": "237597",
+    "contexts": 6,
+    "amount": 100,
+    "total": 9
+  },
+  "settledNativeStep": {
+    "typed": 101,
+    "actual": 200,
+    "total": 18
+  },
+  "repeatedBuyAndAjax": {
+    "buyClicks": 2,
+    "quantity": 200,
+    "editedQuantity": 300,
+    "editedTotal": 27
+  },
+  "packageUnit": {
+    "sku": "344255",
+    "surfaces": 3,
+    "amount": 1,
+    "unit": "balenie",
+    "total": 186.49
+  },
+  "analytics": {
+    "singleResultBuy": "resource/attribution missing on baseline and preview",
+    "multiResultBuy": "resource and linked Search Results attribution present",
+    "consentAfterSettlement": true,
+    "vendorReporting": "NOT TESTED"
+  },
+  "lastSeen": "root empty after three visited details, populated state NOT TESTED",
+  "cdnByteIdentical": true,
+  "productionOrExternalSettingsChanged": false
+}
