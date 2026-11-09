@@ -9,16 +9,19 @@ concurrency:
   group: instagram-data-refresh
 jobs:
   refresh:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
-          ref: main
-      - uses: actions/setup-python@v5
+          ref: ${{ github.ref }}
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+      - name: Test feed refresh safety
+        run: python -m unittest discover -s tests -p 'test_refresh_instagram.py'
       - run: python scripts/refresh-instagram.py
       - name: Publish changed data only
+        if: github.ref == 'refs/heads/main'
         run: |
           if ! git diff --quiet -- data/instagram.json; then
             git config user.name 'github-actions[bot]'
