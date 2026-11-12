@@ -1,8 +1,7 @@
-"""Refresh public Shoptet-hosted images and native Instagram permalinks.
+"""Validate or import reviewed Instagram gallery snapshots without network access.
 
-The reader preference applies only to this server request. It never runs
-analytics/embed scripts or changes visitor consent. Failed/empty responses keep
-last known-good data. No account token or visitor identifier is used.
+Legacy HTML fetching is opt-in for local diagnostics only, never scheduled.
+Imports retain the frontend contract and replace data atomically after validation.
 """
 import argparse
 import json
@@ -11,6 +10,7 @@ import socket
 import time
 import os
 import tempfile
+import re
 from http.client import HTTPException
 from urllib.error import HTTPError, URLError
 from datetime import datetime, timezone
@@ -86,14 +86,75 @@ def fetch_html():
         time.sleep(delay)
 
 
+def validate_posts(posts):
+    if not isinstance(posts, list) or not 6 <= len(posts) <= 40:
+        raise RefreshError('snapshot must contain 6 to 40 posts')
+    seen = set()
+    for post in posts:
+        if not isinstance(post, dict) or set(post) != {'url', 'image', 'alt'}:
+            raise RefreshError('invalid post fields')
+        if not all(isinstance(post[key], str) for key in post):
+            raise RefreshError('post fields must be strings')
+        for key, host, pattern in (
+            ('url', 'www.instagram.com', r'/(p|reel)/[A-Za-z0-9_-]+/'),
+            ('image', 'cdn.myshoptet.com', r'/usr/www\.timberstore\.sk/user/system/instagram/[A-Za-z0-9_.-]+\.(jpg|jpeg|png|webp)'),
+        ):
+            parts = urlsplit(post[key])
+            if (parts.scheme != 'https' or parts.netloc != host or parts.query
+                    or parts.fragment or not re.fullmatch(pattern, parts.path)):
+                raise RefreshError(f'invalid {key} URL')
+        if post['url'] in seen:
+            raise RefreshError('duplicate Instagram permalink')
+        seen.add(post['url'])
+    return posts
+
+
+def validate_snapshot(data):
+    if not isinstance(data, dict) or set(data) != {'updatedAt', 'posts'}:
+        raise RefreshError('invalid snapshot fields')
+    if not isinstance(data['updatedAt'], str):
+        raise RefreshError('invalid updatedAt timestamp')
+    try:
+        stamp = datetime.fromisoformat(data['updatedAt'])
+    except ValueError:
+        raise RefreshError('invalid updatedAt timestamp') from None
+    if stamp.tzinfo is None or stamp > datetime.now(timezone.utc):
+        raise RefreshError('updatedAt must have timezone and not be in the future')
+    validate_posts(data['posts'])
+    return stamp
+
+
+def check_snapshot(output):
+    data = json.loads(output.read_text(encoding='utf-8'))
+    stamp = validate_snapshot(data)
+    age = (datetime.now(timezone.utc) - stamp).days
+    message = f'Validated {len(data["posts"])} posts; snapshot last changed {age} days ago. No upstream refresh was attempted.'
+    if age >= 30:
+        message += ' Review the gallery for new posts; this age measures content changes, not last source verification.'
+        print(f'::warning title=Instagram snapshot review due::{message}')
+    else:
+        print(message)
+    summary = os.environ.get('GITHUB_STEP_SUMMARY')
+    if summary:
+        with open(summary, 'a', encoding='utf-8') as handle:
+            handle.write('## Instagram gallery: reviewed snapshot mode\n\n' + message + '\n\n'
+                         'Automatic upstream refresh is disabled until a supported source is configured. '
+                         'Update via a reviewed data PR; see docs/instagram-refresh-2026-11-12.md.\n')
+
+
 def refresh(html, output):
     feed = FeedParser()
     feed.feed(html)
-    posts = list({post['url']: post for post in feed.posts}.values())[:40]
+    posts = list({post['url']: post for post in feed.posts}.values())
     print(f'Found {len(posts)} valid native posts')
-    if len(posts) < 6:
-        raise RefreshError('native feed supplied fewer than six valid posts')
-    previous = json.loads(output.read_text()) if output.exists() else {}
+    write_posts(posts, output)
+
+
+def write_posts(posts, output):
+    validate_posts(posts)
+    previous = json.loads(output.read_text(encoding='utf-8')) if output.exists() else {}
+    if not isinstance(previous, dict):
+        raise RefreshError('existing snapshot is not an object')
     if previous.get('posts') == posts:
         print('Feed unchanged')
         return
@@ -115,12 +176,26 @@ def refresh(html, output):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input', type=Path)
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument('--check', action='store_true', help='Validate committed data; no network or writes')
+    mode.add_argument('--input', type=Path, help='Import a reviewed local HTML snapshot')
+    mode.add_argument('--input-json', type=Path, help='Import a reviewed local JSON snapshot')
+    mode.add_argument('--fetch', action='store_true', help='Legacy network diagnostic; use a scratch --output')
     parser.add_argument('--output', type=Path, default=Path('data/instagram.json'))
     args = parser.parse_args()
     try:
-        html = args.input.read_text(encoding='utf-8') if args.input else fetch_html()
-        refresh(html, args.output)
+        if args.check:
+            check_snapshot(args.output)
+        elif args.input_json:
+            data = json.loads(args.input_json.read_text(encoding='utf-8'))
+            validate_snapshot(data)
+            write_posts(data['posts'], args.output)
+        elif args.input:
+            refresh(args.input.read_text(encoding='utf-8'), args.output)
+        else:
+            if args.output.resolve() == Path('data/instagram.json').resolve():
+                raise RefreshError('legacy fetch requires a scratch --output; publish only through review')
+            refresh(fetch_html(), args.output)
     except RefreshError as error:
         raise SystemExit(f'Refresh failed: {error}; keeping previous data.') from None
     except (OSError, ValueError):

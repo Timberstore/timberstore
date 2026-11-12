@@ -81,7 +81,7 @@ class RefreshTests(unittest.TestCase):
     def test_failures_preserve_json_and_do_not_log_secrets(self):
         for error, attempts in [(HTTPError('https://example.test', 403, 'secret-cookie', {}, None), 1), (HTTPError('https://example.test', 404, 'secret-cookie', {}, None), 1), (HTTPError('https://example.test', 500, 'secret-cookie', {}, None), 3), (TimeoutError('secret-cookie'), 3), (URLError('secret-cookie'), 3)]:
             log = io.StringIO()
-            with self.subTest(error=type(error)), patch.object(feed, 'urlopen', side_effect=error) as request, patch.object(feed.time, 'sleep'), contextlib.redirect_stdout(log), patch('sys.argv', ['refresh', '--output', str(self.output)]):
+            with self.subTest(error=type(error)), patch.object(feed, 'urlopen', side_effect=error) as request, patch.object(feed.time, 'sleep'), contextlib.redirect_stdout(log), patch('sys.argv', ['refresh', '--fetch', '--output', str(self.output)]):
                 with self.assertRaises(SystemExit) as result:
                     feed.main()
                 self.assertIn('keeping previous data', str(result.exception))
@@ -91,9 +91,99 @@ class RefreshTests(unittest.TestCase):
                 self.assertEqual(self.output.read_bytes(), self.original)
 
     def test_empty_http_200_preserves_json(self):
-        with patch.object(feed, 'urlopen', return_value=Response('')), patch('sys.argv', ['refresh', '--output', str(self.output)]), self.assertRaises(SystemExit):
+        with patch.object(feed, 'urlopen', return_value=Response('')), patch('sys.argv', ['refresh', '--fetch', '--output', str(self.output)]), self.assertRaises(SystemExit):
             feed.main()
         self.assertEqual(self.output.read_bytes(), self.original)
+
+    def run_cli(self, *args):
+        with patch('sys.argv', ['refresh', *args, '--output', str(self.output)]):
+            feed.main()
+
+    def snapshot(self):
+        return {'updatedAt': '2026-01-01T00:00:00+00:00', 'posts': [
+            {'url': f'https://www.instagram.com/p/post{i}/',
+             'image': f'https://cdn.myshoptet.com/usr/www.timberstore.sk/user/system/instagram/{i}.jpg',
+             'alt': f'Photo {i}'} for i in range(6)]}
+
+    def test_check_and_import_never_request_even_if_source_is_down(self):
+        source = self.output.parent / 'source.json'
+        source.write_text(json.dumps(self.snapshot()))
+        for error in (HTTPError('https://example.test', 403, 'refused', {}, None),
+                      HTTPError('https://example.test', 503, 'unavailable', {}, None),
+                      TimeoutError(), URLError('offline')):
+            with self.subTest(error=type(error)), patch.object(feed, 'urlopen', side_effect=error) as request:
+                self.run_cli('--input-json', str(source))
+                before = self.output.read_bytes()
+                self.run_cli('--check')
+                self.assertEqual(self.output.read_bytes(), before)
+                request.assert_not_called()
+
+    def test_no_implicit_fetch_or_production_fetch(self):
+        for args in ([], ['--fetch']):
+            with self.subTest(args=args), patch('sys.argv', ['refresh', *args]), patch.object(feed, 'urlopen') as request:
+                with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+                    feed.main()
+                request.assert_not_called()
+
+    def test_malformed_imports_preserve_saved_bytes(self):
+        source = self.output.parent / 'source.json'
+        variants = [None, [], {}, {'updatedAt': 'bad', 'posts': []}]
+        for change in ('duplicate', 'short', 'long', 'wrong-host', 'credentials', 'port', 'query',
+                       'path', 'alt-type', 'extra-field', 'naive-time', 'future-time'):
+            data = self.snapshot()
+            if change == 'duplicate': data['posts'][1] = data['posts'][0]
+            elif change == 'short': data['posts'] = data['posts'][:5]
+            elif change == 'long': data['posts'] *= 7
+            elif change == 'wrong-host': data['posts'][0]['image'] = data['posts'][0]['image'].replace('cdn.myshoptet.com', 'cdn.myshoptet.com.evil.test')
+            elif change == 'credentials': data['posts'][0]['url'] = 'https://user@www.instagram.com/p/post0/'
+            elif change == 'port': data['posts'][0]['url'] = 'https://www.instagram.com:443/p/post0/'
+            elif change == 'query': data['posts'][0]['url'] += '?token=private'
+            elif change == 'path': data['posts'][0]['url'] = 'https://www.instagram.com/p/'
+            elif change == 'alt-type': data['posts'][0]['alt'] = []
+            elif change == 'extra-field': data['posts'][0]['token'] = 'private'
+            elif change == 'naive-time': data['updatedAt'] = '2026-01-01'
+            elif change == 'future-time': data['updatedAt'] = '2999-01-01T00:00:00+00:00'
+            variants.append(data)
+        for data in variants:
+            with self.subTest(data=data):
+                source.write_text(json.dumps(data))
+                with self.assertRaises(SystemExit): self.run_cli('--input-json', str(source))
+                self.assertEqual(self.output.read_bytes(), self.original)
+        source.write_text('{broken')
+        with self.assertRaises(SystemExit): self.run_cli('--input-json', str(source))
+        self.assertEqual(self.output.read_bytes(), self.original)
+
+    def test_invalid_saved_data_fails_check(self):
+        with self.assertRaises(SystemExit): self.run_cli('--check')
+        self.assertEqual(self.output.read_bytes(), self.original)
+
+    def test_stale_snapshot_warning_summary_without_failure_or_timestamp_change(self):
+        self.output.write_text(json.dumps(self.snapshot()))
+        before = self.output.read_bytes()
+        summary = self.output.parent / 'summary.md'
+        log = io.StringIO()
+        with patch.dict(feed.os.environ, {'GITHUB_STEP_SUMMARY': str(summary)}), contextlib.redirect_stdout(log):
+            self.run_cli('--check')
+        self.assertIn('::warning', log.getvalue())
+        self.assertIn('Automatic upstream refresh is disabled', summary.read_text())
+        self.assertEqual(self.output.read_bytes(), before)
+
+    def test_json_import_order_content_and_unchanged_bytes(self):
+        source = self.output.parent / 'source.json'
+        data = self.snapshot()
+        data['posts'].reverse()
+        source.write_text(json.dumps(data))
+        self.run_cli('--input-json', str(source))
+        self.assertEqual(json.loads(self.output.read_text())['posts'], data['posts'])
+        before = self.output.read_bytes()
+        self.run_cli('--input-json', str(source))
+        self.assertEqual(self.output.read_bytes(), before)
+
+    def test_failed_write_preserves_bytes_and_cleans_temporary_file(self):
+        with patch.object(feed.os, 'fsync', side_effect=OSError), self.assertRaises(OSError):
+            feed.write_posts(self.snapshot()['posts'], self.output)
+        self.assertEqual(self.output.read_bytes(), self.original)
+        self.assertEqual(list(self.output.parent.iterdir()), [self.output])
 
 
 if __name__ == '__main__':
