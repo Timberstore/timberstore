@@ -19,6 +19,7 @@ def html(count=6):
 
 class Response(io.BytesIO):
     status = 200
+    headers = {}
 
     def __init__(self, body=None):
         super().__init__((html() if body is None else body).encode())
@@ -26,6 +27,9 @@ class Response(io.BytesIO):
 
 class RefreshTests(unittest.TestCase):
     def setUp(self):
+        isolated = patch.dict(feed.os.environ, {'GITHUB_OUTPUT': '', 'GITHUB_STEP_SUMMARY': ''})
+        isolated.start()
+        self.addCleanup(isolated.stop)
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.output = Path(self.tmp.name) / 'instagram.json'
@@ -81,7 +85,7 @@ class RefreshTests(unittest.TestCase):
     def test_failures_preserve_json_and_do_not_log_secrets(self):
         for error, attempts in [(HTTPError('https://example.test', 403, 'secret-cookie', {}, None), 1), (HTTPError('https://example.test', 404, 'secret-cookie', {}, None), 1), (HTTPError('https://example.test', 500, 'secret-cookie', {}, None), 3), (TimeoutError('secret-cookie'), 3), (URLError('secret-cookie'), 3)]:
             log = io.StringIO()
-            with self.subTest(error=type(error)), patch.object(feed, 'urlopen', side_effect=error) as request, patch.object(feed.time, 'sleep'), contextlib.redirect_stdout(log), patch('sys.argv', ['refresh', '--fetch', '--output', str(self.output)]):
+            with self.subTest(error=type(error)), patch.object(feed, 'urlopen', side_effect=error) as request, patch.object(feed.time, 'sleep'), contextlib.redirect_stdout(log), patch('sys.argv', ['refresh', '--output', str(self.output)]):
                 with self.assertRaises(SystemExit) as result:
                     feed.main()
                 self.assertIn('keeping previous data', str(result.exception))
@@ -91,99 +95,62 @@ class RefreshTests(unittest.TestCase):
                 self.assertEqual(self.output.read_bytes(), self.original)
 
     def test_empty_http_200_preserves_json(self):
-        with patch.object(feed, 'urlopen', return_value=Response('')), patch('sys.argv', ['refresh', '--fetch', '--output', str(self.output)]), self.assertRaises(SystemExit):
+        with patch.object(feed, 'urlopen', return_value=Response('')), patch('sys.argv', ['refresh', '--output', str(self.output)]), self.assertRaises(SystemExit):
             feed.main()
         self.assertEqual(self.output.read_bytes(), self.original)
 
-    def run_cli(self, *args):
-        with patch('sys.argv', ['refresh', *args, '--output', str(self.output)]):
-            feed.main()
+    def valid_saved_data(self):
+        feed.refresh(html(), self.output)
 
-    def snapshot(self):
-        return {'updatedAt': '2026-01-01T00:00:00+00:00', 'posts': [
-            {'url': f'https://www.instagram.com/p/post{i}/',
-             'image': f'https://cdn.myshoptet.com/usr/www.timberstore.sk/user/system/instagram/{i}.jpg',
-             'alt': f'Photo {i}'} for i in range(6)]}
+    def test_403_marks_unavailability_but_does_not_retry_or_modify_data(self):
+        self.valid_saved_data()
+        before = self.output.read_bytes()
+        outputs = self.output.parent / 'outputs'
+        error = HTTPError('https://example.test', 403, 'secret', {'x-request-id': 'trace-123', 'Set-Cookie': 'secret'}, None)
+        with patch.dict(feed.os.environ, {'GITHUB_OUTPUT': str(outputs)}), patch.object(feed, 'urlopen', side_effect=error) as request, patch.object(feed.time, 'sleep') as sleep, patch('sys.argv', ['refresh', '--output', str(self.output)]), contextlib.redirect_stdout(io.StringIO()) as log:
+            with self.assertRaises(SystemExit): feed.main()
+        request.assert_called_once()
+        sleep.assert_not_called()
+        self.assertIn('source_unavailable=true', outputs.read_text())
+        self.assertIn('HTTP status=403', log.getvalue())
+        self.assertIn('checkedAt=', log.getvalue())
+        self.assertIn('trace-123', log.getvalue())
+        self.assertNotIn('secret', log.getvalue())
+        self.assertEqual(self.output.read_bytes(), before)
 
-    def test_check_and_import_never_request_even_if_source_is_down(self):
-        source = self.output.parent / 'source.json'
-        source.write_text(json.dumps(self.snapshot()))
-        for error in (HTTPError('https://example.test', 403, 'refused', {}, None),
-                      HTTPError('https://example.test', 503, 'unavailable', {}, None),
-                      TimeoutError(), URLError('offline')):
-            with self.subTest(error=type(error)), patch.object(feed, 'urlopen', side_effect=error) as request:
-                self.run_cli('--input-json', str(source))
-                before = self.output.read_bytes()
-                self.run_cli('--check')
-                self.assertEqual(self.output.read_bytes(), before)
-                request.assert_not_called()
-
-    def test_no_implicit_fetch_or_production_fetch(self):
-        for args in ([], ['--fetch']):
-            with self.subTest(args=args), patch('sys.argv', ['refresh', *args]), patch.object(feed, 'urlopen') as request:
-                with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
-                    feed.main()
-                request.assert_not_called()
-
-    def test_malformed_imports_preserve_saved_bytes(self):
-        source = self.output.parent / 'source.json'
-        variants = [None, [], {}, {'updatedAt': 'bad', 'posts': []}]
-        for change in ('duplicate', 'short', 'long', 'wrong-host', 'credentials', 'port', 'query',
-                       'path', 'alt-type', 'extra-field', 'naive-time', 'future-time'):
-            data = self.snapshot()
-            if change == 'duplicate': data['posts'][1] = data['posts'][0]
-            elif change == 'short': data['posts'] = data['posts'][:5]
-            elif change == 'long': data['posts'] *= 7
-            elif change == 'wrong-host': data['posts'][0]['image'] = data['posts'][0]['image'].replace('cdn.myshoptet.com', 'cdn.myshoptet.com.evil.test')
-            elif change == 'credentials': data['posts'][0]['url'] = 'https://user@www.instagram.com/p/post0/'
-            elif change == 'port': data['posts'][0]['url'] = 'https://www.instagram.com:443/p/post0/'
-            elif change == 'query': data['posts'][0]['url'] += '?token=private'
-            elif change == 'path': data['posts'][0]['url'] = 'https://www.instagram.com/p/'
-            elif change == 'alt-type': data['posts'][0]['alt'] = []
-            elif change == 'extra-field': data['posts'][0]['token'] = 'private'
-            elif change == 'naive-time': data['updatedAt'] = '2026-01-01'
-            elif change == 'future-time': data['updatedAt'] = '2999-01-01T00:00:00+00:00'
-            variants.append(data)
-        for data in variants:
-            with self.subTest(data=data):
-                source.write_text(json.dumps(data))
-                with self.assertRaises(SystemExit): self.run_cli('--input-json', str(source))
+    def test_invalid_data_and_404_do_not_mark_tolerated_outage(self):
+        outputs = self.output.parent / 'outputs'
+        for response in (Response(''), HTTPError('https://example.test', 404, 'secret', {}, None)):
+            with self.subTest(response=type(response)), patch.dict(feed.os.environ, {'GITHUB_OUTPUT': str(outputs)}), patch.object(feed, 'urlopen', side_effect=response if isinstance(response, Exception) else None, return_value=response), patch('sys.argv', ['refresh', '--output', str(self.output)]):
+                with self.assertRaises(SystemExit): feed.main()
+                self.assertFalse(outputs.exists())
                 self.assertEqual(self.output.read_bytes(), self.original)
-        source.write_text('{broken')
-        with self.assertRaises(SystemExit): self.run_cli('--input-json', str(source))
-        self.assertEqual(self.output.read_bytes(), self.original)
 
-    def test_invalid_saved_data_fails_check(self):
-        with self.assertRaises(SystemExit): self.run_cli('--check')
-        self.assertEqual(self.output.read_bytes(), self.original)
-
-    def test_stale_snapshot_warning_summary_without_failure_or_timestamp_change(self):
-        self.output.write_text(json.dumps(self.snapshot()))
+    def test_saved_data_check_is_read_only_and_offline(self):
+        self.valid_saved_data()
         before = self.output.read_bytes()
-        summary = self.output.parent / 'summary.md'
-        log = io.StringIO()
-        with patch.dict(feed.os.environ, {'GITHUB_STEP_SUMMARY': str(summary)}), contextlib.redirect_stdout(log):
-            self.run_cli('--check')
-        self.assertIn('::warning', log.getvalue())
-        self.assertIn('Automatic upstream refresh is disabled', summary.read_text())
+        with patch.object(feed, 'urlopen') as request:
+            feed.check_saved_data(self.output)
+        request.assert_not_called()
         self.assertEqual(self.output.read_bytes(), before)
+        for payload in ([], {}, {'updatedAt': None, 'posts': [None] * 6}):
+            self.output.write_text(json.dumps(payload))
+            with self.assertRaises(feed.RefreshError): feed.check_saved_data(self.output)
 
-    def test_json_import_order_content_and_unchanged_bytes(self):
-        source = self.output.parent / 'source.json'
-        data = self.snapshot()
-        data['posts'].reverse()
-        source.write_text(json.dumps(data))
-        self.run_cli('--input-json', str(source))
-        self.assertEqual(json.loads(self.output.read_text())['posts'], data['posts'])
+    def test_request_diagnostics_reject_arbitrary_values(self):
+        with contextlib.redirect_stdout(io.StringIO()) as log:
+            feed.record_http_diagnostic(403, {'x-request-id': 'secret;cookie=value', 'cf-ray': 'bad\nheader'}, 1)
+        self.assertNotIn('secret', log.getvalue())
+        self.assertNotIn('bad', log.getvalue())
+
+    def test_recently_unchanged_source_is_still_a_success(self):
+        self.valid_saved_data()
         before = self.output.read_bytes()
-        self.run_cli('--input-json', str(source))
+        outputs = self.output.parent / 'outputs'
+        with patch.dict(feed.os.environ, {'GITHUB_OUTPUT': str(outputs)}), patch.object(feed, 'urlopen', return_value=Response()), patch('sys.argv', ['refresh', '--output', str(self.output)]):
+            feed.main()
+        self.assertFalse(outputs.exists())
         self.assertEqual(self.output.read_bytes(), before)
-
-    def test_failed_write_preserves_bytes_and_cleans_temporary_file(self):
-        with patch.object(feed.os, 'fsync', side_effect=OSError), self.assertRaises(OSError):
-            feed.write_posts(self.snapshot()['posts'], self.output)
-        self.assertEqual(self.output.read_bytes(), self.original)
-        self.assertEqual(list(self.output.parent.iterdir()), [self.output])
 
 
 if __name__ == '__main__':

@@ -1,7 +1,8 @@
-"""Validate or import reviewed Instagram gallery snapshots without network access.
+"""Refresh public Shoptet-hosted images and native Instagram permalinks.
 
-Legacy HTML fetching is opt-in for local diagnostics only, never scheduled.
-Imports retain the frontend contract and replace data atomically after validation.
+The reader preference applies only to this server request. It never runs
+analytics/embed scripts or changes visitor consent. Failed/empty responses keep
+last known-good data. No account token or visitor identifier is used.
 """
 import argparse
 import json
@@ -48,6 +49,19 @@ class RefreshError(Exception):
     """Safe diagnostic message, without response bodies, headers or cookies."""
 
 
+class SourceUnavailable(RefreshError):
+    """Temporary source refusal/outage; the workflow may retain validated data."""
+
+
+def record_http_diagnostic(status, headers, attempt):
+    # Do not log bodies, cookies, arbitrary headers or exception messages.
+    print(f'Source attempt={attempt} HTTP status={status} checkedAt={datetime.now(timezone.utc).isoformat()}')
+    for name in ('x-request-id', 'cf-ray'):
+        value = headers.get(name, '') if headers else ''
+        if re.fullmatch(r'[A-Za-z0-9_:.-]{1,100}', value):
+            print(f'Source {name}={value}')
+
+
 def fetch_html():
     preference = json.dumps({'consent': 'analytics,personalisation', 'cookieId': secrets.token_hex(16)}, separators=(',', ':'))
     request = Request('https://www.timberstore.sk/?ts_feed=1', headers={'Cookie': f'CookiesConsent={preference}', 'User-Agent': 'TimberStore-gallery-refresh/1.0'})
@@ -55,13 +69,15 @@ def fetch_html():
         delay = 2 ** attempt
         try:
             with urlopen(request, timeout=30) as response:
-                print(f'Source attempt={attempt} HTTP status={response.status}')
+                record_http_diagnostic(response.status, response.headers, attempt)
                 return response.read().decode('utf-8')
         except HTTPError as error:
             status = error.code
             retry_after = error.headers.get('Retry-After', '') if error.headers else ''
+            record_http_diagnostic(status, error.headers, attempt)
             error.close()
-            print(f'Source attempt={attempt} HTTP status={status}')
+            if status == 403:
+                raise SourceUnavailable('HTTP 403; request refused; no retry') from None
             if status not in (408, 429, 500, 502, 503, 504):
                 raise RefreshError(f'HTTP {status}; request refused; no retry') from None
             reason = f'HTTP {status}'
@@ -72,7 +88,7 @@ def fetch_html():
                 except (TypeError, ValueError, OverflowError):
                     pass
                 if delay > 60:
-                    raise RefreshError(f'HTTP {status}; Retry-After exceeds retry window') from None
+                    raise SourceUnavailable(f'HTTP {status}; Retry-After exceeds retry window') from None
         except (TimeoutError, socket.timeout):
             reason = 'timeout'
         except (URLError, ConnectionError, HTTPException):
@@ -81,80 +97,19 @@ def fetch_html():
             raise RefreshError('invalid UTF-8 response') from None
         print(f'Source attempt={attempt} failure={reason}')
         if attempt == 3:
-            raise RefreshError(f'{reason}; exhausted 3 attempts')
+            raise SourceUnavailable(f'{reason}; exhausted 3 attempts')
         print(f'Retrying in {delay}s')
         time.sleep(delay)
-
-
-def validate_posts(posts):
-    if not isinstance(posts, list) or not 6 <= len(posts) <= 40:
-        raise RefreshError('snapshot must contain 6 to 40 posts')
-    seen = set()
-    for post in posts:
-        if not isinstance(post, dict) or set(post) != {'url', 'image', 'alt'}:
-            raise RefreshError('invalid post fields')
-        if not all(isinstance(post[key], str) for key in post):
-            raise RefreshError('post fields must be strings')
-        for key, host, pattern in (
-            ('url', 'www.instagram.com', r'/(p|reel)/[A-Za-z0-9_-]+/'),
-            ('image', 'cdn.myshoptet.com', r'/usr/www\.timberstore\.sk/user/system/instagram/[A-Za-z0-9_.-]+\.(jpg|jpeg|png|webp)'),
-        ):
-            parts = urlsplit(post[key])
-            if (parts.scheme != 'https' or parts.netloc != host or parts.query
-                    or parts.fragment or not re.fullmatch(pattern, parts.path)):
-                raise RefreshError(f'invalid {key} URL')
-        if post['url'] in seen:
-            raise RefreshError('duplicate Instagram permalink')
-        seen.add(post['url'])
-    return posts
-
-
-def validate_snapshot(data):
-    if not isinstance(data, dict) or set(data) != {'updatedAt', 'posts'}:
-        raise RefreshError('invalid snapshot fields')
-    if not isinstance(data['updatedAt'], str):
-        raise RefreshError('invalid updatedAt timestamp')
-    try:
-        stamp = datetime.fromisoformat(data['updatedAt'])
-    except ValueError:
-        raise RefreshError('invalid updatedAt timestamp') from None
-    if stamp.tzinfo is None or stamp > datetime.now(timezone.utc):
-        raise RefreshError('updatedAt must have timezone and not be in the future')
-    validate_posts(data['posts'])
-    return stamp
-
-
-def check_snapshot(output):
-    data = json.loads(output.read_text(encoding='utf-8'))
-    stamp = validate_snapshot(data)
-    age = (datetime.now(timezone.utc) - stamp).days
-    message = f'Validated {len(data["posts"])} posts; snapshot last changed {age} days ago. No upstream refresh was attempted.'
-    if age >= 30:
-        message += ' Review the gallery for new posts; this age measures content changes, not last source verification.'
-        print(f'::warning title=Instagram snapshot review due::{message}')
-    else:
-        print(message)
-    summary = os.environ.get('GITHUB_STEP_SUMMARY')
-    if summary:
-        with open(summary, 'a', encoding='utf-8') as handle:
-            handle.write('## Instagram gallery: reviewed snapshot mode\n\n' + message + '\n\n'
-                         'Automatic upstream refresh is disabled until a supported source is configured. '
-                         'Update via a reviewed data PR; see docs/instagram-refresh-2026-11-12.md.\n')
 
 
 def refresh(html, output):
     feed = FeedParser()
     feed.feed(html)
-    posts = list({post['url']: post for post in feed.posts}.values())
+    posts = list({post['url']: post for post in feed.posts}.values())[:40]
     print(f'Found {len(posts)} valid native posts')
-    write_posts(posts, output)
-
-
-def write_posts(posts, output):
-    validate_posts(posts)
-    previous = json.loads(output.read_text(encoding='utf-8')) if output.exists() else {}
-    if not isinstance(previous, dict):
-        raise RefreshError('existing snapshot is not an object')
+    if len(posts) < 6:
+        raise RefreshError('native feed supplied fewer than six valid posts')
+    previous = json.loads(output.read_text()) if output.exists() else {}
     if previous.get('posts') == posts:
         print('Feed unchanged')
         return
@@ -174,28 +129,50 @@ def write_posts(posts, output):
     print(f'Updated {len(posts)} verified native posts')
 
 
+def check_saved_data(output):
+    data = json.loads(output.read_text(encoding='utf-8'))
+    if not isinstance(data, dict) or not isinstance(data.get('posts'), list) or not 6 <= len(data['posts']) <= 40:
+        raise RefreshError('saved gallery must contain 6 to 40 posts')
+    if not isinstance(data.get('updatedAt'), str):
+        raise RefreshError('invalid saved gallery timestamp')
+    stamp = datetime.fromisoformat(data['updatedAt'])
+    if stamp.tzinfo is None or stamp > datetime.now(timezone.utc):
+        raise RefreshError('invalid saved gallery timestamp')
+    seen = set()
+    for post in data['posts']:
+        if not isinstance(post, dict) or not all(isinstance(post.get(k), str) for k in ('url', 'image', 'alt')):
+            raise RefreshError('invalid saved post')
+        url, image = urlsplit(post['url']), urlsplit(post['image'])
+        if (url.scheme != 'https' or url.netloc != 'www.instagram.com'
+                or not re.fullmatch(r'/(p|reel)/[A-Za-z0-9_-]+/', url.path)
+                or url.query or url.fragment or post['url'] in seen
+                or image.scheme != 'https' or image.netloc != 'cdn.myshoptet.com'
+                or not image.path.startswith('/usr/www.timberstore.sk/user/system/instagram/')
+                or image.query or image.fragment):
+            raise RefreshError('invalid saved gallery URL or duplicate post')
+        seen.add(post['url'])
+    print(f'Validated {len(seen)} saved posts (content timestamp is not source health)')
+
+
 def main():
     parser = argparse.ArgumentParser()
-    mode = parser.add_mutually_exclusive_group(required=True)
-    mode.add_argument('--check', action='store_true', help='Validate committed data; no network or writes')
-    mode.add_argument('--input', type=Path, help='Import a reviewed local HTML snapshot')
-    mode.add_argument('--input-json', type=Path, help='Import a reviewed local JSON snapshot')
-    mode.add_argument('--fetch', action='store_true', help='Legacy network diagnostic; use a scratch --output')
+    parser.add_argument('--input', type=Path)
+    parser.add_argument('--check', action='store_true', help='Validate saved fallback without contacting source')
     parser.add_argument('--output', type=Path, default=Path('data/instagram.json'))
     args = parser.parse_args()
     try:
         if args.check:
-            check_snapshot(args.output)
-        elif args.input_json:
-            data = json.loads(args.input_json.read_text(encoding='utf-8'))
-            validate_snapshot(data)
-            write_posts(data['posts'], args.output)
-        elif args.input:
-            refresh(args.input.read_text(encoding='utf-8'), args.output)
-        else:
-            if args.output.resolve() == Path('data/instagram.json').resolve():
-                raise RefreshError('legacy fetch requires a scratch --output; publish only through review')
-            refresh(fetch_html(), args.output)
+            check_saved_data(args.output)
+            return
+        html = args.input.read_text(encoding='utf-8') if args.input else fetch_html()
+        refresh(html, args.output)
+    except SourceUnavailable as error:
+        # Mark only expected upstream unavailability, never parser/filesystem bugs.
+        target = os.environ.get('GITHUB_OUTPUT')
+        if target:
+            with open(target, 'a', encoding='utf-8') as handle:
+                handle.write('source_unavailable=true\n')
+        raise SystemExit(f'Refresh failed: {error}; keeping previous data.') from None
     except RefreshError as error:
         raise SystemExit(f'Refresh failed: {error}; keeping previous data.') from None
     except (OSError, ValueError):

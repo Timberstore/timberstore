@@ -1,17 +1,20 @@
 # Instagram gallery refresh — 2026-11-12
 
-## Decision and operating mode
+## Final proposal: preserve automatic acquisition
 
-Use the existing reviewed `data/instagram.json` snapshot until an authorized,
-supported upstream feed is available. **This change disables automatic acquisition
-of new posts.** It does not claim to repair Shoptet's HTTP policy. The renamed
-workflow validates the snapshot on relevant PRs/pushes, manually, and weekly.
-The existing gallery continues to render the same data. No frontend, CSS, loader,
-production tag, shop settings or visitor consent code changes.
+PR #72 retains the existing Shoptet reader, native Instagram permalinks, image
+mapping, ordering, atomic replacement and automatic publishing of changed data.
+The earlier proposal to disable acquisition and require manual imports has been
+withdrawn. No manual import is required for new posts.
 
-This is a deliberate operational fallback, not `continue-on-error` around a
-broken scraper. A successful validation means the saved data contract is valid,
-not that Instagram/Shoptet was contacted or that the content is current.
+Schedule: **once daily at 03:00 Europe/Bratislava**, using `cron: '0 3 * * *'`
+and `timezone: Europe/Bratislava`. GitHub now documents IANA timezone scheduling
+([workflow events](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)).
+This is 02:00 UTC in winter and 01:00 UTC in summer. At 03:00 the Slovak DST
+transition does not duplicate or skip the local hour. GitHub may delay or drop
+scheduled jobs under load; this is a target start time, not an exact-time SLA.
+Changing the time and frequency reduces requests but is **not a proven fix for
+403**. The source remains an external dependency.
 
 ## Evidence and cause
 
@@ -57,106 +60,212 @@ its success does not establish Actions reliability. All 16 saved image URLs
 returned HTTP 200 and image/jpeg. The committed snapshot last changed Nov 6;
 that date is not the last successful upstream verification.
 
-## What PR #71 did and did not fix
+## What PR #71 did and what this changes
 
 [PR #71](https://github.com/Timberstore/timberstore/pull/71) and its
-[diagnosis](fixes/instagram-refresh/diagnosis.md) correctly protected data with atomic
-writes, validated minimum feed size, retried transient failures, refused to retry
-403, and updated Actions runtimes. Its code, tests and documentation were reviewed.
-Its documented limitation was real: every scheduled run still depended on an
-unsupported public HTML request, and any refusal still failed the job and could
-trigger failure emails. Retry/backoff cannot make 403 access permitted. It was
-resilience work, not a permanent replacement for that dependency. Five successful
-runs after merge did not prove the external refusal was fixed.
+[diagnosis](fixes/instagram-refresh/diagnosis.md) correctly protected data with
+atomic writes, validated minimum feed size, retried transient failures, refused
+to retry 403, and updated Actions runtimes. Its remaining limitation was alerting:
+a single source refusal still failed the entire run. Five successful runs after
+merge did not prove external refusals had stopped. Conversely, 69 successes out
+of 72 runs do not justify removing a useful automatic acquisition mechanism.
 
-## Supported source investigation and long-term recommendation
+This revision retains that mechanism and adds measured degradation handling:
 
-Shoptet's [official support guide](https://podpora.shoptet.sk/socialne-siete/)
-documents its native Instagram widget and account connection. It does not document
-a public gallery export for a separate refresh job. The reviewed
-[public API catalog](https://api.docs.shoptet.com/shoptet-api/openapi/endpoints)
-does not list an Instagram media endpoint. This is a finding about the public
-documentation, not proof that Shoptet cannot offer a supported private integration.
-No shop API token or Meta credentials were available to verify account-specific
-capabilities. Do not guess private widget endpoints or extract Shoptet's tokens.
+| Event | Result |
+| --- | --- |
+| Successful acquisition, changed posts | Validate and atomically replace JSON; publish changed data on main |
+| Successful acquisition, unchanged posts | Success; retain original bytes/timestamp; source-health counter resets |
+| First 403/temporary outage after a verified source run within 48 hours | No retry for 403, warning and job summary; retain gallery; next daily run remains enabled |
+| Second consecutive acquisition failure | Error annotation, failed workflow and normal GitHub failure notifications |
+| Last verified source run older than 48 hours | Current outage is escalated rather than silently tolerated |
+| Empty/short/malformed feed, unexpected 404/401, parser/file/write failure | Fail immediately; do not classify as tolerated source unavailability |
+| Missing/invalid saved gallery | Fail validation before source acquisition |
+| History API unavailable or cannot establish previous source result | Monitoring fails visibly; never infer healthy status |
 
-Preferred long-term architecture: an owner-authorized media producer using Meta's
-[Instagram API](https://developers.facebook.com/docs/instagram-platform/), or a
-Shoptet-supported export confirmed by their support. Meta's
-[official collection](https://www.postman.com/meta/instagram/documentation/6yqw8pt/instagram-api?entity=request-23987686-3a63181c-e5c6-4890-96dd-e4d425bef5e0)
-describes professional-account access and authorization requirements. The direct
-Meta documentation fetch was rate-limited during this investigation. Account
-eligibility, permissions, token lifecycle and media retention must be verified
-before implementation; authorization is not implied by having a public profile.
+Repeated failures mean consecutive **actual source attempts**, not overall green
+workflow runs. The source step uses continue-on-error only so the following health
+step can classify its failure. Stable `Instagram source verified` and
+`Instagram source unavailable` step markers persist the actual outcome in Jobs
+API, including when a single outage yields an overall successful job. Monitoring
+checks the latest meaningful completed scheduled/manual main run (up to 30 runs),
+ignores PR tests/branch diagnostics and recognizes the old pre-PR refresh step.
+No health state is inferred from `data/instagram.json.updatedAt`, because unchanged
+content is still a successful verification. Source success requires no history API
+call. History access uses the built-in token with `actions: read`; no new secrets.
 
-The producer should create the same ordered public manifest and retain approved
-images durably. Direct Meta media URLs are not a drop-in replacement: this frontend
-accepts only the existing shop-specific Shoptet CDN path. A supported way to retain
-those images, or a separately reviewed gallery change, is required. Keep secrets
-server-side, validate before atomic replacement, preserve last good output, and
-monitor last successful acquisition independently of content change time. Merely
-moving this HTML scraper to another host does not create a supported source.
+Source diagnostics record UTC check time, HTTP status, attempt and only bounded,
+character-validated `x-request-id`/`cf-ray` identifiers if the response supplies
+them. Cookies, arbitrary headers, response bodies, token values and raw exception
+messages are never logged. Logs also have workflow run/runner context for a support
+investigation. 403 still gets exactly one request, no retry or identity changes.
+Transient retries from #71 remain unchanged. The server-reader preference remains
+isolated from visitors; no consent registration or browser-session imitation is
+introduced.
 
-Until then, maintain the snapshot through reviewed PRs. Its JSON hosting still
-depends on raw.githubusercontent.com and images on Shoptet CDN; existing native
-widget behavior also remains Shoptet's responsibility. This change cannot promise
-image lifetime or Instagram destination availability.
+A tolerated source failure does not publish data. Only successful acquisition
+can reach the existing main data commit/push. Tests run on PRs; the acquisition
+job is skipped on PR events. Manual branch diagnostics cannot publish to main and
+any source failure on such a branch remains a failed diagnostic run. Test jobs
+are read-only. Refresh has contents-write and actions-read permissions.
 
-## Safe update procedure
+Warnings/summaries do not generate a failed-workflow email for an isolated source
+outage. Persistent acquisition failure and real technical errors fail normally;
+GitHub's own notification preferences control recipients and whether emails are
+sent. We neither change those preferences nor send external messages. Persistent
+failures can therefore continue producing notifications until resolved. A warning
+is not a claim that the source was refreshed. Daily acquisition also means a new
+post may take roughly a day plus scheduling/cache delay to reach the public JSON.
+There is no independent dead-man alert for a workflow GitHub never starts.
 
-1. Create a branch from current main. Obtain owner-approved posts/images, or save
-   legitimately accessible Shoptet HTML locally. Do not include account credentials
-   or private HTML in the public repository.
-2. Keep the JSON shape `{"updatedAt":"timezone-aware ISO timestamp","posts":[...]}`;
-   each post has exactly `url`, `image`, `alt`. Keep 6–40 unique posts in the desired
-   display order. Use native HTTPS `/p/<id>/` or `/reel/<id>/` Instagram permalinks
-   and existing approved shop Instagram CDN image URLs. No query strings/tokens.
-3. Import with `python scripts/refresh-instagram.py --input-json /path/to/reviewed.json`
-   or `--input /path/to/reviewed.html`. Changed content receives a new timestamp;
-   unchanged posts retain the existing file bytes and timestamp. A failed import
-   leaves the previous data untouched. Review the complete data diff, especially
-   image mappings and order; validation cannot prove editorial correctness.
-4. Run `python scripts/refresh-instagram.py --check` and
-   `python -m unittest discover -s tests -p 'test_refresh_instagram.py'`.
-   Open a PR and merge only after owner approval. Manual workflow dispatch only
-   validates the selected ref; it never fetches or publishes new posts.
+## Alternatives investigated: preserve automation during any migration
 
-The old reader remains explicitly available as `--fetch --output /scratch/file.json`
-for local diagnosis only. It fails immediately on 403, preserves the scratch file,
-and refuses the default production data path. It is not used in any workflow.
-No invocation without an explicit mode can silently start a network request.
+### 1. Existing native Shoptet widget
 
-## Monitoring and notification semantics
+The current Instagram module already reuses the native widget when present,
+including links, images, slider and responsive placement. When native content is
+absent it reads the public JSON fallback. A MutationObserver handles native widget
+DOM insertion; no additional periodic HTML download by visitors is needed.
 
-Weekly Monday 08:17 UTC validation (09:17 Bratislava in winter, 10:17 in summer;
-Actions scheduling can be delayed) replaces the six-hour scrape. Permissions are
-read-only; credentials are not persisted and there is no commit/push step.
-Invalid/missing data, broken tests and filesystem errors still fail normally.
-A content-change age of 30 days produces a warning plus the job summary, without
-failing the run or causing scraper failure email notifications. It is a review
-reminder, **not** an upstream health or freshness guarantee. An unchanged gallery
-can be correct; a recently changed snapshot can still miss a new Instagram post.
-This fallback requires someone to review the weekly summary. It does not send
-external messages or change users' GitHub email notification settings.
+[Shoptet documents account connection and widget placement](https://podpora.shoptet.sk/socialne-siete/).
+Its [cookie documentation](https://podpora.shoptet.sk/cookies/) also documents
+consent-controlled widget activation. Our read-only evidence shows native items
+missing from non-consented source HTML while the existing isolated reader sees
+16 items. Therefore native-only rendering is a low-maintenance automatic solution
+for the customers to whom Shoptet supplies the widget, but does **not** currently
+replace automatic fallback updates for all visitors. Do not change consent
+settings, silently accept cookies, or fetch consent-marked HTML in visitors'
+browsers to make it appear otherwise. Shoptet has not confirmed a separate
+consent-independent supported gallery feed for this shop.
 
-## Validation
+No account reconnection is indicated by the observed intermittent HTTP 403:
+successful HTML requests still contain valid native posts. If investigating native
+connection settings, inspect only **Prepojenie → Sociálne siete → Instagram** and
+**Vzhľad a obsah → Šablóny → Prvky → Instagram**. Keep the current connection,
+placement, image count and cookie settings. Reconnect only if Shoptet identifies
+an expired account connection, using the documented owner login flow.
 
-- 16 unit-test methods: original retries/refusals (403/404, 429/503, exhausted 500,
-  timeout/network errors), empty/short feeds, atomic replace failure, safe logs,
-  plus offline check/import while mocked upstream returns 403/503/timeouts,
-  explicit-mode guard, malformed schema/timestamps/URLs/duplicates, ordered JSON
-  import, unchanged bytes, stale warning/summary and failed write cleanup.
-- Current 16-post JSON passes strict validation. Offline import of today's HTML
-  matches every saved post. Production JSON remains byte-identical to main.
-- Workflow YAML parsed; read-only permissions, no fetch/publish command verified.
-- Live Chromium at 375px and 1440px used the unchanged production page with the
-  candidate JSON response supplied locally. All 16 item links/images/alt text and
-  order matched the snapshot; both arrow buttons were present and the next button
-  accepted a click at both sizes; no CookiesConsent cookie appeared. Lazy loading
-  loaded only visible/nearby images; all 16 image URLs were checked separately.
-  Browser diagnostics allowed the managed proxy certificate via ignoreHTTPS errors;
-  normal Python HTTP probes retained TLS verification.
-- Safari/iPhone and pixel-perfect screenshot comparisons were not performed.
-  Frontend/CSS/build/data files are unchanged, so no new bundle or release is needed.
-- `git diff --check` passes. No production dispatch, merge, tag, deployment or
-  shop administration change was performed.
+### 2. Supported Shoptet export
+
+The reviewed [public endpoint catalog](https://api.docs.shoptet.com/shoptet-api/openapi/endpoints)
+and [export API](https://api.docs.shoptet.com/shoptet-api/openapi/exports) do not
+document Instagram media export. The export API describes accounting documents;
+its existence does not imply an Instagram export. Nor can a known image directory
+supply future Instagram permalinks/order as a supported feed. Public documentation
+cannot rule out an account-specific option, so Shoptet support confirmation is
+still the most useful low-maintenance next step. No support message has been sent.
+
+Owner-ready support request:
+
+> Pre e-shop www.timberstore.sk používame natívne prepojenie Instagramu a vlastné
+> zobrazenie jeho obrázkov a permalinkov. Poskytujete podporovaný serverový JSON,
+> API alebo export príspevkov vrátane poradia a Shoptet CDN obrázkov, nezávislý od
+> sťahovania homepage a nastavení cookies návštevníka? Ak áno, prosíme dokumentáciu,
+> spôsob autorizácie, limity a interval aktualizácie. Prosíme aj preveriť HTTP 403
+> z 12. 11. 2026 o 07:22:03 UTC (08:22:03 Bratislava), prípadne 7. a 8. novembra
+> približne 06:09 a 06:14 UTC. Ktorá serverová vrstva/pravidlo odmietla požiadavku?
+> Nežiadame obídenie ochrany ani vypnutie ochrany celého e-shopu.
+
+A supported Shoptet feed with the existing CDN mapping would be the preferred
+replacement because it reuses the already managed account connection. Do not
+implement guessed private widget endpoints or extract its tokens.
+
+### 3. Official Meta Instagram API
+
+A technically viable independent architecture uses owner-authorized official API
+acquisition on a private scheduled producer and publishes a validated static JSON
+and thumbnail snapshot to a durable CDN. Browser visitors read only that public
+snapshot, with no Meta tokens or Meta embed scripts. No public shop HTML request
+is needed. The [official Meta collection](https://www.postman.com/meta/instagram/folder/1z5vxzu/instagram-api-with-instagram-login)
+confirms the Instagram Login route for Business/Creator accounts. For reading the
+owner's media, target the basic-read permission `instagram_business_basic`, without
+requesting publishing, messages or comments permissions. The Instagram Login route
+avoids a Facebook Page dependency; a Facebook Login integration is a different
+route with different prerequisites.
+
+Proposed producer behavior: poll every six hours (configurable independently of
+the interim daily HTML reader), handle API pagination and images/reels/carousels,
+use the API permalink and timestamp, and retain approved thumbnails under a narrow
+shop-controlled CDN prefix. Download and validate replacement thumbnails before
+publishing the manifest. Never expose temporary Meta media URLs or auth tokens as
+permanent public data. Image caching, refresh/deletion and authorization revocation
+must follow Meta's platform requirements; this is not indefinite media retention.
+Automatically refresh long-lived credentials before expiry, with atomic private
+storage and a reconnect alert if authorization is revoked. Token lifecycle and
+account-specific access must be checked during setup; no integration can promise
+never to need owner reconnection.
+
+There are currently no Meta credentials or authorized API responses in this
+session. Direct Meta developer-document requests returned 429; the official Meta
+Postman material was available. Exact account permissions, token refresh behavior,
+media results and App Review requirements are **not verified for Timberstore**.
+No live API integration has been claimed or deployed.
+
+Owner steps if this route is selected:
+
+1. In Instagram, open **Nastavenia a aktivita → Pre profesionálov → Typ účtu a
+   nástroje** (label varies by app version). Confirm `timberstore.sk` is Business
+   or Creator. If it is personal, switching to a professional account is required;
+   do not disconnect its existing Shoptet connection.
+2. At [Meta for Developers](https://developers.facebook.com/apps/), create or use
+   a Timberstore-owned app and choose the Instagram product/use case with
+   **API setup with Instagram login**. The dashboard labels may change. Add the
+   owner account via **Add account/Generate access token**, accepting any account
+   tester invitation if the dashboard requires it. Authorize profile/media read
+   for `timberstore.sk`; do not request publishing or messaging for this gallery.
+3. For an owner-managed account, first verify the app-role/Standard Access path
+   in that app. If Meta requires Advanced Access, complete its App Review/business
+   verification and required app privacy/deletion configuration. Do not assume
+   that a test token authorizes an unreviewed multi-customer app in production.
+4. Store the Instagram user ID, token and required app credentials through the
+   private deployment secret store or protected server environment file. Never
+   paste them into chat, public GitHub files, frontend JS or screenshots. Configure
+   token refresh and secure persistence so routine expiry needs no manual work.
+5. Provision/approve the static image CDN prefix and producer hosting. The repository
+   describes a server-based backend, but its current backend/server directories
+   contain no implemented hosting setup; a working deployment is not assumed.
+   This is developer setup, not a recurring owner import task.
+6. Run parallel API acquisition against the existing HTML automation. Compare all
+   16 existing permalink/image mappings and order, then verify a genuinely new
+   post arrives automatically. Test API outages, revoked tokens, image errors and
+   old-snapshot behavior. Only after approval switch the data source and retire
+   HTML acquisition. There must never be a gap with no automatic source.
+
+### 4. Minimal-maintenance recommendation
+
+**Now:** keep the proven automatic reader, reduce it to the requested daily time,
+and make isolated failures non-disruptive while escalating repeated failures.
+**Next:** ask Shoptet for a supported feed using the existing connection. If they
+cannot provide it, use the official Meta producer and static gallery CDN described
+above. A managed provider offering the same authorized API-to-static-feed contract
+could reduce credential/hosting maintenance, but would need verification of its
+feed API, cost, images, consent behavior and compatibility with this exact design;
+no provider has been selected or purchased.
+
+The current frontend intentionally allows only the shop-specific Shoptet image
+prefix. A Meta producer cannot invent URLs inside Shoptet's system Instagram
+directory or assume a generic files API can write there. New CDN URLs require a
+separately reviewed, narrow allowlist and feed mapping change **inside the gallery**.
+Keep existing 16 image URLs/order during migration and add new items according to
+an explicit verified ordering rule; API order or pinned posts must not be assumed
+to match Shoptet. Existing CSS/slider/placement can remain. No frontend change is
+included in this interim PR.
+
+## Validation and unchanged scope
+
+- 26 unittest methods pass: original retry/refusal/atomic preservation tests plus
+  typed outage classification, safe timestamp/request-ID diagnostics, unchanged
+  source success, saved-data validation, single/repeated failure classification,
+  48-hour freshness guard, API monitoring failure, legacy source results, ignored
+  PR/branch/test-only histories, workflow marker/publish contract and DST dates.
+- Live scratch acquisition returned 16 posts matching the existing saved data.
+- YAML parsed; schedule is daily 03:00 Europe/Bratislava; PR acquisition is skipped.
+- Earlier live Chromium checks at 375px/1440px confirmed all 16 links/images/order,
+  both arrows and no CookiesConsent cookie. All 16 image URLs returned 200 JPEG.
+  Frontend/CSS/data remain byte-identical to main; no new visual implementation
+  invalidates that baseline. Safari/iPhone and pixel-perfect comparisons not run.
+- No production workflow dispatch, main commit, merge, tag, deployment, account
+  reconnection, notification settings change or shop administration change.
+- The branch/PR is the reviewable proposal. The active main schedule remains
+  unchanged until owner-approved merge. Lower request frequency does not establish
+  the server's 403 cause or guarantee future upstream availability.
