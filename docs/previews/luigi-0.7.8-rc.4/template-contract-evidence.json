@@ -1,0 +1,21 @@
+{
+  "vendorBootstrapSource": "https://scripts.luigisbox.tech/LBX-1266949.js",
+  "archivedBootstrapSha256": "3b99802aa84ed0a7b7adf0d895b9ad65ff44ca83b13bd6502f7a928fe901c221",
+  "configuredTemplateNames": [
+    "template-result-default",
+    "template-results",
+    "template-top-items",
+    "template-quick-search-default",
+    "template-search",
+    "template-recommend-basket",
+    "template-recommend-homepage_personalized",
+    "template-recommend-homepage_last_seen",
+    "template-recommend-product_detail",
+    "template-recommend-basket_popup"
+  ],
+  "customTemplateMechanism": "templates configuration + initializeTemplates in actual official bootstrap; editing contract/admin access still BLOCKED",
+  "apolloSource": "https://cdn.myshoptet.com/usr/apollo.jakubtursky.sk/user/documents/assets/app.min.js?v=1657",
+  "apolloSha256": "509d232026ccfe097b25ca522af5e82b5745f1b19546babf7221a18e649da383",
+  "apolloGlobalProductTransform": "function partsRepositionProducts(){var e,t,i,a,r,o,n,s,l,d,p;$(\".products-block\").length&&$(\".products-block .product\").each((function(){(e=$(this),t=e.find(\".availability\"),i=e.find(\".p-tools > *\"),a=e.find(\".widget-parameter-wrapper\"),productImage=e.find(\".image\"),r=e.find(\".price-standard\"),o=e.find(\".price-save\"),productFinal=e.find(\".price-final strong\"),n=e.find(\".flag-discount\"),s=e.find(\".p-desc\"),p=e.find(\".flags-default\"),i.wrap('<span class=\"product-btn\"></span>'),l=e.find(\".product-btn\"),productsDiscountCustom&&(e.find(\".price-save\").length?(n.html(\"\"),n.append(o)):e.find(\".price-standard\").length&&n.remove(\"\")),e.find(\".flag-freeshipping\").length&&((d=e.find(\".flag-freeshipping\")).find(\".flag-text\").text(productFreeDelivery),p.prepend(d)),e.find(\".dkLabZakoupeno\").length&&e.addClass(\"plugin-zakupeno\"),e.find(\".dkLabCountdownWrapper\").length&&e.addClass(\"plugin-countdown\"),e.find(\".widget-parameter-list\").length&&e.addClass(\"has-variants\"),0==e.find(\".p-code\").length&&e.addClass(\"no-code\"),e.find(\".no-buttons\").length&&e.addClass(\"no-button\"),e.find(\".p-tools\").append(t),e.find(\".p\").append(l),e.find(\".image\").append(a),productsDiscountCustom)&&(productFinal.text().trim()!==\"od \"+r.text().trim()?e.find(\".price-final\").prepend(r):e.find(\".price-standard\").remove());e.find(\".p-bottom\").length&&e.find(\".p-bottom\").first().append(s),e.find(\".quantity\").length&&e.addClass(\"has-quantity\")}))}",
+  "causeLimit": "The global selector also matches Luigi .products-block .product. This source alone does not prove which callback caused each observed DOM mutation. Do not attribute inStock behavior without a call stack."
+}

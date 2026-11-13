@@ -1,0 +1,82 @@
+<!doctype html><html lang="sk"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Luigi rc.4 — dôkazy a blokery</title><style>body{font:16px/1.5 system-ui;margin:24px;max-width:1500px;color:#171717}h1{font-size:28px}h2{margin-top:44px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}figure{margin:0;padding:12px;border:1px solid #ccc;background:#fafafa}img{display:block;max-width:100%;height:auto}figcaption{font-weight:600;margin-bottom:12px}.card img{max-height:700px}a{color:#2454a6}p{max-width:1000px}@media(max-width:650px){.pair{grid-template-columns:1fr}}</style><h1>0.7.8-rc.4 · pracovné preview, integrácia nesplnená v bodoch BLOCKED</h1><p>Pred = odmietnuté rc.0 (3cef596). Po = nový nemenný rc.4. Každá snímka zachytáva reálny web v samostatnom kontexte. Referencia = čistá produkcia v0.7.7. Snímky odporúčaní môžu mať iný personalizovaný obsah; to nie je dôkaz zmeny CSS.</p><p><a href="REPORT.md">Stavy jednotlivých bodov a výsledky</a> · <a href="SUPPORT-REQUEST.md">Presná pripravená požiadavka podpore (neodoslaná)</a> · <a href="purchases.json">Košíkové a analytické kontroly</a></p>
+<h2>Rovnaký produkt553488 · 1440px</h2><p>BLOCKED: v Luigi stále chýba netto, skladový počet a editovateľné množstvo; Komplet je bez sémantického code. Obrázky odhaľujú rozdiely, neoznačujú ich za prijaté.</p><div class="pair card">
+<figure><figcaption>Natívna TOP karta · produkcia v0.7.7</figcaption><a href="native-top-1440.png"><img src="native-top-1440.png" loading="lazy"></a></figure>
+<figure><figcaption>Luigi výsledky · rc.4</figcaption><a href="luigi-card-1440-after.png"><img src="luigi-card-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Rovnaký produkt553488 · 375px</h2><p>BLOCKED: v Luigi stále chýba netto, skladový počet a editovateľné množstvo; Komplet je bez sémantického code. Obrázky odhaľujú rozdiely, neoznačujú ich za prijaté.</p><div class="pair card">
+<figure><figcaption>Natívna TOP karta · produkcia v0.7.7</figcaption><a href="native-top-375.png"><img src="native-top-375.png" loading="lazy"></a></figure>
+<figure><figcaption>Luigi výsledky · rc.4</figcaption><a href="luigi-card-375-after.png"><img src="luigi-card-375-after.png" loading="lazy"></a></figure>
+</div>
+<h2>FIXED · vlastné miesto odkazu pod produktmi · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="autocomplete-footer-1440-before.png"><img src="autocomplete-footer-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="autocomplete-footer-1440-after.png"><img src="autocomplete-footer-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>FIXED · vlastné miesto odkazu pod produktmi · 375px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="autocomplete-footer-375-before.png"><img src="autocomplete-footer-375-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="autocomplete-footer-375-after.png"><img src="autocomplete-footer-375-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Výsledky · fyzické rozloženie a celé názvy; nákupné dáta BLOCKED · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="results-1440-before.png"><img src="results-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="results-1440-after.png"><img src="results-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Výsledky · fyzické rozloženie a celé názvy; nákupné dáta BLOCKED · 375px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="results-375-before.png"><img src="results-375-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="results-375-after.png"><img src="results-375-after.png" loading="lazy"></a></figure>
+</div>
+<h2>FIXED · zarovnanie druhého riadka výsledkov · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="results-row2-1440-before.png"><img src="results-row2-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="results-row2-1440-after.png"><img src="results-row2-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>FIXED · checkbox/vzorka zarovnané s textom · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="filters-open-1440-before.png"><img src="filters-open-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="filters-open-1440-after.png"><img src="filters-open-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>FIXED · checkbox/vzorka zarovnané s textom · 375px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="filters-open-375-before.png"><img src="filters-open-375-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="filters-open-375-after.png"><img src="filters-open-375-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Funkčne overené · Skladom + Biela + BLUM, reset; nesúlad zmiešaného počtu BLOCKED · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="filters-combination-1440-before.png"><img src="filters-combination-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="filters-combination-1440-after.png"><img src="filters-combination-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Funkčne overené · Skladom + Biela + BLUM, reset; nesúlad zmiešaného počtu BLOCKED · 375px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="filters-combination-375-before.png"><img src="filters-combination-375-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="filters-combination-375-after.png"><img src="filters-combination-375-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Detail · ponukový blok a ikona; plná parita nákupných pravidiel BLOCKED · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="detail-1440-before.png"><img src="detail-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="detail-1440-after.png"><img src="detail-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Detail · ponukový blok a ikona; plná parita nákupných pravidiel BLOCKED · 375px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="detail-375-before.png"><img src="detail-375-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="detail-375-after.png"><img src="detail-375-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Popup · ponukový blok a ikona; plná parita BLOCKED · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="popup-1440-before.png"><img src="popup-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="popup-1440-after.png"><img src="popup-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Popup · ponukový blok a ikona; plná parita BLOCKED · 375px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="popup-375-before.png"><img src="popup-375-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="popup-375-after.png"><img src="popup-375-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Košík · ponukový blok a ikona; plná parita BLOCKED · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="cart-1440-before.png"><img src="cart-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="cart-1440-after.png"><img src="cart-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>Košík · ponukový blok a ikona; plná parita BLOCKED · 375px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="cart-375-before.png"><img src="cart-375-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="cart-375-after.png"><img src="cart-375-after.png" loading="lazy"></a></figure>
+</div>
+<h2>BLOCKED · natívna uložená tabuľková voľba sa v Luigi Search neuplatňuje · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="table-1440-before.png"><img src="table-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="table-1440-after.png"><img src="table-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>BLOCKED · dve nechcené sekcie vyžadujú selektívne vypnutie dodávateľom · 1440px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="homepage-1440-before.png"><img src="homepage-1440-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="homepage-1440-after.png"><img src="homepage-1440-after.png" loading="lazy"></a></figure>
+</div>
+<h2>BLOCKED · dve nechcené sekcie vyžadujú selektívne vypnutie dodávateľom · 375px</h2><div class="pair">
+<figure><figcaption>Pred · rc.0</figcaption><a href="homepage-375-before.png"><img src="homepage-375-before.png" loading="lazy"></a></figure>
+<figure><figcaption>Po · rc.4</figcaption><a href="homepage-375-after.png"><img src="homepage-375-after.png" loading="lazy"></a></figure>
+</div>
+<p>Safari, neobjednateľný produkt a živá zmena variantu: NOT TESTED. Žiadna objednávka nebola odoslaná. <a href="https://www.timberstore.sk/?ts_preview=off">Vypnúť preview a vrátiť stabilnú v0.7.7</a>.</p><h2>Oprava konfliktu natívneho popupu · rc.2 → rc.4</h2><div class="pair"><figure><figcaption>Pred · rc.2: skrytá ikona a odsadené/orezané údaje</figcaption><img src="popup-conflict-375-before.png"></figure><figure><figcaption>Po · rc.4: izolované natívne pravidlá</figcaption><img src="popup-conflict-375-after.png"></figure></div></html>

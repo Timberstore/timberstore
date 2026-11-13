@@ -1,0 +1,464 @@
+[
+  {
+    "width": 1440,
+    "preview": false,
+    "version": "v0.7.6",
+    "loader": {
+      "version": "v0.7.6",
+      "preview": false,
+      "pageLoadingTimer": null
+    },
+    "h1": [
+      "Nábytkové kovanie a príslušenstvo"
+    ],
+    "categories": [
+      {
+        "visible": true,
+        "links": [
+          {
+            "href": "/knopky/",
+            "name": "Knopky"
+          },
+          {
+            "href": "/uchytky/",
+            "name": "Úchytky"
+          },
+          {
+            "href": "/smetne-kose/",
+            "name": "Smetné koše"
+          },
+          {
+            "href": "/priborniky--protismykove-podlozky/",
+            "name": "Organizéry"
+          },
+          {
+            "href": "/stolove-nohy/",
+            "name": "Stolové nohy"
+          },
+          {
+            "href": "/drezy/",
+            "name": "Drezy"
+          },
+          {
+            "href": "/baterie/",
+            "name": "Batérie"
+          },
+          {
+            "href": "/nabytkove-zavesy-panty/",
+            "name": "Nábytkové závesy"
+          },
+          {
+            "href": "/zasuvkove-vysuvy/",
+            "name": "Zásuvkové výsuvy"
+          },
+          {
+            "href": "/kablove-priechodky/",
+            "name": "Káblové priechodky"
+          },
+          {
+            "href": "/elektricke-zasuvky/",
+            "name": "Elektrické zásuvky"
+          },
+          {
+            "href": "/stolarske-pomocky/",
+            "name": "Stolárske pomôcky"
+          }
+        ]
+      }
+    ],
+    "recommenders": [
+      {
+        "id": "lb-recommend-element-homepage_personalized",
+        "text": "High-contrast mode\nVybrali sme pre Vás\nNaspäť\nĎalej\nKOMPLET\nK-BLUM Antaro, zásuvka M 550 mm/30 kg, Blumotion/TOB, šedá, Inserta (komplet)\n50,52 €\n/ sa"
+      },
+      {
+        "id": "lb-recommend-element-homepage_last_seen",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "preview": true,
+    "version": "v0.7.7-rc.5",
+    "loader": {
+      "version": "9eede39",
+      "preview": true,
+      "pageLoadingTimer": null
+    },
+    "h1": [],
+    "categories": [
+      {
+        "visible": true,
+        "links": [
+          {
+            "href": "/knopky/",
+            "name": "Knopky"
+          },
+          {
+            "href": "/uchytky/",
+            "name": "Úchytky"
+          },
+          {
+            "href": "/smetne-kose/",
+            "name": "Smetné koše"
+          },
+          {
+            "href": "/priborniky--protismykove-podlozky/",
+            "name": "Organizéry"
+          },
+          {
+            "href": "/stolove-nohy/",
+            "name": "Stolové nohy"
+          },
+          {
+            "href": "/drezy/",
+            "name": "Drezy"
+          },
+          {
+            "href": "/baterie/",
+            "name": "Batérie"
+          },
+          {
+            "href": "/nabytkove-zavesy-panty/",
+            "name": "Nábytkové závesy"
+          },
+          {
+            "href": "/zasuvkove-vysuvy/",
+            "name": "Zásuvkové výsuvy"
+          },
+          {
+            "href": "/kablove-priechodky/",
+            "name": "Káblové priechodky"
+          },
+          {
+            "href": "/elektricke-zasuvky/",
+            "name": "Elektrické zásuvky"
+          },
+          {
+            "href": "/stolarske-pomocky/",
+            "name": "Stolárske pomôcky"
+          }
+        ]
+      }
+    ],
+    "recommenders": [
+      {
+        "id": "lb-recommend-element-homepage_personalized",
+        "text": "High-contrast mode\nVybrali sme pre Vás\nNaspäť\nĎalej\nKOMPLET\nK-BLUM Antaro, zásuvka M 550 mm/30 kg, Blumotion/TOB, šedá, Inserta (komplet)\n50,52 €\nKOMP"
+      },
+      {
+        "id": "lb-recommend-element-homepage_last_seen",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "preview": false,
+    "version": "v0.7.6",
+    "loader": {
+      "version": "v0.7.6",
+      "preview": false,
+      "pageLoadingTimer": null
+    },
+    "h1": [
+      "Nábytkové kovanie a príslušenstvo"
+    ],
+    "categories": [
+      {
+        "visible": true,
+        "links": [
+          {
+            "href": "/knopky/",
+            "name": "Knopky"
+          },
+          {
+            "href": "/uchytky/",
+            "name": "Úchytky"
+          },
+          {
+            "href": "/smetne-kose/",
+            "name": "Smetné koše"
+          },
+          {
+            "href": "/priborniky--protismykove-podlozky/",
+            "name": "Organizéry"
+          },
+          {
+            "href": "/stolove-nohy/",
+            "name": "Stolové nohy"
+          },
+          {
+            "href": "/drezy/",
+            "name": "Drezy"
+          },
+          {
+            "href": "/baterie/",
+            "name": "Batérie"
+          },
+          {
+            "href": "/nabytkove-zavesy-panty/",
+            "name": "Nábytkové závesy"
+          },
+          {
+            "href": "/zasuvkove-vysuvy/",
+            "name": "Zásuvkové výsuvy"
+          },
+          {
+            "href": "/kablove-priechodky/",
+            "name": "Káblové priechodky"
+          },
+          {
+            "href": "/elektricke-zasuvky/",
+            "name": "Elektrické zásuvky"
+          },
+          {
+            "href": "/stolarske-pomocky/",
+            "name": "Stolárske pomôcky"
+          }
+        ]
+      }
+    ],
+    "recommenders": [
+      {
+        "id": "lb-recommend-element-homepage_personalized",
+        "text": "High-contrast mode\nVybrali sme pre Vás\nNaspäť\nĎalej\nKOMPLET\nK-BLUM Antaro, zásuvka D 550 mm/30 kg, Blumotion/TOB, biela, skrutka, drez (komplet)\n86,44"
+      },
+      {
+        "id": "lb-recommend-element-homepage_last_seen",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "preview": true,
+    "version": "v0.7.7-rc.5",
+    "loader": {
+      "version": "9eede39",
+      "preview": true,
+      "pageLoadingTimer": null
+    },
+    "h1": [],
+    "categories": [
+      {
+        "visible": true,
+        "links": [
+          {
+            "href": "/knopky/",
+            "name": "Knopky"
+          },
+          {
+            "href": "/uchytky/",
+            "name": "Úchytky"
+          },
+          {
+            "href": "/smetne-kose/",
+            "name": "Smetné koše"
+          },
+          {
+            "href": "/priborniky--protismykove-podlozky/",
+            "name": "Organizéry"
+          },
+          {
+            "href": "/stolove-nohy/",
+            "name": "Stolové nohy"
+          },
+          {
+            "href": "/drezy/",
+            "name": "Drezy"
+          },
+          {
+            "href": "/baterie/",
+            "name": "Batérie"
+          },
+          {
+            "href": "/nabytkove-zavesy-panty/",
+            "name": "Nábytkové závesy"
+          },
+          {
+            "href": "/zasuvkove-vysuvy/",
+            "name": "Zásuvkové výsuvy"
+          },
+          {
+            "href": "/kablove-priechodky/",
+            "name": "Káblové priechodky"
+          },
+          {
+            "href": "/elektricke-zasuvky/",
+            "name": "Elektrické zásuvky"
+          },
+          {
+            "href": "/stolarske-pomocky/",
+            "name": "Stolárske pomôcky"
+          }
+        ]
+      }
+    ],
+    "recommenders": [
+      {
+        "id": "lb-recommend-element-homepage_personalized",
+        "text": "High-contrast mode\nVybrali sme pre Vás\nNaspäť\nĎalej\nKOMPLET\nK-BLUM Antaro, zásuvka D 550 mm/30 kg, Blumotion/TOB, biela, skrutka, drez (komplet)\n86,44"
+      },
+      {
+        "id": "lb-recommend-element-homepage_last_seen",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "preview": false,
+    "version": "v0.7.6",
+    "loader": {
+      "version": "v0.7.6",
+      "preview": false,
+      "pageLoadingTimer": null
+    },
+    "h1": [
+      "Nábytkové kovanie a príslušenstvo"
+    ],
+    "categories": [
+      {
+        "visible": true,
+        "links": [
+          {
+            "href": "/knopky/",
+            "name": "Knopky"
+          },
+          {
+            "href": "/uchytky/",
+            "name": "Úchytky"
+          },
+          {
+            "href": "/smetne-kose/",
+            "name": "Smetné koše"
+          },
+          {
+            "href": "/priborniky--protismykove-podlozky/",
+            "name": "Organizéry"
+          },
+          {
+            "href": "/stolove-nohy/",
+            "name": "Stolové nohy"
+          },
+          {
+            "href": "/drezy/",
+            "name": "Drezy"
+          },
+          {
+            "href": "/baterie/",
+            "name": "Batérie"
+          },
+          {
+            "href": "/nabytkove-zavesy-panty/",
+            "name": "Nábytkové závesy"
+          },
+          {
+            "href": "/zasuvkove-vysuvy/",
+            "name": "Zásuvkové výsuvy"
+          },
+          {
+            "href": "/kablove-priechodky/",
+            "name": "Káblové priechodky"
+          },
+          {
+            "href": "/elektricke-zasuvky/",
+            "name": "Elektrické zásuvky"
+          },
+          {
+            "href": "/stolarske-pomocky/",
+            "name": "Stolárske pomôcky"
+          }
+        ]
+      }
+    ],
+    "recommenders": [
+      {
+        "id": "lb-recommend-element-homepage_personalized",
+        "text": "High-contrast mode\nVybrali sme pre Vás\nKOMPLET\nK-BLUM Antaro, zásuvka D 550 mm/30 kg, Blumotion/TOB, biela, skrutka, drez (komplet)\n86,44 €\n/ sada\nCEN"
+      },
+      {
+        "id": "lb-recommend-element-homepage_last_seen",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "preview": true,
+    "version": "v0.7.7-rc.5",
+    "loader": {
+      "version": "9eede39",
+      "preview": true,
+      "pageLoadingTimer": null
+    },
+    "h1": [],
+    "categories": [
+      {
+        "visible": true,
+        "links": [
+          {
+            "href": "/knopky/",
+            "name": "Knopky"
+          },
+          {
+            "href": "/uchytky/",
+            "name": "Úchytky"
+          },
+          {
+            "href": "/smetne-kose/",
+            "name": "Smetné koše"
+          },
+          {
+            "href": "/priborniky--protismykove-podlozky/",
+            "name": "Organizéry"
+          },
+          {
+            "href": "/stolove-nohy/",
+            "name": "Stolové nohy"
+          },
+          {
+            "href": "/drezy/",
+            "name": "Drezy"
+          },
+          {
+            "href": "/baterie/",
+            "name": "Batérie"
+          },
+          {
+            "href": "/nabytkove-zavesy-panty/",
+            "name": "Nábytkové závesy"
+          },
+          {
+            "href": "/zasuvkove-vysuvy/",
+            "name": "Zásuvkové výsuvy"
+          },
+          {
+            "href": "/kablove-priechodky/",
+            "name": "Káblové priechodky"
+          },
+          {
+            "href": "/elektricke-zasuvky/",
+            "name": "Elektrické zásuvky"
+          },
+          {
+            "href": "/stolarske-pomocky/",
+            "name": "Stolárske pomôcky"
+          }
+        ]
+      }
+    ],
+    "recommenders": [
+      {
+        "id": "lb-recommend-element-homepage_personalized",
+        "text": "High-contrast mode\nVybrali sme pre Vás\nKOMPLET\nK-BLUM Antaro, zásuvka D 550 mm/30 kg, Blumotion/TOB, biela, skrutka, drez (komplet)\n86,44 €\n/ sada\nCEN"
+      },
+      {
+        "id": "lb-recommend-element-homepage_last_seen",
+        "text": ""
+      }
+    ]
+  }
+]

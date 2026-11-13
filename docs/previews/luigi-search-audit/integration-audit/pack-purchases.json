@@ -1,0 +1,50 @@
+[
+  {
+    "surface": "native-detail",
+    "posts": [
+      {
+        "path": "/action/Cart/addCartItem/",
+        "amount": "100",
+        "productId": "353027",
+        "priceId": "353411"
+      }
+    ],
+    "cart": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+    "amounts": [
+      "100",
+      "100"
+    ]
+  },
+  {
+    "surface": "luigi-results",
+    "posts": [
+      {
+        "path": "/action/Cart/addCartItem/",
+        "amount": null,
+        "productId": null,
+        "priceId": null
+      }
+    ],
+    "cart": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+    "amounts": [
+      "100",
+      "100"
+    ]
+  },
+  {
+    "surface": "luigi-autocomplete",
+    "posts": [
+      {
+        "path": "/action/Cart/addCartItem/",
+        "amount": null,
+        "productId": null,
+        "priceId": null
+      }
+    ],
+    "cart": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+    "amounts": [
+      "100",
+      "100"
+    ]
+  }
+]

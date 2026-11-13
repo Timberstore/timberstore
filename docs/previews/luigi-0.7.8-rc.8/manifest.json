@@ -1,0 +1,213 @@
+{
+  "capturedDate": "2026-11-03",
+  "timezone": "Europe/Bratislava",
+  "previewVersion": "0.7.8-rc.8",
+  "assetCommit": "197550549a296603eb6fc307bd9921966fde8a2d",
+  "referenceVersion": "v0.7.7",
+  "rejectedVersion": "0.7.8-rc.4",
+  "query": "BLUM 450",
+  "contexts": "separate fresh context per version and viewport",
+  "finalAssets": "real public CDN; no routing/interception",
+  "screenshots": [
+    {
+      "file": "availability-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "f51bedc094a90e37071eb38858ef3747a4add959e37453f2a6b45516dd915f86"
+    },
+    {
+      "file": "availability-375.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "0ecfb8a5e1c1899365e66d78aa0e63ba5e6a8d5408d6e99bfbc370927d540e33"
+    },
+    {
+      "file": "cart-regular-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "288fb2bc962b3a1b4ae52315a6544c3032cc3cc7126a338d78cd5168680158a9"
+    },
+    {
+      "file": "cart-regular-375.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "e03bb54bc40113649ef2278e77c105bd1adbbe953e192a616d5fb4a057c3354b"
+    },
+    {
+      "file": "cart-top-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "49a4c7e73a10b056e5da1de5021aad324f15a465fbcd77fbdbcf234e5a51e583"
+    },
+    {
+      "file": "cart-top-375.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "d3aee28d793954c6690dded55f2714025b05f4668caa9b24f4f51a2f869e7a5c"
+    },
+    {
+      "file": "mobile-back-original.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "8dfa30ab9e483a2520cf1318650746389f52b7068659c00d933da69ee86804fd"
+    },
+    {
+      "file": "mobile-back-rc8.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "6e6b5d972ae7589a14a7a1c980b8ae858b7bee1b0893fcffb144325b601398f9"
+    },
+    {
+      "file": "original-1440-empty.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "51913be417ff2342f0c0a0fd8f3af735fa04ca4ee7908beab6720a8f870f5754"
+    },
+    {
+      "file": "original-1440-typed.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "346215cdd4cbc481ad0dc4f2c041237689c7776b37a7046a6eec0194b3e5cc42"
+    },
+    {
+      "file": "original-375-empty.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "b948865e8bd2ecfbe7c480b281472538b4dd6fe00af26759d68a782a81743578"
+    },
+    {
+      "file": "original-375-typed.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "b4f6df607737e1df4c7d8bba5f43fb2c165811fa1e53c255918deb6577cb8c3f"
+    },
+    {
+      "file": "rc4-1440-empty.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "4db7691ca5df7752d2155f552260a5b0b9e345411893390a3764669938b65971"
+    },
+    {
+      "file": "rc4-1440-typed.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "7133913a9bdc40232ac70c3107fccbaf97ef36d5743aa180a2c0cbffb9c9cc14"
+    },
+    {
+      "file": "rc4-375-empty.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "94de22ceada37826f134eb1b596e1d3efe5ec4f77fc6cc67f395d0d06b4e1921"
+    },
+    {
+      "file": "rc4-375-typed.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "f643e8dc8c0259ac2a2871596679a3d2f067726f98d41a770e758bfe7204caae"
+    },
+    {
+      "file": "rc8-1440-empty.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "463aa8adcc99c145ebdd9489c48d9c34f7982e37ab8febf619cffd448a66529e"
+    },
+    {
+      "file": "rc8-1440-scroll-end.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "d08578757187cbb3348e00a95142aa00b7b93ddd101b3cdc29a1a839e0176f78"
+    },
+    {
+      "file": "rc8-1440-typed.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "8b9b564b7fd489157011fb6c5961ba9445bb19295f3e3c33190b98a17a0566b4"
+    },
+    {
+      "file": "rc8-375-empty.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "0c674ca160a8ce688484e1733f4449f39065a6cc91281e0547befaa01c13b9ca"
+    },
+    {
+      "file": "rc8-375-scroll-end.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "23ff564e0b2da023d77d233d385cfd7f1c8fcacfff114e52765cc61248647ff1"
+    },
+    {
+      "file": "rc8-375-typed.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "7840961b304f8a8848b78ee01ad99e27ddcfab19b9ad782fb29315d51daa1ca0"
+    },
+    {
+      "file": "responsive/rc8-1020-empty.png",
+      "width": 1020,
+      "height": 768,
+      "sha256": "74656f0db6372da9d0bc398e029269b38f6f25a4af1fb298b0b8c2ca9c390c90"
+    },
+    {
+      "file": "responsive/rc8-1020-scroll-end.png",
+      "width": 1020,
+      "height": 768,
+      "sha256": "54076a1ade9be1190fa4363fd10b9e6a9027aff5772fc482f5098b8cdd0aea9a"
+    },
+    {
+      "file": "responsive/rc8-1020-typed.png",
+      "width": 1020,
+      "height": 768,
+      "sha256": "3f6474b5cca15dd4925a269b1c7aae5e526ad748418c3ed318144e4bc18f271a"
+    },
+    {
+      "file": "responsive/rc8-1021-empty.png",
+      "width": 1021,
+      "height": 768,
+      "sha256": "e8ed8a890a3972dad0202e2dd552bbff77665bcea7c421b9a397f6c9c5a0703e"
+    },
+    {
+      "file": "responsive/rc8-1021-scroll-end.png",
+      "width": 1021,
+      "height": 768,
+      "sha256": "349c43afb97daa01867919b5ea0ffa6f38b85c0cef74d8491b9f3476c0671e88"
+    },
+    {
+      "file": "responsive/rc8-1021-typed.png",
+      "width": 1021,
+      "height": 768,
+      "sha256": "bb0e47c6cefbcdedae4ea33a4900189499463c3882dce4840f424347609586d1"
+    },
+    {
+      "file": "scrolled-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "311d000b6ad101262dcb6b0ab9af495a29fd7646a4cfb42797af2ab2df647267"
+    },
+    {
+      "file": "scrolled-375.png",
+      "width": 375,
+      "height": 812,
+      "sha256": "221ea0548be4541eb93168f8106dae0f2686a1c6c7c6555ca83caf5706e64de2"
+    },
+    {
+      "file": "short-desktop/rc8-1440-empty.png",
+      "width": 1440,
+      "height": 650,
+      "sha256": "2ff87e8cda0ff1033a2f06ff9692d2a8f92a5a34c666d47fff8ae9dd4e1d97bf"
+    },
+    {
+      "file": "short-desktop/rc8-1440-scroll-end.png",
+      "width": 1440,
+      "height": 650,
+      "sha256": "c5cb655543e0af5ad39fb37c98b8db46ce1c85aa5a5a6d1fea395d783f0b221f"
+    },
+    {
+      "file": "short-desktop/rc8-1440-typed.png",
+      "width": 1440,
+      "height": 650,
+      "sha256": "54aa591b272576d0d2079b72a406a1179d79dda61c5998deaf5965de6db9e82b"
+    }
+  ],
+  "visualReview": "desktop, mobile, empty phrases, short-screen scroll end and 1020/1021 breakpoint inspected by assistant",
+  "safari": "NOT TESTED"
+}

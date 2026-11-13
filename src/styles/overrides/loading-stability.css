@@ -23,7 +23,6 @@ body .cart-count[data-testid='headerCart']::before {
   height: 22px;
   vertical-align: middle;
   background-color: currentColor;
-  --ts-cart-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M1 2h4l.6 3H23l-4 10H8L5 4H1zm8 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4'/%3E%3C/svg%3E");
   -webkit-mask: var(--ts-cart-glyph) center / contain no-repeat;
   mask: var(--ts-cart-glyph) center / contain no-repeat;
 }

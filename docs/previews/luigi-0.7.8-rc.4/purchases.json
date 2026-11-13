@@ -1,0 +1,496 @@
+{
+  "hash": "a4e7ebc",
+  "orderSubmitted": false,
+  "samples": [
+    {
+      "sku": "306317",
+      "kind": "kus",
+      "path": "/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/",
+      "surface": "native",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "buy",
+          "resource": null,
+          "consent": true,
+          "attributions": []
+        }
+      ],
+      "version": "v0.7.7",
+      "native": {
+        "text": "NOVINKA\nBLUM 71B3550 záves, naložený, Blumotion, skrutka,110°, Onyx\nKÓD: 306317\nZNAČKA: BLUM\nDostupnosť\nCENTRÁLNY SKLAD (>100 KS)\nMôžeme doručiť do:\n10.11.2026\nMožnosti doručenia\nCena\n4,11 €\n/ ks\n3,34 €\nJednotková cena:\nMnožstvo\n+\n−\nPridať do košíka\n\nDETAILNÉ INFORMÁCIE\n\nOPÝTAŤ SA\nSTRÁŽIŤ",
+        "inputs": [
+          {
+            "value": "1",
+            "min": "1",
+            "step": "1",
+            "max": "9999",
+            "decimals": "0"
+          }
+        ],
+        "prices": [
+          "CENTRÁLNY SKLAD (>100 KS)",
+          "4,11 €\n/ ks",
+          "3,34 €"
+        ]
+      },
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "BLUM 71B3550 záves,naložený,Blumotion,skrutka,110°,Onyx Kód: 306317\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 6 (OD 0,04 €)\nMnožstvo\n+\n−\n4,11 € / ks\n4,11 €",
+        "amounts": [
+          "1"
+        ],
+        "rows": 2
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "306317",
+      "kind": "kus",
+      "path": "/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/",
+      "surface": "search",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "buy",
+          "resource": null,
+          "consent": true,
+          "attributions": []
+        }
+      ],
+      "version": "v0.7.8-rc.4",
+      "card": "NOVINKA\nBLUM 71B3550 záves, naložený, Blumotion, skrutka,110°, Onyx\n4,11 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 306317",
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "BLUM 71B3550 záves,naložený,Blumotion,skrutka,110°,Onyx Kód: 306317\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 6 (OD 0,04 €)\nMnožstvo\n+\n−\n4,11 € / ks\n4,11 €",
+        "amounts": [
+          "1"
+        ],
+        "rows": 2
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "306317",
+      "kind": "kus",
+      "path": "/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/",
+      "surface": "autocomplete",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "Do košíka",
+          "resource": "https://www.timberstore.sk/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/",
+          "consent": true,
+          "attributions": [
+            {
+              "list": "Autocomplete",
+              "eventLinked": true
+            }
+          ]
+        }
+      ],
+      "version": "v0.7.8-rc.4",
+      "card": "NOVINKA\nBLUM 71B3550 záves,naložený,Blumotion,skrutka,110°,Onyx\nCentrálny sklad\n4,11 €\nDO KOŠÍKA",
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "BLUM 71B3550 záves,naložený,Blumotion,skrutka,110°,Onyx Kód: 306317\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 6 (OD 0,04 €)\nMnožstvo\n+\n−\n4,11 € / ks\n4,11 €",
+        "amounts": [
+          "1"
+        ],
+        "rows": 2
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "237597",
+      "kind": "minimum-multiple",
+      "path": "/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+      "surface": "native",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "buy",
+          "resource": null,
+          "consent": true,
+          "attributions": []
+        }
+      ],
+      "version": "v0.7.7",
+      "native": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX\nKÓD: 237597\nZNAČKA: BLUM\nDostupnosť\nCENTRÁLNY SKLAD (>100 KS)\nMôžeme doručiť do:\n10.11.2026\nMožnosti doručenia\nCena\n0,09 €\n/ ks\n0,07 €\nJednotková cena:\nMnožstvo\n+\n−\nPridať do košíka\n\nDETAILNÉ INFORMÁCIE\n\nOPÝTAŤ SA\nSTRÁŽIŤ",
+        "inputs": [
+          {
+            "value": "100",
+            "min": "100",
+            "step": "100",
+            "max": "9999",
+            "decimals": "0"
+          }
+        ],
+        "prices": [
+          "CENTRÁLNY SKLAD (>100 KS)",
+          "0,09 €\n/ ks",
+          "0,07 €"
+        ]
+      },
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+        "amounts": [
+          "100"
+        ],
+        "rows": 2
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "237597",
+      "kind": "minimum-multiple",
+      "path": "/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+      "surface": "search",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "buy",
+          "resource": null,
+          "consent": true,
+          "attributions": []
+        }
+      ],
+      "version": "v0.7.8-rc.4",
+      "card": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX\n0,09 €\n/ ks\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 237597",
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+        "amounts": [
+          "100"
+        ],
+        "rows": 2
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "237597",
+      "kind": "minimum-multiple",
+      "path": "/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+      "surface": "autocomplete",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "Do košíka",
+          "resource": "https://www.timberstore.sk/blum-61d-1500-skrutka-4x15-pro-legrabox/",
+          "consent": true,
+          "attributions": [
+            {
+              "list": "Autocomplete",
+              "eventLinked": true
+            }
+          ]
+        }
+      ],
+      "version": "v0.7.8-rc.4",
+      "card": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX\nCentrálny sklad\n0,09 €\nDO KOŠÍKA",
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "BLUM 61D.1500 skrutka 4x15 pro LEGRABOX Kód: 237597\nCENTRÁLNY SKLAD\n(>100 ks)\nSÚVISIACI TOVAR: 1 (OD 0,58 €)\nMnožstvo\n+\n−\n0,09 € / ks\n9 €",
+        "amounts": [
+          "100"
+        ],
+        "rows": 2
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "344255",
+      "kind": "balenie",
+      "path": "/kolik-spojovaci-dreveny-kalibrovany-breza-8x35mm-s-lepidlom--8650-ks/",
+      "surface": "native",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "buy",
+          "resource": null,
+          "consent": true,
+          "attributions": []
+        }
+      ],
+      "version": "v0.7.7",
+      "native": {
+        "text": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks)\nKÓD: 344255\nZNAČKA: STRONG\nDostupnosť\nCENTRÁLNY SKLAD (>100 BALENIE)\nMôžeme doručiť do:\n10.11.2026\nMožnosti doručenia\nCena\n186,49 €\n/ balenie\n151,62 €\nJednotková cena:\nMnožstvo\n+\n−\nPridať do košíka\n\nDETAILNÉ INFORMÁCIE\n\nOPÝTAŤ SA\nSTRÁŽIŤ",
+        "inputs": [
+          {
+            "value": "1",
+            "min": "1",
+            "step": "1",
+            "max": "9999",
+            "decimals": "0"
+          }
+        ],
+        "prices": [
+          "CENTRÁLNY SKLAD (>100 BALENIE)",
+          "186,49 €\n/ balenie",
+          "151,62 €"
+        ]
+      },
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks) Kód: 344255\nCENTRÁLNY SKLAD\n(>100 balenie)\nMnožstvo\n+\n−\n186,49 € / balenie\n186,49 €",
+        "amounts": [
+          "1"
+        ],
+        "rows": 1
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "344255",
+      "kind": "balenie",
+      "path": "/kolik-spojovaci-dreveny-kalibrovany-breza-8x35mm-s-lepidlom--8650-ks/",
+      "surface": "search",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "buy",
+          "resource": "https://www.timberstore.sk/kolik-spojovaci-dreveny-kalibrovany-breza-8x35mm-s-lepidlom--8650-ks/",
+          "consent": true,
+          "attributions": [
+            {
+              "list": "Search Results",
+              "eventLinked": true
+            }
+          ]
+        }
+      ],
+      "version": "v0.7.8-rc.4",
+      "card": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks)\n186,49 €\n/ balenie\nCENTRÁLNY SKLAD\nDo košíka\nKÓD: 344255",
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks) Kód: 344255\nCENTRÁLNY SKLAD\n(>100 balenie)\nMnožstvo\n+\n−\n186,49 € / balenie\n186,49 €",
+        "amounts": [
+          "1"
+        ],
+        "rows": 1
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "344255",
+      "kind": "balenie",
+      "path": "/kolik-spojovaci-dreveny-kalibrovany-breza-8x35mm-s-lepidlom--8650-ks/",
+      "surface": "autocomplete",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "Do košíka",
+          "resource": "https://www.timberstore.sk/kolik-spojovaci-dreveny-kalibrovany-breza-8x35mm-s-lepidlom--8650-ks/",
+          "consent": true,
+          "attributions": [
+            {
+              "list": "Autocomplete",
+              "eventLinked": true
+            }
+          ]
+        }
+      ],
+      "version": "v0.7.8-rc.4",
+      "card": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks)\nCentrálny sklad\n186,49 €\nDO KOŠÍKA",
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "Kolík spojovací drevený kalibrovaný breza 8x35mm s lepidlom (8650 ks) Kód: 344255\nCENTRÁLNY SKLAD\n(>100 balenie)\nMnožstvo\n+\n−\n186,49 € / balenie\n186,49 €",
+        "amounts": [
+          "1"
+        ],
+        "rows": 1
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "491405",
+      "kind": "metraz",
+      "path": "/stronglumio-led-pasik-cob-24v-12w-m--480-led-m--8mm--biela-neutralna/",
+      "surface": "native",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "buy",
+          "resource": null,
+          "consent": true,
+          "attributions": []
+        }
+      ],
+      "version": "v0.7.7",
+      "native": {
+        "text": "StrongLumio LED pásik COB 24V 12W/m (480 LED/m) 8mm, biela neutrálna\nKÓD: 491405\nZNAČKA: STRONG\nDostupnosť\nSKLADOM (>100 M)\nMôžeme doručiť do:\n05.11.2026\nMožnosti doručenia\nCena\n6,03 €\n/ m\n4,90 €\nJednotková cena:\nMnožstvo\n+\n−\nPridať do košíka\n\nDETAILNÉ INFORMÁCIE\n\nOPÝTAŤ SA\nSTRÁŽIŤ",
+        "inputs": [
+          {
+            "value": "1",
+            "min": "1",
+            "step": "1",
+            "max": "9999",
+            "decimals": "0"
+          }
+        ],
+        "prices": [
+          "SKLADOM (>100 M)",
+          "6,03 €\n/ m",
+          "4,90 €"
+        ]
+      },
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "StrongLumio LED pásik COB 24V 12W/m (480 LED/m) 8mm, biela neutrálna Kód: 491405\nSKLADOM\n(>100 m)\nSÚVISIACI TOVAR: 11 (OD 0,41 €)\nMnožstvo\n+\n−\n6,03 € / m\n6,03 €",
+        "amounts": [
+          "1"
+        ],
+        "rows": 2
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "491405",
+      "kind": "metraz",
+      "path": "/stronglumio-led-pasik-cob-24v-12w-m--480-led-m--8mm--biela-neutralna/",
+      "surface": "search",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "buy",
+          "resource": "https://www.timberstore.sk/stronglumio-led-pasik-cob-24v-12w-m--480-led-m--8mm--biela-neutralna/",
+          "consent": true,
+          "attributions": [
+            {
+              "list": "Search Results",
+              "eventLinked": true
+            }
+          ]
+        }
+      ],
+      "version": "v0.7.8-rc.4",
+      "card": "StrongLumio LED pásik COB 24V 12W/m (480 LED/m) 8mm, biela neutrálna\n6,03 €\n/ m\nSKLADOM\nDo košíka\nKÓD: 491405",
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "StrongLumio LED pásik COB 24V 12W/m (480 LED/m) 8mm, biela neutrálna Kód: 491405\nSKLADOM\n(>100 m)\nSÚVISIACI TOVAR: 11 (OD 0,41 €)\nMnožstvo\n+\n−\n6,03 € / m\n6,03 €",
+        "amounts": [
+          "1"
+        ],
+        "rows": 2
+      },
+      "correctSku": true
+    },
+    {
+      "sku": "491405",
+      "kind": "metraz",
+      "path": "/stronglumio-led-pasik-cob-24v-12w-m--480-led-m--8mm--biela-neutralna/",
+      "surface": "autocomplete",
+      "posts": [
+        {
+          "path": "/action/Cart/addCartItem/"
+        }
+      ],
+      "shoptetEvents": {
+        "ShoptetCartUpdated": 1
+      },
+      "analytics": [
+        {
+          "action": "Do košíka",
+          "resource": "https://www.timberstore.sk/stronglumio-led-pasik-cob-24v-12w-m--480-led-m--8mm--biela-neutralna/",
+          "consent": true,
+          "attributions": [
+            {
+              "list": "Autocomplete",
+              "eventLinked": true
+            }
+          ]
+        }
+      ],
+      "version": "v0.7.8-rc.4",
+      "card": "StrongLumio LED pásik COB 24V 12W/m (480 LED/m) 8mm, biela neutrálna\nSkladom\n6,03 €\nDO KOŠÍKA",
+      "vendorReporting": "NOT TESTED",
+      "cart": {
+        "text": "StrongLumio LED pásik COB 24V 12W/m (480 LED/m) 8mm, biela neutrálna Kód: 491405\nSKLADOM\n(>100 m)\nSÚVISIACI TOVAR: 11 (OD 0,41 €)\nMnožstvo\n+\n−\n6,03 € / m\n6,03 €",
+        "amounts": [
+          "1"
+        ],
+        "rows": 2
+      },
+      "correctSku": true
+    }
+  ]
+}

@@ -93,7 +93,7 @@ export const SEL = {
   // Exclude the main detail/cart forms; those retain native quantity handlers.
   purchaseCard: '.product',
   productPurchaseForms:
-    'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product form.pr-action, .products-related-block .product form.pr-action, .products-alternative-block .product form.pr-action, #colorbox .advanced-order .product form.pr-action',
+    'body:not(.type-detail,.ordering-process) .content-wrapper :is(.products,.products-block) .product:not(.lb-product) form.pr-action, .products-related-block .product:not(.lb-product) form.pr-action, .products-alternative-block .product:not(.lb-product) form.pr-action, #colorbox .advanced-order .product:not(.lb-product) form.pr-action',
   cartModalForm: 'form.pr-action, form.variant-submit',
   cartForm: 'form.pr-action',
   cartFormAmount: 'input[name="amount"]', // hidden; the multiply_order add-on writes the pack size here
@@ -141,7 +141,7 @@ export const SEL = {
   productStockLabel: ':scope > span:first-child',
   productStockAmount: '.availability-amount',
   recommendationCard:
-    '.products-related-block .product, .products-alternative-block .product, #colorbox .advanced-order .product',
+    '.products-related-block .product:not(.lb-product), .products-alternative-block .product:not(.lb-product), #colorbox .advanced-order .product:not(.lb-product)',
   recommendationLink: 'a.name[href]',
   recommendationCartLabel: '.btn-cart > span:not(.ts-cart-count)',
   recommendationSku: '[data-micro="sku"]',

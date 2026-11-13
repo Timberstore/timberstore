@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-02T20:02:32.488Z",
+  "pairs": [
+    {
+      "width": 1440,
+      "state": "results",
+      "products": 24,
+      "clippedBefore": 6,
+      "clippedAfter": 0,
+      "linksUnchanged": true,
+      "availabilityColorsUnchanged": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "state": "autocomplete",
+      "products": 7,
+      "clippedBefore": 7,
+      "clippedAfter": 0,
+      "linksUnchanged": true,
+      "availabilityColorsUnchanged": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 375,
+      "state": "results",
+      "products": 24,
+      "clippedBefore": 24,
+      "clippedAfter": 0,
+      "linksUnchanged": true,
+      "availabilityColorsUnchanged": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 375,
+      "state": "autocomplete",
+      "products": 7,
+      "clippedBefore": 1,
+      "clippedAfter": 0,
+      "linksUnchanged": true,
+      "availabilityColorsUnchanged": true,
+      "horizontalOverflow": false
+    }
+  ],
+  "searchQueries": 15,
+  "allSearchResponses200": true,
+  "screenshots": [
+    "autocomplete-1440-after.png",
+    "autocomplete-1440-before.png",
+    "autocomplete-375-after.png",
+    "autocomplete-375-before.png",
+    "results-1440-after.png",
+    "results-1440-before.png",
+    "results-375-after.png",
+    "results-375-before.png",
+    "results-cards-1440-after.png",
+    "results-cards-1440-before.png",
+    "results-cards-375-after.png",
+    "results-cards-375-before.png"
+  ],
+  "cssSha256": "c158eed8d846cdc9d3f62ba6773b37de16f3b1123ccc828953daddb44c7649cc",
+  "scope": "Docs preview only; no production integration",
+  "cart": "NOT TESTED",
+  "safari": "NOT TESTED"
+}

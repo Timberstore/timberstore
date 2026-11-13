@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-11-02",
+  "page": "https://www.timberstore.sk/",
+  "environment": {
+    "observationsCurrent": true,
+    "desiredPhase": "running",
+    "observedPhase": "running",
+    "networkMode": "restricted",
+    "networkState": "enforced"
+  },
+  "bootstrap": {
+    "url": "https://scripts.luigisbox.tech/LBX-1266949.js",
+    "loaded": true
+  },
+  "blockedHost": "cdn.luigisbox.tech",
+  "allowedLookalikeHost": "cdn.luigisbox.com",
+  "requests": [
+    {
+      "url": "https://cdn.luigisbox.tech/autocomplete.css",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/autocomplete.js",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/recco.js",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "url": "https://cdn.luigisbox.tech/timberstore.js",
+      "error": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    }
+  ],
+  "realLuigiDomRendered": false,
+  "qualifyingBeforeScreenshots": false,
+  "qualifyingAfterScreenshots": false,
+  "scopedCssImplemented": false,
+  "productionOrVendorSettingsChanged": false
+}

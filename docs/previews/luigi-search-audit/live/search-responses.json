@@ -1,0 +1,2849 @@
+{
+  "checkedAt": "2026-11-02T19:57:15.824828+00:00",
+  "source": "Public Luigi search API; same request shape observed in browser",
+  "queries": [
+    {
+      "query": "BLUM 450",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 510,
+      "top": [
+        {
+          "url": "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--tip-on--seda--skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "125.90 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255445"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Tip-on, šedá, skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "118.08 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255397"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, sklo (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox-zasuvka-f-450-mm-40-kg--tip-on--seda--skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "117.26 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255444"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka F 450 mm/40 kg, Tip-on, šedá, skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "118.08 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255401"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela  , vnútorná, sklo (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--biela-vnutorna--reling--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "116.43 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255257"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, biela , vnútorná, reling (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox-zasuvka-c-pure-450-mm-70-kg--tip-on--seda--vnutorna--reling--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "116.43 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255253"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka C pure 450 mm/70 kg, Tip-on, šedá, vnútorná, reling (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox-zasuvka-f-450-mm-70-kg--blumotion-tob--seda--skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "114.17 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255443"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka F 450 mm/70 kg, Blumotion/TOB, šedá, skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela--vnutorna--sklo--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "109.45 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255400"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka C pure 450 mm/40 kg, Tip-on, biela  , vnútorná, sklo (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--seda--vnutorna--sklo--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "109.45 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255396"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka C pure 450 mm/40 kg, Tip-on, šedá, vnútorná, sklo (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox-zasuvka-c-pure-450-mm-40-kg--tip-on--biela-vnutorna--reling--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "107.78 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "255256"
+            ],
+            "title": "K-BLUM Legrabox,zásuvka C pure 450 mm/40 kg, Tip-on, biela , vnútorná, reling (komplet)"
+          }
+        }
+      ]
+    },
+    {
+      "query": "Legrabox K 450 čierna",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 194,
+      "top": [
+        {
+          "url": "/k-blum-legrabox--zasuvka-k-450mm-40kg--blumotion-tob--cierna--skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "66.46 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499122"
+            ],
+            "title": "BLUM Legrabox, zásuvka K 450 mm/40 kg, Blumotion/TOB, čierna, skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-c-pure-450mm-40kg--tip-on--cierna--skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "86.72 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499061"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka C pure 450mm/40kg, Tip-on, čierna, skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-f-450mm-70kg--tip-on--cierna--expando--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "126.48 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499238"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka F 450mm/70kg, Tip-on, čierna, Expando (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-f-450mm-70kg--tip-on--cierna--skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "125.90 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499237"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka F 450mm/70kg, Tip-on, čierna, skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-k-450mm-70kg--tip-on--cierna--vnutorna--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "106.99 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499309"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka K 450mm/70kg, Tip-on, čierna, vnútorná (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-c-pure-450mm-70kg--tip-on--cierna--vnutorna--sklo--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "119.38 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499176"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka C pure 450mm/70kg, Tip-on, čierna, vnútorná, sklo (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-c-pure-450mm-70kg--tip-on--cierna--vnutorna--reling--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "117.72 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499175"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka C pure 450mm/70kg, Tip-on, čierna, vnútorná, reling (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-f-450mm-40kg--tip-on--cierna--expando--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "117.83 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499236"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka F 450mm/40kg, Tip-on, čierna, Expando (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-f-450mm-40kg--tip-on--cierna--skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "117.26 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499235"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka F 450mm/40kg, Tip-on, čierna, skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-f-450mm-70kg--blumotion-tob--cierna--expando--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "114.75 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499248"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka F 450mm/70kg, Blumotion/TOB, čierna, Expando (komplet)"
+          }
+        }
+      ]
+    },
+    {
+      "query": "BLUM 71B3550",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 2,
+      "top": [
+        {
+          "url": "/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "4.11 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Novinka"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "306317"
+            ],
+            "title": "BLUM 71B3550 záves,naložený,Blumotion,skrutka,110°,Onyx"
+          }
+        },
+        {
+          "url": "/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "3.58 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "12047"
+            ],
+            "title": "BLUM 71B3550 záves,naložený,Blumotion,skrutka 110°"
+          }
+        }
+      ]
+    },
+    {
+      "query": "pánt 110 naložený",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 4,
+      "top": [
+        {
+          "url": "/blum-71t3590-zaves-nalozeny-inserta-110/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "2.69 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "157369"
+            ],
+            "title": "BLUM 71T3590 záves,naložený,Inserta,110°"
+          }
+        },
+        {
+          "url": "/blum-79b3450-zaves-uhlovy-typ-iii-blumotion-skrutka-45-110--/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "5.72 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "119487"
+            ],
+            "title": "BLUM 79B3450 záves,uhlový,typ III,Blumotion,skrutka,-45/110°"
+          }
+        },
+        {
+          "url": "/blum-79b3451-zaves-uhlovy-typ-iii-blumotion-skrutka-30-110--/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "5.72 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "119486"
+            ],
+            "title": "BLUM 79B3451 záves,uhlový,typ III,Blumotion,skrutka,-30/110°"
+          }
+        },
+        {
+          "url": "/blum-79b3453-zaves-uhlovy-typ-iii-blumotion-skrutka-15-110--/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "5.72 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "119485"
+            ],
+            "title": "BLUM 79B3453 záves,uhlový,typ III,Blumotion,skrutka,-15/110°"
+          }
+        }
+      ]
+    },
+    {
+      "query": "záves 155",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 23,
+      "top": [
+        {
+          "url": "/blum-70t7553-09-obmedzovac-uhla-otvorenia-na-92--155/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.55 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "347957"
+            ],
+            "title": "BLUM 70T7553.09 obmedzovač uhla otvorenia na 92°, 155°"
+          }
+        },
+        {
+          "url": "/blum-70-4503-krytka-ramienka-zavesu-tenky-mterial-cristallo-novy-155/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.11 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Novinka"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "347984"
+            ],
+            "title": "BLUM 70.4503 krytka ramienka závesu,tenký mteriál,Cristallo,(nový), 155°"
+          }
+        },
+        {
+          "url": "/blum-70t7553-obmedzovac-uhla-otvorenia-na-110-125-155/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.55 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "347956"
+            ],
+            "title": "BLUM 70T7553 obmedzovač uhla otvorenia na 110°,125°/155°"
+          }
+        },
+        {
+          "url": "/blum-70-1553-krytka-ramienka-bez-loga-onyx/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.18 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Novinka"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "306326"
+            ],
+            "title": "BLUM 70.1553 krytka ramienka,bez loga,Onyx"
+          }
+        },
+        {
+          "url": "/blum-70-1553-krytka-ramienka-bez-loga/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.11 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Novinka"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "12094"
+            ],
+            "title": "BLUM 70.1553 krytka ramienka,bez loga"
+          }
+        },
+        {
+          "url": "/blum-70t7650-tl-zaves-polonalozeny-tip-on-skrutka-155--/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "7.42 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "347938"
+            ],
+            "title": "BLUM 70T7650.TL záves,polonaložený,Tip-on,skrutka,155°"
+          }
+        },
+        {
+          "url": "/blum-71b7550-zaves-nalozeny-nulovy-presah-blumotion-skrutka-155/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "7.54 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Novinka",
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "347923"
+            ],
+            "title": "BLUM 71B7550 záves,naložený,nulový presah,Blumotion,skrutka,155°"
+          }
+        },
+        {
+          "url": "/blum-71b7590-zaves-nalozeny-nulovy-presah-blumotion-inserta-155-onyx/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "10.17 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Novinka"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "347943"
+            ],
+            "title": "BLUM 71B7590 záves,naložený,nulový presah,Blumotion,Inserta,155°,Onyx"
+          }
+        },
+        {
+          "url": "/blum-71b7650-zaves-polonalozeny-blumotion-skrutka-155/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "9.24 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "347926"
+            ],
+            "title": "BLUM 71B7650 záves,polonaložený,Blumotion,skrutka,155°"
+          }
+        },
+        {
+          "url": "/blum-71t7650-zaves-polonalozeny-skrutka-155/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "7.42 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Novinka"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "347932"
+            ],
+            "title": "BLUM 71T7650 záves,polonaložený,skrutka,155°"
+          }
+        }
+      ]
+    },
+    {
+      "query": "úchytka 160 čierna",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 65,
+      "top": [
+        {
+          "url": "/tulip-uchytka-ida-160-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "1.35 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "494627"
+            ],
+            "title": "TULIP Úchytka Ida 160 čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-nakana-160-cierna-leskla/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "4.21 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "502031"
+            ],
+            "title": "TULIP Úchytka Nakana 160 čierna lesklá"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-kira-160-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "5.79 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "494417"
+            ],
+            "title": "TULIP Úchytka Kira 160 čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-mewo-160-orech-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "29.25 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "497966"
+            ],
+            "title": "TULIP Úchytka Mewo 160 orech/čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-cory-160-cierna-brusena/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "17.08 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "543754"
+            ],
+            "title": "TULIP Úchytka Cory 160 čierna brúsená"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-cory-160-dub-lakovany/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "16.64 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "543755"
+            ],
+            "title": "TULIP Úchytka Cory 160 dub lakovaný/čierna brúsená"
+          }
+        },
+        {
+          "url": "/marella-design-uchytka-tonda-160-cierna-silk-touch/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "15.24 €",
+            "brand": [
+              "MARELLA DESIGN"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "405046"
+            ],
+            "title": "MARELLA DESIGN Úchytka Tonda 160 čierna silk touch"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-boise-160-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "9.88 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "544831"
+            ],
+            "title": "TULIP Úchytka Boise 160 čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-joliet-160-steel-grey-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "13.51 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "547170"
+            ],
+            "title": "TULIP Úchytka Joliet 160 steel grey/čierna matná"
+          }
+        },
+        {
+          "url": "/hettich-9208083-uchytka-bermeo-160-cierna-matna-nehrdzavejuca-ocel-brusena/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "15.28 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "395157"
+            ],
+            "title": "HETTICH 9208083 Úchytka Bermeo 160 čierna matná/nehrdzavejúca oceľ brúsená"
+          }
+        }
+      ]
+    },
+    {
+      "query": "SPAX 4x16 PZ",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 9,
+      "top": [
+        {
+          "url": "/spax-skrutka-3-5x20mm-sosovkovita-hlava-pz--ni--4c-mh--zaves/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.05 €",
+            "brand": [
+              "SPAX"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "375174"
+            ],
+            "title": "SPAX skrutka 3,5x20mm šošovkovitá hlava PZ, Ni, 4C MH (záves)"
+          }
+        },
+        {
+          "url": "/spax-skrutka-4x25-polgulata-hlava-pz--w--4c/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.05 €",
+            "brand": [
+              "SPAX"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "367284"
+            ],
+            "title": "SPAX skrutka 4x25 polguľatá hlava PZ, W, 4C"
+          }
+        },
+        {
+          "url": "/spax-skrutka-3-5x16mm-sosovkovita-hlava-pz--ni--4c-mh--zaves/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.04 €",
+            "brand": [
+              "SPAX"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "375156"
+            ],
+            "title": "SPAX skrutka 3,5x16mm šošovkovitá hlava PZ, Ni, 4C MH (záves)"
+          }
+        },
+        {
+          "url": "/spax-skruka-4x45mm-zapustna-hlava-pz-w-4c-mh/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.06 €",
+            "brand": [
+              "SPAX"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "360740"
+            ],
+            "title": "SPAX skruka 4x45mm zápustná hlava PZ W 4C MH"
+          }
+        },
+        {
+          "url": "/spax-skrutka-3-5x17mm-pologulata-hlava-pz-w-4c/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.05 €",
+            "brand": [
+              "SPAX"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "365828"
+            ],
+            "title": "SPAX skrutka 3,5x17mm pologuľatá hlava PZ W 4C"
+          }
+        },
+        {
+          "url": "/spax-skruka-4x40mm-zapustna-hlava-pz-w-4c-mh/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.05 €",
+            "brand": [
+              "SPAX"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "360723"
+            ],
+            "title": "SPAX skruka 4x40mm zápustná hlava PZ W 4C MH"
+          }
+        },
+        {
+          "url": "/spax-skrutka-4x20mm-sosovkovita-hlava-pz-ni-4c-mh--zaves/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.05 €",
+            "brand": [
+              "SPAX"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "367456"
+            ],
+            "title": "SPAX skrutka 4x20mm šošovkovitá hlava PZ Ni 4C MH (záves)"
+          }
+        },
+        {
+          "url": "/spax-skrutka-3-5x17mm-sosovkovita-hlava-s-limcom-pz-4c-mh/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.05 €",
+            "brand": [
+              "SPAX"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "364719"
+            ],
+            "title": "SPAX skrutka 3,5x17mm šošovkovitá hlava s límcom PZ 4C MH"
+          }
+        },
+        {
+          "url": "/spax-skrutka-3-5x25mm-sosovkovita-hlava-s-limcom-pz-4c-mh/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.06 €",
+            "brand": [
+              "SPAX"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "388123"
+            ],
+            "title": "SPAX skrutka 3,5x25mm šošovkovitá hlava s límcom PZ 4C MH"
+          }
+        }
+      ]
+    },
+    {
+      "query": "skrutka M4x8",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 1,
+      "top": [
+        {
+          "url": "/skrutka-k-uchytke-m4x8-pologulata-hlava-s-limcom/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "0.02 €",
+            "brand": [
+              "N/A"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "10144"
+            ],
+            "title": "Skrutka k úchytke M4x8, pologuľatá hlava s límcom, DIN 967"
+          }
+        }
+      ]
+    },
+    {
+      "query": "LED pás 24V IP65",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 6,
+      "top": [
+        {
+          "url": "/led-neon-wireli-wc-4x8-mm-280lm-10w-0-42a-24v-ip65-biela-studena/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "15.89 €",
+            "brand": [
+              "Wireli"
+            ],
+            "code": [
+              "3202389601"
+            ],
+            "flags": [],
+            "title": "LED NEON WIRELI WC 4x8 mm, 280lm, 10W, 0,42A, 24V, IP65, biela studená",
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ]
+          }
+        },
+        {
+          "url": "/led-neon-wireli-wn-4x8-mm-24v-280lm-10w-0-42a-ip65-biela-neutralna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "15.89 €",
+            "brand": [
+              "Wireli"
+            ],
+            "code": [
+              "3202390601"
+            ],
+            "flags": [],
+            "title": "LED NEON WIRELI WN 4x8 mm, 24V, 280lm, 10W, 0,42A, IP65, biela neutrálna",
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ]
+          }
+        },
+        {
+          "url": "/wireli-led-neon-4x8-mm-ww-280lm-10w-0-42a-24v-ip65-biela-tepla/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "15.89 €",
+            "brand": [
+              "Wireli"
+            ],
+            "code": [
+              "3202391601"
+            ],
+            "flags": [],
+            "title": "WIRELI LED NEON 4x8 mm, WW 280lm, 10W, 0,42A, 24V, IP65, biela teplá",
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ]
+          }
+        },
+        {
+          "url": "/stronglumio-led-pasik-14-4w-m-24v--60-led-m--10mm--rgb-ip65/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "9.73 €",
+            "brand": [
+              "STRONG"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "284569"
+            ],
+            "title": "StrongLumio LED pásik 14,4W/m 24V (60 LED/m) 10mm, RGB IP65"
+          }
+        },
+        {
+          "url": "/zdroj-napatia-24v-320w-13-3a-ip65-nastavitelny-mean-well-hlg-320h-24a/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "180.34 €",
+            "brand": [
+              "Wireli"
+            ],
+            "code": [
+              "3205095120"
+            ],
+            "flags": [],
+            "title": "Mean Well HLG-320H-24A napájací zdroj 24V, 320W, 13,3A, IP65, nastaviteľný",
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ]
+          }
+        },
+        {
+          "url": "/zdroj-napatia-24v-150w-6-25a-ip65-nastavitelny-mean-well-hlg-150h-24a/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "97.59 €",
+            "brand": [
+              "Wireli"
+            ],
+            "code": [
+              "3205092120"
+            ],
+            "flags": [],
+            "title": "Mean Well HLG-150H-24A Zdroj napätia 24V 150W 6,25A IP65 nastaviteľný",
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query": "Gola J profil",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 40,
+      "top": [
+        {
+          "url": "/tulip-gola-dvierkovy-j-profil-4100-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "49.63 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "404389"
+            ],
+            "title": "TULIP Gola dvierkový J profil 4100 čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-gola-otvorena-koncovka-j-profilu-plast-cierna-matna-p-l/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "5.98 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "404394"
+            ],
+            "title": "TULIP Gola otvorená koncovka J profilu plast čierna matná P+L"
+          }
+        },
+        {
+          "url": "/tulip-gola-uzavrena-koncovka-j-profilu-plast-cierna-matna-p-l/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "5.98 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "404392"
+            ],
+            "title": "TULIP Gola uzavrená koncovka J profilu plast čierna matná P+L"
+          }
+        },
+        {
+          "url": "/tulip-gola-dvierkovy-j-profil-s-led-4100-imitacia-nehrdzavejucej-ocele/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "77.34 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "504523"
+            ],
+            "title": "TULIP Gola dvierkový J profil s LED 4100 imitácia nehrdzavejúcej ocele"
+          }
+        },
+        {
+          "url": "/tulip-gola-dvierkovy-j-profil-s-led-4100-tmava-zlata-brusena/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "77.34 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "504527"
+            ],
+            "title": "TULIP Gola dvierkový J profil s LED 4100 tmavá zlatá brúsená"
+          }
+        },
+        {
+          "url": "/tulip-gola-dvierkovy-j-profil-4100-tmava-zlata-brusena/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "71.52 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "502335"
+            ],
+            "title": "TULIP Gola dvierkový J profil 4100 tmavá zlatá brúsená"
+          }
+        },
+        {
+          "url": "/tulip-gola--dvierkovy-j-profil-4100-imitacia-nehrdzavejucej-oceli/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "71.48 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "228304"
+            ],
+            "title": "TULIP Gola  dvierkový J profil 4100 imitácia nehrdzavejúcej oceli"
+          }
+        },
+        {
+          "url": "/tulip-gola-dvierkovy-j-profil-s-led-4100-biela-pololesk/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "52.19 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "504525"
+            ],
+            "title": "TULIP Gola dvierkový J profil s LED 4100 biela pololesk"
+          }
+        },
+        {
+          "url": "/tulip-gola-dvierkovy-j-profil-s-led-4100-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "52.19 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "504526"
+            ],
+            "title": "TULIP Gola dvierkový J profil s LED 4100 čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-gola--dvierkovy-j-profil--s-led-4100-eloxovany-hlinik/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "49.45 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "504524"
+            ],
+            "title": "TULIP Gola  dvierkový J profil  s LED 4100 eloxovaný hliník"
+          }
+        }
+      ]
+    },
+    {
+      "query": "Hettich Sensys",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 124,
+      "top": [
+        {
+          "url": "/hettich-9099540-sensys-zaves-dvere-nulovy-presah-nalozeny-165-th-skrutka-sisy/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "6.83 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Novinka"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "264246"
+            ],
+            "title": "HETTICH 9099540 Sensys záves dvere nulový presah naložený 165° TH skrutka SiSy"
+          }
+        },
+        {
+          "url": "/hettich-9135140-sensys-zaves-na-sklo-165-nalepovaci-sisy/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "13.16 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "379612"
+            ],
+            "title": "HETTICH 9135140 Sensys záves na sklo 165° nalepovací SiSy"
+          }
+        },
+        {
+          "url": "/hettich-9091767-sensys-zaves-nulovy-presah-nalozeny-165-th-skrutka-sisy-obs/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "8.77 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "344718"
+            ],
+            "title": "HETTICH 9091767 Sensys záves nulový presah naložený 165° TH skrutka SiSy OBS"
+          }
+        },
+        {
+          "url": "/hettich-9088076-sensys-zaves-uhlovy-nalozeny-30-95-tb-fix-sisy/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "8.12 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "300356"
+            ],
+            "title": "HETTICH 9088076 Sensys záves uhlový naložený 30°/95° TB Fix SiSy"
+          }
+        },
+        {
+          "url": "/hettich-9088078-sensys-zaves-plne-nalozeny-45-95-tb-fix-sisy/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "8.12 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "300358"
+            ],
+            "title": "HETTICH 9088078 Sensys záves plne naložený 45°/95° TB Fix SiSy"
+          }
+        },
+        {
+          "url": "/hettich-9088081-sensys-zaves-slepy-uhol-vlozeny-90-95-tb-fix-sisy/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "8.12 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "300361"
+            ],
+            "title": "HETTICH 9088081 Sensys záves slepý uhol vložený 90°/95° TB Fix SiSy"
+          }
+        },
+        {
+          "url": "/hettich-9099563-sensys-zaves-dvere-nulovy-presah-nalozeny-165-tb-fix-sisy/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "8.15 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Novinka"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "264259"
+            ],
+            "title": "HETTICH 9099563 Sensys záves dvere nulový presah naložený 165° TB Fix SiSy"
+          }
+        },
+        {
+          "url": "/hettich-9091769-sensys-zaves-nulovy-presah-nalozeny-165-th-skrutka-pto-obs/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "7.92 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "344720"
+            ],
+            "title": "HETTICH 9091769 Sensys záves nulový presah naložený 165° TH skrutka PTO OBS"
+          }
+        },
+        {
+          "url": "/hettich-9099661-sensys-8687-b12-5-th53-nalozeny-p2o/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "6.79 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "code": [
+              "264279"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Novinka"
+            ],
+            "title": "HETTICH 9099661 Sensys 8687 B12,5 TH53, naložený, P2O",
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ]
+          }
+        },
+        {
+          "url": "/hettich-9088022-sensys-zaves-uhlovy-nalozeny-30-95-tb-skrutka-sisy/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "7.37 €",
+            "brand": [
+              "HETTICH"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "300332"
+            ],
+            "title": "HETTICH 9088022 Sensys záves uhlový naložený 30°/95° TB skrutka SiSy"
+          }
+        }
+      ]
+    },
+    {
+      "query": "Franke UBG 611-86",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 3,
+      "top": [
+        {
+          "url": "/franke-drez-ubg-611-86-860x500mm-sedy-kamen/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "220.50 €",
+            "brand": [
+              "FRANKE"
+            ],
+            "flags": [
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "384446"
+            ],
+            "title": "FRANKE Drez UBG 611-86 860x500mm šedý kameň"
+          }
+        },
+        {
+          "url": "/franke-drez-ubg-611-86-860x500mm-onyx/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "220.50 €",
+            "brand": [
+              "FRANKE"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "384444"
+            ],
+            "title": "FRANKE Drez UBG 611-86 860x500mm ónyx"
+          }
+        },
+        {
+          "url": "/franke-drez-srx-611-86-lb-860x500mm-nehrdzavejuca-ocel/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "202.51 €",
+            "brand": [
+              "FRANKE"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "284879"
+            ],
+            "title": "FRANKE Drez SRX 611-86 LB 860x500mm nehrdzavejúca oceľ"
+          }
+        }
+      ]
+    },
+    {
+      "query": "TIP-ON BLUMOTION",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 773,
+      "top": [
+        {
+          "url": "/k-blum-antaro--zasuvka-m-550-mm-30-kg--blumotion-tob--seda--inserta--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "50.52 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "254433"
+            ],
+            "title": "K-BLUM Antaro, zásuvka M 550 mm/30 kg, Blumotion/TOB, šedá, Inserta (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-antaro--zasuvka-m-550-mm-30-kg--blumotion-tob--biela-inserta--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "50.52 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "254435"
+            ],
+            "title": "K-BLUM Antaro, zásuvka M 550 mm/30 kg, Blumotion/TOB, biela , Inserta (komplet)"
+          }
+        },
+        {
+          "url": "/blum-65-5010-sablona-pre-tlmic-a-tip-on/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "34.30 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "12378"
+            ],
+            "title": "BLUM 65.5010 šablóna pre tlmič a Tip-on"
+          }
+        },
+        {
+          "url": "/k-blum-antaro--zasuvka-d-270-mm-30-kg--blumotion-tob--biela-skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "55.98 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "254650"
+            ],
+            "title": "K-BLUM Antaro, zásuvka D 270 mm/30 kg, Blumotion/TOB, biela , skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-antaro--zasuvka-d-650-mm-65-kg--blumotion-tob--biela-skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "81.28 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "254716"
+            ],
+            "title": "K-BLUM Antaro, zásuvka D 650 mm/65 kg, Blumotion/TOB, biela , skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-legrabox--zasuvka-c-pure-500mm-40kg--blumotion-tob--cierna--vnutor-sklo--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "100.23 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "499186"
+            ],
+            "title": "K-BLUM Legrabox, zásuvka C pure 500mm/40kg, Blumotion/TOB, čierna, vnútor., sklo (komplet)"
+          }
+        },
+        {
+          "url": "/blum-770c5002i-legrabox--zasuvka-bocnica--c-pure-500mm--nerez/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "83.33 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "227516"
+            ],
+            "title": "BLUM 770C5002I Legrabox, zásuvka bočnica  C pure 500mm, nerez"
+          }
+        },
+        {
+          "url": "/k-blum-antaro--zasuvka-k-270-mm-30-kg--blumotion-tob--seda--skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "56.84 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "311239"
+            ],
+            "title": "K-BLUM Antaro, zásuvka K 270 mm/30 kg, Blumotion/TOB, šedá, skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/k-blum-antaro--zasuvka-n-500-mm-30-kg--blumotion-tob--seda--skrutka--komplet-/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "46.31 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "254388"
+            ],
+            "title": "K-BLUM Antaro, zásuvka N 500 mm/30 kg, Blumotion/TOB, šedá, skrutka (komplet)"
+          }
+        },
+        {
+          "url": "/blum-770c6002s-legrabox--zasuvka-bocnica--c-pure-600mm--seda/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "49.40 €",
+            "brand": [
+              "BLUM"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "227522"
+            ],
+            "title": "BLUM 770C6002S Legrabox, zásuvka bočnica  C pure 600mm, šedá"
+          }
+        }
+      ]
+    },
+    {
+      "query": "potravinová skriňa",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 233,
+      "top": [
+        {
+          "url": "/potravinova-skrina--6-kosov--450-mm--drotene/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "184.56 €",
+            "brand": [
+              "Wireli"
+            ],
+            "flags": [],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "1001992100"
+            ],
+            "title": "Wireli Potravinová skriňa, 6 drôtených košov, 450 mm"
+          }
+        },
+        {
+          "url": "/kes-054381-dispensa--ram-potravinovej-skrine--1200-1600--antracit/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "134.83 €",
+            "brand": [
+              "KESSEBÖHMER"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "374268"
+            ],
+            "title": "KES 054381 Dispensa, rám potravinovej skrine, 1200-1600, antracit"
+          }
+        },
+        {
+          "url": "/potravinova-skrina--6-kosov--450-mm--plne-dna-antracit/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "235.96 €",
+            "brand": [
+              "Wireli"
+            ],
+            "flags": [],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "1001996300"
+            ],
+            "title": "Potravinová skriňa Wireli, 6 košov, 450 mm, plné dna, antracit"
+          }
+        },
+        {
+          "url": "/potravinova-skrina-wireli-6-kosov-400-mm-drotene/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "477.98 €",
+            "brand": [
+              "Wireli"
+            ],
+            "flags": [],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "1001992300"
+            ],
+            "title": "Potravinová skriňa Wireli Komfort, 6 drôtených košov, 400 mm"
+          }
+        },
+        {
+          "url": "/kes-054384-dispensa--ram-potravinovej-skrine--1800-2200--antracit/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "164.56 €",
+            "brand": [
+              "KESSEBÖHMER"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "374270"
+            ],
+            "title": "KES 054384 Dispensa, rám potravinovej skrine, 1800-2200, antracit"
+          }
+        },
+        {
+          "url": "/k-kes-tandem-iii-potravinova-skrina-arena-style-600-1700mm-antracit-komplet/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "878.32 €",
+            "brand": [
+              "KESSEBÖHMER"
+            ],
+            "code": [
+              "543645"
+            ],
+            "flags": [
+              "Centrálny sklad",
+              "Komplet"
+            ],
+            "title": "K-KES Tandem III, potravinová skriňa, Arena Style, 600/1700mm, antracit (komplet)",
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ]
+          }
+        },
+        {
+          "url": "/potravinova-skrina--4-kose--400-mm--drotene/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "340.43 €",
+            "brand": [
+              "Wireli"
+            ],
+            "flags": [],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "1001991000"
+            ],
+            "title": "Potravinová skriňa Wireli, 4 koše, 400 mm, drôtené"
+          }
+        },
+        {
+          "url": "/potravinova-skrina--6-kosov--450-mm--biele-dna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "241.99 €",
+            "brand": [
+              "Wireli"
+            ],
+            "flags": [],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "1001990000"
+            ],
+            "title": "Potravinová skriňa, 6 košov, 450 mm, biele dna"
+          }
+        },
+        {
+          "url": "/kes-021712-imove--set-s-dvomi-policami--600mm--sedy/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "282.89 €",
+            "brand": [
+              "KESSEBÖHMER"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "278990"
+            ],
+            "title": "KES 021712 iMove, set s dvomi policami, 600mm, šedý"
+          }
+        },
+        {
+          "url": "/vibo-potravinova-skrina-s-piatimi-kosmi-150-mm/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "177.19 €",
+            "brand": [
+              "VIBO"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "228199"
+            ],
+            "title": "VIBO potr.skriňa s piatimi košmi 150mm,š"
+          }
+        }
+      ]
+    },
+    {
+      "query": "šuflíkové pojazdy",
+      "status": "200",
+      "keys": [
+        "results",
+        "next_page",
+        "guid"
+      ],
+      "total_hits": 131,
+      "top": [
+        {
+          "url": "/tulip-knopka-evan-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "1.86 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "401570"
+            ],
+            "title": "TULIP Knopka Evan čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-nakana-320-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "6.86 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "502040"
+            ],
+            "title": "TULIP Úchytka Nakana 320 čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-nakana-256-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "5.94 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "502039"
+            ],
+            "title": "TULIP Úchytka Nakana 256 čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-gola-zasuvkovy-c-profil-4100-imitacia-nerezi/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "85.77 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "228308"
+            ],
+            "title": "TULIP Gola zásuvkový C profil 4100 imitácia nerezi"
+          }
+        },
+        {
+          "url": "/tulip-gola-zasuvkovy-c-profil-4100-eloxovany-hlinik/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "51.92 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "151732"
+            ],
+            "title": "TULIP Gola zásuvkový C profil 4100 eloxovaný hliník"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-kira-160-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "5.79 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "494417"
+            ],
+            "title": "TULIP Úchytka Kira 160 čierna matná"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-zoid-160-296-cierna-matna/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#2E7D32"
+            ],
+            "price": "5.95 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Skladom"
+            ],
+            "availability_rank_text": [
+              "Skladom"
+            ],
+            "code": [
+              "456750"
+            ],
+            "title": "TULIP Úchytka Zoid 160/296 čierná matná"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-nakana-160-cierna-leskla/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "4.21 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "502031"
+            ],
+            "title": "TULIP Úchytka Nakana 160 čierna lesklá"
+          }
+        },
+        {
+          "url": "/tulip-gola-zasuvkovy-c-profil-4100-tmava-zlata-brusena/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "91.36 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "502336"
+            ],
+            "title": "TULIP Gola zásuvkový C profil 4100 tmavá zlatá brúsená"
+          }
+        },
+        {
+          "url": "/tulip-uchytka-nakana-128-cierna-leskla/",
+          "type": "product",
+          "attributes": {
+            "availability_rank_color": [
+              "#C97A2B"
+            ],
+            "price": "3.64 €",
+            "brand": [
+              "Tulip"
+            ],
+            "flags": [
+              "Centrálny sklad"
+            ],
+            "availability_rank_text": [
+              "Centrálny sklad"
+            ],
+            "code": [
+              "502030"
+            ],
+            "title": "TULIP Úchytka Nakana 128 čierna lesklá"
+          }
+        }
+      ]
+    }
+  ]
+}

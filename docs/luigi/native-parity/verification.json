@@ -1,0 +1,28 @@
+{
+  "lint": "PASS",
+  "nodeTestCommand": "node --test tests/luigi-search.test.mjs",
+  "nodeTests": "PASS",
+  "build": "PASS",
+  "jsGzipKiB": 36.09,
+  "cssGzipKiB": 34.77,
+  "frontendActivation": false,
+  "newPreviewPublished": false,
+  "customerParity": "FAIL",
+  "runtimePurchaseImplementation": "BLOCKED",
+  "documentedAPIRequests": "PASS",
+  "filterAndSortAPIProductCounts": [
+    14,
+    3
+  ],
+  "fullFacetMapping": "BLOCKED",
+  "fixtureIndependentMinimumAndPack": "BLOCKED",
+  "qualifiedVariantAndUnorderable": "BLOCKED",
+  "vendorLicenseAndRenderer": "BLOCKED",
+  "productionLoader": "v0.7.7",
+  "orderSubmitted": false,
+  "externalSettingsChanged": false,
+  "distSha256": {
+    "dist/timber.min.js": "0d65a4db0e610d256fb5fa99217fa76bfa7653bc638e9e047d74570438685b64",
+    "dist/timber.min.css": "7b32af458926c9c3a39245d5c4a4335d9679722d0530b54c4bd81029453889be"
+  }
+}

@@ -1,0 +1,133 @@
+/* LB1 · Compact vendor autocomplete layout. Presentation only: keep the vendor
+   items, query/category links, buy nodes, handlers and result count untouched. */
+html.ts-luigi-preview #lbx-ac-element {
+  --ts-lb-border: var(--ts-color-controls-border);
+  --ts-lb-action: var(--ts-color-accent);
+  --ts-lb-blue: var(--ts-color-blue);
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-name {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  overflow: visible;
+  white-space: normal;
+  /* Native global wrapping is important; retain complete technical tokens. */
+  overflow-wrap: anywhere !important;
+  font-size: var(--ts-lb-ac-name-size);
+  line-height: 1.3;
+}
+html.ts-luigi-preview #lbx-ac-element :is(.luigi-ac-text, .luigi-ac-description) { min-width: 0; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-text { min-height: 0; height: auto; margin: 0; padding: 0; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-price { color: var(--ts-lb-blue); }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-attrs { margin: var(--ts-space-1) 0 0; padding: 0; font-size: var(--ts-lb-stock-font); line-height: 1.3; }
+/* Explicit availability metadata, not a guessed availability-rank number. */
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-attrs[content='Centrálny sklad'] .luigi-ac-attr { color: var(--ts-color-controls-active) !important; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-attrs[content='Skladom'] .luigi-ac-attr { color: var(--ts-color-success-primary) !important; }
+/* The configured vendor theme uses important action backgrounds. */
+html.ts-luigi-preview #lbx-ac-element :is(.luigi-ac-button-buy, .luigi-ac-action-heromobile, .luigi-ac-button-heromobile) {
+  background: var(--ts-lb-action) !important;
+  color: var(--ts-color-bg);
+  border-radius: var(--ts-lb-ac-control-radius);
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-action-heromobile img { display: none; }
+html.ts-luigi-preview #lbx-ac-element :is(.luigi-ac-button-buy, .luigi-ac-action-heromobile)::after {
+  content: '';
+  display: inline-block;
+  width: var(--ts-lb-ac-cart-glyph);
+  height: var(--ts-lb-ac-cart-glyph);
+  flex: 0 0 var(--ts-lb-ac-cart-glyph);
+  background: currentColor;
+  -webkit-mask: var(--ts-cart-glyph) center / contain no-repeat;
+  mask: var(--ts-cart-glyph) center / contain no-repeat;
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-button-buy { display: flex; align-items: center; justify-content: center; gap: var(--ts-space-2); min-height: var(--ts-lb-ac-buy-height); padding: var(--ts-space-2) var(--ts-lb-ac-pad); }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-query { display: inline-block; max-width: 100%; margin: var(--ts-lb-ac-chip-gap) var(--ts-space-1) var(--ts-lb-ac-chip-gap) 0; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-query .luigi-ac-other {
+  display: inline-flex;
+  width: auto;
+  min-height: var(--ts-lb-ac-chip-height);
+  margin: 0;
+  padding: 5px var(--ts-lb-ac-gap);
+  border: 1px solid var(--ts-lb-border);
+  border-radius: var(--ts-lb-ac-chip-radius);
+  /* Override the same configured important hero background, only for phrases. */
+  background: var(--ts-color-service-bg) !important;
+  color: var(--ts-color-controls-text) !important;
+  line-height: 1.3;
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-query .luigi-ac-other-content { padding: 0; white-space: normal; overflow-wrap: anywhere; color: inherit !important; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-query .luigi-ac-other:hover { border-color: var(--ts-color-controls-active); }
+html.ts-luigi-preview #lbx-ac-element :is(a, button, [role='button']):focus-visible { outline: var(--ts-lb-ac-focus-width) solid var(--ts-lb-blue); outline-offset: 2px; }
+/* A compact result tile uses the original vendor image/text/action structure. */
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-product {
+  isolation: isolate;
+  display: flex;
+  float: none;
+  width: auto;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  padding: var(--ts-lb-ac-row-pad) 0;
+  gap: var(--ts-space-2);
+  align-items: stretch;
+}
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-image { align-self: flex-start; flex: 0 0 var(--ts-lb-ac-row-image); width: var(--ts-lb-ac-row-image); height: var(--ts-lb-ac-row-image-height); margin: 0; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-image img { width: 100%; height: var(--ts-lb-ac-row-image-height); max-height: var(--ts-lb-ac-row-image-height); object-fit: contain; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-description { margin: 0; align-self: stretch; display: grid; grid-template-columns: minmax(0, 1fr) var(--ts-lb-ac-action); grid-template-rows: minmax(0, 1fr) auto; gap: var(--ts-space-1); flex: 1; padding: 0; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-text { grid-column: 1 / -1; }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-price { position: static; grid-area: 2 / 1; align-self: center; margin: 0; font-size: var(--ts-lb-ac-top-name-size); }
+html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-action-heromobile { position: static; grid-area: 2 / 2; display: flex; align-items: center; justify-content: center; width: var(--ts-lb-ac-action); height: var(--ts-lb-ac-action); min-height: var(--ts-lb-ac-action); min-width: 0; margin: 0; padding: 0; }
+@media (min-width: 1021px) {
+  /* Reference measured on clean v0.7.7: 960 × var(--ts-lb-ac-panel-height). Keep vendor width/anchor;
+     bound every column by that height, with a viewport fallback on short screens. */
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-results-content { height: var(--ts-lb-ac-panel-height); max-height: calc(100vh - var(--ts-lb-ac-viewport-gap)); max-height: min(var(--ts-lb-ac-panel-height), calc(100dvh - var(--ts-lb-ac-viewport-gap))); background: var(--ts-color-bg); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-result { height: calc(100% - var(--ts-lb-ac-ribbon)); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-inner { display: flex; flex-wrap: nowrap; align-items: stretch; height: 100%; max-height: 100%; min-height: 0; overflow: hidden; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-others { flex: 0 0 var(--ts-lb-ac-sidebar); width: var(--ts-lb-ac-sidebar); min-width: 0; height: calc(100% - var(--ts-lb-ac-footer)); overflow-y: auto; padding: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-products { display: flex; flex: 0 0 calc(100% - var(--ts-lb-ac-sidebar)); width: calc(100% - var(--ts-lb-ac-sidebar)); min-width: 0; height: 100%; margin: 0; padding: 0; overflow: hidden; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main { display: flex; flex-direction: column; flex: 0 0 var(--ts-lb-ac-top-share); width: var(--ts-lb-ac-top-share); min-width: 0; height: 100%; margin: 0; padding: 0; overflow-y: auto; justify-content: flex-start; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-header { position: static; height: auto; line-height: var(--ts-lb-ac-heading-line); flex: 0 0 auto; margin: 0; padding: var(--ts-lb-ac-gap) var(--ts-space-3); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-product { display: flex; flex-direction: column; flex: 0 0 auto; justify-content: flex-start; align-items: stretch; height: auto; min-height: 0; padding: 0 var(--ts-space-3) var(--ts-lb-ac-pad); margin: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-image { width: 100%; height: var(--ts-lb-ac-top-image); flex: 0 0 var(--ts-lb-ac-top-image); margin: 0; padding: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-image img { width: 100%; height: var(--ts-lb-ac-top-image); max-height: var(--ts-lb-ac-top-image); object-fit: contain; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-description { display: flex; flex-direction: column; gap: var(--ts-space-2); padding: var(--ts-lb-ac-pad) 0 0; margin: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main :is(.luigi-ac-price, .luigi-ac-heromobile-action-for-desktop) { position: static; width: auto; margin: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-price { font-size: var(--ts-lb-ac-price-size); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-name { font-size: var(--ts-lb-ac-top-name-size); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-button-block--buy { margin: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: max-content; align-content: start; gap: 0 var(--ts-lb-ac-gap); flex: 1; width: auto; min-width: 0; height: 100%; max-height: 100%; margin: 0; padding: 0 var(--ts-lb-ac-pad) var(--ts-space-2); overflow-y: auto; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main > .luigi-ac-header { height: auto; line-height: var(--ts-lb-ac-heading-line); grid-column: 1 / -1; position: sticky; top: 0; z-index: 1; background: var(--ts-color-bg); margin: 0; padding: var(--ts-lb-ac-gap) var(--ts-lb-ac-mobile-action) var(--ts-lb-ac-gap) var(--ts-space-1); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-button-block--show-all { grid-column: 1 / -1; position: static; inset-inline: auto; transform: none; width: 100%; margin: 0; padding: var(--ts-space-2) 0 0; background: var(--ts-color-bg); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-button-block--show-all .luigi-ac-button { min-height: var(--ts-lb-ac-buy-height); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-close { right: var(--ts-lb-ac-pad); top: var(--ts-lb-ac-pad); width: var(--ts-lb-ac-action); height: var(--ts-lb-ac-action); z-index: 2; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-footer { position: absolute; left: 0; bottom: 0; width: var(--ts-lb-ac-sidebar); max-width: var(--ts-lb-ac-sidebar); height: var(--ts-lb-ac-footer); min-height: 0; margin: 0; padding: var(--ts-space-2) var(--ts-lb-ac-pad); box-sizing: border-box; font-size: var(--ts-lb-ac-credit-size); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-others > .luigi-ac-header { padding: var(--ts-lb-ac-gap) var(--ts-lb-ac-pad) var(--ts-space-1); margin: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-others > .luigi-ac-other { min-height: 0; padding: var(--ts-lb-ac-row-pad) var(--ts-lb-ac-pad); margin: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-queries { padding: var(--ts-lb-ac-gap) var(--ts-lb-ac-pad) 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-queries .luigi-ac-header { padding: 0 0 var(--ts-space-1); margin: 0; }
+}
+@media (max-width: 1020px) {
+  /* Keep the vendor's mobile hero input, tabs and back control. Its body owns
+     scrolling; the page-sized overlay cannot grow with the number of results. */
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-results-content { height: 100vh; height: 100dvh; max-height: 100vh; max-height: 100dvh; overflow: hidden; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-result { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-inner { flex: 1 1 auto; height: auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-products { flex: 0 0 auto; height: auto; min-height: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-others { flex: 0 0 auto; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-footer { flex: 0 0 auto; position: static; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main { height: auto; min-height: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-product { display: flex; height: auto; min-height: 0; gap: var(--ts-lb-ac-gap); align-items: flex-start; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-image { flex: 0 0 var(--ts-lb-ac-row-image-height); width: var(--ts-lb-ac-row-image-height); height: 70px; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-image img { width: 100%; height: 70px; object-fit: contain; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-description { flex: 1; display: grid; grid-template-columns: minmax(0, 1fr) var(--ts-lb-ac-mobile-action); gap: var(--ts-space-1); padding: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-text { grid-column: 1 / -1; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-price { position: static; grid-area: 2 / 1; align-self: center; margin: 0; font-size: var(--ts-lb-ac-top-name-size); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-first-main .luigi-ac-action-heromobile { position: static; grid-area: 2 / 2; width: var(--ts-lb-ac-mobile-action); height: var(--ts-lb-ac-mobile-action); min-height: var(--ts-lb-ac-mobile-action); padding: var(--ts-lb-ac-gap); margin: 0; }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-product { width: 100%; padding: var(--ts-space-2) var(--ts-space-3); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-description { grid-template-columns: minmax(0, 1fr) var(--ts-lb-ac-mobile-action); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-rest-main .luigi-ac-action-heromobile { width: var(--ts-lb-ac-mobile-action); height: var(--ts-lb-ac-mobile-action); }
+  html.ts-luigi-preview #lbx-ac-element .luigi-ac-button-block--show-all { position: static; transform: none; width: auto; margin: 0; padding: var(--ts-lb-ac-gap) var(--ts-space-3); }
+}

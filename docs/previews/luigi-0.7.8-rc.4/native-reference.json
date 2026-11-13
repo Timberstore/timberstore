@@ -1,0 +1,96 @@
+[
+  {
+    "width": 1440,
+    "version": "v0.7.7",
+    "loader": {
+      "version": "v0.7.7",
+      "preview": false,
+      "pageLoadingTimer": null
+    },
+    "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n183,60 € bez DPH\n225,83 €\n/ sada\nCENTRÁLNY\nSKLAD (84 SADA)\nKÓD: 553488\n−\n+\nDo košíka",
+    "rects": [
+      {
+        "class": "p",
+        "x": 23.5,
+        "y": 234.578125,
+        "w": 329.5,
+        "h": 529.5
+      },
+      {
+        "class": "image",
+        "x": 53.5,
+        "y": 264.578125,
+        "w": 269.5,
+        "h": 227.703125
+      },
+      {
+        "class": "name",
+        "x": 53.5,
+        "y": 510.28125,
+        "w": 269.5,
+        "h": 98.796875
+      },
+      {
+        "class": "p-bottom",
+        "x": 53.5,
+        "y": 646.078125,
+        "w": 269.5,
+        "h": 48
+      },
+      {
+        "class": "product-btn",
+        "x": 53.5,
+        "y": 710.078125,
+        "w": 269.5,
+        "h": 38
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "version": "v0.7.7",
+    "loader": {
+      "version": "v0.7.7",
+      "preview": false,
+      "pageLoadingTimer": null
+    },
+    "text": "KOMPLET\nK-StrongSinks S3 Set drez Hron 430x460mm granit čierna + Batéria Garonne chróm (komplet)\n183,60 € bez DPH\n225,83 €\n/ sada\nCENTRÁLNY\nSKLAD (84 SADA)\nKÓD: 553488\n−\n+\nDo košíka",
+    "rects": [
+      {
+        "class": "p",
+        "x": 30,
+        "y": 263.703125,
+        "w": 315,
+        "h": 471.796875
+      },
+      {
+        "class": "image",
+        "x": 46,
+        "y": 283.703125,
+        "w": 283,
+        "h": 224.796875
+      },
+      {
+        "class": "name",
+        "x": 46,
+        "y": 526.5,
+        "w": 283,
+        "h": 70
+      },
+      {
+        "class": "p-bottom",
+        "x": 46,
+        "y": 608.5,
+        "w": 283,
+        "h": 57
+      },
+      {
+        "class": "product-btn",
+        "x": 53.5,
+        "y": 681.5,
+        "w": 268,
+        "h": 38
+      }
+    ]
+  }
+]

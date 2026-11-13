@@ -1,0 +1,299 @@
+{
+  "scope": "Standalone design model only; not live Luigi",
+  "results": [
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "aa": false,
+      "buttonBg": "rgb(212, 136, 74)",
+      "buttonColor": "rgb(255, 255, 255)",
+      "minButtonHeight": 44,
+      "names": [
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        }
+      ],
+      "buttonRgb": [
+        212,
+        136,
+        74
+      ],
+      "whiteContrast": 2.83
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "aa": true,
+      "buttonBg": "color(srgb 0.649412 0.370588 0.162353)",
+      "buttonColor": "rgb(255, 255, 255)",
+      "minButtonHeight": 44,
+      "names": [
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        }
+      ],
+      "buttonRgb": [
+        166,
+        94,
+        41
+      ],
+      "whiteContrast": 4.936
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "aa": false,
+      "buttonBg": "rgb(212, 136, 74)",
+      "buttonColor": "rgb(255, 255, 255)",
+      "minButtonHeight": 44,
+      "names": [
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        }
+      ],
+      "buttonRgb": [
+        212,
+        136,
+        74
+      ],
+      "whiteContrast": 2.83
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "aa": true,
+      "buttonBg": "color(srgb 0.649412 0.370588 0.162353)",
+      "buttonColor": "rgb(255, 255, 255)",
+      "minButtonHeight": 44,
+      "names": [
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        }
+      ],
+      "buttonRgb": [
+        166,
+        94,
+        41
+      ],
+      "whiteContrast": 4.936
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "aa": false,
+      "buttonBg": "rgb(212, 136, 74)",
+      "buttonColor": "rgb(255, 255, 255)",
+      "minButtonHeight": 44,
+      "names": [
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        }
+      ],
+      "buttonRgb": [
+        212,
+        136,
+        74
+      ],
+      "whiteContrast": 2.83
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "aa": true,
+      "buttonBg": "color(srgb 0.649412 0.370588 0.162353)",
+      "buttonColor": "rgb(255, 255, 255)",
+      "minButtonHeight": 44,
+      "names": [
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        },
+        {
+          "clipped": false,
+          "overflow": false
+        }
+      ],
+      "buttonRgb": [
+        166,
+        94,
+        41
+      ],
+      "whiteContrast": 4.936
+    }
+  ],
+  "pageErrors": [],
+  "topToggle": "PASS",
+  "liveLuigi": "BLOCKED",
+  "Safari_iPhone": "NOT TESTED",
+  "analytics_cart": "NOT TESTED",
+  "PageSpeed": "NOT TESTED"
+}

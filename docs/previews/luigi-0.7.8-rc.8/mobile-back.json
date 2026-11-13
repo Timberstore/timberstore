@@ -1,0 +1,82 @@
+[
+  {
+    "version": "v0.7.7",
+    "bodyClasses": "desktop id-1 in-index template-11 type-index one-column-body has-carousel columns-mobile-2 columns-4 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-products-slider is-products-slider-mobile is-visible-header-contact is-classic-parameters-color unveiled carousel-set is-loaded after-load luigi-apollo",
+    "root": [
+      {
+        "class": "luigi-ac luigi-ac-heromobile luigi-ac-heromobile--right luigi-ac-autocomplete luigi-ac--fixed",
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": -375,
+          "y": 0,
+          "w": 375,
+          "h": 812
+        }
+      },
+      {
+        "class": "luigi-ac-results-content",
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": -375,
+          "y": 0,
+          "w": 375,
+          "h": 1141.265625
+        }
+      },
+      {
+        "class": "luigi-ac-heromobile-input",
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      }
+    ],
+    "centerTag": ""
+  },
+  {
+    "version": "v0.7.8-rc.8",
+    "bodyClasses": "desktop id-1 in-index template-11 type-index one-column-body has-carousel columns-mobile-2 columns-4 blank-mode blank-mode-css ums_discussion_rating_forms--on ums_page_element_headings--on ums_forms_redesign--on ums_mobile_header_v1--on ums_jquery_fix--on ums_variant_and_filter_labels--on mobile-header-version-1 top-menu-trigger-visible tursky-apollo is-carousel-full-width categories-new-design is-products-slider is-products-slider-mobile is-visible-header-contact is-classic-parameters-color unveiled carousel-set is-loaded after-load luigi-apollo",
+    "root": [
+      {
+        "class": "luigi-ac luigi-ac-heromobile luigi-ac-heromobile--right luigi-ac-autocomplete luigi-ac--fixed",
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": -375,
+          "y": 0,
+          "w": 375,
+          "h": 812
+        }
+      },
+      {
+        "class": "luigi-ac-results-content",
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": -375,
+          "y": 0,
+          "w": 375,
+          "h": 812
+        }
+      },
+      {
+        "class": "luigi-ac-heromobile-input",
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      }
+    ],
+    "centerTag": ""
+  }
+]

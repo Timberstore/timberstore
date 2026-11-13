@@ -1,0 +1,925 @@
+[
+  {
+    "query": "BLUM 450",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "BLUM ZSI.450FI2NOrga Line rozdeľovník 450 nerez",
+        "url": "https://www.timberstore.sk/blum-zsi-450fi2norga-line-rozdelovnik-450-nerez/",
+        "code": "KÓD: 13038",
+        "availability": "Centrálny\nsklad (5 ks)",
+        "price": "33,28 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM Z46L420S mezistena 450 biela",
+        "url": "https://www.timberstore.sk/blum-z46l420s-mezistena-450-biela/",
+        "code": "KÓD: 349432",
+        "availability": "Centrálny\nsklad (14 ks)",
+        "price": "36,72 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 470N4502S Merivobox, bočnica N 450 mm, biela",
+        "url": "https://www.timberstore.sk/blum-470n4502s-merivobox--bocnica-n-450-mm--biela/",
+        "code": "KÓD: 481543",
+        "availability": "Centrálny\nsklad (34 pár)",
+        "price": "26,60 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 378M4502SA Antaro, bočnica M 450 biela, ľavá",
+        "url": "https://www.timberstore.sk/blum-378m4502sa-antaro-bocnica-m-450-biela-lava/",
+        "code": "KÓD: IN024BL",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "10,07 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM Legrabox, zásuvka K 450 mm/40 kg, Blumotion/TOB, čierna, skrutka (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-k-450mm-40kg--blumotion-tob--cierna--skrutka--komplet-/",
+        "code": "KÓD: 499122",
+        "availability": "Centrálny\nsklad (8 sada)",
+        "price": "66,46 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "Plnovýsuvný dvojkoš bočný WIRELI Komfort s tlmeným dovretím, 110x450x520 mm, pravý",
+        "url": "https://www.timberstore.sk/plnovysuvny-dvojkos-bocny-wireli-komfort-s-hr--dovretim--110x450x520mm--pravy/",
+        "code": "KÓD: 1002301001",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "58,52 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "WIRELI Komfort plnovýsuvný dvojkoš bočný s tlmeným dovretím, 110x450x520 mm, ľavý",
+        "url": "https://www.timberstore.sk/plnovysuvny-dvojkos-bocny-wireli-komfort-s-hr--dovretim--110x450x520mm--lavy/",
+        "code": "KÓD: 1002303001",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "58,52 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM ZSI.80VEI4 Orga Line \"Ukladanie\" 800/450",
+        "url": "https://www.timberstore.sk/blum-zsi-80vei4-orga-line--ukladanie--800-450/",
+        "code": "KÓD: 12935",
+        "availability": "Centrálny\nsklad (49 ks)",
+        "price": "111,81 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM ZSI.450BI3N Orga Line \"Ukladanie\" 400/450",
+        "url": "https://www.timberstore.sk/blum-zsi-450bi3n-orga-line--ukladanie--400-450/",
+        "code": "KÓD: 12983",
+        "availability": "Centrálny\nsklad (3 ks)",
+        "price": "57 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "K-BLUM Antaro, zásuvka D 450 mm/65 kg, Blumotion/TOB, biela, vnútorná (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-antaro--zasuvka-d-450-mm-65-kg--blumotion-tob--biela--vnutorna--komplet-/",
+        "code": "KÓD: 254695",
+        "availability": "Centrálny\nsklad (>100 sada)",
+        "price": "68,81 €\n \n \n \n \n / sada"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "Legrabox K 450 čierna",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "BLUM Legrabox, zásuvka K 450 mm/40 kg, Blumotion/TOB, čierna, skrutka (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-k-450mm-40kg--blumotion-tob--cierna--skrutka--komplet-/",
+        "code": "KÓD: 499122",
+        "availability": "Centrálny\nsklad (8 sada)",
+        "price": "66,46 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "K-BLUM Legrabox, zásuvka C Free 500mm/40kg, Blumotion/TOB, čierna, Expando (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-c-free-500mm-40kg--blumotion-tob-cierna--expando--komplet-/",
+        "code": "KÓD: 499262",
+        "availability": "Centrálny\nsklad (12 sada)",
+        "price": "115,40 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "K-BLUM Legrabox, zásuvka K 450mm/70kg, Blumotion/TOB, čierna, vnútorná (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-k-450mm-70kg--blumotion-tob--cierna--vnutorna--komplet-/",
+        "code": "KÓD: 499310",
+        "availability": "Centrálny\nsklad (8 sada)",
+        "price": "95,25 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "K-BLUM Legrabox, zásuvka K 450mm/40kg, Blumotion/TOB, čierna, vnútorná (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-k-450mm-40kg--blumotion-tob--cierna--vnutorna--komplet-/",
+        "code": "KÓD: 499308",
+        "availability": "Centrálny\nsklad (8 sada)",
+        "price": "86,96 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "K-BLUM Legrabox, zásuvka K 450mm/70kg, Blumotion/TOB, čierna, Expando (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-k-450mm-70kg--blumotion-tob--cierna--expando--komplet-/",
+        "code": "KÓD: 498941",
+        "availability": "Centrálny\nsklad (8 sada)",
+        "price": "74,99 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "K-BLUM Legrabox, zásuvka K 450mm/40kg, Blumotion/TOB, čierna, Expando (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-k-450mm-40kg--blumotion-tob--cierna--expando--komplet-/",
+        "code": "KÓD: 499123",
+        "availability": "Centrálny\nsklad (8 sada)",
+        "price": "66,70 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "K-BLUM Legrabox, zásuvka K 450mm/70kg, Blumotion/TOB, čierna, skrutka (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-k-450mm-70kg--blumotion-tob--cierna--skrutka--komplet-/",
+        "code": "KÓD: 499124",
+        "availability": "Centrálny\nsklad (8 sada)",
+        "price": "74,76 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "K-BLUM Legrabox, zásuvka M 450mm/70kg, Blumotion/TOB, čierna, vnútorná (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-m-450mm-70kg--blumotion-tob--cierna--vnutorna--komplet-/",
+        "code": "KÓD: 499056",
+        "availability": "Centrálny\nsklad (56 sada)",
+        "price": "84,69 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "K-BLUM Legrabox, zásuvka M 450mm/40kg, Blumotion/TOB, čierna, vnútorná (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-m-450mm-40kg--blumotion-tob--cierna--vnutorna--komplet-/",
+        "code": "KÓD: 499055",
+        "availability": "Centrálny\nsklad (56 sada)",
+        "price": "76,40 €\n \n \n \n \n / sada"
+      },
+      {
+        "name": "K-BLUM Legrabox, zásuvka F 450mm/70kg, Blumotion/TOB, čierna, Expando (komplet)",
+        "url": "https://www.timberstore.sk/k-blum-legrabox--zasuvka-f-450mm-70kg--blumotion-tob--cierna--expando--komplet-/",
+        "code": "KÓD: 499248",
+        "availability": "Centrálny\nsklad (28 sada)",
+        "price": "114,75 €\n \n \n \n \n / sada"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "BLUM 71B3550",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "BLUM 71B3550 záves, naložený, Blumotion, skrutka,110°, Onyx",
+        "url": "https://www.timberstore.sk/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110-onyx/",
+        "code": "KÓD: 306317",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "4,11 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71B3550 záves, naložený, Blumotion, skrutka 110°",
+        "url": "https://www.timberstore.sk/blum-71b3550-zaves-nalozeny-blumotion-skrutka-110/",
+        "code": "KÓD: 12047",
+        "availability": "Skladom (>100 ks)",
+        "price": "3,58 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "pánt 110 naložený",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "HETTICH 60685 Tlmič SiSy externý naložený/polonaložený na zavŕtanie",
+        "url": "https://www.timberstore.sk/hettich-60685-tlmic-sisy-externy-nalozeny-polonalozeny-na-zavrtanie/",
+        "code": "KÓD: 107839",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "2,08 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71T7650 záves, polonaložený, skrutka,155°",
+        "url": "https://www.timberstore.sk/blum-71t7650-zaves-polonalozeny-skrutka-155/",
+        "code": "KÓD: 347932",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "7,42 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71T6650 záves, polonaložený, skrutka,170°",
+        "url": "https://www.timberstore.sk/blum-71t6650-zaves-polonalozeny-skrutka-170/",
+        "code": "KÓD: 12045",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "5,98 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 60687 tlmič SiSy externý naložený/polonaložený adaptér krížový skrutka",
+        "url": "https://www.timberstore.sk/hettich-60687-tlmic-sisy-externy-nalozeny-polonalozeny-adapter-krizovy-skrutka/",
+        "code": "KÓD: 104346",
+        "availability": "Centrálny\nsklad (72 ks)",
+        "price": "2,47 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71B7650 záves, polonaložený, Blumotion, skrutka,155°",
+        "url": "https://www.timberstore.sk/blum-71b7650-zaves-polonalozeny-blumotion-skrutka-155/",
+        "code": "KÓD: 347926",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "9,24 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 973A0600 záves, polonaložený, Blumotion, naklapávací",
+        "url": "https://www.timberstore.sk/blum-973a0600-zaves-polonalozeny-blumotion-naklapavaci/",
+        "code": "KÓD: 12385",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "2,92 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71T368E záves, polonaložený, Expando,110°",
+        "url": "https://www.timberstore.sk/blum-71t368e-zaves-polonalozeny-expando-110/",
+        "code": "KÓD: 118143",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "2,16 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71T3650 záves, polonaložený, skrutka,110°",
+        "url": "https://www.timberstore.sk/blum-71t3650-zaves-polonalozeny-skrutka-110/",
+        "code": "KÓD: 12053",
+        "availability": "Skladom (>100 ks)",
+        "price": "2,15 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71M268E záves, polonaložený, Expando,100°",
+        "url": "https://www.timberstore.sk/blum-71m268e-zaves-polonalozeny-expando-100/",
+        "code": "KÓD: 12051",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "1,50 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71B3650 záves, polonaložený, Blumotion, skrutka,110°, Onyx",
+        "url": "https://www.timberstore.sk/blum-71b3650-zaves-polonalozeny-blumotion-skrutka-110-onyx/",
+        "code": "KÓD: 306318",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "4,37 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "záves 155",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "BLUM 70T7553 obmedzovač uhla otvorenia na 110°,125°/155°",
+        "url": "https://www.timberstore.sk/blum-70t7553-obmedzovac-uhla-otvorenia-na-110-125-155/",
+        "code": "KÓD: 347956",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,55 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71T7650 záves, polonaložený, skrutka,155°",
+        "url": "https://www.timberstore.sk/blum-71t7650-zaves-polonalozeny-skrutka-155/",
+        "code": "KÓD: 347932",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "7,42 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 1170155 Úchytka Salona 160 imitácia nehrdzavejúcej ocele",
+        "url": "https://www.timberstore.sk/hettich-1170155-uchytka-salona-160-imitacia-nehrdzavejucej-ocele/",
+        "code": "KÓD: 141597",
+        "availability": "Centrálny\nsklad (74 ks)",
+        "price": "11,02 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71B7650 záves, polonaložený, Blumotion, skrutka,155°",
+        "url": "https://www.timberstore.sk/blum-71b7650-zaves-polonalozeny-blumotion-skrutka-155/",
+        "code": "KÓD: 347926",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "9,24 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 70T7650.TL záves, polonaložený, Tip-on, skrutka,155°",
+        "url": "https://www.timberstore.sk/blum-70t7650-tl-zaves-polonalozeny-tip-on-skrutka-155--/",
+        "code": "KÓD: 347938",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "7,42 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71B7550 záves, naložený, nulový presah, Blumotion, skrutka,155°",
+        "url": "https://www.timberstore.sk/blum-71b7550-zaves-nalozeny-nulovy-presah-blumotion-skrutka-155/",
+        "code": "KÓD: 347923",
+        "availability": "Skladom (>100 ks)",
+        "price": "7,54 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71B7590 záves, naložený, nulový presah, Blumotion, Inserta,155°",
+        "url": "https://www.timberstore.sk/blum-71b7590-zaves-nalozeny-nulovy-presah-blumotion-inserta-155/",
+        "code": "KÓD: 347925",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "8,84 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71T7550 záves, naložený, nulový presah, skrutka,155°",
+        "url": "https://www.timberstore.sk/blum-71t7550-zaves-nalozeny-nulovy-presah-skrutka-155/",
+        "code": "KÓD: 347929",
+        "availability": "Skladom (>100 ks)",
+        "price": "5,73 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 70T7550.TL záves, naložený, nulový presah, Tip-on, skrutka,155°",
+        "url": "https://www.timberstore.sk/blum-70t7550-tl-zaves-nalozeny-nulovy-presah-tip-on-skrutka-155/",
+        "code": "KÓD: 347953",
+        "availability": "Skladom (>100 ks)",
+        "price": "5,84 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "BLUM 71B7590 záves, naložený, nulový presah, Blumotion, Inserta,155°, Onyx",
+        "url": "https://www.timberstore.sk/blum-71b7590-zaves-nalozeny-nulovy-presah-blumotion-inserta-155-onyx/",
+        "code": "KÓD: 347943",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "10,17 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "úchytka 160 čierna",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "TULIP Úchytka Ida 160 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-uchytka-ida-160-cierna-matna/",
+        "code": "KÓD: 494627",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "1,35 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Úchytka Rocata 160 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-uchytka-rocata-160-cierna-matna/",
+        "code": "KÓD: 284104",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "6,67 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Úchytka Bastone 160 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-uchytka-bastone-160-cierna-matna/",
+        "code": "KÓD: 402392",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "2,57 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Úchytka Nakana 160 čierna lesklá",
+        "url": "https://www.timberstore.sk/tulip-uchytka-nakana-160-cierna-leskla/",
+        "code": "KÓD: 502031",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "4,21 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Úchytka Scala 160 čierna brúsená",
+        "url": "https://www.timberstore.sk/tulip-uchytka-scala-160-cierna-brusena/",
+        "code": "KÓD: 378651",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "4,64 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Úchytka Porta 160 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-uchytka-porta-160-cierna-matna/",
+        "code": "KÓD: 465924",
+        "availability": "Skladom (>100 ks)",
+        "price": "4,23 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Úchytka Resina 160 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-uchytka-resina-160-cierna-matna/",
+        "code": "KÓD: 500451",
+        "availability": "Skladom (>100 ks)",
+        "price": "8,54 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Úchytka Sosa 160 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-uchytka-sosa-160-cierna-matna/",
+        "code": "KÓD: 465322",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "6,30 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Úchytka Nakana 160 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-uchytka-nakana-160-cierna-matna/",
+        "code": "KÓD: 502037",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "4,21 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Úchytka Kira 160 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-uchytka-kira-160-cierna-matna/",
+        "code": "KÓD: 494417",
+        "availability": "Skladom (>100 ks)",
+        "price": "5,79 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "SPAX 4x16 PZ",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "StrongFix Skrutka PZ PH 6x60 PZ3 pologuľ.hlava biely Zn PZ3",
+        "url": "https://www.timberstore.sk/strongfix-skrutka-pz-ph-6x60-pz3-pologul-hlava-biely-zn-pz3/",
+        "code": "KÓD: 229003",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,11 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "StrongFix Skrutka PZ PH 4x15 PZ2 polgul.hl.biel.ZN PZ2",
+        "url": "https://www.timberstore.sk/strongfix-skrutka-pz-ph-4x15-pz2-polgul-hl-biel-zn-pz2/",
+        "code": "KÓD: 282481",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,02 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "StrongFix Skrutka PZ ZH 3x10 Žltý Zn PZ1",
+        "url": "https://www.timberstore.sk/strongfix-skrutka-pz-zh-3x10-zlty-zn-pz1/",
+        "code": "KÓD: 11124",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,01 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "StrongFix Skrutka PZ ZH 4,5x16 ŽLTÝ ZN PZ2",
+        "url": "https://www.timberstore.sk/strongfix-skrutka-pz-zh-4-5x16-zlty-zn-pz2/",
+        "code": "KÓD: 11128",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,02 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Vrut PZ 6x100/70 zápustná hlava zinok biely PZ3, čiastočný závit",
+        "url": "https://www.timberstore.sk/vrut-pz-6x100-70-zapustna-hlava-zinok-biely-pz3--ciastocny-zavit/",
+        "code": "KÓD: 228940",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,12 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Skrutka PZ 4x12 zápustná hlava zinok žltý PZ2",
+        "url": "https://www.timberstore.sk/skrutka-pz-4x12-zapustna-hlava-zinok-zlty-pz2/",
+        "code": "KÓD: 50151",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,01 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Vrut PZ 6x90/60 zápustná hlava zinok žltý PZ3, čiastočný závit",
+        "url": "https://www.timberstore.sk/vrut-pz-6x90-60-zapustna-hlava-zinok-zlty-pz3--ciastocny-zavit/",
+        "code": "KÓD: 95389",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,09 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Vrut PZ 6x70/42 zápustná hlava zinok žltý PZ3, čiastočný závit",
+        "url": "https://www.timberstore.sk/vrut-pz-6x70-42-zapustna-hlava-zinok-zlty-pz3--ciastocny-zavit/",
+        "code": "KÓD: 11141",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,09 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "SPAX skruka 4x16mmpolguľatá hlavaPZ W 4C",
+        "url": "https://www.timberstore.sk/spax-skruka-4x16mmpolgulata-hlavapz-w-4c/",
+        "code": "KÓD: 360727",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,04 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "StrongFix skrutka PZ 3,5x45mm zápustná hlava zinok biely PZ2",
+        "url": "https://www.timberstore.sk/strongfix-skrutka-pz-3-5x45mm-zapustna-hlava-zinok-biely-pz2/",
+        "code": "KÓD: 395074",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,04 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "skrutka M4x8",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "Skrutka k úchytke M4x8, pologuľatá hlava s límcom, DIN 967",
+        "url": "https://www.timberstore.sk/skrutka-k-uchytke-m4x8-pologulata-hlava-s-limcom/",
+        "code": "KÓD: 10144",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,02 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "LED pás 24V IP65",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "Mean Well HLG-320H-12A Zdroj napätia, 12V, 264W, 22A, IP65, nastaviteľný",
+        "url": "https://www.timberstore.sk/zdroj-napatia-12v-264w--22a-ip65-nastavitelny-mean-well-hlg-320h-12a/",
+        "code": "KÓD: 3205081120",
+        "availability": "Centrálny\nsklad (3 ks)",
+        "price": "171,72 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Mean Well HLG-320H-24A napájací zdroj 24V, 320W, 13,3A, IP65, nastaviteľný",
+        "url": "https://www.timberstore.sk/zdroj-napatia-24v-320w-13-3a-ip65-nastavitelny-mean-well-hlg-320h-24a/",
+        "code": "KÓD: 3205095120",
+        "availability": "Centrálny\nsklad (11 ks)",
+        "price": "180,34 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "STRONG LED pásik 7,2W/m 12V 10mm biela studená IP65",
+        "url": "https://www.timberstore.sk/strong-led-pasik-7-2w-m-12v-10mm-biela-studena-ip65/",
+        "code": "KÓD: 134105",
+        "availability": "Centrálny\nsklad (25 m)",
+        "price": "3,08 €\n \n \n \n \n / m"
+      },
+      {
+        "name": "LED NEON WIRELI WN 4x8 mm, 24V, 280lm, 10W, 0,42A, IP65, biela neutrálna",
+        "url": "https://www.timberstore.sk/led-neon-wireli-wn-4x8-mm-24v-280lm-10w-0-42a-ip65-biela-neutralna/",
+        "code": "KÓD: 3202390601",
+        "availability": "Centrálny\nsklad (23 m)",
+        "price": "15,89 €\n \n \n \n \n / m"
+      },
+      {
+        "name": "WIRELI LED NEON 4x8 mm, WW 280lm, 10W, 0,42A, 24V, IP65, biela teplá",
+        "url": "https://www.timberstore.sk/wireli-led-neon-4x8-mm-ww-280lm-10w-0-42a-24v-ip65-biela-tepla/",
+        "code": "KÓD: 3202391601",
+        "availability": "Centrálny\nsklad (>100 m)",
+        "price": "15,89 €\n \n \n \n \n / m"
+      },
+      {
+        "name": "LED NEON WIRELI WC 4x8 mm, 280lm, 10W, 0,42A, 24V, IP65, biela studená",
+        "url": "https://www.timberstore.sk/led-neon-wireli-wc-4x8-mm-280lm-10w-0-42a-24v-ip65-biela-studena/",
+        "code": "KÓD: 3202389601",
+        "availability": "Centrálny\nsklad (48 m)",
+        "price": "15,89 €\n \n \n \n \n / m"
+      },
+      {
+        "name": "GLP Zdroj napätia 12V 100W 8,5A IP65 typ GLG-100-12A",
+        "url": "https://www.timberstore.sk/zdroj-napatia-12v-100w-8-5a-ip65-glp-typ-glg-100-12a/",
+        "code": "KÓD: 3205001112",
+        "availability": "Centrálny\nsklad (11 ks)",
+        "price": "71,11 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "StrongLumio LED pásik 14,4W/m 24V (60 LED/m) 10mm, RGB IP65",
+        "url": "https://www.timberstore.sk/stronglumio-led-pasik-14-4w-m-24v--60-led-m--10mm--rgb-ip65/",
+        "code": "KÓD: 284569",
+        "availability": "Centrálny\nsklad (55 m)",
+        "price": "9,73 €\n \n \n \n \n / m"
+      },
+      {
+        "name": "Mean Well HLG-150H-24A Zdroj napätia 24V 150W 6,25A IP65 nastaviteľný",
+        "url": "https://www.timberstore.sk/zdroj-napatia-24v-150w-6-25a-ip65-nastavitelny-mean-well-hlg-150h-24a/",
+        "code": "KÓD: 3205092120",
+        "availability": "Centrálny\nsklad (1 ks)",
+        "price": "97,59 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Mean Well HLG-240H-12A, Zdroj napätia 12V 192W 16A IP65 nastaviteľný",
+        "url": "https://www.timberstore.sk/zdroj-napatia-12v-192w--16a-ip65-nastavitelny-mean-well-hlg-240h-12a/",
+        "code": "KÓD: 3205080120",
+        "availability": "Centrálny\nsklad (9 ks)",
+        "price": "134,05 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "Gola J profil",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "TULIP Gola dvierkový J profil 4100 biela pololesk",
+        "url": "https://www.timberstore.sk/tulip-gola-dvierkovy-j-profil-4100-biela-pololesk/",
+        "code": "KÓD: 284149",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "46,65 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Gola uzavrená koncovka J profil strieborná P+L",
+        "url": "https://www.timberstore.sk/tulip-gola-uzavrena-koncovka-j-profil-strieborna-p-l/",
+        "code": "KÓD: 284152",
+        "availability": "Centrálny\nsklad (74 pár)",
+        "price": "5,97 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "TULIP Gola dvierkový J profil 4100 imitácia nehrdzavejúcej oceli",
+        "url": "https://www.timberstore.sk/tulip-gola--dvierkovy-j-profil-4100-imitacia-nehrdzavejucej-oceli/",
+        "code": "KÓD: 228304",
+        "availability": "Centrálny\nsklad (86 ks)",
+        "price": "71,48 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Gola II dvierkový J profil 2900 eloxovaný hliník",
+        "url": "https://www.timberstore.sk/tulip-gola-ii-dvierkovy-j-profil-2900-eloxovany-hlinik/",
+        "code": "KÓD: 313753",
+        "availability": "Centrálny\nsklad (48 ks)",
+        "price": "14,83 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Gola dvierkový J profil 4100 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-gola-dvierkovy-j-profil-4100-cierna-matna/",
+        "code": "KÓD: 404389",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "49,63 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Gola J profil na dvierka, 4100 mm, eloxovaný hliník",
+        "url": "https://www.timberstore.sk/tulip-gola-dvierkovy-j-profil-4100-eloxovany-hlinik/",
+        "code": "KÓD: 151631",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "44,99 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Gola dvierkový J profil s LED 4100 biela pololesk",
+        "url": "https://www.timberstore.sk/tulip-gola-dvierkovy-j-profil-s-led-4100-biela-pololesk/",
+        "code": "KÓD: 504525",
+        "availability": "Centrálny\nsklad (40 ks)",
+        "price": "52,19 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Gola dvierkový J profil s LED 4100 eloxovaný hliník",
+        "url": "https://www.timberstore.sk/tulip-gola--dvierkovy-j-profil--s-led-4100-eloxovany-hlinik/",
+        "code": "KÓD: 504524",
+        "availability": "Centrálny\nsklad (8 ks)",
+        "price": "49,45 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Gola dvierkový J profil s LED 4100 čierna matná",
+        "url": "https://www.timberstore.sk/tulip-gola-dvierkovy-j-profil-s-led-4100-cierna-matna/",
+        "code": "KÓD: 504526",
+        "availability": "Centrálny\nsklad (11 ks)",
+        "price": "52,19 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "TULIP Gola II dvierkový J profil 2900 imitácia nehrdzavejúcej ocele",
+        "url": "https://www.timberstore.sk/tulip-gola-ii-dvierkovy-j-profil-2900-imitacia-nehrdzavejucej-ocele/",
+        "code": "KÓD: 313754",
+        "availability": "Centrálny\nsklad (93 ks)",
+        "price": "16,33 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "Hettich Sensys",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "HETTICH 9072540 Sensys obmedzovač uhla otvárania 110°>85° pre Sensys Sisy",
+        "url": "https://www.timberstore.sk/hettich-9072540-sensys-obmedzovac-uhla-otvarania-110-85-pre-sensys-sisy/",
+        "code": "KÓD: 207142",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,15 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 9088250 Sensys krytka ramienka logo Hettich",
+        "url": "https://www.timberstore.sk/hettich-9088250-sensys-krytka-ramienka-logo-hettich/",
+        "code": "KÓD: 105425",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,16 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 9099871 Sensys krytka ramienka 165° logo Hettich SiSy",
+        "url": "https://www.timberstore.sk/hettich-9099871-sensys-krytka-ramienka-165-logo-hettich-sisy/",
+        "code": "KÓD: 300518",
+        "availability": "Centrálny\nsklad (44 ks)",
+        "price": "0,26 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 9099751 Sensys 8657 165° Intermat B12",
+        "url": "https://www.timberstore.sk/hettich-9099751-sensys-8657-165-intermat-b12/",
+        "code": "KÓD: 300489",
+        "availability": "Centrálny\nsklad (40 ks)",
+        "price": "6,56 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 9094360 Sensys 8646 B12,5/TH52 BEZ TL",
+        "url": "https://www.timberstore.sk/hettich-9094360-sensys-8646-b12-5-th52-bez-tl/",
+        "code": "KÓD: 300468",
+        "availability": "Centrálny\nsklad (4 ks)",
+        "price": "4,26 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 9071215 Sensys polonaložený TH euroskrutka SiSy",
+        "url": "https://www.timberstore.sk/hettich-9071215-sensys-polonalozeny-th-euroskrutka-sisy/",
+        "code": "KÓD: 350585",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "3,20 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 9071578 Sensys montážna podložka D5 skrutka",
+        "url": "https://www.timberstore.sk/hettich-9071578-sensys-montazna-podlozka-d5-skrutka/",
+        "code": "KÓD: 106405",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,69 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 9071576 Sensys montážna podložka D1,5 skrutka",
+        "url": "https://www.timberstore.sk/hettich-9071576-sensys-montazna-podlozka-d1-5-skrutka/",
+        "code": "KÓD: 106403",
+        "availability": "Skladom (>100 ks)",
+        "price": "0,39 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 9088251 Sensys krytka pre misku TH",
+        "url": "https://www.timberstore.sk/hettich-9088251-sensys-krytka-pre-misku-th/",
+        "code": "KÓD: 105408",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "0,21 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "HETTICH 9071314 Sensys 8675 110° TH52 P2O",
+        "url": "https://www.timberstore.sk/hettich-9071314-sensys-8675-110-th52-p2o/",
+        "code": "KÓD: 245724",
+        "availability": "Centrálny\nsklad (>100 ks)",
+        "price": "3,16 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "Franke UBG 611-86",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "FRANKE Drez UBG 611-86 860x500mm ónyx",
+        "url": "https://www.timberstore.sk/franke-drez-ubg-611-86-860x500mm-onyx/",
+        "code": "KÓD: 384444",
+        "availability": "Centrálny\nsklad (2 ks)",
+        "price": "220,50 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "FRANKE Drez UBG 611-86 860x500mm šedý kameň",
+        "url": "https://www.timberstore.sk/franke-drez-ubg-611-86-860x500mm-sedy-kamen/",
+        "code": "KÓD: 384446",
+        "availability": "Skladom (3 ks)",
+        "price": "220,50 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "FRANKE Drez SKX 611-86/2P 860x500mm nehrdzavejúca oceľ",
+        "url": "https://www.timberstore.sk/franke-drez-skx-611-86-2p-860x500mm-nehrdzavejuca-ocel/",
+        "code": "KÓD: 336148",
+        "availability": "Centrálny\nsklad (1 ks)",
+        "price": "168,30 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "FRANKE Drez SRX 611-86 LB 860x500mm nehrdzavejúca oceľ",
+        "url": "https://www.timberstore.sk/franke-drez-srx-611-86-lb-860x500mm-nehrdzavejuca-ocel/",
+        "code": "KÓD: 284879",
+        "availability": "Centrálny\nsklad (5 ks)",
+        "price": "202,51 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "TIP-ON BLUMOTION",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "BLUM 766H4500S Movento, celovýsuv 450mm/70kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-766h4500s-movento-celovysuv-450mm-70kg-blumotion-tob/",
+        "code": "KÓD: 349932",
+        "availability": "Centrálny\nsklad (>100 pár)",
+        "price": "41,99 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 766H5000S Movento, celovýsuv 500mm/70kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-766h5000s-movento-celovysuv-500mm-70kg-blumotion-tob/",
+        "code": "KÓD: 349934",
+        "availability": "Centrálny\nsklad (>100 pár)",
+        "price": "42,37 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 766H5200S Movento, celovýsuv 520mm/70kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-766h5200s-movento-celovysuv-520mm-70kg-blumotion-tob/",
+        "code": "KÓD: 349935",
+        "availability": "Centrálny\nsklad (44 pár)",
+        "price": "44,45 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 766H5500S Movento, celovýsuv 550mm/70kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-766h5500s-movento-celovysuv-550mm-70kg-blumotion-tob/",
+        "code": "KÓD: 349936",
+        "availability": "Centrálny\nsklad (>100 pár)",
+        "price": "44,45 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 766H6000S Movento, celovýsuv 600mm/70kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-766h6000s-movento-celovysuv-600mm-70kg-blumotion-tob/",
+        "code": "KÓD: 349938",
+        "availability": "Centrálny\nsklad (96 pár)",
+        "price": "48,62 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 766H7000S Movento, celovýsuv 700mm/60kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-766h7000s-movento-celovysuv-700mm-60kg-blumotion-tob/",
+        "code": "KÓD: 349940",
+        "availability": "Centrálny\nsklad (>100 pár)",
+        "price": "54,87 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 766H7500S Movento, celovýsuv 750mm/60kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-766h7500s-movento-celovysuv-750mm-60kg-blumotion-tob/",
+        "code": "KÓD: 349941",
+        "availability": "Centrálny\nsklad (>100 pár)",
+        "price": "59,05 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 760H2700S Movento, celovýsuv 270mm/40kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-760h2700s-movento-celovysuv-270mm-40kg-blumotion-tob/",
+        "code": "KÓD: 349919",
+        "availability": "Centrálny\nsklad (>100 pár)",
+        "price": "34,10 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 760H3000S Movento, celovýsuv 300mm/40kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-760h3000s-movento-celovysuv-300mm-40kg-blumotion-tob/",
+        "code": "KÓD: 349920",
+        "availability": "Centrálny\nsklad (>100 pár)",
+        "price": "34,10 €\n \n \n \n \n / pár"
+      },
+      {
+        "name": "BLUM 760H3500S Movento, celovýsuv 350mm/40kg, Blumotion/TOB",
+        "url": "https://www.timberstore.sk/blum-760h3500s-movento-celovysuv-350mm-40kg-blumotion-tob/",
+        "code": "KÓD: 349922",
+        "availability": "Centrálny\nsklad (>100 pár)",
+        "price": "34,10 €\n \n \n \n \n / pár"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "potravinová skriňa",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [
+      {
+        "name": "Potravinová skriňa Wireli, 4 koše, 400 mm, drôtené",
+        "url": "https://www.timberstore.sk/potravinova-skrina--4-kose--400-mm--drotene/",
+        "code": "KÓD: 1001991000",
+        "availability": "Centrálny\nsklad (4 ks)",
+        "price": "340,43 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Potravinová skriňa Wireli Komfort, 6 drôtených košov, 400 mm",
+        "url": "https://www.timberstore.sk/potravinova-skrina-wireli-6-kosov-400-mm-drotene/",
+        "code": "KÓD: 1001992300",
+        "availability": "Centrálny\nsklad (9 ks)",
+        "price": "477,98 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Potravinová skriňa Wireli Komfort, 4 koše, 500 mm, biele dna",
+        "url": "https://www.timberstore.sk/potravinova-skrina--4-kose--500-mm--biele-dna/",
+        "code": "KÓD: 1001993200",
+        "availability": "Centrálny\nsklad (1 ks)",
+        "price": "193,97 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Potravinová skriňa Wireli, 6 košov, 450 mm, plné dna, antracit",
+        "url": "https://www.timberstore.sk/potravinova-skrina--6-kosov--450-mm--plne-dna-antracit/",
+        "code": "KÓD: 1001996300",
+        "availability": "Centrálny\nsklad (4 ks)",
+        "price": "235,96 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Wireli Potravinová skriňa, 6 drôtených košov, 450 mm",
+        "url": "https://www.timberstore.sk/potravinova-skrina--6-kosov--450-mm--drotene/",
+        "code": "KÓD: 1001992100",
+        "availability": "Centrálny\nsklad (10 ks)",
+        "price": "184,56 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Potravinová skriňa WIRELI Style, 5 košov, 300 mm, 250x505x1659-2059 mm, antracit",
+        "url": "https://www.timberstore.sk/potravinova-skrina-wireli-style-5-kosov-300mm--250x505x1659-2059mm--antracit/",
+        "code": "KÓD: 1001005202",
+        "availability": "Centrálny\nsklad (14 ks)",
+        "price": "557,68 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Potravinová skriňa WIRELI Style, 6 košov, 400 mm, 350x505x1959-2359 mm, antracit",
+        "url": "https://www.timberstore.sk/potravinova-skrina-wireli-style-6-kosov-400mm--350x505x1959-2359mm--antracit/",
+        "code": "KÓD: 1001009202",
+        "availability": "Centrálny\nsklad (11 ks)",
+        "price": "614,30 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Potravinová skriňa WIRELI Komfort 6 košov 300 mm, 245x490x1959-2359 mm, chróm",
+        "url": "https://www.timberstore.sk/potravinova-skrina-wireli-komfort-6-kosov-300mm--245x490x1959-2359mm--chrom/",
+        "code": "KÓD: 1001206001",
+        "availability": "Centrálny\nsklad (1 ks)",
+        "price": "436,08 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Potravinová skriňa WIRELI Style, 4 koše, 300 mm, 250x505x1259-1659 mm, antracit",
+        "url": "https://www.timberstore.sk/potravinova-skrina-wireli-style-4-kose-300mm--250x505x1259-1659mm--antracit/",
+        "code": "KÓD: 1001004202",
+        "availability": "Centrálny\nsklad (12 ks)",
+        "price": "477,45 €\n \n \n \n \n / ks"
+      },
+      {
+        "name": "Potravinová skriňa, 6 košov, 450 mm, biele dna",
+        "url": "https://www.timberstore.sk/potravinova-skrina--6-kosov--450-mm--biele-dna/",
+        "code": "KÓD: 1001990000",
+        "availability": "Centrálny\nsklad (2 ks)",
+        "price": "241,99 €\n \n \n \n \n / ks"
+      }
+    ],
+    "heading": []
+  },
+  {
+    "query": "šuflíkové pojazdy",
+    "engine": "Shoptet fallback; Luigi script blocked",
+    "products": [],
+    "heading": []
+  }
+]
