@@ -11,6 +11,7 @@ import socket
 import time
 import os
 import tempfile
+import re
 from http.client import HTTPException
 from urllib.error import HTTPError, URLError
 from datetime import datetime, timezone
@@ -48,6 +49,19 @@ class RefreshError(Exception):
     """Safe diagnostic message, without response bodies, headers or cookies."""
 
 
+class SourceUnavailable(RefreshError):
+    """Temporary source refusal/outage; the workflow may retain validated data."""
+
+
+def record_http_diagnostic(status, headers, attempt):
+    # Do not log bodies, cookies, arbitrary headers or exception messages.
+    print(f'Source attempt={attempt} HTTP status={status} checkedAt={datetime.now(timezone.utc).isoformat()}')
+    for name in ('x-request-id', 'cf-ray'):
+        value = headers.get(name, '') if headers else ''
+        if re.fullmatch(r'[A-Za-z0-9_:.-]{1,100}', value):
+            print(f'Source {name}={value}')
+
+
 def fetch_html():
     preference = json.dumps({'consent': 'analytics,personalisation', 'cookieId': secrets.token_hex(16)}, separators=(',', ':'))
     request = Request('https://www.timberstore.sk/?ts_feed=1', headers={'Cookie': f'CookiesConsent={preference}', 'User-Agent': 'TimberStore-gallery-refresh/1.0'})
@@ -55,13 +69,15 @@ def fetch_html():
         delay = 2 ** attempt
         try:
             with urlopen(request, timeout=30) as response:
-                print(f'Source attempt={attempt} HTTP status={response.status}')
+                record_http_diagnostic(response.status, response.headers, attempt)
                 return response.read().decode('utf-8')
         except HTTPError as error:
             status = error.code
             retry_after = error.headers.get('Retry-After', '') if error.headers else ''
+            record_http_diagnostic(status, error.headers, attempt)
             error.close()
-            print(f'Source attempt={attempt} HTTP status={status}')
+            if status == 403:
+                raise SourceUnavailable('HTTP 403; request refused; no retry') from None
             if status not in (408, 429, 500, 502, 503, 504):
                 raise RefreshError(f'HTTP {status}; request refused; no retry') from None
             reason = f'HTTP {status}'
@@ -72,7 +88,7 @@ def fetch_html():
                 except (TypeError, ValueError, OverflowError):
                     pass
                 if delay > 60:
-                    raise RefreshError(f'HTTP {status}; Retry-After exceeds retry window') from None
+                    raise SourceUnavailable(f'HTTP {status}; Retry-After exceeds retry window') from None
         except (TimeoutError, socket.timeout):
             reason = 'timeout'
         except (URLError, ConnectionError, HTTPException):
@@ -81,7 +97,7 @@ def fetch_html():
             raise RefreshError('invalid UTF-8 response') from None
         print(f'Source attempt={attempt} failure={reason}')
         if attempt == 3:
-            raise RefreshError(f'{reason}; exhausted 3 attempts')
+            raise SourceUnavailable(f'{reason}; exhausted 3 attempts')
         print(f'Retrying in {delay}s')
         time.sleep(delay)
 
@@ -113,14 +129,50 @@ def refresh(html, output):
     print(f'Updated {len(posts)} verified native posts')
 
 
+def check_saved_data(output):
+    data = json.loads(output.read_text(encoding='utf-8'))
+    if not isinstance(data, dict) or not isinstance(data.get('posts'), list) or not 6 <= len(data['posts']) <= 40:
+        raise RefreshError('saved gallery must contain 6 to 40 posts')
+    if not isinstance(data.get('updatedAt'), str):
+        raise RefreshError('invalid saved gallery timestamp')
+    stamp = datetime.fromisoformat(data['updatedAt'])
+    if stamp.tzinfo is None or stamp > datetime.now(timezone.utc):
+        raise RefreshError('invalid saved gallery timestamp')
+    seen = set()
+    for post in data['posts']:
+        if not isinstance(post, dict) or not all(isinstance(post.get(k), str) for k in ('url', 'image', 'alt')):
+            raise RefreshError('invalid saved post')
+        url, image = urlsplit(post['url']), urlsplit(post['image'])
+        if (url.scheme != 'https' or url.netloc != 'www.instagram.com'
+                or not re.fullmatch(r'/(p|reel)/[A-Za-z0-9_-]+/', url.path)
+                or url.query or url.fragment or post['url'] in seen
+                or image.scheme != 'https' or image.netloc != 'cdn.myshoptet.com'
+                or not image.path.startswith('/usr/www.timberstore.sk/user/system/instagram/')
+                or image.query or image.fragment):
+            raise RefreshError('invalid saved gallery URL or duplicate post')
+        seen.add(post['url'])
+    print(f'Validated {len(seen)} saved posts (content timestamp is not source health)')
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', type=Path)
+    parser.add_argument('--check', action='store_true', help='Validate saved fallback without contacting source')
     parser.add_argument('--output', type=Path, default=Path('data/instagram.json'))
     args = parser.parse_args()
     try:
+        if args.check:
+            check_saved_data(args.output)
+            return
         html = args.input.read_text(encoding='utf-8') if args.input else fetch_html()
         refresh(html, args.output)
+    except SourceUnavailable as error:
+        # Mark only expected upstream unavailability, never parser/filesystem bugs.
+        target = os.environ.get('GITHUB_OUTPUT')
+        if target:
+            with open(target, 'a', encoding='utf-8') as handle:
+                handle.write('source_unavailable=true\n')
+        raise SystemExit(f'Refresh failed: {error}; keeping previous data.') from None
     except RefreshError as error:
         raise SystemExit(f'Refresh failed: {error}; keeping previous data.') from None
     except (OSError, ValueError):
