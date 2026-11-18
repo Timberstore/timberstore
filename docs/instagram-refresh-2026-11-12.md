@@ -1,5 +1,10 @@
 # Instagram gallery refresh — 2026-11-12
 
+Follow-up: [18 November review and current evidence](instagram-refresh-review-2026-11-18.md).
+PR #72 was still open at that review; the daily schedule below was not active on
+main. The follow-up includes the two new refusals, 29 reviewed job logs, live
+administration checks and a newly validated merge rehearsal against current main.
+
 ## Final proposal: preserve automatic acquisition
 
 PR #72 retains the existing Shoptet reader, native Instagram permalinks, image
