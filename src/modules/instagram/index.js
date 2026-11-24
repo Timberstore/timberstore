@@ -1,56 +1,59 @@
 import { addContactIcon } from '../../core/contact-icons.js';
 import { SEL } from '../../core/selectors.js';
 import { setupHorizontalSlider } from '../../core/horizontal-slider.js';
-import { INSTAGRAM_FEED } from '../../core/contacts.js';
+import { INSTAGRAM_FEEDS, SOCIALS } from '../../core/contacts.js';
 import { TEXTS } from '../../core/texts.js';
 
 let discoveryObserver;
 let feedRequest;
+let publicItems = [];
 
-function loadPublicFeed(block) {
-  if (feedRequest) return;
-  feedRequest = fetch(INSTAGRAM_FEED, { credentials: 'omit', referrerPolicy: 'no-referrer' })
-    .then((response) => {
-      if (!response.ok) throw new Error('Feed unavailable');
-      return response.json();
-    })
-    .then((data) => {
-      if (!block.isConnected || document.querySelector(SEL.instagramWidget)) return;
-      const posts = data.posts?.filter((post) => {
-        try {
-          const link = new URL(post.url);
-          const image = new URL(post.image);
-          return link.origin === 'https://www.instagram.com' && /^\/(p|reel)\//.test(link.pathname)
-            && image.origin === 'https://cdn.myshoptet.com'
-            && image.pathname.startsWith('/usr/www.timberstore.sk/user/system/instagram/');
-        } catch { return false; }
-      });
-      if (!posts || posts.length < 6) return;
-      const widget = document.createElement('div');
-      widget.className = 'instagram-widget';
-      for (const post of posts.slice(0, 40)) {
-        const item = document.createElement('div');
-        item.className = 'instagram-widget-item';
-        const link = document.createElement('a');
-        link.href = post.url;
-        link.target = '_blank';
-        link.rel = 'noopener noreferrer';
-        const image = document.createElement('img');
-        image.loading = 'lazy';
-        image.decoding = 'async';
-        image.width = image.height = 400;
-        image.alt = typeof post.alt === 'string' ? post.alt : '';
-        image.src = post.image;
-        link.append(image);
-        item.append(link);
-        widget.append(item);
-      }
-      block.append(widget);
-      block.dataset.tsFeedSource = 'public-data';
-      refresh();
-    })
-    .catch(() => { /* Keep the existing profile link and honest unavailable message. */ });
+async function loadItem(post, feedUrl) {
+  try {
+    const link = document.createElement('a');
+    link.href = post.url;
+    if (link.origin !== 'https://www.instagram.com' || !/^\/(p|reel)\/[\w-]+\/?$/.test(link.pathname)) return;
+    const image = new URL(post.image, feedUrl);
+    if (!/^instagram-media\/[a-f0-9]{64}\.jpg$/.test(post.image) &&
+      !image.href.startsWith('https://cdn.myshoptet.com/usr/www.timberstore.sk/user/system/instagram/')) return;
+    const thumbnail = new Image(400, 400);
+    thumbnail.alt = typeof post.alt === 'string' ? post.alt : '';
+    thumbnail.referrerPolicy = 'no-referrer';
+    thumbnail.src = image.href;
+    await thumbnail.decode();
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.append(thumbnail);
+    const item = document.createElement('div');
+    item.className = 'instagram-widget-item';
+    item.append(link);
+    return item;
+  } catch { /* Reject malformed entries and broken images. */ }
 }
+
+async function loadPublicFeed() {
+  for (const url of INSTAGRAM_FEEDS) {
+    const controller = new AbortController();
+    let timeout;
+    try {
+      const deadline = new Promise((resolve) => {
+        timeout = setTimeout(() => { controller.abort(); resolve([]); }, 6000);
+      });
+      const response = await fetch(url, {
+        signal: controller.signal, credentials: 'omit', referrerPolicy: 'no-referrer',
+      });
+      if (!response.ok) continue;
+      const { posts } = await response.json();
+      if (!Array.isArray(posts) || posts.length < 6) continue;
+      const checked = Promise.all(posts.slice(0, 40).map((post) => loadItem(post, url)));
+      const valid = (await Promise.race([checked, deadline])).filter(Boolean);
+      if (valid.length >= 6) return valid;
+    } catch { /* Try the other CDN. */ }
+    finally { clearTimeout(timeout); }
+  }
+  return [];
+}
+
 const placements = new WeakMap();
 const stacked = window.matchMedia('(max-width: 767px)');
 
@@ -77,34 +80,23 @@ function placeSection(block) {
 }
 
 function sync(block) {
-  let heading = block.querySelector('.ts-instagram__heading');
   const wrapper = block.querySelector(SEL.instagramFollow);
-  let follow = wrapper?.matches('a[href]') ? wrapper : wrapper?.querySelector('a[href]');
-  if (!heading && !follow) {
-    const source = document.querySelector(SEL.socialInstagram);
-    if (source) {
-      follow = source.cloneNode(false);
-      follow.removeAttribute('data-testid');
-      follow.className = 'instagram-follow-btn';
-    }
-  }
-  if (!heading && follow) {
-    heading = document.createElement('h2');
+  if (!wrapper?.matches('.ts-instagram__profile')) wrapper?.remove();
+  if (!block.querySelector('.ts-instagram__heading')) {
+    const heading = document.createElement('h2');
     heading.className = 'ts-instagram__heading';
-    // Reuse the configured official profile destination; do not invent a URL.
-    follow.classList.add('instagram-follow-btn', 'ts-instagram__profile');
-    follow.classList.remove('btn', 'btn-primary', 'btn-secondary');
+    const follow = document.createElement('a');
+    follow.href = SOCIALS.instagram;
+    follow.target = '_blank';
+    follow.className = 'instagram-follow-btn ts-instagram__profile';
     follow.textContent = TEXTS.instagram.title;
     follow.rel = 'noopener noreferrer';
     addContactIcon(follow, 'instagram');
     heading.append(follow);
     block.prepend(heading);
   }
-  if (wrapper && wrapper !== follow && !heading?.contains(wrapper)) wrapper.remove();
-  if (heading && follow && !heading.contains(follow)) follow.remove();
   const items = [...block.querySelectorAll(SEL.instagramItem)];
   for (const item of items) {
-    item.hidden = false;
     // Keep native media URLs and post permalinks, including their feed order.
     const img = item.querySelector('img');
     if (img) {
@@ -117,6 +109,7 @@ function sync(block) {
       img.decoding = 'async';
       img.width = 400;
       img.height = 400;
+      if (img.complete && img.naturalWidth === 0 && img.getAttribute('src')) item.remove();
     }
   }
   let empty = block.querySelector('.ts-instagram__empty');
@@ -126,8 +119,9 @@ function sync(block) {
     empty.textContent = TEXTS.instagram.unavailable;
     block.append(empty);
   }
-  empty.hidden = items.length > 0;
-  block.dataset.tsFeedCount = String(items.length);
+  const count = block.querySelectorAll(SEL.instagramItem).length;
+  empty.hidden = count > 0;
+  block.dataset.tsFeedCount = String(count);
   setupHorizontalSlider(block, {
     widgetSelector: SEL.instagramWidget,
     itemSelector: SEL.instagramItem,
@@ -142,32 +136,40 @@ function sync(block) {
 
 function refresh() {
   const nativeSlot = document.querySelector(SEL.instagramNativeSlot);
-  if (nativeSlot && !nativeSlot.querySelector(SEL.instagramWidget)) nativeSlot.hidden = true;
-  let blocks = [...document.querySelectorAll(SEL.instagramBlock)];
-  const real = blocks.filter((block) => !block.classList.contains('ts-instagram--fallback'));
-  if (real.length) {
-    for (const block of blocks) {
-      if (block.classList.contains('ts-instagram--fallback')) {
-        placements.get(block)?.remove();
-        placements.delete(block);
-        block.remove();
-      }
-    }
-    blocks = real;
-  } else if (!blocks.length) {
-    const placement = document.querySelector(SEL.instagramPlacement);
-    if (placement) {
-      const fallback = document.createElement('div');
-      fallback.className = 'content-wrapper instagram-block ts-instagram--fallback';
-      placement.append(fallback);
-      blocks = [fallback];
-    }
+  const blocks = [...document.querySelectorAll(SEL.instagramBlock)];
+  const native = blocks.filter((block) => !block.classList.contains('ts-instagram--fallback'));
+  let fallback = blocks.find((block) => block.classList.contains('ts-instagram--fallback'));
+  const placement = document.querySelector(SEL.instagramPlacement);
+  if (!fallback && placement) {
+    fallback = document.createElement('div');
+    fallback.className = 'content-wrapper instagram-block ts-instagram--fallback';
+    placement.append(fallback);
   }
-  for (const block of blocks) {
-    placeSection(block);
-    sync(block);
-    if (!document.querySelector(SEL.instagramWidget)) loadPublicFeed(block);
+  if (fallback && publicItems.length && !fallback.querySelector(SEL.instagramWidget)) {
+    const widget = document.createElement('div');
+    widget.className = 'instagram-widget';
+    widget.append(...publicItems);
+    fallback.append(widget);
+    fallback.dataset.tsFeedSource = 'public-data';
   }
+
+  const visible = (!publicItems.length && native.find((block) => block.querySelector(SEL.instagramItem))) || fallback;
+  for (const block of [...native, fallback].filter(Boolean)) block.hidden = block !== visible;
+  if (nativeSlot) nativeSlot.hidden = !nativeSlot.contains(visible);
+  if (visible) {
+    placeSection(visible);
+    sync(visible);
+  }
+}
+
+function requestFeed() {
+  if (feedRequest || publicItems.length) return;
+  feedRequest = loadPublicFeed().then((items) => {
+    publicItems = items;
+    refresh();
+  }).finally(() => {
+    feedRequest = null;
+  });
 }
 
 export default {
@@ -176,12 +178,18 @@ export default {
   init() {
     refresh();
     if (discoveryObserver) return;
+    requestFeed();
+    window.addEventListener('online', requestFeed);
+    document.body.addEventListener('error', (event) => {
+      const image = event.target;
+      if (!(image instanceof HTMLImageElement) || !image.matches(SEL.instagramImage)) return;
+      image.closest(SEL.instagramItem).remove();
+    }, true);
     stacked.addEventListener('change', refresh);
     window.addEventListener('load', refresh, { once: true });
-    window.requestAnimationFrame(refresh);
     // Apollo moves the widget out of the footer. Observe relevant additions
     // anywhere on the page so consent/delayed insertion still works. Ignore
-    // unrelated mutations; one observer and no polling or extra feed requests.
+    // unrelated mutations and keep the public gallery during native updates.
     discoveryObserver = new MutationObserver((records) => {
       const relevant = records.some((record) =>
         record.type === 'attributes'

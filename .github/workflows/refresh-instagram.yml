@@ -1,32 +1,70 @@
 name: Refresh public Instagram gallery data
 on:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 3 * * *'
+      timezone: 'Europe/Bratislava'
   workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/refresh-instagram.yml'
+      - 'scripts/refresh-instagram.py'
+      - 'tests/test_refresh_instagram.py'
+      - 'tests/test_instagram_browser.py'
+      - 'src/modules/instagram/**'
+      - 'src/core/contacts.js'
+      - 'src/styles/overrides/instagram.css'
 permissions:
-  contents: write
+  contents: read
 concurrency:
-  group: instagram-data-refresh
+  group: instagram-data-refresh-${{ github.ref }}
 jobs:
-  refresh:
+  test:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
-        with:
-          ref: ${{ github.ref }}
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Test feed refresh safety
-        run: python -m unittest discover -s tests -p 'test_refresh_instagram.py'
-      - run: python scripts/refresh-instagram.py
-      - name: Publish changed data only
-        if: github.ref == 'refs/heads/main'
+      - run: pip install Pillow==12.3.0
+      - run: python -m unittest discover -s tests -p 'test_refresh_instagram.py'
+      - if: github.event_name == 'pull_request'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - if: github.event_name == 'pull_request'
+        run: npm ci && npm run lint && npm run build
+      - if: github.event_name == 'pull_request'
         run: |
-          if ! git diff --quiet -- data/instagram.json; then
+          pip install playwright==1.62.0
+          python -m playwright install --with-deps chromium
+          python -m unittest discover -s tests -p 'test_instagram_browser.py'
+  refresh:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: test
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow==12.3.0
+      - name: Acquire and validate gallery from Meta
+        env:
+          META_INSTAGRAM_TOKEN: ${{ secrets.META_INSTAGRAM_TOKEN }}
+          META_INSTAGRAM_API_VERSION: ${{ vars.META_INSTAGRAM_API_VERSION }}
+        run: python scripts/refresh-instagram.py
+      - name: Publish images and manifest together
+        run: |
+          git add data/instagram.json
+          if [ -d data/instagram-media ]; then
+            git add data/instagram-media
+          fi
+          if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add data/instagram.json
             git commit -m 'Refresh verified Instagram gallery data'
             git push origin HEAD:main
           fi
