@@ -99,6 +99,9 @@ class InstagramBrowserTests(unittest.TestCase):
         self.expect_photos(self.open_gallery(manifest(), missing=(0, 2)), 6)
         self.expect_photos(self.open_gallery(manifest(6), manifest(8), missing=(0, 1)), 6)
 
+    def test_fewer_than_six_saved_photos_remain_visible(self):
+        self.expect_photos(self.open_gallery(manifest(3)), 3)
+
     def test_delayed_native_widget_and_replaced_fallback_do_not_cancel_public_data(self):
         page = self.open_gallery(manifest(), delay=True)
         self.expect_photos(page, 8)

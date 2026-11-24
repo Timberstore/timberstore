@@ -32,6 +32,7 @@ async function loadItem(post, feedUrl) {
 }
 
 async function loadPublicFeed() {
+  let best = [];
   for (const url of INSTAGRAM_FEEDS) {
     const controller = new AbortController();
     let timeout;
@@ -44,14 +45,15 @@ async function loadPublicFeed() {
       });
       if (!response.ok) continue;
       const { posts } = await response.json();
-      if (!Array.isArray(posts) || posts.length < 6) continue;
+      if (!Array.isArray(posts)) continue;
       const checked = Promise.all(posts.slice(0, 40).map((post) => loadItem(post, url)));
       const valid = (await Promise.race([checked, deadline])).filter(Boolean);
       if (valid.length >= 6) return valid;
+      if (valid.length > best.length) best = valid;
     } catch { /* Try the other CDN. */ }
     finally { clearTimeout(timeout); }
   }
-  return [];
+  return best;
 }
 
 const placements = new WeakMap();
