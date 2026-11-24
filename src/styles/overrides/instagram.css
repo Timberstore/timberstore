@@ -221,3 +221,8 @@
     max-width: none;
   }
 }
+
+.instagram-block[hidden],
+.custom-footer__instagram[hidden] {
+  display: none !important;
+}
